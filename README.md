@@ -18,6 +18,8 @@ the page as Mantle, Lumen and Ogee), and a graphics card with about 24 GB of mem
 
 **Demonstration.** The film that was submitted is `docs/demo/ClinicaLANTERN-demonstration-film.mp4` (2 min 42 s), with a longer cut of the same recording beside it (3 min 3 s). `docs/demo/ui-after-the-recorded-test.webp` is the home page after the recorded run, and `docs/demo/GP-letter-after-the-recorded-test.pdf` is the GP letter of that run after the pharmacist accepted its findings (45 pages, 67 points, fictional patient). The submitted deck, with the signed register of the 583 criteria and the research paper, is `docs/submission/ClinicaLANTERN-Solution-Deck.pdf`.
 
+**Earlier work.** `docs/history/ClinicaLANTERN-static-app-introduction-2026-09-10.pdf` is the introduction, written for pharmacy owners, to the earlier static ClinicaLANTERN application of September 2026: twenty-five fixed rules and no AI at runtime. It is the entrant's own earlier work and the start of the development that led to this build. The author's e-mail address and telephone number are left out of this copy.
+
 **Technical documentation.** `docs\TECHNICAL_DOCUMENTATION.md` is the organiser's document.
 
 - System architecture: how the page, server, models, criteria and state file connect.
