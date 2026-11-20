@@ -45,6 +45,6 @@
   "cannot_be_seen": "Tests done elsewhere and not recorded here, thyroid symptoms, and whether the next test is already booked.",
   "ask_the_gp": "Could you confirm the date of the latest thyroid test and review whether another is due?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

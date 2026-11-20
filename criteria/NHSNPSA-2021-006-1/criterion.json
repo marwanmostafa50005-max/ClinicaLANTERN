@@ -89,6 +89,6 @@
   "cannot_be_seen": "Whether the patient has a prosthetic mechanical heart valve when no condition is recorded, whether a heart valve replacement is mechanical or bioprosthetic (tissue), and any specialist cardiology anticoagulation plan held outside the pharmacy.",
   "ask_the_gp": "Could you confirm the valve type and current anticoagulant if either is unclear? If a DOAC is still being used with a mechanical valve, could you urgently review anticoagulation, including whether transition to warfarin is required?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

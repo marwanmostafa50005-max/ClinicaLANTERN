@@ -289,6 +289,6 @@
   "cannot_be_seen": "Whether the symptoms are severe, whether other treatments without medicines were tried and failed, and whether the dose has been reviewed. Also antipsychotics supplied by a hospital or another pharmacy, and whether the antipsychotic is really for another illness such as schizophrenia.",
   "ask_the_gp": "Whether the antipsychotic is still needed, and whether the dose can be reduced slowly.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

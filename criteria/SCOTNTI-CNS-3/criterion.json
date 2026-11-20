@@ -518,6 +518,6 @@
   "cannot_be_seen": "Supervised opioid-dependence therapy (such as methadone or buprenorphine program dosing) may sit outside standard community PBS dispensing records and still adds CNS sedation and overdose risk. Supply dates do not prove that all medicines are still being taken together, and PRN use or sequential switches may be unclear. Reasons for treatment, alcohol, non-prescribed sedatives, and supplies from another pharmacy or hospital are also not shown.",
   "ask_the_gp": "Whether the cumulative sedation, falls, breathing and overdose risk from these central nervous system medicine groups should be reviewed, including whether each medicine is still needed and how any reduction could be made safely.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

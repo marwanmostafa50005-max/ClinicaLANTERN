@@ -576,6 +576,6 @@
   "cannot_be_seen": "Medicines bought without a prescription or supplied by another pharmacy or hospital may be missing, including aspirin, NSAIDs and stomach protection. The supplies alone do not show what was taken or a history of ulcers or bleeding.",
   "ask_the_gp": "A review of whether both medicines are still needed and whether stomach protection is advisable.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

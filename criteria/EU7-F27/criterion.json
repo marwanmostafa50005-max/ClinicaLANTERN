@@ -55,6 +55,6 @@
   "cannot_be_seen": "Why the medicine was prescribed, for example blood pressure, hot flushes or pain. Also the patient's blood pressure lying and standing, pulse rate and kidney function, whether the patient has had dizziness, fainting, falls, drowsiness, low mood or confusion, and supplies from a hospital or another pharmacy.",
   "ask_the_gp": "Whether this medicine is still the best choice at the patient's age, and whether the patient has had dizziness on standing, a slow pulse, fainting, drowsiness, low mood or confusion.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

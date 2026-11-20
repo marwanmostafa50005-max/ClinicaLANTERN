@@ -197,6 +197,6 @@
   "cannot_be_seen": "Potassium results taken outside this pharmacy, whether the result is from a haemolysed sample, whether the dose has already changed, and diet or other medicines that raise potassium.",
   "ask_the_gp": "Could you review the patient the same day if they are taking, starting or restarting the ACE inhibitor or ARB and their current potassium is above 5.5 mmol/L or they have symptoms suggesting high potassium? Could you use the local emergency pathway immediately if the level or symptoms warrant it? If the only concern is an old, recovered or missing result, could you check the latest potassium value and its test date at routine review?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

@@ -361,8 +361,8 @@
   "cannot_be_seen": "Medicines supplied elsewhere or bought over the counter, the full published list of medicines with a risk of torsades de pointes, blood potassium and magnesium, ECG results, heart conditions, and the doses actually taken. Ask about dizziness, fainting or palpitations. If the tricyclic directions are unclear, ask what dose is taken each day.",
   "ask_the_gp": "A review of whether both medicines are needed together, and a check of an ECG and blood potassium and magnesium.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" },
   "needs_facts": [
     {
       "kind": "observation",

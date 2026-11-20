@@ -252,6 +252,6 @@
   "cannot_be_seen": "Why the steroid was started, whether a disease-modifying medicine is given by a specialist clinic or hospital, and how the person actually takes the steroid. Also medicines supplied by another pharmacy.",
   "ask_the_gp": "Whether the steroid is the only treatment for the rheumatoid arthritis, and whether a disease-modifying medicine or a lower steroid dose is suitable.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

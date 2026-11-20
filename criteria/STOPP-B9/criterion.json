@@ -110,6 +110,6 @@
   "cannot_be_seen": "The most recent blood test if it is not in the record and a gout history that was never entered. Also whether the diuretic is still taken.",
   "ask_the_gp": "Could you review whether the thiazide is still suitable? During ongoing treatment, could you review the patient the same day for current potassium below 3.0 mmol/L, sodium below 130 mmol/L or symptoms suggesting a serious electrolyte disturbance? For raised corrected calcium, the pharmacist assesses urgency from the value and the clinical picture and requests same-day review if the result is dangerous. An old, recovered or missing result or a history of gout alone can be reviewed routinely if there is no acute concern.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

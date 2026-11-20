@@ -143,6 +143,6 @@
   "cannot_be_seen": "The latest haemoglobin, eGFR and iron results if they are not in the record, whether the person is on dialysis, whether the kidney team gives the injection in a hospital or clinic, and whether one was tried and stopped.",
   "ask_the_gp": "Whether treatment of the anaemia with an erythropoietin analogue should be reviewed, after the iron and vitamin results are checked.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

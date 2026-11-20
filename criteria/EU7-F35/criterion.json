@@ -44,6 +44,6 @@
   "cannot_be_seen": "Why the medicine was prescribed (for example high blood pressure, angina or Raynaud's), the person's blood pressure on standing, and whether they have had dizziness or falls.",
   "ask_the_gp": "Whether another blood pressure or angina medicine could replace it, taking into account the reason it was started and the person's blood pressure on standing.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

@@ -270,6 +270,6 @@
   "cannot_be_seen": "A silent record cannot establish psychosis status at supply. Supply alone cannot establish the indication, symptoms or benefit.",
   "ask_the_gp": "Could you confirm the dementia diagnosis and psychosis status at supply and review the indication and intended duration of this antipsychotic?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

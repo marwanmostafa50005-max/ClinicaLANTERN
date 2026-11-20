@@ -76,6 +76,6 @@
   "cannot_be_seen": "Whether the person feels dizzy or faints, the current blood pressure, fluid intake, and other medicines that lower blood pressure supplied elsewhere. Blood pressure lines may be missing from a pharmacy record.",
   "ask_the_gp": "A review of the blood pressure and of whether the SGLT2 inhibitor is still suitable.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

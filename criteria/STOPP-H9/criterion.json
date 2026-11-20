@@ -164,6 +164,6 @@
   "cannot_be_seen": "Why the opioid was started, because it may be for cancer pain or another pain. Also how often it is really taken, any plan to reduce it, and medicines supplied by another pharmacy.",
   "ask_the_gp": "Whether the opioid is still needed for the osteoarthritis pain, and whether it can be reduced or replaced.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

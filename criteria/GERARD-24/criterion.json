@@ -96,8 +96,8 @@
   "cannot_be_seen": "Dispensing dates alone cannot distinguish continued use from a recent switch. The study did not include dual GIP/GLP-1 agonists in this item. If diabetes type is unknown, ask about the diagnosis. If overlap is unclear, ask about use during the period being reviewed.",
   "ask_the_gp": "Could you confirm the diabetes type and whether both medicines are intended to continue?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "condition",

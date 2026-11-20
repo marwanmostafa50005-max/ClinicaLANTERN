@@ -73,8 +73,8 @@
   "cannot_be_seen": "Mitral valve stenosis severity and atrial fibrillation may not be recorded. The record may also omit cardiology advice, supplies from another pharmacy and the patient's current anticoagulation plan.",
   "ask_the_gp": "Could you review the DOAC today and confirm its indication and the severity of any mitral stenosis? Warfarin is preferred for atrial fibrillation with moderate or severe mitral stenosis. Could you advise how to maintain anticoagulation safely?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "condition",

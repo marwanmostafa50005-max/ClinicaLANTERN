@@ -158,6 +158,6 @@
   "cannot_be_seen": "Whether metformin is unsuitable (for example poor kidney function, liver disease or heavy alcohol use), the person's mental illness diagnosis, diet and activity, and weight measured on different scales.",
   "ask_the_gp": "If early weight gain during the first month of clozapine or olanzapine treatment is confirmed, could we review whether adding metformin is suitable?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

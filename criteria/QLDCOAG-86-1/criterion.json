@@ -38,8 +38,8 @@
   "cannot_be_seen": "Dose administration aid use, removal from original packaging, storage conditions, and supplies from another pharmacy may not be recorded.",
   "ask_the_gp": "Could you review how the current dabigatran capsules are packed with the patient and packing pharmacy, including whether they stay in their original moisture-protective packaging until use?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "observation",

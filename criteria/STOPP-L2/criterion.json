@@ -235,6 +235,6 @@
   "cannot_be_seen": "Laxatives bought without a prescription, which is how many laxatives are obtained. Also whether the opioid is taken every day, whether the patient has constipation, and any laxative supplied by another pharmacy or a hospital.",
   "ask_the_gp": "Whether this patient is using a laxative while the regular opioid continues, and the patient's bowel function.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

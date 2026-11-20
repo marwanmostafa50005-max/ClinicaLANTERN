@@ -37,8 +37,8 @@
   "cannot_be_seen": "The brand alone does not identify the route, and a bedtime dose alone does not identify the indication.",
   "ask_the_gp": "Could you confirm the indication and review the nasal route given the risk of low blood sodium?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "condition",

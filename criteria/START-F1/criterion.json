@@ -177,6 +177,6 @@
   "cannot_be_seen": "Why a proton pump inhibitor was stopped, such as low magnesium, fractures, repeated infections or a trial off the medicine. Also how severe the reflux really is, and results from a gastroscopy done by a specialist. Ask whether the person buys a proton pump inhibitor over the counter or receives it from another pharmacy, as either supply can be missing here.",
   "ask_the_gp": "Whether a proton pump inhibitor is needed for this person's reflux or stricture, and at what dose and for how long.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

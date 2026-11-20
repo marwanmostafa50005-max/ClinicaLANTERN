@@ -185,6 +185,6 @@
   "cannot_be_seen": "How active and disabling the arthritis is when no line says so. Also DMARDs supplied by a hospital or rheumatology clinic, a reason a DMARD was stopped such as a side effect, and whether the person is near the end of life.",
   "ask_the_gp": "A review of whether a disease-modifying anti-rheumatic drug is needed, with the current disease activity.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

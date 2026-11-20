@@ -329,6 +329,6 @@
   "cannot_be_seen": "Medicines bought without a prescription that add to the anticholinergic load, such as sedating antihistamines, travel sickness tablets and some cold and flu products. Also whether both medicines are still being taken, the reason for each one, and whether the patient has symptoms such as confusion, dry mouth, constipation or trouble passing urine.",
   "ask_the_gp": "The combined anticholinergic load of these medicines, and whether each one is still needed.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

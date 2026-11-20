@@ -40,6 +40,6 @@
   "cannot_be_seen": "Ask the patient whether methadone is for pain or opioid dependence and which doctor or service manages the dose. Kidney function and heart tracing results may also be missing. Doses given at a clinic are not shown.",
   "ask_the_gp": "A review of the methadone dose and plan, with the prescriber or treatment service if methadone is for dependence.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

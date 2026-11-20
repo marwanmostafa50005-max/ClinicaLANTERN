@@ -61,6 +61,6 @@
   "cannot_be_seen": "Why the medicine was started, whether it helps the person's leg pain or memory, how often it is really taken, and whether the person has had falls or dizziness on standing.",
   "ask_the_gp": "Whether the medicine is still needed and whether it can be reviewed or stopped, taking into account the person's blood pressure on standing and any falls.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

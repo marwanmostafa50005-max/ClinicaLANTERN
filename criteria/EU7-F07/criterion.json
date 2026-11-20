@@ -40,6 +40,6 @@
   "cannot_be_seen": "Unless relevant condition or observation lines are recorded, why the medicine is used and whether the patient is receiving palliative care, where the source says it may be appropriate. The record also does not show actual adherence, unrecorded confusion, drowsiness, blurred vision, constipation or trouble passing urine, or travel sickness tablets bought without a prescription.",
   "ask_the_gp": "Whether this medicine is still needed at the patient's age, whether it is part of palliative care, and whether the patient has had any confusion or drowsiness.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

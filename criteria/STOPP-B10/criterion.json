@@ -84,6 +84,6 @@
   "cannot_be_seen": "Why the water tablet was prescribed. Furosemide is often used for heart failure or swelling, which this criterion does not cover. Also whether the person has bladder leakage that is not recorded.",
   "ask_the_gp": "A review of whether the loop diuretic is the best choice for the blood pressure, given any bladder leakage.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

@@ -166,6 +166,6 @@
   "cannot_be_seen": "Whether the person has ever had GAVE if the record holds no line about it, and why the medicine was started. Also gastroscopy results, anaemia or iron deficiency not recorded here, and medicines bought without a prescription such as aspirin.",
   "ask_the_gp": "Whether the person has a history of GAVE, and whether the antiplatelet or anticoagulant is still needed and safe to continue.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

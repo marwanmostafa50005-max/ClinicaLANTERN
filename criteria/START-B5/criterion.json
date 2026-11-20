@@ -256,6 +256,6 @@
   "cannot_be_seen": "The true ejection fraction, past ACE inhibitor cough or swelling, kidney function and potassium, and whether an angiotensin receptor blocker or sacubitril with valsartan is used instead. Also heart failure not on the record.",
   "ask_the_gp": "Whether an ACE inhibitor should be started, or the reason it is not suitable.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

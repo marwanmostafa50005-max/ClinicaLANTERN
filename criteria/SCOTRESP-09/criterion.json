@@ -84,8 +84,8 @@
   "cannot_be_seen": "The number of devices used can vary with device size, directions and use for both maintenance and relief. Supply alone cannot show the dose actually taken, adherence or excessive use. Ask how the inhaler is actually used, whether it serves for both maintenance and relief, and how many spare devices the patient keeps.",
   "ask_the_gp": "Could we review the number of devices supplied against their size, the prescribed maintenance and reliever doses, and the patient's action plan?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "count_supplies": {
     "group": "A",
     "months": 12,

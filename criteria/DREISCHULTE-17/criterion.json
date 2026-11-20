@@ -488,6 +488,6 @@
   "cannot_be_seen": "Medicines obtained elsewhere or bought without a prescription are missing from this record. The supplies cannot show which doses the person took or how the medicines affected kidney function.",
   "ask_the_gp": "Could you review the need for the oral NSAID, check for supplies from other sources and review the latest kidney function?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

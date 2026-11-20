@@ -165,6 +165,6 @@
   "cannot_be_seen": "The pain, its severity and its cause are not in a dispensing history unless a condition line is present. Whether paracetamol, anti-inflammatory medicines or weaker opioids have been tried and failed, or are unsuitable, and what the person wants. Ask which pain medicines have been tried, including paracetamol, anti-inflammatory medicines and weaker opioids, and whether they helped or were unsuitable. Ask whether a hospital or another pharmacy supplies a stronger opioid for this pain.",
   "ask_the_gp": "A review of the pain and its treatment so far, and whether a stronger opioid is suitable.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

@@ -41,6 +41,6 @@
   "cannot_be_seen": "The record may omit non-prescription doses, actual administration and the child's condition at the time.",
   "ask_the_gp": "Could you review the loperamide supply in light of the child's age and the cause of the diarrhoea?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

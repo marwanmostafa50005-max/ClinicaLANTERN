@@ -65,6 +65,6 @@
   "cannot_be_seen": "S3 pharmacist-only over-the-counter salbutamol inhalers are often absent from prescription records, so true SABA use may be higher than shown. Standard PBS supplies often dispense 2 inhaler devices at once so a patient can keep a spare inhaler at work, school or home, meaning supplied devices do not prove all doses were used. Dispensing records cannot distinguish asthma from COPD, and do not show inhaler technique or supplies from another pharmacy.",
   "ask_the_gp": "Whether asthma or COPD control, reliever use, inhaler technique and preventer treatment should be reviewed given the number of SABA inhaler devices supplied.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

@@ -56,6 +56,6 @@
   "cannot_be_seen": "Whether the tablets are taken every night or only now and then, why the sleeping tablet was started, and what else has been tried for sleep. Also any supply from another pharmacy, which is easy to miss because these are often private prescriptions.",
   "ask_the_gp": "Whether the sleeping tablet is still needed after more than four weeks of supply.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

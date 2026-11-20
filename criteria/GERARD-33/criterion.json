@@ -76,6 +76,6 @@
   "cannot_be_seen": "Weight alone does not establish BMI. The person's weight goals, previous treatment experience and access to alternatives may be missing.",
   "ask_the_gp": "Could you confirm the BMI during treatment and, if it was above 30 kg/m², review the medicine in light of the person's weight goals and access to alternatives?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

@@ -246,8 +246,8 @@
   "cannot_be_seen": "Dispensing alone cannot show whether the patient has established CKD or whether the ACE inhibitor and ARB are being taken together. Supplies close in time can also reflect a switch.",
   "ask_the_gp": "Ask whether the patient currently takes both medicines, including Entresto if supplied, or is changing between them, and whether they have chronic kidney disease. Could you review concurrent ACE inhibitor and ARB treatment if CKD and co-treatment are confirmed?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "condition",

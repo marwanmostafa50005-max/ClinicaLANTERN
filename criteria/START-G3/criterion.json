@@ -83,6 +83,6 @@
   "cannot_be_seen": "Whether the low reading was taken when the person was well and stable, and whether it was repeated. Also home oxygen supplied through a state scheme or an oxygen company, which often does not appear in pharmacy supplies, and a reason oxygen is declined or unsuitable.",
   "ask_the_gp": "A review of whether home oxygen has been assessed, given the low blood oxygen result.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

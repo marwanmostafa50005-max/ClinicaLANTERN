@@ -525,6 +525,6 @@
   "cannot_be_seen": "Kidney function results, blood pressure, current hydration status, vomiting or diarrhoea, actual use of as-needed NSAIDs, non-prescription oral NSAIDs, and medicines supplied from another pharmacy or hospital are not visible in a dispensing history.",
   "ask_the_gp": "Could you review the acute kidney injury risk, whether the systemic NSAID is still needed alongside metformin and the diuretic, ACE inhibitor or ARB, recent kidney function monitoring, and a sick-day plan for dehydrating illness?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

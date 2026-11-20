@@ -59,6 +59,6 @@
   "cannot_be_seen": "The reason the patch was prescribed, where it is worn, whether it was bought without a prescription or supplied elsewhere, and whether the person has both osteoarthritis and nerve pain.",
   "ask_the_gp": "A review of whether the lignocaine patch is helping the osteoarthritis pain and whether it should continue.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

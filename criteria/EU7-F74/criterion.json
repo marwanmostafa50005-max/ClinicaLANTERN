@@ -51,6 +51,6 @@
   "cannot_be_seen": "Use a recorded indication and any dated kidney result relevant to the supply. Dispensing alone cannot establish the intended dose adjustment or the dose taken.",
   "ask_the_gp": "Could you review why this medicine is being used and whether its dose suits the person’s indication and kidney function?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

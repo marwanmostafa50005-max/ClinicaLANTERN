@@ -123,6 +123,6 @@
   "cannot_be_seen": "Symptoms if their status is unrecorded, current kidney function if a recent eGFR result is missing, repeated genital or urinary infections, a history of ketoacidosis, and medicines supplied by a hospital or another pharmacy.",
   "ask_the_gp": "Whether an SGLT-2 inhibitor (dapagliflozin or empagliflozin) has been considered for this heart failure, and the reason if one is not suitable. Could you confirm the diagnosis and whether heart failure is causing symptoms if either detail is missing?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

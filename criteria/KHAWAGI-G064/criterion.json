@@ -58,6 +58,6 @@
   "cannot_be_seen": "Dispensing does not establish actual use, indication or a prescriber’s intent. Treatment and assessments elsewhere may be missing.",
   "ask_the_gp": "Could you confirm the patient's hypertension status if unclear and review blood pressure and pulse monitoring during atomoxetine treatment? If moderate or severe hypertension is documented and atomoxetine is still being used, could we review its suitability today?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

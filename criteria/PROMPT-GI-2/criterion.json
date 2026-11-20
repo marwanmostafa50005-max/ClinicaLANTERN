@@ -110,8 +110,8 @@
   "cannot_be_seen": "Why the PPI was prescribed (conditions such as Barrett oesophagus, a bleeding ulcer or Zollinger-Ellison syndrome can need a higher dose), how long the high dose was meant to run, and whether the dose was ever reduced.",
   "ask_the_gp": "A review of the PPI dose and whether it can be lowered or stopped.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "observation",

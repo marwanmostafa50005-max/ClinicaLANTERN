@@ -172,6 +172,6 @@
   "cannot_be_seen": "The heart rate when it is not recorded, whether the fast rate has other causes (such as thyroid disease, anaemia or caffeine), ECG results, and what the person actually takes.",
   "ask_the_gp": "A heart rate and rhythm check for this person, and a review of whether the medicine is still the right choice.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

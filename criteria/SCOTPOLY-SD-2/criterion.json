@@ -137,6 +137,6 @@
   "cannot_be_seen": "A supply shows when the diuretic was dispensed. The pharmacist may need to ask about current use, fluid loss, usual weight, breathlessness, worsening heart failure and any written sick-day plan. Kidney function and electrolytes can be checked when recorded.",
   "ask_the_gp": "If the patient is taking the diuretic and has a current dehydrating illness, could you review the risk of acute kidney injury and electrolyte disturbances and whether tests are needed? If a temporary pause of the diuretic is appropriate, when can the patient restart it after recovery and return to normal food and fluid intake? Could you advise on the sick-day plan and prompt review if symptoms persist or worsen, or if heart failure is decompensated?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

@@ -38,8 +38,8 @@
   "cannot_be_seen": "Supplies do not show which tablets the person actually takes or whether they can distinguish the strengths.",
   "ask_the_gp": "Could you confirm the indication, intended dose and schedule, and whether both tablet strengths are intended?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "condition",

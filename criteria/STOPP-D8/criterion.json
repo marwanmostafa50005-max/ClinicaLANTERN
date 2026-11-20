@@ -118,6 +118,6 @@
   "cannot_be_seen": "Why the benzodiazepine was started, and whether there is a reason for longer treatment such as epilepsy or palliative care. Also whether the tablets are taken every day or only now and then, whether a gradual dose reduction is already under way, and any supply from another pharmacy.",
   "ask_the_gp": "Whether the benzodiazepine is still needed after four weeks or more of supply, and the patient's risk of drowsiness, confusion and falls.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

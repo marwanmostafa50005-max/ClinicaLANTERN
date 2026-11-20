@@ -75,6 +75,6 @@
   "cannot_be_seen": "Earlier treatment, the original indication and baseline thyroid results may be absent from this record. Tests taken during treatment cannot establish the thyroid state before it began. Ask the patient why levothyroxine was started, including whether they had thyroid surgery. The GP record or original laboratory report is usually needed to verify pretreatment TSH and free T4.",
   "ask_the_gp": "Could you review the original reason for levothyroxine and the TSH and free T4 results before treatment?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

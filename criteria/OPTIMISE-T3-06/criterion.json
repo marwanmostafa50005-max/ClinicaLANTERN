@@ -58,8 +58,8 @@
   "cannot_be_seen": "Dispensing alone cannot establish severe mental illness, the reason for treatment or whether treatment continued after the last supply. Bone density results, falls, fractures, use of vitamin D or calcium and any previous fracture-risk assessment are known only if recorded or confirmed with the patient.",
   "ask_the_gp": "For the documented course, has fracture risk been assessed with a validated tool, taking any available bone density result into account, and is the management decision up to date?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "observation",

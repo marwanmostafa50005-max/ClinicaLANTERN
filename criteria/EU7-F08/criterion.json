@@ -45,6 +45,6 @@
   "cannot_be_seen": "Use documented swallowing difficulty, aspiration risk and bowel observations when available. If the record is silent, these remain unknown. Actual laxative use, the reason for choosing it, fluid and fibre intake and purchases outside the record may also be unknown.",
   "ask_the_gp": "Whether this laxative is still the best choice at the patient's age, and for liquid paraffin whether the patient has any trouble swallowing.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

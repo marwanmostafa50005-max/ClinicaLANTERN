@@ -36,6 +36,6 @@
   "cannot_be_seen": "Why ticlopidine was supplied, and whether it came from overseas or a compounding source. Also whether another antiplatelet is taken as well.",
   "ask_the_gp": "Whether ticlopidine can be changed to clopidogrel or another suitable antiplatelet.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

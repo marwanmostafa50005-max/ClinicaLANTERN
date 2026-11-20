@@ -184,6 +184,6 @@
   "cannot_be_seen": "Bleeds that happened before the record began or were never entered, how serious a past bleed was, and over-the-counter medicines that also raise bleeding risk.",
   "ask_the_gp": "A review of the bleeding risk from the SSRI and blood thinner together, and whether the SSRI or the blood thinner choice should change.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

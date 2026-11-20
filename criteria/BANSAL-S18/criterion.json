@@ -164,6 +164,6 @@
   "cannot_be_seen": "How much of the dose is really taken, whether the pain is cancer pain or end of life care, the reason for the liver problem, and the true severity of the impairment unless the record says it.",
   "ask_the_gp": "A review of whether the opioid is still the right choice, and the dose, for this patient's liver function.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

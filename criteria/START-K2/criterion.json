@@ -180,6 +180,6 @@
   "cannot_be_seen": "Laxatives bought without a prescription, diet and fluids, how well the bowels are working, and whether the opioid is really taken regularly. Also medicines supplied by a hospital or another pharmacy.",
   "ask_the_gp": "Could you review bowel function and laxative cover if the patient is still taking the opioid regularly? If that course has finished, the recorded gap relates to past treatment.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

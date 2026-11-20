@@ -422,6 +422,6 @@
   "cannot_be_seen": "Why each medicine was prescribed, stomach acid medicines or aspirin bought without a prescription, and any past ulcer or bleeding.",
   "ask_the_gp": "Whether the NSAID is needed with the aspirin or SSRI, and whether stomach protection should be added.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

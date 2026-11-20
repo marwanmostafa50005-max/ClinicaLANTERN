@@ -96,6 +96,6 @@
   "cannot_be_seen": "Blood tests done by another doctor or laboratory that are not in this record, whether the person started taking the tablets on the day they were supplied, and any dose change written only in the doctor's notes. The record may omit a diagnosis of severe mental illness, the population studied in OPTIMISE.",
   "ask_the_gp": "Whether a thyroid function test (TSH) has been done since levothyroxine was started, and whether the dose needs a review.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

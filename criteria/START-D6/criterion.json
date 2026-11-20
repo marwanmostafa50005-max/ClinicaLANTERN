@@ -96,6 +96,6 @@
   "cannot_be_seen": "How troublesome the restless legs are, the iron and kidney results if they are not in the record, whether a dopamine agonist was tried and stopped, and whether another medicine or treating low iron is being used instead.",
   "ask_the_gp": "Whether treatment of the restless legs should be reviewed, once iron stores and kidney function have been checked.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

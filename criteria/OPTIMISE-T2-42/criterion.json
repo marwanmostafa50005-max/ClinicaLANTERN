@@ -63,6 +63,6 @@
   "cannot_be_seen": "Dispensing lines alone do not show smoking status, the actual quit date, adverse effects or changes in mental state. Dose changes, monitoring plans and clozapine levels may be known only to the patient or another service unless recorded here.",
   "ask_the_gp": "If a new abrupt stop is confirmed, could we review the dose, adverse effects and mental state today if this is still outstanding? Is a clozapine level planned or available 3 to 5 days after the stop, even at the same dose, and after any related dose adjustment?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

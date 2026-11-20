@@ -77,6 +77,6 @@
   "cannot_be_seen": "Blood pressure readings taken outside the record, including home readings, and whether a high reading was a one-off. Also why the SNRI was chosen (for example for nerve pain) and whether the dose changed after the reading.",
   "ask_the_gp": "Could we review the current blood pressure, symptoms and suitability of the SNRI the same day if a qualifying systolic reading exceeds 180 mmHg? If only the measurement or its date is missing, could we confirm it at routine review?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

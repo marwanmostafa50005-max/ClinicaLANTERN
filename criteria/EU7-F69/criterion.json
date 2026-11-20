@@ -63,6 +63,6 @@
   "cannot_be_seen": "Why it was started, how often it is really taken, and how long it has been taken before the record starts. Also whether the tablet is really halved, and medicines supplied by another pharmacy.",
   "ask_the_gp": "A review of whether the sleeping tablet is still needed, whether a lower dose or a non-medicine approach is possible, and a check of falls risk.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

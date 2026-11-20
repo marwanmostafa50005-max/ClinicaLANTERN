@@ -309,6 +309,6 @@
   "cannot_be_seen": "Why the NSAID or colchicine was started, because colchicine is also used for other conditions. Also whether allopurinol was tried before the record began, any reaction to it, kidney function, and medicines supplied by another pharmacy.",
   "ask_the_gp": "Whether a xanthine-oxidase inhibitor such as allopurinol is suitable for long-term gout prevention in place of the current medicine.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

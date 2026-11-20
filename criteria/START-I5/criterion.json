@@ -212,6 +212,6 @@
   "cannot_be_seen": "The condition is not in a dispensing history unless a condition line is present. Whether the problem is persistent and distressing, whether the man wants treatment, current nitrate use, including nitrates obtained elsewhere or without a prescription, and blood pressure if no reading is recorded, and any treatment bought elsewhere or paid for privately.",
   "ask_the_gp": "A review of whether treatment for erectile dysfunction has been discussed and whether a PDE5 inhibitor is suitable, including a check of the heart medicines and blood pressure.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

@@ -65,6 +65,6 @@
   "cannot_be_seen": "A supply record does not show whether or when the clinic gave the injection. Kidney results obtained elsewhere, their units and their timing may be missing.",
   "ask_the_gp": "Could you confirm the current Cockcroft-Gault creatinine clearance in mL/min and review the next Invega Sustenna injection before it is given? Its use is not recommended below 50 mL/min. If the injection is due today, could we discuss it today?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

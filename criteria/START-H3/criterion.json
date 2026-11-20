@@ -144,6 +144,6 @@
   "cannot_be_seen": "Whether the person has osteoporosis or a fragility fracture when no line says so, and vitamin D bought without a prescription, which is often not in the record. Also vitamin D supplied by another pharmacy, a recent vitamin D level, and a reason vitamin D is unsuitable, such as a high blood calcium.",
   "ask_the_gp": "Could you review the person’s vitamin D intake for bone health and whether checking their vitamin D level would help?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

@@ -163,6 +163,6 @@
   "cannot_be_seen": "Whether B12 was checked elsewhere, the reason for the folic acid, the person's diet, and the reference range used by the laboratory.",
   "ask_the_gp": "A review of the person's vitamin B12 level, and whether any low level has been corrected, before folic acid continues.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

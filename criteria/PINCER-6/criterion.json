@@ -56,6 +56,6 @@
   "cannot_be_seen": "INR checks done at another clinic or by a home meter and not recorded here, and whether the next check is already booked.",
   "ask_the_gp": "Could you confirm today the date and value of the latest INR, including any clinic or home result, and review whether prompt testing is needed?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

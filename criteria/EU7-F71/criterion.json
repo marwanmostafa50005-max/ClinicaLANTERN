@@ -77,6 +77,6 @@
   "cannot_be_seen": "Why it was started (depression, nerve pain or sleep), the blood level or heart tracing, how much is really taken, and medicines supplied by another pharmacy. Ask what the medicine is treating and whether the patient has had dizziness, drowsiness or falls. Record a reported use for nerve pain when reviewing amitriptyline or nortriptyline.",
   "ask_the_gp": "A review of whether the antidepressant is still needed, whether a safer choice or a lower dose is possible, and a check of falls risk and heart rhythm.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

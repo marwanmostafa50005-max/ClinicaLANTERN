@@ -181,6 +181,6 @@
   "cannot_be_seen": "Laxatives bought over the counter, constipation that the patient does not have or does have, how often the opioid is really taken, and supplies from another pharmacy or a hospital.",
   "ask_the_gp": "Whether a laxative is needed with the strong opioid, and how the patient's bowels are.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

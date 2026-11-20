@@ -103,7 +103,7 @@
   "cannot_be_seen": "How bad the symptoms are, whether the woman has had breast cancer or unexplained vaginal bleeding, and vaginal moisturisers or lubricants bought without a prescription. Also any past reaction to oestrogen and treatment from a specialist. Ask whether symptoms are still present and whether vaginal oestrogen is obtained elsewhere. Ask about any history of breast cancer or unexplained vaginal bleeding for the GP review.",
   "ask_the_gp": "A review of whether a vaginal oestrogen would help the symptoms of atrophic vaginitis.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "only_sex": "female"
 }

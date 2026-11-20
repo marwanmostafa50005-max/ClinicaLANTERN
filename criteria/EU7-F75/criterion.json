@@ -44,6 +44,6 @@
   "cannot_be_seen": "The record may omit the reason for treatment, who started it, its duration and its benefit. Ask the patient why they take methylphenidate and whether it affects their sleep or appetite.",
   "ask_the_gp": "A review of whether methylphenidate is still needed for this person, and its effect on sleep and blood pressure.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

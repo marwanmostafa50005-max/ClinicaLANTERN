@@ -47,6 +47,6 @@
   "cannot_be_seen": "The label shows the intended route. Actual administration and any correction made after dispensing may be missing.",
   "ask_the_gp": "Could you confirm the formulation and intended route for this child's proton pump inhibitor?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

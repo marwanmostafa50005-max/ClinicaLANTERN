@@ -304,6 +304,6 @@
   "cannot_be_seen": "Non-prescription aspirin, over-the-counter oral NSAIDs, over-the-counter proton pump inhibitors or H2-receptor antagonists, past peptic ulcer or bleeding history, actual use of as-needed NSAIDs, and medicines supplied from another pharmacy or hospital are not visible in a dispensing history.",
   "ask_the_gp": "Could you review whether both the systemic NSAID and antiplatelet are still needed, the risk of gastrointestinal bleeding and whether gastro-protection is appropriate? If clopidogrel is used, pantoprazole is preferred over omeprazole or esomeprazole.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

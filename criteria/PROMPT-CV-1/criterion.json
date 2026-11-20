@@ -415,6 +415,6 @@
   "cannot_be_seen": "Why the alpha blocker was prescribed (blood pressure, prostate symptoms or both), blood pressure readings outside this record, whether other blood pressure medicines were tried and stopped, and medicines supplied by a hospital or another pharmacy.",
   "ask_the_gp": "A review of whether the alpha blocker is the best choice for this patient, and what condition it is meant to treat.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

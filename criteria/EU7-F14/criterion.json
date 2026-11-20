@@ -58,6 +58,6 @@
   "cannot_be_seen": "Use any dated kidney function, blood glucose or HbA1c result and any documented episode of low blood sugar. If these details are missing, dispensing alone cannot establish them. It also cannot establish use before the history starts or whether doses were taken.",
   "ask_the_gp": "Whether this sulfonylurea is still the best choice at the patient's age, taking account of kidney function and any episodes of low blood sugar.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

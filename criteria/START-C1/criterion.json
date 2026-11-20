@@ -144,6 +144,6 @@
   "cannot_be_seen": "The stroke and bleeding risk scores, a past bleed, a recent or planned procedure, a decision by the patient not to take a blood thinner, a blood thinner supplied by a hospital or another pharmacy, and the reason a heart rhythm medicine was started.",
   "ask_the_gp": "Whether an anticoagulant has been considered for this atrial fibrillation, with a check of stroke and bleeding risk, and the reason if none is used. If the record does not show it, please also confirm the atrial fibrillation diagnosis.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

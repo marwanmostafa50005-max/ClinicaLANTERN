@@ -42,6 +42,6 @@
   "cannot_be_seen": "Supplies alone do not establish the indication, the specialist’s plan, heart function, a past heart attack, ECG findings or kidney function. Hospital supplies and supplies from another pharmacy may be absent.",
   "ask_the_gp": "Whether this heart rhythm medicine is still needed, and when the heart rhythm, heart function and kidney function were last reviewed.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

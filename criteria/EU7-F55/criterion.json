@@ -37,6 +37,6 @@
   "cannot_be_seen": "Supplies alone do not show whether the person takes it for epilepsy, their kidney function or their blood level of phenobarbital. Ask what they take it for and whether they have felt very sleepy or unusually agitated. Epilepsy treatment needs prescriber review before any dose change because stopping suddenly can cause seizures.",
   "ask_the_gp": "A review of whether phenobarbitone is still needed. If it treats epilepsy, advice from the neurologist about the plan and any slow change.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

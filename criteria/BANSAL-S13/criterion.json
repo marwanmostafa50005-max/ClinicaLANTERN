@@ -300,6 +300,6 @@
   "cannot_be_seen": "Whether the person has constipation if it is not recorded, laxatives bought without a prescription or supplied by another pharmacy or hospital, and diet and fluid intake.",
   "ask_the_gp": "A review of bowel function and whether a regular laxative is needed with the opioid.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

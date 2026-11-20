@@ -57,6 +57,6 @@
   "cannot_be_seen": "Why it was prescribed (urgency, leaking or a bladder problem), how well it works, any confusion or constipation, and whether bladder training has been tried.",
   "ask_the_gp": "Could you confirm the indication and review the benefits and adverse effects, including any constipation, dry mouth or confusion? If the medicine is for overactive bladder, could bladder training or another suitable option help?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

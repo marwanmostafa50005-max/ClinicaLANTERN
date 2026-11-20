@@ -145,8 +145,8 @@
   "cannot_be_seen": "Whether the course was completed as planned or stopped early, doses given in a clinic or hospital, and the reason the pens stopped. A record this short cannot show a full course, which can last up to two years. Ask whether teriparatide or abaloparatide is still obtained elsewhere and whether a clinic or hospital has given or arranged a zoledronic acid infusion or denosumab injection.",
   "ask_the_gp": "Could you confirm whether the course of teriparatide or abaloparatide has ended and review what follow-on bone protection has been given or arranged?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "observation",

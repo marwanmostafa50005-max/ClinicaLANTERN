@@ -270,6 +270,6 @@
   "cannot_be_seen": "Tests done at another site or not recorded here, the reason for the medicine, and whether the doctor has already arranged the blood test.",
   "ask_the_gp": "Could you confirm when kidney function, sodium and potassium were last checked, including any results held elsewhere, and review whether repeat testing or a dose review is due?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

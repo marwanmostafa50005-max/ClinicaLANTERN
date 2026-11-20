@@ -89,6 +89,6 @@
   "cannot_be_seen": "Whether the person has ischaemic heart disease when no condition line is recorded, how severe it is, ECG and stress test results, why the tricyclic was chosen, and what the person actually takes.",
   "ask_the_gp": "A review of the tricyclic antidepressant dose and choice for this person, and confirmation of whether the person has ever been diagnosed with ischaemic heart disease.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

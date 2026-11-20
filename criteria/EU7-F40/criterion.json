@@ -33,6 +33,6 @@
   "cannot_be_seen": "Dispensing lines alone do not establish kidney function. Review any dated renal results and whether creatinine clearance in mL/min can be estimated for dosing. A reported eGFR in mL/min/1.73 m² uses different units. Tendon symptoms, rhythm problems, the reason for treatment, hospital supplies and completion of the course may also be missing.",
   "ask_the_gp": "Could you review whether another antibiotic would suit the indication and any available culture result, and whether the ofloxacin dose suits the patient's kidney function?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

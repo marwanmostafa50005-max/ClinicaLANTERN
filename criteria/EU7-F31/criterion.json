@@ -36,6 +36,6 @@
   "cannot_be_seen": "Why spironolactone was prescribed, for example heart failure, fluid from liver disease or high blood pressure. Also the patient's potassium, sodium and kidney function results and when they were last checked, whether the patient takes the dose on the label, and supplies from a hospital or another pharmacy.",
   "ask_the_gp": "Could you confirm the intended daily spironolactone dose or the patient’s age if either is unclear? If the patient is at least 65 and the current dose exceeds 25 mg a day, could you review the dose and the latest potassium, sodium and kidney function results?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

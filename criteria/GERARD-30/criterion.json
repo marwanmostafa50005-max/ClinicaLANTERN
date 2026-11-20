@@ -90,6 +90,6 @@
   "cannot_be_seen": "A glucose value alone cannot show symptoms. Sweating or dizziness alone cannot identify a hypoglycaemic episode. Ask whether symptoms are present now, whether the medicine is still being taken and whether the episode has already been reviewed. A missing symptom history alone does not establish an acute episode.",
   "ask_the_gp": "Could you confirm whether the person has had symptomatic low blood glucose during this treatment and, if so, review recurrence risk and the choice of medicine?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

@@ -412,6 +412,6 @@
   "cannot_be_seen": "The dispensing history may omit the valve diagnosis, its severity on echocardiography, the clinical history of symptoms attributable to the stenosis and the reason for each blood pressure medicine. Several of these medicines are also used for heart failure or after a heart attack.",
   "ask_the_gp": "Could you confirm any missing valve diagnosis, severity or symptoms and review the blood pressure medicines and doses with the cardiologist if severe symptomatic aortic stenosis is confirmed?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

@@ -317,6 +317,6 @@
   "cannot_be_seen": "The diagnosis unless it is in the record, why the fish oil is taken (for example high triglycerides), and fish oil bought outside the pharmacy.",
   "ask_the_gp": "A review of whether the omega-3 fish oil is still needed for this person.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

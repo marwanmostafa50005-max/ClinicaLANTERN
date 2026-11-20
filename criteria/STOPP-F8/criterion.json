@@ -62,6 +62,6 @@
   "cannot_be_seen": "Why megestrol was started, which is the key fact, because a dispensing history does not hold the reason. Also the actual dose taken, weight and appetite, and medicines supplied by a hospital or another pharmacy.",
   "ask_the_gp": "Whether megestrol is being used to increase appetite, and whether it is still needed given the risk of blood clots.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

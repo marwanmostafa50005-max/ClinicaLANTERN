@@ -311,6 +311,6 @@
   "cannot_be_seen": "The QTc result if it is not in the record, the date and method of the heart tracing, the potassium and magnesium levels, other medicines bought without a prescription, and whether the person has ever had a rhythm problem.",
   "ask_the_gp": "Could you review current qualifying treatment today if QTc prolongation is documented during the exposure, including whether a repeat ECG or a change of medicine is appropriate? If the finding is possible, could you confirm the missing dose, ECG result or timing?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

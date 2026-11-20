@@ -100,7 +100,7 @@
   "cannot_be_seen": "The directions or a clinical entry may give the reason for treatment. The record may omit the indication, dates of falls or standing blood pressure.",
   "ask_the_gp": "Whether the alpha blocker could be changed to silodosin or another option for the prostate symptoms, given the falls. A falls and blood pressure review.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "only_sex": "male"
 }

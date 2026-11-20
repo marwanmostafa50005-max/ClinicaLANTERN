@@ -258,6 +258,6 @@
   "cannot_be_seen": "Dispensing does not confirm which medicines were taken together. The agreed HbA1c target and supplies from other pharmacies may be missing.",
   "ask_the_gp": "Could you review the combination and its risk of hypoglycaemia against the person's HbA1c goal?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

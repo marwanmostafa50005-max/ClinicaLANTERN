@@ -229,6 +229,6 @@
   "cannot_be_seen": "The record may show the prescribed dose, the reason for treatment and dates of falls. The indication, actual use, recent falls, stiffness or tremor may need confirmation.",
   "ask_the_gp": "Whether the antipsychotic is still needed and could be reduced or stopped, given the falls. A falls and medicines review.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

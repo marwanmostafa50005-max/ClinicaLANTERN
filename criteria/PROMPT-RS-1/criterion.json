@@ -85,8 +85,8 @@
   "cannot_be_seen": "Why it was prescribed (for example allergy, sleep, nausea or itch), how often it is really taken, and whether it was the first treatment tried when earlier records are incomplete.",
   "ask_the_gp": "Could you review why the antihistamine was used, what was tried first for this episode, and whether it is still needed or a safer option would suit that indication?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "observation",

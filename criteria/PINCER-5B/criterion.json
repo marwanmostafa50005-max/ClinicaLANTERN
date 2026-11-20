@@ -49,6 +49,6 @@
   "cannot_be_seen": "Blood tests done elsewhere and not recorded here, and whether the doctor or specialist has already arranged the next test.",
   "ask_the_gp": "Could you confirm when the last liver function test was done, including any specialist result, and review whether repeat testing is due while methotrexate continues?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

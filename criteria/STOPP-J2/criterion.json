@@ -52,6 +52,6 @@
   "cannot_be_seen": "Whether the person has heart failure when the record holds no such line, how severe it is, recent heart scans, swelling, and weight changes.",
   "ask_the_gp": "A review of whether the glitazone is still suitable, taking into account any heart failure.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

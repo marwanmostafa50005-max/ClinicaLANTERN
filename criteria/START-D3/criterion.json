@@ -128,6 +128,6 @@
   "cannot_be_seen": "Whether the diagnosis is Alzheimer's dementia and its stage, whether a cholinesterase inhibitor was tried and stopped (slow heart rate, fainting, side effects), whether the person or family chose not to use one, and any supply from another pharmacy or from a hospital.",
   "ask_the_gp": "Whether a trial of a cholinesterase inhibitor is suitable for this person, or has already been tried and stopped.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

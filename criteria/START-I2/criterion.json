@@ -112,7 +112,7 @@
   "cannot_be_seen": "The size of the prostate, PSA results, whether surgery to remove the prostate is needed, suitable or safe, and how bad the symptoms are. Also why a 5-alpha reductase inhibitor was not used, and any side effects the person had on one.",
   "ask_the_gp": "Could you confirm whether urinary symptoms are due to an enlarged prostate, whether prostatectomy is needed, appropriate and safe, and whether a 5-alpha reductase inhibitor merits review?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "only_sex": "male"
 }

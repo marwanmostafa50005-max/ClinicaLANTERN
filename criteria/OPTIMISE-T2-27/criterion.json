@@ -230,6 +230,6 @@
   "cannot_be_seen": "Whether symptoms are really present, whether the dose could be lowered or the antipsychotic changed, and the prolactin result unless it is in the record. Also what the person has already been told. This dispensing record cannot show supplies obtained elsewhere or medicines bought without a prescription.",
   "ask_the_gp": "Could you confirm whether symptomatic hyperprolactinaemia is present and whether the antipsychotic dose could be reduced or a switch to a lower-prolactin antipsychotic is feasible? If neither is suitable and no add-on trial is in place for this episode, could you review adjunctive oral aripiprazole 5 mg daily? If a trial starts or has already started, could you review a repeat prolactin level at least one week after the start?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

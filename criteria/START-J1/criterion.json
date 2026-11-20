@@ -432,6 +432,6 @@
   "cannot_be_seen": "Diabetes is not in a dispensing history unless a condition line is present. Urine tests and kidney function are not in it either. Also whether an ACE inhibitor was tried and not tolerated, low blood pressure, high potassium, or a palliative plan. Ask whether the medicine is for diabetes and whether the patient has been told about protein in the urine or kidney disease. Ask whether an ACE inhibitor or ARB is supplied elsewhere or was stopped because of side effects. Seek the actual urine and kidney results before treating either as confirmed.",
   "ask_the_gp": "A review of the most recent urine albumin and kidney function results, and whether an ACE inhibitor or ARB is suitable.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

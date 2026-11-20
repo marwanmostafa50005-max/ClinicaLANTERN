@@ -37,6 +37,6 @@
   "cannot_be_seen": "Blood glucose and HbA1c may be available in dated result rows. Supplies alone do not show these results, whether acarbose is helping, side effects such as wind and diarrhoea, how long it was used before this history starts, or whether doses are taken.",
   "ask_the_gp": "A review of whether acarbose is still helping the patient's diabetes control.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

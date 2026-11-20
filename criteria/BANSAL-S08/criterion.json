@@ -329,6 +329,6 @@
   "cannot_be_seen": "A Group B medicine can suggest myasthenia gravis. Dispensing alone cannot confirm it. Without a diagnosis or a Group B supply, the history cannot show the condition. The reason for the opioid and any breathing or muscle weakness may also be missing.",
   "ask_the_gp": "If myasthenia gravis is confirmed or a medicine supplied during the opioid course points to it, could you review the need for and choice of opioid and confirm the diagnosis if it is uncertain?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

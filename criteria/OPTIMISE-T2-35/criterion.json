@@ -298,6 +298,6 @@
   "cannot_be_seen": "Why the folic acid was started, whether a blood test showed low folate, and folic acid bought without a prescription.",
   "ask_the_gp": "A review of whether the folic acid is still needed alongside the antidepressant, and of the reason it was started.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

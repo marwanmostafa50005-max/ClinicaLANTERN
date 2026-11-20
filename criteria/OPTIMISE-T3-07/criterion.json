@@ -62,8 +62,8 @@
   "cannot_be_seen": "Why the steroid was prescribed, any plan to taper, bone density results, calcium and vitamin D use, and steroid courses given elsewhere or by a hospital.",
   "ask_the_gp": "Has fracture risk been assessed in light of the oral steroid exposure, and does the result suggest a need for osteoporosis treatment? For an adult under 40, could the review consider fracture history, bone density and vertebral assessment?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "observation",

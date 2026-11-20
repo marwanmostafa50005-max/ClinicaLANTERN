@@ -53,6 +53,6 @@
   "cannot_be_seen": "Supplies alone do not show kidney function or blood magnesium. Check any dated results in the record. The record may not show why the antacid was used, how much was taken each day, how long it was used or whether the person bought it without a prescription.",
   "ask_the_gp": "Whether this medicine is still needed, taking account of the patient's age and kidney function, and whether a recent kidney function result is on file.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

@@ -62,6 +62,6 @@
   "cannot_be_seen": "Why the beta-blocker was prescribed (for example tremor, migraine, rhythm problem or blood pressure), whether the person has asthma or lung disease, and the heart rate and blood pressure.",
   "ask_the_gp": "Could we review why this beta-blocker is used and whether breathing problems affect the choice? For sotalol, could we review the rhythm-control plan, QT interval and kidney function?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

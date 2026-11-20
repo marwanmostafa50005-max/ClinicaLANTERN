@@ -111,6 +111,6 @@
   "cannot_be_seen": "The person's weight or BMI, any liver disease, alcohol use, and how much paracetamol is really taken. Also paracetamol bought without a prescription or supplied by a hospital or another pharmacy.",
   "ask_the_gp": "The person's nutritional status and liver health, and whether a lower daily paracetamol dose or another pain plan would be safer.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

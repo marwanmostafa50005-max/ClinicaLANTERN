@@ -81,8 +81,8 @@
   "cannot_be_seen": "A supply cannot establish BMI. A BMI of exactly 18 kg/m² falls outside the criterion. A low BMI alone cannot establish malnutrition. Before contacting the GP about a possible finding, ask whether the person takes the medicine for type 2 diabetes and check whether a measured BMI during treatment was below 18 kg/m².",
   "ask_the_gp": "Could you confirm the current BMI and review whether this medicine remains appropriate at that weight?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "condition",

@@ -163,6 +163,6 @@
   "cannot_be_seen": "A headache or a triptan supply cannot establish aura. The diagnosis date alone cannot establish when the last aura occurred or whether the pill is being taken.",
   "ask_the_gp": "Could you review the combined pill and confirm the migraine diagnosis and the date of the last aura?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

@@ -64,6 +64,6 @@
   "cannot_be_seen": "Use dated kidney results and observations of confusion or memory change when available. The famotidine dose guidance uses creatinine clearance in mL/min. An indexed eGFR alone does not establish that value. The reason for starting or continuing treatment may be unrecorded. Purchases outside the record and how often the patient takes the tablets may also be unknown.",
   "ask_the_gp": "Whether this H2-receptor antagonist is still needed and still the best choice at the patient's age, taking account of kidney function and any confusion.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

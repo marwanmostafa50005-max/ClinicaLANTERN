@@ -204,6 +204,6 @@
   "cannot_be_seen": "The reason for treatment may be missing. A newer antihistamine bought over the counter or supplied elsewhere may be absent from this record.",
   "ask_the_gp": "Whether a newer antihistamine could replace the older one, and the person's risk of drowsiness, confusion, falls and trouble passing urine.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

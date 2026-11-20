@@ -209,8 +209,8 @@
   "cannot_be_seen": "Laxatives bought without a prescription or supplied by another pharmacy may be missing. The record may not show constipation, daily opioid use, or whether the person fits the study population of adults with chronic non-cancer pain in general practice. Acute pain and end-of-life care fall outside that population. Ask whether the person takes a laxative bought without a prescription and whether they have constipation. Record the answers separately from prescribed cover.",
   "ask_the_gp": "A review of whether a regular laxative is needed with the long-term opioid.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" },
   "needs_facts": [
     {
       "kind": "observation",

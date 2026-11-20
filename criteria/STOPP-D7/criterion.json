@@ -137,6 +137,6 @@
   "cannot_be_seen": "How serious the bleed was, its cause, and whether it has settled. Also aspirin or anti-inflammatory tablets bought over the counter, bleeding disorders, and supplies from another pharmacy.",
   "ask_the_gp": "Whether the SSRI is still the best choice after the recent bleed, and whether the person needs stomach protection or a different antidepressant.",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

@@ -39,6 +39,6 @@
   "cannot_be_seen": "Why topiramate was started (epilepsy or migraine prevention), kidney function, and whether the person has had confusion or slowed thinking.",
   "ask_the_gp": "Whether topiramate is still the right choice for this person and whether the dose suits their kidney function.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

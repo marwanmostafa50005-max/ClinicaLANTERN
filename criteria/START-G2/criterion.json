@@ -205,6 +205,6 @@
   "cannot_be_seen": "The FEV1 result, the GOLD stage and the number of flare-ups when no line gives them, and whether the person really uses the inhaler every day. Also inhaled steroids supplied by a hospital or another pharmacy, and a good reason to leave the steroid out, such as repeated chest infections or thrush.",
   "ask_the_gp": "A review of whether a daily inhaled corticosteroid is needed, with a check of lung function and the flare-up history.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

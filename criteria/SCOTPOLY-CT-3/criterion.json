@@ -274,6 +274,6 @@
   "cannot_be_seen": "Non-prescription NSAIDs, non-prescription proton pump inhibitors, past bleeding or ulcer history, and why each medicine was prescribed.",
   "ask_the_gp": "Whether the NSAID is still needed with the SSRI and whether gastroprotection or bleeding risk should be reviewed.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

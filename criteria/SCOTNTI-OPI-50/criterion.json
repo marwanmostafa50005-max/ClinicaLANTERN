@@ -150,6 +150,6 @@
   "cannot_be_seen": "Supply dates, strengths, quantities and directions can support an estimate of the dose supplied by this pharmacy. They cannot establish a verified six-month average on their own. The history may omit outside supplies, actual use and any palliative, cancer, specialist pain or tapering plan.",
   "ask_the_gp": "Could you review pain management, the ongoing opioid dose and whether a gradual taper is appropriate, taking withdrawal risk into account, and discuss Take Home Naloxone?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

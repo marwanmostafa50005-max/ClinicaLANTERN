@@ -68,6 +68,6 @@
   "cannot_be_seen": "Current use, hydration, the reason for treatment and the sick-day plan may need a counter check. Kidney function and potassium levels are known only if results are recorded. Ask about worsening heart failure and non-prescription NSAIDs.",
   "ask_the_gp": "Could you review the risk of acute kidney injury and hyperkalaemia, including whether kidney function and potassium need checking today? If a temporary pause is appropriate, when can the patient restart once well and eating and drinking normally? Could you advise on the sick-day plan and prompt review if symptoms persist or worsen, or if heart failure is decompensated?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

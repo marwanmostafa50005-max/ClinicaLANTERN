@@ -41,8 +41,8 @@
   "cannot_be_seen": "Dispensing cannot establish catheter or immune status, or whether a capsule was opened when the directions leave that unclear.",
   "ask_the_gp": "Could you confirm catheter and immune status during treatment and review the form of probiotic the child received?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "observation",

@@ -110,6 +110,6 @@
   "cannot_be_seen": "Whether the upper gut problem is current, how long ago it happened, and whether it was treated. Also whether the person takes the tablet correctly, and medicines supplied by another pharmacy.",
   "ask_the_gp": "Whether the bisphosphonate tablet is still suitable given the upper gut history, or whether another osteoporosis treatment is better.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

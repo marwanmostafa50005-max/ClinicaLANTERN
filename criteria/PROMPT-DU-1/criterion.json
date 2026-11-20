@@ -719,6 +719,6 @@
   "cannot_be_seen": "Why each medicine was prescribed, whether a guideline supports using the pair together, medicines supplied by a hospital or another pharmacy, and medicines bought without a prescription.",
   "ask_the_gp": "A review of whether both medicines from the same class are needed, or whether one can stop.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

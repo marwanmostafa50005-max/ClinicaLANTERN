@@ -138,6 +138,6 @@
   "cannot_be_seen": "Outside sodium results, medicines supplied elsewhere, treatment before the record began and unrecorded symptoms may be missing. Dated supplies and results can establish the recorded sequence, but may not establish when sodium first fell or what caused it.",
   "ask_the_gp": "During ongoing SSRI treatment, could you review the patient the same day if their current serum sodium is below 130 mmol/L or they have symptoms suggesting low sodium? If neither concern is present and sodium has recovered or the result is old or missing, could you review the treatment routinely and consider whether a sodium test is needed?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

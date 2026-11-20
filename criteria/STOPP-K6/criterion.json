@@ -128,6 +128,6 @@
   "cannot_be_seen": "How often and how much of the antihistamine is really taken, whether it is bought without a prescription, the cause of any falls and any falls missing from the record, and how drowsy the person is.",
   "ask_the_gp": "A review of whether the sedating antihistamine is still needed for a person with recurrent falls, and whether a less sedating option could be used.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

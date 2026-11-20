@@ -226,6 +226,6 @@
   "cannot_be_seen": "Whether the germ was treated by a hospital or another pharmacy, and whether an allergy to penicillin or another reason ruled out the usual antibiotics. If the record does not say, it is unclear whether a proton pump inhibitor was withheld before testing or a test after treatment showed the germ was cleared.",
   "ask_the_gp": "Whether Helicobacter pylori eradication therapy has been given or should be started, and whether a test after treatment is planned.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

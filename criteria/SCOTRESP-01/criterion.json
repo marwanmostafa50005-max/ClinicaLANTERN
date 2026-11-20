@@ -48,8 +48,8 @@
   "cannot_be_seen": "Other pharmacies and over-the-counter sales may add to the count. Supplies alone cannot establish the diagnosis, how many doses were taken or how well symptoms are controlled. At review, ask about relievers bought over the counter or obtained elsewhere, current symptoms and how the patient uses the inhaler.",
   "ask_the_gp": "Could we review the reliever supply alongside current symptoms, inhaler technique and the respiratory treatment plan?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "count_supplies": {
     "group": "A",
     "months": 12,

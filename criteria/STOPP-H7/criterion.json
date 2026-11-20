@@ -270,6 +270,6 @@
   "cannot_be_seen": "Why each medicine was prescribed, whether a stomach-protecting medicine is taken, and how often each is really taken. Also anti-inflammatory medicines bought without a prescription and medicines supplied by another pharmacy.",
   "ask_the_gp": "Whether the NSAID and the steroid are both needed for the arthritis, and whether stomach protection is in place.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

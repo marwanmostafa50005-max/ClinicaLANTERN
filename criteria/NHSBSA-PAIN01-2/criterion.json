@@ -160,6 +160,6 @@
   "cannot_be_seen": "The record cannot show whether both medicines were taken together, the reason for treatment, non-prescription sedating products, alcohol use, or supplies from another pharmacy or hospital. Supervised opioid-dependence therapy may sit outside standard PBS dispensing histories.",
   "ask_the_gp": "Could you review whether both the opioid and the Z-drug are still needed, their doses and durations, and the patient's risk of sedation and respiratory depression?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

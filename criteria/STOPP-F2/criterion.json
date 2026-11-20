@@ -182,6 +182,6 @@
   "cannot_be_seen": "The reason for the medicine if the record holds none, whether the ulcer was complicated, whether the germ Helicobacter pylori was treated, and the dose the patient really takes.",
   "ask_the_gp": "A review of whether the dose can be reduced or the medicine stopped, or a different maintenance medicine used.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

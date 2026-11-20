@@ -236,6 +236,6 @@
   "cannot_be_seen": "The reason for each prescription may be unknown. Check any recorded INR, kidney function results and history of stomach ulcer or bleeding. Tests or events outside this record may be missing. Also how often the NSAID is really taken, anti-inflammatory medicines bought without a prescription, and medicines supplied by a hospital or another pharmacy.",
   "ask_the_gp": "Whether the NSAID is still needed while the anticoagulant continues, and the patient's risk of bleeding.",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

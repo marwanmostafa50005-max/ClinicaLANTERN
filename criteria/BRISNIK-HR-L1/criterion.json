@@ -134,6 +134,6 @@
   "cannot_be_seen": "Whether the person has ever had angle closure glaucoma, what the eye specialist advised, the medicine's real daily use, and any eye drops or procedures done at the hospital or by an eye specialist.",
   "ask_the_gp": "Suspected acute angle closure needs immediate emergency assessment. For a stable past diagnosis, could the medicine and the eye specialist's advice be reviewed? If the glaucoma history is unknown, which diagnosis did the eye specialist make?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

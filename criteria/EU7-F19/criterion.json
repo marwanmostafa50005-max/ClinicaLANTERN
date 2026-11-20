@@ -33,6 +33,6 @@
   "cannot_be_seen": "Why the medicine was chosen, for example a recent stent, a stroke or an artificial heart valve, and whether a specialist started it. Also blood count results, blood pressure on standing, any past bleeding, aspirin bought without a prescription, and medicines supplied by a hospital or another pharmacy.",
   "ask_the_gp": "Whether this antiplatelet medicine is still the best choice for the patient, and when the need for it was last reviewed.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

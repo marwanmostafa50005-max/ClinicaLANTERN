@@ -70,6 +70,6 @@
   "cannot_be_seen": "Dispensing does not establish the dose taken. Kidney results obtained elsewhere, their units and their timing may be missing. This check covers the fixed dose ceilings. It does not calculate the proportional maintenance dose adjustment from paired clearances and doses.",
   "ask_the_gp": "Could you confirm the dated Cockcroft-Gault creatinine clearance in mL/min and review the daily dose of immediate-release pramipexole for Parkinson disease against the renal dose ceiling and any decline in kidney function during maintenance?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

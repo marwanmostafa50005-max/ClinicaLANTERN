@@ -75,6 +75,6 @@
   "cannot_be_seen": "Fibre bought without a prescription, or fibre eaten in food. Also whether a fibre supplement was tried and stopped because of bloating or because it made the constipation worse, and whether a bowel blockage or narrowing rules fibre out.",
   "ask_the_gp": "Whether a fibre supplement would help this person's bowel habit, and whether fluids and diet are adequate.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

@@ -149,6 +149,6 @@
   "cannot_be_seen": "Why the medicine was started (Parkinson disease is the usual reason; ropinirole and pramipexole are also used for restless legs) and the cause of any tremor.",
   "ask_the_gp": "Whether the medicine is helping, and whether the tremor has been checked as essential tremor or as Parkinson disease.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

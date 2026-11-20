@@ -94,6 +94,6 @@
   "cannot_be_seen": "The latest eGFR, calcium (corrected for albumin) and parathyroid hormone results if they are not in the record, whether the person is on dialysis, whether the kidney team supplies the medicine from a hospital, and whether it was tried and stopped.",
   "ask_the_gp": "Could the kidney team review the calcium level, kidney function, dialysis status, parathyroid hormone trend and current treatment before deciding whether active vitamin D is appropriate?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

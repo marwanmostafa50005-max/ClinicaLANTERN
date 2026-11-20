@@ -316,8 +316,8 @@
   "cannot_be_seen": "Whether stomach protection is really needed, why the H2 blocker was chosen, whether the person has severe mental illness, kidney function, and any proton pump inhibitor tried before.",
   "ask_the_gp": "A review of whether a low dose proton pump inhibitor could replace the H2 receptor antagonist, and whether stomach protection is still needed.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "condition",

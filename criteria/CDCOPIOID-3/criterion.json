@@ -162,6 +162,6 @@
   "cannot_be_seen": "The first supply at this pharmacy can follow treatment in hospital or elsewhere. A gap in supplies cannot establish the start of a course or the person's opioid tolerance. The reason for the formulation may also be missing.",
   "ask_the_gp": "Could you confirm when opioids were first used for this pain episode and review the reason for the long-acting formulation?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

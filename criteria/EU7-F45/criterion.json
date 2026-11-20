@@ -37,6 +37,6 @@
   "cannot_be_seen": "Kidney, gut and heart disease, the reason for treatment (a gout flare or prevention), the dose really taken, and medicines that raise colchicine levels bought elsewhere.",
   "ask_the_gp": "Whether colchicine is still needed, whether the dose is suitable for the person's age and kidney function, and whether an alternative would do.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

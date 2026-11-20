@@ -43,6 +43,6 @@
   "cannot_be_seen": "Why the medicine was started and whether a heart specialist chose it. Also ECG results and the QT interval, thyroid, liver and lung checks, potassium and magnesium results, and medicines supplied by a hospital or another pharmacy.",
   "ask_the_gp": "Could you review whether this medicine is still needed and when the last ECG and liver tests were done? For amiodarone, could you also review thyroid and lung monitoring? For dronedarone, could you also review kidney function?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

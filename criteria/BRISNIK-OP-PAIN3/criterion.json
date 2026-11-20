@@ -176,6 +176,6 @@
   "cannot_be_seen": "Why the antidepressant was started, whether it helps the pain, and any reason for an antidepressant that the record does not hold. Also medicines supplied by a hospital or another pharmacy.",
   "ask_the_gp": "What is the SSRI or mirtazapine being used for? If it is for neuropathic pain, could we review its benefit, adverse effects and any other indication?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

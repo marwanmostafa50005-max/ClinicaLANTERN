@@ -33,6 +33,6 @@
   "cannot_be_seen": "A dated diagnosis may identify the cause of the diarrhoea. Supplies alone cannot establish the cause, how many days the capsules were taken or whether the patient obtained medicine elsewhere.",
   "ask_the_gp": "A review of the cause of the diarrhoea and of whether racecadotril is still needed.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

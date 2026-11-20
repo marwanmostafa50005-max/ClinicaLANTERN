@@ -37,6 +37,6 @@
   "cannot_be_seen": "Why phenytoin was started, whether it is working, blood levels of phenytoin, the albumin level, kidney function, and any seizure history. It also cannot show doses given in hospital. Ask whether the person has felt confused, drowsy or unsteady while taking phenytoin.",
   "ask_the_gp": "Whether phenytoin is still the right choice for this person and whether a phenytoin blood level, albumin and kidney function check is due.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

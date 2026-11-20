@@ -208,6 +208,6 @@
   "cannot_be_seen": "Whether aspirin is unsuitable (bleeding risk, stomach ulcer, allergy), over the counter aspirin, the type of dementia, and imaging not in the record.",
   "ask_the_gp": "Could you confirm whether there is a history, examination finding or imaging result showing ischaemic cerebrovascular disease? If confirmed, could you review aspirin suitability in light of bleeding risk, contraindications and current treatment?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

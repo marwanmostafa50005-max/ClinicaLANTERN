@@ -49,6 +49,6 @@
   "cannot_be_seen": "The latest kidney test if none is on the record, whether the methotrexate dose was changed after the test, and why methotrexate is used (for example arthritis or psoriasis).",
   "ask_the_gp": "A review of whether methotrexate is still suitable at the current eGFR, and of the dose.",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

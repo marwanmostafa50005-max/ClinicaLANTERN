@@ -269,6 +269,6 @@
   "cannot_be_seen": "Whether a medication review took place, since reviews are often not recorded in a dispensing history. Also why the antipsychotic was started, whether the prescriber tried to lower the dose, and doses given by a care facility.",
   "ask_the_gp": "A medication review of the antipsychotic: whether it is still needed, and whether the dose can be lowered or stopped.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

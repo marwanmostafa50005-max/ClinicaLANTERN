@@ -93,6 +93,6 @@
   "cannot_be_seen": "The operation and its indication may be absent from a dispensing record. Actual codeine use and supplies from another pharmacy or hospital, or leftover medicines obtained elsewhere, may also be missing.",
   "ask_the_gp": "Could you review this codeine supply urgently? Australian advice rules out codeine under age 12 and advises against its use at ages 12 to 18 after recent tonsil or adenoid surgery for any reason. If surgery is relevant, could you confirm its timing and indication?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

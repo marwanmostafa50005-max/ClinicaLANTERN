@@ -154,6 +154,6 @@
   "cannot_be_seen": "A diagnosis alone cannot establish current values. A dispensing line does not show how blood pressure was measured, where it was measured or whether the pill is being taken.",
   "ask_the_gp": "Could you confirm the current blood pressure readings and measurement setting, and review whether the combined pill remains suitable?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

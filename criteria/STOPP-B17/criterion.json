@@ -211,6 +211,6 @@
   "cannot_be_seen": "How often the NSAID is really taken, NSAIDs bought without a prescription, and any vascular disease that was never recorded.",
   "ask_the_gp": "Could you confirm any missing vascular history or duration of systemic NSAID use and review the pain treatment if long-term use and vascular disease are both confirmed?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

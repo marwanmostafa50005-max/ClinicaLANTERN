@@ -61,6 +61,6 @@
   "cannot_be_seen": "Why the antidepressant was started, how well it works, sodium and kidney blood test results, falls, and what the person really takes.",
   "ask_the_gp": "A review of whether this antidepressant and dose are still the best choice for this person, and whether a sodium blood test is due.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

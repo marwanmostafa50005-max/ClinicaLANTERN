@@ -137,6 +137,6 @@
   "cannot_be_seen": "ECG and QT results when not recorded, blood potassium and magnesium, heart conditions that are not on the record, other medicines that lengthen the QT interval from other sources, and the dose actually taken.",
   "ask_the_gp": "Could you review citalopram or escitalopram and clarify any missing history of long QT syndrome, heart failure, coronary disease, thickened heart muscle or a slow heart rhythm? Could you also review the ECG QT interval and blood potassium?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

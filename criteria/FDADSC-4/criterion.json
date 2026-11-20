@@ -155,7 +155,7 @@
   "cannot_be_seen": "Pregnancy and gestational age may be missing. Non-prescription NSAIDs and supplies from another pharmacy or hospital may be absent. The record does not prove actual use, dose or duration, and may not show ultrasound findings or oligohydramnios.",
   "ask_the_gp": "Could you review the indication, dose and duration at the gestation when this NSAID was supplied, including any Australian third-trimester contraindication from 28 weeks and FDA advice to avoid use from 30 weeks? If treatment lasts beyond 48 hours from 20 weeks, would ultrasound monitoring of amniotic fluid be appropriate?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "only_sex": "female"
 }

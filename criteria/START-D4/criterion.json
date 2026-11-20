@@ -47,6 +47,6 @@
   "cannot_be_seen": "Supplies alone cannot show whether the person has dementia, its type, an end-of-life palliative focus or a contraindication to rivastigmine. They may also omit a previous trial stopped for nausea, a slow heart rate or a patch reaction, a choice by the person or family to decline treatment, or supplies from another pharmacy or hospital.",
   "ask_the_gp": "Whether rivastigmine is suitable for this person, or has already been tried and stopped.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

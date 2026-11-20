@@ -301,6 +301,6 @@
   "cannot_be_seen": "Why the antidepressant was prescribed, whether the dose is the highest the person can take, how well the person takes it, and how the person feels. The record shows only supplies and any scores entered.",
   "ask_the_gp": "A review of how well the antidepressant is working at the current dose and whether another approach is worth considering.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

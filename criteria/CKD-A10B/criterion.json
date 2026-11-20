@@ -127,6 +127,6 @@
   "cannot_be_seen": "Dispensing does not establish the dose taken. Kidney results obtained elsewhere, their units and their timing may be missing.",
   "ask_the_gp": "Could you review the daily dose of the gliptin identified in this finding against the patient's kidney function and dialysis status at the time of supply?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

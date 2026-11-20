@@ -92,6 +92,6 @@
   "cannot_be_seen": "Why dipyridamole was prescribed, antiplatelet medicines from a hospital or bought without a prescription (for example aspirin), and the stroke or heart history.",
   "ask_the_gp": "A review of the antiplatelet treatment, including whether dipyridamole alone is still the plan.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

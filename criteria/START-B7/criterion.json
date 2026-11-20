@@ -89,6 +89,6 @@
   "cannot_be_seen": "Serum potassium if a current result is missing (a high level is a common reason to avoid these medicines), whether the heart failure is symptomatic, past reactions such as breast tenderness, and medicines supplied by a hospital or another pharmacy.",
   "ask_the_gp": "Whether spironolactone or eplerenone has been considered for this heart failure, with a check of recent kidney function and potassium. If the record does not show it, please also confirm the heart failure diagnosis or give a recent eGFR.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

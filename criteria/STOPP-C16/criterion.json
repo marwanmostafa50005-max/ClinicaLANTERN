@@ -87,6 +87,6 @@
   "cannot_be_seen": "Why aspirin was started if the reason is unrecorded, any heart or blood vessel disease not recorded here, and aspirin bought without a prescription. Also supplies from a hospital or another pharmacy.",
   "ask_the_gp": "Whether the person has established cardiovascular disease, and whether the aspirin is still needed or could be stopped.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

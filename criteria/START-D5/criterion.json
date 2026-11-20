@@ -257,6 +257,6 @@
   "cannot_be_seen": "How severe the anxiety is and how it affects daily life, whether talking therapy is being used instead, whether an antidepressant was tried and stopped, why an SSRI might not be suitable, and any supply from another pharmacy.",
   "ask_the_gp": "Whether treatment of the anxiety should be reviewed, including the reason for any current SNRI or pregabalin and the suitability of an SSRI.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

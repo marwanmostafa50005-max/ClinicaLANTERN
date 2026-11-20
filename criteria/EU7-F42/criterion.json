@@ -192,6 +192,6 @@
   "cannot_be_seen": "Why the medicine was started, kidney function, past stomach ulcer or bleeding, blood pressure and heart disease. Also how often it is really taken, medicines bought without a prescription, and hospital supplies.",
   "ask_the_gp": "Whether the anti-inflammatory is still needed, whether paracetamol or a lower-risk option could replace it, and whether stomach protection is in place.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

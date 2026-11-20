@@ -170,6 +170,6 @@
   "cannot_be_seen": "The heart rate and the ECG, why each medicine was prescribed, whether a heart specialist chose the combination on purpose, whether both medicines are still being taken, and medicines supplied by another pharmacy or a hospital.",
   "ask_the_gp": "Whether the beta-blocker and the verapamil or diltiazem are both meant to be taken together, and the patient's heart rate and ECG.",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

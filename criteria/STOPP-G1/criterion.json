@@ -154,6 +154,6 @@
   "cannot_be_seen": "Whether the person has COPD or asthma, which matters because theophylline is also used in asthma. Also blood theophylline levels, smoking, and medicines supplied by a hospital or another pharmacy.",
   "ask_the_gp": "Whether theophylline is still the right treatment, and whether a long-acting inhaler would suit the person better.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

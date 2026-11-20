@@ -73,6 +73,6 @@
   "cannot_be_seen": "ECG results and the QT interval, blood potassium and magnesium, and kidney and liver function. Also other medicines that lengthen the QT interval if they were supplied elsewhere, whether the patient takes the full dose, and why this dose was chosen.",
   "ask_the_gp": "The citalopram or escitalopram dose for this patient aged 65 or over, and whether an ECG and blood electrolytes have been checked.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

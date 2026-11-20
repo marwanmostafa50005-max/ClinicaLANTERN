@@ -39,6 +39,6 @@
   "cannot_be_seen": "A dispensing line alone does not establish kidney function or dialysis status. Use any dated renal result with its units and any recorded dialysis status. If either is missing, say which. Supplies alone do not show why treatment began, whether it helps, adverse effects, earlier use or whether doses are taken.",
   "ask_the_gp": "Could you review whether prucalopride is still needed and whether the dose suits a patient aged 65 or over, with a starting dose of 1 mg daily and a maximum of 2 mg daily? Australian product information gives a dose of 1 mg once daily if kidney function is severely reduced and dialysis is not required, and lists prucalopride as contraindicated if kidney impairment requires dialysis.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

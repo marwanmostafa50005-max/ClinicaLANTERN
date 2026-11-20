@@ -50,6 +50,6 @@
   "cannot_be_seen": "Supply lines cannot confirm which doses were taken, medicines supplied elsewhere, the INR response or a bleeding or clotting event.",
   "ask_the_gp": "Could you review the INR results and the monitoring plan for starting and stopping rifampicin?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

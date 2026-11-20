@@ -236,6 +236,6 @@
   "cannot_be_seen": "Whether she is pregnant or planning pregnancy unless the record says so, folic acid bought without a prescription, contraception, and why the antiepileptic is used.",
   "ask_the_gp": "If pregnancy or pregnancy planning is confirmed, could we review folic acid 5 mg daily and the antiepileptic plan with the specialist? If folic acid was added to lamotrigine, could we check for worsening mental health and review the monitoring plan?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

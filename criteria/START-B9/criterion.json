@@ -262,6 +262,6 @@
   "cannot_be_seen": "Whether symptoms persist, whether the ACE inhibitor or angiotensin receptor blocker is at the best dose the person can tolerate, blood pressure, potassium and kidney function, and past swelling of the face or throat (angioedema).",
   "ask_the_gp": "If symptoms on the current ACE inhibitor or angiotensin receptor blocker are unclear, could you confirm whether they persist? If symptoms persist on the best tolerated dose, has a change to sacubitril with valsartan been considered? If the record does not show it, please also confirm the heart failure diagnosis and ejection fraction.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

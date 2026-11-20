@@ -240,6 +240,6 @@
   "cannot_be_seen": "Whether the person has any sleep disturbance or nightmares. The exact diagnosis. Whether the person has tried other statins, and any reason to keep simvastatin such as a past reaction to another statin. When the diagnosis is missing, ask what condition the medicine is for. Ask whether sleep changed or nightmares began while taking simvastatin. Symptoms inform the review and are not required for the finding.",
   "ask_the_gp": "Has the person noticed sleep changes, and would a review of the timing and choice of statin be helpful?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

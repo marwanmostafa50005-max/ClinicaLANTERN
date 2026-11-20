@@ -263,6 +263,6 @@
   "cannot_be_seen": "The reason for the antidepressant, how the person is really taking it, falls and their causes if they were not recorded, and the effect of stopping or changing it on the person's mood or pain.",
   "ask_the_gp": "A review of whether the antidepressant is still needed, and whether a lower dose or a different medicine would be safer for a person with recurrent falls.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

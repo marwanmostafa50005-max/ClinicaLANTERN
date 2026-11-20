@@ -59,6 +59,6 @@
   "cannot_be_seen": "Levels taken elsewhere and not recorded here, how well the person has been, and whether the next level is already booked.",
   "ask_the_gp": "Could you confirm the date of the latest lithium level and review when the next level is due?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

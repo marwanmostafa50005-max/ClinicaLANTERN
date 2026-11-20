@@ -127,6 +127,6 @@
   "cannot_be_seen": "Why the two medicines were started, how long the doctor intended them to continue, and any stent, heart event or carotid scan result not recorded here. Also supplies from a hospital or another pharmacy.",
   "ask_the_gp": "Whether the aspirin is still needed alongside clopidogrel, and whether clopidogrel alone would be enough.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

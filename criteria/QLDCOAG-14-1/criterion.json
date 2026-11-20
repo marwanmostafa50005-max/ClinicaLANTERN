@@ -35,8 +35,8 @@
   "cannot_be_seen": "The record may not show whether a health professional advised a brand change, supplies from another pharmacy, or whether closer INR monitoring is arranged. An empty brand field does not prove a switch.",
   "ask_the_gp": "Could you review the warfarin brand change or concurrent brands, confirm whether substitution was advised by a health professional, and review the INR monitoring plan?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "observation",

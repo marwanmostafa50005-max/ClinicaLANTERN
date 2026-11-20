@@ -225,8 +225,8 @@
   "cannot_be_seen": "A serum potassium or kidney function result when the record holds no line about it, why each medicine was prescribed, whether both are still being taken, and potassium supplements or salt substitutes bought without a prescription.",
   "ask_the_gp": "Whether serum potassium has been checked within the last 6 months while both medicines are being taken together.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "result",

@@ -66,6 +66,6 @@
   "cannot_be_seen": "Use any dated observation about bowel habit or fluid and fibre intake and any recorded potassium or albumin result. Supplies alone do not show these details, the reason for the laxative or how often it was taken. Laxatives bought without a prescription or supplied elsewhere may be missing.",
   "ask_the_gp": "A review of whether the stimulant laxative is still needed, taking account of the patient's bowel habit and their fluid and salt balance.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

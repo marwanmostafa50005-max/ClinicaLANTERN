@@ -114,6 +114,6 @@
   "cannot_be_seen": "Dispensing does not establish actual use, indication or a prescriber’s intent. Treatment and assessments elsewhere may be missing.",
   "ask_the_gp": "Could you confirm whether the patient has sleep apnoea and review whether the benzodiazepine remains suitable? If the benzodiazepine is still being used and sleep apnoea is confirmed, could we review it today before the next dose?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

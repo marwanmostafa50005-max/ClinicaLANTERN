@@ -221,6 +221,6 @@
   "cannot_be_seen": "The reason for each medicine, kidney function, body weight and any bleeding or bruising may be unknown unless recorded in the history. Also whether the prescriber has already allowed for the combination, whether a short course was finished, and medicines supplied by a hospital or another pharmacy.",
   "ask_the_gp": "The anticoagulant together with the P-glycoprotein inhibitor, including the anticoagulant dose, kidney function and the patient's risk of bleeding.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

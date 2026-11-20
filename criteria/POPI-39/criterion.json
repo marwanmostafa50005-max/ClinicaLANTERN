@@ -89,8 +89,8 @@
   "cannot_be_seen": "Drops given elsewhere, the appearance of the eardrum and the reason for the drops may be missing. Australian guidance allows short-term pain-relieving drops for severe ear pain with an intact eardrum.",
   "ask_the_gp": "Could you confirm the diagnosis in the treated ear, whether the eardrum was intact and the purpose of the drops?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "condition",

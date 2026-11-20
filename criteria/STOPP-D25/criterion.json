@@ -107,6 +107,6 @@
   "cannot_be_seen": "Why the antihistamine was supplied and how it is really taken. A night-time direction suggests sleep but does not prove it. Also any sleep medicine bought over the counter or supplied by another pharmacy.",
   "ask_the_gp": "A review of whether the antihistamine is still needed for sleep, whether a safer option for short-term sleep problems suits the person, and their risk of confusion, drowsiness and falls.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

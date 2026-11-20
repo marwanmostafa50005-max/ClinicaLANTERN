@@ -91,6 +91,6 @@
   "cannot_be_seen": "How high the blood pressure has been, how steady it is, and how well it is controlled, when the record has no such lines. Home readings and readings taken at other clinics do not show.",
   "ask_the_gp": "Could we review mirabegron today if the patient is taking it and current blood pressure is confirmed at 180 mmHg systolic or higher or 110 mmHg diastolic or higher? Otherwise, could we review the recent blood pressure and whether mirabegron remains suitable?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

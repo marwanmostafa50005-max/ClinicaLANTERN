@@ -178,6 +178,6 @@
   "cannot_be_seen": "Why the steroid is taken and any dose changes between supplies. Also calcium and vitamin D bought without a prescription, which are often not in the record, bone medicines supplied by a hospital or another pharmacy, bone density results, a past fracture, and kidney function, which can limit a bisphosphonate.",
   "ask_the_gp": "A review of bone protection for the long-term steroid, including a bisphosphonate, vitamin D and calcium, or the reason it is not needed.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

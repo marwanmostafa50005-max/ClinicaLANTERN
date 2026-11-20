@@ -38,6 +38,6 @@
   "cannot_be_seen": "Unlabelled over-the-counter purchases may be missing from this history, even when bought here. Ask whether the patient takes ginkgo, why they take it and whether they have felt dizzy on standing or had a fall. Standing blood pressure is unknown unless recorded.",
   "ask_the_gp": "A review of whether ginkgo biloba is still needed, and whether it adds to the risk of falls.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

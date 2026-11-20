@@ -46,6 +46,6 @@
   "cannot_be_seen": "Supplies alone do not show why treatment started, its intended duration or how many tablets the person takes each day. Check dated entries for palliative care, kidney function, ECG results, shaking, stiffness or restlessness. Medicines supplied elsewhere may be missing.",
   "ask_the_gp": "Could you confirm what this medicine is treating and review whether it is still needed at this dose and for this duration, taking account of the patient's age, kidney function and heart rhythm?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

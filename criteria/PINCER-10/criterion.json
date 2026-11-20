@@ -39,6 +39,6 @@
   "cannot_be_seen": "Why amiodarone was prescribed, the heart rhythm it is controlling, recent thyroid, liver and lung checks and their results when the record holds no line about them, eye symptoms, and how the patient really takes it.",
   "ask_the_gp": "Whether more than 200 mg of amiodarone a day is the dose intended for long-term use, and whether a heart specialist is guiding the dose.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

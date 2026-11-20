@@ -409,6 +409,6 @@
   "cannot_be_seen": "Whether the person has moderate or severe frailty, the true blood pressure over time (readings at home or in the clinic), and any reason a doctor chose not to treat. Also medicines supplied by a hospital or another pharmacy.",
   "ask_the_gp": "The person's blood pressure and whether treatment should be started or reviewed.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

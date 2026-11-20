@@ -55,6 +55,6 @@
   "cannot_be_seen": "Why it was prescribed (for example angina, a heart rhythm problem or blood pressure), the person's heart rate, and whether they have constipation.",
   "ask_the_gp": "Could we review the indication, pulse, constipation and symptoms? If the medicine is used for atrial fibrillation, could we review the rate-control plan and ventricular function before considering a change?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

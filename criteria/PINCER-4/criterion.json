@@ -185,6 +185,6 @@
   "cannot_be_seen": "Clots recorded elsewhere, the reason the pill was chosen, any other cause of the clot, and whether the doctor has already weighed the risk.",
   "ask_the_gp": "Could you confirm whether there is a history of venous or arterial thrombosis? If so, could you review the suitability of the combined pill and discuss other options with the patient?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

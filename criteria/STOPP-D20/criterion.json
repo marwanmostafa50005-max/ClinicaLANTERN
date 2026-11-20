@@ -89,6 +89,6 @@
   "cannot_be_seen": "Why the product is taken (for example omega-3 for blood fats or modafinil for a sleep disorder), and products bought without a record.",
   "ask_the_gp": "Could you confirm the purpose of this product and, if it is being used for cognitive symptoms of dementia, review its likely benefits and risks for this person?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

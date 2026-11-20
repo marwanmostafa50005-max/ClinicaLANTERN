@@ -96,6 +96,6 @@
   "cannot_be_seen": "Dispensing does not establish the dose taken. Kidney results obtained elsewhere, their units and their timing may be missing.",
   "ask_the_gp": "Could you review the nizatidine dose and the time between doses against the patient’s creatinine clearance and the reason for treatment, including whether a duodenal ulcer has healed?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

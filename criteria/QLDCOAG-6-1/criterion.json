@@ -35,8 +35,8 @@
   "cannot_be_seen": "Pregnancy and gestation may not be recorded. High thrombosis risk, haematologist guidance, and care outside this pharmacy may also be absent from the record.",
   "ask_the_gp": "Could you urgently review warfarin in relation to pregnancy, including gestation, thrombosis risk and any expert haematologist guidance?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "condition",

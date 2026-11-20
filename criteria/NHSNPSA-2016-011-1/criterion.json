@@ -121,8 +121,8 @@
   "cannot_be_seen": "Supply lines and label directions do not show who gives insulin, the actual withdrawal method, the dose given, or whether an error already occurred. The pharmacist must obtain the method status. An absent answer is not a safe method.",
   "ask_the_gp": "Could the care team review the insulin administration method and dose today, and recommend pen needles or another safe insulin supply?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "observation",

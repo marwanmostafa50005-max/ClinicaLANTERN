@@ -163,6 +163,6 @@
   "cannot_be_seen": "Check condition and observation rows for the reason treatment started or continues, such as Barrett’s oesophagus, severe oesophagitis or a past bleeding ulcer. The history may show an anti-inflammatory medicine, aspirin or an anticoagulant. That supply alone does not establish a need for stomach protection at this dose. Without a recorded reason, the indication is unknown. Actual daily use, a previous lower-dose trial and purchases without a prescription may also be unknown.",
   "ask_the_gp": "Whether there is a continuing reason for the proton pump inhibitor after more than 8 weeks of supply, and whether the dose and the length of treatment have been reviewed.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

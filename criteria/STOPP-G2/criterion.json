@@ -161,6 +161,6 @@
   "cannot_be_seen": "Whether the person has COPD and how severe it is, why the steroid tablets were started, and the dose actually taken. Also breathing test results, and medicines supplied by a hospital or another pharmacy.",
   "ask_the_gp": "Whether the long-term steroid tablets are still needed, and whether an inhaled steroid treatment would be suitable instead.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

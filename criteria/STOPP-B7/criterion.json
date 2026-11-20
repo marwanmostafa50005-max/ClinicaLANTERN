@@ -464,6 +464,6 @@
   "cannot_be_seen": "Why the water tablet was started, and swelling or kidney and liver problems that are not in the record. A first-line blood pressure medicine supplied by another pharmacy or a hospital.",
   "ask_the_gp": "A review of why the loop diuretic is used and whether a first-line blood pressure medicine would suit better.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

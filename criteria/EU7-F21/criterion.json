@@ -31,6 +31,6 @@
   "cannot_be_seen": "Why iron was started, the haemoglobin and iron study results, and whether the patient has constipation. Also how many tablets are really taken each day, iron bought without a prescription, and medicines supplied by a hospital or another pharmacy.",
   "ask_the_gp": "Whether more than 325 mg of ferrous sulfate a day is still needed, and whether the patient has constipation.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

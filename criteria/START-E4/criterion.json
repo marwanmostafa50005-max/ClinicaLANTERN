@@ -240,6 +240,6 @@
   "cannot_be_seen": "Why an ACE inhibitor or ARB was never started or was stopped, such as a high potassium, a sharp fall in kidney function, swelling of the face or lips, or low blood pressure. Also results held only by a hospital or specialist, and whether the person is near the end of life.",
   "ask_the_gp": "Whether an ACE inhibitor or an ARB is suitable for this person, with a check of blood pressure, potassium and kidney function.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

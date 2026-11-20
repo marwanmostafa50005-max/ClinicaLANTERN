@@ -106,6 +106,6 @@
   "cannot_be_seen": "Check any recorded symptoms, glucose, ketones, kidney function and sick-day plan. Current medicine use, outside supplies and results or advice recorded elsewhere may need confirmation.",
   "ask_the_gp": "Metformin has been supplied. Could you confirm current use and illness status and, if the patient is taking metformin during a dehydrating illness, review a temporary pause, glucose monitoring and safe restart as part of a written sick-day plan?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

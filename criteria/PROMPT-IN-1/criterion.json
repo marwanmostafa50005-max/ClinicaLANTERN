@@ -38,8 +38,8 @@
   "cannot_be_seen": "Why nitrofurantoin was prescribed, so a long-term low-dose course to prevent infection looks the same as a long treatment course. Also kidney function results, and whether the patient finished the course.",
   "ask_the_gp": "Whether a course longer than 7 days is intended, and the reason for it.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "observation",

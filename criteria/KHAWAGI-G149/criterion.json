@@ -265,6 +265,6 @@
   "cannot_be_seen": "Outside pathology or follow-up may be missing. An incomplete observation window cannot establish an overdue test.",
   "ask_the_gp": "Could you confirm the date of the latest laboratory plasma glucose or HbA1c during maintenance antipsychotic treatment and the follow-up plan?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

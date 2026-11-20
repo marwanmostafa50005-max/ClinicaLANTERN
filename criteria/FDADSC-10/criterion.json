@@ -93,6 +93,6 @@
   "cannot_be_seen": "Over-the-counter omeprazole or esomeprazole, including products such as Maxor Heartburn Relief and Nexium 24HR, medicines supplied by another pharmacy or hospital, actual concurrent ingestion, treatment changes after supply, and the prescriber's reason for judging the combination essential are not visible in a dispensing history.",
   "ask_the_gp": "Could you review whether clopidogrel with omeprazole or esomeprazole is essential and whether pantoprazole or rabeprazole could provide suitable gastroprotection?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

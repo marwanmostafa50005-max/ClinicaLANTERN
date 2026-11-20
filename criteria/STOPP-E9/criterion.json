@@ -131,6 +131,6 @@
   "cannot_be_seen": "Current kidney function if the record holds none, the reason for treatment, how long treatment has lasted, and infusions given in hospital.",
   "ask_the_gp": "A review of the patient's kidney function and whether the bisphosphonate should continue.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

@@ -43,6 +43,6 @@
   "cannot_be_seen": "Use any recorded heart failure, leg swelling, fracture, osteoporosis, current or past bladder cancer, blood glucose or HbA1c result. If a detail is missing, dispensing alone cannot establish it. Earlier pioglitazone exposure may extend beyond the period shown.",
   "ask_the_gp": "Could you review whether pioglitazone still suits the patient's age, considering the risk of new or worsening heart failure, fracture risk and any bladder problems?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

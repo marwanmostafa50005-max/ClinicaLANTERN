@@ -422,6 +422,6 @@
   "cannot_be_seen": "The person's actual sodium level, whether each medicine is really taken, and other medicines that can lower sodium.",
   "ask_the_gp": "A serum sodium check and a review of whether all of these medicines are still needed.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

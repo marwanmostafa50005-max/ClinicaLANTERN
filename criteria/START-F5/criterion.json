@@ -125,6 +125,6 @@
   "cannot_be_seen": "Why the person uses a stimulant laxative, how long the constipation has lasted, and whether a bowel blockage or another serious cause has been ruled out. Laxatives or iron bought without a dispensing label and medicines supplied elsewhere may be missing. A local opioid or iron supply is visible, but the supply alone does not establish the cause.",
   "ask_the_gp": "Whether an osmotic laxative would suit this person, and whether the cause of the constipation has been looked for.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

@@ -142,6 +142,6 @@
   "cannot_be_seen": "Prostate and bladder symptoms that were never recorded, and past urine retention treated in hospital. Also how strong the anticholinergic effect is for the person at their dose, and supplies from another pharmacy.",
   "ask_the_gp": "A review of the antipsychotic in view of the person's prostate or bladder emptying problems, and whether an antipsychotic with weaker anticholinergic effects suits them.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

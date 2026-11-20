@@ -205,6 +205,6 @@
   "cannot_be_seen": "The record cannot show non-prescription aspirin, over-the-counter proton pump inhibitors or H2-receptor antagonists, intentional specialist antithrombotic therapy plans, or medicines supplied elsewhere.",
   "ask_the_gp": "Could you review the ongoing need for combined oral anticoagulant and antiplatelet therapy and whether gastro-protection is appropriate, noting that pantoprazole is preferred over omeprazole or esomeprazole with clopidogrel? Neither antithrombotic medicine should be stopped abruptly without prescriber review.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

@@ -218,6 +218,6 @@
   "cannot_be_seen": "Whether the person has a past vertebral fracture when no line says so, any bone scan or risk score, past bisphosphonate use or intolerance, kidney function, dental problems and swallowing problems.",
   "ask_the_gp": "Is there a documented vertebral fracture without significant trauma? If so, could you review current osteoporosis treatment and whether an oral bisphosphonate is suitable?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

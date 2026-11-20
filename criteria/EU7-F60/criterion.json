@@ -50,6 +50,6 @@
   "cannot_be_seen": "Why the medicine was prescribed (Parkinson's disease or side effects of an antipsychotic), whether it is working, and any confusion, falls or dizziness on standing.",
   "ask_the_gp": "Whether the anticholinergic medicine is still needed, and whether a safer option for this person is worth discussing.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

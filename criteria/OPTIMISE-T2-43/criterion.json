@@ -91,6 +91,6 @@
   "cannot_be_seen": "Whether the person stopped smoking suddenly, whether the dose was changed outside the pharmacy, and any side effects or change in mental state.",
   "ask_the_gp": "If an abrupt smoking stop during olanzapine treatment is confirmed, could we review the dose, adverse effects and mental state, including any checks still outstanding?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

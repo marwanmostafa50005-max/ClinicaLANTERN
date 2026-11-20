@@ -103,6 +103,6 @@
   "cannot_be_seen": "Vaccines given years ago, by a doctor or clinic, or before the history starts. A history that does not show a vaccine does not prove none was given. Also whether a younger person has a risk condition or is Aboriginal or Torres Strait Islander, and the age at which national guidance recommends the vaccine.",
   "ask_the_gp": "A check of the person's pneumococcal vaccination history and whether a dose should be given.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

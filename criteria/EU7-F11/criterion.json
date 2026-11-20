@@ -64,6 +64,6 @@
   "cannot_be_seen": "Use any dated entry about the cause of diarrhoea, bowel infection, inflammatory bowel disease or palliative care. Supplies alone do not establish these facts, how many doses were taken or for how many days. Loperamide bought without a prescription may be missing.",
   "ask_the_gp": "A review of the cause of the diarrhoea and of whether this medicine is still needed.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

@@ -120,6 +120,6 @@
   "cannot_be_seen": "Whether the person really has dementia if no diagnosis is recorded, what the benzodiazepine was prescribed for (agitation, anxiety, sleep or another reason), and any benzodiazepine given in hospital or a care home.",
   "ask_the_gp": "A review of whether the benzodiazepine is needed for this person with dementia, and of non-drug options for the behaviour.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

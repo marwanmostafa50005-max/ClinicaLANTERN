@@ -50,6 +50,6 @@
   "cannot_be_seen": "The latest kidney test if none is on the record, whether the dose was reduced after the test, and the reason for the anticoagulant.",
   "ask_the_gp": "Could you confirm the current Cockcroft-Gault creatinine clearance and review whether dabigatran is suitable given the bleeding risk?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

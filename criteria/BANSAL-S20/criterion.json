@@ -110,6 +110,6 @@
   "cannot_be_seen": "Heart rhythm problems that were never recorded, the type and cause of the tachycardia, heart medicines supplied elsewhere and device treatment such as an implanted defibrillator unless documented, and whether the pain is cancer pain or end of life care.",
   "ask_the_gp": "Could you confirm any history of ventricular tachycardia if it is unclear, and review the suitability of this opioid and whether a rhythm check is needed?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

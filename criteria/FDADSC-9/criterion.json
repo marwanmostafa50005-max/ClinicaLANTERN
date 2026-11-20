@@ -85,7 +85,7 @@
   "cannot_be_seen": "Breastfeeding status may be absent or out of date. Supply does not prove ingestion. The infant's age, sedation and breathing are not shown, and supplies elsewhere may be absent.",
   "ask_the_gp": "A review of codeine or tramadol use while breastfeeding and the feeding plan.",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "only_sex": "female"
 }

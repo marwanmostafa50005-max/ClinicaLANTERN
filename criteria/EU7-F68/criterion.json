@@ -35,6 +35,6 @@
   "cannot_be_seen": "Why it was started, kidney function, heart tracing results, how long it has really been taken, and how much is really taken.",
   "ask_the_gp": "A review of whether chloral hydrate is still needed and whether a safer choice or a non-medicine approach for sleep is possible.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

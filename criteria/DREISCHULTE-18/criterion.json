@@ -488,6 +488,6 @@
   "cannot_be_seen": "Supply dates alone cannot show what the person took, medicines obtained elsewhere, non-prescription NSAIDs or the effect on kidney function.",
   "ask_the_gp": "Could you review the need for the oral NSAID during combined treatment and check the latest kidney function and potassium?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

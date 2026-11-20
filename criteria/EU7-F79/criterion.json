@@ -47,6 +47,6 @@
   "cannot_be_seen": "When no relevant result or observation lines are recorded: blood pressure readings and kidney function. The record also does not show the reason for purchase (cold, sinus or bladder control) or other cold products bought elsewhere.",
   "ask_the_gp": "A check of the person's blood pressure and whether a decongestant is suitable for them, with kidney function in mind when pseudoephedrine is used.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

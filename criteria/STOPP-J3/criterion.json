@@ -310,6 +310,6 @@
   "cannot_be_seen": "The record may omit low blood sugar episodes, warning symptoms, glucose and HbA1c results, or the reason the beta-blocker was started.",
   "ask_the_gp": "A review of the beta-blocker choice for this person, taking into account any low blood sugar episodes.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

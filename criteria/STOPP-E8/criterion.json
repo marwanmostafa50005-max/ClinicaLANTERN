@@ -64,6 +64,6 @@
   "cannot_be_seen": "Current kidney function if the record holds none, the infection being treated, whether a single supply is for a short course or ongoing prevention, and any hospital or other pharmacy supplies.",
   "ask_the_gp": "A review of the patient's kidney function and whether nitrofurantoin is still the right choice.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

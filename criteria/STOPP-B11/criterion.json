@@ -35,6 +35,6 @@
   "cannot_be_seen": "Blood pressure readings and symptoms such as dizziness, drowsiness or dry mouth may be recorded as dated observations. The reason for treatment, previous medicines tried and whether the person still takes the medicine may be unknown. Clonidine and guanfacine are sometimes used for reasons other than blood pressure.",
   "ask_the_gp": "Whether the centrally-acting blood pressure medicine is still needed, and how well the patient is tolerating it.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

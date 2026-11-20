@@ -54,6 +54,6 @@
   "cannot_be_seen": "The supplies alone cannot show whether both medicines were taken, how the INR changed, whether bleeding occurred or what monitoring was arranged elsewhere.",
   "ask_the_gp": "Could you review the sulfonamide antibiotic and the plan for checking the INR during and after treatment?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

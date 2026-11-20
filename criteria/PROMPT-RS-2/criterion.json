@@ -202,8 +202,8 @@
   "cannot_be_seen": "The record may omit inhalers bought without a prescription, supplied by another pharmacy, hospital or specialist, or already on hand. It may also lack the reason for theophylline, the asthma or COPD diagnosis and theophylline blood levels. Confirm other respiratory treatment before describing theophylline as the only medicine used.",
   "ask_the_gp": "Whether theophylline is still the right treatment, and whether an inhaled treatment should be added or used instead.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "observation",

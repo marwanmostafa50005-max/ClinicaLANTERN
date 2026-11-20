@@ -44,8 +44,8 @@
   "cannot_be_seen": "Supply dates and pack sizes alone cannot establish the last dose. A positive test or the first pregnancy entry alone cannot date conception. These records do not establish the advice given, a legal breach or fetal harm.",
   "ask_the_gp": "Could you review any possible pregnancy against the last dose of oral isotretinoin and advise on follow-up if conception may have occurred within one calendar month after treatment?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "observation",

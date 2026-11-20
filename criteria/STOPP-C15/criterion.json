@@ -121,6 +121,6 @@
   "cannot_be_seen": "Whether the person has ever had a clot unless it is recorded, why the hormone was started, and any specialist advice. Also the clot treatment given, and supplies from another pharmacy or a hospital.",
   "ask_the_gp": "Whether the hormone is still needed given the past clot, and whether a safer option or a specialist review is appropriate.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

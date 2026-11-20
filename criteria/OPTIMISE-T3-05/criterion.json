@@ -199,6 +199,6 @@
   "cannot_be_seen": "Why the dose was lowered, whether the person has stopped or cut down smoking, side effects, blood levels, and any dose changes made without a new supply.",
   "ask_the_gp": "A review of the dose change and a check for side effects, with the person's smoking status in mind.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

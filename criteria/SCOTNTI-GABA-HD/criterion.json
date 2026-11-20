@@ -70,6 +70,6 @@
   "cannot_be_seen": "A supply record does not prove the dose taken or a complete six-month average. Directions may be unclear. Early refills, travel supply, a dose reduction, kidney function and supplies from elsewhere can change interpretation. The observation records pharmacist verification, not proof of dependence.",
   "ask_the_gp": "Could you review the average prescribed dose over the previous six months, the indication, kidney function and ongoing benefit? The Public Health Scotland indicator flags an average above 3900 mg/day of gabapentin or its equivalent (650 mg/day of pregabalin). Could you check the dose against the product information for this formulation and indication? Abrupt withdrawal can cause withdrawal symptoms and seizures, especially in epilepsy.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

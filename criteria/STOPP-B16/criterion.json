@@ -160,6 +160,6 @@
   "cannot_be_seen": "How frail the person is, their life expectancy, whether the statin was started for an earlier heart attack or stroke, the person's wishes, and any goals of care discussion.",
   "ask_the_gp": "A review of whether the statin is still of benefit given the person's age, frailty and goals of care.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

@@ -328,6 +328,6 @@
   "cannot_be_seen": "Whether the person really has had a heart attack, stroke or similar event if it was not recorded. Why no statin was used, such as past side effects or a decision by the person. Statins supplied elsewhere. The daily dose when strength or directions are missing or unclear. Ask whether a clinician has diagnosed severe mental illness or vascular disease, such as a heart attack, angina, peripheral arterial disease, stroke or transient ischaemic attack. Check the type of stroke and the indication for lipid lowering in the record. Ask about statins supplied elsewhere and whether side effects, interactions or preference explain a lower dose.",
   "ask_the_gp": "Could you review whether to start a statin for secondary prevention or, if a lower-intensity dose is being used, whether the dose suits the person's interactions, risk of adverse effects and preferences?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

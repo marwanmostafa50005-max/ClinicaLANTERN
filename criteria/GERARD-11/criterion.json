@@ -89,6 +89,6 @@
   "cannot_be_seen": "A first visible dispensing may be a refill from a prescription started elsewhere. The record may omit the original start date and the person's treatment goals.",
   "ask_the_gp": "Could you confirm when repaglinide or the sulfonylurea was started and review its suitability given the person’s age at the time and risk of hypoglycaemia?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

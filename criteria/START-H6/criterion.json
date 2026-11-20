@@ -125,8 +125,8 @@
   "cannot_be_seen": "A pharmacy supply does not establish when denosumab was given. Clinic or hospital doses, outside infusions, the reason for stopping and the follow-on plan may be missing. Confirm dates, later doses and the follow-on medicine and regimen against the clinic record.",
   "ask_the_gp": "Could you confirm when the last denosumab dose was given and whether treatment is continuing? If it has stopped or the next six-monthly dose is overdue, could you review what follow-on bone protection has been given or planned?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "observation",

@@ -220,6 +220,6 @@
   "cannot_be_seen": "Heart rate and ECG results that are missing from the record, any fainting, dizziness or falls, why each medicine was prescribed, whether both are still being taken, and medicines supplied by another pharmacy or a hospital.",
   "ask_the_gp": "The patient's heart rate, any fainting, dizziness or falls, and whether both medicines are still meant to be taken together.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

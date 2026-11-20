@@ -44,8 +44,8 @@
   "cannot_be_seen": "Pregnancy may not be recorded. The reason for pregabalin, clinical necessity, benefits and risks, alternatives, counselling, and actual use cannot be decided from supplies. Supplies elsewhere are not visible.",
   "ask_the_gp": "Could you confirm pregnancy status and review with the patient whether pregabalin is clearly necessary, its benefits, risks and suitable alternatives? If pregabalin is used for epilepsy and pregnancy is confirmed, suspected or planned, could you arrange urgent specialist advice? Please ensure the patient is advised not to stop pregabalin abruptly before review.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "condition",

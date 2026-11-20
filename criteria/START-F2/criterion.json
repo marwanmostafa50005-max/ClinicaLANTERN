@@ -195,6 +195,6 @@
   "cannot_be_seen": "Whether aspirin is really new for this person, because earlier supplies by another pharmacy or bought over the counter are not shown. The date the ulcer or oesophagitis began or healed may be missing. The record may not show whether a proton pump inhibitor was stopped for a reason.",
   "ask_the_gp": "Whether a proton pump inhibitor should be given while low-dose aspirin continues, given the past ulcer or oesophagitis.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

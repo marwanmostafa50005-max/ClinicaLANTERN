@@ -335,6 +335,6 @@
   "cannot_be_seen": "Whether the person really takes both medicines at the same time, medicines bought over the counter (for example some cough medicines), and doses changed outside the pharmacy. Group B is only a list of examples.",
   "ask_the_gp": "A check of whether tranylcypromine and the other serotonergic medicine can safely be taken together, and a review of the combination.",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

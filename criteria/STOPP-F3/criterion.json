@@ -251,6 +251,6 @@
   "cannot_be_seen": "Whether the patient has constipation if the record holds none, bowel habit, laxatives bought without a prescription, and whether a medicine without the constipating effect is suitable for that person.",
   "ask_the_gp": "A review of whether a medicine that does not cause constipation can be used instead.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

@@ -54,6 +54,6 @@
   "cannot_be_seen": "Folic acid bought without a prescription or taken inside a multivitamin, folinic acid given by a specialist, and folic acid supplied by another pharmacy or a hospital. Also why methotrexate was prescribed.",
   "ask_the_gp": "A review of whether a folic acid supplement should be taken with the methotrexate.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

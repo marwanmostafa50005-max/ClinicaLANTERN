@@ -205,6 +205,6 @@
   "cannot_be_seen": "A dispensing record may miss over-the-counter NSAIDs and supplies from other pharmacies. Check the route, recent use of as-needed pain relief, current symptoms and the sick-day plan with the patient.",
   "ask_the_gp": "Could you review the risk of acute kidney injury, whether the patient is still using the NSAID and whether a pause is appropriate and what pain relief is suitable during the illness? If the NSAID is still needed, when can the patient restart once well and eating and drinking normally? Could you advise on the sick-day plan and prompt review if symptoms persist or worsen? If heart failure is decompensated, could you arrange urgent assessment and review NSAID use?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

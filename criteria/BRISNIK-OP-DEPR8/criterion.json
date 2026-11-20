@@ -171,6 +171,6 @@
   "cannot_be_seen": "A recorded assessment may describe the response to the lower dose. Supplies alone cannot show how the person took the medicine, how symptoms changed, why the dose was raised, or what another pharmacy or hospital supplied.",
   "ask_the_gp": "Could you confirm why the SSRI was prescribed, what dose was tried and how symptoms changed, and review the current dose?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

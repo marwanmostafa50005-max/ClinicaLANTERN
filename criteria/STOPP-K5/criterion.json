@@ -237,6 +237,6 @@
   "cannot_be_seen": "The record may omit the reason for treatment, seizure history, drug levels and dose changes. Some of these medicines are used for nerve pain, mood or migraine. Dispensing alone cannot establish the dose taken or seizure control.",
   "ask_the_gp": "Whether the anti-epileptic is still needed at this dose, given the falls. A falls and medicines review with the treating specialist if the person has epilepsy.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

@@ -323,6 +323,6 @@
   "cannot_be_seen": "Whether the stiffness and tremor were caused by the medicine or are Parkinson's disease, and which came first. Also why a dopamine agonist was supplied, since some are used for restless legs or high prolactin. Supplies from a hospital or another pharmacy are not seen.",
   "ask_the_gp": "A review of whether the movement symptoms are caused by the antipsychotic or other medicine, and whether that medicine can be changed or reduced instead of adding levodopa or a dopamine agonist.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

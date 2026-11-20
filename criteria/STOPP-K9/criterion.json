@@ -101,6 +101,6 @@
   "cannot_be_seen": "The reason for the alpha blocker, lying and standing blood pressures, and the number and causes of falls may be unknown unless recorded. The record may also omit blood pressure medicines bought or supplied elsewhere.",
   "ask_the_gp": "A review of whether the alpha blocker is still needed for blood pressure, and whether another option would carry less risk of dizziness on standing.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

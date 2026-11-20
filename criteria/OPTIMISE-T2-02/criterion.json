@@ -309,6 +309,6 @@
   "cannot_be_seen": "The risk score itself if no one recorded it, and the tool used. Smoking, blood pressure and cholesterol values. Past statin intolerance, a decision by the person to decline a statin, and statins supplied by a hospital or another pharmacy. Ask whether the person has been diagnosed with a severe mental illness, takes a statin from another pharmacy, or previously declined or could not tolerate one. Ask whether their doctor assessed cardiovascular risk and whether the result and tool are available.",
   "ask_the_gp": "Whether a statin should be started, after a review of the person's cardiovascular risk and any reason not to use one.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

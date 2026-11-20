@@ -257,8 +257,8 @@
   "cannot_be_seen": "Why each antidepressant was prescribed (low doses of amitriptyline and doxepin are often used for pain or sleep), who made the decision, and whether both are still taken. Medicines supplied by a hospital or another pharmacy.",
   "ask_the_gp": "Whether both antidepressants are still needed, and which one is the main treatment.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" },
   "needs_facts": [
     {
       "kind": "observation",

@@ -347,6 +347,6 @@
   "cannot_be_seen": "The strength and directions can show the prescribed steroid dose and course length. The record may omit actual use, the reason for the loop diuretic, the presence or severity of heart failure, and NSAIDs bought without a prescription.",
   "ask_the_gp": "Could you confirm any missing heart failure diagnosis or reason for the loop diuretic and review the NSAID or systemic steroid and fluid status if the courses overlapped during treatment for heart failure?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

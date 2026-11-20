@@ -322,6 +322,6 @@
   "cannot_be_seen": "How many episodes there really were and how much they affected daily life, whether the person is really in remission, why the antidepressant was continued, and the person's wishes about stopping. Medicines supplied by a hospital or another pharmacy.",
   "ask_the_gp": "Whether the antidepressant is still needed, and the plan for continuing or stopping it, given the history of repeated episodes.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

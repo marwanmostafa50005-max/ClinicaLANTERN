@@ -191,6 +191,6 @@
   "cannot_be_seen": "Whether a pacemaker has been fitted, how recent and how often the pulse was checked, and any ECG that was not entered in the record. Also why the medicine was started and whether it is still taken.",
   "ask_the_gp": "A review of whether the heart rate slowing medicine is still suitable, with a current pulse and ECG check.",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

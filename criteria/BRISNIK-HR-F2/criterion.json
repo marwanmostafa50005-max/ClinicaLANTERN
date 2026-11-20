@@ -466,6 +466,6 @@
   "cannot_be_seen": "A dated condition, observation or result may document the diagnosis, past stomach or bowel bleeding, kidney function or blood counts. A missing entry leaves that information unknown. F2 can be assessed from age and supplies alone. Supplies here do not establish actual use, treatment duration, or medicines bought without a prescription or supplied by a hospital or another pharmacy.",
   "ask_the_gp": "Whether the antidepressant is still needed alongside the antiplatelet, anticoagulant or NSAID medicines supplied with it, and the patient's risk of stomach or bowel bleeding.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

@@ -137,6 +137,6 @@
   "cannot_be_seen": "Why each medicine was prescribed, any switch that is missing from the record, the doses actually taken or any verbal dose changes, and any symptoms of serotonin syndrome. Also any supply from another pharmacy.",
   "ask_the_gp": "Could we review today whether both medicines are being taken or are about to be taken together, including any planned switch and signs of serotonin toxicity? If the overlap has ended and there are no ongoing symptoms, could we review the treatment history at the next routine review?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

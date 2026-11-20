@@ -177,6 +177,6 @@
   "cannot_be_seen": "The record cannot show aspirin bought without a prescription (such as Cartia or Astrix), non-prescription proton pump inhibitors or H2-receptor antagonists, medicines supplied by a hospital or another pharmacy, the clinical reason or planned duration for dual antiplatelet therapy, or the patient's individual gastrointestinal bleeding risk factors.",
   "ask_the_gp": "Could you review whether ongoing gastro-protection is appropriate alongside dual antiplatelet therapy, noting that if the patient takes clopidogrel, pantoprazole, lansoprazole or rabeprazole is preferred over omeprazole or esomeprazole, and confirm the planned duration of dual antiplatelet therapy? Neither antiplatelet medicine should be stopped abruptly without prescriber review.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

@@ -177,6 +177,6 @@
   "cannot_be_seen": "Whether the person has sexual problems, when they began, and whether they are caused by the medicine, the illness or something else.",
   "ask_the_gp": "A review of whether sexual problems are linked to this antidepressant and whether a change of dose or medicine is worth considering.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

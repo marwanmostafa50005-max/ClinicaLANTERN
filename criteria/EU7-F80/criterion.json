@@ -33,6 +33,6 @@
   "cannot_be_seen": "Kidney disease is unknown if there is no relevant diagnosis in the record. Kidney function is unknown if there is no relevant dated result. The reason for choosing oral terbutaline, actual use and supplies from other pharmacies may also be unknown.",
   "ask_the_gp": "Whether the oral terbutaline is still needed or an inhaled form could be used instead, and whether the dose suits the patient's kidney function.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

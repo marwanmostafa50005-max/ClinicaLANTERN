@@ -39,6 +39,6 @@
   "cannot_be_seen": "Kidney function, the reason for treatment (for example a urine infection or prevention of infections), culture results, lung or liver symptoms, and how many days the person really took it.",
   "ask_the_gp": "Whether the nitrofurantoin is still needed beyond one week, the person's kidney function, and whether any lung or liver symptoms need a check.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

@@ -84,6 +84,6 @@
   "cannot_be_seen": "Dispensing does not establish the dose taken. Kidney results obtained elsewhere, their units and their timing may be missing.",
   "ask_the_gp": "Methenamine hippurate is contraindicated when eGFR is below 10 mL/min/1.73 m². Could you confirm whether it is being used to prevent UTI and review suitability before further supply against the current indexed eGFR?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

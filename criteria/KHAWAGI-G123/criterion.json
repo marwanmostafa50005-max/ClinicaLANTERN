@@ -156,6 +156,6 @@
   "cannot_be_seen": "Dispensing does not establish actual use, indication or a prescriber’s intent. Treatment and assessments elsewhere may be missing.",
   "ask_the_gp": "Could you review the lamotrigine dose, symptom control and possible side effects in light of when the patient started, took or stopped the combined pill?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

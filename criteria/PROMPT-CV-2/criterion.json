@@ -54,8 +54,8 @@
   "cannot_be_seen": "Why aspirin was prescribed, whether the person takes it for pain or to prevent clots, how much is really taken, aspirin bought without a prescription, and any bleeding history.",
   "ask_the_gp": "A review of whether this is antiplatelet therapy, whether the aspirin dose is above 150 mg a day, and whether a lower daily dose would be enough.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "observation",

@@ -59,6 +59,6 @@
   "cannot_be_seen": "Use any recorded glucose or HbA1c results and any dated entry about low blood sugar. Supplies alone do not show these facts or how the patient chooses each dose. An “as directed” label does not establish a sliding scale. Insulin supplied by a hospital or another pharmacy may be missing.",
   "ask_the_gp": "A review of the insulin plan, including whether a sliding scale is still in use and the patient's risk of low blood sugar.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

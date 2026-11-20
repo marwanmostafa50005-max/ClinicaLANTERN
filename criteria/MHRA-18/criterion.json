@@ -68,8 +68,8 @@
   "cannot_be_seen": "Pregnancy, childbearing potential, contraception, pregnancy tests, transplant circumstances and suitable alternatives may not be recorded. Actual use and supplies elsewhere are not visible. The tool cannot decide the transplant exception.",
   "ask_the_gp": "Could you review pregnancy status, reliable contraception and the suitability of alternatives, including the need to prevent transplant rejection?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "observation",

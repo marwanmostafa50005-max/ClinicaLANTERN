@@ -292,6 +292,6 @@
   "cannot_be_seen": "Whether the person has ever had a stomach ulcer or gastrointestinal bleeding, and when. Also how often the NSAID is really taken, anti-inflammatory medicines bought without a prescription, and medicines supplied by a hospital or another pharmacy.",
   "ask_the_gp": "Whether the person has a history of peptic ulcer or gastrointestinal bleeding, and whether the NSAID is still needed or should be given with stomach protection.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

@@ -37,6 +37,6 @@
   "cannot_be_seen": "Why agomelatine was started, liver test results that are missing from this record, and whether the age recorded is right on the day of each supply. Supplies from a hospital or another pharmacy.",
   "ask_the_gp": "Whether agomelatine is still suitable at this age, including a check of liver function, and whether a review is suitable.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

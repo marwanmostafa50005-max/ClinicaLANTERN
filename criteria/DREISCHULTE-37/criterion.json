@@ -88,6 +88,6 @@
   "cannot_be_seen": "The supplies alone cannot show whether both medicines were taken, how the INR changed, whether bleeding occurred or what monitoring was arranged elsewhere. Antifungal products bought without a prescription or obtained elsewhere may be missing from the record.",
   "ask_the_gp": "Could you confirm the antifungal and its route and review bleeding risk and INR monitoring with warfarin? If it is miconazole oral gel, could we review an alternative today and, if any gel has been used, check for bleeding and arrange urgent INR assessment?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

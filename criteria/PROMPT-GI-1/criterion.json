@@ -156,8 +156,8 @@
   "cannot_be_seen": "Why the laxative was used, whether it was the first treatment tried, whether other laxatives were bought without a prescription, and how often it is really taken.",
   "ask_the_gp": "A review of the constipation treatment, including a look at the cause and whether another type of laxative would suit the patient.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "observation",

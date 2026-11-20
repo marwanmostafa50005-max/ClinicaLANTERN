@@ -197,6 +197,6 @@
   "cannot_be_seen": "Whether the blood pressure readings are the person's usual level, how well the blood pressure is treated, and how often the NSAID is really taken. Also anti-inflammatory medicines bought without a prescription and medicines supplied by another pharmacy.",
   "ask_the_gp": "Could you review blood pressure control and whether the NSAID is still needed, and confirm whether any older reading still represents blood pressure during treatment?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

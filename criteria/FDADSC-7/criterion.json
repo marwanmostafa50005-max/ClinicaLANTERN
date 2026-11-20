@@ -92,6 +92,6 @@
   "cannot_be_seen": "Whether no other antibiotic is suitable, the reason for treatment, medicines supplied elsewhere, and whether the patient takes the antibiotic. Aneurysm and vascular risk may be unrecorded. Do not infer hypertension from blood pressure medicines.",
   "ask_the_gp": "If the patient has an aortic aneurysm or vascular risk, could you review today whether another antibiotic is suitable for this infection? Could you advise the patient about continuing treatment safely and seeking emergency care immediately for sudden severe chest, abdominal or back pain?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

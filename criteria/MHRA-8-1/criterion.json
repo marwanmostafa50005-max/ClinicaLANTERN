@@ -86,6 +86,6 @@
   "cannot_be_seen": "Actual ingestion, treatment changes between supplies, muscle symptoms and supplies from another pharmacy may not be visible. Directions may not show the daily dose.",
   "ask_the_gp": "Could you review the total daily simvastatin dose and the interacting medicine, including whether the dose exceeds 20 mg daily?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

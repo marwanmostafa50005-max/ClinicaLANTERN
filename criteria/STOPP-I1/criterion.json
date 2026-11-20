@@ -81,6 +81,6 @@
   "cannot_be_seen": "If the record is silent, the person’s cognitive status, the reason for the antimuscarinic and its benefit are uncertain. Hospital or other pharmacy supplies may be missing.",
   "ask_the_gp": "Could we review the reason for the antimuscarinic, its benefit and whether another treatment would suit the patient given their memory and thinking?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

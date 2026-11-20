@@ -61,8 +61,8 @@
   "cannot_be_seen": "Weight loss, a low BMI or a nutritional supplement alone cannot establish the diagnosis.",
   "ask_the_gp": "Could you confirm whether malnutrition was diagnosed during this treatment and, if so, review the suitability of the GLP-1 analogue?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "condition",

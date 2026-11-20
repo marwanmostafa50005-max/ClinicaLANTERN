@@ -216,6 +216,6 @@
   "cannot_be_seen": "Which rhythm problem amiodarone was started for, what was tried before the record began, and whether a specialist started it for a good reason. Also any hospital supplies.",
   "ask_the_gp": "A review of the treatment goal and the rationale for choosing amiodarone, including any cardiac indication for rhythm maintenance.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

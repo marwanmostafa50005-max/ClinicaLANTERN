@@ -235,6 +235,6 @@
   "cannot_be_seen": "The record cannot show why either medicine was prescribed, whether both were actually taken together, non-prescription oral NSAIDs, any signs of bleeding, or supplies from another pharmacy or hospital.",
   "ask_the_gp": "Could you review whether the systemic NSAID (oral, rectal or injected) is still needed alongside the oral anticoagulant and assess the patient's bleeding risk?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

@@ -221,6 +221,6 @@
   "cannot_be_seen": "Why the antiseizure medicine is taken if no condition is recorded, how well the pain and the seizures are controlled, and whether the opioid dose has been adjusted.",
   "ask_the_gp": "A review of the pain treatment for this person, with the effect of the antiseizure medicine on the opioid in mind, and confirmation that the person has epilepsy.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

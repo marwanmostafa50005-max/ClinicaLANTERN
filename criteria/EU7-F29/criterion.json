@@ -33,6 +33,6 @@
   "cannot_be_seen": "Why guanethidine was prescribed and where it was obtained, the patient's blood pressure lying and standing, kidney function, and whether the patient has had dizziness, fainting, falls or bladder problems. Also supplies from a hospital or another pharmacy.",
   "ask_the_gp": "Whether guanethidine is still the best choice at the patient's age, and whether the patient has had dizziness on standing, fainting, falls or bladder problems.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

@@ -165,6 +165,6 @@
   "cannot_be_seen": "A supply date cannot identify its indication. A blank infection history cannot establish that the skin was free of infection.",
   "ask_the_gp": "Could you confirm whether signs of infection were present at this eczema visit and review the reason for the antibiotic?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

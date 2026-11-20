@@ -46,6 +46,6 @@
   "cannot_be_seen": "Why the medicine was started, kidney function, blood pressure, heart disease and past stomach ulcers or bleeding. The history can show a recorded supply of stomach protection. It cannot show how long the pain medicine was taken, whether the person took the stomach protection, or whether they obtained it elsewhere or bought it without a recorded supply.",
   "ask_the_gp": "Whether the medicine is still needed, whether paracetamol or another lower-risk option would do, and the person's stomach and heart risk.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

@@ -103,6 +103,6 @@
   "cannot_be_seen": "Hospital care, planned surgery, ketone results, clinical stability, oral intake and actual interruption may be absent from a community dispensing record.",
   "ask_the_gp": "Could you confirm with the treating team whether the SGLT2 inhibitor was held during the admission and blood ketones were monitored? Could you review the restart plan, including whether ketones have returned to normal, the patient is clinically stable and normal oral intake has resumed?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

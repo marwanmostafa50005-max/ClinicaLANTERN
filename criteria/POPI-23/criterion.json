@@ -41,8 +41,8 @@
   "cannot_be_seen": "The dispensing line cannot establish the cause of the diarrhoea or whether the child took the medicine.",
   "ask_the_gp": "Could you confirm whether this episode was invasive and review the loperamide supply in that context?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "condition",

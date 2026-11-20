@@ -81,6 +81,6 @@
   "cannot_be_seen": "Why digoxin was started. It is also used for the heart rate in atrial fibrillation, which this criterion does not cover. The record cannot show an echocardiogram report or whether a doctor has judged the pumping function normal.",
   "ask_the_gp": "A review of whether digoxin is still needed, and the most recent measure of the heart's pumping function.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

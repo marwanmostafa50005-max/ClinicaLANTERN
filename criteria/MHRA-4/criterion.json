@@ -41,8 +41,8 @@
   "cannot_be_seen": "Pregnancy, childbearing potential, contraception and its use, the indication for topiramate, pregnancy tests and advice already given may be absent. Supplies elsewhere and actual use are not visible.",
   "ask_the_gp": "Could you review childbearing potential, pregnancy risk and whether the contraception is highly effective and not reduced by topiramate?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "observation",

@@ -64,6 +64,6 @@
   "cannot_be_seen": "Whether the patient actually took the antibiotic while taking carbamazepine, the carbamazepine blood level, and the reason for each medicine. Also any supply from another pharmacy or a hospital.",
   "ask_the_gp": "Could we review the combination today if both medicines are being taken or the antibiotic is about to start, including whether a different antibiotic or a carbamazepine level is appropriate? If the overlap has ended and there are no ongoing signs of toxicity, could we review it at the next routine medicines review?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

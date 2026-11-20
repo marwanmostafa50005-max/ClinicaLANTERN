@@ -268,6 +268,6 @@
   "cannot_be_seen": "Outside pathology or follow-up may be missing. An incomplete observation window cannot establish an overdue test. The record may omit the reason for treatment and when it stopped. A single supply alone cannot show that treatment continued to three months. A documented one-off dose or a course that ended before the check was due cannot establish a missed follow-up test.",
   "ask_the_gp": "Could you confirm whether a lipid profile was checked around three months after the antipsychotic was started, and whether any follow-up is due?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

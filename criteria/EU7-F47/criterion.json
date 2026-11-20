@@ -36,8 +36,8 @@
   "cannot_be_seen": "Why quinine was started (usually night leg cramps), kidney function, heart rhythm problems and any medicines affecting heart rhythm supplied by another pharmacy or hospital. Quinine in drinks can also be missed.",
   "ask_the_gp": "Whether quinine is still needed for the cramps, whether the person has a heart rhythm problem, and whether a non-medicine approach or another option would do.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" },
   "needs_facts": [
     {
       "kind": "condition",

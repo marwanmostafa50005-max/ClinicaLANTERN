@@ -166,6 +166,6 @@
   "cannot_be_seen": "A whole-year age of zero cannot establish the lower age limit. Dates alone do not show what the antibiotic treated. The record may omit severity, viral cause or a separate infection.",
   "ask_the_gp": "Could you confirm the infant's age, the diagnosis and its severity at the time, and review the reason for the antibiotic, including any separate bacterial infection?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

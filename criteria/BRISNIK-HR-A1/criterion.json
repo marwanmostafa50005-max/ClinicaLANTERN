@@ -151,6 +151,6 @@
   "cannot_be_seen": "Whether the person has heart failure when no condition line is recorded, how severe it is, the heart pump (ejection fraction) result when no result is recorded, why the antidepressant was chosen, and what the person actually takes.",
   "ask_the_gp": "A review of the antidepressant choice and dose for this person, and confirmation of whether the person has ever been diagnosed with chronic heart failure.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

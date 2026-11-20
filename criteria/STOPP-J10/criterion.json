@@ -79,6 +79,6 @@
   "cannot_be_seen": "The reason for desmopressin or vasopressin may be missing. Use any recorded indication, sodium results and supplies of other medicines that may lower sodium. The record may omit fluid intake, results from other services and medicines obtained elsewhere. A supply does not establish actual intake.",
   "ask_the_gp": "Why desmopressin is being used and whether it is still needed, and a check of the blood sodium.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

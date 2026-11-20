@@ -182,6 +182,6 @@
   "cannot_be_seen": "Why digoxin was started (it is also used in heart failure), earlier medicines tried before this record began, and the digoxin level.",
   "ask_the_gp": "Could you confirm any missing indication, duration or previous rate-control treatment and review whether digoxin remains appropriate if it was used first for long-term rate control in atrial fibrillation?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

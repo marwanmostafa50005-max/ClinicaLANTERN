@@ -334,6 +334,6 @@
   "cannot_be_seen": "The record may omit serum sodium results, medicines bought over the counter, and diuretics supplied by another pharmacy or hospital. It may leave the cause of low sodium unclear. It may also omit the result showing whether sodium has recovered.",
   "ask_the_gp": "Could a current sodium below 130 mmol/L be assessed today and the antidepressant reviewed? A current sodium below 120 mmol/L or acute symptoms such as confusion or seizures warrant immediate emergency assessment. For a resolved episode, could treatment and follow-up be reviewed? If the result is unknown, could the value, sample date and any follow-up be confirmed?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

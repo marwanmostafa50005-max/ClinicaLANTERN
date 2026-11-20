@@ -150,6 +150,6 @@
   "cannot_be_seen": "Symptoms, the true ejection fraction, iron and blood count results not on the record, and any reason intravenous iron was not suitable. Intravenous iron is mostly given in hospital, so the pharmacy record may not show it.",
   "ask_the_gp": "Whether the person has iron deficiency, and whether intravenous iron should be arranged.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

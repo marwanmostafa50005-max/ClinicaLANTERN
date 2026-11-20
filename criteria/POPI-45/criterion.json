@@ -70,6 +70,6 @@
   "cannot_be_seen": "The record cannot show whether the child took both medicines or a prescriber changed a start or stop date elsewhere.",
   "ask_the_gp": "Could you check today whether both courses are active, given the risk of raised intracranial pressure?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

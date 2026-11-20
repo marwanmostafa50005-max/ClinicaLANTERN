@@ -167,7 +167,7 @@
   "cannot_be_seen": "The record may omit uterus status, a progestogen supplied elsewhere, or the date a device was inserted, removed or expelled.",
   "ask_the_gp": "Whether a progestogen is needed with the oestrogen, taking into account whether the person still has a uterus.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "only_sex": "female"
 }

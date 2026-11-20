@@ -238,8 +238,8 @@
   "cannot_be_seen": "Whether this is a true new start or a restart, thyroid medicine supplied by another pharmacy or hospital, the person's heart condition, weight, thyroid blood test results and the reason for treatment.",
   "ask_the_gp": "Whether the starting dose of levothyroxine suits this person's age and heart history.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "condition",

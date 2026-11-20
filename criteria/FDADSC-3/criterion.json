@@ -59,6 +59,6 @@
   "cannot_be_seen": "Allopurinol supplies elsewhere, whether allopurinol was tried, and its outcome or intolerance when no line records them. An allopurinol supply alone does not establish failure or intolerance. Major cardiovascular disease may also be unrecorded.",
   "ask_the_gp": "Could you review allopurinol failure or intolerance under the FDA warning, and the contraindication, hypersensitivity or intolerance required by the Australian PBS chronic-gout restriction? Could you also review cardiovascular history because the TGA warns against febuxostat with pre-existing major cardiovascular disease unless no other therapy is appropriate, and advise on continuity of febuxostat and urgent review for chest pain, shortness of breath or stroke symptoms?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

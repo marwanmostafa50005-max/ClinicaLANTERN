@@ -32,6 +32,6 @@
   "cannot_be_seen": "Why the medicine was started and whether a heart specialist chose it, the patient's pulse rate and heart rhythm, kidney function, and whether the patient has tremor, stiffness, slowed movement, dizziness or changes in vision. Also whether the medicine is still being taken, and supplies from a hospital or another pharmacy.",
   "ask_the_gp": "Whether this medicine is still the best choice at the patient's age, and whether the patient has had a slow or irregular pulse, dizziness or changes in vision with ivabradine, or tremor, stiffness or slowed movement with trimetazidine.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

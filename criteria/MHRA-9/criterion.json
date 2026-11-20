@@ -77,6 +77,6 @@
   "cannot_be_seen": "Actual ingestion, temporary treatment changes, muscle symptoms and supplies from another pharmacy may not be visible. The route may need checking if the form is unclear.",
   "ask_the_gp": "Could you review the simvastatin and clarithromycin or erythromycin combination and the plan during antibiotic treatment?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

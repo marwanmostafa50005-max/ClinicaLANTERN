@@ -90,6 +90,6 @@
   "cannot_be_seen": "A first visible supply does not establish initiation. A later HbA1c cannot establish the result available at the start. The person's agreed target may be missing.",
   "ask_the_gp": "Could you confirm whether this medicine was newly started for type 2 diabetes and which HbA1c was available then? If confirmed, could you review the medicine choice against the person's agreed target?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

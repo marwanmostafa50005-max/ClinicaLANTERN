@@ -52,8 +52,8 @@
   "cannot_be_seen": "An antibiotic supply cannot establish the diagnosis or site. A urinary infection or a fungal infection alone does not meet this criterion. Check whether the infection is still active and the medicine is still being taken. Suspected Fournier's gangrene needs emergency assessment. A missing infection history alone does not establish an emergency.",
   "ask_the_gp": "Could you confirm type 2 diabetes where unclear, check whether there is an active bacterial skin infection in the pelvic or genital area, and review whether a temporary pause is appropriate?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "condition",

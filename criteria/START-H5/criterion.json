@@ -83,6 +83,6 @@
   "cannot_be_seen": "Vitamin D bought without a prescription or taken in a multivitamin or calcium product, and a vitamin D level when no line gives it. Also whether the person is housebound, has falls or has osteopenia when no line says so, and a short high-dose course given by the doctor or in hospital.",
   "ask_the_gp": "A review of whether a vitamin D supplement is needed, given the low level.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

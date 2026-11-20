@@ -67,6 +67,6 @@
   "cannot_be_seen": "Whether the person has glaucoma and which type when the record has no condition line, and whether the eye has had treatment that lowers the risk. Eye drops alone do not show the type of glaucoma.",
   "ask_the_gp": "Whether the person has narrow-angle glaucoma and, if so, whether the bladder antimuscarinic should continue, or an eye specialist should be asked.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

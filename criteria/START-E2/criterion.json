@@ -130,6 +130,6 @@
   "cannot_be_seen": "The latest eGFR and phosphate results if they are not in the record, whether the person follows the renal diet, whether the person is on dialysis, whether the kidney team supplies the binder from a hospital, and whether a binder was tried and stopped.",
   "ask_the_gp": "Could you review whether a phosphate binder is appropriate in light of the kidney function, phosphate results and renal diet history?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

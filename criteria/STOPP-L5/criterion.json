@@ -102,6 +102,6 @@
   "cannot_be_seen": "The reason the gabapentinoid was prescribed, because both medicines are also used for epilepsy and anxiety, and whether the person has both nerve pain and other pain.",
   "ask_the_gp": "A review of what the gabapentinoid is being used for and whether it is still helping.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

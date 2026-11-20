@@ -39,6 +39,6 @@
   "cannot_be_seen": "Why carbamazepine was started (epilepsy, nerve pain or mood), blood levels of carbamazepine, sodium level, heart rhythm, and whether it is working.",
   "ask_the_gp": "Whether carbamazepine is still the right choice for this person and whether a sodium level and carbamazepine blood level are due.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

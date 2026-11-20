@@ -48,6 +48,6 @@
   "cannot_be_seen": "Why tramadol was prescribed, kidney function, and whether the person has side effects. Also how much is really taken and medicines supplied by a hospital or another pharmacy.",
   "ask_the_gp": "A review of whether tramadol is still needed and whether the dose is as low as possible.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

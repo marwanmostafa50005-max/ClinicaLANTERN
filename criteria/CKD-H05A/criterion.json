@@ -87,6 +87,6 @@
   "cannot_be_seen": "Dispensing does not establish the dose taken. Kidney results obtained elsewhere, their units and their timing may be missing.",
   "ask_the_gp": "Severe renal impairment is a contraindication to teriparatide. Could you confirm current renal impairment severity or creatinine clearance in mL/min and review suitability before the next dose?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

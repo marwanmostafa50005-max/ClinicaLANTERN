@@ -38,6 +38,6 @@
   "cannot_be_seen": "Blood pressure is unknown if the record has no dated reading. The record may also omit the reason for starting treatment, advice about food and medicine interactions, and the dose the person actually takes.",
   "ask_the_gp": "A review of whether tranylcypromine is still needed at this age and dose, or whether a safer antidepressant could be used.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

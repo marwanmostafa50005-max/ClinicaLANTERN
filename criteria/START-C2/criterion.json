@@ -214,6 +214,6 @@
   "cannot_be_seen": "Unreported aspirin bought without a prescription, an anticoagulant supplied elsewhere, an undocumented past bleed, ulcer or other reason an antiplatelet cannot be used (the source does not list these), and medicines supplied by a hospital or another pharmacy.",
   "ask_the_gp": "Whether an antiplatelet has been considered for this vascular disease, and the reason if none is used. If the record does not show it, please also confirm the vascular disease diagnosis.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

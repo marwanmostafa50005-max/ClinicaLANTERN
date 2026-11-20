@@ -56,6 +56,6 @@
   "cannot_be_seen": "Why the medicine was started (for example muscle spasm or spasticity), kidney function, falls and how much the person takes. Also hospital supplies.",
   "ask_the_gp": "Whether the muscle relaxant is still needed, whether rehabilitation or another option could replace it, and the person's risk of falls and confusion.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

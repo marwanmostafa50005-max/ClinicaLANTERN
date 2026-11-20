@@ -100,6 +100,6 @@
   "cannot_be_seen": "Doses given at a clinic, hospital or other pharmacy, and entries in the national immunisation register, unless the record carries a line about them. Also past infection, medical reasons not to vaccinate, and the person's wishes.",
   "ask_the_gp": "A check of the person's COVID-19 vaccination status against the national schedule and whether a dose is due.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

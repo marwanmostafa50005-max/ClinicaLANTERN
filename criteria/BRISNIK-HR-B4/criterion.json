@@ -642,6 +642,6 @@
   "cannot_be_seen": "Why each medicine was prescribed, the real blood pressure, the dose really taken, and medicines bought without a prescription or supplied by a hospital or another pharmacy.",
   "ask_the_gp": "A review of the antidepressant and of the blood pressure medicines together, and a check of lying and standing blood pressure.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

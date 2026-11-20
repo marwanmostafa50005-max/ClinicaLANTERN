@@ -33,6 +33,6 @@
   "cannot_be_seen": "Why acenocoumarol was chosen and where it was started, the INR results and how steady they have been, and any past bleeding. Also whether the tablets are still being taken, and medicines supplied by a hospital, by another pharmacy or from overseas.",
   "ask_the_gp": "Whether acenocoumarol is still the right anticoagulant for this patient, and how steady the INR has been.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

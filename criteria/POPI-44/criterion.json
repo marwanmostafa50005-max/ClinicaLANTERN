@@ -113,8 +113,8 @@
   "cannot_be_seen": "The record omits inhalers obtained elsewhere or bought without a prescription and cannot show use or symptom frequency. Australian preventer treatment depends on age and symptom pattern.",
   "ask_the_gp": "Could you confirm whether the asthma is persistent and review preventer treatment, including combination inhalers?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "condition",

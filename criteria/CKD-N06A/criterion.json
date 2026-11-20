@@ -53,6 +53,6 @@
   "cannot_be_seen": "Ask whether the patient has chronic kidney disease and check for a dated Cockcroft-Gault creatinine clearance relevant to the supply. An eGFR or a serum creatinine value alone does not provide that result. Supply does not establish the dose taken.",
   "ask_the_gp": "Could you confirm creatinine clearance and review the dose against the information for the duloxetine product supplied?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

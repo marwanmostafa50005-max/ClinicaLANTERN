@@ -45,6 +45,6 @@
   "cannot_be_seen": "Why digoxin was started, for example atrial fibrillation or heart failure. Also the digoxin blood level, kidney function, potassium results, body weight, heart rate, any signs of digoxin toxicity such as nausea or confusion, and medicines supplied by a hospital or another pharmacy.",
   "ask_the_gp": "Could you review whether this cardiac glycoside is still needed, whether its dose suits the patient’s age, weight and kidney function, and what monitoring is appropriate?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

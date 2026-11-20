@@ -99,6 +99,6 @@
   "cannot_be_seen": "The record may omit current use and the person's sick-day plan. A supply does not establish the reason for treatment, ketone levels, hydration or kidney function.",
   "ask_the_gp": "Could you review current SGLT2 inhibitor use, any dehydrating illness, kidney injury risk and the sick-day plan, including whether to pause treatment and when to restart after recovery and normal intake? If ketoacidosis is suspected, even with near-normal blood glucose, is urgent ketone testing or emergency assessment needed? Could you advise on prompt review if symptoms persist or worsen or heart failure is decompensated?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

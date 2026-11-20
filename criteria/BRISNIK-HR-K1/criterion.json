@@ -138,6 +138,6 @@
   "cannot_be_seen": "Whether the person has urinary symptoms, whether retention developed during treatment, and the daily dose actually taken.",
   "ask_the_gp": "A person who currently cannot pass urine despite a full bladder needs immediate medical assessment. For a past or stable voiding disorder, could the antidepressant and current symptoms be reviewed? If urinary history is unknown, could a previous voiding disorder or retention during treatment be clarified?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

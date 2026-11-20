@@ -78,8 +78,8 @@
   "cannot_be_seen": "The record shows the prescribed schedule. It cannot confirm which doses the child took or show a laxative bought without a prescription or obtained from another pharmacy or hospital.",
   "ask_the_gp": "Could you confirm the duration of morphine treatment and review the child's bowel regimen, including any osmotic laxative given at home or in hospital?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "observation",

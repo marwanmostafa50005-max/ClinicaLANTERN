@@ -42,6 +42,6 @@
   "cannot_be_seen": "The history cannot confirm what the patient was told, how they take methotrexate or the wording on the original prescription. The reason for treatment and blood test results can be checked when they are recorded.",
   "ask_the_gp": "Could you confirm the indication, intended dose and frequency so the dispensing label can state the regimen clearly? If the regimen is weekly, which day should the patient take it?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

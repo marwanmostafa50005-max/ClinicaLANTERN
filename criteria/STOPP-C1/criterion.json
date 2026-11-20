@@ -56,6 +56,6 @@
   "cannot_be_seen": "Why aspirin is taken at this dose and who advised it, and how many tablets are really taken each day. Also aspirin bought without a prescription, how long it was taken before this history starts, and any past stomach ulcer or bleeding.",
   "ask_the_gp": "The aspirin dose and the reason for it, and the patient's risk of bleeding.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

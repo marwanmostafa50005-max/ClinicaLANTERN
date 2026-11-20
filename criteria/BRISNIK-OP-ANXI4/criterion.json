@@ -349,6 +349,6 @@
   "cannot_be_seen": "Why each medicine was prescribed, how often the benzodiazepine is really taken, and benzodiazepines supplied by a hospital or another pharmacy.",
   "ask_the_gp": "Could we review the ongoing benefit of the antidepressant for anxiety, the reason for the benzodiazepine, and the benefits and risks of continuing them together?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

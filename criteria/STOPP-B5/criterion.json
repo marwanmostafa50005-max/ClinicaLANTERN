@@ -405,6 +405,6 @@
   "cannot_be_seen": "Why the beta-blocker was started. Reasons such as migraine prevention, tremor or past heart attack are often missing from a dispensing history. Also blood pressure medicines supplied by a hospital or another pharmacy.",
   "ask_the_gp": "A review of why the beta-blocker is taken and whether another blood pressure medicine would suit better.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

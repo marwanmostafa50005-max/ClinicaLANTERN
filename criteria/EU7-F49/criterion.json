@@ -35,6 +35,6 @@
   "cannot_be_seen": "Why it was prescribed, kidney function, and whether the person is confused or agitated.",
   "ask_the_gp": "Whether pentazocine is still needed and whether a safer pain medicine could replace it.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

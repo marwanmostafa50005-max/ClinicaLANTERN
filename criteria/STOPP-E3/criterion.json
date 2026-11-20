@@ -67,6 +67,6 @@
   "cannot_be_seen": "The latest kidney test if none is on the record, whether the dose was reduced after the test, and the reason for the anticoagulant.",
   "ask_the_gp": "Could you review the indication, bleeding risk and current Cockcroft-Gault creatinine clearance against the limits for the anticoagulant supplied? The Australian renal contraindications include creatinine clearance below 25 mL/min for apixaban and below 15 mL/min for rivaroxaban.",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

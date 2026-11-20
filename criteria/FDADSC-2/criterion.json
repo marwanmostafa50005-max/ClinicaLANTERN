@@ -67,6 +67,6 @@
   "cannot_be_seen": "Supply precedes administration, and the actual injection date is not shown. Injections or bisphosphonates may be supplied at another pharmacy, hospital or infusion clinic, or may be delayed, so the pharmacist should ask the patient about them. A planned specialist cessation is not recorded.",
   "ask_the_gp": "A review of whether denosumab was delayed, skipped or stopped, the administration date, and transition to another antiresorptive if needed.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

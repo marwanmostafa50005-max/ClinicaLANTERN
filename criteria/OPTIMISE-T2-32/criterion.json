@@ -279,6 +279,6 @@
   "cannot_be_seen": "Whether a folate level was done elsewhere, why the antiepileptic is used (some are used for pain or mood), the person's diet, and any folic acid bought without a prescription.",
   "ask_the_gp": "A review of the person's folate level, and whether any low level needs to be corrected.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

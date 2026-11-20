@@ -147,8 +147,8 @@
   "cannot_be_seen": "Whether a short-acting opioid was supplied by a hospital or another pharmacy, whether the pain really breaks through, and cases where a long-acting patch is used on purpose without a short-acting medicine, for example for stable pain.",
   "ask_the_gp": "When no short-acting rescue was supplied, ask for a review of whether the person needs a short-acting opioid for breakthrough pain, or whether the long-acting dose is right. When Abstral, Fentora or Actiq was supplied, name the product and the evidence on cancer pain and opioid tolerance, and state clearly if the supply is unsuitable or unresolved rather than saying no rescue was supplied. For a current supply before opioid tolerance was established, ask: \"Could we review the fentanyl rescue and the maintenance opioid today because of the risk of respiratory depression, and confirm whether a suitable short-acting opioid is needed?\" For a past, non-cancer or unresolved fentanyl rescue supply, ask to review the fentanyl rescue, the long-acting dose, and whether a suitable short-acting opioid is needed.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "observation",

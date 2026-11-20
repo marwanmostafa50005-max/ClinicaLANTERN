@@ -136,6 +136,6 @@
   "cannot_be_seen": "The record can omit outside results and changes in treatment after a blood test. A single creatinine or an eGFR cannot establish the rise. When results are missing, ask about recent blood tests, illness with vomiting or diarrhoea, dehydration or hospital care, and whether the two dated results can be checked. These details cannot establish the creatinine rise.",
   "ask_the_gp": "Could you check the dated creatinine results and, if the rise is current and confirmed, review kidney function and the diabetes medicine today?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

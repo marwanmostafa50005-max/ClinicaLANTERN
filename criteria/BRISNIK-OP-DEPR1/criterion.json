@@ -268,6 +268,6 @@
   "cannot_be_seen": "How bad the depression is, whether this is really the first episode, what else has been tried, and why the doctor chose an antidepressant.",
   "ask_the_gp": "A review of whether an antidepressant is the best treatment for this episode, or whether talking therapy or monitoring would do.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

@@ -297,6 +297,6 @@
   "cannot_be_seen": "Why the tricyclic was started (pain, sleep and bed-wetting are other uses), and any antidepressant taken before the record began or supplied elsewhere. Also how severe the depression is.",
   "ask_the_gp": "Whether an SSRI or SNRI would be a better first choice, and the reason the tricyclic was chosen.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

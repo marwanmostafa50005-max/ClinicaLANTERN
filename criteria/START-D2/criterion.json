@@ -270,6 +270,6 @@
   "cannot_be_seen": "How severe the depression is, whether it is current, talking therapy or other treatment, the person's choice, why a tricyclic was chosen, other uses of the medicine (such as pain or sleep), and medicines supplied by a hospital or another pharmacy.",
   "ask_the_gp": "Whether a non-tricyclic antidepressant has been considered for this depression, and the reason if none is used. If the record does not show it, please also confirm the depression diagnosis and whether the current medicine is for depression. If a non-tricyclic antidepressant is already supplied for another purpose, could you review whether the current regimen also treats this episode?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

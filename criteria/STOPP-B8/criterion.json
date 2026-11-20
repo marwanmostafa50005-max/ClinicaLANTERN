@@ -103,6 +103,6 @@
   "cannot_be_seen": "Why the water tablet was started, and swelling, heart, liver and kidney tests that are not in the record. Whether leg elevation or stockings were tried.",
   "ask_the_gp": "A review of the cause of the ankle swelling and whether the loop diuretic is still needed, with a check of heart, liver and kidney function.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

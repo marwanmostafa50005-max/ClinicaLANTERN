@@ -136,6 +136,6 @@
   "cannot_be_seen": "The reason for the corticosteroid and how long it is planned to continue, bone density results and fracture history, bone medicines given at a hospital or clinic or supplied by another pharmacy, calcium and vitamin D bought without a prescription, and whether doses were taken. For hydrocortisone or cortisone acetate tablets, whether they are replacement treatment for adrenal insufficiency, where a bisphosphonate may not be expected.",
   "ask_the_gp": "Bone protection for this patient in view of the long-term oral corticosteroid, including fracture risk and whether a bone density test is due.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

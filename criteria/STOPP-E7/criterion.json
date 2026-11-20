@@ -111,6 +111,6 @@
   "cannot_be_seen": "The most recent kidney function if the record holds none, serum potassium, the reason for treatment (for example heart failure), and any hospital or other pharmacy supplies.",
   "ask_the_gp": "A review of the patient's kidney function and potassium, and whether the medicine should continue.",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

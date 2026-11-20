@@ -112,6 +112,6 @@
   "cannot_be_seen": "Why the steroid was prescribed, because a short course may be for another illness such as asthma or a flare of another condition. Also whether injections into a joint are recorded, and medicines supplied by another pharmacy.",
   "ask_the_gp": "Whether the steroid is for the osteoarthritis or for another condition, and whether it is still needed.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

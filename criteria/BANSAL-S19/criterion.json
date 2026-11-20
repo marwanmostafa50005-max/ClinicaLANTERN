@@ -145,6 +145,6 @@
   "cannot_be_seen": "Falls that were never recorded or were not reported to the doctor, how the patient is really taking the opioid, and whether the pain is cancer pain or end of life care.",
   "ask_the_gp": "Could you confirm any falls in the 12 months before the latest opioid supply if the history is missing, and review the opioid and the person’s risk of falling?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

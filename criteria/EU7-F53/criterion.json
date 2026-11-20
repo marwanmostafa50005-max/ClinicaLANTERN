@@ -35,6 +35,6 @@
   "cannot_be_seen": "Why it was prescribed, heart and blood vessel disease, and how often it is really taken.",
   "ask_the_gp": "Whether ergotamine is still needed and whether a safer migraine treatment could replace it.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

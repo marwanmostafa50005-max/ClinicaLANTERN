@@ -71,6 +71,6 @@
   "cannot_be_seen": "Why duloxetine was prescribed, and whether the person has urgency or urge incontinence, when the record has no condition line. Duloxetine is often taken for depression or pain, so this cannot be judged from supplies alone.",
   "ask_the_gp": "Why duloxetine was started, and whether it is meant for the bladder; if it is, whether it should be reviewed.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

@@ -103,6 +103,6 @@
   "cannot_be_seen": "The pain, its cause and whether it is in one area are not in a dispensing history unless a condition line is present. Patches obtained on special access or from a compounding pharmacy may not appear, and nothing shows whether a patch was tried and stopped. Ask whether the medicine is for nerve pain in one area, such as pain after shingles. Ask whether the person already uses a lidocaine 5% patch, including Nervoderm bought without a prescription.",
   "ask_the_gp": "A review of the nerve pain and whether a lidocaine 5% patch could be tried, alone or with the current medicine.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

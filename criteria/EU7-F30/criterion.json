@@ -31,6 +31,6 @@
   "cannot_be_seen": "Why hydralazine was prescribed, for example blood pressure that other medicines did not control, or heart failure. Also the patient's blood pressure lying and standing, kidney function, whether the patient has had dizziness, fainting or falls, and supplies from a hospital or another pharmacy.",
   "ask_the_gp": "Whether hydralazine is still needed at the patient's age, and whether the patient has had dizziness on standing, fainting or falls.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

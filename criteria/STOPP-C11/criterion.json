@@ -140,6 +140,6 @@
   "cannot_be_seen": "Earlier anticoagulant use, the reason for starting warfarin, valve type and echocardiogram findings may be missing. The age of the eGFR result is uncertain if the measurement date is missing.",
   "ask_the_gp": "A review of whether a newer blood thinner would suit this person better than warfarin.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

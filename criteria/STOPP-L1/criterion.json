@@ -358,6 +358,6 @@
   "cannot_be_seen": "Whether paracetamol or an NSAID was tried and bought without a prescription, the cause and real severity of the pain, whether the opioid was started in hospital, and cancer or end of life care.",
   "ask_the_gp": "A review of the pain plan, including whether paracetamol or an anti-inflammatory medicine was tried first and whether the strong opioid is still needed.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

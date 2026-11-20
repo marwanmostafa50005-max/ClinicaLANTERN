@@ -203,6 +203,6 @@
   "cannot_be_seen": "Whether the ileus is current, how well the bowel is working, why the opioid was started, and care given by a hospital.",
   "ask_the_gp": "A review of whether the opioid is safe to continue and of bowel function.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

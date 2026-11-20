@@ -158,6 +158,6 @@
   "cannot_be_seen": "Vaccines given by a doctor or clinic, or before the history starts. A history that does not show a vaccine does not prove none was given. Also a weakened immune system, which changes the advice, and whether both doses of the two-dose course were given.",
   "ask_the_gp": "Could we confirm the vaccination history and review whether the first or second Shingrix dose is due?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

@@ -241,6 +241,6 @@
   "cannot_be_seen": "Why the antipsychotic was started, and whether the sleep problem is really caused by psychosis or by dementia. Also the dose actually taken and any medicines from a hospital or another pharmacy.",
   "ask_the_gp": "Could you review why the antipsychotic was prescribed for this course and, if it is still being used for sleep, whether a safer option would be suitable?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

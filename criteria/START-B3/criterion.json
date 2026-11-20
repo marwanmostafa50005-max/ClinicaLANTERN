@@ -169,6 +169,6 @@
   "cannot_be_seen": "The record may omit coronary disease or a reason an ACE inhibitor is unsuitable, such as cough, facial swelling, high potassium or kidney disease. It may show an angiotensin receptor blocker without explaining why it was chosen. Medicines supplied by a hospital or another pharmacy may be missing.",
   "ask_the_gp": "Whether an ACE inhibitor should be started, or the reason it is not suitable.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

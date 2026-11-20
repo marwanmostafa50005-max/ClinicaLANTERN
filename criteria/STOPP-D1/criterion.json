@@ -152,6 +152,6 @@
   "cannot_be_seen": "Whether the person has any of these conditions, how severe they are, and why the antidepressant was started (low doses are often used for nerve pain or sleep).",
   "ask_the_gp": "Whether a tricyclic antidepressant is still the right choice, given the person's conditions, and whether a review of the medicine is due.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

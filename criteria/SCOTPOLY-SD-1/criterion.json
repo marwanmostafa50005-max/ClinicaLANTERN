@@ -235,6 +235,6 @@
   "cannot_be_seen": "Whether the patient currently has vomiting, diarrhoea, fever or dehydration unless recorded or entered at the counter. Whether the patient is still taking the medicine, whether they already have a written sick-day action plan, their baseline kidney function, and whether they have heart failure needing prompt medical review before withholding. Non-prescription NSAIDs and medicines supplied from another pharmacy or hospital are also not visible.",
   "ask_the_gp": "Could you confirm whether the patient is taking the supplied ACE inhibitor or angiotensin receptor blocker and currently has a dehydrating illness? If so, could you review whether to pause it, considering heart failure if present, and advise on kidney function, electrolytes and safe restart after recovery?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

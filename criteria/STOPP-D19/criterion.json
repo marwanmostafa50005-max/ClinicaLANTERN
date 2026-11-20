@@ -64,6 +64,6 @@
   "cannot_be_seen": "Seizures that were never recorded, the reason for any earlier anti-seizure medicine, and memantine supplied elsewhere.",
   "ask_the_gp": "Could you confirm whether there is a history of seizures or a diagnosed seizure disorder and review whether memantine is suitable in light of what is known?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

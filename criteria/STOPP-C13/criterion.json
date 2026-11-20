@@ -68,6 +68,6 @@
   "cannot_be_seen": "Why each medicine was prescribed, kidney function, and any bleeding or bruising. Also whether the prescriber has already allowed for the combination in the dabigatran dose, whether both medicines are still being taken, and medicines supplied by a hospital or another pharmacy.",
   "ask_the_gp": "Dabigatran together with diltiazem or verapamil, including the dabigatran dose, kidney function and the patient's risk of bleeding.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

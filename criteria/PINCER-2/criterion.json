@@ -201,6 +201,6 @@
   "cannot_be_seen": "Whether the person really has asthma now, how severe it is, why the beta-blocker was chosen, and whether the doctor has already weighed the risk.",
   "ask_the_gp": "Whether the person has asthma, and a review of whether a beta-blocker is the right choice for them.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

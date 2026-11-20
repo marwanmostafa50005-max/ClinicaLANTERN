@@ -161,6 +161,6 @@
   "cannot_be_seen": "Whether the arterial disease is stable, why each medicine was started, and any stent or recent heart event not recorded here. Also supplies from a hospital or another pharmacy.",
   "ask_the_gp": "Whether the antiplatelet is still needed alongside the anticoagulant.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

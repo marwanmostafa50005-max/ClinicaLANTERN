@@ -92,6 +92,6 @@
   "cannot_be_seen": "Handwritten prescriptions, verbal instructions, sliding-scale charts held outside the dispensing record, and whether the patient understood the intended dose.",
   "ask_the_gp": "Clarification and confirmation of the intended insulin dose written in full using the word units rather than U or IU, so the prescription and dispensing label are unambiguous.",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

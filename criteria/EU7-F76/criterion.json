@@ -33,6 +33,6 @@
   "cannot_be_seen": "A supply can name its prescriber, and a dated result can show kidney function at the time of testing. The original prescriber, reason for starting, source of supply and dose actually taken may be unknown. Kidney function is unknown if no relevant result is recorded.",
   "ask_the_gp": "Could you confirm why piracetam was started and who oversees treatment? If it is used for memory problems, could you review its benefit and the alternatives? If it is used for cortical myoclonus, could you confirm the specialist plan?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

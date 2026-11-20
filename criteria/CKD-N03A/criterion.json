@@ -189,6 +189,6 @@
   "cannot_be_seen": "Dispensing does not establish the dose taken. Kidney results obtained elsewhere, their units and their timing may be missing.",
   "ask_the_gp": "Could you confirm the current regimen, dialysis status and dated creatinine clearance, and review the dose of the medicine identified here? For levetiracetam, could you review each twice-daily dose against indexed clearance and any adjustment for severe hepatic impairment? For pregabalin or gabapentin, could you review the daily total against unindexed clearance?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

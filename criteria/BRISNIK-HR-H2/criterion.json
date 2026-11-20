@@ -410,8 +410,8 @@
   "cannot_be_seen": "Whether the person is constipated, whether the medicines are really taken, and over-the-counter medicines such as antihistamines. Ask about bowel habit and non-prescription medicines, including sedating antihistamines. Clarify an uncertain prescribed tricyclic dose only if age and both partners could qualify and no Group A medicine qualifies with them.",
   "ask_the_gp": "A review of whether all of these medicines are still needed, and the person's bowel habit.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" },
   "needs_facts": [
     {
       "kind": "observation",

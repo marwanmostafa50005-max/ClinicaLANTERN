@@ -232,6 +232,6 @@
   "cannot_be_seen": "Supply dates do not prove that both medicines were taken together. The intentional scope is a gabapentinoid with a systemic opioid, benzodiazepine or Z-drug; broader multi-class CNS polypharmacy belongs to SCOTNTI-CNS-3. PRN use, sequential switches, other-pharmacy supplies, alcohol and non-prescription sedatives may be unclear. Actual sedation or breathing impairment is not shown.",
   "ask_the_gp": "A review of concurrent use, sedation and respiratory risk, and whether the lowest effective gabapentinoid dose and monitoring are in place.",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

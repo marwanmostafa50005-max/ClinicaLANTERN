@@ -36,6 +36,6 @@
   "cannot_be_seen": "Lithium levels and kidney function may be unknown if relevant dated results are missing. The record may also omit the reason for treatment and medicines bought without a prescription. It cannot confirm how much is taken or whether another service manages the lithium.",
   "ask_the_gp": "A review of whether lithium is still the right choice, and checks of the blood lithium level and kidney function.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

@@ -63,6 +63,6 @@
   "cannot_be_seen": "Whether liver disease is present, how severe it is, and whether the person is still taking agomelatine.",
   "ask_the_gp": "If agomelatine is still being taken and cirrhosis or active liver disease is confirmed, could treatment and current liver tests be reviewed today? If liver history alone is missing, could the diagnosis, its timing and the latest liver tests be clarified at routine review?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

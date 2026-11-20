@@ -45,6 +45,6 @@
   "cannot_be_seen": "The cause of the raised enzymes, how they have changed since, the laboratory's own upper limit if it is not on the line, and whether the person is still taking agomelatine.",
   "ask_the_gp": "For a current ALT or AST above three times the laboratory upper limit during agomelatine treatment, could you confirm today whether agomelatine has been stopped and repeat liver tests arranged within 48 hours of the rise? If the on-treatment result is missing, could you confirm when liver tests were last performed and what they showed?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

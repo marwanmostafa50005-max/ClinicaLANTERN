@@ -90,6 +90,6 @@
   "cannot_be_seen": "How many attacks the person has had, uric acid levels, kidney function and any past reaction to allopurinol. Also treatment given by a specialist or in hospital, and why colchicine was supplied.",
   "ask_the_gp": "If recurrent gout is uncertain, could you confirm the attack history and current treatment, then review whether allopurinol or febuxostat is appropriate?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

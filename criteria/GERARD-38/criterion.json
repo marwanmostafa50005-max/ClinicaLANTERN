@@ -56,8 +56,8 @@
   "cannot_be_seen": "Pancreatic enzymes or past pancreatitis alone cannot establish insufficiency. These records do not diagnose ketoacidosis.",
   "ask_the_gp": "Could you confirm type 2 diabetes and pancreatic insufficiency where these are unclear, and review the ketoacidosis risk with this medicine?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "condition",

@@ -233,6 +233,6 @@
   "cannot_be_seen": "Non-prescription low-sodium or potassium salt substitutes, recent serum potassium, urea and creatinine results, and whether the supplement was started for a documented low potassium.",
   "ask_the_gp": "Whether the potassium supplement can be stopped and whether serum potassium, urea and creatinine have been checked recently.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

@@ -161,6 +161,6 @@
   "cannot_be_seen": "Why each medicine was prescribed, heart rate and heart rhythm tracings, blood pressure, medicines supplied by a hospital or another pharmacy, and whether a heart specialist is supervising the combination.",
   "ask_the_gp": "If the combination is current or about to start, could we review it today, including the heart rate and rhythm? If the overlap has ended and there are no ongoing symptoms, could we review the previous combination at the next routine review?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

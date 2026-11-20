@@ -233,6 +233,6 @@
   "cannot_be_seen": "Dispensing lines alone cannot show whether the person is expected to live for more than a year or whether there are other reasons to leave the medicine out, such as poor kidney function, low blood calcium, a dental problem or trouble swallowing. They may also miss a bone density result, a previous fracture or treatment given elsewhere, such as a yearly hospital zoledronic acid infusion. Use dated results and clinical notes when they document these facts.",
   "ask_the_gp": "A review of whether bone-strengthening treatment is needed, or the reason it is not suitable.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

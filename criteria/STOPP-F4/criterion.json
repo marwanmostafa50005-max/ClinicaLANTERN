@@ -67,6 +67,6 @@
   "cannot_be_seen": "How much iron the patient really takes, iron bought without a prescription, and iron given by injection or in hospital.",
   "ask_the_gp": "A review of the iron dose, and whether a lower dose or a different schedule would work as well.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

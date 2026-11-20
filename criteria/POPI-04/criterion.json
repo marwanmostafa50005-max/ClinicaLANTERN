@@ -100,8 +100,8 @@
   "cannot_be_seen": "A supply date alone cannot establish that both medicines were taken. Over-the-counter purchases and changes to the pain plan may be missing.",
   "ask_the_gp": "Could you review whether both anti-inflammatory medicines were intended for use together for this child's pain or fever?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "observation",

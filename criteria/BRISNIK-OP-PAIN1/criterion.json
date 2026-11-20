@@ -127,6 +127,6 @@
   "cannot_be_seen": "Why the medicine was started, whether it is really taken for nerve pain, and any reason for an antidepressant that is not in the record. Doses taken in practice, tablets cut in half, and supplies from a hospital or another pharmacy.",
   "ask_the_gp": "What is the tricyclic antidepressant being used for? If it is for nerve pain, could we review the dose, benefit, adverse effects and any other indication?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

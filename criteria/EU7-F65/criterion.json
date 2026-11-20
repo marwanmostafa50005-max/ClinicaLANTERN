@@ -141,8 +141,8 @@
   "cannot_be_seen": "Why the medicine was started, whether the person has dementia or a psychotic illness, and how much is really taken. Also medicines supplied by a hospital or another pharmacy, and treatment before the record starts. The dispensing record does not show whether or when each depot injection was given.",
   "ask_the_gp": "A review of whether the antipsychotic is still needed, whether a lower dose or a shorter course is possible, and a check of falls risk, blood pressure and heart rhythm. Where a psychiatrist or a mental health service manages the medicine, for example clozapine or a long-acting injection, the review is one to raise with them.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "observation",

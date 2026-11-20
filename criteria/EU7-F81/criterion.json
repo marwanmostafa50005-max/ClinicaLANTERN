@@ -36,6 +36,6 @@
   "cannot_be_seen": "A supply alone cannot establish when treatment began or how the person takes the medicine. A theophylline level, smoking status or interacting medicine supply can be seen when recorded. Other pharmacy supplies and unrecorded changes in smoking or medicine use can be missed.",
   "ask_the_gp": "Whether theophylline is still needed, whether the dose is suitable, and when the last blood level of theophylline was checked.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

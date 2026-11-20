@@ -36,8 +36,8 @@
   "cannot_be_seen": "The record omits medicine obtained elsewhere or bought without a prescription and cannot confirm that the doses were taken. A repeat at 7 to 14 days can fit Queensland guidance.",
   "ask_the_gp": "Could you confirm the indication, whether the scabies was classic or crusted, and the child's weight at the first dose? Could you also check the first dose date and whether a repeat was provided, including tablets in the first pack?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "condition",

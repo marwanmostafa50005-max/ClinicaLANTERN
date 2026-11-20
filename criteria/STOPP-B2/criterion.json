@@ -84,6 +84,6 @@
   "cannot_be_seen": "The NYHA class if it is not recorded, the ejection fraction, and why verapamil or diltiazem was chosen.",
   "ask_the_gp": "Could you confirm whether heart failure is present and its NYHA class if unknown, and review verapamil or diltiazem if class III or IV heart failure is confirmed?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

@@ -347,6 +347,6 @@
   "cannot_be_seen": "When not recorded: whether the person truly has dementia, whether this is the first episode of depression, how severe it is, and whether non-drug care was tried. Medicines supplied by a hospital or another pharmacy.",
   "ask_the_gp": "Could you review whether the antidepressant is helping this person, confirm any missing dementia or depression episode details, and consider a non-drug approach or an antidepressant review?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

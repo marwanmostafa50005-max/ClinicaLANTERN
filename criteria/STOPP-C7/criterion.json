@@ -156,6 +156,6 @@
   "cannot_be_seen": "Why the antiplatelet was chosen, whether an anticoagulant was tried and stopped, bleeding history, and a decision by the person to decline an anticoagulant. Also supplies from a hospital or another pharmacy.",
   "ask_the_gp": "Whether an anticoagulant has been considered for stroke prevention, and the reasons if it has not been used.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

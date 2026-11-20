@@ -156,6 +156,6 @@
   "cannot_be_seen": "Blood pressure when it is not recorded, home or ambulatory readings, whether the person has heart failure or coronary heart disease when no cardiac history is recorded, whether the person takes the blood pressure medicines, and what the person actually takes.",
   "ask_the_gp": "Could you review blood pressure control and whether this medicine is still appropriate? If Contrave is prescribed and hypertension is uncontrolled, could you review its use today before supply?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

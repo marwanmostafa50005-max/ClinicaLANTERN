@@ -164,6 +164,6 @@
   "cannot_be_seen": "Blood tests done by another doctor or laboratory that are not in this record, whether the person has severe mental illness (an antipsychotic can be used for other reasons), and whether this is truly a new start or a switch to this antipsychotic.",
   "ask_the_gp": "Whether a baseline prolactin level was measured before the antipsychotic was started, and whether one is needed now.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

@@ -105,6 +105,6 @@
   "cannot_be_seen": "When no relevant condition, result or observation lines are recorded: heart and blood vessel disease, blood pressure, and liver and kidney function. The record also does not show how often the person really takes the medicine.",
   "ask_the_gp": "Whether a triptan is still suitable, with a review of blood pressure, heart risk and liver and kidney function, or whether another migraine treatment is better. Routine review applies to the age-and-supply finding alone. If naratriptan is about to be supplied or taken and the relevant creatinine clearance is below 15 mL/min, could you review this today before the next dose?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

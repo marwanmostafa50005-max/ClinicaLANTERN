@@ -155,6 +155,6 @@
   "cannot_be_seen": "The true heart rate over time, whether the atrial fibrillation is chronic, and any reason a beta-blocker is unsuitable such as asthma or a very slow heart rate. Also medicines supplied by a hospital or another pharmacy.",
   "ask_the_gp": "The person's heart rate control and whether a beta-blocker should be started or another way to slow the rate used.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

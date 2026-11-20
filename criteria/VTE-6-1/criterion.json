@@ -40,8 +40,8 @@
   "cannot_be_seen": "The first visible fill or discharge date alone cannot establish day 1. Hospital treatment and outside supplies may be missing. A supply does not show which doses the patient took. If the start is uncertain or the later supply could be for a new clot, the record cannot establish continued use for the same episode.",
   "ask_the_gp": "Could you confirm the indication and first dose date, including any hospital doses, and review the current apixaban directions for this course?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "observation",

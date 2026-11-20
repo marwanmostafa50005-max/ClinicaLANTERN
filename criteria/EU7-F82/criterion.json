@@ -70,6 +70,6 @@
   "cannot_be_seen": "Why the medicine was supplied (cough or pain), whether the tablets or liquid are taken every day or only now and then, and any supply from another pharmacy. When no relevant condition or result lines are recorded, kidney function and constipation are also not shown.",
   "ask_the_gp": "Whether the cough medicine is needed, or whether the codeine is still needed after more than 2 weeks of supply, and whether a laxative or a different pain treatment is suitable.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

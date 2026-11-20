@@ -90,6 +90,6 @@
   "cannot_be_seen": "The record may omit standing blood pressure, dizziness, fainting or the reason for the alpha-1 blocker. Use recorded measurements and symptoms when present.",
   "ask_the_gp": "Whether the person has had fainting or dizziness on standing, and whether the alpha-1 blocker is still the best choice for them.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

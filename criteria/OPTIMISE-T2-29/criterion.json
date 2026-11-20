@@ -301,6 +301,6 @@
   "cannot_be_seen": "Why the dopamine agonist was started, whether a specialist endocrinologist advised it, and the diagnosis unless it is in the record. Also the prolactin result and any symptoms, and whether the person has Parkinson disease or another reason for the medicine.",
   "ask_the_gp": "Whether the dopamine agonist was started on specialist endocrine advice, and whether it is the right choice for this person with severe mental illness.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

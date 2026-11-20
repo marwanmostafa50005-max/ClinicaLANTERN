@@ -305,6 +305,6 @@
   "cannot_be_seen": "Why each earlier antidepressant was stopped, whether each was taken long enough and at a high enough dose, and any talking therapy. Medicines supplied by a hospital or another pharmacy.",
   "ask_the_gp": "Could you review the current antidepressant plan and clarify how the depression responded to each earlier treatment?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

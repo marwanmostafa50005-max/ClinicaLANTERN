@@ -471,6 +471,6 @@
   "cannot_be_seen": "Whether the person really has high blood pressure, blood pressure readings, whether each Group E medicine is for blood pressure or for another reason (such as the heart or kidneys), and what the person actually takes.",
   "ask_the_gp": "Could you confirm why the three or more blood pressure medicines were prescribed, check recent blood pressure readings and review the antidepressant if these medicines are needed together to control hypertension?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

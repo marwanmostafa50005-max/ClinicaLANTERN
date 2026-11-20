@@ -71,6 +71,6 @@
   "cannot_be_seen": "How much the tremor affects daily tasks, reasons propranolol may not suit the person (asthma, slow heart rate, low blood pressure, heart block), whether it was tried and stopped, and whether another medicine is used instead. Propranolol supplied by another pharmacy or hospital may be missing from this record.",
   "ask_the_gp": "Whether propranolol is suitable for this person's tremor, or has already been tried and stopped.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

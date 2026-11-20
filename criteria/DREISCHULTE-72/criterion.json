@@ -78,6 +78,6 @@
   "cannot_be_seen": "A pharmacy record can omit tests done elsewhere. An old report alone cannot establish the latest test date. A test order does not show that blood was collected. A first supply alone cannot establish the treatment period. A supply alone may not show why penicillamine was prescribed.",
   "ask_the_gp": "Could we confirm the latest completed full blood count and review the monitoring plan for this stage of penicillamine treatment?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

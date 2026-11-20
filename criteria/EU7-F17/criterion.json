@@ -32,6 +32,6 @@
   "cannot_be_seen": "Kidney function, blood glucose and HbA1c results, any episodes of low blood sugar, dizziness or ankle swelling, and whether doses are taken.",
   "ask_the_gp": "A review of whether this medicine and its dose still suit the patient's age and kidney function.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

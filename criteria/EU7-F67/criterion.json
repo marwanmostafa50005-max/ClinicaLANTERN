@@ -33,6 +33,6 @@
   "cannot_be_seen": "The record may omit why treatment began and whether it was supplied by another service or from overseas. Kidney function is unknown unless a dated result is recorded. Dispensing does not confirm how much is taken.",
   "ask_the_gp": "A review of whether meprobamate is still needed and whether a safer choice for anxiety or sleep is possible.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

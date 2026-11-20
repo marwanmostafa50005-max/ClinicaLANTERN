@@ -46,8 +46,8 @@
   "cannot_be_seen": "Dispensing alone cannot show actual use or whether the patient finds it easier to clear sputum. Purchases months apart cannot establish continuous prescribed treatment.",
   "ask_the_gp": "Could we review the indication, duration and ongoing benefit of the prescribed oral mucolytic?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "observation",

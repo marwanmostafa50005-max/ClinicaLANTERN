@@ -55,8 +55,8 @@
   "cannot_be_seen": "Dispensing does not establish the dose taken. Kidney results obtained elsewhere, their units and their timing may be missing.",
   "ask_the_gp": "Could you confirm any missing CKD diagnosis, dated eGFR at supply and daily combination-tablet dose? If the patient was taking more than 20 mg of simvastatin daily at an eGFR below 60 mL/min/1.73 m², could you review the current regimen?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "condition",

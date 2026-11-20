@@ -146,8 +146,8 @@
   "cannot_be_seen": "Respiratory medicines obtained elsewhere or bought without a prescription may be missing from this record. Supply dates cannot show actual use or how long an earlier preventer lasted.",
   "ask_the_gp": "Could we confirm the respiratory diagnosis and review whether the current asthma regimen includes an inhaled corticosteroid?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "condition",

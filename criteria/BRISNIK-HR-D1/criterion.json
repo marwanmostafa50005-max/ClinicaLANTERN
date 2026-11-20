@@ -115,6 +115,6 @@
   "cannot_be_seen": "Whether the person has dementia or cognitive impairment, unless a line in the record says so. Why the antidepressant was started, how the person really takes it, and doses changed outside the pharmacy. A low dose used for pain or sleep looks the same as one used for depression.",
   "ask_the_gp": "A review of whether this antidepressant is still the right choice given the person's memory or thinking, and, where the record is silent, a check of whether the person has dementia or cognitive impairment.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

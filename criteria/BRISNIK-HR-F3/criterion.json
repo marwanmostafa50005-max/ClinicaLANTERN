@@ -592,6 +592,6 @@
   "cannot_be_seen": "Whether the person has had an ulcer, a bleed or haemophilia, unless a line in the record says so. Whether the medicines are really taken, and over-the-counter aspirin or NSAIDs. If the record leaves the purpose of a systemic aspirin supply unclear, describe the medicine as aspirin. Either use meets the partner requirement.",
   "ask_the_gp": "Could you review whether the SSRI or SNRI and the bleeding-risk medicine are both still needed and, if the history is unclear, check for peptic ulcer disease, gastrointestinal bleeding or haemophilia?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

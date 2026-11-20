@@ -245,8 +245,8 @@
   "cannot_be_seen": "An undocumented history of stroke or dementia in a person under 65, whether the blood thinner is still needed, over-the-counter aspirin, and whether the person is really taking each medicine.",
   "ask_the_gp": "A review of whether the SSRI and the blood thinner are both still needed, and whether the bleeding risk has been weighed.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "condition",

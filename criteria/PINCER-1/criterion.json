@@ -269,6 +269,6 @@
   "cannot_be_seen": "Whether the patient ever had an ulcer when no diagnosis is recorded, how healed or active it is, stomach acid medicines bought without a prescription, and NSAIDs bought without a prescription.",
   "ask_the_gp": "Could you confirm whether a peptic ulcer has been diagnosed and when? If the history is confirmed, could you review the need for the NSAID and whether stomach protection or a different pain treatment is suitable?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

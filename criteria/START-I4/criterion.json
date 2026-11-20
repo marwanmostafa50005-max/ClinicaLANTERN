@@ -102,7 +102,7 @@
   "cannot_be_seen": "How many infections the woman has had and whether they were proved by a urine test, antibiotics given in hospital or by another pharmacy, and the reason an antibiotic was supplied. Also any history of breast cancer or unexplained vaginal bleeding. Ask whether the antibiotic or methenamine was for repeated urinary infections and whether vaginal oestrogen is obtained elsewhere. Ask about any history of breast cancer or unexplained vaginal bleeding for the GP review.",
   "ask_the_gp": "A review of whether a vaginal oestrogen would help to lower the chance of the urinary infections coming back.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "only_sex": "female"
 }

@@ -102,6 +102,6 @@
   "cannot_be_seen": "Actual daily intake, intermittent as-needed use, seizure disorders, palliative care, specialist oversight, and a planned gradual reduction cannot be confirmed from supplies alone. Supplies from another pharmacy or hospital may also be missing.",
   "ask_the_gp": "Could you review the indication, duration, adverse effects, and continuing need for this benzodiazepine or Z-drug, including whether a planned gradual reduction would be appropriate?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

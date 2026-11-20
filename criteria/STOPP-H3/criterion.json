@@ -316,6 +316,6 @@
   "cannot_be_seen": "Why the NSAID was started, whether paracetamol was tried before the record began, and paracetamol bought without a prescription. Also how often the NSAID is really taken and medicines supplied by another pharmacy.",
   "ask_the_gp": "Whether paracetamol has been tried for the osteoarthritis pain, and whether the NSAID can be stopped or reduced.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

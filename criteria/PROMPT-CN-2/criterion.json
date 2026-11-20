@@ -284,6 +284,6 @@
   "cannot_be_seen": "Why the tricyclic was started, what was tried before the start of this record, and the depression history. A short record cannot show that nothing was tried earlier. Also any supply from another pharmacy.",
   "ask_the_gp": "Whether a tricyclic antidepressant is the right first choice for this patient, or whether a different antidepressant could be used instead.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

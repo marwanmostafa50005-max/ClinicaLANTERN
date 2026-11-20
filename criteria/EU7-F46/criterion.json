@@ -89,6 +89,6 @@
   "cannot_be_seen": "When no relevant lines are recorded: whether the person is immobilised, has had a blood clot before or has other clot risks, and the kidney function. The record also does not show how the medicine is really taken.",
   "ask_the_gp": "Whether strontium ranelate is still needed, with immobility, clot risk, age and kidney function in mind, and confirmation of any of these facts that the record does not show.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

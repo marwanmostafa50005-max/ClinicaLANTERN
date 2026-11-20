@@ -37,6 +37,6 @@
   "cannot_be_seen": "Why selegiline was prescribed, whether it is working, blood pressure on standing, and any dizziness or falls.",
   "ask_the_gp": "Whether selegiline is still the right choice for this person and whether their blood pressure on standing has been checked.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

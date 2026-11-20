@@ -71,6 +71,6 @@
   "cannot_be_seen": "Breast cancer history, type and dates may be missing. The supply may name the prescriber, but the reason for oestrogen therapy and any specialist advice may be missing.",
   "ask_the_gp": "A review of whether the oestrogen is still suitable, taking into account any history of breast cancer.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

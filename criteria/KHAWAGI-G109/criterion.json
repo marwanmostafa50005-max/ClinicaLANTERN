@@ -92,6 +92,6 @@
   "cannot_be_seen": "Dispensing does not establish actual use, indication or a prescriber’s intent. Treatment and assessments elsewhere may be missing.",
   "ask_the_gp": "Could you confirm the patient was 65 or older at supply if their age is unclear? If so, could you review the risk of excess sedation during the overlapping courses? For zolpidem, this check applies only to clarithromycin.",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

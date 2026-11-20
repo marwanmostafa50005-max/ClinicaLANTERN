@@ -107,6 +107,6 @@
   "cannot_be_seen": "The current kidney function if it is not recorded, the dose actually taken, and whether a kidney specialist is involved.",
   "ask_the_gp": "A review of the choice and dose of the opioid for this level of kidney function, and a current eGFR if none is recent.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

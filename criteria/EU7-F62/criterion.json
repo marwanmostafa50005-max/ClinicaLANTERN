@@ -82,6 +82,6 @@
   "cannot_be_seen": "Why the medicine was prescribed (Parkinson's disease, restless legs or a hormone condition), whether it is working, and any confusion, hallucinations, sleepiness or dizziness on standing.",
   "ask_the_gp": "Whether the dopamine agonist is still needed and the dose is the lowest that works, and whether a safer option is worth discussing.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

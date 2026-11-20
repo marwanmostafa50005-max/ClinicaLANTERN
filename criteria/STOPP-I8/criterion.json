@@ -152,6 +152,6 @@
   "cannot_be_seen": "Whether the person had urinary symptoms at the time, why the antibiotic was prescribed, and what the urine test showed, when the record has no such lines. An antibiotic for the urine may also have been for a kidney infection or before a procedure.",
   "ask_the_gp": "Why the antibiotic was prescribed and whether the person had urinary symptoms; if there were none, whether treatment was needed.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

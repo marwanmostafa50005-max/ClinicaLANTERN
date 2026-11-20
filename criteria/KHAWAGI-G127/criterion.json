@@ -52,6 +52,6 @@
   "cannot_be_seen": "Dispensing does not establish actual use, indication or a prescriber’s intent. Treatment and assessments elsewhere may be missing. Pulse, blood pressure and a plan for changing treatment may be absent. Ask about recent readings and any plan the prescriber gave. Remind the patient to seek medical advice before stopping clonidine.",
   "ask_the_gp": "Could you review concurrent clonidine and propranolol, the patient's pulse and blood pressure, and the plan if either medicine is changed or stopped?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

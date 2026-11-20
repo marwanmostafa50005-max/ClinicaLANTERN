@@ -57,6 +57,6 @@
   "cannot_be_seen": "Diabetes type, glucose, HbA1c, kidney function and past low blood sugar episodes may be missing. Use the recorded facts and prescribed dose when available. The record cannot confirm the dose actually taken or events recorded elsewhere.",
   "ask_the_gp": "A review of whether a shorter-acting diabetes medicine would suit this person better, taking into account any low blood sugar episodes.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

@@ -61,6 +61,6 @@
   "cannot_be_seen": "A supply date does not prove that the injection was administered. Kidney function, dialysis, serum calcium and supplement use may be missing or recorded elsewhere. CKD mineral and bone disorder and symptoms may not be recorded.",
   "ask_the_gp": "A review of kidney function, serum calcium, and calcium and vitamin D supplementation before denosumab administration, with monitoring after the dose.",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

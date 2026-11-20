@@ -120,6 +120,6 @@
   "cannot_be_seen": "Why the medicine was started, whether the person has dementia, a psychotic illness or nausea, who agreed to the dose, and how long the person has taken it. Also how much is really taken, and medicines supplied by a hospital or another pharmacy.",
   "ask_the_gp": "A review of whether the antipsychotic is still needed, whether a lower dose or a safer choice is possible, and a check of falls risk and blood pressure on standing.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

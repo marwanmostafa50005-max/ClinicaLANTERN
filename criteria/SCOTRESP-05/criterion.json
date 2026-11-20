@@ -151,8 +151,8 @@
   "cannot_be_seen": "Respiratory medicines obtained elsewhere or bought without a prescription may be missing from this record. Supply dates cannot show whether an earlier inhaler is still being used.",
   "ask_the_gp": "Could we confirm the asthma diagnosis and current respiratory medicines, including any as-needed or separately supplied preventer, and review the asthma plan?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "condition",

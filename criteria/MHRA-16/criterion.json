@@ -112,6 +112,6 @@
   "cannot_be_seen": "Symptoms, diet, malabsorption and other risk factors unless recorded or entered at the counter. Vitamin B12 results and their dates unless recorded. Whether metformin is actually taken, whether any monitoring is current, and medicines or supplements supplied elsewhere or bought without a prescription.",
   "ask_the_gp": "Could you review vitamin B12 testing or monitoring for this patient taking metformin, considering any symptoms and risk factors? Risk rises with higher metformin dose and longer treatment. RACGP diabetes practice aligns with testing symptomatic patients and considering periodic monitoring for at-risk patients, without setting an interval here. Could you also review correction if deficiency is confirmed? Patients should never stop metformin abruptly without prescriber advice.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

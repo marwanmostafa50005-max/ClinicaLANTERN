@@ -276,8 +276,8 @@
   "cannot_be_seen": "Why the anticholinergic medicine was prescribed (it is also used for Parkinson's disease), whether the person has movement side effects, and medicines supplied by a hospital or another pharmacy.",
   "ask_the_gp": "Whether the anticholinergic medicine is still needed, and whether a change to the antipsychotic or its dose would remove the movement effects.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "observation",

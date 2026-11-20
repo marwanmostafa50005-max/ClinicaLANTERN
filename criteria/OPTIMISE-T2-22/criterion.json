@@ -316,6 +316,6 @@
   "cannot_be_seen": "Why levothyroxine was started (for example a thyroid problem treated elsewhere, or a specialist plan), whether the person has depression or takes the antidepressant for another reason, the person's symptoms, and thyroid tests done elsewhere.",
   "ask_the_gp": "The reason levothyroxine was started and whether it is still needed, in light of the thyroid blood test results.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

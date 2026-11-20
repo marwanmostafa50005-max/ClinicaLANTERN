@@ -422,6 +422,6 @@
   "cannot_be_seen": "Why each medicine was prescribed, whether the aspirin or NSAID is taken only now and then, over-the-counter aspirin and anti-inflammatory medicines, any past bleeding, and whether a stomach-protecting medicine is wise.",
   "ask_the_gp": "Whether the aspirin, NSAID or DOAC is still needed alongside the antidepressant, and the person's risk of bleeding, including whether stomach protection is needed.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

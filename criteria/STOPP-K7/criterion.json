@@ -183,6 +183,6 @@
   "cannot_be_seen": "How often the opioid is really taken, whether the person still uses it, the cause and number of any falls, other sedating medicines bought without a prescription, and the reason for treatment.",
   "ask_the_gp": "A review of whether the opioid is still needed and at the lowest effective dose for a person with recurrent falls.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

@@ -107,8 +107,8 @@
   "cannot_be_seen": "Supply alone cannot establish the epilepsy subtype, whether the medicine was taken or how well seizures are controlled.",
   "ask_the_gp": "Could you confirm the seizure diagnosis and review whether this medicine suits the child’s seizure type?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "condition",

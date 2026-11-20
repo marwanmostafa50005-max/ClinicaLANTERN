@@ -82,6 +82,6 @@
   "cannot_be_seen": "Vaccines given by a doctor, a council clinic or another pharmacy, and the national immunisation register. A history that does not show a vaccine does not prove none was given. Also a medical reason not to vaccinate. Before contacting the GP, ask whether the patient received this season's vaccine elsewhere or has a medical reason to defer it. Check the available AIR record or confirm with the vaccinator when administration is uncertain.",
   "ask_the_gp": "A check of whether this season's influenza vaccine has been given, and whether to arrange it.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

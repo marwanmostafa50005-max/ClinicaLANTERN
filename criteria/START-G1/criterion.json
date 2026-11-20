@@ -156,6 +156,6 @@
   "cannot_be_seen": "The record may omit COPD symptoms, the GOLD stage, a reason a long-acting inhaler was stopped, supplies from a hospital or another pharmacy, and whether the person is near the end of life.",
   "ask_the_gp": "A review of whether a long-acting inhaler is needed, with a check of the diagnosis and its stage.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

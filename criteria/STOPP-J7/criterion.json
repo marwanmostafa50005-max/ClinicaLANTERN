@@ -124,6 +124,6 @@
   "cannot_be_seen": "The supply names the prescriber. The record may omit the reason for hormone therapy, specialist advice, arterial narrowing, scan results or whether a progestogen intrauterine device is in place.",
   "ask_the_gp": "A review of whether the hormone therapy is still suitable, taking into account any narrowed arteries.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

@@ -73,8 +73,8 @@
   "cannot_be_seen": "Kidney function tests done outside the pharmacy and the atrial fibrillation diagnosis may be absent. The record may also not show acute illness or whether kidney function is unstable.",
   "ask_the_gp": "Could you review the date of the most recent kidney function test and the monitoring interval for this DOAC, including any clinical reason for more frequent testing?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "result",

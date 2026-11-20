@@ -21,14 +21,23 @@ describe('the further criteria and cases/expected.further.json', () => {
   const hasSheet = fs.existsSync(sheetFile);
   const sheet = hasSheet ? readJson<ExpectedSheet>('cases/expected.further.json') : null;
 
-  it('every further criterion has a loadable file with its own id, a draft mark and no signature yet', () => {
+  // 21 November 2026: the clinical reviewer signed every criterion in use, and tools/signoff/apply.mjs wrote the
+  // signatures into the files. Until then this test required a draft mark and no signature. The rule it keeps:
+  // a criterion is a draft until it is signed, and the draft mark and the signature never disagree.
+  it('every further criterion has a loadable file with its own id, and is a draft until the clinical reviewer signs it', () => {
     for (const id of further) {
       const file = `criteria/${id}/criterion.json`;
       expect(fs.existsSync(path.join(REPO, file)), file).toBe(true);
       const c = readJson<Criterion>(file);
       expect(c.id).toBe(id);
-      expect(c.draft, `${id}: a further criterion is a draft until the founder signs`).toBe(true);
-      expect(c.signed_by_clinical_reviewer, `${id}: nobody has signed a further criterion`).toBeNull();
+      const signature = c.signed_by_clinical_reviewer;
+      if (signature === null || signature === undefined) {
+        expect(c.draft, `${id}: a further criterion is a draft until the founder signs`).toBe(true);
+      } else {
+        expect(c.draft, `${id}: a signed criterion is no longer a draft`).toBe(false);
+        expect(typeof signature.name === 'string' && signature.name.length > 0, `${id}: the signature names the reviewer`).toBe(true);
+        expect(/^\d{4}-\d{2}-\d{2}/.test(String(signature.date)), `${id}: the signature carries its date`).toBe(true);
+      }
     }
   });
 

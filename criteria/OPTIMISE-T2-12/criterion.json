@@ -314,6 +314,6 @@
   "cannot_be_seen": "Aspirin bought without a prescription and anticoagulants supplied elsewhere. Why no antiplatelet was used, including a past bleed, allergy or a clinical decision to use an anticoagulant alone instead. The exact vascular diagnosis if it was not recorded.",
   "ask_the_gp": "Whether an antiplatelet medicine should be started, after a review of the person's vascular disease and bleeding risk.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

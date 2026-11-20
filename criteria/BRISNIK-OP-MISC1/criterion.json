@@ -405,6 +405,6 @@
   "cannot_be_seen": "When not recorded: whether the heart failure is chronic, whether this is the first episode of depression, how severe it is, and whether talking therapy was tried. Medicines supplied by a hospital or another pharmacy.",
   "ask_the_gp": "Could you review whether the antidepressant is the best choice for this person, confirm any missing heart-failure or depression episode details, and consider non-drug treatment or an antidepressant review?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

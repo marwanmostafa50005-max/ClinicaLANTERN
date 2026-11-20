@@ -278,6 +278,6 @@
   "cannot_be_seen": "A weight measured by another provider may be missing. An incomplete weight history cannot establish that the patient missed monitoring.",
   "ask_the_gp": "Could you confirm the date of the latest measured weight during maintenance antipsychotic treatment and the follow-up plan?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

@@ -91,7 +91,7 @@
   "cannot_be_seen": "The residual urine volume, and whether there is an enlarged prostate, when the record has no such lines. Also how bad the urinary symptoms are, and whether the man has had a bladder scan.",
   "ask_the_gp": "Whether the bladder antimuscarinic is helping, and a check of residual urine volume and the risk of urinary retention.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "only_sex": "male"
 }

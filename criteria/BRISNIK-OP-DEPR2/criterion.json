@@ -294,6 +294,6 @@
   "cannot_be_seen": "Why the second antidepressant was added (for example a low dose of mirtazapine or amitriptyline for sleep or pain), how long the person has been unwell, how severe the depression really is, and who made the decision. Medicines supplied by a hospital or another pharmacy.",
   "ask_the_gp": "A review of whether both antidepressants are still needed for this episode of depression.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

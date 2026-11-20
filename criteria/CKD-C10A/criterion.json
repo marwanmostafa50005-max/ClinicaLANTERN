@@ -52,8 +52,8 @@
   "cannot_be_seen": "Dispensing does not establish the dose taken. Kidney results obtained elsewhere, their units and their timing may be missing.",
   "ask_the_gp": "Ask whether the patient has kidney disease, receives dialysis and knows their daily rosuvastatin dose. Could you review a dose above 10 mg/day against dialysis status and current creatinine clearance indexed to 1.73 m²?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "condition",

@@ -81,6 +81,6 @@
   "cannot_be_seen": "Why oestrogen was taken (for example hot flushes), whether the woman has had a hysterectomy, her breast and cancer history, and how long she has used it.",
   "ask_the_gp": "Whether oral oestrogen is still needed, and whether a review of the treatment or a change to a vaginal product is appropriate, taking into account the reason it was started.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

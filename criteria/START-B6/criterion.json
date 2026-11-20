@@ -167,6 +167,6 @@
   "cannot_be_seen": "Whether the heart failure is stable, the ejection fraction when the record has no result, a slow heart rate, low blood pressure, asthma or other reasons a beta-blocker was stopped or never started, and medicines supplied by a hospital or another pharmacy.",
   "ask_the_gp": "If the patient already takes immediate-release metoprolol tartrate, could you review whether a change of formulation is appropriate? Otherwise, could you review whether bisoprolol, nebivolol, extended-release metoprolol succinate or carvedilol is suitable for this heart failure, including any reason to avoid treatment? If the record does not show it, please also confirm the heart failure diagnosis and the ejection fraction.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

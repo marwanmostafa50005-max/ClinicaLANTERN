@@ -75,6 +75,6 @@
   "cannot_be_seen": "Pre-pubertal status, menopause, sterilisation, pregnancy, and pregnancy plans are not visible in dispensing lines. Non-pharmacy contraception such as IUDs or implants, specialist oversight, and supplies from another pharmacy or hospital are also not visible.",
   "ask_the_gp": "Could you review specialist supervision, reproductive counselling, and effective contraception where relevant for this patient on valproate?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

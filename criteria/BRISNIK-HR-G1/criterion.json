@@ -266,6 +266,6 @@
   "cannot_be_seen": "Whether the person has had a bleeding event, unless a line in the record says so, and what kind and how serious it was. Whether the medicines are really taken, and over-the-counter aspirin.",
   "ask_the_gp": "If a previous bleed is confirmed, could the benefits and risks of continuing both medicines be reviewed? If bleeding history is unknown, has the person ever had a bleeding event?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

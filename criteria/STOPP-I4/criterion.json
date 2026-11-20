@@ -81,6 +81,6 @@
   "cannot_be_seen": "Whether the person is constipated when the record has no condition or observation about bowel habit. Laxatives bought without a prescription do not show, and laxative supplies alone do not prove constipation.",
   "ask_the_gp": "Whether constipation is a problem for this person, and if so whether the bladder antimuscarinic should continue.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

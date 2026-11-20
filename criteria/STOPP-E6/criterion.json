@@ -71,6 +71,6 @@
   "cannot_be_seen": "The latest kidney test if none is on the record, whether the metformin dose was changed after the test, and the reason the person takes it.",
   "ask_the_gp": "Could you review the exact metformin product and dose against its renal prescribing limits, including the other ingredient in any combination tablet?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

@@ -140,6 +140,6 @@
   "cannot_be_seen": "Dates alone do not identify the reason for treatment. A dispensing history may omit a complication, an alternative airway diagnosis or another infection.",
   "ask_the_gp": "Could you confirm the diagnosis at this visit and review whether the antibiotic was for uncomplicated croup, a complication or another infection?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

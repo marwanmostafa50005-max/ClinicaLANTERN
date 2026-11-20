@@ -132,6 +132,6 @@
   "cannot_be_seen": "Dispensing lines alone cannot show whether an opioid is taken regularly or only when needed, active cancer pain, or palliative care. They also cannot show whether the medicine was taken, supplies from another pharmacy or hospital, whether a dose reduction is already under way, or supervised opioid-dependence therapy that sits outside standard PBS dispensing histories.",
   "ask_the_gp": "Could you review the ongoing opioid therapy, dose and pain plan, including whether long-term treatment is still needed and what follow-up is appropriate?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

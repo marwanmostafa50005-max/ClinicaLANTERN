@@ -70,6 +70,6 @@
   "cannot_be_seen": "Whether the patient has Parkinsonism if the record holds no line about it, how often the medicine is really taken, and any hospital or other pharmacy supplies.",
   "ask_the_gp": "Could you confirm whether the patient has Parkinsonism if this is unclear, and review the suitability of the dispensed prochlorperazine or metoclopramide if Parkinsonism is present?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

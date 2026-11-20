@@ -60,6 +60,6 @@
   "cannot_be_seen": "Age may be missing. Supply does not prove administration. This check covers children under 12. At ages 12 to 17, MHRA-6 checks codeine after surgery for obstructive sleep apnoea. No rule was found covering the full FDA postoperative restriction for both codeine and tramadol. Medicines supplied elsewhere may be absent.",
   "ask_the_gp": "Could you review the codeine or tramadol supply, its indication and an age-appropriate alternative for this child?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

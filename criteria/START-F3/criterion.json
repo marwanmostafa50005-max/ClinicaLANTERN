@@ -274,6 +274,6 @@
   "cannot_be_seen": "Whether the person bought a proton pump inhibitor or antacid without a prescription, and whether the NSAID was really taken. Also the person's own risk of stomach bleeding, such as a past ulcer that was never recorded, and medicines supplied by a hospital or another pharmacy.",
   "ask_the_gp": "Whether a proton pump inhibitor should be given while the NSAID continues, or whether the NSAID is still needed.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

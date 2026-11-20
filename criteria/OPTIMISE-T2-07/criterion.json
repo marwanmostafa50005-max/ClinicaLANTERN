@@ -626,6 +626,6 @@
   "cannot_be_seen": "Whether pressures were taken properly. Any home blood pressure readings not in the record. Why no blood pressure medicine was used, such as past side effects. Diabetes treated by diet and not recorded. Medicines supplied elsewhere.",
   "ask_the_gp": "Could you review the blood pressure and cardiovascular risks, including whether clinic and daytime ambulatory assessment is needed if readings are unavailable, and whether treatment is appropriate?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

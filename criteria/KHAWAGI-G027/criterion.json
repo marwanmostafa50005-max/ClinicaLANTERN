@@ -89,6 +89,6 @@
   "cannot_be_seen": "Supplies cannot establish a diagnosis of chronic heart failure, the actual dose taken or an unwritten dosing schedule.",
   "ask_the_gp": "Could you confirm the heart failure history and daily dose, and review whether this tricyclic is suitable?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

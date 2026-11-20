@@ -199,6 +199,6 @@
   "cannot_be_seen": "Blood pressure at home or at the surgery, bleeding that was never recorded, results such as platelet counts, and why the blood thinner was started. Also medicines supplied by a hospital or another pharmacy.",
   "ask_the_gp": "Could we review the bleeding risk today if the patient is still taking the medicine and a significant risk is present? Where a risk or its timing is unknown, could you confirm it and review the balance of benefit and harm?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

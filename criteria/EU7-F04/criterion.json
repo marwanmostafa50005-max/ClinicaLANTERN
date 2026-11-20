@@ -40,6 +40,6 @@
   "cannot_be_seen": "Check recorded conditions, results and observations for confusion, drowsiness, dizziness, falls, constipation, trouble passing urine and kidney function. Each is unknown if the record does not document it. The reason for starting the antispasmodic, benefit, actual frequency of use and purchases without a prescription may also be unknown.",
   "ask_the_gp": "Whether this antispasmodic is still needed and still helping, and whether the patient has had any confusion, dizziness or falls.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

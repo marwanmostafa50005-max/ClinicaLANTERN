@@ -302,6 +302,6 @@
   "cannot_be_seen": "Outside pathology results may be missing. Confirm the diabetes indication when a qualifying supply could be for weight management, heart failure or chronic kidney disease. Saxenda, Wegovy including Wegovy FlexTouch, and Liraglutide Lupin can be used for weight management. Some SGLT2 inhibitors can be used for heart failure or chronic kidney disease. A brand or a diagnosis alone does not establish the reason for this supply.",
   "ask_the_gp": "Could you confirm the date of the last eGFR and review the appropriate interval for this patient?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

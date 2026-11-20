@@ -375,6 +375,6 @@
   "cannot_be_seen": "Whether the person has ever had delirium, unless a line in the record says so. Which other medicines the person takes from other pharmacies or buys over the counter, and whether the other medicine is really taken.",
   "ask_the_gp": "A review of whether the antidepressant and the other delirium-causing medicine are both still needed, and, where the record is silent, a check of whether the person has had delirium before.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

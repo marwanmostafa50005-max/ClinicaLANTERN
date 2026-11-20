@@ -251,8 +251,8 @@
   "cannot_be_seen": "Outside pathology or follow-up may be missing. An incomplete observation window cannot establish an overdue test.",
   "ask_the_gp": "Could you confirm whether a serum lithium level was checked around days 5 to 7 after the systemic NSAID was started, or whether an individual monitoring plan was arranged?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "result",

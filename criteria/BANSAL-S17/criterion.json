@@ -154,6 +154,6 @@
   "cannot_be_seen": "The operation and the date of discharge if they are not recorded, ongoing pain from the operation, and whether the opioid is still needed.",
   "ask_the_gp": "Could you confirm whether the opioid was continued for postoperative pain and review whether it is still needed? If dose reduction is appropriate, could you review the plan with the patient?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

@@ -48,6 +48,6 @@
   "cannot_be_seen": "The record may omit cough products bought without a prescription and cannot show whether a dose was given. Australian bromhexine labelling excludes children under six.",
   "ask_the_gp": "Could you review the cough product and the child's age when it was supplied?",
   "urgency": "same_day",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

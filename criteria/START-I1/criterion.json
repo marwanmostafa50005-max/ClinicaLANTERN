@@ -114,7 +114,7 @@
   "cannot_be_seen": "Whether surgery to remove the prostate is needed, suitable or safe, how bad the symptoms are, blood pressure and low blood pressure on standing. Also a past reaction to an alpha-1 blocker, and why a 5-alpha reductase inhibitor was supplied.",
   "ask_the_gp": "Could you confirm whether an enlarged prostate is causing urinary symptoms and whether prostatectomy is needed, appropriate and safe before reviewing an alpha-1 blocker?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "only_sex": "male"
 }

@@ -264,6 +264,6 @@
   "cannot_be_seen": "Falls and their circumstances may go unrecorded. How the person walks, vision, blood pressure on standing, and medicines bought without a prescription or supplied by a hospital or another pharmacy.",
   "ask_the_gp": "Could you confirm whether the person has fallen before? If so, could you assess falls risk and review whether the antidepressant is still needed or its dose could be reduced?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

@@ -64,8 +64,8 @@
   "cannot_be_seen": "Whether the patient can father children, whether condoms and partner contraception are used, plans for pregnancy, actual medicine use, and supplies elsewhere may be missing. The record does not show whether counselling has occurred.",
   "ask_the_gp": "Could you review reproductive planning and effective contraception for this patient and his female partner during valproate treatment and for 3 months after stopping?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "observation",

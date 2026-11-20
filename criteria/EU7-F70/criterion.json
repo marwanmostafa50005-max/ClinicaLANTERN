@@ -39,6 +39,6 @@
   "cannot_be_seen": "Why it was started, whether it was for sleep or alcohol withdrawal, how much is really taken, and whether it was supplied by a hospital or from overseas.",
   "ask_the_gp": "A review of whether the sedative is still needed and whether a safer choice or a non-medicine approach for sleep is possible.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

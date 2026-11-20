@@ -95,6 +95,6 @@
   "cannot_be_seen": "Why each medicine was prescribed, whether the patient really takes both, the dose timing, and medicines bought without a prescription or supplied by a hospital or another pharmacy.",
   "ask_the_gp": "Would pantoprazole or another suitable acid-suppressing medicine with less potential to interact with clopidogrel suit this patient?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

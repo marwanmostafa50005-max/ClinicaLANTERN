@@ -93,6 +93,6 @@
   "cannot_be_seen": "Heart rate, ECG and blood pressure results, symptoms such as dizziness or fainting, the doses actually taken, and whether the beta-blocker is used for the heart or for another reason.",
   "ask_the_gp": "Could you review the combination, check the heart rate and consider whether an alternative would suit the reason each medicine is used?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

@@ -94,8 +94,8 @@
   "cannot_be_seen": "A medicine obtained elsewhere or bought without a prescription is not in the record. Silence about daytime symptoms does not establish their absence.",
   "ask_the_gp": "Could you check for daytime bladder symptoms and review the use of the bladder anticholinergic alone for bedwetting?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null,
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" },
   "needs_facts": [
     {
       "kind": "condition",

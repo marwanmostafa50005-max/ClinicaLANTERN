@@ -168,6 +168,6 @@
   "cannot_be_seen": "The OPTIMISE tool was written for people with severe mental illness, which a dispensing record does not confirm. Kidney function if it was never recorded in the shared record. How long the kidney function has been low. Whether the person receives dialysis. Why no statin was used, and statins supplied elsewhere. Whether a specialist has set a dose limit when the eGFR is below 30.",
   "ask_the_gp": "Whether a statin should be started, and whether a specialist should advise on the dose if the eGFR is below 30 mL/min/1.73 m2.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

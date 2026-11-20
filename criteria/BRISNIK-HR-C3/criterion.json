@@ -268,6 +268,6 @@
   "cannot_be_seen": "How severe the memory problem is, how the person is coping, and why the antidepressant was started. Medicines bought without a prescription or supplied by a hospital or another pharmacy.",
   "ask_the_gp": "If cognitive status is unclear, could you confirm whether cognitive impairment or dementia has been diagnosed? If present, could you review whether the antidepressant is still needed and helping?",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }

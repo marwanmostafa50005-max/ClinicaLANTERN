@@ -156,6 +156,6 @@
   "cannot_be_seen": "Dated observations can identify confusion, drowsiness, falls, constipation or trouble passing urine. Unrecorded symptoms, the reason for use, actual use and antihistamines bought outside the dispensing record may be unknown.",
   "ask_the_gp": "Whether this antihistamine is still needed at the patient's age, and whether the patient has had any drowsiness, confusion or falls.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-20" }
 }

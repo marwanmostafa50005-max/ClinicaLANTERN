@@ -245,6 +245,6 @@
   "cannot_be_seen": "Whether the person is near the end of life or frail, past statin side effects, and artery disease that is not on the record. Also medicines supplied by a hospital or another pharmacy.",
   "ask_the_gp": "Whether a statin should be started or restarted, or the reason for not using one.",
   "urgency": "routine",
-  "draft": true,
-  "signed_by_clinical_reviewer": null
+  "draft": false,
+  "signed_by_clinical_reviewer": { "name": "Marwan Morsy (PHA0002761764)", "date": "2026-11-21" }
 }
