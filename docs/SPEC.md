@@ -19,7 +19,7 @@ The app is the face of those models: one page, three round icons.
 The workflow:
 
 1. **Model 1 screens.** The pharmacist imports one dispensing history (CSV or PDF). Model 1 reads it
-   against every criterion in use ([[FILL: criteria in use]] in `criteria/active.json`), one criterion
+   against every criterion in use (583 in `criteria/active.json`), one criterion
    at a time. The first ten in `active` are screened before the `further` criteria (section 6a, G06).
    Each suspected finding is passed on. Model 1 stops.
 2. **Model 2 double-checks.** It re-reads the history for each suspected finding. If it confirms the
@@ -53,7 +53,7 @@ the failure. A criterion passes when no planted finding is missed.
 A false flag is **not** a failure. It is still counted and reported beside the result, because the
 judges asked for that number. Never hide it.
 
-The founder signs each criterion in use as clinical reviewer ([[FILL: criteria in use]] in
+The founder signs each criterion in use as clinical reviewer (583 in
 `criteria/active.json`). Nothing is called "validated",
 "approved" or "never misses". The stage is "Prototype".
 
@@ -108,7 +108,7 @@ so a page reload loses nothing.
 | `pipeline/` | The three model jobs, the Ollama client, CSV reading, letter checks | Grok |
 | `server/` | The local server: API, job queue, state file | Grok |
 | `src/`, `index.html`, `public/` | The one page | Cursor |
-| `criteria/` | Every criterion in use as data files ([[FILL: criteria in use]]), plus reserves | Kimi Code |
+| `criteria/` | Every criterion in use as data files (583), plus reserves | Kimi Code |
 | `cases/` | Fictional test histories and the expected answers | Kimi Code |
 | `eval/` | The scorer and its results | Kimi Code |
 | `docs/` | This file and the sign-off sheets | Kimi Code |
@@ -526,7 +526,7 @@ of the page that differs from an approved part of the reference pictures is a de
   source and credit, the medicines that count (ingredients and Australian brands, by group), the
   one-sentence rule for the models, what cannot be seen, what the letter asks the GP to review,
   urgency, and the sign-off field. See `Criterion` in `shared/types.ts`.
-- `criteria/active.json` lists [[FILL: criteria in use]] in order: `active` (the first ten, screened
+- `criteria/active.json` lists 583 in order: `active` (the first ten, screened
   first), then `further` (the rest in use), then `reserves` when present.
 - `cases/<ID>/*.csv` are fictional histories: for each criterion two with the finding planted
   (one by brand name only, one buried in the middle of a long history) and one near-miss that must

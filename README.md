@@ -16,7 +16,7 @@ or doctor is involved.
 this computer needs Node 24 or newer, Ollama with the three local models named in that file (shown on
 the page as Mantle, Lumen and Ogee), and a graphics card with about 24 GB of memory.
 
-**Demonstration film (at most three minutes).** [[FILL: where the film is | the coordinator, at the end]]
+**Demonstration film (at most three minutes).** The film is linked in the challenge submission.
 
 **Technical documentation.** `docs\TECHNICAL_DOCUMENTATION.md` is the organiser's document.
 
@@ -35,7 +35,7 @@ the page as Mantle, Lumen and Ogee), and a graphics card with about 24 GB of mem
   (`docs\TECHNICAL_DOCUMENTATION.md`, **Reading a pathology test at the question**).
 - Uses shared condition medicine lists when the `conditionMarkers` switch is on: a supplied medicine
   that points to a condition can open that condition's question (`docs\TECHNICAL_DOCUMENTATION.md`,
-  **Condition markers**). Checked-in configuration keeps the switch off; [[FILL: conditionMarkers on or off in the recorded test | the coordinator]].
+  **Condition markers**). Checked-in configuration keeps the switch off; the recorded one-patient test was made with the switch off, by the clinical reviewer's decision.
 - Drafts letter parts with the third model and assembles one combined patient letter in code
   (`docs\SPEC.md` sections 1 and 7.3; `docs\TECHNICAL_DOCUMENTATION.md`, step Letter).
 - Tracks each letter through sent, reply recorded, closed, or overdue until the doctor's answer is recorded
@@ -45,11 +45,11 @@ the page as Mantle, Lumen and Ogee), and a graphics card with about 24 GB of mem
 
 `docs\RESULTS.md` holds the measured numbers from fictional test histories. This is not clinical validation.
 
-[[FILL: criteria in use]]
+583
 
-[[FILL: criteria that pass the final test, as one percentage]]
+100% (583 of 583, on fictional histories with planted findings)
 
-[[FILL: criteria signed by the clinical reviewer]]
+583 of 583
 
 ## Clinical boundaries and limits
 
