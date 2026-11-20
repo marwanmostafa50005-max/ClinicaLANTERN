@@ -4,7 +4,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-const BOARD = 'C:/Users/AdamG/ClinicaLANTERN-AgentHub/fireup';
+const BOARD = (process.env.USERPROFILE || process.env.HOME || '').replace(/\\/g, '/') + '/ClinicaLANTERN-AgentHub/fireup';
 const active = JSON.parse(fs.readFileSync('criteria/active.json', 'utf8'));
 const sheet = JSON.parse(fs.readFileSync('cases/expected.json', 'utf8'));
 const results = fs.readFileSync('docs/RESULTS.md', 'utf8');

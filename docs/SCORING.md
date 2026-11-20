@@ -17,7 +17,7 @@ section 1). There is one graphics card: run one scored run at a time, and not wh
 screening a history.
 
 ```
-cd C:\Users\AdamG\ClinicaLANTERN-Lantern
+cd %USERPROFILE%\ClinicaLANTERN-Lantern
 ```
 
 ## 1. The three kinds of run
@@ -55,7 +55,7 @@ npm run eval -- --quick --no-sample
 `<wave>\cases\<ID>\expected.part.json`. Nothing in the repository is changed.
 
 ```
-node eval\run.ts --wave C:\Users\AdamG\ClinicaLANTERN-Lantern-runtime\waves-claude\W101 --out C:\Users\AdamG\ClinicaLANTERN-Lantern-runtime\wave-runs\W101
+node eval\run.ts --wave %USERPROFILE%\ClinicaLANTERN-Lantern-runtime\waves-claude\W101 --out %USERPROFILE%\ClinicaLANTERN-Lantern-runtime\wave-runs\W101
 ```
 
 - Give `--wave` again, or use commas, to score several wave folders in one run. The three stages
@@ -77,7 +77,7 @@ says how many screen calls the run would make and lists what needs a look. It wr
 
 ```
 npm run eval -- --quick --check
-node eval\run.ts --wave C:\Users\AdamG\ClinicaLANTERN-Lantern-runtime\waves-claude\W101 --check
+node eval\run.ts --wave %USERPROFILE%\ClinicaLANTERN-Lantern-runtime\waves-claude\W101 --check
 ```
 
 The default answer sheet is `cases\expected.json` (not signed by the clinical reviewer). When
@@ -192,7 +192,7 @@ the case check calls it ok. Do the steps in this order.
    wrong, and ends with code 0 only when all are ok. "not drafted" is not counted as wrong.
 
    ```
-   node tools\check-cases.mjs --wave C:\Users\AdamG\ClinicaLANTERN-Lantern-runtime\waves-claude\W101
+   node tools\check-cases.mjs --wave %USERPROFILE%\ClinicaLANTERN-Lantern-runtime\waves-claude\W101
    ```
 
 2. **Score the wave** (section 1, wave run). Keep the folder given with `--out`.
@@ -200,13 +200,13 @@ the case check calls it ok. Do the steps in this order.
 3. **See what would be adopted.** Nothing is written.
 
    ```
-   node tools\adopt-wave.mjs --wave C:\Users\AdamG\ClinicaLANTERN-Lantern-runtime\waves-claude\W101 --results C:\Users\AdamG\ClinicaLANTERN-Lantern-runtime\wave-runs\W101\results.json --dry-run
+   node tools\adopt-wave.mjs --wave %USERPROFILE%\ClinicaLANTERN-Lantern-runtime\waves-claude\W101 --results %USERPROFILE%\ClinicaLANTERN-Lantern-runtime\wave-runs\W101\results.json --dry-run
    ```
 
 4. **Adopt.** The same line without `--dry-run`.
 
    ```
-   node tools\adopt-wave.mjs --wave C:\Users\AdamG\ClinicaLANTERN-Lantern-runtime\waves-claude\W101 --results C:\Users\AdamG\ClinicaLANTERN-Lantern-runtime\wave-runs\W101\results.json
+   node tools\adopt-wave.mjs --wave %USERPROFILE%\ClinicaLANTERN-Lantern-runtime\waves-claude\W101 --results %USERPROFILE%\ClinicaLANTERN-Lantern-runtime\wave-runs\W101\results.json
    ```
 
 5. **Check the repository again**, then start a clean demo before the page is used, because the

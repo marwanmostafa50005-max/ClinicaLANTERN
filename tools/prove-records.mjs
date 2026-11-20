@@ -37,7 +37,7 @@ const option = (name, fallback) => {
   const at = args.indexOf(name);
   return at >= 0 && args[at + 1] ? args[at + 1] : fallback;
 };
-const WAVES = path.resolve(option('--waves', 'C:\\Users\\AdamG\\ClinicaLANTERN-Lantern-runtime\\waves-claude'));
+const WAVES = path.resolve(option('--waves', path.join(process.env.USERPROFILE || process.env.HOME || '', 'ClinicaLANTERN-Lantern-runtime', 'waves-claude')));
 // One with a result fact, one with a condition fact, one START item (a medicine that should be there is not supplied).
 const DEFAULT_IDS = ['STOPP-E1', 'STOPP-B2', 'START-B3'];
 const ONLY = option('--only', '').split(',').map(s => s.trim()).filter(Boolean);

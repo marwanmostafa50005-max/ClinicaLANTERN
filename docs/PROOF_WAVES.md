@@ -44,7 +44,7 @@ scorer, and two for the wording hint in the letter job. No existing test was cha
 ## 3. Regression on the first ten
 
 The ten proposed criteria passed their first scored run at 09:30 this morning (a full run, kept in
-`C:\Users\AdamG\ClinicaLANTERN-Lantern-runtime\run0\results\`). They had to pass again on today's
+`%USERPROFILE%\ClinicaLANTERN-Lantern-runtime\run0\results\`). They had to pass again on today's
 code. This was run the same way as in the morning, but as a quick run:
 
 - A private copy of the repository was made under the Windows temp folder, without
@@ -52,7 +52,7 @@ code. This was run the same way as in the morning, but as a quick run:
   in place of `criteria\active.json`, and `cases\expected.json` was made from
   `cases\expected.proposed.json` with the histories of the ten and the clean ones: 33 histories.
 - `node eval/run.ts --quick --out <results folder>`, 13:38 to 13:50.
-- The results are in `C:\Users\AdamG\ClinicaLANTERN-Lantern-runtime\wave-proof\regression-first-ten\`
+- The results are in `%USERPROFILE%\ClinicaLANTERN-Lantern-runtime\wave-proof\regression-first-ten\`
   (`table.md`, `results.json`, `raw\`), and the log is beside that folder.
 
 | | Full run this morning, 09:30 | Quick run on today's code, 13:38 |
@@ -79,7 +79,7 @@ done about it.
 
 **Again, on the final code.** After the change of section 6 the same regression was run once more,
 in a fresh private copy made from the final code, 14:38 to 14:50 (12 min 14 s). The results are in
-`C:\Users\AdamG\ClinicaLANTERN-Lantern-runtime\wave-proof\regression-first-ten-run2\`.
+`%USERPROFILE%\ClinicaLANTERN-Lantern-runtime\wave-proof\regression-first-ten-run2\`.
 Again 10 of 10 PASS, 20 of 20 planted findings caught, 0 false flags (0 in the 27 sampled
 screenings), 0 failed calls, and 1 suspected finding turned back by Model 2 where nothing was
 planted. The same calls were made: 87 to screen, 21 to double-check, 20 letters. All 20 letters
@@ -87,7 +87,7 @@ were written by the model: 18 at the first draft, and the two for PINCER 9 at th
 
 ## 4. Three drafted wave folders, scored in place in one wave run
 
-The three wave folders, under `C:\Users\AdamG\ClinicaLANTERN-Lantern-runtime\waves-claude\`:
+The three wave folders, under `%USERPROFILE%\ClinicaLANTERN-Lantern-runtime\waves-claude\`:
 
 | Wave folder | What it holds | Class |
 |---|---|---|
@@ -102,7 +102,7 @@ W114 and W146 each gave 8 criteria, 8 ok, 0 not ok, 0 not drafted, and ended wit
 **Then the run.** One run for the three folders, so each model was loaded once:
 
 ```
-node eval\run.ts --wave <waves>\W105 --wave <waves>\W114 --wave <waves>\W146 --out C:\Users\AdamG\ClinicaLANTERN-Lantern-runtime\wave-proof\waves-W105-W114-W146-run1
+node eval\run.ts --wave <waves>\W105 --wave <waves>\W114 --wave <waves>\W146 --out %USERPROFILE%\ClinicaLANTERN-Lantern-runtime\wave-proof\waves-W105-W114-W146-run1
 ```
 
 13:50 to 14:06, 15 min 58 s. The results are in that folder (`table.md`, `results.json`, `raw\`).
@@ -222,7 +222,7 @@ on the final code, as section 4 and section 3 were run. No letter was built from
 | W146, 14:10 | 11 | 6 | 5 | 0 |
 
 The second wave run is in
-`C:\Users\AdamG\ClinicaLANTERN-Lantern-runtime\wave-proof\waves-W105-W114-W146-run2\`. Its
+`%USERPROFILE%\ClinicaLANTERN-Lantern-runtime\wave-proof\waves-W105-W114-W146-run2\`. Its
 screening and double-check gave what the first run gave: 24 of 24 PASS, 43 of 43 planted findings
 caught, 11 possible findings, 0 false flags, 0 failed calls, in 15 min 56 s (W105 358.7 s,
 W114 346.5 s, W146 251.0 s). The first drafts still met the wording check 10 times in 43 letters.
@@ -248,11 +248,11 @@ small things were added.
 and no lock file.
 
 ```
-> node tools\adopt-wave.mjs --wave C:\Users\AdamG\ClinicaLANTERN-Lantern-runtime\waves-claude\W105 --results C:\Users\AdamG\ClinicaLANTERN-Lantern-runtime\wave-proof\waves-W105-W114-W146-run1\results.json --dry-run
+> node tools\adopt-wave.mjs --wave %USERPROFILE%\ClinicaLANTERN-Lantern-runtime\waves-claude\W105 --results %USERPROFILE%\ClinicaLANTERN-Lantern-runtime\wave-proof\waves-W105-W114-W146-run1\results.json --dry-run
 
 ClinicaLANTERN adoption helper. DRY RUN: nothing is written. Fictional patients only.
-Repository: C:\Users\AdamG\ClinicaLANTERN-Lantern
-Results: C:\Users\AdamG\ClinicaLANTERN-Lantern-runtime\wave-proof\waves-W105-W114-W146-run1\results.json. Passing: 24. Not passing: 0.
+Repository: %USERPROFILE%\ClinicaLANTERN-Lantern
+Results: %USERPROFILE%\ClinicaLANTERN-Lantern-runtime\wave-proof\waves-W105-W114-W146-run1\results.json. Passing: 24. Not passing: 0.
 Answer sheet: cases/expected.json was not found. A real run would make it, not signed. It would hold the adopted histories only: the histories of the first ten are not in it.
 
 Wave folder W105: 8 criterion folders.
@@ -339,7 +339,7 @@ state was left alone.
 | `tools\smoke.mjs`: the whole loop through the API, with the long history | ALL 44 CHECKS PASSED, 154.6 s |
 | `tools\page-walk.mjs --no-scan`: the real page with real clicks in headless Edge, without the two scans | ALL 32 CHECKS PASSED, 111.1 s. No error on the page. At phone width (390 by 844) nothing scrolls sideways. |
 
-Where to look: `C:\Users\AdamG\ClinicaLANTERN-Lantern-runtime\wave-proof\app-join\` holds the two
+Where to look: `%USERPROFILE%\ClinicaLANTERN-Lantern-runtime\wave-proof\app-join\` holds the two
 records of `run-case`, the accept and the letter, the state file, the server logs, the records
 of the two join tests, and the pictures. One picture is kept with the page pictures:
 `docs\screens\records-live-bell-fact-lines-and-possible-1366x2300.png`.
@@ -400,15 +400,15 @@ Start Ollama first (`start-ollama.ps1`, `docs\RUNNING.md` section 1). There is o
 run one of these at a time, and not while the page is screening a history.
 
 ```
-cd C:\Users\AdamG\ClinicaLANTERN-Lantern
+cd %USERPROFILE%\ClinicaLANTERN-Lantern
 npm run typecheck
 npm test
 npm run build
 
-node tools\check-cases.mjs --wave C:\Users\AdamG\ClinicaLANTERN-Lantern-runtime\waves-claude\W105
-node eval\run.ts --wave C:\Users\AdamG\ClinicaLANTERN-Lantern-runtime\waves-claude\W105 --check
-node eval\run.ts --wave C:\Users\AdamG\ClinicaLANTERN-Lantern-runtime\waves-claude\W105 --wave C:\Users\AdamG\ClinicaLANTERN-Lantern-runtime\waves-claude\W114 --out <a new folder>
-node tools\adopt-wave.mjs --wave C:\Users\AdamG\ClinicaLANTERN-Lantern-runtime\waves-claude\W105 --results <that folder>\results.json --dry-run
+node tools\check-cases.mjs --wave %USERPROFILE%\ClinicaLANTERN-Lantern-runtime\waves-claude\W105
+node eval\run.ts --wave %USERPROFILE%\ClinicaLANTERN-Lantern-runtime\waves-claude\W105 --check
+node eval\run.ts --wave %USERPROFILE%\ClinicaLANTERN-Lantern-runtime\waves-claude\W105 --wave %USERPROFILE%\ClinicaLANTERN-Lantern-runtime\waves-claude\W114 --out <a new folder>
+node tools\adopt-wave.mjs --wave %USERPROFILE%\ClinicaLANTERN-Lantern-runtime\waves-claude\W105 --results <that folder>\results.json --dry-run
 ```
 
 The regression on the first ten needs the ten in use and their answer sheet. Until the founder has

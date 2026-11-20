@@ -299,7 +299,7 @@ A body of 41 MB got 413.
 ## 12. How to repeat it
 
 ```
-powershell -NoProfile -File C:\Users\AdamG\ClinicaLANTERN-Lantern-runtime\start-ollama.ps1
+powershell -NoProfile -File %USERPROFILE%\ClinicaLANTERN-Lantern-runtime\start-ollama.ps1
 
 $env:LANTERN_ACTIVE_FILE = 'cases\_demo\active.json'
 $env:LANTERN_DATA_DIR = 'data\proof-engine'

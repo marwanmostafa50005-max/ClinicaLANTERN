@@ -1,0 +1,12 @@
+ClinicaLANTERN
+Copyright (c) 2026 Marwan Morsy. All rights reserved.
+
+No licence to use, copy, modify or distribute the application code, the screening rules written for
+this prototype, or its fictional test histories is granted by this file. The author has not yet
+stated a licence for them. Until he does, the ordinary rule applies: all rights are reserved.
+
+Third-party material keeps its own terms. The published prescribing criteria, the open-weight
+models, the model runner and the software components are listed with their sources and licences in
+NOTICE.md and docs/SOURCES_AND_LICENCES.md.
+
+Every patient, prescriber and practice in this repository is fictional.

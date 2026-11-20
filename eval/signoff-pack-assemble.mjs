@@ -3,7 +3,7 @@
 import fs from 'node:fs';
 import { execSync } from 'node:child_process';
 
-const BOARD = 'C:/Users/AdamG/ClinicaLANTERN-AgentHub/fireup';
+const BOARD = (process.env.USERPROFILE || process.env.HOME || '').replace(/\\/g, '/') + '/ClinicaLANTERN-AgentHub/fireup';
 const draft = fs.readFileSync('eval/results/signoff-pack-draft.md', 'utf8'); // the hand-written part
 const generated = fs.readFileSync('eval/results/signoff-pack-generated.md', 'utf8');
 

@@ -51,7 +51,7 @@ model files. They are large and each has its own publisher and licence.
 1. **Start the model server (Ollama).** It is safe to run this twice. On the entrant's computer:
 
    ```
-   powershell -NoProfile -File C:\Users\AdamG\ClinicaLANTERN-Lantern-runtime\start-ollama.ps1
+   powershell -NoProfile -File %USERPROFILE%\ClinicaLANTERN-Lantern-runtime\start-ollama.ps1
    ```
 
    On another computer, from the repository, with the folder that holds `ollama-v0.40.15`:
@@ -66,7 +66,7 @@ model files. They are large and each has its own publisher and licence.
 2. **Go to the repository.**
 
    ```
-   cd C:\Users\AdamG\ClinicaLANTERN-Lantern
+   cd %USERPROFILE%\ClinicaLANTERN-Lantern
    ```
 
 3. **Build the page.** This is needed the first time, and again after any change in `src\`.
@@ -96,7 +96,7 @@ To stop: press Ctrl+C in the window of step 4. Nothing is lost, because the stat
 every step. Ollama can stay up. To stop Ollama too:
 
 ```
-powershell -NoProfile -File C:\Users\AdamG\ClinicaLANTERN-Lantern-runtime\stop-ollama.ps1
+powershell -NoProfile -File %USERPROFILE%\ClinicaLANTERN-Lantern-runtime\stop-ollama.ps1
 ```
 
 The dependencies are already installed on this PC. On another copy of the repository run
@@ -349,7 +349,7 @@ All three answer on this computer only (127.0.0.1).
 | `data\` | Made by the server. `state.json` is everything that happened. `backups\` holds the dated backups. `images\` holds page images of a scan until its rows are confirmed. `tmp\` and `logs\` are scratch space of the tools. Not kept in git. |
 | `node_modules\` | The installed packages. Not kept in git. |
 
-Outside the repository: `C:\Users\AdamG\ClinicaLANTERN-Lantern-runtime` holds Ollama, the three
+Outside the repository: `%USERPROFILE%\ClinicaLANTERN-Lantern-runtime` holds Ollama, the three
 models and the start and stop scripts.
 
 ## 7. Timings measured on 18 November 2026
@@ -563,7 +563,7 @@ history waiting under the bell. "Start a clean demo" clears it and keeps a backu
 On the afternoon of 18 November three pieces were built side by side for section 6a of
 `docs\SPEC.md`: the engine, the scorer and the page. Then they were joined and run with the real
 models. `docs\PROOF_WAVES.md` has the whole account. Every result is kept under
-`C:\Users\AdamG\ClinicaLANTERN-Lantern-runtime\wave-proof\`.
+`%USERPROFILE%\ClinicaLANTERN-Lantern-runtime\wave-proof\`.
 
 | What | Result | Where to look |
 |---|---|---|

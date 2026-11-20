@@ -70,7 +70,7 @@ The second model is told the same three cases as: confirm with the fact line; co
   write the letter for every finding at the bell. With `--server` it takes one history through the
   server's own engine, in the same process, with the state file in a throwaway folder.
 - The drafted criteria and histories were read where they are, under
-  `C:\Users\AdamG\ClinicaLANTERN-Lantern-runtime\waves-claude`. Nothing was copied into the
+  `%USERPROFILE%\ClinicaLANTERN-Lantern-runtime\waves-claude`. Nothing was copied into the
   repository and no drafted file was changed.
 - The three criteria of the main run were chosen to be one of each kind the task names:
   **STOPP E1** needs a result (the eGFR), **STOPP B2** needs a condition (heart failure with its
@@ -380,7 +380,7 @@ leaves open.
 Start Ollama first (`start-ollama.ps1`). Stop other model work: there is one GPU.
 
 ```
-cd C:\Users\AdamG\ClinicaLANTERN-Lantern
+cd %USERPROFILE%\ClinicaLANTERN-Lantern
 node tools\prove-records.mjs --letters --server
 node tools\prove-records.mjs --no-demo --only PINCER-3,STOPP-B9,STOPP-D1
 node tools\prove-records.mjs --list

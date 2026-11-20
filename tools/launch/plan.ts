@@ -10,7 +10,7 @@ import { loadConfig } from '../../pipeline/config.ts';
 export const SHORTCUT_DESCRIPTION = 'ClinicaLANTERN: the LANTERN';
 
 /** How this build starts the model server when it is not already answering. */
-export const MODEL_SERVER_SCRIPT = 'C:\\Users\\AdamG\\ClinicaLANTERN-Lantern-runtime\\start-ollama.ps1';
+export const MODEL_SERVER_SCRIPT = path.join(process.env.USERPROFILE ?? process.env.HOME ?? '', 'ClinicaLANTERN-Lantern-runtime', 'start-ollama.ps1');
 
 /** Plain sentences for a person. The scripts show these and do not invent others. */
 export const MESSAGES = {
