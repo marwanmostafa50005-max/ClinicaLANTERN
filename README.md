@@ -16,7 +16,7 @@ or doctor is involved.
 this computer needs Node 24 or newer, Ollama with the three local models named in that file (shown on
 the page as Mantle, Lumen and Ogee), and a graphics card with about 24 GB of memory.
 
-**Demonstration film (at most three minutes).** The film is linked in the challenge submission.
+**Demonstration.** The film that was submitted is `docs/demo/ClinicaLANTERN-demonstration-film.mp4` (2 min 42 s), with a longer cut of the same recording beside it (3 min 3 s). `docs/demo/ui-after-the-recorded-test.webp` is the home page after the recorded run, and `docs/demo/GP-letter-after-the-recorded-test.pdf` is the GP letter of that run after the pharmacist accepted its findings (45 pages, 67 points, fictional patient). The submitted deck, with the signed register of the 583 criteria and the research paper, is `docs/submission/ClinicaLANTERN-Solution-Deck.pdf`.
 
 **Technical documentation.** `docs\TECHNICAL_DOCUMENTATION.md` is the organiser's document.
 
@@ -33,9 +33,9 @@ the page as Mantle, Lumen and Ogee), and a graphics card with about 24 GB of mem
 - Reads an uploaded pathology test at a result question (path-O-finder). The panel carries this line:
   "Every result finds its path, and every path is one a pharmacist chose."
   (`docs\TECHNICAL_DOCUMENTATION.md`, **Reading a pathology test at the question**).
-- Uses shared condition medicine lists when the `conditionMarkers` switch is on: a supplied medicine
-  that points to a condition can open that condition's question (`docs\TECHNICAL_DOCUMENTATION.md`,
-  **Condition markers**). Checked-in configuration keeps the switch off; the recorded one-patient test was made with the switch off, by the clinical reviewer's decision.
+- Holds a switched-off component that could open a condition's question from a supplied medicine.
+  No list of medicines is shipped in this release, the `conditionMarkers` switch is off, and the
+  recorded one-patient test did not use it.
 - Drafts letter parts with the third model and assembles one combined patient letter in code
   (`docs\SPEC.md` sections 1 and 7.3; `docs\TECHNICAL_DOCUMENTATION.md`, step Letter).
 - Tracks each letter through sent, reply recorded, closed, or overdue until the doctor's answer is recorded
