@@ -1,0 +1,84 @@
+{
+  "id": "CKD-C01A",
+  "label": "CKD review: Review oral digoxin above 125 micrograms/day in the audit window for documented stage 3b, 4 or 5 CKD",
+  "family": "CKD",
+  "title": "Review oral digoxin above 125 micrograms/day in the audit window for documented stage 3b, 4 or 5 CKD",
+  "statement": "For an adult outpatient with established CKD, review oral digoxin above 125 micrograms/day in the audit window for documented stage 3b, 4 or 5 CKD.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Examining variations in prescribing safety in UK general practice: cross sectional study using the Clinical Practice Research Datalink",
+    "citation": "Stocks SJ, Kontopantelis E, Akbarov A, Rodgers S, Avery AJ, Ashcroft DM. BMJ 2015;351:h5501. Table 1, P9.",
+    "doi": "10.1136/bmj.h5501",
+    "url": "https://www.bmj.com/content/bmj/351/bmj.h5501.full.pdf",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "S Jill Stocks, Evangelos Kontopantelis, Artur Akbarov, Sarah Rodgers, Anthony J Avery and Darren M Ashcroft. Examining variations in prescribing safety in UK general practice: cross sectional study using the Clinical Practice Research Datalink. BMJ 2015;351:h5501, Table 1 P9. https://doi.org/10.1136/bmj.h5501. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Adapted to adult outpatient dispensing records. Smith et al. (2020) credited for the compilation. Smith F, Hayward S, Hole B, Kimpton G, Sluman C, Whiting P, Caskey F. A systematically collated library of prescribing safety indicators for people with chronic kidney disease. BMC Nephrology 2020;21:493. https://doi.org/10.1186/s12882-020-02158-0; Additional file 2 (Appendix 3), https://doi.org/10.6084/m9.figshare.13257677. © The Author(s) 2020, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Changes were made. Smith et al. compiled the CKD indicators. Original screening wording and Australian adaptations. Clinical cross-check: Stocks Table 1 (https://pmc.ncbi.nlm.nih.gov/articles/PMC4632209/).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "For an adult outpatient with established CKD, review oral digoxin above 125 micrograms/day in the audit window for documented stage 3b, 4 or 5 CKD.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Oral digoxin",
+      "ingredients": [
+        "digoxin"
+      ],
+      "brands": {
+        "digoxin": [
+          "Lanoxin",
+          "Sigmaxin",
+          "Lanoxin-PG",
+          "Sigmaxin-PG",
+          "Lanoxin Paediatric Elixir"
+        ]
+      },
+      "note": "Count oral tablets or liquid. Multiply tablet strength by tablets per day, or liquid concentration by mL per day. Convert mg to micrograms by multiplying by 1000. Exclude digoxin injection from this oral outpatient screen."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Chronic kidney disease",
+      "meets": "Established CKD at outpatient review. Cite an available unstaged diagnosis when its stage is missing.",
+      "options": [
+        {
+          "words": "CKD established at the review date",
+          "effect": "meets"
+        },
+        {
+          "words": "CKD ruled out at the review date",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "condition",
+      "what": "Stage 3b, 4 or 5 CKD documented at least three calendar months before the latest date in the record",
+      "meets": "Stage 3b, 4 or 5 CKD documented at least three calendar months before the latest date in the record. A dated qualifying stage entry can establish both CKD and its stage. An unstaged diagnosis date alone does not establish when a qualifying stage was first documented. Missing stage or date allows at most a possible finding. A later entry alone cannot exclude an earlier qualifying stage when the earlier history is unknown.",
+      "options": [
+        {
+          "words": "The dated record confirms this stage and timing",
+          "effect": "meets"
+        },
+        {
+          "words": "The records establish that no such stage was documented by the cut-off",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Use the latest date in the record as the audit date. The window starts three months before the latest date in the record. For an adult outpatient, flag oral digoxin above 125 micrograms/day supplied in that window if stage 3b, 4 or 5 CKD was documented on or before the start of the window. Calculate the daily dose from the strength and directions. A dated qualifying stage establishes CKD and its stage. A pharmacist answer confirming that the dated record meets the stage and timing requirement also establishes this fact. An unstaged CKD diagnosis alone does not establish when a qualifying stage was documented. A later entry alone cannot exclude an earlier qualifying stage when the earlier history is unknown. If stage or timing is missing and the other requirements allow a finding, report a possible finding and name the missing fact \"Stage 3b, 4 or 5 CKD documented at least three calendar months before the latest date in the record\". If known facts exclude the finding, report none. Otherwise, if eligibility, dose, stage or its timing is unclear, name each missing fact and report a possible finding. For every finding, including a possible finding, cite the digoxin supply and any available CKD evidence, including the dated stage if recorded. Also cite the line ID of the Audit date observation if it gives the latest date in the record, even when the CKD stage is missing.",
+  "cannot_be_seen": "Dispensing does not establish the dose taken. Kidney results obtained elsewhere, their units and their timing may be missing.",
+  "ask_the_gp": "Could you confirm whether stage 3b, 4 or 5 CKD was documented at least three calendar months before the audit and review the oral digoxin dose against kidney function?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

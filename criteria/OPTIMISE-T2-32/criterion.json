@@ -1,0 +1,284 @@
+{
+  "id": "OPTIMISE-T2-32",
+  "label": "OPTIMISE T2-32: folate check on an antiepileptic",
+  "family": "OPTIMISE",
+  "title": "Antiepileptic medicine with no recent folate check",
+  "statement": "Monitor folic acid levels periodically in people who are prescribed antiepileptic drugs and correct any folic acid deficiencies",
+  "statement_origin": "published",
+  "source": {
+    "document": "Carolan A, et al. OPTIMISE. BMC Psychiatry 2022;22:585, Tables 2-3",
+    "citation": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "modification_notice": "Statement text as recorded by the earlier project. It has not been compared with the publisher's page. Not endorsed by the source authors."
+  },
+  "plain_summary": "Some antiepileptic medicines can lower folate, so a folate level should be checked from time to time and any low level corrected.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antiepileptic medicines",
+      "ingredients": [
+        "sodium valproate",
+        "carbamazepine",
+        "phenytoin",
+        "lamotrigine",
+        "levetiracetam",
+        "topiramate",
+        "oxcarbazepine",
+        "lacosamide",
+        "primidone",
+        "phenobarbitone",
+        "phenobarbital",
+        "zonisamide",
+        "brivaracetam",
+        "perampanel",
+        "ethosuximide",
+        "vigabatrin",
+        "valproic acid",
+        "sulthiame"
+      ],
+      "brands": {
+        "sodium valproate": [
+          "Epilim",
+          "Valpro"
+        ],
+        "carbamazepine": [
+          "Tegretol",
+          "Teril",
+          "Avloire",
+          "Avloire CR",
+          "Tegretol CR"
+        ],
+        "phenytoin": [
+          "Dilantin",
+          "Dilantin Infatabs",
+          "Dilantin Paediatric"
+        ],
+        "lamotrigine": [
+          "Lamictal",
+          "Elmendos",
+          "Lamidus",
+          "Lamitan",
+          "Lamitrin",
+          "Lamogine",
+          "Lamotran",
+          "Lamotrust",
+          "Logem",
+          "Motrig",
+          "Munatrep",
+          "Reedos",
+          "Seaze",
+          "Torlemo DT",
+          "Tortrigine DT"
+        ],
+        "levetiracetam": [
+          "Keppra",
+          "Kepcet",
+          "Kerron",
+          "Ketraccord",
+          "Kevtam",
+          "Levactam",
+          "Levecetam",
+          "Leveceumid",
+          "Levefintaic",
+          "Levenakai",
+          "Leveriuol",
+          "Levesineal",
+          "Levetiram",
+          "Levetor",
+          "Levi",
+          "Levitaccord",
+          "Levitam",
+          "Levt"
+        ],
+        "topiramate": [
+          "Topamax",
+          "Epiramax",
+          "Tamate",
+          "Topamax Sprinkle",
+          "Topira-Lax"
+        ],
+        "oxcarbazepine": [
+          "Trileptal"
+        ],
+        "lacosamide": [
+          "Vimpat",
+          "Lacomed",
+          "Lacoress",
+          "Lacosacor",
+          "Lacosam",
+          "Lacovim",
+          "Vimcosa",
+          "Vimmed"
+        ],
+        "primidone": [
+          "Mysoline"
+        ],
+        "phenobarbitone": [
+          "Phenobarb",
+          "Phenobarbital (Rising Pharmaceuticals Usa)",
+          "Phenobarbital Elixir (Perrigo)",
+          "Phenobarbitone (Aspen)",
+          "Phenobarbitone (Sigma)",
+          "Phenobarbitone Elixir (Orion)"
+        ],
+        "phenobarbital": [
+          "Phenobarb",
+          "Phenobarbital (Rising Pharmaceuticals Usa)",
+          "Phenobarbital Elixir (Perrigo)",
+          "Phenobarbitone (Aspen)",
+          "Phenobarbitone (Sigma)",
+          "Phenobarbitone Elixir (Orion)"
+        ],
+        "zonisamide": [
+          "Zonegran"
+        ],
+        "brivaracetam": [
+          "Briviact"
+        ],
+        "perampanel": [
+          "Fycompa"
+        ],
+        "ethosuximide": [
+          "Zarontin",
+          "Zarontin Syrup"
+        ],
+        "vigabatrin": [
+          "Sabril"
+        ],
+        "valproic acid": [
+          "Epilim",
+          "Valpro"
+        ],
+        "sulthiame": [
+          "Ospolot"
+        ]
+      },
+      "note": "Gabapentin and pregabalin are not listed because they are often used for pain. Clonazepam and clobazam are not listed. Phenobarbitone is also written phenobarbital. Count oral tablets, capsules, liquids, granules and oral powders in sachets. Generic packs showing the ingredient and sponsor count. For Phenobarbitone (Aspen), check that the supply is a tablet. Exclude injections, including the Aspen injection. A name shared by oral and injectable forms needs a recorded oral form before it counts."
+    },
+    {
+      "key": "B",
+      "name": "Folic acid replacement",
+      "ingredients": [
+        "folic acid"
+      ],
+      "brands": {
+        "folic acid": [
+          "Megafol",
+          "Foltabs"
+        ]
+      },
+      "note": "Folic acid supplied after a low result documents replacement. It does not show that the level recovered or that monitoring was completed. A later low result still warrants review. A subsequent normal result closes the deficiency check. Generic packs that show folic acid as an ingredient count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "Serum or red cell folate level",
+      "meets": "A result is missing under the documented monitoring plan or locally approved interval, or the latest relevant result is below the reporting laboratory's range. Replacement supply alone does not resolve either check."
+    },
+    {
+      "kind": "observation",
+      "what": "Planned folate check during this antiepileptic course",
+      "meets": "Use a documented due date or interval where available. A confirmed missed check during treatment supports the monitoring finding. A due check with uncertain completion remains possible. A completed or future check clears only the monitoring concern.",
+      "options": [
+        {
+          "words": "The check fell due during treatment and was missed",
+          "effect": "meets"
+        },
+        {
+          "words": "The check fell due but completion is uncertain",
+          "effect": "unknown"
+        },
+        {
+          "words": "The due check was completed, here or elsewhere",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "The next check is still in the future",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Sample date and order of the folate result for this antiepileptic course",
+      "meets": "Enter the sample date with the measured folate value when available. If the report is incomplete, confirm which sample it was and whether it was the latest relevant sample. If a later sample exists, obtain its result. A confirmed latest sample can inform deficiency even if its exact date is unknown. It clears a scheduled check only when its timing is established for that check.",
+      "options": [
+        {
+          "words": "This was the latest relevant sample and was taken for the scheduled check",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "This was the latest relevant sample but it preceded the scheduled check",
+          "effect": "meets"
+        },
+        {
+          "words": "This was the latest relevant sample but its timing against the check is unknown",
+          "effect": "unknown"
+        },
+        {
+          "words": "A later relevant sample was taken",
+          "effect": "meets"
+        },
+        {
+          "words": "Sample date and order not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Reporting laboratory's interpretation of the latest relevant folate sample",
+      "meets": "Use the laboratory range or its classification for this sample. A low latest result warrants review. A result within range clears only the deficiency check. If interpretation is uncertain, leave deficiency open.",
+      "options": [
+        {
+          "words": "Below the laboratory range",
+          "effect": "meets"
+        },
+        {
+          "words": "Within the laboratory range",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "The laboratory did not establish deficiency",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Interpretation not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Antiepileptic treatment after the planned folate test date",
+      "meets": "Ask only when the packs and directions leave exposure after the due date uncertain. Continued treatment allows assessment of the due check. Stopping by that date excludes that monitoring lapse. An uncertain answer leaves monitoring open. Assess deficiency separately.",
+      "options": [
+        {
+          "words": "Treatment continued past the planned test date",
+          "effect": "meets"
+        },
+        {
+          "words": "Treatment stopped by the planned test date",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "When a monitoring plan is recorded, first work out the date the repeat folate test was due. For a due monitoring check, cite the plan, the latest folate result if available, and a Group A supply after the due date or an earlier pack whose quantity and directions show treatment continued beyond it. A documented missed check can be assessed even when no prior result is available. For a person receiving a Group A antiepileptic, assess monitoring and deficiency separately. If a documented monitoring plan shows a check is due and no result is visible, ask whether testing occurred elsewhere, even if Group B folic acid has been supplied. If the service uses 90 days of exposure and a 12-month testing interval, use those intervals only to prompt review. Confirm a missed check only when the record documents that the planned test was missed. Include the line IDs for the latest available folate result, the recorded plan and the antiepileptic supply in the finding's citations. If the plan gives an interval from the last test, use the result date and that interval to work out when the repeat was due. When a planned check is overdue, cite a Group A supply dispensed after the due date or an earlier supply whose quantity and directions cover days after the due date. Only if the supplies leave coverage uncertain, ask for \"Antiepileptic treatment after the planned folate test date\". Cite the relevant supply and any confirmation that treatment continued past the due date. If treatment stopped by that date, close only this monitoring check. Report only a possible monitoring finding while exposure remains unclear. If no result is recorded and the timing of monitoring is unknown, report a possible finding and ask about the result and monitoring plan. For deficiency, use the latest relevant serum or red cell folate result and the reporting laboratory’s range or interpretation. Enter the value, unit and sample date when known. If context is missing, ask for \"Sample date and order of the folate result for this antiepileptic course\" or \"Reporting laboratory's interpretation of the latest relevant folate sample\" as needed. Accept a dated report or reliable confirmation for that sample. An undated value alone cannot establish deficiency or completion of a due check. If it is low, cite it and identify any replacement supplied afterwards. A supply documents treatment only. A later low result still warrants review. A normal latest result closes the deficiency check. A future planned check clears only the monitoring concern. If the latest folate result is also normal, give no finding. If there is no visible plan or applicable local interval, ask when the next check is due and report no confirmed monitoring lapse. Assess a low latest folate result independently of when the next test is due or whether a plan is visible. Accept the pharmacist’s report for the check under review. A confirmed missed check supports a monitoring finding. If it is due and completion is unknown, ask about testing elsewhere.",
+  "cannot_be_seen": "Whether a folate level was done elsewhere, why the antiepileptic is used (some are used for pain or mood), the person's diet, and any folic acid bought without a prescription.",
+  "ask_the_gp": "A review of the person's folate level, and whether any low level needs to be corrected.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

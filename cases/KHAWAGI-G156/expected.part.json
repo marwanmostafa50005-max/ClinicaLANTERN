@@ -1,0 +1,48 @@
+[
+  {
+    "file": "KHAWAGI-G156/pos-fact.csv",
+    "kind": "positive",
+    "about": "Only a full blood count older than 12 months is visible during ongoing sodium valproate treatment, so ask about outside results.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G156",
+        "must_cite": [
+          [
+            "L004",
+            "L008"
+          ],
+          [
+            "L052"
+          ],
+          [
+            "L005"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G156/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about a full blood count in the 12 months before the latest carbamazepine supply.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G156",
+        "must_cite": [
+          [
+            "L003"
+          ],
+          [
+            "L030"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G156/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The recent full blood count meets the documented three-month plan and the annual check.",
+    "findings": []
+  }
+]

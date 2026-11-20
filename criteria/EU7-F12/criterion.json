@@ -1,0 +1,38 @@
+{
+  "id": "EU7-F12",
+  "label": "EU(7)-PIM: racecadotril",
+  "family": "EU7",
+  "title": "Racecadotril in an older person",
+  "statement": "Racecadotril | In lists: does not appear as PIM | Main reason: No proven efficacy; selective inhibitor of enkephalinase enzyme responsible for the degradation of the enkephalins, endogenous opioids which act by decreasing the intestinal lumen secretion of water and electrolytes | Dose adjustment/special considerations: Maximum dose 100 mg/8h; maximum duration 7 days. E | Alternatives: Non-pharmacological measures, e.g. diet. E",
+  "statement_origin": "published",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Layout changed by the entrant: one row of the source table is shown as one text, with the column names written in. The authors have not reviewed this layout."
+  },
+  "plain_summary": "The EU(7)-PIM panel included racecadotril, a medicine for diarrhoea, because it found no proven benefit in older people. The words “does not appear as PIM” refer to the six earlier lists the authors compared.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Racecadotril",
+      "ingredients": [
+        "racecadotril"
+      ],
+      "brands": {
+        "racecadotril": []
+      },
+      "note": "No Australian brand is listed. A history would show the ingredient name."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when a Group A medicine (racecadotril) is supplied, at any dose, to a patient aged 65 years or over. If age is missing and the other requirements are met, report only a possible finding and ask for the patient's age. One supply is enough. A patient aged under 65 years is not a finding.",
+  "cannot_be_seen": "A dated diagnosis may identify the cause of the diarrhoea. Supplies alone cannot establish the cause, how many days the capsules were taken or whether the patient obtained medicine elsewhere.",
+  "ask_the_gp": "A review of the cause of the diarrhoea and of whether racecadotril is still needed.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

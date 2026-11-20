@@ -1,0 +1,47 @@
+[
+  {
+    "file": "DREISCHULTE-18/pos-brand.csv",
+    "kind": "positive",
+    "about": "Brand-only supplies show a three-day Naprosyn course during Coversyl Plus LD treatment, which supplies both perindopril and indapamide.",
+    "findings": [
+      {
+        "criterion": "DREISCHULTE-18",
+        "must_cite": [
+          [
+            "L022"
+          ],
+          [
+            "L019"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "DREISCHULTE-18/pos-buried.csv",
+    "kind": "positive",
+    "about": "A short oral ibuprofen course falls within both the candesartan and hydrochlorothiazide supplies in the middle of the history.",
+    "findings": [
+      {
+        "criterion": "DREISCHULTE-18",
+        "must_cite": [
+          [
+            "L037"
+          ],
+          [
+            "L033"
+          ],
+          [
+            "L034"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "DREISCHULTE-18/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The patient has perindopril and indapamide in one tablet, and the only NSAID is a gel applied to the knee.",
+    "findings": []
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "id": "QLDCOAG-6-1",
+  "label": "QLDCOAG 6-1",
+  "family": "QLDCOAG",
+  "title": "Warfarin supply during pregnancy",
+  "statement": "In general, warfarin should not be used as it is classed as category D pregnancy risk (i.e. Drugs which have caused, are suspected to have caused or may be expected to cause, an increased incidence of human fetal malformations or irreversible damage). These drugs may also have adverse pharmacological effects. Accompanying texts should be consulted for further details. The highest risk of fetal malformation is during the first 12 weeks of gestation. Later in pregnancy warfarin use may be associated with fetal bleeding complications. (Gibson & Powrie, 2009) However, it may be used in high thrombosis risk patients after the first trimester of pregnancy under the expert guidance of a haematologist.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Guideline for Warfarin Management in the Community",
+    "citation": "Queensland Health and Royal Flying Doctor Service Queensland Section. Guideline for Warfarin Management in the Community. Last minor update November 2026. Page 6, Risk assessments, Pregnancy and breastfeeding.",
+    "url": "https://www.health.qld.gov.au/__data/assets/pdf_file/0025/443806/warfarin-guideline.pdf",
+    "licence": "Creative Commons Attribution 4.0 International",
+    "licence_status": "proposed",
+    "credit": "State of Queensland (Queensland Health)",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Warfarin during pregnancy needs urgent review because of fetal malformation and bleeding risks, with a narrow specialist exception after the first trimester.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Warfarin",
+      "ingredients": [
+        "warfarin"
+      ],
+      "brands": {
+        "warfarin": [
+          "Coumadin",
+          "Marevan"
+        ]
+      },
+      "note": "Oral warfarin counts. Coumadin and Marevan brand-only lines count as warfarin."
+    }
+  ],
+  "rule_for_models": "Check pregnancy at the time of the relevant warfarin supply. Use a current pregnancy record even if age or sex conflicts, and clarify the discrepancy promptly. Cite the supply and pregnancy evidence for use in the first trimester or later use confirmed outside the exception. Report no finding for later use directed by a haematologist for high thrombosis risk, or when pregnancy is excluded at the relevant time. If gestation or the specialist exception is uncertain, report a possible finding for urgent clarification. Without current pregnancy information, ask privately only if pregnancy is possible, first clarifying unclear demographics. Keep an unknown answer possible. Past pregnancy or an old negative test cannot establish current status. Avoid abrupt cessation without urgent medical review.",
+  "cannot_be_seen": "Pregnancy and gestation may not be recorded. High thrombosis risk, haematologist guidance, and care outside this pharmacy may also be absent from the record.",
+  "ask_the_gp": "Could you urgently review warfarin in relation to pregnancy, including gestation, thrombosis risk and any expert haematologist guidance?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Pregnancy (including gestation in weeks if known)",
+      "meets": "The patient was pregnant during the relevant warfarin supply and was in the first trimester or confirmed outside the later specialist exception. Unclear timing, gestation or specialist advice leaves the finding possible.",
+      "options": [
+        {
+          "words": "Not pregnant during this warfarin supply",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "In the first trimester during this supply",
+          "effect": "meets"
+        },
+        {
+          "words": "Past the first trimester, with no haematologist plan for warfarin for high clot risk",
+          "effect": "meets"
+        },
+        {
+          "words": "Past the first trimester, with warfarin advised by a haematologist for high clot risk",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Pregnant during this supply, but trimester or specialist plan is unclear",
+          "effect": "unknown"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "only_sex": "female"
+}

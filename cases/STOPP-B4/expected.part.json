@@ -1,0 +1,56 @@
+[
+  {
+    "file": "STOPP-B4/pos-fact.csv",
+    "kind": "positive",
+    "about": "A dated pulse observation shows 49 beats/min during metoprolol treatment, and the ECG records no heart block.",
+    "findings": [
+      {
+        "criterion": "STOPP-B4",
+        "must_cite": [
+          [
+            "L001",
+            "L006",
+            "L010",
+            "L016",
+            "L020",
+            "L026",
+            "L030",
+            "L035",
+            "L040",
+            "L044"
+          ],
+          [
+            "L025"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-B4/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: bisoprolol is supplied and the ECG excludes heart block, but the record does not show \"Heart rate while taking the rate-limiting medicine\".",
+    "findings": [
+      {
+        "criterion": "STOPP-B4",
+        "must_cite": [
+          [
+            "L002",
+            "L006",
+            "L010",
+            "L014",
+            "L018",
+            "L022",
+            "L026"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-B4/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The measured heart rate is 50 beats/min during atenolol treatment and the ECG excludes heart block.",
+    "findings": []
+  }
+]

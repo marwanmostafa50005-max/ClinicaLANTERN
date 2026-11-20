@@ -1,0 +1,59 @@
+[
+  {
+    "file": "STOPP-D20/pos-fact.csv",
+    "kind": "positive",
+    "about": "L001 links ginkgo to the memory symptoms of dementia, while the omega-3 capsules are for high triglycerides.",
+    "findings": [
+      {
+        "criterion": "STOPP-D20",
+        "must_cite": [
+          [
+            "L002",
+            "L008",
+            "L013",
+            "L018",
+            "L023",
+            "L028",
+            "L033",
+            "L038",
+            "L043",
+            "L048",
+            "L053"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-D20/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: ginkgo is supplied, but the record gives neither a dementia diagnosis nor the reason for taking ginkgo.",
+    "findings": [
+      {
+        "criterion": "STOPP-D20",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L009",
+            "L013",
+            "L017",
+            "L021",
+            "L025",
+            "L029",
+            "L033"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-D20/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Ginkgo is supplied, but the recorded clinical assessment excludes dementia.",
+    "findings": []
+  }
+]

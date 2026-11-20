@@ -1,0 +1,49 @@
+[
+  {
+    "file": "EU7-F56/pos-brand.csv",
+    "kind": "positive",
+    "about": "Dilantin (phenytoin) is supplied about every month from January to August 2026 to a man aged 72, by brand name only.",
+    "findings": [
+      {
+        "criterion": "EU7-F56",
+        "must_cite": [
+          [
+            "L002",
+            "L006",
+            "L009",
+            "L011",
+            "L015",
+            "L017",
+            "L020",
+            "L023"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F56/pos-buried.csv",
+    "kind": "positive",
+    "about": "Phenytoin 100 mg capsules are supplied five times from December 2025 to April 2026, in the middle of a 16-month history, to a woman aged 69.",
+    "findings": [
+      {
+        "criterion": "EU7-F56",
+        "must_cite": [
+          [
+            "L028",
+            "L033",
+            "L038",
+            "L042",
+            "L048"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F56/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Levetiracetam (Keppra), an alternative the list suggests, is supplied monthly. No phenytoin appears anywhere, so it must not flag.",
+    "findings": []
+  }
+]

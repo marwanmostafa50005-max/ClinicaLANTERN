@@ -1,0 +1,41 @@
+[
+  {
+    "file": "CDCOPIOID-3/pos-fact.csv",
+    "kind": "positive",
+    "about": "The outpatient note identifies modified-release morphine as the first opioid for this fracture pain, and the supply confirms the formulation.",
+    "findings": [
+      {
+        "criterion": "CDCOPIOID-3",
+        "must_cite": [
+          [
+            "L029"
+          ],
+          [
+            "L028"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CDCOPIOID-3/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about the cause of the pain or when opioid treatment for this episode began, although modified-release morphine was supplied.",
+    "findings": [
+      {
+        "criterion": "CDCOPIOID-3",
+        "must_cite": [
+          [
+            "L028"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CDCOPIOID-3/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The fracture course began with Oxyndone before the switch to modified-release morphine, and the later first opioid for a separate episode treated cancer-related pain.",
+    "findings": []
+  }
+]

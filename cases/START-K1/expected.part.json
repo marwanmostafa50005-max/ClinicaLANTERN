@@ -1,0 +1,41 @@
+[
+  {
+    "file": "START-K1/pos-fact.csv",
+    "kind": "positive",
+    "about": "Severe pain after spinal surgery persists despite inadequate or unsuitable simpler options. The short oxycodone course for dental extraction does not treat the spinal pain.",
+    "findings": [
+      {
+        "criterion": "START-K1",
+        "must_cite": [
+          [
+            "L009"
+          ],
+          [
+            "L010"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-K1/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about response to or suitability of simpler analgesia for the documented severe pain after spinal surgery.",
+    "findings": [
+      {
+        "criterion": "START-K1",
+        "must_cite": [
+          [
+            "L009"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-K1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Severe cancer-related pain is on the record but oxycodone modified release is supplied every month (with a laxative), so the criterion is met and nothing should flag.",
+    "findings": []
+  }
+]

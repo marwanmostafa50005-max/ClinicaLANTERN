@@ -1,0 +1,22 @@
+2025-11-30 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take TWO tablets once a day with the evening meal | Dr J. Dem
+2025-11-30 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr J. Dem
+2025-11-30 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 0 | Take ONE tablet daily | Dr J. Dem
+2025-11-30 | Flomaxtra (tamsulosin) 400 microgram modified release tablet | qty 30 | repeats 2 | Take ONE tablet daily after breakfast | Dr J. Dem
+2025-12-30 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 3 | Take TWO tablets once a day with the evening meal | Dr J. Dem
+2025-12-30 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 3 | Take ONE tablet in the morning | Dr J. Dem
+2025-12-30 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 5 | Take ONE tablet daily | Dr J. Dem
+2025-12-30 | Flomaxtra (tamsulosin) 400 microgram modified release tablet | qty 30 | repeats 1 | Take ONE tablet daily after breakfast | Dr J. Dem
+2026-01-15 | Antenex (diazepam) 5 mg tablet | qty 50 | repeats 0 | Take ONE tablet twice a day | Dr J. Dem
+2026-01-29 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 2 | Take TWO tablets once a day with the evening meal | Dr J. Dem
+2026-01-29 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 2 | Take ONE tablet in the morning | Dr J. Dem
+2026-01-29 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 4 | Take ONE tablet daily | Dr J. Dem
+2026-01-29 | Flomaxtra (tamsulosin) 400 microgram modified release tablet | qty 30 | repeats 0 | Take ONE tablet daily after breakfast | Dr J. Dem
+2026-02-10 | Antenex (diazepam) 5 mg tablet | qty 50 | repeats 0 | Take ONE tablet twice a day | Dr J. Dem
+2026-02-28 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 1 | Take TWO tablets once a day with the evening meal | Dr J. Dem
+2026-02-28 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 1 | Take ONE tablet in the morning | Dr J. Dem
+2026-02-28 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 3 | Take ONE tablet daily | Dr J. Dem
+2026-02-28 | Flomaxtra (tamsulosin) 400 microgram modified release tablet | qty 30 | repeats 5 | Take ONE tablet daily after breakfast | Dr J. Dem
+2026-03-07 | Antenex (diazepam) 5 mg tablet | qty 50 | repeats 0 | Take ONE tablet twice a day | Dr J. Dem
+2026-03-30 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 0 | Take TWO tablets once a day with the evening meal | Dr J. Dem
+2026-03-30 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 0 | Take ONE tablet in the morning | Dr J. Dem
+2026-03-30 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 2 | Take ONE tablet daily | Dr J. Dem

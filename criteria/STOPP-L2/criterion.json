@@ -1,0 +1,240 @@
+{
+  "id": "STOPP-L2",
+  "label": "STOPP L2",
+  "family": "STOPP_START",
+  "title": "Regular opioid with no laxative supplied",
+  "statement": "Use of daily regular (as distinct from PRN) opioids without concomitant laxative (risk of severe constipation).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A regular daily opioid supplied without a laxative carries a risk of severe constipation.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Opioid pain medicines",
+      "ingredients": [
+        "oxycodone",
+        "morphine",
+        "tapentadol",
+        "tramadol",
+        "buprenorphine",
+        "buprenorphine + naloxone",
+        "fentanyl",
+        "hydromorphone",
+        "methadone",
+        "codeine"
+      ],
+      "brands": {
+        "oxycodone": [
+          "OxyContin",
+          "Endone",
+          "OxyNorm",
+          "Targin",
+          "Proladone",
+          "Endone XR",
+          "Novacodone",
+          "Oxycodor",
+          "Oxycone",
+          "Oxylenus",
+          "Oxylieve MR",
+          "Oxyndone",
+          "Xedone"
+        ],
+        "morphine": [
+          "MS Contin",
+          "Kapanol",
+          "Sevredol",
+          "Ordine",
+          "Anamorph",
+          "MS Contin Suspension",
+          "MS Mono",
+          "MS Normal",
+          "Momex SR",
+          "RA-Morph"
+        ],
+        "tapentadol": [
+          "Palexia SR",
+          "Palexia IR",
+          "Tapal",
+          "Tadol",
+          "Tapex",
+          "Lodat SR",
+          "Tadol IR",
+          "Tadol SR",
+          "Tapal IR",
+          "Tapal SR",
+          "Tapex IR",
+          "Tapex SR",
+          "Tapexia",
+          "Tapexia SR"
+        ],
+        "tramadol": [
+          "Tramal",
+          "Tramal SR",
+          "Durotram XR",
+          "Zaldiar",
+          "Iptramol",
+          "Lodam",
+          "Lodam SR",
+          "Tramahexal",
+          "Tramahexal SR",
+          "Tramal Drops",
+          "Tramedo",
+          "Tramedo SR",
+          "Zydol",
+          "Zydol SR"
+        ],
+        "buprenorphine": [
+          "Norspan",
+          "Bupredermal",
+          "Temgesic",
+          "Buvidal Weekly",
+          "Buvidal Monthly",
+          "Sublocade",
+          "Subutex"
+        ],
+        "buprenorphine + naloxone": [
+          "Suboxone 2/0.5",
+          "Suboxone 4/1",
+          "Suboxone 8/2",
+          "Suboxone 12/3"
+        ],
+        "fentanyl": [
+          "Durogesic",
+          "Denpax",
+          "Fenpatch"
+        ],
+        "hydromorphone": [
+          "Jurnista",
+          "Dilaudid",
+          "Dilaudid-HP",
+          "Palladone XL"
+        ],
+        "methadone": [
+          "Physeptone",
+          "Opod-D Syrup",
+          "Biodone Forte",
+          "Aspen Methadone Liquid",
+          "Aspen Methadone Syrup",
+          "Physeptone Liquid"
+        ],
+        "codeine": [
+          "Panadeine Forte",
+          "Panamax Co",
+          "Codalgin Forte",
+          "Comfarol Forte",
+          "Prodeine Forte",
+          "Codapane Forte",
+          "Mersyndol",
+          "Mersyndol Forte",
+          "Nurofen Plus",
+          "Panafen Plus",
+          "Actacode Linctus",
+          "Codphos"
+        ]
+      },
+      "note": "Targin is oxycodone with naloxone. The naloxone in Targin is not counted as a laxative. Proladone is an oxycodone suppository. Zaldiar is tramadol with paracetamol. Panadeine Forte, Panamax Co, Codalgin Forte, Comfarol Forte, Prodeine Forte and Codapane Forte are paracetamol with codeine. Mersyndol Forte is paracetamol with codeine and doxylamine. Nurofen Plus and Panafen Plus are ibuprofen with codeine. Include regular daily opioid treatment for any indication, including dependence and continuous treatment with a scheduled long-acting depot. Suboxone 2/0.5, 4/1, 8/2 and 12/3 all contain buprenorphine with naloxone and count as opioids. Check directions or actual use when the schedule is unclear."
+    },
+    {
+      "key": "B",
+      "name": "Laxatives",
+      "ingredients": [
+        "macrogol 3350",
+        "lactulose",
+        "docusate",
+        "senna",
+        "bisacodyl",
+        "sodium picosulfate",
+        "sorbitol",
+        "psyllium husk",
+        "sterculia",
+        "glycerol",
+        "prucalopride",
+        "liquid paraffin"
+      ],
+      "brands": {
+        "macrogol 3350": [
+          "Movicol",
+          "OsmoLax",
+          "Molaxole",
+          "Macrovic"
+        ],
+        "lactulose": [
+          "Duphalac",
+          "Actilax",
+          "Dulose",
+          "Genlac",
+          "Lac-Dol",
+          "Lactocur"
+        ],
+        "docusate": [
+          "Coloxyl",
+          "Coloxyl with Senna",
+          "Coloxyl Tablet"
+        ],
+        "senna": [
+          "Senokot",
+          "Coloxyl with Senna"
+        ],
+        "bisacodyl": [
+          "Dulcolax",
+          "Bisalax",
+          "Bisalax Micro",
+          "Dulcolax for Children",
+          "Lax-Suppositories",
+          "Lax-Tab",
+          "Lax-Tab EC"
+        ],
+        "sodium picosulfate": [
+          "Dulcolax SP Drops"
+        ],
+        "sorbitol": [
+          "Sorbilax",
+          "Sorbi",
+          "Sorbisol",
+          "Microlax"
+        ],
+        "psyllium husk": [
+          "Metamucil",
+          "Fybogel"
+        ],
+        "sterculia": [
+          "Normafibe",
+          "Normacol Plus",
+          "Normacol"
+        ],
+        "glycerol": [
+          "Glycerol For Adults (Petrus)",
+          "Glycerol For Children (Petrus)",
+          "Glycerol For Infants (Petrus)"
+        ],
+        "prucalopride": [
+          "Resotrans",
+          "Calotrans",
+          "Prutas",
+          "Rosprid",
+          "Rospride"
+        ],
+        "liquid paraffin": [
+          "Parachoc",
+          "Little Parachoc"
+        ]
+      },
+      "note": "Coloxyl with Senna is docusate with senna. Senna is also written as sennosides. Psyllium husk, psyllium husk powder, ispaghula and ispaghula husk are names for the same laxative. Count one supply once. The historical Australian Normacol granules and Normacol Plus contain sterculia with frangula. Count liquid paraffin only as an oral laxative. Count Microlax only when the record or patient confirms use for constipation during the opioid period. An enema for a procedure does not clear the finding. If its purpose is unclear, report only a possible finding and ask what it was used for. Count glycerol only as a rectal laxative suppository for this patient. For a child or infant presentation, confirm that it was used by this patient for constipation before counting it. Oral or topical glycerol liquids and skin washes do not count. In either group, a generic pack labelled with the ingredient and a company name counts when its form and use qualify. Methylnaltrexone (Relistor) and naloxegol (Movantik) block the effect of the opioid on the bowel. Like the naloxone in Targin, they are not counted as laxatives."
+    }
+  ],
+  "rule_for_models": "At age 65 or older, flag each regular daily Group A opioid supply, for any indication, when no qualifying Group B laxative supply overlaps it or falls within 60 days before or after it. Count daily dosing and continuous treatment from a patch or long-acting depot on a fixed schedule, and exclude as-needed use alone. If age or regular daily use is unclear and a qualifying laxative is absent, report only a possible finding and ask for the missing detail. Repeats or a modified-release label alone do not establish daily use.",
+  "cannot_be_seen": "Laxatives bought without a prescription, which is how many laxatives are obtained. Also whether the opioid is taken every day, whether the patient has constipation, and any laxative supplied by another pharmacy or a hospital.",
+  "ask_the_gp": "Whether this patient is using a laxative while the regular opioid continues, and the patient's bowel function.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

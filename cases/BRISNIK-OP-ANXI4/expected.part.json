@@ -1,0 +1,65 @@
+[
+  {
+    "file": "BRISNIK-OP-ANXI4/pos-fact.csv",
+    "kind": "positive",
+    "about": "The dated prescribing note confirms ongoing as-needed alprazolam alongside sertraline for generalised anxiety disorder from 8 January to 2 April 2026.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-ANXI4",
+        "must_cite": [
+          [
+            "L026",
+            "L031",
+            "L036",
+            "L040"
+          ],
+          [
+            "L030",
+            "L035",
+            "L044"
+          ],
+          [
+            "L005"
+          ],
+          [
+            "L045"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-ANXI4/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: escitalopram and as-needed diazepam appear, but the record holds no line about the anxiety indication and the duration of joint prescribing is unclear.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-ANXI4",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L009",
+            "L013",
+            "L018",
+            "L022",
+            "L027",
+            "L032",
+            "L036"
+          ],
+          [
+            "L017",
+            "L023",
+            "L031"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-ANXI4/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Both medicines appear, but the record identifies depression as the sole reason for sertraline.",
+    "findings": []
+  }
+]

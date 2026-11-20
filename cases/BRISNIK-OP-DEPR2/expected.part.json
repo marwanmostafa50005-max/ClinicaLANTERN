@@ -1,0 +1,55 @@
+[
+  {
+    "file": "BRISNIK-OP-DEPR2/pos-fact.csv",
+    "kind": "positive",
+    "about": "The 5 March mirtazapine directions name sertraline for depression, the 22 February and 23 March sertraline fills each overlap that supply, and the condition line records a first episode of moderate depression.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-DEPR2",
+        "must_cite": [
+          [
+            "L009",
+            "L014"
+          ],
+          [
+            "L010"
+          ],
+          [
+            "L004"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-DEPR2/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: Lexapro and Axit supplies overlap, including on 3 July with stock left from early Axit refills, and the record gives no reason for joint use, episode history or severity.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-DEPR2",
+        "must_cite": [
+          [
+            "L008",
+            "L012",
+            "L017",
+            "L023",
+            "L027"
+          ],
+          [
+            "L006",
+            "L013",
+            "L018",
+            "L020"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-DEPR2/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Venlafaxine and mirtazapine are supplied together, but the record says the depression is a recurrent, severe episode, not a first episode of moderate depression, so it must not flag.",
+    "findings": []
+  }
+]

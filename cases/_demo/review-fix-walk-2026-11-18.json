@@ -1,0 +1,281 @@
+{
+ "startedAt": "2026-11-18T00:53:10.535Z",
+ "base": "http://127.0.0.1:8787",
+ "checks": [
+  {
+   "name": "the page opens and shows the hero and the three round icons",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "each round icon is at least 160 points across and the hero takes half of the first screen or more",
+   "ok": true,
+   "detail": "icons 176, 176, 176; hero 52% of the screen"
+  },
+  {
+   "name": "the page says the patient is fictional",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "\"Start a clean demo\" on the page empties the state",
+   "ok": true,
+   "detail": "1 log entry"
+  },
+  {
+   "name": "the counts on the page are all 0 and the status line says Idle",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "a CSV chosen in the import panel is imported",
+   "ok": true,
+   "detail": "C0001, Fictional patient F-001, 45 lines"
+  },
+  {
+   "name": "the status line on the page says what the model is doing",
+   "ok": true,
+   "detail": "Model 1 is screening: criterion 1 of 1"
+  },
+  {
+   "name": "a confirmed finding raises the red badge on the bell and a pop-up message",
+   "ok": true,
+   "detail": "29.2 s after the import"
+  },
+  {
+   "name": "the bell panel shows the criterion label, its source text and its credit line",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "the bell panel highlights the lines the two models cited",
+   "ok": true,
+   "detail": "L030, L035, L036, L040, L041, L045"
+  },
+  {
+   "name": "the bell panel shows what Model 2 said matches and what cannot be seen",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "opening the bell cleared its badge",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "the whole history is one click away, with the matching lines marked",
+   "ok": true,
+   "detail": "45 lines, 6 marked"
+  },
+  {
+   "name": "Accept on the page records the decision and queues the letter",
+   "ok": true,
+   "detail": "letter T0001"
+  },
+  {
+   "name": "the letter Model 3 wrote is in the editor",
+   "ok": true,
+   "detail": "11 s after Accept. Subject: Clinical query regarding Celebrex and Xarelto for Fictional patient F-001"
+  },
+  {
+   "name": "an edit typed in the editor is saved on the server",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "\"Open in my email program\" is a mailto link with the subject and a short cover note, and no address",
+   "ok": true,
+   "detail": "431 characters"
+  },
+  {
+   "name": "Print shows only the letter, on A4",
+   "ok": true,
+   "detail": "1 A4 page: docs\\screens\\live-walk-print-letter-a4.pdf"
+  },
+  {
+   "name": "the tick box records that the patient agrees",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "\"Mark as sent\" on the page records how the letter went out",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "the doctor's reply is recorded from the page",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "\"Close the case\" on the page closes the loop",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "the counts on the main page show the closed loop",
+   "ok": true,
+   "detail": "1 screened, 1 confirmed, 1 accepted, 0 bypassed, 1 sent, 1 reply, 1 closed, 0 overdue"
+  },
+  {
+   "name": "the near miss ends clear on the page",
+   "ok": true,
+   "detail": "14.4 s"
+  },
+  {
+   "name": "a PDF with text is read by the page, one row for each printed row, with no model",
+   "ok": true,
+   "detail": "50 lines, 45 of them supplies. The page said: positive.pdf was imported.50 rows read from 2 pages of text."
+  },
+  {
+   "name": "the same finding is confirmed from the PDF, with a Celebrex line and a Xarelto line cited",
+   "ok": true,
+   "detail": "26.9 s. Celebrex is on L041, L046; Model 1 cited L008, L012, L016, L021, L026, L031, L035, L040, L041, L045, L046, L050; Model 2 cited L040, L041, L045, L046, L050"
+  },
+  {
+   "name": "a pop-up about findings goes away when the bell is opened by its icon",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Bypass on the page keeps the reason and queues no letter",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "positive-scan.png is sent as a page image and nothing is screened before the rows are checked",
+   "ok": true,
+   "detail": "C0004. The page said: positive-scan.png was imported.This is a picture. Model 1 will read the rows from it. You will be asked to check the rows."
+  },
+  {
+   "name": "positive-scan.png: when the rows are read, the magnifying glass gets a badge and a pop-up asks for a check",
+   "ok": true,
+   "detail": "145.3 s to read the page. Status line while reading: Model 1 is reading a scanned page: page 1 of 1"
+  },
+  {
+   "name": "positive-scan.png: the rows Model 1 read are shown beside the picture, to be checked",
+   "ok": true,
+   "detail": "45 rows shown, 45 of 45 exactly as printed, 1 picture"
+  },
+  {
+   "name": "positive-scan.png: the picture can be shown at full size",
+   "ok": true,
+   "detail": "1756 of 1754 points wide"
+  },
+  {
+   "name": "positive-scan.png: after the rows are confirmed the history is screened and the finding is confirmed, with a Celebrex line and a Xarelto line cited",
+   "ok": true,
+   "detail": "23.2 s. Celebrex is on L036, L041; Model 2 cited L035, L036, L040, L041, L045"
+  },
+  {
+   "name": "positive-scan.pdf is sent as 2 page images and nothing is screened before the rows are checked",
+   "ok": true,
+   "detail": "C0005. The page said: positive-scan.pdf was imported.This PDF is a scan: its pages are pictures. Model 1 will read the rows from the pictures. You will be asked to check them."
+  },
+  {
+   "name": "positive-scan.pdf: when the rows are read, the magnifying glass gets a badge and a pop-up asks for a check",
+   "ok": true,
+   "detail": "135 s to read the 2 pages. Status line while reading: Model 1 is reading a scanned page: page 1 of 2 / Model 1 is reading a scanned page: page 2 of 2"
+  },
+  {
+   "name": "positive-scan.pdf: the rows Model 1 read are shown beside the pictures, to be checked",
+   "ok": true,
+   "detail": "45 rows shown, 45 of 45 exactly as printed, 2 pictures"
+  },
+  {
+   "name": "positive-scan.pdf: the pictures can be shown at full size",
+   "ok": true,
+   "detail": "1756 of 1754 points wide"
+  },
+  {
+   "name": "positive-scan.pdf: after the rows are confirmed the history is screened and the finding is confirmed, with a Celebrex line and a Xarelto line cited",
+   "ok": true,
+   "detail": "23.2 s. Celebrex is on L036, L041; Model 2 cited L035, L036, L040, L041, L045"
+  },
+  {
+   "name": "at phone width (390 by 844) nothing scrolls sideways, on the main page and in the three panels",
+   "ok": true,
+   "detail": "true, true, true, true"
+  },
+  {
+   "name": "at 1366 by 768 nothing scrolls sideways",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "the page raised no error and no call to the server failed",
+   "ok": true,
+   "detail": "none"
+  },
+  {
+   "name": "nothing from outside the app is drawn into the page",
+   "ok": true,
+   "detail": "only the app"
+  }
+ ],
+ "shots": [
+  "docs/screens/live-walk-01-import-panel-empty-1366x768.png",
+  "docs/screens/live-walk-02-csv-imported-1366x768.png",
+  "docs/screens/live-walk-03-finding-notification-1366x768.png",
+  "docs/screens/live-walk-04-bell-panel-1366x768.png",
+  "docs/screens/live-walk-05-accepted-1366x768.png",
+  "docs/screens/live-walk-06-letter-being-written-1366x768.png",
+  "docs/screens/live-walk-07-letter-ready-1366x768.png",
+  "docs/screens/live-walk-08-letter-sent-1366x768.png",
+  "docs/screens/live-walk-09-reply-form-1366x768.png",
+  "docs/screens/live-walk-10-letter-closed-1366x768.png",
+  "docs/screens/live-walk-11-main-loop-closed-1366x768.png",
+  "docs/screens/live-walk-12-near-miss-clear-1366x768.png",
+  "docs/screens/live-walk-13-pdf-imported-1366x768.png",
+  "docs/screens/live-walk-14-pdf-finding-1366x768.png",
+  "docs/screens/live-walk-15-bypass-reason-1366x768.png",
+  "docs/screens/live-walk-16-scan-being-read-1366x768.png",
+  "docs/screens/live-walk-16-scan-rows-ready-1366x768.png",
+  "docs/screens/live-walk-16-scan-check-rows-1366x768.png",
+  "docs/screens/live-walk-16-scan-picture-larger-1366x768.png",
+  "docs/screens/live-walk-16-scan-finding-waiting-1366x768.png",
+  "docs/screens/live-walk-17-scan-pdf-being-read-1366x768.png",
+  "docs/screens/live-walk-17-scan-pdf-rows-ready-1366x768.png",
+  "docs/screens/live-walk-17-scan-pdf-check-rows-1366x768.png",
+  "docs/screens/live-walk-17-scan-pdf-picture-larger-1366x768.png",
+  "docs/screens/live-walk-17-scan-pdf-finding-waiting-1366x768.png",
+  "docs/screens/live-walk-20-main-390x844.png",
+  "docs/screens/live-walk-21-import-panel-390x844.png",
+  "docs/screens/live-walk-22-letter-panel-390x844.png",
+  "docs/screens/live-walk-23-bell-panel-390x844.png",
+  "docs/screens/live-walk-24-main-end-1366x768.png"
+ ],
+ "timings": {
+  "csvImportToBellBadge": 29.2,
+  "acceptToLetterOnPage": 11,
+  "printedPages": 1,
+  "nearMissOnPage": 14.4,
+  "pdfImportToConfirmed": 26.9,
+  "scanImportToRowsRead": 145.3,
+  "scanRowsExact": "45 of 45",
+  "scanConfirmToFinding": 23.2,
+  "scanPdfImportToRowsRead": 135,
+  "scanPdfRowsExact": "45 of 45",
+  "scanPdfConfirmToFinding": 23.2
+ },
+ "pageErrors": [],
+ "failedRequests": [],
+ "scanRowsThatDiffer": [],
+ "scanPdfRowsThatDiffer": [],
+ "counts": {
+  "historiesScreened": 5,
+  "findingsConfirmed": 4,
+  "accepted": 1,
+  "bypassed": 1,
+  "lettersReady": 0,
+  "lettersSent": 1,
+  "repliesRecorded": 1,
+  "closed": 1,
+  "overdue": 0,
+  "bellBadge": 0,
+  "letterBadge": 0
+ },
+ "passed": true,
+ "finishedAt": "2026-11-18T01:00:27.318Z",
+ "seconds": 436.8
+}

@@ -1,0 +1,170 @@
+{
+  "id": "CARETRACK-ECZE07",
+  "label": "CareTrack Kids ECZE07",
+  "family": "CARETRACK",
+  "title": "Antibiotic for atopic eczema without signs of infection",
+  "statement": "Children with atopic eczema and no signs of infection were not prescribed antibiotics.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Assessing the appropriateness of paediatric antibiotic overuse in Australian children: a population-based sample survey, Table 1",
+    "citation": "Arnolda G, Hibbert P, Ting HP, et al., on behalf of the CareTrack Kids investigative team. BMC Pediatrics. 2020;20:185.",
+    "doi": "10.1186/s12887-020-02052-6",
+    "url": "https://link.springer.com/article/10.1186/s12887-020-02052-6",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "© The Author(s) 2020. Arnolda G, Hibbert P, Ting HP, et al., on behalf of the CareTrack Kids investigative team. Assessing the appropriateness of paediatric antibiotic overuse in Australian children: a population-based sample survey. BMC Pediatrics 20, 185 (2020). https://doi.org/10.1186/s12887-020-02052-6. CC BY 4.0. http://creativecommons.org/licenses/by/4.0/",
+    "modification_notice": "The Table 1 wording is reproduced unchanged. The screening rule, Australian medicine examples and fictional histories were added for this draft."
+  },
+  "plain_summary": "Review an antibiotic supplied for a child's atopic eczema when the clinician recorded no signs of infection.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antibiotics",
+      "ingredients": [
+        "cefalexin",
+        "mupirocin",
+        "flucloxacillin",
+        "fusidic acid",
+        "sodium fusidate",
+        "amoxicillin + clavulanic acid",
+        "dicloxacillin",
+        "clindamycin",
+        "trimethoprim + sulfamethoxazole",
+        "amoxicillin",
+        "clarithromycin",
+        "azithromycin"
+      ],
+      "brands": {
+        "cefalexin": [
+          "Cefalexin Sandoz",
+          "Keflex",
+          "Ibilex",
+          "Cilex"
+        ],
+        "mupirocin": [
+          "Bactroban",
+          "Steraban",
+          "Sterocin",
+          "Supirocin"
+        ],
+        "flucloxacillin": [
+          "Flucil",
+          "Flopen",
+          "Flopen Viatris",
+          "Floxapen",
+          "Floxapen Forte",
+          "Floxsig",
+          "Flubiclox",
+          "Staphylex"
+        ],
+        "fusidic acid": [
+          "Fucidin"
+        ],
+        "sodium fusidate": [
+          "Fucidin"
+        ],
+        "amoxicillin + clavulanic acid": [
+          "Augmentin",
+          "Augmentin Duo",
+          "Clavulin-125F"
+        ],
+        "dicloxacillin": [
+          "Diclocil",
+          "Distaph"
+        ],
+        "clindamycin": [
+          "Dalacin C"
+        ],
+        "trimethoprim + sulfamethoxazole": [
+          "Bactrim",
+          "Bactrim DS",
+          "Septrin"
+        ],
+        "amoxicillin": [
+          "Amoxil",
+          "Alphamox"
+        ],
+        "clarithromycin": [
+          "Klacid"
+        ],
+        "azithromycin": [
+          "Zithromax",
+          "Zithro"
+        ]
+      },
+      "note": "These are Australian examples. Any antibiotic explicitly linked to treatment of the episode counts. Table 1 specifies no route. For eczema, count an antibiotic applied to the affected skin. Exclude eye or ear drops used for a separate eye or ear condition."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Reason for the antibiotic at the eczema visit",
+      "meets": "The antibiotic treated the eczema at this visit.",
+      "ask_when": {
+        "group": "A"
+      },
+      "options": [
+        {
+          "words": "For the eczema",
+          "effect": "meets"
+        },
+        {
+          "words": "For another condition",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "condition",
+      "what": "Atopic eczema at the treated episode",
+      "meets": "Atopic eczema was established before the visit or diagnosed at the visit and applied to this episode.",
+      "options": [
+        {
+          "words": "Atopic eczema established or diagnosed at the visit",
+          "effect": "meets"
+        },
+        {
+          "words": "Atopic eczema ruled out for this episode",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Clinician's assessment of infection at the eczema visit",
+      "meets": "An explicit assessment recorded no signs of infection. If the assessment is missing, ask the GP and report only a possible finding when the other facts fit.",
+      "options": [
+        {
+          "words": "Clinician recorded no signs of infection",
+          "effect": "meets"
+        },
+        {
+          "words": "Clinician recorded signs of infection",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "No assessment recorded",
+          "effect": "unknown"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "From birth through age 15, confirm when the antibiotic treated eczema, atopic eczema was established by that visit and the clinician explicitly recorded no signs of infection in the treated skin. Cite the supply, diagnosis and assessment. If the indication is missing, ask the carer what was treated. Report a possible finding only if the record or carer links the antibiotic to eczema and the age, diagnosis or assessment remains unclear. Cite the supply and ask for the missing diagnosis or skin assessment only for that linked visit. Report no finding for infection, an excluded age or diagnosis, or a supply without a link to eczema.",
+  "cannot_be_seen": "A supply date cannot identify its indication. A blank infection history cannot establish that the skin was free of infection.",
+  "ask_the_gp": "Could you confirm whether signs of infection were present at this eczema visit and review the reason for the antibiotic?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,219 @@
+{
+  "id": "NHSBSA-PAIN02",
+  "label": "NHSBSA PAIN02",
+  "family": "NHSBSA",
+  "title": "Regular opioid for pain without laxative cover",
+  "statement": "Patients aged 18 or over in the month of prescription currently prescribed an oral or transdermal opioid and NOT prescribed a laxative.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Medication Safety - Indicators Specification",
+    "citation": "NHSBSA and NHS Digital. Medication Safety - Indicators Specification. August 2019. Page 24, Admission Indicator, Denominator, PAIN02.",
+    "url": "https://www.nhsbsa.nhs.uk/sites/default/files/2019-08/Medication%20Safety%20-%20Indicators%20Specification%20%28Aug19%29.pdf",
+    "licence": "Open Government Licence version 3.0",
+    "licence_status": "proposed",
+    "credit": "Medication Safety - Indicators Specification, NHSBSA Copyright 2026. This information is licenced under the terms of the Open Government Licence.",
+    "modification_notice": "Statement reproduced without changes. Australian medicine names, test histories and review text are adaptations."
+  },
+  "plain_summary": "Adults using an opioid regularly for pain need a laxative review when no prescription laxative is supplied nearby. The pharmacist checks non-prescription laxatives, short-term use and use for diarrhoea or stoma output.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Oral or transdermal opioid analgesics",
+      "ingredients": [
+        "buprenorphine",
+        "codeine",
+        "fentanyl",
+        "hydromorphone",
+        "methadone",
+        "morphine",
+        "oxycodone",
+        "oxycodone with naloxone",
+        "tapentadol",
+        "tramadol",
+        "paracetamol with codeine",
+        "paracetamol with codeine and doxylamine",
+        "tramadol with paracetamol"
+      ],
+      "brands": {
+        "buprenorphine": [
+          "Norspan",
+          "B-Patch",
+          "Bupredermal",
+          "Temgesic"
+        ],
+        "codeine": [
+          "Aspen Codeine"
+        ],
+        "fentanyl": [
+          "Durogesic",
+          "Fentanyl Sandoz",
+          "Denpax",
+          "Fenpatch",
+          "Dutran"
+        ],
+        "hydromorphone": [
+          "Dilaudid",
+          "Jurnista"
+        ],
+        "methadone": [
+          "Physeptone"
+        ],
+        "morphine": [
+          "MS Contin",
+          "MS Mono",
+          "Kapanol",
+          "Ordine",
+          "Sevredol",
+          "Anamorph",
+          "Momex SR"
+        ],
+        "oxycodone": [
+          "Endone",
+          "OxyNorm",
+          "OxyContin",
+          "Oxyndone"
+        ],
+        "oxycodone with naloxone": [
+          "Targin"
+        ],
+        "tapentadol": [
+          "Palexia",
+          "Palexia IR",
+          "Palexia SR"
+        ],
+        "tramadol": [
+          "Tramal",
+          "Tramal SR",
+          "Zydol",
+          "Zydol SR",
+          "Tramedo",
+          "Tramedo SR",
+          "Lodam",
+          "Durotram XR"
+        ],
+        "paracetamol with codeine": [
+          "Panadeine Forte",
+          "Codalgin Forte",
+          "Codapane Forte",
+          "Comfarol Forte",
+          "Prodeine Forte",
+          "Dolaforte",
+          "Panadeine Extra"
+        ],
+        "paracetamol with codeine and doxylamine": [
+          "Mersyndol Forte"
+        ],
+        "tramadol with paracetamol": [
+          "Zaldiar"
+        ]
+      },
+      "note": "Oral and transdermal opioid analgesics count, including oral combination analgesics and Temgesic sublingual pain tablets. For oral codeine combination analgesics, count only products containing 15 mg or more of codeine per dosage unit. Check the recorded product strength. Injections (such as Dilaudid-HP), rectal suppositories (such as Proladone) and nasal or transmucosal fentanyl products (such as Abstral, Actiq, Fentora and PecFent) do not count. Opioid-dependence products (Subutex, Suboxone, Buvidal, Sublocade, Biodone Forte and Methadone Syrup) are excluded under their Australian TGA Product Information and TGA register entries (tga.gov.au), which approve them for opioid dependence rather than analgesia. Physeptone or an unbranded oral methadone line with no recorded indication gives at most a possible finding asking whether it is used for pain or opioid dependence. Generic packs that show the ingredient name count too. Antidiarrhoeal opioids such as loperamide and diphenoxylate do not count."
+    },
+    {
+      "key": "B",
+      "name": "Prescription non-bulk laxatives",
+      "ingredients": [
+        "macrogol 3350",
+        "lactulose",
+        "docusate",
+        "senna",
+        "docusate with senna",
+        "bisacodyl",
+        "sodium picosulfate",
+        "prucalopride",
+        "naloxegol",
+        "methylnaltrexone",
+        "glycerol"
+      ],
+      "brands": {
+        "macrogol 3350": [
+          "Movicol",
+          "OsmoLax",
+          "Molaxole",
+          "Macrovic"
+        ],
+        "lactulose": [
+          "Duphalac",
+          "Actilax",
+          "Dulose",
+          "Genlac",
+          "Lac-Dol",
+          "Lactocur"
+        ],
+        "docusate": [
+          "Coloxyl 50",
+          "Coloxyl 120"
+        ],
+        "senna": [
+          "Senokot"
+        ],
+        "docusate with senna": [
+          "Coloxyl with Senna"
+        ],
+        "bisacodyl": [
+          "Dulcolax",
+          "Bisalax",
+          "Lax-Tab"
+        ],
+        "sodium picosulfate": [
+          "Dulcolax SP Drops"
+        ],
+        "prucalopride": [
+          "Resotrans"
+        ],
+        "naloxegol": [
+          "Movantik"
+        ],
+        "methylnaltrexone": [
+          "Relistor"
+        ],
+        "glycerol": [
+          "Glycerol for Adults"
+        ]
+      },
+      "note": "Count a prescription supply of a non-bulk laxative, including osmotic, stimulant, softener, combination and peripheral opioid-receptor antagonist products such as naloxegol and methylnaltrexone. Generic packs showing the ingredient count. Bulk-forming fibre such as ispaghula, psyllium and sterculia does not count. Count a prescribed laxative suppository (such as bisacodyl or glycerol) only when this patient uses it for constipation. Exclude enemas and single-procedure bowel preparations. Naloxone contained in Targin does not count as a laxative."
+    }
+  ],
+  "rule_for_models": "Use this rule for patients aged 18 years or over; if age is unknown, report only a possible finding and confirm the age. For oral codeine combination analgesics, count only products containing 15 mg or more of codeine per dosage unit. Check the recorded product strength. For each Group A oral or transdermal opioid supply, report no finding if a Group B prescription non-bulk laxative was supplied in the 2 calendar months before through 2 calendar months after that opioid supply; if no such supply exists and the observation is missing or unknown, report only a possible finding. Ask whether the patient takes the opioid regularly for pain and whether they use an effective non-prescription laxative. If the observation meets regular opioid use for pain without an effective non-prescription laxative and the opioid is not for diarrhoea or stoma output, report a finding citing the opioid supply and observation; if the observation confirms effective non-prescription laxative use, short-term or occasional use only, or use for diarrhoea or high stoma output, report no finding. If prescription laxative cover is absent and actual use is unknown with as-directed or as-needed directions, report only a possible finding and ask how often it is taken for pain. The pharmacist decides borderline regular or short-term use. For Physeptone or unbranded oral methadone, ask whether that supply was for pain or opioid dependence. Unknown indication permits at most a possible finding for that supply. Confirmed dependence treatment gives no finding for that supply. Never count bulk-forming fibre or a single-procedure bowel preparation as Group B.",
+  "cannot_be_seen": "Non-prescription laxatives, supplies from another pharmacy or hospital, whether the opioid is taken regularly, and whether it is used for pain, diarrhoea or stoma output may be missing.",
+  "ask_the_gp": "Could you review bowel function and laxative cover for regular opioid analgesia, including non-prescription laxative use and whether the opioid is for pain rather than diarrhoea or stoma output?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Regular opioid use for pain and non-prescription laxative status",
+      "meets": "Patient takes an opioid regularly for pain and is not using an effective non-prescription laxative (and opioid is not for diarrhoea or stoma output)",
+      "options": [
+        {
+          "words": "Taking an opioid regularly for pain and either using no non-prescription laxative or using one that is ineffective",
+          "effect": "meets"
+        },
+        {
+          "words": "Taking an effective non-prescription laxative regularly",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Short-term or as-needed opioid use only",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Opioid used for diarrhoea or high stoma output (laxative not appropriate)",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "This opioid is taken for opioid dependence",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not yet asked or unknown",
+          "effect": "unknown"
+        }
+      ],
+      "ask_when": {
+        "group": "A"
+      }
+    }
+  ]
+}

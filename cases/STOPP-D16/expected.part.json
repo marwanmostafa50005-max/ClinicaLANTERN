@@ -1,0 +1,53 @@
+[
+  {
+    "file": "STOPP-D16/pos-fact.csv",
+    "kind": "positive",
+    "about": "The completed oral Clopixol course is a historical finding because the dated note links the tablets to sleep and the assessment attributes the insomnia to noise and excludes both psychiatric causes.",
+    "findings": [
+      {
+        "criterion": "STOPP-D16",
+        "must_cite": [
+          [
+            "L002"
+          ],
+          [
+            "L007"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-D16/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the directions say quetiapine is for sleep, but the record holds no line about the cause of the sleep problem.",
+    "findings": [
+      {
+        "criterion": "STOPP-D16",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L009",
+            "L013",
+            "L017",
+            "L021",
+            "L025",
+            "L029",
+            "L033",
+            "L037"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-D16/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Quetiapine is supplied for sleep and L001 records that active hallucinations cause the sleep disturbance, so the D16 exception applies.",
+    "findings": []
+  }
+]

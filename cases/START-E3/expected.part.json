@@ -1,0 +1,78 @@
+[
+  {
+    "file": "START-E3/pos-fact.csv",
+    "kind": "positive",
+    "about": "The kidney team requests ESA review for persistent symptoms off dialysis with eGFR 26 and haemoglobin 92 to 94 g/L after excluding iron, vitamin B12 and folate deficiencies.",
+    "findings": [
+      {
+        "criterion": "START-E3",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L002",
+            "L021"
+          ],
+          [
+            "L003"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-E3/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: symptomatic renal anaemia, haemoglobin and eGFR are recorded off dialysis. The record lacks \"Assessment of iron, vitamin B12 and folate as causes of the anaemia\" and \"Kidney team assessment of starting an ESA for this anaemia\".",
+    "findings": [
+      {
+        "criterion": "START-E3",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L002"
+          ],
+          [
+            "L003"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-E3/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The kidney and anaemia facts are recorded, and darbepoetin (Aranesp) is supplied every month through the last six months, so nothing is missing.",
+    "findings": []
+  },
+  {
+    "file": "START-E3/pos-dialysis-hb100-no-threshold.csv",
+    "kind": "positive",
+    "about": "Possible finding: haemoglobin is exactly 100 g/L on maintenance dialysis. The missing fact is \"Personal haemoglobin threshold for starting an ESA on maintenance dialysis\".",
+    "findings": [
+      {
+        "criterion": "START-E3",
+        "must_cite": [
+          [
+            "L019"
+          ],
+          [
+            "L023"
+          ],
+          [
+            "L030"
+          ],
+          [
+            "L031"
+          ],
+          [
+            "L032"
+          ]
+        ]
+      }
+    ]
+  }
+]

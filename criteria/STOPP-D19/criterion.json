@@ -1,0 +1,69 @@
+{
+  "id": "STOPP-D19",
+  "label": "STOPP D19",
+  "family": "STOPP_START",
+  "title": "Memantine with a seizure disorder",
+  "statement": "Memantine with known current or previous seizure disorder (increased risk of seizures).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Memantine, a medicine for memory loss, can make seizures more likely, so it is risky for a person who has or has had a seizure disorder. Australian Ebixa product information also lists any history of seizures as a contraindication. A single recorded seizure warrants prescriber review even if a seizure disorder has not been established.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Memantine",
+      "ingredients": [
+        "memantine"
+      ],
+      "brands": {
+        "memantine": [
+          "Ebixa",
+          "Ebixa Drops",
+          "Memantipin",
+          "Memanxa",
+          "Mimiva"
+        ]
+      },
+      "note": "Tablets and oral solution count. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Seizure disorder (epilepsy), current or previous",
+      "meets": "A line shows epilepsy or another seizure disorder, now or in the past.",
+      "options": [
+        {
+          "words": "Current seizure disorder",
+          "effect": "meets"
+        },
+        {
+          "words": "Previous seizure disorder",
+          "effect": "meets"
+        },
+        {
+          "words": "No current or previous seizure disorder",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply only to people aged 65 years or older. Below 65 there is no finding. If age is unknown, record eligibility as unresolved and confirm age before reporting either finding. Suspect a finding when a Group A medicine (memantine) is supplied and the record holds a line showing a current or previous seizure disorder such as epilepsy. Cite the supply and the line recording the disorder. If the record leaves a current or past seizure disorder unclear, report a possible D19 finding, cite the memantine supply and ask whether a disorder was diagnosed, including after an isolated seizure. If the record explicitly excludes a current or past seizure disorder, there is no D19 finding.",
+  "cannot_be_seen": "Seizures that were never recorded, the reason for any earlier anti-seizure medicine, and memantine supplied elsewhere.",
+  "ask_the_gp": "Could you confirm whether there is a history of seizures or a diagnosed seizure disorder and review whether memantine is suitable in light of what is known?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

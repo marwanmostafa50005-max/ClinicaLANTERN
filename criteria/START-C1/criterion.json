@@ -1,0 +1,149 @@
+{
+  "id": "START-C1",
+  "label": "START C1",
+  "family": "STOPP_START",
+  "title": "Blood thinner missing in atrial fibrillation",
+  "statement": "Vitamin K antagonists or direct thrombin inhibitors or factor Xa inhibitors in the presence of chronic or paroxysmal atrial fibrillation.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "For non-valvular atrial fibrillation, check stroke risk using CHA₂DS₂-VA. At a score of 0, routine anticoagulation is not recommended. At 1, discuss the benefits and risks with the person. At 2 or more, anticoagulation is recommended unless contraindicated. If risk factors are missing, confirm them with the GP. Australian options for non-valvular atrial fibrillation include warfarin, dabigatran, apixaban or rivaroxaban. This check looks for atrial fibrillation without ongoing anticoagulation for stroke prevention. A documented current reason to withhold treatment can explain the gap.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Medicines that meet this criterion: warfarin, dabigatran and the factor Xa inhibitors for stroke prevention",
+      "ingredients": [
+        "warfarin",
+        "dabigatran",
+        "apixaban",
+        "rivaroxaban",
+        "edoxaban"
+      ],
+      "brands": {
+        "warfarin": [
+          "Coumadin",
+          "Marevan"
+        ],
+        "dabigatran": [
+          "Pradaxa"
+        ],
+        "apixaban": [
+          "Eliquis",
+          "Alexibic",
+          "Apexa",
+          "Apixor",
+          "Axibic",
+          "Elapex"
+        ],
+        "rivaroxaban": [
+          "Xarelto",
+          "Ixarola",
+          "Relaban",
+          "Rivalembic",
+          "Rivarelto",
+          "Rivator",
+          "Rivaxib",
+          "Rivaxotor",
+          "Rivoxa",
+          "Roxabic",
+          "Roxalem",
+          "Roxator",
+          "Toriva",
+          "Troxa",
+          "Xaremed"
+        ],
+        "edoxaban": []
+      },
+      "note": "Warfarin is the vitamin K antagonist. Dabigatran is the direct thrombin inhibitor. Apixaban, rivaroxaban and edoxaban are factor Xa inhibitors. Fondaparinux, heparin and enoxaparin are not used long term for atrial fibrillation and are not in this group. Aspirin and clopidogrel are not anticoagulants. Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "B",
+      "name": "Medicines that imply atrial fibrillation",
+      "ingredients": [
+        "digoxin",
+        "sotalol",
+        "amiodarone",
+        "flecainide",
+        "dronedarone"
+      ],
+      "brands": {
+        "digoxin": [
+          "Lanoxin",
+          "Lanoxin PG",
+          "Lanoxin Paediatric Elixir",
+          "Sigmaxin",
+          "Sigmaxin PG"
+        ],
+        "sotalol": [
+          "Sotacor",
+          "Cardol",
+          "Solavert",
+          "Sotab",
+          "Sotahexal"
+        ],
+        "amiodarone": [
+          "Cordarone X",
+          "Aratac",
+          "Amdarone",
+          "Cardinorm",
+          "Rithmik"
+        ],
+        "flecainide": [
+          "Flec-Em",
+          "Flecacor",
+          "Flecain",
+          "Flecainide (Apo)",
+          "Flecainide (Mlabs)",
+          "Flecainide (Sandoz)",
+          "Flecar",
+          "Flecatab",
+          "Tambocor"
+        ],
+        "dronedarone": [
+          "Multaq"
+        ]
+      },
+      "note": "These are heart rhythm medicines. A supply suggests an irregular heartbeat such as atrial fibrillation when the record holds no line about it, but it does not prove it. Digoxin is also used in heart failure. For the routine flecainide supply clue, count oral tablets. Exclude injections. If a Tambocor line gives no form, check the form before using it as the clue."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Atrial fibrillation",
+      "meets": "A condition line for atrial fibrillation, including paroxysmal, persistent, permanent or chronic"
+    },
+    {
+      "kind": "observation",
+      "what": "Anticoagulant supplied elsewhere for atrial fibrillation in the last six months",
+      "meets": "The patient or supplying service confirms that no hospital or other pharmacy supplied an anticoagulant for ongoing stroke prevention in atrial fibrillation in the last six months counted back from the latest date in the record.",
+      "options": [
+        {
+          "words": "A hospital or another pharmacy supplied it for atrial fibrillation",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "The patient or supplying service confirms there was no such supply",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this criterion only to people aged 65 years or older. If age is unknown, confirm it before reporting a finding. Make no finding if the record documents a current valid reason to withhold anticoagulation, such as active clinically significant bleeding, or an end-of-life care plan focused on comfort. If the record mentions a temporary hold, read the latest dated condition or observation about it to decide whether the hold still applies. If the hold has ended, explain in the finding why it no longer accounts for the gap. If the record explicitly rules out chronic and paroxysmal atrial fibrillation, report no finding. A single recording of sinus rhythm does not rule out paroxysmal atrial fibrillation. Count only ongoing Group A anticoagulation for stroke prevention in atrial fibrillation in the last six months counted back from the latest date in the record. Do not count a completed short-term course (such as postoperative clot prevention) or a vascular-protection regimen (such as rivaroxaban 2.5 mg twice daily) as clearing the check. If regular supplies show ongoing warfarin, dabigatran, apixaban, edoxaban, or rivaroxaban 15 mg or 20 mg daily, the treatment this criterion looks for is present. Stop the check and report no finding even when atrial fibrillation is documented. Do not question dose suitability in this check. If local supplies do not settle treatment, check outside supply only when a condition line records chronic or paroxysmal atrial fibrillation or a Group B heart rhythm medicine suggests the missing diagnosis. If a hospital or another pharmacy supplied qualifying ongoing Group A treatment for atrial fibrillation in the last six months, report no finding. An antiplatelet or a completed anticoagulant course for another indication does not count, wherever supplied. If outside supply is missing or not known, report only a possible finding and name the missing observation exactly as \"Anticoagulant supplied elsewhere for atrial fibrillation in the last six months\". If the patient or supplying service confirms there was no such supply, suspect an omission only if atrial fibrillation is recorded and no qualifying local treatment is present. If a local Group A regimen leaves current treatment unclear, keep the finding possible and ask to confirm that regimen. If the diagnosis is missing and a Group B heart rhythm medicine is the clue, keep the finding possible. Name each missing fact separately, using \"Atrial fibrillation\" for the missing diagnosis. In the list of line IDs for every finding, cite the follow-up line that ends a temporary anticoagulant hold first if present, then the atrial fibrillation diagnosis line (or one Group B supply line if the diagnosis is missing), then one supply line for each excluded or unclear Group A regimen, then the observation confirming no qualifying outside supply if present.",
+  "cannot_be_seen": "The stroke and bleeding risk scores, a past bleed, a recent or planned procedure, a decision by the patient not to take a blood thinner, a blood thinner supplied by a hospital or another pharmacy, and the reason a heart rhythm medicine was started.",
+  "ask_the_gp": "Whether an anticoagulant has been considered for this atrial fibrillation, with a check of stroke and bleeding risk, and the reason if none is used. If the record does not show it, please also confirm the atrial fibrillation diagnosis.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

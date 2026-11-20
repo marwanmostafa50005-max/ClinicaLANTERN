@@ -1,0 +1,91 @@
+{
+  "id": "KHAWAGI-G155",
+  "label": "Khawagi review: Check for liver function results in the past year during stable carbamazepine or valproate treatment",
+  "family": "KHAWAGI",
+  "title": "Check for liver function results in the past year during stable carbamazepine or valproate treatment",
+  "statement": "Check for liver function results in the past year during stable carbamazepine or valproate treatment.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review, S3 File",
+    "citation": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. PLoS ONE 2019;14(5):e0217406, S3 File.",
+    "doi": "10.1371/journal.pone.0217406",
+    "url": "https://doi.org/10.1371/journal.pone.0217406.s003",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. PLoS ONE 2019;14(5):e0217406. https://doi.org/10.1371/journal.pone.0217406; S3 File, https://doi.org/10.1371/journal.pone.0217406.s003. © 2019 Khawagi et al., CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). S3 item G155. Original screening wording and Australian adaptations. S3 reference(s) as indexed in the supplied qualification: [81]. Clinical cross-check: Tegretol Australian PI (https://www.safetyandquality.gov.au/medicine-finder/tegretol).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "Check for liver function results in the past year during stable carbamazepine or valproate treatment.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Carbamazepine or valproate",
+      "ingredients": [
+        "carbamazepine",
+        "sodium valproate",
+        "valproic acid"
+      ],
+      "brands": {
+        "carbamazepine": [
+          "Tegretol CR",
+          "Avloire",
+          "Avloire CR",
+          "Tegretol",
+          "Teril"
+        ],
+        "sodium valproate": [
+          "Epilim EC200",
+          "Epilim",
+          "Epilim EC500",
+          "Epilim Crushable",
+          "Epilim Liquid",
+          "Epilim Syrup",
+          "Valpro",
+          "Valpro EC 200",
+          "Valpro EC 500",
+          "Valprease",
+          "Valprease 200",
+          "Valprease 500"
+        ],
+        "valproic acid": []
+      },
+      "note": "Count oral valproate recorded as valproic acid or by its salt, including oral tablets, liquid and syrup. The listed Epilim products contain sodium valproate."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "Date of the latest liver function tests",
+      "meets": "Enter the sample date in the result date field. Enter the findings with their units if available, or enter \"test completed\" if the sample date is known but the figures are unavailable. At the latest qualifying supply, use the most recent sample on or before that supply. A test within the preceding 12 calendar months, including the boundary date, must also meet any earlier deadline in the individual plan. A missed deadline supports a possible monitoring gap. If the sample date is unknown, leave timing unresolved."
+    },
+    {
+      "kind": "observation",
+      "what": "Individual follow-up plan for liver function tests",
+      "meets": "At the latest qualifying supply, check whether a shorter deadline in the individual plan has passed without the requested test. A confirmed missed deadline gives a possible gap. If there is no outstanding earlier test, the annual check still applies. If a shorter plan is known but its timing or completion is unclear, ask for the due date and the latest test date.",
+      "options": [
+        {
+          "words": "An earlier deadline has passed without the test",
+          "effect": "meets"
+        },
+        {
+          "words": "The earlier test was completed or is not yet due",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "There is no shorter testing plan",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Assess ongoing stable carbamazepine or valproate after at least 12 months of observable treatment. Compare repeat dates, quantities and daily directions for evidence of continued use on a stable regimen. If monitoring might be overdue and unclear directions or gaps leave continuity uncertain, report at most a possible gap and ask the patient about their daily dose, any interruption and current use. The pharmacist judges borderline gaps. At the latest qualifying supply, compare the latest dated liver function tests with the previous 12 calendar months, including the boundary. Use an earlier due date if a documented individual plan specifies one for this test. Use the sample date on the dated result, including a result entered as \"test completed\" without figures. A result after the supply cannot establish monitoring before it. Give no finding when the test is in time under the annual check and any shorter plan. If either deadline was missed, report only a possible gap. If the sample date cannot be established, report a possible gap and name the missing fact as Date of the latest liver function tests. If a known shorter plan has unclear timing, ask for its due date. A counter entry date does not date a test. Cite the supplies and available result or plan. Ask whether the patient had a liver function blood test elsewhere in the past year and when. A completed switch off the relevant medicine or an incomplete treatment window cannot establish an overdue test.",
+  "cannot_be_seen": "Outside pathology or follow-up may be missing. An incomplete observation window cannot establish an overdue test.",
+  "ask_the_gp": "Could you confirm the date of the last liver function tests during ongoing carbamazepine or valproate treatment and when the next tests are due under the annual or individual plan?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

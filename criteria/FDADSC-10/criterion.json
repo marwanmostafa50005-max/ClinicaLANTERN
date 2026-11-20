@@ -1,0 +1,98 @@
+{
+  "id": "FDADSC-10",
+  "label": "MHRA: clopidogrel with omeprazole or esomeprazole",
+  "family": "FDADSC",
+  "title": "Clopidogrel with omeprazole or esomeprazole",
+  "statement": "Concomitant use of clopidogrel and omeprazole or esomeprazole is to be discouraged unless considered essential.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Clopidogrel and proton pump inhibitors: interaction - updated advice",
+    "citation": "Drug Safety Update April 2010, vol 3 issue 9: 4. Page published 11 December 2014.",
+    "url": "https://www.gov.uk/drug-safety-update/clopidogrel-and-proton-pump-inhibitors-interaction-updated-advice",
+    "licence": "UK Open Government Licence v3.0",
+    "licence_status": "proposed",
+    "credit": "Contains public sector information licensed under the Open Government Licence v3.0.",
+    "modification_notice": "Statement reproduced without changes. Plain-language fields, Australian medicine mapping and test histories are adaptations."
+  },
+  "plain_summary": "Omeprazole and esomeprazole inhibit CYP2C19. This reduces conversion of clopidogrel to its active metabolite and reduces its antiplatelet effect. The combination is discouraged unless considered essential. It is not an absolute contraindication, and outcome evidence is mixed. Review whether a less interacting proton pump inhibitor such as pantoprazole or rabeprazole could be used without stopping gastro-protection. Never stop clopidogrel abruptly without prescriber advice. At the counter, ask whether the patient buys over-the-counter omeprazole or esomeprazole such as Maxor Heartburn Relief or Nexium 24HR, obtains either medicine elsewhere, and takes both together.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Clopidogrel and clopidogrel with aspirin",
+      "ingredients": [
+        "clopidogrel",
+        "aspirin with clopidogrel"
+      ],
+      "brands": {
+        "clopidogrel": [
+          "Plavix",
+          "Iscover",
+          "Piax",
+          "Plavicor",
+          "Clovix",
+          "Plidogrel",
+          "Clogrel",
+          "Clopaccord",
+          "Clopithromb",
+          "Viplex",
+          "Clopidogrel (Sandoz)",
+          "Clopidogrel (APO)",
+          "Clopidogrel (Winthrop)"
+        ],
+        "aspirin with clopidogrel": [
+          "CoPlavix",
+          "DuoCover",
+          "DuoPlidogrel",
+          "Piax Plus Aspirin",
+          "Clopidogrel/Aspirin 75/100 (APX)"
+        ]
+      },
+      "note": "Oral clopidogrel tablets and oral fixed-dose clopidogrel with aspirin tablets count. Aspirin without clopidogrel does not count. Generic packs that show clopidogrel or clopidogrel with aspirin count too."
+    },
+    {
+      "key": "B",
+      "name": "Omeprazole and esomeprazole",
+      "ingredients": [
+        "omeprazole",
+        "esomeprazole",
+        "naproxen with esomeprazole",
+        "omeprazole with amoxicillin and clarithromycin"
+      ],
+      "brands": {
+        "omeprazole": [
+          "Losec",
+          "Acimax",
+          "Maxor",
+          "Maxor Heartburn Relief",
+          "Probitor",
+          "Ozmep",
+          "Omepral",
+          "Meprazol"
+        ],
+        "esomeprazole": [
+          "Nexium",
+          "Nexium 24HR Once Daily Dosing",
+          "Esopreze",
+          "Nexazole",
+          "Nexole",
+          "Noxicid",
+          "Nexium Hp7",
+          "Nexium 24HR"
+        ],
+        "naproxen with esomeprazole": [
+          "Vimovo"
+        ],
+        "omeprazole with amoxicillin and clarithromycin": [
+          "Klacid Hp7"
+        ]
+      },
+      "note": "Oral omeprazole and esomeprazole tablets, capsules, granules and oral fixed-dose combinations count. Nexium Hp7 is a composite pack containing esomeprazole, amoxicillin and clarithromycin. Vimovo contains naproxen with esomeprazole. Klacid Hp7 contains omeprazole with amoxicillin and clarithromycin. Intravenous omeprazole and esomeprazole also count. Count systemic forms only. Pantoprazole, rabeprazole, lansoprazole, famotidine and nizatidine do not count as Group B. Generic packs that show omeprazole or esomeprazole count too."
+    }
+  ],
+  "rule_for_models": "1. Apply at any age, and a missing age does not block this check. 2. Suspect a finding when a Group A medicine and a Group B medicine are supplied in the same calendar month or within 2 calendar months of each other. Use whole calendar months and do not calculate a day interval. If concurrent treatment or the prescriber's assessment of essential use is unknown, report only a possible finding. Ask the pharmacist to check use and seek prescriber review of necessity. If the treatments were not concurrent or the prescriber confirms that concurrent use is essential, report no finding under this criterion. 3. Cite every qualifying Group A supply in one evidence group and every qualifying Group B supply in another evidence group. Pantoprazole, rabeprazole, lansoprazole, famotidine and nizatidine do not count as Group B. 4. If a dated observation confirms that the patient took omeprazole or esomeprazole obtained without a prescription or from another provider during a particular clopidogrel course, cite the clopidogrel supply for that course and the observation. Apply the same essential-use check. If the assessment of essential use is unknown, report a possible finding and name the missing prescriber assessment. A negative observation rules out only outside use for that course. A missing or unknown observation alone does not establish outside use. Assess any qualifying recorded pair independently.",
+  "cannot_be_seen": "Over-the-counter omeprazole or esomeprazole, including products such as Maxor Heartburn Relief and Nexium 24HR, medicines supplied by another pharmacy or hospital, actual concurrent ingestion, treatment changes after supply, and the prescriber's reason for judging the combination essential are not visible in a dispensing history.",
+  "ask_the_gp": "Could you review whether clopidogrel with omeprazole or esomeprazole is essential and whether pantoprazole or rabeprazole could provide suitable gastroprotection?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

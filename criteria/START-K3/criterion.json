@@ -1,0 +1,108 @@
+{
+  "id": "START-K3",
+  "label": "START K3",
+  "family": "STOPP_START",
+  "title": "Lidocaine 5% patch for localized nerve pain",
+  "statement": "Topical 5% lidocaine (lignocaine) patch for localized neuropathic pain, e.g. post-herpetic neuralgia.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "START suggests considering a 5% lidocaine patch for localised nerve pain in older people. In Australia the registered use is for nerve pain that persists after shingles. Use for other localised nerve pain is off-label and needs individual review.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Lidocaine 5% patches, the medicines that meet this criterion",
+      "ingredients": [
+        "lidocaine",
+        "lignocaine"
+      ],
+      "brands": {
+        "lidocaine": [
+          "Versatis",
+          "Nervoderm"
+        ],
+        "lignocaine": [
+          "Versatis",
+          "Nervoderm"
+        ]
+      },
+      "note": "Recognise lidocaine and lignocaine as names for the same ingredient. Only a 5% w/w dermal patch counts, including a matching product labelled 700 mg per patch. Exclude other strengths and all other forms, including sprays, ointments, creams, gels and injections. A Nervoderm purchase without prescription may be absent from the record. Generic packs showing the ingredient with a company name count."
+    },
+    {
+      "key": "B",
+      "name": "Medicines for nerve pain, which imply the condition",
+      "ingredients": [
+        "pregabalin",
+        "gabapentin"
+      ],
+      "brands": {
+        "pregabalin": [
+          "Lyrica",
+          "Adimis",
+          "Adirag",
+          "Adiris",
+          "Adrabalin",
+          "Adranuro",
+          "Adraprega",
+          "Algerika",
+          "Brillior",
+          "Cipgablin",
+          "Gabrica",
+          "Lypralin",
+          "Lyraccord",
+          "Lyrica CR",
+          "Lyrigalin",
+          "Lyrilin",
+          "Lyzalon",
+          "Neurica",
+          "Neuroccord",
+          "Prebalin",
+          "Pregabica",
+          "Pregaciplin",
+          "Pregaredi",
+          "Prelinaccord",
+          "Sudorega"
+        ],
+        "gabapentin": [
+          "Neurontin",
+          "Gabaccord",
+          "Gabacor",
+          "Gabahexal",
+          "Gabalep",
+          "Gabalex",
+          "Gabapen",
+          "Gabaran",
+          "Gabatine",
+          "Gantin",
+          "Gapentin",
+          "Mipentine",
+          "Nupentin",
+          "Nupentin Tab",
+          "Pendine"
+        ]
+      },
+      "note": "These medicines treat nerve pain but also other problems (for example epilepsy or anxiety), and they do not show that the pain is in one area. Generic packs showing the ingredient with a company name count."
+    }
+  ],
+  "rule_for_models": "Apply only at age 65 or older. If age is unknown and the other evidence would support a finding, report only a possible finding and ask the pharmacist to confirm the age. Do not flag a documented valid reason for omission or an end-of-life plan focused on palliation. Suspect a finding when the record holds a condition line for localized nerve pain (for example post-herpetic neuralgia, pain after shingles) and there is no supply of a lidocaine 5% patch in the last six months of the record; cite the condition line. If the patient or record rules out current localised nerve pain, give no finding. If the pain history is missing or recorded as not known, report only a possible finding if a Group B supply could be for nerve pain and no lidocaine 5% patch was supplied in the last six months. Name the missing pain history and cite the relevant supply. Without a localised nerve pain line, give no finding if there is no Group B supply or if all such supplies are documented solely for another purpose. If only an old Group B supply suggests nerve pain, ask whether it relates to pain that is still present. If the course and pain are known to have ended, give no current finding on that supply alone. If a lidocaine 5% patch is supplied in the last six months, or the record shows the nerve pain is widespread, there is no finding.",
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Localized neuropathic (nerve) pain, such as post-herpetic neuralgia",
+      "meets": "A condition line recording nerve pain in one area, such as post-herpetic neuralgia."
+    }
+  ],
+  "cannot_be_seen": "The pain, its cause and whether it is in one area are not in a dispensing history unless a condition line is present. Patches obtained on special access or from a compounding pharmacy may not appear, and nothing shows whether a patch was tried and stopped. Ask whether the medicine is for nerve pain in one area, such as pain after shingles. Ask whether the person already uses a lidocaine 5% patch, including Nervoderm bought without a prescription.",
+  "ask_the_gp": "A review of the nerve pain and whether a lidocaine 5% patch could be tried, alone or with the current medicine.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

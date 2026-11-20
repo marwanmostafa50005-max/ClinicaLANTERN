@@ -1,0 +1,38 @@
+{
+  "id": "EU7-F76",
+  "label": "EU(7)-PIM: piracetam",
+  "family": "EU7",
+  "title": "Piracetam in an older person",
+  "statement": "Piracetam | In lists: 1, 4 (A) | Main reason: No efficacy proven; unfavorable risk/benefit profile | Dose adjustment/special considerations: Reduce dose for older adults and for patients with renal failure. M | Alternatives: Non-pharmacological treatment; consider pharmacotherapy of Alzheimer-type dementia: acetylcholinesterase, memantine[d] E",
+  "statement_origin": "published",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "The European list questions the benefit of piracetam for memory problems in older people. Piracetam is also used overseas with other medicines for cortical myoclonus. Confirm the indication and specialist plan before considering a change.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Piracetam (a memory and brain medicine)",
+      "ingredients": [
+        "piracetam"
+      ],
+      "brands": {
+        "piracetam": []
+      },
+      "note": "Tablets, capsules and liquids count. Piracetam is not sold in Australia, so no Australian brand is listed and records use the ingredient name. The list is for older people, so the rule uses age 65 or over."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when a person aged 65 or over is supplied piracetam (Group A). If piracetam is supplied and age is missing, report only a possible finding and ask the pharmacist to confirm whether the person is 65 or older. Report the prescribed daily dose when the strength and directions allow it. If they do not, keep the supply finding for an eligible patient, record the daily dose as unknown and ask what dose is taken each day. A daily dose alone cannot establish whether a dose reduction was needed or made. Ask the patient what they take piracetam for and who manages it.",
+  "cannot_be_seen": "A supply can name its prescriber, and a dated result can show kidney function at the time of testing. The original prescriber, reason for starting, source of supply and dose actually taken may be unknown. Kidney function is unknown if no relevant result is recorded.",
+  "ask_the_gp": "Could you confirm why piracetam was started and who oversees treatment? If it is used for memory problems, could you review its benefit and the alternatives? If it is used for cortical myoclonus, could you confirm the specialist plan?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

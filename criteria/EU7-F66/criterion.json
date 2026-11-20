@@ -1,0 +1,41 @@
+{
+  "id": "EU7-F66",
+  "label": "EU(7)-PIM: lithium",
+  "family": "EU7",
+  "title": "Lithium in an older person",
+  "statement": "Lithium is on the list of medicines to avoid in older people. Its safe range is narrow, and it builds up in the body when the kidneys work less well. The 2015 European list suggests 300 to 600 mg daily and a lower dose with reduced kidney function. Australian product information for Quilonum SR lists significant renal disease as a contraindication.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Statement written in plain words by ClinicaLANTERN from the published table row or rows, because part of the original dose text is from a third-party database (Micromedex) whose rights are not settled. It is not the authors' wording. Not endorsed by the source authors."
+  },
+  "plain_summary": "Lithium can build up to harmful levels in people aged 65 or over, especially when the kidneys work less well.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Lithium",
+      "ingredients": [
+        "lithium"
+      ],
+      "brands": {
+        "lithium": [
+          "Lithicarb",
+          "Quilonum SR"
+        ]
+      },
+      "note": "Lithium carbonate tablets count under any brand. Doses are shown as lithium carbonate in the directions."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when the person is aged 65 or over and lithium is supplied, even once. If age is missing and lithium is supplied, report only a possible finding and ask whether the person is 65 or older. A daily dose above 600 mg of lithium carbonate makes it more worth raising. Work out the daily dose as the strength, times the tablets in one dose, times the doses a day, using the directions. At age 65 or older, if the directions give no daily dose, keep the finding and ask how much lithium carbonate is taken each day. Record that the dose could not be checked against 600 mg a day.",
+  "cannot_be_seen": "Lithium levels and kidney function may be unknown if relevant dated results are missing. The record may also omit the reason for treatment and medicines bought without a prescription. It cannot confirm how much is taken or whether another service manages the lithium.",
+  "ask_the_gp": "A review of whether lithium is still the right choice, and checks of the blood lithium level and kidney function.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

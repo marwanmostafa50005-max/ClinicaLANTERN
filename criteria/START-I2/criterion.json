@@ -1,0 +1,118 @@
+{
+  "id": "START-I2",
+  "label": "START I2",
+  "family": "STOPP_START",
+  "title": "5-alpha reductase inhibitor for enlarged prostate symptoms",
+  "statement": "5-alpha reductase inhibitor (e.g., finasteride, dutasteride) for lower urinary tract symptoms related to benign prostatic hyperplasia where prostatectomy is not considered necessary or appropriate or safe.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A man with urinary symptoms from an enlarged prostate who does not need surgery may be helped by finasteride or dutasteride, which can shrink the prostate.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "5-alpha reductase inhibitors that meet this criterion",
+      "ingredients": [
+        "finasteride",
+        "dutasteride"
+      ],
+      "brands": {
+        "finasteride": [
+          "Proscar",
+          "Finaccord",
+          "Finasta",
+          "Finide",
+          "Finnacar",
+          "Finpro",
+          "Fintast"
+        ],
+        "dutasteride": [
+          "Avodart",
+          "Duodart",
+          "Dutacor"
+        ]
+      },
+      "note": "Finasteride 5 mg (Proscar) and dutasteride count. Duodart is dutasteride with tamsulosin, so it counts here and in Group B. Finasteride 1 mg (including Propecia) for hair loss does not count. Exclude a 1 mg hair-loss product even on a brand-only line. Finapen or Fintab alone does not establish prostate treatment. If an older product is ambiguous, confirm the strength and use before counting it."
+    },
+    {
+      "key": "B",
+      "name": "Medicines that imply an enlarged prostate",
+      "ingredients": [
+        "tamsulosin",
+        "silodosin"
+      ],
+      "brands": {
+        "tamsulosin": [
+          "Flomaxtra",
+          "Pradif",
+          "Duodart",
+          "Flosix"
+        ],
+        "silodosin": [
+          "Urorec"
+        ]
+      },
+      "note": "Tamsulosin and silodosin are used for urinary symptoms from an enlarged prostate. Doxazosin, prazosin and terazosin are not counted, because they are mainly used for blood pressure."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Lower urinary tract symptoms due to benign prostate enlargement",
+      "meets": "The man has lower urinary tract symptoms caused by benign enlargement of the prostate. A No rules out these symptoms. Not known leaves their cause unresolved."
+    },
+    {
+      "kind": "observation",
+      "what": "Clinician's assessment of prostate surgery",
+      "meets": "A treating clinician assessed prostatectomy for these symptoms as unnecessary, unsuitable or unsafe. Suitable surgery that the clinician considers needed and safe, including surgery already planned, rules out the omission. The absence of a booking does not show what the clinician decided.",
+      "options": [
+        {
+          "words": "Assessed as unnecessary, unsuitable or unsafe",
+          "effect": "meets"
+        },
+        {
+          "words": "Assessed as needed, appropriate and safe",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Finasteride or dutasteride for urinary symptoms from another supplier",
+      "meets": "No current treatment of this kind for urinary symptoms is supplied elsewhere. This answer settles only outside treatment.",
+      "options": [
+        {
+          "words": "Currently taking this treatment from another supplier",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "No current treatment of this kind from another supplier",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this item only to men aged 65 or older. If age is unknown, confirm it before reporting a finding. Report no omission if the record documents end-of-life care with a palliative focus, a contraindication to the proposed therapy, or another valid reason for omitting it. There is no finding if a Group A medicine was supplied in the last six months or the man is currently taking this treatment for urinary symptoms from another supplier. There is no finding if urinary symptoms due to benign prostate enlargement are ruled out or prostatectomy was assessed as needed, appropriate and safe, including when surgery is planned. This holds even after a Group B supply. With no Group A supply in that window, report a confirmed omission only when the record establishes that benign prostate enlargement caused the urinary symptoms and the treating clinician judged prostatectomy unnecessary, unsuitable or unsafe. If the symptomatic diagnosis is unresolved and a Group B supply or recorded urinary symptoms suggest it, report only a possible finding and name the missing fact \"Lower urinary tract symptoms due to benign prostate enlargement\". If the symptomatic diagnosis is established but the surgical assessment is missing or unknown, report only a possible finding and name \"Clinician's assessment of prostate surgery\". The absence of a booking does not establish the surgical decision. When a possible omission depends on whether Group A treatment is being obtained elsewhere, name \"Finasteride or dutasteride for urinary symptoms from another supplier\". A Not known answer leaves coverage unresolved and the finding possible. An answer ruling out outside treatment settles neither the cause of the symptoms nor the surgical assessment. For a confirmed finding cite the symptomatic diagnosis and the surgical assessment, citing a single line once if it documents both. For a possible finding cite the symptom line if present, or a Group B supply if that is the clue, and any recorded assessment or outside-treatment answer on which the finding depends.",
+  "cannot_be_seen": "The size of the prostate, PSA results, whether surgery to remove the prostate is needed, suitable or safe, and how bad the symptoms are. Also why a 5-alpha reductase inhibitor was not used, and any side effects the person had on one.",
+  "ask_the_gp": "Could you confirm whether urinary symptoms are due to an enlarged prostate, whether prostatectomy is needed, appropriate and safe, and whether a 5-alpha reductase inhibitor merits review?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "only_sex": "male"
+}

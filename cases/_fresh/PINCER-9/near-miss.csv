@@ -1,0 +1,5 @@
+patient_ref,patient_age,patient_sex,record_type,dispense_date,medicine,brand,strength,form,quantity,repeats_left,directions,prescriber,detail,value
+F-FR-P9-2,68,M,,2026-04-02,methotrexate,Methoblastin,10 mg,tablet,15,2,Take ONE tablet once a week on the same day,Dr B. Sample,,
+F-FR-P9-2,68,M,,2026-04-16,folic acid,Folicid,5 mg,tablet,30,4,Take ONE tablet daily except on methotrexate day,Dr A. Example,,
+F-FR-P9-2,68,M,,2026-05-14,methotrexate,Methoblastin,10 mg,tablet,15,1,Take ONE tablet once a week on the same day,Dr B. Sample,,
+F-FR-P9-2,68,M,,2026-06-25,methotrexate,Methoblastin,10 mg,tablet,15,0,Take ONE tablet once weekly,Dr B. Sample,,

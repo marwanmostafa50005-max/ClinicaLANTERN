@@ -1,0 +1,16 @@
+2026-08-03 | Norvasc (amlodipine) 5 mg tablet | qty 30 | repeats 5 | Take ONE tablet daily | Dr A. Example
+2026-08-03 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 3 | Take ONE tablet daily | Dr A. Example
+2026-08-03 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 1 | Take ONE tablet daily before food | Dr A. Example
+2026-08-03 | Flomaxtra (tamsulosin) 400 microgram modified release tablet | qty 30 | repeats 4 | Take ONE tablet daily | Dr A. Example
+2026-08-03 | Zyloprim (allopurinol) 300 mg tablet | qty 60 | repeats 2 | Take ONE tablet daily after food | Dr A. Example
+2026-08-25 | Keflex (cefalexin) 500 mg capsule | qty 20 | repeats 0 | Take ONE capsule four times a day until finished | Dr A. Example
+2026-09-01 | Norvasc (amlodipine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet daily | Dr A. Example
+2026-09-01 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 2 | Take ONE tablet daily | Dr A. Example
+2026-09-01 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 0 | Take ONE tablet daily before food | Dr A. Example
+2026-09-01 | Flomaxtra (tamsulosin) 400 microgram modified release tablet | qty 30 | repeats 3 | Take ONE tablet daily | Dr A. Example
+2026-10-01 | Norvasc (amlodipine) 5 mg tablet | qty 30 | repeats 3 | Take ONE tablet daily | Dr A. Example
+2026-10-01 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 1 | Take ONE tablet daily | Dr A. Example
+2026-10-01 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily before food | Dr A. Example
+2026-10-01 | Flomaxtra (tamsulosin) 400 microgram modified release tablet | qty 30 | repeats 2 | Take ONE tablet daily | Dr A. Example
+2026-10-01 | Zyloprim (allopurinol) 300 mg tablet | qty 60 | repeats 1 | Take ONE tablet daily after food | Dr A. Example
+2026-10-20 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 1 | Take TWO tablets three times a day | Dr A. Example

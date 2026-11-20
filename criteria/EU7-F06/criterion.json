@@ -1,0 +1,161 @@
+{
+  "id": "EU7-F06",
+  "label": "EU(7)-PIM: listed antihistamines",
+  "family": "EU7",
+  "title": "Antihistamine named in the list in an older person",
+  "statement": "The EU(7)-PIM list names these antihistamines as potentially inappropriate medicines for older people: aceprometazine, alimemazine, brompheniramine, buclizine, carbinoxamine, chlorphenamine (chlorpheniramine), clemastine, cyclizine, cyproheptadine, dexchlorpheniramine (alone or with betamethasone), dimenhydrinate, dimetindene, diphenhydramine, doxylamine, ebastine, hydroxyzine, meclozine, mequitazine, oxomemazine, pheniramine, pimethixene, promethazine, terfenadine, tripelennamine and triprolidine. Reasons given for most of them: anticholinergic (muscarinic-blocking) side effects such as confusion, sedation, drowsiness, dizziness, constipation and dry mouth, and poorer thinking. For chlorphenamine, clemastine, dimetindene, diphenhydramine, doxylamine, hydroxyzine and triprolidine the list adds changes on the heart tracing (ECG), in most cases a longer QT interval. For buclizine, cyclizine, meclozine, oxomemazine, pheniramine and pimethixene it adds that benefit is not proven. Terfenadine: a longer QT interval, a fast abnormal heart rhythm, weakness, anxiety and agitation. Ebastine: slower reactions at 50 mg or more, sleepiness, a fast heart rate and tiredness. Advice from the experts: caution with dimenhydrinate in patients with an enlarged prostate; 5 mg a day for dexchlorpheniramine; for hydroxyzine, a dose at least 50% lower than the dose for healthy younger adults. Alternatives the experts suggest: an antihistamine that does not sedate and is not anticholinergic, such as loratadine or cetirizine, but not terfenadine; for sleep, non-drug treatment first; in place of dimenhydrinate, domperidone at less than 30 mg a day if there is no reason against it.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Summary written by the entrant in plain words from 26 rows of the source table. Dose advice that the source marks as taken from Micromedex alone is left out, and the alternatives are shortened. The authors have not reviewed this summary."
+  },
+  "plain_summary": "Older antihistamines that cause drowsiness can bring on confusion, sedation, constipation and dry mouth in an older person, and some can affect the heart rhythm.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antihistamines named in the list",
+      "ingredients": [
+        "promethazine",
+        "dexchlorpheniramine",
+        "doxylamine",
+        "diphenhydramine",
+        "dimenhydrinate",
+        "cyproheptadine",
+        "pheniramine",
+        "alimemazine",
+        "chlorphenamine",
+        "brompheniramine",
+        "triprolidine",
+        "cyclizine",
+        "hydroxyzine",
+        "meclozine",
+        "clemastine",
+        "carbinoxamine",
+        "dimetindene",
+        "tripelennamine",
+        "mequitazine",
+        "oxomemazine",
+        "buclizine",
+        "pimethixene",
+        "aceprometazine",
+        "terfenadine",
+        "ebastine"
+      ],
+      "brands": {
+        "promethazine": [
+          "Phenergan",
+          "Allersoothe",
+          "Avomine",
+          "Fenezal",
+          "Allersoothe Elixir",
+          "Histaren",
+          "Phenergan Elixir",
+          "Progan Children's Allergy Relief Elixir"
+        ],
+        "dexchlorpheniramine": [
+          "Polaramine",
+          "Polaramine Repetab",
+          "Demazin 12 hour Repetab",
+          "Polaramine Syrup",
+          "Polarelief"
+        ],
+        "doxylamine": [
+          "Restavit",
+          "Dozile",
+          "Mersyndol",
+          "Mersyndol Forte",
+          "Dolased",
+          "Fiorinal",
+          "Codalgin Plus",
+          "Panalgesic",
+          "Dozavit",
+          "Restamine",
+          "Chemists' Own Sleep Aid"
+        ],
+        "diphenhydramine": [
+          "Unisom SleepGels",
+          "Unisom Sleepgel",
+          "Snuzaid",
+          "Benadryl Original",
+          "Benadryl Nightime",
+          "Benadryl for the Family Original",
+          "Benadryl for the Family Nightime",
+          "Panadol Night",
+          "Mersynonight",
+          "Paedamin Children's Antihistamine Children's",
+          "Snuzaid Gel",
+          "Snuzaid Tab",
+          "Children's Paedamin Decongestant and Antihistamine",
+          "Codral Dry Cough & Cold with Antihistamine"
+        ],
+        "dimenhydrinate": [
+          "Dramamine",
+          "Travacalm Original"
+        ],
+        "cyproheptadine": [
+          "Periactin"
+        ],
+        "pheniramine": [
+          "Avil",
+          "Avil Retard",
+          "Avil Syrup"
+        ],
+        "alimemazine": [
+          "Vallergan",
+          "Vallergan Forte"
+        ],
+        "chlorphenamine": [
+          "Demazin 6 Hour",
+          "Demazin Original Cold + Flu Relief Day + Night",
+          "Demazin Cold + Flu + Cough Day + Night",
+          "Demazin Cold Relief Syrup",
+          "Codral Day and Night Cold and Flu",
+          "Codral Nightime Cold and Flu",
+          "Logicin Cold and Flu Day/Night",
+          "Panadol Allergy Sinus",
+          "Sinutab Sinus Allergy and Pain Relief"
+        ],
+        "brompheniramine": [
+          "Dimetapp Cold and Allergy",
+          "Dimetapp DM",
+          "Demazin Cough and Cold Relief"
+        ],
+        "triprolidine": [
+          "Codral Original Day and Night Cold and Flu",
+          "Sudafed Sinus plus Allergy and Pain Relief"
+        ],
+        "cyclizine": [
+          "Nausicalm",
+          "Valoid",
+          "Cyclact"
+        ],
+        "hydroxyzine": [],
+        "meclozine": [],
+        "clemastine": [],
+        "carbinoxamine": [],
+        "dimetindene": [],
+        "tripelennamine": [],
+        "mequitazine": [],
+        "oxomemazine": [],
+        "buclizine": [],
+        "pimethixene": [],
+        "aceprometazine": [],
+        "terfenadine": [],
+        "ebastine": []
+      },
+      "note": "Tablets, capsules, liquids taken by mouth and injections count. Eye drops, nose sprays and skin creams do not count, for example Naphcon-A and Visine Allergy eye drops, which hold pheniramine. Chlorphenamine is also written chlorpheniramine. Alimemazine is also written trimeprazine. Mersyndol, Mersyndol Forte, Dolased, Fiorinal, Codalgin Plus and Panalgesic are paracetamol with codeine and doxylamine. Panadol Night and Mersynonight are paracetamol with diphenhydramine. Travacalm Original is dimenhydrinate with hyoscine and caffeine. Mersyndol Daystrength holds no doxylamine and does not count. Many cold and flu products hold chlorphenamine, dexchlorpheniramine, brompheniramine or triprolidine with a decongestant or paracetamol. Only some packs under the Demazin, Dimetapp, Codral, Sudafed, Sinutab and Benadryl names hold one of them, so read the ingredients. In a day and night pack only the night tablets hold the antihistamine. The source also names dexchlorpheniramine with betamethasone as one product. No Australian brand was found for the last thirteen ingredients in the list, from hydroxyzine to ebastine. Not in this group: loratadine, desloratadine, cetirizine, levocetirizine, fexofenadine and bilastine. Generic packs that show the ingredient name with a company name count too. Both named Demazin day and night packs contain chlorphenamine in the night tablets. Demazin Cold + Flu Relief tablets containing only paracetamol and phenylephrine do not count. The short name Demazin Cold and Flu alone does not identify which pack was supplied."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when any Group A medicine (an antihistamine named in the list) is supplied as a tablet, capsule, liquid or injection to a patient aged 65 years or over. If the medicine criteria are otherwise met and age at supply is unknown, report only a possible finding and ask for age confirmation. An age below 65 rules out this finding. One supply is enough, including a combination pack with a Group A ingredient. If a shortened pack name could refer to products with different ingredients, check the exact pack before counting it. If its ingredients remain unclear in an otherwise eligible patient, report a possible finding. Loratadine, cetirizine and fexofenadine do not count, and eye drops, nose sprays and skin creams do not count.",
+  "cannot_be_seen": "Dated observations can identify confusion, drowsiness, falls, constipation or trouble passing urine. Unrecorded symptoms, the reason for use, actual use and antihistamines bought outside the dispensing record may be unknown.",
+  "ask_the_gp": "Whether this antihistamine is still needed at the patient's age, and whether the patient has had any drowsiness, confusion or falls.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

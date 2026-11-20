@@ -1,0 +1,45 @@
+[
+  {
+    "file": "STOPP-H5/pos-fact.csv",
+    "kind": "positive",
+    "about": "Medrol (methylprednisolone tablets) is supplied three times from March to May 2026 for a person with an osteoarthritis line.",
+    "findings": [
+      {
+        "criterion": "STOPP-H5",
+        "must_cite": [
+          [
+            "L018",
+            "L023",
+            "L028"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-H5/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about osteoarthritis. Medrol (methylprednisolone tablets) is supplied three times from March to May 2026.",
+    "findings": [
+      {
+        "criterion": "STOPP-H5",
+        "must_cite": [
+          [
+            "L007",
+            "L011",
+            "L015"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-H5/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Osteoarthritis of the knee is recorded. The only corticosteroid is Depo-Medrol supplied twice, three months apart, for injection into one knee joint, which the criterion excepts.",
+    "findings": []
+  }
+]

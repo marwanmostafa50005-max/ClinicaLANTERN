@@ -1,0 +1,58 @@
+[
+  {
+    "file": "QLDCOAG-14-1/pos-brand.csv",
+    "kind": "positive",
+    "about": "The 5 September observation confirms that no health professional advised the switch from Marevan to Coumadin.",
+    "findings": [
+      {
+        "criterion": "QLDCOAG-14-1",
+        "must_cite": [
+          [
+            "L004",
+            "L008",
+            "L012",
+            "L016",
+            "L020",
+            "L024",
+            "L028",
+            "L032"
+          ],
+          [
+            "L036",
+            "L040"
+          ],
+          [
+            "L035"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "QLDCOAG-14-1/pos-buried.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about whether a health professional advised the change between Coumadin and Marevan.",
+    "findings": [
+      {
+        "criterion": "QLDCOAG-14-1",
+        "must_cite": [
+          [
+            "L038",
+            "L042",
+            "L047",
+            "L051"
+          ],
+          [
+            "L043"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "QLDCOAG-14-1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The GP advised the October switch from Marevan to Coumadin and the patient took the last Marevan dose the day before.",
+    "findings": []
+  }
+]

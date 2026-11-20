@@ -1,0 +1,45 @@
+[
+  {
+    "file": "STOPP-M1/pos-brand.csv",
+    "kind": "positive",
+    "about": "TravaCalm Original is the only anticholinergic product supplied and its one brand-only line identifies both dimenhydrinate and hyoscine hydrobromide.",
+    "findings": [
+      {
+        "criterion": "STOPP-M1",
+        "must_cite": [
+          [
+            "L014"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-M1/pos-buried.csv",
+    "kind": "positive",
+    "about": "Overlapping supplies of oxybutynin (Ditropan) and promethazine (Phenergan) appear in the middle of the history for a 70-year-old patient.",
+    "findings": [
+      {
+        "criterion": "STOPP-M1",
+        "must_cite": [
+          [
+            "L031",
+            "L041",
+            "L047"
+          ],
+          [
+            "L036",
+            "L042",
+            "L052"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-M1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Ditropan and Endep were supplied 22 days apart, but the Endep directions record that oxybutynin stopped on 9 August before amitriptyline began on 11 August.",
+    "findings": []
+  }
+]

@@ -1,0 +1,237 @@
+{
+  "id": "KHAWAGI-G121",
+  "label": "Khawagi review: Review lithium with an oral systemic NSAID at age 65 or older",
+  "family": "KHAWAGI",
+  "title": "Review lithium with an oral systemic NSAID at age 65 or older",
+  "statement": "Review lithium with an oral systemic NSAID at age 65 or older.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Khawagi et al., S3 File, Table 3",
+    "citation": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: a systematic review. PLoS ONE 2019;14(5):e0217406",
+    "doi": "10.1371/journal.pone.0217406.s003",
+    "url": "https://doi.org/10.1371/journal.pone.0217406.s003",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Adapted from Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: a systematic review. PLoS ONE 2019;14(5):e0217406, S3 File, Table 3, https://doi.org/10.1371/journal.pone.0217406.s003. (c) 2019 Khawagi et al., CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Original screening wording and Australian adaptations. S3 reference(s) as indexed in the supplied qualification: [48]. Clinical cross-check: WA lithium guideline §§2.7–2.8 (https://www.wacountry.health.wa.gov.au/~/media/WACHS/Documents/About-us/Policies/Specialised-Medication---Lithium-Guideline.pdf?thn=0). Lithium monitoring around interactions (https://australianprescriber.tg.org.au/articles/lithium-therapy-and-its-interactions.html). Ghent repository (https://biblio.ugent.be/publication/6881776).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "Review lithium with an oral systemic NSAID at age 65 or older.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Lithium",
+      "ingredients": [
+        "lithium carbonate"
+      ],
+      "brands": {
+        "lithium carbonate": [
+          "Lithicarb",
+          "Quilonum SR",
+          "Lithicarb SR",
+          "Lithquil SR",
+          "Lithspen"
+        ]
+      },
+      "note": "Count systemic lithium, including records that say simply lithium, regardless of its indication."
+    },
+    {
+      "key": "B",
+      "name": "Oral systemic NSAIDs",
+      "ingredients": [
+        "aspirin",
+        "celecoxib",
+        "diclofenac",
+        "etoricoxib",
+        "ibuprofen",
+        "indometacin",
+        "ketorolac",
+        "mefenamic acid",
+        "meloxicam",
+        "naproxen",
+        "piroxicam",
+        "ketoprofen"
+      ],
+      "brands": {
+        "aspirin": [
+          "Aspro",
+          "Aspro Clear",
+          "Disprin",
+          "Solprin",
+          "Alka-Seltzer",
+          "Aspirin (Amcal)",
+          "Aspirin (Bayer)",
+          "Aspirin (Black & Gold)",
+          "Aspirin (Chemmart)",
+          "Aspirin (Coles)",
+          "Aspirin (Dbl)",
+          "Aspirin (Guardian)",
+          "Aspirin (Mayne Pharma)",
+          "Aspirin (Pharmacy Choice)"
+        ],
+        "celecoxib": [
+          "Celebrex",
+          "Anacoxib",
+          "Celaxib",
+          "Celebrex Relief",
+          "Celetoid",
+          "Celexi",
+          "Celocox",
+          "Kudeq"
+        ],
+        "diclofenac": [
+          "Voltaren 25",
+          "Voltaren",
+          "Voltaren Rapid",
+          "Fenac",
+          "Fenac EC",
+          "Diclohexal",
+          "Clonac",
+          "Dinac"
+        ],
+        "etoricoxib": [
+          "Arcoxia"
+        ],
+        "ibuprofen": [
+          "Brufen",
+          "Act-3",
+          "Advil",
+          "Advil 12 Hour",
+          "Advil Childrens Pain and Fever 2 to 7 Years",
+          "Advil Childrens Pain and Fever 7 to 12 Years",
+          "Advil Childrens Pain and Fever Relief 2 to 12 Years",
+          "Advil Double Strength",
+          "Advil Double Strength Caplets",
+          "Advil Double Strength Liquid Capsules",
+          "Advil Infants Pain and Fever Relief 3 Months to 2 Years",
+          "Advil Mini Caps",
+          "Advil Rapid Release",
+          "Brufen Pain",
+          "Brufen Syrup",
+          "Bugesic",
+          "Butafen",
+          "Butalgin",
+          "Fenpaed",
+          "Fenpaed Double Strength",
+          "Iprofen",
+          "Nurofen Back Pain",
+          "Nurofen Caplet",
+          "Nurofen Double Strength",
+          "Nurofen Liquid Capsule",
+          "Nurofen Meltlets",
+          "Nurofen Migraine Pain",
+          "Nurofen Period Pain",
+          "Nurofen Quickzorb",
+          "Nurofen Regular",
+          "Nurofen Tension Headache",
+          "Nurofen Zavance",
+          "Nurofen Zavance Liquid Capsules",
+          "Nurofen for Children 1 to 5 Years",
+          "Nurofen for Children 3 Months to 5 Years",
+          "Nurofen for Children 5 to 12 Years",
+          "Nurofen for Children 7+ Years",
+          "Nurofen for Children Baby 3+ Months",
+          "Nurofen for Children Infant Drops",
+          "Nurofen for Children Meltlet",
+          "Panafen IB",
+          "Panafen IB Mini Cap",
+          "Proven",
+          "Rafen",
+          "Tri-Profen",
+          "Nuromol",
+          "Maxigesic",
+          "Nurofen Plus",
+          "Mersynofen"
+        ],
+        "indometacin": [
+          "Indocid",
+          "Arthrexin"
+        ],
+        "ketorolac": [
+          "Toradol",
+          "Ketoral"
+        ],
+        "mefenamic acid": [
+          "Ponstan",
+          "Femin",
+          "Mefic",
+          "Menamic"
+        ],
+        "meloxicam": [
+          "Mobic",
+          "Agilocam",
+          "Melobic",
+          "Melox",
+          "Meloxiauro",
+          "Meloxibell",
+          "Meloxibindo",
+          "Mobelox",
+          "Movalis",
+          "Moxicam"
+        ],
+        "naproxen": [
+          "Naprosyn",
+          "Aleve",
+          "Aleve 24 Hour",
+          "Anaprox",
+          "Crysanal",
+          "Femme-Free",
+          "Inza",
+          "Naprofem",
+          "Naprogesic",
+          "Naprosyn SR",
+          "Naprosyn SR 1000",
+          "Nurolasts Period Pain",
+          "Proxen",
+          "Proxen SR",
+          "Vimovo"
+        ],
+        "piroxicam": [
+          "Feldene-D",
+          "Candyl",
+          "Candyl-D",
+          "Mobilis",
+          "Mobilis D",
+          "Pirohexal-D"
+        ],
+        "ketoprofen": [
+          "Orudis",
+          "Orudis SR",
+          "Oruvail",
+          "Oruvail SR"
+        ]
+      },
+      "note": "Count a systemic oral formulation, including an ingredient in a combination product. For aspirin, require a known oral route and documented anti-inflammatory use. Exclude low-dose antiplatelet aspirin and local preparations. Use quantities and directions to establish overlap with lithium. Exclude injections, suppositories and documented low-dose antiplatelet aspirin, including Cartia, Astrix or Cardiprin taken for that purpose. For a name used on several forms, check that the supply was oral."
+    }
+  ],
+  "rule_for_models": "At age 65 or older, cite both supplies and any qualifying fact when systemic lithium for any indication overlaps with a Group B oral NSAID, excluding confirmed non-overlap, local preparations and low-dose antiplatelet aspirin. If use could qualify but age, overlap under unclear or as-needed directions, or aspirin dose or purpose is uncertain, report only a possible finding and ask about the missing details, daily oral anti-inflammatory use including over-the-counter products, and new tremor, vomiting or unsteadiness. When an oral NSAID is started during lithium treatment, keep the interaction finding, include any dose adjustment or individual monitoring plan, and cite any serum lithium result around day 5 to 7 or ask when monitoring was checked or planned if the record gives no monitoring evidence.",
+  "cannot_be_seen": "Dispensing does not establish actual use, indication or a prescriber’s intent. Treatment and assessments elsewhere may be missing.",
+  "ask_the_gp": "Could you review concurrent lithium and oral NSAID use, whether another option for pain relief is suitable, and the plan for lithium levels and kidney function?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Reason for taking oral aspirin",
+      "meets": "Apply only to the aspirin branch. Count documented oral anti-inflammatory use. Exclude aspirin taken only for low-dose antiplatelet treatment or another confirmed use without an anti-inflammatory dose. Keep any separate qualifying oral NSAID in the review. If purpose or dose is unclear and anti-inflammatory use is plausible, report only a possible finding and ask why and how much the person takes.",
+      "options": [
+        {
+          "words": "For inflammation at an anti-inflammatory dose",
+          "effect": "meets"
+        },
+        {
+          "words": "Low dose to prevent blood clots",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Another confirmed use without an anti-inflammatory dose",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

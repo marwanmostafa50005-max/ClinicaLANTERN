@@ -1,0 +1,41 @@
+[
+  {
+    "file": "FDADSC-1/pos-fact.csv",
+    "kind": "positive",
+    "about": "Prolia 60 mg is supplied after a dated stage 4 CKD condition with eGFR 24 mL/min/1.73 m², so the finding cites both lines.",
+    "findings": [
+      {
+        "criterion": "FDADSC-1",
+        "must_cite": [
+          [
+            "L027"
+          ],
+          [
+            "L025"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "FDADSC-1/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about Advanced chronic kidney disease or dialysis, and Jubbonti 60 mg is supplied.",
+    "findings": [
+      {
+        "criterion": "FDADSC-1",
+        "must_cite": [
+          [
+            "L019"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "FDADSC-1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Prolia 60 mg is supplied, but the dated condition shows eGFR 68 mL/min/1.73 m² and no dialysis, so advanced kidney disease does not meet the rule.",
+    "findings": []
+  }
+]

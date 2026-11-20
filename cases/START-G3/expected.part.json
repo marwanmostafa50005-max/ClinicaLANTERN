@@ -1,0 +1,39 @@
+[
+  {
+    "file": "START-G3/pos-fact.csv",
+    "kind": "positive",
+    "about": "Low resting room-air readings recur on two dates while stable, and the respiratory service records home oxygen only for exertion.",
+    "findings": [
+      {
+        "criterion": "START-G3",
+        "must_cite": [
+          [
+            "L017",
+            "L018"
+          ],
+          [
+            "L023"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-G3/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Results show low blood oxygen, and oxygen is supplied every month from the day after the result to the end of the record, so nothing is missing.",
+    "findings": []
+  },
+  {
+    "file": "START-G3/near-miss-external-oxygen.csv",
+    "kind": "near_miss",
+    "about": "Resting room-air oxygen readings are low, and the respiratory service documents current long-term home oxygen for at least 15 hours daily.",
+    "findings": []
+  },
+  {
+    "file": "START-G3/near-miss-acute-illness.csv",
+    "kind": "near_miss",
+    "about": "The low saturation was measured during pneumonia, and resting room-air saturation was 96 percent after recovery.",
+    "findings": []
+  }
+]

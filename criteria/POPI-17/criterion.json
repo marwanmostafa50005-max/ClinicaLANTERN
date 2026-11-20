@@ -1,0 +1,52 @@
+{
+  "id": "POPI-17",
+  "label": "POPI: an injection vial directed by mouth or tube",
+  "family": "POPI",
+  "title": "An intravenous proton pump inhibitor directed by mouth or feeding tube in a child",
+  "statement": "Oral administration of an intravenous proton pump inhibitor (notably by nasogastric tube)",
+  "statement_origin": "published",
+  "source": {
+    "document": "International consensus validation of the POPI tool (Pediatrics: Omission of Prescriptions and Inappropriate prescriptions) to identify inappropriate prescribing in pediatrics",
+    "citation": "Sadozai L, Sable S, Le Roux E, et al. International consensus validation of the POPI tool (Pediatrics: Omission of Prescriptions and Inappropriate prescriptions) to identify inappropriate prescribing in pediatrics. PLOS ONE. 2020;15(10):e0240105.",
+    "doi": "10.1371/journal.pone.0240105",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0240105",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "© 2020 Sadozai et al. Table 2, International consensus validation of the POPI tool. PLOS ONE 15(10), e0240105. https://doi.org/10.1371/journal.pone.0240105. CC BY 4.0.",
+    "modification_notice": "The published item is reproduced unchanged. The summary, screening rule, medicine examples and fictional histories were added for pharmacist review."
+  },
+  "plain_summary": "A child has a proton pump inhibitor made for injection with instructions to give it by mouth or through a feeding tube.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Intravenous proton pump inhibitor formulations",
+      "ingredients": [
+        "pantoprazole",
+        "esomeprazole",
+        "omeprazole"
+      ],
+      "brands": {
+        "pantoprazole": [
+          "Pantoprazole Medicianz",
+          "Somac",
+          "Somac Injection",
+          "Somac IV"
+        ],
+        "esomeprazole": [
+          "Nexium IV",
+          "Esomeprazole AN"
+        ],
+        "omeprazole": [
+          "Omeprazole Sandoz IV"
+        ]
+      },
+      "note": "Check the product form on the same supply. Oral granules and tablets fall outside this group."
+    }
+  ],
+  "rule_for_models": "Consider only a Group A intravenous proton pump inhibitor whose supply directions explicitly say to give it by mouth or through an enteral tube. Cite the supply and the indication evidence when the patient was under 18 on the supply date and the record links that supply to nausea, vomiting or gastro-oesophageal reflux. If everything else fits and age or indication is missing, report a possible finding. Ask for age on the supply date if needed. For an unclear indication, ask about 'Treatment of nausea, vomiting or reflux with this supply'. Yes confirms the indication, No excludes it and Not known leaves it open.",
+  "cannot_be_seen": "The label shows the intended route. Actual administration and any correction made after dispensing may be missing.",
+  "ask_the_gp": "Could you confirm the formulation and intended route for this child's proton pump inhibitor?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

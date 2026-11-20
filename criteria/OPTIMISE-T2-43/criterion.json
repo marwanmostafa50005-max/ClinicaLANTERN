@@ -1,0 +1,96 @@
+{
+  "id": "OPTIMISE-T2-43",
+  "label": "OPTIMISE T2-43: olanzapine after stopping smoking",
+  "family": "OPTIMISE",
+  "title": "Olanzapine when a person stops smoking",
+  "statement": "Consider a dose reduction by up to 20% in patients taking olanzapine who stop smoking abruptly. Carefully monitor for adverse effects of olanzapine and destabilisation of mental illness",
+  "statement_origin": "published",
+  "source": {
+    "document": "Carolan A, et al. OPTIMISE. BMC Psychiatry 2022;22:585, Tables 2-3",
+    "citation": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Stopping smoking can raise olanzapine blood levels, so the dose may need to be reduced and the person watched for side effects.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Olanzapine",
+      "ingredients": [
+        "olanzapine"
+      ],
+      "brands": {
+        "olanzapine": [
+          "Zyprexa",
+          "Zyprexa Zydis",
+          "Zyprexa Relprevv",
+          "Aprolan",
+          "Aprolan ODT",
+          "Lanez",
+          "Lanez ODT",
+          "Lanzek",
+          "Lanzek Zydis",
+          "Lonza",
+          "Lonza ODT",
+          "Lyprosia",
+          "Lyprosia ODT",
+          "Olancor",
+          "Olanza",
+          "Olanzaccord",
+          "Olanzacor",
+          "Oprexa",
+          "Ozin",
+          "Ozin ODT",
+          "Prolanza",
+          "Prolanza ODT",
+          "Pryzex",
+          "Pryzex ODT",
+          "Tolaze ODT",
+          "Tolazine ODT",
+          "Torapine ODT",
+          "Torrenia ODT",
+          "Zylap",
+          "Zylap ODT",
+          "Zylapine",
+          "Zylapine ODT",
+          "Zypine",
+          "Zypine ODT"
+        ]
+      },
+      "note": "Tablets, wafers and depot injections count. For a depot, use the recorded injection date and prescribed interval to establish exposure when smoking stopped. If only a supply is recorded, ask when the injection was given and report exposure as unconfirmed."
+    }
+  ],
+  "rule_for_models": "Seek prompt review of dose, adverse effects and mental state when a recent abrupt smoking stop occurs during Group A olanzapine treatment. Cite the actual quit date and the evidence of exposure then, without waiting for a refill. Apply this criterion to adults aged 18 or over. If age is missing and the other evidence still supports review, report only a possible finding and ask the pharmacist to confirm age. A short-acting injection alone does not establish ongoing olanzapine exposure on another date. For oral treatment use dated supplies, quantity and directions. If a stop is reported but unclear oral directions leave exposure uncertain, report only a possible finding and ask for the daily dose and whether it was taken on the quit date. If exposure is already established, proceed with review and clarify the dose. Use any documented review and monitoring, and ask about outstanding checks even if the dose fell. If the quit pattern, date or exposure is unclear, keep the finding possible and ask for confirmation. A shared Smoking status answer does not give a quit date or prove exposure to this medicine. If the answer is Not known, keep an otherwise eligible finding possible. If smoking status is missing, report a possible finding and ask about Smoking status. There is no finding for continued smoking or a remote stop. The pharmacist decides borderline timing using the actual quit date, exposure and any outstanding review.",
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Smoking status",
+      "meets": "A recent abrupt stop prompts review. Check the actual quit date against exposure to each medicine separately. If the date or exposure is unclear, the finding stays possible.",
+      "options": [
+        {
+          "words": "Stopped smoking abruptly recently during this treatment",
+          "effect": "meets"
+        },
+        {
+          "words": "Continues to smoke",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Never smoked or stopped a long time ago",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "cannot_be_seen": "Whether the person stopped smoking suddenly, whether the dose was changed outside the pharmacy, and any side effects or change in mental state.",
+  "ask_the_gp": "If an abrupt smoking stop during olanzapine treatment is confirmed, could we review the dose, adverse effects and mental state, including any checks still outstanding?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

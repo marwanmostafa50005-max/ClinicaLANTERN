@@ -1,0 +1,61 @@
+[
+  {
+    "file": "START-C2/pos-fact.csv",
+    "kind": "positive",
+    "about": "Coronary artery disease is recorded at L001, the temporary antiplatelet hold ended at L046 and the patient reports only occasional aspirin for headache at L052.",
+    "findings": [
+      {
+        "criterion": "START-C2",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L046"
+          ],
+          [
+            "L052"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-C2/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about History of coronary artery disease, ischaemic stroke, transient ischaemic attack, atherosclerotic cerebrovascular disease or peripheral artery disease. Imdur (isosorbide mononitrate) and Nitrolingual Pumpspray (glyceryl trinitrate), medicines for angina, are supplied (L001, L004 and later lines) and no antiplatelet is supplied.",
+    "findings": [
+      {
+        "criterion": "START-C2",
+        "must_cite": [
+          [
+            "L001",
+            "L004",
+            "L005",
+            "L008",
+            "L011",
+            "L014",
+            "L015",
+            "L019",
+            "L022",
+            "L025",
+            "L028",
+            "L029"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-C2/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Clopidogrel was last supplied in March. The patient confirms taking non-prescription aspirin 100 mg daily for coronary artery disease, so there is no antiplatelet omission.",
+    "findings": []
+  },
+  {
+    "file": "START-C2/near-miss-bleeding.csv",
+    "kind": "near_miss",
+    "about": "Coronary artery disease is recorded and no antiplatelet is supplied. The current hospital plan is to withhold all antiplatelets during active gastrointestinal bleeding.",
+    "findings": []
+  }
+]

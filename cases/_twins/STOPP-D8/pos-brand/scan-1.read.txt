@@ -1,0 +1,22 @@
+2026-01-08 | Micardis (telmisartan) 40 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily | Dr B. Sample
+2026-01-08 | Nexium (esomeprazole) 20 mg enteric coated tablet | qty 30 | repeats 2 | Take ONE tablet daily | Dr B. Sample
+2026-02-05 | Micardis (telmisartan) 40 mg tablet | qty 28 | repeats 4 | Take ONE tablet daily | Dr B. Sample
+2026-02-07 | Nexium (esomeprazole) 20 mg enteric coated tablet | qty 30 | repeats 1 | Take ONE tablet daily | Dr B. Sample
+2026-02-19 | Temaze 10 mg tablet | qty 25 | repeats 0 | Take ONE tablet at night | Dr B. Sample
+2026-03-05 | Micardis (telmisartan) 40 mg tablet | qty 28 | repeats 3 | Take ONE tablet daily | Dr B. Sample
+2026-03-05 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr B. Sample
+2026-03-09 | Nexium (esomeprazole) 20 mg enteric coated tablet | qty 30 | repeats 0 | Take ONE tablet daily | Dr B. Sample
+2026-03-19 | Temaze 10 mg tablet | qty 25 | repeats 0 | Take ONE tablet at night | Dr B. Sample
+2026-04-02 | Micardis (telmisartan) 40 mg tablet | qty 28 | repeats 2 | Take ONE tablet daily | Dr B. Sample
+2026-04-08 | Nexium (esomeprazole) 20 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily | Dr B. Sample
+2026-04-16 | Temaze 10 mg tablet | qty 25 | repeats 0 | Take ONE tablet at night | Dr B. Sample
+2026-04-30 | Micardis (telmisartan) 40 mg tablet | qty 28 | repeats 1 | Take ONE tablet daily | Dr B. Sample
+2026-05-08 | Nexium (esomeprazole) 20 mg enteric coated tablet | qty 30 | repeats 4 | Take ONE tablet daily | Dr B. Sample
+2026-05-14 | Temaze 10 mg tablet | qty 25 | repeats 0 | Take ONE tablet at night | Dr B. Sample
+2026-05-21 | Amoxil (amoxicillin) 500 mg capsule | qty 20 | repeats 0 | Take ONE capsule three times a day until finished | Dr E. Sample
+2026-05-28 | Micardis (telmisartan) 40 mg tablet | qty 28 | repeats 0 | Take ONE tablet daily | Dr B. Sample
+2026-06-07 | Nexium (esomeprazole) 20 mg enteric coated tablet | qty 30 | repeats 3 | Take ONE tablet daily | Dr B. Sample
+2026-06-11 | Temaze 10 mg tablet | qty 25 | repeats 0 | Take ONE tablet at night | Dr B. Sample
+2026-06-25 | Micardis (telmisartan) 40 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily | Dr B. Sample
+2026-07-07 | Nexium (esomeprazole) 20 mg enteric coated tablet | qty 30 | repeats 2 | Take ONE tablet daily | Dr B. Sample
+2026-07-09 | Temaze 10 mg tablet | qty 25 | repeats 0 | Take ONE tablet at night | Dr B. Sample

@@ -1,0 +1,59 @@
+[
+  {
+    "file": "STOPP-D17/pos-fact.csv",
+    "kind": "positive",
+    "about": "Donepezil (Aricept) is supplied every month from July 2025 to April 2026 and the record holds a heart block line.",
+    "findings": [
+      {
+        "criterion": "STOPP-D17",
+        "must_cite": [
+          [
+            "L003",
+            "L008",
+            "L013",
+            "L018",
+            "L023",
+            "L028",
+            "L033",
+            "L038",
+            "L043",
+            "L047",
+            "L052"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-D17/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: donepezil is supplied and the record has no line about History of heart block of any degree, History of recurrent unexplained fainting, History of a heart rate persistently below 60 beats per minute or Heart rate relevant to the history of persistent bradycardia.",
+    "findings": [
+      {
+        "criterion": "STOPP-D17",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L009",
+            "L013",
+            "L017",
+            "L021",
+            "L025",
+            "L029",
+            "L033"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-D17/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The history review excludes all three qualifying histories during and before the donepezil course.",
+    "findings": []
+  }
+]

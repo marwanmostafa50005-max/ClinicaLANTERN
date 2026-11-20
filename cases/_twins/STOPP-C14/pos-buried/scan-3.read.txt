@@ -1,0 +1,22 @@
+2026-04-17 | Xarelto (rivaroxaban) 20 mg tablet | qty 28 | repeats 4 | Take ONE tablet daily with food | Dr A. Example
+2026-04-17 | Micardis (telmisartan) 40 mg tablet | qty 28 | repeats 1 | Take ONE tablet daily | Dr A. Example
+2026-04-17 | Crestor (rosuvastatin) 20 mg tablet | qty 30 | repeats 5 | Take ONE tablet daily | Dr A. Example
+2026-04-17 | Flomaxtra (tamsulosin) 400 microgram modified release tablet | qty 30 | repeats 3 | Take ONE tablet daily | Dr A. Example
+2026-05-15 | Xarelto (rivaroxaban) 20 mg tablet | qty 28 | repeats 3 | Take ONE tablet daily with food | Dr A. Example
+2026-05-15 | Micardis (telmisartan) 40 mg tablet | qty 28 | repeats 0 | Take ONE tablet daily | Dr A. Example
+2026-05-15 | Crestor (rosuvastatin) 20 mg tablet | qty 30 | repeats 4 | Take ONE tablet daily | Dr A. Example
+2026-05-15 | Flomaxtra (tamsulosin) 400 microgram modified release tablet | qty 30 | repeats 2 | Take ONE tablet daily | Dr A. Example
+2026-05-27 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 1 | Take TWO tablets three times a day | Dr A. Example
+2026-06-12 | Xarelto (rivaroxaban) 20 mg tablet | qty 28 | repeats 2 | Take ONE tablet daily with food | Dr A. Example
+2026-06-12 | Micardis (telmisartan) 40 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily | Dr A. Example
+2026-06-12 | Crestor (rosuvastatin) 20 mg tablet | qty 30 | repeats 3 | Take ONE tablet daily | Dr A. Example
+2026-06-12 | Flomaxtra (tamsulosin) 400 microgram modified release tablet | qty 30 | repeats 1 | Take ONE tablet daily | Dr A. Example
+2026-07-10 | Xarelto (rivaroxaban) 20 mg tablet | qty 28 | repeats 1 | Take ONE tablet daily with food | Dr A. Example
+2026-07-10 | Micardis (telmisartan) 40 mg tablet | qty 28 | repeats 4 | Take ONE tablet daily | Dr A. Example
+2026-07-10 | Crestor (rosuvastatin) 20 mg tablet | qty 30 | repeats 2 | Take ONE tablet daily | Dr A. Example
+2026-07-10 | Flomaxtra (tamsulosin) 400 microgram modified release tablet | qty 30 | repeats 0 | Take ONE tablet daily | Dr A. Example
+2026-08-07 | Xarelto (rivaroxaban) 20 mg tablet | qty 28 | repeats 0 | Take ONE tablet daily with food | Dr A. Example
+2026-08-07 | Micardis (telmisartan) 40 mg tablet | qty 28 | repeats 3 | Take ONE tablet daily | Dr A. Example
+2026-08-07 | Crestor (rosuvastatin) 20 mg tablet | qty 30 | repeats 1 | Take ONE tablet daily | Dr A. Example
+2026-08-07 | Flomaxtra (tamsulosin) 400 microgram modified release tablet | qty 30 | repeats 5 | Take ONE tablet daily | Dr A. Example
+2026-09-04 | Xarelto (rivaroxaban) 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr A. Example

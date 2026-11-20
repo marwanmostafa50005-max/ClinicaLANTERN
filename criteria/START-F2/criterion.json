@@ -1,0 +1,200 @@
+{
+  "id": "START-F2",
+  "label": "START F2",
+  "family": "STOPP_START",
+  "title": "Proton pump inhibitor when low-dose aspirin is started after an ulcer or oesophagitis",
+  "statement": "Proton pump inhibitor with initiation of low-dose aspirin and previous history of peptic ulcer or reflux oesophagitis.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Starting low-dose aspirin in a person who has had a stomach ulcer or inflamed gullet raises the risk of bleeding, so a proton pump inhibitor should protect the stomach.",
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Previous peptic ulcer or reflux oesophagitis on or before the low-dose aspirin start",
+      "meets": "Either condition occurred on or before the low-dose aspirin start, even if it healed or was documented later. Confirmation of either or both meets this requirement. If neither had occurred or the first episode began after the start, there is no finding. If the history or its timing is unknown, it remains unresolved.",
+      "options": [
+        {
+          "words": "Peptic ulcer by the time low-dose aspirin started",
+          "effect": "meets"
+        },
+        {
+          "words": "Reflux oesophagitis by the time low-dose aspirin started",
+          "effect": "meets"
+        },
+        {
+          "words": "Both conditions by the time low-dose aspirin started",
+          "effect": "meets"
+        },
+        {
+          "words": "At least one condition was present by then, but the diagnosis is unclear",
+          "effect": "meets"
+        },
+        {
+          "words": "Neither condition by the time low-dose aspirin started",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Proton pump inhibitors (medicines that meet this criterion)",
+      "ingredients": [
+        "esomeprazole",
+        "lansoprazole",
+        "omeprazole",
+        "pantoprazole",
+        "rabeprazole"
+      ],
+      "brands": {
+        "esomeprazole": [
+          "Nexium",
+          "Nexium Hp7",
+          "Vimovo",
+          "Axagon",
+          "Beezole",
+          "Emeprazol",
+          "Esopran",
+          "Esopreze",
+          "Guardium Acid Reflux Relief",
+          "Jubeso",
+          "Jubium",
+          "Mepreze",
+          "Nexazole",
+          "Nexcid",
+          "Nexium 24HR Once Daily Dosing",
+          "Nexole",
+          "Nexprazole",
+          "Noxicid",
+          "Noxicid Caps Heartburn Relief",
+          "Noxicid Tabs Heartburn Relief",
+          "Zanzole 24HR"
+        ],
+        "lansoprazole": [
+          "Zoton",
+          "Zoton FasTab",
+          "Lanzopran",
+          "Zopral",
+          "Zopral ODT"
+        ],
+        "omeprazole": [
+          "Losec",
+          "Acimax",
+          "Probitor",
+          "Maxor",
+          "Maxor EC",
+          "Maxor Heartburn Relief",
+          "Meprazol",
+          "Omepral",
+          "Omepro",
+          "Omezole",
+          "Ozmep",
+          "Pemzo"
+        ],
+        "pantoprazole": [
+          "Somac",
+          "Gastenz",
+          "Ozpan",
+          "Pantaccord",
+          "Panthron",
+          "Panto",
+          "Pantofast",
+          "Pantoloc",
+          "Prazole",
+          "Rizil",
+          "Salpraz",
+          "Salpraz Heartburn Relief",
+          "Somac Heartburn Relief",
+          "Sozol",
+          "Suvacid Heartburn Relief",
+          "Topra",
+          "Torprazole",
+          "Torzole"
+        ],
+        "rabeprazole": [
+          "Pariet",
+          "Parbezol",
+          "Parzol",
+          "Perizel DR",
+          "Prabez",
+          "Rabzole",
+          "Razit",
+          "Zabep"
+        ]
+      },
+      "note": "Tablets, capsules and granules count. Nexium Hp7 is esomeprazole with two antibiotics. Vimovo is naproxen with esomeprazole. Acimax contains omeprazole as omeprazole magnesium. Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "B",
+      "name": "Low-dose aspirin (the medicine whose start raises the check)",
+      "ingredients": [
+        "aspirin",
+        "clopidogrel with aspirin"
+      ],
+      "brands": {
+        "aspirin": [
+          "Astrix",
+          "Cartia",
+          "Cardiprin",
+          "Aspro",
+          "Aspro Clear",
+          "Aspro Clear Extra Strength",
+          "Aspro Protect",
+          "Cardasa",
+          "Disprin Direct",
+          "Disprin Extra Strength",
+          "Disprin Max",
+          "Disprin Original",
+          "Disprin Regular",
+          "Ecotrin",
+          "Princard",
+          "Solprin",
+          "Spren"
+        ],
+        "clopidogrel with aspirin": [
+          "CoPlavix",
+          "DuoCover"
+        ]
+      },
+      "note": "Only low doses count: 150 mg a day or less, for example one 100 mg tablet or capsule a day. Aspirin 300 mg tablets for pain do not count. Generic packs that show the ingredient name with a company name count too. CoPlavix and DuoCover each contain 100 mg of aspirin per tablet. Count the aspirin component using the directions."
+    },
+    {
+      "key": "C",
+      "name": "Medicines that imply the condition",
+      "ingredients": [
+        "sucralfate",
+        "esomeprazole with amoxicillin and clarithromycin"
+      ],
+      "brands": {
+        "sucralfate": [
+          "Ulcyte",
+          "Carafate"
+        ],
+        "esomeprazole with amoxicillin and clarithromycin": [
+          "Nexium Hp7"
+        ]
+      },
+      "note": "Sucralfate is used for ulcers. Nexium Hp7 is a one-week Helicobacter pylori treatment pack, given mostly for an ulcer. Either one suggests a past ulcer but does not prove it."
+    }
+  ],
+  "rule_for_models": "Apply this check only to a person aged 65 or over. If age is unknown, establish eligibility before reporting an omission. Make no finding when the record documents a contraindication to the proposed treatment, another valid clinical reason for omitting it, or end-of-life care with a palliative focus. Check the first recorded low-dose aspirin supply in the last six months counted back from the latest date in the record, when there is no earlier low-dose aspirin supply. An earlier aspirin supply for pain or at more than 150 mg a day does not rule out a new low-dose start. Work out the daily aspirin dose from strength, amount per dose and frequency, including any fraction of a tablet. A brand alone does not establish a low dose. Exclude aspirin used for pain and doses above 150 mg a day. Check whether a Group A proton pump inhibitor covered the aspirin start, using the dates, quantity and directions. Disregard courses known to have ended beforehand. Ask about previous peptic ulcer or reflux oesophagitis only at a qualifying start of low-dose aspirin (Group B) when proton pump inhibitor cover is absent or uncertain and the history is not recorded. Once the history is known, do not ask again. The answer alone does not establish an eligible dose, a new start or lack of cover. Make no finding for documented cover, a negative history or a first episode known to have begun only after aspirin started. For a supported omission, cite the low-dose aspirin start without recorded cover and evidence that a peptic ulcer or reflux oesophagitis occurred on or before that date. A later note or the pharmacist can confirm earlier disease, even if it healed. If disease is recorded but its timing is uncertain, report only a possible finding and ask whether it began on or before the aspirin start. If the history is missing or unknown at an otherwise qualifying low-dose aspirin start without established PPI cover, report only a possible finding. Ask for the missing fact named Previous peptic ulcer or reflux oesophagitis on or before the low-dose aspirin start. The question does not require an earlier Group C supply. If the history or an earlier Group C supply otherwise supports review, report only a possible finding when an earlier aspirin supply has unclear dose or directions. Ask whether low-dose aspirin was already underway. If directions leave the new aspirin dose or cover unclear, report only a possible finding when the history or an earlier Group C supply otherwise supports review. Ask how much aspirin is taken each day and whether a proton pump inhibitor covered the start. For each finding, cite the aspirin start, any line confirming that the patient had either condition on or before the start and any earlier supply of a Group C medicine.",
+  "cannot_be_seen": "Whether aspirin is really new for this person, because earlier supplies by another pharmacy or bought over the counter are not shown. The date the ulcer or oesophagitis began or healed may be missing. The record may not show whether a proton pump inhibitor was stopped for a reason.",
+  "ask_the_gp": "Whether a proton pump inhibitor should be given while low-dose aspirin continues, given the past ulcer or oesophagitis.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

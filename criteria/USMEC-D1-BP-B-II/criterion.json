@@ -1,0 +1,159 @@
+{
+  "id": "USMEC-D1-BP-B-II",
+  "label": "USMEC: combined pill with persistently high blood pressure",
+  "family": "USMEC",
+  "title": "Combined pill with persistently high blood pressure",
+  "statement": "ii. Systolic ≥160 mm Hg or diastolic ≥100 mm Hg",
+  "statement_origin": "published",
+  "source": {
+    "document": "U.S. Medical Eligibility Criteria for Contraceptive Use, 2024. Appendix D, Table D1",
+    "citation": "Nguyen AT, Curtis KM, Tepper NK, et al. U.S. Medical Eligibility Criteria for Contraceptive Use, 2024. MMWR Recomm Rep 2024;73(No. RR-4):1–126. doi:10.15585/mmwr.rr7304a1.",
+    "doi": "10.15585/mmwr.rr7304a1",
+    "url": "https://www.cdc.gov/mmwr/volumes/73/rr/rr7304a1_appendix.htm#TD1_down",
+    "licence": "Public domain",
+    "licence_status": "proposed",
+    "credit": "Nguyen AT, Curtis KM, Tepper NK, et al. U.S. Medical Eligibility Criteria for Contraceptive Use, 2024. MMWR Recomm Rep 2024;73(No. RR-4):1–126. doi:10.15585/mmwr.rr7304a1.",
+    "modification_notice": "The table row is reproduced unchanged. This draft applies the combined hormonal contraceptive column to combined oral pills."
+  },
+  "plain_summary": "The U.S. criteria classify combined pill use as an unacceptable risk when repeated blood pressure measurements show systolic pressure of at least 160 mm Hg or diastolic pressure of at least 100 mm Hg.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Combined oral contraceptive pills",
+      "ingredients": [
+        "ethinylestradiol with levonorgestrel",
+        "ethinylestradiol with norethisterone",
+        "ethinylestradiol with drospirenone",
+        "ethinylestradiol with desogestrel",
+        "ethinylestradiol with gestodene",
+        "ethinylestradiol with dienogest",
+        "estradiol valerate with dienogest",
+        "estetrol with drospirenone",
+        "drospirenone + estetrol",
+        "desogestrel + ethinylestradiol",
+        "dienogest + ethinylestradiol",
+        "drospirenone + ethinylestradiol",
+        "ethinylestradiol + gestodene",
+        "ethinylestradiol + levonorgestrel",
+        "ethinylestradiol + norethisterone",
+        "ethinylestradiol with cyproterone acetate"
+      ],
+      "brands": {
+        "ethinylestradiol with levonorgestrel": [
+          "Lenest 30 ED",
+          "Levlen ED",
+          "Microgynon 30 ED",
+          "Microgynon 20 ED",
+          "Evelyn 150/30 ED",
+          "Eleanor 150/30 ED",
+          "Femme-Tab ED 20/100",
+          "Femme-Tab ED 30/150",
+          "Monofeme",
+          "Nordette",
+          "Loette",
+          "Microlevlen ED",
+          "Seasonique"
+        ],
+        "ethinylestradiol with norethisterone": [
+          "Norimin",
+          "Norimin-1",
+          "Brevinor",
+          "Brevinor-1",
+          "Synphasic"
+        ],
+        "ethinylestradiol with drospirenone": [
+          "Yaz",
+          "Yasmin",
+          "Yaz Flex",
+          "Isabelle",
+          "Petibelle"
+        ],
+        "ethinylestradiol with desogestrel": [
+          "Marvelon",
+          "Marvelon 28"
+        ],
+        "ethinylestradiol with gestodene": [
+          "Minulet",
+          "Femoden ED"
+        ],
+        "ethinylestradiol with dienogest": [
+          "Valette"
+        ],
+        "estradiol valerate with dienogest": [
+          "Qlaira"
+        ],
+        "estetrol with drospirenone": [
+          "Nextstellis"
+        ],
+        "drospirenone + estetrol": [
+          "Nextstellis"
+        ],
+        "desogestrel + ethinylestradiol": [
+          "Marvelon",
+          "Marvelon 28"
+        ],
+        "dienogest + ethinylestradiol": [
+          "Valette"
+        ],
+        "drospirenone + ethinylestradiol": [
+          "Yaz",
+          "Yasmin",
+          "Yaz Flex",
+          "Isabelle",
+          "Petibelle"
+        ],
+        "ethinylestradiol + gestodene": [
+          "Minulet",
+          "Femoden ED"
+        ],
+        "ethinylestradiol + levonorgestrel": [
+          "Lenest 30 ED",
+          "Levlen ED",
+          "Microgynon 30 ED",
+          "Microgynon 20 ED",
+          "Evelyn 150/30 ED",
+          "Eleanor 150/30 ED",
+          "Femme-Tab ED 20/100",
+          "Femme-Tab ED 30/150",
+          "Monofeme",
+          "Nordette",
+          "Loette",
+          "Microlevlen ED",
+          "Seasonique"
+        ],
+        "ethinylestradiol + norethisterone": [
+          "Norimin",
+          "Norimin-1",
+          "Brevinor",
+          "Brevinor-1",
+          "Synphasic"
+        ],
+        "ethinylestradiol with cyproterone acetate": [
+          "Diane-35 ED",
+          "Brenda-35 ED",
+          "Estelle-35 ED",
+          "Juliet-35 ED"
+        ]
+      },
+      "note": "Count oral contraceptive packs containing a progestogen with ethinylestradiol up to 35 micrograms per active tablet, estradiol valerate or estetrol. Check the active tablets across the pack for products with several phases. Exclude progestogen-only pills, patches, rings and menopausal hormone therapy. Qlaira contains estradiol valerate. Plain estradiol with nomegestrol is outside the published pill definition. For ethinylestradiol pills, every active phase must meet the limit. Exclude Logynon ED, Triphasil, Trifeme, Triquilar ED and Tri-Minulet because each has a 40 microgram phase. For Nordette, check the specific pack and count only the qualifying strength."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "First properly taken blood pressure relevant to combined pill supply (mmHg)",
+      "meets": "Enter systolic and diastolic pressure in mmHg and the measurement date. A systolic pressure of at least 160 mmHg or a diastolic pressure of at least 100 mmHg meets the threshold for this reading."
+    },
+    {
+      "kind": "result",
+      "what": "Repeat properly taken blood pressure relevant to combined pill supply (mmHg)",
+      "meets": "Enter systolic and diastolic pressure in mmHg and the measurement date. A systolic pressure of at least 160 mmHg or a diastolic pressure of at least 100 mmHg meets the threshold for this reading."
+    }
+  ],
+  "rule_for_models": "For a Group A combined pill supply, use properly taken, dated blood pressure readings already in the record. Flag and cite the pill and both readings when they establish persistent high pressure at supply. On each reading, systolic pressure must be at least 160 mmHg or diastolic pressure at least 100 mmHg. Use the pharmacist's assessment of whether the readings establish persistence at that supply. Report no finding when current repeated readings are below both thresholds, even if earlier readings were high. If a reading is missing or isolated, or persistence or timing is uncertain, cite the pill and report only a possible finding. Name any reading still needed using \"First properly taken blood pressure relevant to combined pill supply (mmHg)\" or \"Repeat properly taken blood pressure relevant to combined pill supply (mmHg)\", or name both if neither is available.",
+  "cannot_be_seen": "A diagnosis alone cannot establish current values. A dispensing line does not show how blood pressure was measured, where it was measured or whether the pill is being taken.",
+  "ask_the_gp": "Could you confirm the current blood pressure readings and measurement setting, and review whether the combined pill remains suitable?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

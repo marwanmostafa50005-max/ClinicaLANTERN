@@ -1,0 +1,240 @@
+{
+  "id": "SCOTPOLY-SD-1",
+  "label": "SCOTPOLY: ACE inhibitor or ARB during dehydrating illness",
+  "family": "SCOTPOLY",
+  "title": "ACE inhibitor or ARB during acute dehydrating illness",
+  "statement": "Step 5 Caution: AKI. Avoid combination with NSAIDs - Medication sick day guidance: advise to stop during dehydrating illness",
+  "statement_origin": "published",
+  "source": {
+    "document": "Scottish Government Effective Prescribing and Therapeutics Division, Polypharmacy Guidance: Appropriate Prescribing - Making medicines safe, effective and sustainable 2026-2029, fourth edition",
+    "citation": "Scottish Government Effective Prescribing and Therapeutics Division. Polypharmacy Guidance: Appropriate Prescribing - Making medicines safe, effective and sustainable 2026-2029, fourth edition. Appendix B, ACEI/ARB row, page 13. Published 2 March 2026.",
+    "url": "https://www.gov.scot/publications/polypharmacy-guidance-appropriate-prescribing-making-medicines-safe-effective-sustainable-2026-2029/pages/13/",
+    "licence": "UK Open Government Licence v3.0",
+    "licence_status": "proposed",
+    "credit": "Contains public sector information licensed under the Open Government Licence v3.0.",
+    "modification_notice": "Statement reproduced without changes. Plain-language fields, Australian medicine mapping, counter question and test histories are adaptations."
+  },
+  "plain_summary": "Continuing an ACE inhibitor or angiotensin receptor blocker during vomiting, diarrhoea or fever with poor fluid intake increases the risk of acute kidney injury. Any temporary withholding during dehydrating illness is short term, and prompt medical review is needed in heart failure or if symptoms persist or fluids cannot be kept down. At the counter, ask whether the patient currently has a dehydrating illness, check whether they already have a written sick-day action plan, and advise prompt GP review on whether to pause the medicine and when it is safe to restart once recovered and eating and drinking normally.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "ACE inhibitors, angiotensin receptor blockers, and fixed combinations",
+      "ingredients": [
+        "perindopril",
+        "ramipril",
+        "enalapril",
+        "lisinopril",
+        "quinapril",
+        "fosinopril",
+        "captopril",
+        "trandolapril",
+        "candesartan",
+        "irbesartan",
+        "telmisartan",
+        "olmesartan",
+        "valsartan",
+        "losartan",
+        "eprosartan",
+        "sacubitril with valsartan"
+      ],
+      "brands": {
+        "perindopril": [
+          "Coversyl",
+          "Coversyl Plus",
+          "Idaprex",
+          "Idaprex Arg",
+          "Indopril",
+          "Indosyl Mono",
+          "Ozapace",
+          "Perindo",
+          "Perindo Arg",
+          "Perindoarg",
+          "Perindobell",
+          "Perisyl",
+          "Prexum",
+          "Coveram",
+          "Coveram Plus SR",
+          "Reaptan",
+          "Reaptan Plus SR",
+          "Prexum Combi",
+          "Perisyl Combi",
+          "Triplixam",
+          "Triplixam SR",
+          "Coversyl Plus LD",
+          "Prexum Combi LD"
+        ],
+        "ramipril": [
+          "Tritace",
+          "Ramace",
+          "Prilace",
+          "Ramibell",
+          "Tryzan",
+          "Vascalace",
+          "Triasyn"
+        ],
+        "enalapril": [
+          "Renitec",
+          "Amprace",
+          "Acetec",
+          "Alphapril",
+          "Auspril",
+          "Elapril",
+          "Enahexal",
+          "Enalabell",
+          "Malean",
+          "Renitec M",
+          "Renitec Plus",
+          "Zan-Extra"
+        ],
+        "lisinopril": [
+          "Zestril",
+          "Prinivil",
+          "Fibsol",
+          "Linopril",
+          "Liprace",
+          "Lisinobell",
+          "Lisinotrust",
+          "Lisodrate",
+          "Lisodur",
+          "Lisoril",
+          "Ozten",
+          "Sinop",
+          "Zinopril"
+        ],
+        "quinapril": [
+          "Accupril",
+          "Accuretic",
+          "Acquin",
+          "Aquinafil",
+          "Filpril",
+          "Qpril"
+        ],
+        "fosinopril": [
+          "Monace",
+          "Fosipril",
+          "Monopril",
+          "Monoplus"
+        ],
+        "captopril": [
+          "Capoten",
+          "Acenorm",
+          "Captohexal",
+          "Topace",
+          "Zedace"
+        ],
+        "trandolapril": [
+          "Gopten",
+          "Dolapril",
+          "Goricap",
+          "Odrik",
+          "Tranalpha",
+          "Tarka"
+        ],
+        "candesartan": [
+          "Atacand",
+          "Atacand Plus",
+          "Adesan",
+          "Asartan",
+          "Candelem",
+          "Candesan",
+          "Adesan HCT",
+          "Candesan Combi"
+        ],
+        "irbesartan": [
+          "Avapro",
+          "Karvea",
+          "Avapro HCT",
+          "Abisart",
+          "Ambotens",
+          "Avsartan",
+          "Irbesat",
+          "Irbestin",
+          "Irbetan",
+          "Irprestan",
+          "Karbesat",
+          "Avsartan HCT",
+          "Abisart HCTZ",
+          "Karvezide"
+        ],
+        "telmisartan": [
+          "Micardis",
+          "Micardis Plus",
+          "Twynsta",
+          "Mizart",
+          "Pritor",
+          "Telmigen",
+          "Teltartan",
+          "Mizart HCT",
+          "Teltartan HCT",
+          "PritorPlus",
+          "Pritor Plus"
+        ],
+        "olmesartan": [
+          "Olmetec",
+          "Olmetec Plus",
+          "Sevikar",
+          "Olmertan",
+          "Olmes",
+          "Olmesart",
+          "Olsetan",
+          "Sevikar HCT",
+          "Olmekar"
+        ],
+        "valsartan": [
+          "Diovan",
+          "Co-Diovan",
+          "Exforge",
+          "Dilart",
+          "Dilart HCT",
+          "Exforge HCT"
+        ],
+        "losartan": [
+          "Cozaar",
+          "Hyzaar",
+          "Cozavan"
+        ],
+        "eprosartan": [
+          "Teveten",
+          "Teveten Plus"
+        ],
+        "sacubitril with valsartan": [
+          "Entresto",
+          "Omtralo",
+          "Valtresto"
+        ]
+      },
+      "note": "Oral ACE inhibitors, angiotensin receptor blockers (ARBs), sacubitril with valsartan (Entresto, Omtralo and Valtresto), and all fixed-dose combination tablets or capsules containing an ACE inhibitor or ARB with a diuretic or calcium channel blocker count, including modified-release capsules such as Triplixam SR. Pritor Plus and PritorPlus are telmisartan with hydrochlorothiazide. Generic packs that show the ingredient name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Current dehydrating illness",
+      "meets": "The patient currently has an acute dehydrating illness, such as repeated vomiting or diarrhoea, fever with sweats or shaking, or cannot keep fluids down.",
+      "options": [
+        {
+          "words": "Current dehydrating illness (vomiting, diarrhoea, or unable to keep fluids down)",
+          "effect": "meets"
+        },
+        {
+          "words": "Current febrile or acute illness with sweats, shaking, or reduced fluid intake",
+          "effect": "meets"
+        },
+        {
+          "words": "Well, or mild illness only (eating and drinking normally, no dehydration)",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "At any age, including unknown age, a Group A ACE inhibitor or ARB supply in the last 3 months ending on the latest date in the record qualifies even with unclear directions, and no qualifying supply means no finding. Use the latest evidence about the current episode, including a current undated counter answer, to confirm and cite both the illness and the supply if the patient has a dehydrating illness, or to report no finding if the patient is now well or only mildly ill with normal intake and no dehydration. If current illness is unknown, unrecorded or described only in a past episode, report a possible finding citing the supply and naming Current dehydrating illness as the missing fact.",
+  "cannot_be_seen": "Whether the patient currently has vomiting, diarrhoea, fever or dehydration unless recorded or entered at the counter. Whether the patient is still taking the medicine, whether they already have a written sick-day action plan, their baseline kidney function, and whether they have heart failure needing prompt medical review before withholding. Non-prescription NSAIDs and medicines supplied from another pharmacy or hospital are also not visible.",
+  "ask_the_gp": "Could you confirm whether the patient is taking the supplied ACE inhibitor or angiotensin receptor blocker and currently has a dehydrating illness? If so, could you review whether to pause it, considering heart failure if present, and advise on kidney function, electrolytes and safe restart after recovery?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

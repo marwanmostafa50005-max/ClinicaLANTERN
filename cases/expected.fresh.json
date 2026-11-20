@@ -1,0 +1,267 @@
+{
+  "signed_by_clinical_reviewer": null,
+  "cases": [
+    {
+      "file": "_fresh/STOPP-C10/pos.csv",
+      "kind": "positive",
+      "about": "Proxen SR (naproxen) is supplied three times from March to May 2026 while Eliquis (apixaban) is supplied every month, and the supplies overlap.",
+      "findings": [
+        {
+          "criterion": "STOPP-C10",
+          "must_cite": [
+            [
+              "L003",
+              "L005",
+              "L007"
+            ],
+            [
+              "L002",
+              "L004",
+              "L006"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "_fresh/STOPP-C10/near-miss.csv",
+      "kind": "near_miss",
+      "about": "Orudis (ketoprofen) was last supplied in February 2026 and Pradaxa (dabigatran) was first supplied in June, more than 60 days later, so the two never overlapped.",
+      "findings": []
+    },
+    {
+      "file": "_fresh/STOPP-B3/pos.csv",
+      "kind": "positive",
+      "about": "Betaloc (metoprolol) and Cardizem CD (diltiazem) are both supplied every month from April to June 2026, overlapping throughout.",
+      "findings": [
+        {
+          "criterion": "STOPP-B3",
+          "must_cite": [
+            [
+              "L001",
+              "L003",
+              "L005"
+            ],
+            [
+              "L002",
+              "L004",
+              "L006"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "_fresh/STOPP-B3/near-miss.csv",
+      "kind": "near_miss",
+      "about": "Anselol (atenolol) was last supplied in March 2026 and Isoptin SR (verapamil) was first supplied in July, more than 60 days later.",
+      "findings": []
+    },
+    {
+      "file": "_fresh/STOPP-B13/pos.csv",
+      "kind": "positive",
+      "about": "Spiractin (spironolactone) is supplied with monthly Prexum (perindopril) from April 2026, and the record holds a serum potassium result from September 2025, more than six months before the newest supply.",
+      "findings": [
+        {
+          "criterion": "STOPP-B13",
+          "must_cite": [
+            [
+              "L003",
+              "L006",
+              "L008"
+            ],
+            [
+              "L002",
+              "L004",
+              "L005",
+              "L007"
+            ],
+            [
+              "L001"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "_fresh/STOPP-B13/near-miss.csv",
+      "kind": "near_miss",
+      "about": "Spiractin is supplied with monthly Atacand (candesartan), and the record holds a serum potassium result from June 2026, within the last six months.",
+      "findings": []
+    },
+    {
+      "file": "_fresh/STOPP-C14/pos.csv",
+      "kind": "positive",
+      "about": "Xarelto (rivaroxaban) is supplied monthly and a course of Kalixocin (clarithromycin) in May 2026 falls within 60 days of the rivaroxaban supplies.",
+      "findings": [
+        {
+          "criterion": "STOPP-C14",
+          "must_cite": [
+            [
+              "L001",
+              "L003",
+              "L004"
+            ],
+            [
+              "L002"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "_fresh/STOPP-C14/near-miss.csv",
+      "kind": "near_miss",
+      "about": "Aratac (amiodarone) was last supplied in February 2026 and Eliquis (apixaban) was first supplied in June, more than 60 days later.",
+      "findings": []
+    },
+    {
+      "file": "_fresh/STOPP-D18/pos.csv",
+      "kind": "positive",
+      "about": "Reminyl (galantamine) is supplied every month from March 2026 together with Sotab (sotalol), and the supplies overlap.",
+      "findings": [
+        {
+          "criterion": "STOPP-D18",
+          "must_cite": [
+            [
+              "L001",
+              "L003",
+              "L005"
+            ],
+            [
+              "L002",
+              "L004"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "_fresh/STOPP-D18/near-miss.csv",
+      "kind": "near_miss",
+      "about": "Mestinon (pyridostigmine) is the only medicine of the two groups supplied; there is no beta-blocker, digoxin, diltiazem or verapamil.",
+      "findings": []
+    },
+    {
+      "file": "_fresh/STOPP-L2/pos.csv",
+      "kind": "positive",
+      "about": "OxyNorm (oxycodone) is supplied monthly from March to June 2026 for regular use, and no laxative of any kind is supplied.",
+      "findings": [
+        {
+          "criterion": "STOPP-L2",
+          "must_cite": [
+            [
+              "L001",
+              "L003",
+              "L004",
+              "L005"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "_fresh/STOPP-L2/near-miss.csv",
+      "kind": "near_miss",
+      "about": "Palexia SR (tapentadol) is supplied with Movicol (macrogol) supplied within 60 days of each opioid supply.",
+      "findings": []
+    },
+    {
+      "file": "_fresh/STOPP-D8/pos.csv",
+      "kind": "positive",
+      "about": "Normison (temazepam) is supplied four times from March to June 2026, more than 28 days of supplies in all.",
+      "findings": [
+        {
+          "criterion": "STOPP-D8",
+          "must_cite": [
+            [
+              "L001",
+              "L003",
+              "L004",
+              "L005"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "_fresh/STOPP-D8/near-miss.csv",
+      "kind": "near_miss",
+      "about": "Ralozam (alprazolam) is supplied once, 20 tablets for use no more than twice a week, covering far less than 28 days.",
+      "findings": []
+    },
+    {
+      "file": "_fresh/STOPP-A3/pos.csv",
+      "kind": "positive",
+      "about": "Syquet (quetiapine) and Risperdal (risperidone), two antipsychotics from one class, are both supplied monthly from April 2026, overlapping.",
+      "findings": [
+        {
+          "criterion": "STOPP-A3",
+          "must_cite": [
+            [
+              "L001",
+              "L004",
+              "L006"
+            ],
+            [
+              "L002",
+              "L005"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "_fresh/STOPP-A3/near-miss.csv",
+      "kind": "near_miss",
+      "about": "Only Syquet (quetiapine) of the antipsychotic class is supplied; no second medicine of the same class appears.",
+      "findings": []
+    },
+    {
+      "file": "_fresh/STOPP-B11/pos.csv",
+      "kind": "positive",
+      "about": "Physiotens (moxonidine), a centrally-acting antihypertensive, is supplied three times from May 2026.",
+      "findings": [
+        {
+          "criterion": "STOPP-B11",
+          "must_cite": [
+            [
+              "L001",
+              "L003",
+              "L004"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "_fresh/STOPP-B11/near-miss.csv",
+      "kind": "near_miss",
+      "about": "Coversyl (perindopril) and a diuretic are supplied; neither is a centrally-acting antihypertensive.",
+      "findings": []
+    },
+    {
+      "file": "_fresh/PINCER-9/pos.csv",
+      "kind": "positive",
+      "about": "Trexject (methotrexate) is supplied three times and the most recent directions say only \"Take as directed\", with no word of once weekly.",
+      "findings": [
+        {
+          "criterion": "PINCER-9",
+          "must_cite": [
+            [
+              "L001",
+              "L003",
+              "L005"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "_fresh/PINCER-9/near-miss.csv",
+      "kind": "near_miss",
+      "about": "Methoblastin (methotrexate) is supplied monthly and every supply says to take one tablet once a week.",
+      "findings": []
+    }
+  ]
+}

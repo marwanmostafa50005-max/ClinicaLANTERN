@@ -1,0 +1,325 @@
+{
+  "id": "BRISNIK-OP-DEPR6",
+  "label": "Brisnik OP DEPR6: antidepressant treatment over 12 months for a first moderate or severe depressive episode, now in full remission",
+  "family": "BRISNIK",
+  "title": "Antidepressant for over 12 months in full remission after a first episode",
+  "statement": "Prescribed an antidepressant in monotherapy, combination, or augmentation > 12 months for a first episode of moderate or severe depression - and the patient has achieved full remission",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "After a first episode of moderate or severe depression has fully cleared, an antidepressant taken for more than 12 months may no longer be needed, so a review is worth asking for.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antidepressants",
+      "ingredients": [
+        "sertraline",
+        "escitalopram",
+        "citalopram",
+        "fluoxetine",
+        "paroxetine",
+        "fluvoxamine",
+        "venlafaxine",
+        "desvenlafaxine",
+        "duloxetine",
+        "vortioxetine",
+        "agomelatine",
+        "reboxetine",
+        "amitriptyline",
+        "nortriptyline",
+        "dosulepin",
+        "doxepin",
+        "imipramine",
+        "clomipramine",
+        "moclobemide",
+        "phenelzine",
+        "tranylcypromine",
+        "mirtazapine",
+        "mianserin",
+        "trazodone",
+        "trimipramine"
+      ],
+      "brands": {
+        "sertraline": [
+          "Zoloft",
+          "Setrona",
+          "Concorz",
+          "Detralon",
+          "Eleva",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Tralen",
+          "Xydep"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam",
+          "Loxalate"
+        ],
+        "citalopram": [
+          "Cipramil",
+          "Celapram",
+          "Talam",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talohexal"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet",
+          "Zactin"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Paxtine",
+          "Aropax CR",
+          "Extine",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ],
+        "venlafaxine": [
+          "Efexor-XR",
+          "Altven",
+          "Elaxine SR",
+          "Enlafax XR",
+          "Evelexa XR",
+          "Ozvenaf",
+          "Venfax SR",
+          "Venla",
+          "Venlexor XR"
+        ],
+        "desvenlafaxine": [
+          "Pristiq",
+          "Desfax",
+          "Desven"
+        ],
+        "duloxetine": [
+          "Cymbalta",
+          "Andepra",
+          "Baltine",
+          "Coperin",
+          "Deotine",
+          "Depreta",
+          "Drulox",
+          "Dulocym",
+          "Duloxecor",
+          "Dytrex",
+          "Symlox",
+          "Texotine",
+          "Tixol",
+          "Xerol DR"
+        ],
+        "vortioxetine": [
+          "Brintellix"
+        ],
+        "agomelatine": [
+          "Valdoxan",
+          "Domion",
+          "Nortim",
+          "Valomel"
+        ],
+        "reboxetine": [
+          "Edronax"
+        ],
+        "amitriptyline": [
+          "Endep",
+          "Entrip",
+          "Amichlor",
+          "Amidep"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "NortriTABS"
+        ],
+        "dosulepin": [
+          "Dothep",
+          "Prothiaden"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "moclobemide": [
+          "Aurorix",
+          "Arima",
+          "Amira",
+          "Clobemide",
+          "Clobemix",
+          "Maosig",
+          "Mohexal"
+        ],
+        "phenelzine": [
+          "Nardil"
+        ],
+        "tranylcypromine": [
+          "Parnate",
+          "Parpromine",
+          "Tranamef",
+          "Tranylmed"
+        ],
+        "mirtazapine": [
+          "Avanza",
+          "Axit",
+          "Remeron",
+          "Aurozapine",
+          "Avanza Soltab",
+          "Milivin OD",
+          "Mirtanza",
+          "Mirtanza ODT",
+          "Mirtazon",
+          "Remeron Soltab"
+        ],
+        "mianserin": [
+          "Tolvon",
+          "Lumin"
+        ],
+        "trazodone": [
+          "Desyrel"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ]
+      },
+      "note": "Tablets, capsules and liquids count. Low doses of amitriptyline, doxepin, mirtazapine and trazodone are often taken for pain or sleep, and a dispensing history cannot show the reason. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "This was a first episode of moderate or severe depression",
+      "meets": "A line saying the depression was a first episode and moderate or severe",
+      "options": [
+        {
+          "words": "First episode, moderate or severe",
+          "effect": "meets"
+        },
+        {
+          "words": "Mild episode or a previous depressive episode",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "condition",
+      "what": "The depression is in full remission",
+      "meets": "A line saying the depression is in full remission",
+      "options": [
+        {
+          "words": "Currently in full remission",
+          "effect": "meets"
+        },
+        {
+          "words": "Currently has ongoing or returning depressive symptoms",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for the antidepressant during this depressive episode",
+      "meets": "The antidepressant was prescribed for this depressive episode. Use solely for another reason rules out a finding. An unknown reason leaves a possible finding.",
+      "options": [
+        {
+          "words": "For this episode of depression",
+          "effect": "meets"
+        },
+        {
+          "words": "Only for another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Duration of antidepressant treatment for this episode",
+      "meets": "Continuous treatment for this episode extended beyond the anniversary of starting it. Treatment lasting 12 months or less rules out a finding. An unknown duration leaves a possible finding.",
+      "options": [
+        {
+          "words": "Treatment continued for more than 12 months",
+          "effect": "meets"
+        },
+        {
+          "words": "Treatment lasted 12 months or less",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Look for a continuing Group A antidepressant prescription for a first moderate or severe depressive episode, alone, in combination or with augmentation. Count from the start of treatment for that episode, using dated treatment notes, regular refills, quantities and directions. Respect documented stops and clarify gaps that could change whether treatment continued beyond its 12-month anniversary. Confirm only when treatment extends beyond the anniversary and the latest clinical assessment of the same episode shows full remission. Cite the supplies, the episode and the remission assessment. A score alone does not establish remission. Make no finding if any requirement is ruled out. If the pattern remains possible, ask about the reason for the antidepressant during this depressive episode only when its purpose is unclear. Ask about the duration of antidepressant treatment for this episode only when dates, quantities and directions leave the 12-month threshold unresolved. Cite a clarification used to confirm either fact. Ask separately about episode history or current remission if either is missing. An unknown answer leaves the finding possible.",
+  "cannot_be_seen": "Whether the person is really in remission and for how long, why the antidepressant was continued, and the person's wishes about stopping. Medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "Could you review the reason for ongoing treatment, whether this was a first episode of moderate or severe depression, and whether it is now in full remission? If remission is confirmed, would a planned dose reduction suit this person?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

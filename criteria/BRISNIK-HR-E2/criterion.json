@@ -1,0 +1,499 @@
+{
+  "id": "BRISNIK-HR-E2",
+  "label": "Brisnik HR-E2",
+  "family": "BRISNIK",
+  "title": "Antidepressant with two further serotonergic medicines",
+  "statement": "Prescribed SSRI, SNRI, or TCA (in doses ≥ 50 mg/day) - and the patient is co-prescribed ≥ 2 further serotonergic drugs other than tranylcypromine (e.g., tramadol, fentanyl, triptans, metoclopramide, another serotonergic antidepressant)",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.2 candidate repairs and adopted conventions merged with attribution). Not endorsed by the source authors."
+  },
+  "plain_summary": "An SSRI, an SNRI or a tricyclic antidepressant at 50 mg/day or more taken with two other medicines that raise serotonin can cause serotonin syndrome.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "SSRIs (selective serotonin reuptake inhibitors)",
+      "ingredients": [
+        "sertraline",
+        "escitalopram",
+        "citalopram",
+        "fluoxetine",
+        "paroxetine",
+        "fluvoxamine"
+      ],
+      "brands": {
+        "sertraline": [
+          "Zoloft",
+          "Concorz",
+          "Detralon",
+          "Eleva",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Setrona",
+          "Tralen",
+          "Xydep"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam",
+          "Loxalate"
+        ],
+        "citalopram": [
+          "Cipramil",
+          "Celapram",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talam",
+          "Talohexal"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Zactin",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Extine",
+          "Paxtine",
+          "Aropax CR",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ]
+      },
+      "note": "Generic packs that show the ingredient name with a company name count too. Any dose counts."
+    },
+    {
+      "key": "B",
+      "name": "SNRIs (serotonin and noradrenaline reuptake inhibitors)",
+      "ingredients": [
+        "venlafaxine",
+        "desvenlafaxine",
+        "duloxetine"
+      ],
+      "brands": {
+        "venlafaxine": [
+          "Efexor-XR",
+          "Venlor XR",
+          "Elaxine SR",
+          "Altven",
+          "Enlafax XR",
+          "Evelexa XR",
+          "Ozvenaf",
+          "Venfax SR",
+          "Venla",
+          "Venlexor XR"
+        ],
+        "desvenlafaxine": [
+          "Pristiq",
+          "Desfax",
+          "Desven"
+        ],
+        "duloxetine": [
+          "Cymbalta",
+          "Andepra",
+          "Baltine",
+          "Coperin",
+          "Deotine",
+          "Depreta",
+          "Drulox",
+          "Dulocym",
+          "Duloxecor",
+          "Dytrex",
+          "Symlox",
+          "Texotine",
+          "Tixol",
+          "Xerol DR"
+        ]
+      },
+      "note": "Generic packs that show the ingredient name with a company name count too. Any dose counts."
+    },
+    {
+      "key": "C",
+      "name": "Tricyclic antidepressants (count at 50 mg a day or more)",
+      "ingredients": [
+        "amitriptyline",
+        "nortriptyline",
+        "imipramine",
+        "clomipramine",
+        "doxepin",
+        "dosulepin",
+        "trimipramine"
+      ],
+      "brands": {
+        "amitriptyline": [
+          "Endep",
+          "Amichlor",
+          "Amidep",
+          "Entrip"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "dosulepin": [
+          "Dothep",
+          "Prothiaden"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ]
+      },
+      "note": "For the antidepressant being checked, count a listed tricyclic at 50 mg/day or more. Work out the daily dose as the strength times the number of tablets or capsules taken each day. Low-dose amitriptyline under 50 mg a day does not count."
+    },
+    {
+      "key": "D",
+      "name": "Other serotonergic medicines (examples)",
+      "ingredients": [
+        "tramadol",
+        "tapentadol",
+        "fentanyl",
+        "sumatriptan",
+        "rizatriptan",
+        "zolmitriptan",
+        "eletriptan",
+        "naratriptan",
+        "metoclopramide",
+        "linezolid",
+        "lithium",
+        "trazodone",
+        "vortioxetine",
+        "sertraline",
+        "escitalopram",
+        "citalopram",
+        "fluoxetine",
+        "paroxetine",
+        "fluvoxamine",
+        "venlafaxine",
+        "desvenlafaxine",
+        "duloxetine",
+        "amitriptyline",
+        "nortriptyline",
+        "imipramine",
+        "clomipramine",
+        "doxepin",
+        "dosulepin",
+        "trimipramine",
+        "dextromethorphan",
+        "pethidine",
+        "methadone",
+        "dapoxetine",
+        "moclobemide"
+      ],
+      "brands": {
+        "tramadol": [
+          "Tramal",
+          "Durotram",
+          "Zydol",
+          "Durotram XR",
+          "Iptramol",
+          "Lodam",
+          "Lodam SR",
+          "Tramahexal",
+          "Tramahexal SR",
+          "Tramal Drops",
+          "Tramal SR",
+          "Tramedo",
+          "Tramedo SR",
+          "Zydol SR"
+        ],
+        "tapentadol": [
+          "Palexia"
+        ],
+        "fentanyl": [
+          "Durogesic",
+          "Denpax",
+          "Fenpatch"
+        ],
+        "sumatriptan": [
+          "Imigran",
+          "Suvalan",
+          "Clustran",
+          "Imigran FDT",
+          "Imigran Migraine",
+          "Imigran Mk II",
+          "Imigran Mk II with Autoinjector",
+          "Imigran S",
+          "Iptam",
+          "Sumaccord",
+          "Sumagraine Migraine Relief",
+          "Sumagran",
+          "Sumatab",
+          "Sumatran"
+        ],
+        "rizatriptan": [
+          "Maxalt",
+          "Rixalt",
+          "Maxalt Migraine Relief",
+          "Maxatan"
+        ],
+        "zolmitriptan": [
+          "Zomig",
+          "Zoltrip",
+          "Zomig Rapimelt"
+        ],
+        "eletriptan": [
+          "Relpax",
+          "Eletx"
+        ],
+        "naratriptan": [
+          "Naramig"
+        ],
+        "metoclopramide": [
+          "Maxolon",
+          "Pramin",
+          "Aspramide",
+          "Emexlon"
+        ],
+        "linezolid": [
+          "Zyvox",
+          "Linevox",
+          "Nezolid"
+        ],
+        "lithium": [
+          "Lithicarb",
+          "Quilonum SR"
+        ],
+        "trazodone": [
+          "Desyrel"
+        ],
+        "vortioxetine": [
+          "Brintellix"
+        ],
+        "sertraline": [
+          "Zoloft",
+          "Concorz",
+          "Detralon",
+          "Eleva",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Setrona",
+          "Tralen",
+          "Xydep"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam",
+          "Loxalate"
+        ],
+        "citalopram": [
+          "Cipramil",
+          "Celapram",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talam",
+          "Talohexal"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Zactin",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Extine",
+          "Paxtine",
+          "Aropax CR",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ],
+        "venlafaxine": [
+          "Efexor-XR",
+          "Venlor XR",
+          "Elaxine SR",
+          "Altven",
+          "Enlafax XR",
+          "Evelexa XR",
+          "Ozvenaf",
+          "Venfax SR",
+          "Venla",
+          "Venlexor XR"
+        ],
+        "desvenlafaxine": [
+          "Pristiq",
+          "Desfax",
+          "Desven"
+        ],
+        "duloxetine": [
+          "Cymbalta",
+          "Andepra",
+          "Baltine",
+          "Coperin",
+          "Deotine",
+          "Depreta",
+          "Drulox",
+          "Dulocym",
+          "Duloxecor",
+          "Dytrex",
+          "Symlox",
+          "Texotine",
+          "Tixol",
+          "Xerol DR"
+        ],
+        "amitriptyline": [
+          "Endep",
+          "Amichlor",
+          "Amidep",
+          "Entrip"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "dosulepin": [
+          "Dothep",
+          "Prothiaden"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ],
+        "dextromethorphan": [
+          "Bisolvon Dry",
+          "Benadryl for the Family Dry Forte",
+          "Bisolvon Dry Kids",
+          "Robitussin Dry Cough Forte",
+          "Strepsils Dry Cough",
+          "Tussinol for Dry Coughs",
+          "Vicks Cough",
+          "Vicks Cough Syrup",
+          "Vicks Formula 44 for Dry Coughs"
+        ],
+        "pethidine": [
+          "DBL Pethidine Hydrochloride"
+        ],
+        "methadone": [
+          "Physeptone",
+          "Biodone Forte",
+          "Opod-D Syrup",
+          "Opod-P Liquid",
+          "Physeptone Liquid"
+        ],
+        "dapoxetine": [
+          "Priligy"
+        ],
+        "moclobemide": [
+          "Aurorix",
+          "Amira",
+          "Clobemix",
+          "Moclobemide Sandoz",
+          "Moclobemide-WGR"
+        ]
+      },
+      "note": "Count each distinct partner once. Dextromethorphan, pethidine and methadone each count when co-prescribed. A different serotonergic antidepressant may count as a partner. Exclude tranylcypromine and the antidepressant being assessed."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when the record shows a supply of Group A (an SSRI), Group B (an SNRI) or Group C (a tricyclic antidepressant at a daily dose of 50 mg or more), and supplies of at least two additional, distinct serotonergic ingredients, including the examples in Group D. Exclude tranylcypromine and the antidepressant being assessed from the partner count. All three courses must overlap at the same time, or the earliest and latest of the three supply dates must be no more than 60 days apart. Work out a tricyclic daily dose as the strength times the tablets or capsules taken each day. SSRIs and SNRIs count at any dose. If the directions leave it unclear whether the Group C dose reaches 50 mg a day and both partners qualify, cite all three supplies and report only a possible finding on that trio. Ask the patient what daily dose they take.",
+  "cannot_be_seen": "Whether the person really takes the medicines together, medicines bought over the counter, and doses changed outside the pharmacy. Group D is only a list of examples.",
+  "ask_the_gp": "A review of whether the combination of serotonergic medicines is needed and safe, and whether any can be stopped or changed.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

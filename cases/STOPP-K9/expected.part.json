@@ -1,0 +1,55 @@
+[
+  {
+    "file": "STOPP-K9/pos-fact.csv",
+    "kind": "positive",
+    "about": "Cardura (doxazosin) was prescribed for hypertension. The record shows three falls in the past 12 months.",
+    "findings": [
+      {
+        "criterion": "STOPP-K9",
+        "must_cite": [
+          [
+            "L019",
+            "L024",
+            "L028",
+            "L032",
+            "L036",
+            "L040",
+            "L044"
+          ],
+          [
+            "L022"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-K9/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about \"Reason for the alpha blocker\" or \"Recurrent falls\" for the patient supplied Minipress (prazosin).",
+    "findings": [
+      {
+        "criterion": "STOPP-K9",
+        "must_cite": [
+          [
+            "L012",
+            "L016",
+            "L020",
+            "L024",
+            "L028",
+            "L032"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-K9/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Cardura (doxazosin, an alpha blocker) is supplied five times from December 2025 to April 2026, but the record shows 0 falls in the past 12 months, so the person does not have recurrent falls.",
+    "findings": []
+  }
+]

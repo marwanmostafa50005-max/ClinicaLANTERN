@@ -1,0 +1,34 @@
+[
+  {
+    "file": "EU7-F26/pos-brand.csv",
+    "kind": "positive",
+    "about": "Coralan (ivabradine), by brand name only, is supplied ten times from February to October 2026 to a 72-year-old man.",
+    "findings": [
+      {
+        "criterion": "EU7-F26",
+        "must_cite": [
+          ["L006", "L009", "L012", "L016", "L019", "L023", "L024", "L028", "L031", "L034"]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F26/pos-buried.csv",
+    "kind": "positive",
+    "about": "Trimetazidine, shown by ingredient name because it has no Australian brand, is supplied three times from January to March 2026 to a 69-year-old woman, in the middle of a 14-month history.",
+    "findings": [
+      {
+        "criterion": "EU7-F26",
+        "must_cite": [
+          ["L031", "L036", "L042"]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F26/near-miss.csv",
+    "kind": "near_miss",
+    "about": "No trimetazidine or ivabradine is supplied: the angina medicine is isosorbide mononitrate (Imdur) and the one similar name is a short course of trimethoprim (Alprim), an antibiotic, so the criterion is not met.",
+    "findings": []
+  }
+]

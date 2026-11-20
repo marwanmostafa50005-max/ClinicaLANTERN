@@ -1,0 +1,48 @@
+[
+  {
+    "file": "BRISNIK-OP-INSO1/pos-fact.csv",
+    "kind": "positive",
+    "about": "The record documents amitriptyline at 50 mg daily for insomnia with no other current indication for an antidepressant.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-INSO1",
+        "must_cite": [
+          [
+            "L022"
+          ],
+          [
+            "L023"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-INSO1/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: amitriptyline is supplied at 50 mg daily. The record does not say whether it was prescribed for insomnia or whether there was another current indication for an antidepressant.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-INSO1",
+        "must_cite": [
+          [
+            "L003",
+            "L008",
+            "L011",
+            "L014",
+            "L019",
+            "L022",
+            "L025",
+            "L028"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-INSO1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Dosulepin 75 mg a day is supplied regularly, and the record identifies depression as a current indication for antidepressant treatment.",
+    "findings": []
+  }
+]

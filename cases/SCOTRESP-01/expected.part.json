@@ -1,0 +1,86 @@
+[
+  {
+    "file": "SCOTRESP-01/pos-brand.csv",
+    "kind": "positive",
+    "about": "Twelve dated Ventolin prescription supplies of one inhaler each reach the threshold within a year.",
+    "findings": [
+      {
+        "criterion": "SCOTRESP-01",
+        "must_cite": [
+          [
+            "L004"
+          ],
+          [
+            "L007"
+          ],
+          [
+            "L010"
+          ],
+          [
+            "L011"
+          ],
+          [
+            "L015"
+          ],
+          [
+            "L017"
+          ],
+          [
+            "L019"
+          ],
+          [
+            "L022"
+          ],
+          [
+            "L023"
+          ],
+          [
+            "L026"
+          ],
+          [
+            "L030"
+          ],
+          [
+            "L031"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "SCOTRESP-01/pos-buried.csv",
+    "kind": "positive",
+    "about": "Six dated salbutamol prescription supplies of two inhalers each reach twelve devices within a year.",
+    "findings": [
+      {
+        "criterion": "SCOTRESP-01",
+        "must_cite": [
+          [
+            "L023"
+          ],
+          [
+            "L029"
+          ],
+          [
+            "L038"
+          ],
+          [
+            "L043"
+          ],
+          [
+            "L048"
+          ],
+          [
+            "L057"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "SCOTRESP-01/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Six handheld reliever supplies total eleven devices within a year. The Univent Cipule nebuliser ampoules add no handheld devices.",
+    "findings": []
+  }
+]

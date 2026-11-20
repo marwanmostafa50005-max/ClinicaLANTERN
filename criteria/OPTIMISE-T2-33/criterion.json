@@ -1,0 +1,168 @@
+{
+  "id": "OPTIMISE-T2-33",
+  "label": "OPTIMISE T2-33: vitamin B12 before folic acid",
+  "family": "OPTIMISE",
+  "title": "Folic acid started without a vitamin B12 check",
+  "statement": "Always identify and correct vitamin B12 deficiency before prescribing folic acid",
+  "statement_origin": "published",
+  "source": {
+    "document": "Carolan A, et al. OPTIMISE. BMC Psychiatry 2022;22:585, Tables 2-3",
+    "citation": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "modification_notice": "Statement text as recorded by the earlier project. It has not been compared with the publisher's page. Not endorsed by the source authors."
+  },
+  "plain_summary": "Folic acid can hide a low vitamin B12 level while nerve damage gets worse, so low B12 should be found and corrected first.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Folic acid",
+      "ingredients": [
+        "folic acid"
+      ],
+      "brands": {
+        "folic acid": [
+          "Megafol",
+          "Foltabs",
+          "Fefol Iron and Folic Acid",
+          "FGF",
+          "Ferro-F-Tab"
+        ]
+      },
+      "note": "Prescribed folic acid tablets count, as do prescribed iron and folic acid tablets or capsules, such as Fefol Iron and Folic Acid, FGF and Ferro-F-Tab. Check the ingredients when a brand has more than one formulation. Multivitamins that contain folic acid do not count. Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "B",
+      "name": "Vitamin B12 replacement",
+      "ingredients": [
+        "hydroxocobalamin",
+        "cyanocobalamin"
+      ],
+      "brands": {
+        "hydroxocobalamin": [
+          "Neo-B12",
+          "Cobal-B12",
+          "Hydroxo-B12",
+          "Neo-Cytamen",
+          "Vita-B12"
+        ],
+        "cyanocobalamin": [
+          "B12 (Blackmores)",
+          "Cyanocobalamin (Biological Therapies)",
+          "High Strength Vitamin B12 (Quality Health)",
+          "Vitamin B12 (A-Won)",
+          "Vitamin B12 (Blackmores)",
+          "Vitamin B12 (Nature's Own)"
+        ]
+      },
+      "note": "Replacement injections and tablets count, including generic packs that identify a listed ingredient and form. Oral liquids and sprays, including B12 Spray (Bioceuticals), are outside this group. A dispensing shows that replacement was supplied. Look for a dated record that the deficiency was corrected before folic acid started, including care provided elsewhere. If the outcome is unclear, ask whether it was corrected."
+    }
+  ],
+  "rule_for_models": "For a person aged 18 or over, use the latest interpretable vitamin B12 sample taken before the first dose of this Group A folic acid course. Use the recorded age if it establishes age at the first dose. Only if the pre-start B12 check otherwise warrants review and age then is unknown, report a possible finding and ask for \"Age at the first dose of this folic acid course\". An adult answer allows assessment. Exclude treatment while under 18. If age remains unknown, keep the finding possible. A normal result means no finding unless the record documents unresolved deficiency. For a low result, cite it and the folic acid supply. Cite the dated start evidence as well if the first dose was taken earlier. Flag documented unresolved deficiency. If the outcome of a low pre-start result is unclear, ask for \"B12 deficiency at the first dose of this folic acid course\". A replacement supply alone cannot establish correction. Documented correction before folic acid started clears the finding. Enter the B12 value, unit and sample date when known. Interpret it against the reporting laboratory’s range or classification. If context is missing, ask for \"Timing of the latest relevant B12 sample against the first folic acid dose\" or \"Reporting laboratory's interpretation of the pre-start B12 result\" as needed. Accept reliable confirmation that the relevant sample preceded the first dose. Leave a borderline value, a result without an interpretable interval, or uncertain timing to the pharmacist. If the first visible supply may be a continuation, ask for \"First dose of this folic acid course (enter the start date and the daily dose if known)\". Use a supply confirmed as the start or the date the first dose was actually taken. Leave pre-start status open if no start can be established. If pre-start status cannot be established, report only a possible finding and name the missing information. This includes a later-only result or a same-day result whose order relative to the first dose is unknown.",
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "Serum vitamin B12 level",
+      "meets": "Use the latest interpretable pre-start result. A low result with unresolved deficiency warrants review. Ask about correction if its outcome is unclear. A normal result clears the check unless deficiency is documented as unresolved. Documented correction before folic acid clears the finding. A missing result, a later-only result or uncertain same-day order leaves pre-start status unknown."
+    },
+    {
+      "kind": "observation",
+      "what": "Timing of the latest relevant B12 sample against the first folic acid dose",
+      "meets": "Use the sample date entered with the B12 value or a reliable confirmation for the latest relevant pre-start sample. Check the order on the same day. If only a later result is known, seek the pre-start result.",
+      "options": [
+        {
+          "words": "Latest relevant pre-start sample was taken on an earlier day",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Latest relevant pre-start sample was taken on the same day before the first dose",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Only a sample taken after the first dose is known",
+          "effect": "meets"
+        },
+        {
+          "words": "Same day but the order is unknown",
+          "effect": "unknown"
+        },
+        {
+          "words": "Sample order or date not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Reporting laboratory's interpretation of the pre-start B12 result",
+      "meets": "Use the reporting laboratory's reference interval or its interpretation for the identified pre-start result. A low value leads to the correction check. Leave a borderline value or unknown interpretation open.",
+      "options": [
+        {
+          "words": "Below the laboratory range",
+          "effect": "meets"
+        },
+        {
+          "words": "Within the laboratory range",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Borderline",
+          "effect": "unknown"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "B12 deficiency at the first dose of this folic acid course",
+      "meets": "Ask after a low pre-start result if the outcome is unclear. Confirmed correction before the first dose clears this check. Deficiency still present at that dose supports a finding. A replacement supply alone does not establish correction.",
+      "options": [
+        {
+          "words": "Corrected before the first folic acid dose",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Still uncorrected at the first folic acid dose",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "First dose of this folic acid course (enter the start date and the daily dose if known)",
+      "meets": "If the first visible supply may be a repeat, enter the date of the actual first dose in the date field. The value can name the dose or say that the first dose was confirmed. Accept a dated supply identified as the actual start. Leave the order open if the start is unknown."
+    },
+    {
+      "kind": "observation",
+      "what": "Age at the first dose of this folic acid course",
+      "meets": "Ask only if the pre-start B12 check otherwise warrants review and the record does not establish age at the first dose. Use the answer for that period only.",
+      "options": [
+        {
+          "words": "18 or older",
+          "effect": "meets"
+        },
+        {
+          "words": "Under 18",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "cannot_be_seen": "Whether B12 was checked elsewhere, the reason for the folic acid, the person's diet, and the reference range used by the laboratory.",
+  "ask_the_gp": "A review of the person's vitamin B12 level, and whether any low level has been corrected, before folic acid continues.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

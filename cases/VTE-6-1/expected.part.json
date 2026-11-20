@@ -1,0 +1,50 @@
+[
+  {
+    "file": "VTE-6-1/pos-fact.csv",
+    "kind": "positive",
+    "about": "The day 8 supply gives only a daily total, and the pharmacist confirms that the prescribed apixaban regimen for this clot was still 10 mg twice daily.",
+    "findings": [
+      {
+        "criterion": "VTE-6-1",
+        "must_cite": [
+          [
+            "L042"
+          ],
+          [
+            "L043"
+          ],
+          [
+            "L041"
+          ],
+          [
+            "L044"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "VTE-6-1/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about a current acute deep vein thrombosis or pulmonary embolism, and the day 8 supply continues apixaban 10 mg twice daily.",
+    "findings": [
+      {
+        "criterion": "VTE-6-1",
+        "must_cite": [
+          [
+            "L027"
+          ],
+          [
+            "L028"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "VTE-6-1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "For the same acute deep vein thrombosis, the first dose was 10 mg twice daily on 17 July and the 24 July supply stepped down on day 8 to 5 mg twice daily.",
+    "findings": []
+  }
+]

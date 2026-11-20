@@ -1,0 +1,43 @@
+[
+  {
+    "file": "PROMPT-RS-1/pos-brand.csv",
+    "kind": "positive",
+    "about": "Polaramine (dexchlorpheniramine, a first generation antihistamine) is supplied as 60 tablets at two a day, three times in a row from February 2026 to April 2026, which is about 90 days, and appears by brand name only. The directions identify it as the first treatment for this episode of allergic rhinitis.",
+    "findings": [
+      {
+        "criterion": "PROMPT-RS-1",
+        "must_cite": [
+          [
+            "L014",
+            "L018",
+            "L022"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PROMPT-RS-1/pos-buried.csv",
+    "kind": "positive",
+    "about": "Phenergan (promethazine, a first generation antihistamine) is supplied as 30 tablets at one a night, four times in a row from January 2026 to April 2026, about 120 days, in the middle of a 15-month history. The directions identify it as the first treatment for this episode of allergic rhinitis.",
+    "findings": [
+      {
+        "criterion": "PROMPT-RS-1",
+        "must_cite": [
+          [
+            "L032",
+            "L037",
+            "L043",
+            "L047"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PROMPT-RS-1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Claratyne (loratadine) is a second generation antihistamine and does not count. The only first generation antihistamines are two separate 5-day courses (Phenergan in November 2025 and Polaramine in May 2026).",
+    "findings": []
+  }
+]

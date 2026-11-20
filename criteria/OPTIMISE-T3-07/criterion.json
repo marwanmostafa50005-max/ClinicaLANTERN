@@ -1,0 +1,98 @@
+{
+  "id": "OPTIMISE-T3-07",
+  "label": "OPTIMISE T3-07: long-term oral steroid under 50",
+  "family": "OPTIMISE",
+  "title": "Long-term oral steroid in an adult under 50",
+  "statement": "ii.Adults < 50 years old on oral steroids (prednisolone > 7.5 mg/day or equivalent for ≥ 3 months)",
+  "statement_origin": "published",
+  "source": {
+    "document": "Carolan A, et al. OPTIMISE. BMC Psychiatry 2022;22:585, Tables 2-3",
+    "citation": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "doi": null,
+    "url": null,
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "modification_notice": "Statement text reproduced without changes. Medicine groups, brands and rules added by ClinicaLANTERN."
+  },
+  "plain_summary": "A steroid tablet at a higher dose for three months or more can thin the bones. The statement picks out adults under 50 who take more than 7.5 mg of prednisolone a day, or an equal dose of another steroid.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Oral steroids (corticosteroids)",
+      "ingredients": [
+        "prednisolone",
+        "prednisone",
+        "methylprednisolone",
+        "dexamethasone",
+        "hydrocortisone",
+        "cortisone"
+      ],
+      "brands": {
+        "prednisolone": [
+          "Solone",
+          "Redipred",
+          "Panafcortelone",
+          "Predsolone",
+          "PredMix"
+        ],
+        "prednisone": [
+          "Panafcort",
+          "Predsone",
+          "Sone"
+        ],
+        "methylprednisolone": [
+          "Medrol"
+        ],
+        "dexamethasone": [
+          "Dexmethsone"
+        ],
+        "hydrocortisone": [
+          "Cortef",
+          "Hysone"
+        ],
+        "cortisone": [
+          "Cortate"
+        ]
+      },
+      "note": "Tablets and liquids taken by mouth count. Inhaled, nasal, skin, eye and injected steroids do not count. Equal doses to prednisolone 5 mg: prednisone 5 mg, methylprednisolone 4 mg, dexamethasone 0.75 mg, hydrocortisone 20 mg, cortisone 25 mg. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when the person is aged 18 to 49 and the history shows an oral steroid (Group A) at more than 7.5 mg prednisolone equivalent daily for at least three continuous calendar months. Check cover from dates, quantities and directions. If a gap could decide whether the course qualifies, identify its start and end dates and ask about \"Oral steroid daily dose during each gap (dates, whether above 7.5 mg prednisolone equivalent throughout, and any break)\". Tie the answer to those dates and count only days confirmed above the threshold. An undated answer about a different or unclear gap cannot establish cover. A confirmed break or a day at or below the threshold separates the courses. If cover is uncertain, keep the finding possible unless another continuous period already qualifies. For tablets, multiply mg per tablet by the number of tablets per day. If age is missing and the dose and duration could meet the rule, report only a possible finding and ask whether the person is aged 18 to 49. For oral liquids, divide the labelled mg by the corresponding mL, then multiply the resulting mg per mL by the total mL per day. Convert the daily dose to prednisolone equivalent using the Group A note. If quantities and directions leave a potentially qualifying period unresolved, ask for \"Oral steroid daily dose by period (medicine, amount, unit and start and end dates)\" for each such period. Convert the actual doses before assessing continuous cover. There is no finding if no continuous period qualifies and the evidence settles the dose and duration. Missing doses or dates leave a potentially qualifying course open. Once exposure qualifies, use any dated, age-appropriate fracture-risk assessment for this course. If a completed assessment and management decision still apply, close the repeat request. An outstanding assessment or decision supports review. If unclear, report a possible finding and ask about \"Fracture-risk assessment and management decision for this oral steroid course\".",
+  "cannot_be_seen": "Why the steroid was prescribed, any plan to taper, bone density results, calcium and vitamin D use, and steroid courses given elsewhere or by a hospital.",
+  "ask_the_gp": "Has fracture risk been assessed in light of the oral steroid exposure, and does the result suggest a need for osteoporosis treatment? For an adult under 40, could the review consider fracture history, bone density and vertebral assessment?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Oral steroid daily dose during each gap (dates, whether above 7.5 mg prednisolone equivalent throughout, and any break)",
+      "meets": "Give the gap dates and whether the qualifying oral dose continued every day. Enter the steroid and daily dose if known, or the dates it stopped or fell below the qualifying dose. Use an answer only for the gap it identifies."
+    },
+    {
+      "kind": "observation",
+      "what": "Oral steroid daily dose by period (medicine, amount, unit and start and end dates)",
+      "meets": "For each period that supplies cannot resolve, enter the oral medicine, actual daily dose with its unit, and the first and last dates at that dose."
+    },
+    {
+      "kind": "observation",
+      "what": "Fracture-risk assessment and management decision for this oral steroid course",
+      "meets": "Use a dated assessment that applies to this oral steroid exposure. Ask only if assessment or the current management decision is unclear.",
+      "options": [
+        {
+          "words": "Assessment completed with a management decision that still applies to this course",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "The assessment or management decision for this course is outstanding",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

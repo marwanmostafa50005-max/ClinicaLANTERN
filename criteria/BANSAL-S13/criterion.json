@@ -1,0 +1,305 @@
+{
+  "id": "BANSAL-S13",
+  "label": "BANSAL S13: persistent opioid, constipation, no laxative",
+  "family": "BANSAL",
+  "title": "Persistent opioid with constipation and no laxative",
+  "statement": "Persistent prescription of opioid analgesics to a patient with constipation and without a concurrently prescribed laxative [90, 91]",
+  "statement_origin": "published",
+  "source": {
+    "document": "Bansal N, et al. Development of prescribing indicators related to opioid-related harm in patients with chronic pain in primary care. BMC Med 2024;22:5, Tables 3-4",
+    "citation": "Bansal N, Campbell SM, Lin C-Y, Ashcroft DM, Chen L-C. Development of prescribing indicators related to opioid-related harm in patients with chronic pain in primary care - a modified e-Delphi study. BMC Med 2024;22:5. doi:10.1186/s12916-023-03213-x",
+    "doi": "10.1186/s12916-023-03213-x",
+    "url": "https://doi.org/10.1186/s12916-023-03213-x",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Bansal N, Campbell SM, Lin C-Y, Ashcroft DM, Chen L-C. Development of prescribing indicators related to opioid-related harm in patients with chronic pain in primary care - a modified e-Delphi study. BMC Med 2024;22:5. doi:10.1186/s12916-023-03213-x",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.2 candidate repairs and adopted conventions merged with attribution). Not endorsed by the source authors."
+  },
+  "plain_summary": "Opioids cause constipation, and a person who already has constipation and takes an opioid long term with no laxative may get worse.",
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Constipation",
+      "meets": "Constipation was present during the opioid course. An unknown answer leaves the finding possible.",
+      "options": [
+        {
+          "words": "Constipation present during the opioid course",
+          "effect": "meets"
+        },
+        {
+          "words": "Constipation absent during the opioid course",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Laxative prescription for the constipation episode during opioid treatment",
+      "meets": "Ask only when the other evidence fits and the record leaves prescribed cover unclear. Check the dates of any prescription, including one from another pharmacy or hospital. A prescription covering this period rules out the finding for that period. Self-purchased treatment alone or no laxative meets the prescribing criterion. Record self-purchased use separately. Unknown cover leaves the finding possible.",
+      "options": [
+        {
+          "words": "A prescription covered the constipation episode during opioid treatment",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Bought without a prescription only",
+          "effect": "meets"
+        },
+        {
+          "words": "No laxative",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for the methadone course under review",
+      "meets": "Ask only when the product and record leave its use unclear and the other evidence fits. Count this course for chronic non-cancer pain outside palliative care. Exclude opioid dependence and other uses. Unknown use leaves the finding possible.",
+      "options": [
+        {
+          "words": "Chronic non-cancer pain outside palliative care",
+          "effect": "meets"
+        },
+        {
+          "words": "Opioid dependence",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Another use, including cancer pain or palliative care",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Duration of the opioid course under review",
+      "meets": "Ask only when repeat prescriptions span at least three calendar months and the dates, quantities and directions leave continuity uncertain. One continuing course of at least three calendar months qualifies. A shorter course or separate courses do not. If unknown, keep the finding possible.",
+      "options": [
+        {
+          "words": "One continuing course of at least three calendar months",
+          "effect": "meets"
+        },
+        {
+          "words": "A shorter course or separate courses",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Opioid analgesics",
+      "ingredients": [
+        "codeine",
+        "fentanyl",
+        "hydromorphone",
+        "methadone",
+        "morphine",
+        "oxycodone",
+        "tapentadol",
+        "tramadol",
+        "buprenorphine",
+        "pethidine"
+      ],
+      "brands": {
+        "codeine": [
+          "Panadeine Forte (codeine with paracetamol)",
+          "Panadeine (codeine with paracetamol)",
+          "Codalgin Forte (codeine with paracetamol)",
+          "Mersyndol (codeine with paracetamol and doxylamine)",
+          "Panadeine Extra",
+          "Mersyndol Forte",
+          "Nurofen Plus",
+          "Codphos",
+          "Codapane Forte 500/30",
+          "Comfarol Forte",
+          "Prodeine Forte"
+        ],
+        "fentanyl": [
+          "Durogesic",
+          "Denpax",
+          "Fenpatch"
+        ],
+        "hydromorphone": [
+          "Jurnista",
+          "Dilaudid",
+          "Dilaudid-HP",
+          "Palladone XL"
+        ],
+        "methadone": [
+          "Physeptone",
+          "Opod-D Syrup"
+        ],
+        "morphine": [
+          "MS Contin",
+          "Kapanol",
+          "Ordine",
+          "Sevredol",
+          "MS Mono",
+          "Anamorph",
+          "MS Contin Suspension",
+          "MS Normal",
+          "Momex SR",
+          "RA-Morph"
+        ],
+        "oxycodone": [
+          "OxyContin",
+          "OxyNorm",
+          "Endone",
+          "Proladone",
+          "Targin (oxycodone with naloxone)",
+          "Endone XR",
+          "Novacodone",
+          "Oxycodor",
+          "Oxycone",
+          "Oxylenus",
+          "Oxylieve MR",
+          "Oxyndone",
+          "Xedone"
+        ],
+        "tapentadol": [
+          "Palexia",
+          "Palexia SR",
+          "Lodat SR",
+          "Palexia IR",
+          "Tadol IR",
+          "Tadol SR",
+          "Tapal IR",
+          "Tapal SR",
+          "Tapex IR",
+          "Tapex SR",
+          "Tapexia",
+          "Tapexia SR"
+        ],
+        "tramadol": [
+          "Tramal",
+          "Tramal SR",
+          "Zydol",
+          "Zydol SR",
+          "Durotram",
+          "Durotram XR",
+          "Iptramol",
+          "Lodam",
+          "Lodam SR",
+          "Tramahexal",
+          "Tramahexal SR",
+          "Tramal Drops",
+          "Tramedo",
+          "Tramedo SR"
+        ],
+        "buprenorphine": [
+          "Norspan",
+          "Temgesic",
+          "Bupredermal",
+          "B-Patch"
+        ],
+        "pethidine": []
+      },
+      "note": "Count products supplied for pain, including generic packs labelled with the ingredient and company. Temgesic sublingual tablets are a pain product. Exclude cough linctuses and buprenorphine products for dependence, including depot injections. Exclude Biodone Forte, Opod-P Liquid and Physeptone Liquid when matching analgesic brands. For methadone, check the form and reason for supply. Physeptone tablets and Opod-D Syrup can count for pain. If the indication or Physeptone formulation is unclear, report at most a possible finding and ask what was supplied and why. Estimate the course from dated repeat supplies. For fixed directions, divide the quantity by the units used per day and compare the covered dates, including any stop date. If repeated supplies span at least three calendar months but unclear or as-needed directions leave persistence uncertain, report only a possible finding and ask how often and for how long the opioid was prescribed. Separate short courses do not establish persistent prescribing. The pharmacist judges borderline timing. If age is unknown and the other evidence fits, ask the pharmacist to check whether the person is over 18."
+    },
+    {
+      "key": "B",
+      "name": "Laxatives",
+      "ingredients": [
+        "macrogol",
+        "sennosides",
+        "docusate",
+        "lactulose",
+        "sodium picosulfate",
+        "bisacodyl",
+        "ispaghula husk",
+        "psyllium husk powder",
+        "macrogol-3350",
+        "sterculia",
+        "prucalopride",
+        "liquid paraffin",
+        "glycerol"
+      ],
+      "brands": {
+        "macrogol": [
+          "Movicol",
+          "Movicol Junior Lemon-Lime Flavour",
+          "Osmolax",
+          "Movicol-Half",
+          "Molaxole"
+        ],
+        "sennosides": [
+          "Senokot",
+          "Coloxyl with Senna"
+        ],
+        "docusate": [
+          "Coloxyl"
+        ],
+        "lactulose": [
+          "Duphalac",
+          "Actilax",
+          "Dulose",
+          "Genlac",
+          "Lac-Dol",
+          "Lactocur"
+        ],
+        "sodium picosulfate": [
+          "Dulcolax SP Drops"
+        ],
+        "bisacodyl": [
+          "Dulcolax",
+          "Bisalax",
+          "Bisalax Micro",
+          "Dulcolax for Children",
+          "Lax-Suppositories",
+          "Lax-Tab",
+          "Lax-Tab EC"
+        ],
+        "ispaghula husk": [
+          "Metamucil",
+          "Fybogel"
+        ],
+        "psyllium husk powder": [
+          "Metamucil"
+        ],
+        "macrogol-3350": [
+          "Movicol",
+          "Movicol Junior Lemon-Lime Flavour",
+          "Osmolax",
+          "Movicol-Half",
+          "Molaxole"
+        ],
+        "sterculia": [
+          "Normacol Plus"
+        ],
+        "prucalopride": [
+          "Resotrans"
+        ],
+        "liquid paraffin": [
+          "Agarol",
+          "Little Parachoc"
+        ],
+        "glycerol": []
+      },
+      "note": "Any regular laxative counts, including a bulk-forming one. Match the full name Dulcolax SP Drops to sodium picosulfate before matching Dulcolax to bisacodyl. Recognise senna as a sennoside laxative and docusate with senna as a combination. Normacol Plus contains sterculia and frangula. Check that the laxative was prescribed for constipation during the relevant period. A bowel preparation for a single procedure, including PicoPrep, Glycoprep or Moviprep, does not establish concurrent laxative treatment. Use the same dates, quantities, directions and any stop date to check whether a prescribed laxative covered the constipation episode during opioid treatment. If cover is unclear, report only a possible finding and ask whether a laxative was prescribed then. A laxative course documented to have ended before that period does not count. Ask whether the patient had constipation then and what laxatives they used, including any bought without a prescription or prescribed elsewhere. Record self-purchased use separately from concurrent prescribing. Count oral prucalopride, oral liquid paraffin and rectal glycerol for constipation only when prescribed to cover the episode. Exclude skin products, ear drops and bowel preparations."
+    }
+  ],
+  "rule_for_models": "For a person over 18, suspect a finding when repeat Group A opioid supplies for pain cover at least three calendar months, the record shows current constipation during treatment and no prescribed Group B laxative covers that episode. Cite the opioid supplies and the constipation line, and exclude opioids for cancer pain or palliative care and periods when constipation was absent or had already resolved. If the other evidence fits but constipation is undocumented or age, opioid indication, Physeptone formulation, opioid persistence or laxative cover is unclear, report only a possible finding and ask for the missing detail. For uncertain laxative cover, verify the prescription dates for this episode, including prescriptions from elsewhere. A laxative bought without a prescription does not clear the prescribing finding.",
+  "cannot_be_seen": "Whether the person has constipation if it is not recorded, laxatives bought without a prescription or supplied by another pharmacy or hospital, and diet and fluid intake.",
+  "ask_the_gp": "A review of bowel function and whether a regular laxative is needed with the opioid.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

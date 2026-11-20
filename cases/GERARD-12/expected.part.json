@@ -1,0 +1,47 @@
+[
+  {
+    "file": "GERARD-12/pos-fact.csv",
+    "kind": "positive",
+    "about": "The new gliclazide direction follows an HbA1c of 6.6% in a person with type 2 diabetes.",
+    "findings": [
+      {
+        "criterion": "GERARD-12",
+        "must_cite": [
+          [
+            "L002"
+          ],
+          [
+            "L040"
+          ],
+          [
+            "L041"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "GERARD-12/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about HbA1c at the documented start of gliclazide.",
+    "findings": [
+      {
+        "criterion": "GERARD-12",
+        "must_cite": [
+          [
+            "L002"
+          ],
+          [
+            "L025"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "GERARD-12/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The HbA1c available at the documented start of gliclazide was exactly 7.0%.",
+    "findings": []
+  }
+]

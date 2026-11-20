@@ -1,0 +1,44 @@
+[
+  {
+    "file": "DREISCHULTE-19/pos-brand.csv",
+    "kind": "positive",
+    "about": "At age 48, Naprosyn overlaps with Atacand and the record shows no supply of a diuretic within 60 days either side of the NSAID supply.",
+    "findings": [
+      {
+        "criterion": "DREISCHULTE-19",
+        "must_cite": [
+          [
+            "L019"
+          ],
+          [
+            "L016"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "DREISCHULTE-19/pos-buried.csv",
+    "kind": "positive",
+    "about": "At age 64, naproxen overlaps with perindopril and the record shows no supply of a diuretic within 60 days either side of the NSAID supply.",
+    "findings": [
+      {
+        "criterion": "DREISCHULTE-19",
+        "must_cite": [
+          [
+            "L036"
+          ],
+          [
+            "L033"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "DREISCHULTE-19/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Indapamide covers the full naproxen course from 2025-10-29 to 2025-10-31, so there is no finding.",
+    "findings": []
+  }
+]

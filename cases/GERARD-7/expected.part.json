@@ -1,0 +1,47 @@
+[
+  {
+    "file": "GERARD-7/pos-fact.csv",
+    "kind": "positive",
+    "about": "The record documents type 2 diabetes and bacterial cellulitis of the scrotal skin during empagliflozin treatment.",
+    "findings": [
+      {
+        "criterion": "GERARD-7",
+        "must_cite": [
+          [
+            "L045"
+          ],
+          [
+            "L002"
+          ],
+          [
+            "L046"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "GERARD-7/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about bacterial skin infection of the pelvis or genitals during empagliflozin treatment for a person with recorded type 2 diabetes.",
+    "findings": [
+      {
+        "criterion": "GERARD-7",
+        "must_cite": [
+          [
+            "L026"
+          ],
+          [
+            "L002"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "GERARD-7/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The infection is bacterial but confined to the forearm, with pelvic and genital skin recorded as unaffected.",
+    "findings": []
+  }
+]

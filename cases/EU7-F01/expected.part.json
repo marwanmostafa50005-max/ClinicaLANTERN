@@ -1,0 +1,34 @@
+[
+  {
+    "file": "EU7-F01/pos-brand.csv",
+    "kind": "positive",
+    "about": "Mylanta Double Strength (aluminium hydroxide with magnesium hydroxide and simethicone), by brand name only, is supplied six times from March to October 2026 to a 72-year-old woman.",
+    "findings": [
+      {
+        "criterion": "EU7-F01",
+        "must_cite": [
+          ["L010", "L013", "L018", "L025", "L028", "L034"]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F01/pos-buried.csv",
+    "kind": "positive",
+    "about": "Mylanta FastChews (calcium carbonate with magnesium hydroxide) chewable tablets are supplied three times from 13 January 2026 to 12 March 2026, in the middle of a 14-month history, to a 69-year-old man.",
+    "findings": [
+      {
+        "criterion": "EU7-F01",
+        "must_cite": [
+          ["L030", "L034", "L039"]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F01/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Alu-Tab is supplied solely to bind phosphate with meals. The Gaviscon Dual Action supplies contain neither magnesium hydroxide nor aluminium.",
+    "findings": []
+  }
+]

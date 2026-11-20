@@ -1,0 +1,48 @@
+{
+  "id": "EU7-F52",
+  "label": "EU(7)-PIM: aspirin above 325 mg",
+  "family": "EU7",
+  "title": "Aspirin at a dose above 325 mg",
+  "statement": "Acetylsalicylic acid (>325 mg) | In lists: 3, 5 (A); 2, 5, 6 (B) | Main reason: May exacerbate existing GI ulcers or produce new GI ulcers; increased risk of bleeding due to prolongated clotting time, elevation of INR values or inhibition of platelet aggregation | Dose adjustment/special considerations: (blank: per ESM note, no suggestion by experts or in Micromedex) | Alternatives: Paracetamol; ibuprofen (≤3 x 400 mg/d or for a period shorter than one week); naproxen (≤2 x 250 mg/d or for a period shorter than one week). E Opioids with lower risk of delirium (e.g., tilidine/naloxone, morphine[d], oxycodone, buprenorphine, hydromorphone). E, P",
+  "statement_origin": "published",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Aspirin in doses above 325 mg can cause stomach ulcers and bleeding in people aged 65 and over.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Aspirin (acetylsalicylic acid) at pain-relief doses",
+      "ingredients": [
+        "aspirin",
+        "acetylsalicylic acid"
+      ],
+      "brands": {
+        "aspirin": [
+          "Disprin",
+          "Solprin",
+          "Aspro",
+          "Aspro Clear",
+          "Aspro Clear Extra Strength",
+          "Aspalgin",
+          "Disprin Max"
+        ],
+        "acetylsalicylic acid": []
+      },
+      "note": "Only a dose above 325 mg counts. Low-dose aspirin (for example 100 mg once a day) does not count. Combination products that contain aspirin count if the aspirin part is above 325 mg. Generic packs that show the ingredient name with a company name count too. Disprin Max contains 500 mg of aspirin per tablet. Aspalgin contains 300 mg of aspirin and 8 mg of codeine phosphate hemihydrate per tablet. Count only the aspirin when calculating the dose."
+    }
+  ],
+  "rule_for_models": "For a person aged 65 or older, flag aspirin when a directed single dose exceeds 325 mg. If the aspirin dose could meet the criterion and age is unknown, report only a possible finding and ask the pharmacist to confirm whether the person is aged 65 or over. Calculate the aspirin per dose from its strength and the directed quantity, and the daily total from the frequency when stated. A known daily total of 325 mg or less gives no finding. If neither a single dose above 325 mg nor a daily total can be established, report only a possible finding and ask how much is taken at once and in a day. For a daily total above 325 mg, whether divided or given as separately stated doses, report only a possible finding if no single dose is known to exceed 325 mg, and state that the source does not specify whether its limit is per dose or per day.",
+  "cannot_be_seen": "Whether the aspirin is really taken, aspirin bought without a prescription, why it is used, and any past ulcer or bleeding.",
+  "ask_the_gp": "Whether a dose above 325 mg is needed and whether a safer pain medicine could replace it.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

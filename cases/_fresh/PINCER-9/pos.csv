@@ -1,0 +1,6 @@
+patient_ref,patient_age,patient_sex,record_type,dispense_date,medicine,brand,strength,form,quantity,repeats_left,directions,prescriber,detail,value
+F-FR-P9-1,61,F,,2026-03-26,methotrexate,Trexject,10 mg,tablet,15,3,Take as directed by your specialist,Dr B. Sample,,
+F-FR-P9-1,61,F,,2026-04-09,folic acid,Folicid,5 mg,tablet,30,4,Take ONE tablet daily except on methotrexate day,Dr A. Example,,
+F-FR-P9-1,61,F,,2026-04-23,methotrexate,Trexject,10 mg,tablet,15,2,Take as directed by your specialist,Dr B. Sample,,
+F-FR-P9-1,61,F,,2026-05-07,naproxen,Naprogesic,275 mg,tablet,60,2,Take ONE tablet twice a day with food,Dr A. Example,,
+F-FR-P9-1,61,F,,2026-05-21,methotrexate,Trexject,10 mg,tablet,15,0,Take as directed,Dr B. Sample,,

@@ -1,0 +1,38 @@
+[
+  {
+    "file": "START-L1/pos-fact.csv",
+    "kind": "positive",
+    "about": "The status line confirms the 2025 seasonal dose and no administration of the 2026 Australian formulation.",
+    "findings": [
+      {
+        "criterion": "START-L1",
+        "must_cite": [
+          [
+            "L045"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-L1/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about influenza vaccination and no influenza vaccine is supplied in the nine months of history.",
+    "findings": [
+      {
+        "criterion": "START-L1",
+        "must_cite": [
+          [
+            "L028"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-L1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The 2026 Australian seasonal formulation was given in April 2026, before the September assessment.",
+    "findings": []
+  }
+]

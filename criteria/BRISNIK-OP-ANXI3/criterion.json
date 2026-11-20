@@ -1,0 +1,293 @@
+{
+  "id": "BRISNIK-OP-ANXI3",
+  "label": "Brisnik ANXI3: antidepressant for anxiety over 12 months with full remission",
+  "family": "BRISNIK",
+  "title": "Antidepressant for anxiety for over 12 months, now in full remission",
+  "statement": "Prescribed an antidepressant > 12 months for anxiety - and the patient has achieved full remission",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A person whose anxiety is in full remission after more than 12 months of an antidepressant may no longer need it, so the treatment should be reviewed.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antidepressants",
+      "ingredients": [
+        "citalopram",
+        "escitalopram",
+        "fluoxetine",
+        "fluvoxamine",
+        "paroxetine",
+        "sertraline",
+        "desvenlafaxine",
+        "duloxetine",
+        "venlafaxine",
+        "amitriptyline",
+        "clomipramine",
+        "dosulepin",
+        "doxepin",
+        "imipramine",
+        "nortriptyline",
+        "trimipramine",
+        "moclobemide",
+        "phenelzine",
+        "tranylcypromine",
+        "bupropion",
+        "agomelatine",
+        "mirtazapine",
+        "vortioxetine",
+        "mianserin",
+        "reboxetine"
+      ],
+      "brands": {
+        "citalopram": [
+          "Cipramil",
+          "Celapram",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talam",
+          "Talohexal"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam",
+          "Loxalate"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Zactin",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Extine",
+          "Aropax CR",
+          "Oxetine",
+          "Paroxo",
+          "Paxtine",
+          "Roxet",
+          "Roxtine"
+        ],
+        "sertraline": [
+          "Zoloft",
+          "Concorz",
+          "Detralon",
+          "Eleva",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Setrona",
+          "Tralen",
+          "Xydep"
+        ],
+        "desvenlafaxine": [
+          "Pristiq",
+          "Desfax",
+          "Desven"
+        ],
+        "duloxetine": [
+          "Cymbalta",
+          "Andepra",
+          "Baltine",
+          "Coperin",
+          "Deotine",
+          "Depreta",
+          "Drulox",
+          "Dulocym",
+          "Duloxecor",
+          "Dytrex",
+          "Symlox",
+          "Texotine",
+          "Tixol",
+          "Xerol DR"
+        ],
+        "venlafaxine": [
+          "Efexor-XR",
+          "Altven",
+          "Elaxine",
+          "Elaxine SR",
+          "Enlafax XR",
+          "Evelexa XR",
+          "Ozvenaf",
+          "Venfax SR",
+          "Venla",
+          "Venlexor XR"
+        ],
+        "amitriptyline": [
+          "Endep",
+          "Amichlor",
+          "Amidep",
+          "Entrip"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "dosulepin": [
+          "Dothep",
+          "Prothiaden"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ],
+        "moclobemide": [
+          "Aurorix",
+          "Maosig",
+          "Amira",
+          "Arima",
+          "Clobemide",
+          "Clobemix",
+          "Mohexal"
+        ],
+        "phenelzine": [
+          "Nardil"
+        ],
+        "tranylcypromine": [
+          "Parnate",
+          "Parpromine",
+          "Tranamef",
+          "Tranylmed"
+        ],
+        "bupropion": [
+          "Zyban"
+        ],
+        "agomelatine": [
+          "Valdoxan",
+          "Domion",
+          "Nortim",
+          "Valomel"
+        ],
+        "mirtazapine": [
+          "Avanza",
+          "Remeron",
+          "Aurozapine",
+          "Avanza Soltab",
+          "Axit",
+          "Milivin OD",
+          "Mirtanza",
+          "Mirtanza ODT",
+          "Mirtazon",
+          "Remeron Soltab"
+        ],
+        "vortioxetine": [
+          "Brintellix"
+        ],
+        "mianserin": [
+          "Tolvon",
+          "Lumin"
+        ],
+        "reboxetine": [
+          "Edronax"
+        ]
+      },
+      "note": "Count oral antidepressant tablets, capsules and liquids when the indication fits this criterion. Exclude topical doxepin and bupropion with naltrexone for weight management (Contrave). Generic packs that show the ingredient name with a company name count too. Bupropion is listed under Zyban, which is sold for quitting smoking."
+    }
+  ],
+  "rule_for_models": "Report a finding when one oral Group A antidepressant course for anxiety has lasted more than twelve calendar months by the date of review and the latest relevant assessment documents full remission. Cite the supplies spanning the course and the assessment. Check starts, stops and restarts. From the final pack count only days already elapsed by review, using quantity and directions. Active illness, relapse, another sole indication or a known duration of twelve months or less gives no finding. If indication, duration or remission is uncertain, report a possible finding and ask for what is missing. A low score alone does not establish remission. If supplies leave the duration uncertain, ask for the start or restart date of this course and the dates of any breaks. Use verified dates through review and count from the restart after a break.",
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Anxiety disorder (the reason for the antidepressant)",
+      "meets": "The record identifies anxiety as a reason for this antidepressant course. If the antidepressant was prescribed solely for a different indication, there is no finding. If the reason is unknown, report only a possible finding.",
+      "options": [
+        {
+          "words": "Anxiety is a reason for this antidepressant course",
+          "effect": "meets"
+        },
+        {
+          "words": "This antidepressant course is solely for another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Latest anxiety assessment during this course (enter the date and whether it records full remission, active illness or uncertainty)",
+      "meets": "The latest relevant assessment documents full remission of the anxiety disorder being treated. A low symptom score alone leaves remission uncertain.",
+      "options": [
+        {
+          "words": "The latest assessment documents full remission",
+          "effect": "meets"
+        },
+        {
+          "words": "The latest assessment documents ongoing illness, partial remission or relapse",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "result",
+      "what": "Dates of this anxiety treatment course (enter the medicine, start or restart date and dates of any breaks)",
+      "meets": "Ask only if the supplies leave the duration uncertain and the course could otherwise qualify. Use the verified start or restart date and any breaks through review. More than twelve calendar months on the current course meets the duration test. Exactly twelve months or less excludes the finding. If a date needed to decide is unknown, the finding remains possible."
+    }
+  ],
+  "cannot_be_seen": "Why the antidepressant was prescribed, how long the person has really been well, and how the person feels now. The record shows only supplies and any entries made.",
+  "ask_the_gp": "Could we review the benefits of continuing treatment, the risk of relapse and the patient's preference? If you and the patient agree to stop, what taper and follow-up would suit them?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

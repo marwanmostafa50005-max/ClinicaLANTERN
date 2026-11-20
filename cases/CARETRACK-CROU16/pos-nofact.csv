@@ -1,0 +1,30 @@
+patient_ref,patient_age,patient_sex,record_type,dispense_date,medicine,brand,strength,form,quantity,repeats_left,directions,prescriber,detail,value
+F-CROU16-02,4,M,observation,2026-01-07,,,,,,,,,Weight,14.6 kg
+F-CROU16-02,4,M,observation,2026-01-07,,,,,,,,,Height,97.2 cm
+F-CROU16-02,4,M,observation,2026-01-07,,,,,,,,,Pulse,101 beats/min
+F-CROU16-02,4,M,,2026-01-07,white soft paraffin,,100%,ointment,100 g,0,Apply a thin layer to dry skin as needed,Dr A. Example,,
+F-CROU16-02,4,M,observation,2026-02-02,,,,,,,,,Weight,14.8 kg
+F-CROU16-02,4,M,observation,2026-02-02,,,,,,,,,Height,97.7 cm
+F-CROU16-02,4,M,observation,2026-02-02,,,,,,,,,Pulse,104 beats/min
+F-CROU16-02,4,M,observation,2026-02-28,,,,,,,,,Weight,14.9 kg
+F-CROU16-02,4,M,observation,2026-02-28,,,,,,,,,Height,98.1 cm
+F-CROU16-02,4,M,observation,2026-02-28,,,,,,,,,Pulse,107 beats/min
+F-CROU16-02,4,M,,2026-02-28,white soft paraffin,,100%,ointment,100 g,0,Apply a thin layer to dry skin as needed,Dr A. Example,,
+F-CROU16-02,4,M,observation,2026-03-26,,,,,,,,,Weight,15.1 kg
+F-CROU16-02,4,M,observation,2026-03-26,,,,,,,,,Height,98.6 cm
+F-CROU16-02,4,M,observation,2026-03-26,,,,,,,,,Pulse,101 beats/min
+F-CROU16-02,4,M,observation,2026-04-21,,,,,,,,,Weight,15.2 kg
+F-CROU16-02,4,M,observation,2026-04-21,,,,,,,,,Height,99.0 cm
+F-CROU16-02,4,M,observation,2026-04-21,,,,,,,,,Pulse,104 beats/min
+F-CROU16-02,4,M,,2026-04-21,white soft paraffin,,100%,ointment,100 g,0,Apply a thin layer to dry skin as needed,Dr A. Example,,
+F-CROU16-02,4,M,observation,2026-05-17,,,,,,,,,Weight,15.4 kg
+F-CROU16-02,4,M,observation,2026-05-17,,,,,,,,,Height,99.5 cm
+F-CROU16-02,4,M,observation,2026-05-17,,,,,,,,,Pulse,107 beats/min
+F-CROU16-02,4,M,,2026-05-19,amoxicillin,Amoxicillin B&B,250 mg/5 mL,oral suspension,100 mL,0,Give 5 mL twice daily for five days for croup,Dr A. Example,,
+F-CROU16-02,4,M,observation,2026-06-12,,,,,,,,,Weight,15.5 kg
+F-CROU16-02,4,M,observation,2026-06-12,,,,,,,,,Height,100.0 cm
+F-CROU16-02,4,M,observation,2026-06-12,,,,,,,,,Pulse,101 beats/min
+F-CROU16-02,4,M,,2026-06-12,white soft paraffin,,100%,ointment,100 g,0,Apply a thin layer to dry skin as needed,Dr A. Example,,
+F-CROU16-02,4,M,observation,2026-07-08,,,,,,,,,Weight,15.7 kg
+F-CROU16-02,4,M,observation,2026-07-08,,,,,,,,,Height,100.4 cm
+F-CROU16-02,4,M,observation,2026-07-08,,,,,,,,,Pulse,104 beats/min

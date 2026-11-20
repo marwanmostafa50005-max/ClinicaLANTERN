@@ -1,0 +1,41 @@
+[
+  {
+    "file": "STOPP-D2/pos-fact.csv",
+    "kind": "positive",
+    "about": "L017 records the decision to start amitriptyline as the first antidepressant for this episode of major depression. L018 is its first supply.",
+    "findings": [
+      {
+        "criterion": "STOPP-D2",
+        "must_cite": [
+          [
+            "L018"
+          ],
+          [
+            "L017"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-D2/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: Dothep 75 (dosulepin) first appears at L016. The record gives no indication and does not establish whether this was the first treatment for an episode of major depression.",
+    "findings": [
+      {
+        "criterion": "STOPP-D2",
+        "must_cite": [
+          [
+            "L016"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-D2/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The June amitriptyline course was for nerve pain, and L023 records its later use for major depression after sertraline.",
+    "findings": []
+  }
+]

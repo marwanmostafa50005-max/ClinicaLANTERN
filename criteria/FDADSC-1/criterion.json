@@ -1,0 +1,66 @@
+{
+  "id": "FDADSC-1",
+  "label": "FDADSC: denosumab and advanced kidney disease",
+  "family": "FDADSC",
+  "title": "Denosumab 60 mg with advanced kidney disease or dialysis",
+  "statement": "Based on a completed FDA review of available information, FDA has concluded that the osteoporosis medicine Prolia (denosumab) increases the risk of severe hypocalcemia, very low blood calcium levels, in patients with advanced chronic kidney disease (CKD), particularly patients on dialysis.",
+  "statement_origin": "published",
+  "source": {
+    "document": "US FDA Drug Safety Communication: Prolia (denosumab)",
+    "citation": "US Food and Drug Administration. Prolia Drug Safety Communication. Posted 19 January 2024.",
+    "url": "https://www.fda.gov/safety/medical-product-safety-information/prolia-denosumab-drug-safety-communication-fda-adds-boxed-warning-increased-risk-severe-hypocalcemia",
+    "licence": "Public domain",
+    "licence_status": "proposed",
+    "credit": "Credit the U.S. Food and Drug Administration as the source. Credit is appreciated but not required. FDA recommends recording the copy date and linking to the source.",
+    "modification_notice": "Statement reproduced without changes."
+  },
+  "plain_summary": "Denosumab 60 mg can cause severe hypocalcaemia in advanced chronic kidney disease, especially during dialysis. Australian Prolia PI v10.0, 25 February 2026, says the risk is significant when creatinine clearance is below 30 mL/min or with dialysis. Correct low calcium before starting and ensure adequate calcium and vitamin D. Check calcium before each dose. The Australian product information emphasises monitoring in the first two weeks after starting in patients at risk. For advanced CKD, the FDA recommends frequent calcium monitoring, especially during weeks 2 to 10 after each injection. This Australian PI does not carry a boxed warning.",
+  "medicine_groups": [
+    {
+      "key": "denosumab_osteoporosis",
+      "name": "Denosumab 60 mg pre-filled syringe",
+      "ingredients": [
+        "denosumab"
+      ],
+      "brands": {
+        "denosumab": [
+          "Prolia",
+          "Jubbonti",
+          "Stoboclo",
+          "Corora",
+          "Ospomyv",
+          "Denolia",
+          "Deskeltia"
+        ]
+      },
+      "note": "Exclude 120 mg oncology products such as Xgeva, Wyost, Osenvelt, Ganvado, Xborso, Dostiva and Dexeva. Generic packs that name denosumab count when the strength and form match. V2a sources: Australian Prolia Product Information and Australian Xgeva Product Information. A denosumab 60 mg/mL pre-filled syringe containing 1 mL counts for any indication."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Advanced chronic kidney disease or dialysis",
+      "meets": "Stage 4 or 5 CKD or dialysis at the dose qualifies. Creatinine clearance below 30 mL/min or eGFR below 30 mL/min/1.73 m² relevant to the dose also warrants review.",
+      "options": [
+        {
+          "words": "Stage 4 or 5 kidney disease or dialysis at the dose under review",
+          "effect": "meets"
+        },
+        {
+          "words": "Neither at the dose under review",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "For a denosumab 60 mg pre-filled syringe, cite the supply and renal evidence relevant to that dose if it shows stage 4 or 5 CKD, dialysis, creatinine clearance below 30 mL/min or eGFR below 30 mL/min/1.73 m². A low result warrants review even if chronicity is unclear. If the pharmacist confirms no advanced CKD or dialysis at the dose and there is no qualifying renal result, or renal evidence rules out severe impairment at the dose, give no finding. If status is unknown, unclear or only known at another time, cite the supply and ask about renal status at the dose.",
+  "cannot_be_seen": "A supply date does not prove that the injection was administered. Kidney function, dialysis, serum calcium and supplement use may be missing or recorded elsewhere. CKD mineral and bone disorder and symptoms may not be recorded.",
+  "ask_the_gp": "A review of kidney function, serum calcium, and calcium and vitamin D supplementation before denosumab administration, with monitoring after the dose.",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,759 @@
+{
+  "format": "clinicalantern-eval-1",
+  "stage": "Prototype",
+  "note": "Fictional patients only. No real person is in these histories. One measured run on one computer. It is not a validation.",
+  "stamp": "20261118-083049",
+  "startedAt": "2026-11-17T21:30:49.453Z",
+  "finishedAt": "2026-11-17T21:31:28.824Z",
+  "seconds": 39.4,
+  "stoppedEarly": null,
+  "partRun": false,
+  "options": {
+    "only": [],
+    "cases": [],
+    "limit": null,
+    "letters": true,
+    "sheet": "cases/_demo/expected.demo.json"
+  },
+  "settings": {
+    "ollamaBase": "http://127.0.0.1:27435",
+    "models": {
+      "screen": "lantern-screen",
+      "check": "lantern-check",
+      "letter": "lantern-letter"
+    },
+    "think": {
+      "screen": false,
+      "check": false,
+      "letter": false
+    },
+    "numCtx": 16384,
+    "keepAlive": "20m",
+    "maxLinesPerCall": 150,
+    "overlapLines": 30
+  },
+  "sheet": {
+    "path": "cases/_demo/expected.demo.json",
+    "signed_by_clinical_reviewer": null,
+    "caseCount": 2,
+    "warnings": []
+  },
+  "activeCriteria": [
+    "DEMO-NSAID-ANTICOAG"
+  ],
+  "criteria": [
+    {
+      "id": "DEMO-NSAID-ANTICOAG",
+      "label": "Demo criterion (NSAID with an anticoagulant)",
+      "family": "Demo",
+      "title": "Test stand-in: an NSAID supplied with an oral anticoagulant",
+      "statement": "A non-steroidal anti-inflammatory drug (NSAID) supplied to a person who is also being supplied an oral anticoagulant (risk of major bleeding).",
+      "statement_origin": "entrant",
+      "source": {
+        "document": "Test wording written for this prototype",
+        "citation": "Written by the entrant to test the engine. It is not the published wording of any criterion.",
+        "licence": "The entrant's own wording. No outside licence applies.",
+        "licence_status": "proposed",
+        "credit": "Test wording written by the entrant for this prototype. It is not a published criterion."
+      },
+      "plain_summary": "An anti-inflammatory pain medicine and a blood thinner supplied together can raise the risk of serious bleeding.",
+      "medicine_groups": [
+        {
+          "key": "A",
+          "name": "Oral NSAIDs",
+          "ingredients": [
+            "ibuprofen",
+            "diclofenac",
+            "naproxen",
+            "celecoxib",
+            "meloxicam",
+            "indometacin",
+            "piroxicam",
+            "ketoprofen",
+            "mefenamic acid",
+            "etoricoxib"
+          ],
+          "brands": {
+            "ibuprofen": [
+              "Nurofen",
+              "Brufen",
+              "Advil"
+            ],
+            "diclofenac": [
+              "Voltaren",
+              "Fenac"
+            ],
+            "naproxen": [
+              "Naprosyn",
+              "Naprogesic",
+              "Anaprox"
+            ],
+            "celecoxib": [
+              "Celebrex"
+            ],
+            "meloxicam": [
+              "Mobic"
+            ],
+            "indometacin": [
+              "Indocid"
+            ],
+            "piroxicam": [
+              "Feldene"
+            ],
+            "ketoprofen": [
+              "Orudis"
+            ],
+            "mefenamic acid": [
+              "Ponstan"
+            ],
+            "etoricoxib": [
+              "Arcoxia"
+            ]
+          }
+        },
+        {
+          "key": "B",
+          "name": "Oral anticoagulants",
+          "ingredients": [
+            "warfarin",
+            "dabigatran",
+            "apixaban",
+            "rivaroxaban"
+          ],
+          "brands": {
+            "warfarin": [
+              "Coumadin",
+              "Marevan"
+            ],
+            "dabigatran": [
+              "Pradaxa"
+            ],
+            "apixaban": [
+              "Eliquis"
+            ],
+            "rivaroxaban": [
+              "Xarelto"
+            ]
+          }
+        }
+      ],
+      "rule_for_models": "Suspect a finding when at least one Group A medicine AND at least one Group B medicine both appear in the history with supply dates that overlap or fall within 60 days of each other.",
+      "cannot_be_seen": "Why the anticoagulant was started, kidney function, any history of bleeding, and any pain or stomach medicines bought without a prescription.",
+      "ask_the_gp": "Whether the NSAID is still needed while the anticoagulant continues, and the patient's risk of bleeding.",
+      "urgency": "routine",
+      "draft": true,
+      "signed_by_clinical_reviewer": null
+    }
+  ],
+  "cases": [
+    {
+      "caseId": "C0001",
+      "file": "_demo/positive.csv",
+      "folder": "_demo",
+      "kind": "positive",
+      "about": "Celebrex (celecoxib, an NSAID) is supplied on 21 August and 20 September 2026 while Xarelto (rivaroxaban, an oral anticoagulant) is supplied every month. Both are written by brand name only.",
+      "findings": [
+        {
+          "criterion": "DEMO-NSAID-ANTICOAG",
+          "must_cite": [
+            [
+              "L036",
+              "L041"
+            ],
+            [
+              "L004",
+              "L008",
+              "L012",
+              "L017",
+              "L022",
+              "L026",
+              "L030",
+              "L035",
+              "L040",
+              "L045"
+            ]
+          ]
+        }
+      ],
+      "patient": {
+        "label": "Fictional patient F-001",
+        "age": 72,
+        "sex": "F"
+      },
+      "lines": [
+        {
+          "id": "L001",
+          "text": "2026-01-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+        },
+        {
+          "id": "L002",
+          "text": "2026-01-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+        },
+        {
+          "id": "L003",
+          "text": "2026-01-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+        },
+        {
+          "id": "L004",
+          "text": "2026-01-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+        },
+        {
+          "id": "L005",
+          "text": "2026-02-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+        },
+        {
+          "id": "L006",
+          "text": "2026-02-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+        },
+        {
+          "id": "L007",
+          "text": "2026-02-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+        },
+        {
+          "id": "L008",
+          "text": "2026-02-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+        },
+        {
+          "id": "L009",
+          "text": "2026-03-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+        },
+        {
+          "id": "L010",
+          "text": "2026-03-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+        },
+        {
+          "id": "L011",
+          "text": "2026-03-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+        },
+        {
+          "id": "L012",
+          "text": "2026-03-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+        },
+        {
+          "id": "L013",
+          "text": "2026-03-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+        },
+        {
+          "id": "L014",
+          "text": "2026-04-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+        },
+        {
+          "id": "L015",
+          "text": "2026-04-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+        },
+        {
+          "id": "L016",
+          "text": "2026-04-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+        },
+        {
+          "id": "L017",
+          "text": "2026-04-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+        },
+        {
+          "id": "L018",
+          "text": "2026-04-19 | Amoxil (amoxicillin) 500 mg capsule | qty 20 | repeats 0 | Take ONE capsule three times a day until finished | Dr G. Sample"
+        },
+        {
+          "id": "L019",
+          "text": "2026-05-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+        },
+        {
+          "id": "L020",
+          "text": "2026-05-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+        },
+        {
+          "id": "L021",
+          "text": "2026-05-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+        },
+        {
+          "id": "L022",
+          "text": "2026-05-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+        },
+        {
+          "id": "L023",
+          "text": "2026-06-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+        },
+        {
+          "id": "L024",
+          "text": "2026-06-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+        },
+        {
+          "id": "L025",
+          "text": "2026-06-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+        },
+        {
+          "id": "L026",
+          "text": "2026-06-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+        },
+        {
+          "id": "L027",
+          "text": "2026-07-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+        },
+        {
+          "id": "L028",
+          "text": "2026-07-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+        },
+        {
+          "id": "L029",
+          "text": "2026-07-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+        },
+        {
+          "id": "L030",
+          "text": "2026-07-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+        },
+        {
+          "id": "L031",
+          "text": "2026-07-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+        },
+        {
+          "id": "L032",
+          "text": "2026-08-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+        },
+        {
+          "id": "L033",
+          "text": "2026-08-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+        },
+        {
+          "id": "L034",
+          "text": "2026-08-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+        },
+        {
+          "id": "L035",
+          "text": "2026-08-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+        },
+        {
+          "id": "L036",
+          "text": "2026-08-21 | Celebrex 200 mg capsule | qty 30 | repeats 2 | Take ONE capsule daily with food | Dr G. Sample"
+        },
+        {
+          "id": "L037",
+          "text": "2026-09-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+        },
+        {
+          "id": "L038",
+          "text": "2026-09-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+        },
+        {
+          "id": "L039",
+          "text": "2026-09-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+        },
+        {
+          "id": "L040",
+          "text": "2026-09-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+        },
+        {
+          "id": "L041",
+          "text": "2026-09-20 | Celebrex 200 mg capsule | qty 30 | repeats 1 | Take ONE capsule daily with food | Dr G. Sample"
+        },
+        {
+          "id": "L042",
+          "text": "2026-10-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+        },
+        {
+          "id": "L043",
+          "text": "2026-10-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+        },
+        {
+          "id": "L044",
+          "text": "2026-10-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+        },
+        {
+          "id": "L045",
+          "text": "2026-10-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+        }
+      ],
+      "problems": [],
+      "cannotAssess": null
+    },
+    {
+      "caseId": "C0002",
+      "file": "_demo/near-miss.csv",
+      "folder": "_demo",
+      "kind": "near_miss",
+      "about": "The same history without the two Celebrex supplies. Xarelto is still supplied every month, and there is no NSAID, so the demo criterion must not fire.",
+      "findings": [],
+      "patient": {
+        "label": "Fictional patient F-002",
+        "age": 72,
+        "sex": "F"
+      },
+      "lines": [
+        {
+          "id": "L001",
+          "text": "2026-01-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+        },
+        {
+          "id": "L002",
+          "text": "2026-01-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+        },
+        {
+          "id": "L003",
+          "text": "2026-01-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+        },
+        {
+          "id": "L004",
+          "text": "2026-01-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+        },
+        {
+          "id": "L005",
+          "text": "2026-02-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+        },
+        {
+          "id": "L006",
+          "text": "2026-02-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+        },
+        {
+          "id": "L007",
+          "text": "2026-02-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+        },
+        {
+          "id": "L008",
+          "text": "2026-02-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+        },
+        {
+          "id": "L009",
+          "text": "2026-03-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+        },
+        {
+          "id": "L010",
+          "text": "2026-03-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+        },
+        {
+          "id": "L011",
+          "text": "2026-03-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+        },
+        {
+          "id": "L012",
+          "text": "2026-03-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+        },
+        {
+          "id": "L013",
+          "text": "2026-03-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+        },
+        {
+          "id": "L014",
+          "text": "2026-04-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+        },
+        {
+          "id": "L015",
+          "text": "2026-04-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+        },
+        {
+          "id": "L016",
+          "text": "2026-04-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+        },
+        {
+          "id": "L017",
+          "text": "2026-04-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+        },
+        {
+          "id": "L018",
+          "text": "2026-04-19 | Amoxil (amoxicillin) 500 mg capsule | qty 20 | repeats 0 | Take ONE capsule three times a day until finished | Dr G. Sample"
+        },
+        {
+          "id": "L019",
+          "text": "2026-05-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+        },
+        {
+          "id": "L020",
+          "text": "2026-05-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+        },
+        {
+          "id": "L021",
+          "text": "2026-05-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+        },
+        {
+          "id": "L022",
+          "text": "2026-05-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+        },
+        {
+          "id": "L023",
+          "text": "2026-06-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+        },
+        {
+          "id": "L024",
+          "text": "2026-06-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+        },
+        {
+          "id": "L025",
+          "text": "2026-06-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+        },
+        {
+          "id": "L026",
+          "text": "2026-06-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+        },
+        {
+          "id": "L027",
+          "text": "2026-07-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+        },
+        {
+          "id": "L028",
+          "text": "2026-07-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+        },
+        {
+          "id": "L029",
+          "text": "2026-07-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+        },
+        {
+          "id": "L030",
+          "text": "2026-07-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+        },
+        {
+          "id": "L031",
+          "text": "2026-07-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+        },
+        {
+          "id": "L032",
+          "text": "2026-08-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+        },
+        {
+          "id": "L033",
+          "text": "2026-08-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+        },
+        {
+          "id": "L034",
+          "text": "2026-08-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+        },
+        {
+          "id": "L035",
+          "text": "2026-08-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+        },
+        {
+          "id": "L036",
+          "text": "2026-09-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+        },
+        {
+          "id": "L037",
+          "text": "2026-09-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+        },
+        {
+          "id": "L038",
+          "text": "2026-09-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+        },
+        {
+          "id": "L039",
+          "text": "2026-09-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+        },
+        {
+          "id": "L040",
+          "text": "2026-10-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+        },
+        {
+          "id": "L041",
+          "text": "2026-10-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+        },
+        {
+          "id": "L042",
+          "text": "2026-10-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+        },
+        {
+          "id": "L043",
+          "text": "2026-10-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+        }
+      ],
+      "problems": [],
+      "cannotAssess": null
+    }
+  ],
+  "pairs": [
+    {
+      "caseFile": "_demo/positive.csv",
+      "criterionId": "DEMO-NSAID-ANTICOAG",
+      "screen": {
+        "status": "suspected",
+        "seconds": 6.5,
+        "result": {
+          "lineIds": [
+            "L030",
+            "L035",
+            "L036",
+            "L040",
+            "L041",
+            "L045"
+          ],
+          "medicines": [
+            "rivaroxaban",
+            "celecoxib"
+          ],
+          "reason": "The patient was supplied celecoxib (an NSAID) while also being supplied rivaroxaban (an oral anticoagulant) within 60 days.",
+          "linesVerified": true,
+          "model": "lantern-screen",
+          "at": "2026-11-17T21:30:49.456Z",
+          "seconds": 6.46
+        }
+      },
+      "check": {
+        "status": "confirmed",
+        "seconds": 17.7,
+        "result": {
+          "confirmed": true,
+          "lineIds": [
+            "L030",
+            "L035",
+            "L036",
+            "L040",
+            "L041",
+            "L045"
+          ],
+          "whatMatches": "The patient was supplied rivaroxaban (Xarelto) on 2026-07-08 (L030), 2026-08-08 (L035), 2026-09-08 (L040), and 2026-10-08 (L045), which overlaps with supplies of celecoxib (Celebrex) on 2026-08-21 (L036) and 2026-09-20 (L041).",
+          "whatCannotBeSeen": "A dispensing history does not show whether the patient actually took the medications, the specific timing of doses relative to each other, or any clinical contraindications or protective measures (such as PPI co-prescription) that might mitigate the bleeding risk.",
+          "completed": true,
+          "model": "lantern-check",
+          "at": "2026-11-17T21:31:00.467Z",
+          "seconds": 17.73
+        },
+        "findingId": "F0001"
+      },
+      "letter": {
+        "status": "model_clean",
+        "seconds": 10.6,
+        "draft": {
+          "subject": "Clinical query regarding Celebrex and Xarelto for Fictional patient F-001",
+          "body": "Example Community Pharmacy (fictional)\n1 Example Street, Exampletown\nPhone: (00) 0000 0000\nPharmacist: The pharmacist on duty\n\n18 November 2026\n\nTo: Dr F. Example (fictional)\nExample Family Practice\n\nPatient: Fictional patient F-001, female, 72 years\nFictional patient. No real person.\n\nRe: Clinical query regarding Celebrex and Xarelto for Fictional patient F-001\n\nDear Doctor,\n\nI am writing to note that this 72 year old female patient is being supplied a non-steroidal anti-inflammatory drug (NSAID) alongside an oral anticoagulant. This combination may increase the risk of major bleeding.\n\nThe patient has been supplied Xarelto 20 mg tablet on 8 July 2026, 8 August 2026, 8 September 2026, and 8 October 2026. Additionally, Celebrex 200 mg capsule was supplied on 21 August 2026 and 20 September 2026.\n\nCould you please review whether the NSAID is still needed while the anticoagulant continues, and assess the patient's risk of bleeding? Please let us know if you require any further information.\n\nThe criterion this is based on\nDemo criterion (NSAID with an anticoagulant): A non-steroidal anti-inflammatory drug (NSAID) supplied to a person who is also being supplied an oral anticoagulant (risk of major bleeding).\nSource: Test wording written by the entrant for this prototype. It is not a published criterion.\n\nDispensing lines from our records\n2026-07-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example\n2026-08-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example\n2026-08-21 | Celebrex 200 mg capsule | qty 30 | repeats 2 | Take ONE capsule daily with food | Dr G. Sample\n2026-09-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example\n2026-09-20 | Celebrex 200 mg capsule | qty 30 | repeats 1 | Take ONE capsule daily with food | Dr G. Sample\n2026-10-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example\n\nWhat a dispensing history cannot show\nWhy the anticoagulant was started, kidney function, any history of bleeding, and any pain or stomach medicines bought without a prescription.\n\nYours sincerely,\n\nThe pharmacist on duty\nExample Community Pharmacy (fictional)\n\nDrafted by a local AI model, reviewed and edited by the pharmacist.",
+          "origin": "model",
+          "checkNotes": [],
+          "model": "lantern-letter",
+          "at": "2026-11-17T21:31:18.197Z",
+          "seconds": 10.63
+        },
+        "observations": [],
+        "findingId": "F0001"
+      }
+    },
+    {
+      "caseFile": "_demo/near-miss.csv",
+      "criterionId": "DEMO-NSAID-ANTICOAG",
+      "screen": {
+        "status": "clear",
+        "seconds": 4.5,
+        "result": {
+          "lineIds": [],
+          "medicines": [],
+          "reason": "No medicines from Group A (NSAIDs) were found in the dispensing history.",
+          "linesVerified": false,
+          "model": "lantern-screen",
+          "at": "2026-11-17T21:30:55.917Z",
+          "seconds": 4.55
+        }
+      }
+    }
+  ],
+  "score": {
+    "lettersRun": true,
+    "criteria": [
+      {
+        "criterionId": "DEMO-NSAID-ANTICOAG",
+        "label": "Demo criterion (NSAID with an anticoagulant)",
+        "verdict": "PASS",
+        "reasons": [],
+        "caveats": [],
+        "planted": 1,
+        "plantedInSheet": 1,
+        "caught": 1,
+        "catches": [
+          {
+            "criterionId": "DEMO-NSAID-ANTICOAG",
+            "caseFile": "_demo/positive.csv",
+            "mustCite": [
+              [
+                "L036",
+                "L041"
+              ],
+              [
+                "L004",
+                "L008",
+                "L012",
+                "L017",
+                "L022",
+                "L026",
+                "L030",
+                "L035",
+                "L040",
+                "L045"
+              ]
+            ],
+            "citedByScreen": [
+              "L030",
+              "L035",
+              "L036",
+              "L040",
+              "L041",
+              "L045"
+            ],
+            "citedByCheck": [
+              "L030",
+              "L035",
+              "L036",
+              "L040",
+              "L041",
+              "L045"
+            ]
+          }
+        ],
+        "misses": [],
+        "textAttached": true,
+        "textProblems": [],
+        "falseFlags": [],
+        "turnedBack": 0,
+        "notCompleted": [],
+        "notCompletedOnPlanted": 0,
+        "letters": {
+          "needed": 1,
+          "produced": 1,
+          "modelClean": 1,
+          "modelWithNotes": 0,
+          "template": 0,
+          "notProduced": 0
+        },
+        "letterLines": [
+          {
+            "criterionId": "DEMO-NSAID-ANTICOAG",
+            "caseFile": "_demo/positive.csv",
+            "result": "model_clean",
+            "checkNotes": [],
+            "observations": [],
+            "detail": "Written by the model. The letter checks found nothing."
+          }
+        ],
+        "calls": {
+          "screen": 2,
+          "check": 1,
+          "letter": 1
+        },
+        "seconds": 39.3,
+        "secondsByStage": {
+          "screen": 11,
+          "check": 17.7,
+          "letter": 10.6
+        }
+      }
+    ],
+    "totals": {
+      "criteria": 1,
+      "pass": 1,
+      "passPart": 0,
+      "fail": 0,
+      "notTested": 0,
+      "planted": 1,
+      "caught": 1,
+      "falseFlags": 0,
+      "turnedBack": 0,
+      "notCompleted": 0,
+      "letters": {
+        "needed": 1,
+        "produced": 1,
+        "modelClean": 1,
+        "modelWithNotes": 0,
+        "template": 0,
+        "notProduced": 0
+      },
+      "calls": {
+        "screen": 2,
+        "check": 1,
+        "letter": 1
+      },
+      "seconds": 39.3
+    },
+    "unscored": []
+  }
+}

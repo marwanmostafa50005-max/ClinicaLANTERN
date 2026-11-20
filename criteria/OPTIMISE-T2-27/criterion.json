@@ -1,0 +1,235 @@
+{
+  "id": "OPTIMISE-T2-27",
+  "label": "OPTIMISE T2-27: adjunctive aripiprazole for raised prolactin",
+  "family": "OPTIMISE",
+  "title": "Adjunctive aripiprazole for raised prolactin on an antipsychotic",
+  "statement": "In symptomatic hyperprolactinaemia, where a dose reduction or a switch to an alternative antipsychotic with a lower potential to elevate prolactin is not possible, consider adjunctive aripiprazole at a dose of 5 mg daily. Repeat prolactin levels after at least 1 week to establish benefit",
+  "statement_origin": "published",
+  "source": {
+    "document": "Carolan A, et al. OPTIMISE. BMC Psychiatry 2022;22:585, Tables 2-3",
+    "citation": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "modification_notice": "Statement text as recorded by the earlier project. It has not been compared with the publisher's page. Not endorsed by the source authors."
+  },
+  "plain_summary": "A person on an antipsychotic that can raise prolactin, who has symptoms from a high prolactin level, may be helped by adding a low dose of aripiprazole if the antipsychotic cannot be lowered or changed.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antipsychotics that tend to raise prolactin",
+      "ingredients": [
+        "risperidone",
+        "paliperidone",
+        "amisulpride",
+        "haloperidol",
+        "zuclopenthixol",
+        "chlorpromazine",
+        "flupentixol",
+        "flupentixol decanoate",
+        "periciazine",
+        "lurasidone"
+      ],
+      "brands": {
+        "risperidone": [
+          "Risperdal",
+          "Risperdal Consta",
+          "Ozidal",
+          "Resdone",
+          "Respaz",
+          "Risdone",
+          "Rispa",
+          "Rispaccord",
+          "Rispaccord-0.5",
+          "Risperdal Quicklet",
+          "Risperibell",
+          "Rispericor",
+          "Rispericor-0.5",
+          "Risperisan",
+          "Rispernia",
+          "Rixadone",
+          "Sperid",
+          "Uzedy"
+        ],
+        "paliperidone": [
+          "Invega",
+          "Invega Sustenna",
+          "Invega Hafyera",
+          "Invega Trinza",
+          "Palmeux",
+          "Trevicta"
+        ],
+        "amisulpride": [
+          "Solian",
+          "Amipride",
+          "Sulprix"
+        ],
+        "haloperidol": [
+          "Serenace",
+          "Haldol Decanoate"
+        ],
+        "zuclopenthixol": [
+          "Clopixol",
+          "Clopixol Depot",
+          "Clopixol Acuphase"
+        ],
+        "chlorpromazine": [
+          "Largactil",
+          "Largactil Syrup"
+        ],
+        "flupentixol": [],
+        "flupentixol decanoate": [
+          "Fluanxol Depot",
+          "Fluanxol Concentrated Depot"
+        ],
+        "periciazine": [
+          "Neulactil"
+        ],
+        "lurasidone": [
+          "Latuda",
+          "Lavione",
+          "Luracor",
+          "Luralem",
+          "Luralembic",
+          "Lurobi"
+        ]
+      },
+      "note": "Tablets, liquids and long-acting injections count. Other antipsychotics can raise prolactin less often and are not listed."
+    },
+    {
+      "key": "B",
+      "name": "Aripiprazole",
+      "ingredients": [
+        "aripiprazole"
+      ],
+      "brands": {
+        "aripiprazole": [
+          "Abilify",
+          "Abilify Maintena",
+          "Abilify Asimtufii",
+          "Abilify ODT",
+          "Abipra",
+          "Abyraz",
+          "Aprazole",
+          "Aripic",
+          "Aripra",
+          "Arizole"
+        ]
+      },
+      "note": "A documented oral aripiprazole regimen added for this episode counts as adjunctive treatment. Check its start, indication, dose and relationship to the continuing antipsychotic. A remote supply or depot injection alone does not establish a trial. If aripiprazole is already being given and its role is unclear, ask for review of the existing plan without suggesting an additional dose. Use supply dates, quantities, directions and any recorded treatment dates to check whether each medicine covers the episode."
+    }
+  ],
+  "rule_for_models": "If a Group A antipsychotic is supplied and symptomatic hyperprolactinaemia, treatment coverage or the feasibility of reduction or switching is unclear, report only a possible finding and ask for the missing evidence. If the options are unclear, ask for \"Treating team's decision about reducing the dose or switching antipsychotics for this prolactin episode\". Raise review of adjunctive oral aripiprazole 5 mg daily only when the cited supply and clinical evidence show current symptomatic high prolactin on Group A, the review rules out both reduction and switching, and no aripiprazole supply covers this episode. Close the add-on check if either option is feasible or symptomatic high prolactin is absent or resolved. If aripiprazole already appears and its role or start is unclear, ask for \"Reason for oral aripiprazole use and its start during this prolactin episode\" and review the existing plan before suggesting any additional dose. Use only a start linked to a dated first dose or a specific supply confirmed as the start. Leave follow-up timing open if the role or date is unknown. After a documented adjunctive start, count a repeat prolactin sample taken at least seven days later. Before day seven, do not flag a missing repeat. From day seven, if no eligible sample is recorded, ask whether one is planned or was taken elsewhere. If the sample date or completion is unclear, ask for \"Repeat prolactin sample timing after the adjunctive aripiprazole start for this episode\". An early sample does not satisfy the repeat. A plan alone leaves completion open. Use an eligible sample or reliable confirmation of its timing to establish completion, and use the measured level to assess benefit.",
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Symptomatic high prolactin during the episode under review",
+      "meets": "A recorded diagnosis or a raised prolactin result with relevant symptoms during this episode supports the check. Symptoms alone do not establish raised prolactin. A negative or resolved episode closes the add-on check. An unknown answer leaves it open.",
+      "options": [
+        {
+          "words": "High prolactin with symptoms during this episode",
+          "effect": "meets"
+        },
+        {
+          "words": "No symptomatic high prolactin during this episode, or it has resolved",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "result",
+      "what": "Dated serum prolactin results before and after starting adjunctive aripiprazole",
+      "meets": "For a documented adjunctive start, look for a repeat measured at least seven days later. Compare with baseline if available. If no eligible result is recorded from day seven, ask whether a repeat is planned or available elsewhere. Cite the start and any eligible repeat. Before day seven, do not flag a missing repeat. Elapsed time alone does not establish that a repeat is overdue."
+    },
+    {
+      "kind": "observation",
+      "what": "Treating team's decision about reducing the dose or switching antipsychotics for this prolactin episode",
+      "meets": "Ask if the treatment review leaves either option unclear. Only confirmation that neither option was suitable supports review of an add-on when the other conditions are met.",
+      "options": [
+        {
+          "words": "Neither dose reduction nor switching was suitable",
+          "effect": "meets"
+        },
+        {
+          "words": "Dose reduction was feasible",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Switching to a lower-prolactin antipsychotic was feasible",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Both options were feasible",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for oral aripiprazole use and its start during this prolactin episode",
+      "meets": "Use the dated first dose or an identified oral supply confirmed as the start. An answer about a different episode or an unidentified supply cannot establish a start date.",
+      "options": [
+        {
+          "words": "Added for this episode on the date of the identified oral supply",
+          "effect": "meets"
+        },
+        {
+          "words": "Added for this episode on a different documented start date",
+          "effect": "meets"
+        },
+        {
+          "words": "Added for this episode but the start date is unknown",
+          "effect": "unknown"
+        },
+        {
+          "words": "Taken for another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Role not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Repeat prolactin sample timing after the adjunctive aripiprazole start for this episode",
+      "meets": "Use the sample date on the typed result or confirmation linked to the dated start. Count a sample on day seven or later. A result with uncertain timing cannot show that the check was completed.",
+      "options": [
+        {
+          "words": "Taken before day seven",
+          "effect": "meets"
+        },
+        {
+          "words": "Taken at least seven days after the start",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Planned but not yet taken",
+          "effect": "meets"
+        },
+        {
+          "words": "No repeat sample is known",
+          "effect": "meets"
+        },
+        {
+          "words": "Timing not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "cannot_be_seen": "Whether symptoms are really present, whether the dose could be lowered or the antipsychotic changed, and the prolactin result unless it is in the record. Also what the person has already been told. This dispensing record cannot show supplies obtained elsewhere or medicines bought without a prescription.",
+  "ask_the_gp": "Could you confirm whether symptomatic hyperprolactinaemia is present and whether the antipsychotic dose could be reduced or a switch to a lower-prolactin antipsychotic is feasible? If neither is suitable and no add-on trial is in place for this episode, could you review adjunctive oral aripiprazole 5 mg daily? If a trial starts or has already started, could you review a repeat prolactin level at least one week after the start?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

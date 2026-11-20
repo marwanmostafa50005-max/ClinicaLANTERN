@@ -1,0 +1,476 @@
+{
+  "id": "BRISNIK-HR-A9",
+  "label": "Brisnik A9: antidepressant with three or more blood pressure medicines",
+  "family": "BRISNIK",
+  "title": "SNRI, high-dose tricyclic, bupropion or tranylcypromine with three or more blood pressure medicines",
+  "statement": "Prescribed SNRI, TCA (in doses ≥ 50 mg/day), bupropion, or tranylcypromine - and achieving hypertension control requires ≥ 3 antihypertensive drugs",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.3 candidate repairs, adopted conventions and independent-audit corrections merged with attribution). Not endorsed by the source authors."
+  },
+  "plain_summary": "Some antidepressants (SNRIs, tricyclics at 50 mg a day or more, bupropion and tranylcypromine) can raise blood pressure. A person who needs three or more blood pressure medicines already has hard-to-control blood pressure.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "SNRIs, the serotonin and noradrenaline reuptake inhibitor antidepressants",
+      "ingredients": [
+        "desvenlafaxine",
+        "duloxetine",
+        "venlafaxine"
+      ],
+      "brands": {
+        "desvenlafaxine": [
+          "Pristiq",
+          "Desfax",
+          "Desven"
+        ],
+        "duloxetine": [
+          "Cymbalta",
+          "Andepra",
+          "Baltine",
+          "Coperin",
+          "Deotine",
+          "Depreta",
+          "Drulox",
+          "Dulocym",
+          "Duloxecor",
+          "Dytrex",
+          "Symlox",
+          "Texotine",
+          "Tixol",
+          "Xerol DR"
+        ],
+        "venlafaxine": [
+          "Efexor-XR",
+          "Enlafax",
+          "Venlexor",
+          "Altven",
+          "Elaxine SR",
+          "Enlafax XR",
+          "Evelexa XR",
+          "Ozvenaf",
+          "Venfax SR",
+          "Venla",
+          "Venlexor XR"
+        ]
+      },
+      "note": "Any dose counts."
+    },
+    {
+      "key": "B",
+      "name": "Tricyclic antidepressants (TCAs)",
+      "ingredients": [
+        "amitriptyline",
+        "clomipramine",
+        "dosulepin",
+        "doxepin",
+        "imipramine",
+        "nortriptyline",
+        "trimipramine"
+      ],
+      "brands": {
+        "amitriptyline": [
+          "Endep",
+          "Amichlor",
+          "Amidep",
+          "Entrip"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "dosulepin": [
+          "Dothep",
+          "Prothiaden"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ]
+      },
+      "note": "A tricyclic counts only at a daily dose of 50 mg or more. Work the dose out from strength and directions. Dosulepin is also called dothiepin."
+    },
+    {
+      "key": "C",
+      "name": "Bupropion",
+      "ingredients": [
+        "bupropion"
+      ],
+      "brands": {
+        "bupropion": [
+          "Zyban",
+          "Contrave"
+        ]
+      },
+      "note": "A supply containing bupropion counts, including Contrave tablets containing bupropion and naltrexone."
+    },
+    {
+      "key": "D",
+      "name": "Tranylcypromine",
+      "ingredients": [
+        "tranylcypromine"
+      ],
+      "brands": {
+        "tranylcypromine": [
+          "Parnate",
+          "Parpromine",
+          "Tranamef",
+          "Tranylmed"
+        ]
+      },
+      "note": "Any dose counts."
+    },
+    {
+      "key": "E",
+      "name": "Blood pressure medicines (antihypertensives)",
+      "ingredients": [
+        "amlodipine",
+        "atenolol",
+        "bisoprolol",
+        "candesartan",
+        "enalapril",
+        "felodipine",
+        "hydrochlorothiazide",
+        "indapamide",
+        "irbesartan",
+        "lercanidipine",
+        "lisinopril",
+        "metoprolol",
+        "olmesartan",
+        "perindopril",
+        "ramipril",
+        "spironolactone",
+        "telmisartan",
+        "valsartan",
+        "nifedipine",
+        "diltiazem",
+        "verapamil",
+        "prazosin",
+        "moxonidine",
+        "clonidine",
+        "chlortalidone",
+        "propranolol",
+        "carvedilol",
+        "nebivolol",
+        "labetalol",
+        "methyldopa",
+        "hydralazine",
+        "quinapril",
+        "fosinopril",
+        "trandolapril",
+        "losartan",
+        "captopril",
+        "minoxidil",
+        "furosemide"
+      ],
+      "brands": {
+        "amlodipine": [
+          "Norvasc",
+          "Twynsta",
+          "Coveram Plus SR",
+          "Amline",
+          "Amlo",
+          "Amlocor",
+          "Amlotrust",
+          "Amvas",
+          "Besidep",
+          "Nordip",
+          "Norvapine",
+          "Ozlodip",
+          "Perivasc",
+          "Coveram",
+          "Triplixam SR",
+          "Sevikar",
+          "Sevikar HCT",
+          "Exforge",
+          "Exforge HCT"
+        ],
+        "atenolol": [
+          "Tenormin",
+          "Anselol",
+          "Atehexal",
+          "Aten",
+          "Colaptyn",
+          "Noten",
+          "Tenolten",
+          "Tensig"
+        ],
+        "bisoprolol": [
+          "Bicor",
+          "Beprol",
+          "Bicard",
+          "Biso",
+          "Bispro"
+        ],
+        "candesartan": [
+          "Atacand",
+          "Adesan",
+          "Asartan",
+          "Candelem",
+          "Candesan",
+          "Atacand Plus"
+        ],
+        "enalapril": [
+          "Renitec",
+          "Acetec",
+          "Alphapril",
+          "Amprace",
+          "Auspril",
+          "Elapril",
+          "Enahexal",
+          "Enalabell",
+          "Malean",
+          "Renitec M",
+          "Zan-Extra"
+        ],
+        "felodipine": [
+          "Plendil ER",
+          "Felodil XR",
+          "Felodur ER",
+          "Fendex ER"
+        ],
+        "hydrochlorothiazide": [
+          "Avapro HCT",
+          "Sevikar HCT",
+          "Exforge HCT",
+          "Micardis Plus",
+          "Atacand Plus",
+          "Olmetec Plus",
+          "Karvezide",
+          "Dithiazide"
+        ],
+        "indapamide": [
+          "Natrilix SR",
+          "Coversyl Plus",
+          "Coveram Plus SR",
+          "Dapa-Tabs",
+          "Indahexal",
+          "Indapamol",
+          "Insig",
+          "Napamide",
+          "Natrilix",
+          "Odaplix SR",
+          "Tenaxil SR",
+          "Triplixam SR"
+        ],
+        "irbesartan": [
+          "Avapro",
+          "Avapro HCT",
+          "Abisart",
+          "Ambotens",
+          "Avsartan",
+          "Irbesat",
+          "Irbestin",
+          "Irbetan",
+          "Irprestan",
+          "Karbesat",
+          "Karvea",
+          "Karvezide"
+        ],
+        "lercanidipine": [
+          "Zanidip",
+          "Ledip",
+          "Lepine",
+          "Lercadip",
+          "Lercan",
+          "Zircol",
+          "Zan-Extra"
+        ],
+        "lisinopril": [
+          "Zestril",
+          "Fibsol",
+          "Linopril",
+          "Liprace",
+          "Lisinobell",
+          "Lisinotrust",
+          "Lisodrate",
+          "Lisodur",
+          "Lisoril",
+          "Ozten",
+          "Prinivil",
+          "Sinop",
+          "Zinopril"
+        ],
+        "metoprolol": [
+          "Betaloc",
+          "Lopresor",
+          "Minax",
+          "Agtolac",
+          "Metatar",
+          "Metohexal",
+          "Metolol",
+          "Metrol",
+          "Metrol-XL",
+          "Minax XL",
+          "Mistrom",
+          "Tobeta-XL",
+          "Topreloc-XL",
+          "Toprol-XL"
+        ],
+        "olmesartan": [
+          "Olmetec",
+          "Olmertan",
+          "Olmes",
+          "Olmesart",
+          "Olsetan",
+          "Sevikar",
+          "Sevikar HCT",
+          "Olmetec Plus"
+        ],
+        "perindopril": [
+          "Coversyl",
+          "Coversyl Plus",
+          "Coveram Plus SR",
+          "Idaprex",
+          "Idaprex Arg",
+          "Indopril",
+          "Indosyl Mono",
+          "Ozapace",
+          "Perindo",
+          "Perindo Arg",
+          "Perindoarg",
+          "Perindobell",
+          "Perisyl",
+          "Prexum",
+          "Coveram",
+          "Triplixam SR"
+        ],
+        "ramipril": [
+          "Tritace",
+          "Prilace",
+          "Ramace",
+          "Ramibell",
+          "Tryzan",
+          "Vascalace"
+        ],
+        "spironolactone": [
+          "Aldactone",
+          "Spiractin"
+        ],
+        "telmisartan": [
+          "Micardis",
+          "Twynsta",
+          "Mizart",
+          "Pritor",
+          "Telmigen",
+          "Teltartan",
+          "Micardis Plus"
+        ],
+        "valsartan": [
+          "Exforge",
+          "Exforge HCT",
+          "Diovan"
+        ],
+        "nifedipine": [
+          "Adalat OROS"
+        ],
+        "diltiazem": [
+          "Cardizem CD"
+        ],
+        "verapamil": [
+          "Isoptin SR",
+          "Tarka"
+        ],
+        "prazosin": [
+          "Minipress"
+        ],
+        "moxonidine": [
+          "Physiotens"
+        ],
+        "clonidine": [
+          "Catapres"
+        ],
+        "chlortalidone": [
+          "Hygroton 25"
+        ],
+        "propranolol": [
+          "Inderal"
+        ],
+        "carvedilol": [
+          "Dilatrend"
+        ],
+        "nebivolol": [
+          "Nebilet"
+        ],
+        "labetalol": [
+          "Presolol"
+        ],
+        "methyldopa": [
+          "Aldomet"
+        ],
+        "hydralazine": [
+          "Alphapress"
+        ],
+        "quinapril": [
+          "Accupril"
+        ],
+        "fosinopril": [
+          "Monopril"
+        ],
+        "trandolapril": [
+          "Gopten",
+          "Tarka"
+        ],
+        "losartan": [
+          "Cozaar"
+        ],
+        "captopril": [
+          "Capoten"
+        ],
+        "minoxidil": [
+          "Loniten"
+        ],
+        "furosemide": [
+          "Lasix"
+        ]
+      },
+      "note": "Count perindopril arginine and perindopril erbumine once as perindopril. A combination tablet counts as each ingredient it holds. Several of these medicines are also used for the heart or kidneys, so three of them together are only a sign of hard-to-control high blood pressure. Count systemic antihypertensive forms. Count each distinct ingredient only once across all products. A brand with two ingredients is still only two medicines. Count oral minoxidil and oral furosemide only when needed to control hypertension. Exclude topical minoxidil. Tarka contains both trandolapril and verapamil."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Reason for using the blood pressure medicines together",
+      "meets": "The record or the pharmacist confirms that the candidate ingredients were needed together to control hypertension. A different indication or nonconcurrent use that leaves fewer than three clears the finding. If the reason or timing is unknown, leave it possible.",
+      "options": [
+        {
+          "words": "Needed together for high blood pressure",
+          "effect": "meets"
+        },
+        {
+          "words": "Fewer than three needed together for high blood pressure",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Check whether a Group A, C or D medicine is supplied at any dose, or a Group B tricyclic at 50 mg a day or more (daily dose = mg per tablet or capsule times the total number prescribed per day in the directions), and three or more different Group E medicines are also supplied, where supply dates overlap or fall within 60 days of each other. Count each distinct Group E ingredient in a combination tablet once. Name the antidepressant and each Group E medicine. For a Group B tricyclic, a prescribed range wholly at or above 50 mg a day meets the dose test. A maximum below 50 mg a day rules out that supply. If the dose is unknown or the directions allow doses both below and at or above 50 mg a day, report only a possible finding from that supply unless the Group E requirement rules it out. Ask the pharmacist to confirm the daily dose and name any other missing fact. Count only distinct Group E ingredients needed together to control hypertension. Exclude a documented replacement when the medicines were not used together. If the supplies and dose could qualify but the indication or concurrent use is unclear, give a possible finding and ask for the reason for using the blood pressure medicines together. A dated clinical account or a pharmacist answer confirming they were needed together for hypertension can establish that fact. Cite that evidence and the qualifying supplies. Confirm only when the dose and the distinct ingredients also qualify. An unknown answer leaves the indication open. If the record establishes that fewer than three could qualify, report no finding.",
+  "cannot_be_seen": "Whether the person really has high blood pressure, blood pressure readings, whether each Group E medicine is for blood pressure or for another reason (such as the heart or kidneys), and what the person actually takes.",
+  "ask_the_gp": "Could you confirm why the three or more blood pressure medicines were prescribed, check recent blood pressure readings and review the antidepressant if these medicines are needed together to control hypertension?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

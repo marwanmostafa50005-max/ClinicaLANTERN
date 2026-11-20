@@ -1,0 +1,41 @@
+[
+  {
+    "file": "POPI-62/pos-fact.csv",
+    "kind": "positive",
+    "about": "Oxcarbazepine is supplied while juvenile absence epilepsy is active.",
+    "findings": [
+      {
+        "criterion": "POPI-62",
+        "must_cite": [
+          [
+            "L018"
+          ],
+          [
+            "L019"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "POPI-62/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about epilepsy with absence seizures at the time of the supply.",
+    "findings": [
+      {
+        "criterion": "POPI-62",
+        "must_cite": [
+          [
+            "L019"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "POPI-62/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The neurology assessment confirms focal epilepsy alone and explicitly excludes the subtype in this criterion.",
+    "findings": []
+  }
+]

@@ -1,0 +1,141 @@
+{
+  "id": "STOPP-C8",
+  "label": "STOPP C8",
+  "family": "STOPP_START",
+  "title": "Anticoagulant for a first leg clot beyond 6 months",
+  "statement": "Vitamin K antagonist, direct thrombin inhibitor or factor Xa inhibitors for first deep venous thrombosis without continuing provoking risk factors (e.g., thrombophilia) for longer than 6 months, (no proven added benefit).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "After a first deep vein thrombosis, review treatment continuing beyond six months if no provoking risk continues and there is no other indication for extended anticoagulation. Extended treatment can be appropriate after an unprovoked clot. Australian guidance differs: when extended prevention is indicated after six months, options include apixaban 2.5 mg twice daily or rivaroxaban 10 mg once daily (Thrombosis and Haemostasis Society of Australia and New Zealand, 2019).",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Anticoagulants: warfarin, dabigatran and the factor Xa inhibitors",
+      "ingredients": [
+        "warfarin",
+        "dabigatran",
+        "apixaban",
+        "rivaroxaban",
+        "edoxaban",
+        "fondaparinux"
+      ],
+      "brands": {
+        "warfarin": [
+          "Coumadin",
+          "Marevan"
+        ],
+        "dabigatran": [
+          "Pradaxa"
+        ],
+        "apixaban": [
+          "Eliquis",
+          "Alexibic",
+          "Apexa",
+          "Apixor",
+          "Axibic",
+          "Elapex"
+        ],
+        "rivaroxaban": [
+          "Xarelto",
+          "Ixarola",
+          "Relaban",
+          "Rivalembic",
+          "Rivarelto",
+          "Rivator",
+          "Rivaxib",
+          "Rivaxotor",
+          "Rivoxa",
+          "Roxabic",
+          "Roxalem",
+          "Roxator",
+          "Toriva",
+          "Troxa",
+          "Xaremed"
+        ],
+        "edoxaban": [],
+        "fondaparinux": [
+          "Arixtra"
+        ]
+      },
+      "note": "Warfarin is the vitamin K antagonist. Dabigatran is the direct thrombin inhibitor. Apixaban, rivaroxaban, edoxaban and fondaparinux are factor Xa inhibitors. No Australian brand is listed for edoxaban. Fondaparinux is an injection. Heparin and enoxaparin are not in this group. Aspirin and clopidogrel are not anticoagulants. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Link between this anticoagulant course and the first DVT",
+      "meets": "The record documents a first DVT and identifies the start of treatment for it or the first supply linked to it.",
+      "options": [
+        {
+          "words": "This course treated a first DVT",
+          "effect": "meets"
+        },
+        {
+          "words": "This course treated a recurrent DVT or was solely for another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Follow-up after the first DVT",
+      "meets": "Follow-up establishes that no provoking risk continues and there is no other indication for extended anticoagulation. A previous temporary trigger may have resolved, or the first DVT may have been unprovoked. Missing information calls for a possible finding only.",
+      "options": [
+        {
+          "words": "No provoking risk factor continues and there is no other reason to continue anticoagulation",
+          "effect": "meets"
+        },
+        {
+          "words": "A provoking risk factor continues or there is another reason to continue anticoagulation",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Duration of anticoagulation for the first DVT",
+      "meets": "Use dated treatment or anticoagulation clinic records to establish whether one course for this DVT lasted longer than six calendar months. Assess courses separately if there was a gap of more than 30 days between covered periods.",
+      "options": [
+        {
+          "words": "One course lasted longer than six calendar months",
+          "effect": "meets"
+        },
+        {
+          "words": "The course lasted six calendar months or less",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "A gap of more than 30 days separated the courses and none lasted longer than six calendar months",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply from age 65. Below 65 there is no finding. If age is unknown, confirm it before reporting a finding. Review Group A treatment for a documented first DVT when it extends beyond 6 months and follow-up establishes no continuing provoking risk or other indication for extended anticoagulation. This can include an unprovoked first DVT or one with a resolved temporary trigger. Cite the event, follow-up and linked supplies. Count from the documented treatment start or first supply linked to that DVT. Calculate days covered from quantity and directions or a dated anticoagulation clinic dosing schedule. An INR result alone gives no daily dose. Join supplies for that event only when the gap between covered periods is 30 days or less. If the supply pattern could qualify and dated supplies and directions leave the dose or treatment dates unclear, check dated treatment or clinic records. Only if duration remains uncertain and the other evidence could qualify, report a possible finding and name \"Duration of anticoagulation for the first DVT\" as missing. A documented course longer than six calendar months establishes duration only. Cite the supporting record. Assess separate courses independently when a gap exceeds 30 days. If no course exceeds six calendar months there is no finding. If duration is recorded as Not known, the finding remains possible when the other evidence could qualify. If the event, start, treatment link, ongoing risk or need for extended treatment is unknown, name the missing facts and report only a possible finding when the supply pattern otherwise qualifies. A course of 6 months or less, recurrent clots, continuing provoking risk or another documented indication for extended treatment gives no C8 finding. Review the reason for continuing treatment with the prescriber.",
+  "cannot_be_seen": "Whether the clot was a first one, what caused it, whether a clotting disorder or cancer is present, and whether the blood thinner is also needed for another reason such as an irregular heartbeat (atrial fibrillation). Also medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "Whether the blood thinner is still needed, given the cause of the clot and the time already taken, and whether a review of the planned length of treatment is due.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

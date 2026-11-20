@@ -1,0 +1,44 @@
+[
+  {
+    "file": "KHAWAGI-G117/pos-brand.csv",
+    "kind": "positive",
+    "about": "The 50-day Tegretol supply covers the start of daily Marevan, prompting review of INR follow-up.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G117",
+        "must_cite": [
+          [
+            "L017"
+          ],
+          [
+            "L018"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G117/pos-buried.csv",
+    "kind": "positive",
+    "about": "The directed carbamazepine and warfarin courses overlap, prompting review of INR follow-up.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G117",
+        "must_cite": [
+          [
+            "L031"
+          ],
+          [
+            "L032"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G117/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The carbamazepine pack runs out months before warfarin is supplied.",
+    "findings": []
+  }
+]

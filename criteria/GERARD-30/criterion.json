@@ -1,0 +1,95 @@
+{
+  "id": "GERARD-30",
+  "label": "Gerard: reported symptomatic hypoglycaemia during treatment with repaglinide or a sulfonylurea",
+  "family": "GERARD",
+  "title": "Reported symptomatic hypoglycaemia during treatment with repaglinide or a sulfonylurea",
+  "statement": "It is necessary to review and optimize the prescription of a hypoglycaemic drug (repaglinide or sulfonylurea) in a patient reporting symptomatic hypoglycaemia (dizziness, sweating, palpitations, intense hunger, weakness, etc.).",
+  "statement_origin": "published",
+  "source": {
+    "document": "Development of explicit definitions of potentially inappropriate prescriptions for antidiabetic drugs in people with type 2 diabetes: A Delphi survey and consensus meeting",
+    "citation": "Gerard E, Bugday D, Calafiore M, Baran J, Gautier S, Henry H, et al. (2025). Development of explicit definitions of potentially inappropriate prescriptions for antidiabetic drugs in people with type 2 diabetes: A Delphi survey and consensus meeting. PLOS ONE 20(10), e0334836.",
+    "doi": "10.1371/journal.pone.0334836",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0334836",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "© 2025 Gerard et al. Gerard E, Bugday D, Calafiore M, Baran J, Gautier S, Henry H, et al. (2025). Development of explicit definitions of potentially inappropriate prescriptions for antidiabetic drugs in people with type 2 diabetes: A Delphi survey and consensus meeting. PLOS ONE 20(10), e0334836. https://doi.org/10.1371/journal.pone.0334836. Table 2. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The statements are reproduced. The qualification decisions and Australian mappings are additions by GPT-6.2 Astra.",
+    "modification_notice": "Table 2 wording is reproduced unchanged. The Australian medicine groups, screening rules and fictional histories are adaptations by GPT-6.2 Astra."
+  },
+  "plain_summary": "Review repaglinide or a sulfonylurea when a person with type 2 diabetes reports an episode of symptomatic low blood glucose during treatment.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Repaglinide or a sulfonylurea",
+      "ingredients": [
+        "gliclazide",
+        "glimepiride",
+        "glipizide",
+        "glibenclamide",
+        "repaglinide"
+      ],
+      "brands": {
+        "repaglinide": [
+          "NovoNorm"
+        ],
+        "gliclazide": [
+          "Gliclazide MR-WGR",
+          "Diamicron",
+          "Diamicron MR",
+          "Glyade",
+          "Nidem",
+          "Oziclide MR"
+        ],
+        "glimepiride": [
+          "Glimepiride Sandoz",
+          "Amaryl",
+          "Dimirel",
+          "Aylide",
+          "Diapride"
+        ],
+        "glipizide": [
+          "Glipidiab",
+          "Melizide",
+          "Minidiab"
+        ],
+        "glibenclamide": [
+          "Daonil",
+          "Glimel",
+          "Semi-Daonil"
+        ]
+      },
+      "note": "Count generic packs, including an ingredient name followed by a company name. Count a combination pack when one of its active ingredients is listed here."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Type 2 diabetes",
+      "meets": "Documented type 2 diabetes at the time of treatment."
+    },
+    {
+      "kind": "observation",
+      "what": "Reported symptomatic hypoglycaemia",
+      "meets": "A dated account or the pharmacist's answer confirms that the person reported a symptomatic low during the course of repaglinide or sulfonylurea under review. Ask about dizziness, sweating, a racing heart, intense hunger or weakness at the time. Symptoms alone do not establish that an episode was due to low glucose.",
+      "options": [
+        {
+          "words": "Reported a symptomatic low while taking this medicine",
+          "effect": "meets"
+        },
+        {
+          "words": "Reported no symptomatic lows while taking this medicine",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Estimate treatment cover from the Group A supply date, quantity and labelled dosing schedule, and cite the supply, type 2 diabetes diagnosis and record of reported symptomatic hypoglycaemia during that cover. A pharmacist's answer confirming a symptomatic low while taking this medicine also establishes the timing. If the other evidence fits but a fact is missing or unclear directions leave the episode plausibly within treatment, ask about type 2 diabetes and symptoms the person recognised as low blood glucose during treatment, check the schedule and episode date if timing is unclear, and report only a possible finding naming each unresolved fact. Report no finding when the person reports no symptomatic episodes during treatment or type 2 diabetes is excluded.",
+  "cannot_be_seen": "A glucose value alone cannot show symptoms. Sweating or dizziness alone cannot identify a hypoglycaemic episode. Ask whether symptoms are present now, whether the medicine is still being taken and whether the episode has already been reviewed. A missing symptom history alone does not establish an acute episode.",
+  "ask_the_gp": "Could you confirm whether the person has had symptomatic low blood glucose during this treatment and, if so, review recurrence risk and the choice of medicine?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

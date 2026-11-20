@@ -1,0 +1,60 @@
+{
+  "id": "POPI-54",
+  "label": "POPI: no oral aciclovir supply during primary herpetic gingivostomatitis",
+  "family": "POPI",
+  "title": "No oral aciclovir supply during primary herpetic gingivostomatitis",
+  "statement": "Orally administered acyclovir to treat primary herpetic gingivostomatitis",
+  "statement_origin": "published",
+  "source": {
+    "document": "International consensus validation of the POPI tool (2020), Table 2",
+    "citation": "Sadozai L, Sable S, Le Roux E, et al. International consensus validation of the POPI tool (Pediatrics: Omission of Prescriptions and Inappropriate prescriptions) to identify inappropriate prescribing in pediatrics. PLOS ONE. 2020;15(10):e0240105.",
+    "doi": "10.1371/journal.pone.0240105",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0240105",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "© 2020 Sadozai et al. Table 2, International consensus validation of the POPI tool. PLOS ONE 15(10), e0240105. https://doi.org/10.1371/journal.pone.0240105. CC BY 4.0.",
+    "modification_notice": "The published item is reproduced unchanged. The Australian medicine examples, screening rule and fictional histories are local additions."
+  },
+  "plain_summary": "POPI flags a child with primary herpetic gingivostomatitis and no oral aciclovir supplied during that illness.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Oral aciclovir",
+      "ingredients": [
+        "aciclovir"
+      ],
+      "brands": {
+        "aciclovir": [
+          "Aciclovir AN"
+        ]
+      },
+      "note": "Count oral tablets or liquid for this episode. Check hospital treatment separately."
+    },
+    {
+      "key": "B",
+      "name": "Pain relief labelled for this episode",
+      "ingredients": [
+        "paracetamol"
+      ],
+      "brands": {
+        "paracetamol": [
+          "Panadol Children 5 - 12 Years"
+        ]
+      },
+      "note": "Directions for painful mouth ulcers and inflamed gums can identify the episode. Pain relief is not required for the published omission and an unrelated analgesic supply does not identify it."
+    }
+  ],
+  "rule_for_models": "Flag a dated episode of primary herpetic gingivostomatitis in a child if no Group A oral aciclovir was supplied for it between onset and recovery, and cite the diagnosis and any linked Group B pain relief. If supplies document treatment for acute gingivostomatitis without Group A and no line identifies its cause, report a possible finding and name primary herpetic gingivostomatitis as missing. Give no finding for a documented different diagnosis or oral aciclovir supplied for the episode.",
+  "cannot_be_seen": "The record omits medicine obtained elsewhere or bought without a prescription and may omit hospital treatment, immune status, pain severity and hydration. Many children with normal immunity recover with supportive care alone. Australian guidance considers oral treatment early in children with severe pain or dehydration.",
+  "ask_the_gp": "Could you confirm the diagnosis, onset and severity, and review whether antiviral treatment was indicated or given elsewhere?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Primary herpetic gingivostomatitis",
+      "meets": "A dated diagnosis identifies this episode as primary herpetic gingivostomatitis."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+patient_ref,patient_age,patient_sex,record_type,dispense_date,medicine,brand,strength,form,quantity,repeats_left,directions,prescriber,detail,value
+F-FR-D8-1,70,M,,2026-03-05,temazepam,Normison,10 mg,tablet,25,3,Take ONE tablet at night,Dr B. Sample,,
+F-FR-D8-1,70,M,,2026-03-19,metformin,Diabex XR,1000 mg,tablet,60,5,Take ONE tablet twice a day with meals,Dr A. Example,,
+F-FR-D8-1,70,M,,2026-04-02,temazepam,Normison,10 mg,tablet,25,2,Take ONE tablet at night,Dr B. Sample,,
+F-FR-D8-1,70,M,,2026-05-07,temazepam,Normison,10 mg,tablet,25,1,Take ONE tablet at night,Dr B. Sample,,
+F-FR-D8-1,70,M,,2026-06-04,temazepam,Normison,10 mg,tablet,25,0,Take ONE tablet at night,Dr B. Sample,,

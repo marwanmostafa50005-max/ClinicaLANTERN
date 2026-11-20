@@ -1,0 +1,55 @@
+[
+  {
+    "file": "OPTIMISE-T2-29/pos-fact.csv",
+    "kind": "positive",
+    "about": "An adult with schizophrenia starts Dostinex for hyperprolactinaemia and the initiation note explicitly records that no specialist endocrine advice was obtained.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T2-29",
+        "must_cite": [
+          [
+            "L005"
+          ],
+          [
+            "L030"
+          ],
+          [
+            "L031"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T2-29/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: age at initiation is unknown. The first visible cabergoline supply and risperidone supplies prompt review. The record does not establish \"Severe mental illness\", \"Reason for starting this dopamine agonist course\", \"Dopamine agonist course at the dated supply under review\" or \"Specialist endocrine advice for this dopamine agonist start\".",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T2-29",
+        "must_cite": [
+          [
+            "L002",
+            "L005",
+            "L008",
+            "L011",
+            "L014",
+            "L017",
+            "L020",
+            "L024",
+            "L028"
+          ],
+          [
+            "L023"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T2-29/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Dostinex (cabergoline) is started in a person with schizophrenia, but it is supplied on the prescription of an endocrinologist and the record notes the endocrinologist's advice, so there is no finding.",
+    "findings": []
+  }
+]

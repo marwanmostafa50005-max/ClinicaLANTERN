@@ -1,0 +1,34 @@
+[
+  {
+    "file": "EU7-F18/pos-brand.csv",
+    "kind": "positive",
+    "about": "Acenocoumarol is supplied seven times from January to October 2026 to a 71-year-old man, and it appears by ingredient name because no Australian brand exists.",
+    "findings": [
+      {
+        "criterion": "EU7-F18",
+        "must_cite": [
+          ["L001", "L007", "L013", "L017", "L023", "L027", "L033"]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F18/pos-buried.csv",
+    "kind": "positive",
+    "about": "Acenocoumarol is supplied three times from December 2025 to March 2026 to a 73-year-old woman, in the middle of a 14-month history.",
+    "findings": [
+      {
+        "criterion": "EU7-F18",
+        "must_cite": [
+          ["L026", "L034", "L041"]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F18/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Marevan (warfarin), a blood thinner of the same family, is supplied throughout and acenocoumarol is never supplied, so the criterion is not met.",
+    "findings": []
+  }
+]

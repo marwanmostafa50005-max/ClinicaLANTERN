@@ -1,0 +1,44 @@
+{
+  "id": "EU7-F59",
+  "label": "EU(7)-PIM: topiramate",
+  "family": "EU7",
+  "title": "Topiramate in an older person",
+  "statement": "Topiramate | In lists: 5 (B) | Main reason: Risk of cognitive-related dysfunction (e.g., confusion, psychomotor slowing) | Dose adjustment/special considerations: Dosage adjustment may be indicated in older adults to the extent renal function is reduced. In cases of evident impaired renal function (CrCl <70 mL/min/1.73 m), use one-half the usual dose. M Use initial dose of 25 mg/d and increase 25 mg/d weekly up to 100-200 mg/d. E | Alternatives: Levetiracetam[d]; gabapentin[d]; lamotrigine[d]; valproic acid[d]. E",
+  "statement_origin": "published",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.2 candidate repairs and adopted conventions merged with attribution). Not endorsed by the source authors."
+  },
+  "plain_summary": "Topiramate can cause confusion and slowed thinking and movement in older people, and the dose may need to be lower when kidney function is reduced. The Australian Topamax product information uses creatinine clearance in mL/min for renal dosing. A laboratory eGFR in mL/min/1.73 m² measures kidney function on a different scale and cannot be substituted directly.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Topiramate",
+      "ingredients": [
+        "topiramate"
+      ],
+      "brands": {
+        "topiramate": [
+          "Topamax",
+          "Epiramax",
+          "Tamate",
+          "Topamax Sprinkle",
+          "Topira-Lax"
+        ]
+      },
+      "note": "Tablets and sprinkle capsules count."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when topiramate (Group A) is supplied even once to a person aged 65 or older. Any strength counts. If age is missing and topiramate is supplied, report only a possible finding and ask whether the person is 65 or older.",
+  "cannot_be_seen": "Why topiramate was started (epilepsy or migraine prevention), kidney function, and whether the person has had confusion or slowed thinking.",
+  "ask_the_gp": "Whether topiramate is still the right choice for this person and whether the dose suits their kidney function.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

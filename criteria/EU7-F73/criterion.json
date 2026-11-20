@@ -1,0 +1,43 @@
+{
+  "id": "EU7-F73",
+  "label": "EU(7)-PIM: tranylcypromine",
+  "family": "EU7",
+  "title": "Tranylcypromine in an older person",
+  "statement": "Tranylcypromine | In lists: 4 (A) | Main reason: Irreversible MAO inhibitor. Risk of hypertensive crises, cerebral hemorrhage and malignant hyperthermia | Dose adjustment/special considerations: Reduce dose: 30 mg/d; maximum dose: 60 mg/d. E | Alternatives: Non-pharmacological treatment, SSRI (except PIM: fluoxetine, paroxetine, fluvoxamine)[e], mirtazapine[d], trazodone. E",
+  "statement_origin": "published",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Tranylcypromine can cause dangerous rises in blood pressure. The European list flags it in older people. Australian Parnate product information lists age over 60 as a contraindication and gives a maximum dose of 30 mg/day.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Tranylcypromine (an MAO inhibitor antidepressant)",
+      "ingredients": [
+        "tranylcypromine"
+      ],
+      "brands": {
+        "tranylcypromine": [
+          "Parnate",
+          "Parpromine",
+          "Tranamef",
+          "Tranylmed"
+        ]
+      },
+      "note": "Tablets count. Moclobemide is a different, reversible medicine and is not in this group. The list is for older people, so the rule uses age 65 or over."
+    }
+  ],
+  "rule_for_models": "Flag a tranylcypromine tablet supply at any dose from age 65, whatever the brand. Below 65 there is no European finding. If age is unknown, report only a possible finding and ask for the patient’s age. Use the strength and directions to compare the daily dose with the European reduced dose of 30 mg/day and maximum of 60 mg/day. If the dose is unclear, keep the age-eligible finding and ask how much the patient takes each day.",
+  "cannot_be_seen": "Blood pressure is unknown if the record has no dated reading. The record may also omit the reason for starting treatment, advice about food and medicine interactions, and the dose the person actually takes.",
+  "ask_the_gp": "A review of whether tranylcypromine is still needed at this age and dose, or whether a safer antidepressant could be used.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

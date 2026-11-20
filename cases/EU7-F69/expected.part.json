@@ -1,0 +1,48 @@
+[
+  {
+    "file": "EU7-F69/pos-brand.csv",
+    "kind": "positive",
+    "about": "Imovane (zopiclone) 7.5 mg at night, which is above 3.75 mg a day, is supplied every month for eight months and appears by brand name only.",
+    "findings": [
+      {
+        "criterion": "EU7-F69",
+        "must_cite": [
+          [
+            "L004",
+            "L007",
+            "L010",
+            "L014",
+            "L017",
+            "L020",
+            "L024",
+            "L027"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F69/pos-buried.csv",
+    "kind": "positive",
+    "about": "Stilnox (zolpidem) 10 mg at night, which is above 5 mg a day, is supplied four times from December 2025 to March 2026, in the middle of a 15-month history.",
+    "findings": [
+      {
+        "criterion": "EU7-F69",
+        "must_cite": [
+          [
+            "L029",
+            "L033",
+            "L038",
+            "L043"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F69/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Stilnox (zolpidem) 10 mg, half a tablet at night, is 5 mg a day. That is not above the 5 mg limit.",
+    "findings": []
+  }
+]

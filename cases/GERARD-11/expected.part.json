@@ -1,0 +1,47 @@
+[
+  {
+    "file": "GERARD-11/pos-fact.csv",
+    "kind": "positive",
+    "about": "A dated note records first gliclazide treatment at age 78 in a person with type 2 diabetes.",
+    "findings": [
+      {
+        "criterion": "GERARD-11",
+        "must_cite": [
+          [
+            "L002"
+          ],
+          [
+            "L041"
+          ],
+          [
+            "L042"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "GERARD-11/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about whether the gliclazide supply at age 78 was a new start.",
+    "findings": [
+      {
+        "criterion": "GERARD-11",
+        "must_cite": [
+          [
+            "L002"
+          ],
+          [
+            "L026"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "GERARD-11/near-miss.csv",
+    "kind": "near_miss",
+    "about": "At age 78 the dated note identifies the gliclazide supply as continuation of established treatment.",
+    "findings": []
+  }
+]

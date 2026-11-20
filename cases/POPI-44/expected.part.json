@@ -1,0 +1,44 @@
+[
+  {
+    "file": "POPI-44/pos-fact.csv",
+    "kind": "positive",
+    "about": "The recorded diagnosis date is 22 January 2026 and the first inhaled corticosteroid supply is on 2 April 2026, when the diagnosis date was entered.",
+    "findings": [
+      {
+        "criterion": "POPI-44",
+        "must_cite": [
+          [
+            "L022"
+          ],
+          [
+            "L023"
+          ],
+          [
+            "L030"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "POPI-44/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about persistent asthma and the asthma reliever has no inhaled corticosteroid supply within 60 days either side.",
+    "findings": [
+      {
+        "criterion": "POPI-44",
+        "must_cite": [
+          [
+            "L015"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "POPI-44/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Asthma is recorded as intermittent and a budesonide-containing combination inhaler is supplied at the review.",
+    "findings": []
+  }
+]

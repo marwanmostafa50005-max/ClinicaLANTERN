@@ -1,0 +1,50 @@
+{
+  "id": "EU7-F08",
+  "label": "EU(7)-PIM: liquid paraffin, oral docusate",
+  "family": "EU7",
+  "title": "Liquid paraffin or docusate by mouth in an older person",
+  "statement": "Viscous paraffin (=Liquid paraffin) | In lists: 4, 5 (A) | Main reason: Pulmonary side effects if aspirated | Dose adjustment/special considerations: (blank: per ESM note, no suggestion by experts or in Micromedex) | Alternatives: Recommend proper dietary fibre and fluid intake; osmotically active laxatives: macrogol, lactulose. E, P || Docusate sodium (oral) | In lists: 1 (A) | Main reason: Stool softener laxative. Adverse events include cramping, nausea, diarrhoea. May exacerbate bowel disfunction | Dose adjustment/special considerations: (blank: per ESM note, no suggestion by experts or in Micromedex) | Alternatives: Recommend proper dietary fibre and fluid intake; osmotically active laxatives: macrogol, lactulose. E, P",
+  "statement_origin": "published",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Two rows of the source table as extracted for this prototype: the rows are joined, the column names are written in, and an empty cell is shown as a note in brackets. The cell wording was recorded as word for word and has not been compared again with the publisher's page. The authors have not reviewed this layout."
+  },
+  "plain_summary": "Liquid paraffin taken by mouth can harm the lungs if it goes down the wrong way, and docusate, a stool softener, can cause cramping, nausea and diarrhoea and may make bowel problems worse in older people.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Liquid paraffin and docusate taken by mouth",
+      "ingredients": [
+        "docusate",
+        "liquid paraffin"
+      ],
+      "brands": {
+        "docusate": [
+          "Coloxyl",
+          "Coloxyl Tablet",
+          "Coloxyl with Senna",
+          "Sennesoft"
+        ],
+        "liquid paraffin": [
+          "Agarol",
+          "Parachoc",
+          "Little Parachoc",
+          "Paralax"
+        ]
+      },
+      "note": "Only products taken by mouth count. Docusate is also written docusate sodium. Agarol and Parachoc are liquid paraffin taken by mouth as a laxative. Not in this group: skin products and eye ointments that hold liquid paraffin (for example Dermeze, QV, Alpha Keri, E45), ear drops that hold docusate (for example Waxsol), enemas and suppositories (for example Klyx and Coloxyl suppositories), Coloxyl Drops, which is poloxamer, and Coloxyl Macrogol. Macrogol (for example Movicol, OsmoLax) and lactulose are named by the source as alternatives and do not count. Generic packs that show the ingredient name with a company name count too. Oral docusate sodium counts on its own or with another active ingredient, including senna."
+    }
+  ],
+  "rule_for_models": "Suspect a finding for one supply of liquid paraffin or docusate sodium taken by mouth at age 65 or over, including oral docusate with senna. If age is unknown for a qualifying supply, report a possible finding and ask for the patient's age. Exclude patients under 65 and products used on the skin, in the eyes or ears, or rectally.",
+  "cannot_be_seen": "Use documented swallowing difficulty, aspiration risk and bowel observations when available. If the record is silent, these remain unknown. Actual laxative use, the reason for choosing it, fluid and fibre intake and purchases outside the record may also be unknown.",
+  "ask_the_gp": "Whether this laxative is still the best choice at the patient's age, and for liquid paraffin whether the patient has any trouble swallowing.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

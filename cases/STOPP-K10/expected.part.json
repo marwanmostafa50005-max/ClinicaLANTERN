@@ -1,0 +1,57 @@
+[
+  {
+    "file": "STOPP-K10/pos-fact.csv",
+    "kind": "positive",
+    "about": "Flomaxtra (tamsulosin, an alpha blocker for the prostate) is supplied monthly from July 2025 while the record holds a recurrent falls line.",
+    "findings": [
+      {
+        "criterion": "STOPP-K10",
+        "must_cite": [
+          [
+            "L005",
+            "L008",
+            "L013",
+            "L017",
+            "L022",
+            "L025",
+            "L029"
+          ],
+          [
+            "L033"
+          ],
+          [
+            "L009"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-K10/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: Xatral is supplied for urinary symptoms from the prostate and the record holds no line about \"Recurrent falls\".",
+    "findings": [
+      {
+        "criterion": "STOPP-K10",
+        "must_cite": [
+          [
+            "L006",
+            "L010",
+            "L014",
+            "L017",
+            "L022"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-K10/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Must not flag: Flomaxtra (tamsulosin) is supplied monthly, but the record shows only a single fall with no recurrence.",
+    "findings": []
+  }
+]

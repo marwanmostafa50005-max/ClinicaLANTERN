@@ -1,0 +1,55 @@
+[
+  {
+    "file": "STOPP-G1/pos-fact.csv",
+    "kind": "positive",
+    "about": "The October COPD review documents the indication for theophylline, and no other regular COPD medicine covers the supply dates from that review onwards.",
+    "findings": [
+      {
+        "criterion": "STOPP-G1",
+        "must_cite": [
+          [
+            "L006",
+            "L012",
+            "L017",
+            "L022",
+            "L027",
+            "L032",
+            "L037",
+            "L042"
+          ],
+          [
+            "L011"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-G1/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: COPD is recorded without a theophylline indication, and the July ipratropium directions do not establish its role on the 27 July theophylline supply date.",
+    "findings": [
+      {
+        "criterion": "STOPP-G1",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L009",
+            "L013",
+            "L017",
+            "L021",
+            "L025",
+            "L029"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-G1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Regular inhaled ipratropium for COPD covers each theophylline supply date.",
+    "findings": []
+  }
+]

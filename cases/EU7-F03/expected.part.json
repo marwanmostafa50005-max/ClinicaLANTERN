@@ -1,0 +1,57 @@
+[
+  {
+    "file": "EU7-F03/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the dated Nexium supplies cover more than 56 days at 40 mg daily. Reflux is recorded, but the record has no review or other evidence that establishes whether this dose is maximal for this patient or why it should continue.",
+    "findings": [
+      {
+        "criterion": "EU7-F03",
+        "must_cite": [
+          [
+            "L006",
+            "L010",
+            "L013",
+            "L017",
+            "L020",
+            "L025",
+            "L028",
+            "L032"
+          ],
+          [
+            "L035"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F03/pos-fact.csv",
+    "kind": "positive",
+    "about": "Somac 40 mg twice daily covers more than 56 days at the maximal daily dose for reflux oesophagitis, and a dated review documents healing and no continuing indication for this regimen. Cite enough dated supplies to show more than 56 days of cover as well as the review. A single 30-day supply is insufficient.",
+    "findings": [
+      {
+        "criterion": "EU7-F03",
+        "must_cite": [
+          [
+            "L026",
+            "L031",
+            "L035",
+            "L040"
+          ],
+          [
+            "L045"
+          ],
+          [
+            "L046"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F03/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The two early maximal-dose packs leave a gap of 30 days without cover. The later uninterrupted 60-day course has a specialist-confirmed reason to continue pantoprazole 40 mg twice daily.",
+    "findings": []
+  }
+]

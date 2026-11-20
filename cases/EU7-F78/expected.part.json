@@ -1,0 +1,51 @@
+[
+  {
+    "file": "EU7-F78/pos-fact.csv",
+    "kind": "positive",
+    "about": "Bethanechol is supplied six times from October 2025 to March 2026 and the record holds a condition line for benign prostatic hyperplasia, so the finding must cite both.",
+    "findings": [
+      {
+        "criterion": "EU7-F78",
+        "must_cite": [
+          [
+            "L021",
+            "L025",
+            "L030",
+            "L034",
+            "L039",
+            "L044"
+          ],
+          [
+            "L005"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F78/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about benign prostatic hyperplasia, so the models should say this fact is missing and ask the doctor to confirm.",
+    "findings": [
+      {
+        "criterion": "EU7-F78",
+        "must_cite": [
+          [
+            "L009",
+            "L012",
+            "L015",
+            "L019",
+            "L022",
+            "L025"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F78/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Bethanechol is supplied, but the record has a line saying benign prostatic hyperplasia was excluded on review, so there is no finding.",
+    "findings": []
+  }
+]

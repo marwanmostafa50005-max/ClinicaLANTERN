@@ -1,0 +1,44 @@
+[
+  {
+    "file": "EU7-F42/pos-brand.csv",
+    "kind": "positive",
+    "about": "Mobic (meloxicam, a Group A NSAID) 7.5 mg is supplied five times from February to June 2026, by brand name only.",
+    "findings": [
+      {
+        "criterion": "EU7-F42",
+        "must_cite": [
+          [
+            "L013",
+            "L017",
+            "L021",
+            "L025",
+            "L029"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F42/pos-buried.csv",
+    "kind": "positive",
+    "about": "Naproxen (Naprosyn) 500 mg twice a day, a daily dose of 1000 mg, is supplied three times from January to March 2026, in the middle of a 16-month history.",
+    "findings": [
+      {
+        "criterion": "EU7-F42",
+        "must_cite": [
+          [
+            "L036",
+            "L041",
+            "L047"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F42/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Only two short courses of ibuprofen 400 mg (up to 1200 mg a day for 4 days each, months apart) and a Voltaren Emulgel skin gel are supplied, so no limit is passed and the gel does not count.",
+    "findings": []
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "id": "EU7-F67",
+  "label": "EU(7)-PIM: meprobamate",
+  "family": "EU7",
+  "title": "Meprobamate in an older person",
+  "statement": "Meprobamate is on the list of medicines to avoid in older people because of the risk of drowsiness and confusion. If it must be used, the list advises a lower dose and longer gaps between doses when the kidneys work less well.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Statement written in plain words by ClinicaLANTERN from the published table row or rows, because part of the original dose text is from a third-party database (Micromedex) whose rights are not settled. It is not the authors' wording. Not endorsed by the source authors."
+  },
+  "plain_summary": "Meprobamate, an old calming medicine, can cause drowsiness and confusion in people aged 65 or over.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Meprobamate",
+      "ingredients": [
+        "meprobamate"
+      ],
+      "brands": {
+        "meprobamate": []
+      },
+      "note": "No Australian brand is listed. The history shows the ingredient name."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when the person is aged 65 or over and meprobamate is supplied, even once. If age is missing and meprobamate is supplied, report only a possible finding and ask whether the person is 65 or older.",
+  "cannot_be_seen": "The record may omit why treatment began and whether it was supplied by another service or from overseas. Kidney function is unknown unless a dated result is recorded. Dispensing does not confirm how much is taken.",
+  "ask_the_gp": "A review of whether meprobamate is still needed and whether a safer choice for anxiety or sleep is possible.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

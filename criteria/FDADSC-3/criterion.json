@@ -1,0 +1,64 @@
+{
+  "id": "FDADSC-3",
+  "label": "FDADSC: febuxostat without an allopurinol reason",
+  "family": "FDADSC",
+  "title": "Febuxostat without allopurinol failure, intolerance or contraindication",
+  "statement": "The U.S. Food and Drug Administration (FDA) has concluded there is an increased risk of death with Uloric (febuxostat) compared to another gout medicine, allopurinol. Health care professionals should reserve Uloric for use only in patients who have failed or do not tolerate allopurinol.",
+  "statement_origin": "published",
+  "source": {
+    "document": "US FDA Drug Safety Communication: FDA adds Boxed Warning for increased risk of death with gout medicine Uloric (febuxostat)",
+    "citation": "U.S. Food and Drug Administration. FDA adds Boxed Warning for increased risk of death with gout medicine Uloric (febuxostat). 21 February 2019.",
+    "url": "https://www.fda.gov/drugs/drug-safety-and-availability/fda-adds-boxed-warning-increased-risk-death-gout-medicine-uloric-febuxostat",
+    "licence": "Public domain",
+    "licence_status": "proposed",
+    "credit": "Credit the U.S. Food and Drug Administration as the source. Credit is appreciated but not required. FDA recommends recording the copy date and linking to the source.",
+    "modification_notice": "The published statement is unchanged. The Australian medicine list, screening rule, question and fictional histories were added for this draft."
+  },
+  "plain_summary": "The FDA reserves febuxostat for allopurinol failure or intolerance. The Australian PBS chronic-gout restriction requires allopurinol contraindication, documented hypersensitivity, or intolerance needing permanent discontinuation. Both support allopurinol before febuxostat. The TGA warns against febuxostat with pre-existing major cardiovascular disease unless no other therapy is appropriate. Patients should never stop febuxostat without prescriber review. Chest pain, shortness of breath or stroke symptoms need urgent care.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Febuxostat",
+      "ingredients": [
+        "febuxostat"
+      ],
+      "brands": {
+        "febuxostat": [
+          "Adenuric",
+          "Febexic"
+        ]
+      },
+      "note": "Oral febuxostat tablets count. Adenuric and Febexic were confirmed on the current PBS page. Febexic was also confirmed on its ARTG public page."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Prior allopurinol trial, intolerance, or contraindication",
+      "meets": "Patient has not had an inadequate response to allopurinol, allopurinol intolerance, hypersensitivity, or contraindication",
+      "ask_when": {
+        "group": "A"
+      },
+      "options": [
+        {
+          "words": "Confirmed that allopurinol has not failed and there is no intolerance, hypersensitivity or contraindication.",
+          "effect": "meets"
+        },
+        {
+          "words": "Confirmed prior allopurinol failure, intolerance, hypersensitivity, or contraindication",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Prior allopurinol response, intolerance or contraindication is unknown",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "For each Group A febuxostat supply, check the record and counter answer for an inadequate response to allopurinol, allopurinol intolerance, hypersensitivity or contraindication. An allopurinol supply alone does not establish failure or intolerance. Report a finding when the answer confirms none of these reasons and cite the febuxostat supply and answer line; report a possible finding naming the missing fact if no line exists or the answer is unknown; report no finding when one of those reasons is confirmed.",
+  "cannot_be_seen": "Allopurinol supplies elsewhere, whether allopurinol was tried, and its outcome or intolerance when no line records them. An allopurinol supply alone does not establish failure or intolerance. Major cardiovascular disease may also be unrecorded.",
+  "ask_the_gp": "Could you review allopurinol failure or intolerance under the FDA warning, and the contraindication, hypersensitivity or intolerance required by the Australian PBS chronic-gout restriction? Could you also review cardiovascular history because the TGA warns against febuxostat with pre-existing major cardiovascular disease unless no other therapy is appropriate, and advise on continuity of febuxostat and urgent review for chest pain, shortness of breath or stroke symptoms?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

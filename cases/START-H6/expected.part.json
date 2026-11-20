@@ -1,0 +1,53 @@
+[
+  {
+    "file": "START-H6/pos-brand.csv",
+    "kind": "positive",
+    "about": "Possible interruption after two Prolia supplies. The next six-monthly injection appears overdue and the record shows no follow-on treatment. Confirm the last administration date with the clinic.",
+    "findings": [
+      {
+        "criterion": "START-H6",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L017"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-H6/pos-buried.csv",
+    "kind": "positive",
+    "about": "Two denosumab injections were administered in the osteoporosis clinic. The clinic later recorded that treatment stopped without follow-on therapy.",
+    "findings": [
+      {
+        "criterion": "START-H6",
+        "must_cite": [
+          [
+            "L011"
+          ],
+          [
+            "L032"
+          ],
+          [
+            "L053"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-H6/near-miss.csv",
+    "kind": "near_miss",
+    "about": "After two denosumab supplies, three packs of weekly alendronic acid were supplied from 10 June to 5 August 2026, beginning around the next injection due date.",
+    "findings": []
+  },
+  {
+    "file": "START-H6/near-miss-single-injection.csv",
+    "kind": "near_miss",
+    "about": "The pharmacy supplied one Prolia syringe on 24 November and the clinic administered that syringe the same day. A later stop is documented after one dose.",
+    "findings": []
+  }
+]

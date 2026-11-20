@@ -1,0 +1,352 @@
+{
+  "id": "BRISNIK-OP-MISC2",
+  "label": "Brisnik: MISC2",
+  "family": "BRISNIK",
+  "title": "Antidepressant use in a person with dementia and a first mild or moderate depressive episode",
+  "statement": "Prescribed any antidepressant - and the patient has dementia and a first episode of mild or moderate depression",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2). Not endorsed by the source authors."
+  },
+  "plain_summary": "Review antidepressant use in a person with dementia and a first mild or moderate depressive episode. Consider the dementia stage, the reason for treatment and the benefit the person is experiencing.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antidepressants",
+      "ingredients": [
+        "amitriptyline",
+        "nortriptyline",
+        "dosulepin",
+        "doxepin",
+        "imipramine",
+        "clomipramine",
+        "trimipramine",
+        "sertraline",
+        "citalopram",
+        "escitalopram",
+        "fluoxetine",
+        "paroxetine",
+        "fluvoxamine",
+        "venlafaxine",
+        "desvenlafaxine",
+        "duloxetine",
+        "mirtazapine",
+        "agomelatine",
+        "vortioxetine",
+        "moclobemide",
+        "phenelzine",
+        "tranylcypromine",
+        "reboxetine",
+        "trazodone",
+        "mianserin",
+        "bupropion"
+      ],
+      "brands": {
+        "amitriptyline": [
+          "Endep",
+          "Entrip",
+          "Amichlor",
+          "Amidep"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "dosulepin": [
+          "Dothep",
+          "Prothiaden"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ],
+        "sertraline": [
+          "Zoloft",
+          "Setrona",
+          "Eleva",
+          "Concorz",
+          "Detralon",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Tralen",
+          "Xydep"
+        ],
+        "citalopram": [
+          "Cipramil",
+          "Celapram",
+          "Talam",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talohexal"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Loxalate",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Zactin",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Paxtine",
+          "Extine",
+          "Aropax CR",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ],
+        "venlafaxine": [
+          "Efexor-XR",
+          "Enlafax-XR",
+          "Altven",
+          "Elaxine SR",
+          "Evelexa XR",
+          "Ozvenaf",
+          "Venfax SR",
+          "Venla",
+          "Venlexor XR"
+        ],
+        "desvenlafaxine": [
+          "Pristiq",
+          "Desfax",
+          "Desven"
+        ],
+        "duloxetine": [
+          "Cymbalta",
+          "Andepra",
+          "Baltine",
+          "Coperin",
+          "Deotine",
+          "Depreta",
+          "Drulox",
+          "Dulocym",
+          "Duloxecor",
+          "Dytrex",
+          "Symlox",
+          "Texotine",
+          "Tixol",
+          "Xerol DR"
+        ],
+        "mirtazapine": [
+          "Avanza",
+          "Axit",
+          "Avanza SolTab",
+          "Mirtazon",
+          "Aurozapine",
+          "Milivin OD",
+          "Mirtanza",
+          "Mirtanza ODT",
+          "Remeron",
+          "Remeron Soltab"
+        ],
+        "agomelatine": [
+          "Valdoxan",
+          "Domion",
+          "Nortim",
+          "Valomel"
+        ],
+        "vortioxetine": [
+          "Brintellix"
+        ],
+        "moclobemide": [
+          "Aurorix",
+          "Amira",
+          "Arima",
+          "Clobemide",
+          "Clobemix",
+          "Maosig",
+          "Mohexal"
+        ],
+        "phenelzine": [
+          "Nardil"
+        ],
+        "tranylcypromine": [
+          "Parnate",
+          "Parpromine",
+          "Tranamef",
+          "Tranylmed"
+        ],
+        "reboxetine": [
+          "Edronax"
+        ],
+        "trazodone": [],
+        "mianserin": [
+          "Lumin",
+          "Tolvon"
+        ],
+        "bupropion": [
+          "Zyban SR",
+          "Clorprax",
+          "Prexaton"
+        ]
+      },
+      "note": "Listed brands can identify historical supplies. Current sale is not assumed. Dothiepin is another name for dosulepin and counts as the same medicine. Count bupropion only when the record identifies its use for the depressive episode under review. Exclude use for smoking cessation. Unknown purpose can support only a possible finding when the other criteria for review are met. Specialist intranasal esketamine is outside the antidepressant list used for this screen. Surmontil tablets and capsules contain trimipramine. Match trazodone by ingredient when no verified brand is available. Exclude doxepin cream used on the skin."
+    },
+    {
+      "key": "B",
+      "name": "Medicines that suggest dementia",
+      "ingredients": [
+        "donepezil",
+        "rivastigmine",
+        "galantamine",
+        "memantine"
+      ],
+      "brands": {
+        "donepezil": [
+          "Aricept",
+          "Arazil",
+          "Alzil",
+          "Aricept-D",
+          "Aridon",
+          "Aridon APN",
+          "Aridon ODT",
+          "Ariez",
+          "Doceptil",
+          "Donaccord",
+          "Donpesyn"
+        ],
+        "rivastigmine": [
+          "Exelon",
+          "Exelon Patch"
+        ],
+        "galantamine": [
+          "Reminyl",
+          "Galantyl",
+          "Gamine XR"
+        ],
+        "memantine": [
+          "Ebixa",
+          "Memanxa",
+          "Ebixa Drops",
+          "Memantipin",
+          "Mimiva"
+        ]
+      },
+      "note": "A dementia medicine can support a possible finding when dementia is undocumented. Exelon Patch contains rivastigmine."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Dementia",
+      "meets": "Dementia is documented for the period under review or the pharmacist confirms it was present then. An explicit negative excludes the finding. Unknown leaves the diagnosis open.",
+      "options": [
+        {
+          "words": "Dementia was present during the treatment period under review",
+          "effect": "meets"
+        },
+        {
+          "words": "Dementia was absent during that period",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "condition",
+      "what": "First episode of mild or moderate depression",
+      "meets": "The episode at the supply under review was a first episode and was mild or moderate. A known nonqualifying episode excludes the finding. Unknown leaves the episode open.",
+      "options": [
+        {
+          "words": "First episode, mild or moderate at the supply under review",
+          "effect": "meets"
+        },
+        {
+          "words": "Recurrent, severe or otherwise outside this description at that supply",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for this bupropion course",
+      "meets": "The record or pharmacist confirms that bupropion was prescribed for this depressive episode. Ask only if bupropion is the only possible antidepressant and its purpose could change the finding. An unknown purpose leaves a possible finding only when the other evidence supports review.",
+      "options": [
+        {
+          "words": "For this depressive episode",
+          "effect": "meets"
+        },
+        {
+          "words": "For smoking cessation or another purpose only",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Require a Group A antidepressant supply. Exclude skin cream and bupropion used only for another purpose. If bupropion is the only candidate, count it as an antidepressant only when it was prescribed for this depressive episode. If its purpose is unknown and the other evidence below supports review, report only a possible finding. Ask about the reason for bupropion separately from any missing clinical facts. If another Group A supply qualifies, use that supply without asking about bupropion. Confirm only when dementia and a first mild or moderate depressive episode are both documented for the treatment under review. If either is ruled out, including a recurrent or severe episode, there is no finding. If one is documented and the other is unknown, report a possible finding and ask about the missing clinical fact, even without a Group B supply. If both are unknown, report a possible finding and ask about both facts when there is a previous or current Group B supply, even if the courses did not overlap. Without either clinical fact or a Group B clue, there is no finding. Cite the antidepressant supply and each fact or Group B supply used.",
+  "cannot_be_seen": "When not recorded: whether the person truly has dementia, whether this is the first episode of depression, how severe it is, and whether non-drug care was tried. Medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "Could you review whether the antidepressant is helping this person, confirm any missing dementia or depression episode details, and consider a non-drug approach or an antidepressant review?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

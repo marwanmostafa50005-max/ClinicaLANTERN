@@ -1,0 +1,44 @@
+[
+  {
+    "file": "POPI-66/pos-fact.csv",
+    "kind": "positive",
+    "about": "Oxybutynin is the only bedwetting medicine supplied in the 60 days either side and the child has no daytime urinary symptoms.",
+    "findings": [
+      {
+        "criterion": "POPI-66",
+        "must_cite": [
+          [
+            "L016"
+          ],
+          [
+            "L018"
+          ],
+          [
+            "L019"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "POPI-66/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about daytime urinary symptoms and oxybutynin is the only supply for bedwetting.",
+    "findings": [
+      {
+        "criterion": "POPI-66",
+        "must_cite": [
+          [
+            "L017"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "POPI-66/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The first oxybutynin course accompanies oral desmopressin and the later course coincides with documented daytime urgency and wetting.",
+    "findings": []
+  }
+]

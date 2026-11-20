@@ -1,0 +1,283 @@
+{
+  "id": "KHAWAGI-G151",
+  "label": "Khawagi review: Check for a recorded measured weight within six months during maintenance antipsychotic treatment",
+  "family": "KHAWAGI",
+  "title": "Check for a recorded measured weight within six months during maintenance antipsychotic treatment",
+  "statement": "Check for a recorded measured weight within six months during maintenance antipsychotic treatment.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review, S3 File",
+    "citation": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. PLoS ONE 2019;14(5):e0217406, S3 File.",
+    "doi": "10.1371/journal.pone.0217406",
+    "url": "https://doi.org/10.1371/journal.pone.0217406.s003",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. PLoS ONE 2019;14(5):e0217406. https://doi.org/10.1371/journal.pone.0217406; S3 File, https://doi.org/10.1371/journal.pone.0217406.s003. © 2019 Khawagi et al., CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). S3 item G151. Original screening wording and Australian adaptations. S3 reference(s) as indexed in the supplied qualification: [39]. Clinical cross-check: Australian cardiometabolic monitoring schedule (https://www.iphys.org.au/_files/ugd/3536bf_da7d0d6477c143d3aab87a4cf6d3a20d.pdf).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "Check for a recorded measured weight within six months during maintenance antipsychotic treatment.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antipsychotics",
+      "ingredients": [
+        "amisulpride",
+        "aripiprazole",
+        "asenapine",
+        "brexpiprazole",
+        "cariprazine",
+        "chlorpromazine",
+        "clozapine",
+        "droperidol",
+        "flupentixol",
+        "fluphenazine",
+        "haloperidol",
+        "lurasidone",
+        "olanzapine",
+        "paliperidone",
+        "periciazine",
+        "quetiapine",
+        "risperidone",
+        "trifluoperazine",
+        "ziprasidone",
+        "zuclopenthixol",
+        "flupentixol decanoate",
+        "fluphenazine decanoate"
+      ],
+      "brands": {
+        "amisulpride": [
+          "Amipride",
+          "Amisulpride (Ajs)",
+          "Amisulpride (An)",
+          "Amisulpride (Apo)",
+          "Amisulpride (Apotex)",
+          "Amisulpride (Ch)",
+          "Amisulpride (Pharmacor)",
+          "Amisulpride (Sandoz Pharma)",
+          "Amisulpride (Sandoz)",
+          "Amisulpride (Sanofi)",
+          "Amisulpride (Scp)",
+          "Amisulpride (Wgr)",
+          "Amisulpride (Winthrop)",
+          "Solian"
+        ],
+        "aripiprazole": [
+          "Abilify",
+          "Abilify ODT",
+          "Abipra",
+          "Abyraz",
+          "Aprazole",
+          "Aripic",
+          "Aripra",
+          "Arizole",
+          "Abilify Maintena",
+          "Abilify Asimtufii"
+        ],
+        "asenapine": [
+          "Saphris"
+        ],
+        "brexpiprazole": [
+          "Rexulti"
+        ],
+        "cariprazine": [
+          "Reagila"
+        ],
+        "chlorpromazine": [
+          "Chlorpromazine Hydrochloride Mixture (Orion)",
+          "Chlorpromazine Hydrochloride Mixture Forte (Orion)",
+          "Largactil",
+          "Largactil Syrup"
+        ],
+        "clozapine": [
+          "Clopine",
+          "Closyn",
+          "Clozapine (Akm)",
+          "Clozapine (Mylan)",
+          "Clozapine (Pharmacor)",
+          "Clozaril",
+          "Clozaril Odt",
+          "Clozitor",
+          "Versacloz"
+        ],
+        "droperidol": [],
+        "flupentixol": [],
+        "fluphenazine": [],
+        "haloperidol": [
+          "Serenace",
+          "Haldol Decanoate"
+        ],
+        "lurasidone": [
+          "Bilura",
+          "Latuda",
+          "Latulem",
+          "Lavione",
+          "Luracor",
+          "Luralem",
+          "Luralembic",
+          "Lurasidone (Agh)",
+          "Lurasidone (Aghl)",
+          "Lurasidone (Alembic)",
+          "Lurasidone (Apl)",
+          "Lurasidone (Apo)",
+          "Lurasidone (Appl)",
+          "Lurasidone (Ardix)"
+        ],
+        "olanzapine": [
+          "Zyprexa",
+          "Aprolan",
+          "Aprolan ODT",
+          "Lanez",
+          "Lanez ODT",
+          "Lanzek",
+          "Lanzek Zydis",
+          "Lonza",
+          "Lonza ODT",
+          "Lyprosia",
+          "Lyprosia ODT",
+          "Olancor",
+          "Olanza",
+          "Olanzaccord",
+          "Olanzacor",
+          "Oprexa",
+          "Ozin",
+          "Ozin ODT",
+          "Prolanza",
+          "Prolanza ODT",
+          "Pryzex",
+          "Pryzex ODT",
+          "Tolaze ODT",
+          "Tolazine ODT",
+          "Torapine ODT",
+          "Torrenia ODT",
+          "Zylap",
+          "Zylap ODT",
+          "Zylapine",
+          "Zylapine ODT",
+          "Zypine",
+          "Zypine ODT",
+          "Zyprexa Zydis",
+          "Zyprexa Relprevv"
+        ],
+        "paliperidone": [
+          "Invega",
+          "Invega Hafyera",
+          "Invega Sustenna",
+          "Invega Trinza",
+          "Palmeux",
+          "Trevicta"
+        ],
+        "periciazine": [
+          "Neulactil"
+        ],
+        "quetiapine": [
+          "Seroquel",
+          "Aliquen",
+          "Delucon",
+          "Kaptan",
+          "Ketizenol",
+          "Qualez",
+          "Quepine XR",
+          "Quetapen",
+          "Quetia",
+          "Quetia XR",
+          "Quetiaccord",
+          "Quetiaquel XR",
+          "Quetin",
+          "Quipine",
+          "Sequase",
+          "Sequase XR",
+          "Serapine",
+          "Serapine XR",
+          "Seroccord",
+          "Seronia",
+          "Seroquel XR",
+          "Serotiapine XR",
+          "Syquet",
+          "Syquet XR",
+          "Syzopine",
+          "Tevatiapine XR",
+          "Tiapine XR",
+          "Tiava XR",
+          "Xque XR"
+        ],
+        "risperidone": [
+          "Risperdal",
+          "Ozidal",
+          "Resdone",
+          "Respaz",
+          "Risdone",
+          "Rispa",
+          "Rispaccord",
+          "Rispaccord-0.5",
+          "Risperdal Quicklet",
+          "Risperibell",
+          "Rispericor",
+          "Rispericor-0.5",
+          "Risperisan",
+          "Rispernia",
+          "Rixadone",
+          "Sperid",
+          "Risperdal Consta",
+          "Uzedy"
+        ],
+        "trifluoperazine": [
+          "Stelazine",
+          "Stelazine Forte",
+          "Stelazine Spansule"
+        ],
+        "ziprasidone": [
+          "Zeldox",
+          "Ziprasidone (Apo)",
+          "Ziprasidone (Genpar)",
+          "Ziprasidone (Gh)",
+          "Ziprasidone (Wgr)",
+          "Ziprasidone Titration Pack (Apo)",
+          "Ziprox"
+        ],
+        "zuclopenthixol": [
+          "Clopixol",
+          "Clopixol Depot"
+        ],
+        "flupentixol decanoate": [
+          "Fluanxol Concentrated Depot",
+          "Fluanxol Depot"
+        ],
+        "fluphenazine decanoate": [
+          "Modecate"
+        ]
+      },
+      "note": "Count maintenance antipsychotic treatment, including scheduled long-acting haloperidol decanoate, zuclopenthixol decanoate and paliperidone depots. Check form and treatment history for names used across presentations. Exclude a short acute, procedural or antiemetic course, including a one-off droperidol injection. At the latest date in the record, use the qualifying supplies and treatment history to check for continuing maintenance antipsychotic treatment beyond the first year. A switch between antipsychotics can continue the course. A documented stop or an isolated acute or antiemetic course does not establish current maintenance. Establish the treatment period from dated clinical history or from supply dates, quantities and directions, using the scheduled interval for depot treatment. When directions, intermittent use or gaps leave maintenance uncertain, report at most a possible finding and ask whether regular treatment continued. The pharmacist judges borderline gaps. Check that the history covers the monitoring interval."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Measured weight in the six months up to the latest date in the record",
+      "meets": "Count six calendar months back from the latest date in the record. A measured weight documented in that period, including either boundary, satisfies the check. An older measurement or no documented measurement supports only a possible gap. If timing is unknown, ask when the weight was measured.",
+      "options": [
+        {
+          "words": "A measured weight is documented within that period, including the six-month boundary",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "The last documented weight measurement was before that period",
+          "effect": "meets"
+        },
+        {
+          "words": "No measured weight is documented in the available history",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "During continuing maintenance antipsychotic treatment beyond the first year, return no finding and no cited line IDs if a weight measurement was documented in the last six months ending on the latest date in the record (both boundaries count), including when the pharmacist confirms the timing without a value in kilograms. If the last measured weight predates that interval, put its line ID and the supply line IDs showing the treatment span together in the evidence list and report only a possible monitoring gap. If no measured weight is recorded or its timing is unknown, cite the supplies showing that span and report only a possible monitoring gap. When a possible gap needs clarification, name the missing fact \"Measured weight in the six months up to the latest date in the record\".",
+  "cannot_be_seen": "A weight measured by another provider may be missing. An incomplete weight history cannot establish that the patient missed monitoring.",
+  "ask_the_gp": "Could you confirm the date of the latest measured weight during maintenance antipsychotic treatment and the follow-up plan?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

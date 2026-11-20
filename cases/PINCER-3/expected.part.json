@@ -1,0 +1,61 @@
+[
+  {
+    "file": "PINCER-3/pos-fact.csv",
+    "kind": "positive",
+    "about": "Ramipril (an ACE inhibitor) is supplied every month from June 2025 to September 2026 for a 78 year old. The only kidney and salt results are dated 4 June 2025, more than 15 months before the end.",
+    "findings": [
+      {
+        "criterion": "PINCER-3",
+        "must_cite": [
+          [
+            "L006"
+          ],
+          [
+            "L036",
+            "L039",
+            "L043",
+            "L046",
+            "L049",
+            "L052",
+            "L055"
+          ],
+          [
+            "L002",
+            "L003"
+          ],
+          [
+            "L004"
+          ],
+          [
+            "L005"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PINCER-3/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record has a recent creatinine result but no sodium or potassium result. Lasix (furosemide, a loop diuretic) is supplied by brand name five times over 16 months for an 80 year old.",
+    "findings": [
+      {
+        "criterion": "PINCER-3",
+        "must_cite": [
+          [
+            "L002"
+          ],
+          [
+            "L021",
+            "L025"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PINCER-3/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Perindopril (an ACE inhibitor) is supplied every month for 16 months, but eGFR, creatinine, potassium and sodium were all checked on 10 March 2026, inside the last 15 months.",
+    "findings": []
+  }
+]

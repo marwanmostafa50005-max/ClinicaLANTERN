@@ -1,0 +1,78 @@
+[
+  {
+    "file": "BRISNIK-HR-F3/pos-fact.csv",
+    "kind": "positive",
+    "about": "Sertraline and meloxicam (an NSAID) are supplied together and the record holds a line for peptic ulcer disease. Pantoprazole is also supplied, but protection does not change the finding.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-F3",
+        "must_cite": [
+          [
+            "L003",
+            "L007",
+            "L012",
+            "L017",
+            "L022",
+            "L027",
+            "L032",
+            "L037",
+            "L041"
+          ],
+          [
+            "L011",
+            "L016",
+            "L021",
+            "L026",
+            "L031",
+            "L036"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-F3/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: sertraline is supplied with oral aspirin, first with unclear directions and later for pain, and the record holds no line about peptic ulcer disease, gastrointestinal bleeding or haemophilia.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-F3",
+        "must_cite": [
+          [
+            "L002",
+            "L005",
+            "L009",
+            "L012",
+            "L015",
+            "L018",
+            "L021",
+            "L024",
+            "L027",
+            "L029"
+          ],
+          [
+            "L003",
+            "L006",
+            "L008",
+            "L011",
+            "L014",
+            "L017",
+            "L020",
+            "L023",
+            "L026",
+            "L028"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-F3/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Sertraline and clopidogrel are supplied together, but the record states that there is no history of peptic ulcer, GI bleeding or haemophilia.",
+    "findings": []
+  }
+]

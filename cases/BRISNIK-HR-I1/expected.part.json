@@ -1,0 +1,51 @@
+[
+  {
+    "file": "BRISNIK-HR-I1/pos-fact.csv",
+    "kind": "positive",
+    "about": "Zoloft (sertraline) is supplied monthly from July 2025, a serum sodium of 139 mmol/L before it started is followed by 126 mmol/L on 24 February 2026, and no diuretic is ever supplied.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-I1",
+        "must_cite": [
+          [
+            "L033"
+          ],
+          [
+            "L035"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-I1/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about serum sodium anywhere; Efexor-XR (venlafaxine) is supplied every four weeks and no diuretic is supplied.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-I1",
+        "must_cite": [
+          [
+            "L004",
+            "L006",
+            "L009",
+            "L011",
+            "L014",
+            "L016",
+            "L018",
+            "L021",
+            "L024",
+            "L026",
+            "L029"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-I1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Zoloft (sertraline) is supplied monthly, but the serum sodium on 10 February 2026 is 137 mmol/L, which is normal, so the criterion is not met.",
+    "findings": []
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "file": "STOPP-F8/pos-fact.csv",
+    "kind": "positive",
+    "about": "Megestrol was started for poor appetite and weight loss, and the oncology plan also lists it as hormone treatment for breast cancer.",
+    "findings": [
+      {
+        "criterion": "STOPP-F8",
+        "must_cite": [
+          [
+            "L001",
+            "L008",
+            "L012",
+            "L017",
+            "L021",
+            "L026",
+            "L030",
+            "L035",
+            "L039"
+          ],
+          [
+            "L005"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-F8/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about why megestrol is used. Megestrol acetate is supplied monthly from February to August 2026.",
+    "findings": [
+      {
+        "criterion": "STOPP-F8",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L009",
+            "L013",
+            "L017",
+            "L021",
+            "L025",
+            "L029"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-F8/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Megestrol acetate is supplied monthly, but the record holds a line that shows it is hormone treatment for breast cancer, not for appetite, so there is no finding.",
+    "findings": []
+  }
+]

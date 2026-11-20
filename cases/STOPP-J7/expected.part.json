@@ -1,0 +1,62 @@
+[
+  {
+    "file": "STOPP-J7/pos-fact.csv",
+    "kind": "positive",
+    "about": "Femoston Conti (estradiol with dydrogesterone, a combined menopausal hormone product) is supplied every four weeks and the record has a coronary artery disease line with confirmed stenosis.",
+    "findings": [
+      {
+        "criterion": "STOPP-J7",
+        "must_cite": [
+          [
+            "L003",
+            "L008",
+            "L012",
+            "L016",
+            "L021",
+            "L025",
+            "L029",
+            "L034",
+            "L038",
+            "L042"
+          ],
+          [
+            "L002"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-J7/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: coronary stenosis is documented and Estradot is supplied, but the single Mirena supply has no record of insertion or continuing use.",
+    "findings": [
+      {
+        "criterion": "STOPP-J7",
+        "must_cite": [
+          [
+            "L002",
+            "L007",
+            "L010",
+            "L013",
+            "L017",
+            "L020",
+            "L023"
+          ],
+          [
+            "L003"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-J7/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Femoston Conti is supplied and the recorded history excludes stenotic coronary, cerebral and peripheral arterial disease.",
+    "findings": []
+  }
+]

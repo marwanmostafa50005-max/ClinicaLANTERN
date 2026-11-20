@@ -1,0 +1,44 @@
+[
+  {
+    "file": "OPTIMISE-T2-19/pos-brand.csv",
+    "kind": "positive",
+    "about": "The 70-year-old has documented schizophrenia and starts brand-only Eutroxsig at two 75 microgram tablets each morning on 13 January 2026.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T2-19",
+        "must_cite": [
+          [
+            "L014"
+          ],
+          [
+            "L005"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T2-19/pos-buried.csv",
+    "kind": "positive",
+    "about": "The 72-year-old has documented schizophrenia and starts Eltroxin at one 125 microgram tablet each morning on 15 January 2026.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T2-19",
+        "must_cite": [
+          [
+            "L036"
+          ],
+          [
+            "L018"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T2-19/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The 68-year-old with documented schizophrenia starts Oroxine at 50 micrograms daily and reaches 100 micrograms only through later increases.",
+    "findings": []
+  }
+]

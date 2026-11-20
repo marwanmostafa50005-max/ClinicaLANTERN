@@ -1,0 +1,270 @@
+{
+  "id": "BRISNIK-OP-ANXI2",
+  "label": "Brisnik ANXI2: antidepressant for 12 weeks or more in 65 and over with no improvement",
+  "family": "BRISNIK",
+  "title": "Antidepressant for anxiety with no improvement after 12 weeks, 65 and over",
+  "statement": "Prescribed an antidepressant for ≥ 12 weeks - and the patient is aged ≥ 65 years with no signs of clinically relevant symptom improvement",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A person aged 65 or over who has taken an antidepressant for anxiety for at least 12 weeks without clear improvement should have the treatment reviewed.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antidepressants",
+      "ingredients": [
+        "citalopram",
+        "escitalopram",
+        "fluoxetine",
+        "fluvoxamine",
+        "paroxetine",
+        "sertraline",
+        "desvenlafaxine",
+        "duloxetine",
+        "venlafaxine",
+        "amitriptyline",
+        "clomipramine",
+        "dosulepin",
+        "doxepin",
+        "imipramine",
+        "nortriptyline",
+        "trimipramine",
+        "moclobemide",
+        "phenelzine",
+        "tranylcypromine",
+        "bupropion",
+        "agomelatine",
+        "mirtazapine",
+        "vortioxetine"
+      ],
+      "brands": {
+        "citalopram": [
+          "Cipramil",
+          "Celapram",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talam",
+          "Talohexal"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam",
+          "Loxalate"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Zactin",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Extine",
+          "Aropax CR",
+          "Oxetine",
+          "Paroxo",
+          "Paxtine",
+          "Roxet",
+          "Roxtine"
+        ],
+        "sertraline": [
+          "Zoloft",
+          "Concorz",
+          "Detralon",
+          "Eleva",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Setrona",
+          "Tralen",
+          "Xydep"
+        ],
+        "desvenlafaxine": [
+          "Pristiq",
+          "Desfax",
+          "Desven"
+        ],
+        "duloxetine": [
+          "Cymbalta",
+          "Andepra",
+          "Baltine",
+          "Coperin",
+          "Deotine",
+          "Depreta",
+          "Drulox",
+          "Dulocym",
+          "Duloxecor",
+          "Dytrex",
+          "Symlox",
+          "Texotine",
+          "Tixol",
+          "Xerol DR"
+        ],
+        "venlafaxine": [
+          "Efexor-XR",
+          "Altven",
+          "Elaxine",
+          "Elaxine SR",
+          "Enlafax XR",
+          "Evelexa XR",
+          "Ozvenaf",
+          "Venfax SR",
+          "Venla",
+          "Venlexor XR"
+        ],
+        "amitriptyline": [
+          "Endep",
+          "Amichlor",
+          "Amidep",
+          "Entrip"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "dosulepin": [
+          "Dothep",
+          "Prothiaden"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ],
+        "moclobemide": [
+          "Aurorix",
+          "Maosig",
+          "Amira",
+          "Arima",
+          "Clobemide",
+          "Clobemix",
+          "Mohexal"
+        ],
+        "phenelzine": [
+          "Nardil"
+        ],
+        "tranylcypromine": [
+          "Parnate",
+          "Parpromine",
+          "Tranamef",
+          "Tranylmed"
+        ],
+        "bupropion": [
+          "Zyban"
+        ],
+        "agomelatine": [
+          "Valdoxan",
+          "Domion",
+          "Nortim",
+          "Valomel"
+        ],
+        "mirtazapine": [
+          "Avanza",
+          "Remeron",
+          "Aurozapine",
+          "Avanza Soltab",
+          "Axit",
+          "Milivin OD",
+          "Mirtanza",
+          "Mirtanza ODT",
+          "Mirtazon",
+          "Remeron Soltab"
+        ],
+        "vortioxetine": [
+          "Brintellix"
+        ]
+      },
+      "note": "Generic packs that show the ingredient name with a company name count too. Bupropion is listed under Zyban, which is sold for quitting smoking. Oral antidepressant tablets, capsules and liquids count when the course meets the rule. Exclude skin preparations."
+    }
+  ],
+  "rule_for_models": "For a person aged 65 or older, report a finding if this Group A antidepressant treated anxiety for at least 84 covered days and a dated assessment then shows no meaningful improvement. Accept a clinical description or comparable scores interpreted for their scale. Use quantity and prescribed units per day to count days through the assessment, carrying spare units forward within the same course and counting each day once. Exclude uncovered days, separate courses and later supplies. A single pack or dated course record may establish the duration. Cite the indication, supplies and dated outcome. Age under 65, another sole indication or meaningful improvement at the qualifying assessment gives no finding. If age, indication, duration or response is uncertain, ask for the missing detail and report only a possible finding. If this course could qualify and the response is unknown, undated or assessed only before 12 weeks, report a possible finding and name \"Anxiety response at or after 12 weeks on this antidepressant course (enter the assessment in words and its date)\". Count covered days through the actual assessment date. The date of counter entry cannot establish when anxiety was assessed. Use the age at the assessment of this course. Ask for age in whole years only if the record leaves it unknown and the other evidence could qualify.",
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Anxiety disorder (the reason for the antidepressant)",
+      "meets": "The record identifies anxiety as a reason for this antidepressant course.",
+      "options": [
+        {
+          "words": "Anxiety is a reason for this antidepressant course",
+          "effect": "meets"
+        },
+        {
+          "words": "This antidepressant course is solely for another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "result",
+      "what": "Anxiety response at or after 12 weeks on this antidepressant course (enter the assessment in words and its date)",
+      "meets": "A dated assessment at or after 12 weeks documents no clinically relevant improvement in anxiety. Accept a clinical assessment or comparable scores interpreted for that scale. In Value, enter whether anxiety improved meaningfully. Use the clinical assessment or the interpretation of comparable scores. In Date, enter the actual assessment date. Leave Unit empty."
+    },
+    {
+      "kind": "result",
+      "what": "Age in whole years at the assessment of this anxiety treatment course",
+      "meets": "Use the age recorded for the assessed course. Ask only if that age is missing and the other evidence could meet the rule. Enter the age in whole years and the date it applied. Age 65 or older meets the age test. Under 65 excludes the finding. If the age is unknown, the finding remains possible."
+    }
+  ],
+  "cannot_be_seen": "Why the antidepressant was prescribed, how well the person takes it, and how the person feels. The record shows only supplies and any scores entered.",
+  "ask_the_gp": "A review of how well the antidepressant is working and whether the treatment should continue, change or be reduced.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

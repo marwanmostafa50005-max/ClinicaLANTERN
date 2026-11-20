@@ -1,0 +1,187 @@
+{
+  "id": "STOPP-F2",
+  "label": "STOPP F2",
+  "family": "STOPP_START",
+  "title": "Full-dose PPI for over 8 weeks for an uncomplicated ulcer",
+  "statement": "Proton pump inhibitor (PPI) for uncomplicated peptic ulcer disease at full therapeutic dosage for > 8 weeks (dose reduction or earlier discontinuation or H2 antagonist maintenance therapy usually indicated).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A proton pump inhibitor at full dose for more than 8 weeks for a simple stomach ulcer is usually reduced or stopped.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Proton pump inhibitors",
+      "ingredients": [
+        "omeprazole",
+        "esomeprazole",
+        "pantoprazole",
+        "lansoprazole",
+        "rabeprazole"
+      ],
+      "brands": {
+        "omeprazole": [
+          "Losec",
+          "Acimax",
+          "Maxor",
+          "Maxor EC",
+          "Maxor Heartburn Relief",
+          "Meprazol",
+          "Omepral",
+          "Omepro",
+          "Omezole",
+          "Ozmep",
+          "Pemzo",
+          "Probitor"
+        ],
+        "esomeprazole": [
+          "Nexium",
+          "Axagon",
+          "Beezole",
+          "Emeprazol",
+          "Esopran",
+          "Esopreze",
+          "Guardium Acid Reflux Relief",
+          "Jubeso",
+          "Jubium",
+          "Mepreze",
+          "Nexazole",
+          "Nexcid",
+          "Nexium 24HR Once Daily Dosing",
+          "Nexole",
+          "Nexprazole",
+          "Noxicid",
+          "Noxicid Caps Heartburn Relief",
+          "Noxicid Tabs Heartburn Relief",
+          "Zanzole 24HR",
+          "Vimovo"
+        ],
+        "pantoprazole": [
+          "Somac",
+          "Gastenz",
+          "Ozpan",
+          "Pantaccord",
+          "Panthron",
+          "Panto",
+          "Pantofast",
+          "Pantoloc",
+          "Prazole",
+          "Rizil",
+          "Salpraz",
+          "Salpraz Heartburn Relief",
+          "Somac Heartburn Relief",
+          "Sozol",
+          "Suvacid Heartburn Relief",
+          "Topra",
+          "Torprazole",
+          "Torzole"
+        ],
+        "lansoprazole": [
+          "Zoton",
+          "Lanzopran",
+          "Zopral",
+          "Zopral ODT",
+          "Zoton Fastab"
+        ],
+        "rabeprazole": [
+          "Pariet",
+          "Parbezol",
+          "Parzol",
+          "Perizel DR",
+          "Prabez",
+          "Rabzole",
+          "Razit",
+          "Zabep"
+        ]
+      },
+      "note": "Tablets, capsules and granules for oral administration count. Exclude injections. Vimovo contains naproxen and esomeprazole. A Vimovo supply alone does not establish ulcer treatment. If the recorded purpose is protection during NSAID use, there is no F2 finding. For granules, multiply the milligrams per sachet by the prescribed number of sachets per day. Full dose here means omeprazole 20 mg or more a day, esomeprazole 20 mg or more, pantoprazole 40 mg or more, lansoprazole 30 mg or more, rabeprazole 20 mg or more. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Reason for the proton pump inhibitor course under review",
+      "meets": "This PPI course was prescribed to treat an uncomplicated peptic ulcer.",
+      "options": [
+        {
+          "words": "To treat an uncomplicated peptic ulcer",
+          "effect": "meets"
+        },
+        {
+          "words": "To treat a complicated peptic ulcer",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "To treat a peptic ulcer, complication status unknown",
+          "effect": "unknown"
+        },
+        {
+          "words": "Another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "result",
+      "what": "Prescribed daily dose of omeprazole during the course under review",
+      "meets": "Enter the prescribed dose in mg per day for this omeprazole course. A dose of 20 mg per day or more is full dose. Ask only when the directions leave this comparison unclear and the other facts allow a finding."
+    },
+    {
+      "kind": "result",
+      "what": "Prescribed daily dose of esomeprazole during the course under review",
+      "meets": "Enter the prescribed dose in mg per day for this esomeprazole course. A dose of 20 mg per day or more is full dose. Ask only when the directions leave this comparison unclear and the other facts allow a finding."
+    },
+    {
+      "kind": "result",
+      "what": "Prescribed daily dose of pantoprazole during the course under review",
+      "meets": "Enter the prescribed dose in mg per day for this pantoprazole course. A dose of 40 mg per day or more is full dose. Ask only when the directions leave this comparison unclear and the other facts allow a finding."
+    },
+    {
+      "kind": "result",
+      "what": "Prescribed daily dose of lansoprazole during the course under review",
+      "meets": "Enter the prescribed dose in mg per day for this lansoprazole course. A dose of 30 mg per day or more is full dose. Ask only when the directions leave this comparison unclear and the other facts allow a finding."
+    },
+    {
+      "kind": "result",
+      "what": "Prescribed daily dose of rabeprazole during the course under review",
+      "meets": "Enter the prescribed dose in mg per day for this rabeprazole course. A dose of 20 mg per day or more is full dose. Ask only when the directions leave this comparison unclear and the other facts allow a finding."
+    },
+    {
+      "kind": "observation",
+      "what": "Full-dose tablet cover during the refill gap under review",
+      "meets": "Ask only when this gap could decide whether full-dose treatment exceeded 56 continuous days. Identify the PPI and the two refill dates. Tablets on hand covered the whole gap at full dose.",
+      "options": [
+        {
+          "words": "Covered the whole gap at full dose",
+          "effect": "meets"
+        },
+        {
+          "words": "There was a break",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this criterion only when the patient was aged 65 years or older at the supply being assessed. If age is unknown, ask for age confirmation before attributing a STOPP finding. Suspect a finding when a Group A medicine at full daily dose (worked out from strength and directions) is supplied for more than 56 days in one full-dose course, supported by the supply dates, quantities and directions and the record links that course to treatment of an uncomplicated peptic ulcer: cite the supply lines that show the duration and the condition line. Do not count uncovered gaps between separate courses or count overlapping days twice. Only if the directions leave the full-dose comparison unclear and the other facts allow a finding, ask for the prescribed daily dose in mg of the named PPI for that course. Compare the confirmed dose with that ingredient's full dose in Group A. Cite the dose line if it establishes full dose. A dose below that threshold throughout rules out the course. If the dose is unknown and could change the result, keep the finding possible. Give no finding if the record already rules out this criterion. If the full-dose course exceeds 56 days and its reason is unknown, report only a possible finding and ask why this course was prescribed. An older ulcer alone does not establish the reason. For an otherwise qualifying course with peptic ulcer disease of unstated complication status, report only a possible finding and name the missing status. A course for documented complicated ulcer disease gives no finding under this item. Assess completed courses at their dates and describe them as historical. Ask about tablets on hand only if the refill gap could decide whether full-dose treatment exceeded 56 continuous days. Name the PPI and both refill dates. If the whole gap was covered at full dose, include those days once. If there was a break, count the uninterrupted stretches separately. Use a dated confirmation of cover or a break when the record already gives it. If the gap remains unknown and could change the finding, report only a possible finding. If another stretch of the same course already exceeded 56 continuous full-dose days, use that stretch without asking about the gap. When the record gives a different reason (for example reflux), or shows a half dose or a course of 8 weeks or less, there is no finding.",
+  "cannot_be_seen": "The reason for the medicine if the record holds none, whether the ulcer was complicated, whether the germ Helicobacter pylori was treated, and the dose the patient really takes.",
+  "ask_the_gp": "A review of whether the dose can be reduced or the medicine stopped, or a different maintenance medicine used.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

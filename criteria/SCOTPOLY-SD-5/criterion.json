@@ -1,0 +1,210 @@
+{
+  "id": "SCOTPOLY-SD-5",
+  "label": "SCOTPOLY: systemic NSAID during acute dehydrating illness",
+  "family": "SCOTPOLY",
+  "title": "Oral or rectal NSAID during acute dehydrating illness",
+  "statement": "Step 5: Medication sick day guidance: advise to stop during dehydrating illness",
+  "statement_origin": "published",
+  "source": {
+    "document": "Scottish Government Effective Prescribing and Therapeutics Division, Polypharmacy Guidance: Appropriate Prescribing - Making medicines safe, effective and sustainable 2026-2029, fourth edition",
+    "citation": "Scottish Government Effective Prescribing and Therapeutics Division. Polypharmacy Guidance: Appropriate Prescribing - Making medicines safe, effective and sustainable 2026-2029, fourth edition, published 2 March 2026. Appendix B, Table 38, Musculoskeletal System, NSAIDs, Step 5 (web page 13, printed page 390).",
+    "url": "https://www.gov.scot/publications/polypharmacy-guidance-appropriate-prescribing-making-medicines-safe-effective-sustainable-2026-2029/pages/13/",
+    "licence": "UK Open Government Licence v3.0",
+    "licence_status": "proposed",
+    "credit": "Contains public sector information licensed under the Open Government Licence v3.0.",
+    "modification_notice": "The Appendix B wording is reproduced unchanged. The Australian screening rule, medicine groups, counter question and fictional histories are adaptations."
+  },
+  "plain_summary": "A non-steroidal anti-inflammatory drug (NSAID) taken by mouth or used as a suppository can increase the risk of acute kidney injury during a dehydrating illness. Check which pain medicines the person has actually taken, including occasional doses and products bought without a prescription. Review the sick-day plan and whether a temporary pause is appropriate. If a pause is agreed, review restarting once well and eating and drinking normally. Seek prompt medical review if symptoms persist or worsen or fluids cannot be kept down. NSAIDs can worsen heart failure. Decompensated heart failure needs urgent assessment, including review of NSAID use.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Oral and rectal NSAIDs",
+      "ingredients": [
+        "celecoxib",
+        "diclofenac",
+        "etoricoxib",
+        "ibuprofen",
+        "indometacin",
+        "ketoprofen",
+        "ketorolac",
+        "mefenamic acid",
+        "meloxicam",
+        "naproxen",
+        "piroxicam",
+        "sulindac",
+        "tenoxicam",
+        "tiaprofenic acid"
+      ],
+      "brands": {
+        "celecoxib": [
+          "Celebrex",
+          "Celebrex Relief",
+          "Celaxib",
+          "Celexi",
+          "Anacoxib",
+          "Celetoid",
+          "Celocox",
+          "Kudeq"
+        ],
+        "diclofenac": [
+          "Voltaren",
+          "Voltaren Rapid",
+          "Voltaren Rapid Extra Strength",
+          "Voltaren Rapid Liquid Capsules",
+          "Voltfast",
+          "Clonac",
+          "Fenac",
+          "Fenac EC",
+          "Cambia",
+          "Diclohexal",
+          "Difenac Rapid",
+          "Dinac",
+          "Imflac",
+          "Inflamax Liquid Caps",
+          "Zorvolex",
+          "Arthrotec"
+        ],
+        "etoricoxib": [
+          "Arcoxia"
+        ],
+        "ibuprofen": [
+          "Brufen",
+          "Brufen Pain",
+          "Brufen Syrup",
+          "Nurofen",
+          "Nurofen Back Pain",
+          "Nurofen Caplet",
+          "Nurofen Double Strength",
+          "Nurofen Liquid Capsule",
+          "Nurofen Meltlets",
+          "Nurofen Migraine Pain",
+          "Nurofen Period Pain",
+          "Nurofen Quickzorb",
+          "Nurofen Regular",
+          "Nurofen Tension Headache",
+          "Nurofen Zavance",
+          "Nurofen Zavance Liquid Capsules",
+          "Advil",
+          "Advil 12 Hour",
+          "Advil Double Strength",
+          "Advil Double Strength Caplets",
+          "Advil Double Strength Liquid Capsules",
+          "Advil Mini Caps",
+          "Advil Rapid Release",
+          "Rafen",
+          "Bugesic",
+          "Panafen",
+          "Panafen IB",
+          "Panafen IB Mini Cap",
+          "Panafen Plus",
+          "Nurofen Plus",
+          "Nuromol",
+          "Maxigesic",
+          "Mersynofen",
+          "Act-3",
+          "Butafen",
+          "Iprofen",
+          "Proven",
+          "Tri-Profen"
+        ],
+        "indometacin": [
+          "Indocid",
+          "Arthrexin"
+        ],
+        "ketoprofen": [
+          "Orudis",
+          "Oruvail"
+        ],
+        "ketorolac": [
+          "Toradol"
+        ],
+        "mefenamic acid": [
+          "Ponstan",
+          "Femin",
+          "Mefic",
+          "Menamic"
+        ],
+        "meloxicam": [
+          "Mobic",
+          "Movalis",
+          "Melobic",
+          "Meloxibell",
+          "Moxicam",
+          "Agilocam",
+          "Melox",
+          "Mobelox"
+        ],
+        "naproxen": [
+          "Naprosyn",
+          "Naprosyn SR",
+          "Naprosyn SR 1000",
+          "Naprosyn SR1000",
+          "Proxen",
+          "Proxen SR",
+          "Proxen SR 1000",
+          "Anaprox",
+          "Anaprox 550",
+          "Crysanal",
+          "Inza",
+          "Naprogesic",
+          "Aleve",
+          "Aleve 24 Hour",
+          "Femme-Free",
+          "Naprofem",
+          "Vimovo"
+        ],
+        "piroxicam": [
+          "Feldene",
+          "Feldene-D",
+          "Mobilis",
+          "Mobilis D",
+          "Candyl",
+          "Candyl-D",
+          "Pirohexal-D"
+        ],
+        "sulindac": [
+          "Aclin"
+        ],
+        "tenoxicam": [
+          "Tilcotil"
+        ],
+        "tiaprofenic acid": [
+          "Surgam",
+          "Surgam SA"
+        ]
+      },
+      "note": "Count the listed NSAIDs taken by mouth, including combination tablets, or used as rectal suppositories. Examples include rectal diclofenac and indometacin. Check the form when a brand has more than one route, including Voltaren and Indocid. Indometacin may appear as indomethacin. Exclude low-dose aspirin, skin and eye preparations, injections and throat lozenges. Only oral Imflac tablets and Toradol 10 mg oral tablets count for those brands. Count supplies from the month of the newest dated record line and the two preceding calendar months, even if the directions say as directed or when needed. An unknown age does not prevent this check. An illness recorded only in a past episode leaves the current illness unknown. Check actual use at the counter."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Current dehydrating illness",
+      "meets": "The patient currently has an acute dehydrating illness, such as repeated vomiting or diarrhoea, fever with sweats or shaking, or cannot keep fluids down.",
+      "options": [
+        {
+          "words": "Current dehydrating illness, such as repeated vomiting or diarrhoea, inability to keep fluids down, or other signs of dehydration",
+          "effect": "meets"
+        },
+        {
+          "words": "Fever with more than mild sweats or shaking",
+          "effect": "meets"
+        },
+        {
+          "words": "No current dehydrating illness, including recovery or mild illness with normal fluid intake",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "At any age, look for a Group A NSAID supplied for oral or rectal use in the month of the newest record date or either of the two preceding months. With a qualifying supply, use the pharmacist's answer for this assessment, even if undated, or the latest relevant observation or condition that establishes current illness status. Confirm current dehydrating illness and cite the supply and illness lines. If status is missing, unknown or only describes a past episode, cite the supply and report a possible finding with Current dehydrating illness as the missing fact. Give no finding if there is no qualifying supply or the patient is well, has recovered or has only mild illness with normal fluid intake and no dehydration.",
+  "cannot_be_seen": "A dispensing record may miss over-the-counter NSAIDs and supplies from other pharmacies. Check the route, recent use of as-needed pain relief, current symptoms and the sick-day plan with the patient.",
+  "ask_the_gp": "Could you review the risk of acute kidney injury, whether the patient is still using the NSAID and whether a pause is appropriate and what pain relief is suitable during the illness? If the NSAID is still needed, when can the patient restart once well and eating and drinking normally? Could you advise on the sick-day plan and prompt review if symptoms persist or worsen? If heart failure is decompensated, could you arrange urgent assessment and review NSAID use?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

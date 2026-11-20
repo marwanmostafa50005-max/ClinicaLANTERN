@@ -1,0 +1,242 @@
+{
+  "id": "STOPP-K5",
+  "label": "STOPP K5",
+  "family": "STOPP_START",
+  "title": "Anti-epileptic medicine in a person who keeps falling",
+  "statement": "Anti-epileptic drugs in patients with recurrent falls (may impair sensorium, may adversely affect cerebellar function).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Anti-epileptic medicines can cause drowsiness and unsteadiness, so they raise the risk of further falls in someone who has already fallen more than once.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Anti-epileptic medicines",
+      "ingredients": [
+        "brivaracetam",
+        "carbamazepine",
+        "clobazam",
+        "clonazepam",
+        "ethosuximide",
+        "gabapentin",
+        "lacosamide",
+        "lamotrigine",
+        "levetiracetam",
+        "oxcarbazepine",
+        "perampanel",
+        "phenobarbital",
+        "phenytoin",
+        "pregabalin",
+        "primidone",
+        "topiramate",
+        "sodium valproate",
+        "zonisamide",
+        "rufinamide",
+        "sulthiame",
+        "vigabatrin"
+      ],
+      "brands": {
+        "brivaracetam": [
+          "Briviact"
+        ],
+        "carbamazepine": [
+          "Tegretol",
+          "Tegretol CR",
+          "Teril",
+          "Avloire",
+          "Avloire CR"
+        ],
+        "clobazam": [
+          "Frisium",
+          "Clobium"
+        ],
+        "clonazepam": [
+          "Rivotril",
+          "Paxam"
+        ],
+        "ethosuximide": [
+          "Zarontin",
+          "Zarontin Syrup"
+        ],
+        "gabapentin": [
+          "Neurontin",
+          "Gabaccord",
+          "Gabacor",
+          "Gabahexal",
+          "Gabalep",
+          "Gabalex",
+          "Gabapen",
+          "Gabaran",
+          "Gabatine",
+          "Gantin",
+          "Gapentin",
+          "Mipentine",
+          "Nupentin",
+          "Nupentin Tab",
+          "Pendine"
+        ],
+        "lacosamide": [
+          "Vimpat",
+          "Lacomed",
+          "Lacoress",
+          "Lacosacor",
+          "Lacosam",
+          "Lacovim",
+          "Vimcosa",
+          "Vimmed"
+        ],
+        "lamotrigine": [
+          "Lamictal",
+          "Lamitor",
+          "Elmendos",
+          "Lamidus",
+          "Lamitan",
+          "Lamitrin",
+          "Lamogine",
+          "Lamotran",
+          "Lamotrust",
+          "Logem",
+          "Motrig",
+          "Munatrep",
+          "Reedos",
+          "Seaze",
+          "Torlemo DT",
+          "Tortrigine DT"
+        ],
+        "levetiracetam": [
+          "Keppra",
+          "Kepcet",
+          "Kerron",
+          "Ketraccord",
+          "Kevtam",
+          "Levactam",
+          "Levecetam",
+          "Leveceumid",
+          "Levefintaic",
+          "Levenakai",
+          "Leveriuol",
+          "Levesineal",
+          "Levetiram",
+          "Levetor",
+          "Levi",
+          "Levitaccord",
+          "Levitam",
+          "Levt"
+        ],
+        "oxcarbazepine": [
+          "Trileptal"
+        ],
+        "perampanel": [
+          "Fycompa"
+        ],
+        "phenobarbital": [
+          "Phenobarb",
+          "Phenobarbital (Rising Pharmaceuticals Usa)",
+          "Phenobarbital Elixir",
+          "Phenobarbital Elixir (Perrigo)",
+          "Phenobarbitone",
+          "Phenobarbitone (Aspen)",
+          "Phenobarbitone (Fawns & Mcallan)",
+          "Phenobarbitone (Sigma)",
+          "Phenobarbitone Elixir",
+          "Phenobarbitone Elixir (Orion)",
+          "Phenobarbitone Sodium (Dbl)"
+        ],
+        "phenytoin": [
+          "Dilantin",
+          "Dilantin Infatabs",
+          "Dilantin Paediatric"
+        ],
+        "pregabalin": [
+          "Lyrica",
+          "Adimis",
+          "Adirag",
+          "Adiris",
+          "Adrabalin",
+          "Adranuro",
+          "Adraprega",
+          "Algerika",
+          "Brillior",
+          "Cipgablin",
+          "Gabrica",
+          "Lypralin",
+          "Lyraccord",
+          "Lyrica CR",
+          "Lyrigalin",
+          "Lyrilin",
+          "Lyzalon",
+          "Neurica",
+          "Neuroccord",
+          "Prebalin",
+          "Pregabica",
+          "Pregaciplin",
+          "Pregaredi",
+          "Prelinaccord",
+          "Sudorega"
+        ],
+        "primidone": [
+          "Mysoline"
+        ],
+        "topiramate": [
+          "Topamax",
+          "Epiramax",
+          "Tamate",
+          "Topamax Sprinkle",
+          "Topira-Lax"
+        ],
+        "sodium valproate": [
+          "Epilim",
+          "Valpro"
+        ],
+        "zonisamide": [
+          "Zonegran"
+        ],
+        "rufinamide": [
+          "Inovelon"
+        ],
+        "sulthiame": [
+          "Ospolot"
+        ],
+        "vigabatrin": [
+          "Sabril"
+        ]
+      },
+      "note": "Gabapentin and pregabalin are listed because they are anti-epileptics, although they are often used for nerve pain. Clonazepam and clobazam also appear in STOPP-K1. Recognise valproate as a short name for sodium valproate in dispensing records. Phenobarbitone is an older Australian name for phenobarbital."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Recurrent falls",
+      "meets": "two or more falls in the past 12 months, or a line that says recurrent falls",
+      "options": [
+        {
+          "words": "Two or more falls in the 12 months up to the assessment",
+          "effect": "meets"
+        },
+        {
+          "words": "No falls or one fall in those 12 months",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "For a person aged 65 or older, flag a Group A anti-epileptic supplied when recurrent falls were documented or the person had fallen at least twice in the preceding 12 months. Cite the supply and falls evidence. With a relevant supply and no answer or an uncertain falls history for that period, report a possible finding and ask about falls. Missing age also needs confirmation. No finding below 65, without a Group A supply, or with zero or one fall in that period.",
+  "cannot_be_seen": "The record may omit the reason for treatment, seizure history, drug levels and dose changes. Some of these medicines are used for nerve pain, mood or migraine. Dispensing alone cannot establish the dose taken or seizure control.",
+  "ask_the_gp": "Whether the anti-epileptic is still needed at this dose, given the falls. A falls and medicines review with the treating specialist if the person has epilepsy.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

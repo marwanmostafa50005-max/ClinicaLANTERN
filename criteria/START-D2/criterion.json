@@ -1,0 +1,275 @@
+{
+  "id": "START-D2",
+  "label": "START D2",
+  "family": "STOPP_START",
+  "title": "Antidepressant missing in major depression",
+  "statement": "Non-TCA antidepressant for major depression.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "For a current major depressive episode, review severity, treatment already in place and the person’s preferences. If medication is appropriate and no non-tricyclic antidepressant is supplied, ask whether one has been considered. If the only non-tricyclic antidepressant is supplied for another purpose, review whether its regimen also treats the episode.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Medicines that meet this criterion: antidepressants that are not tricyclics",
+      "ingredients": [
+        "sertraline",
+        "escitalopram",
+        "citalopram",
+        "fluoxetine",
+        "paroxetine",
+        "fluvoxamine",
+        "venlafaxine",
+        "desvenlafaxine",
+        "duloxetine",
+        "mirtazapine",
+        "agomelatine",
+        "vortioxetine",
+        "moclobemide",
+        "phenelzine",
+        "tranylcypromine",
+        "reboxetine",
+        "mianserin"
+      ],
+      "brands": {
+        "sertraline": [
+          "Zoloft",
+          "Setrona",
+          "Concorz",
+          "Detralon",
+          "Eleva",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Tralen",
+          "Xydep"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam",
+          "Loxalate"
+        ],
+        "citalopram": [
+          "Cipramil",
+          "Celapram",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talam",
+          "Talohexal"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Zactin",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Paxtine",
+          "Aropax CR",
+          "Extine",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ],
+        "venlafaxine": [
+          "Efexor-XR",
+          "Altven",
+          "Elaxine SR",
+          "Enlafax XR",
+          "Evelexa XR",
+          "Ozvenaf",
+          "Venfax SR",
+          "Venla",
+          "Venlexor XR"
+        ],
+        "desvenlafaxine": [
+          "Pristiq",
+          "Desfax",
+          "Desven"
+        ],
+        "duloxetine": [
+          "Cymbalta",
+          "Andepra",
+          "Baltine",
+          "Coperin",
+          "Deotine",
+          "Depreta",
+          "Drulox",
+          "Dulocym",
+          "Duloxecor",
+          "Dytrex",
+          "Symlox",
+          "Texotine",
+          "Tixol",
+          "Xerol DR"
+        ],
+        "mirtazapine": [
+          "Remeron",
+          "Avanza",
+          "Axit",
+          "Aurozapine",
+          "Avanza Soltab",
+          "Milivin OD",
+          "Mirtanza",
+          "Mirtanza ODT",
+          "Mirtazon",
+          "Remeron Soltab"
+        ],
+        "agomelatine": [
+          "Valdoxan",
+          "Domion",
+          "Nortim",
+          "Valomel"
+        ],
+        "vortioxetine": [
+          "Brintellix"
+        ],
+        "moclobemide": [
+          "Aurorix",
+          "Amira",
+          "Arima",
+          "Clobemide",
+          "Clobemix",
+          "Maosig",
+          "Mohexal"
+        ],
+        "phenelzine": [
+          "Nardil"
+        ],
+        "tranylcypromine": [
+          "Parnate",
+          "Parpromine",
+          "Tranamef",
+          "Tranylmed"
+        ],
+        "reboxetine": [
+          "Edronax"
+        ],
+        "mianserin": [
+          "Lumin",
+          "Tolvon"
+        ]
+      },
+      "note": "The source gives no list, so this list is the prototype's own: SSRIs, SNRIs, mirtazapine, agomelatine, vortioxetine, reboxetine and the MAO inhibitors. Tricyclic antidepressants (amitriptyline, dosulepin, imipramine, nortriptyline, doxepin, clomipramine) do not count. Trazodone is not listed. Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "B",
+      "name": "Medicines that imply depression: tricyclic antidepressants",
+      "ingredients": [
+        "dosulepin",
+        "imipramine",
+        "doxepin"
+      ],
+      "brands": {
+        "dosulepin": [
+          "Dothep",
+          "Prothiaden"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ]
+      },
+      "note": "These tricyclics are mainly used for depression. A supply suggests depression when the record holds no line about it, but it does not prove it. Amitriptyline and nortriptyline are left out because they are often used for pain. Recognise dothiepin as another name for dosulepin. For doxepin, count oral forms only. A skin cream does not provide this clue."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Major depression",
+      "meets": "A current major depressive episode is confirmed. A past, resolved episode alone does not qualify. An unknown answer leaves the diagnosis open.",
+      "options": [
+        {
+          "words": "A major depressive episode is current",
+          "effect": "meets"
+        },
+        {
+          "words": "A previous episode has resolved and there is no current major depressive episode",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "No current major depressive episode",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Non-tricyclic antidepressant supplied elsewhere for this episode in the last six months",
+      "meets": "Answer for the current major depressive episode only. A confirmed absence settles only outside supply. A qualifying outside supply for the current episode clears the omission. An unknown answer leaves treatment unresolved.",
+      "options": [
+        {
+          "words": "Supplied elsewhere for this episode",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "The patient or supplying service confirms there was no such supply",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this criterion only to people aged 65 years or older. If age is unknown, confirm it before reporting a finding. Make no finding if the record documents an end-of-life care plan focused on comfort or a valid clinical reason to manage the current episode without a non-tricyclic antidepressant. Suspect a finding when the record holds a line showing major depression and no Group A medicine (a non-tricyclic antidepressant) is supplied in the last six months counted back from the latest date in the record; cite the condition line. When the record holds no depression line, but a Group B tricyclic antidepressant is supplied and no Group A medicine is supplied in the last six months, report only a possible finding, cite a Group B supply and ask for the missing fact Major depression. Read the selected answer to establish whether the episode is current. An unknown answer leaves the diagnosis unresolved. Report no finding if the record establishes that the only episode has resolved or that the current depression does not meet criteria for major depression. A description of symptoms as mild alone does not settle that diagnosis. For a possible finding, ask whether the tricyclic is for depression, pain, sleep or another reason. Its purpose alone cannot establish a current major depressive episode. First establish which episode is current at the latest date in the record. If that is unclear, ask for Major depression. If that episode is established, no qualifying local treatment is established and the possible finding depends on an outside supply check, ask for \"Non-tricyclic antidepressant supplied elsewhere for this episode in the last six months\". A confirmed outside supply for the current episode clears the omission. A confirmed absence settles outside supply only. An unknown answer leaves it possible. Use this answer only for the current episode. A supply for a different episode does not establish treatment for this one. A Group A supply in the last six months ordinarily clears the check. If the only Group A medicine in that period is documented solely for another purpose, check whether its regimen also treats the current major depressive episode. If it does, make no finding. If this is unclear, report only a possible finding. If the record documents that the episode is untreated and gives no valid clinical reason to omit treatment, report a finding. Cite the supply and the dated evidence for the episode and its treatment status. Ask for a review of the current regimen without suggesting duplicate antidepressant therapy.",
+  "cannot_be_seen": "How severe the depression is, whether it is current, talking therapy or other treatment, the person's choice, why a tricyclic was chosen, other uses of the medicine (such as pain or sleep), and medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "Whether a non-tricyclic antidepressant has been considered for this depression, and the reason if none is used. If the record does not show it, please also confirm the depression diagnosis and whether the current medicine is for depression. If a non-tricyclic antidepressant is already supplied for another purpose, could you review whether the current regimen also treats this episode?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

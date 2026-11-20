@@ -1,0 +1,55 @@
+[
+  {
+    "file": "MHRA-3/pos-fact.csv",
+    "kind": "positive",
+    "about": "Epilim EC is supplied to a man who can father a child, and the observation confirms that he and his female partner use neither condoms nor another contraceptive method.",
+    "findings": [
+      {
+        "criterion": "MHRA-3",
+        "must_cite": [
+          [
+            "L005",
+            "L010",
+            "L015",
+            "L020",
+            "L025",
+            "L030",
+            "L035",
+            "L040",
+            "L045"
+          ],
+          [
+            "L046"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "MHRA-3/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: sodium valproate is supplied and the record holds no line about \"Pregnancy risk and contraception during the valproate precaution period\".",
+    "findings": [
+      {
+        "criterion": "MHRA-3",
+        "must_cite": [
+          [
+            "L004",
+            "L008",
+            "L012",
+            "L016",
+            "L020",
+            "L024",
+            "L028"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "MHRA-3/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Epilim EC is supplied, but the observation confirms condoms plus effective contraception by the female partner for treatment and the 3 months after stopping.",
+    "findings": []
+  }
+]

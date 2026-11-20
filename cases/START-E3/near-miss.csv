@@ -1,0 +1,35 @@
+patient_ref,patient_age,patient_sex,record_type,dispense_date,medicine,brand,strength,form,quantity,repeats_left,directions,prescriber,detail,value
+F-E3-03,66,M,result,2026-01-14,,,,,,,,,eGFR,25 mL/min/1.73 m2
+F-E3-03,66,M,result,2026-01-14,,,,,,,,,Haemoglobin,94 g/L
+F-E3-03,66,M,condition,2026-01-14,,,,,,,,,Symptomatic anaemia due to chronic kidney disease. The renal clinic records that the patient is not on dialysis. Iron deficiency and vitamin B12 and folate deficiencies do not explain the continuing symptoms.,
+F-E3-03,66,M,result,2026-01-14,,,,,,,,,Serum ferritin,290 microgram/L
+F-E3-03,66,M,result,2026-01-14,,,,,,,,,Transferrin saturation,30 %
+F-E3-03,66,M,,2026-03-24,rosuvastatin,Crestor,10 mg,tablet,30,5,Take ONE tablet daily,Dr A. Example,,
+F-E3-03,66,M,,2026-03-24,pantoprazole,Somac,40 mg,tablet,30,5,Take ONE tablet daily before breakfast,Dr A. Example,,
+F-E3-03,66,M,,2026-03-24,amlodipine,Norvasc,5 mg,tablet,30,5,Take ONE tablet daily,Dr A. Example,,
+F-E3-03,66,M,,2026-03-24,darbepoetin alfa,Aranesp,40 microgram,prefilled syringe,4,5,Inject ONE syringe under the skin once a week,Dr B. Example,,
+F-E3-03,66,M,,2026-04-22,rosuvastatin,Crestor,10 mg,tablet,30,4,Take ONE tablet daily,Dr A. Example,,
+F-E3-03,66,M,,2026-04-22,pantoprazole,Somac,40 mg,tablet,30,4,Take ONE tablet daily before breakfast,Dr A. Example,,
+F-E3-03,66,M,,2026-04-22,amlodipine,Norvasc,5 mg,tablet,30,4,Take ONE tablet daily,Dr A. Example,,
+F-E3-03,66,M,,2026-04-22,darbepoetin alfa,Aranesp,40 microgram,prefilled syringe,4,4,Inject ONE syringe under the skin once a week,Dr B. Example,,
+F-E3-03,66,M,result,2026-05-06,,,,,,,,,Haemoglobin,96 g/L
+F-E3-03,66,M,,2026-05-19,rosuvastatin,Crestor,10 mg,tablet,30,3,Take ONE tablet daily,Dr A. Example,,
+F-E3-03,66,M,,2026-05-19,pantoprazole,Somac,40 mg,tablet,30,3,Take ONE tablet daily before breakfast,Dr A. Example,,
+F-E3-03,66,M,,2026-05-19,amlodipine,Norvasc,5 mg,tablet,30,3,Take ONE tablet daily,Dr A. Example,,
+F-E3-03,66,M,,2026-05-19,darbepoetin alfa,Aranesp,40 microgram,prefilled syringe,4,3,Inject ONE syringe under the skin once a week,Dr B. Example,,
+F-E3-03,66,M,,2026-06-18,rosuvastatin,Crestor,10 mg,tablet,30,2,Take ONE tablet daily,Dr A. Example,,
+F-E3-03,66,M,,2026-06-18,pantoprazole,Somac,40 mg,tablet,30,2,Take ONE tablet daily before breakfast,Dr A. Example,,
+F-E3-03,66,M,,2026-06-18,amlodipine,Norvasc,5 mg,tablet,30,2,Take ONE tablet daily,Dr A. Example,,
+F-E3-03,66,M,,2026-06-18,darbepoetin alfa,Aranesp,40 microgram,prefilled syringe,4,2,Inject ONE syringe under the skin once a week,Dr B. Example,,
+F-E3-03,66,M,,2026-07-15,rosuvastatin,Crestor,10 mg,tablet,30,1,Take ONE tablet daily,Dr A. Example,,
+F-E3-03,66,M,,2026-07-15,pantoprazole,Somac,40 mg,tablet,30,1,Take ONE tablet daily before breakfast,Dr A. Example,,
+F-E3-03,66,M,,2026-07-15,amlodipine,Norvasc,5 mg,tablet,30,1,Take ONE tablet daily,Dr A. Example,,
+F-E3-03,66,M,,2026-07-15,darbepoetin alfa,Aranesp,40 microgram,prefilled syringe,4,1,Inject ONE syringe under the skin once a week,Dr B. Example,,
+F-E3-03,66,M,,2026-08-11,rosuvastatin,Crestor,10 mg,tablet,30,0,Take ONE tablet daily,Dr A. Example,,
+F-E3-03,66,M,,2026-08-11,pantoprazole,Somac,40 mg,tablet,30,0,Take ONE tablet daily before breakfast,Dr A. Example,,
+F-E3-03,66,M,,2026-08-11,amlodipine,Norvasc,5 mg,tablet,30,0,Take ONE tablet daily,Dr A. Example,,
+F-E3-03,66,M,,2026-08-11,darbepoetin alfa,Aranesp,40 microgram,prefilled syringe,4,0,Inject ONE syringe under the skin once a week,Dr B. Example,,
+F-E3-03,66,M,,2026-09-11,rosuvastatin,Crestor,10 mg,tablet,30,5,Take ONE tablet daily,Dr A. Example,,
+F-E3-03,66,M,,2026-09-11,pantoprazole,Somac,40 mg,tablet,30,5,Take ONE tablet daily before breakfast,Dr A. Example,,
+F-E3-03,66,M,,2026-09-11,amlodipine,Norvasc,5 mg,tablet,30,5,Take ONE tablet daily,Dr A. Example,,
+F-E3-03,66,M,,2026-09-11,darbepoetin alfa,Aranesp,40 microgram,prefilled syringe,4,5,Inject ONE syringe under the skin once a week,Dr B. Example,,

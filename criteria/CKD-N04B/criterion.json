@@ -1,0 +1,75 @@
+{
+  "id": "CKD-N04B",
+  "label": "CKD review: Review immediate-release pramipexole above its renal dose limit in Parkinson disease",
+  "family": "CKD",
+  "title": "Review immediate-release pramipexole above its renal dose limit in Parkinson disease",
+  "statement": "For an adult outpatient with established CKD taking immediate-release pramipexole for Parkinson disease, review a daily salt dose above 2.25 mg at CrCl 20 to 50 mL/min or above 1.5 mg at CrCl below 20 mL/min.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "A systematically collated library of prescribing safety indicators for people with chronic kidney disease, Additional file 2 (Appendix 3)",
+    "citation": "Smith F, Hayward S, Hole B, Kimpton G, Sluman C, Whiting P, Caskey F. BMC Nephrology. 2020;21:493.",
+    "doi": "10.1186/s12882-020-02158-0",
+    "url": "https://link.springer.com/article/10.1186/s12882-020-02158-0",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Smith F, Hayward S, Hole B, Kimpton G, Sluman C, Whiting P, Caskey F. A systematically collated library of prescribing safety indicators for people with chronic kidney disease. BMC Nephrology 2020;21:493. https://doi.org/10.1186/s12882-020-02158-0; Additional file 2 (Appendix 3), https://doi.org/10.6084/m9.figshare.13257677. © The Author(s) 2020, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Changes were made. Smith et al. compiled the CKD indicators. Original screening wording and Australian adaptations. Clinical cross-check: Sifrol PI (https://apps.medicines.org.au/files/bypsifro.pdf).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "For an adult outpatient with established CKD taking immediate-release pramipexole for Parkinson disease, review a daily salt dose above 2.25 mg at CrCl 20 to 50 mL/min or above 1.5 mg at CrCl below 20 mL/min.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Immediate-release pramipexole",
+      "ingredients": [
+        "pramipexole"
+      ],
+      "brands": {
+        "pramipexole": [
+          "Sifrol",
+          "Pamex",
+          "Pexemis",
+          "Simipex",
+          "Simpral"
+        ]
+      },
+      "note": "Use immediate-release tablets for Parkinson disease and the dihydrochloride monohydrate strength. Exclude extended-release tablets and restless legs treatment."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "Creatinine clearance (unindexed, mL/min)",
+      "meets": "Use the dated Cockcroft-Gault result in mL/min applicable at supply. For Parkinson disease, the maximum daily salt dose is 2.25 mg at 20 through 50 mL/min and 1.5 mg below 20 mL/min."
+    },
+    {
+      "kind": "condition",
+      "what": "Chronic kidney disease",
+      "meets": "CKD was established by the supply under review. If its timing is uncertain, keep the finding possible unless another fact rules it out.",
+      "options": [
+        {
+          "words": "CKD was established by the supply under review",
+          "effect": "meets"
+        },
+        {
+          "words": "CKD was absent at the supply under review",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "condition",
+      "what": "Parkinson disease",
+      "meets": "Parkinson disease is the indication for immediate-release pramipexole."
+    }
+  ],
+  "rule_for_models": "For an outpatient aged 18 or older with established CKD, assess immediate-release pramipexole for Parkinson disease. A separate selegiline supply does not change this check. Multiply the dihydrochloride monohydrate strength by the directed tablets per day. Flag a daily salt dose above 2.25 mg at dated Cockcroft-Gault CrCl 20 to 50 mL/min inclusive, or above 1.5 mg below 20 mL/min. Cite the supply, CKD, treatment indication and clearance. Exclude extended-release pramipexole, another indication, CrCl above 50, and doses at or below the applicable ceiling. A dose of 1.5 mg/day or less cannot exceed either ceiling. If the available evidence could still qualify, report only a possible finding and ask for the missing age, CKD status, indication, daily salt dose or dated clearance.",
+  "cannot_be_seen": "Dispensing does not establish the dose taken. Kidney results obtained elsewhere, their units and their timing may be missing. This check covers the fixed dose ceilings. It does not calculate the proportional maintenance dose adjustment from paired clearances and doses.",
+  "ask_the_gp": "Could you confirm the dated Cockcroft-Gault creatinine clearance in mL/min and review the daily dose of immediate-release pramipexole for Parkinson disease against the renal dose ceiling and any decline in kidney function during maintenance?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

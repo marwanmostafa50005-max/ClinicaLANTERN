@@ -1,0 +1,380 @@
+{
+  "id": "BRISNIK-HR-D2",
+  "label": "Brisnik HR-D2",
+  "family": "BRISNIK",
+  "title": "Anticholinergic antidepressant after delirium, with another delirium-causing medicine",
+  "statement": "Prescribed anticholinergic antidepressant opipramol, other TCAs (in doses ≥ 50 mg/day), or paroxetine - and the patient has a history of delirium and co-prescribed ≥ 1 further drug known to induce delirium (e.g., benzodiazepines, opioids, antihistamines, diuretics)[c]",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.2 candidate repairs and adopted conventions merged with attribution). Not endorsed by the source authors."
+  },
+  "plain_summary": "Opipramol or paroxetine at any dose, or another tricyclic antidepressant at 50 mg a day or more, can bring on confusion again in a person who has had delirium, and more so when another medicine that can cause delirium is also taken.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Opipramol at any dose and other tricyclic antidepressants at 50 mg/day or more",
+      "ingredients": [
+        "opipramol",
+        "amitriptyline",
+        "nortriptyline",
+        "imipramine",
+        "clomipramine",
+        "doxepin",
+        "dosulepin",
+        "trimipramine"
+      ],
+      "brands": {
+        "opipramol": [],
+        "amitriptyline": [
+          "Endep",
+          "Amichlor",
+          "Amidep",
+          "Entrip"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "dosulepin": [
+          "Dothep",
+          "Prothiaden"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ]
+      },
+      "note": "Opipramol is not sold in Australia, so it is listed by ingredient only. The source does not list which medicines are 'other TCAs', so this list is a working list for the pharmacist to check. Work out the daily dose as the strength times the number of tablets or capsules taken each day. Low-dose amitriptyline under 50 mg a day does not count."
+    },
+    {
+      "key": "B",
+      "name": "Paroxetine (any dose)",
+      "ingredients": [
+        "paroxetine"
+      ],
+      "brands": {
+        "paroxetine": [
+          "Aropax",
+          "Extine",
+          "Paxtine",
+          "Aropax CR",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ]
+      },
+      "note": "Paroxetine counts at any dose. Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "C",
+      "name": "Benzodiazepines",
+      "ingredients": [
+        "diazepam",
+        "oxazepam",
+        "temazepam",
+        "nitrazepam",
+        "alprazolam",
+        "clonazepam",
+        "lorazepam",
+        "clobazam"
+      ],
+      "brands": {
+        "diazepam": [
+          "Valium",
+          "Antenex",
+          "Ducene",
+          "Ranzepam",
+          "Valpam"
+        ],
+        "oxazepam": [
+          "Serepax",
+          "Alepam",
+          "Murelax"
+        ],
+        "temazepam": [
+          "Normison",
+          "Temaze",
+          "Temtabs"
+        ],
+        "nitrazepam": [
+          "Mogadon",
+          "Alodorm"
+        ],
+        "alprazolam": [
+          "Xanax",
+          "Kalma",
+          "Alprax",
+          "Ralozam",
+          "Xanax Tri-Score",
+          "Zamhexal"
+        ],
+        "clonazepam": [
+          "Rivotril",
+          "Paxam"
+        ],
+        "lorazepam": [
+          "Ativan"
+        ],
+        "clobazam": [
+          "Frisium"
+        ]
+      },
+      "note": "An example group. The source gives benzodiazepines only as an example of medicines known to induce delirium."
+    },
+    {
+      "key": "D",
+      "name": "Opioids",
+      "ingredients": [
+        "tramadol",
+        "oxycodone",
+        "morphine",
+        "codeine",
+        "tapentadol",
+        "fentanyl",
+        "buprenorphine",
+        "methadone",
+        "hydromorphone"
+      ],
+      "brands": {
+        "tramadol": [
+          "Tramal",
+          "Durotram",
+          "Zydol",
+          "Durotram XR",
+          "Iptramol",
+          "Lodam",
+          "Lodam SR",
+          "Tramahexal",
+          "Tramahexal SR",
+          "Tramal Drops",
+          "Tramal SR",
+          "Tramedo",
+          "Tramedo SR",
+          "Zydol SR"
+        ],
+        "oxycodone": [
+          "Endone",
+          "OxyNorm",
+          "OxyContin",
+          "Targin",
+          "Endone XR",
+          "Novacodone",
+          "Oxycodor",
+          "Oxycone",
+          "Oxylenus",
+          "Oxylieve MR",
+          "Oxyndone",
+          "Xedone"
+        ],
+        "morphine": [
+          "MS Contin",
+          "Kapanol",
+          "Sevredol",
+          "Ordine",
+          "Anamorph",
+          "MS Contin Suspension",
+          "MS Mono",
+          "MS Normal",
+          "Momex SR",
+          "RA-Morph"
+        ],
+        "codeine": [
+          "Panadeine Forte",
+          "Codalgin Forte",
+          "Actacode Linctus",
+          "Codphos"
+        ],
+        "tapentadol": [
+          "Palexia"
+        ],
+        "fentanyl": [
+          "Durogesic",
+          "Denpax",
+          "Fenpatch"
+        ],
+        "buprenorphine": [
+          "Norspan",
+          "Temgesic",
+          "Suboxone"
+        ],
+        "methadone": [
+          "Physeptone",
+          "Biodone Forte",
+          "Opod-D Syrup",
+          "Opod-P Liquid",
+          "Physeptone Liquid"
+        ],
+        "hydromorphone": [
+          "Jurnista",
+          "Dilaudid",
+          "Dilaudid-HP",
+          "Palladone XL"
+        ]
+      },
+      "note": "An example group. Targin is oxycodone with naloxone. Panadeine Forte and Codalgin Forte are codeine with paracetamol. Australian codeine medicines require a prescription. Count recorded supplies, including combinations."
+    },
+    {
+      "key": "E",
+      "name": "Sedating antihistamines",
+      "ingredients": [
+        "promethazine",
+        "diphenhydramine",
+        "dexchlorpheniramine",
+        "doxylamine"
+      ],
+      "brands": {
+        "promethazine": [
+          "Phenergan",
+          "Allersoothe",
+          "Allersoothe Elixir",
+          "Avomine",
+          "Fenezal",
+          "Histaren",
+          "Phenergan Elixir",
+          "Progan Children's Allergy Relief Elixir"
+        ],
+        "diphenhydramine": [
+          "Paedamin Children's Antihistamine Children's",
+          "Snuzaid Tab",
+          "Unisom Sleepgel"
+        ],
+        "dexchlorpheniramine": [
+          "Polaramine",
+          "Polaramine Repetab",
+          "Polaramine Syrup",
+          "Polarelief"
+        ],
+        "doxylamine": [
+          "Restavit",
+          "Dozavit",
+          "Dozile",
+          "Restamine"
+        ]
+      },
+      "note": "An example group. Many of these are sold without a prescription and may not appear in a dispensing history. Match diphenhydramine only from its recorded ingredient or a product specifically identified as containing it."
+    },
+    {
+      "key": "F",
+      "name": "Diuretics",
+      "ingredients": [
+        "furosemide",
+        "bumetanide",
+        "hydrochlorothiazide",
+        "chlorthalidone",
+        "indapamide",
+        "spironolactone",
+        "amiloride",
+        "eplerenone",
+        "chlortalidone"
+      ],
+      "brands": {
+        "furosemide": [
+          "Lasix",
+          "Urex",
+          "Frusax",
+          "Frusehexal",
+          "Frusemix",
+          "Frusemix-M",
+          "Frusid",
+          "Furo",
+          "Lasix High Dose",
+          "Lasix M",
+          "Uremide",
+          "Urex Forte",
+          "Urex-M"
+        ],
+        "bumetanide": [
+          "Burinex"
+        ],
+        "hydrochlorothiazide": [
+          "Karvezide",
+          "Micardis Plus",
+          "Atacand Plus",
+          "Moduretic",
+          "Dithiazide"
+        ],
+        "chlorthalidone": [
+          "Hygroton"
+        ],
+        "indapamide": [
+          "Natrilix",
+          "Dapa-Tabs",
+          "Coversyl Plus",
+          "Indahexal",
+          "Indapamol",
+          "Insig",
+          "Napamide",
+          "Natrilix SR",
+          "Odaplix SR",
+          "Tenaxil SR"
+        ],
+        "spironolactone": [
+          "Aldactone",
+          "Spiractin"
+        ],
+        "amiloride": [
+          "Midamor",
+          "Moduretic",
+          "Kaluril"
+        ],
+        "eplerenone": [
+          "Inspra",
+          "Espler",
+          "Inpler",
+          "Plera"
+        ],
+        "chlortalidone": [
+          "Hygroton"
+        ]
+      },
+      "note": "An example group. Combination products count under the diuretic they hold: Karvezide (irbesartan with hydrochlorothiazide), Micardis Plus (telmisartan with hydrochlorothiazide), Atacand Plus (candesartan with hydrochlorothiazide), Moduretic (amiloride with hydrochlorothiazide) and Coversyl Plus (perindopril with indapamide)."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "History of delirium",
+      "meets": "A recorded episode of delirium before or during the period of combined prescribing.",
+      "options": [
+        {
+          "words": "Delirium before or during combined treatment",
+          "effect": "meets"
+        },
+        {
+          "words": "No delirium had occurred by the end of combined treatment",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Look for opipramol or Group B paroxetine at any dose, or another Group A tricyclic at 50 mg/day or more from strength and directions, plus a different delirium-inducing medicine such as those in Groups C to F, with overlapping supplies or dates within 60 days. Cite the supplies and a history of delirium by the time of combined prescribing, even if an earlier note denied it. With this medicine pair, report no finding if no delirium had yet occurred or the tricyclic dose was below its threshold. If the relevant history, timing or dose is unclear, report a possible finding, cite the supplies and available evidence, and ask for the missing information.",
+  "cannot_be_seen": "Whether the person has ever had delirium, unless a line in the record says so. Which other medicines the person takes from other pharmacies or buys over the counter, and whether the other medicine is really taken.",
+  "ask_the_gp": "A review of whether the antidepressant and the other delirium-causing medicine are both still needed, and, where the record is silent, a check of whether the person has had delirium before.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

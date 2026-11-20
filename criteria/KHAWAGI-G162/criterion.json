@@ -1,0 +1,74 @@
+{
+  "id": "KHAWAGI-G162",
+  "label": "Khawagi review: Check the six-month kidney test and any earlier repeat due during stable lithium treatment",
+  "family": "KHAWAGI",
+  "title": "Check for serum creatinine or a creatinine-derived eGFR within six months during stable lithium treatment",
+  "statement": "Check for serum creatinine or a creatinine-derived eGFR within six months during stable lithium treatment.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. S3 File.",
+    "citation": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. PLoS ONE 2019;14(5):e0217406, S3 File.",
+    "doi": "10.1371/journal.pone.0217406",
+    "url": "https://doi.org/10.1371/journal.pone.0217406.s003",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. PLoS ONE 2019;14(5):e0217406. https://doi.org/10.1371/journal.pone.0217406; S3 File, https://doi.org/10.1371/journal.pone.0217406.s003. © 2019 Khawagi et al., CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Changes were made. S3 indicator G162. Original screening wording and Australian adaptations. S3 reference(s) as indexed in the supplied qualification: [81], [105]. Clinical cross-check: WA lithium guideline §§2.7–2.8 (https://www.wacountry.health.wa.gov.au/~/media/WACHS/Documents/About-us/Policies/Specialised-Medication---Lithium-Guideline.pdf?thn=0).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "Check for serum creatinine or a creatinine-derived eGFR within six months during stable lithium treatment.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Lithium",
+      "ingredients": [
+        "lithium carbonate"
+      ],
+      "brands": {
+        "lithium carbonate": [
+          "Lithicarb",
+          "Quilonum SR",
+          "Lithicarb SR",
+          "Lithquil SR",
+          "Lithspen"
+        ]
+      },
+      "note": "Count systemic lithium, including a supply labelled simply lithium. For each supply, check the strength, formulation and dated directions. Multiply the strength by the units taken per day for the daily dose. Divide the quantity by units per day for the days covered and allow documented carryover. If unclear directions or a gap leave a plausible six-month course uncertain and kidney monitoring may be overdue, report only a possible gap. Ask what dose was taken and whether there was a break. The pharmacist decides borderline gaps. Give no finding if treatment stopped or a switch off lithium ended the course before the latest record date."
+    }
+  ],
+  "rule_for_models": "After at least six calendar months of stable lithium, give the latest recorded serum creatinine or creatinine-derived eGFR sample date and say whether a repeat was requested, when it was due and whether a new test followed the request by the latest lithium supply. When a repeat was requested, write its due date and the date of the latest lithium supply as year, month and day, and compare them: the deadline has passed if the due date is earlier than that supply date. Report a possible gap if no dated kidney test falls in the last six months of the record (cutoff date included), if a repeat deadline passed before the latest lithium supply without a recorded repeat, or if a known repeat has an unclear due date or completion, and otherwise return no finding with an empty list of line IDs. For every possible gap, list the first and latest lithium supply line IDs, then the line ID of the latest serum creatinine or creatinine-derived eGFR result if present (even when the sample predates the repeat request), then the line ID of the repeat request if recorded.",
+  "cannot_be_seen": "Outside pathology or follow-up may be missing. An incomplete observation window cannot establish an overdue test.",
+  "ask_the_gp": "Could you confirm the most recent serum creatinine or creatinine-derived eGFR and the kidney monitoring plan during lithium treatment?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "Serum creatinine or creatinine-derived eGFR",
+      "meets": "A missing or undated test, or a sample before the cutoff, suggests a possible routine gap. A sample on or after the cutoff satisfies routine monitoring. It cannot fulfil a repeat requested later. Enter the serum creatinine in µmol/L or creatinine-derived eGFR in mL/min/1.73 m² and the sample date. If only the date of the qualifying test is known, enter “test performed” with that date. If timing is unknown or an earlier planned repeat is outstanding, ask about a possible gap. Ask the patient when and where the last kidney blood test was done. If outside results are unavailable, report only a possible gap."
+    },
+    {
+      "kind": "observation",
+      "what": "Earlier kidney test deadline at the latest stable lithium supply",
+      "meets": "Compare the date the repeat was requested with the sample date. A result from before the request counts only towards the routine six-month check. Look for a new serum creatinine or creatinine-derived eGFR by the latest lithium supply, or a recorded date when the repeat was done. A serum lithium level does not count as a kidney test. If a known plan is unclear, ask for the due date or the date the repeat was done. Always check the routine interval. It is the only check when no shorter plan is documented.",
+      "options": [
+        {
+          "words": "Earlier deadline passed without a repeat",
+          "effect": "meets"
+        },
+        {
+          "words": "Repeat completed or not yet due",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "No shorter plan",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

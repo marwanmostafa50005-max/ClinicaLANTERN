@@ -1,0 +1,91 @@
+[
+  {
+    "file": "BRISNIK-HR-C4/pos-fact.csv",
+    "kind": "positive",
+    "about": "Zoloft (sertraline) and Lyrica (pregabalin, a fall-risk medicine) are supplied monthly, and a condition line records a stroke.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-C4",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L008",
+            "L012",
+            "L015",
+            "L019",
+            "L023",
+            "L027",
+            "L030",
+            "L034",
+            "L037",
+            "L041",
+            "L044"
+          ],
+          [
+            "L004",
+            "L007",
+            "L011",
+            "L014",
+            "L018",
+            "L021",
+            "L026",
+            "L029",
+            "L033",
+            "L036",
+            "L040",
+            "L043",
+            "L047"
+          ],
+          [
+            "L022"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-C4/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about stroke. Zoloft (sertraline) and Lyrica (pregabalin) are supplied monthly for eleven months.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-C4",
+        "must_cite": [
+          [
+            "L001",
+            "L004",
+            "L006",
+            "L009",
+            "L011",
+            "L014",
+            "L016",
+            "L019",
+            "L021",
+            "L024",
+            "L026"
+          ],
+          [
+            "L003",
+            "L005",
+            "L008",
+            "L010",
+            "L013",
+            "L015",
+            "L018",
+            "L020",
+            "L023",
+            "L025",
+            "L028"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-C4/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Cipramil (citalopram) and Lyrica (pregabalin) are supplied monthly, but a condition line says there is no history of stroke.",
+    "findings": []
+  }
+]

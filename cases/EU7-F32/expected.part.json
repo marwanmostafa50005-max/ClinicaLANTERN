@@ -1,0 +1,44 @@
+[
+  {
+    "file": "EU7-F32/pos-brand.csv",
+    "kind": "positive",
+    "about": "Trental (pentoxifylline) is supplied five times from March to July 2026, by brand name only, for a woman aged 72.",
+    "findings": [
+      {
+        "criterion": "EU7-F32",
+        "must_cite": [
+          [
+            "L010",
+            "L013",
+            "L017",
+            "L020",
+            "L026"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F32/pos-buried.csv",
+    "kind": "positive",
+    "about": "Generic pentoxifylline is supplied three times in the middle of a 14-month history for a man aged 69, with ordinary background medicines before and after.",
+    "findings": [
+      {
+        "criterion": "EU7-F32",
+        "must_cite": [
+          [
+            "L026",
+            "L032",
+            "L036"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F32/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Imdur (isosorbide mononitrate, a nitrate that also widens blood vessels) is supplied monthly, but it is not one of the listed medicines, so nothing must flag.",
+    "findings": []
+  }
+]

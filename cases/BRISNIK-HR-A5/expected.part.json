@@ -1,0 +1,64 @@
+[
+  {
+    "file": "BRISNIK-HR-A5/pos-brand.csv",
+    "kind": "positive",
+    "about": "The first as-needed Zofran supply has no recorded stop date and precedes Cipramil by 28 days. Three later Zofran supplies fall within prescribed Cipramil cover.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-A5",
+        "must_cite": [
+          [
+            "L004",
+            "L007",
+            "L011",
+            "L014",
+            "L017",
+            "L021",
+            "L024",
+            "L027",
+            "L031"
+          ],
+          [
+            "L010",
+            "L020",
+            "L030"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-A5/pos-buried.csv",
+    "kind": "positive",
+    "about": "Amitriptyline 50 mg a day is supplied for five months in the middle of a 14-month history, together with amiodarone (a medicine with a known risk of torsades de pointes) over the same period.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-A5",
+        "must_cite": [
+          [
+            "L026",
+            "L032",
+            "L038",
+            "L044",
+            "L050"
+          ],
+          [
+            "L021",
+            "L027",
+            "L033",
+            "L039",
+            "L045",
+            "L051",
+            "L056"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-A5/near-miss.csv",
+    "kind": "near_miss",
+    "about": "During the ondansetron supplies the amitriptyline dose is 25 mg daily. When it increases to 50 mg daily, the pharmacist confirms that the same-day ciprofloxacin was used only locally.",
+    "findings": []
+  }
+]

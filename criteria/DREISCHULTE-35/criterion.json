@@ -1,0 +1,82 @@
+{
+  "id": "DREISCHULTE-35",
+  "label": "Dreischulte 35",
+  "family": "DREISCHULTE",
+  "title": "Warfarin with a macrolide antibiotic",
+  "statement": "Patient treated with warfarin - is co-presribed a macrolide",
+  "statement_origin": "published",
+  "source": {
+    "document": "Quality and safety of medication use in primary care: consensus validation of a new set of explicit medication assessment criteria and prioritisation of topics for improvement",
+    "citation": "Dreischulte T, Grant AM, McCowan C, McAnaw JJ, Guthrie B. Quality and safety of medication use in primary care: consensus validation of a new set of explicit medication assessment criteria and prioritisation of topics for improvement. BMC Clinical Pharmacology. 2012;12:5.",
+    "doi": "10.1186/1472-6904-12-5",
+    "url": "https://link.springer.com/article/10.1186/1472-6904-12-5",
+    "licence": "Creative Commons Attribution 2.0 Generic (CC BY 2.0)",
+    "licence_status": "proposed",
+    "credit": "© 2012 Dreischulte et al., licensee BioMed Central Ltd. Cite the five authors, article title, journal, year and DOI above. The original statements are reproduced under CC BY 2.0. The Australian checks and qualification judgments are by GPT-6.2 Astra.",
+    "modification_notice": "The published statement is reproduced unchanged. The screening rule, Australian medicine examples and fictional histories were written for this prototype."
+  },
+  "plain_summary": "A systemic macrolide supplied during warfarin treatment calls for review of the interaction and INR monitoring. At dispensing, confirm the next INR and the follow-up after the course with the clinician managing warfarin. A check is usually due 48 to 72 hours after starting or stopping an interacting medicine. An unstable INR or acute illness may require an earlier check.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Warfarin",
+      "ingredients": [
+        "warfarin"
+      ],
+      "brands": {
+        "warfarin": [
+          "Coumadin",
+          "Marevan"
+        ]
+      },
+      "note": "Use the dated supply and the current anticoagulation directions."
+    },
+    {
+      "key": "B",
+      "name": "A macrolide antibiotic",
+      "ingredients": [
+        "clarithromycin",
+        "erythromycin",
+        "azithromycin",
+        "roxithromycin"
+      ],
+      "brands": {
+        "clarithromycin": [
+          "Klacid",
+          "Clarac",
+          "Clarant",
+          "Clarihexal",
+          "Clarithro",
+          "Clarithrom",
+          "Kalixocin",
+          "Nexium Hp7"
+        ],
+        "erythromycin": [
+          "E-Mycin",
+          "Eryc",
+          "E.E.S.",
+          "EES"
+        ],
+        "azithromycin": [
+          "Zithromax",
+          "Zedd",
+          "Zithro",
+          "Zitrocin"
+        ],
+        "roxithromycin": [
+          "Roxithromycin Sandoz",
+          "Rulide",
+          "Rulide D",
+          "Biaxsig"
+        ]
+      },
+      "note": "Count systemic macrolide antibiotics. Exclude skin and eye preparations. Count oral clarithromycin in a combination pack such as Nexium Hp7."
+    }
+  ],
+  "rule_for_models": "Report and cite both supplies when a systemic macrolide course overlaps warfarin treatment. Use the anticoagulation directions, quantities, treatment dates and recorded holds or stops, including longer supplies dispensed earlier. If either course is unclear but overlap is plausible, cite both supplies as a possible finding and ask the pharmacist to confirm the dates. Documented non-overlap gives no finding. An INR result is not required to identify co-prescribing.",
+  "cannot_be_seen": "The supplies alone cannot show whether both medicines were taken, how the INR changed, whether bleeding occurred or what monitoring was arranged elsewhere.",
+  "ask_the_gp": "Could you review the choice of macrolide and the timing of INR checks during and after the course?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "file": "KHAWAGI-G151/pos-fact.csv",
+    "kind": "positive",
+    "about": "The only measured weight predates the six-month window during maintenance olanzapine, so ask about a possible monitoring gap.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G151",
+        "must_cite": [
+          [
+            "L004"
+          ],
+          [
+            "L050"
+          ],
+          [
+            "L005"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G151/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about \"Measured weight in the six months up to the latest date in the record\" during maintenance olanzapine treatment.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G151",
+        "must_cite": [
+          [
+            "L003"
+          ],
+          [
+            "L035"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G151/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The weight measured exactly six calendar months before the latest date in the record satisfies the check.",
+    "findings": []
+  }
+]

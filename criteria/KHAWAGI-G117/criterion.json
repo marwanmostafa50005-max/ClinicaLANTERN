@@ -1,0 +1,68 @@
+{
+  "id": "KHAWAGI-G117",
+  "label": "Khawagi review: Review INR monitoring when warfarin overlaps carbamazepine or carbamazepine is started or stopped during warfarin treatment",
+  "family": "KHAWAGI",
+  "title": "Review INR monitoring when warfarin overlaps carbamazepine or carbamazepine is started or stopped during warfarin treatment",
+  "statement": "Review INR monitoring when warfarin overlaps carbamazepine or carbamazepine is started or stopped during warfarin treatment.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Khawagi et al. (2019), S3 File. List of potential Prescribing Safety Indicators (PSIs) related to mental health medications and conditions.",
+    "citation": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. PLoS ONE 2019;14(5):e0217406.",
+    "doi": "10.1371/journal.pone.0217406",
+    "url": "https://doi.org/10.1371/journal.pone.0217406.s003",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. PLoS ONE 2019;14(5):e0217406. https://doi.org/10.1371/journal.pone.0217406; S3 File, https://doi.org/10.1371/journal.pone.0217406.s003. © 2019 Khawagi et al., CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Khawagi et al. (2019), PLOS ONE 14(5), e0217406, S3 File, CC BY 4.0. Original screening wording and Australian adaptations. S3 reference(s) as indexed in the supplied qualification: [111]. Clinical cross-check: Tegretol Australian PI (https://www.safetyandquality.gov.au/medicine-finder/tegretol).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "Review INR monitoring when warfarin overlaps carbamazepine or carbamazepine is started or stopped during warfarin treatment.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Carbamazepine",
+      "ingredients": [
+        "carbamazepine"
+      ],
+      "brands": {
+        "carbamazepine": [
+          "Tegretol",
+          "Avloire",
+          "Avloire CR",
+          "Tegretol CR",
+          "Teril"
+        ]
+      }
+    },
+    {
+      "key": "B",
+      "name": "Warfarin",
+      "ingredients": [
+        "warfarin"
+      ],
+      "brands": {
+        "warfarin": [
+          "Marevan",
+          "Coumadin"
+        ]
+      }
+    }
+  ],
+  "rule_for_models": "Review concurrent carbamazepine and warfarin, including starting or stopping carbamazepine during warfarin treatment. Ask about INR follow-up. Estimate treatment dates from supply dates, quantities and stated daily doses, allowing for documented dose changes. Cite both supplies and any dated start or stop during warfarin treatment. If unclear directions prevent dating a plausible overlap or treatment change, report only a possible finding. Ask when each medicine was taken, the current doses and when carbamazepine started or stopped. INR results and the clinic plan may be absent. For a documented interaction, retain the review and ask when INR was last checked and what follow-up is planned. Include a switch that stops carbamazepine during warfarin treatment. The indication does not change the check. Exclude a carbamazepine course that clearly ended before warfarin began.",
+  "cannot_be_seen": "Dispensing does not establish actual use, indication or a prescriber’s intent. Treatment and assessments elsewhere may be missing.",
+  "ask_the_gp": "Could you review INR follow-up and the warfarin dose in light of concurrent carbamazepine or a recent start or stop during warfarin treatment?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "INR",
+      "meets": "Follow-up context only. Cite a recorded result and date. If missing, retain the interaction review and ask when INR was last checked."
+    },
+    {
+      "kind": "observation",
+      "what": "Anticoagulation monitoring plan",
+      "meets": "Follow-up context only. If the plan is absent, ask about the next INR check. Do not infer missed monitoring."
+    }
+  ]
+}

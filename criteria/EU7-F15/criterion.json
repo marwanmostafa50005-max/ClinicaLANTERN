@@ -1,0 +1,42 @@
+{
+  "id": "EU7-F15",
+  "label": "EU(7)-PIM: acarbose",
+  "family": "EU7",
+  "title": "Acarbose in an older person",
+  "statement": "Acarbose | In lists: does not appear as PIM | Main reason: No proven efficacy | Dose adjustment/special considerations: (blank: per ESM note, no suggestion by experts or in Micromedex) | Alternatives: Diet; metformin (<2 x 850 mg/d); insulin; gliclazide may be safer than the other short-acting sulphonilureas. E",
+  "statement_origin": "published",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Layout changed by the entrant: one row of the source table is shown as one text, with the column names written in and a note in brackets where a cell is blank. The authors have not reviewed this layout."
+  },
+  "plain_summary": "The EU(7)-PIM panel included acarbose, a diabetes tablet, because it found no proven benefit in older people. The words “does not appear as PIM” refer to the six earlier lists the authors compared.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Acarbose",
+      "ingredients": [
+        "acarbose"
+      ],
+      "brands": {
+        "acarbose": [
+          "Glucobay",
+          "Acobay",
+          "Glybosay"
+        ]
+      },
+      "note": "Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when a Group A medicine (acarbose) is supplied, at any dose, to a patient aged 65 years or over. If age is missing and the other requirements are met, report only a possible finding and ask for the patient's age. One supply is enough. A patient aged under 65 years is not a finding.",
+  "cannot_be_seen": "Blood glucose and HbA1c may be available in dated result rows. Supplies alone do not show these results, whether acarbose is helping, side effects such as wind and diarrhoea, how long it was used before this history starts, or whether doses are taken.",
+  "ask_the_gp": "A review of whether acarbose is still helping the patient's diabetes control.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

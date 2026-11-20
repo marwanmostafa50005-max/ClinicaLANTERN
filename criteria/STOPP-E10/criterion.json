@@ -1,0 +1,54 @@
+{
+  "id": "STOPP-E10",
+  "label": "STOPP E10",
+  "family": "STOPP_START",
+  "title": "Methotrexate with low kidney function",
+  "statement": "Methotrexate if eGFR <30 ml/min/1.73m² (increased risk of methotrexate toxicity).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "licence_status": "proposed",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Methotrexate is cleared by the kidneys, so it can build up to toxic levels when kidney function is low (eGFR below 30).",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Methotrexate",
+      "ingredients": [
+        "methotrexate"
+      ],
+      "brands": {
+        "methotrexate": [
+          "Methoblastin",
+          "Trexject",
+          "Chexate",
+          "Ciptrexate",
+          "Emthexate",
+          "Imutrex",
+          "Methaccord",
+          "Methoblastin PFS"
+        ]
+      },
+      "note": "Tablets and injections (including pens and pre-filled syringes) count. Methotrexate is normally taken once a week. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "eGFR",
+      "meets": "The most recent eGFR is below 30 mL/min/1.73 m2."
+    }
+  ],
+  "rule_for_models": "Apply this criterion only if the patient is aged 65 years or older. If age is unknown, ask for age confirmation before assessing the supply. For a current review, establish whether the patient is taking methotrexate (Group A), has a dose due or is about to receive a supply. Use the supply dates, quantities, directions and any record of a final dose. If the course finished before kidney function fell and there is no further supply, report no current finding. If the most recent eGFR is 30 mL/min/1.73 m2 or above, there is no finding. Accept an undated value confirmed as the latest unless the record leaves its order uncertain. Use the measurement date to clarify which result is latest. If current or impending use is established and the most recent eGFR is below 30 mL/min/1.73 m2, report a finding. If use is uncertain and the criterion could still be met, report only a possible finding. Identify the treatment period and the relevant eGFR result if available, and explain why it is unclear whether a dose is still due. If the criterion could still be met and the latest eGFR is missing, unreadable, not known or of uncertain order, report only a possible finding. Name the missing fact \"eGFR\". Ask for the latest eGFR and its measurement date if the order is unclear. An unknown answer supplies no value. Cite the supply that covers the latest date in the record or shows impending use (the potentially relevant supply if use is unclear), then the relevant eGFR line if present and any treatment record used to judge exposure.",
+  "cannot_be_seen": "The latest kidney test if none is on the record, whether the methotrexate dose was changed after the test, and why methotrexate is used (for example arthritis or psoriasis).",
+  "ask_the_gp": "A review of whether methotrexate is still suitable at the current eGFR, and of the dose.",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,67 @@
+{
+  "id": "KHAWAGI-G051",
+  "label": "Khawagi review: Review systemic diazepam with documented severe hepatic impairment",
+  "family": "KHAWAGI",
+  "title": "Review systemic diazepam with documented severe hepatic impairment",
+  "statement": "Review systemic diazepam with documented severe hepatic impairment.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Khawagi et al. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. S3 File.",
+    "citation": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. PLoS ONE 2019;14(5):e0217406.",
+    "doi": "10.1371/journal.pone.0217406",
+    "url": "https://doi.org/10.1371/journal.pone.0217406.s003",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. PLoS ONE 2019;14(5):e0217406. https://doi.org/10.1371/journal.pone.0217406; S3 File, https://doi.org/10.1371/journal.pone.0217406.s003. © 2019 Khawagi et al., CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). S3 File, Table 2, printed row 64 of 91, PDF p.2. Original screening wording and Australian adaptations. S3 reference(s) as indexed in the supplied qualification: [71]. Clinical cross-check: Valium Australian PI (https://www.safetyandquality.gov.au/medicine-finder/valium).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "Review systemic diazepam with documented severe hepatic impairment.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Systemic diazepam",
+      "ingredients": [
+        "diazepam"
+      ],
+      "brands": {
+        "diazepam": [
+          "Diazepam-WGR",
+          "Valium",
+          "Antenex",
+          "Ducene",
+          "Valpam",
+          "Valpam 2",
+          "Valpam 5",
+          "Ranzepam"
+        ]
+      }
+    }
+  ],
+  "rule_for_models": "Give a finding for systemic diazepam supplied when a dated assessment or the pharmacist confirms severe hepatic impairment at that supply, whatever the indication. Cite the supply and the confirming line. Give no finding if severe impairment was absent at supply or there was no systemic diazepam exposure. If exposure, severity or timing is unclear, including cirrhosis of unknown severity, report only a possible finding and name what needs checking.",
+  "cannot_be_seen": "Dispensing does not establish actual use, indication or a prescriber’s intent. Treatment and assessments elsewhere may be missing.",
+  "ask_the_gp": "Could you review systemic diazepam in light of this patient’s liver function and clarify whether severe liver impairment applies?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Severe hepatic impairment (severe liver disease) at the time of diazepam supply",
+      "meets": "Ask whether a clinician confirmed severe liver impairment when diazepam was supplied. Choose Not known if the patient reports cirrhosis but cannot confirm its severity or timing. Mild or moderate impairment alone does not meet this criterion.",
+      "options": [
+        {
+          "words": "Severe liver impairment was confirmed at this supply",
+          "effect": "meets"
+        },
+        {
+          "words": "Severe liver impairment was absent at this supply",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "file": "SCOTRESP-05/pos-fact.csv",
+    "kind": "positive",
+    "about": "Asthma is documented and salbutamol is the only respiratory medicine supplied in the latest and preceding calendar quarters.",
+    "findings": [
+      {
+        "criterion": "SCOTRESP-05",
+        "must_cite": [
+          [
+            "L049"
+          ],
+          [
+            "L046"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "SCOTRESP-05/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about asthma and salbutamol is the only respiratory medicine supplied across the two quarters.",
+    "findings": [
+      {
+        "criterion": "SCOTRESP-05",
+        "must_cite": [
+          [
+            "L026"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "SCOTRESP-05/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The specialist ruled out asthma. The September budesonide was a nasal spray.",
+    "findings": []
+  }
+]

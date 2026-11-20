@@ -1,0 +1,38 @@
+[
+  {
+    "file": "EU7-F57/pos-brand.csv",
+    "kind": "positive",
+    "about": "Valium (diazepam) 5 mg, 10 tablets, is supplied once in May 2026 by brand name only. Diazepam has no daily dose limit in the list.",
+    "findings": [
+      {
+        "criterion": "EU7-F57",
+        "must_cite": [
+          [
+            "L013"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F57/pos-buried.csv",
+    "kind": "positive",
+    "about": "Lorazepam 1 mg, 30 tablets, 'Take TWO tablets at night' (2 mg a day, above the 1 mg a day limit for lorazepam) is supplied once in February 2026, in the middle of a 16-month history.",
+    "findings": [
+      {
+        "criterion": "EU7-F57",
+        "must_cite": [
+          [
+            "L036"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F57/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Lorazepam 1 mg, 20 tablets, 'Take ONE tablet at night' is 1 mg a day, which is not above the 1 mg a day limit for lorazepam, so it must not flag.",
+    "findings": []
+  }
+]

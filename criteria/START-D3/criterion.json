@@ -1,0 +1,133 @@
+{
+  "id": "START-D3",
+  "label": "START D3",
+  "family": "STOPP_START",
+  "title": "No cholinesterase inhibitor for mild to moderate Alzheimer's dementia",
+  "statement": "Acetylcholinesterase inhibitor (donepezil, rivastigmine, galantamine) for mild-moderate Alzheimer’s dementia.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A person with mild to moderate Alzheimer's dementia is not being supplied donepezil, rivastigmine or galantamine, medicines that can help memory and daily function.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Medicines that meet this criterion: cholinesterase inhibitors for dementia",
+      "ingredients": [
+        "donepezil",
+        "rivastigmine",
+        "galantamine"
+      ],
+      "brands": {
+        "donepezil": [
+          "Aricept",
+          "Alzil",
+          "Arazil",
+          "Aricept-D",
+          "Aridon",
+          "Aridon APN",
+          "Aridon ODT",
+          "Ariez",
+          "Doceptil",
+          "Donaccord",
+          "Donpesyn"
+        ],
+        "rivastigmine": [
+          "Exelon"
+        ],
+        "galantamine": [
+          "Galantyl",
+          "Gamine XR",
+          "Reminyl"
+        ]
+      },
+      "note": "Rivastigmine includes the skin patch. Galantamine is the modified release capsule."
+    },
+    {
+      "key": "B",
+      "name": "Medicines that imply the condition: memantine, used for Alzheimer's dementia",
+      "ingredients": [
+        "memantine"
+      ],
+      "brands": {
+        "memantine": [
+          "Ebixa",
+          "Ebixa Drops",
+          "Memantipin",
+          "Memanxa",
+          "Mimiva"
+        ]
+      },
+      "note": "Memantine is licensed for moderate to severe Alzheimer's dementia, so it hints at the diagnosis but not at the mild to moderate stage."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Alzheimer's dementia diagnosis and stage",
+      "meets": "Alzheimer’s dementia is recorded as mild or moderate. With no Group A supply in the last six months, an Alzheimer’s diagnosis with unknown stage supports only a possible finding asking for the stage. Memantine alone does not establish stage. Documented severe Alzheimer’s dementia does not meet D3.",
+      "options": [
+        {
+          "words": "Alzheimer's dementia is mild or moderate",
+          "effect": "meets"
+        },
+        {
+          "words": "Alzheimer's dementia is severe",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Alzheimer's dementia has been ruled out",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Alzheimer's dementia is diagnosed but its stage is unknown",
+          "effect": "unknown"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Previous use of donepezil, rivastigmine or galantamine",
+      "meets": "Establish whether any of the three medicines was tried and whether a current plan gives a reason to avoid all three. Assess diagnosis, stage and recent supplies separately.",
+      "options": [
+        {
+          "words": "None has been tried",
+          "effect": "meets"
+        },
+        {
+          "words": "Previously tried and no current reason to avoid all three was found on review",
+          "effect": "meets"
+        },
+        {
+          "words": "A current plan documents why all three should be avoided",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Previously tried but current suitability is unclear",
+          "effect": "unknown"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this criterion only to people aged 65 years or older. If age is unknown, confirm it before reporting a finding. When memantine prompts a possible finding and earlier treatment or the reason for stopping is unclear, name the missing fact Previous use of donepezil, rivastigmine or galantamine. Ask the person or carer about earlier trials and the current plan. A previous trial alone does not establish current supply or rule out an omission. If none was tried or review found no current reason to avoid all three, assess Alzheimer's dementia diagnosis and stage and recent supplies separately. A documented reason to avoid all three gives no finding. If current suitability remains unclear, report only a possible finding. Suspect a finding when the record holds a line for Alzheimer's dementia (mild to moderate, not severe) and no Group A medicine (donepezil, rivastigmine, galantamine) is supplied in the last six months of the record; cite the condition line. When the record holds no dementia diagnosis, memantine is supplied and no Group A medicine was supplied in the last six months, report only a possible finding. Cite a memantine supply and ask for the missing fact Alzheimer's dementia diagnosis and stage. Read the whole answer for the diagnosis and its stage. If there is no dementia diagnosis and no memantine supply, there is no finding. If Alzheimer’s dementia is documented but its stage is unknown and no Group A medicine was supplied in the last six months, report only a possible finding. Cite the diagnosis and use the same question for the missing stage. An unknown answer leaves the possible finding open. Make no finding if a Group A medicine was supplied in the last six months, if the only documented dementia is a type other than Alzheimer's, or if Alzheimer's dementia is severe. A coexisting dementia type does not exclude documented mild or moderate Alzheimer's dementia. Make no finding if the record documents end-of-life care focused on comfort or another valid clinical reason to omit all three cholinesterase inhibitors.",
+  "cannot_be_seen": "Whether the diagnosis is Alzheimer's dementia and its stage, whether a cholinesterase inhibitor was tried and stopped (slow heart rate, fainting, side effects), whether the person or family chose not to use one, and any supply from another pharmacy or from a hospital.",
+  "ask_the_gp": "Whether a trial of a cholinesterase inhibitor is suitable for this person, or has already been tried and stopped.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

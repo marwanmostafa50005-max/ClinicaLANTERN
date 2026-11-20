@@ -1,0 +1,22 @@
+2025-07-08 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take TWO tablets once a day with the evening meal | Dr K. Sp
+2025-07-08 | Avapro (irbesartan) 150 mg tablet | qty 30 | repeats 4 | Take ONE tablet daily | Dr K. Sp
+2025-07-08 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 2 | Take ONE tablet daily | Dr K. Sp
+2025-07-08 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet in the morning before food | Dr K. Sp
+2025-08-07 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 3 | Take TWO tablets once a day with the evening meal | Dr K. Sp
+2025-08-07 | Avapro (irbesartan) 150 mg tablet | qty 30 | repeats 3 | Take ONE tablet daily | Dr K. Sp
+2025-08-07 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 1 | Take ONE tablet daily | Dr K. Sp
+2025-08-07 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 4 | Take ONE tablet in the morning before food | Dr K. Sp
+2025-08-19 | Ventolin (salbutamol) 100 microgram per dose inhaler | qty 2 | repeats 5 | Inhale TWO puffs when required for wheeze | Dr K. Sp
+2025-09-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 2 | Take TWO tablets once a day with the evening meal | Dr K. Sp
+2025-09-06 | Avapro (irbesartan) 150 mg tablet | qty 30 | repeats 2 | Take ONE tablet daily | Dr K. Sp
+2025-09-06 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 0 | Take ONE tablet daily | Dr K. Sp
+2025-09-06 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 3 | Take ONE tablet in the morning before food | Dr K. Sp
+2025-10-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 1 | Take TWO tablets once a day with the evening meal | Dr K. Sp
+2025-10-06 | Avapro (irbesartan) 150 mg tablet | qty 30 | repeats 1 | Take ONE tablet daily | Dr K. Sp
+2025-10-06 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 5 | Take ONE tablet daily | Dr K. Sp
+2025-10-06 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 2 | Take ONE tablet in the morning before food | Dr K. Sp
+2025-10-21 | Keflex (cefalexin) 500 mg capsule | qty 20 | repeats 0 | Take ONE capsule four times a day until finished | Dr E. Sa
+2025-11-05 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 0 | Take TWO tablets once a day with the evening meal | Dr K. Sp
+2025-11-05 | Avapro (irbesartan) 150 mg tablet | qty 30 | repeats 0 | Take ONE tablet daily | Dr K. Sp
+2025-11-05 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 4 | Take ONE tablet daily | Dr K. Sp
+2025-11-05 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 1 | Take ONE tablet in the morning before food | Dr K. Sp

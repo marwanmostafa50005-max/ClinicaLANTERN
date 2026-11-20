@@ -1,0 +1,84 @@
+{
+  "id": "PROMPT-RS-4",
+  "label": "PROMPT: mucolytic in stable COPD",
+  "family": "PROMPT",
+  "title": "Mucolytic used routinely in stable COPD",
+  "statement": "Mucolytic agents (e.g. carbocisteine, mecysteine) should not be used routinely in stable chronic obstructive pulmonary disease.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Cooper JA, et al. The development of the PROMPT criteria. BMC Health Serv Res 2014;14:484, Table 4",
+    "citation": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "doi": null,
+    "url": null,
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Review why the patient takes the mucolytic regularly and whether it is helping. Some oral mucolytics may reduce flare-ups in people with moderate to severe COPD. The benefit depends on the medicine and the patient.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Mucolytics, the medicines that thin chest mucus",
+      "ingredients": [
+        "carbocisteine",
+        "mecysteine",
+        "bromhexine",
+        "acetylcysteine"
+      ],
+      "brands": {
+        "carbocisteine": [],
+        "mecysteine": [],
+        "bromhexine": [
+          "Bisolvon Chesty Forte",
+          "Bicof Chesty",
+          "Bisolvon Chesty",
+          "Bisolvon Chesty Forte On-the-Go",
+          "Bisolvon Chesty Kids",
+          "Duro-Tuss Chesty Cough Double Strength",
+          "Duro-Tuss Chesty Cough Liquid Regular",
+          "APOHEALTH Chesty Mucus Relief Forte"
+        ],
+        "acetylcysteine": [
+          "Omegapharm Acetylcysteine"
+        ]
+      },
+      "note": "The statement gives only examples, so this list is partial. Carbocisteine and mecysteine have no Australian brand listed. Generic packs that show the ingredient name with a company name count too. Count bromhexine by ingredient or a verified full brand. Leave bare Bisolvon unidentified and exclude Bisolvon Dry. Count the inhaled mucolytic when prescribed for COPD. Exclude acetylcysteine used for poisoning or another indication. Confirm indication if unknown."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "COPD during the mucolytic course under review",
+      "meets": "Ask about the course identified by the supply dates. The answer meets this fact if the medicine was used for COPD while symptoms were stable, including between flare-ups. A steroid supply alone does not establish a flare.",
+      "options": [
+        {
+          "words": "The mucolytic was used for COPD while symptoms were stable",
+          "effect": "meets"
+        },
+        {
+          "words": "It was used only for a COPD flare-up",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "It was used only for another condition",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "The patient did not have COPD during this course",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this criterion only to people aged 45 to 64 inclusive at the assessed exposure. Confirm an unknown age before reporting a PROMPT finding. Report no finding for a course when COPD is ruled out, when the mucolytic is documented for another condition, or when it is used only for a documented flare. Assess each Group A course outside a documented flare (count acetylcysteine only when inhaled for COPD). At least three supplies spanning at least three calendar months with directions for regular use establish the routine supply pattern without a separate maintenance note. With fewer supplies, require a dated record explicitly confirming routine maintenance use. If directions are as needed or as directed and routine use is unclear, cite the qualifying supplies and report only a possible finding. Ask how regularly it was used and whether this was for stable COPD. A dated account that links the course to COPD and records no flare-ups over a period covering the course supports stable COPD during that course. For established routine use, cite the qualifying supplies, any dated record used to confirm maintenance use, and the evidence that the mucolytic was used for COPD while symptoms were stable. If that evidence is missing or unknown, cite the supplies and report only a possible finding. Ask about COPD during the mucolytic course under review and identify it by its supply dates. If several courses are present, a saved answer alone cannot establish which course it describes. Keep the finding possible unless dated evidence links the answer to the course.",
+  "cannot_be_seen": "Whether the COPD is really stable, the reason the mucolytic was started, and how much benefit the patient feels from it.",
+  "ask_the_gp": "Whether the mucolytic is still needed for this patient's COPD.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

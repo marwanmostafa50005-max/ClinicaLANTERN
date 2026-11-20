@@ -1,0 +1,45 @@
+{
+  "id": "EU7-F04",
+  "label": "EU(7)-PIM: bowel antispasmodics",
+  "family": "EU7",
+  "title": "Bowel antispasmodic named in the list in an older person",
+  "statement": "The EU(7)-PIM list names these antispasmodic medicines for the gut as potentially inappropriate for older people: mebeverine, trimebutine, dihexyverine, otilonium bromide, tiemonium iodide, pinaverium, hyoscyamine, belladonna alkaloids, clidinium with chlordiazepoxide, and pitofenone. Reasons given are as follows. Mebeverine: side effects such as dizziness, sleeplessness and loss of appetite. Pinaverium: side effects such as dizziness or ulcers of the gullet. Trimebutine, dihexyverine, otilonium and tiemonium: anticholinergic side effects such as agitation, sedation or confusion, and no proven benefit. Pitofenone: anticholinergic side effects. Hyoscyamine and belladonna alkaloids: strongly anticholinergic, with substantial toxic effects in older adults and uncertain or unproven benefit. Clidinium with chlordiazepoxide: it stays in the body for a long time in older adults (often several days), which causes prolonged sedation and raises the risk of falls and fractures. The experts advise that mebeverine be used for short periods only. Alternatives the list suggests: non-drug measures such as diet; phloroglucinol in place of some of these medicines; and hyoscine butylbromide as an alternative to hyoscyamine or belladonna alkaloids.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Summary written by the entrant in plain words from ten rows of the source table. Dose advice that the source marks as taken from Micromedex (for mebeverine and for clidinium with chlordiazepoxide) is left out. The authors have not reviewed this summary."
+  },
+  "plain_summary": "Some antispasmodic medicines for bowel cramps can cause confusion, sedation and dizziness in older people, and several have no proven benefit.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Bowel antispasmodics named in the list",
+      "ingredients": ["mebeverine", "hyoscyamine", "belladonna alkaloids", "trimebutine", "dihexyverine", "otilonium", "tiemonium", "pinaverium", "clidinium with chlordiazepoxide", "pitofenone"],
+      "brands": {
+        "mebeverine": ["Colofac", "Colese"],
+        "hyoscyamine": ["Donnatab", "Donnalix", "Donnagel"],
+        "belladonna alkaloids": [],
+        "trimebutine": [],
+        "dihexyverine": [],
+        "otilonium": [],
+        "tiemonium": [],
+        "pinaverium": [],
+        "clidinium with chlordiazepoxide": [],
+        "pitofenone": []
+      },
+      "note": "Donnatab, Donnalix and Donnagel hold hyoscyamine with atropine and hyoscine, which are the belladonna alkaloids. Donnagel also holds kaolin and pectin. Count clidinium with chlordiazepoxide only when both ingredients are in the same product. No Australian brand was found for trimebutine, dihexyverine, otilonium, tiemonium, pinaverium, clidinium or pitofenone. Hyoscine butylbromide (for example Buscopan, Buscopan Forte, Setacol) is not in this group: the list names it as an alternative. Peppermint oil (Mintec) is not in this group. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when any Group A medicine (a bowel antispasmodic named in the list, such as mebeverine or hyoscyamine) is supplied, at any dose, to a patient aged 65 years or over. If the medicine criteria are otherwise met and age at supply is unknown, report only a possible finding and ask for age confirmation. An age below 65 rules out this finding. One supply is enough. Hyoscine butylbromide (Buscopan) and peppermint oil do not count.",
+  "cannot_be_seen": "Check recorded conditions, results and observations for confusion, drowsiness, dizziness, falls, constipation, trouble passing urine and kidney function. Each is unknown if the record does not document it. The reason for starting the antispasmodic, benefit, actual frequency of use and purchases without a prescription may also be unknown.",
+  "ask_the_gp": "Whether this antispasmodic is still needed and still helping, and whether the patient has had any confusion, dizziness or falls.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

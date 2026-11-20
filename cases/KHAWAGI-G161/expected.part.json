@@ -1,0 +1,47 @@
+[
+  {
+    "file": "KHAWAGI-G161/pos-fact.csv",
+    "kind": "positive",
+    "about": "The last visible TSH is one day outside the six-month window at the latest stable lithium refill, leaving a possible monitoring gap.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G161",
+        "must_cite": [
+          [
+            "L005"
+          ],
+          [
+            "L043"
+          ],
+          [
+            "L015"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G161/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about thyroid function during an observable 6-month lithium monitoring window.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G161",
+        "must_cite": [
+          [
+            "L004"
+          ],
+          [
+            "L031"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G161/near-miss.csv",
+    "kind": "near_miss",
+    "about": "A qualifying thyroid function result exactly 6 months before the latest lithium supply meets the check.",
+    "findings": []
+  }
+]

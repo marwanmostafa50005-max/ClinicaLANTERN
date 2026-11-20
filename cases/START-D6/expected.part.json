@@ -1,0 +1,47 @@
+[
+  {
+    "file": "START-D6/pos-fact.csv",
+    "kind": "positive",
+    "about": "Restless legs syndrome is recorded, the iron assessment excludes deficiency, eGFR is 62 and no Group A medicine is supplied.",
+    "findings": [
+      {
+        "criterion": "START-D6",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L002"
+          ],
+          [
+            "L003"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-D6/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: restless legs syndrome and an eGFR of 62 are recorded, but the iron assessment is missing.",
+    "findings": [
+      {
+        "criterion": "START-D6",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L002"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-D6/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Restless legs syndrome is recorded, and ropinirole (Repreve) is supplied every 28 days through the last six months, so nothing is missing.",
+    "findings": []
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "file": "KHAWAGI-G124/pos-brand.csv",
+    "kind": "positive",
+    "about": "At age 75, daily oral Aricept overlaps twice-daily oral Ditropan.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G124",
+        "must_cite": [
+          [
+            "L017"
+          ],
+          [
+            "L018"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G124/pos-buried.csv",
+    "kind": "positive",
+    "about": "At age 78, the oral galantamine and solifenacin courses overlap.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G124",
+        "must_cite": [
+          [
+            "L030"
+          ],
+          [
+            "L031"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G124/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The patient is 64 at both supplies, below the threshold of 65.",
+    "findings": []
+  }
+]

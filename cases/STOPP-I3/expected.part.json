@@ -1,0 +1,58 @@
+[
+  {
+    "file": "STOPP-I3/pos-fact.csv",
+    "kind": "positive",
+    "about": "Vesicare (solifenacin) is supplied for lower urinary tract symptoms associated with benign prostatic hyperplasia, and the post-void residual is 260 mL.",
+    "findings": [
+      {
+        "criterion": "STOPP-I3",
+        "must_cite": [
+          [
+            "L007",
+            "L011",
+            "L015",
+            "L019",
+            "L023",
+            "L028",
+            "L033",
+            "L038",
+            "L043"
+          ],
+          [
+            "L001"
+          ],
+          [
+            "L002"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-I3/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record shows solifenacin supplies to an older man but gives no treatment indication, prostate diagnosis or post-void residual volume.",
+    "findings": [
+      {
+        "criterion": "STOPP-I3",
+        "must_cite": [
+          [
+            "L002",
+            "L006",
+            "L009",
+            "L013",
+            "L017",
+            "L021",
+            "L025"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-I3/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Detrusitol (tolterodine) is supplied every 4 weeks and the record holds a Benign prostatic hyperplasia line, but the post-void residual volume is 60 mL, well under 200 mL.",
+    "findings": []
+  }
+]

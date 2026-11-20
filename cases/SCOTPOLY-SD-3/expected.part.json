@@ -1,0 +1,49 @@
+[
+  {
+    "file": "SCOTPOLY-SD-3/pos-fact.csv",
+    "kind": "positive",
+    "about": "Diabex XR (metformin) is supplied by brand only in September and October 2026, and a dated observation row records a current dehydrating illness.",
+    "findings": [
+      {
+        "criterion": "SCOTPOLY-SD-3",
+        "must_cite": [
+          [
+            "L043",
+            "L046"
+          ],
+          [
+            "L047"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "SCOTPOLY-SD-3/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about Current dehydrating illness, and active Janumet (sitagliptin with metformin) supplies fall in the last 2 calendar months.",
+    "findings": [
+      {
+        "criterion": "SCOTPOLY-SD-3",
+        "must_cite": [
+          [
+            "L028",
+            "L030"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "SCOTPOLY-SD-3/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Active metformin (Diaformin) supplies are present in the last 2 calendar months, but a dated observation row records the patient as well with normal fluid intake and no dehydration, so there is no finding.",
+    "findings": []
+  },
+  {
+    "file": "SCOTPOLY-SD-3/near-miss-old-course.csv",
+    "kind": "near_miss",
+    "about": "The only Janumet supply was a 28-day course in May, and the September record has no current illness information.",
+    "findings": []
+  }
+]

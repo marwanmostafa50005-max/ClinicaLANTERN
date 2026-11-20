@@ -1,0 +1,41 @@
+[
+  {
+    "file": "KHAWAGI-G016/pos-fact.csv",
+    "kind": "positive",
+    "about": "The history shows risperidone and a recorded diagnosis of postural hypotension at age 65.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G016",
+        "must_cite": [
+          [
+            "L026"
+          ],
+          [
+            "L024"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G016/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about syncope or postural hypotension despite the qualifying risperidone supply.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G016",
+        "must_cite": [
+          [
+            "L016"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G016/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The record excludes both syncope and postural hypotension despite the risperidone supply.",
+    "findings": []
+  }
+]

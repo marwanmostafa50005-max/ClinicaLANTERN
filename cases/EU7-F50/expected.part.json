@@ -1,0 +1,43 @@
+[
+  {
+    "file": "EU7-F50/pos-brand.csv",
+    "kind": "positive",
+    "about": "Tramal SR (tramadol, sustained-release) is supplied three times between April and June 2026 to a person aged 71, by brand name only.",
+    "findings": [
+      {
+        "criterion": "EU7-F50",
+        "must_cite": [
+          [
+            "L011",
+            "L014",
+            "L018"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F50/pos-buried.csv",
+    "kind": "positive",
+    "about": "Four Zydol supplies in the middle of the history direct a 76-year-old to take tramadol as directed, so the finding stands and the prescribed daily dose or maximum needs confirmation.",
+    "findings": [
+      {
+        "criterion": "EU7-F50",
+        "must_cite": [
+          [
+            "L038",
+            "L041",
+            "L045",
+            "L051"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F50/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Tramal SR is supplied three times to a person aged 58, below the age of 65, so it must not flag.",
+    "findings": []
+  }
+]

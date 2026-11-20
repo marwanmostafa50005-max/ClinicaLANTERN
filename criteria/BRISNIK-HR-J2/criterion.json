@@ -1,0 +1,68 @@
+{
+  "id": "BRISNIK-HR-J2",
+  "label": "Brisnik: agomelatine with liver disease",
+  "family": "BRISNIK",
+  "title": "Agomelatine in a person with liver disease",
+  "statement": "Prescribed agomelatine - and the patient has a hepatic impairment (i.e., cirrhosis or active liver disease)",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Statement text reproduced without changes. Not endorsed by the source authors."
+  },
+  "plain_summary": "Agomelatine is contraindicated in cirrhosis or active liver disease. If the person is still taking it and either condition is documented as current, contact the prescriber the same day to review treatment. If liver history alone is missing, clarify it routinely.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Agomelatine",
+      "ingredients": [
+        "agomelatine"
+      ],
+      "brands": {
+        "agomelatine": [
+          "Valdoxan",
+          "Domion",
+          "Nortim",
+          "Valomel"
+        ]
+      },
+      "note": "Count agomelatine tablets identified by a listed brand or by the ingredient name, including a company name beside it."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Liver disease during agomelatine treatment",
+      "meets": "Cirrhosis or active liver disease was present while agomelatine was being taken. If the diagnosis is known but its timing is unclear, leave the finding open.",
+      "options": [
+        {
+          "words": "Cirrhosis during agomelatine treatment",
+          "effect": "meets"
+        },
+        {
+          "words": "Active liver disease during agomelatine treatment",
+          "effect": "meets"
+        },
+        {
+          "words": "Neither during agomelatine treatment",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Require an agomelatine supply and cite it with evidence of cirrhosis or active liver disease during that treatment. Exclude a liver illness that resolved before treatment or began after it ended. With agomelatine supplied, report a possible finding and name the missing information if disease status or overlap is unknown. Without an agomelatine supply, or if both conditions are ruled out during treatment, give no finding.",
+  "cannot_be_seen": "Whether liver disease is present, how severe it is, and whether the person is still taking agomelatine.",
+  "ask_the_gp": "If agomelatine is still being taken and cirrhosis or active liver disease is confirmed, could treatment and current liver tests be reviewed today? If liver history alone is missing, could the diagnosis, its timing and the latest liver tests be clarified at routine review?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

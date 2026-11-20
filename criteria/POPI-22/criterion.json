@@ -1,0 +1,46 @@
+{
+  "id": "POPI-22",
+  "label": "POPI: loperamide under three",
+  "family": "POPI",
+  "title": "Loperamide for diarrhoea before a child's third birthday",
+  "statement": "Loperamide before 3 years of age",
+  "statement_origin": "published",
+  "source": {
+    "document": "International consensus validation of the POPI tool (Pediatrics: Omission of Prescriptions and Inappropriate prescriptions) to identify inappropriate prescribing in pediatrics",
+    "citation": "Sadozai L, Sable S, Le Roux E, et al. International consensus validation of the POPI tool (Pediatrics: Omission of Prescriptions and Inappropriate prescriptions) to identify inappropriate prescribing in pediatrics. PLOS ONE. 2020;15(10):e0240105.",
+    "doi": "10.1371/journal.pone.0240105",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0240105",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "© 2020 Sadozai et al. Table 2, International consensus validation of the POPI tool. PLOS ONE 15(10), e0240105. https://doi.org/10.1371/journal.pone.0240105. CC BY 4.0.",
+    "modification_notice": "The published item is reproduced unchanged. The summary, screening rule, medicine examples and fictional histories were added for pharmacist review."
+  },
+  "plain_summary": "POPI flags loperamide for diarrhoea when the child was younger than three on the supply date. Australian guidance differs: the over-the-counter monograph warns against giving its 2 mg loperamide tablets or capsules to children under 12 for acute non-specific diarrhoea (TGA, 2014).",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Loperamide",
+      "ingredients": [
+        "loperamide"
+      ],
+      "brands": {
+        "loperamide": [
+          "Imodium Capsules",
+          "Apohealth Diarrhoea Relief Melts",
+          "Gastro-Stop",
+          "Gastro-Stop Plus",
+          "Imodium",
+          "Imodium Zapid",
+          "Imodium Advanced"
+        ]
+      },
+      "note": "Count generic loperamide and combination products containing it, including loperamide with simeticone."
+    }
+  ],
+  "rule_for_models": "Cite the Group A loperamide supply when the directions or a dated account show it was for diarrhoea before the child's third birthday. Give no finding for supply on or after the third birthday or for a known different indication. If the age at supply or the reason for treatment is unknown and the rest fits, cite the supply as a possible finding and ask for the child's age on the supply date if needed. For an unclear indication, ask about 'Diarrhoea treated with this supply of loperamide'. Yes confirms the indication, No excludes it and Not known leaves it open.",
+  "cannot_be_seen": "The record may omit non-prescription doses, actual administration and the child's condition at the time.",
+  "ask_the_gp": "Could you review the loperamide supply in light of the child's age and the cause of the diarrhoea?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

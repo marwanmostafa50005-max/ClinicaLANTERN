@@ -1,0 +1,64 @@
+{
+  "id": "EU7-F13",
+  "label": "EU(7)-PIM: sliding-scale insulin",
+  "family": "EU7",
+  "title": "Insulin dosed by a sliding scale in an older person",
+  "statement": "Insulin, sliding scale | In lists: 5 (A) | Main reason: No benefits demonstrated in using sliding-scale insulin. Might facilitate fluctuations in glycemic levels | Dose adjustment/special considerations: Lower doses to avoid hypoglycemia. E | Alternatives: Basal insulin. E",
+  "statement_origin": "published",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Layout changed by the entrant: one row of the source table is shown as one text, with the column names written in. The authors have not reviewed this layout."
+  },
+  "plain_summary": "The panel flagged sliding-scale insulin used as the only insulin regimen in an older person. When the glucose reading sets the whole dose and there is no background insulin, blood glucose can fluctuate.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Short-acting and rapid-acting insulins",
+      "ingredients": [
+        "insulin aspart",
+        "insulin lispro",
+        "insulin glulisine",
+        "insulin neutral"
+      ],
+      "brands": {
+        "insulin aspart": [
+          "NovoRapid",
+          "Fiasp",
+          "Truvelog",
+          "Fiasp Flextouch",
+          "Fiasp Penfill",
+          "Novorapid Flexpen",
+          "Novorapid Innolet",
+          "Novorapid Penfill",
+          "Truvelog Solostar"
+        ],
+        "insulin lispro": [
+          "Humalog",
+          "Humalog Kwikpen"
+        ],
+        "insulin glulisine": [
+          "Apidra",
+          "Apidra Solostar"
+        ],
+        "insulin neutral": [
+          "Actrapid",
+          "Humulin R",
+          "Hypurin Neutral"
+        ]
+      },
+      "note": "Pens, cartridges and vials count, for example NovoRapid FlexPen, Humalog KwikPen and Apidra SoloStar. Insulin neutral is also called regular or soluble insulin. Long-acting, intermediate-acting and premixed insulins are not in this group, for example Optisulin, Lantus, Toujeo, Semglee, Levemir, Protaphane, Humulin NPH, Mixtard, NovoMix, Humalog Mix25, Humalog Mix50 and Ryzodeg."
+    }
+  ],
+  "rule_for_models": "For Group A insulin, exclude people under 65, ask about unknown age or unclear background cover as a possible finding if the other conditions fit, and flag a person aged 65 or older only when the glucose reading determines the entire amount of each dose and there is no evidence of scheduled insulin, basal delivery by pump, or intermediate, long-acting or premixed insulin covering that course. For each Group A supply, check for scheduled insulin, basal pump delivery, or intermediate, long-acting or premixed insulin within 60 days before or after that supply date. Also check any documented course that covers that date. If cover is established for that regimen, report no finding. If an entry suggests cover but its timing or use is uncertain, report only a possible finding and ask what background insulin was used then. If there is no evidence of cover, an eligible person with explicit whole-dose sliding-scale directions meets the record-based criterion. Directions need not declare that this is the only regimen. If Group A directions are unclear and no background cover is established, report only a possible finding when age is eligible or unknown. Ask how each dose is chosen and what background insulin is used, including a pump or supplies obtained elsewhere. A fixed scheduled dose or a correction added to a scheduled dose does not meet the criterion.",
+  "cannot_be_seen": "Use any recorded glucose or HbA1c results and any dated entry about low blood sugar. Supplies alone do not show these facts or how the patient chooses each dose. An “as directed” label does not establish a sliding scale. Insulin supplied by a hospital or another pharmacy may be missing.",
+  "ask_the_gp": "A review of the insulin plan, including whether a sliding scale is still in use and the patient's risk of low blood sugar.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

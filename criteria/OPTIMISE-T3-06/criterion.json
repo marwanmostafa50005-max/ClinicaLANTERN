@@ -1,0 +1,84 @@
+{
+  "id": "OPTIMISE-T3-06",
+  "label": "OPTIMISE T3-06: anticonvulsant in adult over 50",
+  "family": "OPTIMISE",
+  "title": "Bone-weakening anticonvulsant in an adult over 50",
+  "statement": "i.Adults over 50 years who are prescribed sodium valproate, carbamazepine, primidone, or phenytoin because these agents are associated with reduced bone mineral density, osteopenia, osteoporosis and increased risk of fractures",
+  "statement_origin": "published",
+  "source": {
+    "document": "Carolan A, et al. OPTIMISE. BMC Psychiatry 2022;22:585, Tables 2-3",
+    "citation": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "doi": null,
+    "url": null,
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "modification_notice": "Statement text reproduced without changes. Medicine groups, brands and rules added by ClinicaLANTERN."
+  },
+  "plain_summary": "Sodium valproate, carbamazepine, primidone and phenytoin can lower bone density and raise the risk of broken bones. The risk matters most in adults over 50. Ask the patient whether they have had a bone density scan or fracture-risk check and whether they already take osteoporosis treatment.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Valproate, carbamazepine, primidone and phenytoin",
+      "ingredients": [
+        "sodium valproate",
+        "carbamazepine",
+        "primidone",
+        "phenytoin"
+      ],
+      "brands": {
+        "sodium valproate": [
+          "Epilim",
+          "Epilim Crushable",
+          "Valpro",
+          "Valprease",
+          "Valprease 200",
+          "Valprease 500"
+        ],
+        "carbamazepine": [
+          "Tegretol",
+          "Tegretol CR",
+          "Teril",
+          "Avloire",
+          "Avloire CR"
+        ],
+        "primidone": [
+          "Mysoline"
+        ],
+        "phenytoin": [
+          "Dilantin",
+          "Dilantin Infatabs",
+          "Dilantin Paediatric"
+        ]
+      },
+      "note": "Tablets, capsules and liquids count. Sodium valproate and valproic acid are the same group. Generic packs that show the ingredient name with a company name count too. Recognise valproate as an alias for sodium valproate. Valprease 200 and Valprease 500 are oral tablets. A supply recorded only as an injection does not establish use of one of the oral forms listed here."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when the person is over 50 years old and the history shows at least one supply of a Group A medicine (valproate, carbamazepine, primidone or phenytoin). If a Group A medicine is supplied and age is missing, report only a possible finding and ask the pharmacist to confirm whether the person is over 50. Date the review to the documented course. Use the last supply date, quantity and directions to assess cover. If this cover has ended, confirm continued use before describing the medicine as current. Use any dated fracture-risk assessment for this course first. A completed assessment with a management decision that still applies closes the repeat request. An outstanding assessment or decision supports review. If its status is unclear and the age and exposure could qualify, report only a possible finding and ask about \"Fracture-risk assessment and management decision for this antiepileptic course\".",
+  "cannot_be_seen": "Dispensing alone cannot establish severe mental illness, the reason for treatment or whether treatment continued after the last supply. Bone density results, falls, fractures, use of vitamin D or calcium and any previous fracture-risk assessment are known only if recorded or confirmed with the patient.",
+  "ask_the_gp": "For the documented course, has fracture risk been assessed with a validated tool, taking any available bone density result into account, and is the management decision up to date?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Fracture-risk assessment and management decision for this antiepileptic course",
+      "meets": "Use a dated assessment that applies to this antiepileptic course. Ask only if assessment or the current management decision is unclear.",
+      "options": [
+        {
+          "words": "Assessment completed with a management decision that still applies to this course",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "The assessment or management decision for this course is outstanding",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

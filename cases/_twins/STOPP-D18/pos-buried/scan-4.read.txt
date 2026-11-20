@@ -1,0 +1,6 @@
+2026-07-23 | Lanoxin PG (digoxin) 62.5 microgram tablet | qty 200 | repeats 1 | Take TWO tablets daily | Dr A. Exa
+2026-07-31 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 2 | Take TWO tablets once daily with the evening meal | Dr A. Exa
+2026-08-19 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 3 | Take ONE tablet at night | Dr A. Exa
+2026-08-19 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 3 | Take ONE tablet in the morning | Dr A. Exa
+2026-08-19 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 3 | Take ONE tablet daily | Dr A. Exa
+2026-08-29 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 1 | Take TWO tablets once daily with the evening meal | Dr A. Exa

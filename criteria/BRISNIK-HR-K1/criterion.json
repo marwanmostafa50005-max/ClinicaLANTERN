@@ -1,0 +1,143 @@
+{
+  "id": "BRISNIK-HR-K1",
+  "label": "Brisnik: anticholinergic antidepressant with voiding problems",
+  "family": "BRISNIK",
+  "title": "Anticholinergic antidepressant in a person with voiding problems",
+  "statement": "Prescribed anticholinergic antidepressant opipramol, other TCAs (in doses ≥ 50 mg/day), or paroxetine - and the patient has a history of voiding disorders (e.g., urinary retention or benign prostatic hyperplasia) or has developed urinary retention under treatment",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Statement text reproduced without changes. Not endorsed by the source authors."
+  },
+  "plain_summary": "Paroxetine and opipramol at any dose, and other tricyclics at 50 mg a day or more, can make it hard to pass urine. A person who cannot pass urine despite a full bladder needs immediate medical assessment. A stable or past voiding disorder warrants a medicine review.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Paroxetine and opipramol",
+      "ingredients": [
+        "paroxetine",
+        "opipramol"
+      ],
+      "brands": {
+        "paroxetine": [
+          "Aropax",
+          "Paxtine",
+          "Aropax CR",
+          "Extine",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ],
+        "opipramol": []
+      },
+      "note": "Any dose counts. No Australian brand is listed for opipramol, so use the ingredient name."
+    },
+    {
+      "key": "B",
+      "name": "Other tricyclic antidepressants (counted only at 50 mg a day or more)",
+      "ingredients": [
+        "amitriptyline",
+        "nortriptyline",
+        "imipramine",
+        "clomipramine",
+        "dosulepin",
+        "doxepin",
+        "trimipramine"
+      ],
+      "brands": {
+        "amitriptyline": [
+          "Endep",
+          "Amichlor",
+          "Amidep",
+          "Entrip"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "dosulepin": [
+          "Dothep",
+          "Prothiaden"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ]
+      },
+      "note": "Work out the daily dose from the strength and the directions. For example, 25 mg tablets taken as TWO tablets at night is 50 mg a day. A tricyclic below 50 mg a day does not count."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "History of a voiding disorder or urinary retention during treatment",
+      "meets": "Any documented history of a voiding disorder, including urinary retention or benign prostatic hyperplasia, or new urinary retention during treatment.",
+      "options": [
+        {
+          "words": "Past or stable voiding disorder, including an enlarged prostate",
+          "effect": "meets"
+        },
+        {
+          "words": "Urinary retention developed during this treatment and has resolved",
+          "effect": "meets"
+        },
+        {
+          "words": "Urinary retention during this treatment is still present",
+          "effect": "meets"
+        },
+        {
+          "words": "No history of a voiding disorder and no retention during treatment",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Prescribed daily dose of the tricyclic antidepressant",
+      "meets": "For the tricyclic and treatment episode being reviewed, 50 mg a day or more meets the dose threshold. Below 50 mg a day rules out that course. If the answer is unknown or cannot be linked to that course, its dose remains uncertain.",
+      "options": [
+        {
+          "words": "50 mg a day or more",
+          "effect": "meets"
+        },
+        {
+          "words": "Below 50 mg a day",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "For paroxetine or opipramol at any dose, or another tricyclic at 50 mg a day or more, flag a documented history of a voiding disorder or new urinary retention during treatment, even if symptoms have resolved. Cite the supply and the line documenting the qualifying event. If both events are explicitly absent, give no finding. With a qualifying supply, if neither event is confirmed and either remains unknown, report a possible finding and name the missing urinary history. A positive history alone does not establish acute retention now. If only a Group B course could qualify, use strength and directions to check its prescribed daily dose. A known dose below 50 mg a day rules out that course alone. If the dose threshold is unclear and a qualifying urinary history is present or still possible, report a possible finding and name \"Prescribed daily dose of the tricyclic antidepressant\" and any missing urinary history. Use the dose answer only for that medicine and treatment episode. Confirm only if both the medicine and the urinary history qualify, and cite any dose clarification used.",
+  "cannot_be_seen": "Whether the person has urinary symptoms, whether retention developed during treatment, and the daily dose actually taken.",
+  "ask_the_gp": "A person who currently cannot pass urine despite a full bladder needs immediate medical assessment. For a past or stable voiding disorder, could the antidepressant and current symptoms be reviewed? If urinary history is unknown, could a previous voiding disorder or retention during treatment be clarified?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

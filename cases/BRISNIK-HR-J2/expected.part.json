@@ -1,0 +1,63 @@
+[
+  {
+    "file": "BRISNIK-HR-J2/pos-fact.csv",
+    "kind": "positive",
+    "about": "Agomelatine is supplied every four weeks from July 2025 to a man whose record holds a condition line for alcohol-related cirrhosis of the liver.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-J2",
+        "must_cite": [
+          [
+            "L007",
+            "L011",
+            "L015",
+            "L019",
+            "L023",
+            "L026",
+            "L031",
+            "L035",
+            "L038",
+            "L043",
+            "L046",
+            "L050",
+            "L054"
+          ],
+          [
+            "L002"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-J2/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about cirrhosis, liver disease or liver function anywhere; agomelatine is supplied every four weeks.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-J2",
+        "must_cite": [
+          [
+            "L005",
+            "L007",
+            "L010",
+            "L013",
+            "L017",
+            "L019",
+            "L022",
+            "L026",
+            "L029",
+            "L032",
+            "L036"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-J2/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Agomelatine is supplied every four weeks, but a record line says the person has no known liver disease, no cirrhosis and no active liver disease, so the criterion is not met.",
+    "findings": []
+  }
+]

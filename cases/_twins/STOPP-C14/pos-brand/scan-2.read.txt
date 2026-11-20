@@ -1,0 +1,9 @@
+2026-08-07 | Eliquis 5 mg tablet | qty 60 | repeats 3 | Take ONE tablet twice a day | Dr A. Example
+2026-08-07 | Isoptin SR 240 mg modified release tablet | qty 30 | repeats 0 | Take ONE tablet daily with food | Dr C. Template
+2026-08-07 | Atacand (candesartan) 8 mg tablet | qty 30 | repeats 0 | Take ONE tablet daily | Dr A. Example
+2026-09-07 | Eliquis 5 mg tablet | qty 60 | repeats 2 | Take ONE tablet twice a day | Dr A. Example
+2026-09-07 | Isoptin SR 240 mg modified release tablet | qty 30 | repeats 5 | Take ONE tablet daily with food | Dr A. Example
+2026-09-07 | Atacand (candesartan) 8 mg tablet | qty 30 | repeats 5 | Take ONE tablet daily | Dr A. Example
+2026-10-06 | Eliquis 5 mg tablet | qty 60 | repeats 1 | Take ONE tablet twice a day | Dr A. Example
+2026-10-06 | Isoptin SR 240 mg modified release tablet | qty 30 | repeats 4 | Take ONE tablet daily with food | Dr A. Example
+2026-10-06 | Atacand (candesartan) 8 mg tablet | qty 30 | repeats 4 | Take ONE tablet daily | Dr A. Example

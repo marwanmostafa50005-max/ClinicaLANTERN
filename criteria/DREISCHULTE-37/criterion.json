@@ -1,0 +1,93 @@
+{
+  "id": "DREISCHULTE-37",
+  "label": "Dreischulte 37",
+  "family": "DREISCHULTE",
+  "title": "Warfarin with an azole antifungal",
+  "statement": "Patient treated with warfarin - is co-prescribed an azole antifungal",
+  "statement_origin": "published",
+  "source": {
+    "document": "Quality and safety of medication use in primary care: consensus validation of a new set of explicit medication assessment criteria and prioritisation of topics for improvement",
+    "citation": "Dreischulte T, Grant AM, McCowan C, McAnaw JJ, Guthrie B. Quality and safety of medication use in primary care: consensus validation of a new set of explicit medication assessment criteria and prioritisation of topics for improvement. BMC Clinical Pharmacology. 2012;12:5.",
+    "doi": "10.1186/1472-6904-12-5",
+    "url": "https://link.springer.com/article/10.1186/1472-6904-12-5",
+    "licence": "Creative Commons Attribution 2.0 Generic (CC BY 2.0)",
+    "licence_status": "proposed",
+    "credit": "© 2012 Dreischulte et al., licensee BioMed Central Ltd. Cite the five authors, article title, journal, year and DOI above. The original statements are reproduced under CC BY 2.0. The Australian checks and qualification judgments are by GPT-6.2 Astra.",
+    "modification_notice": "The published statement is reproduced unchanged. The screening rule, Australian medicine examples and fictional histories were written for this prototype."
+  },
+  "plain_summary": "A supply of an azole antifungal during warfarin treatment calls for a review of the interaction and the patient's INR monitoring.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Warfarin",
+      "ingredients": [
+        "warfarin"
+      ],
+      "brands": {
+        "warfarin": [
+          "Coumadin",
+          "Marevan"
+        ]
+      },
+      "note": "Use the dated supply and the current anticoagulation directions."
+    },
+    {
+      "key": "B",
+      "name": "An azole antifungal",
+      "ingredients": [
+        "fluconazole",
+        "itraconazole",
+        "voriconazole",
+        "posaconazole",
+        "miconazole"
+      ],
+      "brands": {
+        "fluconazole": [
+          "Diflucan",
+          "Canazole One",
+          "Canesoral",
+          "Di-Con One",
+          "Diflucan One",
+          "Difluzole",
+          "Dizole",
+          "Dizole One",
+          "Femclear Oral",
+          "Femzol-1",
+          "Femzole",
+          "Femzole One",
+          "Fluzole",
+          "Fluzole One",
+          "Ozole",
+          "Canesoral Duo"
+        ],
+        "itraconazole": [
+          "Itraconazole GPPL",
+          "Sporanox",
+          "Lozanoc"
+        ],
+        "voriconazole": [
+          "Voriconazole AN",
+          "Vfend"
+        ],
+        "posaconazole": [
+          "AKM Posaconazole",
+          "Noxafil"
+        ],
+        "miconazole": [
+          "Daktarin Oral Gel",
+          "Miconeo Oral Gel",
+          "Monistat 1 Vaginal Ovule and Cream",
+          "Resolve Thrush Cream",
+          "Decozol Oral Gel"
+        ]
+      },
+      "note": "Count the listed systemic azoles, including the oral fluconazole capsule in Canesoral Duo, and miconazole used inside the mouth or vagina. The clotrimazole cream alone is not the fluconazole supply. Daktarin miconazole skin cream, powder, spray powder and tincture also carry a warfarin warning. If the miconazole form or route is unclear and the courses could overlap, cite both supplies, report only a possible finding and ask the pharmacist to identify the preparation. Do not assume that another skin, shampoo or nail product has the same warning."
+    }
+  ],
+  "rule_for_models": "When Group A warfarin and a Group B azole antifungal are supplied within 60 days of each other or their supply dates overlap, suspect a finding and cite both supplies if the form, directions and quantity show overlapping courses, even without an INR result. When the supplies are within 60 days and unclear directions leave overlap uncertain, cite both supplies, report only a possible finding and ask the pharmacist to confirm the dose actually used and the treatment dates. A documented stop, hold or later start that rules out overlap gives no finding.",
+  "cannot_be_seen": "The supplies alone cannot show whether both medicines were taken, how the INR changed, whether bleeding occurred or what monitoring was arranged elsewhere. Antifungal products bought without a prescription or obtained elsewhere may be missing from the record.",
+  "ask_the_gp": "Could you confirm the antifungal and its route and review bleeding risk and INR monitoring with warfarin? If it is miconazole oral gel, could we review an alternative today and, if any gel has been used, check for bleeding and arrange urgent INR assessment?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

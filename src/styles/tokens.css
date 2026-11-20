@@ -1,0 +1,119 @@
+/* The colours and type from docs/SPEC.md section 8, plus a few quiet shades made from them. */
+:root {
+  --navy: #071d49;
+  --gold: #edbf67;
+  --cyan: #27c2d0;
+  --cyan-dark: #0e7490;
+  --gold-dark: #9a6200;
+  --red: #b42318;
+  --page: #f7f9fc;
+  --text: #14233b;
+
+  --muted: #4b5b76;
+  --line: #d6deea;
+  --line-soft: #e7ecf4;
+  --card: #ffffff;
+  --navy-tint: #eaeef6;
+  --cyan-tint: #e5f8fa;
+  --gold-tint: #fdf3dc;
+  --red-tint: #fdeceb;
+  --gold-ink: #5f3d00;
+  --cyan-ink: #0b4f63;
+  --red-ink: #8a1c12;
+
+  /* Quiet shades for borders and surfaces (not one of the eight fixed colours). */
+  --input-border: #b9c4d8;
+  --input-border-hover: #9fb0cc;
+  --navy-hover: #0f2f73;
+  --disabled-bg: #eef1f6;
+  --disabled-border: #dde3ec;
+  --disabled-text: #6f7c93;
+  --spinner-track: #c9d3e3;
+  --border-gold-soft: #e7c98a;
+  --border-red-soft: #f1b5af;
+  --border-cyan-soft: #a9e3ea;
+  --gold-bright-hover: #f5d28a;
+  --surface-blush: #fff8f7;
+  --fill-bar: #f1f4f9;
+  --ink-warm: #2e1e00;
+  --text-faint: #8d9ab0;
+  --fill-segment-idle: #eef1f5;
+  --text-segment-idle: #47536a;
+  --border-segment: #d5dbe6;
+  --fill-segment: #f6f7fa;
+  --text-strong: #2c3850;
+  --text-soft: #5a667d;
+  --track-grey: #dfe5ee;
+  --scan-warm: #fffaf0;
+  --highlight-warm: #fff8e6;
+  --border-chip: #c3cde0;
+  --paper-warm: #fffefa;
+  --editor-quiet: #f8f9fb;
+
+  /* path-O-finder, used only inside the pathology upload block. */
+  --path-deep: #0E2A2B;
+  --path-paper: #F7FAFA;
+  --path-ink: #243A3B;
+  --path-teal: #0E7C7B;
+  --path-teal-bright: #41BDB4;
+  --path-burgundy: #7E1E2E;
+  --path-burgundy-bright: #B84452;
+
+  --font-stack: "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  --font: "Segoe UI Variable Text", "Segoe UI Variable", var(--font-stack);
+  --font-display: "Segoe UI Variable Display", "Segoe UI Variable", var(--font-stack);
+  --font-small: "Segoe UI Variable Small", "Segoe UI Variable", var(--font-stack);
+  /* The wordmark and hero lines keep the approved face (unchanged stack). */
+  --font-brand: var(--font-stack);
+  --mono: Consolas, "Cascadia Mono", "Courier New", monospace;
+  /* The pharmacist's name under a letter. Fonts of this computer first; Caveat is bundled with the page. */
+  --hand: "Segoe Script", "Lucida Handwriting", "Brush Script MT", "Caveat", cursive;
+
+  --radius: 14px;
+  --radius-small: 10px;
+  --shadow: 0 1px 2px rgba(7, 29, 73, 0.06), 0 6px 20px rgba(7, 29, 73, 0.07);
+  --shadow-small: 0 1px 2px rgba(7, 29, 73, 0.06), 0 2px 8px rgba(7, 29, 73, 0.05);
+
+  --white: #ffffff;
+  --disputed-grey: #485366;
+  --navy-10: rgba(7, 29, 73, 0.1);
+  --disc-shadow: 0 4px 12px rgba(7, 29, 73, 0.14);
+  --disc-shadow-hover: 0 6px 16px rgba(7, 29, 73, 0.2);
+  --disc-shadow-press: 0 2px 8px rgba(7, 29, 73, 0.14);
+  --shadow-popup: 0 14px 32px rgba(7, 29, 73, 0.36);
+  --shadow-letter-lift: 0 -8px 18px rgba(7, 29, 73, 0.05);
+  --backdrop-letter: rgba(7, 29, 73, 0.35);
+  --border-faint: rgba(7, 29, 73, 0.15);
+  --shadow-panel-foot: 0 -8px 16px -8px rgba(7, 29, 73, 0.16);
+  --shadow-letter-preview: 0 6px 20px rgba(7, 29, 73, 0.25);
+  --shadow-letter-soft: 0 3px 10px rgba(7, 29, 73, 0.1);
+  --backdrop-panel: rgba(7, 29, 73, 0.2);
+  --shadow-panel-shell: 0 6px 20px rgba(7, 29, 73, 0.25);
+
+  /* The approved look of the first screen (18 November): the top of the band, the light discs of
+     the three round icons with their dark edge, the idle dot of the status line, the focus ring. */
+  --hero-top: #e9eff8;
+  --orb-tint-cyan: #d9f4f7;
+  --orb-edge-red: #8f1a11;
+  --orb-tint-red: #fbe1de;
+  --orb-tint-gold: #fbeccb;
+  --dot-idle: #9aa7bd;
+  --focus-ring: var(--navy);
+
+  /* added with the model bar */
+  --lumen-on-navy: #ff8375;
+
+  /* Literals moved out of hero.css, icons.css and print.css (same values as before). */
+  --white-fade: rgba(255, 255, 255, 0);
+  --hero-mark-shadow: rgba(7, 29, 73, 0.3);
+  --wm-l-glow: rgba(237, 191, 103, 0.55);
+  --wm-l-shadow: rgba(154, 98, 0, 0.35);
+  --orb-glow-cyan: rgba(39, 194, 208, 0.5);
+  --orb-glow-red: rgba(180, 35, 24, 0.38);
+  --orb-glow-gold: rgba(237, 191, 103, 0.7);
+  --orb-disc-shadow: rgba(7, 29, 73, 0.1);
+  --orb-disc-shadow-hover: rgba(7, 29, 73, 0.12);
+  --badge-shadow-red: rgba(180, 35, 24, 0.4);
+  --badge-shadow-grey: rgba(72, 83, 102, 0.35);
+  --print-ink: #000000;
+}

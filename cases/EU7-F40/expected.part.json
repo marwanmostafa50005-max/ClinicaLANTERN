@@ -1,0 +1,40 @@
+[
+  {
+    "file": "EU7-F40/pos-brand.csv",
+    "kind": "positive",
+    "about": "Ofloxacin 200 mg tablets (no Australian brand, so the ingredient name is used) are supplied in April and August 2026 to a 72-year-old woman.",
+    "findings": [
+      {
+        "criterion": "EU7-F40",
+        "must_cite": [
+          [
+            "L013",
+            "L023"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F40/pos-buried.csv",
+    "kind": "positive",
+    "about": "Two courses of ofloxacin 200 mg tablets are supplied in January and February 2026, in the middle of a 16-month history of a 69-year-old woman.",
+    "findings": [
+      {
+        "criterion": "EU7-F40",
+        "must_cite": [
+          [
+            "L036",
+            "L041"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F40/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Only ofloxacin 0.3% eye drops and a short course of trimethoprim tablets are supplied. Eye drops are not a supply by mouth or injection, so the criterion is not met.",
+    "findings": []
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "id": "DREISCHULTE-43",
+  "label": "Dreischulte 43: warfarin with ribavirin",
+  "family": "DREISCHULTE",
+  "title": "Warfarin with ribavirin",
+  "statement": "Patient treated with warfarin - is co-prescribed ribavirin",
+  "statement_origin": "published",
+  "source": {
+    "document": "Quality and safety of medication use in primary care: consensus validation of a new set of explicit medication assessment criteria and prioritisation of topics for improvement",
+    "citation": "Dreischulte T, Grant AM, McCowan C, McAnaw JJ, Guthrie B. Quality and safety of medication use in primary care: consensus validation of a new set of explicit medication assessment criteria and prioritisation of topics for improvement. BMC Clinical Pharmacology. 2012;12:5.",
+    "doi": "10.1186/1472-6904-12-5",
+    "url": "https://link.springer.com/article/10.1186/1472-6904-12-5",
+    "licence": "Creative Commons Attribution 2.0 Generic (CC BY 2.0)",
+    "licence_status": "proposed",
+    "credit": "© 2012 Dreischulte et al., licensee BioMed Central Ltd. Dreischulte T, Grant AM, McCowan C, McAnaw JJ, Guthrie B. Quality and safety of medication use in primary care: consensus validation of a new set of explicit medication assessment criteria and prioritisation of topics for improvement. BMC Clinical Pharmacology. 2012;12:5. doi:10.1186/1472-6904-12-5. CC BY 2.0 (https://creativecommons.org/licenses/by/2.0/).",
+    "modification_notice": "The statement is reproduced verbatim. GPT-6.2 Astra drafted the Australian screening rule and fictional cases."
+  },
+  "plain_summary": "Warfarin response may change during hepatitis C treatment that includes ribavirin. The direction of an INR change cannot be predicted from the two supplies.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Warfarin",
+      "ingredients": [
+        "warfarin"
+      ],
+      "brands": {
+        "warfarin": [
+          "Coumadin",
+          "Marevan"
+        ]
+      }
+    },
+    {
+      "key": "B",
+      "name": "Ribavirin",
+      "ingredients": [
+        "ribavirin"
+      ],
+      "brands": {
+        "ribavirin": [
+          "Ibavyr",
+          "Copegus",
+          "Rebetol"
+        ]
+      }
+    }
+  ],
+  "rule_for_models": "Suspect concurrent treatment at any age when warfarin and ribavirin supply dates overlap or fall within 60 days of each other. Use the quantity, directions and any recorded hold or stop to exclude courses that did not overlap. If the dates fall within 60 days and unclear directions leave overlap uncertain, report only a possible finding. Ask for the daily dose and whether the two medicines were taken at the same time. Cite a supply of each medicine even if there is no INR result.",
+  "cannot_be_seen": "Supply lines cannot confirm which doses were taken, medicines supplied elsewhere, the INR response or a bleeding or clotting event.",
+  "ask_the_gp": "Could you confirm why ribavirin is being used and which other medicines are in the regimen? Could we review the recent INR results and the monitoring plan during treatment and after it ends?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

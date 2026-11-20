@@ -1,0 +1,53 @@
+[
+  {
+    "file": "KHAWAGI-G173/pos-fact.csv",
+    "kind": "positive",
+    "about": "The only lithium level precedes ibuprofen, and the lower lithium dose on day seven still leaves a possible follow-up gap.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G173",
+        "must_cite": [
+          [
+            "L032"
+          ],
+          [
+            "L039"
+          ],
+          [
+            "L042"
+          ],
+          [
+            "L038"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G173/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about a lithium level or monitoring plan through day seven after oral aspirin was started for pericarditis.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G173",
+        "must_cite": [
+          [
+            "L025"
+          ],
+          [
+            "L027"
+          ],
+          [
+            "L030"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G173/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The February ibuprofen course has a day-seven lithium level, and the June aspirin supply of 100 mg daily for antiplatelet therapy needs no check under this criterion.",
+    "findings": []
+  }
+]

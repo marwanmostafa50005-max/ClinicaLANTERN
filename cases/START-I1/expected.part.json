@@ -1,0 +1,48 @@
+[
+  {
+    "file": "START-I1/pos-fact.csv",
+    "kind": "positive",
+    "about": "The record holds a line for benign prostatic hyperplasia with urinary symptoms. The same line records \"Clinician's assessment of prostate surgery: unnecessary\". Finasteride is supplied every month but no alpha-1 blocker such as tamsulosin or silodosin is supplied.",
+    "findings": [
+      {
+        "criterion": "START-I1",
+        "must_cite": [
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-I1/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about \"Lower urinary tract symptoms due to benign prostate enlargement\". The later Proscar 5 mg supplies suggest this condition and no selective alpha-1 blocker is supplied. The earlier Finapen brand alone does not establish prostate treatment.",
+    "findings": [
+      {
+        "criterion": "START-I1",
+        "must_cite": [
+          [
+            "L004",
+            "L006",
+            "L009",
+            "L011",
+            "L014",
+            "L016",
+            "L019",
+            "L021",
+            "L024",
+            "L026",
+            "L029"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-I1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The record holds a line for benign prostatic hyperplasia with urinary symptoms and \"Clinician's assessment of prostate surgery: unnecessary\". Tamsulosin (Flomaxtra) is supplied every month to the end of the history, so the alpha-1 blocker is there.",
+    "findings": []
+  }
+]

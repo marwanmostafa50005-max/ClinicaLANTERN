@@ -1,0 +1,22 @@
+2025-08-05 | Avapro (irbesartan) 150 mg tablet | qty 30 | repeats 3 | Take ONE tablet daily | Dr A. Example
+2025-08-05 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 5 | Take ONE tablet at night | Dr A. Example
+2025-08-05 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 2 | Take TWO tablets daily with the evening meal | Dr A. Example
+2025-08-05 | Flomaxtra (tamsulosin) 400 microgram modified release tablet | qty 30 | repeats 0 | Take ONE tablet daily | Dr A. Example
+2025-09-04 | Avapro (irbesartan) 150 mg tablet | qty 30 | repeats 2 | Take ONE tablet daily | Dr A. Example
+2025-09-04 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr A. Example
+2025-09-04 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 1 | Take TWO tablets daily with the evening meal | Dr A. Example
+2025-09-04 | Flomaxtra (tamsulosin) 400 microgram modified release tablet | qty 30 | repeats 5 | Take ONE tablet daily | Dr A. Example
+2025-09-23 | Keflex (cefalexin) 500 mg capsule | qty 20 | repeats 0 | Take ONE capsule four times a day until finished | Dr B. Sample
+2025-10-03 | Avapro (irbesartan) 150 mg tablet | qty 30 | repeats 1 | Take ONE tablet daily | Dr A. Example
+2025-10-03 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 3 | Take ONE tablet at night | Dr A. Example
+2025-10-03 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 0 | Take TWO tablets daily with the evening meal | Dr A. Example
+2025-10-03 | Flomaxtra (tamsulosin) 400 microgram modified release tablet | qty 30 | repeats 4 | Take ONE tablet daily | Dr A. Example
+2025-10-17 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr A. Example
+2025-11-04 | Avapro (irbesartan) 150 mg tablet | qty 30 | repeats 0 | Take ONE tablet daily | Dr A. Example
+2025-11-04 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 2 | Take ONE tablet at night | Dr A. Example
+2025-11-04 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 5 | Take TWO tablets daily with the evening meal | Dr A. Example
+2025-11-04 | Flomaxtra (tamsulosin) 400 microgram modified release tablet | qty 30 | repeats 3 | Take ONE tablet daily | Dr A. Example
+2025-12-03 | Avapro (irbesartan) 150 mg tablet | qty 30 | repeats 5 | Take ONE tablet daily | Dr A. Example
+2025-12-03 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 1 | Take ONE tablet at night | Dr A. Example
+2025-12-03 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take TWO tablets daily with the evening meal | Dr A. Example
+2025-12-03 | Flomaxtra (tamsulosin) 400 microgram modified release tablet | qty 30 | repeats 2 | Take ONE tablet daily | Dr A. Example

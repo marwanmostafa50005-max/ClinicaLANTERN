@@ -1,0 +1,106 @@
+{
+  "id": "STOPP-K10",
+  "label": "STOPP K10",
+  "family": "STOPP_START",
+  "title": "Alpha blocker for prostate symptoms in a person who keeps falling",
+  "statement": "Alpha blockers for prostatic bladder outflow symptoms, other than silodosin in patients with recurrent falls (may cause orthostatic hypotension).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Alpha blockers for prostate urinary symptoms (other than silodosin) can drop blood pressure on standing, which raises the risk of falls in someone who has already fallen more than once.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Alpha blockers used for prostate symptoms",
+      "ingredients": [
+        "alfuzosin",
+        "doxazosin",
+        "prazosin",
+        "tamsulosin",
+        "terazosin"
+      ],
+      "brands": {
+        "alfuzosin": [
+          "Xatral",
+          "Xatral ER",
+          "Xatral SR"
+        ],
+        "doxazosin": [
+          "Carduran"
+        ],
+        "prazosin": [
+          "Minipress",
+          "Pratsiol",
+          "Pressin"
+        ],
+        "tamsulosin": [
+          "Flomaxtra",
+          "Pradif",
+          "Flosix",
+          "Duodart",
+          "Doubluts",
+          "Dutatam 500/400"
+        ],
+        "terazosin": [
+          "Hytrin"
+        ]
+      },
+      "note": "Silodosin (Silodyn or Urorec) is the exception in the criterion and is not counted. For doxazosin, prazosin and terazosin, check whether the recorded reason is prostate symptoms or another reason such as blood pressure treatment. Duodart contains dutasteride with tamsulosin."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Recurrent falls",
+      "meets": "two or more falls in the past 12 months, or a line that says recurrent falls",
+      "options": [
+        {
+          "words": "Two or more falls in the past 12 months",
+          "effect": "meets"
+        },
+        {
+          "words": "No falls or one fall in the past 12 months",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Prostatic bladder outflow symptoms as a reason for the alpha blocker under review",
+      "meets": "The record supports use of this supply for prostatic bladder outflow symptoms. If unclear, ask what urinary symptoms the medicine treats.",
+      "options": [
+        {
+          "words": "This alpha blocker treats prostatic bladder outflow symptoms",
+          "effect": "meets"
+        },
+        {
+          "words": "This alpha blocker is used only for another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this criterion only at age 65 or older. Below 65, return no finding. If age is missing, establish age before confirming a finding. For a Group A supply, check the recorded reason for use and the falls history. Confirm only when the supply treats urinary symptoms from the prostate and the falls history qualifies. Count at least two falls in the past 12 months or an explicit history of recurrent falls. Give no finding if the medicine is used solely for another reason, or if the falls history rules out recurrent falls. Otherwise, if the indication or falls history is missing or recorded as unknown, report only a possible finding and name each missing fact exactly as \"Prostatic bladder outflow symptoms as a reason for the alpha blocker under review\" or \"Recurrent falls\", as applicable. Cite a Group A supply, then any line establishing recurrent falls and any line linking the medicine to the prostate symptoms.",
+  "cannot_be_seen": "The directions or a clinical entry may give the reason for treatment. The record may omit the indication, dates of falls or standing blood pressure.",
+  "ask_the_gp": "Whether the alpha blocker could be changed to silodosin or another option for the prostate symptoms, given the falls. A falls and blood pressure review.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "only_sex": "male"
+}

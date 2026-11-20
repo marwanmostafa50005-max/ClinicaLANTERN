@@ -1,0 +1,63 @@
+{
+  "id": "KHAWAGI-G092",
+  "label": "Khawagi review: Review dexamfetamine or lisdexamfetamine with phenelzine or tranylcypromine or within 14 days of their last dose",
+  "family": "KHAWAGI",
+  "title": "Review dexamfetamine or lisdexamfetamine with phenelzine or tranylcypromine or within 14 days of their last dose",
+  "statement": "Review dexamfetamine or lisdexamfetamine with phenelzine or tranylcypromine or within 14 days of their last dose.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Khawagi et al. (2019), S3 File. List of potential Prescribing Safety Indicators (PSIs) related to mental health medications and conditions.",
+    "citation": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. PLoS ONE 2019;14(5):e0217406.",
+    "doi": "10.1371/journal.pone.0217406",
+    "url": "https://doi.org/10.1371/journal.pone.0217406.s003",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. PLoS ONE 2019;14(5):e0217406. https://doi.org/10.1371/journal.pone.0217406; S3 File, https://doi.org/10.1371/journal.pone.0217406.s003. © 2019 Khawagi et al., CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Khawagi et al. (2019), PLOS ONE 14(5), e0217406, S3 File, CC BY 4.0. Original screening wording and Australian adaptations. S3 reference(s) as indexed in the supplied qualification: [102]. Clinical cross-check: Vyvanse Australian PI (https://www.safetyandquality.gov.au/medicine-finder/vyvanse). Khawagi review (https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0217406).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "Review dexamfetamine or lisdexamfetamine with phenelzine or tranylcypromine or within 14 days of their last dose.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Non-selective monoamine oxidase inhibitors",
+      "ingredients": [
+        "phenelzine",
+        "tranylcypromine"
+      ],
+      "brands": {
+        "phenelzine": [
+          "Nardil"
+        ],
+        "tranylcypromine": [
+          "Parnate",
+          "Parpromine",
+          "Tranamef",
+          "Tranylmed"
+        ]
+      }
+    },
+    {
+      "key": "B",
+      "name": "Amphetamines",
+      "ingredients": [
+        "dexamfetamine",
+        "lisdexamfetamine"
+      ],
+      "brands": {
+        "dexamfetamine": [
+          "Aspen Dexamfetamine"
+        ],
+        "lisdexamfetamine": [
+          "Vyvanse",
+          "Actavanz"
+        ]
+      }
+    }
+  ],
+  "rule_for_models": "Check for phenelzine or tranylcypromine with dexamfetamine or lisdexamfetamine, during MAOI treatment or when the stimulant starts within 14 days after the last MAOI dose. Use a documented last dose first. Otherwise estimate the last covered day from the start date, quantity and fixed daily directions, counting the start as day one. Use the supply date if no other start is given. If timing could qualify but as-directed, when-needed or variable dosing leaves it uncertain, report only a possible finding. Ask when the patient last took the MAOI and whether and when they started the stimulant. Exclude selegiline, moclobemide, methylphenidate, atomoxetine and pseudoephedrine from this amphetamine rule. Cite both supplies regardless of indication. If there was no overlap and the stimulant started more than 14 days after the last MAOI dose, give no finding.",
+  "cannot_be_seen": "Dispensing does not establish actual use, indication or a prescriber’s intent. Treatment and assessments elsewhere may be missing.",
+  "ask_the_gp": "Could you review the timing of dexamfetamine or lisdexamfetamine in relation to phenelzine or tranylcypromine, including any overlap or start within 14 days after the last MAOI dose?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

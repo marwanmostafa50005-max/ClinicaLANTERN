@@ -1,0 +1,54 @@
+[
+  {
+    "file": "STOPP-B14/pos-fact.csv",
+    "kind": "positive",
+    "about": "Viagra (sildenafil) is supplied, the record shows severe heart failure, and the most recent blood pressure is 84/52 mmHg, a systolic reading below 90.",
+    "findings": [
+      {
+        "criterion": "STOPP-B14",
+        "must_cite": [
+          [
+            "L002",
+            "L012",
+            "L021",
+            "L030",
+            "L039"
+          ],
+          [
+            "L003"
+          ],
+          [
+            "L011"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-B14/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: sildenafil is supplied and heart failure is recorded, but its severity and the latest systolic blood pressure are unknown.",
+    "findings": [
+      {
+        "criterion": "STOPP-B14",
+        "must_cite": [
+          [
+            "L002",
+            "L010",
+            "L017",
+            "L023"
+          ],
+          [
+            "L003"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-B14/near-miss.csv",
+    "kind": "near_miss",
+    "about": "An older angina spray was supplied, but the patient confirms no angina nitrate use during sildenafil treatment, and systolic pressure is 128 mmHg.",
+    "findings": []
+  }
+]

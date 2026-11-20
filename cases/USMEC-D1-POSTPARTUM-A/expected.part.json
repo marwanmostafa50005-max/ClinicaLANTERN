@@ -1,0 +1,41 @@
+[
+  {
+    "file": "USMEC-D1-POSTPARTUM-A/pos-fact.csv",
+    "kind": "positive",
+    "about": "The directions start the combined pill on day 20 after a recorded birth.",
+    "findings": [
+      {
+        "criterion": "USMEC-D1-POSTPARTUM-A",
+        "must_cite": [
+          [
+            "L048"
+          ],
+          [
+            "L038"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "USMEC-D1-POSTPARTUM-A/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about delivery timing or postpartum status at the combined pill supply.",
+    "findings": [
+      {
+        "criterion": "USMEC-D1-POSTPARTUM-A",
+        "must_cite": [
+          [
+            "L029"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "USMEC-D1-POSTPARTUM-A/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The pill is supplied on day 20 after birth with explicit directions to start on day 21.",
+    "findings": []
+  }
+]

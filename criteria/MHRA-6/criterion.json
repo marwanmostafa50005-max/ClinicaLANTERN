@@ -1,0 +1,98 @@
+{
+  "id": "MHRA-6",
+  "label": "MHRA 6",
+  "family": "MHRA",
+  "title": "Codeine after tonsil or adenoid surgery for obstructive sleep apnoea",
+  "statement": "Codeine is contraindicated in all children (ie, younger than 18 years) who undergo tonsillectomy or adenoidectomy (or both) for obstructive sleep apnoea",
+  "statement_origin": "published",
+  "source": {
+    "document": "MHRA Drug Safety Update: Codeine for analgesia: restricted use in children because of reports of morphine toxicity",
+    "citation": "Medicines and Healthcare products Regulatory Agency. Drug Safety Update volume 6, issue 12: July 2013: A1.",
+    "url": "https://www.gov.uk/drug-safety-update/codeine-for-analgesia-restricted-use-in-children-because-of-reports-of-morphine-toxicity",
+    "licence": "UK Open Government Licence v3.0",
+    "licence_status": "proposed",
+    "credit": "Contains public sector information licensed under the Open Government Licence v3.0.",
+    "modification_notice": "Statement reproduced without changes."
+  },
+  "plain_summary": "Codeine must not be used by a child under 18 years after tonsil or adenoid surgery for obstructive sleep apnoea. Australian Panadeine Forte Product Information dated 25 May 2026 contraindicates use under 12 years and at ages 12 to 18 years where breathing may be compromised, including after tonsillectomy or adenoidectomy for obstructive sleep apnoea. Australian TGA guidance is broader and advises against codeine at ages 12 to 18 years after any recent tonsillectomy or adenoidectomy.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Codeine and codeine-containing combination products",
+      "ingredients": [
+        "codeine",
+        "paracetamol + codeine",
+        "paracetamol + codeine + doxylamine",
+        "paracetamol + codeine + promethazine",
+        "aspirin + codeine",
+        "ibuprofen + codeine"
+      ],
+      "brands": {
+        "codeine": [
+          "Actacode",
+          "Actacode Linctus",
+          "Aspen Codeine"
+        ],
+        "paracetamol + codeine": [
+          "Panamax Co",
+          "Panadeine Forte",
+          "Codalgin Forte",
+          "Codapane Forte",
+          "Comfarol Forte",
+          "Prodeine Forte",
+          "Panadeine",
+          "Panadeine Extra",
+          "Codalgin",
+          "Dolaforte",
+          "Painstop Day-Time Pain Reliever"
+        ],
+        "paracetamol + codeine + doxylamine": [
+          "Mersyndol Forte",
+          "Mersyndol"
+        ],
+        "paracetamol + codeine + promethazine": [
+          "Painstop Night-Time Pain Reliever"
+        ],
+        "aspirin + codeine": [
+          "Aspalgin"
+        ],
+        "ibuprofen + codeine": [
+          "Nurofen Plus",
+          "Panafen Plus"
+        ]
+      },
+      "note": "Oral codeine and codeine-containing combination products count. Single-ingredient oral codeine tablets count under Aspen Codeine or the ingredient name. Dihydrocodeine products such as Rikodeine do not count."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Recent tonsillectomy or adenoidectomy for obstructive sleep apnoea",
+      "meets": "The child was recovering from tonsil or adenoid surgery for obstructive sleep apnoea when the codeine was supplied. A remote operation does not meet the criterion. Keep uncertain timing or indication open.",
+      "options": [
+        {
+          "words": "Recovering at this supply after tonsil or adenoid surgery for obstructive sleep apnoea",
+          "effect": "meets"
+        },
+        {
+          "words": "Recovering at this supply after that surgery for another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "No recent tonsil or adenoid surgery at this supply",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "For a child under 18 supplied a medicine containing codeine, cite the supply and condition if the record shows recovery at the time of supply from tonsil or adenoid surgery for obstructive sleep apnoea. Report no MHRA finding for adults, remote or absent surgery, or a confirmed different indication. If age, recovery or the reason for surgery is unknown and could change the result, report a possible finding naming the missing information. Ask only about the codeine supply being reviewed. Check the separate Australian restrictions in the summary before supply.",
+  "cannot_be_seen": "The operation and its indication may be absent from a dispensing record. Actual codeine use and supplies from another pharmacy or hospital, or leftover medicines obtained elsewhere, may also be missing.",
+  "ask_the_gp": "Could you review this codeine supply urgently? Australian advice rules out codeine under age 12 and advises against its use at ages 12 to 18 after recent tonsil or adenoid surgery for any reason. If surgery is relevant, could you confirm its timing and indication?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

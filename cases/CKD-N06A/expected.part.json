@@ -1,0 +1,47 @@
+[
+  {
+    "file": "CKD-N06A/pos-fact.csv",
+    "kind": "positive",
+    "about": "The adult outpatient has established chronic kidney disease and takes Cymbalta 60 mg daily at a Cockcroft-Gault clearance of 29 mL/min.",
+    "findings": [
+      {
+        "criterion": "CKD-N06A",
+        "must_cite": [
+          [
+            "L045"
+          ],
+          [
+            "L001"
+          ],
+          [
+            "L044"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CKD-N06A/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about Cockcroft-Gault creatinine clearance at the supply of Cymbalta 60 mg daily.",
+    "findings": [
+      {
+        "criterion": "CKD-N06A",
+        "must_cite": [
+          [
+            "L029"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CKD-N06A/near-miss.csv",
+    "kind": "near_miss",
+    "about": "A clearance of exactly 30 mL/min lies outside the duloxetine review threshold.",
+    "findings": []
+  }
+]

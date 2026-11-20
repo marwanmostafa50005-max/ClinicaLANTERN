@@ -1,0 +1,41 @@
+[
+  {
+    "file": "STOPP-K1/pos-fact.csv",
+    "kind": "positive",
+    "about": "Zyamis is supplied by brand alone and the record documents recurrent falls.",
+    "findings": [
+      {
+        "criterion": "STOPP-K1",
+        "must_cite": [
+          [
+            "L019"
+          ],
+          [
+            "L024"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-K1/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: midazolam ampoules are supplied for the patient and the record holds no falls history.",
+    "findings": [
+      {
+        "criterion": "STOPP-K1",
+        "must_cite": [
+          [
+            "L011"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-K1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Must not flag: one short supply of Normison (temazepam) and the record shows only a single fall with no recurrence.",
+    "findings": []
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "file": "OPTIMISE-T2-34/pos-fact.csv",
+    "kind": "positive",
+    "about": "Brand-only Lamictal supplies for bipolar disorder overlap the nine-week pregnancy entry, and no supply shows folic acid 5 mg daily during early pregnancy.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T2-34",
+        "must_cite": [
+          [
+            "L034"
+          ],
+          [
+            "L025",
+            "L028",
+            "L031"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T2-34/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: Keppra is supplied for epilepsy without recorded folic acid, but pregnancy or planning and age during exposure are unknown.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T2-34",
+        "must_cite": [
+          [
+            "L002",
+            "L005",
+            "L008",
+            "L011",
+            "L014",
+            "L017",
+            "L020",
+            "L023",
+            "L026"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T2-34/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Lamictal (lamotrigine) is supplied every month to a 33-year-old woman, but the record says she is not pregnant and not planning pregnancy, so there is no finding.",
+    "findings": []
+  }
+]

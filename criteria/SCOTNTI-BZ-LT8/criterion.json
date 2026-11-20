@@ -1,0 +1,107 @@
+{
+  "id": "SCOTNTI-BZ-LT8",
+  "label": "SCOTNTI BZ-LT8",
+  "family": "SCOTNTI",
+  "title": "Long-term benzodiazepine or Z-drug in an adult",
+  "statement": "NTI: Adults (18+) prescribed a benzodiazepine or z-drug (B-Z) long term (>8 weeks) as a proportion of people prescribed a benzodiazepine or z-drug",
+  "statement_origin": "published",
+  "source": {
+    "document": "Scottish Government. Quality prescribing for benzodiazepines and z-drugs: a guide for improvement 2024 to 2027",
+    "citation": "Scottish Government. Quality prescribing for benzodiazepines and z-drugs: a guide for improvement 2024 to 2027. Appendix 8.",
+    "url": "https://www.gov.scot/publications/quality-prescribing-benzodiazepines-z-drugs-guide-improvement-2024-2027/pages/20/",
+    "licence": "UK Open Government Licence v3.0",
+    "licence_status": "proposed",
+    "credit": "Contains public sector information licensed under the Open Government Licence v3.0 (Scottish Government).",
+    "modification_notice": "Statement reproduced without changes. Plain-language fields and Australian medicine mapping added for this draft."
+  },
+  "plain_summary": "Ongoing oral benzodiazepine or Z-drug use for more than 8 weeks in an adult calls for review of dependence, tolerance, sedation, cognitive impairment, and falls. Australian product information sets shorter limits for short-term insomnia treatment: Stilnox (zolpidem) PI (21 May 2026) states treatment should be as short as possible and should not exceed four weeks, and Imovane (zopiclone) PI (16 July 2026) recommends short term treatment (7-14 days), noting that dependence is reported more frequently beyond 4 weeks and advising gradual dose decrease after prolonged use. NEVER stop benzodiazepines or Z-drugs abruptly because withdrawal can be dangerous. When supplies cover more than eight weeks, ask how often the patient takes the medicine, including whether they take it every night. Ask about daytime sleepiness, falls and any plan already agreed for gradually reducing the dose.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Oral benzodiazepines and Z-drugs",
+      "ingredients": [
+        "diazepam",
+        "temazepam",
+        "oxazepam",
+        "lorazepam",
+        "alprazolam",
+        "clonazepam",
+        "nitrazepam",
+        "bromazepam",
+        "clobazam",
+        "flunitrazepam",
+        "triazolam",
+        "zolpidem",
+        "zopiclone"
+      ],
+      "brands": {
+        "diazepam": [
+          "Valium",
+          "Antenex",
+          "Valpam",
+          "Ducene",
+          "Ranzepam"
+        ],
+        "temazepam": [
+          "Temaze",
+          "Normison",
+          "Temtabs"
+        ],
+        "oxazepam": [
+          "Serepax",
+          "Murelax",
+          "Alepam"
+        ],
+        "lorazepam": [
+          "Ativan"
+        ],
+        "alprazolam": [
+          "Kalma",
+          "Xanax",
+          "Alprax"
+        ],
+        "clonazepam": [
+          "Paxam",
+          "Rivotril"
+        ],
+        "nitrazepam": [
+          "Alodorm",
+          "Mogadon"
+        ],
+        "bromazepam": [
+          "Lexotan"
+        ],
+        "clobazam": [
+          "Frisium",
+          "Clobium"
+        ],
+        "flunitrazepam": [
+          "Rohypnol",
+          "Hypnodorm"
+        ],
+        "triazolam": [
+          "Halcion"
+        ],
+        "zolpidem": [
+          "Stilnox",
+          "Stilnox CR",
+          "Dormizol",
+          "Somidem",
+          "Stildem"
+        ],
+        "zopiclone": [
+          "Imovane",
+          "Imrest",
+          "Imoclone"
+        ]
+      },
+      "note": "Oral benzodiazepines and the oral Z-drugs zolpidem and zopiclone count, including generic packs that show the ingredient name. Non-oral seizure-rescue and procedural formulations do not count, including injectable, rectal, buccal, and intranasal midazolam, diazepam, and clonazepam (such as rectal diazepam enemas, suppositories, injections, and buccal or intranasal midazolam)."
+    }
+  ],
+  "rule_for_models": "When assessing Group A oral benzodiazepine or Z-drug supplies,\n- suspect a finding and cite the qualifying supply lines when a patient aged 18 years or older has more than 8 weeks (more than 56 days) of continuous or near-continuous treatment shown by supply dates, quantities and directions,\n- count consecutive supplies that switch from one Group A medicine to another toward the same treatment duration,\n- report at most a possible finding and ask how often the medicine is taken if PRN ('when needed') or unclear ('as directed') directions leave continuous use beyond 56 days uncertain,\n- exclude patients under 18 years and, if patient_age is missing, report at most a possible finding and ask the pharmacist to confirm adult age, and\n- recognise that a single short course, total coverage of 56 days or less, or isolated short courses separated by months of non-use do not meet this rule. If a refill gap leaves continuity uncertain, report at most a possible finding and ask whether treatment continued during the gap. The pharmacist decides whether the courses were separate.",
+  "cannot_be_seen": "Actual daily intake, intermittent as-needed use, seizure disorders, palliative care, specialist oversight, and a planned gradual reduction cannot be confirmed from supplies alone. Supplies from another pharmacy or hospital may also be missing.",
+  "ask_the_gp": "Could you review the indication, duration, adverse effects, and continuing need for this benzodiazepine or Z-drug, including whether a planned gradual reduction would be appropriate?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

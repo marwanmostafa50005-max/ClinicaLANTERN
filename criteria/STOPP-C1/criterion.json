@@ -1,0 +1,61 @@
+{
+  "id": "STOPP-C1",
+  "label": "STOPP C1",
+  "family": "STOPP_START",
+  "title": "Long-term aspirin above 100 mg a day",
+  "statement": "Long-term aspirin at doses greater than 100mg per day (increased risk of bleeding, no evidence for increased efficacy).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Long-term aspirin at more than 100 mg a day adds bleeding risk and has not been shown to work better than a lower dose. Australian guidance differs: the Stroke Foundation gives a maintenance range that reaches 150 mg daily after an ischaemic stroke or a transient ischaemic attack. This flag asks for a review of the dose, not for a change.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Aspirin",
+      "ingredients": [
+        "aspirin"
+      ],
+      "brands": {
+        "aspirin": [
+          "Cartia",
+          "Astrix",
+          "Cardiprin",
+          "Spren",
+          "Solprin",
+          "Disprin",
+          "Aspro Clear",
+          "Aspalgin",
+          "Asasantin SR",
+          "CoPlavix",
+          "DuoCover",
+          "Aspro",
+          "Aspro Clear Extra Strength",
+          "Aspro Protect",
+          "Cardasa",
+          "Disprin Direct",
+          "Disprin Extra Strength",
+          "Disprin Max",
+          "Disprin Original",
+          "Disprin Regular",
+          "Ecotrin",
+          "Princard"
+        ]
+      },
+      "note": "Work out the daily amount of aspirin from the strength and the directions on the line. The usual low-dose brands (Cartia, Astrix, Cardiprin) hold 100 mg each. Solprin, Disprin and Aspro Clear hold 300 mg or more each. Aspalgin is aspirin with codeine. Asasantin SR is dipyridamole with 25 mg of aspirin in each capsule. CoPlavix and DuoCover are clopidogrel with aspirin. In a combination product count only the aspirin part."
+    }
+  ],
+  "rule_for_models": "Apply this criterion only to people aged 65 years or older. For a person under 65, report no finding. If age is unknown and the other evidence would support a finding, report it only as possible and identify age as missing. Suspect a finding when Group A (aspirin) is supplied at more than 100 mg a day in total on dates that cover 3 months (90 days) or more: repeat supplies that together last 90 days or more, or one supply that lasts 90 days or more at the directed dose. Work out the daily amount from the strength and the directions, for example ONE 300 mg tablet a day or TWO 100 mg tablets a day; 100 mg a day or less does not count. If the directions give no clear daily dose and the strength, quantity and supply dates could support more than 100 mg daily for at least 90 days, report only a possible finding. Ask the patient how much aspirin they took each day and for how long.",
+  "cannot_be_seen": "Why aspirin is taken at this dose and who advised it, and how many tablets are really taken each day. Also aspirin bought without a prescription, how long it was taken before this history starts, and any past stomach ulcer or bleeding.",
+  "ask_the_gp": "The aspirin dose and the reason for it, and the patient's risk of bleeding.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "EU7-F49",
+  "label": "EU(7)-PIM: pentazocine",
+  "family": "EU7",
+  "title": "Pentazocine in an older person",
+  "statement": "Pentazocine is a medicine to avoid in older people because of the risk of delirium and agitation. The 2015 list suggested reducing the dose by 25% at a GFR of 10 to 50 mL/min and by 50% below 10 mL/min. These ranges use absolute GFR in mL/min. An indexed eGFR in mL/min/1.73 m² cannot be compared directly.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Statement written in plain words by ClinicaLANTERN from the EU(7)-PIM list row. The published row is not reproduced because part of its dose text is marked as taken from Micromedex and the rights are not settled."
+  },
+  "plain_summary": "Pentazocine is an opioid-type pain medicine that can cause confusion and agitation in people aged 65 and over.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Pentazocine",
+      "ingredients": [
+        "pentazocine"
+      ],
+      "brands": {
+        "pentazocine": [
+          "Fortral"
+        ]
+      },
+      "note": "A pentazocine supply may show the ingredient name or Fortral."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when pentazocine is supplied to a person aged 65 or over. If pentazocine is supplied and age is unknown, report only a possible finding and ask the pharmacist to confirm whether the person is aged 65 or over. One supply is enough.",
+  "cannot_be_seen": "Why it was prescribed, kidney function, and whether the person is confused or agitated.",
+  "ask_the_gp": "Whether pentazocine is still needed and whether a safer pain medicine could replace it.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

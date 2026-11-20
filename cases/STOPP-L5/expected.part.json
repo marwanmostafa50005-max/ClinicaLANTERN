@@ -1,0 +1,51 @@
+[
+  {
+    "file": "STOPP-L5/pos-fact.csv",
+    "kind": "positive",
+    "about": "Gabapentin was supplied for documented non-neuropathic mechanical low back pain",
+    "findings": [
+      {
+        "criterion": "STOPP-L5",
+        "must_cite": [
+          [
+            "L023",
+            "L027",
+            "L031",
+            "L035",
+            "L039",
+            "L043"
+          ],
+          [
+            "L004"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-L5/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about the pain the gabapentinoid is used for. Lyrica (pregabalin) is supplied six times from December 2025 to May 2026.",
+    "findings": [
+      {
+        "criterion": "STOPP-L5",
+        "must_cite": [
+          [
+            "L012",
+            "L016",
+            "L020",
+            "L024",
+            "L028",
+            "L032"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-L5/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Lyrica (pregabalin) is supplied six times from November 2025 to April 2026, but the record shows diabetic peripheral neuropathy, which is nerve pain, so the gabapentinoid is used for neuropathic pain.",
+    "findings": []
+  }
+]

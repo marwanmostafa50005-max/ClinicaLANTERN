@@ -1,0 +1,75 @@
+{
+  "id": "POPI-23",
+  "label": "POPI: loperamide during invasive diarrhoea",
+  "family": "POPI",
+  "title": "Loperamide during invasive diarrhoea in a child",
+  "statement": "Loperamide in the case of invasive diarrhea",
+  "statement_origin": "published",
+  "source": {
+    "document": "International consensus validation of the POPI tool (Pediatrics: Omission of Prescriptions and Inappropriate prescriptions) to identify inappropriate prescribing in pediatrics",
+    "citation": "Sadozai L, Sable S, Le Roux E, et al. International consensus validation of the POPI tool (Pediatrics: Omission of Prescriptions and Inappropriate prescriptions) to identify inappropriate prescribing in pediatrics. PLOS ONE. 2020;15(10):e0240105.",
+    "doi": "10.1371/journal.pone.0240105",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0240105",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "© 2020 Sadozai et al. Table 2, International consensus validation of the POPI tool. PLOS ONE 15(10), e0240105. https://doi.org/10.1371/journal.pone.0240105. CC BY 4.0.",
+    "modification_notice": "The published item is reproduced unchanged. The summary, screening rule, medicine examples and fictional histories were added for pharmacist review."
+  },
+  "plain_summary": "POPI flags loperamide given to a child during an episode diagnosed as invasive diarrhoea.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Loperamide",
+      "ingredients": [
+        "loperamide"
+      ],
+      "brands": {
+        "loperamide": [
+          "Imodium Capsules",
+          "Apohealth Diarrhoea Relief Melts",
+          "Gastro-Stop",
+          "Gastro-Stop Plus",
+          "Imodium",
+          "Imodium Zapid",
+          "Imodium Advanced"
+        ]
+      },
+      "note": "Count generic products labelled with loperamide and combinations containing it. Gastro-Stop Plus and Imodium Advanced also contain simethicone."
+    }
+  ],
+  "rule_for_models": "Apply under age 18. A known age of 18 or older gives no finding. When age is unknown and an exposure would otherwise qualify, report at most a possible finding and ask for age. For a child supplied Group A loperamide, start the check even if the label gives no reason. Check whether the child had diarrhoea at the time. If the record rules out diarrhoea during exposure, there is no finding. Cite the supply and either the dated diagnosis or the pharmacist's answer confirming the clinician diagnosed invasive diarrhoea during that course. If the record does not establish whether this episode was invasive, report a possible finding and name the missing diagnosis. An explicitly non-invasive episode gives no finding, and fever or an old diagnosis alone cannot establish invasive disease in this episode.",
+  "cannot_be_seen": "The dispensing line cannot establish the cause of the diarrhoea or whether the child took the medicine.",
+  "ask_the_gp": "Could you confirm whether this episode was invasive and review the loperamide supply in that context?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Diagnosis of diarrhoea during this loperamide course",
+      "meets": "A dated diagnosis or a pharmacist’s confirmation of the clinician’s diagnosis links invasive diarrhoea to this loperamide course. Blood, mucus or an unspecified bacterial infection alone leaves the diagnosis uncertain.",
+      "options": [
+        {
+          "words": "A clinician confirmed invasive diarrhoea during this loperamide course",
+          "effect": "meets"
+        },
+        {
+          "words": "Invasive diarrhoea was ruled out for this episode",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "There was no diarrhoea during this course",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Blood or mucus was reported but the cause was unclear",
+          "effect": "unknown"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

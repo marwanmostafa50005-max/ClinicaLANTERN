@@ -1,0 +1,25 @@
+{
+  "ollamaBase": "http://127.0.0.1:27435",
+  "port": 8787,
+  "models": { "screen": "lantern-screen", "check": "lantern-check", "letter": "lantern-letter" },
+  "think": { "screen": false, "check": false, "letter": false },
+  "numCtx": 16384,
+  "keepAlive": "20m",
+  "maxLinesPerCall": 150,
+  "overlapLines": 30,
+  "overdueDays": 7,
+  "conditionMarkers": false,
+  "screenBlockSize": 20,
+  "pharmacy": {
+    "name": "Example Community Pharmacy (fictional)",
+    "address": "1 Example Street, Exampletown",
+    "phone": "(00) 0000 0000",
+    "pharmacist": "Marwan Morsy",
+    "pharmacistTitle": "Pharmacy Manager",
+    "registration": "PHA0002761764"
+  },
+  "modelNames": { "screen": "Mantle", "check": "Lumen", "letter": "Ogee" },
+  "modelsBehind": { "screen": "Gemma 4 31B", "check": "Qwen 3.8 27B", "letter": "Gemma 4 26B" },
+  "emailDraftLimit": 1800,
+  "doctor": { "name": "Dr F. Example (fictional)", "practice": "Example Family Practice" }
+}

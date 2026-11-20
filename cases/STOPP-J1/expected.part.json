@@ -1,0 +1,56 @@
+[
+  {
+    "file": "STOPP-J1/pos-fact.csv",
+    "kind": "positive",
+    "about": "ARX-GLIMEPIRIDE (glimepiride, a long-acting sulfonylurea) is supplied every month from December 2025 and the record has a type 2 diabetes mellitus line.",
+    "findings": [
+      {
+        "criterion": "STOPP-J1",
+        "must_cite": [
+          [
+            "L002",
+            "L007",
+            "L012",
+            "L017",
+            "L023",
+            "L028",
+            "L033",
+            "L038",
+            "L043",
+            "L048"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-J1/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about type 2 diabetes; Daonil (glibenclamide) is supplied with metformin, so diabetes is likely but not recorded.",
+    "findings": [
+      {
+        "criterion": "STOPP-J1",
+        "must_cite": [
+          [
+            "L001",
+            "L008",
+            "L012",
+            "L019",
+            "L023",
+            "L027",
+            "L028"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-J1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Type 2 diabetes is recorded, and the patient switches from immediate-release glipizide to modified-release gliclazide, both outside Group A.",
+    "findings": []
+  }
+]

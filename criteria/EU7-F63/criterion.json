@@ -1,0 +1,42 @@
+{
+  "id": "EU7-F63",
+  "label": "EU(7)-PIM: selegiline",
+  "family": "EU7",
+  "title": "Selegiline in an older person",
+  "statement": "Selegiline | In lists: 3 (A) | Main reason: Increased risk of orthostatic hypotension and dizziness | Dose adjustment/special considerations: Do not use at doses >10 mg/d; 6mg/24h patch recommended; increase dose cautiously, paying attention to changes in orthostatic blood pressure. E | Alternatives: Levodopa; carbidopa-levodopa; benserazide levodopa; irreversible inhibitor of monoamine oxidase as rasagiline. E",
+  "statement_origin": "published",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.2 candidate repairs and adopted conventions merged with attribution). Not endorsed by the source authors."
+  },
+  "plain_summary": "The European list flags selegiline at any dose in people aged 65 or older because it can cause dizziness and a drop in blood pressure on standing. For conventional swallowed selegiline, the list advises keeping the dose at or below 10 mg a day.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Selegiline",
+      "ingredients": [
+        "selegiline"
+      ],
+      "brands": {
+        "selegiline": [
+          "Eldepryl",
+          "Selgene",
+          "Zelapar Buccal"
+        ]
+      },
+      "note": "Tablets and capsules count, including the orally disintegrating tablet Zelapar Buccal. Use the 10 mg daily comparison for conventional swallowed selegiline only. Zelapar Buccal has different dosing. The published text mentions a skin patch, which is not sold in Australia."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when selegiline (Group A) is supplied to a person aged 65 or older. One supply is enough. If age is missing and selegiline is supplied, report only a possible finding and ask whether the person is 65 or older. For conventional swallowed selegiline, multiply the strength by the number taken each day and note any dose above 10 mg a day. At age 65 or older, keep the finding when the directions are unclear. Record that the daily dose could not be checked and ask how much is taken. For Zelapar Buccal, do not apply the swallowed dose limit.",
+  "cannot_be_seen": "Why selegiline was prescribed, whether it is working, blood pressure on standing, and any dizziness or falls.",
+  "ask_the_gp": "Whether selegiline is still the right choice for this person and whether their blood pressure on standing has been checked.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

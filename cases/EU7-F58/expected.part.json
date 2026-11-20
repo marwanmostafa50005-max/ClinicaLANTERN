@@ -1,0 +1,46 @@
+[
+  {
+    "file": "EU7-F58/pos-brand.csv",
+    "kind": "positive",
+    "about": "Tegretol (carbamazepine) 200 mg is supplied five times, about every seven weeks, from January to August 2026, by brand name only.",
+    "findings": [
+      {
+        "criterion": "EU7-F58",
+        "must_cite": [
+          [
+            "L004",
+            "L008",
+            "L014",
+            "L021",
+            "L025"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F58/pos-buried.csv",
+    "kind": "positive",
+    "about": "Carbamazepine 200 mg tablets are supplied five times from October 2025 to April 2026, in the middle of a 16-month history.",
+    "findings": [
+      {
+        "criterion": "EU7-F58",
+        "must_cite": [
+          [
+            "L017",
+            "L025",
+            "L034",
+            "L039",
+            "L048"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F58/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Levetiracetam (Keppra), an alternative the list suggests, is supplied monthly. No carbamazepine appears, so it must not flag.",
+    "findings": []
+  }
+]

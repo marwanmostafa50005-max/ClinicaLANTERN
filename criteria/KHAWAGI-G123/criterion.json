@@ -1,0 +1,161 @@
+{
+  "id": "KHAWAGI-G123",
+  "label": "Khawagi review: Review lamotrigine exposure when an oestrogen-containing combined oral contraceptive is started, used or stopped",
+  "family": "KHAWAGI",
+  "title": "Review lamotrigine exposure when an oestrogen-containing combined oral contraceptive is started, used or stopped",
+  "statement": "Review lamotrigine exposure when an oestrogen-containing combined oral contraceptive is started, used or stopped.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Khawagi et al. (2019), S3 File. List of potential Prescribing Safety Indicators (PSIs) related to mental health medications and conditions.",
+    "citation": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. PLoS ONE 2019;14(5):e0217406.",
+    "doi": "10.1371/journal.pone.0217406",
+    "url": "https://doi.org/10.1371/journal.pone.0217406.s003",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. PLoS ONE 2019;14(5):e0217406. https://doi.org/10.1371/journal.pone.0217406; S3 File, https://doi.org/10.1371/journal.pone.0217406.s003. © 2019 Khawagi et al., CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Khawagi et al. (2019), PLOS ONE 14(5), e0217406, S3 File, CC BY 4.0. Original screening wording and Australian adaptations. S3 reference(s) as indexed in the supplied qualification: [71]. Clinical cross-check: Lamictal Australian PI (https://www.safetyandquality.gov.au/medicine-finder/lamictal).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "Review lamotrigine exposure when an oestrogen-containing combined oral contraceptive is started, used or stopped.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Lamotrigine",
+      "ingredients": [
+        "lamotrigine"
+      ],
+      "brands": {
+        "lamotrigine": [
+          "Lamictal",
+          "Elmendos",
+          "Lamidus",
+          "Lamitan",
+          "Lamitrin",
+          "Lamogine",
+          "Lamotran",
+          "Lamotrust",
+          "Logem",
+          "Motrig",
+          "Munatrep",
+          "Reedos",
+          "Seaze",
+          "Torlemo DT",
+          "Tortrigine DT"
+        ]
+      }
+    },
+    {
+      "key": "B",
+      "name": "Oestrogen-containing combined oral contraceptives",
+      "ingredients": [
+        "levonorgestrel + ethinylestradiol",
+        "drospirenone + ethinylestradiol",
+        "dienogest + estradiol valerate",
+        "drospirenone + estetrol",
+        "nomegestrol acetate + estradiol",
+        "desogestrel + ethinylestradiol",
+        "gestodene + ethinylestradiol",
+        "norethisterone + ethinylestradiol",
+        "cyproterone acetate + ethinylestradiol",
+        "dienogest + ethinylestradiol",
+        "cyproterone + ethinylestradiol",
+        "dienogest + estradiol",
+        "ethinylestradiol + gestodene",
+        "ethinylestradiol + levonorgestrel",
+        "estradiol + nomegestrol",
+        "ethinylestradiol + norethisterone",
+        "norethisterone + mestranol"
+      ],
+      "brands": {
+        "levonorgestrel + ethinylestradiol": [
+          "Levlen ED",
+          "Microgynon 30 ED",
+          "Microgynon 20 ED",
+          "Evelyn 150/30 ED",
+          "Eleanor 150/30 ED",
+          "Monofeme",
+          "Nordette",
+          "Loette",
+          "Triphasil",
+          "Triquilar ED"
+        ],
+        "drospirenone + ethinylestradiol": [
+          "Liza",
+          "Yasmin",
+          "Yaz"
+        ],
+        "dienogest + estradiol valerate": [
+          "Qlaira"
+        ],
+        "drospirenone + estetrol": [
+          "Nextstellis"
+        ],
+        "nomegestrol acetate + estradiol": [
+          "Zoely"
+        ],
+        "desogestrel + ethinylestradiol": [
+          "Marvelon"
+        ],
+        "gestodene + ethinylestradiol": [
+          "Minulet"
+        ],
+        "norethisterone + ethinylestradiol": [
+          "Brevinor 28 Day",
+          "Norimin",
+          "Norimin-1",
+          "Brevinor-1"
+        ],
+        "cyproterone acetate + ethinylestradiol": [
+          "Diane-35 ED",
+          "Brenda-35 ED",
+          "Estelle-35 ED"
+        ],
+        "dienogest + ethinylestradiol": [
+          "Valette"
+        ],
+        "cyproterone + ethinylestradiol": [
+          "Diane-35 ED",
+          "Brenda-35 ED",
+          "Estelle-35 ED"
+        ],
+        "dienogest + estradiol": [
+          "Qlaira"
+        ],
+        "ethinylestradiol + gestodene": [
+          "Minulet"
+        ],
+        "ethinylestradiol + levonorgestrel": [
+          "Levlen ED",
+          "Microgynon 30 ED",
+          "Microgynon 20 ED",
+          "Evelyn 150/30 ED",
+          "Eleanor 150/30 ED",
+          "Monofeme",
+          "Nordette",
+          "Loette",
+          "Triphasil",
+          "Triquilar ED"
+        ],
+        "estradiol + nomegestrol": [
+          "Zoely"
+        ],
+        "ethinylestradiol + norethisterone": [
+          "Brevinor 28 Day",
+          "Norimin",
+          "Norimin-1",
+          "Brevinor-1"
+        ],
+        "norethisterone + mestranol": [
+          "Norinyl-1",
+          "Norinyl-1 28 Day"
+        ]
+      },
+      "note": "Count both ingredients in the same oral contraceptive, in either order. Exclude vaginal rings, patches, hormone replacement therapy and progestogen-only products."
+    }
+  ],
+  "rule_for_models": "Cite both supplies and any recorded start or stop when an oestrogen-containing combined oral pill starts, overlaps or has a documented stop (including a switch) during lamotrigine treatment, whatever the reason for either medicine. Compare treatment dates using supply dates, pack counts, tablets per pack and the recorded regimen including placebo or planned tablet-free days, without treating a scheduled break or missed refill alone as a stop. If the regimen or dates are unclear and the supplies could overlap, report a possible finding and ask when the pill was started or stopped, how it was taken and whether symptom control or side effects changed.",
+  "cannot_be_seen": "Dispensing does not establish actual use, indication or a prescriber’s intent. Treatment and assessments elsewhere may be missing.",
+  "ask_the_gp": "Could you review the lamotrigine dose, symptom control and possible side effects in light of when the patient started, took or stopped the combined pill?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

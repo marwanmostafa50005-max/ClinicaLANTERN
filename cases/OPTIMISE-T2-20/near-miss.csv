@@ -1,0 +1,32 @@
+patient_ref,patient_age,patient_sex,record_type,dispense_date,medicine,brand,strength,form,quantity,repeats_left,directions,prescriber,detail,value
+F-T220-03,68,M,condition,2025-09-02,,,,,,,,,Schizophrenia,Established diagnosis
+F-T220-03,68,M,,2025-09-03,omeprazole,Losec,20 mg,capsule,30,5,Take ONE capsule each morning before food,Dr A. Example,,
+F-T220-03,68,M,,2025-10-01,atorvastatin,Lipitor,20 mg,tablet,30,4,Take ONE tablet at night,Dr A. Example,,
+F-T220-03,68,M,,2025-10-02,omeprazole,Losec,20 mg,capsule,30,4,Take ONE capsule each morning before food,Dr A. Example,,
+F-T220-03,68,M,,2025-10-30,atorvastatin,Lipitor,20 mg,tablet,30,3,Take ONE tablet at night,Dr A. Example,,
+F-T220-03,68,M,,2025-10-31,omeprazole,Losec,20 mg,capsule,30,3,Take ONE capsule each morning before food,Dr A. Example,,
+F-T220-03,68,M,,2025-11-24,paracetamol,Panadol Osteo,665 mg,tablet,96,1,Take TWO tablets up to three times a day when needed,Dr A. Example,,
+F-T220-03,68,M,,2025-11-25,atorvastatin,Lipitor,20 mg,tablet,30,2,Take ONE tablet at night,Dr A. Example,,
+F-T220-03,68,M,,2025-11-26,omeprazole,Losec,20 mg,capsule,30,2,Take ONE capsule each morning before food,Dr A. Example,,
+F-T220-03,68,M,,2025-12-24,atorvastatin,Lipitor,20 mg,tablet,30,1,Take ONE tablet at night,Dr A. Example,,
+F-T220-03,68,M,,2025-12-25,omeprazole,Losec,20 mg,capsule,30,1,Take ONE capsule each morning before food,Dr A. Example,,
+F-T220-03,68,M,,2026-01-20,levothyroxine,Oroxine,75 mcg,tablet,30,5,Take ONE tablet each morning on an empty stomach,Dr A. Example,,
+F-T220-03,68,M,,2026-01-22,atorvastatin,Lipitor,20 mg,tablet,30,0,Take ONE tablet at night,Dr A. Example,,
+F-T220-03,68,M,,2026-01-23,omeprazole,Losec,20 mg,capsule,30,0,Take ONE capsule each morning before food,Dr A. Example,,
+F-T220-03,68,M,result,2026-01-27,,,,,,,,,TSH before primary thyroid replacement (target 0.4 to 4.0 mIU/L),9.6 mIU/L
+F-T220-03,68,M,observation,2026-02-03,,,,,,,,,Levothyroxine treatment start,First dose taken this morning
+F-T220-03,68,M,,2026-02-17,atorvastatin,Lipitor,20 mg,tablet,30,5,Take ONE tablet at night,Dr A. Example,,
+F-T220-03,68,M,,2026-02-18,omeprazole,Losec,20 mg,capsule,30,5,Take ONE capsule each morning before food,Dr A. Example,,
+F-T220-03,68,M,,2026-03-02,paracetamol,Panadol Osteo,665 mg,tablet,96,1,Take TWO tablets up to three times a day when needed,Dr A. Example,,
+F-T220-03,68,M,,2026-03-04,levothyroxine,Oroxine,75 mcg,tablet,30,4,Take ONE tablet each morning on an empty stomach,Dr A. Example,,
+F-T220-03,68,M,result,2026-03-10,,,,,,,,,TSH,2.8 mIU/L
+F-T220-03,68,M,,2026-03-18,atorvastatin,Lipitor,20 mg,tablet,30,4,Take ONE tablet at night,Dr A. Example,,
+F-T220-03,68,M,,2026-03-19,omeprazole,Losec,20 mg,capsule,30,4,Take ONE capsule each morning before food,Dr A. Example,,
+F-T220-03,68,M,,2026-04-02,levothyroxine,Oroxine,75 mcg,tablet,30,3,Take ONE tablet each morning on an empty stomach,Dr A. Example,,
+F-T220-03,68,M,,2026-04-16,atorvastatin,Lipitor,20 mg,tablet,30,3,Take ONE tablet at night,Dr A. Example,,
+F-T220-03,68,M,,2026-04-17,omeprazole,Losec,20 mg,capsule,30,3,Take ONE capsule each morning before food,Dr A. Example,,
+F-T220-03,68,M,,2026-04-28,levothyroxine,Oroxine,75 mcg,tablet,30,2,Take ONE tablet each morning on an empty stomach,Dr A. Example,,
+F-T220-03,68,M,,2026-05-12,atorvastatin,Lipitor,20 mg,tablet,30,2,Take ONE tablet at night,Dr A. Example,,
+F-T220-03,68,M,,2026-05-13,omeprazole,Losec,20 mg,capsule,30,2,Take ONE capsule each morning before food,Dr A. Example,,
+F-T220-03,68,M,,2026-05-27,levothyroxine,Oroxine,75 mcg,tablet,30,1,Take ONE tablet each morning on an empty stomach,Dr A. Example,,
+F-T220-03,68,M,,2026-06-15,paracetamol,Panadol Osteo,665 mg,tablet,96,1,Take TWO tablets up to three times a day when needed,Dr A. Example,,

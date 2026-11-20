@@ -1,0 +1,56 @@
+[
+  {
+    "file": "STOPP-G3/pos-fact.csv",
+    "kind": "positive",
+    "about": "An ophthalmology review entered during the final tiotropium pack documents narrow angle glaucoma diagnosed before the first supply.",
+    "findings": [
+      {
+        "criterion": "STOPP-G3",
+        "must_cite": [
+          [
+            "L001",
+            "L006",
+            "L010",
+            "L015",
+            "L019",
+            "L024",
+            "L028",
+            "L033",
+            "L037"
+          ],
+          [
+            "L041"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-G3/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about \"History of angle-closure glaucoma\" or \"Bladder outflow obstruction\". Incruse Ellipta (umeclidinium) is supplied monthly by brand name only from January to August 2026.",
+    "findings": [
+      {
+        "criterion": "STOPP-G3",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L009",
+            "L013",
+            "L017",
+            "L021",
+            "L025",
+            "L029"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-G3/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Glycopyrronium is supplied and clinical review excludes both qualifying histories.",
+    "findings": []
+  }
+]

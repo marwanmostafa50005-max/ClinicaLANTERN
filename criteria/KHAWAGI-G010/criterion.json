@@ -1,0 +1,275 @@
+{
+  "id": "KHAWAGI-G010",
+  "label": "Khawagi G010: antipsychotic in dementia at age 65 or older without psychosis at supply",
+  "family": "KHAWAGI",
+  "title": "Antipsychotic in dementia at age 65 or older without psychosis at supply",
+  "statement": "(N) Patient aged ≥65 with dementia but no psychosis - is prescribed an antipsychotic",
+  "statement_origin": "published",
+  "source": {
+    "document": "Quality and safety of medication use in primary care: consensus validation of a new set of explicit medication assessment criteria and prioritisation of topics for improvement",
+    "citation": "Dreischulte T, Grant AM, McCowan C, McAnaw JJ, Guthrie B. BMC Clinical Pharmacology 2012;12:5.",
+    "doi": "10.1186/1472-6904-12-5",
+    "url": "https://link.springer.com/article/10.1186/1472-6904-12-5",
+    "licence": "CC BY 2.0",
+    "licence_status": "proposed",
+    "credit": "© 2012 Dreischulte et al., licensee BioMed Central Ltd. Table 5. DOI 10.1186/1472-6904-12-5. CC BY 2.0. Local selection and record conventions added.",
+    "modification_notice": "The published statement is reproduced with local screening and case rules added."
+  },
+  "plain_summary": "At age 65 or older, even a short antipsychotic supply warrants review if dementia is recorded and the record excludes psychosis at supply. Australian guidance differs: oral risperidone is approved for up to 12 weeks for persistent agitation or aggression in moderate to severe Alzheimer dementia when non-drug measures have failed (Risperdal product information, 2026).",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antipsychotics",
+      "ingredients": [
+        "amisulpride",
+        "aripiprazole",
+        "asenapine",
+        "brexpiprazole",
+        "cariprazine",
+        "chlorpromazine",
+        "clozapine",
+        "droperidol",
+        "flupentixol",
+        "haloperidol",
+        "lurasidone",
+        "olanzapine",
+        "paliperidone",
+        "periciazine",
+        "prochlorperazine",
+        "quetiapine",
+        "risperidone",
+        "trifluoperazine",
+        "ziprasidone",
+        "zuclopenthixol"
+      ],
+      "brands": {
+        "amisulpride": [
+          "Solian",
+          "Amipride",
+          "Sulprix"
+        ],
+        "aripiprazole": [
+          "Abilify",
+          "Abilify ODT",
+          "Abipra",
+          "Abyraz",
+          "Aprazole",
+          "Aripic",
+          "Aripra",
+          "Arizole",
+          "Abilify Maintena"
+        ],
+        "asenapine": [
+          "Saphris"
+        ],
+        "brexpiprazole": [
+          "Rexulti"
+        ],
+        "cariprazine": [
+          "Reagila"
+        ],
+        "chlorpromazine": [
+          "Largactil",
+          "Largactil Syrup"
+        ],
+        "clozapine": [
+          "Clopine",
+          "Closyn",
+          "Clozaril",
+          "Clozaril ODT",
+          "Clozitor",
+          "Versacloz"
+        ],
+        "droperidol": [
+          "Droleptan",
+          "Droperidol (Ajs)",
+          "Droperidol (Lupin)",
+          "Droperidol (Medsurge)",
+          "Droperidol (Panpharma)",
+          "Droperidol (Sxp)"
+        ],
+        "flupentixol": [
+          "Fluanxol Concentrated Depot",
+          "Fluanxol Depot"
+        ],
+        "haloperidol": [
+          "Serenace",
+          "Haldol Decanoate"
+        ],
+        "lurasidone": [
+          "Latuda",
+          "Bilura",
+          "Latulem",
+          "Lavione",
+          "Luracor",
+          "Luralem",
+          "Luralembic",
+          "Lurobi"
+        ],
+        "olanzapine": [
+          "Zyprexa",
+          "Aprolan",
+          "Aprolan ODT",
+          "Lanez",
+          "Lanez ODT",
+          "Lanzek",
+          "Lanzek Zydis",
+          "Lonza",
+          "Lonza ODT",
+          "Lyprosia",
+          "Lyprosia ODT",
+          "Olancor",
+          "Olanza",
+          "Olanzaccord",
+          "Olanzacor",
+          "Oprexa",
+          "Ozin",
+          "Ozin ODT",
+          "Prolanza",
+          "Prolanza ODT",
+          "Pryzex",
+          "Pryzex ODT",
+          "Tolaze ODT",
+          "Tolazine ODT",
+          "Torapine ODT",
+          "Torrenia ODT",
+          "Zylap",
+          "Zylap ODT",
+          "Zylapine",
+          "Zylapine ODT",
+          "Zypine",
+          "Zypine ODT",
+          "Zyprexa Zydis",
+          "Zyprexa Relprevv"
+        ],
+        "paliperidone": [
+          "Invega",
+          "Invega Sustenna",
+          "Invega Trinza"
+        ],
+        "periciazine": [
+          "Neulactil"
+        ],
+        "prochlorperazine": [
+          "Stemetil",
+          "Nausetil",
+          "Nausrelief",
+          "Procalm",
+          "Proclazine",
+          "Stemzine"
+        ],
+        "quetiapine": [
+          "Seroquel",
+          "Aliquen",
+          "Delucon",
+          "Kaptan",
+          "Ketizenol",
+          "Qualez",
+          "Quepine XR",
+          "Quetapen",
+          "Quetia",
+          "Quetia XR",
+          "Quetiaccord",
+          "Quetiaquel XR",
+          "Quetin",
+          "Quipine",
+          "Sequase",
+          "Sequase XR",
+          "Serapine",
+          "Serapine XR",
+          "Seroccord",
+          "Seronia",
+          "Seroquel XR",
+          "Serotiapine XR",
+          "Syquet",
+          "Syquet XR",
+          "Syzopine",
+          "Tevatiapine XR",
+          "Tiapine XR",
+          "Tiava XR",
+          "Xque XR"
+        ],
+        "risperidone": [
+          "Risperdal",
+          "Ozidal",
+          "Resdone",
+          "Respaz",
+          "Risdone",
+          "Rispa",
+          "Rispaccord",
+          "Rispaccord-0.5",
+          "Risperdal Quicklet",
+          "Risperibell",
+          "Rispericor",
+          "Rispericor-0.5",
+          "Risperisan",
+          "Rispernia",
+          "Rixadone",
+          "Sperid",
+          "Risperdal Consta"
+        ],
+        "trifluoperazine": [
+          "Stelazine",
+          "Stelazine Forte",
+          "Stelazine Spansule"
+        ],
+        "ziprasidone": [
+          "Zeldox",
+          "Ziprox"
+        ],
+        "zuclopenthixol": [
+          "Clopixol Acuphase",
+          "Clopixol",
+          "Clopixol Depot"
+        ]
+      },
+      "note": "Oral and injectable antipsychotics count. Check the reason for supply, including non-psychiatric uses. Flupentixol decanoate is the depot form of flupentixol. Count the exposure once."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Dementia",
+      "meets": "The record or the pharmacist confirms that dementia had been diagnosed by the reviewed supply date. If timing is unclear, leave it open.",
+      "options": [
+        {
+          "words": "Dementia had been diagnosed by this supply",
+          "effect": "meets"
+        },
+        {
+          "words": "No dementia diagnosis by this supply",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Psychosis status at supply",
+      "meets": "A dated assessment or the pharmacist confirms status at this supply. Review if neither current psychosis nor a continuing psychotic illness was present. A resolved episode alone does not exclude review. An ongoing illness such as schizophrenia in remission does. Unknown status leaves the finding open.",
+      "options": [
+        {
+          "words": "No current psychosis and no continuing psychotic illness at this supply",
+          "effect": "meets"
+        },
+        {
+          "words": "Current psychosis or a continuing psychotic illness at this supply",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Use age at supply. Give no finding below age 65. If age is unknown and the other evidence fits, report only a possible finding and ask whether the patient was at least 65. At age 65 or older, cite the Group A antipsychotic supply of any duration, the evidence of dementia by that date and the evidence that neither psychosis nor a continuing psychotic illness was present at supply. A pharmacist answer about this supply can establish either fact. Give no finding if dementia had not been diagnosed by this supply or current psychosis or a continuing psychotic illness is documented. A non-psychiatric indication, such as nausea, does not exclude a listed antipsychotic or establish that psychosis is absent. Record the reason if known. If dementia or psychosis status is missing or uncertain and the other evidence fits, report only a possible finding. Cite available lines and name each missing fact. Ask the patient or carer whether dementia has been diagnosed, why the medicine was prescribed and whether a psychotic illness has been recorded.",
+  "cannot_be_seen": "A silent record cannot establish psychosis status at supply. Supply alone cannot establish the indication, symptoms or benefit.",
+  "ask_the_gp": "Could you confirm the dementia diagnosis and psychosis status at supply and review the indication and intended duration of this antipsychotic?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

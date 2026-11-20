@@ -1,0 +1,102 @@
+{
+  "id": "CKD-C10A",
+  "label": "CKD review: Review rosuvastatin above 10 mg/day off dialysis with indexed CrCl below 30 mL/min/1.73 m²",
+  "family": "CKD",
+  "title": "Review rosuvastatin above 10 mg/day off dialysis with indexed CrCl below 30 mL/min/1.73 m²",
+  "statement": "For an adult outpatient with established CKD, review rosuvastatin above 10 mg/day off dialysis with indexed CrCl below 30 mL/min/1.73 m².",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "A systematically collated library of prescribing safety indicators for people with chronic kidney disease. Additional file 2, Appendix 3",
+    "citation": "Smith F, Hayward S, Hole B, Kimpton G, Sluman C, Whiting P, Caskey F. BMC Nephrology. 2020;21:493.",
+    "doi": "10.1186/s12882-020-02158-0",
+    "url": "https://link.springer.com/article/10.1186/s12882-020-02158-0",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Smith F, Hayward S, Hole B, Kimpton G, Sluman C, Whiting P, Caskey F. A systematically collated library of prescribing safety indicators for people with chronic kidney disease. BMC Nephrology 2020;21:493. https://doi.org/10.1186/s12882-020-02158-0; Additional file 2 (Appendix 3), https://doi.org/10.6084/m9.figshare.13257677. © The Author(s) 2020, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Changes were made. Smith et al. compiled the CKD indicators. Original screening wording and Australian adaptations. Clinical cross-check: Crestor Australian PI (https://www.safetyandquality.gov.au/medicine-finder/crestor).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "For an adult outpatient with established CKD, review rosuvastatin above 10 mg/day off dialysis with indexed CrCl below 30 mL/min/1.73 m².",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Rosuvastatin",
+      "ingredients": [
+        "rosuvastatin"
+      ],
+      "brands": {
+        "rosuvastatin": [
+          "Crestor",
+          "Blooms The Chemist Rosuvastatin",
+          "Affora",
+          "Alphastat",
+          "Cavstat",
+          "Cisero",
+          "Crestabs",
+          "Crestat",
+          "Crestatin",
+          "Crosuva",
+          "Crosvar",
+          "Rostor",
+          "Rosuvacor",
+          "Visacor",
+          "Rosuzet Composite Pack",
+          "Ezalo Composite Pack",
+          "Pharmacor Ezetimibe Rosuvastatin Composite Pack",
+          "Ezetimibe - Rosuvastatin Sandoz"
+        ]
+      },
+      "note": "Multiply the rosuvastatin strength by the number of rosuvastatin-containing tablets directed per day. Use only the rosuvastatin component in a combination. In a composite pack, count the rosuvastatin tablets and exclude the separate ezetimibe tablets."
+    }
+  ],
+  "rule_for_models": "For an adult outpatient with established CKD, flag any oral rosuvastatin regimen above 10 mg/day if the patient is off dialysis and has stable indexed creatinine clearance below 30 mL/min/1.73 m² at supply. Cite the medicine, daily dose, CKD, dialysis status and qualifying clearance. Report no finding with dialysis, CKD ruled out, a dose at or below 10 mg/day or applicable indexed clearance at or above 30. Use a dialysis answer only for the rosuvastatin supply it describes. If status changed or it is unclear which supply the answer describes, use dated evidence for each supply. If dialysis is unresolved and could change the decision, report only a possible finding naming \"Dialysis at the rosuvastatin supply under review\". Name any other missing fact that could change the decision. Routine eGFR and an unindexed clearance alone do not establish the threshold. If the directions leave the rosuvastatin dose unclear, ask how much the patient takes daily and report at most a possible finding. If age is unknown and the other evidence still allows this finding, report only a possible finding and ask whether the patient was at least 18 at supply. A known exclusion takes precedence over a missing fact.",
+  "cannot_be_seen": "Dispensing does not establish the dose taken. Kidney results obtained elsewhere, their units and their timing may be missing.",
+  "ask_the_gp": "Ask whether the patient has kidney disease, receives dialysis and knows their daily rosuvastatin dose. Could you review a dose above 10 mg/day against dialysis status and current creatinine clearance indexed to 1.73 m²?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Chronic kidney disease",
+      "meets": "CKD was established by the supply under review. If its timing is uncertain, keep the finding possible unless another fact rules it out.",
+      "options": [
+        {
+          "words": "CKD was established by the supply under review",
+          "effect": "meets"
+        },
+        {
+          "words": "CKD was absent at the supply under review",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Dialysis at the rosuvastatin supply under review",
+      "meets": "Not receiving dialysis at the rosuvastatin supply meets this requirement. Receiving dialysis at that supply excludes it. Not known leaves it unresolved.",
+      "options": [
+        {
+          "words": "Not receiving dialysis",
+          "effect": "meets"
+        },
+        {
+          "words": "Receiving dialysis",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "result",
+      "what": "Indexed creatinine clearance",
+      "meets": "Creatinine clearance below 30 mL/min/1.73 m², dated and relevant to supply during stable kidney function. Accept a recorded clearance explicitly indexed to 1.73 m² or a validated Cockcroft-Gault clearance indexed using body surface area. An eGFR or an unindexed clearance alone is insufficient."
+    }
+  ]
+}

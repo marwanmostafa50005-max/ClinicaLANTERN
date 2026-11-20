@@ -1,0 +1,146 @@
+{
+  "id": "VTE-6-1",
+  "label": "VTE: apixaban starting dose after day 7",
+  "family": "VTE",
+  "title": "Apixaban starting dose supplied after day 7 of acute clot treatment",
+  "statement": "10 mg BID for 7 days, then 5 mg BID",
+  "statement_origin": "published",
+  "source": {
+    "document": "Guidance for the practical management of the direct oral anticoagulants (DOACs) in VTE treatment",
+    "citation": "Burnett AE, Mahan CE, Vazquez SR, Oertel LB, Garcia DA, Ansell J. Guidance for the practical management of the direct oral anticoagulants (DOACs) in VTE treatment. Journal of Thrombosis and Thrombolysis. 2016, 41, 206–232. doi:10.1007/s11239-015-1310-7.",
+    "doi": "10.1007/s11239-015-1310-7",
+    "url": "https://link.springer.com/article/10.1007/s11239-015-1310-7",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Burnett AE, Mahan CE, Vazquez SR, Oertel LB, Garcia DA, Ansell J. Guidance for the practical management of the direct oral anticoagulants (DOACs) in VTE treatment. Journal of Thrombosis and Thrombolysis. 2016, 41, 206–232. doi:10.1007/s11239-015-1310-7. https://link.springer.com/article/10.1007/s11239-015-1310-7 Licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The two dosing cells are reproduced verbatim. The decision to review a later supply and the record requirements were added for this qualification.",
+    "modification_notice": "The table wording is unchanged. The record checks and fictional histories were added for pharmacist review."
+  },
+  "plain_summary": "A later supply still directs apixaban 10 mg twice daily after the first 7 days of treatment for an acute clot.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Apixaban",
+      "ingredients": [
+        "apixaban"
+      ],
+      "brands": {
+        "apixaban": [
+          "Eliquis",
+          "Alexibic",
+          "Apexa",
+          "Apixor",
+          "Axibic",
+          "Elapex"
+        ]
+      },
+      "note": "Multiply strength by tablets per dose, then by doses per day to get the daily dose. Two 5 mg tablets twice daily give 10 mg per dose and 20 mg per day. Count a later supply only if its directions still apply on that date. Pack size, an early refill or directions that step down on time do not establish continuation."
+    }
+  ],
+  "rule_for_models": "For adults aged 18 or over, confirm only when the first dose and a separate supply on day 8 or later both direct apixaban 10 mg twice daily for the same acute deep vein thrombosis or pulmonary embolism. Count the first dose for this clot, including a hospital dose, as day 1. Two compatible supplies at least 7 days apart can prompt a check. The first visible fill alone does not establish day 1. Use a dated diagnosis linked to this course or the pharmacist's answer about its indication. Use dated records or pharmacist answers tied to this course for the interval and the reason for the later supply. Check strength, tablets per dose and frequency at each supply. Use the pharmacist's answer for either regimen if its directions are unclear. A total of 20 mg per day alone leaves the frequency unknown. Return no finding for age under 18, a different indication, a new clot, a different regimen at either point, an early refill alone or an on-time step-down. A later supply within the first 7 treatment days does not qualify. If the pattern fits but age or another required detail is missing or not known, report only a possible finding. Ask only for missing details, using the course-specific indication question when needed. Cite both supplies, any diagnosis line used and every pharmacist answer or other record used to establish the finding.",
+  "cannot_be_seen": "The first visible fill or discharge date alone cannot establish day 1. Hospital treatment and outside supplies may be missing. A supply does not show which doses the patient took. If the start is uncertain or the later supply could be for a new clot, the record cannot establish continued use for the same episode.",
+  "ask_the_gp": "Could you confirm the indication and first dose date, including any hospital doses, and review the current apixaban directions for this course?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Indication for this apixaban course",
+      "meets": "A dated diagnosis linked to this apixaban course or a pharmacist answer for this course identifies treatment of an acute deep vein thrombosis or pulmonary embolism.",
+      "options": [
+        {
+          "words": "Treatment of an acute deep vein thrombosis or pulmonary embolism",
+          "effect": "meets"
+        },
+        {
+          "words": "A different indication",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Time from the first apixaban dose for this clot to the later supply, including hospital doses",
+      "meets": "At least 7 days elapsed from the first dose for this clot to the later supply. Count the first dose in any setting as day 1.",
+      "options": [
+        {
+          "words": "7 or more days",
+          "effect": "meets"
+        },
+        {
+          "words": "Less than 7 days",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for the later apixaban supply",
+      "meets": "The later supply continues treatment for the same acute clot as the first dose.",
+      "options": [
+        {
+          "words": "Continuing treatment for the same acute clot",
+          "effect": "meets"
+        },
+        {
+          "words": "Starting treatment for a new clot",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "A different indication",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Prescribed apixaban regimen at the first dose",
+      "meets": "The directions or a pharmacist answer for this course confirm 10 mg twice daily at the first dose.",
+      "options": [
+        {
+          "words": "10 mg twice daily",
+          "effect": "meets"
+        },
+        {
+          "words": "A different regimen",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Prescribed apixaban regimen at the later supply",
+      "meets": "The directions or a pharmacist answer for this course confirm 10 mg twice daily at the later supply.",
+      "options": [
+        {
+          "words": "10 mg twice daily",
+          "effect": "meets"
+        },
+        {
+          "words": "A different regimen",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

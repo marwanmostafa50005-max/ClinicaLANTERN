@@ -1,0 +1,165 @@
+{
+  "id": "NHSBSA-PAIN01-2",
+  "label": "NHSBSA PAIN01-2",
+  "family": "NHSBSA",
+  "title": "Opioid with a Z-drug",
+  "statement": "Patients 18 years old or over prescribed an oral or transdermal opioid and a benzodiazepine, Z-drug, pregabalin or gabapentin.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Harms Dashboard Specification",
+    "citation": "NHSBSA. Harms Dashboard Specification. November 2025.",
+    "url": "https://www.nhsbsa.nhs.uk/sites/default/files/2025-11/Harms%20Dashboard%20Specification_2025-11.docx",
+    "licence": "UK Open Government Licence v3.0",
+    "licence_status": "proposed",
+    "credit": "Harms Dashboard Specification, NHSBSA Copyright 2026. This information is licenced under the terms of the Open Government Licence. Contains information originally developed by NHS Digital (NHS England), licenced under the current version of the Open Government Licence (UK OGL v3.0).",
+    "modification_notice": "Statement reproduced without changes. Australian medicine names, test histories and review text are adaptations."
+  },
+  "plain_summary": "Taking an oral or transdermal opioid with zolpidem or zopiclone increases the risk of severe sedation, respiratory depression, coma and death. The Australian Stilnox PI (21 May 2026) and Imovane PI (16 July 2026) warn against concurrent use with opioids unless alternatives are inadequate, and advise the lowest effective doses for the shortest duration with close monitoring. At the counter, ask whether both medicines are taken together, check for drowsiness or breathing symptoms, and consider whether take-home naloxone advice is appropriate.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Oral or transdermal opioid analgesics",
+      "ingredients": [
+        "buprenorphine",
+        "codeine",
+        "fentanyl",
+        "hydromorphone",
+        "methadone",
+        "morphine",
+        "oxycodone",
+        "oxycodone with naloxone",
+        "tapentadol",
+        "tramadol",
+        "paracetamol with codeine",
+        "ibuprofen with codeine",
+        "aspirin with codeine",
+        "paracetamol with codeine and doxylamine",
+        "paracetamol with codeine and promethazine",
+        "tramadol with paracetamol"
+      ],
+      "brands": {
+        "buprenorphine": [
+          "Norspan",
+          "B-Patch",
+          "Bupredermal",
+          "Temgesic"
+        ],
+        "codeine": [
+          "Aspen Codeine"
+        ],
+        "fentanyl": [
+          "Durogesic",
+          "Fentanyl Sandoz",
+          "Denpax",
+          "Fenpatch",
+          "Dutran"
+        ],
+        "hydromorphone": [
+          "Dilaudid",
+          "Jurnista"
+        ],
+        "methadone": [
+          "Physeptone",
+          "Methadone Syrup",
+          "Aspen Methadone Syrup"
+        ],
+        "morphine": [
+          "MS Contin",
+          "MS Mono",
+          "Kapanol",
+          "Ordine",
+          "Sevredol",
+          "Anamorph",
+          "Momex SR"
+        ],
+        "oxycodone": [
+          "Endone",
+          "OxyNorm",
+          "OxyContin",
+          "Oxyndone"
+        ],
+        "oxycodone with naloxone": [
+          "Targin"
+        ],
+        "tapentadol": [
+          "Palexia",
+          "Palexia IR",
+          "Palexia SR"
+        ],
+        "tramadol": [
+          "Tramal",
+          "Tramal SR",
+          "Zydol",
+          "Zydol SR",
+          "Tramedo",
+          "Tramedo SR",
+          "Lodam",
+          "Durotram XR"
+        ],
+        "paracetamol with codeine": [
+          "Panadeine Forte",
+          "Codalgin Forte",
+          "Codapane Forte",
+          "Comfarol Forte",
+          "Prodeine Forte",
+          "Dolaforte",
+          "Panadeine",
+          "Panadeine Extra",
+          "Painstop Day-Time Pain Reliever",
+          "Panamax Co",
+          "Codalgin",
+          "Prodeinextra"
+        ],
+        "ibuprofen with codeine": [
+          "Nurofen Plus",
+          "Panafen Plus"
+        ],
+        "aspirin with codeine": [
+          "Aspalgin"
+        ],
+        "paracetamol with codeine and doxylamine": [
+          "Mersyndol",
+          "Mersyndol Forte"
+        ],
+        "paracetamol with codeine and promethazine": [
+          "Painstop Night-Time Pain Reliever"
+        ],
+        "tramadol with paracetamol": [
+          "Zaldiar"
+        ]
+      },
+      "note": "Oral and transdermal opioid analgesics count, including oral combination analgesics and Temgesic sublingual pain tablets. Injections (such as Dilaudid-HP), rectal suppositories (such as Proladone) and nasal or transmucosal fentanyl products (such as Abstral, Actiq, Fentora and PecFent) do not count. Exclude the named dependence products Subutex, Suboxone, Buvidal, Sublocade and Biodone Forte from this analgesic group. For Physeptone, Methadone Syrup or ingredient-only oral methadone, use the recorded indication as set out in the rule. Generic packs that show the ingredient name count too."
+    },
+    {
+      "key": "B",
+      "name": "Z-drugs",
+      "ingredients": [
+        "zolpidem",
+        "zopiclone"
+      ],
+      "brands": {
+        "zolpidem": [
+          "Stilnox",
+          "Stilnox CR",
+          "Dormizol",
+          "Dormizol CR",
+          "Somidem",
+          "Stildem",
+          "Zolpibell"
+        ],
+        "zopiclone": [
+          "Imovane",
+          "Imrest",
+          "Imoclone"
+        ]
+      },
+      "note": "Zolpidem and zopiclone count in this local check. Zaleplon is also a Z-drug. This group does not include it. Benzodiazepines, pregabalin and gabapentin are assessed separately. Generic packs that show the ingredient name count too."
+    }
+  ],
+  "rule_for_models": "For patients aged 18 or over, report a finding when a Group A oral or transdermal opioid analgesic and a Group B Z-drug were prescribed together. Cite one supply from each group that shows same-day prescribing or overlapping treatment from the quantities and directions. Exclude clearly separate courses. If supplies are within 60 days and timing is uncertain, including when-needed use, report only a possible finding and ask whether the medicines were taken together. For oral methadone, count a supply for recorded pain and exclude a supply for recorded opioid dependence. For an otherwise qualifying pair, cite both supplies and report only a possible finding while the pharmacist checks any missing age (18 or over), missing oral methadone indication (pain or opioid dependence), or uncertain concurrent use (either supply has unclear or when-needed directions).",
+  "cannot_be_seen": "The record cannot show whether both medicines were taken together, the reason for treatment, non-prescription sedating products, alcohol use, or supplies from another pharmacy or hospital. Supervised opioid-dependence therapy may sit outside standard PBS dispensing histories.",
+  "ask_the_gp": "Could you review whether both the opioid and the Z-drug are still needed, their doses and durations, and the patient's risk of sedation and respiratory depression?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

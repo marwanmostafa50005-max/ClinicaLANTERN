@@ -1,0 +1,771 @@
+{
+  "id": "STOPP-A3",
+  "label": "STOPP A3",
+  "family": "STOPP_START",
+  "title": "Two medicines from the same class for regular use",
+  "statement": "Any duplicate drug class prescription for daily regular use (as distinct from PRN use) e.g., two concurrent NSAIDs, SSRIs, loop diuretics, ACE inhibitors, anticoagulants, antipsychotics, opioid analgesics (optimisation of monotherapy within a single drug class should be observed prior to considering a new agent).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Two regular medicines from the same drug class can double up on side effects, and one medicine at the right dose is usually tried first.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Oral NSAIDs",
+      "ingredients": [
+        "ibuprofen",
+        "diclofenac",
+        "naproxen",
+        "celecoxib",
+        "meloxicam",
+        "indometacin",
+        "piroxicam",
+        "ketoprofen",
+        "mefenamic acid",
+        "etoricoxib",
+        "ketorolac",
+        "sulindac"
+      ],
+      "brands": {
+        "ibuprofen": [
+          "Nurofen",
+          "Brufen",
+          "Advil",
+          "Rafen",
+          "Nurofen Plus",
+          "Nuromol",
+          "Maxigesic",
+          "Act-3",
+          "Advil 12 Hour",
+          "Advil Childrens Pain and Fever 2 to 7 Years",
+          "Advil Childrens Pain and Fever 7 to 12 Years",
+          "Advil Childrens Pain and Fever Relief 2 to 12 Years",
+          "Advil Double Strength",
+          "Advil Double Strength Caplets",
+          "Advil Double Strength Liquid Capsules",
+          "Advil Infants Pain and Fever Relief 3 Months to 2 Years",
+          "Advil Mini Caps",
+          "Advil Rapid Release",
+          "Brufen Pain",
+          "Brufen Syrup",
+          "Bugesic",
+          "Butafen",
+          "Butalgin",
+          "Fenpaed",
+          "Fenpaed Double Strength",
+          "Iprofen",
+          "Nurofen Back Pain",
+          "Nurofen Caplet",
+          "Nurofen Double Strength",
+          "Nurofen Liquid Capsule",
+          "Nurofen Meltlets",
+          "Nurofen Migraine Pain",
+          "Nurofen Period Pain",
+          "Nurofen Quickzorb",
+          "Nurofen Regular",
+          "Nurofen Tension Headache",
+          "Nurofen Zavance",
+          "Nurofen Zavance Liquid Capsules",
+          "Nurofen for Children 1 to 5 Years",
+          "Nurofen for Children 3 Months to 5 Years",
+          "Nurofen for Children 5 to 12 Years",
+          "Nurofen for Children 7+ Years",
+          "Nurofen for Children Baby 3+ Months",
+          "Nurofen for Children Infant Drops",
+          "Nurofen for Children Meltlet",
+          "Panafen IB",
+          "Panafen IB Mini Cap",
+          "Proven",
+          "Tri-Profen",
+          "Panafen Plus"
+        ],
+        "diclofenac": [
+          "Voltaren",
+          "Fenac",
+          "Arthrotec",
+          "Clonac",
+          "Voltaren Rapid",
+          "Cambia",
+          "Diclohexal",
+          "Difenac Rapid",
+          "Dinac",
+          "Fenac EC",
+          "Imflac",
+          "Inflamax Liquid Caps",
+          "Voltaren Rapid Extra Strength",
+          "Voltaren Rapid Liquid Capsules",
+          "Voltfast",
+          "Zorvolex"
+        ],
+        "naproxen": [
+          "Naprosyn",
+          "Naprosyn SR",
+          "Inza",
+          "Anaprox",
+          "Naprogesic",
+          "Aleve",
+          "Vimovo",
+          "Proxen SR",
+          "Aleve 24 Hour",
+          "Crysanal",
+          "Femme-Free",
+          "Naprofem",
+          "Naprosyn SR 1000",
+          "Nurolasts Period Pain",
+          "Proxen"
+        ],
+        "celecoxib": [
+          "Celebrex",
+          "Celaxib",
+          "Anacoxib",
+          "Celebrex Relief",
+          "Celetoid",
+          "Celexi",
+          "Celocox",
+          "Kudeq"
+        ],
+        "meloxicam": [
+          "Mobic",
+          "Movalis",
+          "Moxicam",
+          "Meloxibell",
+          "Agilocam",
+          "Melobic",
+          "Melox",
+          "Meloxiauro",
+          "Meloxibindo",
+          "Mobelox"
+        ],
+        "indometacin": [
+          "Indocid",
+          "Arthrexin"
+        ],
+        "piroxicam": [
+          "Feldene",
+          "Mobilis",
+          "Candyl",
+          "Candyl-D",
+          "Feldene-D",
+          "Mobilis D",
+          "Pirohexal-D"
+        ],
+        "ketoprofen": [
+          "Orudis",
+          "Oruvail"
+        ],
+        "mefenamic acid": [
+          "Ponstan",
+          "Femin",
+          "Mefic",
+          "Menamic"
+        ],
+        "etoricoxib": [
+          "Arcoxia"
+        ],
+        "ketorolac": [
+          "Toradol",
+          "Ketoral"
+        ],
+        "sulindac": [
+          "Aclin"
+        ]
+      },
+      "note": "Tablets, capsules, oral liquids, oral powders and suppositories count. Skin gels and eye drops do not. Low-dose aspirin is not counted as an NSAID here. Indometacin is also written indomethacin. Nurofen Plus and Panafen Plus contain ibuprofen with codeine. Arthrotec contains diclofenac with misoprostol. Nuromol and Maxigesic are ibuprofen with paracetamol. Vimovo is naproxen with esomeprazole."
+    },
+    {
+      "key": "B",
+      "name": "SSRI antidepressants",
+      "ingredients": [
+        "citalopram",
+        "escitalopram",
+        "fluoxetine",
+        "fluvoxamine",
+        "paroxetine",
+        "sertraline"
+      ],
+      "brands": {
+        "citalopram": [
+          "Cipramil",
+          "Celapram",
+          "Talam",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talohexal"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Loxalate",
+          "Lexam",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Zactin",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Paxtine",
+          "Extine",
+          "Aropax CR",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ],
+        "sertraline": [
+          "Zoloft",
+          "Eleva",
+          "Sertra",
+          "Setrona",
+          "Concorz",
+          "Detralon",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertracor",
+          "Sertratrust",
+          "Tralen",
+          "Xydep"
+        ]
+      },
+      "note": "Antidepressants of other classes are not in this group."
+    },
+    {
+      "key": "C",
+      "name": "Loop diuretics",
+      "ingredients": [
+        "furosemide",
+        "bumetanide",
+        "etacrynic acid"
+      ],
+      "brands": {
+        "furosemide": [
+          "Lasix",
+          "Urex",
+          "Uremide",
+          "Frusax",
+          "Frusehexal",
+          "Frusemix",
+          "Frusemix-M",
+          "Frusid",
+          "Furo",
+          "Lasix High Dose",
+          "Lasix M",
+          "Urex Forte",
+          "Urex-M"
+        ],
+        "bumetanide": [
+          "Burinex"
+        ],
+        "etacrynic acid": [
+          "Edecrin"
+        ]
+      },
+      "note": "Furosemide is also written frusemide. Lasix-M, Urex-M and Urex Forte are other strengths of the same brands. Etacrynic acid is also written ethacrynic acid."
+    },
+    {
+      "key": "D",
+      "name": "ACE inhibitors",
+      "ingredients": [
+        "perindopril",
+        "ramipril",
+        "enalapril",
+        "lisinopril",
+        "captopril",
+        "fosinopril",
+        "quinapril",
+        "trandolapril"
+      ],
+      "brands": {
+        "perindopril": [
+          "Coversyl",
+          "Perindo",
+          "Prexum",
+          "Coversyl Plus",
+          "Perindo Combi",
+          "Coveram",
+          "Reaptan",
+          "Idaprex",
+          "Idaprex Arg",
+          "Indopril",
+          "Indosyl Mono",
+          "Ozapace",
+          "Perindo Arg",
+          "Perindoarg",
+          "Perindobell",
+          "Perisyl",
+          "Triplixam SR"
+        ],
+        "ramipril": [
+          "Tritace",
+          "Ramace",
+          "Tryzan",
+          "Prilace",
+          "Ramibell",
+          "Vascalace",
+          "Triasyn"
+        ],
+        "enalapril": [
+          "Renitec",
+          "Alphapril",
+          "Renitec Plus",
+          "Zan-Extra",
+          "Acetec",
+          "Amprace",
+          "Auspril",
+          "Elapril",
+          "Enahexal",
+          "Enalabell",
+          "Malean",
+          "Renitec M"
+        ],
+        "lisinopril": [
+          "Zestril",
+          "Prinivil",
+          "Fibsol",
+          "Lisodur",
+          "Linopril",
+          "Liprace",
+          "Lisinobell",
+          "Lisinotrust",
+          "Lisodrate",
+          "Lisoril",
+          "Ozten",
+          "Sinop",
+          "Zinopril"
+        ],
+        "captopril": [
+          "Capoten",
+          "Acenorm",
+          "Captohexal",
+          "Topace",
+          "Zedace"
+        ],
+        "fosinopril": [
+          "Monopril",
+          "Monoplus",
+          "Fosipril",
+          "Monace"
+        ],
+        "quinapril": [
+          "Accupril",
+          "Accuretic",
+          "Acquin",
+          "Aquinafil",
+          "Filpril",
+          "Qpril"
+        ],
+        "trandolapril": [
+          "Gopten",
+          "Tarka",
+          "Dolapril",
+          "Goricap",
+          "Odrik",
+          "Tranalpha"
+        ]
+      },
+      "note": "Coversyl Plus and Perindo Combi are perindopril with indapamide. Coveram and Reaptan are perindopril with amlodipine. Renitec Plus is enalapril with hydrochlorothiazide. Zan-Extra is enalapril with lercanidipine. Monoplus is fosinopril with hydrochlorothiazide. Accuretic is quinapril with hydrochlorothiazide. Tarka is trandolapril with verapamil. Triplixam SR contains perindopril, amlodipine and indapamide. Triasyn contains ramipril and felodipine. For brands outside the listed groups, ask the pharmacist to check the ingredients and class before counting a duplicate."
+    },
+    {
+      "key": "E",
+      "name": "Anticoagulants",
+      "ingredients": [
+        "warfarin",
+        "dabigatran",
+        "apixaban",
+        "rivaroxaban",
+        "edoxaban",
+        "enoxaparin",
+        "dalteparin",
+        "fondaparinux",
+        "dalteparin sodium",
+        "enoxaparin sodium"
+      ],
+      "brands": {
+        "warfarin": [
+          "Coumadin",
+          "Marevan"
+        ],
+        "dabigatran": [
+          "Pradaxa"
+        ],
+        "apixaban": [
+          "Eliquis",
+          "Alexibic",
+          "Apexa",
+          "Apixor",
+          "Axibic",
+          "Elapex"
+        ],
+        "rivaroxaban": [
+          "Xarelto",
+          "Ixarola",
+          "Rivoxa",
+          "Relaban",
+          "Rivalembic",
+          "Rivarelto",
+          "Rivator",
+          "Rivaxib",
+          "Rivaxotor",
+          "Roxabic",
+          "Roxalem",
+          "Roxator",
+          "Toriva",
+          "Troxa",
+          "Xaremed"
+        ],
+        "edoxaban": [],
+        "enoxaparin": [
+          "Clexane"
+        ],
+        "dalteparin": [
+          "Fragmin"
+        ],
+        "fondaparinux": [
+          "Arixtra"
+        ],
+        "dalteparin sodium": [
+          "Fragmin"
+        ],
+        "enoxaparin sodium": [
+          "Clexane"
+        ]
+      },
+      "note": "Tablets, capsules and injections count. Generic apixaban and rivaroxaban are often named by the ingredient. No Australian brand is listed for edoxaban. A short overlap of an injection with warfarin when warfarin is started can be planned. Still report it and let the pharmacist decide."
+    },
+    {
+      "key": "F",
+      "name": "Antipsychotics",
+      "ingredients": [
+        "amisulpride",
+        "aripiprazole",
+        "asenapine",
+        "brexpiprazole",
+        "cariprazine",
+        "chlorpromazine",
+        "clozapine",
+        "flupentixol",
+        "haloperidol",
+        "lurasidone",
+        "olanzapine",
+        "paliperidone",
+        "periciazine",
+        "quetiapine",
+        "risperidone",
+        "ziprasidone",
+        "zuclopenthixol",
+        "flupentixol decanoate"
+      ],
+      "brands": {
+        "amisulpride": [
+          "Solian",
+          "Amipride",
+          "Sulprix"
+        ],
+        "aripiprazole": [
+          "Abilify",
+          "Abilify Maintena",
+          "Abilify Asimtufii",
+          "Abilify ODT",
+          "Abipra",
+          "Abyraz",
+          "Aprazole",
+          "Aripic",
+          "Aripra",
+          "Arizole"
+        ],
+        "asenapine": [
+          "Saphris"
+        ],
+        "brexpiprazole": [
+          "Rexulti"
+        ],
+        "cariprazine": [
+          "Reagila"
+        ],
+        "chlorpromazine": [
+          "Largactil",
+          "Largactil Syrup"
+        ],
+        "clozapine": [
+          "Clozaril",
+          "Clopine",
+          "Closyn",
+          "Clozaril ODT",
+          "Clozitor",
+          "Versacloz"
+        ],
+        "flupentixol": [
+          "Fluanxol"
+        ],
+        "haloperidol": [
+          "Serenace",
+          "Haldol Decanoate"
+        ],
+        "lurasidone": [
+          "Latuda",
+          "Bilura",
+          "Latulem",
+          "Lavione",
+          "Luracor",
+          "Luralem",
+          "Luralembic",
+          "Lurobi"
+        ],
+        "olanzapine": [
+          "Zyprexa",
+          "Zypine",
+          "Aprolan",
+          "Aprolan ODT",
+          "Lanez",
+          "Lanez ODT",
+          "Lanzek",
+          "Lanzek Zydis",
+          "Lonza",
+          "Lonza ODT",
+          "Lyprosia",
+          "Lyprosia ODT",
+          "Olancor",
+          "Olanza",
+          "Olanzaccord",
+          "Olanzacor",
+          "Oprexa",
+          "Ozin",
+          "Ozin ODT",
+          "Prolanza",
+          "Prolanza ODT",
+          "Pryzex",
+          "Pryzex ODT",
+          "Tolaze ODT",
+          "Tolazine ODT",
+          "Torapine ODT",
+          "Torrenia ODT",
+          "Zylap",
+          "Zylap ODT",
+          "Zylapine",
+          "Zylapine ODT",
+          "Zypine ODT",
+          "Zyprexa Zydis"
+        ],
+        "paliperidone": [
+          "Invega",
+          "Invega Sustenna",
+          "Invega Trinza",
+          "Invega Hafyera",
+          "Palmeux",
+          "Trevicta"
+        ],
+        "periciazine": [
+          "Neulactil"
+        ],
+        "quetiapine": [
+          "Seroquel",
+          "Quetia",
+          "Syquet",
+          "Aliquen",
+          "Delucon",
+          "Kaptan",
+          "Ketizenol",
+          "Qualez",
+          "Quepine XR",
+          "Quetapen",
+          "Quetia XR",
+          "Quetiaccord",
+          "Quetiaquel XR",
+          "Quetin",
+          "Quipine",
+          "Sequase",
+          "Sequase XR",
+          "Serapine",
+          "Serapine XR",
+          "Seroccord",
+          "Seronia",
+          "Seroquel XR",
+          "Serotiapine XR",
+          "Syquet XR",
+          "Syzopine",
+          "Tevatiapine XR",
+          "Tiapine XR",
+          "Tiava XR",
+          "Xque XR"
+        ],
+        "risperidone": [
+          "Risperdal",
+          "Risperdal Consta",
+          "Rispa",
+          "Rixadone",
+          "Ozidal",
+          "Resdone",
+          "Respaz",
+          "Risdone",
+          "Rispaccord",
+          "Rispaccord-0.5",
+          "Risperdal Quicklet",
+          "Risperibell",
+          "Rispericor",
+          "Rispericor-0.5",
+          "Risperisan",
+          "Rispernia",
+          "Sperid",
+          "Uzedy"
+        ],
+        "ziprasidone": [
+          "Zeldox",
+          "Ziprox"
+        ],
+        "zuclopenthixol": [
+          "Clopixol"
+        ],
+        "flupentixol decanoate": [
+          "Fluanxol"
+        ]
+      },
+      "note": "Tablets, wafers, liquids and long-acting injections count. Prochlorperazine (Stemetil) is used mainly for nausea and is not listed."
+    },
+    {
+      "key": "G",
+      "name": "Opioid analgesics",
+      "ingredients": [
+        "buprenorphine",
+        "codeine",
+        "fentanyl",
+        "hydromorphone",
+        "methadone",
+        "morphine",
+        "oxycodone",
+        "tapentadol",
+        "tramadol"
+      ],
+      "brands": {
+        "buprenorphine": [
+          "Norspan",
+          "Temgesic"
+        ],
+        "codeine": [
+          "Panadeine Forte",
+          "Panadeine",
+          "Codalgin Forte",
+          "Comfarol Forte",
+          "Mersyndol Forte",
+          "Nurofen Plus",
+          "Panafen Plus",
+          "Actacode Linctus",
+          "Codphos"
+        ],
+        "fentanyl": [
+          "Durogesic",
+          "Denpax",
+          "Fenpatch",
+          "Abstral",
+          "Fentora"
+        ],
+        "hydromorphone": [
+          "Dilaudid",
+          "Jurnista",
+          "Palladone XL"
+        ],
+        "methadone": [
+          "Physeptone",
+          "Opod-D Syrup"
+        ],
+        "morphine": [
+          "MS Contin",
+          "MS Mono",
+          "Kapanol",
+          "Sevredol",
+          "Anamorph",
+          "Ordine",
+          "MS Contin Suspension",
+          "MS Normal",
+          "Momex SR",
+          "RA-Morph"
+        ],
+        "oxycodone": [
+          "OxyContin",
+          "OxyNorm",
+          "Endone",
+          "Targin",
+          "Proladone",
+          "Endone XR",
+          "Novacodone",
+          "Oxycodor",
+          "Oxycone",
+          "Oxylenus",
+          "Oxylieve MR",
+          "Oxyndone",
+          "Xedone"
+        ],
+        "tapentadol": [
+          "Palexia",
+          "Tapal",
+          "Tadol",
+          "Tapex"
+        ],
+        "tramadol": [
+          "Tramal",
+          "Zydol",
+          "Tramedo",
+          "Durotram",
+          "Zaldiar",
+          "Durotram XR",
+          "Iptramol",
+          "Lodam",
+          "Lodam SR",
+          "Tramahexal",
+          "Tramahexal SR",
+          "Tramal Drops",
+          "Tramal SR",
+          "Tramedo SR",
+          "Zydol SR"
+        ]
+      },
+      "note": "Tablets, capsules, liquids, suppositories and patches count. Panadeine, Panadeine Forte, Codalgin Forte and Comfarol Forte are codeine with paracetamol. Mersyndol Forte is codeine with paracetamol and doxylamine. Nurofen Plus and Panafen Plus contain codeine with ibuprofen. Targin is oxycodone with naloxone. Proladone is an oxycodone suppository. Zaldiar is tramadol with paracetamol. Count methadone or buprenorphine only when used for pain. Exclude treatment for opioid dependence. For Opod-D Syrup or another product with an unclear indication, report at most a possible duplicate and ask what it treats. Distinguish Physeptone tablets from Physeptone Liquid."
+    }
+  ],
+  "rule_for_models": "Once age 65 or older is confirmed, suspect a duplicate when two different active ingredients from one class (groups A to G with their form and use limits, or another class such as statins or proton pump inhibitors) are prescribed for daily treatment, including continuous coverage from a regularly changed patch or a scheduled depot injection, and have supplies that overlap or fall within 60 days of each other, excluding PRN use, two brands or strengths of one ingredient, or two medicines from different classes that treat the same condition. Give no duplicate finding when the record explicitly confirms that the first medicine was stopped before the second began. Do not assume a stop solely from pack quantity or supply dates when supplies fall within 60 days. If two different medicines in one class meet the timing rule, neither is explicitly PRN and either schedule is unclear, report only a possible finding. Ask whether both medicines provide regular daily treatment during the same period.",
+  "cannot_be_seen": "Whether the prescriber meant one medicine to replace the other, whether the patient is still taking both, the reason for each medicine, and any medicines bought without a prescription or supplied by another pharmacy.",
+  "ask_the_gp": "Whether both medicines from the same class are meant to be taken together, or whether one was meant to replace the other.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

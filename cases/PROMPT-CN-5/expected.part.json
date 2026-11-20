@@ -1,0 +1,44 @@
+[
+  {
+    "file": "PROMPT-CN-5/pos-brand.csv",
+    "kind": "positive",
+    "about": "Tegretol (carbamazepine) is supplied nine times from November 2025 and one supply of Klacid (clarithromycin) is made on 24 February 2026 while the carbamazepine continues, by brand name only.",
+    "findings": [
+      {
+        "criterion": "PROMPT-CN-5",
+        "must_cite": [
+          [
+            "L012"
+          ],
+          [
+            "L013"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PROMPT-CN-5/pos-buried.csv",
+    "kind": "positive",
+    "about": "Carbamazepine (Teril) is supplied monthly through a 15-month history and one supply of erythromycin (E-Mycin) is made on 10 February 2026, in the middle.",
+    "findings": [
+      {
+        "criterion": "PROMPT-CN-5",
+        "must_cite": [
+          [
+            "L035"
+          ],
+          [
+            "L038"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PROMPT-CN-5/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Carbamazepine is supplied monthly with one short course of azithromycin (Zithromax), which is not clarithromycin or erythromycin, so it must not flag.",
+    "findings": []
+  }
+]

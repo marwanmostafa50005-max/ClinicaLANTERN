@@ -1,0 +1,44 @@
+[
+  {
+    "file": "KHAWAGI-G116/pos-brand.csv",
+    "kind": "positive",
+    "about": "Tegretol overlaps brand-only Micronelle 30 ED and the directions confirm use to prevent pregnancy.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G116",
+        "must_cite": [
+          [
+            "L017"
+          ],
+          [
+            "L018"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G116/pos-buried.csv",
+    "kind": "positive",
+    "about": "Twice-daily carbamazepine overlaps a regular daily levonorgestrel contraceptive pill.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G116",
+        "must_cite": [
+          [
+            "L031"
+          ],
+          [
+            "L032"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G116/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The levonorgestrel is an intrauterine system, outside the contraceptive forms in this row.",
+    "findings": []
+  }
+]

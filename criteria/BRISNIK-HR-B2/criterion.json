@@ -1,0 +1,186 @@
+{
+  "id": "BRISNIK-HR-B2",
+  "label": "Brisnik: SSRI, SNRI or mirtazapine with persistent dizziness or postural hypotension at age 65 or over",
+  "family": "BRISNIK",
+  "title": "SSRI, SNRI or mirtazapine at age 65 or over with persistent dizziness or a postural blood pressure drop",
+  "statement": "Prescribed SSRI, SNRI, or mirtazapine - and the patient is aged ≥ 65 years and has developed persistent OH/dizziness under treatment",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Text reproduced without changes. Not endorsed by the source authors."
+  },
+  "plain_summary": "In a person aged 65 or over, review an SSRI, SNRI or mirtazapine if dizziness or a drop in blood pressure on standing began during treatment and persisted. A persistent pressure drop warrants review even without dizziness.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "SSRI, SNRI and mirtazapine antidepressants",
+      "ingredients": [
+        "citalopram",
+        "escitalopram",
+        "fluoxetine",
+        "fluvoxamine",
+        "paroxetine",
+        "sertraline",
+        "venlafaxine",
+        "desvenlafaxine",
+        "duloxetine",
+        "mirtazapine"
+      ],
+      "brands": {
+        "citalopram": [
+          "Cipramil",
+          "Celapram",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talam",
+          "Talohexal"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esipram",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam",
+          "Loxalate"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet",
+          "Zactin"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Paxtine",
+          "Aropax CR",
+          "Extine",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ],
+        "sertraline": [
+          "Zoloft",
+          "Concorz",
+          "Detralon",
+          "Eleva",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Setrona",
+          "Tralen",
+          "Xydep"
+        ],
+        "venlafaxine": [
+          "Efexor-XR",
+          "Altven",
+          "Elaxine SR",
+          "Enlafax XR",
+          "Evelexa XR",
+          "Ozvenaf",
+          "Venfax SR",
+          "Venla",
+          "Venlexor XR"
+        ],
+        "desvenlafaxine": [
+          "Pristiq",
+          "Desfax",
+          "Desven"
+        ],
+        "duloxetine": [
+          "Cymbalta",
+          "Andepra",
+          "Baltine",
+          "Coperin",
+          "Deotine",
+          "Depreta",
+          "Drulox",
+          "Dulocym",
+          "Duloxecor",
+          "Dytrex",
+          "Symlox",
+          "Texotine",
+          "Tixol",
+          "Xerol DR"
+        ],
+        "mirtazapine": [
+          "Avanza",
+          "Remeron",
+          "Aurozapine",
+          "Avanza Soltab",
+          "Axit",
+          "Milivin OD",
+          "Mirtanza",
+          "Mirtanza ODT",
+          "Mirtazon",
+          "Remeron Soltab"
+        ]
+      },
+      "note": "SSRI means selective serotonin reuptake inhibitor. SNRI means serotonin and noradrenaline reuptake inhibitor. Any dose counts. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Persistent postural hypotension or dizziness while on the antidepressant",
+      "meets": "A dated condition or observation shows that postural hypotension or dizziness began during the antidepressant course and persisted. A pharmacist answer confirming this for the course also qualifies. A standing blood pressure drop can qualify without dizziness.",
+      "options": [
+        {
+          "words": "Symptoms began and persisted during the course being assessed",
+          "effect": "meets"
+        },
+        {
+          "words": "Assessment during the course excludes persistent symptoms",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Check a Group A medicine at age 65 or over. An age below 65 at supply rules out this finding. If age at supply is unknown, report at most a possible finding and ask for the age if the symptom history could qualify. Either new dizziness that persisted or a persistent drop in blood pressure on standing must have begun during that course. Cite the supply and one dated condition or observation, or a pharmacist answer, that establishes either problem and its timing for that course. A standing pressure drop can qualify without dizziness. A review or answer excluding both new problems clears the finding unless later evidence shows either began and persisted during the course. An unchanged pre-existing symptom or one that resolved before treatment does not count. One brief episode, a review before treatment, uncertain onset or persistence, or no relevant assessment leaves the history open. Use a shared answer for different antidepressant courses only when it applies to all of them. Otherwise use dated evidence linked to each course. For each course that could qualify but still lacks a clear symptom history, report a possible finding and name \"Persistent postural hypotension or dizziness while on the antidepressant\".",
+  "cannot_be_seen": "Whether the person has dizziness or a blood pressure drop on standing now, how long it has lasted, and the dose really taken. Medicines bought without a prescription and medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "Could you review whether the antidepressant is still needed, check lying and standing blood pressure and clarify whether persistent dizziness or a postural blood pressure drop began during treatment?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

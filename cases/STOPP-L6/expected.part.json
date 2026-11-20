@@ -1,0 +1,59 @@
+[
+  {
+    "file": "STOPP-L6/pos-fact.csv",
+    "kind": "positive",
+    "about": "Panadol Osteo (paracetamol 665 mg), two tablets three times a day (3.99 g a day), is supplied every month from January to October 2026, and two BMI lines show 16.9 and 16.8.",
+    "findings": [
+      {
+        "criterion": "STOPP-L6",
+        "must_cite": [
+          [
+            "L003",
+            "L007",
+            "L012",
+            "L016",
+            "L020",
+            "L025",
+            "L030",
+            "L034",
+            "L038",
+            "L042"
+          ],
+          [
+            "L001",
+            "L026"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-L6/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about \"BMI\" or \"Chronic liver disease (for example cirrhosis or chronic hepatitis)\", and Panadol Osteo (paracetamol 665 mg) is supplied at two tablets three times a day (3.99 g a day) every month.",
+    "findings": [
+      {
+        "criterion": "STOPP-L6",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L009",
+            "L012",
+            "L017",
+            "L020",
+            "L024",
+            "L027",
+            "L030"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-L6/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The 3.99 g daily dose is recorded with BMI 24.6 and a documented negative chronic liver disease history.",
+    "findings": []
+  }
+]

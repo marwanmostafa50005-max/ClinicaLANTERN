@@ -1,0 +1,168 @@
+{
+  "id": "EU7-F03",
+  "label": "EU(7)-PIM: proton pump inhibitor for more than 8 weeks",
+  "family": "EU7",
+  "title": "Maximal-dose proton pump inhibitor for more than eight weeks without a clear continuing indication",
+  "statement": "Proton pump inhibitors (PPI) (>8 weeks) e.g. omeprazole, pantoprazole | In lists: 6 (B) | Main reason: Long-term high dose PPI therapy is associated with an increased risk of C. difficile infection and hip fracture. Inappropriate if used >8 weeks in maximal dose without clear indication | Dose adjustment/special considerations: (blank: per ESM note, no suggestion by experts or in Micromedex) | Alternatives: When indication is appropriate: PPI (<8 weeks, low dose) E",
+  "statement_origin": "published",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "One row of the source table as extracted for this prototype: the column names are written in, and an empty cell is shown as a note in brackets. The cell wording was recorded as word for word and has not been compared again with the publisher's page. The authors have not reviewed this layout."
+  },
+  "plain_summary": "A proton pump inhibitor taken for more than 8 weeks, above all at a high dose and with no clear reason, is linked with bowel infection (C. difficile) and hip fracture in older people.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Proton pump inhibitors",
+      "ingredients": [
+        "esomeprazole",
+        "lansoprazole",
+        "omeprazole",
+        "pantoprazole",
+        "rabeprazole"
+      ],
+      "brands": {
+        "esomeprazole": [
+          "Nexium",
+          "Nexium 24HR",
+          "Esopreze",
+          "Nexazole",
+          "Nexole",
+          "Noxicid",
+          "Vimovo",
+          "Axagon",
+          "Beezole",
+          "Emeprazol",
+          "Esopran",
+          "Guardium Acid Reflux Relief",
+          "Jubeso",
+          "Jubium",
+          "Mepreze",
+          "Nexcid",
+          "Nexium 24HR Once Daily Dosing",
+          "Nexprazole",
+          "Noxicid Caps Heartburn Relief",
+          "Noxicid Tabs Heartburn Relief",
+          "Zanzole 24HR"
+        ],
+        "lansoprazole": [
+          "Zoton",
+          "Zoton Fastab",
+          "Zopral",
+          "Lanzopran",
+          "Zopral ODT"
+        ],
+        "omeprazole": [
+          "Losec",
+          "Acimax",
+          "Maxor",
+          "Meprazol",
+          "Omepral",
+          "Ozmep",
+          "Probitor",
+          "Maxor EC",
+          "Maxor Heartburn Relief",
+          "Omepro",
+          "Omezole",
+          "Pemzo"
+        ],
+        "pantoprazole": [
+          "Somac",
+          "Somac Heartburn Relief",
+          "Salpraz",
+          "Salpraz Heartburn Relief",
+          "Ozpan",
+          "Panto",
+          "Panthron",
+          "Sozol",
+          "Gastenz",
+          "Pantaccord",
+          "Pantofast",
+          "Pantoloc",
+          "Prazole",
+          "Rizil",
+          "Suvacid Heartburn Relief",
+          "Topra",
+          "Torprazole",
+          "Torzole"
+        ],
+        "rabeprazole": [
+          "Pariet",
+          "Parbezol",
+          "Prabez",
+          "Rabzole",
+          "Razit",
+          "Zabep",
+          "Parzol",
+          "Perizel DR"
+        ]
+      },
+      "note": "Tablets, capsules and granules taken by mouth count. Vimovo is naproxen with esomeprazole. Famotidine, ranitidine and other H2-receptor antagonists are not proton pump inhibitors and do not count. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Review of the reason for continuing this maximal PPI dose",
+      "meets": "A dated review found no clear reason for continuing this maximal dose. A review or a documented diagnosis linked to the need for this particular dose rules the finding out. An absent review, an unlinked diagnosis or an unclear answer leaves the reason unresolved. Ask only if the age, medicine, dose and duration could fit and the reason is still unclear.",
+      "options": [
+        {
+          "words": "Review found no clear reason to continue this dose",
+          "effect": "meets"
+        },
+        {
+          "words": "A continuing reason for this dose is confirmed",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "No review or no clear answer",
+          "effect": "unknown"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Actual daily dose of the PPI taken for this condition",
+      "meets": "If strength, directions and dated history leave the daily dose unclear, record the PPI name, the dose taken in mg per day and the condition being treated. Compare that dose with the maximal dose for that PPI and condition. A lower dose rules out the finding for that period. An unknown dose or context leaves it unresolved."
+    },
+    {
+      "kind": "observation",
+      "what": "Time taking the maximal daily PPI dose for this condition",
+      "meets": "More than 56 days at the maximal dose in the same qualifying course meets the duration test. Use the dates, quantities, directions and dated treatment history first. Ask only if duration is still uncertain and the finding remains possible.",
+      "options": [
+        {
+          "words": "More than 56 consecutive days at that dose",
+          "effect": "meets"
+        },
+        {
+          "words": "56 consecutive days or less at that dose",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "A lower dose throughout",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Suspect a finding when a Group A medicine (a proton pump inhibitor) is supplied to a patient aged 65 years or over for a continuous course lasting more than 8 weeks (56 days) at the maximal daily dose: either one supply lasting more than 56 days at the directed dose, or consecutive supplies whose quantities and directions together cover more than 56 days without an uncovered gap of more than 7 days between expected finish and next supply (including after a switch to another qualifying PPI). A documented stop, a step down to a lower dose, or an uncovered gap of more than 7 days separates courses; if a longer gap may have been covered elsewhere, report only a possible finding and ask about it. If the medicine criteria are otherwise met and age at supply is unknown, report only a possible finding and ask for age confirmation. An age below 65 rules out this finding. Calculate daily dose from strength and directions. If supplies span more than 56 days and unclear or when-needed directions leave a qualifying course possible, report only a possible finding, cite the unclear directions, and ask how much the patient took each day and for how long. The span between supplies alone does not establish days at the maximal dose. Count only covered days at the maximal daily dose for the particular PPI and clinical context. Days without cover do not add to the 56 days. If the dose is unclear, establish the PPI, the actual daily dose in mg and the condition being treated before interpreting duration. Ask how long the maximal dose was taken only if the supply dates, quantities, directions and recorded history leave the duration uncertain. Confirm only if this exceeds 56 days and the clinical record establishes there is no clear continuing indication. A lower dose rules it out. A dated review or a documented diagnosis that confirms a continuing need for this particular dose also rules it out. A diagnosis without that link, an absent review or an inconclusive answer leaves the indication open unless other evidence settles it. If accounts conflict, use the assessment that applies to this course or seek clarification. If maximal dosing or the reason for continuing cannot be established and the criterion remains possible, name the missing evidence and ask for confirmation. Do not count one short course of 8 weeks or less, or separate short courses.",
+  "cannot_be_seen": "Check condition and observation rows for the reason treatment started or continues, such as Barrett’s oesophagus, severe oesophagitis or a past bleeding ulcer. The history may show an anti-inflammatory medicine, aspirin or an anticoagulant. That supply alone does not establish a need for stomach protection at this dose. Without a recorded reason, the indication is unknown. Actual daily use, a previous lower-dose trial and purchases without a prescription may also be unknown.",
+  "ask_the_gp": "Whether there is a continuing reason for the proton pump inhibitor after more than 8 weeks of supply, and whether the dose and the length of treatment have been reviewed.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

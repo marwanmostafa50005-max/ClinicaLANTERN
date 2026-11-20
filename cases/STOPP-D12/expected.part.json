@@ -1,0 +1,57 @@
+[
+  {
+    "file": "STOPP-D12/pos-fact.csv",
+    "kind": "positive",
+    "about": "Parkinson's disease is recorded on 11 June 2025 and risperidone (Risperdal, an antipsychotic other than clozapine or quetiapine) is supplied every month for 11 months. The finding must cite the Parkinson's disease line and the risperidone supplies.",
+    "findings": [
+      {
+        "criterion": "STOPP-D12",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L002",
+            "L006",
+            "L010",
+            "L014",
+            "L018",
+            "L022",
+            "L026",
+            "L030",
+            "L034",
+            "L038",
+            "L042"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-D12/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about parkinsonism, Parkinson's disease or dementia with Lewy bodies. Haloperidol (Serenace, an antipsychotic) is supplied every month for 7 months.",
+    "findings": [
+      {
+        "criterion": "STOPP-D12",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L009",
+            "L013",
+            "L017",
+            "L021",
+            "L025"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-D12/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Parkinson's disease is recorded, but the only antipsychotic supplied is quetiapine (Seroquel), which this criterion excludes.",
+    "findings": []
+  }
+]

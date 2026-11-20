@@ -1,0 +1,44 @@
+[
+  {
+    "file": "POPI-04/pos-brand.csv",
+    "kind": "positive",
+    "about": "Brand-only Nurofen Caplet and Naprogesic supplies have overlapping scheduled courses for ankle pain.",
+    "findings": [
+      {
+        "criterion": "POPI-04",
+        "must_cite": [
+          [
+            "L027"
+          ],
+          [
+            "L028"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "POPI-04/pos-buried.csv",
+    "kind": "positive",
+    "about": "Possible finding: both supplies are for ankle pain, but the as-needed directions do not show whether the child used them together.",
+    "findings": [
+      {
+        "criterion": "POPI-04",
+        "must_cite": [
+          [
+            "L036"
+          ],
+          [
+            "L037"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "POPI-04/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The as-needed labels leave overlap unclear, but the parent confirms that the child stopped ibuprofen before starting naproxen.",
+    "findings": []
+  }
+]

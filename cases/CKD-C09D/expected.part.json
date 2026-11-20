@@ -1,0 +1,53 @@
+[
+  {
+    "file": "CKD-C09D/pos-fact.csv",
+    "kind": "positive",
+    "about": "A patient with established CKD confirms taking ramipril and candesartan together despite incomplete ramipril directions.",
+    "findings": [
+      {
+        "criterion": "CKD-C09D",
+        "must_cite": [
+          [
+            "L044"
+          ],
+          [
+            "L045"
+          ],
+          [
+            "L042"
+          ],
+          [
+            "L046"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CKD-C09D/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the Entresto prescription replaces ramipril in a patient with CKD, and the record gives no last ramipril or first Entresto dose time.",
+    "findings": [
+      {
+        "criterion": "CKD-C09D",
+        "must_cite": [
+          [
+            "L030"
+          ],
+          [
+            "L032"
+          ],
+          [
+            "L031"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CKD-C09D/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The record explicitly excludes CKD despite concurrent ramipril and candesartan and a dated eGFR of 82.",
+    "findings": []
+  }
+]

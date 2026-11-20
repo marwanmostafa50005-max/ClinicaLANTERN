@@ -1,0 +1,87 @@
+{
+  "id": "START-L1",
+  "label": "START L1",
+  "family": "STOPP_START",
+  "title": "Yearly flu vaccine",
+  "statement": "Seasonal influenza vaccine annually.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A person aged 65 or over should have a seasonal flu vaccine every year.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Influenza vaccines, the medicines that meet this criterion",
+      "ingredients": [
+        "influenza vaccine"
+      ],
+      "brands": {
+        "influenza vaccine": [
+          "Fluad",
+          "Fluad Quad",
+          "Fluarix Tetra",
+          "Vaxigrip Tetra",
+          "Afluria Quad",
+          "Flucelvax Quad",
+          "Influvac Tetra",
+          "Fluzone High-Dose Quadrivalent",
+          "Fluzone High-Dose Quad",
+          "Fluzone High-Dose",
+          "Fluzone",
+          "Fluarix",
+          "Vaxigrip",
+          "Flucelvax",
+          "Influvac"
+        ]
+      },
+      "note": "Brand names change each year with the strains, so a pack that shows an influenza vaccine by ingredient or a new brand also counts. Match the formulation to the season under review. A brand or supply date alone does not prove administration."
+    }
+  ],
+  "rule_for_models": "For a person aged 65 or older, assess the Australian influenza vaccine formulation for the season under review once it is available. If age is unknown and the other evidence would support a finding, report only a possible finding and ask the pharmacist to confirm the age. Assess availability on the review date. For a retrospective record with no separate review date, use the latest dated record entry, including a vaccination status entry. If availability is uncertain, defer the omission check and ask the pharmacist to confirm availability. If the formulation was not yet available, give no current-season omission. Use the administration date and product or an explicit current-season vaccination status. Use the date the dose was given when it differs from the date the status was recorded. Documented administration for the current season clears the finding. Report no omission if the record documents a contraindication, an informed decision to decline this season's vaccine, another valid reason for omission, or end-of-life care with a palliative focus. Confirmed absence of this season's dose supports a finding once the vaccine is available and due. If the season cannot be identified, the history is unknown, or there is a current-season supply without documented administration, report a possible finding and request confirmation from the Australian Immunisation Register (AIR) or the vaccinator. Cite the deciding status or supply line if present, otherwise cite the last supply line.",
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Influenza vaccination status",
+      "meets": "Once the Australian formulation is available, vaccination history confirms no administration for the season under review. Use the administration date and product or an explicit current-season status. An uncertain season, unknown history or supply alone calls for confirmation from AIR or the vaccinator.",
+      "options": [
+        {
+          "words": "This season's vaccine is available and due, and no dose has been given",
+          "effect": "meets"
+        },
+        {
+          "words": "This season's dose was given",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "The patient made an informed decision to decline this season's dose",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "There is a documented clinical reason to omit or defer this season's dose",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "This season's vaccine is not yet available",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "cannot_be_seen": "Vaccines given by a doctor, a council clinic or another pharmacy, and the national immunisation register. A history that does not show a vaccine does not prove none was given. Also a medical reason not to vaccinate. Before contacting the GP, ask whether the patient received this season's vaccine elsewhere or has a medical reason to defer it. Check the available AIR record or confirm with the vaccinator when administration is uncertain.",
+  "ask_the_gp": "A check of whether this season's influenza vaccine has been given, and whether to arrange it.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

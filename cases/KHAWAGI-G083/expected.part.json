@@ -1,0 +1,44 @@
+[
+  {
+    "file": "KHAWAGI-G083/pos-brand.csv",
+    "kind": "positive",
+    "about": "Zoloft starts two days into a 100-day Eldepryl supply, with both brands directed daily.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G083",
+        "must_cite": [
+          [
+            "L017"
+          ],
+          [
+            "L018"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G083/pos-buried.csv",
+    "kind": "positive",
+    "about": "Daily selegiline starts three days into a 50-day course of nightly amitriptyline.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G083",
+        "must_cite": [
+          [
+            "L039"
+          ],
+          [
+            "L041"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G083/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Selegiline starts 50 days after sertraline supply and 21 days after its directed final dose.",
+    "findings": []
+  }
+]

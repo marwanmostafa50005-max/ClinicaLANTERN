@@ -1,0 +1,128 @@
+{
+  "id": "KHAWAGI-G043",
+  "label": "Khawagi review: Review tricyclic antidepressant treatment for a current episode of bipolar depression in an adult",
+  "family": "KHAWAGI",
+  "title": "Review tricyclic antidepressant treatment for a current episode of bipolar depression in an adult",
+  "statement": "Review tricyclic antidepressant treatment for a current episode of bipolar depression in an adult.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Khawagi et al. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. S3 File.",
+    "citation": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. PLoS ONE 2019;14(5):e0217406.",
+    "doi": "10.1371/journal.pone.0217406",
+    "url": "https://doi.org/10.1371/journal.pone.0217406.s003",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. PLoS ONE 2019;14(5):e0217406. https://doi.org/10.1371/journal.pone.0217406; S3 File, https://doi.org/10.1371/journal.pone.0217406.s003. © 2019 Khawagi et al., CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). S3 File, Table 2, printed row 56 of 91, PDF p.2. Original screening wording and Australian adaptations. S3 reference(s) as indexed in the supplied qualification: [49]. Clinical cross-check: RANZCP mood guideline (https://www.ranzcp.org/getmedia/a4678cf4-91f5-4746-99d4-03dc7379ae51/mood-disorders-clinical-practice-guideline-2020.pdf).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "Review tricyclic antidepressant treatment for a current episode of bipolar depression in an adult.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Tricyclic antidepressants",
+      "ingredients": [
+        "amitriptyline",
+        "nortriptyline",
+        "imipramine",
+        "clomipramine",
+        "doxepin",
+        "dosulepin",
+        "trimipramine"
+      ],
+      "brands": {
+        "amitriptyline": [
+          "Amitriptyline AN",
+          "Endep",
+          "Entrip",
+          "Amichlor",
+          "Amidep"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortriptyline (Apo)",
+          "Nortritabs"
+        ],
+        "imipramine": [
+          "Imipramine Hcl (Leading Pharma)",
+          "Melipramine",
+          "Tofranil",
+          "Tolerade"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Clomipramine (Apo)",
+          "Clomipramine (Wgr)",
+          "Clomipramine Hydrochloride (Chemmart)",
+          "Clomipramine Hydrochloride (Genrx)",
+          "Clomipramine Hydrochloride (Terry White Chemists)",
+          "Placil"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "dosulepin": [
+          "Dosulepin (Mylan)",
+          "Dosulepin (Viatris)",
+          "Dothep",
+          "Prothiaden"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ]
+      },
+      "note": "Count oral tricyclics. A compounded topical preparation for local use does not establish treatment for bipolar depression. Older labels may call dosulepin dothiepin."
+    }
+  ],
+  "rule_for_models": "For an oral Group A tricyclic, give no finding if the person was under 18 at supply, bipolar disorder or a current depressive episode was ruled out, or the medicine was for another reason. Give a finding only if the person was at least 18 at supply and clinical records or pharmacist answers confirm a bipolar depressive episode at that supply and link the tricyclic to that episode, citing the supply and the evidence for the episode and indication. If the other evidence fits, report only a possible finding. Name Acute bipolar depression if the episode at supply is unclear and Tricyclic treatment indication if the reason for the supply is unclear. Ask only for the missing facts, including age at supply if needed.",
+  "cannot_be_seen": "Dispensing does not establish actual use, indication or a prescriber’s intent. Treatment and assessments elsewhere may be missing.",
+  "ask_the_gp": "Could you confirm why the tricyclic was prescribed and review its suitability if it is treating a current episode of bipolar depression?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Acute bipolar depression",
+      "meets": "A dated clinical assessment confirms an acute bipolar depressive episode at this supply. The pharmacist can confirm what the assessment showed. Bipolar disorder alone does not establish an episode. If the episode status is unknown, leave it open.",
+      "options": [
+        {
+          "words": "A dated assessment confirms acute bipolar depression at the antidepressant supply under review",
+          "effect": "meets"
+        },
+        {
+          "words": "Acute bipolar depression was ruled out at that supply",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Tricyclic treatment indication",
+      "meets": "The record or pharmacist confirms this tricyclic was prescribed for the bipolar depressive episode present at this supply. Another reason excludes it. An unknown reason leaves it open.",
+      "options": [
+        {
+          "words": "For the bipolar depressive episode present at this supply",
+          "effect": "meets"
+        },
+        {
+          "words": "For another reason, such as neuropathic pain",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "condition",
+      "what": "Bipolar disorder",
+      "meets": "A recorded diagnosis supports asking about the current episode and the reason for treatment. A dated assessment confirming a bipolar depressive episode also establishes bipolar disorder."
+    }
+  ]
+}

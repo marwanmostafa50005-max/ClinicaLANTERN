@@ -1,0 +1,52 @@
+[
+  {
+    "file": "NHSBSA-PAIN03/pos-brand.csv",
+    "kind": "positive",
+    "about": "Nine brand-only Norspan supplies of two weekly patches every 14 days cover 126 consecutive days including the final supply.",
+    "findings": [
+      {
+        "criterion": "NHSBSA-PAIN03",
+        "must_cite": [
+          [
+            "L011",
+            "L015",
+            "L016",
+            "L020",
+            "L021",
+            "L025",
+            "L026",
+            "L030",
+            "L031"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "NHSBSA-PAIN03/pos-buried.csv",
+    "kind": "positive",
+    "about": "Seven monthly OxyContin supplies of 56 tablets taken one tablet twice daily cover 196 days including the final supply and excluding the short gaps between refills.",
+    "findings": [
+      {
+        "criterion": "NHSBSA-PAIN03",
+        "must_cite": [
+          [
+            "L033",
+            "L039",
+            "L045",
+            "L050",
+            "L056",
+            "L061",
+            "L067"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "NHSBSA-PAIN03/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Two OxyContin supplies on 4 August and 1 September 2026 (28 days between dispense dates, 56 tablets taken twice daily each) cover 8 weeks (56 days) of treatment, which is less than 3 months and does not meet the duration rule.",
+    "findings": []
+  }
+]

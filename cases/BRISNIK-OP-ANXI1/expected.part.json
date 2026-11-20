@@ -1,0 +1,53 @@
+[
+  {
+    "file": "BRISNIK-OP-ANXI1/pos-fact.csv",
+    "kind": "positive",
+    "about": "Escitalopram supplies span at least 8 weeks for generalised anxiety disorder, and the six-month assessment documents no clinically relevant improvement on 10 mg daily.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-ANXI1",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L011"
+          ],
+          [
+            "L015"
+          ],
+          [
+            "L031"
+          ],
+          [
+            "L030"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-ANXI1/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the supplies could cover eight weeks, but age, indication, dose adequacy and \"Anxiety response at or after 8 weeks on this antidepressant course (enter the assessment in words and its date)\" are unknown.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-ANXI1",
+        "must_cite": [
+          [
+            "L007"
+          ],
+          [
+            "L010"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-ANXI1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Lexapro (escitalopram) is supplied every month for 9 months but the anxiety score falls from 18 to 6 points, a clear improvement, so it must not flag.",
+    "findings": []
+  }
+]

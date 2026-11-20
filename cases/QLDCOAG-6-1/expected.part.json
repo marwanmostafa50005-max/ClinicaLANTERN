@@ -1,0 +1,51 @@
+[
+  {
+    "file": "QLDCOAG-6-1/pos-fact.csv",
+    "kind": "positive",
+    "about": "Marevan supplies during the current pregnancy are supported by a pregnancy row recording 8 weeks gestation as Present on 14 October 2026.",
+    "findings": [
+      {
+        "criterion": "QLDCOAG-6-1",
+        "must_cite": [
+          [
+            "L034",
+            "L038",
+            "L042"
+          ],
+          [
+            "L039"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "QLDCOAG-6-1/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about Pregnancy (including gestation in weeks if known), and Coumadin is supplied to a fictional 32-year-old woman.",
+    "findings": [
+      {
+        "criterion": "QLDCOAG-6-1",
+        "must_cite": [
+          [
+            "L006",
+            "L009",
+            "L012",
+            "L015",
+            "L019",
+            "L022",
+            "L026",
+            "L030",
+            "L033"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "QLDCOAG-6-1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Marevan is supplied to a fictional 30-year-old woman, but pregnancy is recorded as Absent with a negative pregnancy test.",
+    "findings": []
+  }
+]

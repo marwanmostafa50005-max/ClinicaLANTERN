@@ -1,0 +1,38 @@
+[
+  {
+    "file": "FDADSC-8/pos-brand.csv",
+    "kind": "positive",
+    "about": "Tramal 100 mg/mL oral drops appear by brand only for a 9-year-old child.",
+    "findings": [
+      {
+        "criterion": "FDADSC-8",
+        "must_cite": [
+          [
+            "L013"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "FDADSC-8/pos-buried.csv",
+    "kind": "positive",
+    "about": "Panadeine Forte is buried in the middle of a long safe paediatric history for a 7-year-old child.",
+    "findings": [
+      {
+        "criterion": "FDADSC-8",
+        "must_cite": [
+          [
+            "L030"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "FDADSC-8/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Tramal is supplied to a 14-year-old with no tonsillectomy or adenoidectomy row, so the under-12 rule does not apply.",
+    "findings": []
+  }
+]

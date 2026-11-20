@@ -1,0 +1,34 @@
+[
+  {
+    "file": "EU7-F15/pos-brand.csv",
+    "kind": "positive",
+    "about": "Glybosay (acarbose), by brand name only, is supplied nine times from January to September 2026 to a 73-year-old woman.",
+    "findings": [
+      {
+        "criterion": "EU7-F15",
+        "must_cite": [
+          ["L004", "L007", "L012", "L015", "L019", "L022", "L027", "L030", "L034"]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F15/pos-buried.csv",
+    "kind": "positive",
+    "about": "Acarbose (Glybosay) 100 mg is supplied three times from January to March 2026 to a 68-year-old man, in the middle of a 14-month history.",
+    "findings": [
+      {
+        "criterion": "EU7-F15",
+        "must_cite": [
+          ["L033", "L037", "L043"]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F15/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Acarbose (Glybosay) is supplied every month, but the patient is 58 years old, so she is not an older person and the criterion is not met.",
+    "findings": []
+  }
+]

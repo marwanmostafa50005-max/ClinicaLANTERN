@@ -1,0 +1,85 @@
+{
+  "id": "POPI-65",
+  "label": "POPI: desmopressin for bedwetting with daytime urinary symptoms",
+  "family": "POPI",
+  "title": "Desmopressin for bedwetting with daytime urinary symptoms",
+  "statement": "Desmopressin in the case of daytime symptoms",
+  "statement_origin": "published",
+  "source": {
+    "document": "International consensus validation of the POPI tool (Pediatrics: Omission of Prescriptions and Inappropriate prescriptions) to identify inappropriate prescribing in pediatrics",
+    "citation": "Sadozai L, Sable S, Le Roux E, et al. International consensus validation of the POPI tool (Pediatrics: Omission of Prescriptions and Inappropriate prescriptions) to identify inappropriate prescribing in pediatrics. PLOS ONE. 2020;15(10):e0240105.",
+    "doi": "10.1371/journal.pone.0240105",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0240105",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "© 2020 Sadozai et al. Table 2, International consensus validation of the POPI tool. PLOS ONE 15(10), e0240105. https://doi.org/10.1371/journal.pone.0240105. CC BY 4.0.",
+    "modification_notice": "Table 2 wording is reproduced unchanged. The record rules, medicine mappings and fictional examples are local adaptations."
+  },
+  "plain_summary": "POPI flags desmopressin used for bedwetting in a child or adolescent with current daytime urinary symptoms. Review the symptoms and whether desmopressin remains suitable for bedwetting.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Desmopressin",
+      "ingredients": [
+        "desmopressin"
+      ],
+      "brands": {
+        "desmopressin": [
+          "Minirin",
+          "Adin",
+          "Adin Melt",
+          "Desmomed",
+          "Minirin Melt",
+          "Nocdurna"
+        ]
+      },
+      "note": "Use the indication to identify treatment for bedwetting. Exclude desmopressin injections, including Octostim injection."
+    }
+  ],
+  "rule_for_models": "If a person under 18 receives Group A desmopressin for documented bedwetting and has current daytime urinary symptoms, cite the supply, the diagnosis and the symptom record as a POPI review finding. At age 18 or older, give no finding. Exclude Octostim supplies even if the form is missing. If age is unknown, a qualifying Group A supply with no recorded exclusion gives only a possible finding. Ask for the age at supply and name any other missing facts. For each desmopressin supply, report no finding if the record shows it was used solely for another indication, or if daytime urinary symptoms were explicitly absent during treatment. Only if neither exclusion applies and the indication or daytime symptom history is missing, report a possible finding and name each missing fact.",
+  "cannot_be_seen": "A supply does not show daytime bladder symptoms, response to treatment or the reason the prescriber chose desmopressin.",
+  "ask_the_gp": "Could you review the daytime urinary symptoms and whether desmopressin remains suitable for the bedwetting?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Nocturnal enuresis",
+      "meets": "Bedwetting was present during the treatment period under review. The diagnosis alone cannot establish why a particular medicine was supplied. Use the directions, a linked indication or the pharmacist's confirmation to identify the medicine used for bedwetting. If the link is unclear, leave the finding possible unless another fact rules it out.",
+      "options": [
+        {
+          "words": "Bedwetting was present during the treatment period under review",
+          "effect": "meets"
+        },
+        {
+          "words": "Bedwetting was absent during the treatment period under review",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Daytime urinary symptoms",
+      "meets": "For the desmopressin supply under review, daytime urgency, frequent urination, wetting or other daytime urinary symptoms were present during treatment. Confirmed absence gives no finding. An unknown history leaves the finding possible if the other requirements hold.",
+      "options": [
+        {
+          "words": "Daytime urgency, frequent urination, wetting or other daytime urinary symptoms were present during treatment",
+          "effect": "meets"
+        },
+        {
+          "words": "Daytime urinary symptoms were absent during treatment",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

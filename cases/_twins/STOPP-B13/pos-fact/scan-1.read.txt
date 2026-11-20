@@ -1,0 +1,22 @@
+2025-07-02 | RESULT: Serum potassium 4.8 mmol/L
+2026-01-08 | Coversyl 5 mg tablet | qty 30 | repeats 1 | Take ONE tablet in the morning | Dr A. Ex
+2026-01-08 | Crestor 20 mg tablet | qty 30 | repeats 1 | Take ONE tablet daily | Dr A. Ex
+2026-01-08 | Bicor (bisoprolol) 5 mg tablet | qty 28 | repeats 4 | Take ONE tablet daily | Dr A. Ex
+2026-02-05 | Bicor (bisoprolol) 5 mg tablet | qty 28 | repeats 3 | Take ONE tablet daily | Dr A. Ex
+2026-02-07 | Coversyl 5 mg tablet | qty 30 | repeats 0 | Take ONE tablet in the morning | Dr A. Ex
+2026-02-07 | Crestor 20 mg tablet | qty 30 | repeats 0 | Take ONE tablet daily | Dr A. Ex
+2026-02-19 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day, swallow whole | Dr A. Ex
+2026-03-06 | Bicor (bisoprolol) 5 mg tablet | qty 28 | repeats 2 | Take ONE tablet daily | Dr A. Ex
+2026-03-10 | Coversyl 5 mg tablet | qty 30 | repeats 5 | Take ONE tablet in the morning | Dr A. Ex
+2026-03-10 | Crestor 20 mg tablet | qty 30 | repeats 5 | Take ONE tablet daily | Dr A. Ex
+2026-03-17 | Aldactone 25 mg tablet | qty 100 | repeats 5 | Take ONE tablet daily | Dr B. Sa
+2026-04-03 | Bicor (bisoprolol) 5 mg tablet | qty 28 | repeats 1 | Take ONE tablet daily | Dr A. Ex
+2026-04-08 | Coversyl 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr A. Ex
+2026-04-08 | Crestor 20 mg tablet | qty 30 | repeats 4 | Take ONE tablet daily | Dr A. Ex
+2026-04-30 | Bicor (bisoprolol) 5 mg tablet | qty 28 | repeats 0 | Take ONE tablet daily | Dr A. Ex
+2026-05-10 | Coversyl 5 mg tablet | qty 30 | repeats 3 | Take ONE tablet in the morning | Dr A. Ex
+2026-05-10 | Crestor 20 mg tablet | qty 30 | repeats 3 | Take ONE tablet daily | Dr A. Ex
+2026-05-14 | Keflex (cefalexin) 500 mg capsule | qty 20 | repeats 0 | Take ONE capsule four times a day until finished | Dr C. Sp
+2026-05-30 | Bicor (bisoprolol) 5 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily | Dr A. Ex
+2026-06-09 | Coversyl 5 mg tablet | qty 30 | repeats 2 | Take ONE tablet in the morning | Dr A. Ex
+2026-06-09 | Crestor 20 mg tablet | qty 30 | repeats 2 | Take ONE tablet daily | Dr A. Ex

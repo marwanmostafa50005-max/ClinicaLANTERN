@@ -1,0 +1,746 @@
+{
+ "what": "A sample of the proposed criteria run through the real local models after the answer forms were changed (the explanation first, the yes or no last). Fictional patients only. The proposed criteria are not signed and not in use.",
+ "when": "2026-11-17T23:42:28.431Z",
+ "models": {
+  "screen": "lantern-screen",
+  "check": "lantern-check"
+ },
+ "how": "Each criterion on its own three histories from cases/expected.proposed.json: every screen call first, then the second check for each suspected finding. No letters.",
+ "summary": {
+  "histories": 18,
+  "planted": 12,
+  "caught": 12,
+  "nearMisses": 6,
+  "falseFlags": 0,
+  "callsTriedTwice": 0
+ },
+ "results": [
+  {
+   "file": "STOPP-C10/pos-brand.csv",
+   "criterion": "STOPP-C10",
+   "kind": "positive",
+   "verdict": "caught",
+   "mustCite": [
+    [
+     "L022",
+     "L026",
+     "L030",
+     "L034"
+    ],
+    [
+     "L001",
+     "L004",
+     "L007",
+     "L011",
+     "L015",
+     "L019",
+     "L023",
+     "L027",
+     "L031",
+     "L035"
+    ]
+   ],
+   "screen": {
+    "suspected": true,
+    "lineIds": [
+     "L001",
+     "L004",
+     "L007",
+     "L011",
+     "L015",
+     "L019",
+     "L022",
+     "L023",
+     "L026",
+     "L027",
+     "L030",
+     "L031",
+     "L034",
+     "L035"
+    ],
+    "reason": "The patient is taking apixaban (Eliquis) and meloxicam (Mobic), which are Group B and Group A medicines respectively. Their supply dates overlap, meeting the criterion.",
+    "seconds": 16.36
+   },
+   "check": {
+    "confirmed": true,
+    "completed": true,
+    "unclear": false,
+    "lineIds": [
+     "L019",
+     "L022"
+    ],
+    "whatMatches": "The patient is dispensed apixaban (Eliquis) and meloxicam (Mobic). The supply of Mobic starting on 2026-06-17 (L022) overlaps with the supply of Eliquis starting on 2026-06-05 (L019), and subsequent supplies of both medicines continue to overlap or fall within 60 days of each other.",
+    "seconds": 14.6
+   }
+  },
+  {
+   "file": "STOPP-C10/pos-buried.csv",
+   "criterion": "STOPP-C10",
+   "kind": "positive",
+   "verdict": "caught",
+   "mustCite": [
+    [
+     "L036",
+     "L041",
+     "L047"
+    ],
+    [
+     "L001",
+     "L010",
+     "L016",
+     "L025",
+     "L035",
+     "L042",
+     "L052",
+     "L058",
+     "L067",
+     "L076"
+    ]
+   ],
+   "screen": {
+    "suspected": true,
+    "lineIds": [
+     "L001",
+     "L010",
+     "L016",
+     "L025",
+     "L035",
+     "L036",
+     "L041",
+     "L042",
+     "L047",
+     "L052",
+     "L058",
+     "L067",
+     "L076"
+    ],
+    "reason": "Naproxen (NSAID) and warfarin (vitamin K antagonist) are both present, and their supply dates overlap.",
+    "seconds": 9.76
+   },
+   "check": {
+    "confirmed": true,
+    "completed": true,
+    "unclear": false,
+    "lineIds": [
+     "L035",
+     "L036",
+     "L041",
+     "L042",
+     "L047",
+     "L052"
+    ],
+    "whatMatches": "Naproxen (L036, L041, L047) and warfarin (L035, L042, L052) are both present in the history with supply dates falling within 60 days of each other.",
+    "seconds": 8.78
+   }
+  },
+  {
+   "file": "STOPP-C10/near-miss.csv",
+   "criterion": "STOPP-C10",
+   "kind": "near_miss",
+   "verdict": "clear, as it should be",
+   "mustCite": [],
+   "screen": {
+    "suspected": false,
+    "lineIds": [],
+    "reason": "Diclofenac (Group A) and rivaroxaban (Group B) are both present. The supply of diclofenac on 2025-09-09 is more than 60 days before the first supply of rivaroxaban on 2026-04-14, but the rule is not met as there is no overlap or 60-day proximity.",
+    "seconds": 7.68
+   },
+   "check": null
+  },
+  {
+   "file": "STOPP-B3/pos-brand.csv",
+   "criterion": "STOPP-B3",
+   "kind": "positive",
+   "verdict": "caught",
+   "mustCite": [
+    [
+     "L001",
+     "L007",
+     "L013",
+     "L017",
+     "L025",
+     "L031"
+    ],
+    [
+     "L020",
+     "L024",
+     "L028",
+     "L032",
+     "L035"
+    ]
+   ],
+   "screen": {
+    "suspected": true,
+    "lineIds": [
+     "L001",
+     "L007",
+     "L013",
+     "L017",
+     "L020",
+     "L024",
+     "L025",
+     "L028",
+     "L031",
+     "L032",
+     "L035"
+    ],
+    "reason": "The patient is taking Betaloc (metoprolol) and Cardizem CD (diltiazem), with supply dates that overlap.",
+    "seconds": 7.96
+   },
+   "check": {
+    "confirmed": true,
+    "completed": true,
+    "unclear": false,
+    "lineIds": [
+     "L024",
+     "L025"
+    ],
+    "whatMatches": "The history contains supplies of Betaloc (metoprolol) and Cardizem CD (diltiazem) with overlapping dates, such as L025 (2026-07-23) and L024 (2026-07-16).",
+    "seconds": 6.32
+   }
+  },
+  {
+   "file": "STOPP-B3/pos-buried.csv",
+   "criterion": "STOPP-B3",
+   "kind": "positive",
+   "verdict": "caught",
+   "mustCite": [
+    [
+     "L001",
+     "L006",
+     "L011",
+     "L017",
+     "L022",
+     "L028",
+     "L033",
+     "L039",
+     "L045",
+     "L051",
+     "L057",
+     "L062",
+     "L068",
+     "L073",
+     "L078"
+    ],
+    [
+     "L036",
+     "L042",
+     "L048",
+     "L054"
+    ]
+   ],
+   "screen": {
+    "suspected": true,
+    "lineIds": [
+     "L033",
+     "L036",
+     "L039",
+     "L042",
+     "L045",
+     "L048",
+     "L051",
+     "L054",
+     "L057",
+     "L062",
+     "L068",
+     "L073",
+     "L078"
+    ],
+    "reason": "The patient is taking atenolol (Group A) and verapamil (Group B), with supply dates that overlap.",
+    "seconds": 9.89
+   },
+   "check": {
+    "confirmed": true,
+    "completed": true,
+    "unclear": false,
+    "lineIds": [
+     "L033",
+     "L036"
+    ],
+    "whatMatches": "The history shows continuous supply of atenolol (Group A) and verapamil (Group B) starting from January 2026, with overlapping supply dates such as L033 (2026-01-04) and L036 (2026-01-13).",
+    "seconds": 8.12
+   }
+  },
+  {
+   "file": "STOPP-B3/near-miss.csv",
+   "criterion": "STOPP-B3",
+   "kind": "near_miss",
+   "verdict": "clear, as it should be",
+   "mustCite": [],
+   "screen": {
+    "suspected": false,
+    "lineIds": [],
+    "reason": "The patient is taking a beta-blocker (metoprolol), but no medicines from Group B (verapamil or diltiazem) are present in the history. Amlodipine is a calcium channel blocker that does not count toward this criterion.",
+    "seconds": 5.89
+   },
+   "check": null
+  },
+  {
+   "file": "STOPP-D8/pos-brand.csv",
+   "criterion": "STOPP-D8",
+   "kind": "positive",
+   "verdict": "caught",
+   "mustCite": [
+    [
+     "L005",
+     "L009",
+     "L012",
+     "L015",
+     "L019",
+     "L022",
+     "L026",
+     "L028"
+    ]
+   ],
+   "screen": {
+    "suspected": true,
+    "lineIds": [
+     "L005",
+     "L009",
+     "L012",
+     "L015",
+     "L019",
+     "L022",
+     "L026",
+     "L028"
+    ],
+    "reason": "Temazepam is supplied repeatedly from February to September 2026, covering far more than 4 weeks.",
+    "seconds": 6.82
+   },
+   "check": {
+    "confirmed": true,
+    "completed": true,
+    "unclear": false,
+    "lineIds": [
+     "L005",
+     "L009",
+     "L012",
+     "L015",
+     "L019",
+     "L022",
+     "L026",
+     "L028"
+    ],
+    "whatMatches": "Temazepam (a benzodiazepine) is supplied on L005 (2026-02-19), L009 (2026-03-19), L012 (2026-04-16), L015 (2026-05-14), L019 (2026-06-11), L022 (2026-07-09), L026 (2026-08-06), and L028 (2026-09-03). These supplies are spaced approximately 28-30 days apart, indicating continuous use for several months.",
+    "seconds": 10.25
+   }
+  },
+  {
+   "file": "STOPP-D8/pos-buried.csv",
+   "criterion": "STOPP-D8",
+   "kind": "positive",
+   "verdict": "caught",
+   "mustCite": [
+    [
+     "L031",
+     "L036",
+     "L041",
+     "L046",
+     "L047"
+    ]
+   ],
+   "screen": {
+    "suspected": true,
+    "lineIds": [
+     "L031",
+     "L036",
+     "L041",
+     "L046",
+     "L047"
+    ],
+    "reason": "The patient was supplied diazepam on four separate dates (L031, L036, L041, L046, L047) within a few months, covering significantly more than 4 weeks.",
+    "seconds": 8.13
+   },
+   "check": {
+    "confirmed": true,
+    "completed": true,
+    "unclear": false,
+    "lineIds": [
+     "L031",
+     "L036",
+     "L041",
+     "L046",
+     "L047"
+    ],
+    "whatMatches": "Diazepam (Antenex) was supplied on 2026-01-15 (L031), 2026-02-10 (L036), 2026-03-07 (L041), 2026-04-02 (L046), and 2026-04-28 (L047). Each supply is 50 tablets at a dose of twice daily (25 days' supply), and the intervals between supplies are less than 60 days, resulting in continuous coverage exceeding 4 weeks.",
+    "seconds": 10.88
+   }
+  },
+  {
+   "file": "STOPP-D8/near-miss.csv",
+   "criterion": "STOPP-D8",
+   "kind": "near_miss",
+   "verdict": "clear, as it should be",
+   "mustCite": [],
+   "screen": {
+    "suspected": false,
+    "lineIds": [],
+    "reason": "Temazepam is present in the history, but the two supplies (L003 and L029) are nearly a year apart and each is only for 7 days, not meeting the 4-week duration rule.",
+    "seconds": 5.45
+   },
+   "check": null
+  },
+  {
+   "file": "PINCER-9/pos-brand.csv",
+   "criterion": "PINCER-9",
+   "kind": "positive",
+   "verdict": "caught",
+   "mustCite": [
+    [
+     "L003",
+     "L008",
+     "L013",
+     "L020",
+     "L024",
+     "L030"
+    ]
+   ],
+   "screen": {
+    "suspected": true,
+    "lineIds": [
+     "L030"
+    ],
+    "reason": "The patient is receiving Methoblastin (methotrexate). The most recent prescription (L030) does not contain the word 'week' or 'weekly' in the instructions.",
+    "seconds": 5.45
+   },
+   "check": {
+    "confirmed": true,
+    "completed": true,
+    "unclear": false,
+    "lineIds": [
+     "L030"
+    ],
+    "whatMatches": "The most recent supply of Methoblastin (methotrexate) is on line L030 dated 2026-09-15. The instructions 'Take as directed by your specialist' do not contain the word 'week' or 'weekly'.",
+    "seconds": 5.98
+   }
+  },
+  {
+   "file": "PINCER-9/pos-buried.csv",
+   "criterion": "PINCER-9",
+   "kind": "positive",
+   "verdict": "caught",
+   "mustCite": [
+    [
+     "L023",
+     "L038",
+     "L057"
+    ]
+   ],
+   "screen": {
+    "suspected": true,
+    "lineIds": [
+     "L057"
+    ],
+    "reason": "The patient is receiving Methoblastin (methotrexate). The most recent prescription (L057) has instructions 'Take ONE tablet daily', which does not contain the word 'week' or 'weekly'.",
+    "seconds": 6.85
+   },
+   "check": {
+    "confirmed": true,
+    "completed": true,
+    "unclear": false,
+    "lineIds": [
+     "L057"
+    ],
+    "whatMatches": "The most recent supply of methotrexate (Methoblastin) is on line L057 dated 2026-07-14. The dosage instructions state 'Take ONE tablet daily', which does not contain the word 'week' or 'weekly'.",
+    "seconds": 7.51
+   }
+  },
+  {
+   "file": "PINCER-9/near-miss.csv",
+   "criterion": "PINCER-9",
+   "kind": "near_miss",
+   "verdict": "clear, as it should be",
+   "mustCite": [],
+   "screen": {
+    "suspected": false,
+    "lineIds": [],
+    "reason": "The patient is receiving methotrexate. The most recent prescription (L032) contains the word 'weekly' in the instructions, so the rule is not met.",
+    "seconds": 5.02
+   },
+   "check": null
+  },
+  {
+   "file": "STOPP-L2/pos-brand.csv",
+   "criterion": "STOPP-L2",
+   "kind": "positive",
+   "verdict": "caught",
+   "mustCite": [
+    [
+     "L009",
+     "L010",
+     "L013",
+     "L014",
+     "L017",
+     "L018",
+     "L021",
+     "L023",
+     "L026",
+     "L027",
+     "L030",
+     "L031",
+     "L032",
+     "L035",
+     "L036"
+    ]
+   ],
+   "screen": {
+    "suspected": true,
+    "lineIds": [
+     "L009",
+     "L010",
+     "L013",
+     "L014",
+     "L017",
+     "L018",
+     "L021",
+     "L023",
+     "L026",
+     "L027",
+     "L030",
+     "L031",
+     "L032",
+     "L035",
+     "L036"
+    ],
+    "reason": "Palexia SR (tapentadol) is supplied for regular daily use (every 12 hours), but no Group B laxatives are present in the dispensing history.",
+    "seconds": 9.35
+   },
+   "check": {
+    "confirmed": true,
+    "completed": true,
+    "unclear": false,
+    "lineIds": [
+     "L009",
+     "L010",
+     "L013",
+     "L014",
+     "L017",
+     "L018",
+     "L021",
+     "L023",
+     "L026",
+     "L027",
+     "L030",
+     "L031",
+     "L032",
+     "L035",
+     "L036"
+    ],
+    "whatMatches": "Palexia SR (tapentadol) is supplied for regular daily use (every 12 hours) on multiple dates from L009 to L036, and no Group B laxatives are present in the dispensing history.",
+    "seconds": 9.27
+   }
+  },
+  {
+   "file": "STOPP-L2/pos-buried.csv",
+   "criterion": "STOPP-L2",
+   "kind": "positive",
+   "verdict": "caught",
+   "mustCite": [
+    [
+     "L028",
+     "L029",
+     "L034",
+     "L035",
+     "L041",
+     "L042",
+     "L043",
+     "L048"
+    ]
+   ],
+   "screen": {
+    "suspected": true,
+    "lineIds": [
+     "L028",
+     "L029",
+     "L034",
+     "L035",
+     "L041",
+     "L042",
+     "L043",
+     "L048"
+    ],
+    "reason": "Oxycodone is supplied for regular daily use (every 12 hours), but no laxatives from Group B are present in the dispensing history.",
+    "seconds": 8.79
+   },
+   "check": {
+    "confirmed": true,
+    "completed": true,
+    "unclear": false,
+    "lineIds": [
+     "L028",
+     "L029",
+     "L034",
+     "L035",
+     "L041",
+     "L042",
+     "L043",
+     "L048"
+    ],
+    "whatMatches": "Oxycodone (OxyContin) is supplied for regular daily use (every 12 hours) on lines L028, L029, L034, L035, L041, L042, L043, and L048, with no Group B laxatives present in the dispensing history.",
+    "seconds": 9.98
+   }
+  },
+  {
+   "file": "STOPP-L2/near-miss.csv",
+   "criterion": "STOPP-L2",
+   "kind": "near_miss",
+   "verdict": "clear, as it should be",
+   "mustCite": [],
+   "screen": {
+    "suspected": false,
+    "lineIds": [],
+    "reason": "The patient is prescribed tapentadol (Palexia SR) for regular daily use, but they are also prescribed macrogol 3350 (Movicol), which is a laxative that overlaps with the opioid supplies.",
+    "seconds": 6.26
+   },
+   "check": null
+  },
+  {
+   "file": "STOPP-C14/pos-brand.csv",
+   "criterion": "STOPP-C14",
+   "kind": "positive",
+   "verdict": "caught",
+   "mustCite": [
+    [
+     "L001",
+     "L003",
+     "L006",
+     "L009",
+     "L012",
+     "L016",
+     "L020",
+     "L023",
+     "L026",
+     "L029"
+    ],
+    [
+     "L007",
+     "L010",
+     "L013",
+     "L017",
+     "L021",
+     "L024",
+     "L027",
+     "L030"
+    ]
+   ],
+   "screen": {
+    "suspected": true,
+    "lineIds": [
+     "L001",
+     "L003",
+     "L006",
+     "L007",
+     "L009",
+     "L010",
+     "L012",
+     "L013",
+     "L016",
+     "L017",
+     "L020",
+     "L021",
+     "L023",
+     "L024",
+     "L026",
+     "L027",
+     "L029",
+     "L030"
+    ],
+    "reason": "The patient is taking apixaban (Eliquis) and verapamil (Isoptin SR), which are Group A and Group B medicines respectively, with overlapping supply dates.",
+    "seconds": 9.85
+   },
+   "check": {
+    "confirmed": true,
+    "completed": true,
+    "unclear": false,
+    "lineIds": [
+     "L001",
+     "L007"
+    ],
+    "whatMatches": "The history shows supplies of apixaban (Eliquis) and verapamil (Isoptin SR) with overlapping dates, such as L001 (2026-01-12) and L007 (2026-03-12), which fall within the 60-day window.",
+    "seconds": 6.69
+   }
+  },
+  {
+   "file": "STOPP-C14/pos-buried.csv",
+   "criterion": "STOPP-C14",
+   "kind": "positive",
+   "verdict": "caught",
+   "mustCite": [
+    [
+     "L001",
+     "L005",
+     "L009",
+     "L014",
+     "L018",
+     "L023",
+     "L027",
+     "L031",
+     "L037",
+     "L041",
+     "L045",
+     "L049",
+     "L054",
+     "L058",
+     "L062",
+     "L066"
+    ],
+    [
+     "L035",
+     "L036"
+    ]
+   ],
+   "screen": {
+    "suspected": true,
+    "lineIds": [
+     "L001",
+     "L005",
+     "L009",
+     "L014",
+     "L018",
+     "L023",
+     "L027",
+     "L031",
+     "L035",
+     "L036",
+     "L037",
+     "L041",
+     "L045",
+     "L049",
+     "L054",
+     "L058",
+     "L062",
+     "L066"
+    ],
+    "reason": "The patient is taking rivaroxaban (Group A) and was prescribed clarithromycin (Group B). The supply dates for clarithromycin (L035, L036) overlap with the ongoing supply of rivaroxaban (L031, L037).",
+    "seconds": 11.95
+   },
+   "check": {
+    "confirmed": true,
+    "completed": true,
+    "unclear": false,
+    "lineIds": [
+     "L031",
+     "L035",
+     "L036",
+     "L037"
+    ],
+    "whatMatches": "The patient was dispensed rivaroxaban (Group A) on 2026-01-22 (L031) and 2026-02-19 (L037), which overlaps with the supply of clarithromycin (Group B) on 2026-02-09 (L035) and 2026-02-17 (L036).",
+    "seconds": 9.47
+   }
+  },
+  {
+   "file": "STOPP-C14/near-miss.csv",
+   "criterion": "STOPP-C14",
+   "kind": "near_miss",
+   "verdict": "clear, as it should be",
+   "mustCite": [],
+   "screen": {
+    "suspected": false,
+    "lineIds": [],
+    "reason": "Apixaban and clarithromycin are present, but they were supplied more than 60 days apart (2025-11-12 and 2026-06-09).",
+    "seconds": 5.32
+   },
+   "check": null
+  }
+ ]
+}

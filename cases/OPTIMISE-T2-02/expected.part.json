@@ -1,0 +1,48 @@
+[
+  {
+    "file": "OPTIMISE-T2-02/pos-fact.csv",
+    "kind": "positive",
+    "about": "Schizophrenia is recorded and no statin is supplied. The later QRISK3 10-year score is 14% after an earlier score of 8%.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T2-02",
+        "must_cite": [
+          [
+            "L022"
+          ],
+          [
+            "L023"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T2-02/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: quetiapine suggests severe mental illness, but the diagnosis and validated 10-year risk result are missing and no statin is supplied.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T2-02",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L008",
+            "L011",
+            "L016",
+            "L019",
+            "L022",
+            "L026"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T2-02/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The latest QRISK3 10-year score is 6% after an earlier score of 12%, with schizophrenia recorded and no statin supplied.",
+    "findings": []
+  }
+]

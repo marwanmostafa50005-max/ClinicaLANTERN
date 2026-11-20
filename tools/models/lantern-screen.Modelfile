@@ -1,0 +1,8 @@
+# ClinicaLANTERN, model 1 (shown to the pharmacist as Mantle): it screens a history against one criterion and reads pictures.
+# Put the two model files beside this file. With the model server up:  ollama create lantern-screen -f lantern-screen.Modelfile
+FROM ./gemma-4-31B_q4_0-it.gguf
+FROM ./gemma-4-31B-it-mmproj.gguf
+PARAMETER temperature 0
+PARAMETER seed 42
+PARAMETER top_k 1
+PARAMETER num_ctx 16384

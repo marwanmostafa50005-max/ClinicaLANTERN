@@ -1,0 +1,2478 @@
+{
+ "note": "A real run on the entrant's computer on 18 November 2026, with the three local models through Ollama 0.40.15. The steps of the pharmacist were made by the join test script, not by a person. Fictional patient. No real person.",
+ "how": "npm run smoke",
+ "recordedAt": "2026-11-18T01:03:40.556Z",
+ "models": {
+  "screen": "lantern-screen",
+  "check": "lantern-check",
+  "letter": "lantern-letter"
+ },
+ "criteria": [
+  {
+   "id": "DEMO-NSAID-ANTICOAG",
+   "label": "Demo criterion (NSAID with an anticoagulant)",
+   "family": "Demo",
+   "title": "Test stand-in: an NSAID supplied with an oral anticoagulant",
+   "statement": "A non-steroidal anti-inflammatory drug (NSAID) supplied to a person who is also being supplied an oral anticoagulant (risk of major bleeding).",
+   "statement_origin": "entrant",
+   "source": {
+    "document": "Test wording written for this prototype",
+    "citation": "Written by the entrant to test the engine. It is not the published wording of any criterion.",
+    "licence": "The entrant's own wording. No outside licence applies.",
+    "licence_status": "proposed",
+    "credit": "Test wording written by the entrant for this prototype. It is not a published criterion."
+   },
+   "plain_summary": "An anti-inflammatory pain medicine and a blood thinner supplied together can raise the risk of serious bleeding.",
+   "medicine_groups": [
+    {
+     "key": "A",
+     "name": "Oral NSAIDs",
+     "ingredients": [
+      "ibuprofen",
+      "diclofenac",
+      "naproxen",
+      "celecoxib",
+      "meloxicam",
+      "indometacin",
+      "piroxicam",
+      "ketoprofen",
+      "mefenamic acid",
+      "etoricoxib"
+     ],
+     "brands": {
+      "ibuprofen": [
+       "Nurofen",
+       "Brufen",
+       "Advil"
+      ],
+      "diclofenac": [
+       "Voltaren",
+       "Fenac"
+      ],
+      "naproxen": [
+       "Naprosyn",
+       "Naprogesic",
+       "Anaprox"
+      ],
+      "celecoxib": [
+       "Celebrex"
+      ],
+      "meloxicam": [
+       "Mobic"
+      ],
+      "indometacin": [
+       "Indocid"
+      ],
+      "piroxicam": [
+       "Feldene"
+      ],
+      "ketoprofen": [
+       "Orudis"
+      ],
+      "mefenamic acid": [
+       "Ponstan"
+      ],
+      "etoricoxib": [
+       "Arcoxia"
+      ]
+     }
+    },
+    {
+     "key": "B",
+     "name": "Oral anticoagulants",
+     "ingredients": [
+      "warfarin",
+      "dabigatran",
+      "apixaban",
+      "rivaroxaban"
+     ],
+     "brands": {
+      "warfarin": [
+       "Coumadin",
+       "Marevan"
+      ],
+      "dabigatran": [
+       "Pradaxa"
+      ],
+      "apixaban": [
+       "Eliquis"
+      ],
+      "rivaroxaban": [
+       "Xarelto"
+      ]
+     }
+    }
+   ],
+   "rule_for_models": "Suspect a finding when at least one Group A medicine AND at least one Group B medicine both appear in the history with supply dates that overlap or fall within 60 days of each other.",
+   "cannot_be_seen": "Why the anticoagulant was started, kidney function, any history of bleeding, and any pain or stomach medicines bought without a prescription.",
+   "ask_the_gp": "Whether the NSAID is still needed while the anticoagulant continues, and the patient's risk of bleeding.",
+   "urgency": "routine",
+   "draft": true,
+   "signed_by_clinical_reviewer": null
+  }
+ ],
+ "state": {
+  "version": 1,
+  "cases": [
+   {
+    "id": "C0001",
+    "fileName": "positive.csv",
+    "importedAt": "2026-11-18T01:00:40.038Z",
+    "source": "csv",
+    "patient": {
+     "label": "Fictional patient F-001",
+     "age": 72,
+     "sex": "F"
+    },
+    "lines": [
+     {
+      "id": "L001",
+      "text": "2026-01-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L002",
+      "text": "2026-01-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L003",
+      "text": "2026-01-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L004",
+      "text": "2026-01-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L005",
+      "text": "2026-02-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L006",
+      "text": "2026-02-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L007",
+      "text": "2026-02-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L008",
+      "text": "2026-02-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L009",
+      "text": "2026-03-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L010",
+      "text": "2026-03-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L011",
+      "text": "2026-03-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L012",
+      "text": "2026-03-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L013",
+      "text": "2026-03-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+     },
+     {
+      "id": "L014",
+      "text": "2026-04-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L015",
+      "text": "2026-04-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L016",
+      "text": "2026-04-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L017",
+      "text": "2026-04-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L018",
+      "text": "2026-04-19 | Amoxil (amoxicillin) 500 mg capsule | qty 20 | repeats 0 | Take ONE capsule three times a day until finished | Dr G. Sample"
+     },
+     {
+      "id": "L019",
+      "text": "2026-05-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L020",
+      "text": "2026-05-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L021",
+      "text": "2026-05-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L022",
+      "text": "2026-05-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L023",
+      "text": "2026-06-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L024",
+      "text": "2026-06-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L025",
+      "text": "2026-06-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L026",
+      "text": "2026-06-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L027",
+      "text": "2026-07-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L028",
+      "text": "2026-07-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L029",
+      "text": "2026-07-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L030",
+      "text": "2026-07-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L031",
+      "text": "2026-07-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+     },
+     {
+      "id": "L032",
+      "text": "2026-08-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L033",
+      "text": "2026-08-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L034",
+      "text": "2026-08-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L035",
+      "text": "2026-08-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L036",
+      "text": "2026-08-21 | Celebrex 200 mg capsule | qty 30 | repeats 2 | Take ONE capsule daily with food | Dr G. Sample"
+     },
+     {
+      "id": "L037",
+      "text": "2026-09-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L038",
+      "text": "2026-09-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L039",
+      "text": "2026-09-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L040",
+      "text": "2026-09-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L041",
+      "text": "2026-09-20 | Celebrex 200 mg capsule | qty 30 | repeats 1 | Take ONE capsule daily with food | Dr G. Sample"
+     },
+     {
+      "id": "L042",
+      "text": "2026-10-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L043",
+      "text": "2026-10-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L044",
+      "text": "2026-10-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L045",
+      "text": "2026-10-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     }
+    ],
+    "transcriptionConfirmed": true,
+    "parts": 1,
+    "screening": {
+     "status": "done",
+     "criteria": [
+      {
+       "criterionId": "DEMO-NSAID-ANTICOAG",
+       "status": "suspected",
+       "seconds": 16.1
+      }
+     ],
+     "startedAt": "2026-11-18T01:00:40.043Z",
+     "finishedAt": "2026-11-18T01:00:56.139Z"
+    }
+   },
+   {
+    "id": "C0002",
+    "fileName": "near-miss.csv",
+    "importedAt": "2026-11-18T01:01:32.024Z",
+    "source": "csv",
+    "patient": {
+     "label": "Fictional patient F-002",
+     "age": 72,
+     "sex": "F"
+    },
+    "lines": [
+     {
+      "id": "L001",
+      "text": "2026-01-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L002",
+      "text": "2026-01-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L003",
+      "text": "2026-01-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L004",
+      "text": "2026-01-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L005",
+      "text": "2026-02-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L006",
+      "text": "2026-02-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L007",
+      "text": "2026-02-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L008",
+      "text": "2026-02-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L009",
+      "text": "2026-03-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L010",
+      "text": "2026-03-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L011",
+      "text": "2026-03-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L012",
+      "text": "2026-03-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L013",
+      "text": "2026-03-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+     },
+     {
+      "id": "L014",
+      "text": "2026-04-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L015",
+      "text": "2026-04-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L016",
+      "text": "2026-04-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L017",
+      "text": "2026-04-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L018",
+      "text": "2026-04-19 | Amoxil (amoxicillin) 500 mg capsule | qty 20 | repeats 0 | Take ONE capsule three times a day until finished | Dr G. Sample"
+     },
+     {
+      "id": "L019",
+      "text": "2026-05-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L020",
+      "text": "2026-05-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L021",
+      "text": "2026-05-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L022",
+      "text": "2026-05-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L023",
+      "text": "2026-06-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L024",
+      "text": "2026-06-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L025",
+      "text": "2026-06-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L026",
+      "text": "2026-06-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L027",
+      "text": "2026-07-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L028",
+      "text": "2026-07-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L029",
+      "text": "2026-07-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L030",
+      "text": "2026-07-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L031",
+      "text": "2026-07-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+     },
+     {
+      "id": "L032",
+      "text": "2026-08-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L033",
+      "text": "2026-08-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L034",
+      "text": "2026-08-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L035",
+      "text": "2026-08-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L036",
+      "text": "2026-09-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L037",
+      "text": "2026-09-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L038",
+      "text": "2026-09-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L039",
+      "text": "2026-09-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L040",
+      "text": "2026-10-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L041",
+      "text": "2026-10-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L042",
+      "text": "2026-10-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L043",
+      "text": "2026-10-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     }
+    ],
+    "transcriptionConfirmed": true,
+    "parts": 1,
+    "screening": {
+     "status": "done",
+     "criteria": [
+      {
+       "criterionId": "DEMO-NSAID-ANTICOAG",
+       "status": "clear",
+       "seconds": 16.2,
+       "reason": "The patient is taking rivaroxaban (Xarelto), but no medicines from Group A (NSAIDs) are present in the dispensing history."
+      }
+     ],
+     "startedAt": "2026-11-18T01:01:32.031Z",
+     "finishedAt": "2026-11-18T01:01:48.261Z"
+    }
+   },
+   {
+    "id": "C0003",
+    "fileName": "positive.csv",
+    "importedAt": "2026-11-18T01:01:48.369Z",
+    "source": "csv",
+    "patient": {
+     "label": "Fictional patient F-001",
+     "age": 72,
+     "sex": "F"
+    },
+    "lines": [
+     {
+      "id": "L001",
+      "text": "2026-01-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L002",
+      "text": "2026-01-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L003",
+      "text": "2026-01-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L004",
+      "text": "2026-01-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L005",
+      "text": "2026-02-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L006",
+      "text": "2026-02-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L007",
+      "text": "2026-02-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L008",
+      "text": "2026-02-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L009",
+      "text": "2026-03-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L010",
+      "text": "2026-03-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L011",
+      "text": "2026-03-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L012",
+      "text": "2026-03-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L013",
+      "text": "2026-03-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+     },
+     {
+      "id": "L014",
+      "text": "2026-04-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L015",
+      "text": "2026-04-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L016",
+      "text": "2026-04-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L017",
+      "text": "2026-04-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L018",
+      "text": "2026-04-19 | Amoxil (amoxicillin) 500 mg capsule | qty 20 | repeats 0 | Take ONE capsule three times a day until finished | Dr G. Sample"
+     },
+     {
+      "id": "L019",
+      "text": "2026-05-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L020",
+      "text": "2026-05-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L021",
+      "text": "2026-05-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L022",
+      "text": "2026-05-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L023",
+      "text": "2026-06-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L024",
+      "text": "2026-06-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L025",
+      "text": "2026-06-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L026",
+      "text": "2026-06-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L027",
+      "text": "2026-07-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L028",
+      "text": "2026-07-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L029",
+      "text": "2026-07-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L030",
+      "text": "2026-07-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L031",
+      "text": "2026-07-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+     },
+     {
+      "id": "L032",
+      "text": "2026-08-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L033",
+      "text": "2026-08-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L034",
+      "text": "2026-08-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L035",
+      "text": "2026-08-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L036",
+      "text": "2026-08-21 | Celebrex 200 mg capsule | qty 30 | repeats 2 | Take ONE capsule daily with food | Dr G. Sample"
+     },
+     {
+      "id": "L037",
+      "text": "2026-09-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L038",
+      "text": "2026-09-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L039",
+      "text": "2026-09-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L040",
+      "text": "2026-09-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L041",
+      "text": "2026-09-20 | Celebrex 200 mg capsule | qty 30 | repeats 1 | Take ONE capsule daily with food | Dr G. Sample"
+     },
+     {
+      "id": "L042",
+      "text": "2026-10-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L043",
+      "text": "2026-10-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L044",
+      "text": "2026-10-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L045",
+      "text": "2026-10-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     }
+    ],
+    "transcriptionConfirmed": true,
+    "parts": 1,
+    "screening": {
+     "status": "done",
+     "criteria": [
+      {
+       "criterionId": "DEMO-NSAID-ANTICOAG",
+       "status": "suspected",
+       "seconds": 8
+      }
+     ],
+     "startedAt": "2026-11-18T01:01:48.375Z",
+     "finishedAt": "2026-11-18T01:01:56.387Z"
+    }
+   },
+   {
+    "id": "C0004",
+    "fileName": "long-split.csv",
+    "importedAt": "2026-11-18T01:02:15.354Z",
+    "source": "csv",
+    "patient": {
+     "label": "Fictional patient F-003",
+     "age": 74,
+     "sex": "M"
+    },
+    "lines": [
+     {
+      "id": "L001",
+      "text": "2024-01-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L002",
+      "text": "2024-02-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L003",
+      "text": "2024-03-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L004",
+      "text": "2024-04-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L005",
+      "text": "2024-05-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L006",
+      "text": "2024-06-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L007",
+      "text": "2024-07-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L008",
+      "text": "2024-08-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L009",
+      "text": "2024-09-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L010",
+      "text": "2024-10-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L011",
+      "text": "2024-11-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L012",
+      "text": "2024-12-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L013",
+      "text": "2025-01-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L014",
+      "text": "2025-02-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L015",
+      "text": "2025-03-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L016",
+      "text": "2025-04-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L017",
+      "text": "2025-05-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L018",
+      "text": "2025-06-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L019",
+      "text": "2025-07-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L020",
+      "text": "2025-08-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L021",
+      "text": "2025-09-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L022",
+      "text": "2025-10-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L023",
+      "text": "2025-11-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L024",
+      "text": "2025-12-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L025",
+      "text": "2026-01-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L026",
+      "text": "2026-02-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L027",
+      "text": "2026-03-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L028",
+      "text": "2026-04-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L029",
+      "text": "2026-05-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L030",
+      "text": "2026-06-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L031",
+      "text": "2026-07-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L032",
+      "text": "2026-08-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L033",
+      "text": "2026-09-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L034",
+      "text": "2026-10-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example"
+     },
+     {
+      "id": "L035",
+      "text": "2024-01-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L036",
+      "text": "2024-02-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L037",
+      "text": "2024-03-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L038",
+      "text": "2024-04-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L039",
+      "text": "2024-05-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L040",
+      "text": "2024-06-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L041",
+      "text": "2024-07-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L042",
+      "text": "2024-08-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L043",
+      "text": "2024-09-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L044",
+      "text": "2024-10-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L045",
+      "text": "2024-11-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L046",
+      "text": "2024-12-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L047",
+      "text": "2025-01-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L048",
+      "text": "2025-02-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L049",
+      "text": "2025-03-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L050",
+      "text": "2025-04-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L051",
+      "text": "2025-05-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L052",
+      "text": "2025-06-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L053",
+      "text": "2025-07-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L054",
+      "text": "2025-08-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L055",
+      "text": "2025-09-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L056",
+      "text": "2025-10-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L057",
+      "text": "2025-11-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L058",
+      "text": "2025-12-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L059",
+      "text": "2026-01-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L060",
+      "text": "2026-02-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L061",
+      "text": "2026-03-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L062",
+      "text": "2026-04-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L063",
+      "text": "2026-05-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L064",
+      "text": "2026-06-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L065",
+      "text": "2026-07-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L066",
+      "text": "2026-08-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L067",
+      "text": "2026-09-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L068",
+      "text": "2026-10-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example"
+     },
+     {
+      "id": "L069",
+      "text": "2024-01-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L070",
+      "text": "2024-02-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L071",
+      "text": "2024-03-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L072",
+      "text": "2024-04-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L073",
+      "text": "2024-05-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L074",
+      "text": "2024-06-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L075",
+      "text": "2024-07-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L076",
+      "text": "2024-08-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L077",
+      "text": "2024-09-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L078",
+      "text": "2024-10-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L079",
+      "text": "2024-11-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L080",
+      "text": "2024-12-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L081",
+      "text": "2025-01-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L082",
+      "text": "2025-02-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L083",
+      "text": "2025-03-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L084",
+      "text": "2025-04-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L085",
+      "text": "2025-05-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L086",
+      "text": "2025-06-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L087",
+      "text": "2025-07-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L088",
+      "text": "2025-08-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L089",
+      "text": "2025-09-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L090",
+      "text": "2025-10-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L091",
+      "text": "2025-11-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L092",
+      "text": "2025-12-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L093",
+      "text": "2026-01-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L094",
+      "text": "2026-02-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L095",
+      "text": "2026-03-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L096",
+      "text": "2026-04-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L097",
+      "text": "2026-05-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L098",
+      "text": "2026-06-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L099",
+      "text": "2026-07-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L100",
+      "text": "2026-08-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L101",
+      "text": "2026-09-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L102",
+      "text": "2026-10-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example"
+     },
+     {
+      "id": "L103",
+      "text": "2024-01-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L104",
+      "text": "2024-02-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L105",
+      "text": "2024-03-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L106",
+      "text": "2024-04-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L107",
+      "text": "2024-05-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L108",
+      "text": "2024-06-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L109",
+      "text": "2024-07-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L110",
+      "text": "2024-08-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L111",
+      "text": "2024-09-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L112",
+      "text": "2024-10-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L113",
+      "text": "2024-11-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L114",
+      "text": "2024-12-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L115",
+      "text": "2025-01-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L116",
+      "text": "2025-02-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L117",
+      "text": "2025-03-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L118",
+      "text": "2025-04-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L119",
+      "text": "2025-05-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L120",
+      "text": "2025-06-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L121",
+      "text": "2025-07-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L122",
+      "text": "2025-08-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L123",
+      "text": "2025-09-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L124",
+      "text": "2025-10-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L125",
+      "text": "2025-11-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L126",
+      "text": "2025-12-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L127",
+      "text": "2026-01-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L128",
+      "text": "2026-02-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L129",
+      "text": "2026-03-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L130",
+      "text": "2026-04-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L131",
+      "text": "2026-05-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L132",
+      "text": "2026-06-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L133",
+      "text": "2026-07-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L134",
+      "text": "2026-08-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L135",
+      "text": "2026-09-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L136",
+      "text": "2026-10-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example"
+     },
+     {
+      "id": "L137",
+      "text": "2024-01-12 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily before food | Dr F. Example"
+     },
+     {
+      "id": "L138",
+      "text": "2024-02-12 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily before food | Dr F. Example"
+     },
+     {
+      "id": "L139",
+      "text": "2024-03-12 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily before food | Dr F. Example"
+     },
+     {
+      "id": "L140",
+      "text": "2024-04-12 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily before food | Dr F. Example"
+     },
+     {
+      "id": "L141",
+      "text": "2024-05-12 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily before food | Dr F. Example"
+     },
+     {
+      "id": "L142",
+      "text": "2024-06-12 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily before food | Dr F. Example"
+     },
+     {
+      "id": "L143",
+      "text": "2024-07-12 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily before food | Dr F. Example"
+     },
+     {
+      "id": "L144",
+      "text": "2024-08-12 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily before food | Dr F. Example"
+     },
+     {
+      "id": "L145",
+      "text": "2024-09-12 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily before food | Dr F. Example"
+     },
+     {
+      "id": "L146",
+      "text": "2024-10-12 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily before food | Dr F. Example"
+     },
+     {
+      "id": "L147",
+      "text": "2024-11-12 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily before food | Dr F. Example"
+     },
+     {
+      "id": "L148",
+      "text": "2024-12-12 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily before food | Dr F. Example"
+     },
+     {
+      "id": "L149",
+      "text": "2025-01-12 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily before food | Dr F. Example"
+     },
+     {
+      "id": "L150",
+      "text": "2025-02-12 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily before food | Dr F. Example"
+     },
+     {
+      "id": "L151",
+      "text": "2025-03-12 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily before food | Dr F. Example"
+     },
+     {
+      "id": "L152",
+      "text": "2025-04-12 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily before food | Dr F. Example"
+     },
+     {
+      "id": "L153",
+      "text": "2025-05-12 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily before food | Dr F. Example"
+     },
+     {
+      "id": "L154",
+      "text": "2025-06-12 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily before food | Dr F. Example"
+     },
+     {
+      "id": "L155",
+      "text": "2025-07-12 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily before food | Dr F. Example"
+     },
+     {
+      "id": "L156",
+      "text": "2025-08-12 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily before food | Dr F. Example"
+     },
+     {
+      "id": "L157",
+      "text": "2025-09-12 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily before food | Dr F. Example"
+     },
+     {
+      "id": "L158",
+      "text": "2025-10-12 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily before food | Dr F. Example"
+     },
+     {
+      "id": "L159",
+      "text": "2025-11-12 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily before food | Dr F. Example"
+     },
+     {
+      "id": "L160",
+      "text": "2025-12-12 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily before food | Dr F. Example"
+     },
+     {
+      "id": "L161",
+      "text": "2026-01-12 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily before food | Dr F. Example"
+     },
+     {
+      "id": "L162",
+      "text": "2026-02-12 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily before food | Dr F. Example"
+     },
+     {
+      "id": "L163",
+      "text": "2026-03-12 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily before food | Dr F. Example"
+     },
+     {
+      "id": "L164",
+      "text": "2026-04-12 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily before food | Dr F. Example"
+     },
+     {
+      "id": "L165",
+      "text": "2026-05-12 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily before food | Dr F. Example"
+     },
+     {
+      "id": "L166",
+      "text": "2026-06-12 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily before food | Dr F. Example"
+     },
+     {
+      "id": "L167",
+      "text": "2026-07-12 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily before food | Dr F. Example"
+     },
+     {
+      "id": "L168",
+      "text": "2026-08-12 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily before food | Dr F. Example"
+     },
+     {
+      "id": "L169",
+      "text": "2026-09-12 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily before food | Dr F. Example"
+     },
+     {
+      "id": "L170",
+      "text": "2026-10-12 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily before food | Dr F. Example"
+     },
+     {
+      "id": "L171",
+      "text": "2024-01-12 | Ostelin (colecalciferol) 25 microgram capsule | qty 60 | repeats 2 | Take ONE capsule daily | Dr F. Example"
+     },
+     {
+      "id": "L172",
+      "text": "2024-02-12 | Ostelin (colecalciferol) 25 microgram capsule | qty 60 | repeats 2 | Take ONE capsule daily | Dr F. Example"
+     },
+     {
+      "id": "L173",
+      "text": "2024-03-12 | Ostelin (colecalciferol) 25 microgram capsule | qty 60 | repeats 2 | Take ONE capsule daily | Dr F. Example"
+     },
+     {
+      "id": "L174",
+      "text": "2024-04-12 | Ostelin (colecalciferol) 25 microgram capsule | qty 60 | repeats 2 | Take ONE capsule daily | Dr F. Example"
+     },
+     {
+      "id": "L175",
+      "text": "2024-05-12 | Ostelin (colecalciferol) 25 microgram capsule | qty 60 | repeats 2 | Take ONE capsule daily | Dr F. Example"
+     },
+     {
+      "id": "L176",
+      "text": "2024-06-12 | Ostelin (colecalciferol) 25 microgram capsule | qty 60 | repeats 2 | Take ONE capsule daily | Dr F. Example"
+     },
+     {
+      "id": "L177",
+      "text": "2024-07-12 | Ostelin (colecalciferol) 25 microgram capsule | qty 60 | repeats 2 | Take ONE capsule daily | Dr F. Example"
+     },
+     {
+      "id": "L178",
+      "text": "2024-08-12 | Ostelin (colecalciferol) 25 microgram capsule | qty 60 | repeats 2 | Take ONE capsule daily | Dr F. Example"
+     },
+     {
+      "id": "L179",
+      "text": "2024-09-12 | Ostelin (colecalciferol) 25 microgram capsule | qty 60 | repeats 2 | Take ONE capsule daily | Dr F. Example"
+     },
+     {
+      "id": "L180",
+      "text": "2024-10-12 | Ostelin (colecalciferol) 25 microgram capsule | qty 60 | repeats 2 | Take ONE capsule daily | Dr F. Example"
+     },
+     {
+      "id": "L181",
+      "text": "2024-11-12 | Ostelin (colecalciferol) 25 microgram capsule | qty 60 | repeats 2 | Take ONE capsule daily | Dr F. Example"
+     },
+     {
+      "id": "L182",
+      "text": "2024-12-12 | Ostelin (colecalciferol) 25 microgram capsule | qty 60 | repeats 2 | Take ONE capsule daily | Dr F. Example"
+     },
+     {
+      "id": "L183",
+      "text": "2025-01-12 | Ostelin (colecalciferol) 25 microgram capsule | qty 60 | repeats 2 | Take ONE capsule daily | Dr F. Example"
+     },
+     {
+      "id": "L184",
+      "text": "2025-02-12 | Ostelin (colecalciferol) 25 microgram capsule | qty 60 | repeats 2 | Take ONE capsule daily | Dr F. Example"
+     },
+     {
+      "id": "L185",
+      "text": "2025-03-12 | Ostelin (colecalciferol) 25 microgram capsule | qty 60 | repeats 2 | Take ONE capsule daily | Dr F. Example"
+     },
+     {
+      "id": "L186",
+      "text": "2025-04-12 | Ostelin (colecalciferol) 25 microgram capsule | qty 60 | repeats 2 | Take ONE capsule daily | Dr F. Example"
+     },
+     {
+      "id": "L187",
+      "text": "2025-05-12 | Ostelin (colecalciferol) 25 microgram capsule | qty 60 | repeats 2 | Take ONE capsule daily | Dr F. Example"
+     },
+     {
+      "id": "L188",
+      "text": "2025-06-12 | Ostelin (colecalciferol) 25 microgram capsule | qty 60 | repeats 2 | Take ONE capsule daily | Dr F. Example"
+     },
+     {
+      "id": "L189",
+      "text": "2025-07-12 | Ostelin (colecalciferol) 25 microgram capsule | qty 60 | repeats 2 | Take ONE capsule daily | Dr F. Example"
+     },
+     {
+      "id": "L190",
+      "text": "2025-08-12 | Ostelin (colecalciferol) 25 microgram capsule | qty 60 | repeats 2 | Take ONE capsule daily | Dr F. Example"
+     },
+     {
+      "id": "L191",
+      "text": "2025-09-12 | Ostelin (colecalciferol) 25 microgram capsule | qty 60 | repeats 2 | Take ONE capsule daily | Dr F. Example"
+     },
+     {
+      "id": "L192",
+      "text": "2025-10-12 | Ostelin (colecalciferol) 25 microgram capsule | qty 60 | repeats 2 | Take ONE capsule daily | Dr F. Example"
+     },
+     {
+      "id": "L193",
+      "text": "2025-11-12 | Ostelin (colecalciferol) 25 microgram capsule | qty 60 | repeats 2 | Take ONE capsule daily | Dr F. Example"
+     },
+     {
+      "id": "L194",
+      "text": "2025-12-12 | Ostelin (colecalciferol) 25 microgram capsule | qty 60 | repeats 2 | Take ONE capsule daily | Dr F. Example"
+     },
+     {
+      "id": "L195",
+      "text": "2026-01-12 | Ostelin (colecalciferol) 25 microgram capsule | qty 60 | repeats 2 | Take ONE capsule daily | Dr F. Example"
+     },
+     {
+      "id": "L196",
+      "text": "2026-02-12 | Ostelin (colecalciferol) 25 microgram capsule | qty 60 | repeats 2 | Take ONE capsule daily | Dr F. Example"
+     },
+     {
+      "id": "L197",
+      "text": "2026-03-12 | Ostelin (colecalciferol) 25 microgram capsule | qty 60 | repeats 2 | Take ONE capsule daily | Dr F. Example"
+     },
+     {
+      "id": "L198",
+      "text": "2026-04-12 | Ostelin (colecalciferol) 25 microgram capsule | qty 60 | repeats 2 | Take ONE capsule daily | Dr F. Example"
+     },
+     {
+      "id": "L199",
+      "text": "2026-05-12 | Ostelin (colecalciferol) 25 microgram capsule | qty 60 | repeats 2 | Take ONE capsule daily | Dr F. Example"
+     },
+     {
+      "id": "L200",
+      "text": "2026-06-12 | Ostelin (colecalciferol) 25 microgram capsule | qty 60 | repeats 2 | Take ONE capsule daily | Dr F. Example"
+     },
+     {
+      "id": "L201",
+      "text": "2026-07-12 | Ostelin (colecalciferol) 25 microgram capsule | qty 60 | repeats 2 | Take ONE capsule daily | Dr F. Example"
+     },
+     {
+      "id": "L202",
+      "text": "2026-08-12 | Ostelin (colecalciferol) 25 microgram capsule | qty 60 | repeats 2 | Take ONE capsule daily | Dr F. Example"
+     },
+     {
+      "id": "L203",
+      "text": "2026-09-12 | Ostelin (colecalciferol) 25 microgram capsule | qty 60 | repeats 2 | Take ONE capsule daily | Dr F. Example"
+     },
+     {
+      "id": "L204",
+      "text": "2026-10-12 | Ostelin (colecalciferol) 25 microgram capsule | qty 60 | repeats 2 | Take ONE capsule daily | Dr F. Example"
+     },
+     {
+      "id": "L205",
+      "text": "2024-01-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+     },
+     {
+      "id": "L206",
+      "text": "2024-02-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+     },
+     {
+      "id": "L207",
+      "text": "2024-03-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+     },
+     {
+      "id": "L208",
+      "text": "2024-04-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+     },
+     {
+      "id": "L209",
+      "text": "2024-05-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+     },
+     {
+      "id": "L210",
+      "text": "2024-06-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+     },
+     {
+      "id": "L211",
+      "text": "2024-07-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+     },
+     {
+      "id": "L212",
+      "text": "2024-08-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+     },
+     {
+      "id": "L213",
+      "text": "2024-09-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+     },
+     {
+      "id": "L214",
+      "text": "2024-10-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+     },
+     {
+      "id": "L215",
+      "text": "2024-11-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+     },
+     {
+      "id": "L216",
+      "text": "2024-12-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+     },
+     {
+      "id": "L217",
+      "text": "2025-01-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+     },
+     {
+      "id": "L218",
+      "text": "2025-02-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+     },
+     {
+      "id": "L219",
+      "text": "2025-03-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+     },
+     {
+      "id": "L220",
+      "text": "2025-04-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+     },
+     {
+      "id": "L221",
+      "text": "2025-05-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+     },
+     {
+      "id": "L222",
+      "text": "2025-06-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+     },
+     {
+      "id": "L223",
+      "text": "2025-07-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+     },
+     {
+      "id": "L224",
+      "text": "2025-08-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+     },
+     {
+      "id": "L225",
+      "text": "2025-09-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+     },
+     {
+      "id": "L226",
+      "text": "2025-10-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+     },
+     {
+      "id": "L227",
+      "text": "2025-11-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+     },
+     {
+      "id": "L228",
+      "text": "2025-12-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+     },
+     {
+      "id": "L229",
+      "text": "2026-01-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+     },
+     {
+      "id": "L230",
+      "text": "2026-02-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+     },
+     {
+      "id": "L231",
+      "text": "2026-03-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+     },
+     {
+      "id": "L232",
+      "text": "2026-04-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+     },
+     {
+      "id": "L233",
+      "text": "2026-05-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+     },
+     {
+      "id": "L234",
+      "text": "2026-06-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+     },
+     {
+      "id": "L235",
+      "text": "2026-07-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+     },
+     {
+      "id": "L236",
+      "text": "2026-08-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+     },
+     {
+      "id": "L237",
+      "text": "2026-09-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+     },
+     {
+      "id": "L238",
+      "text": "2026-10-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example"
+     },
+     {
+      "id": "L239",
+      "text": "2024-01-20 | Ventolin (salbutamol) 100 microgram inhaler | qty 2 | repeats 5 | TWO puffs when needed | Dr F. Example"
+     },
+     {
+      "id": "L240",
+      "text": "2024-02-20 | Ventolin (salbutamol) 100 microgram inhaler | qty 2 | repeats 5 | TWO puffs when needed | Dr F. Example"
+     },
+     {
+      "id": "L241",
+      "text": "2024-03-20 | Ventolin (salbutamol) 100 microgram inhaler | qty 2 | repeats 5 | TWO puffs when needed | Dr F. Example"
+     },
+     {
+      "id": "L242",
+      "text": "2024-04-20 | Ventolin (salbutamol) 100 microgram inhaler | qty 2 | repeats 5 | TWO puffs when needed | Dr F. Example"
+     },
+     {
+      "id": "L243",
+      "text": "2024-05-20 | Ventolin (salbutamol) 100 microgram inhaler | qty 2 | repeats 5 | TWO puffs when needed | Dr F. Example"
+     },
+     {
+      "id": "L244",
+      "text": "2024-06-20 | Ventolin (salbutamol) 100 microgram inhaler | qty 2 | repeats 5 | TWO puffs when needed | Dr F. Example"
+     },
+     {
+      "id": "L245",
+      "text": "2024-07-20 | Ventolin (salbutamol) 100 microgram inhaler | qty 2 | repeats 5 | TWO puffs when needed | Dr F. Example"
+     },
+     {
+      "id": "L246",
+      "text": "2024-08-20 | Ventolin (salbutamol) 100 microgram inhaler | qty 2 | repeats 5 | TWO puffs when needed | Dr F. Example"
+     },
+     {
+      "id": "L247",
+      "text": "2024-09-20 | Ventolin (salbutamol) 100 microgram inhaler | qty 2 | repeats 5 | TWO puffs when needed | Dr F. Example"
+     },
+     {
+      "id": "L248",
+      "text": "2024-10-20 | Ventolin (salbutamol) 100 microgram inhaler | qty 2 | repeats 5 | TWO puffs when needed | Dr F. Example"
+     },
+     {
+      "id": "L249",
+      "text": "2024-11-20 | Ventolin (salbutamol) 100 microgram inhaler | qty 2 | repeats 5 | TWO puffs when needed | Dr F. Example"
+     },
+     {
+      "id": "L250",
+      "text": "2024-12-20 | Ventolin (salbutamol) 100 microgram inhaler | qty 2 | repeats 5 | TWO puffs when needed | Dr F. Example"
+     },
+     {
+      "id": "L251",
+      "text": "2025-01-20 | Ventolin (salbutamol) 100 microgram inhaler | qty 2 | repeats 5 | TWO puffs when needed | Dr F. Example"
+     },
+     {
+      "id": "L252",
+      "text": "2025-02-20 | Ventolin (salbutamol) 100 microgram inhaler | qty 2 | repeats 5 | TWO puffs when needed | Dr F. Example"
+     },
+     {
+      "id": "L253",
+      "text": "2025-03-20 | Ventolin (salbutamol) 100 microgram inhaler | qty 2 | repeats 5 | TWO puffs when needed | Dr F. Example"
+     },
+     {
+      "id": "L254",
+      "text": "2025-04-20 | Ventolin (salbutamol) 100 microgram inhaler | qty 2 | repeats 5 | TWO puffs when needed | Dr F. Example"
+     },
+     {
+      "id": "L255",
+      "text": "2025-05-20 | Ventolin (salbutamol) 100 microgram inhaler | qty 2 | repeats 5 | TWO puffs when needed | Dr F. Example"
+     },
+     {
+      "id": "L256",
+      "text": "2025-06-20 | Ventolin (salbutamol) 100 microgram inhaler | qty 2 | repeats 5 | TWO puffs when needed | Dr F. Example"
+     },
+     {
+      "id": "L257",
+      "text": "2025-07-20 | Ventolin (salbutamol) 100 microgram inhaler | qty 2 | repeats 5 | TWO puffs when needed | Dr F. Example"
+     },
+     {
+      "id": "L258",
+      "text": "2025-08-20 | Ventolin (salbutamol) 100 microgram inhaler | qty 2 | repeats 5 | TWO puffs when needed | Dr F. Example"
+     },
+     {
+      "id": "L259",
+      "text": "2025-09-20 | Ventolin (salbutamol) 100 microgram inhaler | qty 2 | repeats 5 | TWO puffs when needed | Dr F. Example"
+     },
+     {
+      "id": "L260",
+      "text": "2025-10-20 | Ventolin (salbutamol) 100 microgram inhaler | qty 2 | repeats 5 | TWO puffs when needed | Dr F. Example"
+     },
+     {
+      "id": "L261",
+      "text": "2025-11-20 | Ventolin (salbutamol) 100 microgram inhaler | qty 2 | repeats 5 | TWO puffs when needed | Dr F. Example"
+     },
+     {
+      "id": "L262",
+      "text": "2025-12-20 | Ventolin (salbutamol) 100 microgram inhaler | qty 2 | repeats 5 | TWO puffs when needed | Dr F. Example"
+     },
+     {
+      "id": "L263",
+      "text": "2026-01-20 | Ventolin (salbutamol) 100 microgram inhaler | qty 2 | repeats 5 | TWO puffs when needed | Dr F. Example"
+     },
+     {
+      "id": "L264",
+      "text": "2026-02-20 | Ventolin (salbutamol) 100 microgram inhaler | qty 2 | repeats 5 | TWO puffs when needed | Dr F. Example"
+     },
+     {
+      "id": "L265",
+      "text": "2026-03-20 | Ventolin (salbutamol) 100 microgram inhaler | qty 2 | repeats 5 | TWO puffs when needed | Dr F. Example"
+     },
+     {
+      "id": "L266",
+      "text": "2026-04-20 | Ventolin (salbutamol) 100 microgram inhaler | qty 2 | repeats 5 | TWO puffs when needed | Dr F. Example"
+     },
+     {
+      "id": "L267",
+      "text": "2026-05-20 | Ventolin (salbutamol) 100 microgram inhaler | qty 2 | repeats 5 | TWO puffs when needed | Dr F. Example"
+     },
+     {
+      "id": "L268",
+      "text": "2026-06-20 | Ventolin (salbutamol) 100 microgram inhaler | qty 2 | repeats 5 | TWO puffs when needed | Dr F. Example"
+     },
+     {
+      "id": "L269",
+      "text": "2026-07-20 | Ventolin (salbutamol) 100 microgram inhaler | qty 2 | repeats 5 | TWO puffs when needed | Dr F. Example"
+     },
+     {
+      "id": "L270",
+      "text": "2026-08-20 | Ventolin (salbutamol) 100 microgram inhaler | qty 2 | repeats 5 | TWO puffs when needed | Dr F. Example"
+     },
+     {
+      "id": "L271",
+      "text": "2026-09-20 | Ventolin (salbutamol) 100 microgram inhaler | qty 2 | repeats 5 | TWO puffs when needed | Dr F. Example"
+     },
+     {
+      "id": "L272",
+      "text": "2026-10-20 | Ventolin (salbutamol) 100 microgram inhaler | qty 2 | repeats 5 | TWO puffs when needed | Dr F. Example"
+     },
+     {
+      "id": "L273",
+      "text": "2024-01-20 | Seretide (fluticasone propionate with salmeterol) 250/25 inhaler | qty 1 | repeats 5 | TWO puffs twice a day | Dr F. Example"
+     },
+     {
+      "id": "L274",
+      "text": "2024-02-20 | Seretide (fluticasone propionate with salmeterol) 250/25 inhaler | qty 1 | repeats 5 | TWO puffs twice a day | Dr F. Example"
+     },
+     {
+      "id": "L275",
+      "text": "2024-03-20 | Seretide (fluticasone propionate with salmeterol) 250/25 inhaler | qty 1 | repeats 5 | TWO puffs twice a day | Dr F. Example"
+     },
+     {
+      "id": "L276",
+      "text": "2024-04-20 | Seretide (fluticasone propionate with salmeterol) 250/25 inhaler | qty 1 | repeats 5 | TWO puffs twice a day | Dr F. Example"
+     },
+     {
+      "id": "L277",
+      "text": "2024-05-20 | Seretide (fluticasone propionate with salmeterol) 250/25 inhaler | qty 1 | repeats 5 | TWO puffs twice a day | Dr F. Example"
+     },
+     {
+      "id": "L278",
+      "text": "2024-06-20 | Seretide (fluticasone propionate with salmeterol) 250/25 inhaler | qty 1 | repeats 5 | TWO puffs twice a day | Dr F. Example"
+     },
+     {
+      "id": "L279",
+      "text": "2024-07-20 | Seretide (fluticasone propionate with salmeterol) 250/25 inhaler | qty 1 | repeats 5 | TWO puffs twice a day | Dr F. Example"
+     },
+     {
+      "id": "L280",
+      "text": "2024-08-20 | Seretide (fluticasone propionate with salmeterol) 250/25 inhaler | qty 1 | repeats 5 | TWO puffs twice a day | Dr F. Example"
+     },
+     {
+      "id": "L281",
+      "text": "2024-09-20 | Seretide (fluticasone propionate with salmeterol) 250/25 inhaler | qty 1 | repeats 5 | TWO puffs twice a day | Dr F. Example"
+     },
+     {
+      "id": "L282",
+      "text": "2024-10-20 | Seretide (fluticasone propionate with salmeterol) 250/25 inhaler | qty 1 | repeats 5 | TWO puffs twice a day | Dr F. Example"
+     },
+     {
+      "id": "L283",
+      "text": "2024-11-20 | Seretide (fluticasone propionate with salmeterol) 250/25 inhaler | qty 1 | repeats 5 | TWO puffs twice a day | Dr F. Example"
+     },
+     {
+      "id": "L284",
+      "text": "2024-12-20 | Seretide (fluticasone propionate with salmeterol) 250/25 inhaler | qty 1 | repeats 5 | TWO puffs twice a day | Dr F. Example"
+     },
+     {
+      "id": "L285",
+      "text": "2025-01-20 | Seretide (fluticasone propionate with salmeterol) 250/25 inhaler | qty 1 | repeats 5 | TWO puffs twice a day | Dr F. Example"
+     },
+     {
+      "id": "L286",
+      "text": "2025-02-20 | Seretide (fluticasone propionate with salmeterol) 250/25 inhaler | qty 1 | repeats 5 | TWO puffs twice a day | Dr F. Example"
+     },
+     {
+      "id": "L287",
+      "text": "2025-03-20 | Seretide (fluticasone propionate with salmeterol) 250/25 inhaler | qty 1 | repeats 5 | TWO puffs twice a day | Dr F. Example"
+     },
+     {
+      "id": "L288",
+      "text": "2025-04-20 | Seretide (fluticasone propionate with salmeterol) 250/25 inhaler | qty 1 | repeats 5 | TWO puffs twice a day | Dr F. Example"
+     },
+     {
+      "id": "L289",
+      "text": "2025-05-20 | Seretide (fluticasone propionate with salmeterol) 250/25 inhaler | qty 1 | repeats 5 | TWO puffs twice a day | Dr F. Example"
+     },
+     {
+      "id": "L290",
+      "text": "2025-06-20 | Seretide (fluticasone propionate with salmeterol) 250/25 inhaler | qty 1 | repeats 5 | TWO puffs twice a day | Dr F. Example"
+     },
+     {
+      "id": "L291",
+      "text": "2025-07-20 | Seretide (fluticasone propionate with salmeterol) 250/25 inhaler | qty 1 | repeats 5 | TWO puffs twice a day | Dr F. Example"
+     },
+     {
+      "id": "L292",
+      "text": "2025-08-20 | Seretide (fluticasone propionate with salmeterol) 250/25 inhaler | qty 1 | repeats 5 | TWO puffs twice a day | Dr F. Example"
+     },
+     {
+      "id": "L293",
+      "text": "2025-09-20 | Seretide (fluticasone propionate with salmeterol) 250/25 inhaler | qty 1 | repeats 5 | TWO puffs twice a day | Dr F. Example"
+     },
+     {
+      "id": "L294",
+      "text": "2025-10-20 | Seretide (fluticasone propionate with salmeterol) 250/25 inhaler | qty 1 | repeats 5 | TWO puffs twice a day | Dr F. Example"
+     },
+     {
+      "id": "L295",
+      "text": "2025-11-20 | Seretide (fluticasone propionate with salmeterol) 250/25 inhaler | qty 1 | repeats 5 | TWO puffs twice a day | Dr F. Example"
+     },
+     {
+      "id": "L296",
+      "text": "2025-12-20 | Seretide (fluticasone propionate with salmeterol) 250/25 inhaler | qty 1 | repeats 5 | TWO puffs twice a day | Dr F. Example"
+     },
+     {
+      "id": "L297",
+      "text": "2026-01-20 | Seretide (fluticasone propionate with salmeterol) 250/25 inhaler | qty 1 | repeats 5 | TWO puffs twice a day | Dr F. Example"
+     },
+     {
+      "id": "L298",
+      "text": "2026-02-20 | Seretide (fluticasone propionate with salmeterol) 250/25 inhaler | qty 1 | repeats 5 | TWO puffs twice a day | Dr F. Example"
+     },
+     {
+      "id": "L299",
+      "text": "2026-03-20 | Seretide (fluticasone propionate with salmeterol) 250/25 inhaler | qty 1 | repeats 5 | TWO puffs twice a day | Dr F. Example"
+     },
+     {
+      "id": "L300",
+      "text": "2026-04-20 | Seretide (fluticasone propionate with salmeterol) 250/25 inhaler | qty 1 | repeats 5 | TWO puffs twice a day | Dr F. Example"
+     },
+     {
+      "id": "L301",
+      "text": "2026-05-20 | Seretide (fluticasone propionate with salmeterol) 250/25 inhaler | qty 1 | repeats 5 | TWO puffs twice a day | Dr F. Example"
+     },
+     {
+      "id": "L302",
+      "text": "2026-06-20 | Seretide (fluticasone propionate with salmeterol) 250/25 inhaler | qty 1 | repeats 5 | TWO puffs twice a day | Dr F. Example"
+     },
+     {
+      "id": "L303",
+      "text": "2026-07-20 | Seretide (fluticasone propionate with salmeterol) 250/25 inhaler | qty 1 | repeats 5 | TWO puffs twice a day | Dr F. Example"
+     },
+     {
+      "id": "L304",
+      "text": "2026-08-20 | Seretide (fluticasone propionate with salmeterol) 250/25 inhaler | qty 1 | repeats 5 | TWO puffs twice a day | Dr F. Example"
+     },
+     {
+      "id": "L305",
+      "text": "2026-09-20 | Seretide (fluticasone propionate with salmeterol) 250/25 inhaler | qty 1 | repeats 5 | TWO puffs twice a day | Dr F. Example"
+     },
+     {
+      "id": "L306",
+      "text": "2026-10-20 | Seretide (fluticasone propionate with salmeterol) 250/25 inhaler | qty 1 | repeats 5 | TWO puffs twice a day | Dr F. Example"
+     },
+     {
+      "id": "L307",
+      "text": "2025-04-19 | Amoxil (amoxicillin) 500 mg capsule | qty 20 | repeats 0 | Take ONE capsule three times a day until finished | Dr G. Sample"
+     },
+     {
+      "id": "L308",
+      "text": "2026-04-22 | Amoxil (amoxicillin) 500 mg capsule | qty 20 | repeats 0 | Take ONE capsule three times a day until finished | Dr G. Sample"
+     },
+     {
+      "id": "L309",
+      "text": "2026-08-21 | Celebrex 200 mg capsule | qty 30 | repeats 2 | Take ONE capsule daily with food | Dr G. Sample"
+     },
+     {
+      "id": "L310",
+      "text": "2026-09-20 | Celebrex 200 mg capsule | qty 30 | repeats 1 | Take ONE capsule daily with food | Dr G. Sample"
+     }
+    ],
+    "transcriptionConfirmed": true,
+    "parts": 3,
+    "screening": {
+     "status": "done",
+     "criteria": [
+      {
+       "criterionId": "DEMO-NSAID-ANTICOAG",
+       "status": "suspected",
+       "seconds": 54.1
+      }
+     ],
+     "startedAt": "2026-11-18T01:02:15.360Z",
+     "finishedAt": "2026-11-18T01:03:09.503Z"
+    }
+   }
+  ],
+  "findings": [
+   {
+    "id": "F0001",
+    "caseId": "C0001",
+    "criterionId": "DEMO-NSAID-ANTICOAG",
+    "state": "accepted",
+    "screen": {
+     "lineIds": [
+      "L030",
+      "L035",
+      "L036",
+      "L040",
+      "L041",
+      "L045"
+     ],
+     "medicines": [
+      "celecoxib",
+      "rivaroxaban"
+     ],
+     "reason": "Celecoxib (Group A) and rivaroxaban (Group B) are both present, and their supply dates overlap.",
+     "linesVerified": true,
+     "model": "lantern-screen",
+     "at": "2026-11-18T01:00:40.048Z",
+     "seconds": 16.09
+    },
+    "seenByPharmacist": true,
+    "check": {
+     "confirmed": true,
+     "lineIds": [
+      "L030",
+      "L035",
+      "L036",
+      "L040",
+      "L041",
+      "L045"
+     ],
+     "whatMatches": "Celecoxib (L036, L041) and rivaroxaban (L030, L035, L040, L045) are both present in the history with supply dates that overlap or fall within 60 days of each other.",
+     "whatCannotBeSeen": "A dispensing history cannot confirm whether the patient actually consumed the medications or if the supplies were used concurrently.",
+     "completed": true,
+     "model": "lantern-check",
+     "at": "2026-11-18T01:00:56.143Z",
+     "seconds": 15.42
+    },
+    "decision": {
+     "action": "accept",
+     "by": "The pharmacist on duty",
+     "at": "2026-11-18T01:01:14.151Z"
+    }
+   },
+   {
+    "id": "F0002",
+    "caseId": "C0003",
+    "criterionId": "DEMO-NSAID-ANTICOAG",
+    "state": "bypassed",
+    "screen": {
+     "lineIds": [
+      "L030",
+      "L035",
+      "L036",
+      "L040",
+      "L041",
+      "L045"
+     ],
+     "medicines": [
+      "celecoxib",
+      "rivaroxaban"
+     ],
+     "reason": "Celecoxib (Group A) and rivaroxaban (Group B) are both present, and their supply dates overlap.",
+     "linesVerified": true,
+     "model": "lantern-screen",
+     "at": "2026-11-18T01:01:48.380Z",
+     "seconds": 8
+    },
+    "seenByPharmacist": true,
+    "check": {
+     "confirmed": true,
+     "lineIds": [
+      "L030",
+      "L035",
+      "L036",
+      "L040",
+      "L041",
+      "L045"
+     ],
+     "whatMatches": "Celecoxib (L036, L041) and rivaroxaban (L030, L035, L040, L045) are both present in the history with supply dates that overlap or fall within 60 days of each other.",
+     "whatCannotBeSeen": "A dispensing history cannot confirm whether the patient actually consumed the medications or if the supplies were used concurrently.",
+     "completed": true,
+     "model": "lantern-check",
+     "at": "2026-11-18T01:01:56.394Z",
+     "seconds": 18.73
+    },
+    "decision": {
+     "action": "bypass",
+     "by": "The pharmacist on duty",
+     "at": "2026-11-18T01:02:15.346Z",
+     "reason": "Join test: the doctor already knows and has a plan."
+    }
+   },
+   {
+    "id": "F0003",
+    "caseId": "C0004",
+    "criterionId": "DEMO-NSAID-ANTICOAG",
+    "state": "confirmed",
+    "screen": {
+     "lineIds": [
+      "L032",
+      "L309"
+     ],
+     "medicines": [
+      "rivaroxaban",
+      "celecoxib"
+     ],
+     "reason": "The patient is taking rivaroxaban (Xarelto) and was supplied celecoxib (Celebrex) on 2026-08-21, which is within 60 days of the rivaroxaban supply on 2026-08-08.",
+     "linesVerified": true,
+     "model": "lantern-screen",
+     "at": "2026-11-18T01:03:02.032Z",
+     "seconds": 54.14,
+     "listedLineIds": [
+      "L001",
+      "L002",
+      "L003",
+      "L004",
+      "L005",
+      "L006",
+      "L007",
+      "L008",
+      "L009",
+      "L010",
+      "L011",
+      "L012",
+      "L013",
+      "L014",
+      "L015",
+      "L016",
+      "L017",
+      "L018",
+      "L019",
+      "L020",
+      "L021",
+      "L022",
+      "L023",
+      "L024",
+      "L025",
+      "L026",
+      "L027",
+      "L028",
+      "L029",
+      "L030",
+      "L031",
+      "L032",
+      "L033",
+      "L034",
+      "L309",
+      "L310"
+     ]
+    },
+    "seenByPharmacist": true,
+    "check": {
+     "confirmed": true,
+     "lineIds": [
+      "L032",
+      "L309"
+     ],
+     "whatMatches": "The patient was supplied rivaroxaban (Xarelto) on 2026-08-08 (L032) and celecoxib (Celebrex) on 2026-08-21 (L309), which are within 60 days of each other.",
+     "whatCannotBeSeen": "A dispensing history cannot confirm whether the patient actually ingested the medications or if the supplies were used concurrently.",
+     "completed": true,
+     "model": "lantern-check",
+     "at": "2026-11-18T01:03:09.507Z",
+     "seconds": 15.28
+    }
+   }
+  ],
+  "letters": [
+   {
+    "id": "T0001",
+    "findingId": "F0001",
+    "caseId": "C0001",
+    "status": "closed",
+    "subject": "Clinical query regarding Celebrex and Xarelto for Fictional patient F-001",
+    "body": "Example Community Pharmacy (fictional)\n1 Example Street, Exampletown\nPhone: (00) 0000 0000\nPharmacist: The pharmacist on duty\n\n18 November 2026\n\nTo: Dr F. Example (fictional)\nExample Family Practice\n\nPatient: Fictional patient F-001, female, 72 years\nFictional patient. No real person.\n\nRe: Clinical query regarding Celebrex and Xarelto for Fictional patient F-001\n\nDear Doctor,\n\n(Edited by the pharmacist during the join test.)\n\nI am writing to note that this 72 year old female patient is being supplied a non-steroidal anti-inflammatory drug (NSAID) alongside an oral anticoagulant. This combination may increase the risk of major bleeding.\n\nThe patient has been supplied Xarelto 20 mg tablet on 8 July 2026, 8 August 2026, 8 September 2026, and 8 October 2026. Additionally, Celebrex 200 mg capsule was supplied on 21 August 2026 and 20 September 2026.\n\nCould you please review whether the NSAID is still needed while the anticoagulant continues, and assess the patient's risk of bleeding? Please let us know if you require any further information.\n\nThe criterion this is based on\nDemo criterion (NSAID with an anticoagulant): A non-steroidal anti-inflammatory drug (NSAID) supplied to a person who is also being supplied an oral anticoagulant (risk of major bleeding).\nSource: Test wording written by the entrant for this prototype. It is not a published criterion.\n\nDispensing lines from our records\n2026-07-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example\n2026-08-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example\n2026-08-21 | Celebrex 200 mg capsule | qty 30 | repeats 2 | Take ONE capsule daily with food | Dr G. Sample\n2026-09-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example\n2026-09-20 | Celebrex 200 mg capsule | qty 30 | repeats 1 | Take ONE capsule daily with food | Dr G. Sample\n2026-10-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example\n\nWhat a dispensing history cannot show\nWhy the anticoagulant was started, kidney function, any history of bleeding, and any pain or stomach medicines bought without a prescription.\n\nYours sincerely,\n\nThe pharmacist on duty\nExample Community Pharmacy (fictional)\n\nDrafted by a local AI model, reviewed and edited by the pharmacist.",
+    "editedByPharmacist": true,
+    "seenByPharmacist": true,
+    "draft": {
+     "subject": "Clinical query regarding Celebrex and Xarelto for Fictional patient F-001",
+     "body": "Example Community Pharmacy (fictional)\n1 Example Street, Exampletown\nPhone: (00) 0000 0000\nPharmacist: The pharmacist on duty\n\n18 November 2026\n\nTo: Dr F. Example (fictional)\nExample Family Practice\n\nPatient: Fictional patient F-001, female, 72 years\nFictional patient. No real person.\n\nRe: Clinical query regarding Celebrex and Xarelto for Fictional patient F-001\n\nDear Doctor,\n\nI am writing to note that this 72 year old female patient is being supplied a non-steroidal anti-inflammatory drug (NSAID) alongside an oral anticoagulant. This combination may increase the risk of major bleeding.\n\nThe patient has been supplied Xarelto 20 mg tablet on 8 July 2026, 8 August 2026, 8 September 2026, and 8 October 2026. Additionally, Celebrex 200 mg capsule was supplied on 21 August 2026 and 20 September 2026.\n\nCould you please review whether the NSAID is still needed while the anticoagulant continues, and assess the patient's risk of bleeding? Please let us know if you require any further information.\n\nThe criterion this is based on\nDemo criterion (NSAID with an anticoagulant): A non-steroidal anti-inflammatory drug (NSAID) supplied to a person who is also being supplied an oral anticoagulant (risk of major bleeding).\nSource: Test wording written by the entrant for this prototype. It is not a published criterion.\n\nDispensing lines from our records\n2026-07-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example\n2026-08-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example\n2026-08-21 | Celebrex 200 mg capsule | qty 30 | repeats 2 | Take ONE capsule daily with food | Dr G. Sample\n2026-09-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example\n2026-09-20 | Celebrex 200 mg capsule | qty 30 | repeats 1 | Take ONE capsule daily with food | Dr G. Sample\n2026-10-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example\n\nWhat a dispensing history cannot show\nWhy the anticoagulant was started, kidney function, any history of bleeding, and any pain or stomach medicines bought without a prescription.\n\nYours sincerely,\n\nThe pharmacist on duty\nExample Community Pharmacy (fictional)\n\nDrafted by a local AI model, reviewed and edited by the pharmacist.",
+     "origin": "model",
+     "checkNotes": [],
+     "model": "lantern-letter",
+     "at": "2026-11-18T01:01:14.155Z",
+     "seconds": 12.27
+    },
+    "patientAgreed": {
+     "at": "2026-11-18T01:01:29.339Z"
+    },
+    "sentAt": "2026-11-18T01:01:29.344Z",
+    "sentBy": "print",
+    "dueAt": "2026-11-25T01:01:29.344Z",
+    "reply": {
+     "at": "2026-11-18T01:01:30.721Z",
+     "outcome": "will_review",
+     "note": "Join test: the practice rang. The doctor will review the patient next week."
+    },
+    "closedAt": "2026-11-18T01:01:30.726Z"
+   }
+  ],
+  "jobs": [
+   {
+    "id": "J0001",
+    "stage": "screen",
+    "caseId": "C0001",
+    "status": "done",
+    "detail": "1 criterion screened"
+   },
+   {
+    "id": "J0002",
+    "stage": "check",
+    "caseId": "C0001",
+    "status": "done",
+    "findingId": "F0001",
+    "detail": "confirmed"
+   },
+   {
+    "id": "J0003",
+    "stage": "letter",
+    "caseId": "C0001",
+    "status": "done",
+    "findingId": "F0001",
+    "detail": "drafted by the model"
+   },
+   {
+    "id": "J0004",
+    "stage": "screen",
+    "caseId": "C0002",
+    "status": "done",
+    "detail": "1 criterion screened"
+   },
+   {
+    "id": "J0005",
+    "stage": "screen",
+    "caseId": "C0003",
+    "status": "done",
+    "detail": "1 criterion screened"
+   },
+   {
+    "id": "J0006",
+    "stage": "check",
+    "caseId": "C0003",
+    "status": "done",
+    "findingId": "F0002",
+    "detail": "confirmed"
+   },
+   {
+    "id": "J0007",
+    "stage": "screen",
+    "caseId": "C0004",
+    "status": "done",
+    "detail": "1 criterion screened"
+   },
+   {
+    "id": "J0008",
+    "stage": "check",
+    "caseId": "C0004",
+    "status": "done",
+    "findingId": "F0003",
+    "detail": "confirmed"
+   }
+  ],
+  "activity": [
+   {
+    "at": "2026-11-18T01:00:40.029Z",
+    "kind": "reset",
+    "text": "A clean demo was started. The earlier state was kept as state-2026-11-18T12-00-40.json."
+   },
+   {
+    "at": "2026-11-18T01:00:40.038Z",
+    "kind": "import",
+    "text": "History imported: positive.csv, 45 lines. Screening is queued.",
+    "caseId": "C0001"
+   },
+   {
+    "at": "2026-11-18T01:00:56.136Z",
+    "kind": "screen",
+    "text": "Model 1 suspects a finding for Demo criterion (NSAID with an anticoagulant) on positive.csv (criterion 1 of 1). It goes to the second check.",
+    "caseId": "C0001",
+    "criterionId": "DEMO-NSAID-ANTICOAG",
+    "model": "lantern-screen",
+    "findingId": "F0001"
+   },
+   {
+    "at": "2026-11-18T01:00:56.139Z",
+    "kind": "screen",
+    "text": "Model 1 finished screening positive.csv: 1 suspected finding goes to the second check.",
+    "caseId": "C0001",
+    "model": "lantern-screen"
+   },
+   {
+    "at": "2026-11-18T01:01:11.562Z",
+    "kind": "check",
+    "text": "Model 2 confirmed the finding for Demo criterion (NSAID with an anticoagulant) on positive.csv. It is waiting for the pharmacist.",
+    "caseId": "C0001",
+    "findingId": "F0001",
+    "criterionId": "DEMO-NSAID-ANTICOAG",
+    "model": "lantern-check"
+   },
+   {
+    "at": "2026-11-18T01:01:14.151Z",
+    "kind": "decision",
+    "text": "The pharmacist accepted the finding for Demo criterion (NSAID with an anticoagulant). A letter to the GP is queued.",
+    "caseId": "C0001",
+    "findingId": "F0001",
+    "criterionId": "DEMO-NSAID-ANTICOAG",
+    "letterId": "T0001"
+   },
+   {
+    "at": "2026-11-18T01:01:26.428Z",
+    "kind": "letter",
+    "text": "The letter for Demo criterion (NSAID with an anticoagulant) on positive.csv is ready. The letter checks found nothing.",
+    "caseId": "C0001",
+    "findingId": "F0001",
+    "letterId": "T0001",
+    "criterionId": "DEMO-NSAID-ANTICOAG",
+    "model": "lantern-letter"
+   },
+   {
+    "at": "2026-11-18T01:01:29.327Z",
+    "kind": "letter_status",
+    "text": "The pharmacist saved changes to letter T0001.",
+    "letterId": "T0001",
+    "findingId": "F0001",
+    "caseId": "C0001",
+    "criterionId": "DEMO-NSAID-ANTICOAG"
+   },
+   {
+    "at": "2026-11-18T01:01:29.330Z",
+    "kind": "letter_status",
+    "text": "Recorded for letter T0001: discussed with the patient, and the patient agrees.",
+    "letterId": "T0001",
+    "findingId": "F0001",
+    "caseId": "C0001",
+    "criterionId": "DEMO-NSAID-ANTICOAG"
+   },
+   {
+    "at": "2026-11-18T01:01:29.335Z",
+    "kind": "letter_status",
+    "text": "The patient agreement tick was removed from letter T0001.",
+    "letterId": "T0001",
+    "findingId": "F0001",
+    "caseId": "C0001",
+    "criterionId": "DEMO-NSAID-ANTICOAG"
+   },
+   {
+    "at": "2026-11-18T01:01:29.339Z",
+    "kind": "letter_status",
+    "text": "Recorded for letter T0001: discussed with the patient, and the patient agrees.",
+    "letterId": "T0001",
+    "findingId": "F0001",
+    "caseId": "C0001",
+    "criterionId": "DEMO-NSAID-ANTICOAG"
+   },
+   {
+    "at": "2026-11-18T01:01:29.344Z",
+    "kind": "letter_status",
+    "text": "Letter T0001 was marked as sent by print. Patient agreement was recorded. A reply is due in 7 days.",
+    "letterId": "T0001",
+    "findingId": "F0001",
+    "caseId": "C0001",
+    "criterionId": "DEMO-NSAID-ANTICOAG"
+   },
+   {
+    "at": "2026-11-18T01:01:30.721Z",
+    "kind": "letter_status",
+    "text": "The doctor's reply to letter T0001 was recorded: the doctor will review the patient.",
+    "letterId": "T0001",
+    "findingId": "F0001",
+    "caseId": "C0001",
+    "criterionId": "DEMO-NSAID-ANTICOAG"
+   },
+   {
+    "at": "2026-11-18T01:01:30.726Z",
+    "kind": "letter_status",
+    "text": "Letter T0001 was closed.",
+    "letterId": "T0001",
+    "findingId": "F0001",
+    "caseId": "C0001",
+    "criterionId": "DEMO-NSAID-ANTICOAG"
+   },
+   {
+    "at": "2026-11-18T01:01:32.024Z",
+    "kind": "import",
+    "text": "History imported: near-miss.csv, 43 lines. Screening is queued.",
+    "caseId": "C0002"
+   },
+   {
+    "at": "2026-11-18T01:01:48.259Z",
+    "kind": "screen",
+    "text": "Model 1 screened Demo criterion (NSAID with an anticoagulant) on near-miss.csv (criterion 1 of 1): nothing suspected.",
+    "caseId": "C0002",
+    "criterionId": "DEMO-NSAID-ANTICOAG",
+    "model": "lantern-screen"
+   },
+   {
+    "at": "2026-11-18T01:01:48.261Z",
+    "kind": "screen",
+    "text": "Model 1 finished screening near-miss.csv: nothing suspected.",
+    "caseId": "C0002",
+    "model": "lantern-screen"
+   },
+   {
+    "at": "2026-11-18T01:01:48.369Z",
+    "kind": "import",
+    "text": "History imported: positive.csv, 45 lines. Screening is queued.",
+    "caseId": "C0003"
+   },
+   {
+    "at": "2026-11-18T01:01:56.384Z",
+    "kind": "screen",
+    "text": "Model 1 suspects a finding for Demo criterion (NSAID with an anticoagulant) on positive.csv (criterion 1 of 1). It goes to the second check.",
+    "caseId": "C0003",
+    "criterionId": "DEMO-NSAID-ANTICOAG",
+    "model": "lantern-screen",
+    "findingId": "F0002"
+   },
+   {
+    "at": "2026-11-18T01:01:56.387Z",
+    "kind": "screen",
+    "text": "Model 1 finished screening positive.csv: 1 suspected finding goes to the second check.",
+    "caseId": "C0003",
+    "model": "lantern-screen"
+   },
+   {
+    "at": "2026-11-18T01:02:15.120Z",
+    "kind": "check",
+    "text": "Model 2 confirmed the finding for Demo criterion (NSAID with an anticoagulant) on positive.csv. It is waiting for the pharmacist.",
+    "caseId": "C0003",
+    "findingId": "F0002",
+    "criterionId": "DEMO-NSAID-ANTICOAG",
+    "model": "lantern-check"
+   },
+   {
+    "at": "2026-11-18T01:02:15.346Z",
+    "kind": "decision",
+    "text": "The pharmacist bypassed the finding for Demo criterion (NSAID with an anticoagulant). Reason: Join test: the doctor already knows and has a plan.",
+    "caseId": "C0003",
+    "findingId": "F0002",
+    "criterionId": "DEMO-NSAID-ANTICOAG"
+   },
+   {
+    "at": "2026-11-18T01:02:15.354Z",
+    "kind": "import",
+    "text": "History imported: long-split.csv, 310 lines. Screening is queued. It is long. Model 1 reads it in 3 overlapping parts, then reads the lines that matter together.",
+    "caseId": "C0004"
+   },
+   {
+    "at": "2026-11-18T01:03:09.500Z",
+    "kind": "screen",
+    "text": "Model 1 suspects a finding for Demo criterion (NSAID with an anticoagulant) on long-split.csv (criterion 1 of 1). It goes to the second check.",
+    "caseId": "C0004",
+    "criterionId": "DEMO-NSAID-ANTICOAG",
+    "model": "lantern-screen",
+    "findingId": "F0003"
+   },
+   {
+    "at": "2026-11-18T01:03:09.503Z",
+    "kind": "screen",
+    "text": "Model 1 finished screening long-split.csv: 1 suspected finding goes to the second check.",
+    "caseId": "C0004",
+    "model": "lantern-screen"
+   },
+   {
+    "at": "2026-11-18T01:03:24.788Z",
+    "kind": "check",
+    "text": "Model 2 confirmed the finding for Demo criterion (NSAID with an anticoagulant) on long-split.csv. It is waiting for the pharmacist.",
+    "caseId": "C0004",
+    "findingId": "F0003",
+    "criterionId": "DEMO-NSAID-ANTICOAG",
+    "model": "lantern-check"
+   }
+  ]
+ }
+}

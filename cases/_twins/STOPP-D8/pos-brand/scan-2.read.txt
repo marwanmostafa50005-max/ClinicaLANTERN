@@ -1,0 +1,10 @@
+2026-07-23 | Micardis (telmisartan) 40 mg tablet | qty 28 | repeats 4 | Take ONE tablet daily | Dr B. Sample
+2026-07-23 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 1 | Take TWO tablets three times a day | Dr B. Sample
+2026-08-06 | Nexium (esomeprazole) 20 mg enteric coated tablet | qty 30 | repeats 1 | Take ONE tablet daily | Dr B. Sample
+2026-08-06 | Temaze 10 mg tablet | qty 25 | repeats 0 | Take ONE tablet at night | Dr B. Sample
+2026-08-20 | Micardis (telmisartan) 40 mg tablet | qty 28 | repeats 3 | Take ONE tablet daily | Dr B. Sample
+2026-09-03 | Temaze 10 mg tablet | qty 25 | repeats 0 | Take ONE tablet at night | Dr B. Sample
+2026-09-05 | Nexium (esomeprazole) 20 mg enteric coated tablet | qty 30 | repeats 0 | Take ONE tablet daily | Dr B. Sample
+2026-09-17 | Micardis (telmisartan) 40 mg tablet | qty 28 | repeats 2 | Take ONE tablet daily | Dr B. Sample
+2026-10-05 | Nexium (esomeprazole) 20 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily | Dr B. Sample
+2026-10-15 | Micardis (telmisartan) 40 mg tablet | qty 28 | repeats 1 | Take ONE tablet daily | Dr B. Sample

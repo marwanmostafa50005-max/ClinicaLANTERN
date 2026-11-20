@@ -1,0 +1,44 @@
+[
+  {
+    "file": "POISONSTD-D2-4/pos-fact.csv",
+    "kind": "positive",
+    "about": "The September conception dates fall within one calendar month of the documented last oral isotretinoin dose on 1 September.",
+    "findings": [
+      {
+        "criterion": "POISONSTD-D2-4",
+        "must_cite": [
+          [
+            "L041"
+          ],
+          [
+            "L050"
+          ],
+          [
+            "L051"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "POISONSTD-D2-4/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: current pregnancy status is recorded, but the last oral isotretinoin dose and any conception in the post-treatment period are unknown.",
+    "findings": [
+      {
+        "criterion": "POISONSTD-D2-4",
+        "must_cite": [
+          [
+            "L023"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "POISONSTD-D2-4/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The last oral isotretinoin dose was on 1 August and the earliest estimated conception was on 8 September, after the one-month period.",
+    "findings": []
+  }
+]

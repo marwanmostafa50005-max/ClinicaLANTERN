@@ -1,0 +1,51 @@
+[
+  {
+    "file": "STOPP-H8/pos-fact.csv",
+    "kind": "positive",
+    "about": "Alendronate Sandoz (alendronic acid, an oral bisphosphonate) is supplied six times from February to July 2026, after a line recording oesophagitis in January 2026.",
+    "findings": [
+      {
+        "criterion": "STOPP-H8",
+        "must_cite": [
+          [
+            "L015",
+            "L020",
+            "L025",
+            "L030",
+            "L035",
+            "L040"
+          ],
+          [
+            "L010"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-H8/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about the upper gut. Alendronate Sandoz (alendronic acid, an oral bisphosphonate) is supplied six times from February to July 2026.",
+    "findings": [
+      {
+        "criterion": "STOPP-H8",
+        "must_cite": [
+          [
+            "L004",
+            "L008",
+            "L012",
+            "L016",
+            "L020",
+            "L024"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-H8/near-miss.csv",
+    "kind": "near_miss",
+    "about": "At the first Alendronate Sandoz supply on 5 January 2026, the assessment at L009 excludes all six current or recent upper gastrointestinal problems.",
+    "findings": []
+  }
+]

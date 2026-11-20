@@ -1,0 +1,51 @@
+[
+  {
+    "file": "STOPP-K5/pos-fact.csv",
+    "kind": "positive",
+    "about": "Keppra (levetiracetam, an anti-epileptic) is supplied monthly from July 2025 while the record holds a recurrent falls line.",
+    "findings": [
+      {
+        "criterion": "STOPP-K5",
+        "must_cite": [
+          [
+            "L005",
+            "L008",
+            "L011",
+            "L016",
+            "L021",
+            "L024",
+            "L029"
+          ],
+          [
+            "L032"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-K5/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about falls anywhere, while Lamictal (lamotrigine, an anti-epileptic) is supplied monthly.",
+    "findings": [
+      {
+        "criterion": "STOPP-K5",
+        "must_cite": [
+          [
+            "L005",
+            "L009",
+            "L013",
+            "L017",
+            "L021"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-K5/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Must not flag: Keppra (levetiracetam) is supplied monthly, but the record shows only a single fall with no recurrence.",
+    "findings": []
+  }
+]

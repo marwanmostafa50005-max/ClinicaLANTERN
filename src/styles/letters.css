@@ -1,0 +1,517 @@
+/* The letter panel: the list with statuses, the letter, and the steps that close the loop. */
+
+.panel--letter .panel-body {
+  padding: 0;
+  overflow: hidden;
+}
+
+.letters {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  height: 100%;
+  min-height: 0;
+}
+
+.letters--wide {
+  grid-template-columns: minmax(270px, 324px) minmax(0, 1fr);
+}
+
+/* ---------- the list ---------- */
+
+.letter-list {
+  min-height: 0;
+  padding: 14px;
+  overflow: auto;
+  border-right: 1px solid var(--line);
+  background: var(--white);
+}
+
+.letter-list ul {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.letter-row {
+  display: grid;
+  gap: 3px;
+  width: 100%;
+  padding: 10px 12px;
+  border: 1.5px solid var(--line);
+  border-radius: 12px;
+  background: var(--white);
+  text-align: left;
+  cursor: pointer;
+}
+
+.letter-row:hover {
+  border-color: var(--input-border-hover);
+  background: var(--page);
+}
+
+.letter-row--overdue {
+  border-color: var(--red);
+  background: var(--surface-blush);
+}
+
+.letter-row--open,
+.letter-row--open:hover {
+  border-color: var(--navy);
+  background: var(--navy-tint);
+  box-shadow: inset 4px 0 0 var(--navy);
+}
+
+/* When the patient label and the status do not fit side by side, the status moves under the label.
+   The label itself is not broken in the middle of a patient reference such as "F-001". */
+.letter-row-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px 8px;
+}
+
+.letter-row-who {
+  color: var(--navy);
+  font-weight: 700;
+}
+
+.letter-row-what {
+  font-size: 0.93rem;
+}
+
+.letter-row-detail {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+/* Overdue is shown in red, and in words. */
+.letter-row-detail--alarm {
+  color: var(--red);
+  font-weight: 700;
+}
+
+.new-dot {
+  flex: none;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--red);
+}
+
+/* ---------- status chips ---------- */
+
+.chip {
+  flex: none;
+  display: inline-block;
+  padding: 2px 10px;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.chip--drafting {
+  background: var(--disabled-bg);
+  color: var(--muted);
+}
+
+.chip--ready {
+  background: var(--gold-tint);
+  border-color: var(--border-gold-soft);
+  color: var(--gold-ink);
+}
+
+.chip--sent {
+  background: var(--cyan-tint);
+  border-color: var(--border-cyan-soft);
+  color: var(--cyan-ink);
+}
+
+.chip--overdue {
+  background: var(--red);
+  color: var(--white);
+}
+
+.chip--reply_recorded {
+  background: var(--navy-tint);
+  border-color: var(--border-chip);
+  color: var(--navy);
+}
+
+.chip--closed {
+  background: var(--white);
+  border-color: var(--line);
+  color: var(--muted);
+}
+
+/* ---------- the open letter ---------- */
+
+.letter-pane {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 0;
+}
+
+.letter-pane > .note {
+  margin: 10px 20px 0;
+}
+
+.letter-detail {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.letter-top {
+  flex: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 12px;
+  padding: 9px 20px;
+  border-bottom: 1px solid var(--line);
+  background: var(--white);
+}
+
+.letter-top-words {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 12px;
+  min-width: 0;
+}
+
+.letter-for {
+  color: var(--navy);
+  font-weight: 600;
+}
+
+.letter-scroll {
+  flex: 1;
+  display: grid;
+  align-content: start;
+  gap: 10px;
+  min-height: 0;
+  padding: 14px 20px 22px;
+  overflow: auto;
+}
+
+.letter-scroll > * {
+  width: 100%;
+  max-width: 860px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.trail {
+  display: grid;
+  gap: 2px;
+  padding: 0;
+  list-style: none;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.trail-alarm {
+  color: var(--red);
+  font-weight: 700;
+}
+
+.paper {
+  display: grid;
+  gap: 6px;
+  padding: 16px 22px 22px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--white);
+  box-shadow: var(--shadow);
+}
+
+.subject-input {
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.letter-body {
+  display: block;
+  min-height: 260px;
+  padding: 16px 18px;
+  overflow: hidden;
+  resize: none;
+  background: var(--paper-warm);
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
+.subject-input:read-only,
+.letter-body:read-only {
+  border-color: var(--line);
+  background: var(--editor-quiet);
+}
+
+/* ---------- the tick box and the steps ---------- */
+
+.letter-actions {
+  flex: none;
+  display: grid;
+  gap: 8px;
+  padding: 10px 20px 12px;
+  border-top: 1px solid var(--line);
+  background: var(--white);
+  box-shadow: var(--shadow-letter-lift);
+}
+
+.letter-buttons {
+  gap: 8px;
+}
+
+.letter-buttons .btn {
+  padding-left: 13px;
+  padding-right: 13px;
+}
+
+.agree-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 10px;
+}
+
+/* The box and its words stay side by side; long words wrap beside the box, never under it. */
+.agree-main {
+  flex: 1 1 300px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  min-width: 0;
+}
+
+.agree-row input[type='checkbox'] {
+  flex: none;
+  width: 22px;
+  height: 22px;
+  margin: 1px 0 0;
+  accent-color: var(--navy);
+}
+
+.agree-row label {
+  min-width: 0;
+  color: var(--navy);
+  font-weight: 600;
+}
+
+.save-state {
+  margin-left: auto;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.save-state--dirty {
+  color: var(--gold-dark);
+  font-weight: 600;
+}
+
+.outcomes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 18px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.outcomes legend {
+  margin-bottom: 4px;
+}
+
+.outcome {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 32px;
+  cursor: pointer;
+}
+
+.outcome input {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--navy);
+}
+
+.point-replies {
+  display: grid;
+  gap: 8px;
+  margin: 8px 0 0;
+  padding: 0;
+  border: 0;
+}
+
+.point-reply {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 8px;
+  align-items: center;
+}
+
+.point-reply select {
+  font: inherit;
+  color: inherit;
+  min-height: 32px;
+  padding: 2px 8px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--white);
+}
+
+.next-step {
+  color: var(--muted);
+  font-size: 0.93rem;
+}
+
+.next-step--alarm {
+  color: var(--red);
+  font-weight: 700;
+}
+
+/* On a narrow screen the letter and its buttons scroll together. */
+.letters:not(.letters--wide) .letter-list {
+  border-right: 0;
+}
+
+.letters:not(.letters--wide) .letter-pane {
+  overflow: auto;
+}
+
+.letters:not(.letters--wide) .letter-detail,
+.letters:not(.letters--wide) .letter-scroll {
+  flex: none;
+  overflow: visible;
+}
+
+.letters:not(.letters--wide) .letter-scroll,
+.letters:not(.letters--wide) .letter-top,
+.letters:not(.letters--wide) .letter-actions {
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.letters:not(.letters--wide) .paper {
+  padding: 12px 12px 14px;
+}
+
+.letters:not(.letters--wide) .btn-gap {
+  display: none;
+}
+
+.letters:not(.letters--wide) .letter-buttons .btn {
+  flex: 1 1 auto;
+}
+
+/* ---------- added after the review of 18 November ---------- */
+
+/* On a phone the patient and criterion words of an open letter get a full row of their own. They
+   were pressed into a column about 100 px wide and wrapped over eight lines. */
+@media (max-width: 600px) {
+  .letter-top-words {
+    flex: 1 1 100%;
+    order: 3;
+    display: grid;
+    justify-items: start;
+    gap: 4px;
+  }
+
+  .letter-top .chip {
+    margin-left: auto;
+  }
+}
+
+/* ---------- parts built after the look was approved, drawn in its style ---------- */
+
+/* The number of a letter, at the end of the line under its name in the list. */
+.letter-row-id {
+  margin-left: auto;
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  font-weight: 400;
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+/* The line above the list that says a recorded run cannot be changed. */
+.letter-list > .note {
+  margin-bottom: 8px;
+}
+
+/* The last lines of a letter: "Yours sincerely,", the line about who wrote the words, and the
+   signature. They are not in the text box, so an edit cannot delete them. */
+.closing {
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
+.closing-sign-off {
+  margin-bottom: 1.55em;
+}
+
+/* The pharmacist's name, in a bold handwriting font. The title and the number keep the letter's font. */
+.closing-name {
+  color: var(--navy);
+  font-family: var(--hand);
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+/* Under the text box of the editor the last lines stand in a quiet box, like a field that cannot be changed. */
+.closing-label {
+  margin-top: 8px;
+}
+
+.closing--fixed {
+  padding: 12px 18px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-small);
+  background: var(--editor-quiet);
+}
+
+/* The preview page: one column, with the letter as it leaves on the same sheet as in the editor. */
+.letters--one {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.preview-subject {
+  margin-bottom: 8px;
+}
+
+.preview-text {
+  margin: 0;
+  font: inherit;
+  font-size: 1rem;
+  line-height: 1.55;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+/* One empty line between the text and "Yours sincerely,", as in the letter itself. The sheet is a
+   grid with a gap of 6px, which is part of that line. */
+.preview-text + .closing {
+  margin-top: calc(1.55em - 6px);
+}
+
+/* On the preview page the buttons stand under the sheet, in line with it. */
+.letters--one .letter-actions > * {
+  width: 100%;
+  max-width: 860px;
+  margin-left: auto;
+  margin-right: auto;
+}

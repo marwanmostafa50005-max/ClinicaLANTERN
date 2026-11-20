@@ -1,0 +1,6 @@
+patient_ref,patient_age,patient_sex,record_type,dispense_date,medicine,brand,strength,form,quantity,repeats_left,directions,prescriber,detail,value
+F-FR-L2-2,72,M,,2026-04-16,tapentadol,Palexia SR,50 mg,tablet,56,2,Take ONE tablet twice a day,Dr B. Sample,,
+F-FR-L2-2,72,M,,2026-04-20,macrogol 3350,Movicol,13 g,tablet,60,4,Dissolve ONE sachet in water daily,Dr A. Example,,
+F-FR-L2-2,72,M,,2026-05-14,tapentadol,Palexia SR,50 mg,tablet,56,1,Take ONE tablet twice a day,Dr B. Sample,,
+F-FR-L2-2,72,M,,2026-05-28,macrogol 3350,Movicol,13 g,tablet,60,3,Dissolve ONE sachet in water daily,Dr A. Example,,
+F-FR-L2-2,72,M,,2026-06-11,atenolol,Anselol,50 mg,tablet,30,5,Take ONE tablet daily,Dr A. Example,,

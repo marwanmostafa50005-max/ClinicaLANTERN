@@ -1,0 +1,163 @@
+{
+  "id": "OPTIMISE-T3-01",
+  "label": "OPTIMISE T3-01: metformin after early weight gain",
+  "family": "OPTIMISE",
+  "title": "Metformin for early weight gain on clozapine or olanzapine",
+  "statement": "Consider adjunctive metformin, unless contraindicated, in people with SMI (Severe Mental Illness) who are prescribed clozapine or olanzapine and who have demonstrated early weight gain*",
+  "statement_origin": "published",
+  "source": {
+    "document": "Carolan A, et al. OPTIMISE. BMC Psychiatry 2022;22:585, Tables 2-3",
+    "citation": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A person who gains weight quickly after starting clozapine or olanzapine may be helped by adding metformin, unless it is unsuitable.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Clozapine and olanzapine",
+      "ingredients": [
+        "clozapine",
+        "olanzapine"
+      ],
+      "brands": {
+        "clozapine": [
+          "Clozaril",
+          "Clopine",
+          "Closyn",
+          "Clozaril ODT",
+          "Clozitor",
+          "Versacloz"
+        ],
+        "olanzapine": [
+          "Zyprexa",
+          "Zyprexa Zydis",
+          "Aprolan",
+          "Aprolan ODT",
+          "Lanez",
+          "Lanez ODT",
+          "Lanzek",
+          "Lanzek Zydis",
+          "Lonza",
+          "Lonza ODT",
+          "Lyprosia",
+          "Lyprosia ODT",
+          "Olancor",
+          "Olanza",
+          "Olanzaccord",
+          "Olanzacor",
+          "Oprexa",
+          "Ozin",
+          "Ozin ODT",
+          "Prolanza",
+          "Prolanza ODT",
+          "Pryzex",
+          "Pryzex ODT",
+          "Tolaze ODT",
+          "Tolazine ODT",
+          "Torapine ODT",
+          "Torrenia ODT",
+          "Zylap",
+          "Zylap ODT",
+          "Zylapine",
+          "Zylapine ODT",
+          "Zypine",
+          "Zypine ODT",
+          "Zyprexa Relprevv"
+        ]
+      },
+      "note": "Count oral tablets, wafers, clozapine oral suspension and ongoing olanzapine depot treatment. An isolated short-acting injection for acute symptoms does not establish a treatment course through the first-month weight check."
+    },
+    {
+      "key": "B",
+      "name": "Metformin",
+      "ingredients": [
+        "metformin"
+      ],
+      "brands": {
+        "metformin": [
+          "Glucophage",
+          "Glucophage XR",
+          "Diabex",
+          "Diabex XR",
+          "Diaformin",
+          "Janumet (with sitagliptin)",
+          "Janumet XR (with sitagliptin)",
+          "Galvumet (with vildagliptin)",
+          "Jardiamet (with empagliflozin)",
+          "Xigduo XR (with dapagliflozin)",
+          "Diaformin Alphapharm XR",
+          "Diaformin Viatris",
+          "Diaformin Viatris XR",
+          "Diaformin XR",
+          "Diamet",
+          "Diaxemet XR",
+          "Formet",
+          "Glucobete",
+          "Glucohexal",
+          "Glucomet",
+          "Medformin",
+          "Metex XR",
+          "Metforbell",
+          "Metofex XR",
+          "Trajentamet (with linagliptin)",
+          "Nesina Met (with alogliptin)",
+          "Segluromet (with ertugliflozin)"
+        ]
+      },
+      "note": "If Group B metformin is already current or supplied within 60 days of treatment start or the first-month review, there is no finding. An older, discontinued supply alone does not close the review."
+    }
+  ],
+  "rule_for_models": "There is no finding if Group B metformin is already current, is supplied within 60 days of the treatment start or first-month review, or a contraindication to metformin or exclusion of severe mental illness is documented. An older, discontinued metformin supply alone does not close the review. For a person with documented severe mental illness starting Group A clozapine or olanzapine, compare weight at or just before starting with weight about one month later. Divide the gain by the baseline weight and multiply by 100. If the gain is at least 5% and metformin is absent around the start and first-month review (within 60 days of either), flag for review of metformin suitability. Cite the diagnosis, initial supply and both weights. A gain below 5% is negative. The pharmacist decides borderline timing from the actual start and weight dates. If timing or another required fact is uncertain and no exclusion applies, report only a possible finding and name only the missing facts. For a missing or undated weight ask for \"Body weight at or just before starting clozapine or olanzapine\" or \"Body weight about one month after starting clozapine or olanzapine\", as needed, with the date it was measured. Enter each weight in kilograms with its own measurement date. An entry date alone cannot date a measurement. Use both weights only if their dates link them to the same documented treatment start. If more than one start could fit, keep the finding possible. Confirm an uncertain diagnosis or treatment start. Apply this criterion to adults aged 18 or over. If age is missing and the other evidence still supports review, report only a possible finding and ask the pharmacist to confirm age. Use the first supply date if the pharmacist confirms it was the actual start, or cite a separately documented start date. A refill or an undated report of recent treatment cannot date initiation. There is no finding if the person did not start the course.",
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "Body weight at or just before starting clozapine or olanzapine",
+      "meets": "Enter the weight in kilograms and its measurement date. It must be at or just before the documented start of this course."
+    },
+    {
+      "kind": "result",
+      "what": "Body weight about one month after starting clozapine or olanzapine",
+      "meets": "Enter the weight in kilograms and its measurement date. Compare it with the dated baseline weight for this course. A first-month gain of at least 5% meets the weight threshold."
+    },
+    {
+      "kind": "condition",
+      "what": "Severe mental illness",
+      "meets": "A documented severe mental illness such as schizophrenia."
+    },
+    {
+      "kind": "observation",
+      "what": "Start of this clozapine or olanzapine course",
+      "meets": "The actual start of this course is dated in the record, or the pharmacist confirms the first dated supply shown was the start. A refill alone cannot date initiation.",
+      "options": [
+        {
+          "words": "This course started on the date of the first supply shown for this course",
+          "effect": "meets"
+        },
+        {
+          "words": "The actual start date is recorded separately",
+          "effect": "meets"
+        },
+        {
+          "words": "The person did not start this course",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Treatment started but the start date is unconfirmed in this record",
+          "effect": "unknown"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "cannot_be_seen": "Whether metformin is unsuitable (for example poor kidney function, liver disease or heavy alcohol use), the person's mental illness diagnosis, diet and activity, and weight measured on different scales.",
+  "ask_the_gp": "If early weight gain during the first month of clozapine or olanzapine treatment is confirmed, could we review whether adding metformin is suitable?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

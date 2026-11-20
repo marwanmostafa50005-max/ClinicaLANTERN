@@ -1,0 +1,43 @@
+patient_ref,patient_age,patient_sex,record_type,dispense_date,medicine,brand,strength,form,quantity,repeats_left,directions,prescriber,detail,value
+F-ECZE07-01,7,F,observation,2026-01-03,,,,,,,,,Weight,22.8 kg
+F-ECZE07-01,7,F,observation,2026-01-03,,,,,,,,,Height,121.0 cm
+F-ECZE07-01,7,F,observation,2026-01-03,,,,,,,,,Pulse,86 beats/min
+F-ECZE07-01,7,F,,2026-01-03,white soft paraffin,,100%,ointment,100 g,0,Apply a thin layer to dry skin as needed,Dr A. Example,,
+F-ECZE07-01,7,F,observation,2026-01-29,,,,,,,,,Weight,22.9 kg
+F-ECZE07-01,7,F,observation,2026-01-29,,,,,,,,,Height,121.5 cm
+F-ECZE07-01,7,F,observation,2026-01-29,,,,,,,,,Pulse,89 beats/min
+F-ECZE07-01,7,F,observation,2026-02-24,,,,,,,,,Weight,23.1 kg
+F-ECZE07-01,7,F,observation,2026-02-24,,,,,,,,,Height,121.9 cm
+F-ECZE07-01,7,F,observation,2026-02-24,,,,,,,,,Pulse,92 beats/min
+F-ECZE07-01,7,F,,2026-02-24,white soft paraffin,,100%,ointment,100 g,0,Apply a thin layer to dry skin as needed,Dr A. Example,,
+F-ECZE07-01,7,F,observation,2026-03-22,,,,,,,,,Weight,23.2 kg
+F-ECZE07-01,7,F,observation,2026-03-22,,,,,,,,,Height,122.4 cm
+F-ECZE07-01,7,F,observation,2026-03-22,,,,,,,,,Pulse,86 beats/min
+F-ECZE07-01,7,F,observation,2026-04-17,,,,,,,,,Weight,23.4 kg
+F-ECZE07-01,7,F,observation,2026-04-17,,,,,,,,,Height,122.8 cm
+F-ECZE07-01,7,F,observation,2026-04-17,,,,,,,,,Pulse,89 beats/min
+F-ECZE07-01,7,F,,2026-04-17,white soft paraffin,,100%,ointment,100 g,0,Apply a thin layer to dry skin as needed,Dr A. Example,,
+F-ECZE07-01,7,F,observation,2026-05-13,,,,,,,,,Weight,23.6 kg
+F-ECZE07-01,7,F,observation,2026-05-13,,,,,,,,,Height,123.3 cm
+F-ECZE07-01,7,F,observation,2026-05-13,,,,,,,,,Pulse,92 beats/min
+F-ECZE07-01,7,F,condition,2026-05-15,,,,,,,,,Atopic eczema,Diagnosed at this visit
+F-ECZE07-01,7,F,,2026-05-15,mupirocin,Bactroban,20 mg/g,ointment,15 g,0,Apply a small amount to the eczema patch three times daily for five days,Dr A. Example,,
+F-ECZE07-01,7,F,observation,2026-05-15,,,,,,,,,Clinical assessment of the eczema patch,No signs of infection at this visit
+F-ECZE07-01,7,F,observation,2026-06-08,,,,,,,,,Weight,23.7 kg
+F-ECZE07-01,7,F,observation,2026-06-08,,,,,,,,,Height,123.8 cm
+F-ECZE07-01,7,F,observation,2026-06-08,,,,,,,,,Pulse,86 beats/min
+F-ECZE07-01,7,F,,2026-06-08,white soft paraffin,,100%,ointment,100 g,0,Apply a thin layer to dry skin as needed,Dr A. Example,,
+F-ECZE07-01,7,F,observation,2026-07-04,,,,,,,,,Weight,23.9 kg
+F-ECZE07-01,7,F,observation,2026-07-04,,,,,,,,,Height,124.2 cm
+F-ECZE07-01,7,F,observation,2026-07-04,,,,,,,,,Pulse,89 beats/min
+F-ECZE07-01,7,F,observation,2026-07-30,,,,,,,,,Weight,24.0 kg
+F-ECZE07-01,7,F,observation,2026-07-30,,,,,,,,,Height,124.7 cm
+F-ECZE07-01,7,F,observation,2026-07-30,,,,,,,,,Pulse,92 beats/min
+F-ECZE07-01,7,F,,2026-07-30,white soft paraffin,,100%,ointment,100 g,0,Apply a thin layer to dry skin as needed,Dr A. Example,,
+F-ECZE07-01,7,F,observation,2026-08-25,,,,,,,,,Weight,24.2 kg
+F-ECZE07-01,7,F,observation,2026-08-25,,,,,,,,,Height,125.1 cm
+F-ECZE07-01,7,F,observation,2026-08-25,,,,,,,,,Pulse,86 beats/min
+F-ECZE07-01,7,F,observation,2026-09-20,,,,,,,,,Weight,24.3 kg
+F-ECZE07-01,7,F,observation,2026-09-20,,,,,,,,,Height,125.6 cm
+F-ECZE07-01,7,F,observation,2026-09-20,,,,,,,,,Pulse,89 beats/min
+F-ECZE07-01,7,F,,2026-09-20,white soft paraffin,,100%,ointment,100 g,0,Apply a thin layer to dry skin as needed,Dr A. Example,,

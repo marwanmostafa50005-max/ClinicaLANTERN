@@ -1,0 +1,28 @@
+patient_ref,patient_age,patient_sex,record_type,dispense_date,medicine,brand,strength,form,quantity,repeats_left,directions,prescriber,detail,value
+F-T233-03,71,M,,2025-10-06,atorvastatin,Lipitor,20 mg,tablet,30,5,Take ONE tablet at night,Dr A. Example,,
+F-T233-03,71,M,,2025-10-07,pantoprazole,Somac,40 mg,enteric coated tablet,30,5,Take ONE tablet in the morning before food,Dr A. Example,,
+F-T233-03,71,M,,2025-11-08,atorvastatin,Lipitor,20 mg,tablet,30,4,Take ONE tablet at night,Dr A. Example,,
+F-T233-03,71,M,,2025-11-09,pantoprazole,Somac,40 mg,enteric coated tablet,30,4,Take ONE tablet in the morning before food,Dr A. Example,,
+F-T233-03,71,M,result,2025-12-03,,,,,,,,,Serum vitamin B12,412 pmol/L (within the reporting laboratory reference interval of 150 to 650 pmol/L). Sample collected at 09:15.
+F-T233-03,71,M,result,2025-12-03,,,,,,,,,Haemoglobin,107 g/L
+F-T233-03,71,M,observation,2025-12-03,,,,,,,,,Hospital discharge medicines,Took the first folic acid tablet from the hospital pack at 18:00 today.
+F-T233-03,71,M,,2025-12-07,atorvastatin,Lipitor,20 mg,tablet,30,3,Take ONE tablet at night,Dr A. Example,,
+F-T233-03,71,M,,2025-12-08,pantoprazole,Somac,40 mg,enteric coated tablet,30,3,Take ONE tablet in the morning before food,Dr A. Example,,
+F-T233-03,71,M,,2026-01-08,folic acid,Megafol,5 mg,tablet,28,5,Continue ONE tablet daily,Dr A. Example,,
+F-T233-03,71,M,,2026-01-09,atorvastatin,Lipitor,20 mg,tablet,30,2,Take ONE tablet at night,Dr A. Example,,
+F-T233-03,71,M,,2026-01-10,pantoprazole,Somac,40 mg,enteric coated tablet,30,2,Take ONE tablet in the morning before food,Dr A. Example,,
+F-T233-03,71,M,,2026-02-06,atorvastatin,Lipitor,20 mg,tablet,30,1,Take ONE tablet at night,Dr A. Example,,
+F-T233-03,71,M,,2026-02-07,pantoprazole,Somac,40 mg,enteric coated tablet,30,1,Take ONE tablet in the morning before food,Dr A. Example,,
+F-T233-03,71,M,,2026-02-10,folic acid,Megafol,5 mg,tablet,28,4,Take ONE tablet daily,Dr A. Example,,
+F-T233-03,71,M,,2026-03-07,atorvastatin,Lipitor,20 mg,tablet,30,0,Take ONE tablet at night,Dr A. Example,,
+F-T233-03,71,M,,2026-03-08,pantoprazole,Somac,40 mg,enteric coated tablet,30,0,Take ONE tablet in the morning before food,Dr A. Example,,
+F-T233-03,71,M,,2026-03-09,folic acid,Megafol,5 mg,tablet,28,3,Take ONE tablet daily,Dr A. Example,,
+F-T233-03,71,M,,2026-04-06,atorvastatin,Lipitor,20 mg,tablet,30,5,Take ONE tablet at night,Dr A. Example,,
+F-T233-03,71,M,,2026-04-07,pantoprazole,Somac,40 mg,enteric coated tablet,30,5,Take ONE tablet in the morning before food,Dr A. Example,,
+F-T233-03,71,M,,2026-04-11,folic acid,Megafol,5 mg,tablet,28,2,Take ONE tablet daily,Dr A. Example,,
+F-T233-03,71,M,,2026-05-08,atorvastatin,Lipitor,20 mg,tablet,30,4,Take ONE tablet at night,Dr A. Example,,
+F-T233-03,71,M,,2026-05-08,folic acid,Megafol,5 mg,tablet,28,1,Take ONE tablet daily,Dr A. Example,,
+F-T233-03,71,M,,2026-05-09,pantoprazole,Somac,40 mg,enteric coated tablet,30,4,Take ONE tablet in the morning before food,Dr A. Example,,
+F-T233-03,71,M,,2026-06-07,atorvastatin,Lipitor,20 mg,tablet,30,3,Take ONE tablet at night,Dr A. Example,,
+F-T233-03,71,M,,2026-06-08,pantoprazole,Somac,40 mg,enteric coated tablet,30,3,Take ONE tablet in the morning before food,Dr A. Example,,
+F-T233-03,71,M,,2026-06-09,folic acid,Megafol,5 mg,tablet,28,0,Take ONE tablet daily,Dr A. Example,,

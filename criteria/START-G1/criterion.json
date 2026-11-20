@@ -1,0 +1,161 @@
+{
+  "id": "START-G1",
+  "label": "START G1: long-acting bronchodilator in symptomatic COPD",
+  "family": "STOPP_START",
+  "title": "Long-acting bronchodilator missing in symptomatic GOLD 1 or 2 COPD",
+  "statement": "Long-acting muscarinic antagonist (LAMA e.g., tiotropium, aclidinium, umeclidinium, glycopyrronium) or long-acting beta 2 agonist (LABA e.g., bambuterol, formoterol, indacaterol, olodaterol, salmeterol) for symptomatic COPD of GOLD 1 or 2 severity and chronic asthma.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A person with symptomatic COPD of mild or moderate severity (GOLD 1 or 2), or with chronic asthma, should usually have a long-acting inhaler to keep the airways open, and the record shows none. In Australia this criterion is applied to COPD only. Asthma is treated with an inhaled corticosteroid, and a long-acting beta agonist is never used without one (Australian Asthma Handbook).",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Long-acting muscarinic antagonists (LAMA) and long-acting beta 2 agonists (LABA), alone or in a combination inhaler",
+      "ingredients": [
+        "tiotropium",
+        "aclidinium",
+        "umeclidinium",
+        "glycopyrronium",
+        "bambuterol",
+        "formoterol",
+        "indacaterol",
+        "olodaterol",
+        "salmeterol",
+        "vilanterol"
+      ],
+      "brands": {
+        "tiotropium": [
+          "Spiriva",
+          "Spiriva Respimat",
+          "Spiolto Respimat (tiotropium with olodaterol)",
+          "Braltus",
+          "Favint",
+          "Favint Respimat",
+          "Srivasso",
+          "Srivasso Respimat"
+        ],
+        "aclidinium": [
+          "Bretaris Genuair",
+          "Brimica Genuair (aclidinium with formoterol)"
+        ],
+        "umeclidinium": [
+          "Incruse Ellipta",
+          "Anoro Ellipta (umeclidinium with vilanterol)",
+          "Trelegy Ellipta (fluticasone furoate with umeclidinium and vilanterol)"
+        ],
+        "glycopyrronium": [
+          "Seebri Breezhaler",
+          "Ultibro Breezhaler (glycopyrronium with indacaterol)",
+          "Trimbow",
+          "Breztri Aerosphere",
+          "Enerzair Breezhaler"
+        ],
+        "bambuterol": [],
+        "formoterol": [
+          "Oxis Turbuhaler",
+          "Foradile",
+          "Symbicort (budesonide with formoterol)",
+          "Flutiform (fluticasone with formoterol)",
+          "Fostair (beclometasone with formoterol)",
+          "DuoResp Spiromax",
+          "Trimbow",
+          "Breztri Aerosphere"
+        ],
+        "indacaterol": [
+          "Onbrez Breezhaler",
+          "Ultibro Breezhaler (indacaterol with glycopyrronium)",
+          "Atectura Breezhaler",
+          "Enerzair Breezhaler"
+        ],
+        "olodaterol": [
+          "Striverdi Respimat",
+          "Spiolto Respimat (olodaterol with tiotropium)"
+        ],
+        "salmeterol": [
+          "Serevent",
+          "Seretide (fluticasone propionate with salmeterol)",
+          "Serevent Accuhaler",
+          "Serevent Disks"
+        ],
+        "vilanterol": [
+          "Anoro Ellipta (vilanterol with umeclidinium)",
+          "Breo Ellipta (fluticasone furoate with vilanterol)",
+          "Trelegy Ellipta (fluticasone furoate with umeclidinium and vilanterol)"
+        ]
+      },
+      "note": "Medicines that meet this criterion. Bambuterol tablets are not sold in Australia, so no brand is listed. Inhaled steroid and long-acting beta 2 agonist combinations count because they contain a LABA. Eformoterol is another name for formoterol. Count it once. Count inhaled glycopyrronium for bronchodilation. Exclude glycopyrronium injection and oral solution. Oral bambuterol is named in the source."
+    },
+    {
+      "key": "B",
+      "name": "Medicines that may suggest COPD",
+      "ingredients": [
+        "salbutamol",
+        "terbutaline",
+        "ipratropium",
+        "roflumilast",
+        "theophylline"
+      ],
+      "brands": {
+        "salbutamol": [
+          "Ventolin",
+          "Asmol",
+          "Airomir",
+          "Airomir Autohaler",
+          "Asmol Uni-Dose",
+          "Butamol",
+          "Epaq Inhaler",
+          "Salmol",
+          "Univent Cipule",
+          "Ventolin Inhaler",
+          "Ventolin Nebules",
+          "Ventolin Respirator",
+          "Ventolin Rotacap",
+          "Ventolin Syrup",
+          "Zempreon Inhaler"
+        ],
+        "terbutaline": [
+          "Bricanyl"
+        ],
+        "ipratropium": [
+          "Atrovent",
+          "Aeron",
+          "Apoven",
+          "Atrovent Adult UDV",
+          "Atrovent Forte",
+          "Atrovent UDV",
+          "Ipratrin Adult Uni-Dose",
+          "Ipratrin Uni-Dose",
+          "Ipravent"
+        ],
+        "roflumilast": [],
+        "theophylline": [
+          "Nuelin SR",
+          "Nuelin"
+        ]
+      },
+      "note": "Used to suspect the condition when no condition line exists. A reliever alone does not prove the condition. Exclude nasal ipratropium, including Atrovent Nasal, from the airway clues."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Symptomatic COPD with GOLD 1 or 2 airflow limitation",
+      "meets": "The Australian screen requires documented COPD, symptoms attributable to COPD and GOLD 1 or 2 airflow limitation. Asthma alone does not qualify. If COPD is recorded and symptoms or stage are unknown, report at most a possible finding. No COPD finding applies to documented absence of symptoms or GOLD 3 or 4."
+    }
+  ],
+  "rule_for_models": "Apply this criterion from age 65 and give no finding below 65, for asthma alone, for documented absence of COPD symptoms, for GOLD 3 or 4, or if any Group A LAMA or LABA was supplied in the last six months (oral bambuterol counts, and glycopyrronium counts only when inhaled for bronchodilation). At a confirmed age of 65 or older, suspect an omission if no Group A medicine was supplied in those six months and cite the lines showing COPD, symptoms attributable to COPD and GOLD 1 or 2 airflow limitation. If COPD is recorded or a Group B supply other than nasal ipratropium suggests it, report only a possible finding when facts are missing and name what needs confirmation: age, COPD diagnosis, symptoms or GOLD stage.",
+  "cannot_be_seen": "The record may omit COPD symptoms, the GOLD stage, a reason a long-acting inhaler was stopped, supplies from a hospital or another pharmacy, and whether the person is near the end of life.",
+  "ask_the_gp": "A review of whether a long-acting inhaler is needed, with a check of the diagnosis and its stage.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

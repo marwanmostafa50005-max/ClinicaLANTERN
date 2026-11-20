@@ -1,0 +1,111 @@
+[
+  {
+    "file": "PROMPT-CN-2/pos-fact.csv",
+    "kind": "positive",
+    "about": "Amitriptyline treats depression, and the pharmacist confirms it was the first antidepressant tried for depression.",
+    "findings": [
+      {
+        "criterion": "PROMPT-CN-2",
+        "must_cite": [
+          [
+            "L012",
+            "L016",
+            "L020",
+            "L024",
+            "L028",
+            "L032"
+          ],
+          [
+            "L011"
+          ],
+          [
+            "L013"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PROMPT-CN-2/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about why the amitriptyline is used (no condition line at all), and no other antidepressant is supplied before it. Amitriptyline is supplied five times from December 2025.",
+    "findings": [
+      {
+        "criterion": "PROMPT-CN-2",
+        "must_cite": [
+          [
+            "L009",
+            "L013",
+            "L017",
+            "L021",
+            "L025"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PROMPT-CN-2/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The condition at L003 links amitriptyline to neuropathic pain as its only recorded indication.",
+    "findings": []
+  },
+  {
+    "file": "PROMPT-CN-2/near-miss-previous-trial.csv",
+    "kind": "near_miss",
+    "about": "Amitriptyline treats depression, but the pharmacist records an earlier antidepressant trial for depression.",
+    "findings": []
+  },
+  {
+    "file": "PROMPT-CN-2/pos-unknown-order.csv",
+    "kind": "positive",
+    "about": "Possible finding: amitriptyline treats depression, but the pharmacist cannot establish whether another antidepressant was tried first.",
+    "findings": [
+      {
+        "criterion": "PROMPT-CN-2",
+        "must_cite": [
+          [
+            "L012",
+            "L016",
+            "L020",
+            "L024",
+            "L028",
+            "L032"
+          ],
+          [
+            "L011"
+          ],
+          [
+            "L013"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PROMPT-CN-2/pos-previous-question.csv",
+    "kind": "positive",
+    "about": "The older question records No to an earlier antidepressant trial for depression, supporting first-line amitriptyline.",
+    "findings": [
+      {
+        "criterion": "PROMPT-CN-2",
+        "must_cite": [
+          [
+            "L012",
+            "L016",
+            "L020",
+            "L024",
+            "L028",
+            "L032"
+          ],
+          [
+            "L011"
+          ],
+          [
+            "L013"
+          ]
+        ]
+      }
+    ]
+  }
+]

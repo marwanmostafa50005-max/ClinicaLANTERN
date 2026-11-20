@@ -1,0 +1,44 @@
+[
+  {
+    "file": "KHAWAGI-G170/pos-fact.csv",
+    "kind": "positive",
+    "about": "Sertraline is directed for the documented acute bipolar depressive episode, and the dispensing window contains no companion supply.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G170",
+        "must_cite": [
+          [
+            "L026"
+          ],
+          [
+            "L024"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G170/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about a current acute bipolar depressive episode in an adult with known bipolar disorder taking sertraline for depression.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G170",
+        "must_cite": [
+          [
+            "L019"
+          ],
+          [
+            "L002"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G170/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The adult has acute bipolar depression and takes sertraline for the episode alongside scheduled lamotrigine for mood stabilisation.",
+    "findings": []
+  }
+]

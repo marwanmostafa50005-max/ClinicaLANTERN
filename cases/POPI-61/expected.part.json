@@ -1,0 +1,41 @@
+[
+  {
+    "file": "POPI-61/pos-fact.csv",
+    "kind": "positive",
+    "about": "Carbamazepine is supplied while juvenile myoclonic epilepsy is active.",
+    "findings": [
+      {
+        "criterion": "POPI-61",
+        "must_cite": [
+          [
+            "L017"
+          ],
+          [
+            "L018"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "POPI-61/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about myoclonic epilepsy at the time of the supply.",
+    "findings": [
+      {
+        "criterion": "POPI-61",
+        "must_cite": [
+          [
+            "L019"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "POPI-61/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The neurology assessment confirms focal epilepsy alone and explicitly excludes the subtype in this criterion.",
+    "findings": []
+  }
+]

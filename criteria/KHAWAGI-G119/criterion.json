@@ -1,0 +1,69 @@
+{
+  "id": "KHAWAGI-G119",
+  "label": "Khawagi review: Review rivaroxaban effectiveness during concurrent carbamazepine treatment",
+  "family": "KHAWAGI",
+  "title": "Review rivaroxaban effectiveness during concurrent carbamazepine treatment",
+  "statement": "Review rivaroxaban effectiveness during concurrent carbamazepine treatment.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Khawagi et al. (2019), S3 File. List of potential Prescribing Safety Indicators (PSIs) related to mental health medications and conditions.",
+    "citation": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. PLoS ONE 2019;14(5):e0217406.",
+    "doi": "10.1371/journal.pone.0217406",
+    "url": "https://doi.org/10.1371/journal.pone.0217406.s003",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. PLoS ONE 2019;14(5):e0217406. https://doi.org/10.1371/journal.pone.0217406; S3 File, https://doi.org/10.1371/journal.pone.0217406.s003. © 2019 Khawagi et al., CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Khawagi et al. (2019), PLOS ONE 14(5), e0217406, S3 File, CC BY 4.0. Original screening wording and Australian adaptations. S3 reference(s) as indexed in the supplied qualification: [71]. Clinical cross-check: Tegretol Australian PI (https://www.safetyandquality.gov.au/medicine-finder/tegretol). Xarelto Australian PI (https://www.safetyandquality.gov.au/medicine-finder/xarelto).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "Review rivaroxaban effectiveness during concurrent carbamazepine treatment.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Carbamazepine",
+      "ingredients": [
+        "carbamazepine"
+      ],
+      "brands": {
+        "carbamazepine": [
+          "Tegretol",
+          "Avloire",
+          "Avloire CR",
+          "Tegretol CR",
+          "Teril"
+        ]
+      }
+    },
+    {
+      "key": "B",
+      "name": "Rivaroxaban",
+      "ingredients": [
+        "rivaroxaban"
+      ],
+      "brands": {
+        "rivaroxaban": [
+          "Xarelto",
+          "Ixarola",
+          "Relaban",
+          "Rivalembic",
+          "Rivarelto",
+          "Rivator",
+          "Rivaxib",
+          "Rivaxotor",
+          "Rivoxa",
+          "Roxabic",
+          "Roxalem",
+          "Roxator",
+          "Toriva",
+          "Troxa",
+          "Xaremed"
+        ]
+      }
+    }
+  ],
+  "rule_for_models": "Review concurrent carbamazepine and rivaroxaban. Calculate days of cover from each quantity and the stated units per day, starting on its supply date. Check for shared treatment days. Ask the patient whether they were taking both medicines together. Cite the medicine and qualifying fact or interacting supply. If a daily dose is unclear and the supplies could overlap, report only a possible finding. Ask about the doses and the dates each medicine was taken. Exclude a completed switch or other history showing that the courses did not overlap. The reason either medicine was prescribed does not exclude co-use.",
+  "cannot_be_seen": "Dispensing does not establish actual use, indication or a prescriber’s intent. Treatment and assessments elsewhere may be missing.",
+  "ask_the_gp": "Could you review whether carbamazepine may reduce rivaroxaban effectiveness and whether an alternative anticoagulant or an alternative to carbamazepine would be appropriate?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,61 @@
+{
+  "id": "EU7-F44",
+  "label": "EU(7)-PIM: muscle relaxants",
+  "family": "EU7",
+  "title": "Centrally acting muscle relaxant in an older person",
+  "statement": "The EU(7)-PIM list names centrally acting muscle relaxants as potentially inappropriate in older people: carisoprodol, methocarbamol, orphenadrine, baclofen, tizanidine, tetrazepam and cyclobenzaprine. They can cause drowsiness, confusion, memory loss, weakness, low blood pressure on standing and falls, and some have anticholinergic effects. Rehabilitation and botulinum toxin are listed as alternatives. Several of these medicines need a lower or more careful dose when the kidneys work poorly.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "The statement is written in ClinicaLANTERN's own plain words from the published table row, because part of the row text comes from a third party (Micromedex) whose reuse rights are not settled. Not endorsed by the source authors. Earlier project notice: Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.2 candidate repairs and adopted conventions merged with attribution). Not endorsed by the source authors."
+  },
+  "plain_summary": "Muscle relaxants such as baclofen, orphenadrine and methocarbamol can cause sedation, confusion, weakness, low blood pressure on standing and falls in older people.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Centrally acting muscle relaxants",
+      "ingredients": [
+        "carisoprodol",
+        "methocarbamol",
+        "orphenadrine",
+        "baclofen",
+        "tizanidine",
+        "tetrazepam",
+        "cyclobenzaprine"
+      ],
+      "brands": {
+        "carisoprodol": [],
+        "methocarbamol": [
+          "Robaxin"
+        ],
+        "orphenadrine": [
+          "Norflex",
+          "Norgesic"
+        ],
+        "baclofen": [
+          "Lioresal",
+          "Clofen",
+          "Baclo",
+          "Baclohexal",
+          "Stelax"
+        ],
+        "tizanidine": [],
+        "tetrazepam": [],
+        "cyclobenzaprine": []
+      },
+      "note": "Count only oral tablets, capsules and liquids. Norgesic is orphenadrine with paracetamol. Carisoprodol, tizanidine, tetrazepam and cyclobenzaprine have no Australian brand listed here. Exclude Bacthecal and Lioresal Intrathecal injections even if recorded in the history. Oral Lioresal remains in the group."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when any Group A medicine (carisoprodol, methocarbamol, orphenadrine, baclofen, tizanidine, tetrazepam or cyclobenzaprine) is supplied as an oral tablet, capsule or liquid to a person aged 65 or older. One supply is enough. If age is unknown and the supply otherwise qualifies, report only a possible finding and ask the pharmacist to confirm that the person is 65 or older.",
+  "cannot_be_seen": "Why the medicine was started (for example muscle spasm or spasticity), kidney function, falls and how much the person takes. Also hospital supplies.",
+  "ask_the_gp": "Whether the muscle relaxant is still needed, whether rehabilitation or another option could replace it, and the person's risk of falls and confusion.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

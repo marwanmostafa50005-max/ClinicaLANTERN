@@ -1,0 +1,41 @@
+[
+  {
+    "file": "STOPP-I8/pos-fact.csv",
+    "kind": "positive",
+    "about": "The Macrodantin supply at L006 treats the asymptomatic bacteriuria assessed at L003, while L020 is a separate course with no documented link to that episode.",
+    "findings": [
+      {
+        "criterion": "STOPP-I8",
+        "must_cite": [
+          [
+            "L006"
+          ],
+          [
+            "L003"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-I8/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record gives no reason for the trimethoprim course in a patient with fever, bacteriuria and no local urinary symptoms.",
+    "findings": [
+      {
+        "criterion": "STOPP-I8",
+        "must_cite": [
+          [
+            "L014"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-I8/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Cefalexin completes treatment for a suspected systemic infection despite a positive urine culture and no local urinary symptoms.",
+    "findings": []
+  }
+]

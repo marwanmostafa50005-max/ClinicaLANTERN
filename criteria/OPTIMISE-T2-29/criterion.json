@@ -1,0 +1,306 @@
+{
+  "id": "OPTIMISE-T2-29",
+  "label": "OPTIMISE T2-29: dopamine agonist for raised prolactin in severe mental illness",
+  "family": "OPTIMISE",
+  "title": "Dopamine agonist started for raised prolactin in severe mental illness",
+  "statement": "Dopamine agonists (eg. cabergoline, bromocriptine) should not be initiated in adults with SMI for the management of hyperprolactinaemia except under specialist endocrine advice due to the risk of psychosis",
+  "statement_origin": "published",
+  "source": {
+    "document": "Carolan A, et al. OPTIMISE. BMC Psychiatry 2022;22:585, Tables 2-3",
+    "citation": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "modification_notice": "Statement text as recorded by the earlier project. It has not been compared with the publisher's page. Not endorsed by the source authors."
+  },
+  "plain_summary": "Cabergoline or bromocriptine can bring on psychosis, so an adult with severe mental illness should not be started on one for high prolactin unless a specialist endocrinologist advises it.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Dopamine agonists used for high prolactin",
+      "ingredients": [
+        "cabergoline",
+        "bromocriptine",
+        "quinagolide"
+      ],
+      "brands": {
+        "cabergoline": [
+          "Dostinex",
+          "Bergoline",
+          "Cabaser",
+          "Carbelin",
+          "Cobasol",
+          "Dostamine",
+          "Dostan",
+          "Novanex",
+          "Tinexa"
+        ],
+        "bromocriptine": [
+          "Parlodel",
+          "Kripton"
+        ],
+        "quinagolide": [
+          "Norprolac"
+        ]
+      },
+      "note": "Tablets count. Confirm why the medicine was started. A Group A supply alone does not establish treatment for high prolactin. Use a dated start or a first supply supported by evidence of initiation. Exclude documented continuation. If treatment may predate the record, ask whether this is a new course. Generic packs showing a listed ingredient with a company name count."
+    },
+    {
+      "key": "B",
+      "name": "Antipsychotics and lithium (clues to severe mental illness only)",
+      "ingredients": [
+        "risperidone",
+        "olanzapine",
+        "quetiapine",
+        "aripiprazole",
+        "paliperidone",
+        "amisulpride",
+        "haloperidol",
+        "clozapine",
+        "lithium carbonate",
+        "chlorpromazine",
+        "zuclopenthixol",
+        "flupentixol",
+        "lurasidone",
+        "periciazine",
+        "asenapine",
+        "brexpiprazole",
+        "ziprasidone",
+        "cariprazine"
+      ],
+      "brands": {
+        "risperidone": [
+          "Risperdal",
+          "Ozidal",
+          "Resdone",
+          "Respaz",
+          "Risdone",
+          "Rispa",
+          "Rispaccord",
+          "Rispaccord-0.5",
+          "Risperdal Quicklet",
+          "Risperibell",
+          "Rispericor",
+          "Rispericor-0.5",
+          "Risperisan",
+          "Rispernia",
+          "Rixadone",
+          "Sperid",
+          "Risperdal Consta",
+          "Uzedy"
+        ],
+        "olanzapine": [
+          "Zyprexa",
+          "Aprolan",
+          "Aprolan ODT",
+          "Lanez",
+          "Lanez ODT",
+          "Lanzek",
+          "Lanzek Zydis",
+          "Lonza",
+          "Lonza ODT",
+          "Lyprosia",
+          "Lyprosia ODT",
+          "Olancor",
+          "Olanza",
+          "Olanzaccord",
+          "Olanzacor",
+          "Oprexa",
+          "Ozin",
+          "Ozin ODT",
+          "Prolanza",
+          "Prolanza ODT",
+          "Pryzex",
+          "Pryzex ODT",
+          "Tolaze ODT",
+          "Tolazine ODT",
+          "Torapine ODT",
+          "Torrenia ODT",
+          "Zylap",
+          "Zylap ODT",
+          "Zylapine",
+          "Zylapine ODT",
+          "Zypine",
+          "Zypine ODT",
+          "Zyprexa Zydis",
+          "Zyprexa Relprevv"
+        ],
+        "quetiapine": [
+          "Seroquel",
+          "Aliquen",
+          "Delucon",
+          "Kaptan",
+          "Ketizenol",
+          "Qualez",
+          "Quepine XR",
+          "Quetapen",
+          "Quetia",
+          "Quetia XR",
+          "Quetiaccord",
+          "Quetiaquel XR",
+          "Quetin",
+          "Quipine",
+          "Sequase",
+          "Sequase XR",
+          "Serapine",
+          "Serapine XR",
+          "Seroccord",
+          "Seronia",
+          "Seroquel XR",
+          "Serotiapine XR",
+          "Syquet",
+          "Syquet XR",
+          "Syzopine",
+          "Tevatiapine XR",
+          "Tiapine XR",
+          "Tiava XR",
+          "Xque XR"
+        ],
+        "aripiprazole": [
+          "Abilify",
+          "Abilify ODT",
+          "Abipra",
+          "Abyraz",
+          "Aprazole",
+          "Aripic",
+          "Aripra",
+          "Arizole",
+          "Abilify Maintena",
+          "Abilify Asimtufii"
+        ],
+        "paliperidone": [
+          "Invega",
+          "Invega Sustenna",
+          "Invega Trinza",
+          "Invega Hafyera"
+        ],
+        "amisulpride": [
+          "Solian",
+          "Amipride",
+          "Sulprix"
+        ],
+        "haloperidol": [
+          "Serenace",
+          "Haldol Decanoate"
+        ],
+        "clozapine": [
+          "Clozaril",
+          "Clopine",
+          "Closyn",
+          "Clozaril ODT",
+          "Clozitor",
+          "Versacloz"
+        ],
+        "lithium carbonate": [
+          "Lithicarb",
+          "Quilonum SR",
+          "Lithicarb SR",
+          "Lithquil SR",
+          "Lithspen"
+        ],
+        "chlorpromazine": [
+          "Largactil"
+        ],
+        "zuclopenthixol": [
+          "Clopixol"
+        ],
+        "flupentixol": [
+          "Fluanxol"
+        ],
+        "lurasidone": [
+          "Latuda"
+        ],
+        "periciazine": [
+          "Neulactil"
+        ],
+        "asenapine": [
+          "Saphris"
+        ],
+        "brexpiprazole": [
+          "Rexulti"
+        ],
+        "ziprasidone": [
+          "Zeldox"
+        ],
+        "cariprazine": [
+          "Reagila"
+        ]
+      },
+      "note": "These are not a diagnosis. They are used only as a clue when the record holds no diagnosis line. Oral tablets, wafers, capsules, liquids and systemic antipsychotic injections, including depots, can supply the clue. Generic packs showing a listed ingredient with a company name count."
+    }
+  ],
+  "rule_for_models": "Apply to an adult aged 18 or over with severe mental illness starting a Group A dopamine agonist for hyperprolactinaemia. Use the recorded age if it establishes age at this start. Only if the start otherwise warrants review and age then is unknown, report a possible finding and ask in that finding whether the patient was 18 or older when this course started. If so, assess the remaining evidence. Exclude a start before age 18. If age remains unknown, keep the finding possible. Use a dated start or a first supply that an initiation note or the pharmacist identifies as the start. Exclude documented continuation, a different indication or specialist endocrine advice supporting this start. Confirm a finding only when the record documents the diagnosis at this start, the indication, the new course and initiation without specialist endocrine advice. A shared answer about the diagnosis alone cannot date its onset. Cite the diagnosis, the initiation note and the first supply for that course. A GP prescription alone leaves specialist advice unknown. If any fact is missing, report only a possible finding and name each missing fact exactly: \"Severe mental illness\", \"Reason for starting this dopamine agonist course\", \"Dopamine agonist course at the dated supply under review\", \"Specialist endocrine advice for this dopamine agonist start\". A first Group A supply can prompt a possible finding on supplies alone. Ask whether it was a new course for high prolactin, whether severe mental illness was present at the start and whether an endocrine specialist advised it. If the diagnosis is known but its timing is unclear, give the pharmacist these choices in the finding for this start: \"A qualifying diagnosis was present when this course started\", \"No qualifying diagnosis was present at the start\", \"Not known\". A diagnosis confirmed for that start allows assessment. Its confirmed absence at that start excludes the finding. Unknown timing leaves it possible. Use a course-specific response only when the record links it to this start. Group B is optional. Use the dated history to judge whether a Group B supply is relevant, with borderline timing reviewed by the pharmacist. In a possible finding cite the first visible Group A supply and a relevant Group B supply if used as a clue. A gap in supplies alone cannot prove initiation.",
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Severe mental illness",
+      "meets": "A condition line records severe mental illness, such as schizophrenia, schizoaffective disorder, bipolar disorder or severe depression. For this criterion, establish that it was present at initiation. An unrelated diagnosis alone or uncertain timing leaves this fact open."
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for starting this dopamine agonist course",
+      "meets": "Treatment of high prolactin was a reason for this start. A different reason alone excludes the finding. An unknown reason leaves it open.",
+      "options": [
+        {
+          "words": "Treatment of high prolactin",
+          "effect": "meets"
+        },
+        {
+          "words": "Only a different reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Dopamine agonist course at the dated supply under review",
+      "meets": "Link a confirmed start to the supply under review. A continuation does not count as a new start. If the start cannot be placed, report only a possible finding.",
+      "options": [
+        {
+          "words": "This supply started the course",
+          "effect": "meets"
+        },
+        {
+          "words": "The course was already under way",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "The course was new but its start date is uncertain",
+          "effect": "unknown"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Specialist endocrine advice for this dopamine agonist start",
+      "meets": "A note explicitly records that the course began without specialist endocrine advice. Advice supporting the start clears the finding. Missing advice supports only a possible finding.",
+      "options": [
+        {
+          "words": "The course began without specialist endocrine advice",
+          "effect": "meets"
+        },
+        {
+          "words": "An endocrine specialist advised this start",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "cannot_be_seen": "Why the dopamine agonist was started, whether a specialist endocrinologist advised it, and the diagnosis unless it is in the record. Also the prolactin result and any symptoms, and whether the person has Parkinson disease or another reason for the medicine.",
+  "ask_the_gp": "Whether the dopamine agonist was started on specialist endocrine advice, and whether it is the right choice for this person with severe mental illness.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,61 @@
+[
+  {
+    "file": "BRISNIK-HR-A1/pos-fact.csv",
+    "kind": "positive",
+    "about": "Efexor-XR (venlafaxine, an SNRI) is supplied monthly by brand name only, and the record holds a Heart failure condition line.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-A1",
+        "must_cite": [
+          [
+            "L003",
+            "L007",
+            "L011",
+            "L015",
+            "L019",
+            "L023",
+            "L027",
+            "L031",
+            "L035",
+            "L039",
+            "L043",
+            "L047"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-A1/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about heart failure. Duloxetine Sandoz (duloxetine, an SNRI) is supplied monthly.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-A1",
+        "must_cite": [
+          [
+            "L001",
+            "L004",
+            "L007",
+            "L011",
+            "L014",
+            "L017",
+            "L020",
+            "L023",
+            "L026",
+            "L029"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-A1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Efexor-XR is supplied monthly, and a dated history review records no current or past chronic heart failure.",
+    "findings": []
+  }
+]

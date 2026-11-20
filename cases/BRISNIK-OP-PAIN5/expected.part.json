@@ -1,0 +1,63 @@
+[
+  {
+    "file": "BRISNIK-OP-PAIN5/pos-fact.csv",
+    "kind": "positive",
+    "about": "The record links Enlafax XR to chronic osteoarthritis pain and confirms there is no other current indication for an antidepressant.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-PAIN5",
+        "must_cite": [
+          [
+            "L001",
+            "L007",
+            "L011",
+            "L015",
+            "L019",
+            "L023",
+            "L027",
+            "L031",
+            "L035",
+            "L039"
+          ],
+          [
+            "L002"
+          ],
+          [
+            "L003"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-PAIN5/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record shows duloxetine and a diagnosis of osteoarthritis pain but leaves both \"Pain treated with this tricyclic or SNRI\" and \"Another current antidepressant indication besides the pain being treated with this tricyclic or SNRI\" unresolved.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-PAIN5",
+        "must_cite": [
+          [
+            "L002",
+            "L007",
+            "L011",
+            "L015",
+            "L019",
+            "L022",
+            "L026",
+            "L030"
+          ],
+          [
+            "L003"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-PAIN5/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Amitriptyline is supplied, and the record also holds a line for depression, which is an accepted reason for an antidepressant, so it must not flag.",
+    "findings": []
+  }
+]

@@ -1,0 +1,209 @@
+{
+  "id": "STOPP-D24",
+  "label": "STOPP D24: first-generation antihistamine for allergy or itch",
+  "family": "STOPP_START",
+  "title": "Older antihistamine as the first treatment for allergy or itch",
+  "statement": "First-generation antihistamines as first-line treatment for allergy or pruritus (safer antihistamines with fewer side-effects now widely available).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Older, sedating antihistamines such as promethazine or dexchlorpheniramine are not the first choice for allergy or itch because newer antihistamines cause far less drowsiness and confusion.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "First-generation (older, sedating) antihistamines",
+      "ingredients": [
+        "alimemazine",
+        "cyproheptadine",
+        "dexchlorpheniramine",
+        "diphenhydramine",
+        "doxylamine",
+        "promethazine",
+        "chlorphenamine",
+        "triprolidine",
+        "hydroxyzine",
+        "brompheniramine",
+        "pheniramine"
+      ],
+      "brands": {
+        "alimemazine": [
+          "Vallergan",
+          "Vallergan Forte",
+          "Vallergan Syrup"
+        ],
+        "cyproheptadine": [
+          "Periactin"
+        ],
+        "dexchlorpheniramine": [
+          "Polaramine",
+          "Polaramine Repetab",
+          "Polaramine Syrup",
+          "Polarelief"
+        ],
+        "diphenhydramine": [
+          "Snuzaid Tab",
+          "Unisom SleepGels"
+        ],
+        "doxylamine": [
+          "Restavit",
+          "Dozile",
+          "Dozavit",
+          "Restamine",
+          "APOHEALTH Sleep Assist",
+          "Blooms The Chemist Sleep Assist",
+          "TerryWhite Chemmart Sleep Assist"
+        ],
+        "promethazine": [
+          "Phenergan",
+          "Avomine",
+          "Allersoothe",
+          "Allersoothe Elixir",
+          "Fenezal",
+          "Histaren",
+          "Phenergan Elixir",
+          "Progan Children's Allergy Relief Elixir"
+        ],
+        "chlorphenamine": [],
+        "triprolidine": [],
+        "hydroxyzine": [],
+        "brompheniramine": [],
+        "pheniramine": [
+          "Avil"
+        ]
+      },
+      "note": "Count oral preparations, including tablets, capsules and liquids. Avomine contains promethazine teoclate. A Benadryl brand name alone does not identify the ingredient. Exclude creams and gels. Match hydroxyzine by ingredient name only. Trimeprazine is another name for alimemazine. Chlorpheniramine is another name for chlorphenamine. For combination products, check the exact product or the listed ingredients for chlorphenamine, triprolidine or brompheniramine. A range name such as Demazin, Dimetapp or Actifed, or the label Sleep Assist alone, does not identify the ingredient."
+    },
+    {
+      "key": "B",
+      "name": "Second-generation (newer, less sedating) antihistamines",
+      "ingredients": [
+        "cetirizine",
+        "desloratadine",
+        "fexofenadine",
+        "loratadine",
+        "bilastine",
+        "levocetirizine"
+      ],
+      "brands": {
+        "cetirizine": [
+          "Zyrtec",
+          "Allerid",
+          "Alzene",
+          "Little Allergies",
+          "Rancet",
+          "Tirizine",
+          "ZepAllergy",
+          "Zertine",
+          "Zilarex",
+          "Zirizine",
+          "Zodac"
+        ],
+        "desloratadine": [
+          "Aerius",
+          "Aerius Syrup",
+          "Aerius for Children Syrup",
+          "Claramax",
+          "ClaratyneDES Children's"
+        ],
+        "fexofenadine": [
+          "Telfast",
+          "Allerfexo",
+          "Fexal",
+          "Fexit",
+          "Fexorelief",
+          "Fexotabs",
+          "Hayfexo",
+          "Tefodine",
+          "Telfast Children's Elixir",
+          "Xergic"
+        ],
+        "loratadine": [
+          "Claratyne",
+          "Alledine",
+          "Allerdyne",
+          "Allereze",
+          "Allervic",
+          "Cetedyne Hayfever Allergy Relief",
+          "Claratyne Children's",
+          "Claratyne Liquid Capsule",
+          "Claratyne Reditab",
+          "Lorano",
+          "Lorapaed",
+          "Lorastyne",
+          "Lorastyne Syrup",
+          "Lorazol"
+        ],
+        "bilastine": [
+          "Allertine",
+          "Allertine Meltlets"
+        ],
+        "levocetirizine": [
+          "Xyzal"
+        ]
+      },
+      "note": "Count an earlier trial of a newer antihistamine only if it treated the same allergy or itch, including one bought without a prescription. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Reason for taking this older oral antihistamine",
+      "meets": "A record line links this oral antihistamine to allergy, hay fever, hives or itch.",
+      "options": [
+        {
+          "words": "To treat allergy, including hay fever or hives",
+          "effect": "meets"
+        },
+        {
+          "words": "To treat itch",
+          "effect": "meets"
+        },
+        {
+          "words": "Only for a different reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Treatment tried first for this allergy or itch, including purchases without a prescription and treatment elsewhere",
+      "meets": "The older antihistamine was the first treatment for this allergy or itch.",
+      "options": [
+        {
+          "words": "This older antihistamine was the first treatment for these symptoms",
+          "effect": "meets"
+        },
+        {
+          "words": "A newer antihistamine was tried first for these symptoms",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "A different treatment was tried first for these symptoms",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply only to people aged 65 years or older. Below 65 there is no finding. If age is unknown, record eligibility as unresolved and confirm age before reporting either finding. An oral Group A antihistamine taken only for a different recorded reason gives no finding. If a different treatment was tried first for the same symptoms, report no finding. Count an earlier Group B antihistamine, including one bought without a prescription, as prior treatment giving no finding only when it was tried for the same allergy or itch. Ignore an earlier Group B supply recorded for a different condition. If the current Group A supply otherwise qualifies and an earlier Group B supply has an unknown indication, report a possible finding, cite both supplies and ask whether the earlier medicine treated the same symptoms. If the Group A medicine was the first treatment for allergy, hay fever, hives or itch, report a finding and cite the supply and the evidence of its purpose and treatment order. If there is no relevant earlier Group B supply, no exclusion is established and the reason or treatment order is unclear, cite the Group A supply and report a possible finding naming the missing information.",
+  "cannot_be_seen": "The reason for treatment may be missing. A newer antihistamine bought over the counter or supplied elsewhere may be absent from this record.",
+  "ask_the_gp": "Whether a newer antihistamine could replace the older one, and the person's risk of drowsiness, confusion, falls and trouble passing urine.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

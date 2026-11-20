@@ -1,0 +1,22 @@
+2026-01-05 | Tenormin 50 mg tablet | qty 30 | repeats 2 | Take ONE tablet daily | Dr A. Example
+2026-01-05 | Coversyl 5 mg tablet | qty 30 | repeats 2 | Take ONE tablet in the morning | Dr A. Example
+2026-02-04 | Tenormin 50 mg tablet | qty 30 | repeats 1 | Take ONE tablet daily | Dr A. Example
+2026-02-04 | Coversyl 5 mg tablet | qty 30 | repeats 1 | Take ONE tablet in the morning | Dr A. Example
+2026-02-10 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day, swallow whole | Dr A. Example
+2026-03-03 | Aricept 5 mg tablet | qty 28 | repeats 1 | Take ONE tablet at night | Dr B. Sample
+2026-03-07 | Tenormin 50 mg tablet | qty 30 | repeats 0 | Take ONE tablet daily | Dr A. Example
+2026-03-07 | Coversyl 5 mg tablet | qty 30 | repeats 0 | Take ONE tablet in the morning | Dr A. Example
+2026-03-31 | Aricept 5 mg tablet | qty 28 | repeats 0 | Take ONE tablet at night | Dr B. Sample
+2026-04-05 | Tenormin 50 mg tablet | qty 30 | repeats 5 | Take ONE tablet daily | Dr A. Example
+2026-04-05 | Coversyl 5 mg tablet | qty 30 | repeats 5 | Take ONE tablet in the morning | Dr A. Example
+2026-04-28 | Aricept 10 mg tablet | qty 28 | repeats 5 | Take ONE tablet at night | Dr B. Sample
+2026-05-07 | Tenormin 50 mg tablet | qty 30 | repeats 4 | Take ONE tablet daily | Dr A. Example
+2026-05-07 | Coversyl 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr A. Example
+2026-05-26 | Aricept 10 mg tablet | qty 28 | repeats 4 | Take ONE tablet at night | Dr B. Sample
+2026-06-02 | Keflex (cefalexin) 500 mg capsule | qty 20 | repeats 0 | Take ONE capsule four times a day until finished | Dr C. Specimen
+2026-06-06 | Tenormin 50 mg tablet | qty 30 | repeats 3 | Take ONE tablet daily | Dr A. Example
+2026-06-06 | Coversyl 5 mg tablet | qty 30 | repeats 3 | Take ONE tablet in the morning | Dr A. Example
+2026-06-23 | Aricept 10 mg tablet | qty 28 | repeats 3 | Take ONE tablet at night | Dr B. Sample
+2026-07-04 | Tenormin 50 mg tablet | qty 30 | repeats 2 | Take ONE tablet daily | Dr A. Example
+2026-07-04 | Coversyl 5 mg tablet | qty 30 | repeats 2 | Take ONE tablet in the morning | Dr A. Example
+2026-07-21 | Aricept 10 mg tablet | qty 28 | repeats 2 | Take ONE tablet at night | Dr B. Sample

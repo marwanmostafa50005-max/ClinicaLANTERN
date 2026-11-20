@@ -1,0 +1,22 @@
+2026-01-06 | Betaloc 50 mg tablet | qty 100 | repeats 3 | Take ONE tablet twice a day
+2026-01-06 | Crestor 10 mg tablet | qty 30 | repeats 2 | Take ONE tablet daily
+2026-01-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 2 | Take ONE tablet in the morning
+2026-02-05 | Crestor 10 mg tablet | qty 30 | repeats 1 | Take ONE tablet daily
+2026-02-05 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 1 | Take ONE tablet in the morning
+2026-02-05 | Nitrolingual Pumpspray (glyceryl trinitrate) 400 microgram/dose sublingual spray | qty 1 | repeats 1 | Spray ONE dose under the tongue when ne
+2026-02-24 | Betaloc 50 mg tablet | qty 100 | repeats 2 | Take ONE tablet twice a day
+2026-03-08 | Crestor 10 mg tablet | qty 30 | repeats 0 | Take ONE tablet daily
+2026-03-08 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 0 | Take ONE tablet in the morning
+2026-03-08 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day, swallow
+2026-04-06 | Crestor 10 mg tablet | qty 30 | repeats 5 | Take ONE tablet daily
+2026-04-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 5 | Take ONE tablet in the morning
+2026-04-15 | Betaloc 50 mg tablet | qty 100 | repeats 1 | Take ONE tablet twice a day
+2026-04-22 | Amoxil (amoxicillin) 500 mg capsule | qty 20 | repeats 0 | Take ONE capsule three times a day until fin
+2026-05-08 | Crestor 10 mg tablet | qty 30 | repeats 4 | Take ONE tablet daily
+2026-05-08 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning
+2026-06-02 | Betaloc 50 mg tablet | qty 100 | repeats 0 | Take ONE tablet twice a day
+2026-06-07 | Crestor 10 mg tablet | qty 30 | repeats 3 | Take ONE tablet daily
+2026-06-07 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 3 | Take ONE tablet in the morning
+2026-06-16 | Cardizem CD 240 mg modified release capsule | qty 30 | repeats 5 | Take ONE capsule daily
+2026-06-16 | Nitrolingual Pumpspray (glyceryl trinitrate) 400 microgram/dose sublingual spray | qty 1 | repeats 1 | Spray ONE dose under the tongue when ne
+2026-07-05 | Crestor 10 mg tablet | qty 30 | repeats 2 | Take ONE tablet daily

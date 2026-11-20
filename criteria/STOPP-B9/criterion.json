@@ -1,0 +1,115 @@
+{
+  "id": "STOPP-B9",
+  "label": "STOPP B9",
+  "family": "STOPP_START",
+  "title": "Thiazide diuretic with low potassium, low sodium, high calcium or gout",
+  "statement": "Thiazide diuretic with current significant hypokalaemia (i.e., serum K+ < 3.0 mmol/l), hyponatraemia (i.e., serum Na+ < 130 mmol/l) hypercalcaemia (i.e., corrected serum calcium > 2.65 mmol/l) or with a history of gout (hypokalaemia, hyponatraemia, hypercalcaemia and gout can be precipitated by thiazide diuretic)",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Thiazide water tablets can lower potassium and sodium, raise calcium and bring on gout. They should not be used when potassium is below 3.0 mmol/L, sodium is below 130 mmol/L, corrected calcium is above 2.65 mmol/L, or the person has had gout. During ongoing thiazide treatment, a current potassium below 3.0 mmol/L, sodium below 130 mmol/L or symptoms suggesting a serious electrolyte disturbance need same-day review. For raised corrected calcium, the pharmacist assesses urgency from the value and the clinical picture. A dangerous calcium result also needs same-day review. Routine review is enough for an old, recovered or missing result or a history of gout alone when there is no acute concern.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Thiazide and thiazide-like diuretics, alone or in combination products",
+      "ingredients": [
+        "hydrochlorothiazide",
+        "indapamide",
+        "chlortalidone"
+      ],
+      "brands": {
+        "hydrochlorothiazide": [
+          "Moduretic",
+          "Co-Renitec",
+          "Renitec Plus",
+          "Teveten Plus",
+          "Karvezide",
+          "Micardis Plus",
+          "Atacand Plus",
+          "Dithiazide",
+          "Avapro HCT",
+          "Olmetec Plus",
+          "Sevikar HCT",
+          "Pritor Plus",
+          "Co-Diovan",
+          "Exforge HCT",
+          "Accuretic",
+          "Monoplus"
+        ],
+        "indapamide": [
+          "Natrilix SR",
+          "Coversyl Plus",
+          "Coversyl Plus LD",
+          "Dapa-Tabs",
+          "Indahexal",
+          "Indapamol",
+          "Insig",
+          "Napamide",
+          "Natrilix",
+          "Odaplix SR",
+          "Tenaxil SR",
+          "Triplixam SR"
+        ],
+        "chlortalidone": [
+          "Hygroton",
+          "Hygroton 25"
+        ]
+      },
+      "note": "Hydrochlorothiazide combinations are listed with their brands: Moduretic (with amiloride), Co-Renitec (with enalapril), Karvezide (with irbesartan), Micardis Plus (with telmisartan) and Atacand Plus (with candesartan). Coversyl Plus is perindopril with indapamide. Indapamide and chlortalidone are thiazide-like and are counted here. Generic packs that show the ingredient name with a company name count too. Recognise chlorthalidone as another spelling of chlortalidone."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "Serum potassium",
+      "meets": "below 3.0 mmol/L"
+    },
+    {
+      "kind": "result",
+      "what": "Serum sodium",
+      "meets": "below 130 mmol/L"
+    },
+    {
+      "kind": "result",
+      "what": "Corrected serum calcium",
+      "meets": "above 2.65 mmol/L"
+    },
+    {
+      "kind": "condition",
+      "what": "Gout",
+      "meets": "a history of gout is recorded",
+      "options": [
+        {
+          "words": "The patient currently has gout",
+          "effect": "meets"
+        },
+        {
+          "words": "The patient has had gout in the past",
+          "effect": "meets"
+        },
+        {
+          "words": "The patient has never had gout",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this criterion only to people aged 65 years or older. For a person under 65, report no finding. If age is unknown and the other evidence would support a finding, report it only as possible and identify age as missing. For a Group A thiazide diuretic supply, review the electrolytes and gout history. Assess each electrolyte using its most recent relevant result during the treatment period. Compare a value only when the unit is established and the measurement can be linked to that period. The date of entry at the counter is not the sample date. If either is unclear and no other trigger is established, keep the finding possible and name the affected test. Report a finding for current potassium below 3.0 mmol/L, sodium below 130 mmol/L or corrected calcium above 2.65 mmol/L, or for a recorded history of gout. Cite the qualifying fact and supply. A later correction supersedes the earlier abnormality for a current review. If the date leaves doubt about whether a result still applies, ask the pharmacist to judge its relevance to this supply. If no trigger is established and any result, its currency or the history of gout is unknown, report only a possible finding and name each missing fact as Serum potassium, Serum sodium, Corrected serum calcium or Gout, as applicable. Report no finding when all three current results are outside the triggering thresholds and the record confirms the patient has never had gout.",
+  "cannot_be_seen": "The most recent blood test if it is not in the record and a gout history that was never entered. Also whether the diuretic is still taken.",
+  "ask_the_gp": "Could you review whether the thiazide is still suitable? During ongoing treatment, could you review the patient the same day for current potassium below 3.0 mmol/L, sodium below 130 mmol/L or symptoms suggesting a serious electrolyte disturbance? For raised corrected calcium, the pharmacist assesses urgency from the value and the clinical picture and requests same-day review if the result is dangerous. An old, recovered or missing result or a history of gout alone can be reviewed routinely if there is no acute concern.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

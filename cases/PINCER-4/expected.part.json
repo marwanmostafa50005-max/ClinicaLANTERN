@@ -1,0 +1,45 @@
+[
+  {
+    "file": "PINCER-4/pos-fact.csv",
+    "kind": "positive",
+    "about": "A deep vein thrombosis is on record from July 2025 and a combined oral contraceptive (Microgynon 30 ED) is supplied every 12 weeks, the last three supplies inside the last six months.",
+    "findings": [
+      {
+        "criterion": "PINCER-4",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L026",
+            "L033",
+            "L041"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PINCER-4/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about \"First recorded history of venous or arterial thrombosis\". Yaz (a combined oral contraceptive) is supplied by brand name four times in nine months.",
+    "findings": [
+      {
+        "criterion": "PINCER-4",
+        "must_cite": [
+          [
+            "L010",
+            "L018",
+            "L026"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PINCER-4/near-miss.csv",
+    "kind": "near_miss",
+    "about": "A deep vein thrombosis is on record, but the last contraceptive supply (3 March 2026) is more than six months before the end of the record, so there is none in the last six months.",
+    "findings": []
+  }
+]

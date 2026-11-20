@@ -1,0 +1,34 @@
+[
+  {
+    "file": "EU7-F21/pos-brand.csv",
+    "kind": "positive",
+    "about": "Ferro-Gradumet (ferrous sulfate 325 mg), by brand name only, is supplied eight times with directions to take one tablet twice a day, which is 650 mg of ferrous sulfate a day.",
+    "findings": [
+      {
+        "criterion": "EU7-F21",
+        "must_cite": [
+          ["L004", "L007", "L011", "L015", "L018", "L021", "L024", "L028"]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F21/pos-buried.csv",
+    "kind": "positive",
+    "about": "Ferro-grad (ferrous sulfate 325 mg) is supplied four times from January to April 2026, in the middle of a 14-month history, with directions to take one tablet in the morning and one at night, which is 650 mg of ferrous sulfate a day.",
+    "findings": [
+      {
+        "criterion": "EU7-F21",
+        "must_cite": [
+          ["L032", "L037", "L042", "L047"]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F21/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Ferro-Liquid (ferrous sulfate 30 mg in each mL) is supplied at 10 mL once a day, which is 300 mg of ferrous sulfate a day and below the 325 mg limit, so the criterion is not met.",
+    "findings": []
+  }
+]

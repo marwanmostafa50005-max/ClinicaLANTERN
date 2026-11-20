@@ -1,0 +1,38 @@
+[
+  {
+    "file": "OPTIMISE-T2-04/pos-fact.csv",
+    "kind": "positive",
+    "about": "The record documents stage 3 chronic kidney disease and no statin supply during the year.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T2-04",
+        "must_cite": [
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T2-04/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: one eGFR result is below 60 and no statin is supplied. The record lacks confirmation of \"Chronic kidney disease\" or an earlier qualifying result.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T2-04",
+        "must_cite": [
+          [
+            "L023"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T2-04/near-miss.csv",
+    "kind": "near_miss",
+    "about": "No statin is supplied, but two eGFR results (88 and 85, seven months apart) show normal kidney function and there is no kidney disease line, so there is no finding.",
+    "findings": []
+  }
+]

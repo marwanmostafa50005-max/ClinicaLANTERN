@@ -1,0 +1,204 @@
+{
+  "id": "OPTIMISE-T3-05",
+  "label": "OPTIMISE T3-05: smoking and psychotropic dose",
+  "family": "OPTIMISE",
+  "title": "Psychotropic dose lowered in a person who smokes",
+  "statement": "Tobacco smoking can alter the pharmacokinetics of psychotropic medications: For people with SMI who are taking TCA’s, mirtazapine, haloperidol and benzodiazepines, do not reduce the dose of the psychotropic drug but instead, monitor for adverse effects",
+  "statement_origin": "published",
+  "source": {
+    "document": "Carolan A, et al. OPTIMISE. BMC Psychiatry 2022;22:585, Tables 2-3",
+    "citation": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "doi": null,
+    "url": null,
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "modification_notice": "Statement text reproduced without changes. Medicine groups, brands and rules added by ClinicaLANTERN."
+  },
+  "plain_summary": "In a person with serious mental illness who smokes, the dose of a tricyclic antidepressant, mirtazapine, haloperidol or a benzodiazepine should not be lowered for that reason. The doctor should watch for side effects instead.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Tricyclic antidepressants, mirtazapine, haloperidol and benzodiazepines",
+      "ingredients": [
+        "amitriptyline",
+        "nortriptyline",
+        "dosulepin",
+        "doxepin",
+        "imipramine",
+        "clomipramine",
+        "mirtazapine",
+        "haloperidol",
+        "alprazolam",
+        "clonazepam",
+        "diazepam",
+        "lorazepam",
+        "nitrazepam",
+        "oxazepam",
+        "temazepam",
+        "bromazepam",
+        "clobazam",
+        "flunitrazepam"
+      ],
+      "brands": {
+        "amitriptyline": [
+          "Endep",
+          "Tryptanol",
+          "Amichlor",
+          "Amidep",
+          "Entrip"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "dosulepin": [
+          "Prothiaden",
+          "Dothep"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "mirtazapine": [
+          "Remeron",
+          "Avanza",
+          "Aurozapine",
+          "Avanza Soltab",
+          "Axit",
+          "Milivin OD",
+          "Mirtanza",
+          "Mirtanza ODT",
+          "Mirtazon",
+          "Remeron Soltab"
+        ],
+        "haloperidol": [
+          "Serenace"
+        ],
+        "alprazolam": [
+          "Xanax",
+          "Kalma",
+          "Alprax",
+          "Ralozam",
+          "Xanax Tri-Score",
+          "Zamhexal"
+        ],
+        "clonazepam": [
+          "Rivotril",
+          "Paxam"
+        ],
+        "diazepam": [
+          "Valium",
+          "Ducene",
+          "Antenex",
+          "Ranzepam",
+          "Valpam"
+        ],
+        "lorazepam": [
+          "Ativan"
+        ],
+        "nitrazepam": [
+          "Mogadon",
+          "Alodorm"
+        ],
+        "oxazepam": [
+          "Serepax",
+          "Murelax",
+          "Alepam"
+        ],
+        "temazepam": [
+          "Normison",
+          "Temaze",
+          "Temtabs"
+        ],
+        "bromazepam": [],
+        "clobazam": [],
+        "flunitrazepam": []
+      },
+      "note": "Tablets, capsules and liquids count. Injections and long-acting depot injections do not count. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Tobacco smoking at the time of the dose change",
+      "meets": "The person smoked at the time or had stopped smoking in connection with the dose change.",
+      "options": [
+        {
+          "words": "Smoked tobacco at the time of this change",
+          "effect": "meets"
+        },
+        {
+          "words": "Had stopped smoking around this change",
+          "effect": "meets"
+        },
+        {
+          "words": "Neither smoked nor stopped smoking around this change",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "condition",
+      "what": "Severe mental illness",
+      "meets": "Recorded severe mental illness, including schizophrenia, schizoaffective disorder, bipolar disorder or severe affective disorder. An affective disorder of unspecified severity alone is insufficient."
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for this psychotropic dose reduction",
+      "meets": "The reason for this dose reduction was a precaution because the person smoked or had stopped smoking.",
+      "options": [
+        {
+          "words": "A precaution because the person smoked or had stopped smoking",
+          "effect": "meets"
+        },
+        {
+          "words": "A response to adverse effects",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Another reason unrelated to smoking",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Previous daily dose of the psychotropic medicine (name and unit)",
+      "meets": "For the identified change, enter the medicine and total prescribed daily dose before the change, including the unit. Ask only if the earlier dose is unclear."
+    },
+    {
+      "kind": "observation",
+      "what": "New daily dose of the psychotropic medicine (name and unit)",
+      "meets": "For the same change, enter the medicine and total prescribed daily dose after the change, including the unit. Ask only if the later dose is unclear."
+    },
+    {
+      "kind": "observation",
+      "what": "Age",
+      "meets": "Confirm age in years only if the record gives no age and the other evidence supports review. This criterion applies from age 18."
+    }
+  ],
+  "rule_for_models": "Apply this criterion from age 18. There is no finding under 18. If age is unknown and the remaining evidence supports review, keep the finding possible and ask whether the person is 18 or older. Compare the total prescribed daily dose of the same eligible Group A medicine before and after the dated change. Include every strength taken together on each side using strength and directions. A lower daily dose starts the check even when the record contains supplies alone. Confirm a finding only when severe mental illness is documented and a note or pharmacist answer links this specific reduction to smoking or stopping smoking as a precaution. Use the dated supplies to identify the change. If the answer could refer to another change, keep the finding possible and clarify which change it describes. Cite both supplies, the diagnosis and the smoking evidence, including the reason for the change. Report no finding if the dose did not fall, severe mental illness is ruled out, the person neither smoked nor stopped smoking around the change, or the reason was unrelated to smoking, including a documented adjustment for adverse effects. If a reduction is possible but either total is unclear, keep the finding possible and identify the medicine and date of the change. Ask only for the unresolved total using \"Previous daily dose of the psychotropic medicine (name and unit)\" or \"New daily dose of the psychotropic medicine (name and unit)\", or both when both are unclear. If the confirmed total fell, proceed to the clinical checks. An unchanged or higher total closes the finding. For a reduction with incomplete clinical information, report only a possible finding. Ask which diagnosis was recorded, whether the person smoked or stopped around the change, and why the dose was lowered, as needed.",
+  "cannot_be_seen": "Why the dose was lowered, whether the person has stopped or cut down smoking, side effects, blood levels, and any dose changes made without a new supply.",
+  "ask_the_gp": "A review of the dose change and a check for side effects, with the person's smoking status in mind.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

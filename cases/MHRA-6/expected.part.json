@@ -1,0 +1,41 @@
+[
+  {
+    "file": "MHRA-6/pos-fact.csv",
+    "kind": "positive",
+    "about": "A 16-year-old has a codeine supply and a recorded tonsillectomy for obstructive sleep apnoea.",
+    "findings": [
+      {
+        "criterion": "MHRA-6",
+        "must_cite": [
+          [
+            "L034"
+          ],
+          [
+            "L035"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "MHRA-6/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about recent tonsillectomy or adenoidectomy for obstructive sleep apnoea, and a 17-year-old has a codeine supply.",
+    "findings": [
+      {
+        "criterion": "MHRA-6",
+        "must_cite": [
+          [
+            "L022"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "MHRA-6/near-miss.csv",
+    "kind": "near_miss",
+    "about": "A 15-year-old has codeine for fracture pain and an observation confirms no recent tonsillectomy or adenoidectomy.",
+    "findings": []
+  }
+]

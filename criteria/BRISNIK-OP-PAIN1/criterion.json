@@ -1,0 +1,132 @@
+{
+  "id": "BRISNIK-OP-PAIN1",
+  "label": "Brisnik: PAIN1",
+  "family": "BRISNIK",
+  "title": "Tricyclic antidepressant at 75 mg a day or more for nerve pain",
+  "statement": "Prescribed a TCA ≥ 75 mg/day for neuropathic pain - and the patient has no other indications for an antidepressant",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "The indicator is reproduced from Brisnik et al., Table 4, Pain 1 (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/). An earlier version expressed it as a formal rule. ClinicaLANTERN added the summary, medicine list, screening instructions and fictional histories. The authors have not endorsed these additions."
+  },
+  "plain_summary": "When a tricyclic antidepressant is taken at 75 mg a day or more for nerve pain alone, a review can check pain relief, function and adverse effects.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Tricyclic antidepressants (TCAs)",
+      "ingredients": [
+        "amitriptyline",
+        "nortriptyline",
+        "dosulepin",
+        "doxepin",
+        "imipramine",
+        "clomipramine",
+        "trimipramine"
+      ],
+      "brands": {
+        "amitriptyline": [
+          "Endep",
+          "Amichlor",
+          "Amidep",
+          "Entrip"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "dosulepin": [
+          "Prothiaden",
+          "Dothep"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ]
+      },
+      "note": "Count oral products labelled with a listed ingredient, including names followed by a company name. Dothiepin is the former name for dosulepin. Exclude skin preparations. Match the listed tricyclics by ingredient or brand."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Neuropathic pain treated with this tricyclic",
+      "meets": "The directions, a clinical entry or the pharmacist link this tricyclic course to nerve pain. A diagnosis alone leaves its purpose unknown.",
+      "options": [
+        {
+          "words": "This tricyclic treats nerve pain during this course",
+          "effect": "meets"
+        },
+        {
+          "words": "This tricyclic is used only for another purpose during this course",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Other indications for an antidepressant during this tricyclic course",
+      "meets": "A review confirms no other current indication for an antidepressant during this tricyclic course. Another indication excludes the finding. An unassessed or unknown indication leaves it open.",
+      "options": [
+        {
+          "words": "Review confirmed no other indication",
+          "effect": "meets"
+        },
+        {
+          "words": "Another indication is present",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Prescribed daily dose of this tricyclic",
+      "meets": "Ask only if the strength and directions leave the prescribed dose uncertain at the 75 mg a day threshold and no other fact rules out the finding. A prescribed dose of 75 mg a day or more meets the dose requirement. A lower dose excludes the finding. An unknown dose leaves it open.",
+      "options": [
+        {
+          "words": "75 mg a day or more",
+          "effect": "meets"
+        },
+        {
+          "words": "Less than 75 mg a day",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "For an oral Group A tricyclic, use the strength and directions to total the daily milligrams of the same medicine in one regimen, including doses taken at different times. A dose below 75 mg a day, use solely for another purpose, or any other current indication for an antidepressant excludes a finding. Confirm only when the prescribed dose is at least 75 mg a day, the medicine treats nerve pain, and a review confirms no other antidepressant indication. Otherwise report a possible finding and ask only about unresolved facts, including the prescribed daily dose of this tricyclic if the directions leave it unclear whether the dose reaches 75 mg a day. Cite the supply and the clinical entries or pharmacist answers used.",
+  "cannot_be_seen": "Why the medicine was started, whether it is really taken for nerve pain, and any reason for an antidepressant that is not in the record. Doses taken in practice, tablets cut in half, and supplies from a hospital or another pharmacy.",
+  "ask_the_gp": "What is the tricyclic antidepressant being used for? If it is for nerve pain, could we review the dose, benefit, adverse effects and any other indication?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

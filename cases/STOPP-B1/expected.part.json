@@ -1,0 +1,63 @@
+[
+  {
+    "file": "STOPP-B1/pos-fact.csv",
+    "kind": "positive",
+    "about": "Lanoxin PG (digoxin) is prescribed for heart failure and the latest left ventricular ejection fraction is 58%.",
+    "findings": [
+      {
+        "criterion": "STOPP-B1",
+        "must_cite": [
+          [
+            "L002",
+            "L009",
+            "L015",
+            "L020",
+            "L025",
+            "L029",
+            "L034",
+            "L039",
+            "L044",
+            "L050"
+          ],
+          [
+            "L003"
+          ],
+          [
+            "L007"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-B1/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: heart failure is recorded and digoxin is supplied. The missing facts are Reason for taking digoxin and Left ventricular ejection fraction.",
+    "findings": [
+      {
+        "criterion": "STOPP-B1",
+        "must_cite": [
+          [
+            "L002",
+            "L007",
+            "L011",
+            "L015",
+            "L019",
+            "L023",
+            "L027",
+            "L030"
+          ],
+          [
+            "L003"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-B1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Digoxin is supplied and heart failure is recorded. The ejection fraction of 28% rules out B1.",
+    "findings": []
+  }
+]

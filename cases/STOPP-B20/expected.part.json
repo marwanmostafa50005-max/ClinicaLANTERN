@@ -1,0 +1,66 @@
+[
+  {
+    "file": "STOPP-B20/pos-fact.csv",
+    "kind": "positive",
+    "about": "Candesartan and amlodipine are supplied monthly, and severe symptomatic aortic stenosis is recorded.",
+    "findings": [
+      {
+        "criterion": "STOPP-B20",
+        "must_cite": [
+          [
+            "L001",
+            "L002",
+            "L005",
+            "L006",
+            "L010",
+            "L011",
+            "L014",
+            "L015",
+            "L018",
+            "L019",
+            "L022",
+            "L023",
+            "L026",
+            "L027",
+            "L030",
+            "L031",
+            "L034",
+            "L035",
+            "L038",
+            "L039",
+            "L042",
+            "L043"
+          ],
+          [
+            "L009"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-B20/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about aortic stenosis or the reason for oral minoxidil, and a hypertension diagnosis alone does not establish its purpose.",
+    "findings": [
+      {
+        "criterion": "STOPP-B20",
+        "must_cite": [
+          [
+            "L002",
+            "L008",
+            "L014",
+            "L020",
+            "L026"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-B20/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Candesartan is supplied monthly, but the recorded aortic stenosis is mild with no symptoms, so it must not flag.",
+    "findings": []
+  }
+]

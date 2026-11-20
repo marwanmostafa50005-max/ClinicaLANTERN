@@ -1,0 +1,59 @@
+[
+  {
+    "file": "CKD-B01A/pos-fact.csv",
+    "kind": "positive",
+    "about": "Xarelto 20 mg once daily is supplied for stroke prevention in non-valvular atrial fibrillation with CKD off dialysis, a dated clearance of 42 mL/min and kidney stability documented at supply.",
+    "findings": [
+      {
+        "criterion": "CKD-B01A",
+        "must_cite": [
+          [
+            "L040"
+          ],
+          [
+            "L035"
+          ],
+          [
+            "L031"
+          ],
+          [
+            "L039"
+          ],
+          [
+            "L041"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CKD-B01A/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line establishing \"Kidney function stability at the rivaroxaban supply\", despite a dated clearance of 42 mL/min and a recent illness.",
+    "findings": [
+      {
+        "criterion": "CKD-B01A",
+        "must_cite": [
+          [
+            "L032"
+          ],
+          [
+            "L026"
+          ],
+          [
+            "L022"
+          ],
+          [
+            "L030"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CKD-B01A/near-miss.csv",
+    "kind": "near_miss",
+    "about": "No dose-band finding applies at exactly 50 mL/min, below 15 mL/min or on dialysis, and the later two episodes of confirmed current use require separate same-day contraindication review.",
+    "findings": []
+  }
+]

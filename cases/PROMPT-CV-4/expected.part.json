@@ -1,0 +1,48 @@
+[
+  {
+    "file": "PROMPT-CV-4/pos-brand.csv",
+    "kind": "positive",
+    "about": "Nine supplies of Persantin 100 oral immediate-release tablets appear with no other antiplatelet in the history.",
+    "findings": [
+      {
+        "criterion": "PROMPT-CV-4",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L009",
+            "L013",
+            "L017",
+            "L020",
+            "L024",
+            "L026",
+            "L030"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PROMPT-CV-4/pos-buried.csv",
+    "kind": "positive",
+    "about": "All three short-acting dipyridamole supplies fall within 60 days of Disprin used only for occasional headache, and no other antiplatelet treatment is recorded.",
+    "findings": [
+      {
+        "criterion": "PROMPT-CV-4",
+        "must_cite": [
+          [
+            "L025",
+            "L030",
+            "L035"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PROMPT-CV-4/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Dipyridamole 100 mg tablets are supplied together with Cartia 100 mg (aspirin) every month, so dipyridamole is not the only antiplatelet and must not flag.",
+    "findings": []
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "file": "BRISNIK-OP-ANXI2/pos-fact.csv",
+    "kind": "positive",
+    "about": "Sertraline supplies span at least 12 weeks for generalised anxiety disorder, and the dated follow-up assessment records no clinically relevant improvement.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-ANXI2",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L011"
+          ],
+          [
+            "L015"
+          ],
+          [
+            "L019"
+          ],
+          [
+            "L027"
+          ],
+          [
+            "L026"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-ANXI2/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the supplies could cover twelve weeks, but age, indication and \"Anxiety response at or after 12 weeks on this antidepressant course (enter the assessment in words and its date)\" are unknown.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-ANXI2",
+        "must_cite": [
+          [
+            "L007"
+          ],
+          [
+            "L010"
+          ],
+          [
+            "L013"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-ANXI2/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Zoloft (sertraline) is supplied every month for 9 months but the anxiety score falls from 17 to 5 points, a clear improvement, so it must not flag.",
+    "findings": []
+  }
+]

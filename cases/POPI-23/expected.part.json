@@ -1,0 +1,41 @@
+[
+  {
+    "file": "POPI-23/pos-fact.csv",
+    "kind": "positive",
+    "about": "Loperamide was supplied on the day invasive diarrhoea was diagnosed.",
+    "findings": [
+      {
+        "criterion": "POPI-23",
+        "must_cite": [
+          [
+            "L038"
+          ],
+          [
+            "L040"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "POPI-23/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Loperamide for diarrhoea gives a possible finding: the record holds no line about whether the current episode is invasive.",
+    "findings": [
+      {
+        "criterion": "POPI-23",
+        "must_cite": [
+          [
+            "L028"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "POPI-23/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The diagnosis on the loperamide supply date explicitly excludes invasive diarrhoea.",
+    "findings": []
+  }
+]

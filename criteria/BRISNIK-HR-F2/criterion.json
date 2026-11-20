@@ -1,0 +1,471 @@
+{
+  "id": "BRISNIK-HR-F2",
+  "label": "BRISNIK-HR-F2",
+  "family": "BRISNIK",
+  "title": "SSRI or SNRI with two or more of antiplatelet, anticoagulant and NSAID at age 65 or over",
+  "statement": "Prescribed SSRI or SNRI - and the patient is aged ≥ 65 years and co-prescribed ≥ 2 of the following: antiplatelet, anticoagulant, and NSAID (regardless of GI protection)",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "An SSRI or SNRI antidepressant taken by a person aged 65 or over together with two or more of an antiplatelet, an anticoagulant and an NSAID raises the risk of bleeding, mostly from the stomach or bowel.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "SSRI and SNRI antidepressants",
+      "ingredients": [
+        "citalopram",
+        "escitalopram",
+        "fluoxetine",
+        "fluvoxamine",
+        "paroxetine",
+        "sertraline",
+        "desvenlafaxine",
+        "duloxetine",
+        "venlafaxine"
+      ],
+      "brands": {
+        "citalopram": [
+          "Cipramil",
+          "Celapram",
+          "Talam",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talohexal"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Loxalate",
+          "Lexam",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Zactin",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Paxtine",
+          "Extine",
+          "Aropax CR",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ],
+        "sertraline": [
+          "Zoloft",
+          "Eleva",
+          "Sertra",
+          "Setrona",
+          "Xydep",
+          "Concorz",
+          "Detralon",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertracor",
+          "Sertratrust",
+          "Tralen"
+        ],
+        "desvenlafaxine": [
+          "Pristiq",
+          "Desfax",
+          "Desven"
+        ],
+        "duloxetine": [
+          "Cymbalta",
+          "Andepra",
+          "Duloxecor",
+          "Baltine",
+          "Coperin",
+          "Deotine",
+          "Depreta",
+          "Drulox",
+          "Dulocym",
+          "Dytrex",
+          "Symlox",
+          "Texotine",
+          "Tixol",
+          "Xerol DR"
+        ],
+        "venlafaxine": [
+          "Efexor-XR",
+          "Enlafax-XR",
+          "Elaxine SR",
+          "Altven",
+          "Evelexa XR",
+          "Ozvenaf",
+          "Venfax SR",
+          "Venla",
+          "Venlexor XR"
+        ]
+      },
+      "note": "SSRIs are citalopram, escitalopram, fluoxetine, fluvoxamine, paroxetine and sertraline. SNRIs are desvenlafaxine, duloxetine and venlafaxine. Other antidepressants, such as mirtazapine and amitriptyline, are not in this group. Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "B",
+      "name": "Antiplatelet medicines",
+      "ingredients": [
+        "aspirin",
+        "clopidogrel",
+        "dipyridamole",
+        "prasugrel",
+        "ticagrelor"
+      ],
+      "brands": {
+        "aspirin": [
+          "Cartia",
+          "Astrix",
+          "Cardiprin",
+          "Spren",
+          "Solprin",
+          "Disprin",
+          "Aspro Clear",
+          "Asasantin SR",
+          "CoPlavix",
+          "DuoCover",
+          "Aspro",
+          "Aspro Protect",
+          "Cardasa",
+          "Disprin Direct",
+          "Disprin Original",
+          "Disprin Regular",
+          "Ecotrin",
+          "Princard"
+        ],
+        "clopidogrel": [
+          "Plavix",
+          "Iscover",
+          "Piax",
+          "Clovix",
+          "Plidogrel",
+          "CoPlavix",
+          "DuoCover",
+          "Clogrel",
+          "Clopaccord",
+          "Clopithromb",
+          "Plavicor",
+          "Viplex"
+        ],
+        "dipyridamole": [
+          "Persantin SR",
+          "Asasantin SR"
+        ],
+        "prasugrel": [
+          "Effient"
+        ],
+        "ticagrelor": [
+          "Brilinta",
+          "Bricalor",
+          "Ticalor",
+          "Tirela",
+          "Brilinta ODT",
+          "Novalant"
+        ]
+      },
+      "note": "Count aspirin once across Groups B and D. Use the indication or clear directions to classify it. Antiplatelet use counts in Group B and pain relief in Group D. If its role is unclear, check both assignments separately. If only one meets the two-group threshold, report a possible finding and name the missing indication. If both meet it, the class uncertainty does not affect the finding. CoPlavix and DuoCover are clopidogrel with aspirin. Asasantin SR is dipyridamole with aspirin. Count oral dipyridamole used as an antiplatelet. Exclude dipyridamole injection for cardiac imaging. If the form and use are unclear, check them before counting the supply. Aspalgin is aspirin with codeine. Two antiplatelet medicines together still count as one group. Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "C",
+      "name": "Anticoagulant medicines",
+      "ingredients": [
+        "warfarin",
+        "apixaban",
+        "dabigatran",
+        "rivaroxaban",
+        "edoxaban",
+        "enoxaparin",
+        "dalteparin",
+        "fondaparinux",
+        "dalteparin sodium",
+        "enoxaparin sodium",
+        "heparin sodium",
+        "nadroparin"
+      ],
+      "brands": {
+        "warfarin": [
+          "Coumadin",
+          "Marevan"
+        ],
+        "apixaban": [
+          "Eliquis",
+          "Alexibic",
+          "Apexa",
+          "Apixor",
+          "Axibic",
+          "Elapex"
+        ],
+        "dabigatran": [
+          "Pradaxa"
+        ],
+        "rivaroxaban": [
+          "Xarelto",
+          "Ixarola",
+          "Rivoxa",
+          "Relaban",
+          "Rivalembic",
+          "Rivarelto",
+          "Rivator",
+          "Rivaxib",
+          "Rivaxotor",
+          "Roxabic",
+          "Roxalem",
+          "Roxator",
+          "Toriva",
+          "Troxa",
+          "Xaremed"
+        ],
+        "edoxaban": [],
+        "enoxaparin": [
+          "Clexane"
+        ],
+        "dalteparin": [
+          "Fragmin"
+        ],
+        "fondaparinux": [
+          "Arixtra"
+        ],
+        "dalteparin sodium": [
+          "Fragmin"
+        ],
+        "enoxaparin sodium": [
+          "Clexane",
+          "Clexane Forte",
+          "Enoxaject",
+          "Enoxapo",
+          "Exarane",
+          "Exarane Forte",
+          "Lovenox",
+          "Lovenox Forte"
+        ],
+        "heparin sodium": [
+          "DBL Heparin Sodium"
+        ],
+        "nadroparin": [
+          "Fraxiparine",
+          "Fraxiparine Forte"
+        ]
+      },
+      "note": "Enoxaparin, dalteparin and fondaparinux are injections. No Australian brand is listed for edoxaban. Generic packs that show the ingredient name with a company name count too. Count systemic heparin sodium and nadroparin calcium. Exclude heparin used only to flush a catheter."
+    },
+    {
+      "key": "D",
+      "name": "NSAIDs, the anti-inflammatory pain medicines",
+      "ingredients": [
+        "celecoxib",
+        "diclofenac",
+        "etoricoxib",
+        "ibuprofen",
+        "indometacin",
+        "ketoprofen",
+        "ketorolac",
+        "mefenamic acid",
+        "meloxicam",
+        "naproxen",
+        "piroxicam",
+        "sulindac",
+        "aspirin"
+      ],
+      "brands": {
+        "celecoxib": [
+          "Celebrex",
+          "Celaxib",
+          "Anacoxib",
+          "Celebrex Relief",
+          "Celetoid",
+          "Celexi",
+          "Celocox",
+          "Kudeq"
+        ],
+        "diclofenac": [
+          "Voltaren",
+          "Voltaren Rapid",
+          "Fenac",
+          "Clonac",
+          "Arthrotec",
+          "Cambia",
+          "Diclohexal",
+          "Difenac Rapid",
+          "Dinac",
+          "Fenac EC",
+          "Imflac",
+          "Inflamax Liquid Caps",
+          "Voltaren Rapid Extra Strength",
+          "Voltaren Rapid Liquid Capsules",
+          "Voltfast",
+          "Zorvolex"
+        ],
+        "etoricoxib": [
+          "Arcoxia"
+        ],
+        "ibuprofen": [
+          "Nurofen",
+          "Advil",
+          "Brufen",
+          "Rafen",
+          "Nurofen Plus",
+          "Panafen Plus",
+          "Nuromol",
+          "Maxigesic",
+          "Act-3",
+          "Advil 12 Hour",
+          "Advil Childrens Pain and Fever 2 to 7 Years",
+          "Advil Childrens Pain and Fever 7 to 12 Years",
+          "Advil Childrens Pain and Fever Relief 2 to 12 Years",
+          "Advil Double Strength",
+          "Advil Double Strength Caplets",
+          "Advil Double Strength Liquid Capsules",
+          "Advil Infants Pain and Fever Relief 3 Months to 2 Years",
+          "Advil Mini Caps",
+          "Advil Rapid Release",
+          "Brufen Pain",
+          "Brufen Syrup",
+          "Bugesic",
+          "Butafen",
+          "Butalgin",
+          "Fenpaed",
+          "Fenpaed Double Strength",
+          "Iprofen",
+          "Nurofen Back Pain",
+          "Nurofen Caplet",
+          "Nurofen Double Strength",
+          "Nurofen Liquid Capsule",
+          "Nurofen Meltlets",
+          "Nurofen Migraine Pain",
+          "Nurofen Period Pain",
+          "Nurofen Quickzorb",
+          "Nurofen Regular",
+          "Nurofen Tension Headache",
+          "Nurofen Zavance",
+          "Nurofen Zavance Liquid Capsules",
+          "Nurofen for Children 1 to 5 Years",
+          "Nurofen for Children 3 Months to 5 Years",
+          "Nurofen for Children 5 to 12 Years",
+          "Nurofen for Children 7+ Years",
+          "Nurofen for Children Baby 3+ Months",
+          "Nurofen for Children Infant Drops",
+          "Nurofen for Children Meltlet",
+          "Panafen IB",
+          "Panafen IB Mini Cap",
+          "Proven",
+          "Tri-Profen"
+        ],
+        "indometacin": [
+          "Indocid",
+          "Arthrexin"
+        ],
+        "ketoprofen": [
+          "Orudis",
+          "Oruvail"
+        ],
+        "ketorolac": [
+          "Toradol",
+          "Ketoral"
+        ],
+        "mefenamic acid": [
+          "Ponstan",
+          "Femin",
+          "Mefic",
+          "Menamic"
+        ],
+        "meloxicam": [
+          "Mobic",
+          "Movalis",
+          "Moxicam",
+          "Meloxibell",
+          "Agilocam",
+          "Melobic",
+          "Melox",
+          "Meloxiauro",
+          "Meloxibindo",
+          "Mobelox"
+        ],
+        "naproxen": [
+          "Naprosyn",
+          "Naprosyn SR",
+          "Anaprox",
+          "Inza",
+          "Proxen SR",
+          "Naprogesic",
+          "Aleve",
+          "Vimovo",
+          "Aleve 24 Hour",
+          "Crysanal",
+          "Femme-Free",
+          "Naprofem",
+          "Naprosyn SR 1000",
+          "Nurolasts Period Pain",
+          "Proxen"
+        ],
+        "piroxicam": [
+          "Feldene",
+          "Mobilis",
+          "Candyl",
+          "Candyl-D",
+          "Feldene-D",
+          "Mobilis D",
+          "Pirohexal-D"
+        ],
+        "sulindac": [
+          "Aclin"
+        ],
+        "aspirin": [
+          "Disprin",
+          "Aspro Clear",
+          "Aspalgin",
+          "Solprin",
+          "Aspro Clear Extra Strength",
+          "Disprin Extra Strength",
+          "Disprin Max"
+        ]
+      },
+      "note": "Tablets, capsules, liquids, suppositories and injections count. Skin gels, creams and eye drops do not count. Count aspirin here when the record establishes analgesic use. Apply the single-count rule in Group B to all aspirin products. Nurofen Plus and Panafen Plus are ibuprofen with codeine. Nuromol and Maxigesic are ibuprofen with paracetamol. Arthrotec is diclofenac with misoprostol. Vimovo is naproxen with esomeprazole. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "rule_for_models": "At age 65 or over, flag a Group A SSRI or SNRI prescribed with medicines from at least two of the three different groups B (antiplatelets), C (anticoagulants) and D (systemic NSAIDs). All three courses must overlap or the three supplies must fall within one 60-day period, regardless of stomach protection. Count each aspirin supply once as set out in Group B. If the medicine pattern qualifies and age during the combination is missing, report a possible finding, name the missing fact as Age and ask the pharmacist for the age in years at that time. An age below 65 during the combination excludes that episode.",
+  "cannot_be_seen": "A dated condition, observation or result may document the diagnosis, past stomach or bowel bleeding, kidney function or blood counts. A missing entry leaves that information unknown. F2 can be assessed from age and supplies alone. Supplies here do not establish actual use, treatment duration, or medicines bought without a prescription or supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "Whether the antidepressant is still needed alongside the antiplatelet, anticoagulant or NSAID medicines supplied with it, and the patient's risk of stomach or bowel bleeding.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

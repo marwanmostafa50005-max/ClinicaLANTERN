@@ -1,0 +1,427 @@
+{
+  "id": "BRISNIK-HR-I2",
+  "label": "Brisnik: SSRI or SNRI plus two sodium-lowering medicines",
+  "family": "BRISNIK",
+  "title": "SSRI or SNRI with two other sodium-lowering medicines in an older person",
+  "statement": "Prescribed SSRI or SNRI - and the patient is aged ≥ 65 years and co-prescribed ≥ 2 further drugs known to cause hyponatremia (e.g., (thiazide) diuretics, antipsychotics, anticonvulsants, proton pump inhibitors)[c]",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Statement text reproduced without changes. Not endorsed by the source authors."
+  },
+  "plain_summary": "An SSRI or SNRI taken with two more medicines that can lower blood sodium, in a person aged 65 or over, raises the risk of low sodium.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "SSRIs, the selective serotonin reuptake inhibitor antidepressants",
+      "ingredients": [
+        "citalopram",
+        "escitalopram",
+        "fluoxetine",
+        "fluvoxamine",
+        "paroxetine",
+        "sertraline"
+      ],
+      "brands": {
+        "citalopram": [
+          "Celapram",
+          "Cipramil",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talam",
+          "Talohexal"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam",
+          "Loxalate"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Zactin",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Paxtine",
+          "Aropax CR",
+          "Extine",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ],
+        "sertraline": [
+          "Zoloft",
+          "Concorz",
+          "Sertra",
+          "Detralon",
+          "Eleva",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertracor",
+          "Sertratrust",
+          "Setrona",
+          "Tralen",
+          "Xydep"
+        ]
+      },
+      "note": "Tablets, capsules and liquids count. Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "A2",
+      "name": "SNRIs, the serotonin and noradrenaline reuptake inhibitor antidepressants",
+      "ingredients": [
+        "venlafaxine",
+        "desvenlafaxine",
+        "duloxetine"
+      ],
+      "brands": {
+        "venlafaxine": [
+          "Efexor-XR",
+          "Elaxine",
+          "Altven",
+          "Elaxine SR",
+          "Enlafax XR",
+          "Evelexa XR",
+          "Ozvenaf",
+          "Venfax SR",
+          "Venla",
+          "Venlexor XR"
+        ],
+        "desvenlafaxine": [
+          "Pristiq",
+          "Desfax",
+          "Desven"
+        ],
+        "duloxetine": [
+          "Cymbalta",
+          "Andepra",
+          "Baltine",
+          "Coperin",
+          "Deotine",
+          "Depreta",
+          "Drulox",
+          "Dulocym",
+          "Duloxecor",
+          "Dytrex",
+          "Symlox",
+          "Texotine",
+          "Tixol",
+          "Xerol DR"
+        ]
+      },
+      "note": "Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "B",
+      "name": "Medicines known to lower blood sodium",
+      "ingredients": [
+        "hydrochlorothiazide",
+        "indapamide",
+        "chlortalidone",
+        "quetiapine",
+        "olanzapine",
+        "risperidone",
+        "aripiprazole",
+        "haloperidol",
+        "carbamazepine",
+        "oxcarbazepine",
+        "sodium valproate",
+        "omeprazole",
+        "esomeprazole",
+        "pantoprazole",
+        "rabeprazole",
+        "lansoprazole",
+        "desmopressin",
+        "valproic acid",
+        "furosemide",
+        "spironolactone",
+        "bumetanide"
+      ],
+      "brands": {
+        "hydrochlorothiazide": [
+          "Micardis Plus",
+          "Karvezide",
+          "Co-Diovan",
+          "Dithiazide",
+          "Atacand Plus",
+          "Olmetec Plus",
+          "Avapro HCT",
+          "Moduretic",
+          "Exforge HCT",
+          "Dilart HCT"
+        ],
+        "indapamide": [
+          "Natrilix SR",
+          "Napamide",
+          "Coversyl Plus",
+          "Dapa-Tabs",
+          "Indahexal",
+          "Indapamol",
+          "Insig",
+          "Natrilix",
+          "Odaplix SR",
+          "Tenaxil SR",
+          "Coversyl Plus LD"
+        ],
+        "chlortalidone": [
+          "Hygroton"
+        ],
+        "quetiapine": [
+          "Seroquel",
+          "Aliquen",
+          "Delucon",
+          "Kaptan",
+          "Ketizenol",
+          "Qualez",
+          "Quepine XR",
+          "Quetapen",
+          "Quetia",
+          "Quetia XR",
+          "Quetiaccord",
+          "Quetiaquel XR",
+          "Quetin",
+          "Quipine",
+          "Sequase",
+          "Sequase XR",
+          "Serapine",
+          "Serapine XR",
+          "Seroccord",
+          "Seronia",
+          "Seroquel XR",
+          "Serotiapine XR",
+          "Syquet",
+          "Syquet XR",
+          "Syzopine",
+          "Tevatiapine XR",
+          "Tiapine XR",
+          "Tiava XR",
+          "Xque XR"
+        ],
+        "olanzapine": [
+          "Zyprexa",
+          "Aprolan",
+          "Aprolan ODT",
+          "Lanez",
+          "Lanez ODT",
+          "Lanzek",
+          "Lanzek Zydis",
+          "Lonza",
+          "Lonza ODT",
+          "Lyprosia",
+          "Lyprosia ODT",
+          "Olancor",
+          "Olanza",
+          "Olanzaccord",
+          "Olanzacor",
+          "Oprexa",
+          "Ozin",
+          "Ozin ODT",
+          "Prolanza",
+          "Prolanza ODT",
+          "Pryzex",
+          "Pryzex ODT",
+          "Tolaze ODT",
+          "Tolazine ODT",
+          "Torapine ODT",
+          "Torrenia ODT",
+          "Zylap",
+          "Zylap ODT",
+          "Zylapine",
+          "Zylapine ODT",
+          "Zypine",
+          "Zypine ODT",
+          "Zyprexa Zydis"
+        ],
+        "risperidone": [
+          "Risperdal",
+          "Ozidal",
+          "Resdone",
+          "Respaz",
+          "Risdone",
+          "Rispa",
+          "Rispaccord",
+          "Rispaccord-0.5",
+          "Risperdal Quicklet",
+          "Risperibell",
+          "Rispericor",
+          "Rispericor-0.5",
+          "Risperisan",
+          "Rispernia",
+          "Rixadone",
+          "Sperid"
+        ],
+        "aripiprazole": [
+          "Abilify",
+          "Abilify ODT",
+          "Abipra",
+          "Abyraz",
+          "Aprazole",
+          "Aripic",
+          "Aripra",
+          "Arizole"
+        ],
+        "haloperidol": [
+          "Serenace"
+        ],
+        "carbamazepine": [
+          "Tegretol",
+          "Avloire",
+          "Avloire CR",
+          "Tegretol CR",
+          "Teril"
+        ],
+        "oxcarbazepine": [
+          "Trileptal"
+        ],
+        "sodium valproate": [
+          "Epilim",
+          "Valpro"
+        ],
+        "omeprazole": [
+          "Losec",
+          "Acimax",
+          "Maxor",
+          "Maxor EC",
+          "Maxor Heartburn Relief",
+          "Meprazol",
+          "Omepral",
+          "Omepro",
+          "Omezole",
+          "Ozmep",
+          "Pemzo",
+          "Probitor"
+        ],
+        "esomeprazole": [
+          "Nexium",
+          "Axagon",
+          "Beezole",
+          "Emeprazol",
+          "Esopran",
+          "Esopreze",
+          "Guardium Acid Reflux Relief",
+          "Jubeso",
+          "Jubium",
+          "Mepreze",
+          "Nexazole",
+          "Nexcid",
+          "Nexium 24HR Once Daily Dosing",
+          "Nexole",
+          "Nexprazole",
+          "Noxicid",
+          "Noxicid Caps Heartburn Relief",
+          "Noxicid Tabs Heartburn Relief",
+          "Zanzole 24HR"
+        ],
+        "pantoprazole": [
+          "Somac",
+          "Gastenz",
+          "Ozpan",
+          "Pantaccord",
+          "Panthron",
+          "Panto",
+          "Pantofast",
+          "Pantoloc",
+          "Prazole",
+          "Rizil",
+          "Salpraz",
+          "Salpraz Heartburn Relief",
+          "Somac Heartburn Relief",
+          "Sozol",
+          "Suvacid Heartburn Relief",
+          "Topra",
+          "Torprazole",
+          "Torzole"
+        ],
+        "rabeprazole": [
+          "Pariet",
+          "Parbezol",
+          "Parzol",
+          "Perizel DR",
+          "Prabez",
+          "Rabzole",
+          "Razit",
+          "Zabep"
+        ],
+        "lansoprazole": [
+          "Zoton",
+          "Lanzopran",
+          "Zopral",
+          "Zopral ODT",
+          "Zoton Fastab"
+        ],
+        "desmopressin": [
+          "Minirin",
+          "Adin",
+          "Adin Melt",
+          "Desmomed",
+          "Minirin Melt",
+          "Nocdurna",
+          "Octostim"
+        ],
+        "valproic acid": [
+          "Epilim"
+        ],
+        "furosemide": [
+          "Lasix",
+          "Urex",
+          "Uremide"
+        ],
+        "spironolactone": [
+          "Aldactone",
+          "Spiractin"
+        ],
+        "bumetanide": [
+          "Burinex"
+        ]
+      },
+      "note": "The four classes in the model rule are examples. Count desmopressin once when co-prescribed in a qualifying formulation. These include oral desmopressin, Minirin nasal spray and documented Minirin or Octostim injection, which carry low-sodium warnings. Use the recorded product and route. A separate procedure or an earlier single dose without co-treatment does not qualify. Count hydrochlorothiazide in a single or combination product once. Count sodium valproate and valproic acid as one valproate medicine, including when both names match Epilim. Count indapamide once whether supplied alone or in a combination."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when the person is aged 65 or over and the history shows a supply of a Group A medicine (an SSRI) or an A2 medicine (an SNRI) together with supplies of at least two different Group B medicines (including the listed diuretics, antipsychotics, anticonvulsants, proton pump inhibitors and qualifying desmopressin formulations in Group B), all with supply dates that overlap or fall within 60 days of each other. Exclude a combination when a recorded stop or switch shows the antidepressant and both partners were never used together. If this medicine pattern is present and age is unknown, report a possible finding and name the missing fact Age and ask for age in years. A known age below 65 gives no finding.",
+  "cannot_be_seen": "The person's actual sodium level, whether each medicine is really taken, and other medicines that can lower sodium.",
+  "ask_the_gp": "A serum sodium check and a review of whether all of these medicines are still needed.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,72 @@
+{
+  "id": "STOPP-F4",
+  "label": "STOPP F4",
+  "family": "STOPP_START",
+  "title": "Oral iron above 200 mg of iron a day",
+  "statement": "Oral elemental iron doses greater than 200 mg daily (e.g. ferrous fumarate> 600 mg/day, ferrous sulphate > 600 mg/day, ferrous gluconate> 1800 mg/day; no evidence of enhanced iron absorption above these doses).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Taking more than 200 mg of iron a day by mouth adds side effects and no extra benefit.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Oral iron",
+      "ingredients": [
+        "ferrous sulfate",
+        "ferrous fumarate",
+        "ferrous gluconate",
+        "iron polymaltose",
+        "ferrous sulphate"
+      ],
+      "brands": {
+        "ferrous sulfate": [
+          "Ferro-Gradumet",
+          "Ferro-Liquid",
+          "Ferro-grad",
+          "Ferrogen",
+          "Ferro-Grad C",
+          "FGF",
+          "Fefol",
+          "Ferro-Max C"
+        ],
+        "ferrous fumarate": [
+          "Fersaday",
+          "Ferro-F-Tab",
+          "Ferro-Tab"
+        ],
+        "ferrous gluconate": [],
+        "iron polymaltose": [
+          "Maltofer",
+          "Maltofer Syrup",
+          "Maltofer Drops"
+        ],
+        "ferrous sulphate": [
+          "Ferro-Gradumet",
+          "Ferro-Liquid",
+          "Ferro-grad",
+          "Ferrogen",
+          "Ferro-Grad C",
+          "FGF",
+          "Fefol",
+          "Ferro-Max C"
+        ]
+      },
+      "note": "Tablets, capsules and liquids count. Ferro-F-Tab is ferrous fumarate with folic acid. The salt weights in the published statement are examples. Use the product’s elemental iron content for the decision. Generic packs that show the ingredient name with a company name count too. Ferrous sulfate and ferrous sulphate are the same salt. Match ferrous gluconate by ingredient. Use these values only when the name, strength and form match. Each 325 mg ferrous sulfate tablet of Ferro-Gradumet, Ferro-Grad C or Ferrogen supplies 105 mg elemental iron. Each FGF 250 mg tablet supplies 80 mg. Each Ferro-Tab 200 mg tablet supplies 65.7 mg. Each Ferro-F-Tab 310 mg tablet supplies 100 mg. Ferro-Liquid 30 mg ferrous sulfate per mL supplies 6 mg iron per mL. Maltofer tablets supply 100 mg iron each. Maltofer Syrup supplies 10 mg iron per mL and Maltofer Drops supply 50 mg per mL. For Fersaday, plain Ferro-grad, ferrous gluconate or any other unmatched presentation, confirm the elemental amount on the specific pack. Fefol Iron and Folic Acid delayed-release capsules containing 270 mg ferrous sulfate supply 87.4 mg elemental iron per capsule. Ferro-Max C modified-release tablets containing 325 mg ferrous sulfate supply 105 mg elemental iron per tablet. For other Fefol formulations, check the elemental iron amount on the pack."
+    }
+  ],
+  "rule_for_models": "Confirm any unknown age first, and suspect a finding only if the patient was aged 65 or older at supply and the labelled elemental iron per tablet, capsule or mL multiplied by the amount taken each day gives a total oral dose above 200 mg/day. If the elemental content or daily amount is unknown, report a possible finding and name what is missing. For directions such as “as directed” or “when needed”, ask how many tablets, capsules or mL the person actually takes per day.",
+  "cannot_be_seen": "How much iron the patient really takes, iron bought without a prescription, and iron given by injection or in hospital.",
+  "ask_the_gp": "A review of the iron dose, and whether a lower dose or a different schedule would work as well.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

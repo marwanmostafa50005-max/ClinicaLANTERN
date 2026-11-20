@@ -1,0 +1,50 @@
+[
+  {
+    "file": "STOPP-B13/pos-fact.csv",
+    "kind": "positive",
+    "about": "Aldactone (spironolactone) is supplied from March 2026 with monthly Coversyl (perindopril), both by brand name only, and the record holds a serum potassium result from July 2025, more than 6 months before the newest supply, so the monitoring the criterion asks for is missing.",
+    "findings": [
+      {
+        "criterion": "STOPP-B13",
+        "must_cite": [
+          [
+            "L035"
+          ],
+          [
+            "L036"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-B13/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about serum potassium, and the latest qualifying pair is Inspra on 16 March 2026 and Karvezide on 7 May 2026, 52 days apart.",
+    "findings": [
+      {
+        "criterion": "STOPP-B13",
+        "must_cite": [
+          [
+            "L026"
+          ],
+          [
+            "L021",
+            "L024",
+            "L027",
+            "L029"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-B13/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Aldactone is supplied with monthly Coversyl, and the record holds a serum potassium result from September 2026, within the last 6 months, so the potassium monitoring the criterion asks for has been done and there is no finding.",
+    "findings": []
+  }
+]

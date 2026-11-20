@@ -1,0 +1,53 @@
+[
+  {
+    "file": "STOPP-C15/pos-fact.csv",
+    "kind": "positive",
+    "about": "Ten brand-only Bijuva supplies follow a dated note confirming a previous deep vein thrombosis whose exact date is unknown.",
+    "findings": [
+      {
+        "criterion": "STOPP-C15",
+        "must_cite": [
+          [
+            "L002",
+            "L007",
+            "L011",
+            "L015",
+            "L020",
+            "L024",
+            "L029",
+            "L033",
+            "L037",
+            "L041"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-C15/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about a past venous thromboembolism. Reandron 1000 (testosterone) is supplied four times from August 2025.",
+    "findings": [
+      {
+        "criterion": "STOPP-C15",
+        "must_cite": [
+          [
+            "L004",
+            "L016",
+            "L024",
+            "L034"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-C15/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The last Estradot patch was removed on 12 April 2026 and the first deep vein thrombosis occurred on 6 May 2026, with no later systemic hormone supply.",
+    "findings": []
+  }
+]

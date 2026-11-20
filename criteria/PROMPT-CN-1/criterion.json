@@ -1,0 +1,142 @@
+{
+  "id": "PROMPT-CN-1",
+  "label": "PROMPT: SSRI with venlafaxine",
+  "family": "PROMPT",
+  "title": "An SSRI supplied with venlafaxine",
+  "statement": "Selective serotonin reuptake inhibitors (e.g. citalopram, fluoxetine) should not be used in combination with venlafaxine.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Cooper JA, et al. The development of the PROMPT criteria. BMC Health Serv Res 2014;14:484, Table 4",
+    "citation": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Taking an SSRI such as citalopram or fluoxetine together with venlafaxine can lead to serotonin syndrome.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Selective serotonin reuptake inhibitors (SSRIs)",
+      "ingredients": [
+        "citalopram",
+        "escitalopram",
+        "fluoxetine",
+        "fluvoxamine",
+        "paroxetine",
+        "sertraline",
+        "dapoxetine"
+      ],
+      "brands": {
+        "citalopram": [
+          "Cipramil",
+          "Celapram",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talam",
+          "Talohexal"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam",
+          "Loxalate"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Zactin",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Paxtine",
+          "Aropax CR",
+          "Extine",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ],
+        "sertraline": [
+          "Zoloft",
+          "Setrona",
+          "Concorz",
+          "Detralon",
+          "Eleva",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Tralen",
+          "Xydep"
+        ],
+        "dapoxetine": [
+          "Priligy"
+        ]
+      },
+      "note": "Generic packs that show the ingredient name with a company name count too. Dapoxetine taken on demand for premature ejaculation also counts when it may be used with venlafaxine. The indication alone does not establish or exclude combined use."
+    },
+    {
+      "key": "B",
+      "name": "Venlafaxine",
+      "ingredients": [
+        "venlafaxine"
+      ],
+      "brands": {
+        "venlafaxine": [
+          "Efexor-XR",
+          "Altven",
+          "Elaxine",
+          "Enlafax",
+          "Elaxine SR",
+          "Enlafax XR",
+          "Evelexa XR",
+          "Ozvenaf",
+          "Venfax SR",
+          "Venla",
+          "Venlexor XR"
+        ]
+      },
+      "note": "Tablets and capsules count, immediate-release and extended-release. Desvenlafaxine is a different medicine and does not count."
+    }
+  ],
+  "rule_for_models": "Apply this PROMPT criterion only at recorded ages 45 to 64 inclusive. If age is missing, record that eligibility is unknown and do not report a PROMPT finding. Suspect a finding when at least one Group A medicine (an SSRI) AND venlafaxine (Group B) both appear in the history and their supply dates overlap or fall within 60 days of each other. One supply of each is enough. Do not report a finding when the record explicitly shows venlafaxine was stopped before the SSRI started with no overlap, or a non-fluoxetine SSRI was stopped before venlafaxine started with no overlap. Still suspect a finding when fluoxetine was supplied within 60 days before venlafaxine because fluoxetine clears slowly.",
+  "cannot_be_seen": "Why each medicine was prescribed, any switch that is missing from the record, the doses actually taken or any verbal dose changes, and any symptoms of serotonin syndrome. Also any supply from another pharmacy.",
+  "ask_the_gp": "Could we review today whether both medicines are being taken or are about to be taken together, including any planned switch and signs of serotonin toxicity? If the overlap has ended and there are no ongoing symptoms, could we review the treatment history at the next routine review?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

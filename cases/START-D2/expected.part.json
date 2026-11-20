@@ -1,0 +1,91 @@
+[
+  {
+    "file": "START-D2/pos-fact.csv",
+    "kind": "positive",
+    "about": "The record has a line for major depression (L001) and no antidepressant of any kind is supplied in the 10 months that follow; only background medicines are supplied.",
+    "findings": [
+      {
+        "criterion": "START-D2",
+        "must_cite": [
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-D2/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: Dothep (dosulepin) is supplied monthly and no non-tricyclic antidepressant is supplied. The missing fact is Major depression. The tricyclic supply alone does not establish a current episode.",
+    "findings": [
+      {
+        "criterion": "START-D2",
+        "must_cite": [
+          [
+            "L001",
+            "L004",
+            "L007",
+            "L010",
+            "L013",
+            "L017",
+            "L020",
+            "L023",
+            "L026"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-D2/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The record has a line for major depression and Zoloft (sertraline) is supplied every month, so a non-tricyclic antidepressant is in place and there is no finding.",
+    "findings": []
+  },
+  {
+    "file": "START-D2/near-miss-agreed-plan.csv",
+    "kind": "near_miss",
+    "about": "The GP and patient agreed on a clinically appropriate plan for the current episode using talking therapy alone.",
+    "findings": []
+  },
+  {
+    "file": "START-D2/pos-duloxetine-untreated.csv",
+    "kind": "positive",
+    "about": "Duloxetine was supplied only for neuropathic pain and a later GP note documents that the major depressive episode is untreated, so the current regimen needs review.",
+    "findings": [
+      {
+        "criterion": "START-D2",
+        "must_cite": [
+          [
+            "L041"
+          ],
+          [
+            "L042"
+          ],
+          [
+            "L046"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-D2/pos-duloxetine-unclear.csv",
+    "kind": "positive",
+    "about": "Possible finding: duloxetine was supplied only for neuropathic pain and the record does not establish whether that regimen also treats the current major depressive episode.",
+    "findings": [
+      {
+        "criterion": "START-D2",
+        "must_cite": [
+          [
+            "L041"
+          ],
+          [
+            "L042"
+          ]
+        ]
+      }
+    ]
+  }
+]

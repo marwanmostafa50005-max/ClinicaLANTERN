@@ -1,0 +1,22 @@
+2026-05-05 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 2 | Take ONE tablet at night | Dr A. Example
+2026-05-05 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 5 | Take TWO tablets daily with the evening meal | Dr A. Example
+2026-05-05 | Flomaxtra (tamsulosin) 400 microgram modified release tablet | qty 30 | repeats 3 | Take ONE tablet daily | Dr A. Example
+2026-05-19 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 0 | Take TWO tablets three times a day | Dr A. Example
+2026-06-03 | Avapro (irbesartan) 150 mg tablet | qty 30 | repeats 5 | Take ONE tablet daily | Dr A. Example
+2026-06-03 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 1 | Take ONE tablet at night | Dr A. Example
+2026-06-03 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take TWO tablets daily with the evening meal | Dr A. Example
+2026-06-03 | Flomaxtra (tamsulosin) 400 microgram modified release tablet | qty 30 | repeats 2 | Take ONE tablet daily | Dr A. Example
+2026-07-03 | Avapro (irbesartan) 150 mg tablet | qty 30 | repeats 4 | Take ONE tablet daily | Dr A. Example
+2026-07-03 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 0 | Take ONE tablet at night | Dr A. Example
+2026-07-03 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 3 | Take TWO tablets daily with the evening meal | Dr A. Example
+2026-07-03 | Flomaxtra (tamsulosin) 400 microgram modified release tablet | qty 30 | repeats 1 | Take ONE tablet daily | Dr A. Example
+2026-07-14 | Methoblastin (methotrexate) 10 mg tablet | qty 15 | repeats 1 | Take ONE tablet daily | Dr A. Example
+2026-07-14 | Megafol (folic acid) 0.5 mg tablet | qty 100 | repeats 1 | Take ONE tablet daily | Dr A. Example
+2026-08-04 | Avapro (irbesartan) 150 mg tablet | qty 30 | repeats 3 | Take ONE tablet daily | Dr A. Example
+2026-08-04 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 5 | Take ONE tablet at night | Dr A. Example
+2026-08-04 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 2 | Take TWO tablets daily with the evening meal | Dr A. Example
+2026-08-04 | Flomaxtra (tamsulosin) 400 microgram modified release tablet | qty 30 | repeats 0 | Take ONE tablet daily | Dr A. Example
+2026-08-18 | Famvir (famciclovir) 250 mg tablet | qty 21 | repeats 0 | Take ONE tablet three times a day for 7 days | Dr B. Sample
+2026-09-02 | Avapro (irbesartan) 150 mg tablet | qty 30 | repeats 2 | Take ONE tablet daily | Dr A. Example
+2026-09-02 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr A. Example
+2026-09-02 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 1 | Take TWO tablets daily with the evening meal | Dr A. Example

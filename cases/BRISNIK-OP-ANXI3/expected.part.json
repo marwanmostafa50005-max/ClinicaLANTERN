@@ -1,0 +1,47 @@
+[
+  {
+    "file": "BRISNIK-OP-ANXI3/pos-fact.csv",
+    "kind": "positive",
+    "about": "Escitalopram supplies span more than 12 months, and the latest assessment documents full remission of the anxiety disorder treated with escitalopram.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-ANXI3",
+        "must_cite": [
+          [
+            "L002"
+          ],
+          [
+            "L045"
+          ],
+          [
+            "L044"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-ANXI3/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about anxiety or remission, while Zoloft (sertraline) is supplied every month for 14 months.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-ANXI3",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L027"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-ANXI3/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The anxiety disorder is in full remission, but review falls exactly twelve months after sertraline restarted despite an earlier supply and tablets remaining after review.",
+    "findings": []
+  }
+]

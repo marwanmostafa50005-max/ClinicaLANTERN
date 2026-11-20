@@ -1,0 +1,29 @@
+[
+  {
+    "file": "START-D7/pos-fact.csv",
+    "kind": "positive",
+    "about": "Essential tremor means the person needs help to eat, and no propranolol is supplied in the last six months.",
+    "findings": [
+      {
+        "criterion": "START-D7",
+        "must_cite": [
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-D7/near-miss-nofact.csv",
+    "kind": "near_miss",
+    "about": "The record holds no diagnosis of disabling essential tremor and no propranolol supply, so the omission cannot be established.",
+    "findings": []
+  },
+  {
+    "file": "START-D7/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Essential tremor with functional impairment is recorded, and propranolol (Inderal) is supplied every month through the last six months, so nothing is missing.",
+    "findings": []
+  }
+]

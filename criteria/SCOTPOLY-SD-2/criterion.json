@@ -1,0 +1,142 @@
+{
+  "id": "SCOTPOLY-SD-2",
+  "label": "SCOTPOLY: diuretic during acute dehydrating illness",
+  "family": "SCOTPOLY",
+  "title": "Diuretic during acute dehydrating illness",
+  "statement": "Step 5: Caution: AKI and electrolyte disturbances - Medication sick day guidance: advise to stop during dehydrating illness",
+  "statement_origin": "published",
+  "source": {
+    "document": "Scottish Government Effective Prescribing and Therapeutics Division, Polypharmacy Guidance: Appropriate Prescribing - Making medicines safe, effective and sustainable 2026-2029, fourth edition",
+    "citation": "Scottish Government Effective Prescribing and Therapeutics Division. Polypharmacy Guidance: Appropriate Prescribing - Making medicines safe, effective and sustainable 2026-2029, fourth edition, published 2 March 2026. Appendix B, Table 38, Cardiovascular system, Diuretic, Step 5 (web page 13, printed page 381).",
+    "url": "https://www.gov.scot/publications/polypharmacy-guidance-appropriate-prescribing-making-medicines-safe-effective-sustainable-2026-2029/pages/13/",
+    "licence": "UK Open Government Licence v3.0",
+    "licence_status": "proposed",
+    "credit": "Contains public sector information licensed under the Open Government Licence v3.0.",
+    "modification_notice": "The Appendix B wording is reproduced unchanged. The Australian screening rule, medicine groups, counter question and fictional histories are adaptations."
+  },
+  "plain_summary": "Fluid loss during vomiting, diarrhoea or fever can increase the risk of acute kidney injury and electrolyte disturbances in someone taking a diuretic. Check the person's sick-day plan and whether a temporary pause is appropriate. A diuretic may be essential to control breathlessness or fluid build-up in heart failure. If a pause is agreed, review restarting once well and eating and drinking normally. Seek prompt medical review if symptoms persist or worsen or fluids cannot be kept down. Seek specialist advice before changing treatment in decompensated heart failure.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Oral diuretics and diuretic combinations",
+      "ingredients": [
+        "furosemide",
+        "bumetanide",
+        "etacrynic acid",
+        "hydrochlorothiazide",
+        "indapamide",
+        "chlortalidone",
+        "amiloride",
+        "triamterene"
+      ],
+      "brands": {
+        "furosemide": [
+          "Lasix",
+          "Lasix-M",
+          "Frusax",
+          "Frusemix",
+          "Frusemix-M",
+          "Uremide",
+          "Urex",
+          "Urex-M",
+          "Urex-Forte"
+        ],
+        "bumetanide": [
+          "Burinex"
+        ],
+        "etacrynic acid": [
+          "Edecrin"
+        ],
+        "hydrochlorothiazide": [
+          "Dithiazide",
+          "Renitec Plus",
+          "Accuretic",
+          "Monoplus",
+          "Atacand Plus",
+          "Adesan HCT",
+          "Candesan Combi",
+          "Avapro HCT",
+          "Karvezide",
+          "Avsartan HCT",
+          "Abisart HCTZ",
+          "Micardis Plus",
+          "PritorPlus",
+          "Pritor Plus",
+          "Mizart HCT",
+          "Teltartan HCT",
+          "Olmetec Plus",
+          "Sevikar HCT",
+          "Co-Diovan",
+          "Exforge HCT",
+          "Hyzaar",
+          "Teveten Plus",
+          "Dilart HCT",
+          "Olmertan Combi"
+        ],
+        "indapamide": [
+          "Natrilix",
+          "Natrilix SR",
+          "Odaplix SR",
+          "Dapa-Tabs",
+          "Insig",
+          "Coversyl Plus",
+          "Coversyl Plus LD",
+          "Prexum Combi",
+          "Prexum Combi LD",
+          "Perisyl Combi",
+          "Triplixam",
+          "Triplixam SR",
+          "Coveram Plus SR",
+          "Reaptan Plus SR",
+          "Indopril Combi"
+        ],
+        "chlortalidone": [
+          "Hygroton",
+          "Hygroton 25"
+        ],
+        "amiloride": [
+          "Midamor",
+          "Moduretic",
+          "Kaluril",
+          "Amizide"
+        ],
+        "triamterene": [
+          "Hydrene",
+          "Hydrene 25/50"
+        ]
+      },
+      "note": "Count oral loop, thiazide, thiazide-like and other listed diuretics, including combination tablets or capsules. Count oral generic packs that show a listed ingredient. Exclude injections, including Lasix injection. Furosemide may appear as frusemide, etacrynic acid as ethacrynic acid and chlortalidone as chlorthalidone. Spironolactone and eplerenone have a separate sick-day check. Moduretic and Amizide contain amiloride with hydrochlorothiazide. Hydrene contains triamterene with hydrochlorothiazide. Count supplies from the month of the newest dated record line and the two preceding calendar months, even if the directions say as directed or when needed. An unknown age does not prevent this check. An illness recorded only in a past episode leaves the current illness unknown. Check actual use at the counter."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Current dehydrating illness",
+      "meets": "The patient currently has an acute dehydrating illness, such as repeated vomiting or diarrhoea, fever with sweats or shaking, or cannot keep fluids down.",
+      "options": [
+        {
+          "words": "Current dehydrating illness (vomiting, diarrhoea, or unable to keep fluids down)",
+          "effect": "meets"
+        },
+        {
+          "words": "Current febrile or acute illness with sweats, shaking, or reduced fluid intake",
+          "effect": "meets"
+        },
+        {
+          "words": "Well, or mild illness only (eating and drinking normally, no dehydration)",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "At any age, check for an oral Group A diuretic supplied in the calendar month of the latest date in the record or in the preceding 2 months. Include the whole of the earliest calendar month. Give no finding without a qualifying supply. Use the latest observation or condition about the current episode, including the pharmacist's current counter answer even when undated. Confirm a finding for current dehydrating illness and cite the qualifying supply and illness lines. Give no finding for recovery or mild illness with normal fluid intake. If current illness is unknown, unrecorded or described only in a past episode, cite the qualifying supply, report a possible finding and ask about Current dehydrating illness.",
+  "cannot_be_seen": "A supply shows when the diuretic was dispensed. The pharmacist may need to ask about current use, fluid loss, usual weight, breathlessness, worsening heart failure and any written sick-day plan. Kidney function and electrolytes can be checked when recorded.",
+  "ask_the_gp": "If the patient is taking the diuretic and has a current dehydrating illness, could you review the risk of acute kidney injury and electrolyte disturbances and whether tests are needed? If a temporary pause of the diuretic is appropriate, when can the patient restart it after recovery and return to normal food and fluid intake? Could you advise on the sick-day plan and prompt review if symptoms persist or worsen, or if heart failure is decompensated?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

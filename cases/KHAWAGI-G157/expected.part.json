@@ -1,0 +1,47 @@
+[
+  {
+    "file": "KHAWAGI-G157/pos-fact.csv",
+    "kind": "positive",
+    "about": "The only recorded carbamazepine concentration is older than 6 months at the latest ongoing supply of carbamazepine.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G157",
+        "must_cite": [
+          [
+            "L005"
+          ],
+          [
+            "L043"
+          ],
+          [
+            "L006"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G157/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about the carbamazepine concentration during the full 6-month window on carbamazepine.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G157",
+        "must_cite": [
+          [
+            "L004"
+          ],
+          [
+            "L029"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G157/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The record includes a carbamazepine concentration within the 6-month window during ongoing treatment with carbamazepine.",
+    "findings": []
+  }
+]

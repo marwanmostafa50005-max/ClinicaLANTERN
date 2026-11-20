@@ -1,0 +1,79 @@
+{
+  "id": "SCOTRESP-09",
+  "label": "SCOTRESP: fourteen or more steroid-containing inhalers in the last year",
+  "family": "SCOTRESP",
+  "title": "Fourteen or more steroid-containing inhalers in the last year",
+  "statement": "Patients prescribed 14 or more ICS in last 12 months",
+  "statement_origin": "published",
+  "source": {
+    "document": "Quality prescribing strategy for respiratory conditions in Scotland: improving patient care and promoting environmental sustainability",
+    "citation": "Kennedy E, Vint K, Mair A, et al. International Journal of Pharmacy Practice. 2025;33(5):534-540.",
+    "doi": "10.1093/ijpp/riaf054",
+    "url": "https://academic.oup.com/ijpp/article/33/5/534/8191719",
+    "licence": "UK Open Government Licence v3.0",
+    "licence_status": "proposed",
+    "credit": "© Crown copyright 2025. Scottish Government, Effective Prescribing and Therapeutics. Kennedy E, Vint K, Mair A, et al., Table 1. Contains public sector information licensed under the Open Government Licence v3.0.",
+    "modification_notice": "Table 1 wording reproduced unchanged. The Australian screening rule and fictional histories are adaptations."
+  },
+  "plain_summary": "A supply of at least 14 inhalers containing a corticosteroid in the last year prompts a review of device quantities and the treatment plan.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Inhaled corticosteroid inhalers",
+      "ingredients": [
+        "beclometasone dipropionate",
+        "budesonide",
+        "ciclesonide",
+        "fluticasone propionate",
+        "fluticasone furoate",
+        "mometasone furoate"
+      ],
+      "brands": {
+        "beclometasone dipropionate": [
+          "Qvar",
+          "Trimbow"
+        ],
+        "budesonide": [
+          "Pulmicort Turbuhaler",
+          "DuoResp Spiromax",
+          "Symbicort Turbuhaler",
+          "Rilast Turbuhaler",
+          "Bufomix Easyhaler",
+          "Symbicort Rapihaler",
+          "Rilast Rapihaler",
+          "BiResp Spiromax",
+          "Breztri Aerosphere"
+        ],
+        "ciclesonide": [
+          "Alvesco"
+        ],
+        "fluticasone propionate": [
+          "Seretide Accuhaler",
+          "Fluticasone Salmeterol Ciphaler",
+          "Pavtide Accuhaler",
+          "Salflumix Easyhaler",
+          "SalplusF DPI",
+          "Flixotide",
+          "Seretide MDI",
+          "Flutiform"
+        ],
+        "fluticasone furoate": [
+          "Trelegy Ellipta",
+          "Breo Ellipta",
+          "Arnuity Ellipta"
+        ],
+        "mometasone furoate": [
+          "Enerzair Breezhaler",
+          "Atectura Breezhaler"
+        ]
+      },
+      "note": "Check each inhaler's ingredients, including dual and triple combinations and as-needed inhalers. Exclude nasal, oral and nebulised products. One 30-capsule Atectura Breezhaler carton supplies one inhaler device. Count each combination device once. Use device quantities directly or convert packs or capsules using confirmed pack contents. One 30-capsule Enerzair pack supplies one device. Record and exclude unclear quantities. Exclude puffs and unfilled repeats."
+    }
+  ],
+  "rule_for_models": "In the 12 calendar months ending on the review date (or the latest record date if none is given), group all supplies of Group A corticosteroid inhalers by the number of devices dispensed on each line. In each group, list every matching line ID once, including separate fills in the same month and fills with zero repeats left, then multiply the number of listed IDs by the devices per line. Add the group totals and suspect the finding at 14 or more devices, citing the supply lines used.",
+  "cannot_be_seen": "The number of devices used can vary with device size, directions and use for both maintenance and relief. Supply alone cannot show the dose actually taken, adherence or excessive use. Ask how the inhaler is actually used, whether it serves for both maintenance and relief, and how many spare devices the patient keeps.",
+  "ask_the_gp": "Could we review the number of devices supplied against their size, the prescribed maintenance and reliever doses, and the patient's action plan?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

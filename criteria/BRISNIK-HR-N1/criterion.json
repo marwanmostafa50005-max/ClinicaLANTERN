@@ -1,0 +1,182 @@
+{
+  "id": "BRISNIK-HR-N1",
+  "label": "Brisnik HR-N1: SSRI or SNRI with sexual dysfunction",
+  "family": "BRISNIK",
+  "title": "SSRI or SNRI with sexual dysfunction",
+  "statement": "Prescribed SSRI or SNRI - and the patient has developed sexual dysfunction",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "SSRIs and SNRIs can cause sexual problems, so a person who has developed them while on the medicine should have it reviewed.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "SSRIs and SNRIs",
+      "ingredients": [
+        "citalopram",
+        "escitalopram",
+        "fluoxetine",
+        "fluvoxamine",
+        "paroxetine",
+        "sertraline",
+        "desvenlafaxine",
+        "duloxetine",
+        "venlafaxine"
+      ],
+      "brands": {
+        "citalopram": [
+          "Cipramil",
+          "Celapram",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talam",
+          "Talohexal"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam",
+          "Loxalate"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Zactin",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Extine",
+          "Aropax CR",
+          "Oxetine",
+          "Paroxo",
+          "Paxtine",
+          "Roxet",
+          "Roxtine"
+        ],
+        "sertraline": [
+          "Zoloft",
+          "Concorz",
+          "Detralon",
+          "Eleva",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Setrona",
+          "Tralen",
+          "Xydep"
+        ],
+        "desvenlafaxine": [
+          "Pristiq",
+          "Desfax",
+          "Desven"
+        ],
+        "duloxetine": [
+          "Cymbalta",
+          "Andepra",
+          "Baltine",
+          "Coperin",
+          "Deotine",
+          "Depreta",
+          "Drulox",
+          "Dulocym",
+          "Duloxecor",
+          "Dytrex",
+          "Symlox",
+          "Texotine",
+          "Tixol",
+          "Xerol DR"
+        ],
+        "venlafaxine": [
+          "Efexor-XR",
+          "Altven",
+          "Elaxine",
+          "Elaxine SR",
+          "Enlafax XR",
+          "Evelexa XR",
+          "Ozvenaf",
+          "Venfax SR",
+          "Venla",
+          "Venlexor XR"
+        ]
+      },
+      "note": "Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "rule_for_models": "With a Group A supply, report a finding if sexual dysfunction began after that treatment started, and cite the supply and symptom evidence. If sexual dysfunction is absent or began before treatment, report no finding. If symptoms or their onset are unknown, report a possible finding, cite the available evidence and ask about the missing detail.",
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Onset of sexual dysfunction in relation to this SSRI or SNRI course",
+      "meets": "recorded as present and new since the antidepressant started; a note of no sexual problems does not meet this",
+      "options": [
+        {
+          "words": "Started after this antidepressant was started",
+          "effect": "meets"
+        },
+        {
+          "words": "No sexual dysfunction",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Started before this antidepressant was started",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Sexual dysfunction is present but onset is unclear",
+          "effect": "unknown"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "cannot_be_seen": "Whether the person has sexual problems, when they began, and whether they are caused by the medicine, the illness or something else.",
+  "ask_the_gp": "A review of whether sexual problems are linked to this antidepressant and whether a change of dose or medicine is worth considering.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

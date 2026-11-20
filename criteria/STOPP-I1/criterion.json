@@ -1,0 +1,86 @@
+{
+  "id": "STOPP-I1",
+  "label": "STOPP I1: bladder antimuscarinic with dementia",
+  "family": "STOPP_START",
+  "title": "Bladder antimuscarinic with dementia or cognitive impairment",
+  "statement": "Systemic antimuscarinic drugs (e.g., oxybutynin, tolterodine, trospium) with dementia or chronic cognitive impairment (risk of increased confusion, agitation).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Bladder antimuscarinic medicines such as oxybutynin, tolterodine and trospium can worsen confusion and agitation in a person with dementia or long-standing memory and thinking problems.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Bladder antimuscarinic medicines (taken by mouth or as a patch)",
+      "ingredients": [
+        "oxybutynin",
+        "tolterodine",
+        "solifenacin",
+        "darifenacin",
+        "fesoterodine",
+        "trospium",
+        "propantheline"
+      ],
+      "brands": {
+        "oxybutynin": [
+          "Ditropan",
+          "Oxytrol"
+        ],
+        "tolterodine": [
+          "Detrusitol"
+        ],
+        "solifenacin": [
+          "Vesicare",
+          "Solicare",
+          "Vesifen",
+          "Solicare ODT",
+          "Vesican ODT"
+        ],
+        "darifenacin": [
+          "Enablex"
+        ],
+        "fesoterodine": [],
+        "trospium": [],
+        "propantheline": [
+          "Pro-Banthine"
+        ]
+      },
+      "note": "Tablets, capsules, liquids and skin patches count. Eye drops and inhalers do not. No Australian brand is listed for fesoterodine or trospium, so a history may show only the ingredient name. Other medicines with antimuscarinic action, such as tricyclic antidepressants, are not in this group. Mirabegron is not an antimuscarinic. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Dementia or chronic cognitive impairment",
+      "meets": "A condition line that names dementia (any type) or long-standing impairment of memory or thinking",
+      "options": [
+        {
+          "words": "Dementia or long-standing cognitive impairment is established",
+          "effect": "meets"
+        },
+        {
+          "words": "A relevant clinical assessment excluded both",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply only to people aged 65 years or older. If age is unknown and the other criteria are met, report age as missing and leave the finding unconfirmed. Suspect a finding when a Group A medicine (a bladder antimuscarinic) is supplied and the record also holds a line showing dementia or chronic cognitive impairment; cite the supply lines and that condition line. When the record holds no line about dementia or the person's memory or thinking, report a possible finding and say that this fact is missing. A documented dementia diagnosis or chronic cognitive impairment takes priority over an unrelated diagnosis or an isolated normal score. If cognitive status remains unknown, report a possible finding and name the missing fact. Give no finding when a relevant clinical assessment documents no dementia or chronic cognitive impairment and there is no conflicting diagnosis. The pharmacist may confirm that assessment. Keep a missing or uncertain assessment open.",
+  "cannot_be_seen": "If the record is silent, the person’s cognitive status, the reason for the antimuscarinic and its benefit are uncertain. Hospital or other pharmacy supplies may be missing.",
+  "ask_the_gp": "Could we review the reason for the antimuscarinic, its benefit and whether another treatment would suit the patient given their memory and thinking?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

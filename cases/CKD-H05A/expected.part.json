@@ -1,0 +1,47 @@
+[
+  {
+    "file": "CKD-H05A/pos-fact.csv",
+    "kind": "positive",
+    "about": "Severe renal impairment is documented the day before teriparatide supply.",
+    "findings": [
+      {
+        "criterion": "CKD-H05A",
+        "must_cite": [
+          [
+            "L002"
+          ],
+          [
+            "L045"
+          ],
+          [
+            "L046"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CKD-H05A/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about renal impairment severity or creatinine clearance, and the indexed eGFR alone cannot establish either.",
+    "findings": [
+      {
+        "criterion": "CKD-H05A",
+        "must_cite": [
+          [
+            "L002"
+          ],
+          [
+            "L034"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CKD-H05A/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Renal impairment is documented as moderate and creatinine clearance is exactly 30 mL/min at teriparatide supply.",
+    "findings": []
+  }
+]

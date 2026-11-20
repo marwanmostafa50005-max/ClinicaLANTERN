@@ -1,0 +1,125 @@
+{
+  "id": "STOPP-D9",
+  "label": "STOPP D9",
+  "family": "STOPP_START",
+  "title": "Benzodiazepine for agitation or psychotic symptoms of dementia",
+  "statement": "Benzodiazepines for agitated behaviour or psychotic symptoms of dementia (no evidence of efficacy).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "licence_status": "proposed",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A benzodiazepine (a sedating anxiety or sleep medicine) given to a person with dementia for agitated behaviour or psychotic symptoms has no proven benefit and can cause harm.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Benzodiazepines",
+      "ingredients": [
+        "alprazolam",
+        "bromazepam",
+        "clobazam",
+        "clonazepam",
+        "diazepam",
+        "flunitrazepam",
+        "lorazepam",
+        "midazolam",
+        "nitrazepam",
+        "oxazepam",
+        "temazepam",
+        "triazolam"
+      ],
+      "brands": {
+        "alprazolam": [
+          "Xanax",
+          "Alprax",
+          "Kalma",
+          "Ralozam",
+          "Xanax Tri-Score",
+          "Zamhexal"
+        ],
+        "bromazepam": [
+          "Lexotan"
+        ],
+        "clobazam": [
+          "Frisium",
+          "Clobium"
+        ],
+        "clonazepam": [
+          "Rivotril",
+          "Paxam"
+        ],
+        "diazepam": [
+          "Valium",
+          "Antenex",
+          "Ducene",
+          "Ranzepam",
+          "Valpam"
+        ],
+        "flunitrazepam": [
+          "Hypnodorm"
+        ],
+        "lorazepam": [
+          "Ativan"
+        ],
+        "midazolam": [
+          "Hypnovel"
+        ],
+        "nitrazepam": [
+          "Mogadon",
+          "Alodorm"
+        ],
+        "oxazepam": [
+          "Serepax",
+          "Murelax",
+          "Alepam"
+        ],
+        "temazepam": [
+          "Normison",
+          "Temaze",
+          "Temtabs"
+        ],
+        "triazolam": [
+          "Halcion"
+        ]
+      },
+      "note": "Tablets, capsules, liquids and injections count. Z-drugs such as zolpidem and zopiclone are not benzodiazepines and do not count. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Reason for this benzodiazepine in relation to dementia",
+      "meets": "A recorded diagnosis of dementia with agitation or psychotic symptoms due to dementia documented as the reason for this benzodiazepine.",
+      "options": [
+        {
+          "words": "Prescribed for agitation or psychotic symptoms due to dementia",
+          "effect": "meets"
+        },
+        {
+          "words": "Prescribed only for another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "A clinical assessment ruled out dementia",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this rule only to people aged 65 years or older. If age is unknown, confirm it before reporting a STOPP finding. Suspect a finding when a Group A benzodiazepine is supplied and the record links that prescription to agitation or psychotic symptoms due to dementia. Cite the supply and the evidence linking it to the symptom and diagnosis. A documented indication solely for another reason or an explicit clinical assessment that the person does not have dementia gives no finding. A normal cognitive screen alone leaves dementia status unresolved. If a Group A benzodiazepine is supplied and neither exclusion applies, report a possible finding when dementia or the indication is unknown and name the missing information.",
+  "cannot_be_seen": "Whether the person really has dementia if no diagnosis is recorded, what the benzodiazepine was prescribed for (agitation, anxiety, sleep or another reason), and any benzodiazepine given in hospital or a care home.",
+  "ask_the_gp": "A review of whether the benzodiazepine is needed for this person with dementia, and of non-drug options for the behaviour.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

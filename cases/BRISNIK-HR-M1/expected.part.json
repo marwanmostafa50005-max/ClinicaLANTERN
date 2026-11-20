@@ -1,0 +1,60 @@
+[
+  {
+    "file": "BRISNIK-HR-M1/pos-fact.csv",
+    "kind": "positive",
+    "about": "Zoloft (sertraline) is supplied every month for 12 months and the record holds a line for persistent insomnia, so the finding must cite both.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-M1",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L009",
+            "L014",
+            "L018",
+            "L022",
+            "L026",
+            "L030",
+            "L034",
+            "L038",
+            "L042",
+            "L046"
+          ],
+          [
+            "L013"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-M1/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about sleep problems or agitation, while Efexor-XR (venlafaxine) is supplied every month for 9 months.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-M1",
+        "must_cite": [
+          [
+            "L001",
+            "L004",
+            "L007",
+            "L010",
+            "L013",
+            "L016",
+            "L019",
+            "L022",
+            "L025"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-M1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Lexapro (escitalopram) is supplied every month but the record says the person sleeps well and is not agitated, so it must not flag.",
+    "findings": []
+  }
+]

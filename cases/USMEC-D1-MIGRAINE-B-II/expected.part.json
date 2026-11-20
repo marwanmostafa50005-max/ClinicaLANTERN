@@ -1,0 +1,41 @@
+[
+  {
+    "file": "USMEC-D1-MIGRAINE-B-II/pos-fact.csv",
+    "kind": "positive",
+    "about": "Lenest 30 ED is supplied after a diagnosis of migraine with aura and a documented recent aura.",
+    "findings": [
+      {
+        "criterion": "USMEC-D1-MIGRAINE-B-II",
+        "must_cite": [
+          [
+            "L046"
+          ],
+          [
+            "L041"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "USMEC-D1-MIGRAINE-B-II/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about whether the patient has ever had migraine with aura.",
+    "findings": [
+      {
+        "criterion": "USMEC-D1-MIGRAINE-B-II",
+        "must_cite": [
+          [
+            "L029"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "USMEC-D1-MIGRAINE-B-II/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The patient has migraine without aura and explicitly reports never having had aura.",
+    "findings": []
+  }
+]

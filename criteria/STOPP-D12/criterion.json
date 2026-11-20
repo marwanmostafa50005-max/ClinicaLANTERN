@@ -1,0 +1,211 @@
+{
+  "id": "STOPP-D12",
+  "label": "STOPP D12",
+  "family": "STOPP_START",
+  "title": "Antipsychotic other than clozapine or quetiapine in parkinsonism or dementia with Lewy bodies",
+  "statement": "Antipsychotics (i.e., other than clozapine or quetiapine) in those with parkinsonism or Dementia with Lewy Bodies (risk of severe extra-pyramidal symptoms).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Most antipsychotics can cause severe stiffness and movement problems in a person with parkinsonism or dementia with Lewy bodies. This criterion excludes clozapine and quetiapine.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antipsychotics other than clozapine or quetiapine",
+      "ingredients": [
+        "haloperidol",
+        "risperidone",
+        "olanzapine",
+        "aripiprazole",
+        "amisulpride",
+        "paliperidone",
+        "chlorpromazine",
+        "lurasidone",
+        "brexpiprazole",
+        "zuclopenthixol",
+        "flupentixol",
+        "fluphenazine",
+        "trifluoperazine",
+        "periciazine",
+        "ziprasidone",
+        "cariprazine",
+        "asenapine",
+        "flupentixol decanoate",
+        "fluphenazine decanoate"
+      ],
+      "brands": {
+        "haloperidol": [
+          "Serenace",
+          "Haldol Decanoate"
+        ],
+        "risperidone": [
+          "Risperdal",
+          "Ozidal",
+          "Resdone",
+          "Respaz",
+          "Risdone",
+          "Rispa",
+          "Rispaccord",
+          "Rispaccord-0.5",
+          "Risperdal Quicklet",
+          "Risperibell",
+          "Rispericor",
+          "Rispericor-0.5",
+          "Risperisan",
+          "Rispernia",
+          "Rixadone",
+          "Sperid",
+          "Risperdal Consta"
+        ],
+        "olanzapine": [
+          "Zyprexa",
+          "Zyprexa Zydis",
+          "Aprolan",
+          "Aprolan ODT",
+          "Lanez",
+          "Lanez ODT",
+          "Lanzek",
+          "Lanzek Zydis",
+          "Lonza",
+          "Lonza ODT",
+          "Lyprosia",
+          "Lyprosia ODT",
+          "Olancor",
+          "Olanza",
+          "Olanzaccord",
+          "Olanzacor",
+          "Oprexa",
+          "Ozin",
+          "Ozin ODT",
+          "Prolanza",
+          "Prolanza ODT",
+          "Pryzex",
+          "Pryzex ODT",
+          "Tolaze ODT",
+          "Tolazine ODT",
+          "Torapine ODT",
+          "Torrenia ODT",
+          "Zylap",
+          "Zylap ODT",
+          "Zylapine",
+          "Zylapine ODT",
+          "Zypine",
+          "Zypine ODT",
+          "Zyprexa Relprevv"
+        ],
+        "aripiprazole": [
+          "Abilify",
+          "Abilify Maintena",
+          "Abilify Asimtufii",
+          "Abilify ODT",
+          "Abipra",
+          "Abyraz",
+          "Aprazole",
+          "Aripic",
+          "Aripra",
+          "Arizole"
+        ],
+        "amisulpride": [
+          "Solian",
+          "Amipride",
+          "Sulprix"
+        ],
+        "paliperidone": [
+          "Invega",
+          "Invega Sustenna",
+          "Invega Trinza",
+          "Invega Hafyera"
+        ],
+        "chlorpromazine": [
+          "Largactil",
+          "Largactil Syrup"
+        ],
+        "lurasidone": [
+          "Latuda",
+          "Bilura",
+          "Latulem",
+          "Lavione",
+          "Luracor",
+          "Luralem",
+          "Luralembic",
+          "Lurobi"
+        ],
+        "brexpiprazole": [
+          "Rexulti"
+        ],
+        "zuclopenthixol": [
+          "Clopixol",
+          "Clopixol Depot"
+        ],
+        "flupentixol": [
+          "Fluanxol",
+          "Fluanxol Depot"
+        ],
+        "fluphenazine": [
+          "Modecate"
+        ],
+        "trifluoperazine": [
+          "Stelazine",
+          "Stelazine Forte",
+          "Stelazine Spansule"
+        ],
+        "periciazine": [
+          "Neulactil"
+        ],
+        "ziprasidone": [
+          "Zeldox",
+          "Ziprox"
+        ],
+        "cariprazine": [
+          "Reagila"
+        ],
+        "asenapine": [
+          "Saphris"
+        ],
+        "flupentixol decanoate": [
+          "Fluanxol",
+          "Fluanxol Depot"
+        ],
+        "fluphenazine decanoate": [
+          "Modecate"
+        ]
+      },
+      "note": "Quetiapine (Seroquel) and clozapine (Clozaril, Clopine) are NOT in this group because the criterion excludes them. Prochlorperazine and metoclopramide, used for nausea, are not in this group. Long-acting injections and asenapine sublingual wafers count. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Parkinsonism, Parkinson's disease or dementia with Lewy bodies",
+      "meets": "At least one of the listed conditions was present during the Group A treatment being assessed.",
+      "options": [
+        {
+          "words": "At least one of these conditions was present during the antipsychotic course under review",
+          "effect": "meets"
+        },
+        {
+          "words": "None of these conditions was present during that course",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this rule only to people aged 65 years or older. If age is unknown, confirm it before reporting either a finding or a possible finding. For a Group A supply, report a finding if parkinsonism, Parkinson's disease or dementia with Lewy bodies was present during treatment. Cite the supply and the supporting fact. If the condition or its timing is missing or recorded as Not known, cite the supply and report only a possible finding. If all three conditions were absent during treatment or no Group A medicine was supplied, there is no finding.",
+  "cannot_be_seen": "Whether the person has parkinsonism or Lewy body dementia, why the antipsychotic was started, and medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "Whether the antipsychotic is still needed and safe given the person's movement condition, and whether a review of the choice of medicine is due.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

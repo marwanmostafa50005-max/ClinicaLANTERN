@@ -1,0 +1,283 @@
+{
+  "id": "BRISNIK-HR-G2",
+  "label": "Brisnik: SSRI and antithrombotic with a risk factor for intracranial bleeding",
+  "family": "BRISNIK",
+  "title": "SSRI with an anticoagulant or antiplatelet at age 65 or over or with a history of stroke or dementia",
+  "statement": "Prescribed SSRI - and the patient has at least one risk factor for intracranial bleeding (aged ≥ 65 years, history of stroke, history of dementia) and co-prescribed ≥ 1 of the following: anticoagulant or antiplatelet",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Statement text reproduced without changes. Not endorsed by the source authors."
+  },
+  "plain_summary": "An SSRI combined with an anticoagulant or antiplatelet warrants review for bleeding inside the head if the person is aged 65 or over or has a history of stroke or dementia.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "SSRIs, the selective serotonin reuptake inhibitor antidepressants",
+      "ingredients": [
+        "citalopram",
+        "escitalopram",
+        "fluoxetine",
+        "fluvoxamine",
+        "paroxetine",
+        "sertraline"
+      ],
+      "brands": {
+        "citalopram": [
+          "Celapram",
+          "Cipramil",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talam",
+          "Talohexal"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam",
+          "Loxalate"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Zactin",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Paxtine",
+          "Aropax CR",
+          "Extine",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ],
+        "sertraline": [
+          "Zoloft",
+          "Concorz",
+          "Sertra",
+          "Detralon",
+          "Eleva",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertracor",
+          "Sertratrust",
+          "Setrona",
+          "Tralen",
+          "Xydep"
+        ]
+      },
+      "note": "Tablets, capsules and liquids count. Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "B",
+      "name": "Anticoagulants and antiplatelet medicines",
+      "ingredients": [
+        "warfarin",
+        "apixaban",
+        "rivaroxaban",
+        "dabigatran",
+        "edoxaban",
+        "enoxaparin",
+        "aspirin",
+        "clopidogrel",
+        "ticagrelor",
+        "prasugrel",
+        "dipyridamole",
+        "enoxaparin sodium",
+        "dalteparin",
+        "fondaparinux",
+        "heparin",
+        "heparin sodium"
+      ],
+      "brands": {
+        "warfarin": [
+          "Coumadin",
+          "Marevan"
+        ],
+        "apixaban": [
+          "Eliquis",
+          "Alexibic",
+          "Apexa",
+          "Apixor",
+          "Axibic",
+          "Elapex"
+        ],
+        "rivaroxaban": [
+          "Xarelto",
+          "Ixarola",
+          "Relaban",
+          "Rivalembic",
+          "Rivarelto",
+          "Rivator",
+          "Rivaxib",
+          "Rivaxotor",
+          "Rivoxa",
+          "Roxabic",
+          "Roxalem",
+          "Roxator",
+          "Toriva",
+          "Troxa",
+          "Xaremed"
+        ],
+        "dabigatran": [
+          "Pradaxa"
+        ],
+        "edoxaban": [],
+        "enoxaparin": [
+          "Clexane",
+          "Clexane Forte",
+          "Enoxaject",
+          "Enoxapo",
+          "Exarane",
+          "Exarane Forte"
+        ],
+        "aspirin": [
+          "Cartia",
+          "Astrix",
+          "Aspro",
+          "Aspro Clear",
+          "Aspro Clear Extra Strength",
+          "Aspro Protect",
+          "Cardasa",
+          "Cardiprin",
+          "Disprin Direct",
+          "Disprin Extra Strength",
+          "Disprin Max",
+          "Disprin Original",
+          "Disprin Regular",
+          "Ecotrin",
+          "Princard",
+          "Solprin",
+          "Spren",
+          "CoPlavix",
+          "DuoCover"
+        ],
+        "clopidogrel": [
+          "Plavix",
+          "Iscover",
+          "Clogrel",
+          "Clopaccord",
+          "Clopithromb",
+          "Clovix",
+          "Piax",
+          "Plavicor",
+          "Plidogrel",
+          "Viplex",
+          "CoPlavix",
+          "DuoCover"
+        ],
+        "ticagrelor": [
+          "Brilinta",
+          "Bricalor",
+          "Brilinta ODT",
+          "Novalant",
+          "Ticalor",
+          "Tirela"
+        ],
+        "prasugrel": [
+          "Effient"
+        ],
+        "dipyridamole": [
+          "Persantin",
+          "Asasantin SR (aspirin with dipyridamole)",
+          "Persantin SR"
+        ],
+        "enoxaparin sodium": [
+          "Clexane",
+          "Clexane Forte",
+          "Enoxaject",
+          "Enoxapo",
+          "Exarane",
+          "Exarane Forte"
+        ],
+        "dalteparin": [
+          "Fragmin"
+        ],
+        "fondaparinux": [
+          "Arixtra"
+        ],
+        "heparin": [],
+        "heparin sodium": []
+      },
+      "note": "Low-dose aspirin counts. Aspirin bought without a prescription may not show in the history. Generic packs that show the ingredient name with a company name count too. Count oral dipyridamole antiplatelet preparations, including oral dipyridamole with aspirin. Exclude dipyridamole injections used for cardiac imaging. If a dipyridamole or Persantin entry has no identifiable form or use, clarify it before counting it. Use the ingredient name for edoxaban. This group lists no Australian brand for it. CoPlavix and DuoCover each contain clopidogrel and low-dose aspirin and count as antiplatelet treatment. Count heparin only for systemic anticoagulation and exclude catheter flushes. Count aspirin when its directions or documented use support antiplatelet treatment, including a documented loading dose. Exclude aspirin taken for pain and clarify uncertain use."
+    }
+  ],
+  "rule_for_models": "Require an SSRI and an anticoagulant or antiplatelet supplied together or within 60 days of each other. Exclude a pair if the record documents that one course ended before the other began. Cite both supply lines and flag if age is at least 65 or the record confirms prior stroke or dementia. Cite the qualifying history or pharmacist answer when it supplies the evidence. Ask about unresolved risks only if the pair is present and no risk is confirmed. Under 65 with neither history, give no finding. If any risk remains unknown and none is confirmed, report a possible finding and name the missing information.",
+  "cannot_be_seen": "An undocumented history of stroke or dementia in a person under 65, whether the blood thinner is still needed, over-the-counter aspirin, and whether the person is really taking each medicine.",
+  "ask_the_gp": "A review of whether the SSRI and the blood thinner are both still needed, and whether the bleeding risk has been weighed.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Risk of bleeding inside the head from age, stroke or dementia",
+      "meets": "Age 65 or over, a previous stroke or a history of dementia meets the risk condition. Only age under 65 with both histories excluded rules it out.",
+      "options": [
+        {
+          "words": "Aged 65 or over",
+          "effect": "meets"
+        },
+        {
+          "words": "Previous stroke",
+          "effect": "meets"
+        },
+        {
+          "words": "History of dementia",
+          "effect": "meets"
+        },
+        {
+          "words": "Previous stroke and history of dementia",
+          "effect": "meets"
+        },
+        {
+          "words": "Under 65 with no history of stroke or dementia",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

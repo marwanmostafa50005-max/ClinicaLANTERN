@@ -1,0 +1,86 @@
+{
+  "id": "STOPP-B1",
+  "label": "STOPP B1",
+  "family": "STOPP_START",
+  "title": "Digoxin for heart failure with normal pumping function",
+  "statement": "Digoxin for heart failure with normal systolic ventricular function (no clear evidence of benefit)",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Digoxin used for heart failure when the heart's pumping function is normal has no clear evidence of benefit.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Digoxin",
+      "ingredients": [
+        "digoxin"
+      ],
+      "brands": {
+        "digoxin": [
+          "Lanoxin",
+          "Lanoxin PG",
+          "Lanoxin Paediatric Elixir",
+          "Sigmaxin",
+          "Sigmaxin PG"
+        ]
+      },
+      "note": "This group matches digoxin tablets and elixir. An injection alone is outside these listed forms. Lanoxin PG and Sigmaxin PG are 62.5 microgram tablets."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Heart failure",
+      "meets": "Heart failure is recorded. An explicit negative history rules out B1. If the history is unknown after a digoxin supply, ask whether heart failure is present and why digoxin is taken. Report at most a possible finding unless another fact rules B1 out.",
+      "ask_when": {
+        "group": "A"
+      }
+    },
+    {
+      "kind": "result",
+      "what": "Left ventricular ejection fraction",
+      "meets": "50% or more (normal pumping function). No result recorded means a possible finding. A latest result below 50% means no finding. If an undated result conflicts across the threshold with another result, ask which is latest and leave the finding possible until that is confirmed."
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for taking digoxin",
+      "meets": "Digoxin is being used for heart failure. Use solely for AF rate control or another non-heart-failure indication gives no finding. Unknown indication gives at most a possible finding.",
+      "options": [
+        {
+          "words": "For heart failure without atrial fibrillation rate control",
+          "effect": "meets"
+        },
+        {
+          "words": "For rate control in atrial fibrillation without heart failure treatment",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "For both heart failure and rate control in atrial fibrillation",
+          "effect": "meets"
+        },
+        {
+          "words": "Solely for another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Confirm the person is 65 or older before reporting B1, and give no finding if heart failure is explicitly ruled out, digoxin is used solely for another reason, or the latest left ventricular ejection fraction is below 50%. Report a finding when digoxin tablets or elixir (Group A) are supplied for recorded heart failure and the latest ejection fraction is at least 50%, citing the supply, indication and result lines. If an undated ejection fraction conflicts with another result, one below 50% and the other at least 50%, ask which is latest. While their order is unclear, report only a possible finding and name Left ventricular ejection fraction unless another fact rules out the finding. If Group A is supplied and no exclusion applies, report only a possible finding when the history, indication or result is unknown. Cite the supply and any supporting facts. Name only the missing facts using Heart failure, Reason for taking digoxin or Left ventricular ejection fraction. For the indication, establish whether digoxin treats heart failure, including when it is also used for rate control in atrial fibrillation.",
+  "cannot_be_seen": "Why digoxin was started. It is also used for the heart rate in atrial fibrillation, which this criterion does not cover. The record cannot show an echocardiogram report or whether a doctor has judged the pumping function normal.",
+  "ask_the_gp": "A review of whether digoxin is still needed, and the most recent measure of the heart's pumping function.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

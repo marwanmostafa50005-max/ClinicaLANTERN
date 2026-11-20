@@ -1,0 +1,51 @@
+[
+  {
+    "file": "STOPP-B17/pos-fact.csv",
+    "kind": "positive",
+    "about": "Naproxen 500 mg twice a day is supplied monthly for six months, and coronary artery disease is recorded.",
+    "findings": [
+      {
+        "criterion": "STOPP-B17",
+        "must_cite": [
+          [
+            "L017",
+            "L021",
+            "L025",
+            "L029",
+            "L033",
+            "L037"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-B17/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: regular meloxicam supplies with as-needed directions leave the duration of regular use uncertain, and the record holds no line about vascular disease.",
+    "findings": [
+      {
+        "criterion": "STOPP-B17",
+        "must_cite": [
+          [
+            "L010",
+            "L013",
+            "L016",
+            "L019",
+            "L022",
+            "L025"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-B17/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Peripheral artery disease is recorded, but the only oral NSAID is one 8-day ibuprofen course and the diclofenac is a skin gel, so it must not flag.",
+    "findings": []
+  }
+]

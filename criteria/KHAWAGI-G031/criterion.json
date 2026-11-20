@@ -1,0 +1,94 @@
+{
+  "id": "KHAWAGI-G031",
+  "label": "Khawagi review: Review a tricyclic antidepressant in a person aged 65 or older with recorded syncope",
+  "family": "KHAWAGI",
+  "title": "Review a tricyclic antidepressant in a person aged 65 or older with recorded syncope",
+  "statement": "Review a tricyclic antidepressant in a person aged 65 or older with recorded syncope.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Khawagi et al. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. S3 File.",
+    "citation": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. PLoS ONE 2019;14(5):e0217406.",
+    "doi": "10.1371/journal.pone.0217406",
+    "url": "https://doi.org/10.1371/journal.pone.0217406.s003",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. PLoS ONE 2019;14(5):e0217406. https://doi.org/10.1371/journal.pone.0217406; S3 File, https://doi.org/10.1371/journal.pone.0217406.s003. © 2019 Khawagi et al., CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). S3 File, G031. Original screening wording and Australian adaptations. S3 reference(s) as indexed in the supplied qualification: [47], [116]. Clinical cross-check: Khawagi review (https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0217406).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "Review a tricyclic antidepressant in a person aged 65 or older with recorded syncope.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Tricyclic antidepressants",
+      "ingredients": [
+        "amitriptyline",
+        "clomipramine",
+        "dosulepin",
+        "doxepin",
+        "imipramine",
+        "nortriptyline",
+        "trimipramine"
+      ],
+      "brands": {
+        "amitriptyline": [
+          "Endep",
+          "Amichlor",
+          "Amidep",
+          "Entrip"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "dosulepin": [
+          "Dothep",
+          "Prothiaden"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ]
+      },
+      "note": "Include tricyclics prescribed for pain as well as depression. Count oral treatment. Exclude compounded preparations used only on the skin. Dosulepin may be labelled dothiepin."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Syncope",
+      "meets": "The record confirms an episode or diagnosis of syncope relevant at supply.",
+      "options": [
+        {
+          "words": "Syncope was confirmed and relevant at this supply",
+          "effect": "meets"
+        },
+        {
+          "words": "No syncope relevant at this supply",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Report one finding for a systemic Group A tricyclic supplied at age 65 or older when a dated record or the pharmacist confirms an episode or diagnosis of syncope relevant at that supply. Count qualifying treatment for any indication. Cite the supply and syncope evidence. Give no finding if age at supply is below 65 or syncope is explicitly excluded. If the available facts fit but age or syncope is unknown, report only a possible finding. Name each missing fact and cite the supply. Ask whether the patient has fainted or blacked out and check any recorded diagnosis.",
+  "cannot_be_seen": "Dispensing does not establish actual use, indication or a prescriber’s intent. Treatment and assessments elsewhere may be missing.",
+  "ask_the_gp": "Could you confirm whether this patient has a history of syncope and review whether this tricyclic remains suitable?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

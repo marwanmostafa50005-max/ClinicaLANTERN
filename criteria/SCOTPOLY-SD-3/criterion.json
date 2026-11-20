@@ -1,0 +1,111 @@
+{
+  "id": "SCOTPOLY-SD-3",
+  "label": "SCOTPOLY: metformin during dehydrating illness",
+  "family": "SCOTPOLY",
+  "title": "Metformin during acute dehydrating illness",
+  "statement": "Step 5: Medication Sick Day Guidance: advise to stop during dehydrating illness for SGLT-2i, metformin",
+  "statement_origin": "published",
+  "source": {
+    "document": "Scottish Government Effective Prescribing and Therapeutics Division, Polypharmacy Guidance: Appropriate Prescribing - Making medicines safe, effective and sustainable 2026-2029, fourth edition",
+    "citation": "Scottish Government Effective Prescribing and Therapeutics Division. Polypharmacy Guidance: Appropriate Prescribing - Making medicines safe, effective and sustainable 2026-2029, fourth edition. Appendix B, Endocrine System, Antidiabetics row, page 13. Published 2 March 2026.",
+    "url": "https://www.gov.scot/publications/polypharmacy-guidance-appropriate-prescribing-making-medicines-safe-effective-sustainable-2026-2029/pages/13/",
+    "licence": "UK Open Government Licence v3.0",
+    "licence_status": "proposed",
+    "credit": "Contains public sector information licensed under the Open Government Licence v3.0.",
+    "modification_notice": "Statement reproduced without changes. Plain-language fields, Australian medicine mapping, counter question and test histories are adaptations."
+  },
+  "plain_summary": "Dehydration can impair kidney function and allow metformin to build up, increasing the risk of lactic acidosis. Any temporary withholding during dehydrating illness is short term, and prompt medical review is needed if symptoms persist or fluids cannot be kept down. At the counter, ask whether the patient currently has a dehydrating illness, check whether they already have a written diabetes sick-day action plan, and advise prompt GP review on whether to pause metformin and when it is safe to restart once recovered and eating and drinking normally.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Metformin and fixed-dose metformin combinations",
+      "ingredients": [
+        "metformin",
+        "empagliflozin with metformin",
+        "dapagliflozin with metformin",
+        "ertugliflozin with metformin",
+        "sitagliptin with metformin",
+        "vildagliptin with metformin",
+        "linagliptin with metformin",
+        "saxagliptin with metformin",
+        "alogliptin with metformin",
+        "glibenclamide with metformin"
+      ],
+      "brands": {
+        "metformin": [
+          "Diabex",
+          "Diabex XR",
+          "Diaformin",
+          "Diaformin XR",
+          "Formet",
+          "Glucophage",
+          "Glucohexal",
+          "Glucobete",
+          "Metex XR"
+        ],
+        "empagliflozin with metformin": [
+          "Jardiamet"
+        ],
+        "dapagliflozin with metformin": [
+          "Xigduo XR"
+        ],
+        "ertugliflozin with metformin": [
+          "Segluromet"
+        ],
+        "sitagliptin with metformin": [
+          "Janumet",
+          "Janumet XR",
+          "Sitaglo-Met",
+          "Velmetia"
+        ],
+        "vildagliptin with metformin": [
+          "Galvumet"
+        ],
+        "linagliptin with metformin": [
+          "Trajentamet"
+        ],
+        "saxagliptin with metformin": [
+          "Kombiglyze XR"
+        ],
+        "alogliptin with metformin": [
+          "Nesina Met"
+        ],
+        "glibenclamide with metformin": [
+          "Glucovance"
+        ]
+      },
+      "note": "Immediate-release, extended-release, and all fixed-dose combination tablets containing metformin count. Jardiamet (empagliflozin with metformin), Xigduo XR (dapagliflozin with metformin), Segluromet (ertugliflozin with metformin), Janumet, Janumet XR, Sitaglo-Met and Velmetia (sitagliptin with metformin), Galvumet (vildagliptin with metformin), Trajentamet (linagliptin with metformin), Kombiglyze XR (saxagliptin with metformin), Nesina Met (alogliptin with metformin) and Glucovance (glibenclamide with metformin) all contain metformin and count. Plain Trajenta (linagliptin alone) and plain Nesina (alogliptin alone) do not contain metformin and do not count. Generic packs that show metformin in the ingredient or brand name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Current dehydrating illness",
+      "meets": "The patient currently has an acute dehydrating illness, such as repeated vomiting or diarrhoea, fever with sweats or shaking, or cannot keep fluids down.",
+      "options": [
+        {
+          "words": "Current dehydrating illness, such as repeated vomiting or diarrhoea, inability to keep fluids down, or other signs of dehydration",
+          "effect": "meets"
+        },
+        {
+          "words": "Fever with more than mild sweats or shaking",
+          "effect": "meets"
+        },
+        {
+          "words": "No current dehydrating illness, including recovery or mild illness with normal fluid intake",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "At any age, including when age is missing, look for a Group A metformin supply in the last 3 months ending on the latest date in the record, even if directions are unclear. With a qualifying supply, use the pharmacist's answer for this assessment, even if undated, or the latest relevant observation or condition that establishes current illness status. For current dehydrating illness, confirm and cite the supply and illness lines. If status is missing, unknown or only describes a past episode, cite the supply and report a possible finding with Current dehydrating illness as the missing fact. Give no finding if the patient is well, has recovered, or has only mild illness with normal fluid intake and no dehydration, or if there is no qualifying supply.",
+  "cannot_be_seen": "Check any recorded symptoms, glucose, ketones, kidney function and sick-day plan. Current medicine use, outside supplies and results or advice recorded elsewhere may need confirmation.",
+  "ask_the_gp": "Metformin has been supplied. Could you confirm current use and illness status and, if the patient is taking metformin during a dehydrating illness, review a temporary pause, glucose monitoring and safe restart as part of a written sick-day plan?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

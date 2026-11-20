@@ -1,0 +1,64 @@
+[
+  {
+    "file": "BRISNIK-HR-F1/pos-brand.csv",
+    "kind": "positive",
+    "about": "Zoloft (sertraline, an SSRI) and Plavix (clopidogrel, an antiplatelet) are supplied by brand name only, with no stomach protection supplied, in a woman aged 72.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-F1",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L010",
+            "L014",
+            "L018",
+            "L022",
+            "L026",
+            "L030",
+            "L034"
+          ],
+          [
+            "L002",
+            "L006",
+            "L009",
+            "L013",
+            "L017",
+            "L021",
+            "L025",
+            "L029",
+            "L033"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-F1/pos-buried.csv",
+    "kind": "positive",
+    "about": "Venlafaxine (an SNRI) is supplied throughout a 14-month history, and naproxen (an NSAID) is supplied three times in the middle with no stomach protection.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-F1",
+        "must_cite": [
+          [
+            "L026",
+            "L031",
+            "L036"
+          ],
+          [
+            "L025",
+            "L030",
+            "L035"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-F1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Pantoprazole covers the initial sertraline and clopidogrel combination, and later supplies include oral aspirin for pain with clopidogrel, which calls for F2 review.",
+    "findings": []
+  }
+]

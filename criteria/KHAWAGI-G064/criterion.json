@@ -1,0 +1,63 @@
+{
+  "id": "KHAWAGI-G064",
+  "label": "Khawagi review: Review blood pressure and pulse monitoring for a person with hypertension receiving atomoxetine",
+  "family": "KHAWAGI",
+  "title": "Review blood pressure and pulse monitoring for a person with hypertension receiving atomoxetine",
+  "statement": "Review blood pressure and pulse monitoring for a person with hypertension receiving atomoxetine.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Khawagi et al. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. S3 File.",
+    "citation": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. PLoS ONE 2019;14(5):e0217406.",
+    "doi": "10.1371/journal.pone.0217406",
+    "url": "https://doi.org/10.1371/journal.pone.0217406.s003",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. PLoS ONE 2019;14(5):e0217406. https://doi.org/10.1371/journal.pone.0217406; S3 File, https://doi.org/10.1371/journal.pone.0217406.s003. © 2019 Khawagi et al., CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). S3 File, G064. Original screening wording and Australian adaptations. S3 reference(s) as indexed in the supplied qualification: [71]. Clinical cross-check: TGA atomoxetine alert (https://www.tga.gov.au/safety/safety-monitoring-and-information/safety-alerts/atomoxetine-strattera-risk-increased-blood-pressure-andor-heart-rate).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "Review blood pressure and pulse monitoring for a person with hypertension receiving atomoxetine.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Atomoxetine",
+      "ingredients": [
+        "atomoxetine"
+      ],
+      "brands": {
+        "atomoxetine": [
+          "Atomoxetine AN",
+          "Strattera",
+          "Atomoxetine Sandoz",
+          "APO-Atomoxetine"
+        ]
+      }
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Hypertension",
+      "meets": "A recorded diagnosis applies at supply, including treated hypertension.",
+      "options": [
+        {
+          "words": "High blood pressure had been diagnosed and was present at the time of the supply under review",
+          "effect": "meets"
+        },
+        {
+          "words": "High blood pressure was absent at the time of the supply under review",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "For atomoxetine supplied during diagnosed hypertension, including treated hypertension, cite the supply and the diagnosis and flag blood pressure and pulse monitoring whatever the indication. Prioritise documented moderate or severe hypertension. Give no finding if hypertension was absent at supply. If exposure or the diagnosis at supply is uncertain, report only a possible finding and name what needs checking. Ask whether hypertension was present at the time of supply. A single blood pressure reading or a monitoring visit does not establish the diagnosis.",
+  "cannot_be_seen": "Dispensing does not establish actual use, indication or a prescriber’s intent. Treatment and assessments elsewhere may be missing.",
+  "ask_the_gp": "Could you confirm the patient's hypertension status if unclear and review blood pressure and pulse monitoring during atomoxetine treatment? If moderate or severe hypertension is documented and atomoxetine is still being used, could we review its suitability today?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

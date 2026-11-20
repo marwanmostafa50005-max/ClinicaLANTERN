@@ -1,0 +1,97 @@
+{
+  "id": "NHSNPSA-2010-RRR013-1",
+  "label": "NHSNPSA: insulin abbreviation U or IU",
+  "family": "NHSNPSA",
+  "title": "Insulin directions using an abbreviation for units",
+  "statement": "when prescribing insulin, the term ‘units’ is used in all contexts. Abbreviations such as U or IU are never used",
+  "statement_origin": "published",
+  "source": {
+    "document": "NHS England, Standards that remain valid: Medication safety",
+    "citation": "NHS England, Current medication safety standards, Safe prescribing practice (read 19 November 2026)",
+    "url": "https://www.england.nhs.uk/patient-safety/patient-safety-insight/patient-safety-alerts/enduring-standards/standards-that-remain-valid/medication-safety/",
+    "licence": "Open Government Licence v3.0",
+    "licence_status": "proposed",
+    "credit": "NHS England, Standards that remain valid: Medication safety (read 19 November 2026). Contains public sector information licensed under the Open Government Licence v3.0."
+  },
+  "plain_summary": "If insulin directions abbreviate units as U or IU, the dose or route can be misread, for example 10U read as 100 or IU read as IV or 10. Australian national terminology guidance from the Australian Commission on Safety and Quality in Health Care aligns with writing unit or units in full on labels and prescriptions. Check the original prescription against the label to see where the abbreviation appears. Ask the patient to show or tell you the dose they inject. If the intended dose is unclear or differs from the dose being used, confirm it with the prescriber before changing the label.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Insulins",
+      "ingredients": [
+        "insulin aspart",
+        "insulin lispro",
+        "insulin glulisine",
+        "insulin glargine",
+        "insulin detemir",
+        "insulin degludec",
+        "insulin degludec with insulin aspart",
+        "insulin neutral",
+        "insulin isophane",
+        "insulin icodec",
+        "insulin glargine with lixisenatide"
+      ],
+      "brands": {
+        "insulin aspart": [
+          "NovoRapid",
+          "Fiasp",
+          "NovoMix 30"
+        ],
+        "insulin lispro": [
+          "Humalog",
+          "Humalog U200 KwikPen",
+          "Humalog Mix25",
+          "Humalog Mix50"
+        ],
+        "insulin glulisine": [
+          "Apidra"
+        ],
+        "insulin glargine": [
+          "Optisulin",
+          "Lantus",
+          "Semglee",
+          "Toujeo",
+          "Toujeo SoloStar"
+        ],
+        "insulin detemir": [
+          "Levemir"
+        ],
+        "insulin degludec": [
+          "Tresiba"
+        ],
+        "insulin degludec with insulin aspart": [
+          "Ryzodeg",
+          "Ryzodeg 70/30"
+        ],
+        "insulin neutral": [
+          "Actrapid",
+          "Humulin R",
+          "Mixtard 30/70",
+          "Mixtard 50/50",
+          "Humulin 30/70"
+        ],
+        "insulin isophane": [
+          "Protaphane",
+          "Humulin NPH",
+          "Mixtard 30/70",
+          "Mixtard 50/50",
+          "Humulin 30/70"
+        ],
+        "insulin icodec": [
+          "Awiqli"
+        ],
+        "insulin glargine with lixisenatide": [
+          "Soliqua 100/33",
+          "Soliqua 100/50"
+        ]
+      },
+      "note": "Premixed and co-formulated products count as insulin supplies, including NovoMix 30, Humalog Mix25, Humalog Mix50, Mixtard 30/70, Humulin 30/70 and Ryzodeg. Soliqua 100/33 and Soliqua 100/50 contain insulin glargine with lixisenatide. A direction written in full as dose steps is not an abbreviation for units. High-strength pens also count, including Toujeo SoloStar 300 units/mL and Humalog U200 KwikPen 200 units/mL. The U200 or 300 units/mL wording on the brand or strength is not an abbreviation in the directions column."
+    }
+  ],
+  "rule_for_models": "Check the directions of every insulin supply at any age. Cite the line if any dose unit is abbreviated as U, u, IU or I.U., even when another dose spells out units or the dose is given in words or by a scale. Ignore U200, U-300 or units/mL in a brand name or concentration. Directions such as 'Use as directed' or 'Inject 16 units' contain no abbreviated dose unit.",
+  "cannot_be_seen": "Handwritten prescriptions, verbal instructions, sliding-scale charts held outside the dispensing record, and whether the patient understood the intended dose.",
+  "ask_the_gp": "Clarification and confirmation of the intended insulin dose written in full using the word units rather than U or IU, so the prescription and dispensing label are unambiguous.",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

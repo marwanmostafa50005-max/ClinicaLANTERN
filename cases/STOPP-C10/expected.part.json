@@ -1,0 +1,36 @@
+[
+  {
+    "file": "STOPP-C10/pos-brand.csv",
+    "kind": "positive",
+    "about": "Mobic (meloxicam, an NSAID) is supplied four times from June to September 2026 while Eliquis (apixaban) is supplied every month, and both appear by brand name only.",
+    "findings": [
+      {
+        "criterion": "STOPP-C10",
+        "must_cite": [
+          ["L022", "L026", "L030", "L034"],
+          ["L015", "L019", "L023", "L027", "L031", "L035"]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-C10/pos-buried.csv",
+    "kind": "positive",
+    "about": "Naprosyn SR (naproxen, an NSAID) is supplied three times from January to March 2026, in the middle of a 14-month history, while warfarin (Coumadin) is supplied throughout.",
+    "findings": [
+      {
+        "criterion": "STOPP-C10",
+        "must_cite": [
+          ["L036", "L041", "L047"],
+          ["L025", "L035", "L042", "L052"]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-C10/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Voltaren (diclofenac) was last supplied in September 2025 and Xarelto (rivaroxaban) was first supplied in April 2026, about seven months later, so the two were never supplied within 60 days of each other.",
+    "findings": []
+  }
+]

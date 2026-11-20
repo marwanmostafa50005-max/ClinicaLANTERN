@@ -1,0 +1,142 @@
+{
+  "id": "BRISNIK-HR-A4",
+  "label": "Brisnik A4: citalopram or escitalopram with QT risk",
+  "family": "BRISNIK",
+  "title": "Citalopram or escitalopram in long QT syndrome or a QT risk condition",
+  "statement": "Prescribed citalopram and escitalopram - and the patient has long QT syndrome or is at risk of long QT syndrome (e.g., (advanced) chronic heart failure, ischemic heart disease, myocardial hypertrophy, bradyarrhythmias, or an ongoing risk of hypokalaemia[c])",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2). Not endorsed by the source authors."
+  },
+  "plain_summary": "Citalopram and escitalopram can lengthen the heart QT interval, which can set off a dangerous heart rhythm. The risk is higher if the person has long QT syndrome or a condition that raises that risk.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Citalopram and escitalopram",
+      "ingredients": [
+        "citalopram",
+        "escitalopram"
+      ],
+      "brands": {
+        "citalopram": [
+          "Cipramil",
+          "Celapram",
+          "Talam",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talohexal"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Loxalate",
+          "Lexam",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram"
+        ]
+      },
+      "note": "Any dose counts."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Long QT syndrome, or a condition that puts the person at risk of it: chronic heart failure, ischaemic heart disease, thickened heart muscle (myocardial hypertrophy) or a slow heart rhythm problem (bradyarrhythmia)",
+      "meets": "Long QT syndrome, chronic heart failure, ischaemic heart disease or myocardial hypertrophy is recorded as a current or past diagnosis, or a bradyarrhythmia is current or ongoing. For a resolved slow rhythm, check whether any risk persists.",
+      "options": [
+        {
+          "words": "Long QT syndrome or one of the listed structural heart conditions has been diagnosed",
+          "effect": "meets"
+        },
+        {
+          "words": "A slow heart rhythm disorder is still present",
+          "effect": "meets"
+        },
+        {
+          "words": "The slow rhythm resolved and review found no ongoing risk from it or other listed cardiac diagnosis",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "History excludes these cardiac diagnoses",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Potassium history relevant to QT risk",
+      "meets": "Recurrent hypokalaemia documented in the record or shown by repeated low potassium results below 3.5 mmol/L, despite efforts to correct it or without prescribed potassium supplements. A single low result leaves recurrence unknown. A review of the potassium history can rule out this pattern.",
+      "options": [
+        {
+          "words": "Recurrent low potassium is documented despite attempts to correct it or without prescribed potassium supplements",
+          "effect": "meets"
+        },
+        {
+          "words": "A review of the potassium history rules out this recurrent pattern",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Only a single low result or an incomplete history is available",
+          "effect": "unknown"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "ECG or clinician interpretation of the QTc interval",
+      "meets": "The ECG report or a clinician explicitly identifies the QTc as prolonged. If only a number is recorded, request its interpretation as a possible finding when no other listed risk is established.",
+      "options": [
+        {
+          "words": "The ECG report or clinician identified prolonged QTc",
+          "effect": "meets"
+        },
+        {
+          "words": "The ECG report or clinician assessed QTc as not prolonged",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "For citalopram or escitalopram, confirm when the record shows long QT syndrome, a qualifying cardiac diagnosis, current bradyarrhythmia, a clinician-reported prolonged QTc, qualifying recurrent low potassium, or another explicitly documented ongoing QT risk. Cite the supply and the evidence for the risk. A normal result or a negative answer about one risk does not cancel a different confirmed risk. A symptom alone leaves cardiac history unresolved. One low potassium result leaves recurrence unresolved. A QTc number without interpretation leaves QTc status unresolved. If no risk is established and relevant information is missing, report only a possible finding and cite the supply and name only the missing facts. For cardiac history use \"Long QT syndrome, or a condition that puts the person at risk of it: chronic heart failure, ischaemic heart disease, thickened heart muscle (myocardial hypertrophy) or a slow heart rhythm problem (bradyarrhythmia)\". For recurrence use \"Potassium history relevant to QT risk\". For an ECG use \"ECG or clinician interpretation of the QTc interval\". Give no finding when an assessment excludes the listed risks and there is no other documented ongoing QT risk.",
+  "cannot_be_seen": "ECG and QT results when not recorded, blood potassium and magnesium, heart conditions that are not on the record, other medicines that lengthen the QT interval from other sources, and the dose actually taken.",
+  "ask_the_gp": "Could you review citalopram or escitalopram and clarify any missing history of long QT syndrome, heart failure, coronary disease, thickened heart muscle or a slow heart rhythm? Could you also review the ECG QT interval and blood potassium?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

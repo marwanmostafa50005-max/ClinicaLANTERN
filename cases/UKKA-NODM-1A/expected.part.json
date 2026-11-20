@@ -1,0 +1,56 @@
+[
+  {
+    "file": "UKKA-NODM-1A/pos-fact.csv",
+    "kind": "positive",
+    "about": "With CKD, no diabetes and eGFR 20, the PCR of 35 mg/mmol qualifies on its own despite an unconfirmed ACR of 40 and a dialysis course that ended in October.",
+    "findings": [
+      {
+        "criterion": "UKKA-NODM-1A",
+        "must_cite": [
+          [
+            "L004"
+          ],
+          [
+            "L005"
+          ],
+          [
+            "L023"
+          ],
+          [
+            "L025"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "UKKA-NODM-1A/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line identifying the urine ratio of 40 mg/mmol as ACR or PCR, so it is unclear whether a repeat is needed.",
+    "findings": [
+      {
+        "criterion": "UKKA-NODM-1A",
+        "must_cite": [
+          [
+            "L004"
+          ],
+          [
+            "L005"
+          ],
+          [
+            "L018"
+          ],
+          [
+            "L019"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "UKKA-NODM-1A/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The PCR of 35 mg/mmol qualifies despite an ACR of 24, but Forxiga was supplied the day after the urine specimen.",
+    "findings": []
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "file": "SCOTNTI-AKI-MET/pos-brand.csv",
+    "kind": "positive",
+    "about": "Diaformin (L016), oral Brufen (L017) and Frusemix (L021) cover 22 to 28 May together.",
+    "findings": [
+      {
+        "criterion": "SCOTNTI-AKI-MET",
+        "must_cite": [
+          [
+            "L016"
+          ],
+          [
+            "L017"
+          ],
+          [
+            "L021"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "SCOTNTI-AKI-MET/pos-buried.csv",
+    "kind": "positive",
+    "about": "Janumet (L031), rectal Voltaren (L036) and Frusemix (L037) cover 26 to 31 January together.",
+    "findings": [
+      {
+        "criterion": "SCOTNTI-AKI-MET",
+        "must_cite": [
+          [
+            "L031"
+          ],
+          [
+            "L036"
+          ],
+          [
+            "L037"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "SCOTNTI-AKI-MET/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Diaformin (L016) and Coversyl (L017) overlap, but the only NSAID is Voltaren Emulgel for the skin (L021).",
+    "findings": []
+  }
+]

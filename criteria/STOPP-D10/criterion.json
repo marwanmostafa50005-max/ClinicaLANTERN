@@ -1,0 +1,131 @@
+{
+  "id": "STOPP-D10",
+  "label": "STOPP D10",
+  "family": "STOPP_START",
+  "title": "Benzodiazepine for insomnia for 2 weeks or more",
+  "statement": "Benzodiazepines for insomnia for ≥ 2 weeks (high risk of dependency, increased risk of falls, fractures and road traffic accidents).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A benzodiazepine taken for sleep for two weeks or more raises the risk of dependence, falls, fractures and road crashes.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Benzodiazepines",
+      "ingredients": [
+        "temazepam",
+        "nitrazepam",
+        "oxazepam",
+        "diazepam",
+        "alprazolam",
+        "lorazepam",
+        "clonazepam",
+        "flunitrazepam",
+        "clobazam",
+        "bromazepam"
+      ],
+      "brands": {
+        "temazepam": [
+          "Temaze",
+          "Normison",
+          "Temtabs"
+        ],
+        "nitrazepam": [
+          "Mogadon",
+          "Alodorm"
+        ],
+        "oxazepam": [
+          "Serepax",
+          "Murelax",
+          "Alepam"
+        ],
+        "diazepam": [
+          "Valium",
+          "Antenex",
+          "Ducene",
+          "Ranzepam",
+          "Valpam"
+        ],
+        "alprazolam": [
+          "Xanax",
+          "Kalma",
+          "Alprax",
+          "Ralozam",
+          "Xanax Tri-Score",
+          "Zamhexal"
+        ],
+        "lorazepam": [
+          "Ativan"
+        ],
+        "clonazepam": [
+          "Rivotril",
+          "Paxam"
+        ],
+        "flunitrazepam": [
+          "Hypnodorm"
+        ],
+        "clobazam": [
+          "Frisium"
+        ],
+        "bromazepam": [
+          "Lexotan"
+        ]
+      },
+      "note": "Tablets and capsules count. Temazepam and nitrazepam are the usual sleeping tablets. The others are mostly used for anxiety or seizures, so the reason for the medicine matters. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Insomnia as the reason for the benzodiazepine",
+      "meets": "The record links this benzodiazepine to insomnia or poor sleep. A second indication may coexist.",
+      "options": [
+        {
+          "words": "This course was for insomnia or poor sleep, alone or alongside another reason",
+          "effect": "meets"
+        },
+        {
+          "words": "This course was solely for another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Duration of actual benzodiazepine use",
+      "meets": "Check the medicine, course dates, actual dose, frequency and any breaks. One course included at least 14 days of use.",
+      "options": [
+        {
+          "words": "One course included at least 14 days of use",
+          "effect": "meets"
+        },
+        {
+          "words": "Every course reviewed was under 14 days of use",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this criterion only to people aged 65 or older. If age is under 65, there is no finding. If age is unknown, request the age before confirming a finding. Suspect a finding when Group A benzodiazepine supplies support one course of insomnia treatment lasting at least 14 days. Use quantities, directions and dates. If as-needed directions, a range or a missing dose leave 14 days of insomnia treatment possible but unconfirmed, report only a possible finding unless another reason fully explains the course. Only when 14 days of use is possible but the dose, frequency or continuity is unclear, identify the medicine and supply dates and ask for 'Duration of actual benzodiazepine use'. Ask separately for 'Insomnia as the reason for the benzodiazepine' if the reason is unknown. Use the dated course, actual dose, frequency and breaks to assess duration. An answer of at least 14 days establishes duration only. If every course was shorter, give no finding. If duration is Not known or the answer cannot be linked to the course, report only a possible finding when the indication could qualify. Join supplies only when they support the same continuing course. If a gap could separate two courses, ask the pharmacist to check continuity. Report at most a possible finding if crossing the 14-day threshold depends on that gap. Count overlapping days once and assess separate completed courses independently. Cite the indication and the supply lines for the course. If the course meets the duration threshold and its indication is unclear, report a possible finding and ask whether it was used for insomnia. If insomnia is documented as a reason for this course, count it even when another reason is recorded. A course solely for a different indication, or lasting less than 14 days, gives no D10 finding.",
+  "cannot_be_seen": "Why the benzodiazepine was started, how often it is really taken, and medicines bought without a prescription or supplied by another pharmacy.",
+  "ask_the_gp": "Whether the sleeping tablet is still needed, and whether a plan to reduce it and other sleep help is due.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

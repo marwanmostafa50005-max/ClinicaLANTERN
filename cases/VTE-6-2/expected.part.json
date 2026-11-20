@@ -1,0 +1,53 @@
+[
+  {
+    "file": "VTE-6-2/pos-fact.csv",
+    "kind": "positive",
+    "about": "The pharmacist confirms the first prescribed regimen was 15 mg twice daily, and the day 22 supply continues that regimen for the same acute pulmonary embolism.",
+    "findings": [
+      {
+        "criterion": "VTE-6-2",
+        "must_cite": [
+          [
+            "L042"
+          ],
+          [
+            "L043"
+          ],
+          [
+            "L041"
+          ],
+          [
+            "L044"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "VTE-6-2/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the day 22 supply for the same acute pulmonary embolism gives a daily total of 30 mg, but the record holds no line about how often the later dose was prescribed.",
+    "findings": [
+      {
+        "criterion": "VTE-6-2",
+        "must_cite": [
+          [
+            "L028"
+          ],
+          [
+            "L029"
+          ],
+          [
+            "L027"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "VTE-6-2/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Both supplies are for stroke prevention in atrial fibrillation and the dated condition specifically excludes a current acute clot.",
+    "findings": []
+  }
+]

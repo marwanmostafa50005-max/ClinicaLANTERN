@@ -1,0 +1,69 @@
+{
+  "id": "EU7-F02",
+  "label": "EU(7)-PIM: cimetidine, ranitidine, famotidine",
+  "family": "EU7",
+  "title": "Cimetidine, ranitidine or famotidine in an older person",
+  "statement": "The EU(7)-PIM list names the H2-receptor antagonists cimetidine, ranitidine and famotidine as potentially inappropriate medicines for older people. The main reason given for all three is side effects on the brain, including confusion. When creatinine clearance is below 50 mL/min the experts advise, for ranitidine, 150 mg by mouth every 24 hours or 50 mg by injection into a vein every 18 to 24 hours, and for famotidine, half the dose or a longer gap between doses (every 36 to 48 hours). Alternative the experts suggest, when there is a proper reason to treat: a low-dose proton pump inhibitor for less than 8 weeks.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Summary written by the entrant in plain words from three rows of the source table (cimetidine, ranitidine, famotidine). Dose advice for cimetidine that the source marks as taken from Micromedex is left out. The authors have not reviewed this summary."
+  },
+  "plain_summary": "Cimetidine, ranitidine and famotidine can cause confusion in an older person, and the dose may need to be lower when the kidneys work less well.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "H2-receptor antagonists named in the list",
+      "ingredients": [
+        "famotidine",
+        "ranitidine",
+        "cimetidine"
+      ],
+      "brands": {
+        "famotidine": [
+          "Pepzan",
+          "Pepzan Relief",
+          "Ausfam",
+          "Pamacid",
+          "Pepcidine",
+          "Famohexal",
+          "Arfam"
+        ],
+        "ranitidine": [
+          "Zantac",
+          "Ausran",
+          "Rani-2",
+          "Ranihexal",
+          "Ranoxyl",
+          "Ulcaid",
+          "Mylanta Ranitidine",
+          "Gastrogel-Ranitidine",
+          "Acidsoothe",
+          "Gavilast 12 Hour Action",
+          "Ranital Forte",
+          "Ranoxyl Heartburn Relief",
+          "Zantac Double Strength",
+          "Zantac Relief",
+          "Zantac Relief Extra Strength"
+        ],
+        "cimetidine": [
+          "Tagamet",
+          "Magicul"
+        ]
+      },
+      "note": "Zantac Relief and Zantac Double Strength are ranitidine. Nizatidine (for example Tazac, Nizac, Tacidine) is an H2-receptor antagonist that the list does not name, so it does not count. Proton pump inhibitors such as pantoprazole and esomeprazole do not count here. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when any Group A medicine (cimetidine, ranitidine or famotidine) is supplied, at any dose, to a patient aged 65 years or over. If the medicine criteria are otherwise met and age at supply is unknown, report only a possible finding and ask for age confirmation. An age below 65 rules out this finding. One supply is enough. Nizatidine and proton pump inhibitors do not count.",
+  "cannot_be_seen": "Use dated kidney results and observations of confusion or memory change when available. The famotidine dose guidance uses creatinine clearance in mL/min. An indexed eGFR alone does not establish that value. The reason for starting or continuing treatment may be unrecorded. Purchases outside the record and how often the patient takes the tablets may also be unknown.",
+  "ask_the_gp": "Whether this H2-receptor antagonist is still needed and still the best choice at the patient's age, taking account of kidney function and any confusion.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

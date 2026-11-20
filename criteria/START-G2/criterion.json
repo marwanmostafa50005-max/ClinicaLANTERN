@@ -1,0 +1,210 @@
+{
+  "id": "START-G2",
+  "label": "START G2: inhaled corticosteroid in severe asthma or COPD",
+  "family": "STOPP_START",
+  "title": "Inhaled corticosteroid missing in moderate to severe asthma or severe COPD with flare-ups",
+  "statement": "Regular i.e. daily inhaled corticosteroid (e.g., beclomethasone, budesonide, ciclesonide, fluticasone, mometasone) for moderate-severe asthma or COPD of GOLD 3 or 4 severity, where FEV1 <50% of predicted value and repeated exacerbations requiring treatment with oral corticosteroids.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A person with moderate to severe asthma, or with severe COPD (GOLD 3 or 4, FEV1 below half of the expected value) and repeated flare-ups treated with steroid tablets, should usually take an inhaled steroid every day.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Inhaled corticosteroids, alone or in a combination inhaler",
+      "ingredients": [
+        "beclometasone",
+        "budesonide",
+        "ciclesonide",
+        "fluticasone propionate",
+        "fluticasone furoate",
+        "mometasone"
+      ],
+      "brands": {
+        "beclometasone": [
+          "Qvar",
+          "Fostair (beclometasone with formoterol)",
+          "Trimbow"
+        ],
+        "budesonide": [
+          "Pulmicort",
+          "Symbicort (budesonide with formoterol)",
+          "DuoResp Spiromax",
+          "Breztri Aerosphere"
+        ],
+        "ciclesonide": [
+          "Alvesco"
+        ],
+        "fluticasone propionate": [
+          "Flixotide",
+          "Seretide (fluticasone propionate with salmeterol)",
+          "Flutiform (fluticasone with formoterol)",
+          "Axotide",
+          "Axotide Accuhaler",
+          "Axotide Junior Accuhaler",
+          "Axotide Junior Inhaler",
+          "Flixotide Accuhaler",
+          "Flixotide Junior Accuhaler",
+          "Flixotide Junior Inhaler",
+          "Flixotide Nebules",
+          "Fluair Inhaler"
+        ],
+        "fluticasone furoate": [
+          "Breo Ellipta (fluticasone furoate with vilanterol)",
+          "Trelegy Ellipta (fluticasone furoate with umeclidinium and vilanterol)"
+        ],
+        "mometasone": [
+          "Atectura Breezhaler",
+          "Enerzair Breezhaler",
+          "Asmanex Twisthaler"
+        ]
+      },
+      "note": "Medicines that meet this criterion. Nasal sprays, creams and eye drops do not count. Only corticosteroids inhaled into the lungs count. Exclude oral and rectal budesonide."
+    },
+    {
+      "key": "B",
+      "name": "Medicines that imply moderate to severe airways disease",
+      "ingredients": [
+        "tiotropium",
+        "aclidinium",
+        "umeclidinium",
+        "glycopyrronium",
+        "indacaterol",
+        "olodaterol",
+        "salmeterol",
+        "formoterol",
+        "prednisolone",
+        "prednisone",
+        "vilanterol"
+      ],
+      "brands": {
+        "tiotropium": [
+          "Spiriva",
+          "Spiriva Respimat",
+          "Spiolto Respimat (tiotropium with olodaterol)",
+          "Braltus",
+          "Favint",
+          "Favint Respimat",
+          "Srivasso",
+          "Srivasso Respimat"
+        ],
+        "aclidinium": [
+          "Bretaris Genuair",
+          "Brimica Genuair (aclidinium with formoterol)"
+        ],
+        "umeclidinium": [
+          "Incruse Ellipta",
+          "Anoro Ellipta (umeclidinium with vilanterol)"
+        ],
+        "glycopyrronium": [
+          "Seebri Breezhaler",
+          "Ultibro Breezhaler (glycopyrronium with indacaterol)"
+        ],
+        "indacaterol": [
+          "Onbrez Breezhaler",
+          "Ultibro Breezhaler (indacaterol with glycopyrronium)"
+        ],
+        "olodaterol": [
+          "Striverdi Respimat",
+          "Spiolto Respimat (olodaterol with tiotropium)"
+        ],
+        "salmeterol": [
+          "Serevent",
+          "Serevent Accuhaler",
+          "Serevent Disks"
+        ],
+        "formoterol": [
+          "Oxis Turbuhaler",
+          "Foradile",
+          "Brimica Genuair (formoterol with aclidinium)"
+        ],
+        "prednisolone": [
+          "Predsolone",
+          "Panafcortelone",
+          "Solone",
+          "Redipred"
+        ],
+        "prednisone": [
+          "Panafcort",
+          "Sone",
+          "Predsone"
+        ],
+        "vilanterol": [
+          "Anoro Ellipta"
+        ]
+      },
+      "note": "Long-acting inhalers without an inhaled steroid, and short courses of steroid tablets. Used only to suspect the condition when no condition line exists. Steroid tablets are used for many conditions. For vilanterol, count a bronchodilator combination without an inhaled corticosteroid as Group B. Assess a steroid-containing inhaler in Group A. For glycopyrronium count only a lung inhaler. Exclude oral solution and injections. For prednisolone and prednisone count oral courses, including oral liquids. Exclude eye drops, creams and rectal forms. Eformoterol is another name for formoterol."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Moderate to severe asthma, or COPD of GOLD 3 or 4 severity",
+      "meets": "Moderate or severe asthma, or COPD recorded as GOLD 3 or 4. Mild asthma, or COPD of GOLD 1 or 2, does not meet it.",
+      "options": [
+        {
+          "words": "Moderate to severe asthma",
+          "effect": "meets"
+        },
+        {
+          "words": "GOLD 3 or 4 COPD",
+          "effect": "meets"
+        },
+        {
+          "words": "Both moderate to severe asthma and GOLD 3 or 4 COPD",
+          "effect": "meets"
+        },
+        {
+          "words": "Neither condition at that severity",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "result",
+      "what": "FEV1 (percent of the predicted value)",
+      "meets": "Below 50 percent of predicted"
+    },
+    {
+      "kind": "observation",
+      "what": "COPD flare-ups treated with oral corticosteroids in the past 12 months",
+      "meets": "Repeated, taken here as two or more in the past 12 months",
+      "options": [
+        {
+          "words": "Two or more separate COPD flare-ups were treated with oral corticosteroids",
+          "effect": "meets"
+        },
+        {
+          "words": "One COPD flare-up was treated with oral corticosteroids",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "No COPD flare-ups were treated with oral corticosteroids",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Number or reason for the steroid courses not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply from age 65. Below 65, give no finding. If age is unknown, confirm it before reporting a definite omission. Check the asthma and COPD branches separately. Documented moderate to severe asthma qualifies regardless of FEV1 or flare-up history. COPD qualifies when GOLD 3 or 4, FEV1 below 50 percent of predicted and at least two flare-ups treated with oral corticosteroids in the past 12 months are all documented. If either branch qualifies and no Group A inhaler prescribed for daily maintenance was supplied in the last six months, flag the omission and cite the facts for that branch. A daily Group A maintenance supply in that period closes the check. If neither branch is confirmed and no daily Group A maintenance supply is established in the last six months, a recorded asthma or COPD diagnosis or a relevant Group B supply can support a possible omission. Name the missing facts for the supported branch: asthma severity, or COPD stage, FEV1 or steroid-treated flare-ups. Give no finding if known facts exclude every supported branch. An oral steroid alone with unknown or unrelated purpose does not establish an airway clue. If the clue consists of a maintenance bronchodilator and repeated short oral steroid courses with no other recorded purpose, cite at least one supply of each. For the supply clue, look for at least two separate courses in the past 12 months. The pharmacist judges whether the prescribed courses were short when the directions or duration are borderline. If a steroid course is documented for another condition, exclude it from the respiratory evidence. Do not infer a confirmed respiratory flare-up from a steroid supply alone. If the documented facts exclude both branches or there is no supporting evidence, give no finding. A maintenance-and-reliever regimen counts as daily treatment. An as-needed-only regimen does not. If Group A directions are unclear and the disease criteria are met, flag a possible omission and ask about daily use.",
+  "cannot_be_seen": "The FEV1 result, the GOLD stage and the number of flare-ups when no line gives them, and whether the person really uses the inhaler every day. Also inhaled steroids supplied by a hospital or another pharmacy, and a good reason to leave the steroid out, such as repeated chest infections or thrush.",
+  "ask_the_gp": "A review of whether a daily inhaled corticosteroid is needed, with a check of lung function and the flare-up history.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

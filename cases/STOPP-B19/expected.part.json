@@ -1,0 +1,135 @@
+[
+  {
+    "file": "STOPP-B19/pos-fact.csv",
+    "kind": "positive",
+    "about": "Each 28-day meloxicam pack overlaps two dated furosemide packs prescribed for documented heart failure. Cite the diagnosis and a pair that overlaps.",
+    "findings": [
+      {
+        "criterion": "STOPP-B19",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L020",
+            "L024",
+            "L028",
+            "L032"
+          ],
+          [
+            "L017",
+            "L021",
+            "L024",
+            "L028",
+            "L032"
+          ],
+          [
+            "L017",
+            "L021",
+            "L025",
+            "L028",
+            "L032"
+          ],
+          [
+            "L020",
+            "L021",
+            "L025",
+            "L028",
+            "L032"
+          ],
+          [
+            "L017",
+            "L021",
+            "L025",
+            "L029",
+            "L032"
+          ],
+          [
+            "L020",
+            "L021",
+            "L025",
+            "L029",
+            "L032"
+          ],
+          [
+            "L020",
+            "L024",
+            "L025",
+            "L029",
+            "L032"
+          ],
+          [
+            "L017",
+            "L021",
+            "L025",
+            "L029",
+            "L033"
+          ],
+          [
+            "L020",
+            "L021",
+            "L025",
+            "L029",
+            "L033"
+          ],
+          [
+            "L020",
+            "L024",
+            "L025",
+            "L029",
+            "L033"
+          ],
+          [
+            "L020",
+            "L024",
+            "L028",
+            "L029",
+            "L033"
+          ],
+          [
+            "L017",
+            "L021",
+            "L024",
+            "L028",
+            "L029",
+            "L033"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-B19/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the heart failure diagnosis and loop indication are missing, January as-needed furosemide use during oral prednisolone is uncertain, and the May steroid injection has no recorded route.",
+    "findings": [
+      {
+        "criterion": "STOPP-B19",
+        "must_cite": [
+          [
+            "L011",
+            "L027"
+          ],
+          [
+            "L008",
+            "L024"
+          ],
+          [
+            "L011",
+            "L024"
+          ],
+          [
+            "L008",
+            "L027"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-B19/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Naproxen overlaps furosemide in a patient with heart failure, but the loop was prescribed solely for oedema from nephrotic syndrome.",
+    "findings": []
+  }
+]

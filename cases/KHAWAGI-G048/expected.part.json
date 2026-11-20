@@ -1,0 +1,41 @@
+[
+  {
+    "file": "KHAWAGI-G048/pos-fact.csv",
+    "kind": "positive",
+    "about": "Diazepam is supplied on the day active delirium is documented.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G048",
+        "must_cite": [
+          [
+            "L026"
+          ],
+          [
+            "L027"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G048/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about recent delirium when diazepam is supplied at age 65.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G048",
+        "must_cite": [
+          [
+            "L020"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G048/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Diazepam is supplied after a recent episode of delirium was explicitly documented as resolved.",
+    "findings": []
+  }
+]

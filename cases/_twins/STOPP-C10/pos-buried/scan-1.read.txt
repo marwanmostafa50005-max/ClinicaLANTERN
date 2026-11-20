@@ -1,0 +1,22 @@
+2025-07-03 | Coumadin (warfarin) 2 mg tablet | qty 50 | repeats 1 | Take as directed by your doctor according to your INR result | Dr A. Example
+2025-07-03 | Avapro (irbesartan) 150 mg tablet | qty 30 | repeats 5 | Take ONE tablet daily | Dr A. Example
+2025-07-03 | Lipitor (atorvastatin) 20 mg tablet | qty 30 | repeats 3 | Take ONE tablet at night | Dr A. Example
+2025-07-03 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take TWO tablets daily with the evening meal | Dr A. Example
+2025-07-03 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 2 | Take ONE tablet daily | Dr A. Example
+2025-08-01 | Avapro (irbesartan) 150 mg tablet | qty 30 | repeats 4 | Take ONE tablet daily | Dr A. Example
+2025-08-01 | Lipitor (atorvastatin) 20 mg tablet | qty 30 | repeats 2 | Take ONE tablet at night | Dr A. Example
+2025-08-01 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 3 | Take TWO tablets daily with the evening meal | Dr A. Example
+2025-08-01 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 1 | Take ONE tablet daily | Dr A. Example
+2025-08-18 | Coumadin (warfarin) 2 mg tablet | qty 50 | repeats 0 | Take as directed by your doctor according to your INR result | Dr A. Example
+2025-09-01 | Avapro (irbesartan) 150 mg tablet | qty 30 | repeats 3 | Take ONE tablet daily | Dr A. Example
+2025-09-01 | Lipitor (atorvastatin) 20 mg tablet | qty 30 | repeats 1 | Take ONE tablet at night | Dr A. Example
+2025-09-01 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 2 | Take TWO tablets daily with the evening meal | Dr A. Example
+2025-09-01 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 0 | Take ONE tablet daily | Dr A. Example
+2025-09-15 | Keflex (cefalexin) 500 mg capsule | qty 20 | repeats 0 | Take ONE capsule twice a day until finished | Dr B. Sample
+2025-10-01 | Coumadin (warfarin) 2 mg tablet | qty 50 | repeats 2 | Take as directed by your doctor according to your INR result | Dr A. Example
+2025-10-01 | Avapro (irbesartan) 150 mg tablet | qty 30 | repeats 2 | Take ONE tablet daily | Dr A. Example
+2025-10-01 | Lipitor (atorvastatin) 20 mg tablet | qty 30 | repeats 0 | Take ONE tablet at night | Dr A. Example
+2025-10-01 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 1 | Take TWO tablets daily with the evening meal | Dr A. Example
+2025-10-01 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily | Dr A. Example
+2025-10-30 | Avapro (irbesartan) 150 mg tablet | qty 30 | repeats 1 | Take ONE tablet daily | Dr A. Example
+2025-10-30 | Lipitor (atorvastatin) 20 mg tablet | qty 30 | repeats 5 | Take ONE tablet at night | Dr A. Example

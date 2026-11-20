@@ -1,0 +1,65 @@
+[
+  {
+    "file": "OPTIMISE-T3-05/pos-fact.csv",
+    "kind": "positive",
+    "about": "The 28 November note links the mirtazapine reduction from 30 mg to 15 mg nightly to current smoking in a person with recorded schizophrenia.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T3-05",
+        "must_cite": [
+          [
+            "L026",
+            "L032",
+            "L037",
+            "L042",
+            "L047"
+          ],
+          [
+            "L005",
+            "L010",
+            "L015",
+            "L020"
+          ],
+          [
+            "L001"
+          ],
+          [
+            "L027"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T3-05/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the reason for the amitriptyline change and the earlier daily dose are known, but the 25 mg directions leave the new daily dose unclear and no severe mental illness diagnosis is recorded.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T3-05",
+        "must_cite": [
+          [
+            "L015",
+            "L020",
+            "L024",
+            "L028"
+          ],
+          [
+            "L003",
+            "L007",
+            "L011"
+          ],
+          [
+            "L016"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T3-05/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The patient is 17. The dated mirtazapine reduction is linked to smoking and bipolar disorder is documented.",
+    "findings": []
+  }
+]

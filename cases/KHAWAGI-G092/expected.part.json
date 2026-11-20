@@ -1,0 +1,44 @@
+[
+  {
+    "file": "KHAWAGI-G092/pos-brand.csv",
+    "kind": "positive",
+    "about": "The 25-day Parnate supply covers the start of daily Vyvanse.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G092",
+        "must_cite": [
+          [
+            "L017"
+          ],
+          [
+            "L018"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G092/pos-buried.csv",
+    "kind": "positive",
+    "about": "Dexamfetamine starts on 4 January, 14 days after the final phenelzine dose on 21 December.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G092",
+        "must_cite": [
+          [
+            "L025"
+          ],
+          [
+            "L031"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G092/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Lisdexamfetamine starts 15 days after the final tranylcypromine dose.",
+    "findings": []
+  }
+]

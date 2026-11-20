@@ -1,0 +1,45 @@
+[
+  {
+    "file": "START-K2/pos-brand.csv",
+    "kind": "positive",
+    "about": "MS Contin (morphine, a regular opioid) is supplied monthly from May to October 2026 by brand name only, and no laxative is supplied.",
+    "findings": [
+      {
+        "criterion": "START-K2",
+        "must_cite": [
+          [
+            "L019",
+            "L023",
+            "L027",
+            "L031",
+            "L035",
+            "L039"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-K2/pos-buried.csv",
+    "kind": "positive",
+    "about": "Scheduled Targin supplies in January, February and March have no regular laxative cover. Picoprep was supplied for colonoscopy, and the last Targin pack finishes months before the final record date.",
+    "findings": [
+      {
+        "criterion": "START-K2",
+        "must_cite": [
+          [
+            "L033",
+            "L038",
+            "L043"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-K2/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Endone was supplied only as needed. The separate scheduled course of tramadol has overlapping nightly Dulcolax SP Drops.",
+    "findings": []
+  }
+]

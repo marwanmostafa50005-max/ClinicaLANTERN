@@ -1,0 +1,22 @@
+2026-03-06 | Noten (atenolol) 50 mg tablet | qty 30 | repeats 2 | Take ONE tablet daily | Dr A. Example
+2026-03-06 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 2 | Take ONE tablet daily | Dr A. Example
+2026-03-06 | Avapro (irbesartan) 150 mg tablet | qty 30 | repeats 2 | Take ONE tablet daily | Dr A. Example
+2026-03-13 | Isoptin SR (verapamil) 240 mg modified release tablet | qty 30 | repeats 3 | Take ONE tablet daily with food | Dr B. Sample
+2026-03-15 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 5 | Take TWO tablets once daily with the evening meal | Dr A. Example
+2026-03-15 | Nexium (esomeprazole) 20 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily | Dr A. Example
+2026-04-05 | Noten (atenolol) 50 mg tablet | qty 30 | repeats 1 | Take ONE tablet daily | Dr A. Example
+2026-04-05 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 1 | Take ONE tablet daily | Dr A. Example
+2026-04-05 | Avapro (irbesartan) 150 mg tablet | qty 30 | repeats 1 | Take ONE tablet daily | Dr A. Example
+2026-04-14 | Isoptin SR (verapamil) 240 mg modified release tablet | qty 30 | repeats 2 | Take ONE tablet daily with food | Dr B. Sample
+2026-04-15 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take TWO tablets once daily with the evening meal | Dr A. Example
+2026-04-15 | Nexium (esomeprazole) 20 mg enteric coated tablet | qty 30 | repeats 4 | Take ONE tablet daily | Dr A. Example
+2026-05-06 | Noten (atenolol) 50 mg tablet | qty 30 | repeats 0 | Take ONE tablet daily | Dr A. Example
+2026-05-06 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 0 | Take ONE tablet daily | Dr A. Example
+2026-05-06 | Avapro (irbesartan) 150 mg tablet | qty 30 | repeats 0 | Take ONE tablet daily | Dr A. Example
+2026-05-15 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 3 | Take TWO tablets once daily with the evening meal | Dr A. Example
+2026-05-15 | Nexium (esomeprazole) 20 mg enteric coated tablet | qty 30 | repeats 3 | Take ONE tablet daily | Dr A. Example
+2026-06-04 | Noten (atenolol) 50 mg tablet | qty 30 | repeats 5 | Take ONE tablet daily | Dr A. Example
+2026-06-04 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 5 | Take ONE tablet daily | Dr A. Example
+2026-06-04 | Avapro (irbesartan) 150 mg tablet | qty 30 | repeats 5 | Take ONE tablet daily | Dr A. Example
+2026-06-13 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 2 | Take TWO tablets once daily with the evening meal | Dr A. Example
+2026-06-13 | Nexium (esomeprazole) 20 mg enteric coated tablet | qty 30 | repeats 2 | Take ONE tablet daily | Dr A. Example

@@ -1,0 +1,59 @@
+[
+  {
+    "file": "BRISNIK-OP-DEPR3/pos-fact.csv",
+    "kind": "positive",
+    "about": "The dated age is 64 years, the recorded directions and quantities establish at least 28 days on Pristiq alone for depression, and the PHQ-9 review shows no meaningful improvement.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-DEPR3",
+        "must_cite": [
+          [
+            "L006",
+            "L011"
+          ],
+          [
+            "L005"
+          ],
+          [
+            "L017"
+          ],
+          [
+            "L018"
+          ],
+          [
+            "L019"
+          ],
+          [
+            "L020"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-DEPR3/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: Pristiq is the only antidepressant supplied. The record lacks \"Age in whole years\", \"Depression as the reason for this antidepressant\", \"Response to depression treatment after four weeks at the qualifying dose\" and dated instructions giving the prescribed units per day.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-DEPR3",
+        "must_cite": [
+          [
+            "L004",
+            "L008",
+            "L012",
+            "L016",
+            "L020",
+            "L024"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-DEPR3/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Desvenlafaxine is the only antidepressant for seven months, but the PHQ-9 score fell from 19 to 7 points in nine weeks, which is a clear improvement, so it must not flag.",
+    "findings": []
+  }
+]

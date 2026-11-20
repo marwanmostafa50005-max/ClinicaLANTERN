@@ -1,0 +1,50 @@
+{
+  "id": "PINCER-8",
+  "label": "PINCER 8",
+  "family": "PINCER",
+  "title": "Amiodarone without a recent thyroid test",
+  "statement": "Patients receiving amiodarone for at least six months who have not had a thyroid function test within the previous six months - More specifically, patients with one or more prescriptions for amiodarone recorded on computer 6–12 months prior to data collection and in the three months prior to data collection who have not had a computer-recorded thyroid function test within the previous six months.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Avery AJ, et al. Protocol for the PINCER trial. Trials 2009;10:28; correction Trials 2010;11:23",
+    "citation": "Avery AJ, Rodgers S, Cantrill JA, et al. Protocol for the PINCER trial. Trials 2009;10:28. doi:10.1186/1745-6215-10-28; correction Trials 2010;11:23",
+    "doi": "10.1186/1745-6215-10-28",
+    "url": "https://doi.org/10.1186/1745-6215-10-28",
+    "licence": "CC BY 2.0",
+    "licence_status": "proposed",
+    "credit": "Avery AJ, Rodgers S, Cantrill JA, et al. Protocol for the PINCER trial. Trials 2009;10:28. doi:10.1186/1745-6215-10-28; correction Trials 2010;11:23",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Amiodarone can upset the thyroid, so a person who takes it for months needs a thyroid function test at least every six months.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Amiodarone",
+      "ingredients": [
+        "amiodarone"
+      ],
+      "brands": {
+        "amiodarone": [
+          "Cordarone X",
+          "Aratac",
+          "Amdarone",
+          "Cardinorm",
+          "Rithmik"
+        ]
+      }
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "Thyroid function test",
+      "meets": "Enter the thyroid test result with its unit, if available, and its test date. Any dated thyroid function test in the six months ending on the latest date in the record rules out a monitoring gap, whatever the value. An older latest test or confirmation that no test was recorded in the window establishes a gap. If the test timing cannot be established, it remains unresolved."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when amiodarone (Group A) is supplied at least once six to twelve months before the latest date in the record AND at least once in the last three months, AND the record holds no thyroid function test in the last six months (the newest one is older, or there is none). With qualifying supplies, report a finding if the latest dated thyroid function test is older than the window or the pharmacist confirms no check was recorded in that window. Cite the supplies and the old test or the confirming answer. Any thyroid function test dated inside the window rules out the finding, whatever the value. This includes TSH and other thyroid function tests. If the timing is unknown, including when the only result is undated or no test history is available, report only a possible finding and name \"Thyroid function test\" as the missing fact. Use the test date in the result date field for a test entered at the counter. The day the answer was entered does not date the test. A thyroid test in the last six months means no finding.",
+  "cannot_be_seen": "Tests done elsewhere and not recorded here, thyroid symptoms, and whether the next test is already booked.",
+  "ask_the_gp": "Could you confirm the date of the latest thyroid test and review whether another is due?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

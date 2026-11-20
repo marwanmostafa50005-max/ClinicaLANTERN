@@ -1,0 +1,75 @@
+{
+  "id": "STOPP-E1",
+  "label": "STOPP E1",
+  "family": "STOPP_START",
+  "title": "Long-term digoxin 125 micrograms a day or more with low kidney function",
+  "statement": "Digoxin at a long-term (i.e. more than 90 days) maintenance dose ≥ 125μg/day if eGFR < 30 ml/min/1.73m² (risk of digoxin toxicity if plasma levels not measured).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "licence_status": "proposed",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Digoxin taken long term at 125 micrograms a day or more can build up to toxic levels when the kidneys are working poorly (eGFR below 30). During ongoing treatment at this dose, same-day review is needed if the current eGFR is below 30 mL/min/1.73 m² or symptoms suggest digoxin toxicity. If there are no such symptoms and the eGFR has recovered to 30 or above, is old or is missing, routine review is appropriate.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Digoxin",
+      "ingredients": [
+        "digoxin"
+      ],
+      "brands": {
+        "digoxin": [
+          "Lanoxin",
+          "Lanoxin PG",
+          "Sigmaxin",
+          "Sigmaxin PG",
+          "Lanoxin Paediatric Elixir"
+        ]
+      },
+      "note": "Lanoxin and Sigmaxin tablets are 250 micrograms. Lanoxin PG and Sigmaxin PG tablets are 62.5 micrograms. Oral liquid and injection also count. Work out the daily dose in micrograms. Generic packs that show the ingredient name with a company name count too. For the documented route, calculate the prescribed maintenance amount per day. For tablets, multiply micrograms per tablet by tablets per day. For a liquid or injection prescribed by volume, multiply micrograms per mL by mL per dose and doses per day. If the dose is prescribed by mass, use micrograms per dose and doses per day. Convert mg to micrograms by multiplying by 1,000. Count a single supply if it provides more than 90 continuous days at the qualifying dose. Exclude loading doses and do not join periods across a known break in treatment."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "eGFR",
+      "meets": "The most recent eGFR is below 30 mL/min/1.73 m2. Once the dose and duration qualify, a latest eGFR below 30 mL/min/1.73 m2 gives a finding and 30 or higher gives no finding. Accept an undated value confirmed as the latest unless the record leaves its order uncertain. If no usable latest eGFR can be identified, report only a possible finding and name the missing fact \"eGFR (estimated kidney function), the most recent result\". An unknown answer supplies no value. Use the measurement date if needed to order results."
+    },
+    {
+      "kind": "observation",
+      "what": "Actual daily dose of maintenance digoxin in micrograms",
+      "meets": "Ask for the maintenance dose in micrograms per day only if the supplied regimen could qualify and the directions leave the dose uncertain. At 125 micrograms daily or above, check continuous use for more than 90 days and the latest eGFR. Below 125 micrograms daily excludes that regimen. If the dose is unknown and the other requirements could be met, keep the finding possible."
+    },
+    {
+      "kind": "observation",
+      "what": "Digoxin maintenance use during the refill gap under review",
+      "meets": "Ask only when the supplies leave continuity at a qualifying dose uncertain and the course could otherwise qualify. Identify the dates of the gap in the possible finding. Count across it if the patient took at least 125 micrograms daily throughout. After a confirmed interruption or a lower dose, restart from the next confirmed qualifying dose. If coverage is unknown, keep a potentially qualifying course open.",
+      "options": [
+        {
+          "words": "Took the qualifying maintenance dose throughout the gap",
+          "effect": "meets"
+        },
+        {
+          "words": "Treatment stopped or the dose fell below 125 micrograms daily",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "From age 65 (confirm age if unknown), assess each Group A digoxin maintenance plan on its own directions and treat the new daily dose as unknown when a changed plan omits the amount. If supplies could cover at least 125 micrograms daily for more than 90 continuous days and no known fact excludes the finding, report a possible finding when the dose, coverage across a refill gap or latest eGFR is unknown and name each missing fact. Cite the supplies spanning that regimen and any relevant eGFR result, and confirm only when dose and duration are established and the latest eGFR is below 30 mL/min/1.73 m2.",
+  "cannot_be_seen": "The latest kidney test if none is on the record, any digoxin blood level, whether the dose was changed after the test, and the reason digoxin is used.",
+  "ask_the_gp": "Could you review the digoxin dose against the current eGFR and check whether a digoxin blood level has been measured? During ongoing treatment at 125 micrograms a day or more, could you review the patient today if the current eGFR is below 30 mL/min/1.73 m² or symptoms suggest digoxin toxicity? If there are no such symptoms and the eGFR has recovered to 30 or above, is old or is missing, a routine review is appropriate.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

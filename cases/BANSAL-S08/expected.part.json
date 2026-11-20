@@ -1,0 +1,52 @@
+[
+  {
+    "file": "BANSAL-S08/pos-fact.csv",
+    "kind": "positive",
+    "about": "Myasthenia gravis is recorded on 2 December 2025 and Tramal SR (tramadol) is supplied five times every 28 days from 10 February to 2 June 2026, which is over 3 months.",
+    "findings": [
+      {
+        "criterion": "BANSAL-S08",
+        "must_cite": [
+          [
+            "L002"
+          ],
+          [
+            "L017",
+            "L023",
+            "L028",
+            "L033",
+            "L038"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BANSAL-S08/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: Mestinon was supplied during the continuing Targin course, and the record holds no condition line for Myasthenia gravis.",
+    "findings": [
+      {
+        "criterion": "BANSAL-S08",
+        "must_cite": [
+          [
+            "L004",
+            "L008",
+            "L012",
+            "L017",
+            "L021"
+          ],
+          [
+            "L016"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BANSAL-S08/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The opioid course covers more than three calendar months, but azathioprine and prednisolone alone do not suggest Myasthenia gravis and there is no condition line or Group B supply.",
+    "findings": []
+  }
+]

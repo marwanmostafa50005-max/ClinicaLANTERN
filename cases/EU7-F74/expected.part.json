@@ -1,0 +1,47 @@
+[
+  {
+    "file": "EU7-F74/pos-brand.csv",
+    "kind": "positive",
+    "about": "Efexor-XR (venlafaxine), by brand name only, is supplied eight times from September 2025 to March 2026 to a 72-year-old.",
+    "findings": [
+      {
+        "criterion": "EU7-F74",
+        "must_cite": [
+          [
+            "L003",
+            "L007",
+            "L010",
+            "L014",
+            "L017",
+            "L021",
+            "L024",
+            "L028"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F74/pos-buried.csv",
+    "kind": "positive",
+    "about": "Bupropion (Zyban) 150 mg twice a day is supplied three times from December 2025 to February 2026, in the middle of a 15-month history.",
+    "findings": [
+      {
+        "criterion": "EU7-F74",
+        "must_cite": [
+          [
+            "L029",
+            "L033",
+            "L038"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F74/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Mirtazapine, an antidepressant that is not in the group, is supplied monthly. None of bupropion, venlafaxine or reboxetine appears.",
+    "findings": []
+  }
+]

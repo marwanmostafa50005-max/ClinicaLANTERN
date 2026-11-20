@@ -1,0 +1,34 @@
+[
+  {
+    "file": "BRISNIK-HR-A3/pos-brand.csv",
+    "kind": "positive",
+    "about": "Lexapro (escitalopram) 20 mg tablets, named by brand only, are supplied every four weeks with the direction ONE tablet in the morning to a patient aged 71, which is 20 mg a day and above the 10 mg limit.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-A3",
+        "must_cite": [
+          ["L001", "L005", "L008", "L012", "L015", "L018", "L021", "L024", "L028", "L031", "L034"]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-A3/pos-buried.csv",
+    "kind": "positive",
+    "about": "Celapram (citalopram) is supplied at 20 mg a day before and after, but four supplies from January to April 2026, in the middle of a 16-month history, are 40 mg tablets taken ONE a day by a patient aged 68, which is above the 20 mg limit.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-A3",
+        "must_cite": [
+          ["L031", "L035", "L039", "L044"]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-A3/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Cipramil (citalopram) 20 mg tablets are supplied every four weeks with the direction ONE tablet in the morning to a patient aged 73, which is 20 mg a day: equal to the limit, not above it.",
+    "findings": []
+  }
+]

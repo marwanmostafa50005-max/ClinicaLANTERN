@@ -1,0 +1,601 @@
+/* The ground rules: type, focus ring, buttons, notes, tags, pop-up messages, footer. */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--page);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 16px;
+  line-height: 1.45;
+  font-optical-sizing: auto;
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  accent-color: var(--navy);
+  scrollbar-color: var(--line) transparent;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border: 2px solid transparent;
+  border-radius: 999px;
+  background: var(--line);
+  background-clip: padding-box;
+}
+
+::selection {
+  background: var(--gold-tint);
+  color: var(--navy);
+}
+
+/* The page behind an open panel does not scroll. */
+html.panel-open {
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  min-height: 100svh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.2;
+}
+
+h2,
+h3,
+h4,
+h5,
+.panel-title,
+.finding-label,
+.dropzone-title,
+.closing-name {
+  font-family: var(--font-display);
+}
+
+p {
+  margin: 0;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+textarea,
+input[type='text'] {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1.5px solid var(--input-border);
+  border-radius: var(--radius-small);
+  background: var(--white);
+}
+
+/* One visible focus ring everywhere, for people who use the keyboard. */
+:focus-visible {
+  outline: 3px solid var(--navy);
+  outline-offset: 3px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* ---------- the page ---------- */
+
+.page {
+  min-height: 100vh;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: clip;
+}
+
+.banner {
+  padding: 7px 16px;
+  text-align: center;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.banner--down {
+  background: var(--red);
+  color: var(--white);
+}
+
+/* ---------- buttons ---------- */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 42px;
+  padding: 8px 16px;
+  border: 1.5px solid transparent;
+  border-radius: var(--radius-small);
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.2;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    background-color 0.12s ease,
+    border-color 0.12s ease,
+    transform 0.08s ease;
+}
+
+.btn:active:not(:disabled) {
+  transform: translateY(1px);
+}
+
+.btn-primary {
+  background: var(--navy);
+  color: var(--white);
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: var(--navy-hover);
+}
+
+.btn-quiet {
+  background: var(--white);
+  color: var(--navy);
+  border-color: var(--input-border);
+}
+
+.btn-quiet:hover:not(:disabled) {
+  background: var(--navy-tint);
+  border-color: var(--navy);
+}
+
+.btn-large {
+  min-height: 50px;
+  padding: 10px 26px;
+  font-size: 1.08rem;
+}
+
+.btn-small {
+  min-height: 34px;
+  padding: 4px 12px;
+  font-size: 0.92rem;
+}
+
+.btn:disabled {
+  background: var(--disabled-bg);
+  border-color: var(--disabled-border);
+  color: var(--disabled-text);
+  cursor: not-allowed;
+}
+
+.btn-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-hint {
+  color: var(--muted);
+  font-size: 0.93rem;
+}
+
+.btn-gap {
+  width: 12px;
+}
+
+.link-btn {
+  justify-self: start;
+  padding: 2px 0;
+  border: 0;
+  background: none;
+  text-align: left;
+  color: var(--cyan-dark);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+
+.link-btn:hover {
+  color: var(--navy);
+}
+
+.icon-btn {
+  display: inline-grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* ---------- notes, tags ---------- */
+
+.note {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-small);
+  background: var(--white);
+  font-size: 0.98rem;
+}
+
+.note > svg {
+  flex: none;
+  margin-top: 2px;
+}
+
+.note ul {
+  margin: 4px 0 0;
+  padding-left: 20px;
+}
+
+/* A note with a list in it: the list goes under the words. */
+.note--stack {
+  display: block;
+}
+
+.note--warn {
+  background: var(--gold-tint);
+  border-color: var(--border-gold-soft);
+  color: var(--gold-ink);
+}
+
+.note--error {
+  background: var(--red-tint);
+  border-color: var(--border-red-soft);
+  color: var(--red-ink);
+}
+
+.note--ok {
+  background: var(--cyan-tint);
+  border-color: var(--border-cyan-soft);
+  color: var(--cyan-ink);
+}
+
+.note--busy {
+  align-items: center;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 11px;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  background: var(--navy-tint);
+  color: var(--navy);
+  font-size: 0.86rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.tag--warn {
+  background: var(--gold-tint);
+  border-color: var(--border-gold-soft);
+  color: var(--gold-ink);
+}
+
+.fictional-tag {
+  display: inline-block;
+  padding: 3px 12px;
+  border: 1px solid var(--border-gold-soft);
+  border-radius: 999px;
+  background: var(--gold-tint);
+  color: var(--gold-ink);
+  font-size: 0.86rem;
+  font-weight: 600;
+}
+
+.empty {
+  padding: 28px 18px;
+  border: 1.5px dashed var(--line);
+  border-radius: var(--radius);
+  color: var(--muted);
+  text-align: center;
+  font-size: 1.05rem;
+}
+
+.spinner {
+  flex: none;
+  width: 18px;
+  height: 18px;
+  border: 3px solid var(--spinner-track);
+  border-top-color: var(--cyan-dark);
+  border-radius: 50%;
+  animation: spin 0.9s linear infinite;
+}
+
+/* ---------- small pop-up messages ---------- */
+
+/* At the top, in the middle: seen at once, and never on top of the three icons or the counts. */
+.popups {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  z-index: 80;
+  display: grid;
+  gap: 8px;
+  width: min(640px, calc(100vw - 32px));
+  transform: translateX(-50%);
+}
+
+/* While a panel is open on a wide screen a pop-up sits under the head of the panel, so it never
+   covers the "Fictional patient" tag or the note beside it. On a narrow screen the head takes
+   several rows and the pop-up stays at the top. */
+@media (min-width: 1200px) {
+  .panel-open .popups {
+    top: 72px;
+  }
+}
+
+.popup {
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr) auto auto;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 8px 9px 12px;
+  border-radius: var(--radius);
+  background: var(--navy);
+  color: var(--white);
+  box-shadow: var(--shadow-popup);
+  animation: popup-in 0.28s ease-out;
+}
+
+.popup-glyph {
+  width: 34px;
+  height: 34px;
+  padding: 5px;
+  border-radius: 50%;
+  background: var(--white);
+}
+
+.popup-text {
+  font-size: 1rem;
+}
+
+.popup .btn-primary {
+  background: var(--gold);
+  color: var(--navy);
+}
+
+.popup .btn-primary:hover:not(:disabled) {
+  background: var(--gold-bright-hover);
+}
+
+.popup .icon-btn {
+  color: var(--white);
+}
+
+.popup :focus-visible {
+  outline-color: var(--gold);
+}
+
+/* ---------- the quiet part under the icons ---------- */
+
+.foot {
+  margin-top: auto;
+  padding: 40px 20px 26px;
+  display: grid;
+  justify-items: center;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.foot > p {
+  max-width: 76ch;
+}
+
+.foot-fictional {
+  font-weight: 600;
+  color: var(--gold-ink);
+}
+
+.foot-ok {
+  color: var(--cyan-dark);
+  font-weight: 600;
+}
+
+.foot-warn {
+  color: var(--red);
+  font-weight: 600;
+}
+
+.foot-log {
+  width: min(100%, 880px);
+  text-align: left;
+}
+
+.foot-log summary {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 2px 6px;
+  cursor: pointer;
+  color: var(--cyan-dark);
+  font-weight: 600;
+}
+
+.foot-log ol {
+  list-style: none;
+  max-height: 320px;
+  margin: 8px 0 0;
+  padding: 6px;
+  overflow: auto;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-small);
+  background: var(--white);
+}
+
+.foot-log li {
+  display: grid;
+  grid-template-columns: 11.5em 6.5em minmax(0, 1fr);
+  gap: 10px;
+  padding: 5px 8px;
+  border-bottom: 1px solid var(--line-soft);
+  color: var(--text);
+}
+
+.foot-log li:last-child {
+  border-bottom: 0;
+}
+
+.log-when {
+  color: var(--muted);
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+.log-kind {
+  font-weight: 600;
+  color: var(--navy);
+}
+
+.log-kind--error {
+  color: var(--red);
+}
+
+.foot-reset .inline-form {
+  max-width: 460px;
+  text-align: left;
+}
+
+.inline-form {
+  display: grid;
+  gap: 8px;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-small);
+  background: var(--page);
+  color: var(--text);
+}
+
+.inline-form-title {
+  padding: 0;
+  font-weight: 700;
+  color: var(--navy);
+}
+
+.field-label {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+/* ---------- movement ---------- */
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes popup-in {
+  from {
+    opacity: 0;
+    transform: translateY(-12px);
+  }
+}
+
+@keyframes popup-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+}
+
+@keyframes pulse {
+  50% {
+    opacity: 0.35;
+    transform: scale(0.8);
+  }
+}
+
+/* People who ask for less movement get none. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media (max-width: 600px) {
+  /* On a phone the messages sit at the bottom, near the thumb. */
+  .popups {
+    top: auto;
+    right: 16px;
+    left: 16px;
+    bottom: 14px;
+    width: auto;
+    transform: none;
+  }
+
+  .popup {
+    grid-template-columns: 30px minmax(0, 1fr) auto;
+    animation-name: popup-in-up;
+  }
+
+  .popup .btn {
+    grid-column: 2;
+    justify-self: start;
+  }
+
+  .popup .icon-btn {
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  .foot-log li {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+}
+
+/* A pop-up that says something was not screened, or not checked: it stands out from the good news. */
+.popup--warn {
+  background: var(--red-ink);
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "file": "EU7-F51/pos-brand.csv",
+    "kind": "positive",
+    "about": "Physeptone (methadone) is supplied four times between April and June 2026 to a person aged 68, by brand name only.",
+    "findings": [
+      {
+        "criterion": "EU7-F51",
+        "must_cite": [
+          [
+            "L011",
+            "L014",
+            "L018",
+            "L022"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F51/pos-buried.csv",
+    "kind": "positive",
+    "about": "A person aged 70 was dispensed 28 Physeptone 10 mg tablets on each of four dates between January and April 2026.",
+    "findings": [
+      {
+        "criterion": "EU7-F51",
+        "must_cite": [
+          [
+            "L038",
+            "L044",
+            "L050",
+            "L055"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F51/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Physeptone is supplied four times to a person aged 52, below the age of 65, so it must not flag.",
+    "findings": []
+  }
+]

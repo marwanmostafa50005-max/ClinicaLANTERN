@@ -1,0 +1,33 @@
+patient_ref,patient_age,patient_sex,record_type,dispense_date,medicine,brand,strength,form,quantity,repeats_left,directions,prescriber,detail,value
+F-T2-02,60,M,,2025-08-15,atorvastatin,,20 mg,tablet,30,5,Take one tablet at night,Dr A. Example,,
+F-T2-02,60,M,,2025-08-17,irbesartan,,150 mg,tablet,30,5,Take one tablet each morning,Dr A. Example,,
+F-T2-02,60,M,,2025-08-19,amlodipine,,5 mg,tablet,30,5,Take one tablet daily,Dr A. Example,,
+F-T2-02,60,M,condition,2025-08-27,,,,,,,,,Chronic kidney disease,Established
+F-T2-02,60,M,condition,2025-08-30,,,,,,,,,Type 2 diabetes,Established
+F-T2-02,60,M,,2025-09-14,atorvastatin,,20 mg,tablet,30,4,Take one tablet at night,Dr A. Example,,
+F-T2-02,60,M,,2025-09-16,irbesartan,,150 mg,tablet,30,4,Take one tablet each morning,Dr A. Example,,
+F-T2-02,60,M,,2025-09-18,amlodipine,,5 mg,tablet,30,4,Take one tablet daily,Dr A. Example,,
+F-T2-02,60,M,,2025-10-01,,Jardiance,10 mg,tablet,90,0,Take as directed,Dr A. Example,,
+F-T2-02,60,M,,2025-10-14,atorvastatin,,20 mg,tablet,30,3,Take one tablet at night,Dr A. Example,,
+F-T2-02,60,M,,2025-10-16,irbesartan,,150 mg,tablet,30,3,Take one tablet each morning,Dr A. Example,,
+F-T2-02,60,M,,2025-10-18,amlodipine,,5 mg,tablet,30,3,Take one tablet daily,Dr A. Example,,
+F-T2-02,60,M,,2025-11-13,atorvastatin,,20 mg,tablet,30,2,Take one tablet at night,Dr A. Example,,
+F-T2-02,60,M,,2025-11-15,irbesartan,,150 mg,tablet,30,2,Take one tablet each morning,Dr A. Example,,
+F-T2-02,60,M,,2025-11-17,amlodipine,,5 mg,tablet,30,2,Take one tablet daily,Dr A. Example,,
+F-T2-02,60,M,,2025-12-13,atorvastatin,,20 mg,tablet,30,1,Take one tablet at night,Dr A. Example,,
+F-T2-02,60,M,,2025-12-15,irbesartan,,150 mg,tablet,30,1,Take one tablet each morning,Dr A. Example,,
+F-T2-02,60,M,,2025-12-17,amlodipine,,5 mg,tablet,30,1,Take one tablet daily,Dr A. Example,,
+F-T2-02,60,M,result,2025-12-21,,,,,,,,,eGFR,46 mL/min/1.73 m²
+F-T2-02,60,M,result,2025-12-22,,,,,,,,,Urine protein-to-creatinine ratio,40 mg/mmol
+F-T2-02,60,M,,2026-01-12,atorvastatin,,20 mg,tablet,30,0,Take one tablet at night,Dr A. Example,,
+F-T2-02,60,M,,2026-01-14,irbesartan,,150 mg,tablet,30,0,Take one tablet each morning,Dr A. Example,,
+F-T2-02,60,M,,2026-01-16,amlodipine,,5 mg,tablet,30,0,Take one tablet daily,Dr A. Example,,
+F-T2-02,60,M,,2026-02-11,atorvastatin,,20 mg,tablet,30,5,Take one tablet at night,Dr A. Example,,
+F-T2-02,60,M,,2026-02-13,irbesartan,,150 mg,tablet,30,5,Take one tablet each morning,Dr A. Example,,
+F-T2-02,60,M,,2026-02-15,amlodipine,,5 mg,tablet,30,5,Take one tablet daily,Dr A. Example,,
+F-T2-02,60,M,,2026-03-13,atorvastatin,,20 mg,tablet,30,4,Take one tablet at night,Dr A. Example,,
+F-T2-02,60,M,,2026-03-15,irbesartan,,150 mg,tablet,30,4,Take one tablet each morning,Dr A. Example,,
+F-T2-02,60,M,,2026-03-17,amlodipine,,5 mg,tablet,30,4,Take one tablet daily,Dr A. Example,,
+F-T2-02,60,M,,2026-04-12,atorvastatin,,20 mg,tablet,30,3,Take one tablet at night,Dr A. Example,,
+F-T2-02,60,M,,2026-04-14,irbesartan,,150 mg,tablet,30,3,Take one tablet each morning,Dr A. Example,,
+F-T2-02,60,M,,2026-04-16,amlodipine,,5 mg,tablet,30,3,Take one tablet daily,Dr A. Example,,

@@ -1,0 +1,95 @@
+{
+  "id": "START-H8",
+  "label": "START H8",
+  "family": "STOPP_START",
+  "title": "Urate-lowering medicine for recurrent gout",
+  "statement": "Xanthine-oxidase inhibitors (e.g. allopurinol, febuxostat) with a history of recurrent episodes of gout.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A person who keeps having gout attacks usually needs a daily medicine such as allopurinol to lower uric acid, not only treatment for each attack.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Xanthine-oxidase inhibitors that meet this criterion",
+      "ingredients": [
+        "allopurinol",
+        "febuxostat"
+      ],
+      "brands": {
+        "allopurinol": [
+          "Zyloprim",
+          "Progout",
+          "Allosig",
+          "Allohexal",
+          "Allorin"
+        ],
+        "febuxostat": [
+          "Adenuric",
+          "Febexic",
+          "Febuxostat (Arx)"
+        ]
+      },
+      "note": "Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "B",
+      "name": "Medicines that imply gout",
+      "ingredients": [
+        "colchicine",
+        "probenecid"
+      ],
+      "brands": {
+        "colchicine": [
+          "Colgout",
+          "Colcine",
+          "Lengout"
+        ],
+        "probenecid": [
+          "Pro-Cid"
+        ]
+      },
+      "note": "Colchicine is mostly used for gout attacks but also for other conditions. Probenecid is also used with some antibiotics. Neither shows how often attacks happen."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Gout with recurrent attacks",
+      "meets": "The record states gout and two or more attacks, or says the attacks are recurrent."
+    },
+    {
+      "kind": "observation",
+      "what": "Allopurinol or febuxostat from another supplier",
+      "meets": "Taking either medicine from another supplier clears the omission. Taking neither confirms only the absence of outside treatment. An unknown answer leaves outside treatment unresolved.",
+      "options": [
+        {
+          "words": "Taking either medicine from another supplier",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Taking neither medicine from another supplier",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this item only to people aged 65 or older. If age is unknown, confirm it before reporting a finding. For a supply-only signal, ask about \"Gout with recurrent attacks\" if the attack history is missing. When a supply clue or unclear cover makes outside treatment relevant to a possible finding, ask for \"Allopurinol or febuxostat from another supplier\" only if outside treatment is unresolved. Taking either medicine from another supplier clears the omission. Taking neither settles only outside treatment. It does not confirm recurrent attacks or show that an earlier pack has run out. If outside treatment remains unknown, keep the finding possible. Report no omission if the record documents end-of-life care with a palliative focus, a contraindication to the proposed therapy, or another valid reason for omitting it. Suspect a finding when recurrent gout is recorded and no Group A medicine was supplied in the last six months counted back from the latest date in the record. Cite the gout line. If an earlier Group A supply of a large pack (such as 200 or 400 tablets) appears before the last six months, report only a possible finding and ask whether the person is still taking it. For a medicine-only possible finding, ask the GP to confirm recurrent attacks before reviewing therapy. When colchicine or probenecid is supplied, no Group A medicine was supplied in the last six months and recurrent attacks are unconfirmed, report a possible finding and ask for Gout with recurrent attacks. A No answer rules out this omission. Not known leaves it possible. A Yes answer confirms the attack history only. When a Group A medicine is supplied in the last six months, or the record says gout was a single attack, there is no finding.",
+  "cannot_be_seen": "How many attacks the person has had, uric acid levels, kidney function and any past reaction to allopurinol. Also treatment given by a specialist or in hospital, and why colchicine was supplied.",
+  "ask_the_gp": "If recurrent gout is uncertain, could you confirm the attack history and current treatment, then review whether allopurinol or febuxostat is appropriate?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

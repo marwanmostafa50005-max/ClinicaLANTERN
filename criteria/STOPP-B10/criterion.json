@@ -1,0 +1,89 @@
+{
+  "id": "STOPP-B10",
+  "label": "STOPP B10",
+  "family": "STOPP_START",
+  "title": "Loop diuretic for high blood pressure with incontinence",
+  "statement": "Loop diuretic for treatment of hypertension with concurrent urinary incontinence (may exacerbate incontinence).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A loop diuretic (water tablet) used for high blood pressure can make urinary incontinence worse.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Loop diuretics",
+      "ingredients": [
+        "furosemide",
+        "bumetanide",
+        "etacrynic acid"
+      ],
+      "brands": {
+        "furosemide": [
+          "Lasix",
+          "Urex",
+          "Frusax",
+          "Frusehexal",
+          "Frusemix",
+          "Frusemix-M",
+          "Frusid",
+          "Furo",
+          "Lasix High Dose",
+          "Lasix M",
+          "Uremide",
+          "Urex Forte",
+          "Urex-M"
+        ],
+        "bumetanide": [
+          "Burinex"
+        ],
+        "etacrynic acid": [
+          "Edecrin"
+        ]
+      },
+      "note": "Count tablets and oral liquids, including furosemide oral solution. Injections are outside this oral dispensing group. Furosemide is also called frusemide in older records. Thiazide-type water tablets such as indapamide and hydrochlorothiazide are not in this group. Recognise ethacrynic acid as another spelling of etacrynic acid."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Hypertension as the reason for the loop diuretic",
+      "meets": "The loop diuretic is used to treat hypertension. Hypertension on the problem list alone does not establish this. Treatment solely for heart failure, fluid retention or another reason gives no B10 finding. If the indication is missing, report only a possible finding and ask why it is taken, unless a recorded fact already rules out B10.",
+      "ask_when": {
+        "group": "A"
+      },
+      "options": [
+        {
+          "words": "The loop diuretic was used at least in part for high blood pressure",
+          "effect": "meets"
+        },
+        {
+          "words": "The loop diuretic was used solely for another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "condition",
+      "what": "Urinary incontinence",
+      "meets": "Urinary incontinence is present during treatment. For a course that has ended, ask about leakage during that course if an undated answer describes only the patient's current continence. Documented continence gives no finding. If continence is unknown, report at most a possible finding unless the indication rules out B10."
+    }
+  ],
+  "rule_for_models": "Apply from age 65. If age is unknown, confirm it before reporting a STOPP finding. Start with a Group A loop-diuretic supply. Confirm a finding only when the diuretic treats hypertension and there is urinary incontinence during treatment. Cite the supply, the reason for treatment and the incontinence line. Documented continence during treatment or treatment solely for another indication, such as heart failure or swelling, gives no B10 finding. Otherwise, if the indication or continence is unknown, cite the supply and report only a possible finding. Name each missing fact. Ask whether the medicine is for blood pressure, heart failure or swelling, and whether the person has bladder leakage during treatment.",
+  "cannot_be_seen": "Why the water tablet was prescribed. Furosemide is often used for heart failure or swelling, which this criterion does not cover. Also whether the person has bladder leakage that is not recorded.",
+  "ask_the_gp": "A review of whether the loop diuretic is the best choice for the blood pressure, given any bladder leakage.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

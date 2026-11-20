@@ -1,0 +1,52 @@
+[
+  {
+    "file": "BANSAL-S13/pos-fact.csv",
+    "kind": "positive",
+    "about": "Constipation is present during the repeated oxycodone course on 12 May and the macrogol used for this episode was bought without a prescription.",
+    "findings": [
+      {
+        "criterion": "BANSAL-S13",
+        "must_cite": [
+          [
+            "L033"
+          ],
+          [
+            "L011",
+            "L016",
+            "L022",
+            "L027",
+            "L032"
+          ],
+          [
+            "L034"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BANSAL-S13/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about constipation. Zydol SR (tramadol), by brand name only, is supplied five times every 28 days from 3 February to 26 May 2026 (over 3 months) and no laxative is supplied.",
+    "findings": [
+      {
+        "criterion": "BANSAL-S13",
+        "must_cite": [
+          [
+            "L004",
+            "L008",
+            "L012",
+            "L016",
+            "L020"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BANSAL-S13/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Constipation is recorded during the morphine course on 28 May and the 30-sachet macrogol prescription supplied on 12 May at one sachet daily covers that episode.",
+    "findings": []
+  }
+]

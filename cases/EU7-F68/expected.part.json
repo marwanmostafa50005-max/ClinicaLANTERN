@@ -1,0 +1,48 @@
+[
+  {
+    "file": "EU7-F68/pos-brand.csv",
+    "kind": "positive",
+    "about": "Chloral hydrate liquid 5 mL (500 mg) at night is supplied every month for eight months. The supplies appear by the Australian brand name alone.",
+    "findings": [
+      {
+        "criterion": "EU7-F68",
+        "must_cite": [
+          [
+            "L004",
+            "L007",
+            "L010",
+            "L014",
+            "L017",
+            "L020",
+            "L024",
+            "L027"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F68/pos-buried.csv",
+    "kind": "positive",
+    "about": "Chloral hydrate liquid 2.5 mL (250 mg) at night is supplied four times from January 2026 to April 2026, in the middle of a 15-month history.",
+    "findings": [
+      {
+        "criterion": "EU7-F68",
+        "must_cite": [
+          [
+            "L029",
+            "L033",
+            "L038",
+            "L043"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F68/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Mirtazapine Sandoz (mirtazapine, a sleep aid that is not on the list) is supplied every month. No chloral hydrate is supplied.",
+    "findings": []
+  }
+]

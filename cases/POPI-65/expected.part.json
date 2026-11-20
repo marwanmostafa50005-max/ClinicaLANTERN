@@ -1,0 +1,44 @@
+[
+  {
+    "file": "POPI-65/pos-fact.csv",
+    "kind": "positive",
+    "about": "Daytime urgency is recorded during oral desmopressin treatment for bedwetting.",
+    "findings": [
+      {
+        "criterion": "POPI-65",
+        "must_cite": [
+          [
+            "L016"
+          ],
+          [
+            "L018"
+          ],
+          [
+            "L019"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "POPI-65/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about daytime urinary symptoms during oral desmopressin use for bedwetting.",
+    "findings": [
+      {
+        "criterion": "POPI-65",
+        "must_cite": [
+          [
+            "L017"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "POPI-65/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Daytime symptoms were absent during the oral Minirin course, and the only later supply when urgency appeared was Octostim with no form recorded.",
+    "findings": []
+  }
+]

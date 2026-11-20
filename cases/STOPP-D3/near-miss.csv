@@ -1,0 +1,32 @@
+patient_ref,patient_age,patient_sex,record_type,dispense_date,medicine,brand,strength,form,quantity,repeats_left,directions,prescriber,detail,value
+F-D3-03,72,M,,2025-09-02,desvenlafaxine,Pristiq,50 mg,tablet,28,5,Take ONE tablet each morning,Dr A. Example,,
+F-D3-03,72,M,,2025-09-03,amlodipine,Norvasc,5 mg,tablet,30,5,Take ONE tablet daily,Dr A. Example,,
+F-D3-03,72,M,,2025-09-04,perindopril arginine,Coversyl,5 mg,tablet,30,5,Take ONE tablet in the morning,Dr A. Example,,
+F-D3-03,72,M,,2025-10-01,desvenlafaxine,Pristiq,50 mg,tablet,28,4,Take ONE tablet each morning,Dr A. Example,,
+F-D3-03,72,M,,2025-10-02,amlodipine,Norvasc,5 mg,tablet,30,4,Take ONE tablet daily,Dr A. Example,,
+F-D3-03,72,M,,2025-10-03,perindopril arginine,Coversyl,5 mg,tablet,30,4,Take ONE tablet in the morning,Dr A. Example,,
+F-D3-03,72,M,,2025-10-30,desvenlafaxine,Pristiq,50 mg,tablet,28,3,Take ONE tablet each morning,Dr A. Example,,
+F-D3-03,72,M,,2025-10-31,amlodipine,Norvasc,5 mg,tablet,30,3,Take ONE tablet daily,Dr A. Example,,
+F-D3-03,72,M,,2025-11-01,perindopril arginine,Coversyl,5 mg,tablet,30,3,Take ONE tablet in the morning,Dr A. Example,,
+F-D3-03,72,M,observation,2025-11-14,,,,,,,,,Blood pressure,148/86 mmHg
+F-D3-03,72,M,,2025-11-25,desvenlafaxine,Pristiq,50 mg,tablet,28,2,Take ONE tablet each morning,Dr A. Example,,
+F-D3-03,72,M,,2025-11-26,amlodipine,Norvasc,5 mg,tablet,30,2,Take ONE tablet daily,Dr A. Example,,
+F-D3-03,72,M,,2025-11-27,perindopril arginine,Coversyl,5 mg,tablet,30,2,Take ONE tablet in the morning,Dr A. Example,,
+F-D3-03,72,M,,2025-12-24,desvenlafaxine,Pristiq,50 mg,tablet,28,1,Take ONE tablet each morning,Dr A. Example,,
+F-D3-03,72,M,,2025-12-25,amlodipine,Norvasc,5 mg,tablet,30,1,Take ONE tablet daily,Dr A. Example,,
+F-D3-03,72,M,,2025-12-26,perindopril arginine,Coversyl,5 mg,tablet,30,1,Take ONE tablet in the morning,Dr A. Example,,
+F-D3-03,72,M,,2026-01-22,desvenlafaxine,Pristiq,50 mg,tablet,28,0,Take ONE tablet each morning,Dr A. Example,,
+F-D3-03,72,M,,2026-01-23,amlodipine,Norvasc,5 mg,tablet,30,0,Take ONE tablet daily,Dr A. Example,,
+F-D3-03,72,M,,2026-01-24,perindopril arginine,Coversyl,5 mg,tablet,30,0,Take ONE tablet in the morning,Dr A. Example,,
+F-D3-03,72,M,,2026-02-17,desvenlafaxine,Pristiq,50 mg,tablet,28,5,Take ONE tablet each morning,Dr A. Example,,
+F-D3-03,72,M,,2026-02-18,amlodipine,Norvasc,5 mg,tablet,30,5,Take ONE tablet daily,Dr A. Example,,
+F-D3-03,72,M,,2026-02-19,perindopril arginine,Coversyl,5 mg,tablet,30,5,Take ONE tablet in the morning,Dr A. Example,,
+F-D3-03,72,M,,2026-03-18,desvenlafaxine,Pristiq,50 mg,tablet,28,4,Take ONE tablet each morning,Dr A. Example,,
+F-D3-03,72,M,,2026-03-19,amlodipine,Norvasc,5 mg,tablet,30,4,Take ONE tablet daily,Dr A. Example,,
+F-D3-03,72,M,,2026-03-20,perindopril arginine,Coversyl,5 mg,tablet,30,4,Take ONE tablet in the morning,Dr A. Example,,
+F-D3-03,72,M,,2026-04-16,desvenlafaxine,Pristiq,50 mg,tablet,28,3,Take as directed on the current dosing plan,Dr A. Example,,
+F-D3-03,72,M,,2026-04-17,amlodipine,Norvasc,5 mg,tablet,30,3,Take ONE tablet daily,Dr A. Example,,
+F-D3-03,72,M,,2026-04-18,perindopril arginine,Coversyl,5 mg,tablet,30,3,Take ONE tablet in the morning,Dr A. Example,,
+F-D3-03,72,M,result,2026-05-06,,,,,,,,,Blood pressure,180/108 mmHg
+F-D3-03,72,M,observation,2026-05-18,,,,,,,,,Pristiq use,Patient took the last tablet on 13 May and has taken none since.
+F-D3-03,72,M,result,2026-05-20,,,,,,,,,Blood pressure,194/108 mmHg

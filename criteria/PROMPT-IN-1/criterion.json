@@ -1,0 +1,68 @@
+{
+  "id": "PROMPT-IN-1",
+  "label": "PROMPT: nitrofurantoin over 7 days",
+  "family": "PROMPT",
+  "title": "Nitrofurantoin for longer than 7 days",
+  "statement": "Nitrofurantoin should not be prescribed for greater than 7 days for the management of uncomplicated lower urinary-tract infections.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Cooper JA, et al. The development of the PROMPT criteria. BMC Health Serv Res 2014;14:484, Table 4",
+    "citation": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "doi": null,
+    "url": null,
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Nitrofurantoin is meant for short courses in simple bladder infections, and longer use raises the risk of lung, liver and nerve problems.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Nitrofurantoin",
+      "ingredients": [
+        "nitrofurantoin"
+      ],
+      "brands": {
+        "nitrofurantoin": [
+          "Macrodantin",
+          "Fudantin",
+          "Nitrodantin",
+          "Urodantin"
+        ]
+      },
+      "note": "Oral capsules, tablets and liquid count. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "rule_for_models": "If age is missing, record that eligibility is unknown and confirm age before reporting a finding. For people aged 45 to 64 inclusive, confirm a finding only when one continuous nitrofurantoin treatment course for uncomplicated lower UTI exceeds seven days. Use an explicit course length first. Otherwise estimate days from quantity and directions, joining supplies only when the directions support the same course and there is no untreated day. A Yes answer establishes the indication for this course only. A No answer excludes this course, including prevention or treatment of a complicated infection. Assess separate courses individually and give no finding for a course of seven days or less even if its indication is missing. Prevention or another known indication excludes this course regardless of length. If one continuous course could exceed seven days and its indication or length is still unclear, report only a possible finding. Do not use the reason for one course to judge a separate course. If the directions give no daily dose and no explicit course length resolves the duration, ask how much the patient was told to take each day and for how many days. Ask about the indication if it is also unclear.",
+  "cannot_be_seen": "Why nitrofurantoin was prescribed, so a long-term low-dose course to prevent infection looks the same as a long treatment course. Also kidney function results, and whether the patient finished the course.",
+  "ask_the_gp": "Whether a course longer than 7 days is intended, and the reason for it.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Treatment of a current uncomplicated lower urinary tract infection with this course of nitrofurantoin",
+      "meets": "Treatment of an uncomplicated lower urinary tract infection meets the indication requirement for this course. Prevention and other known indications exclude it. If the patient reports an infection but it is unclear whether it is an uncomplicated lower infection, choose Not known. A course of seven days or less needs no indication question.",
+      "options": [
+        {
+          "words": "Yes, this course treats a current uncomplicated bladder infection",
+          "effect": "meets"
+        },
+        {
+          "words": "No, this course is to prevent a urinary tract infection",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "No, this course is for another known reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,321 @@
+{
+  "id": "OPTIMISE-T2-22",
+  "label": "OPTIMISE T2-22",
+  "family": "OPTIMISE",
+  "title": "Routine levothyroxine initiation for depression with normal thyroid function or overlapping symptoms",
+  "statement": "Do not routinely start thyroid supplementation with levothyroxine for the management of depression in a euthyroid adult or an adult with symptoms that overlap those of hypothyroidism",
+  "statement_origin": "published",
+  "source": {
+    "document": "Carolan A, et al. OPTIMISE. BMC Psychiatry 2022;22:585, Tables 2-3",
+    "citation": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "modification_notice": "Text reproduced as recorded by the earlier project and not yet compared with the publisher's page. Not endorsed by the source authors."
+  },
+  "plain_summary": "Levothyroxine should not be started routinely to treat depression in an adult whose thyroid function is normal or whose symptoms overlap with those of an underactive thyroid.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Levothyroxine, the thyroid hormone tablet",
+      "ingredients": [
+        "levothyroxine"
+      ],
+      "brands": {
+        "levothyroxine": [
+          "Eutroxsig",
+          "Oroxine",
+          "Euthyrox",
+          "Eltroxin",
+          "Levothox",
+          "Levoxine",
+          "Thyrox"
+        ]
+      },
+      "note": "Tablets count. The strength is in micrograms (mcg). Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "B",
+      "name": "Antidepressants",
+      "ingredients": [
+        "sertraline",
+        "escitalopram",
+        "citalopram",
+        "fluoxetine",
+        "paroxetine",
+        "venlafaxine",
+        "desvenlafaxine",
+        "mirtazapine",
+        "duloxetine",
+        "fluvoxamine",
+        "amitriptyline",
+        "nortriptyline",
+        "dosulepin",
+        "imipramine",
+        "doxepin",
+        "clomipramine",
+        "trimipramine",
+        "moclobemide",
+        "vortioxetine",
+        "agomelatine",
+        "tranylcypromine",
+        "reboxetine",
+        "mianserin"
+      ],
+      "brands": {
+        "sertraline": [
+          "Zoloft",
+          "Concorz",
+          "Detralon",
+          "Eleva",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Setrona",
+          "Tralen",
+          "Xydep"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam",
+          "Loxalate"
+        ],
+        "citalopram": [
+          "Cipramil",
+          "Celapram",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talam",
+          "Talohexal"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Zactin",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Paxtine",
+          "Aropax CR",
+          "Extine",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ],
+        "venlafaxine": [
+          "Efexor-XR",
+          "Altven",
+          "Elaxine SR",
+          "Enlafax XR",
+          "Evelexa XR",
+          "Ozvenaf",
+          "Venfax SR",
+          "Venla",
+          "Venlexor XR"
+        ],
+        "desvenlafaxine": [
+          "Pristiq",
+          "Desfax",
+          "Desven"
+        ],
+        "mirtazapine": [
+          "Remeron",
+          "Avanza",
+          "Aurozapine",
+          "Avanza Soltab",
+          "Axit",
+          "Milivin OD",
+          "Mirtanza",
+          "Mirtanza ODT",
+          "Mirtazon",
+          "Remeron Soltab"
+        ],
+        "duloxetine": [
+          "Cymbalta",
+          "Andepra",
+          "Baltine",
+          "Coperin",
+          "Deotine",
+          "Depreta",
+          "Drulox",
+          "Dulocym",
+          "Duloxecor",
+          "Dytrex",
+          "Symlox",
+          "Texotine",
+          "Tixol",
+          "Xerol DR"
+        ],
+        "fluvoxamine": [
+          "Luvox"
+        ],
+        "amitriptyline": [
+          "Endep"
+        ],
+        "nortriptyline": [
+          "Allegron"
+        ],
+        "dosulepin": [
+          "Dothep"
+        ],
+        "imipramine": [
+          "Tofranil"
+        ],
+        "doxepin": [
+          "Deptran"
+        ],
+        "clomipramine": [
+          "Anafranil"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ],
+        "moclobemide": [
+          "Aurorix"
+        ],
+        "vortioxetine": [
+          "Brintellix"
+        ],
+        "agomelatine": [
+          "Valdoxan"
+        ],
+        "tranylcypromine": [
+          "Parnate"
+        ],
+        "reboxetine": [
+          "Edronax"
+        ],
+        "mianserin": [
+          "Lumin"
+        ]
+      },
+      "note": "These antidepressants can prompt a question about depression. A supply alone does not establish a diagnosis or the reason for starting levothyroxine. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Severe mental illness",
+      "meets": "The record documents severe mental illness, such as severe depression."
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for the first recorded levothyroxine supply",
+      "meets": "Only a routine new start for depression meets the indication branch. Thyroid replacement, a documented non-routine specialist plan, a different indication or continuation excludes it. An unknown reason leaves it open.",
+      "options": [
+        {
+          "words": "Routine addition for depression",
+          "effect": "meets"
+        },
+        {
+          "words": "Thyroid hormone replacement",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Documented non-routine specialist augmentation",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Other documented indication",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Continuation of existing treatment",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Thyroid function before the first levothyroxine dose for depression",
+      "meets": "For the euthyroid branch, use the dated pre-start assessment and the reporting laboratory's reference interval. An in-range TSH must fit the clinical information. Low free T4 or documented central hypothyroidism prevents an inference of normal function. Missing or discordant baseline evidence leaves this branch uncertain. Assess documented overlapping symptoms separately.",
+      "options": [
+        {
+          "words": "Pre-start TSH was in range and the clinical information supports normal thyroid function",
+          "effect": "meets"
+        },
+        {
+          "words": "Pre-start results or established central hypothyroidism do not support normal thyroid function",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Pre-start results were missing, discordant or could not be interpreted",
+          "effect": "unknown"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "result",
+      "what": "Free T4",
+      "meets": "Enter the free T4 value with its unit, such as pmol/L, and the reporting laboratory reference interval. Enter the sample date in the result date field. Use a sample taken before levothyroxine was started. A value below the interval prevents an in-range TSH alone from establishing normal thyroid function. An unknown date, unit or interval leaves the result uncertain if it cannot otherwise be interpreted."
+    },
+    {
+      "kind": "condition",
+      "what": "Central hypothyroidism",
+      "meets": "A documented diagnosis makes an in-range TSH alone insufficient to establish normal thyroid function. If the diagnosis was made later, check whether it was relevant at the start. Its absence alone does not establish normal thyroid function."
+    },
+    {
+      "kind": "observation",
+      "what": "Symptoms of depression also consistent with hypothyroidism at the first dose",
+      "meets": "Confirmed overlapping symptoms at initiation meet the symptoms branch. Their absence closes only that branch. Not known leaves it open.",
+      "options": [
+        {
+          "words": "Overlapping symptoms were present when levothyroxine was started",
+          "effect": "meets"
+        },
+        {
+          "words": "No overlapping symptoms at the start",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "In adults aged 18 or older with severe mental illness, flag a confirmed routine levothyroxine start for depression if pre-start evidence supports normal thyroid function or overlapping symptoms were present at the start. Exclude a confirmed refill, thyroid replacement, another documented indication, non-routine specialist augmentation, or confirmed absence of severe mental illness or depression. An antidepressant supply is a clue only. On a supplies-only record require both a Group B antidepressant and a first Group A levothyroxine supply after at least three calendar months without it in the record. Cite both supplies and report only a possible finding. With independent evidence suggesting a new start for depression, ask whether the first visible supply began treatment if the preceding history is short. Unknown age, diagnosis, treatment stage or indication leaves at most a possible finding when the other evidence warrants review. Use the pre-start TSH date, value, unit and laboratory interval. Assess documented overlapping symptoms independently. If they establish the qualifying branch, no extra thyroid question is needed for that decision. When normal thyroid function would decide the finding and the baseline evidence is uncertain, report only a possible finding and name the missing fact that would resolve it. Name Free T4 when the pre-start free T4 is needed. Use its sample date, value, unit and laboratory interval. Name Central hypothyroidism only when its status is relevant and unclear. A low pre-start free T4 or relevant central hypothyroidism prevents an in-range TSH alone from establishing normal thyroid function. An absent or discordant baseline stays uncertain. Absence of overlapping symptoms closes only that branch. If both branches are ruled out, give no finding. Cite the first supply and the evidence for the diagnosis, indication and qualifying branch.",
+  "cannot_be_seen": "Why levothyroxine was started (for example a thyroid problem treated elsewhere, or a specialist plan), whether the person has depression or takes the antidepressant for another reason, the person's symptoms, and thyroid tests done elsewhere.",
+  "ask_the_gp": "The reason levothyroxine was started and whether it is still needed, in light of the thyroid blood test results.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

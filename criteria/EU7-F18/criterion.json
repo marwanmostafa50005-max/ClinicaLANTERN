@@ -1,0 +1,38 @@
+{
+  "id": "EU7-F18",
+  "label": "EU(7)-PIM: acenocoumarol",
+  "family": "EU7",
+  "title": "Acenocoumarol in an older person",
+  "statement": "Acenocoumarol | In lists: 6 (B) | Main reason: Risk of bleeding, especially in people with difficult control of INR value | Dose adjustment/special considerations: (blank: per ESM note, no suggestion by experts or in Micromedex) | Alternatives: (none stated)",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Adapted by the entrant: one row of the source table was set out as one text, with the column names written in and empty cells marked in round brackets. The authors have not reviewed this adaptation."
+  },
+  "plain_summary": "Acenocoumarol is a blood thinner of the same family as warfarin, and in an older person it carries a risk of bleeding, most of all when the INR is hard to keep steady. Ask whether the patient still takes acenocoumarol, whether their INR has been hard to keep steady, and whether they have had bleeding or unusual bruising.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Acenocoumarol",
+      "ingredients": [
+        "acenocoumarol"
+      ],
+      "brands": {
+        "acenocoumarol": []
+      },
+      "note": "Acenocoumarol is not sold in Australia, so no brand is listed and a history shows the ingredient name. An older name for it is nicoumalone. Packs from overseas may be named Sintrom or Sinthrome. Warfarin (Coumadin, Marevan) is a different medicine and does not count."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when a Group A medicine (acenocoumarol) is supplied at least once to a person with a recorded age of 65 or older. If age is missing and the medicine pattern matches, report only a possible finding and ask for the patient’s age. An age below 65 does not meet this criterion. One supply is enough. Warfarin does not count.",
+  "cannot_be_seen": "Why acenocoumarol was chosen and where it was started, the INR results and how steady they have been, and any past bleeding. Also whether the tablets are still being taken, and medicines supplied by a hospital, by another pharmacy or from overseas.",
+  "ask_the_gp": "Whether acenocoumarol is still the right anticoagulant for this patient, and how steady the INR has been.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,169 @@
+{
+  "id": "OPTIMISE-T2-24",
+  "label": "OPTIMISE T2-24",
+  "family": "OPTIMISE",
+  "title": "No baseline prolactin before an antipsychotic",
+  "statement": "Monitor baseline prolactin for all people with SMI before initiating an antipsychotic known to raise prolactin",
+  "statement_origin": "published",
+  "source": {
+    "document": "Carolan A, et al. OPTIMISE. BMC Psychiatry 2022;22:585, Tables 2-3",
+    "citation": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "modification_notice": "Text reproduced as recorded by the earlier project and not yet compared with the publisher's page. Not endorsed by the source authors."
+  },
+  "plain_summary": "Before an antipsychotic that raises prolactin is started, a baseline prolactin blood test is advised for a person with severe mental illness.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antipsychotics known to raise prolactin",
+      "ingredients": [
+        "risperidone",
+        "paliperidone",
+        "amisulpride",
+        "haloperidol",
+        "chlorpromazine",
+        "zuclopenthixol",
+        "flupentixol",
+        "lurasidone",
+        "flupentixol decanoate",
+        "periciazine"
+      ],
+      "brands": {
+        "risperidone": [
+          "Risperdal",
+          "Risperdal Consta",
+          "Ozidal",
+          "Resdone",
+          "Respaz",
+          "Risdone",
+          "Rispa",
+          "Rispaccord",
+          "Rispaccord-0.5",
+          "Risperdal Quicklet",
+          "Risperibell",
+          "Rispericor",
+          "Rispericor-0.5",
+          "Risperisan",
+          "Rispernia",
+          "Rixadone",
+          "Sperid",
+          "Uzedy"
+        ],
+        "paliperidone": [
+          "Invega",
+          "Invega Sustenna",
+          "Invega Trinza",
+          "Invega Hafyera",
+          "Palmeux",
+          "Trevicta"
+        ],
+        "amisulpride": [
+          "Solian",
+          "Amipride",
+          "Sulprix"
+        ],
+        "haloperidol": [
+          "Serenace",
+          "Haldol Decanoate"
+        ],
+        "chlorpromazine": [
+          "Largactil",
+          "Largactil Syrup"
+        ],
+        "zuclopenthixol": [
+          "Clopixol",
+          "Clopixol Depot",
+          "Clopixol Acuphase"
+        ],
+        "flupentixol": [
+          "Fluanxol"
+        ],
+        "lurasidone": [
+          "Latuda",
+          "Bilura",
+          "Latulem",
+          "Lavione",
+          "Luracor",
+          "Luralem",
+          "Luralembic",
+          "Lurobi"
+        ],
+        "flupentixol decanoate": [
+          "Fluanxol",
+          "Fluanxol Depot",
+          "Fluanxol Concentrated Depot"
+        ],
+        "periciazine": [
+          "Neulactil"
+        ]
+      },
+      "note": "Tablets, including wafers, and oral liquids count. Short-acting Clopixol Acuphase and the listed long-acting injections count. Fluanxol on a line for a depot injection identifies flupentixol decanoate. Check the form when only Fluanxol is recorded. Olanzapine, quetiapine, aripiprazole and clozapine are not in this group because they raise prolactin less. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Severe mental illness",
+      "meets": "A documented severe mental illness, such as schizophrenia, schizoaffective disorder, bipolar disorder or severe depression. An unrelated condition alone leaves this unknown."
+    },
+    {
+      "kind": "result",
+      "what": "Baseline prolactin for this antipsychotic start",
+      "meets": "A sample taken for this start before treatment satisfies the check, including a same-day sample known to precede the first dose. A previous course or a later result alone leaves the baseline for this start uncertain. For an unlabelled pre-start result, the pharmacist judges whether it belongs to this start. If uncertain, report only a possible finding."
+    },
+    {
+      "kind": "observation",
+      "what": "Prolactin test before the first dose of this antipsychotic course",
+      "meets": "The record explicitly documents that no baseline was taken before treatment. If baseline status or the order of events is unclear, report only a possible finding.",
+      "options": [
+        {
+          "words": "No sample was taken before the first dose",
+          "effect": "meets"
+        },
+        {
+          "words": "A sample was taken before the first dose",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Treatment status at the antipsychotic supply under review",
+      "meets": "A start or switch linked to the dated supply under review establishes the start for this check. A continuation alone gives no finding. An uncertain date leaves the check open.",
+      "options": [
+        {
+          "words": "This dated supply was the start of treatment",
+          "effect": "meets"
+        },
+        {
+          "words": "This dated supply was a switch to this medicine",
+          "effect": "meets"
+        },
+        {
+          "words": "This was a continuation",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "A start or switch occurred but its date is uncertain",
+          "effect": "unknown"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "For an adult aged 18 or over starting a Group A prolactin-raising antipsychotic, use a dated start or switch, including one the pharmacist links to the supply under review. A confirmed continuation gives no finding for that supply. If a relevant start or switch is suspected and the baseline check is unresolved and age is unknown, report only a possible finding and ask the pharmacist to confirm whether the person is aged 18 or over. Examples of severe mental illness include schizophrenia, schizoaffective disorder, bipolar disorder and severe depression. If severe mental illness is explicitly absent, report no finding. Another indication alone leaves the diagnosis uncertain. Three months without that medicine can suggest a start when documentation is missing, but an uncertain start supports only a possible finding. For an established or suspected start, report no finding if a prolactin sample was taken for this start before the first dose (including earlier that day), confirm a missed baseline only for a documented start with citations for the severe mental illness diagnosis, first supply and note that no sample was taken before treatment, or report only a possible finding naming any uncertainty about the start, diagnosis, baseline or timing (including a result from another course or a later sample alone).",
+  "cannot_be_seen": "Blood tests done by another doctor or laboratory that are not in this record, whether the person has severe mental illness (an antipsychotic can be used for other reasons), and whether this is truly a new start or a switch to this antipsychotic.",
+  "ask_the_gp": "Whether a baseline prolactin level was measured before the antipsychotic was started, and whether one is needed now.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

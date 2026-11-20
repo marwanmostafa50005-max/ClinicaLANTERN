@@ -1,0 +1,6 @@
+patient_ref,patient_age,patient_sex,record_type,dispense_date,medicine,brand,strength,form,quantity,repeats_left,directions,prescriber,detail,value
+F-FR-C14-1,70,F,,2026-04-30,rivaroxaban,Xarelto,20 mg,tablet,30,3,Take ONE tablet daily with food,Dr A. Example,,
+F-FR-C14-1,70,F,,2026-05-05,clarithromycin,Kalixocin,500 mg,tablet,14,0,Take ONE tablet twice a day until finished,Dr C. Specimen,,
+F-FR-C14-1,70,F,,2026-05-28,rivaroxaban,Xarelto,20 mg,tablet,30,2,Take ONE tablet daily with food,Dr A. Example,,
+F-FR-C14-1,70,F,,2026-06-25,rivaroxaban,Xarelto,20 mg,tablet,30,1,Take ONE tablet daily with food,Dr A. Example,,
+F-FR-C14-1,70,F,,2026-07-02,esomeprazole,Nexium,20 mg,tablet,30,4,Take ONE tablet daily,Dr A. Example,,

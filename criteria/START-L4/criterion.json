@@ -1,0 +1,105 @@
+{
+  "id": "START-L4",
+  "label": "START L4",
+  "family": "STOPP_START",
+  "title": "COVID-19 vaccine for an older person",
+  "statement": "SARS-CoV2 vaccine according to national guidelines.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "An older person should have a COVID-19 vaccine dose in line with the national schedule, so a record with no recent dose is worth a check.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "COVID-19 vaccines (medicines that meet this criterion)",
+      "ingredients": [
+        "tozinameran",
+        "elasomeran",
+        "sars-cov-2 recombinant spike protein",
+        "SARS-CoV-2 spike protein (mRNA) XFG",
+        "SARS-CoV-2 spike protein (mRNA) LP.8.1",
+        "SARS-CoV-2 rS (NVX-CoV2373) antigen",
+        "bretovameran",
+        "raxtozinameran",
+        "andusomeran"
+      ],
+      "brands": {
+        "tozinameran": [
+          "Comirnaty"
+        ],
+        "elasomeran": [
+          "Spikevax"
+        ],
+        "sars-cov-2 recombinant spike protein": [
+          "Nuvaxovid"
+        ],
+        "SARS-CoV-2 spike protein (mRNA) XFG": [
+          "Comirnaty XFG"
+        ],
+        "SARS-CoV-2 spike protein (mRNA) LP.8.1": [
+          "Comirnaty LP.8.1"
+        ],
+        "SARS-CoV-2 rS (NVX-CoV2373) antigen": [
+          "Nuvaxovid"
+        ],
+        "bretovameran": [
+          "Comirnaty JN.1"
+        ],
+        "raxtozinameran": [
+          "Comirnaty Omicron XBB.1.5"
+        ],
+        "andusomeran": [
+          "Spikevax XBB.1.5"
+        ]
+      },
+      "note": "Comirnaty and Spikevax are mRNA vaccines. Nuvaxovid is a protein vaccine. A vaccine given at a pharmacy, clinic or hospital may not appear in a dispensing history. Any updated or variant version of these vaccines counts. Either new ingredient identifies the vaccine even when the brand is absent."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "COVID-19 vaccination status at review (usual interval 12 months at age 65 to 74, 6 months from age 75)",
+      "meets": "A confirmed history shows no dose or that the next dose is due. A missing administration record alone leaves the question open. Treat the interval as the last 12 months for a person aged 65 to 74 and the last 6 months for a person aged 75 or over, unless the pharmacist knows the current national schedule says otherwise. Below age 65 there is no finding. Confirm an unknown age before reporting. A vaccine supply and its directions show what was dispensed or intended. Only an entry confirming the dose was given establishes administration. For a possible finding, name the missing administration date and cite the relevant vaccine line. If there is no vaccine line, cite the last supply only to date the end of the history.",
+      "options": [
+        {
+          "words": "History confirms no COVID-19 dose has been given",
+          "effect": "meets"
+        },
+        {
+          "words": "The last confirmed dose has reached the interval for this age",
+          "effect": "meets"
+        },
+        {
+          "words": "The last confirmed dose is still within the interval for this age",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "The patient has made an informed decision to decline this dose",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "A documented medical reason to defer this dose still applies",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Assess from age 65 at the end of the record. The next dose is due 12 calendar months after the last confirmed dose at ages 65 to 74, or 6 months after it from age 75, unless current national guidance specifies another interval. Use a dated administration or the pharmacist's confirmation of status for this assessment. Give no current omission if vaccination is up to date, the patient has made an informed decision to decline this dose or a documented medical deferral applies. Flag a confirmed absent or due dose and cite the deciding entry and any matching supply. If timing or administration is unresolved, including a recent supply that may have been given, report only a possible finding and check the Australian Immunisation Register or vaccinator.",
+  "cannot_be_seen": "Doses given at a clinic, hospital or other pharmacy, and entries in the national immunisation register, unless the record carries a line about them. Also past infection, medical reasons not to vaccinate, and the person's wishes.",
+  "ask_the_gp": "A check of the person's COVID-19 vaccination status against the national schedule and whether a dose is due.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,48 @@
+[
+  {
+    "file": "STOPP-B12/pos-fact.csv",
+    "kind": "positive",
+    "about": "The 28-day Avapro supply on 12 February covers the latest serum potassium result of 5.9 mmol/L on 10 March.",
+    "findings": [
+      {
+        "criterion": "STOPP-B12",
+        "must_cite": [
+          [
+            "L007"
+          ],
+          [
+            "L011"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-B12/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: ramipril (an ACE inhibitor) is supplied and the record holds no line about a serum potassium result.",
+    "findings": [
+      {
+        "criterion": "STOPP-B12",
+        "must_cite": [
+          [
+            "L002",
+            "L006",
+            "L011",
+            "L015",
+            "L019",
+            "L023",
+            "L026",
+            "L030"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-B12/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Candesartan (an ARB) is supplied, but the potassium results are 4.4 and 4.7 mmol/L, both below 5.5, so it must not flag.",
+    "findings": []
+  }
+]

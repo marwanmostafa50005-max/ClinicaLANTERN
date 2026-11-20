@@ -1,0 +1,273 @@
+{
+  "id": "KHAWAGI-G153",
+  "label": "Khawagi review: Check for a lipid profile around three months after starting an antipsychotic",
+  "family": "KHAWAGI",
+  "title": "Check for a lipid profile around three months after starting an antipsychotic",
+  "statement": "Check for a lipid profile around three months after starting an antipsychotic.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review, S3 File",
+    "citation": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. PLoS ONE 2019;14(5):e0217406, S3 File.",
+    "doi": "10.1371/journal.pone.0217406",
+    "url": "https://doi.org/10.1371/journal.pone.0217406.s003",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. PLoS ONE 2019;14(5):e0217406. https://doi.org/10.1371/journal.pone.0217406; S3 File, https://doi.org/10.1371/journal.pone.0217406.s003. © 2019 Khawagi et al., CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). S3 item G153. Original screening wording and Australian adaptations. S3 reference(s) as indexed in the supplied qualification: [49]. Clinical cross-check: Australian cardiometabolic monitoring schedule (https://www.iphys.org.au/_files/ugd/3536bf_da7d0d6477c143d3aab87a4cf6d3a20d.pdf).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "Check for a lipid profile around three months after starting an antipsychotic.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antipsychotics",
+      "ingredients": [
+        "amisulpride",
+        "aripiprazole",
+        "asenapine",
+        "brexpiprazole",
+        "cariprazine",
+        "chlorpromazine",
+        "clozapine",
+        "droperidol",
+        "flupentixol",
+        "fluphenazine",
+        "haloperidol",
+        "lurasidone",
+        "olanzapine",
+        "paliperidone",
+        "periciazine",
+        "quetiapine",
+        "risperidone",
+        "trifluoperazine",
+        "ziprasidone",
+        "zuclopenthixol",
+        "flupentixol decanoate"
+      ],
+      "brands": {
+        "amisulpride": [
+          "Amipride",
+          "Amisulpride (Apo)",
+          "Amisulpride (Apotex)",
+          "Amisulpride (Ch)",
+          "Amisulpride (Pharmacor)",
+          "Amisulpride (Sandoz Pharma)",
+          "Amisulpride (Sandoz)",
+          "Amisulpride (Scp)",
+          "Amisulpride (Wgr)",
+          "Amisulpride (Winthrop)",
+          "Solian"
+        ],
+        "aripiprazole": [
+          "Abilify",
+          "Abilify ODT",
+          "Abipra",
+          "Abyraz",
+          "Aprazole",
+          "Aripic",
+          "Aripra",
+          "Arizole",
+          "Abilify Maintena",
+          "Abilify Asimtufii"
+        ],
+        "asenapine": [
+          "Saphris"
+        ],
+        "brexpiprazole": [
+          "Rexulti"
+        ],
+        "cariprazine": [
+          "Reagila"
+        ],
+        "chlorpromazine": [
+          "Chlorpromazine Hydrochloride Mixture (Orion)",
+          "Largactil",
+          "Largactil Syrup"
+        ],
+        "clozapine": [
+          "Clopine",
+          "Closyn",
+          "Clozapine (Akm)",
+          "Clozapine (Mylan)",
+          "Clozapine (Pharmacor)",
+          "Clozaril",
+          "Clozaril Odt",
+          "Clozitor",
+          "Versacloz"
+        ],
+        "droperidol": [],
+        "flupentixol": [],
+        "fluphenazine": [],
+        "haloperidol": [
+          "Serenace",
+          "Haldol Decanoate"
+        ],
+        "lurasidone": [
+          "Bilura",
+          "Latuda",
+          "Latulem",
+          "Lavione",
+          "Luracor",
+          "Luralem",
+          "Luralembic",
+          "Lurasidone (Agh)",
+          "Lurasidone (Aghl)",
+          "Lurasidone (Alembic)",
+          "Lurasidone (Apl)",
+          "Lurasidone (Apo)",
+          "Lurasidone (Appl)",
+          "Lurasidone (Ardix)"
+        ],
+        "olanzapine": [
+          "Zyprexa",
+          "Aprolan",
+          "Aprolan ODT",
+          "Lanez",
+          "Lanez ODT",
+          "Lanzek",
+          "Lanzek Zydis",
+          "Lonza",
+          "Lonza ODT",
+          "Lyprosia",
+          "Lyprosia ODT",
+          "Olancor",
+          "Olanza",
+          "Olanzaccord",
+          "Olanzacor",
+          "Oprexa",
+          "Ozin",
+          "Ozin ODT",
+          "Prolanza",
+          "Prolanza ODT",
+          "Pryzex",
+          "Pryzex ODT",
+          "Tolaze ODT",
+          "Tolazine ODT",
+          "Torapine ODT",
+          "Torrenia ODT",
+          "Zylap",
+          "Zylap ODT",
+          "Zylapine",
+          "Zylapine ODT",
+          "Zypine",
+          "Zypine ODT",
+          "Zyprexa Zydis",
+          "Zyprexa Relprevv"
+        ],
+        "paliperidone": [
+          "Invega",
+          "Invega Sustenna",
+          "Invega Trinza",
+          "Invega Hafyera"
+        ],
+        "periciazine": [
+          "Neulactil"
+        ],
+        "quetiapine": [
+          "Seroquel",
+          "Aliquen",
+          "Delucon",
+          "Kaptan",
+          "Ketizenol",
+          "Qualez",
+          "Quepine XR",
+          "Quetapen",
+          "Quetia",
+          "Quetia XR",
+          "Quetiaccord",
+          "Quetiaquel XR",
+          "Quetin",
+          "Quipine",
+          "Sequase",
+          "Sequase XR",
+          "Serapine",
+          "Serapine XR",
+          "Seroccord",
+          "Seronia",
+          "Seroquel XR",
+          "Serotiapine XR",
+          "Syquet",
+          "Syquet XR",
+          "Syzopine",
+          "Tevatiapine XR",
+          "Tiapine XR",
+          "Tiava XR",
+          "Xque XR"
+        ],
+        "risperidone": [
+          "Risperdal",
+          "Ozidal",
+          "Resdone",
+          "Respaz",
+          "Risdone",
+          "Rispa",
+          "Rispaccord",
+          "Rispaccord-0.5",
+          "Risperdal Quicklet",
+          "Risperibell",
+          "Rispericor",
+          "Rispericor-0.5",
+          "Risperisan",
+          "Rispernia",
+          "Rixadone",
+          "Sperid",
+          "Risperdal Consta",
+          "Uzedy"
+        ],
+        "trifluoperazine": [
+          "Stelazine",
+          "Stelazine Forte",
+          "Stelazine Spansule"
+        ],
+        "ziprasidone": [
+          "Zeldox",
+          "Ziprasidone (Apo)",
+          "Ziprasidone (Genpar)",
+          "Ziprasidone (Gh)",
+          "Ziprasidone (Wgr)",
+          "Ziprasidone Titration Pack (Apo)",
+          "Ziprox"
+        ],
+        "zuclopenthixol": [
+          "Clopixol",
+          "Clopixol Depot"
+        ],
+        "flupentixol decanoate": [
+          "Fluanxol Depot",
+          "Fluanxol Concentrated Depot"
+        ]
+      },
+      "note": "Count the listed oral and sublingual forms. A depot conversion during an existing course is not a new antipsychotic start. Exclude one-off procedural or antiemetic injections, including acute droperidol. Do not infer an eligible depot from an unspecified injection. Count scheduled long-acting antipsychotic injections when the form, directions and supply history support continued treatment."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Timing of a completed lipid profile after starting this antipsychotic course",
+      "meets": "Use supplies across the 12 observable months before the first antipsychotic supply to establish the treatment start. Assess after day 120. A dated lipid profile on days 60 through 120 inclusive satisfies the check. A later profile closes the request. A pharmacist who has checked the date of a completed profile can confirm its timing against this same treatment start. An unknown date does not establish that the check was done in time. If only a profile before day 60 is visible, ask about outside results. After day 120, if treatment continued and no lipid profile is recorded at all, report a possible gap and name the missing three-month lipid profile. Ask whether it was done elsewhere.",
+      "options": [
+        {
+          "words": "A dated lipid profile was completed on days 60 to 120 inclusive",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "A dated lipid profile was completed after day 120",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "After checking available records and outside tests, no profile was identified on or after day 60",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "For any indication, date the start to the first qualifying supply after 12 observable months without antipsychotic supplies, and compare refills with expected coverage from quantity and directions or the documented depot schedule. Exclude a documented one-off dose, stop or switch out of the class before the three-month check, and ask about the start date, daily dose or injection interval and interruptions so the pharmacist can judge uncertain coverage. Give no finding and an empty citation list on or before day 120 or if a lipid profile is dated on day 60 or later; otherwise, after day 120, if refills support continued or possibly continued treatment through the check, report a possible missing three-month lipid profile and ask whether a cholesterol blood test was done around three months after starting, including elsewhere.",
+  "cannot_be_seen": "Outside pathology or follow-up may be missing. An incomplete observation window cannot establish an overdue test. The record may omit the reason for treatment and when it stopped. A single supply alone cannot show that treatment continued to three months. A documented one-off dose or a course that ended before the check was due cannot establish a missed follow-up test.",
+  "ask_the_gp": "Could you confirm whether a lipid profile was checked around three months after the antipsychotic was started, and whether any follow-up is due?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

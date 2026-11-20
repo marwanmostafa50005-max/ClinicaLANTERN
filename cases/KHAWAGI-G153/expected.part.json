@@ -1,0 +1,51 @@
+[
+  {
+    "file": "KHAWAGI-G153/pos-fact.csv",
+    "kind": "positive",
+    "about": "Only the baseline lipid profile is visible after a year without antipsychotic supplies and follow-up through day 140, so ask about a possible gap.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G153",
+        "must_cite": [
+          [
+            "L030"
+          ],
+          [
+            "L041",
+            "L044",
+            "L047"
+          ],
+          [
+            "L031"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G153/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about a lipid profile after a year without antipsychotic supplies and follow-up beyond day 120.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G153",
+        "must_cite": [
+          [
+            "L018"
+          ],
+          [
+            "L025",
+            "L027",
+            "L029"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G153/near-miss.csv",
+    "kind": "near_miss",
+    "about": "A lipid profile on day 121 closes the outstanding request.",
+    "findings": []
+  }
+]

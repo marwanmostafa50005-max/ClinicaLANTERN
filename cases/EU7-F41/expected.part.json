@@ -1,0 +1,42 @@
+[
+  {
+    "file": "EU7-F41/pos-brand.csv",
+    "kind": "positive",
+    "about": "Macrodantin (nitrofurantoin) 50 mg, 56 capsules at four a day (14 days), is supplied in March and again in May 2026, by brand name only.",
+    "findings": [
+      {
+        "criterion": "EU7-F41",
+        "must_cite": [
+          [
+            "L010",
+            "L020"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F41/pos-buried.csv",
+    "kind": "positive",
+    "about": "Nitrofurantoin 50 mg at night is supplied monthly from January to April 2026, about four months of continuous use, in the middle of a 16-month history.",
+    "findings": [
+      {
+        "criterion": "EU7-F41",
+        "must_cite": [
+          [
+            "L036",
+            "L041",
+            "L047",
+            "L052"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F41/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Two short Macrodantin courses (5 days in November 2025 and 6 days in April 2026) are supplied about five months apart, so neither course runs longer than a week.",
+    "findings": []
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "file": "EU7-F60/pos-brand.csv",
+    "kind": "positive",
+    "about": "Artane (benzhexol, also called trihexyphenidyl) 5 mg is supplied monthly from January to June 2026 beside levodopa, by brand name only.",
+    "findings": [
+      {
+        "criterion": "EU7-F60",
+        "must_cite": [
+          [
+            "L003",
+            "L007",
+            "L010",
+            "L013",
+            "L017",
+            "L020"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F60/pos-buried.csv",
+    "kind": "positive",
+    "about": "Benzatropine 2 mg tablets are supplied five times from December 2025 to April 2026, in the middle of a 16-month history that also holds levodopa.",
+    "findings": [
+      {
+        "criterion": "EU7-F60",
+        "must_cite": [
+          [
+            "L028",
+            "L033",
+            "L038",
+            "L042",
+            "L048"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F60/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Levodopa with benserazide and rasagiline, the safer options the list suggests, are supplied. No anticholinergic antiparkinson medicine appears, so it must not flag.",
+    "findings": []
+  }
+]

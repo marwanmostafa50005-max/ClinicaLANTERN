@@ -1,0 +1,182 @@
+{
+  "id": "START-F1",
+  "label": "START F1",
+  "family": "STOPP_START",
+  "title": "Proton pump inhibitor for severe reflux or a stricture needing dilatation",
+  "statement": "Proton Pump Inhibitor with severe gastro-oesophageal reflux disease or peptic oesophageal stricture requiring dilatation.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A person with severe acid reflux, or a scarred narrowing of the gullet that needs stretching, should usually take a proton pump inhibitor to control the acid.",
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Severe gastro-oesophageal reflux disease",
+      "meets": "A confirmed diagnosis of severe gastro-oesophageal reflux disease meets the diagnosis requirement. An unknown answer leaves this diagnosis unresolved. Ruling it out does not rule out a qualifying stricture.",
+      "ask_when": "always",
+      "close_when": {
+        "group": "A"
+      },
+      "options": [
+        {
+          "words": "Severe reflux disease is confirmed",
+          "effect": "meets"
+        },
+        {
+          "words": "Severe reflux disease is ruled out",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "condition",
+      "what": "Peptic oesophageal stricture requiring dilatation",
+      "meets": "A line records a peptic stricture of the gullet that needs dilatation (stretching).",
+      "ask_when": "always",
+      "close_when": {
+        "group": "A"
+      },
+      "options": [
+        {
+          "words": "A peptic stricture that needs dilatation is confirmed",
+          "effect": "meets"
+        },
+        {
+          "words": "A peptic stricture that needs dilatation is ruled out",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Current proton pump inhibitor use for the qualifying reflux or stricture",
+      "meets": "No current proton pump inhibitor use meets the treatment omission requirement when a qualifying diagnosis is established. Current use that covers the condition clears the omission. An unknown answer leaves current cover unresolved.",
+      "options": [
+        {
+          "words": "Taking a proton pump inhibitor now, including one bought without prescription or supplied elsewhere",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "No current proton pump inhibitor use",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Proton pump inhibitors (medicines that meet this criterion)",
+      "ingredients": [
+        "esomeprazole",
+        "lansoprazole",
+        "omeprazole",
+        "pantoprazole",
+        "rabeprazole"
+      ],
+      "brands": {
+        "esomeprazole": [
+          "Nexium",
+          "Nexium Hp7",
+          "Vimovo",
+          "Axagon",
+          "Beezole",
+          "Emeprazol",
+          "Esopran",
+          "Esopreze",
+          "Guardium Acid Reflux Relief",
+          "Jubeso",
+          "Jubium",
+          "Mepreze",
+          "Nexazole",
+          "Nexcid",
+          "Nexium 24HR Once Daily Dosing",
+          "Nexole",
+          "Nexprazole",
+          "Noxicid",
+          "Noxicid Caps Heartburn Relief",
+          "Noxicid Tabs Heartburn Relief",
+          "Zanzole 24HR"
+        ],
+        "lansoprazole": [
+          "Zoton",
+          "Zoton FasTab",
+          "Lanzopran",
+          "Zopral",
+          "Zopral ODT"
+        ],
+        "omeprazole": [
+          "Losec",
+          "Acimax",
+          "Probitor",
+          "Maxor",
+          "Maxor EC",
+          "Maxor Heartburn Relief",
+          "Meprazol",
+          "Omepral",
+          "Omepro",
+          "Omezole",
+          "Ozmep",
+          "Pemzo"
+        ],
+        "pantoprazole": [
+          "Somac",
+          "Gastenz",
+          "Ozpan",
+          "Pantaccord",
+          "Panthron",
+          "Panto",
+          "Pantofast",
+          "Pantoloc",
+          "Prazole",
+          "Rizil",
+          "Salpraz",
+          "Salpraz Heartburn Relief",
+          "Somac Heartburn Relief",
+          "Sozol",
+          "Suvacid Heartburn Relief",
+          "Topra",
+          "Torprazole",
+          "Torzole"
+        ],
+        "rabeprazole": [
+          "Pariet",
+          "Parbezol",
+          "Parzol",
+          "Perizel DR",
+          "Prabez",
+          "Rabzole",
+          "Razit",
+          "Zabep"
+        ]
+      },
+      "note": "Tablets, capsules and granules count. Nexium Hp7 is esomeprazole with two antibiotics. Vimovo is naproxen with esomeprazole. Acimax contains omeprazole as omeprazole magnesium. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "rule_for_models": "Apply this check only to a person aged 65 or over. If age is unknown, establish eligibility before reporting an omission. Make no finding when the record documents a contraindication to the proposed treatment, another valid clinical reason for omitting it, or end-of-life care with a palliative focus. Suspect a finding when the record documents severe gastro-oesophageal reflux disease or a peptic oesophageal stricture needing dilatation and no Group A medicine (a proton pump inhibitor) was supplied in the last six months of the record. Cite the confirmed condition. Either diagnosis qualifies independently. Use recorded onset and course dates when comparing the diagnosis with PPI cover. An undated counter answer does not establish when the condition began. When checking for cover, disregard a Group A course documented as finished before the qualifying condition began. If that was the only supply, report a possible omission. Cite the qualifying condition, the supply and the dated evidence that the course ended. When a diagnosis qualifies and current PPI cover is unclear, report only a possible finding and ask for \"Current proton pump inhibitor use for the qualifying reflux or stricture\". Ask only if the record leaves current use unresolved. Current cover from any source clears the omission. Confirmed absence of current use supports the omission if the qualifying diagnosis and exclusions have been checked. An unknown answer leaves it possible. Use the answer for current cover only. Make no finding from supplies alone, for a documented nonqualifying condition or when a Group A supply in the last six months covers the condition. Otherwise, for reflux disease of unknown severity, report only a possible finding and ask whether the reflux was severe. For an oesophageal stricture of uncertain cause or dilatation need, report only a possible finding and ask whether it was peptic and required dilatation. Cite the diagnosis in either case.",
+  "cannot_be_seen": "Why a proton pump inhibitor was stopped, such as low magnesium, fractures, repeated infections or a trial off the medicine. Also how severe the reflux really is, and results from a gastroscopy done by a specialist. Ask whether the person buys a proton pump inhibitor over the counter or receives it from another pharmacy, as either supply can be missing here.",
+  "ask_the_gp": "Whether a proton pump inhibitor is needed for this person's reflux or stricture, and at what dose and for how long.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

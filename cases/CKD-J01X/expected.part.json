@@ -1,0 +1,55 @@
+[
+  {
+    "file": "CKD-J01X/pos-fact.csv",
+    "kind": "positive",
+    "about": "Methenamine hippurate for recurrent urinary tract infection prevention was supplied at an indexed eGFR of 9 mL/min/1.73 m².",
+    "findings": [
+      {
+        "criterion": "CKD-J01X",
+        "must_cite": [
+          [
+            "L002"
+          ],
+          [
+            "L044"
+          ],
+          [
+            "L045",
+            "L046"
+          ],
+          [
+            "L046"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CKD-J01X/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about indexed eGFR for methenamine hippurate supplied to prevent recurrent urinary tract infections.",
+    "findings": [
+      {
+        "criterion": "CKD-J01X",
+        "must_cite": [
+          [
+            "L002"
+          ],
+          [
+            "L032",
+            "L033"
+          ],
+          [
+            "L033"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CKD-J01X/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Preventive methenamine is supplied at an indexed eGFR of exactly 10 mL/min/1.73 m², which excludes review even with CKD status missing.",
+    "findings": []
+  }
+]

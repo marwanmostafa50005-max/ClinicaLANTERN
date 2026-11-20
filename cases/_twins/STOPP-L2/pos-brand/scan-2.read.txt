@@ -1,0 +1,16 @@
+2026-06-23 | Palexia SR 50 mg modified release tablet | qty 28 | repeats 0 | Take ONE tablet every 12 hours | Dr A. Example
+2026-07-05 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 3 | Take ONE tablet in the morning | Dr A. Example
+2026-07-05 | Lipitor (atorvastatin) 20 mg tablet | qty 30 | repeats 3 | Take ONE tablet at night | Dr A. Example
+2026-07-07 | Palexia SR 50 mg modified release tablet | qty 28 | repeats 0 | Take ONE tablet every 12 hours | Dr A. Example
+2026-07-21 | Palexia SR 50 mg modified release tablet | qty 28 | repeats 0 | Take ONE tablet every 12 hours | Dr A. Example
+2026-08-04 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 2 | Take ONE tablet in the morning | Dr A. Example
+2026-08-04 | Lipitor (atorvastatin) 20 mg tablet | qty 30 | repeats 2 | Take ONE tablet at night | Dr A. Example
+2026-08-04 | Palexia SR 50 mg modified release tablet | qty 28 | repeats 0 | Take ONE tablet every 12 hours | Dr A. Example
+2026-08-18 | Palexia SR 50 mg modified release tablet | qty 28 | repeats 0 | Take ONE tablet every 12 hours | Dr A. Example
+2026-09-01 | Palexia SR 50 mg modified release tablet | qty 28 | repeats 0 | Take ONE tablet every 12 hours | Dr A. Example
+2026-09-03 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 1 | Take ONE tablet in the morning | Dr A. Example
+2026-09-03 | Lipitor (atorvastatin) 20 mg tablet | qty 30 | repeats 1 | Take ONE tablet at night | Dr A. Example
+2026-09-15 | Palexia SR 50 mg modified release tablet | qty 28 | repeats 0 | Take ONE tablet every 12 hours | Dr A. Example
+2026-09-29 | Palexia SR 50 mg modified release tablet | qty 28 | repeats 0 | Take ONE tablet every 12 hours | Dr A. Example
+2026-10-03 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 0 | Take ONE tablet in the morning | Dr A. Example
+2026-10-03 | Lipitor (atorvastatin) 20 mg tablet | qty 30 | repeats 0 | Take ONE tablet at night | Dr A. Example

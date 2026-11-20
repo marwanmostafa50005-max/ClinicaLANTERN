@@ -1,0 +1,44 @@
+[
+  {
+    "file": "START-F5/pos-fact.csv",
+    "kind": "positive",
+    "about": "The record holds chronic persistent idiopathic constipation and no osmotic laxative is supplied anywhere in the 9-month history.",
+    "findings": [
+      {
+        "criterion": "START-F5",
+        "must_cite": [
+          [
+            "L009"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-F5/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding because three Coloxyl with Senna supplies and no osmotic laxative are recorded in the last six months. The missing facts are Chronic constipation and Assessed cause of chronic constipation.",
+    "findings": [
+      {
+        "criterion": "START-F5",
+        "must_cite": [
+          [
+            "L012"
+          ],
+          [
+            "L019"
+          ],
+          [
+            "L026"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-F5/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The record holds chronic persistent idiopathic constipation, but lactulose (Duphalac, an osmotic laxative) is supplied every month from January to September 2026, so nothing is omitted.",
+    "findings": []
+  }
+]

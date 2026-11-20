@@ -1,0 +1,227 @@
+{
+  "id": "STOPP-F7",
+  "label": "STOPP F7",
+  "family": "STOPP_START",
+  "title": "Antipsychotic with swallowing difficulty",
+  "statement": "Antipsychotics with dysphagia (increased risk of aspiration pneumonia).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "An antipsychotic medicine in a person who has trouble swallowing (dysphagia) raises the risk of food or fluid going into the lungs and causing pneumonia.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antipsychotic medicines",
+      "ingredients": [
+        "haloperidol",
+        "risperidone",
+        "quetiapine",
+        "olanzapine",
+        "aripiprazole",
+        "amisulpride",
+        "clozapine",
+        "paliperidone",
+        "brexpiprazole",
+        "lurasidone",
+        "periciazine",
+        "zuclopenthixol",
+        "chlorpromazine",
+        "ziprasidone",
+        "asenapine",
+        "flupentixol",
+        "cariprazine"
+      ],
+      "brands": {
+        "haloperidol": [
+          "Serenace",
+          "Haldol Decanoate"
+        ],
+        "risperidone": [
+          "Risperdal",
+          "Ozidal",
+          "Resdone",
+          "Respaz",
+          "Risdone",
+          "Rispa",
+          "Rispaccord",
+          "Rispaccord-0.5",
+          "Risperdal Quicklet",
+          "Risperibell",
+          "Rispericor",
+          "Rispericor-0.5",
+          "Risperisan",
+          "Rispernia",
+          "Rixadone",
+          "Sperid",
+          "Risperdal Consta"
+        ],
+        "quetiapine": [
+          "Seroquel",
+          "Seroquel XR",
+          "Aliquen",
+          "Delucon",
+          "Kaptan",
+          "Ketizenol",
+          "Qualez",
+          "Quepine XR",
+          "Quetapen",
+          "Quetia",
+          "Quetia XR",
+          "Quetiaccord",
+          "Quetiaquel XR",
+          "Quetin",
+          "Quipine",
+          "Sequase",
+          "Sequase XR",
+          "Serapine",
+          "Serapine XR",
+          "Seroccord",
+          "Seronia",
+          "Serotiapine XR",
+          "Syquet",
+          "Syquet XR",
+          "Syzopine",
+          "Tevatiapine XR",
+          "Tiapine XR",
+          "Tiava XR",
+          "Xque XR"
+        ],
+        "olanzapine": [
+          "Zyprexa",
+          "Zyprexa Zydis",
+          "Aprolan",
+          "Aprolan ODT",
+          "Lanez",
+          "Lanez ODT",
+          "Lanzek",
+          "Lanzek Zydis",
+          "Lonza",
+          "Lonza ODT",
+          "Lyprosia",
+          "Lyprosia ODT",
+          "Olancor",
+          "Olanza",
+          "Olanzaccord",
+          "Olanzacor",
+          "Oprexa",
+          "Ozin",
+          "Ozin ODT",
+          "Prolanza",
+          "Prolanza ODT",
+          "Pryzex",
+          "Pryzex ODT",
+          "Tolaze ODT",
+          "Tolazine ODT",
+          "Torapine ODT",
+          "Torrenia ODT",
+          "Zylap",
+          "Zylap ODT",
+          "Zylapine",
+          "Zylapine ODT",
+          "Zypine",
+          "Zypine ODT",
+          "Zyprexa Relprevv"
+        ],
+        "aripiprazole": [
+          "Abilify",
+          "Abilify ODT",
+          "Abipra",
+          "Abyraz",
+          "Aprazole",
+          "Aripic",
+          "Aripra",
+          "Arizole",
+          "Abilify Maintena"
+        ],
+        "amisulpride": [
+          "Solian",
+          "Amipride",
+          "Sulprix"
+        ],
+        "clozapine": [
+          "Clozaril",
+          "Clopine",
+          "Closyn",
+          "Clozaril ODT",
+          "Clozitor",
+          "Versacloz"
+        ],
+        "paliperidone": [
+          "Invega",
+          "Invega Sustenna",
+          "Invega Hafyera",
+          "Invega Trinza",
+          "Palmeux",
+          "Trevicta"
+        ],
+        "brexpiprazole": [
+          "Rexulti"
+        ],
+        "lurasidone": [
+          "Pharmacor Lurasidone",
+          "Latuda"
+        ],
+        "periciazine": [
+          "Neulactil"
+        ],
+        "zuclopenthixol": [
+          "Clopixol",
+          "Clopixol Depot",
+          "Clopixol Acuphase"
+        ],
+        "chlorpromazine": [
+          "Largactil"
+        ],
+        "ziprasidone": [
+          "Zeldox"
+        ],
+        "asenapine": [
+          "Saphris"
+        ],
+        "flupentixol": [
+          "Fluanxol",
+          "Fluanxol Depot"
+        ],
+        "cariprazine": [
+          "Reagila"
+        ]
+      },
+      "note": "Tablets, orally dissolving tablets, capsules, liquids and the listed long-acting injections count. Clopixol Acuphase also counts when supplied for short-term treatment. Generic packs showing a listed ingredient with a company name count for the same forms. Prochlorperazine and metoclopramide are not in this group. Saphris sublingual wafers count."
+    }
+  ],
+  "rule_for_models": "Apply this criterion only when the patient was aged 65 years or older at the supply being assessed. If age is unknown, ask for age confirmation before attributing a STOPP finding. With a Group A antipsychotic supply, suspect a finding if a diagnosis, result or swallowing assessment documents dysphagia during exposure. Accept a pharmacist answer confirming difficulty swallowing during this treatment. Cite the relevant line and the supply. If swallowing during this treatment is unknown, report a possible finding and name the missing fact exactly as \"Dysphagia (difficulty swallowing)\". Clear the finding for an exposure when swallowing was documented as normal then.",
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Dysphagia (difficulty swallowing)",
+      "meets": "A diagnosis, result, swallowing assessment or pharmacist answer documents difficulty swallowing during this antipsychotic treatment.",
+      "options": [
+        {
+          "words": "Had difficulty swallowing during this antipsychotic treatment",
+          "effect": "meets"
+        },
+        {
+          "words": "Swallowed normally during this antipsychotic treatment",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "cannot_be_seen": "Whether the person has trouble swallowing if the record holds no line about it, why the antipsychotic was started, and the dose actually taken. Also medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "Whether the person has any difficulty swallowing, and whether the antipsychotic is still needed.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

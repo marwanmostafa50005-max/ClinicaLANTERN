@@ -1,0 +1,47 @@
+[
+  {
+    "file": "STOPP-E1/pos-fact.csv",
+    "kind": "positive",
+    "about": "The 18 March and 7 May Lanoxin supplies each cover 50 days at 250 micrograms daily. Together they cover 100 consecutive days, and the 12 May eGFR is 24 mL/min/1.73 m2.",
+    "findings": [
+      {
+        "criterion": "STOPP-E1",
+        "must_cite": [
+          [
+            "L020"
+          ],
+          [
+            "L027"
+          ],
+          [
+            "L030"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-E1/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the June and October Lanoxin PG supplies follow a new dosing plan, but the daily dose, coverage between refills and latest eGFR are unresolved.",
+    "findings": [
+      {
+        "criterion": "STOPP-E1",
+        "must_cite": [
+          [
+            "L025"
+          ],
+          [
+            "L035"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-E1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Lanoxin 250 microgram (digoxin) is supplied 5 times from January 2026 to August 2026, but the record holds an eGFR of 41 mL/min/1.73 m2 dated 2026-03-02, which is not low enough for the criterion, so there is no finding.",
+    "findings": []
+  }
+]

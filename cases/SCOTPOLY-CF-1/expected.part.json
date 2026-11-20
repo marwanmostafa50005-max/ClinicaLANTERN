@@ -1,0 +1,44 @@
+[
+  {
+    "file": "SCOTPOLY-CF-1/pos-brand.csv",
+    "kind": "positive",
+    "about": "The 30-day Coversyl supply covers 28 May, when the patient starts brand-only Urocit-K, an oral potassium citrate tablet.",
+    "findings": [
+      {
+        "criterion": "SCOTPOLY-CF-1",
+        "must_cite": [
+          [
+            "L018"
+          ],
+          [
+            "L019"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "SCOTPOLY-CF-1/pos-buried.csv",
+    "kind": "positive",
+    "about": "The 30-day Atacand supply covers 11 March, when the patient starts brand-only Chlorvescent containing potassium chloride, potassium bicarbonate and potassium carbonate.",
+    "findings": [
+      {
+        "criterion": "SCOTPOLY-CF-1",
+        "must_cite": [
+          [
+            "L038"
+          ],
+          [
+            "L041"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "SCOTPOLY-CF-1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Tritace is present with Movicol sachets only and no oral potassium supplement.",
+    "findings": []
+  }
+]

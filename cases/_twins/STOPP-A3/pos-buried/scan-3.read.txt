@@ -1,0 +1,22 @@
+2026-04-02 | Norvasc (amlodipine) 5 mg tablet | qty 30 | repeats 3 | Take ONE tablet daily | Dr A
+2026-04-02 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 1 | Take ONE tablet daily | Dr A
+2026-04-02 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily before food | Dr A
+2026-04-02 | Flomaxtra (tamsulosin) 400 microgram modified release tablet | qty 30 | repeats 2 | Take ONE tablet daily | Dr A
+2026-04-02 | Zyloprim (allopurinol) 300 mg tablet | qty 60 | repeats 1 | Take ONE tablet daily after food | Dr A
+2026-04-02 | Mobic (meloxicam) 15 mg tablet | qty 30 | repeats 0 | Take ONE tablet daily with food | Dr A
+2026-05-04 | Norvasc (amlodipine) 5 mg tablet | qty 30 | repeats 2 | Take ONE tablet daily | Dr A
+2026-05-04 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 0 | Take ONE tablet daily | Dr A
+2026-05-04 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 4 | Take ONE tablet daily before food | Dr A
+2026-05-04 | Flomaxtra (tamsulosin) 400 microgram modified release tablet | qty 30 | repeats 1 | Take ONE tablet daily | Dr A
+2026-05-20 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 0 | Take TWO tablets three times a day | Dr A
+2026-06-02 | Norvasc (amlodipine) 5 mg tablet | qty 30 | repeats 1 | Take ONE tablet daily | Dr A
+2026-06-02 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 5 | Take ONE tablet daily | Dr A
+2026-06-02 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 3 | Take ONE tablet daily before food | Dr A
+2026-06-02 | Flomaxtra (tamsulosin) 400 microgram modified release tablet | qty 30 | repeats 0 | Take ONE tablet daily | Dr A
+2026-06-02 | Zyloprim (allopurinol) 300 mg tablet | qty 60 | repeats 0 | Take ONE tablet daily after food | Dr A
+2026-06-19 | Doryx (doxycycline) 100 mg capsule | qty 7 | repeats 0 | Take ONE capsule daily with food and a full glass of water | Dr B
+2026-07-02 | Norvasc (amlodipine) 5 mg tablet | qty 30 | repeats 0 | Take ONE tablet daily | Dr A
+2026-07-02 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 4 | Take ONE tablet daily | Dr A
+2026-07-02 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 2 | Take ONE tablet daily before food | Dr A
+2026-07-02 | Flomaxtra (tamsulosin) 400 microgram modified release tablet | qty 30 | repeats 5 | Take ONE tablet daily | Dr A
+2026-07-22 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr A

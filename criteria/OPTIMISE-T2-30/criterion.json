@@ -1,0 +1,427 @@
+{
+  "id": "OPTIMISE-T2-30",
+  "label": "OPTIMISE T2-30: antidepressant with aspirin, NSAID or DOAC",
+  "family": "OPTIMISE",
+  "title": "Antidepressant with aspirin, an NSAID or a DOAC",
+  "statement": "Consider the increased risk of bleed (not limited to gastrointestinal bleed) when a selective serotonin reuptake inhibitor (SSRI), serotonin noradrenaline reuptake inhibitor (SNRI) or tricyclic antidepressant (TCA) is combined with aspirin, non-steroidal anti-inflammatory drugs (NSAIDs) and direct oral anticoagulants (DOACs)",
+  "statement_origin": "published",
+  "source": {
+    "document": "Carolan A, et al. OPTIMISE. BMC Psychiatry 2022;22:585, Tables 2-3",
+    "citation": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "modification_notice": "Statement text as recorded by the earlier project. It has not been compared with the publisher's page. Not endorsed by the source authors."
+  },
+  "plain_summary": "An SSRI, SNRI or tricyclic antidepressant taken with aspirin, an anti-inflammatory pain medicine or a newer blood thinner raises the risk of bleeding, not only from the stomach.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "SSRI, SNRI and tricyclic antidepressants",
+      "ingredients": [
+        "sertraline",
+        "escitalopram",
+        "citalopram",
+        "fluoxetine",
+        "paroxetine",
+        "fluvoxamine",
+        "venlafaxine",
+        "desvenlafaxine",
+        "duloxetine",
+        "amitriptyline",
+        "nortriptyline",
+        "dosulepin",
+        "imipramine",
+        "doxepin",
+        "clomipramine",
+        "trimipramine"
+      ],
+      "brands": {
+        "sertraline": [
+          "Zoloft",
+          "Setrona",
+          "Concorz",
+          "Detralon",
+          "Eleva",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Tralen",
+          "Xydep"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam",
+          "Loxalate"
+        ],
+        "citalopram": [
+          "Cipramil",
+          "Celapram",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talam",
+          "Talohexal"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Zactin",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Paxtine",
+          "Aropax CR",
+          "Extine",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ],
+        "venlafaxine": [
+          "Efexor-XR",
+          "Altven",
+          "Elaxine SR",
+          "Enlafax XR",
+          "Evelexa XR",
+          "Ozvenaf",
+          "Venfax SR",
+          "Venla",
+          "Venlexor XR"
+        ],
+        "desvenlafaxine": [
+          "Pristiq",
+          "Desfax",
+          "Desven"
+        ],
+        "duloxetine": [
+          "Cymbalta",
+          "Andepra",
+          "Baltine",
+          "Coperin",
+          "Deotine",
+          "Depreta",
+          "Drulox",
+          "Dulocym",
+          "Duloxecor",
+          "Dytrex",
+          "Symlox",
+          "Texotine",
+          "Tixol",
+          "Xerol DR"
+        ],
+        "amitriptyline": [
+          "Endep",
+          "Entrip",
+          "Amichlor",
+          "Amidep"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "dosulepin": [
+          "Dothep",
+          "Prothiaden"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ]
+      },
+      "note": "Mirtazapine, moclobemide, vortioxetine and agomelatine are not in this group. Tablets, capsules and liquids count. Generic packs that show a listed ingredient with a company name count when the form qualifies."
+    },
+    {
+      "key": "B",
+      "name": "Aspirin, systemic NSAIDs and direct oral anticoagulants (DOACs)",
+      "ingredients": [
+        "celecoxib",
+        "diclofenac",
+        "etoricoxib",
+        "ibuprofen",
+        "indometacin",
+        "ketoprofen",
+        "ketorolac",
+        "mefenamic acid",
+        "meloxicam",
+        "naproxen",
+        "piroxicam",
+        "sulindac",
+        "aspirin",
+        "apixaban",
+        "rivaroxaban",
+        "dabigatran",
+        "edoxaban"
+      ],
+      "brands": {
+        "celecoxib": [
+          "Celebrex",
+          "Celaxib",
+          "Anacoxib",
+          "Celebrex Relief",
+          "Celetoid",
+          "Celexi",
+          "Celocox",
+          "Kudeq"
+        ],
+        "diclofenac": [
+          "Voltaren",
+          "Voltaren Rapid",
+          "Fenac",
+          "Clonac",
+          "Arthrotec",
+          "Cambia",
+          "Diclohexal",
+          "Difenac Rapid",
+          "Dinac",
+          "Fenac EC",
+          "Imflac",
+          "Inflamax Liquid Caps",
+          "Voltaren Rapid Extra Strength",
+          "Voltaren Rapid Liquid Capsules",
+          "Voltfast",
+          "Zorvolex"
+        ],
+        "etoricoxib": [
+          "Arcoxia"
+        ],
+        "ibuprofen": [
+          "Nurofen",
+          "Advil",
+          "Brufen",
+          "Rafen",
+          "Nurofen Plus",
+          "Panafen Plus",
+          "Nuromol",
+          "Maxigesic",
+          "Act-3",
+          "Advil 12 Hour",
+          "Advil Childrens Pain and Fever 2 to 7 Years",
+          "Advil Childrens Pain and Fever 7 to 12 Years",
+          "Advil Childrens Pain and Fever Relief 2 to 12 Years",
+          "Advil Double Strength",
+          "Advil Double Strength Caplets",
+          "Advil Double Strength Liquid Capsules",
+          "Advil Infants Pain and Fever Relief 3 Months to 2 Years",
+          "Advil Mini Caps",
+          "Advil Rapid Release",
+          "Brufen Pain",
+          "Brufen Syrup",
+          "Bugesic",
+          "Butafen",
+          "Butalgin",
+          "Fenpaed",
+          "Fenpaed Double Strength",
+          "Iprofen",
+          "Nurofen Back Pain",
+          "Nurofen Caplet",
+          "Nurofen Double Strength",
+          "Nurofen Liquid Capsule",
+          "Nurofen Meltlets",
+          "Nurofen Migraine Pain",
+          "Nurofen Period Pain",
+          "Nurofen Quickzorb",
+          "Nurofen Regular",
+          "Nurofen Tension Headache",
+          "Nurofen Zavance",
+          "Nurofen Zavance Liquid Capsules",
+          "Nurofen for Children 1 to 5 Years",
+          "Nurofen for Children 3 Months to 5 Years",
+          "Nurofen for Children 5 to 12 Years",
+          "Nurofen for Children 7+ Years",
+          "Nurofen for Children Baby 3+ Months",
+          "Nurofen for Children Infant Drops",
+          "Nurofen for Children Meltlet",
+          "Panafen IB",
+          "Panafen IB Mini Cap",
+          "Proven",
+          "Tri-Profen"
+        ],
+        "indometacin": [
+          "Indocid",
+          "Arthrexin"
+        ],
+        "ketoprofen": [
+          "Orudis",
+          "Oruvail"
+        ],
+        "ketorolac": [
+          "Toradol",
+          "Ketoral"
+        ],
+        "mefenamic acid": [
+          "Ponstan",
+          "Femin",
+          "Mefic",
+          "Menamic"
+        ],
+        "meloxicam": [
+          "Mobic",
+          "Movalis",
+          "Moxicam",
+          "Meloxibell",
+          "Agilocam",
+          "Melobic",
+          "Melox",
+          "Meloxiauro",
+          "Meloxibindo",
+          "Mobelox"
+        ],
+        "naproxen": [
+          "Naprosyn",
+          "Naprosyn SR",
+          "Anaprox",
+          "Inza",
+          "Proxen SR",
+          "Naprogesic",
+          "Aleve",
+          "Vimovo",
+          "Aleve 24 Hour",
+          "Crysanal",
+          "Femme-Free",
+          "Naprofem",
+          "Naprosyn SR 1000",
+          "Nurolasts Period Pain",
+          "Proxen"
+        ],
+        "piroxicam": [
+          "Feldene",
+          "Mobilis",
+          "Candyl",
+          "Candyl-D",
+          "Feldene-D",
+          "Mobilis D",
+          "Pirohexal-D"
+        ],
+        "sulindac": [
+          "Aclin"
+        ],
+        "aspirin": [
+          "Cartia",
+          "Astrix",
+          "Cardiprin",
+          "Aspro",
+          "Aspro Clear",
+          "Aspro Clear Extra Strength",
+          "Aspro Protect",
+          "Cardasa",
+          "Disprin Direct",
+          "Disprin Extra Strength",
+          "Disprin Max",
+          "Disprin Original",
+          "Disprin Regular",
+          "Ecotrin",
+          "Princard",
+          "Solprin",
+          "Spren",
+          "CoPlavix",
+          "DuoCover",
+          "Asasantin SR"
+        ],
+        "apixaban": [
+          "Eliquis",
+          "Alexibic",
+          "Apexa",
+          "Apixor",
+          "Axibic",
+          "Elapex"
+        ],
+        "rivaroxaban": [
+          "Xarelto",
+          "Ixarola",
+          "Relaban",
+          "Rivoxa",
+          "Rivaxib",
+          "Rivator",
+          "Roxabic",
+          "Xaremed",
+          "Rivalembic",
+          "Rivarelto",
+          "Rivaxotor",
+          "Roxalem",
+          "Roxator",
+          "Toriva",
+          "Troxa"
+        ],
+        "dabigatran": [
+          "Pradaxa"
+        ],
+        "edoxaban": []
+      },
+      "note": "Oral, rectal and injected systemic NSAIDs count. Low-dose aspirin counts. Skin gels, creams and eye drops do not count, for example Voltaren Emulgel. Nurofen Plus and Panafen Plus are ibuprofen with codeine. Nuromol and Maxigesic are ibuprofen with paracetamol. Arthrotec is diclofenac with misoprostol. Vimovo is naproxen with esomeprazole. Warfarin and heparins are not in this group. No Australian brand is listed for edoxaban. CoPlavix and DuoCover contain clopidogrel with aspirin. Asasantin SR contains dipyridamole with aspirin. Generic packs that show a listed ingredient with a company name count when the form qualifies."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Age when the antidepressant and bleeding-risk medicine were taken together",
+      "meets": "Ask only if the pair meets the timing rule and the courses were not documented as separate and the record does not establish age during combined treatment. Use the answer for that period only.",
+      "options": [
+        {
+          "words": "18 or older",
+          "effect": "meets"
+        },
+        {
+          "words": "Under 18",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "For a person aged 18 or over, suspect a finding when at least one Group A medicine (an SSRI, SNRI or tricyclic antidepressant) AND at least one Group B medicine (aspirin, a systemic NSAID or a DOAC) both appear in the history and their supply dates overlap or fall within 60 days of each other. Use the recorded age if it establishes age during combined treatment. Only if the pair meets the timing rule and the courses were not documented as separate and age then is unknown, report a possible finding and ask for \"Age when the antidepressant and bleeding-risk medicine were taken together\". An adult answer allows assessment. Exclude treatment while under 18. If age remains unknown, keep the finding possible. One supply of each is enough unless the courses are documented to have been taken at separate times.",
+  "cannot_be_seen": "Why each medicine was prescribed, whether the aspirin or NSAID is taken only now and then, over-the-counter aspirin and anti-inflammatory medicines, any past bleeding, and whether a stomach-protecting medicine is wise.",
+  "ask_the_gp": "Whether the aspirin, NSAID or DOAC is still needed alongside the antidepressant, and the person's risk of bleeding, including whether stomach protection is needed.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "file": "KHAWAGI-G101/pos-brand.csv",
+    "kind": "positive",
+    "about": "Daily Luvox continues when twice-daily Nuelin SR starts.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G101",
+        "must_cite": [
+          [
+            "L017"
+          ],
+          [
+            "L018"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G101/pos-buried.csv",
+    "kind": "positive",
+    "about": "The 30-day fluvoxamine supply covers the start of twice-daily theophylline.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G101",
+        "must_cite": [
+          [
+            "L031"
+          ],
+          [
+            "L032"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G101/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Theophylline starts within 60 days of the fluvoxamine supply but after the documented final dose.",
+    "findings": []
+  }
+]

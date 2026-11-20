@@ -1,0 +1,83 @@
+{
+  "id": "DREISCHULTE-72",
+  "label": "Dreischulte 72: Full blood count more than 8 weeks ago during penicillamine treatment",
+  "family": "DREISCHULTE",
+  "title": "No full blood count in the eight weeks up to a penicillamine supply for rheumatoid arthritis",
+  "statement": "Patient treated with penicillamine - had no FBC check in the last 8 weeks",
+  "statement_origin": "published",
+  "source": {
+    "document": "Quality and safety of medication use in primary care: consensus validation of a new set of explicit medication assessment criteria and prioritisation of topics for improvement.",
+    "citation": "Dreischulte T, Grant AM, McCowan C, McAnaw JJ, Guthrie B. Quality and safety of medication use in primary care: consensus validation of a new set of explicit medication assessment criteria and prioritisation of topics for improvement. BMC Clinical Pharmacology. 2012;12:5. doi:10.1186/1472-6904-12-5.",
+    "doi": "10.1186/1472-6904-12-5",
+    "url": "https://link.springer.com/article/10.1186/1472-6904-12-5",
+    "licence": "CC BY 2.0",
+    "licence_status": "proposed",
+    "credit": "© 2012 Dreischulte et al., licensee BioMed Central Ltd. Dreischulte T, Grant AM, McCowan C, McAnaw JJ, Guthrie B. Quality and safety of medication use in primary care: consensus validation of a new set of explicit medication assessment criteria and prioritisation of topics for improvement. BMC Clinical Pharmacology. 2012;12:5. doi:10.1186/1472-6904-12-5.",
+    "modification_notice": "The published statement is reproduced unchanged. GPT-6.2 Astra drafted the Australian screening rule, medicine group and fictional histories."
+  },
+  "plain_summary": "For disease-modifying treatment, this historical indicator asks whether a full blood count was completed on the supply date or in the preceding 56 days. Australian D-Penamine product information calls for blood counts every week for the first four weeks, every two weeks for the next five months and monthly after that, for all indications.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Penicillamine",
+      "ingredients": [
+        "penicillamine"
+      ],
+      "brands": {
+        "penicillamine": [
+          "D-Penamine"
+        ]
+      }
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Full blood count on the penicillamine supply date under review or in the preceding 56 days",
+      "meets": "The pharmacist or a checked test history confirms that no full blood count was completed on the specified supply date or in the preceding 56 days. A completed count anywhere in that interval closes the check. An unavailable result or an answer about a different supply leaves the check open.",
+      "options": [
+        {
+          "words": "Confirmed no count in that period",
+          "effect": "meets"
+        },
+        {
+          "words": "Count completed in that period",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "condition",
+      "what": "Reason for penicillamine treatment",
+      "meets": "The record or pharmacist confirms that penicillamine treats rheumatoid arthritis. A diagnosis alone does not establish that link. A confirmed chelation use closes this historical indicator. An uncertain indication leaves it open if testing has not already closed it.",
+      "options": [
+        {
+          "words": "Treatment for rheumatoid arthritis",
+          "effect": "meets"
+        },
+        {
+          "words": "Treatment for Wilson disease, cystinuria or heavy metal poisoning",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Another confirmed use outside disease-modifying treatment",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Assess current or starting treatment at the latest Group A penicillamine supply. A completed full blood count on the supply date or 1 to 56 days earlier closes the check for any indication. Use the collection date on the test or verified pathology line, and use a pharmacist’s period-based answer only for the supply it covers. A confirmed use outside disease-modifying treatment also closes this indicator. For confirmed treatment of rheumatoid arthritis, report a finding if the pharmacist or a verified test history confirms that no count was completed in that period, including when none has ever been done. Cite the supply, the evidence of the gap and the line linking penicillamine to the condition. If the check is still open and current use, the indication or testing is uncertain, cite the supply and report only a possible finding naming each missing fact.",
+  "cannot_be_seen": "A pharmacy record can omit tests done elsewhere. An old report alone cannot establish the latest test date. A test order does not show that blood was collected. A first supply alone cannot establish the treatment period. A supply alone may not show why penicillamine was prescribed.",
+  "ask_the_gp": "Could we confirm the latest completed full blood count and review the monitoring plan for this stage of penicillamine treatment?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,22 @@
+2025-11-18 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day
+2025-12-05 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 5 | Take TWO tablets once a day with the evening meal
+2025-12-05 | Avapro (irbesartan) 150 mg tablet | qty 30 | repeats 5 | Take ONE tablet daily
+2025-12-05 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 3 | Take ONE tablet daily
+2025-12-05 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 0 | Take ONE tablet in the morning before food
+2025-12-09 | OxyContin (oxycodone) 10 mg modified release tablet | qty 28 | repeats 0 | Take ONE tablet every 12 hours. Swallow whole
+2025-12-23 | OxyContin (oxycodone) 10 mg modified release tablet | qty 28 | repeats 0 | Take ONE tablet every 12 hours. Swallow whole
+2026-01-04 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take TWO tablets once a day with the evening meal
+2026-01-04 | Avapro (irbesartan) 150 mg tablet | qty 30 | repeats 4 | Take ONE tablet daily
+2026-01-04 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 2 | Take ONE tablet daily
+2026-01-04 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet in the morning before food
+2026-01-06 | OxyContin (oxycodone) 10 mg modified release tablet | qty 28 | repeats 0 | Take ONE tablet every 12 hours. Swallow whole
+2026-01-20 | OxyContin (oxycodone) 10 mg modified release tablet | qty 28 | repeats 0 | Take ONE tablet every 12 hours. Swallow whole
+2026-01-27 | Ventolin (salbutamol) 100 microgram per dose inhaler | qty 2 | repeats 4 | Inhale TWO puffs when required for wheeze
+2026-02-03 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 3 | Take TWO tablets once a day with the evening meal
+2026-02-03 | Avapro (irbesartan) 150 mg tablet | qty 30 | repeats 3 | Take ONE tablet daily
+2026-02-03 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 1 | Take ONE tablet daily
+2026-02-03 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 4 | Take ONE tablet in the morning before food
+2026-02-03 | OxyContin (oxycodone) 10 mg modified release tablet | qty 28 | repeats 0 | Take ONE tablet every 12 hours. Swallow whole
+2026-02-17 | OxyContin (oxycodone) 10 mg modified release tablet | qty 28 | repeats 0 | Take ONE tablet every 12 hours. Swallow whole
+2026-03-03 | OxyContin (oxycodone) 10 mg modified release tablet | qty 28 | repeats 0 | Take ONE tablet every 12 hours. Swallow whole
+2026-03-05 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 2 | Take TWO tablets once a day with the evening meal

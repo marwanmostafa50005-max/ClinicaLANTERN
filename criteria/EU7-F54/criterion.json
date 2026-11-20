@@ -1,0 +1,110 @@
+{
+  "id": "EU7-F54",
+  "label": "EU(7)-PIM: triptans",
+  "family": "EU7",
+  "title": "Triptan in an older person",
+  "statement": "Triptans (for example sumatriptan, eletriptan, naratriptan and zolmitriptan) have not been shown to be safe and effective in older adults. Existing coronary disease, blood pressure, and kidney and liver function affect the suitability of sumatriptan and naratriptan. Triptans can cause vasospasm and raise blood pressure. Start with a low dose and go slowly. The 2015 list suggested a maximum eletriptan dose of 40 mg in older adults. Australian Relpax information advises caution with doses above 40 mg in people over 65 because blood pressure may rise. For naratriptan, the list suggested a lower starting dose and a maximum of 2.5 mg in 24 hours in mild or moderate renal impairment. Naratriptan is contraindicated when creatinine clearance is below 15 mL/min.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Statement written in plain words by ClinicaLANTERN from the EU(7)-PIM list row. The published row is not reproduced because part of its dose text is marked as taken from Micromedex and the rights are not settled."
+  },
+  "plain_summary": "The safety and efficacy of triptans in older adults are not established. Age-related liver, kidney, heart and blood-pressure problems can increase risk, so treatment starts low and is reviewed carefully.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Triptans",
+      "ingredients": [
+        "sumatriptan",
+        "eletriptan",
+        "naratriptan",
+        "zolmitriptan",
+        "rizatriptan"
+      ],
+      "brands": {
+        "sumatriptan": [
+          "Imigran",
+          "Imigran FDT",
+          "APO-Sumatriptan",
+          "Iptam",
+          "Sumagraine Migraine Relief",
+          "Sumatran",
+          "Clustran",
+          "Imigran Migraine",
+          "Imigran Mk II",
+          "Imigran Mk II with Autoinjector",
+          "Imigran S",
+          "Sumaccord",
+          "Sumagran",
+          "Sumatab",
+          "Suvalan"
+        ],
+        "eletriptan": [
+          "Relpax",
+          "Eletx"
+        ],
+        "naratriptan": [
+          "Naramig"
+        ],
+        "zolmitriptan": [
+          "Zomig",
+          "Zomig Rapimelt",
+          "Zoltrip"
+        ],
+        "rizatriptan": [
+          "Maxalt",
+          "Maxalt Migraine Relief",
+          "Maxatan",
+          "Rixalt"
+        ]
+      },
+      "note": "Rizatriptan is included although the published row names only four triptans. Almotriptan and frovatriptan were removed because current Australian supply was not confirmed. Brand availability changes, so older records may show withdrawn packs. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "Creatinine clearance (unindexed, mL/min)",
+      "meets": "For naratriptan, an unindexed creatinine clearance below 15 mL/min supports the renal contraindication. Ask for confirmation if only an indexed eGFR or an uninterpretable result is available."
+    },
+    {
+      "kind": "condition",
+      "what": "Mild or moderate kidney impairment at the time of the naratriptan supply",
+      "meets": "For naratriptan, documented mild or moderate impairment supports checking the prescribed 24-hour total against 2.5 mg. If mild and moderate impairment have been ruled out, omit that dose warning. If the answer is unknown, leave that check open. Check any recorded creatinine clearance separately. The age-and-supply finding stands for every answer.",
+      "options": [
+        {
+          "words": "Mild impairment documented",
+          "effect": "meets"
+        },
+        {
+          "words": "Moderate impairment documented",
+          "effect": "meets"
+        },
+        {
+          "words": "Mild or moderate impairment documented, exact grade unknown",
+          "effect": "meets"
+        },
+        {
+          "words": "Mild and moderate impairment ruled out",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Suspect a finding when any triptan is supplied to a person aged 65 or over. If a triptan is supplied and age is unknown, report only a possible finding and ask the pharmacist to confirm whether the person is aged 65 or over. One supply is enough. Mention a directed single eletriptan dose above 40 mg. If only the sum of separate doses exceeds 40 mg, explain that EU(7) gives no time period for its suggested maximum and leave interpretation to the pharmacist. For naratriptan, cite the relevant renal result or diagnosis: a creatinine clearance below 15 mL/min is a contraindication, and with documented mild or moderate renal impairment a prescribed total above 2.5 mg in 24 hours exceeds the renal limit. Calculate the dose from strength and directions. When the age criterion is met, flag the triptan supply even if a dose cannot be calculated. If the eletriptan dose is unclear, ask the pharmacist: How many mg did the prescriber specify for one dose? For naratriptan with documented mild or moderate kidney impairment, if the 24-hour maximum is unclear, ask the pharmacist: What is the maximum prescribed dose in mg in 24 hours? Record the confirmed number or Not known. Keep the age-and-supply finding with either answer. If renal status is unknown, request confirmation before reporting a renal limit or contraindication. If naratriptan is about to be supplied or taken and a relevant creatinine clearance is below 15 mL/min, request same-day prescriber review before the next dose. Use routine review for the age-and-supply finding alone.",
+  "cannot_be_seen": "When no relevant condition, result or observation lines are recorded: heart and blood vessel disease, blood pressure, and liver and kidney function. The record also does not show how often the person really takes the medicine.",
+  "ask_the_gp": "Whether a triptan is still suitable, with a review of blood pressure, heart risk and liver and kidney function, or whether another migraine treatment is better. Routine review applies to the age-and-supply finding alone. If naratriptan is about to be supplied or taken and the relevant creatinine clearance is below 15 mL/min, could you review this today before the next dose?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

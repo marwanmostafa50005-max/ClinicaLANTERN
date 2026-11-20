@@ -1,0 +1,210 @@
+{
+  "id": "NHSBSA-GIB03",
+  "label": "NHSBSA GIB03",
+  "family": "NHSBSA",
+  "title": "Oral anticoagulant with an antiplatelet and no gastro-protection",
+  "statement": "Patients 18 years old or over prescribed an oral anticoagulant (warfarin or a direct oral anticoagulant (DOAC)) with an anti-platelet and not concurrently prescribed a gastro-protective medicine",
+  "statement_origin": "published",
+  "source": {
+    "document": "Harms Dashboard Specification",
+    "citation": "NHSBSA. Harms Dashboard Specification. November 2025.",
+    "url": "https://www.nhsbsa.nhs.uk/sites/default/files/2025-11/Harms%20Dashboard%20Specification_2025-11.docx",
+    "licence": "UK Open Government Licence v3.0",
+    "licence_status": "proposed",
+    "credit": "Harms Dashboard Specification, NHSBSA Copyright 2026. This information is licenced under the terms of the Open Government Licence. Contains information originally developed by NHS Digital (NHS England), licenced under the current version of the Open Government Licence (UK OGL v3.0).",
+    "modification_notice": "Statement reproduced without changes. Australian medicine names, test histories and review text are adaptations."
+  },
+  "plain_summary": "Taking an oral anticoagulant with an antiplatelet increases gastrointestinal bleeding risk when no listed gastro-protective medicine is supplied. When clopidogrel is used, pantoprazole is preferred over omeprazole or esomeprazole. Ask the patient whether they take any over-the-counter proton pump inhibitor or non-prescription aspirin, and remind them never to stop an oral anticoagulant or antiplatelet abruptly without prescriber advice.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Oral anticoagulants",
+      "ingredients": [
+        "warfarin",
+        "apixaban",
+        "dabigatran",
+        "rivaroxaban",
+        "edoxaban"
+      ],
+      "brands": {
+        "warfarin": [
+          "Coumadin",
+          "Marevan"
+        ],
+        "apixaban": [
+          "Eliquis",
+          "Apexa",
+          "APO-Apixaban",
+          "Apixaban Sandoz",
+          "Apixaban Lupin",
+          "Apixaban Viatris",
+          "Apixaban-APX",
+          "Cip Apixaban",
+          "APIXABAN-WGR",
+          "Apixaban Dr.Reddy's",
+          "MSN-APIXABAN"
+        ],
+        "dabigatran": [
+          "Pradaxa",
+          "ARX-Dabigatran",
+          "Dabigatran Sandoz",
+          "Dabigatran Viatris",
+          "Pharmacor Dabigatran"
+        ],
+        "rivaroxaban": [
+          "Xarelto",
+          "Relaban",
+          "Rivaxib",
+          "Rivarelto",
+          "Rivoxa",
+          "Troxa",
+          "Xaremed",
+          "iXarola",
+          "APO-Rivaroxaban",
+          "ARX-Rivaroxaban",
+          "Rivaroxaban Sandoz",
+          "Rivaroxaban Lupin",
+          "Rivaroxaban-Teva",
+          "Rivaroxaban Dr.Reddy's"
+        ],
+        "edoxaban": []
+      },
+      "note": "Warfarin, apixaban, dabigatran, rivaroxaban and edoxaban count. Parenteral anticoagulants such as enoxaparin or heparin and antiplatelet medicines do not count as oral anticoagulants. Generic packs that show the ingredient name count too. Count an ingredient-only edoxaban record. Confirm current use if the medicine was supplied overseas."
+    },
+    {
+      "key": "B",
+      "name": "Antiplatelet medicines",
+      "ingredients": [
+        "aspirin",
+        "clopidogrel",
+        "prasugrel",
+        "ticagrelor",
+        "dipyridamole",
+        "aspirin with clopidogrel",
+        "aspirin with dipyridamole"
+      ],
+      "brands": {
+        "aspirin": [
+          "Cartia",
+          "Astrix",
+          "Cardiprin",
+          "Cardiprin 100",
+          "Spren",
+          "Spren 100"
+        ],
+        "clopidogrel": [
+          "Plavix",
+          "Iscover",
+          "Piax",
+          "Plavicor",
+          "Plavicor 75",
+          "Clovix",
+          "Clovix 75",
+          "Plidogrel"
+        ],
+        "prasugrel": [
+          "Effient",
+          "Prasugrel SCP",
+          "Prasugrel Lupin"
+        ],
+        "ticagrelor": [
+          "Brilinta",
+          "TICALOR",
+          "Tirela"
+        ],
+        "dipyridamole": [
+          "Persantin",
+          "Persantin SR"
+        ],
+        "aspirin with clopidogrel": [
+          "CoPlavix",
+          "DuoCover",
+          "DuoPlidogrel",
+          "Piax Plus Aspirin"
+        ],
+        "aspirin with dipyridamole": [
+          "Asasantin",
+          "Asasantin SR",
+          "Diasp SR",
+          "DIPYRIDAMOLE/ASPIRIN SR GPPL"
+        ]
+      },
+      "note": "Low-dose antiplatelet aspirin (such as 100 mg daily), clopidogrel, prasugrel, ticagrelor, dipyridamole and fixed-dose antiplatelet combinations count. CoPlavix, DuoCover, DuoPlidogrel and Piax Plus Aspirin contain clopidogrel with aspirin. Asasantin, Asasantin SR, Diasp SR and DIPYRIDAMOLE/ASPIRIN SR GPPL contain dipyridamole with aspirin. Generic packs that show the ingredient name count too."
+    },
+    {
+      "key": "C",
+      "name": "Gastro-protective medicines",
+      "ingredients": [
+        "omeprazole",
+        "esomeprazole",
+        "pantoprazole",
+        "lansoprazole",
+        "rabeprazole",
+        "famotidine",
+        "nizatidine",
+        "misoprostol",
+        "ranitidine"
+      ],
+      "brands": {
+        "omeprazole": [
+          "Losec",
+          "Acimax",
+          "Maxor",
+          "Probitor",
+          "Ozmep",
+          "Omepral"
+        ],
+        "esomeprazole": [
+          "Nexium",
+          "Esopreze",
+          "Nexazole",
+          "Nexole",
+          "Noxicid Caps"
+        ],
+        "pantoprazole": [
+          "Somac",
+          "Ozpan",
+          "Panthron",
+          "Salpraz",
+          "Sozol"
+        ],
+        "lansoprazole": [
+          "Zoton",
+          "Zoton FasTabs",
+          "Zopral",
+          "Lanzopran"
+        ],
+        "rabeprazole": [
+          "Pariet",
+          "Parbezol",
+          "Zabep"
+        ],
+        "famotidine": [
+          "Ausfam",
+          "Pepzan",
+          "Pepcidine"
+        ],
+        "nizatidine": [
+          "Nizac",
+          "Tacidine",
+          "Tazac"
+        ],
+        "misoprostol": [
+          "Cytotec"
+        ],
+        "ranitidine": [
+          "Zantac",
+          "Zantac 150",
+          "Zantac Double Strength"
+        ]
+      },
+      "note": "A supply of any listed ongoing gastro-protective medicine within 60 days before or after either supply in the pair prevents the finding. Only gastrointestinal ulcer-prophylaxis misoprostol (such as Cytotec 200 microgram tablets) counts as misoprostol. Antacids and alginates (such as Gaviscon or Mylanta), obstetric misoprostol packs (such as GyMiso or MS-2 Step), and short 7-day Helicobacter pylori eradication kits (such as Nexium Hp7, Esomeprazole Sandoz Hp7 or Klacid Hp7) do not count as ongoing gastro-protection. Generic packs that show the ingredient name count too."
+    }
+  ],
+  "rule_for_models": "Use this rule for people aged 18 or over. Suspect a finding when a Group A oral anticoagulant and a Group B antiplatelet have supply dates that overlap or fall within 60 days of each other, and no Group C ongoing gastro-protective medicine is supplied within 60 days before or after either supply; cite one qualifying supply from each of Groups A and B. Antacids, alginates, obstetric misoprostol packs and 7-day Helicobacter pylori eradication kits do not count as Group C gastro-protection. A clearly ongoing Group C supply in the stated window prevents a finding. Otherwise, if when-needed or unclear directions leave it uncertain whether the antiplatelet overlaps the anticoagulant or the only potentially qualifying Group C supply covers that overlap, report only a possible finding and cite the relevant supplies. Ask about concurrent antiplatelet therapy or ongoing gastro-protection, whichever is unclear. If age is not recorded and the medicine pattern is present, report only a possible finding and ask the pharmacist to confirm that the patient is 18 or over.",
+  "cannot_be_seen": "The record cannot show non-prescription aspirin, over-the-counter proton pump inhibitors or H2-receptor antagonists, intentional specialist antithrombotic therapy plans, or medicines supplied elsewhere.",
+  "ask_the_gp": "Could you review the ongoing need for combined oral anticoagulant and antiplatelet therapy and whether gastro-protection is appropriate, noting that pantoprazole is preferred over omeprazole or esomeprazole with clopidogrel? Neither antithrombotic medicine should be stopped abruptly without prescriber review.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

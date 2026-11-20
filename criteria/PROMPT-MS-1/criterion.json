@@ -1,0 +1,192 @@
+{
+  "id": "PROMPT-MS-1",
+  "label": "PROMPT: long-term NSAID",
+  "family": "PROMPT",
+  "title": "NSAID used for more than three months",
+  "statement": "Non-steroidal anti-inflammatory drugs (NSAIDs) (e.g. celecoxib, diclofenac, naproxen) should not be used long-term (greater than three months).",
+  "statement_origin": "published",
+  "source": {
+    "document": "Cooper JA, et al. The development of the PROMPT criteria. BMC Health Serv Res 2014;14:484, Table 4",
+    "citation": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "doi": "10.1186/s12913-014-0484-6",
+    "url": "https://doi.org/10.1186/s12913-014-0484-6",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Anti-inflammatory pain medicines (NSAIDs) used for months raise the risk of stomach bleeding, kidney damage, high blood pressure and heart problems.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Systemic NSAIDs",
+      "ingredients": [
+        "celecoxib",
+        "diclofenac",
+        "etoricoxib",
+        "ibuprofen",
+        "indometacin",
+        "ketoprofen",
+        "ketorolac",
+        "mefenamic acid",
+        "meloxicam",
+        "naproxen",
+        "piroxicam",
+        "sulindac"
+      ],
+      "brands": {
+        "celecoxib": [
+          "Celebrex",
+          "Celaxib",
+          "Anacoxib",
+          "Celebrex Relief",
+          "Celetoid",
+          "Celexi",
+          "Celocox",
+          "Kudeq"
+        ],
+        "diclofenac": [
+          "Voltaren",
+          "Voltaren Rapid",
+          "Fenac",
+          "Clonac",
+          "Arthrotec",
+          "Diclohexal",
+          "Difenac Rapid",
+          "Dinac",
+          "Fenac EC",
+          "Imflac",
+          "Inflamax Liquid Caps",
+          "Voltaren Rapid Extra Strength",
+          "Voltaren Rapid Liquid Capsules",
+          "Voltfast",
+          "Cambia",
+          "Zorvolex"
+        ],
+        "etoricoxib": [
+          "Arcoxia"
+        ],
+        "ibuprofen": [
+          "Nurofen",
+          "Advil",
+          "Brufen",
+          "Rafen",
+          "Nurofen Plus",
+          "Panafen Plus",
+          "Nuromol",
+          "Maxigesic",
+          "Act-3",
+          "Advil 12 Hour",
+          "Advil Childrens Pain and Fever 2 to 7 Years",
+          "Advil Childrens Pain and Fever 7 to 12 Years",
+          "Advil Childrens Pain and Fever Relief 2 to 12 Years",
+          "Advil Double Strength",
+          "Advil Double Strength Caplets",
+          "Advil Double Strength Liquid Capsules",
+          "Advil Infants Pain and Fever Relief 3 Months to 2 Years",
+          "Advil Mini Caps",
+          "Advil Rapid Release",
+          "Brufen Pain",
+          "Brufen Syrup",
+          "Bugesic",
+          "Butafen",
+          "Butalgin",
+          "Fenpaed",
+          "Fenpaed Double Strength",
+          "Iprofen",
+          "Nurofen Back Pain",
+          "Nurofen Caplet",
+          "Nurofen Double Strength",
+          "Nurofen Liquid Capsule",
+          "Nurofen Meltlets",
+          "Nurofen Migraine Pain",
+          "Nurofen Period Pain",
+          "Nurofen Quickzorb",
+          "Nurofen Regular",
+          "Nurofen Tension Headache",
+          "Nurofen Zavance",
+          "Nurofen Zavance Liquid Capsules",
+          "Nurofen for Children 1 to 5 Years",
+          "Nurofen for Children 3 Months to 5 Years",
+          "Nurofen for Children 5 to 12 Years",
+          "Nurofen for Children 7+ Years",
+          "Nurofen for Children Baby 3+ Months",
+          "Nurofen for Children Infant Drops",
+          "Nurofen for Children Meltlet",
+          "Panafen IB",
+          "Panafen IB Mini Cap",
+          "Proven",
+          "Tri-Profen"
+        ],
+        "indometacin": [
+          "Indocid",
+          "Arthrexin"
+        ],
+        "ketoprofen": [
+          "Orudis",
+          "Oruvail",
+          "Orudis SR",
+          "Oruvail SR"
+        ],
+        "ketorolac": [
+          "Toradol",
+          "Ketoral"
+        ],
+        "mefenamic acid": [
+          "Ponstan",
+          "Femin",
+          "Mefic",
+          "Menamic"
+        ],
+        "meloxicam": [
+          "Mobic",
+          "Movalis",
+          "Moxicam",
+          "Meloxibell",
+          "Agilocam",
+          "Melobic",
+          "Melox",
+          "Meloxiauro",
+          "Meloxibindo",
+          "Mobelox"
+        ],
+        "naproxen": [
+          "Naprosyn",
+          "Naprosyn SR",
+          "Anaprox",
+          "Inza",
+          "Proxen SR",
+          "Naprogesic",
+          "Aleve",
+          "Vimovo",
+          "Aleve 24 Hour",
+          "Crysanal",
+          "Femme-Free",
+          "Naprofem",
+          "Naprosyn SR 1000",
+          "Nurolasts Period Pain",
+          "Proxen"
+        ],
+        "piroxicam": [
+          "Feldene",
+          "Mobilis",
+          "Candyl",
+          "Candyl-D",
+          "Feldene-D",
+          "Mobilis D",
+          "Pirohexal-D"
+        ],
+        "sulindac": [
+          "Aclin"
+        ]
+      },
+      "note": "Oral NSAIDs count. Count diclofenac or indometacin suppositories and intramuscular ketorolac. If another rectal or injectable product appears, leave the match uncertain and ask the pharmacist to identify the preparation. Skin gels, creams and eye drops do not count, for example Orudis gel or Voltaren Emulgel. Aspirin is not in this group. Nurofen Plus and Panafen Plus are ibuprofen with codeine. Nuromol and Maxigesic are ibuprofen with paracetamol. Arthrotec is diclofenac with misoprostol. Vimovo is naproxen with esomeprazole. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "rule_for_models": "For patients aged 45 through 64 during treatment (confirm age if unknown), suspect one course of Group A systemic NSAIDs lasting more than three calendar months using these checks: divide each quantity by the number taken daily, count from the first dose through the last dose covered including switches within the course, exclude skin gels, creams, eye drops and documented separate courses, check for an interruption if about 30 days or more are uncovered after a supply runs out, and report uncertain duration if continuity is unclear. When repeated supplies span more than three calendar months but directions give no fixed daily dose, report only a possible finding if one continuous course is plausible. Ask how much was taken each day, on which days, and whether there were breaks.",
+  "cannot_be_seen": "Why the NSAID was prescribed, how often it is really taken, NSAIDs bought without a prescription, kidney function, blood pressure and stomach history.",
+  "ask_the_gp": "Whether the NSAID is still needed, and whether a safer pain plan is possible.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

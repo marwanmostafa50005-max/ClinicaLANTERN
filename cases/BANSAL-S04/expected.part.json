@@ -1,0 +1,58 @@
+[
+  {
+    "file": "BANSAL-S04/pos-fact.csv",
+    "kind": "positive",
+    "about": "The pain clinic identifies the reason for methadone and the admission record accounts for the February gap before active ileus was documented on 20 March.",
+    "findings": [
+      {
+        "criterion": "BANSAL-S04",
+        "must_cite": [
+          [
+            "L003",
+            "L009",
+            "L015",
+            "L021",
+            "L027",
+            "L033",
+            "L039"
+          ],
+          [
+            "L040"
+          ],
+          [
+            "L006"
+          ],
+          [
+            "L036"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BANSAL-S04/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about paralytic ileus during the six-month oxycodone course, so request routine confirmation.",
+    "findings": [
+      {
+        "criterion": "BANSAL-S04",
+        "must_cite": [
+          [
+            "L003",
+            "L007",
+            "L011",
+            "L015",
+            "L019",
+            "L023"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BANSAL-S04/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Palexia SR (tapentadol) is supplied every month, but the record says the paralytic ileus resolved in 2024 with no recurrence.",
+    "findings": []
+  }
+]

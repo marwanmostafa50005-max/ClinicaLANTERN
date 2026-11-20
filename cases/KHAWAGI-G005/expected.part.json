@@ -1,0 +1,38 @@
+[
+  {
+    "file": "KHAWAGI-G005/pos-brand.csv",
+    "kind": "positive",
+    "about": "Efexor-XR alone identifies venlafaxine supplied at age 18.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G005",
+        "must_cite": [
+          [
+            "L019"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G005/pos-buried.csv",
+    "kind": "positive",
+    "about": "A single sertraline supply is among routine refills at age 16.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G005",
+        "must_cite": [
+          [
+            "L037"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G005/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Fluoxetine is the only antidepressant supplied at age 18.",
+    "findings": []
+  }
+]

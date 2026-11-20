@@ -1,0 +1,194 @@
+{
+  "id": "CKD-N03A",
+  "label": "CKD review: Review an oral pregabalin, gabapentin or levetiracetam dose above the Australian limit for the relevant clearance band and unit",
+  "family": "CKD",
+  "title": "Dose review in reduced clearance bands for immediate-release oral pregabalin, gabapentin or twice-daily levetiracetam in adult outpatients with established CKD off dialysis",
+  "statement": "For outpatients aged 18 or older with established CKD who are off dialysis, review doses above the limits for the listed reduced creatinine clearance bands. For immediate-release oral pregabalin or gabapentin, compare the daily dose with the limit for unindexed clearance in mL/min. For immediate-release oral levetiracetam taken twice daily, compare each maintenance dose with the limit for indexed clearance in mL/min/1.73 m².",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "A systematically collated library of prescribing safety indicators for people with chronic kidney disease, Additional file 2 (Appendix 3)",
+    "citation": "Smith F, Hayward S, Hole B, Kimpton G, Sluman C, Whiting P, Caskey F. BMC Nephrology. 2020;21:493.",
+    "doi": "10.1186/s12882-020-02158-0",
+    "url": "https://link.springer.com/article/10.1186/s12882-020-02158-0",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Smith F, Hayward S, Hole B, Kimpton G, Sluman C, Whiting P, Caskey F. A systematically collated library of prescribing safety indicators for people with chronic kidney disease. BMC Nephrology 2020;21:493. https://doi.org/10.1186/s12882-020-02158-0; Additional file 2 (Appendix 3), https://doi.org/10.6084/m9.figshare.13257677. © The Author(s) 2020, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Changes were made. Smith et al. compiled the CKD indicators. Original screening wording and Australian adaptations. Clinical cross-check: Lyrica PI (https://apps.medicines.org.au/files/goplyric.pdf). Keppra PI table 2 (https://apps.medicines.org.au/files/ucpkeppr.pdf). Nupentin PI (https://apps.medicines.org.au/files/afpnupen.pdf).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "This check covers outpatients aged 18 or older with established CKD who are off dialysis. It compares immediate-release oral pregabalin and gabapentin daily doses with the limits for unindexed creatinine clearance below 60 and below 80 mL/min, respectively. For immediate-release oral levetiracetam taken twice daily, it compares each maintenance dose with the limit for indexed clearance below 80 mL/min/1.73 m². Use a dated clearance measured during stable kidney function that applies at supply. The limit for Levetiracetam SZ at 50 to below 80 mL/min/1.73 m² still needs verification before sign-off.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Oral pregabalin, gabapentin or levetiracetam",
+      "ingredients": [
+        "pregabalin",
+        "gabapentin",
+        "levetiracetam"
+      ],
+      "brands": {
+        "pregabalin": [
+          "Lyrica",
+          "Pregabalin Hovid",
+          "Adimis",
+          "Adirag",
+          "Adiris",
+          "Adrabalin",
+          "Adranuro",
+          "Adraprega",
+          "Algerika",
+          "Brillior",
+          "Cipgablin",
+          "Gabrica",
+          "Lypralin",
+          "Lyraccord",
+          "Lyrigalin",
+          "Lyrilin",
+          "Lyzalon",
+          "Neurica",
+          "Neuroccord",
+          "Prebalin",
+          "Pregabica",
+          "Pregaciplin",
+          "Pregaredi",
+          "Prelinaccord",
+          "Sudorega"
+        ],
+        "gabapentin": [
+          "Neurontin",
+          "Gabapentin-WGR",
+          "Gabaccord",
+          "Gabacor",
+          "Gabahexal",
+          "Gabalep",
+          "Gabalex",
+          "Gabapen",
+          "Gabaran",
+          "Gabatine",
+          "Gantin",
+          "Gapentin",
+          "Mipentine",
+          "Nupentin",
+          "Nupentin Tab",
+          "Pendine"
+        ],
+        "levetiracetam": [
+          "Keppra",
+          "Leveret",
+          "Kepcet",
+          "Kerron",
+          "Ketraccord",
+          "Kevtam",
+          "Levactam",
+          "Levecetam",
+          "Leveceumid",
+          "Levefintaic",
+          "Levenakai",
+          "Leveriuol",
+          "Levesineal",
+          "Levetiram",
+          "Levetor",
+          "Levi",
+          "Levitaccord",
+          "Levitam",
+          "Levt"
+        ]
+      },
+      "note": "Use immediate-release oral regimens outside dialysis. For levetiracetam only a twice-daily regimen counts."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "Creatinine clearance (unindexed, mL/min)",
+      "meets": "For immediate-release oral pregabalin or gabapentin, enter the unindexed creatinine clearance in mL/min and the measurement date. Use a value applicable during stable kidney function at supply. Ask only if the dose could exceed its limit and the missing result could change the finding."
+    },
+    {
+      "kind": "result",
+      "what": "Indexed creatinine clearance",
+      "meets": "For twice-daily immediate-release oral levetiracetam, enter the indexed creatinine clearance in mL/min/1.73 m² and the measurement date. Use a value applicable during stable kidney function at supply. Ask only if the dose could exceed its limit and the missing result could change the finding."
+    },
+    {
+      "kind": "condition",
+      "what": "Chronic kidney disease",
+      "meets": "CKD was established by the supply under review. If its timing is uncertain, keep the finding possible unless another fact rules it out.",
+      "options": [
+        {
+          "words": "CKD was established by the supply under review",
+          "effect": "meets"
+        },
+        {
+          "words": "CKD was absent at the supply under review",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Dialysis status at supply",
+      "meets": "The person is not receiving dialysis.",
+      "options": [
+        {
+          "words": "Not receiving dialysis at supply",
+          "effect": "meets"
+        },
+        {
+          "words": "Receiving dialysis at supply",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "result",
+      "what": "Average daily dose of gabapentin at supply (mg/day)",
+      "meets": "Use the strength and directions first. If the prescribed daily amount of gabapentin remains unclear and could change the finding, enter its average mg/day over the full dosing cycle at supply. Compare with the limit for its unindexed clearance band. Equality or less excludes the finding. An unknown amount leaves it possible if it could exceed the limit."
+    },
+    {
+      "kind": "result",
+      "what": "Average daily dose of pregabalin at supply (mg/day)",
+      "meets": "Use the strength and directions first. If the prescribed daily amount of pregabalin remains unclear and could change the finding, enter its average mg/day over the full dosing cycle at supply. Compare with the limit for its unindexed clearance band. Equality or less excludes the finding. An unknown amount leaves it possible if it could exceed the limit."
+    },
+    {
+      "kind": "result",
+      "what": "Levetiracetam maintenance dose per administration at supply (mg/dose)",
+      "meets": "Use the dispensing directions first. If the amount is unclear and twice-daily treatment is possible, enter the prescribed mg per administration at supply. Compare each dose with the applicable limit for a twice-daily regimen, allowing for severe hepatic impairment. Equality or less excludes the finding."
+    },
+    {
+      "kind": "result",
+      "what": "Levetiracetam maintenance dosing frequency at supply (doses/day)",
+      "meets": "Ask only if the directions leave the schedule uncertain and it could change the finding. Enter the prescribed number of doses per day at supply. Two doses per day qualifies for comparison with the per-dose limit. A known different schedule excludes this regimen. An unknown schedule leaves it possible if the other facts allow it."
+    },
+    {
+      "kind": "condition",
+      "what": "Severe hepatic impairment at the levetiracetam supply",
+      "meets": "Ask only for twice-daily levetiracetam maintenance treatment with indexed clearance below 60 mL/min/1.73 m² when the dose would exceed the reduced limit but not the usual limit. Severe impairment documented calls for the 50% lower maintenance limit. Severe impairment excluded calls for the usual limit. Not known leaves the finding possible when the result depends on this distinction.",
+      "options": [
+        {
+          "words": "Severe impairment documented",
+          "effect": "meets"
+        },
+        {
+          "words": "Severe impairment excluded",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Start with an immediate-release oral supply of pregabalin, gabapentin or twice-daily maintenance levetiracetam for an outpatient aged 18 or older with established CKD who is off dialysis. Use dated dialysis evidence applicable to each supply if status changed. An undated answer cannot settle eligibility across a change in status.\n\nFor pregabalin or gabapentin use \"Creatinine clearance (unindexed, mL/min)\". For twice-daily oral levetiracetam use \"Indexed creatinine clearance\" in mL/min/1.73 m². Use a dated clearance that applies during stable kidney function at supply. Neither eGFR nor the other clearance measure can substitute. If the relevant clearance, its unit, date or stability is unclear, report a possible finding and name only the applicable missing result if the dose could exceed its limit and no exclusion applies.\n\nFor twice-daily levetiracetam below an indexed creatinine clearance of 60 mL/min/1.73 m², compare each dose with both limits before deciding.\nIndexed clearance (mL/min/1.73 m²) | Usual limit (mg per dose) | Limit with severe hepatic impairment (mg per dose)\n60 to below 80 | 1,000 | 1,000\n50 to below 60 | 1,000 | 500\n30 to below 50 | 750 | 375\nBelow 30 | 500 | 250\n\nLevetiracetam dose from strength and directions | Decision at supply\nAbove the usual limit | Finding regardless of hepatic status\nAbove the reduced limit but at or below the usual limit | Possible finding if severe hepatic impairment is unknown, finding if documented, no finding if excluded\nAt or below both limits | No finding\n\nPregabalin and gabapentin | Average daily dose from strength and directions over the full dosing cycle\nUnindexed creatinine clearance (mL/min) | Pregabalin limit (mg/day) | Gabapentin limit (mg/day)\n60 to below 80 | Outside pregabalin bands | 1,800\n50 to below 60 | 300 | 1,800\n30 to below 50 | 300 | 900\n15 to below 30 | 150 | 600\nBelow 15 | 75 | 300\nAverage daily dose above the medicine's limit | Finding\nAverage daily dose at or below the limit | No finding\n\nExcluded patient or regimen, or clearance outside the medicine's bands | No finding\nMissing age, CKD, dialysis status, dated clearance in the correct units, dose or frequency | Possible finding naming the missing fact only if it could change the result\nUnclear directions that could change the result | Ask for the missing average mg/day for pregabalin or gabapentin, or the missing mg per dose or doses per day for levetiracetam\n\nCite the supply and the available lines for CKD, dialysis status, dated clearance and any dosing or hepatic status evidence that decides the finding.",
+  "cannot_be_seen": "Dispensing does not establish the dose taken. Kidney results obtained elsewhere, their units and their timing may be missing.",
+  "ask_the_gp": "Could you confirm the current regimen, dialysis status and dated creatinine clearance, and review the dose of the medicine identified here? For levetiracetam, could you review each twice-daily dose against indexed clearance and any adjustment for severe hepatic impairment? For pregabalin or gabapentin, could you review the daily total against unindexed clearance?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

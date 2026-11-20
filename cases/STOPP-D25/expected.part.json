@@ -1,0 +1,54 @@
+[
+  {
+    "file": "STOPP-D25/pos-fact.csv",
+    "kind": "positive",
+    "about": "Restavit (doxylamine, an older antihistamine) is supplied monthly from September 2025 at night after a condition line records insomnia.",
+    "findings": [
+      {
+        "criterion": "STOPP-D25",
+        "must_cite": [
+          [
+            "L005",
+            "L009",
+            "L014",
+            "L017",
+            "L021",
+            "L026",
+            "L029",
+            "L033",
+            "L038"
+          ],
+          [
+            "L004"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-D25/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about insomnia or any other reason for doxylamine, which is supplied monthly with a night-time direction.",
+    "findings": [
+      {
+        "criterion": "STOPP-D25",
+        "must_cite": [
+          [
+            "L009",
+            "L013",
+            "L018",
+            "L022",
+            "L026",
+            "L031"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-D25/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Phenergan (promethazine, an older antihistamine) is supplied three times, but a condition line records nausea and vomiting as the reason and the directions are not for night, so it is not for sleep and must not flag.",
+    "findings": []
+  }
+]

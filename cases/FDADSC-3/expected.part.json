@@ -1,0 +1,41 @@
+[
+  {
+    "file": "FDADSC-3/pos-fact.csv",
+    "kind": "positive",
+    "about": "Febexic was supplied, the patient confirms allopurinol was never tried, and the prescriber confirms there is no contraindication, previous intolerance or hypersensitivity.",
+    "findings": [
+      {
+        "criterion": "FDADSC-3",
+        "must_cite": [
+          [
+            "L039"
+          ],
+          [
+            "L040"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "FDADSC-3/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about prior allopurinol trial, intolerance or contraindication, and Adenuric is supplied.",
+    "findings": [
+      {
+        "criterion": "FDADSC-3",
+        "must_cite": [
+          [
+            "L030"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "FDADSC-3/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Febexic was supplied and the prescriber confirms that a contraindication prevented an allopurinol trial.",
+    "findings": []
+  }
+]

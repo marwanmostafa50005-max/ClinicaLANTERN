@@ -1,0 +1,76 @@
+{
+  "id": "START-D7",
+  "label": "START D7",
+  "family": "STOPP_START",
+  "title": "No propranolol for disabling essential tremor",
+  "statement": "Propranolol for essential tremor with functional impairment and resultant disability.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A person whose essential tremor gets in the way of daily tasks is not being supplied propranolol.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Medicines that meet this criterion: propranolol",
+      "ingredients": [
+        "propranolol"
+      ],
+      "brands": {
+        "propranolol": [
+          "Inderal",
+          "Deralin",
+          "Drofate",
+          "Hemangiol"
+        ]
+      },
+      "note": "Other beta-blockers do not count for this criterion."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Essential tremor and its effect on daily activities",
+      "meets": "Essential tremor causes functional impairment that limits daily activities. A confirmed absence of essential tremor or of this limitation rules out the omission. An unknown diagnosis or impact cannot establish it.",
+      "ask_when": "always",
+      "close_when": {
+        "group": "A"
+      },
+      "options": [
+        {
+          "words": "Essential tremor limits what the person can do in daily life",
+          "effect": "meets"
+        },
+        {
+          "words": "Essential tremor is present and does not limit daily activities",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "The person does not have essential tremor",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Essential tremor is confirmed but its effect on daily activities is unknown",
+          "effect": "unknown"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply only when the record establishes age 65 years or older. If age is unknown, confirm it before reporting a finding. Suppress the finding if the record gives an end-of-life palliative focus, a contraindication to the proposed therapy or another valid clinical reason for its omission. Suspect a finding when the record holds a line for essential tremor causing functional impairment and resulting disability and no propranolol (Group A) is supplied in the last six months of the record; cite the condition line. Read the selected answer for both the diagnosis and its effect. A confirmed absence of essential tremor or of any limitation in daily activities gives no finding. When propranolol is supplied in the last six months, or the tremor is recorded as mild with no effect on daily tasks, there is no finding. No medicine in a pharmacy record reliably points to essential tremor, so with no tremor line make no finding. If essential tremor is recorded, its effect on daily tasks is unknown and no propranolol was supplied in the last six months, report only a possible finding after the exclusions above. Cite the diagnosis and ask for the missing fact Essential tremor and its effect on daily activities. A person can have a disabling limitation while still managing without help. An unknown effect keeps the finding possible.",
+  "cannot_be_seen": "How much the tremor affects daily tasks, reasons propranolol may not suit the person (asthma, slow heart rate, low blood pressure, heart block), whether it was tried and stopped, and whether another medicine is used instead. Propranolol supplied by another pharmacy or hospital may be missing from this record.",
+  "ask_the_gp": "Whether propranolol is suitable for this person's tremor, or has already been tried and stopped.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,581 @@
+{
+  "id": "BRISNIK-HR-F1",
+  "label": "Brisnik HR-F1",
+  "family": "BRISNIK",
+  "title": "SSRI or SNRI with one bleeding-risk medicine and no stomach protection, age 65 or over",
+  "statement": "Prescribed SSRI or SNRI - and the patient is aged ≥ 65 years and co-prescribed a single of the following without GI protection: antiplatelet, anticoagulant, and NSAID",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.2 candidate repairs and adopted conventions merged with attribution). Not endorsed by the source authors."
+  },
+  "plain_summary": "An SSRI or SNRI taken with an antiplatelet, a blood thinner or an NSAID raises the risk of bleeding from the stomach or bowel in a person aged 65 or over, and more so when no stomach protection is taken.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "SSRIs (selective serotonin reuptake inhibitors)",
+      "ingredients": [
+        "sertraline",
+        "escitalopram",
+        "citalopram",
+        "fluoxetine",
+        "paroxetine",
+        "fluvoxamine"
+      ],
+      "brands": {
+        "sertraline": [
+          "Zoloft",
+          "Concorz",
+          "Detralon",
+          "Eleva",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Setrona",
+          "Tralen",
+          "Xydep"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam",
+          "Loxalate"
+        ],
+        "citalopram": [
+          "Cipramil",
+          "Celapram",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talam",
+          "Talohexal"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Zactin",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Extine",
+          "Paxtine",
+          "Aropax CR",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ]
+      },
+      "note": "Generic packs that show the ingredient name with a company name count too. Any dose counts."
+    },
+    {
+      "key": "B",
+      "name": "SNRIs (serotonin and noradrenaline reuptake inhibitors)",
+      "ingredients": [
+        "venlafaxine",
+        "desvenlafaxine",
+        "duloxetine"
+      ],
+      "brands": {
+        "venlafaxine": [
+          "Efexor-XR",
+          "Venlor XR",
+          "Elaxine SR",
+          "Altven",
+          "Enlafax XR",
+          "Evelexa XR",
+          "Ozvenaf",
+          "Venfax SR",
+          "Venla",
+          "Venlexor XR"
+        ],
+        "desvenlafaxine": [
+          "Pristiq",
+          "Desfax",
+          "Desven"
+        ],
+        "duloxetine": [
+          "Cymbalta",
+          "Andepra",
+          "Baltine",
+          "Coperin",
+          "Deotine",
+          "Depreta",
+          "Drulox",
+          "Dulocym",
+          "Duloxecor",
+          "Dytrex",
+          "Symlox",
+          "Texotine",
+          "Tixol",
+          "Xerol DR"
+        ]
+      },
+      "note": "Generic packs that show the ingredient name with a company name count too. Any dose counts."
+    },
+    {
+      "key": "C",
+      "name": "Antiplatelet medicines",
+      "ingredients": [
+        "aspirin",
+        "clopidogrel",
+        "ticagrelor",
+        "prasugrel",
+        "aspirin with dipyridamole",
+        "aspirin + dipyridamole"
+      ],
+      "brands": {
+        "aspirin": [
+          "Cartia",
+          "Astrix",
+          "Aspro Protect",
+          "Cardasa",
+          "Cardiprin",
+          "Disprin Original",
+          "Ecotrin",
+          "Princard",
+          "Solprin",
+          "Spren",
+          "CoPlavix",
+          "DuoCover"
+        ],
+        "clopidogrel": [
+          "Plavix",
+          "Iscover",
+          "Clogrel",
+          "Clopaccord",
+          "Clopithromb",
+          "Clovix",
+          "Piax",
+          "Plavicor",
+          "Plidogrel",
+          "Viplex",
+          "CoPlavix",
+          "DuoCover"
+        ],
+        "ticagrelor": [
+          "Brilinta",
+          "Bricalor",
+          "Brilinta ODT",
+          "Novalant",
+          "Ticalor",
+          "Tirela"
+        ],
+        "prasugrel": [
+          "Effient"
+        ],
+        "aspirin with dipyridamole": [
+          "Asasantin SR"
+        ],
+        "aspirin + dipyridamole": [
+          "Asasantin SR"
+        ]
+      },
+      "note": "Count aspirin here when the recorded purpose or directions show clot prevention. Cartia and Astrix are low-dose aspirin. A brand identifies aspirin, but the prescribed use decides its group. Aspirin bought over the counter does not appear in a dispensing history. Asasantin SR is aspirin with dipyridamole. CoPlavix and DuoCover each contain aspirin and clopidogrel. Both ingredients belong to Group C."
+    },
+    {
+      "key": "D",
+      "name": "Anticoagulants (blood thinners)",
+      "ingredients": [
+        "warfarin",
+        "dabigatran",
+        "apixaban",
+        "rivaroxaban",
+        "edoxaban",
+        "enoxaparin",
+        "dalteparin",
+        "fondaparinux",
+        "dalteparin sodium",
+        "enoxaparin sodium",
+        "heparin sodium",
+        "nadroparin"
+      ],
+      "brands": {
+        "warfarin": [
+          "Coumadin",
+          "Marevan"
+        ],
+        "dabigatran": [
+          "Pradaxa"
+        ],
+        "apixaban": [
+          "Eliquis",
+          "Apixor",
+          "Apexa",
+          "Alexibic",
+          "Axibic",
+          "Elapex"
+        ],
+        "rivaroxaban": [
+          "Xarelto",
+          "Ixarola",
+          "Relaban",
+          "Rivalembic",
+          "Rivarelto",
+          "Rivator",
+          "Rivaxib",
+          "Rivaxotor",
+          "Rivoxa",
+          "Roxabic",
+          "Roxalem",
+          "Roxator",
+          "Toriva",
+          "Troxa",
+          "Xaremed"
+        ],
+        "edoxaban": [],
+        "enoxaparin": [
+          "Clexane",
+          "Clexane Forte",
+          "Enoxaject",
+          "Exarane",
+          "Exarane Forte",
+          "Clexane Forte Safety-Lock",
+          "Enoxaject Safety-Lock",
+          "Exarane Safety-Lock",
+          "Exarane Forte Safety-Lock"
+        ],
+        "dalteparin": [
+          "Fragmin"
+        ],
+        "fondaparinux": [
+          "Arixtra"
+        ],
+        "dalteparin sodium": [
+          "Fragmin"
+        ],
+        "enoxaparin sodium": [
+          "Clexane",
+          "Clexane Forte",
+          "Enoxaject",
+          "Exarane",
+          "Exarane Forte",
+          "Clexane Forte Safety-Lock",
+          "Enoxaject Safety-Lock",
+          "Exarane Safety-Lock",
+          "Exarane Forte Safety-Lock"
+        ],
+        "heparin sodium": [
+          "DBL Heparin Sodium"
+        ],
+        "nadroparin": [
+          "Fraxiparine",
+          "Fraxiparine Forte"
+        ]
+      },
+      "note": "No Australian brand is listed for edoxaban. Enoxaparin, dalteparin and fondaparinux are injections. Generic packs that show the ingredient name with a company name count too. Count systemic heparin sodium and nadroparin calcium. Exclude heparin used only to flush a catheter."
+    },
+    {
+      "key": "E",
+      "name": "NSAIDs, the anti-inflammatory pain medicines",
+      "ingredients": [
+        "celecoxib",
+        "diclofenac",
+        "etoricoxib",
+        "ibuprofen",
+        "indometacin",
+        "ketoprofen",
+        "ketorolac",
+        "mefenamic acid",
+        "meloxicam",
+        "naproxen",
+        "piroxicam",
+        "sulindac",
+        "aspirin"
+      ],
+      "brands": {
+        "celecoxib": [
+          "Celebrex",
+          "Celaxib",
+          "Anacoxib",
+          "Celebrex Relief",
+          "Celetoid",
+          "Celexi",
+          "Celocox",
+          "Kudeq"
+        ],
+        "diclofenac": [
+          "Voltaren",
+          "Voltaren Rapid",
+          "Fenac",
+          "Clonac",
+          "Arthrotec",
+          "Cambia",
+          "Diclohexal",
+          "Difenac Rapid",
+          "Dinac",
+          "Fenac EC",
+          "Imflac",
+          "Inflamax Liquid Caps",
+          "Voltaren Rapid Extra Strength",
+          "Voltaren Rapid Liquid Capsules",
+          "Voltfast",
+          "Zorvolex"
+        ],
+        "etoricoxib": [
+          "Arcoxia"
+        ],
+        "ibuprofen": [
+          "Nurofen",
+          "Advil",
+          "Brufen",
+          "Rafen",
+          "Nurofen Plus",
+          "Panafen Plus",
+          "Nuromol",
+          "Maxigesic",
+          "Act-3",
+          "Advil 12 Hour",
+          "Advil Childrens Pain and Fever 2 to 7 Years",
+          "Advil Childrens Pain and Fever 7 to 12 Years",
+          "Advil Childrens Pain and Fever Relief 2 to 12 Years",
+          "Advil Double Strength",
+          "Advil Double Strength Caplets",
+          "Advil Double Strength Liquid Capsules",
+          "Advil Infants Pain and Fever Relief 3 Months to 2 Years",
+          "Advil Mini Caps",
+          "Advil Rapid Release",
+          "Brufen Pain",
+          "Brufen Syrup",
+          "Bugesic",
+          "Butafen",
+          "Butalgin",
+          "Fenpaed",
+          "Fenpaed Double Strength",
+          "Iprofen",
+          "Nurofen Back Pain",
+          "Nurofen Caplet",
+          "Nurofen Double Strength",
+          "Nurofen Liquid Capsule",
+          "Nurofen Meltlets",
+          "Nurofen Migraine Pain",
+          "Nurofen Period Pain",
+          "Nurofen Quickzorb",
+          "Nurofen Regular",
+          "Nurofen Tension Headache",
+          "Nurofen Zavance",
+          "Nurofen Zavance Liquid Capsules",
+          "Nurofen for Children 1 to 5 Years",
+          "Nurofen for Children 3 Months to 5 Years",
+          "Nurofen for Children 5 to 12 Years",
+          "Nurofen for Children 7+ Years",
+          "Nurofen for Children Baby 3+ Months",
+          "Nurofen for Children Infant Drops",
+          "Nurofen for Children Meltlet",
+          "Panafen IB",
+          "Panafen IB Mini Cap",
+          "Proven",
+          "Tri-Profen"
+        ],
+        "indometacin": [
+          "Indocid",
+          "Arthrexin"
+        ],
+        "ketoprofen": [
+          "Orudis",
+          "Oruvail"
+        ],
+        "ketorolac": [
+          "Toradol",
+          "Ketoral"
+        ],
+        "mefenamic acid": [
+          "Ponstan",
+          "Femin",
+          "Mefic",
+          "Menamic"
+        ],
+        "meloxicam": [
+          "Mobic",
+          "Movalis",
+          "Moxicam",
+          "Meloxibell",
+          "Agilocam",
+          "Melobic",
+          "Melox",
+          "Meloxiauro",
+          "Meloxibindo",
+          "Mobelox"
+        ],
+        "naproxen": [
+          "Naprosyn",
+          "Naprosyn SR",
+          "Anaprox",
+          "Inza",
+          "Proxen SR",
+          "Naprogesic",
+          "Aleve",
+          "Vimovo",
+          "Aleve 24 Hour",
+          "Crysanal",
+          "Femme-Free",
+          "Naprofem",
+          "Naprosyn SR 1000",
+          "Nurolasts Period Pain",
+          "Proxen"
+        ],
+        "piroxicam": [
+          "Feldene",
+          "Mobilis",
+          "Candyl",
+          "Candyl-D",
+          "Feldene-D",
+          "Mobilis D",
+          "Pirohexal-D"
+        ],
+        "sulindac": [
+          "Aclin"
+        ],
+        "aspirin": [
+          "Aspro",
+          "Aspro Clear",
+          "Aspro Clear Extra Strength",
+          "Disprin Direct",
+          "Disprin Extra Strength",
+          "Disprin Max",
+          "Disprin Original",
+          "Disprin Regular",
+          "Solprin"
+        ]
+      },
+      "note": "Tablets, capsules, liquids, suppositories and injections count. Skin gels, creams and eye drops do not count. Count systemic aspirin here when the recorded purpose or directions show use for pain or inflammation. Count each aspirin supply once across Groups C and E. Nurofen Plus and Panafen Plus are ibuprofen with codeine. Nuromol and Maxigesic are ibuprofen with paracetamol. Arthrotec (diclofenac with misoprostol) and Vimovo (naproxen with esomeprazole) carry their own stomach protection."
+    },
+    {
+      "key": "F",
+      "name": "Stomach protection (proton pump inhibitors and misoprostol)",
+      "ingredients": [
+        "omeprazole",
+        "esomeprazole",
+        "pantoprazole",
+        "lansoprazole",
+        "rabeprazole",
+        "misoprostol"
+      ],
+      "brands": {
+        "omeprazole": [
+          "Losec",
+          "Acimax",
+          "Maxor",
+          "Maxor EC",
+          "Maxor Heartburn Relief",
+          "Meprazol",
+          "Omepral",
+          "Omepro",
+          "Omezole",
+          "Ozmep",
+          "Pemzo",
+          "Probitor"
+        ],
+        "esomeprazole": [
+          "Nexium",
+          "Axagon",
+          "Beezole",
+          "Emeprazol",
+          "Esopran",
+          "Esopreze",
+          "Guardium Acid Reflux Relief",
+          "Jubeso",
+          "Jubium",
+          "Mepreze",
+          "Nexazole",
+          "Nexcid",
+          "Nexium 24HR Once Daily Dosing",
+          "Nexole",
+          "Nexprazole",
+          "Noxicid",
+          "Noxicid Caps Heartburn Relief",
+          "Noxicid Tabs Heartburn Relief",
+          "Zanzole 24HR",
+          "Vimovo"
+        ],
+        "pantoprazole": [
+          "Somac",
+          "Pantoloc",
+          "Gastenz",
+          "Ozpan",
+          "Pantaccord",
+          "Panthron",
+          "Panto",
+          "Pantofast",
+          "Prazole",
+          "Rizil",
+          "Salpraz",
+          "Salpraz Heartburn Relief",
+          "Somac Heartburn Relief",
+          "Sozol",
+          "Suvacid Heartburn Relief",
+          "Topra",
+          "Torprazole",
+          "Torzole"
+        ],
+        "lansoprazole": [
+          "Zoton",
+          "Lanzopran",
+          "Zopral",
+          "Zopral ODT",
+          "Zoton Fastab"
+        ],
+        "rabeprazole": [
+          "Pariet",
+          "Parbezol",
+          "Parzol",
+          "Perizel DR",
+          "Prabez",
+          "Rabzole",
+          "Razit",
+          "Zabep"
+        ],
+        "misoprostol": [
+          "Cytotec",
+          "Arthrotec"
+        ]
+      },
+      "note": "The source does not define 'GI protection'. This working list holds proton pump inhibitors and misoprostol. Whether H2 blockers (for example famotidine) count is for the pharmacist to decide. Exclude Angusta and Gymiso from stomach protection even when their ingredient is recorded as misoprostol. If the use of an unidentified misoprostol product is unclear, ask which product was used and why before counting it as protection."
+    }
+  ],
+  "rule_for_models": "At age 65 or over, flag a Group A SSRI or Group B SNRI with exactly one of Group C (antiplatelet), D (anticoagulant) or E (systemic NSAID) when the courses overlap or supplies fall within 60 days of each other and no Group F stomach protection is supplied for that period. Assess two or more bleeding-risk groups under F2 regardless of protection. If this medicine pattern qualifies and age during the combination is missing, report only a possible finding, name the missing fact as Age and ask the pharmacist for the age in years at that time. A confirmed age below 65 excludes this episode. Count each aspirin supply once. If its purpose is unclear, check both possible uses for that course. If both give one unprotected group, report F1. If both give two or more groups, assess F2. If only one gives F1, report only a possible F1 finding, cite the aspirin supply and ask the pharmacist whether that aspirin was used for clot prevention or for pain or inflammation during that course. For an F1 finding, ask the patient whether they used any stomach-protecting or acid-lowering medicine during the same period, including products bought without a prescription or supplied by a hospital or another pharmacy, and if so which product, dose and timing. Before contacting the GP, have the pharmacist consider that answer and any H2 blocker in the record or reported by the patient, and decide whether an H2 blocker provided adequate protection.",
+  "cannot_be_seen": "Medicines bought without a prescription or supplied by another pharmacy or hospital may be missing, including aspirin, NSAIDs and stomach protection. The supplies alone do not show what was taken or a history of ulcers or bleeding.",
+  "ask_the_gp": "A review of whether both medicines are still needed and whether stomach protection is advisable.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

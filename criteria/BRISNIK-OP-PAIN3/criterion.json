@@ -1,0 +1,181 @@
+{
+  "id": "BRISNIK-OP-PAIN3",
+  "label": "Brisnik OP-PAIN3",
+  "family": "BRISNIK",
+  "title": "SSRI or mirtazapine for neuropathic pain",
+  "statement": "Prescribed SSRI or mirtazapine for neuropathic pain - and the patient has no other indications for an antidepressant",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "An SSRI antidepressant or mirtazapine used only for nerve pain, when the person has no other reason to take an antidepressant, may not be helping.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "SSRIs and mirtazapine",
+      "ingredients": [
+        "citalopram",
+        "escitalopram",
+        "fluoxetine",
+        "fluvoxamine",
+        "paroxetine",
+        "sertraline",
+        "mirtazapine"
+      ],
+      "brands": {
+        "citalopram": [
+          "Cipramil",
+          "Celapram",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talam",
+          "Talohexal"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam",
+          "Loxalate"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Zactin",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Paxtine",
+          "Aropax CR",
+          "Extine",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ],
+        "sertraline": [
+          "Zoloft",
+          "Concorz",
+          "Detralon",
+          "Eleva",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Setrona",
+          "Tralen",
+          "Xydep"
+        ],
+        "mirtazapine": [
+          "Avanza",
+          "Remeron",
+          "Mirtazon",
+          "Aurozapine",
+          "Avanza Soltab",
+          "Axit",
+          "Milivin OD",
+          "Mirtanza",
+          "Mirtanza ODT",
+          "Remeron Soltab"
+        ]
+      },
+      "note": "Tablets, including those that dissolve in the mouth, oral wafers, capsules and liquids count. A pack labelled with a listed ingredient and a company name counts. SSRI means selective serotonin reuptake inhibitor. Venlafaxine, duloxetine and the older tricyclic antidepressants are not in this group."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Neuropathic pain as a reason for the SSRI or mirtazapine being reviewed",
+      "meets": "The directions, a clinical entry or the pharmacist identify nerve pain as a reason for this SSRI or mirtazapine course. A diagnosis or a generic Yes to having nerve pain is only a clue.",
+      "ask_when": {
+        "group": "A"
+      },
+      "options": [
+        {
+          "words": "The SSRI was prescribed for neuropathic pain",
+          "effect": "meets"
+        },
+        {
+          "words": "Mirtazapine was prescribed for neuropathic pain",
+          "effect": "meets"
+        },
+        {
+          "words": "Both the SSRI and mirtazapine were prescribed for neuropathic pain",
+          "effect": "meets"
+        },
+        {
+          "words": "None of these supplies was prescribed for neuropathic pain",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "condition",
+      "what": "Any other current indication for an antidepressant",
+      "meets": "A review confirms no other current indication for an antidepressant during the course under review. Another current indication excludes the finding. If this has not been assessed, the answer is unknown.",
+      "options": [
+        {
+          "words": "No other current indication besides neuropathic pain was found on review",
+          "effect": "meets"
+        },
+        {
+          "words": "Another current indication besides neuropathic pain was confirmed",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Require a Group A SSRI or mirtazapine supply. Confirm when an entry links this medicine to nerve pain and a review confirms there is no other current antidepressant indication. Another current indication or use solely for another purpose excludes a finding. With a nerve pain clue and an unresolved treatment purpose or indication review, report a possible finding and ask only about what is missing. A diagnosis or a Yes to having nerve pain is a clue, even if entered for another medicine. Supplies alone give no finding. Cite the supply and supporting clinical entries or pharmacist answers.",
+  "cannot_be_seen": "Why the antidepressant was started, whether it helps the pain, and any reason for an antidepressant that the record does not hold. Also medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "What is the SSRI or mirtazapine being used for? If it is for neuropathic pain, could we review its benefit, adverse effects and any other indication?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

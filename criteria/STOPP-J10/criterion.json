@@ -1,0 +1,84 @@
+{
+  "id": "STOPP-J10",
+  "label": "STOPP J10",
+  "family": "STOPP_START",
+  "title": "Desmopressin for urinary incontinence or frequency",
+  "statement": "Vasopressin analogues (e.g., desmopressin, vasopressin) for urinary incontinence or urinary frequency (risk of symptomatic hyponatraemia).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Desmopressin or vasopressin used for leaking urine or passing urine often can lower the blood sodium to a harmful level.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Vasopressin analogues",
+      "ingredients": [
+        "desmopressin",
+        "argipressin"
+      ],
+      "brands": {
+        "desmopressin": [
+          "Minirin",
+          "Minirin Melt",
+          "Nocdurna",
+          "Adin",
+          "Adin Melt",
+          "Desmomed",
+          "Octostim"
+        ],
+        "argipressin": [
+          "Pitressin",
+          "Argipressin Medsurge"
+        ]
+      },
+      "note": "Desmopressin is also used for diabetes insipidus and for bedwetting in children. Those uses are not what this criterion is about. Vasopressin is another name for argipressin. DDAVP is another name for desmopressin. Argipressin is a hospital injection and rarely appears in a dispensing history. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Reason for this desmopressin or vasopressin supply",
+      "meets": "The directions, another record line or the pharmacist's answer identifies urinary incontinence or urinary frequency as a reason for this supply.",
+      "options": [
+        {
+          "words": "Leaking urine or passing urine frequently",
+          "effect": "meets"
+        },
+        {
+          "words": "Cranial diabetes insipidus only",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Confirmed idiopathic nocturnal polyuria only",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Another confirmed reason only",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Only nocturia is recorded and the reason is unclear",
+          "effect": "unknown"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "From age 65, cite a Group A supply and evidence that urinary incontinence or frequency is the reason for that supply. If age is unknown and the other criteria could be met, report only a possible finding and ask the pharmacist to confirm whether the person is 65 or older. If no indication is recorded or the indication is unclear, including when only nocturia is recorded, report a possible finding and name the missing reason for use, but give no J10 finding if the supply was solely for another confirmed indication, such as cranial diabetes insipidus or confirmed idiopathic nocturnal polyuria alone.",
+  "cannot_be_seen": "The reason for desmopressin or vasopressin may be missing. Use any recorded indication, sodium results and supplies of other medicines that may lower sodium. The record may omit fluid intake, results from other services and medicines obtained elsewhere. A supply does not establish actual intake.",
+  "ask_the_gp": "Why desmopressin is being used and whether it is still needed, and a check of the blood sodium.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

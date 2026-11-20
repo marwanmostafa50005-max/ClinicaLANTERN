@@ -1,0 +1,95 @@
+{
+  "id": "KHAWAGI-G016",
+  "label": "Khawagi review: Review oral risperidone in a person aged 65 or older with recorded syncope or postural hypotension",
+  "family": "KHAWAGI",
+  "title": "Review oral risperidone in a person aged 65 or older with recorded syncope or postural hypotension",
+  "statement": "Review oral risperidone in a person aged 65 or older with recorded syncope or postural hypotension.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Khawagi et al. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. S3 File.",
+    "citation": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. PLoS ONE 2019;14(5):e0217406.",
+    "doi": "10.1371/journal.pone.0217406",
+    "url": "https://doi.org/10.1371/journal.pone.0217406.s003",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. PLoS ONE 2019;14(5):e0217406. https://doi.org/10.1371/journal.pone.0217406; S3 File, https://doi.org/10.1371/journal.pone.0217406.s003. © 2019 Khawagi et al., CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). S3 File, G016. Original screening wording and Australian adaptations. S3 reference(s) as indexed in the supplied qualification: [84]. Clinical cross-check: Risperidone Australian PI (https://www.safetyandquality.gov.au/medicine-finder/risperidone-sandoz).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "Review oral risperidone in a person aged 65 or older with recorded syncope or postural hypotension.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Oral risperidone",
+      "ingredients": [
+        "risperidone"
+      ],
+      "brands": {
+        "risperidone": [
+          "Risperdal",
+          "Ozidal",
+          "Resdone",
+          "Respaz",
+          "Risdone",
+          "Rispa",
+          "Rispaccord",
+          "Rispaccord-0.5",
+          "Risperdal Quicklet",
+          "Risperibell",
+          "Rispericor",
+          "Rispericor-0.5",
+          "Risperisan",
+          "Rispernia",
+          "Rixadone",
+          "Sperid"
+        ]
+      },
+      "note": "Count oral formulations only. Exclude injections, including depots."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Syncope",
+      "meets": "A diagnosis of syncope applies at supply. Either this or postural hypotension qualifies.",
+      "options": [
+        {
+          "words": "Syncope was confirmed and relevant at this supply",
+          "effect": "meets"
+        },
+        {
+          "words": "No syncope relevant at this supply",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "condition",
+      "what": "Postural hypotension",
+      "meets": "A diagnosis of postural or orthostatic hypotension applies at supply. Either this or syncope qualifies.",
+      "options": [
+        {
+          "words": "Postural hypotension was confirmed and relevant at this supply",
+          "effect": "meets"
+        },
+        {
+          "words": "No postural hypotension relevant at this supply",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Report one finding for oral risperidone supplied at age 65 or older with documented syncope or postural hypotension relevant to supply. Cite the oral supply and a diagnosis or pharmacist answer confirming either condition was relevant at that supply. Give no finding for an injection, age below 65, or when both conditions are explicitly excluded. If the available facts fit but age at supply is unknown, report only a possible finding and ask whether the person was at least 65. If neither is confirmed and at least one remains unknown, report only a possible finding naming whichever of syncope and postural hypotension still needs checking. Cite the supply. Ask about fainting or dizziness on standing. These symptoms can guide the question but do not confirm a diagnosis.",
+  "cannot_be_seen": "Dispensing does not establish actual use, indication or a prescriber’s intent. Treatment and assessments elsewhere may be missing.",
+  "ask_the_gp": "Could you confirm whether this patient has syncope or postural hypotension and review whether oral risperidone remains suitable?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "file": "SCOTPOLY-CT-3/pos-brand.csv",
+    "kind": "positive",
+    "about": "Daily Zoloft (L018) covers 3 June when a single intramuscular Toradol dose (L019) is recorded.",
+    "findings": [
+      {
+        "criterion": "SCOTPOLY-CT-3",
+        "must_cite": [
+          [
+            "L018"
+          ],
+          [
+            "L019"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "SCOTPOLY-CT-3/pos-buried.csv",
+    "kind": "positive",
+    "about": "Daily Lexapro (L035) overlaps twice-daily Naprosyn (L038) from 11 to 24 February.",
+    "findings": [
+      {
+        "criterion": "SCOTPOLY-CT-3",
+        "must_cite": [
+          [
+            "L035"
+          ],
+          [
+            "L038"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "SCOTPOLY-CT-3/near-miss.csv",
+    "kind": "near_miss",
+    "about": "During Zoloft treatment the only NSAID supplies are Voltaren Emulgel for the skin (L019) and Acular eye drops (L020).",
+    "findings": []
+  }
+]

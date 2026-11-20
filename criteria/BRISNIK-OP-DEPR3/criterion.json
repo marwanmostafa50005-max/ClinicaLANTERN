@@ -1,0 +1,301 @@
+{
+  "id": "BRISNIK-OP-DEPR3",
+  "label": "Brisnik OP DEPR3: one antidepressant, no improvement, under 65",
+  "family": "BRISNIK",
+  "title": "One antidepressant for 4 weeks or more without improvement, under 65",
+  "statement": "Prescribed an antidepressant in monotherapy for ≥ 4 weeks - and the patient is aged < 65 years with no signs of clinically relevant symptom improvement[1]",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A person under 65 who has taken a single antidepressant for 4 weeks or more at the recommended dose for depression or their documented highest tolerated dose with no real improvement may need a different plan, so a review is worth asking for. Source note [1] reads 'At the maximum tolerated or recommended dose'.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antidepressants",
+      "ingredients": [
+        "sertraline",
+        "escitalopram",
+        "citalopram",
+        "fluoxetine",
+        "paroxetine",
+        "fluvoxamine",
+        "venlafaxine",
+        "desvenlafaxine",
+        "duloxetine",
+        "vortioxetine",
+        "agomelatine",
+        "reboxetine",
+        "amitriptyline",
+        "nortriptyline",
+        "dosulepin",
+        "doxepin",
+        "imipramine",
+        "clomipramine",
+        "moclobemide",
+        "phenelzine",
+        "tranylcypromine",
+        "mirtazapine",
+        "mianserin",
+        "trazodone",
+        "trimipramine"
+      ],
+      "brands": {
+        "sertraline": [
+          "Zoloft",
+          "Setrona",
+          "Concorz",
+          "Detralon",
+          "Eleva",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Tralen",
+          "Xydep"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam",
+          "Loxalate"
+        ],
+        "citalopram": [
+          "Cipramil",
+          "Celapram",
+          "Talam",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talohexal"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet",
+          "Zactin"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Paxtine",
+          "Aropax CR",
+          "Extine",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ],
+        "venlafaxine": [
+          "Efexor-XR",
+          "Altven",
+          "Elaxine SR",
+          "Enlafax XR",
+          "Evelexa XR",
+          "Ozvenaf",
+          "Venfax SR",
+          "Venla",
+          "Venlexor XR"
+        ],
+        "desvenlafaxine": [
+          "Pristiq",
+          "Desfax",
+          "Desven"
+        ],
+        "duloxetine": [
+          "Cymbalta",
+          "Andepra",
+          "Baltine",
+          "Coperin",
+          "Deotine",
+          "Depreta",
+          "Drulox",
+          "Dulocym",
+          "Duloxecor",
+          "Dytrex",
+          "Symlox",
+          "Texotine",
+          "Tixol",
+          "Xerol DR"
+        ],
+        "vortioxetine": [
+          "Brintellix"
+        ],
+        "agomelatine": [
+          "Valdoxan",
+          "Domion",
+          "Nortim",
+          "Valomel"
+        ],
+        "reboxetine": [
+          "Edronax"
+        ],
+        "amitriptyline": [
+          "Endep",
+          "Entrip",
+          "Amichlor",
+          "Amidep"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "NortriTABS"
+        ],
+        "dosulepin": [
+          "Dothep",
+          "Prothiaden"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "moclobemide": [
+          "Aurorix",
+          "Arima",
+          "Amira",
+          "Clobemide",
+          "Clobemix",
+          "Maosig",
+          "Mohexal"
+        ],
+        "phenelzine": [
+          "Nardil"
+        ],
+        "tranylcypromine": [
+          "Parnate",
+          "Parpromine",
+          "Tranamef",
+          "Tranylmed"
+        ],
+        "mirtazapine": [
+          "Avanza",
+          "Axit",
+          "Remeron",
+          "Aurozapine",
+          "Avanza Soltab",
+          "Milivin OD",
+          "Mirtanza",
+          "Mirtanza ODT",
+          "Mirtazon",
+          "Remeron Soltab"
+        ],
+        "mianserin": [
+          "Tolvon",
+          "Lumin"
+        ],
+        "trazodone": [
+          "Desyrel"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ]
+      },
+      "note": "Tablets, capsules and liquids count. Low doses of amitriptyline, doxepin, mirtazapine and trazodone are often taken for pain or sleep, and a dispensing history cannot show the reason. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Response to depression treatment after four weeks at the qualifying dose",
+      "meets": "Assess response to this course after at least 28 days at the qualifying dose. Accept a dated clinical assessment of persistent symptoms without meaningful improvement, or comparable baseline and follow-up scores interpreted for that scale and baseline severity. If response is unclear, report a possible finding and request the missing assessment. Clear improvement rules out the finding.",
+      "options": [
+        {
+          "words": "A review after at least four weeks at the qualifying dose found no meaningful improvement",
+          "effect": "meets"
+        },
+        {
+          "words": "The review found meaningful improvement",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "The assessment was too early or its timing or outcome is unclear",
+          "effect": "unknown"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "condition",
+      "what": "Depression as the reason for this antidepressant",
+      "meets": "The record links this course to depression. If the medicine is used solely for another reason, there is no finding. If the reason is unknown, report at most a possible finding and ask whether it treats depression.",
+      "options": [
+        {
+          "words": "Depression was an indication for the monotherapy course under review",
+          "effect": "meets"
+        },
+        {
+          "words": "The monotherapy course was used only for another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "result",
+      "what": "Documented highest tolerated daily dose of the antidepressant on this course (mg/day)",
+      "meets": "Use the documented highest tolerated dose in mg/day for the same medicine and course. Compare it with the prescribed daily dose. The recommended dose for depression qualifies independently. Check duration separately."
+    },
+    {
+      "kind": "result",
+      "what": "Age in whole years",
+      "meets": "Age below 65 years at the depression review meets the age test. Use the recorded age first. If age is missing, enter the person's age in whole years and the date it applied. Use it only when it establishes the age band at review."
+    }
+  ],
+  "rule_for_models": "For a person aged under 65, report a finding when a Group A medicine was prescribed as the only antidepressant to treat depression for at least 28 continuous days at the recommended or documented highest tolerated dose and the subsequent assessment shows no meaningful improvement. Use strength and directions for the daily dose and quantity for covered days, or use a documented course length. Count spare stock only within the same course, count each covered day once and stop at assessment. Ignore medicines stopped before the course. Accept a dated clinical assessment, comparable scores interpreted for the scale and baseline severity, or a pharmacist's account of the review after the qualifying period. Use the age at review from the patient details or a dated age record. Match any separate directions to the medicine, strength and dates of this course. A recommended dose alone does not establish units per day. Use a pharmacist's answer only where the record links it to the course under review. A different age band, another sole indication, concurrent antidepressant treatment, a known insufficient trial or meaningful improvement excludes the finding. If evidence is missing and the course could otherwise qualify, report only a possible finding. Name only what is missing. The exact names for missing age, indication and response are \"Age in whole years\", \"Depression as the reason for this antidepressant\" or \"Response to depression treatment after four weeks at the qualifying dose\". If only the highest tolerated dose could qualify and is unknown, name \"Documented highest tolerated daily dose of the antidepressant on this course (mg/day)\". If monotherapy, the prescribed units per day or the period of cover is unclear, name the medicine and the missing details in the reason for pharmacist review. Do not assume directions from a different period. The indication can be in a condition, a supply direction or a clinical note. In the list of line IDs, cite the qualifying supply or supplies, the original baseline and follow-up when comparing scores (even if the follow-up repeats the baseline) or the dated clinical assessment otherwise, the indication, then the dated age, directions and highest tolerated dose lines used.",
+  "cannot_be_seen": "Whether the dose is the highest the person can tolerate, whether the person really takes the medicine every day, how the person feels, and any talking therapy. Why the antidepressant was started. Medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "A review of how the person is responding to the antidepressant and whether the treatment plan needs to change.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,96 @@
+{
+  "id": "STOPP-I6",
+  "label": "STOPP I6: mirabegron with severe or labile hypertension",
+  "family": "STOPP_START",
+  "title": "Mirabegron with severe or labile hypertension",
+  "statement": "Mirabegron in labile or severe hypertension (risk of exacerbation of hypertension).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Mirabegron, a bladder medicine, can raise blood pressure, so it can make severe or swinging high blood pressure worse. If the person is taking mirabegron and their current blood pressure is confirmed at 180 mmHg systolic or higher or 110 mmHg diastolic or higher, they need review today. Otherwise, ask for a routine review.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Mirabegron",
+      "ingredients": [
+        "mirabegron"
+      ],
+      "brands": {
+        "mirabegron": [
+          "Betmiga"
+        ]
+      },
+      "note": "Mirabegron is not an antimuscarinic. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Severe or labile hypertension",
+      "meets": "The assessment identifies severe or labile hypertension during mirabegron use.",
+      "options": [
+        {
+          "words": "Severe hypertension during this course",
+          "effect": "meets"
+        },
+        {
+          "words": "Labile hypertension during this course",
+          "effect": "meets"
+        },
+        {
+          "words": "Both severe and labile hypertension during this course",
+          "effect": "meets"
+        },
+        {
+          "words": "Neither severe nor labile during this course",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Blood pressure assessment during mirabegron treatment",
+      "meets": "An assessment identifies severe or labile hypertension during mirabegron treatment, or reliable repeated readings during treatment each show systolic pressure of at least 180 mmHg or diastolic pressure of at least 110 mmHg.",
+      "options": [
+        {
+          "words": "An assessment during mirabegron treatment identified severe or labile hypertension",
+          "effect": "meets"
+        },
+        {
+          "words": "Reliable repeated readings during mirabegron treatment each showed systolic pressure of at least 180 mmHg or diastolic pressure of at least 110 mmHg",
+          "effect": "meets"
+        },
+        {
+          "words": "The assessment during mirabegron treatment excluded severe or labile hypertension",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Only one unexplained reading is available",
+          "effect": "unknown"
+        },
+        {
+          "words": "Severity, lability or timing not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "For a person aged 65 or older supplied mirabegron, confirm a finding if a condition or observation records severe or labile hypertension during treatment. If age is unknown and the other criteria could be met, report only a possible finding and ask the pharmacist to confirm whether the person is 65 or older. Reliable repeated readings during treatment also confirm a finding if each shows systolic pressure of at least 180 mmHg or diastolic pressure of at least 110 mmHg. A pharmacist assessment confirming either the diagnosis or the repeated severe readings during treatment counts. Give no finding when the assessment during supply excludes both severe and labile hypertension and there is no qualifying pattern of high readings. Stable readings below both thresholds do not cancel a documented diagnosis during that course. If neither route confirms a finding and the evidence does not exclude both severe and labile hypertension during treatment, report a possible finding and name the missing fact \"Blood pressure assessment during mirabegron treatment\". Use this one question when the diagnosis, readings or their timing is unclear. A single unexplained reading, the word \"uncontrolled\" alone or unassessed variation leaves this uncertain. For every finding, cite a mirabegron supply. For a confirmed finding, also cite the diagnosis or assessment during treatment, the readings showing the repeated severe pattern, or the pharmacist confirmation of that pattern during treatment.",
+  "cannot_be_seen": "How high the blood pressure has been, how steady it is, and how well it is controlled, when the record has no such lines. Home readings and readings taken at other clinics do not show.",
+  "ask_the_gp": "Could we review mirabegron today if the patient is taking it and current blood pressure is confirmed at 180 mmHg systolic or higher or 110 mmHg diastolic or higher? Otherwise, could we review the recent blood pressure and whether mirabegron remains suitable?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

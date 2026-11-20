@@ -1,0 +1,45 @@
+[
+  {
+    "file": "EU7-F38/pos-brand.csv",
+    "kind": "positive",
+    "about": "Kliovance (oral oestradiol with norethisterone) is supplied five times from March to July 2026 for a woman aged 67, by brand name only.",
+    "findings": [
+      {
+        "criterion": "EU7-F38",
+        "must_cite": [
+          [
+            "L010",
+            "L014",
+            "L018",
+            "L022",
+            "L026"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F38/pos-buried.csv",
+    "kind": "positive",
+    "about": "Premarin (conjugated oestrogens by mouth) is supplied four times in the middle of a 14-month history for a woman aged 70.",
+    "findings": [
+      {
+        "criterion": "EU7-F38",
+        "must_cite": [
+          [
+            "L027",
+            "L032",
+            "L036",
+            "L042"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F38/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Vagifem Low (oestradiol vaginal pessaries) is supplied three times. It is placed in the vagina, not taken by mouth, so nothing must flag.",
+    "findings": []
+  }
+]

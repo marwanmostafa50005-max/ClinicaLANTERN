@@ -1,0 +1,50 @@
+[
+  {
+    "file": "SCOTNTI-RESP-06/pos-brand.csv",
+    "kind": "positive",
+    "about": "Three Ventolin supplies each contain two canisters. They establish six within 12 months even before the separate supply recorded as 200 actuations.",
+    "findings": [
+      {
+        "criterion": "SCOTNTI-RESP-06",
+        "must_cite": [
+          [
+            "L007"
+          ],
+          [
+            "L018"
+          ],
+          [
+            "L027"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "SCOTNTI-RESP-06/pos-buried.csv",
+    "kind": "positive",
+    "about": "Three Bricanyl Turbuhaler supplies each contain two dry-powder inhalers, giving six devices within 12 months.",
+    "findings": [
+      {
+        "criterion": "SCOTNTI-RESP-06",
+        "must_cite": [
+          [
+            "L031"
+          ],
+          [
+            "L041"
+          ],
+          [
+            "L050"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "SCOTNTI-RESP-06/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Two Ventolin supplies each contain 2 canisters, giving only 4 SABA canisters over 12 months.",
+    "findings": []
+  }
+]

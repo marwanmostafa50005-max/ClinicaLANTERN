@@ -1,0 +1,81 @@
+{
+  "id": "GERARD-33",
+  "label": "Gerard: repaglinide or sulfonylurea treatment with BMI above 30",
+  "family": "GERARD",
+  "title": "Repaglinide or sulfonylurea treatment with BMI above 30",
+  "statement": "It is necessary to review and optimize the prescription of a hypoglycaemic drug (repaglinide or sulfonylurea) in a patient with a BMI>30kg/m².",
+  "statement_origin": "published",
+  "source": {
+    "document": "Development of explicit definitions of potentially inappropriate prescriptions for antidiabetic drugs in people with type 2 diabetes: A Delphi survey and consensus meeting",
+    "citation": "Gerard E, Bugday D, Calafiore M, Baran J, Gautier S, Henry H, et al. (2025). Development of explicit definitions of potentially inappropriate prescriptions for antidiabetic drugs in people with type 2 diabetes: A Delphi survey and consensus meeting. PLOS ONE 20(10), e0334836.",
+    "doi": "10.1371/journal.pone.0334836",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0334836",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "© 2025 Gerard et al. Gerard E, Bugday D, Calafiore M, Baran J, Gautier S, Henry H, et al. (2025). Development of explicit definitions of potentially inappropriate prescriptions for antidiabetic drugs in people with type 2 diabetes: A Delphi survey and consensus meeting. PLOS ONE 20(10), e0334836. https://doi.org/10.1371/journal.pone.0334836. Table 2. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The statements are reproduced. The qualification decisions and Australian mappings are additions by GPT-6.2 Astra.",
+    "modification_notice": "Table 2 wording is reproduced unchanged. The Australian medicine groups, screening rules and fictional histories are adaptations by GPT-6.2 Astra."
+  },
+  "plain_summary": "Review the choice of repaglinide or sulfonylurea when someone with type 2 diabetes has a recorded BMI above 30 kg/m² during treatment.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Repaglinide or a sulfonylurea",
+      "ingredients": [
+        "gliclazide",
+        "glimepiride",
+        "glipizide",
+        "glibenclamide",
+        "repaglinide"
+      ],
+      "brands": {
+        "repaglinide": [
+          "NovoNorm"
+        ],
+        "gliclazide": [
+          "Gliclazide MR-WGR",
+          "Diamicron",
+          "Diamicron MR",
+          "Glyade",
+          "Nidem",
+          "Oziclide MR"
+        ],
+        "glimepiride": [
+          "Glimepiride Sandoz",
+          "Amaryl",
+          "Dimirel",
+          "Aylide",
+          "Diapride"
+        ],
+        "glipizide": [
+          "Glipidiab",
+          "Melizide",
+          "Minidiab"
+        ],
+        "glibenclamide": [
+          "Daonil",
+          "Glimel",
+          "Semi-Daonil"
+        ]
+      },
+      "note": "Count generic packs, including an ingredient name followed by a company name. Count a combination pack when one of its active ingredients is listed here."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Type 2 diabetes",
+      "meets": "Documented type 2 diabetes at the time of treatment."
+    },
+    {
+      "kind": "result",
+      "what": "BMI",
+      "meets": "Recorded BMI above 30 kg/m² during treatment with repaglinide or a sulfonylurea."
+    }
+  ],
+  "rule_for_models": "For a finding, cite the Group A supply, type 2 diabetes diagnosis and evidence that BMI was above 30 kg/m² during treatment. A dated measurement or a pharmacist's answer confirming the measured range during this course counts. Estimate cover from the supply date, quantity dispensed and labelled schedule. If unclear directions leave the measurement plausibly within treatment, report only a possible finding and ask about the dose, frequency and treatment dates. Before writing about a possible finding, ask whether the medicine is for type 2 diabetes and check whether a measured BMI during treatment was above 30 kg/m². Use the measurement date to check that a BMI in kg/m² was measured during treatment. If diabetes type, BMI or its timing is unknown and the rest fits, report only a possible finding. Name each missing fact using \"Type 2 diabetes\" or \"BMI\" as applicable. Report no finding for a BMI of 30 kg/m² or less during treatment or a diagnosis that excludes type 2 diabetes.",
+  "cannot_be_seen": "Weight alone does not establish BMI. The person's weight goals, previous treatment experience and access to alternatives may be missing.",
+  "ask_the_gp": "Could you confirm the BMI during treatment and, if it was above 30 kg/m², review the medicine in light of the person's weight goals and access to alternatives?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

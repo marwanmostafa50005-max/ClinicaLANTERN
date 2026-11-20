@@ -1,0 +1,123 @@
+{
+  "id": "POPI-07",
+  "label": "POPI: morphine and osmotic laxative cover",
+  "family": "POPI",
+  "title": "Morphine for more than 48 hours without an osmotic laxative in a child",
+  "statement": "Failure to give an osmotic laxative to patients being treated with morphine for a period of more than 48 hours",
+  "statement_origin": "published",
+  "source": {
+    "document": "International consensus validation of the POPI tool (Pediatrics: Omission of Prescriptions and Inappropriate prescriptions) to identify inappropriate prescribing in pediatrics",
+    "citation": "Sadozai L, Sable S, Le Roux E, et al. International consensus validation of the POPI tool (Pediatrics: Omission of Prescriptions and Inappropriate prescriptions) to identify inappropriate prescribing in pediatrics. PLOS ONE. 2020;15(10):e0240105.",
+    "doi": "10.1371/journal.pone.0240105",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0240105",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "© 2020 Sadozai et al. Table 2, International consensus validation of the POPI tool. PLOS ONE 15(10), e0240105. https://doi.org/10.1371/journal.pone.0240105. CC BY 4.0.",
+    "modification_notice": "The published item is reproduced unchanged. The summary, screening rule, medicine examples and fictional histories were added for pharmacist review."
+  },
+  "plain_summary": "POPI asks whether a child treated with morphine for pain for more than 48 hours also received an osmotic laxative. Australian guidance differs: for children receiving regular opioids for acute pain, monitor bowel function and consider regular stool softeners and stimulant laxatives (SA Health, 2022).",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Morphine",
+      "ingredients": [
+        "morphine"
+      ],
+      "brands": {
+        "morphine": [
+          "Ordine",
+          "Anamorph",
+          "Kapanol",
+          "MS Contin",
+          "MS Contin Suspension",
+          "MS Mono",
+          "MS Normal",
+          "Momex SR",
+          "RA-Morph",
+          "Sevredol"
+        ]
+      }
+    },
+    {
+      "key": "B",
+      "name": "Osmotic laxatives",
+      "ingredients": [
+        "macrogol 3350",
+        "lactulose",
+        "sorbitol",
+        "macrogol 4000"
+      ],
+      "brands": {
+        "macrogol 3350": [
+          "Movicol Junior Flavour Free",
+          "Movicol",
+          "Movicol Junior",
+          "Movicol-Half",
+          "OsmoLax",
+          "OsmoLax Relief"
+        ],
+        "lactulose": [
+          "Dulose",
+          "Actilax",
+          "Duphalac",
+          "Genlac",
+          "Lac-Dol",
+          "Lactocur"
+        ],
+        "sorbitol": [
+          "Sorbilax"
+        ],
+        "macrogol 4000": [
+          "Coloxyl Macrogol for Children"
+        ]
+      },
+      "note": "Any osmotic laxative counts. Senna alone is a stimulant laxative. Exclude bowel preparation for a procedure and sorbitol used only as an excipient. Count oral macrogol 3350 or macrogol 4000 for constipation, with or without electrolytes, and oral sorbitol supplied as a laxative."
+    }
+  ],
+  "rule_for_models": "Apply under age 18. If age is unknown and the medicines and course otherwise raise concern, report only a possible finding and ask for age. A known age of 18 or older gives no finding. For each Group A morphine course, check whether the child received morphine for pain for more than 48 hours without Group B osmotic laxative cover. Use the directions and dated facts for that course. Full cover, another reason only, or treatment lasting 48 hours or less gives no finding for that course. Assess cover from the dates, directions and quantity of a laxative supplied during or before the course. Count any recorded outside laxative use on the dates it covered. Report missing or partial cover from the available record and ask the pharmacist to check outside supplies with the family before contacting the GP. Use the stated course length first. For a scheduled course with a fixed quantity, divide the quantity intended for the course by the amount prescribed per day in the same units. Do not infer continuous use from spare liquid, a pack size or repeat dates alone. If the indication is unclear and the course could otherwise qualify, ask for 'Reason for this morphine course'. If the duration is unclear, including with as-needed dosing, ask for 'Duration of this morphine course' only if cover is missing or uncertain and the course could qualify. If the course could still qualify and either fact remains unknown, cite the morphine supply and report only a possible finding. When pain and more than 48 hours are established with no recorded cover, report a finding and cite the morphine supply and any facts needed to establish the reason and duration. For partial or uncertain cover, report only a possible finding and ask which days the laxative was given. Use answers only for the course they describe.",
+  "cannot_be_seen": "The record shows the prescribed schedule. It cannot confirm which doses the child took or show a laxative bought without a prescription or obtained from another pharmacy or hospital.",
+  "ask_the_gp": "Could you confirm the duration of morphine treatment and review the child's bowel regimen, including any osmotic laxative given at home or in hospital?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Reason for this morphine course",
+      "meets": "Morphine was given for pain during this course.",
+      "options": [
+        {
+          "words": "Pain",
+          "effect": "meets"
+        },
+        {
+          "words": "Another reason only",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Duration of this morphine course",
+      "meets": "The child received morphine for more than 48 hours during this course.",
+      "options": [
+        {
+          "words": "More than 48 hours",
+          "effect": "meets"
+        },
+        {
+          "words": "48 hours or less",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "file": "KHAWAGI-G043/pos-fact.csv",
+    "kind": "positive",
+    "about": "The dated assessment confirms acute bipolar depression and links the amitriptyline supply to this episode.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G043",
+        "must_cite": [
+          [
+            "L028"
+          ],
+          [
+            "L030"
+          ],
+          [
+            "L029"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G043/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the adult has recorded bipolar disorder and an oral amitriptyline supply, but the record does not establish Acute bipolar depression or Tricyclic treatment indication at that supply.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G043",
+        "must_cite": [
+          [
+            "L018"
+          ],
+          [
+            "L020"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G043/near-miss.csv",
+    "kind": "near_miss",
+    "about": "A dated assessment confirms a new bipolar depressive episode after earlier remission, but the amitriptyline directions specify neuropathic pain.",
+    "findings": []
+  }
+]

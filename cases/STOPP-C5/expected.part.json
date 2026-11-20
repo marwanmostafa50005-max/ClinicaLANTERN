@@ -1,0 +1,74 @@
+[
+  {
+    "file": "STOPP-C5/pos-fact.csv",
+    "kind": "positive",
+    "about": "Warfarin overlapped daily aspirin tablet fractions while peripheral arterial disease was stable, and the later aspirin supply for toothache does not count.",
+    "findings": [
+      {
+        "criterion": "STOPP-C5",
+        "must_cite": [
+          [
+            "L003",
+            "L007",
+            "L011",
+            "L014",
+            "L019",
+            "L022",
+            "L027",
+            "L030",
+            "L035"
+          ],
+          [
+            "L002",
+            "L010",
+            "L018",
+            "L024",
+            "L031",
+            "L038"
+          ],
+          [
+            "L043"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-C5/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about coronary, cerebrovascular or peripheral arterial disease. Xarelto (rivaroxaban) and Plavix (clopidogrel) are both supplied eight times from November 2025.",
+    "findings": [
+      {
+        "criterion": "STOPP-C5",
+        "must_cite": [
+          [
+            "L002",
+            "L006",
+            "L010",
+            "L014",
+            "L018",
+            "L022",
+            "L026",
+            "L030"
+          ],
+          [
+            "L001",
+            "L005",
+            "L009",
+            "L013",
+            "L017",
+            "L021",
+            "L025",
+            "L029"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-C5/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Marevan (warfarin) and Cartia (aspirin) are both supplied, but the record shows a mechanical heart valve and says no coronary, cerebrovascular or peripheral arterial disease, so there is no finding.",
+    "findings": []
+  }
+]

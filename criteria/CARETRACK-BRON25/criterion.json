@@ -1,0 +1,171 @@
+{
+  "id": "CARETRACK-BRON25",
+  "label": "CareTrack Kids BRON25",
+  "family": "CARETRACK",
+  "title": "Antibiotic for mild or moderate viral bronchiolitis in an infant",
+  "statement": "Infants (aged < 12 months) with mild to moderate bronchiolitis caused by a viral infection were not prescribed antibiotics.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Assessing the appropriateness of paediatric antibiotic overuse in Australian children: a population-based sample survey, Table 1",
+    "citation": "Arnolda G, Hibbert P, Ting HP, et al., on behalf of the CareTrack Kids investigative team. BMC Pediatrics. 2020;20:185.",
+    "doi": "10.1186/s12887-020-02052-6",
+    "url": "https://link.springer.com/article/10.1186/s12887-020-02052-6",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "© The Author(s) 2020. Arnolda G, Hibbert P, Ting HP, et al., on behalf of the CareTrack Kids investigative team. Assessing the appropriateness of paediatric antibiotic overuse in Australian children: a population-based sample survey. BMC Pediatrics 20, 185 (2020). https://doi.org/10.1186/s12887-020-02052-6. CC BY 4.0. http://creativecommons.org/licenses/by/4.0/",
+    "modification_notice": "The Table 1 wording is reproduced unchanged. The screening rule, Australian medicine examples and fictional histories were added for this draft."
+  },
+  "plain_summary": "Review an antibiotic supplied for mild or moderate viral bronchiolitis in an infant aged at least 29 days and under 12 months.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antibiotics",
+      "ingredients": [
+        "amoxicillin",
+        "cefalexin",
+        "azithromycin",
+        "amoxicillin + clavulanic acid",
+        "phenoxymethylpenicillin",
+        "clarithromycin",
+        "erythromycin",
+        "cefaclor",
+        "trimethoprim + sulfamethoxazole",
+        "flucloxacillin",
+        "clindamycin"
+      ],
+      "brands": {
+        "amoxicillin": [
+          "Amoxicillin B&B",
+          "Amoxil",
+          "Alphamox",
+          "Cilamox"
+        ],
+        "cefalexin": [
+          "Cefalexin Sandoz",
+          "Keflex",
+          "Ibilex"
+        ],
+        "azithromycin": [
+          "Zithromax",
+          "Zedd",
+          "Zithro",
+          "Zitrocin"
+        ],
+        "amoxicillin + clavulanic acid": [
+          "Augmentin",
+          "Augmentin Duo",
+          "Clavulin-125F",
+          "Curam",
+          "Curam Duo"
+        ],
+        "phenoxymethylpenicillin": [
+          "Abbocillin-VK Filmtab",
+          "Abbocillin-V",
+          "Cilicaine VK"
+        ],
+        "clarithromycin": [
+          "Klacid"
+        ],
+        "erythromycin": [
+          "E.E.S. 200",
+          "E.E.S. 400 Filmtab",
+          "E.E.S. Granules",
+          "Eryc"
+        ],
+        "cefaclor": [
+          "Ceclor",
+          "Keflor"
+        ],
+        "trimethoprim + sulfamethoxazole": [
+          "Bactrim",
+          "Bactrim DS",
+          "Septrin"
+        ],
+        "flucloxacillin": [
+          "Flucil",
+          "Flopen Viatris"
+        ],
+        "clindamycin": [
+          "Dalacin C"
+        ]
+      },
+      "note": "These are Australian examples. Any antibiotic explicitly linked to treatment of the episode counts. Table 1 specifies no route. For bronchiolitis, exclude eye or ear drops and skin creams or ointments used to treat those sites."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Viral bronchiolitis",
+      "meets": "Explicitly classified as mild or moderate at this episode",
+      "options": [
+        {
+          "words": "Mild or moderate viral bronchiolitis confirmed for this episode",
+          "effect": "meets"
+        },
+        {
+          "words": "Severe viral bronchiolitis",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Viral bronchiolitis ruled out",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for the antibiotic during the suspected bronchiolitis episode",
+      "meets": "It was prescribed for this bronchiolitis episode. A separate bacterial indication does not qualify.",
+      "options": [
+        {
+          "words": "For this bronchiolitis episode",
+          "effect": "meets"
+        },
+        {
+          "words": "For another indication",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ],
+      "ask_when": {
+        "group": "A"
+      }
+    },
+    {
+      "kind": "observation",
+      "what": "Age at antibiotic treatment for bronchiolitis",
+      "meets": "Use the date of birth or age in days or months to establish 29 days to under 12 months. Ask for days or the date of birth when the boundary is unclear.",
+      "options": [
+        {
+          "words": "29 days old to under 12 months old",
+          "effect": "meets"
+        },
+        {
+          "words": "Under 29 days old",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "12 months old or older",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Confirm only when the antibiotic treated this episode, a dated diagnosis or clinical assessment records mild or moderate viral bronchiolitis, and age at treatment was 29 days to under 12 months. Cite the supply, diagnosis and age evidence. For an infant with no recorded indication, ask the carer what the antibiotic treated. Report a possible finding only if the record or carer links the antibiotic to suspected bronchiolitis and a required detail remains unknown. For a linked episode in a potentially eligible infant, cite the antibiotic supply and any recorded age evidence. Ask only about missing clinical details. Name \"Viral bronchiolitis\" if the diagnosis, viral cause or severity is unclear. Name \"Age at antibiotic treatment for bronchiolitis\" and ask for age in days or the date of birth only if the recorded age leaves eligibility uncertain. Report no finding for another indication, an excluded age, severe or ruled-out viral bronchiolitis, or no link to bronchiolitis.",
+  "cannot_be_seen": "A whole-year age of zero cannot establish the lower age limit. Dates alone do not show what the antibiotic treated. The record may omit severity, viral cause or a separate infection.",
+  "ask_the_gp": "Could you confirm the infant's age, the diagnosis and its severity at the time, and review the reason for the antibiotic, including any separate bacterial infection?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

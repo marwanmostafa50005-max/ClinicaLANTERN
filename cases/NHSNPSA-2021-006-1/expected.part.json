@@ -1,0 +1,41 @@
+[
+  {
+    "file": "NHSNPSA-2021-006-1/pos-fact.csv",
+    "kind": "positive",
+    "about": "Eliquis is supplied while a dated condition line records prosthetic mechanical heart valve present.",
+    "findings": [
+      {
+        "criterion": "NHSNPSA-2021-006-1",
+        "must_cite": [
+          [
+            "L035"
+          ],
+          [
+            "L007"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "NHSNPSA-2021-006-1/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about prosthetic mechanical heart valve, and Xarelto is supplied.",
+    "findings": [
+      {
+        "criterion": "NHSNPSA-2021-006-1",
+        "must_cite": [
+          [
+            "L013"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "NHSNPSA-2021-006-1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Eliquis is supplied but the condition line records prosthetic mechanical heart valve absent with a bioprosthetic valve.",
+    "findings": []
+  }
+]

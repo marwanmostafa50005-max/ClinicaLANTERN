@@ -1,0 +1,63 @@
+[
+  {
+    "file": "BRISNIK-OP-PAIN3/pos-fact.csv",
+    "kind": "positive",
+    "about": "The record links escitalopram to neuropathic pain and confirms there is no other current indication for an antidepressant.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-PAIN3",
+        "must_cite": [
+          [
+            "L001",
+            "L007",
+            "L011",
+            "L015",
+            "L019",
+            "L023",
+            "L027",
+            "L031",
+            "L035",
+            "L039"
+          ],
+          [
+            "L002"
+          ],
+          [
+            "L003"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-PAIN3/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record shows escitalopram and a diagnosis of neuropathic pain. It does not say whether this medicine treats that pain or whether there is another current indication for an antidepressant.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-PAIN3",
+        "must_cite": [
+          [
+            "L002",
+            "L008",
+            "L011",
+            "L015",
+            "L019",
+            "L023",
+            "L027",
+            "L031"
+          ],
+          [
+            "L003"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-PAIN3/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Mirtazapine is supplied, and the record also holds a line for depression, which is an accepted reason for an antidepressant, so it must not flag.",
+    "findings": []
+  }
+]

@@ -1,0 +1,30 @@
+patient_ref,patient_age,patient_sex,record_type,dispense_date,medicine,brand,strength,form,quantity,repeats_left,directions,prescriber,detail,value
+F-G15-02,63,F,,2025-10-04,rosuvastatin,,5 mg,tablet,30,5,Take one tablet at night.,Dr A. Example,,
+F-G15-02,63,F,condition,2025-10-04,,,,,,,,,Type 2 diabetes,Confirmed
+F-G15-02,63,F,,2025-10-06,amlodipine,,5 mg,tablet,30,5,Take one tablet each morning.,Dr A. Example,,
+F-G15-02,63,F,,2025-10-09,colecalciferol,,25 micrograms,capsule,60,3,Take one capsule daily.,Dr A. Example,,
+F-G15-02,63,F,,2025-10-11,paracetamol,,500 mg,tablet,100,0,Take one or two tablets up to three times daily when needed for pain.,Dr A. Example,,
+F-G15-02,63,F,,2025-11-03,rosuvastatin,,5 mg,tablet,30,4,Take one tablet at night.,Dr A. Example,,
+F-G15-02,63,F,,2025-11-05,amlodipine,,5 mg,tablet,30,4,Take one tablet each morning.,Dr A. Example,,
+F-G15-02,63,F,,2025-12-03,rosuvastatin,,5 mg,tablet,30,3,Take one tablet at night.,Dr A. Example,,
+F-G15-02,63,F,,2025-12-05,amlodipine,,5 mg,tablet,30,3,Take one tablet each morning.,Dr A. Example,,
+F-G15-02,63,F,,2025-12-08,colecalciferol,,25 micrograms,capsule,60,2,Take one capsule daily.,Dr A. Example,,
+F-G15-02,63,F,,2026-01-02,rosuvastatin,,5 mg,tablet,30,2,Take one tablet at night.,Dr A. Example,,
+F-G15-02,63,F,,2026-01-04,amlodipine,,5 mg,tablet,30,2,Take one tablet each morning.,Dr A. Example,,
+F-G15-02,63,F,,2026-01-09,paracetamol,,500 mg,tablet,100,0,Take one or two tablets up to three times daily when needed for pain.,Dr A. Example,,
+F-G15-02,63,F,,2026-02-01,rosuvastatin,,5 mg,tablet,30,1,Take one tablet at night.,Dr A. Example,,
+F-G15-02,63,F,,2026-02-03,amlodipine,,5 mg,tablet,30,1,Take one tablet each morning.,Dr A. Example,,
+F-G15-02,63,F,,2026-02-06,colecalciferol,,25 micrograms,capsule,60,1,Take one capsule daily.,Dr A. Example,,
+F-G15-02,63,F,,2026-03-03,rosuvastatin,,5 mg,tablet,30,0,Take one tablet at night.,Dr A. Example,,
+F-G15-02,63,F,,2026-03-05,amlodipine,,5 mg,tablet,30,0,Take one tablet each morning.,Dr A. Example,,
+F-G15-02,63,F,,2026-04-02,rosuvastatin,,5 mg,tablet,30,5,Take one tablet at night.,Dr A. Example,,
+F-G15-02,63,F,,2026-04-04,amlodipine,,5 mg,tablet,30,5,Take one tablet each morning.,Dr A. Example,,
+F-G15-02,63,F,,2026-04-07,colecalciferol,,25 micrograms,capsule,60,0,Take one capsule daily.,Dr A. Example,,
+F-G15-02,63,F,,2026-04-09,paracetamol,,500 mg,tablet,100,0,Take one or two tablets up to three times daily when needed for pain.,Dr A. Example,,
+F-G15-02,63,F,,2026-05-02,rosuvastatin,,5 mg,tablet,30,4,Take one tablet at night.,Dr A. Example,,
+F-G15-02,63,F,,2026-05-04,amlodipine,,5 mg,tablet,30,4,Take one tablet each morning.,Dr A. Example,,
+F-G15-02,63,F,,2026-05-20,gliclazide,,30 mg,modified-release tablet,100,0,Continue one tablet with breakfast each day.,Dr A. Example,,
+F-G15-02,63,F,,2026-05-20,empagliflozin,,10 mg,tablet,30,2,Take one tablet each morning.,Dr A. Example,,
+F-G15-02,63,F,result,2026-05-22,,,,,,,,,HbA1c,6.6%
+F-G15-02,63,F,observation,2026-05-23,,,,,,,,,BMI,26.4 kg/m²
+F-G15-02,63,F,observation,2026-05-24,,,,,,,,,Symptomatic hypoglycaemia,Patient reports no episodes of symptomatic hypoglycaemia during treatment.

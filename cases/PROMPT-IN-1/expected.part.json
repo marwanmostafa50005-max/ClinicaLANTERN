@@ -1,0 +1,41 @@
+[
+  {
+    "file": "PROMPT-IN-1/pos-brand.csv",
+    "kind": "positive",
+    "about": "Macrodantin is supplied by brand for uncomplicated lower UTI. The 56 capsules at four a day cover 14 days.",
+    "findings": [
+      {
+        "criterion": "PROMPT-IN-1",
+        "must_cite": [
+          [
+            "L018"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PROMPT-IN-1/pos-buried.csv",
+    "kind": "positive",
+    "about": "Each nitrofurantoin supply covers seven days for uncomplicated lower UTI. The second pack is to start when the first is finished, giving 14 consecutive days.",
+    "findings": [
+      {
+        "criterion": "PROMPT-IN-1",
+        "must_cite": [
+          [
+            "L032"
+          ],
+          [
+            "L033"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PROMPT-IN-1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The two separate treatment courses last seven and five days, and the intervening 14-capsule supply taken nightly is for prevention.",
+    "findings": []
+  }
+]

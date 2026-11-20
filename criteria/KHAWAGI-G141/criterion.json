@@ -1,0 +1,46 @@
+{
+  "id": "KHAWAGI-G141",
+  "label": "Khawagi review: Review modified-release methylphenidate when one label or two concurrent labels direct two separate scheduled doses each day in a child under 18",
+  "family": "KHAWAGI",
+  "title": "Review modified-release methylphenidate when one label or two concurrent labels direct two separate scheduled doses each day in a child under 18",
+  "statement": "Review modified-release methylphenidate when one label or two concurrent labels direct two separate scheduled doses each day in a child under 18.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Khawagi et al. List of potential prescribing safety indicators related to mental health medications and conditions. S3 File, Table 5.",
+    "citation": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. PLoS ONE 2019;14(5):e0217406.",
+    "doi": "10.1371/journal.pone.0217406",
+    "url": "https://doi.org/10.1371/journal.pone.0217406.s003",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. PLoS ONE 2019;14(5):e0217406. https://doi.org/10.1371/journal.pone.0217406; S3 File, https://doi.org/10.1371/journal.pone.0217406.s003. © 2019 Khawagi et al., CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Changes were made. Independent source: Prot-Labarthe et al. (2014), POPI, Table 1 (https://doi.org/10.1371/journal.pone.0101171.t001). Khawagi et al. compiled the indicator in S3 File, Table 5, G141, reference [103]. This Australian screening rule uses original wording. Clinical cross-check: Ritalin LA Australian product information (https://apps.medicines.org.au/files/nvprtlor.pdf).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "Review modified-release methylphenidate directed as two separate scheduled daily doses in a child under 18.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Modified-release methylphenidate",
+      "ingredients": [
+        "methylphenidate"
+      ],
+      "brands": {
+        "methylphenidate": [
+          "Concerta",
+          "Ritalin LA",
+          "Rubifen LA",
+          "Attora LA",
+          "Methylphenidate-Teva XR",
+          "Atenza (Spain)",
+          "Atenza XR"
+        ]
+      },
+      "note": "Count tablets or capsules identified as modified release by the product name or form. A generic name alone does not establish the form. Exclude immediate-release doses, including an immediate-release dose taken after a morning modified-release dose."
+    }
+  ],
+  "rule_for_models": "For a child under 18, flag modified-release methylphenidate when one label or two concurrent labels direct two separate scheduled administrations each day. Cite each label needed to establish the two times. Tablets or capsules taken together count as one administration even on separate labels. A replacement prescription or a separate immediate-release dose does not establish a second modified-release dose. If two daily administrations are possible but the prescribed times or overlap are unclear, report only a possible finding and name the missing schedule information. If age at supply is unknown and the schedule could qualify, report only a possible finding and name the missing age. A known age of 18 or over or a clearly nonqualifying schedule gives no finding.",
+  "cannot_be_seen": "Dispensing does not establish actual use, indication or a prescriber’s intent. Treatment and assessments elsewhere may be missing.",
+  "ask_the_gp": "Could you confirm how many separate doses of modified-release methylphenidate are prescribed each day and review their timing?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

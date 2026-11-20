@@ -1,0 +1,98 @@
+{
+  "id": "GERARD-26",
+  "label": "Gerard: SGLT2 inhibitor or GLP-1 analogue with BMI below 18 kg/m²",
+  "family": "GERARD",
+  "title": "SGLT2 inhibitor or GLP-1 analogue with BMI below 18 kg/m²",
+  "statement": "It is necessary to review and optimize the prescription of a weight-loss promoting drug (SGLT-2 inhibitor or GLP-1 analogue) in a patient with a BMI<18kg/m².",
+  "statement_origin": "published",
+  "source": {
+    "document": "Development of explicit definitions of potentially inappropriate prescriptions for antidiabetic drugs in people with type 2 diabetes: A Delphi survey and consensus meeting",
+    "citation": "Gerard E, Bugday D, Calafiore M, Baran J, Gautier S, Henry H, et al. (2025). Development of explicit definitions of potentially inappropriate prescriptions for antidiabetic drugs in people with type 2 diabetes: A Delphi survey and consensus meeting. PLOS ONE 20(10), e0334836.",
+    "doi": "10.1371/journal.pone.0334836",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0334836",
+    "licence": "CC BY 4.0",
+    "credit": "© 2025 Gerard et al. Gerard E, Bugday D, Calafiore M, Baran J, Gautier S, Henry H, et al. (2025). Development of explicit definitions of potentially inappropriate prescriptions for antidiabetic drugs in people with type 2 diabetes: A Delphi survey and consensus meeting. PLOS ONE 20(10), e0334836. https://doi.org/10.1371/journal.pone.0334836. Table 2. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The statements are reproduced. GPT-6.2 Astra added the Australian medicine mapping, screening rules and fictional cases.",
+    "licence_status": "proposed",
+    "modification_notice": "The published statement is unchanged. The plain-language rule, Australian medicine mapping and test cases are adaptations."
+  },
+  "plain_summary": "A measured BMI below 18 kg/m² during treatment with either class calls for review.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "SGLT2 inhibitors or GLP-1 analogues",
+      "ingredients": [
+        "dapagliflozin",
+        "empagliflozin",
+        "dulaglutide",
+        "liraglutide",
+        "semaglutide",
+        "ertugliflozin",
+        "canagliflozin",
+        "exenatide"
+      ],
+      "brands": {
+        "ertugliflozin": [
+          "Steglatro",
+          "Segluromet",
+          "Steglujan"
+        ],
+        "canagliflozin": [
+          "Invokana"
+        ],
+        "exenatide": [
+          "Byetta",
+          "Bydureon",
+          "Bydureon BCise"
+        ],
+        "dapagliflozin": [
+          "Forxiga",
+          "Dapagliflozin AZN",
+          "Xigduo XR",
+          "Glixafor",
+          "Qtern",
+          "Sidapvia"
+        ],
+        "empagliflozin": [
+          "Jardiance",
+          "Jardiamet",
+          "Glyxambi"
+        ],
+        "dulaglutide": [
+          "Trulicity"
+        ],
+        "liraglutide": [
+          "Liraglutide Lupin",
+          "Victoza",
+          "Benedo",
+          "Saxenda",
+          "Xultophy"
+        ],
+        "semaglutide": [
+          "Ozempic",
+          "Wegovy",
+          "Wegovy Flextouch",
+          "Rybelsus"
+        ]
+      },
+      "note": "One listed ingredient is enough, including in a combination product. Exclude dual GIP/GLP-1 agonists."
+    }
+  ],
+  "rule_for_models": "Start with a Group A supply. For confirmed type 2 diabetes and a measured BMI below 18 kg/m² during the supply period, flag for review and cite the supply, diagnosis and BMI evidence. A pharmacist's answer confirming the measured range during this treatment counts as BMI evidence. Use the measurement date to check that a BMI in kg/m² was measured during treatment. If diabetes type, BMI or its timing is unknown and the rest fits, report only a possible finding. Name each missing fact using \"Type 2 diabetes\" or \"BMI\" as applicable. Estimate cover from the supply date, quantity dispensed and labelled dosing schedule. For pens, use the deliverable doses per pen and the interval between doses. If unclear directions leave overlap with the BMI measurement plausible but unconfirmed, report only a possible finding and ask for the dose, frequency and treatment dates. A diagnosis excluding type 2 diabetes or an applicable BMI of 18 kg/m² or above gives no finding.",
+  "cannot_be_seen": "A supply cannot establish BMI. A BMI of exactly 18 kg/m² falls outside the criterion. A low BMI alone cannot establish malnutrition. Before contacting the GP about a possible finding, ask whether the person takes the medicine for type 2 diabetes and check whether a measured BMI during treatment was below 18 kg/m².",
+  "ask_the_gp": "Could you confirm the current BMI and review whether this medicine remains appropriate at that weight?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Type 2 diabetes",
+      "meets": "The record confirms type 2 diabetes during treatment."
+    },
+    {
+      "kind": "result",
+      "what": "BMI",
+      "meets": "BMI measured during treatment is strictly below 18 kg/m²."
+    }
+  ]
+}

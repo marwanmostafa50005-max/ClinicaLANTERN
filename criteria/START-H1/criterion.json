@@ -1,0 +1,190 @@
+{
+  "id": "START-H1",
+  "label": "START H1: DMARD in rheumatoid arthritis",
+  "family": "STOPP_START",
+  "title": "Disease-modifying anti-rheumatic drug missing in active rheumatoid arthritis",
+  "statement": "Disease-modifying anti-rheumatic drug (DMARD) with chronic, active and disabling rheumatoid arthritis.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A person with long-standing, active and disabling rheumatoid arthritis should usually take a disease-modifying medicine (a DMARD) to slow the joint damage, and the record shows none.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Disease-modifying anti-rheumatic drugs (DMARDs)",
+      "ingredients": [
+        "methotrexate",
+        "leflunomide",
+        "sulfasalazine",
+        "hydroxychloroquine",
+        "azathioprine",
+        "tofacitinib",
+        "baricitinib",
+        "upadacitinib",
+        "adalimumab",
+        "etanercept",
+        "golimumab",
+        "certolizumab pegol",
+        "tocilizumab",
+        "abatacept",
+        "infliximab",
+        "rituximab",
+        "penicillamine",
+        "auranofin"
+      ],
+      "brands": {
+        "methotrexate": [
+          "Methoblastin",
+          "Chexate",
+          "Ciptrexate",
+          "Imutrex",
+          "Trexject"
+        ],
+        "leflunomide": [
+          "Arava",
+          "Arabloc",
+          "Ataris",
+          "Flunomide",
+          "Lefide",
+          "Lunava"
+        ],
+        "sulfasalazine": [
+          "Salazopyrin",
+          "Salazopyrin EN",
+          "Pyralin EN"
+        ],
+        "hydroxychloroquine": [
+          "Plaquenil",
+          "Hequinel"
+        ],
+        "azathioprine": [
+          "Imuran",
+          "Thioprine",
+          "Azahexal",
+          "Azamun",
+          "Azapin",
+          "Azran",
+          "Imazan"
+        ],
+        "tofacitinib": [
+          "Xeljanz",
+          "Tofadoz",
+          "Tofanz",
+          "Xeljanz XR"
+        ],
+        "baricitinib": [
+          "Olumiant"
+        ],
+        "upadacitinib": [
+          "Rinvoq"
+        ],
+        "adalimumab": [
+          "Humira",
+          "Abrilada",
+          "Adalicip",
+          "Amgevita",
+          "Amgevita Sureclick",
+          "Hadlima",
+          "Hadlima Pushtouch Auto-Injector",
+          "Hulio",
+          "Hyrimoz",
+          "Idacio",
+          "Yuflyma"
+        ],
+        "etanercept": [
+          "Enbrel",
+          "Brenzys",
+          "Brenzys Auto-Injector",
+          "Enbrel Auto-Injector",
+          "Erelzi",
+          "Erelzi Auto-Injector",
+          "Nepexto"
+        ],
+        "golimumab": [
+          "Simponi",
+          "Simponi IV",
+          "Simponi Smartject"
+        ],
+        "certolizumab pegol": [
+          "Cimzia"
+        ],
+        "tocilizumab": [
+          "Actemra",
+          "Actemra Actpen",
+          "Actemra SC",
+          "Actemra SC Actpen",
+          "Avtozma",
+          "RoActemra"
+        ],
+        "abatacept": [
+          "Orencia",
+          "Orencia Clickject Autoinjector"
+        ],
+        "infliximab": [
+          "Remsima",
+          "Emisima",
+          "Flixceli",
+          "Inflectra",
+          "Ixifi",
+          "Remicade",
+          "Renflexis"
+        ],
+        "rituximab": [
+          "MabThera",
+          "Mabthera SC",
+          "Ristova",
+          "Riximyo",
+          "Rixonfya",
+          "Rixvyda",
+          "Ruxience",
+          "Truxima"
+        ],
+        "penicillamine": [
+          "D-Penamine"
+        ],
+        "auranofin": [
+          "Ridaura"
+        ]
+      },
+      "note": "Medicines that meet this criterion. Several of these are used for other conditions too, but a supply still counts as a DMARD. Biological medicines are often supplied by a hospital and may be missing from a pharmacy record. MabThera is a historical intravenous rituximab brand. Count a dated intravenous supply only within the usual six-month window."
+    },
+    {
+      "key": "B",
+      "name": "Oral ciclosporin",
+      "ingredients": [
+        "ciclosporin"
+      ],
+      "brands": {
+        "ciclosporin": [
+          "Neoral"
+        ]
+      },
+      "note": "For ciclosporin count oral treatment. Exclude eye drops and transplant infusions."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Rheumatoid arthritis that is chronic, active and disabling",
+      "meets": "The record documents long-standing rheumatoid arthritis, current disease activity and functional limitation caused by the arthritis. A high disease activity score can support activity. If chronicity, activity or functional limitation is undocumented, the full condition is unconfirmed.",
+      "ask_when": "always",
+      "close_when": {
+        "group": "A"
+      }
+    }
+  ],
+  "rule_for_models": "Apply this criterion from age 65. Below 65 give no finding. If age is unknown, confirm it before reporting a definite omission. Count Group A DMARDs and oral ciclosporin in Group B. Check the formulation before counting ciclosporin. Exclude eye drops and transplant infusions. If rheumatoid arthritis is recorded and chronicity, activity or functional limitation is unclear, report a possible omission only when no qualifying DMARD is supplied in the six-month period and no required feature is ruled out. Name the missing feature. The pharmacist judges borderline duration and activity from the dated history and any interpreted activity score. If chronicity or activity remains uncertain, report at most a possible omission when the other checks allow it. Documented unrestricted function gives no finding. Suspect a finding when a condition line shows rheumatoid arthritis that is chronic, active and disabling (a line that says remission or inactive does not count, and a high disease activity score supports it) and no qualifying DMARD is supplied in the last six months counted back from the latest date in the record; cite the condition line and each separate line used to establish chronicity, current activity or functional limitation. When there is no line about rheumatoid arthritis, report no finding, because no other medicine in the record reliably shows the condition. When a qualifying DMARD is supplied in the last six months, or the line shows remission or a different kind of arthritis, there is no finding.",
+  "cannot_be_seen": "How active and disabling the arthritis is when no line says so. Also DMARDs supplied by a hospital or rheumatology clinic, a reason a DMARD was stopped such as a side effect, and whether the person is near the end of life.",
+  "ask_the_gp": "A review of whether a disease-modifying anti-rheumatic drug is needed, with the current disease activity.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,43 @@
+[
+  {
+    "file": "SCOTPOLY-SD-1/pos-fact.csv",
+    "kind": "positive",
+    "about": "Coversyl (perindopril) is supplied by brand only in September and October 2026, and a dated observation row records a current dehydrating illness.",
+    "findings": [
+      {
+        "criterion": "SCOTPOLY-SD-1",
+        "must_cite": [
+          [
+            "L043",
+            "L046"
+          ],
+          [
+            "L047"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "SCOTPOLY-SD-1/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about Current dehydrating illness, and active Coveram (perindopril with amlodipine) supplies fall in the last 2 calendar months.",
+    "findings": [
+      {
+        "criterion": "SCOTPOLY-SD-1",
+        "must_cite": [
+          [
+            "L028",
+            "L030"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "SCOTPOLY-SD-1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The only candesartan supply was six months before the latest date in the record, so missing illness information does not open a question.",
+    "findings": []
+  }
+]

@@ -1,0 +1,328 @@
+{
+  "id": "STOPP-D23",
+  "label": "STOPP D23: levodopa or dopamine agonist for drug-induced parkinsonism",
+  "family": "STOPP_START",
+  "title": "Levodopa or a dopamine agonist for drug-induced parkinsonism",
+  "statement": "Levodopa or dopamine agonists for treatment of extrapyramidal side-effects of antipsychotics or other forms of drug-induced Parkinsonism (inappropriate prescribing cascade to be avoided).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Some medicines, mainly antipsychotics, can cause stiffness and tremor like Parkinson's disease, and treating that with levodopa or a dopamine agonist adds a second medicine instead of reviewing the first.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Levodopa and dopamine agonists",
+      "ingredients": [
+        "levodopa",
+        "pramipexole",
+        "ropinirole",
+        "rotigotine",
+        "bromocriptine",
+        "cabergoline",
+        "apomorphine"
+      ],
+      "brands": {
+        "levodopa": [
+          "Madopar (levodopa with benserazide)",
+          "Sinemet (levodopa with carbidopa)",
+          "Kinson (levodopa with carbidopa)",
+          "Stalevo (levodopa with carbidopa and entacapone)",
+          "Sinemet CR",
+          "Madopar Rapid",
+          "Madopar HBS"
+        ],
+        "pramipexole": [
+          "Sifrol",
+          "Pamex",
+          "Pexemis",
+          "Pexole XR",
+          "Sifrol ER",
+          "Simipex",
+          "Simipex XR",
+          "Simpral"
+        ],
+        "ropinirole": [
+          "Ropin",
+          "Repreve",
+          "Appese",
+          "Appese-0.25",
+          "Appese-0.5",
+          "Ropaccord",
+          "Ropicor",
+          "Ropicor-0.5",
+          "Requip"
+        ],
+        "rotigotine": [
+          "Neupro"
+        ],
+        "bromocriptine": [
+          "Parlodel",
+          "Kripton"
+        ],
+        "cabergoline": [
+          "Dostinex",
+          "Bergoline",
+          "Cabaser",
+          "Carbelin",
+          "Cobasol",
+          "Dostamine",
+          "Dostan",
+          "Novanex",
+          "Tinexa"
+        ],
+        "apomorphine": [
+          "Apomine",
+          "Apo-Go",
+          "Apomine Intermittent",
+          "Apomine PFS",
+          "Apowok",
+          "Movapo",
+          "Movapo PFS",
+          "Movapo Pen",
+          "Movapo Pod"
+        ]
+      },
+      "note": "Levodopa is always supplied with a second ingredient (benserazide or carbidopa). Pramipexole and ropinirole are also used for restless legs, and cabergoline and bromocriptine for high prolactin, which is a reason the record alone cannot prove the use. Generic packs that show the ingredient name with a company name count too. Count levodopa with benserazide, levodopa with carbidopa, and levodopa with carbidopa and entacapone on an ingredient-only line. Group A includes oral products, rotigotine patches and subcutaneous apomorphine. For Group B, use the oral, sublingual and injectable products identified in that group."
+    },
+    {
+      "key": "B",
+      "name": "Medicines that can cause drug-induced parkinsonism",
+      "ingredients": [
+        "haloperidol",
+        "risperidone",
+        "olanzapine",
+        "quetiapine",
+        "aripiprazole",
+        "amisulpride",
+        "chlorpromazine",
+        "prochlorperazine",
+        "metoclopramide",
+        "paliperidone",
+        "zuclopenthixol",
+        "flupentixol",
+        "flupentixol decanoate",
+        "periciazine",
+        "fluphenazine",
+        "fluphenazine decanoate",
+        "trifluoperazine",
+        "lurasidone",
+        "ziprasidone",
+        "brexpiprazole",
+        "asenapine",
+        "cariprazine"
+      ],
+      "brands": {
+        "haloperidol": [
+          "Serenace",
+          "Haldol Decanoate"
+        ],
+        "risperidone": [
+          "Risperdal",
+          "Rispa",
+          "Rixadone",
+          "Ozidal",
+          "Resdone",
+          "Respaz",
+          "Risdone",
+          "Rispaccord",
+          "Rispaccord-0.5",
+          "Risperdal Quicklet",
+          "Risperibell",
+          "Rispericor",
+          "Rispericor-0.5",
+          "Risperisan",
+          "Rispernia",
+          "Sperid",
+          "Risperdal Consta"
+        ],
+        "olanzapine": [
+          "Zyprexa",
+          "Zypine",
+          "Lanzek",
+          "Aprolan",
+          "Aprolan ODT",
+          "Lanez",
+          "Lanez ODT",
+          "Lanzek Zydis",
+          "Lonza",
+          "Lonza ODT",
+          "Lyprosia",
+          "Lyprosia ODT",
+          "Olancor",
+          "Olanza",
+          "Olanzaccord",
+          "Olanzacor",
+          "Oprexa",
+          "Ozin",
+          "Ozin ODT",
+          "Prolanza",
+          "Prolanza ODT",
+          "Pryzex",
+          "Pryzex ODT",
+          "Tolaze ODT",
+          "Tolazine ODT",
+          "Torapine ODT",
+          "Torrenia ODT",
+          "Zylap",
+          "Zylap ODT",
+          "Zylapine",
+          "Zylapine ODT",
+          "Zypine ODT",
+          "Zyprexa Zydis",
+          "Zyprexa Relprevv"
+        ],
+        "quetiapine": [
+          "Seroquel",
+          "Aliquen",
+          "Delucon",
+          "Kaptan",
+          "Ketizenol",
+          "Qualez",
+          "Quepine XR",
+          "Quetapen",
+          "Quetia",
+          "Quetia XR",
+          "Quetiaccord",
+          "Quetiaquel XR",
+          "Quetin",
+          "Quipine",
+          "Sequase",
+          "Sequase XR",
+          "Serapine",
+          "Serapine XR",
+          "Seroccord",
+          "Seronia",
+          "Seroquel XR",
+          "Serotiapine XR",
+          "Syquet",
+          "Syquet XR",
+          "Syzopine",
+          "Tevatiapine XR",
+          "Tiapine XR",
+          "Tiava XR",
+          "Xque XR"
+        ],
+        "aripiprazole": [
+          "Abilify",
+          "Abilify ODT",
+          "Abipra",
+          "Abyraz",
+          "Aprazole",
+          "Aripic",
+          "Aripra",
+          "Arizole",
+          "Abilify Maintena"
+        ],
+        "amisulpride": [
+          "Solian",
+          "Amipride",
+          "Sulprix"
+        ],
+        "chlorpromazine": [
+          "Largactil",
+          "Largactil Syrup"
+        ],
+        "prochlorperazine": [
+          "Stemetil",
+          "Nausetil",
+          "Nausrelief",
+          "Procalm",
+          "Proclazine",
+          "Stemzine"
+        ],
+        "metoclopramide": [
+          "Maxolon",
+          "Aspramide",
+          "Emexlon",
+          "Pramin"
+        ],
+        "paliperidone": [
+          "Invega",
+          "Invega Sustenna",
+          "Invega Trinza",
+          "Invega Hafyera"
+        ],
+        "zuclopenthixol": [
+          "Clopixol",
+          "Clopixol Acuphase",
+          "Clopixol Depot"
+        ],
+        "flupentixol": [
+          "Fluanxol Depot",
+          "Fluanxol Concentrated Depot"
+        ],
+        "flupentixol decanoate": [
+          "Fluanxol Depot",
+          "Fluanxol Concentrated Depot"
+        ],
+        "periciazine": [
+          "Neulactil"
+        ],
+        "fluphenazine": [
+          "Modecate"
+        ],
+        "fluphenazine decanoate": [
+          "Modecate"
+        ],
+        "trifluoperazine": [
+          "Stelazine"
+        ],
+        "lurasidone": [
+          "Latuda"
+        ],
+        "ziprasidone": [
+          "Zeldox"
+        ],
+        "brexpiprazole": [
+          "Rexulti"
+        ],
+        "asenapine": [
+          "Saphris"
+        ],
+        "cariprazine": [
+          "Reagila"
+        ]
+      },
+      "note": "Antipsychotics are the main cause. Prochlorperazine and metoclopramide can also cause it. This group is used only to show which medicine came first when no condition line is in the record. Count listed oral and sublingual products and the named injections. A preceding supply can prompt a question about the cause of symptoms."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Use of this levodopa medicine or dopamine agonist for movement symptoms caused by a medicine",
+      "meets": "The record links this levodopa medicine or dopamine agonist to treatment of movement side effects caused by an antipsychotic or parkinsonism caused by another medicine. A diagnosis or the order of supplies alone does not establish the link.",
+      "options": [
+        {
+          "words": "To treat movement side effects caused by an antipsychotic",
+          "effect": "meets"
+        },
+        {
+          "words": "To treat parkinsonism caused by another medicine",
+          "effect": "meets"
+        },
+        {
+          "words": "Only for a different reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply D23 from age 65, with no finding below 65 or for a Group A medicine used solely for another reason, and leave eligibility unresolved if age is unknown. Suspect a finding when a record line links use of a Group A medicine to treatment of an antipsychotic movement side effect or another form of drug-induced parkinsonism. If drug-induced parkinsonism or antipsychotic movement side effects are documented but the link to the Group A supply is unknown, report a possible finding even when no causative supply appears. If the indication is unknown and the first Group A supply follows a Group B supply, report a possible finding. In either possible finding, ask what the Group A medicine treats and name the missing fact \"Use of this levodopa medicine or dopamine agonist for movement symptoms caused by a medicine\". For a finding with a recorded treatment link, cite a Group A supply and the line that shows the link. For a possible finding, cite the Group A supply and the drug-induced symptom line when present. If the possible finding rests on the order of supplies, cite the first Group A supply and an earlier Group B supply.",
+  "cannot_be_seen": "Whether the stiffness and tremor were caused by the medicine or are Parkinson's disease, and which came first. Also why a dopamine agonist was supplied, since some are used for restless legs or high prolactin. Supplies from a hospital or another pharmacy are not seen.",
+  "ask_the_gp": "A review of whether the movement symptoms are caused by the antipsychotic or other medicine, and whether that medicine can be changed or reduced instead of adding levodopa or a dopamine agonist.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

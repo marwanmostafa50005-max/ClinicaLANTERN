@@ -1,0 +1,49 @@
+{
+  "id": "EU7-F75",
+  "label": "EU(7)-PIM: methylphenidate",
+  "family": "EU7",
+  "title": "Methylphenidate in an older person",
+  "statement": "Methylphenidat | In lists: 2 (A); 5 (B) | Main reason: May cause or worsen insomnia; concern due to CNS-altering effects; concern due to appetite-supressing effects | Dose adjustment/special considerations: (blank: per ESM note, no suggestion by experts or in Micromedex) | Alternatives: Non-pharmacological treatment; consider pharmacotherapy of Alzheimer-type dementia: acetylcholinesterase, memantine[d]. E",
+  "statement_origin": "published",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Methylphenidate is a stimulant that can worsen sleep and affect the brain, so a European list says to avoid it in older people.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Methylphenidate (a stimulant)",
+      "ingredients": [
+        "methylphenidate"
+      ],
+      "brands": {
+        "methylphenidate": [
+          "Ritalin",
+          "Ritalin LA",
+          "Concerta",
+          "Artige",
+          "Rubifen LA",
+          "Attenta",
+          "Atenza XR",
+          "Attora LA",
+          "Rinidate",
+          "Rivate"
+        ]
+      },
+      "note": "Immediate-release and extended-release tablets and capsules count. Dexamfetamine and lisdexamfetamine are not in this group. The list is for older people, so the rule uses age 65 or over."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when a person aged 65 or over is supplied methylphenidate (Group A). If methylphenidate is supplied and age is missing, report only a possible finding and ask the pharmacist to confirm whether the person is 65 or older.",
+  "cannot_be_seen": "The record may omit the reason for treatment, who started it, its duration and its benefit. Ask the patient why they take methylphenidate and whether it affects their sleep or appetite.",
+  "ask_the_gp": "A review of whether methylphenidate is still needed for this person, and its effect on sleep and blood pressure.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

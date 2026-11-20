@@ -1,0 +1,352 @@
+{
+  "id": "STOPP-B19",
+  "label": "STOPP B19",
+  "family": "STOPP_START",
+  "title": "NSAID or steroid with heart failure on a loop diuretic",
+  "statement": "NSAIDs or systemic corticosteroids with heart failure requiring loop diuretic therapy (risk of exacerbation of heart failure).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Anti-inflammatory pain medicines and steroid tablets make the body hold salt and water. In a person with heart failure on a water tablet this can make the heart failure worse.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "NSAIDs, the anti-inflammatory pain medicines",
+      "ingredients": [
+        "celecoxib",
+        "diclofenac",
+        "etoricoxib",
+        "ibuprofen",
+        "indometacin",
+        "ketoprofen",
+        "ketorolac",
+        "mefenamic acid",
+        "meloxicam",
+        "naproxen",
+        "piroxicam",
+        "sulindac"
+      ],
+      "brands": {
+        "celecoxib": [
+          "Celebrex",
+          "Celaxib",
+          "Anacoxib",
+          "Celebrex Relief",
+          "Celetoid",
+          "Celexi",
+          "Celocox",
+          "Kudeq"
+        ],
+        "diclofenac": [
+          "Voltaren",
+          "Voltaren Rapid",
+          "Fenac",
+          "Clonac",
+          "Arthrotec",
+          "Cambia",
+          "Diclohexal",
+          "Difenac Rapid",
+          "Dinac",
+          "Fenac EC",
+          "Imflac",
+          "Inflamax Liquid Caps",
+          "Voltaren Rapid Extra Strength",
+          "Voltaren Rapid Liquid Capsules",
+          "Voltfast",
+          "Zorvolex"
+        ],
+        "etoricoxib": [
+          "Arcoxia"
+        ],
+        "ibuprofen": [
+          "Nurofen",
+          "Advil",
+          "Brufen",
+          "Rafen",
+          "Nurofen Plus",
+          "Panafen Plus",
+          "Nuromol",
+          "Maxigesic",
+          "Act-3",
+          "Advil 12 Hour",
+          "Advil Childrens Pain and Fever 2 to 7 Years",
+          "Advil Childrens Pain and Fever 7 to 12 Years",
+          "Advil Childrens Pain and Fever Relief 2 to 12 Years",
+          "Advil Double Strength",
+          "Advil Double Strength Caplets",
+          "Advil Double Strength Liquid Capsules",
+          "Advil Infants Pain and Fever Relief 3 Months to 2 Years",
+          "Advil Mini Caps",
+          "Advil Rapid Release",
+          "Brufen Pain",
+          "Brufen Syrup",
+          "Bugesic",
+          "Butafen",
+          "Butalgin",
+          "Fenpaed",
+          "Fenpaed Double Strength",
+          "Iprofen",
+          "Nurofen Back Pain",
+          "Nurofen Caplet",
+          "Nurofen Double Strength",
+          "Nurofen Liquid Capsule",
+          "Nurofen Meltlets",
+          "Nurofen Migraine Pain",
+          "Nurofen Period Pain",
+          "Nurofen Quickzorb",
+          "Nurofen Regular",
+          "Nurofen Tension Headache",
+          "Nurofen Zavance",
+          "Nurofen Zavance Liquid Capsules",
+          "Nurofen for Children 1 to 5 Years",
+          "Nurofen for Children 3 Months to 5 Years",
+          "Nurofen for Children 5 to 12 Years",
+          "Nurofen for Children 7+ Years",
+          "Nurofen for Children Baby 3+ Months",
+          "Nurofen for Children Infant Drops",
+          "Nurofen for Children Meltlet",
+          "Panafen IB",
+          "Panafen IB Mini Cap",
+          "Proven",
+          "Tri-Profen"
+        ],
+        "indometacin": [
+          "Indocid",
+          "Arthrexin"
+        ],
+        "ketoprofen": [
+          "Orudis",
+          "Oruvail"
+        ],
+        "ketorolac": [
+          "Toradol",
+          "Ketoral"
+        ],
+        "mefenamic acid": [
+          "Ponstan",
+          "Femin",
+          "Mefic",
+          "Menamic"
+        ],
+        "meloxicam": [
+          "Mobic",
+          "Movalis",
+          "Moxicam",
+          "Meloxibell",
+          "Agilocam",
+          "Melobic",
+          "Melox",
+          "Meloxiauro",
+          "Meloxibindo",
+          "Mobelox"
+        ],
+        "naproxen": [
+          "Naprosyn",
+          "Naprosyn SR",
+          "Anaprox",
+          "Inza",
+          "Proxen SR",
+          "Naprogesic",
+          "Aleve",
+          "Vimovo",
+          "Aleve 24 Hour",
+          "Crysanal",
+          "Femme-Free",
+          "Naprofem",
+          "Naprosyn SR 1000",
+          "Nurolasts Period Pain",
+          "Proxen"
+        ],
+        "piroxicam": [
+          "Feldene",
+          "Mobilis",
+          "Candyl",
+          "Candyl-D",
+          "Feldene-D",
+          "Mobilis D",
+          "Pirohexal-D"
+        ],
+        "sulindac": [
+          "Aclin"
+        ]
+      },
+      "note": "Tablets, capsules, liquids, suppositories and injections count. Skin gels, creams and eye drops do not count, for example Voltaren Emulgel. Aspirin is not in this group. Nurofen Plus and Panafen Plus are ibuprofen with codeine. Nuromol and Maxigesic are ibuprofen with paracetamol. Arthrotec is diclofenac with misoprostol. Vimovo is naproxen with esomeprazole. Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "B",
+      "name": "Systemic corticosteroids, the steroid tablets and injections",
+      "ingredients": [
+        "prednisolone",
+        "prednisone",
+        "methylprednisolone",
+        "dexamethasone",
+        "hydrocortisone",
+        "fludrocortisone",
+        "cortisone acetate",
+        "betamethasone",
+        "triamcinolone acetonide"
+      ],
+      "brands": {
+        "prednisolone": [
+          "Panafcortelone",
+          "Solone",
+          "Redipred",
+          "Predsolone"
+        ],
+        "prednisone": [
+          "Panafcort",
+          "Predsone",
+          "Sone"
+        ],
+        "methylprednisolone": [
+          "Medrol",
+          "Solu-Medrol",
+          "Depo-Medrol",
+          "Methylpred"
+        ],
+        "dexamethasone": [
+          "Dexmethsone"
+        ],
+        "hydrocortisone": [
+          "Cortef",
+          "Solu-Cortef",
+          "Hysone"
+        ],
+        "fludrocortisone": [
+          "Florinef"
+        ],
+        "cortisone acetate": [
+          "Cortate"
+        ],
+        "betamethasone": [
+          "Celestone Chronodose"
+        ],
+        "triamcinolone acetonide": [
+          "Kenacort-A 40"
+        ]
+      },
+      "note": "Tablets, liquids and injections that act on the whole body count. Skin creams, inhalers, nasal sprays and eye drops do not count. For Celestone Chronodose and Kenacort-A 40, count documented systemic administration. Check the route if the supply could be for local injection. Exclude locally used rectal enemas, foams and suppositories and local injections, including intra-articular injections. For Depo-Medrol, check whether the injection was systemic. If the route is unknown and the other evidence fits, report at most a possible finding and ask where the injection was given. Packs showing the ingredient and a company name count when the route qualifies."
+    },
+    {
+      "key": "C",
+      "name": "Loop diuretics",
+      "ingredients": [
+        "furosemide",
+        "bumetanide"
+      ],
+      "brands": {
+        "furosemide": [
+          "Lasix",
+          "Urex",
+          "Frusax",
+          "Frusehexal",
+          "Frusemix",
+          "Frusemix-M",
+          "Frusid",
+          "Furo",
+          "Lasix High Dose",
+          "Lasix M",
+          "Uremide",
+          "Urex Forte",
+          "Urex-M"
+        ],
+        "bumetanide": [
+          "Burinex"
+        ]
+      },
+      "note": "A loop diuretic supply establishes exposure. Confirm whether heart failure required the loop during the overlap. Frusemide is an older name for furosemide. A pack showing the ingredient with a company name counts."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Reason for the loop diuretic during overlapping NSAID or systemic corticosteroid treatment",
+      "meets": "Heart failure was present during the relevant course. The diagnosis alone does not establish the reason for the loop diuretic.",
+      "options": [
+        {
+          "words": "Heart failure required the loop diuretic while the treatments overlapped",
+          "effect": "meets"
+        },
+        {
+          "words": "Heart failure did not require the loop diuretic during the overlap",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Indication or overlap timing not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for the loop diuretic during the overlap",
+      "meets": "Ask when both courses plausibly overlap and the reason for the loop is unresolved. Heart failure must have required the loop during the overlap.",
+      "options": [
+        {
+          "words": "Needed for heart failure",
+          "effect": "meets"
+        },
+        {
+          "words": "Used only for another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Route of the corticosteroid injection",
+      "meets": "Ask when a possible steroid finding depends on an injection of uncertain route and the other evidence could qualify. A local injection rules out only this exposure.",
+      "options": [
+        {
+          "words": "Systemic injection",
+          "effect": "meets"
+        },
+        {
+          "words": "Local injection only",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Use of both medicines on the same day during this course",
+      "meets": "Ask only when both courses could overlap but dates, quantities, directions and recorded use do not settle whether both medicines were taken on the same day.",
+      "options": [
+        {
+          "words": "Both were used on at least one of the same days",
+          "effect": "meets"
+        },
+        {
+          "words": "The courses did not overlap",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Give no finding if the person is under 65, either required medicine is absent, the courses were separate or the record rules out loop-treated heart failure during the overlap. At age 65 or older, confirm a finding only when heart failure required a Group C loop diuretic on at least one day of Group A systemic NSAID or Group B systemic corticosteroid use. For each NSAID or steroid course you report, give one date both packs could cover, using the supply dates, quantities, directions and dated treatment information. Check that the loop pack was dispensed on or before that date, even when the next refill is the same medicine. For a regular dose, check that the quantity lasts to that date. For a plausible overlap, report only a possible finding and ask for any missing age, \"Heart failure\" or \"Reason for the loop diuretic during the overlap\". Use solely for another reason rules out that overlap. If as-needed directions leave actual overlap uncertain, ask for \"Use of both medicines on the same day during this course\". Separate courses rule out that pair. If the steroid branch depends on an injection of uncertain route and the other evidence could qualify, ask for \"Route of the corticosteroid injection\". A local injection rules out only that exposure. Assess a separate systemic NSAID independently. An unknown answer leaves the affected exposure possible only if the remaining evidence could qualify. For every finding, even a possible one, list the line IDs of any facts that show the loop indication or overlap, then for each course reported list the NSAID or steroid supply and the loop diuretic supply that could cover the date you gave for that course.",
+  "cannot_be_seen": "The strength and directions can show the prescribed steroid dose and course length. The record may omit actual use, the reason for the loop diuretic, the presence or severity of heart failure, and NSAIDs bought without a prescription.",
+  "ask_the_gp": "Could you confirm any missing heart failure diagnosis or reason for the loop diuretic and review the NSAID or systemic steroid and fluid status if the courses overlapped during treatment for heart failure?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

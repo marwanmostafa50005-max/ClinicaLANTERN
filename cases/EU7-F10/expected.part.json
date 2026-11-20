@@ -1,0 +1,34 @@
+[
+  {
+    "file": "EU7-F10/pos-brand.csv",
+    "kind": "positive",
+    "about": "Resotrans (prucalopride), by brand name only, is supplied eight times from February to August 2026 to a 68-year-old woman.",
+    "findings": [
+      {
+        "criterion": "EU7-F10",
+        "must_cite": [
+          ["L006", "L010", "L013", "L015", "L019", "L022", "L025", "L029"]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F10/pos-buried.csv",
+    "kind": "positive",
+    "about": "Prucalopride (Resotrans) 1 mg is supplied three times from January to March 2026 to a 73-year-old woman, in the middle of a 14-month history.",
+    "findings": [
+      {
+        "criterion": "EU7-F10",
+        "must_cite": [
+          ["L034", "L037", "L043"]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F10/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Prucalopride (Resotrans) is supplied every four weeks, but the patient is 52 years old, so she is not an older person and the criterion is not met.",
+    "findings": []
+  }
+]

@@ -1,0 +1,334 @@
+{
+  "id": "STOPP-M1",
+  "label": "STOPP M1",
+  "family": "STOPP_START",
+  "title": "Two or more anticholinergic medicines together",
+  "statement": "Concomitant use of two or more drugs with antimuscarinic/anticholinergic properties (e.g., bladder antispasmodics, intestinal antispasmodics, tricyclic antidepressants, first generation antihistamines, antipsychotics) (risk of increased antimuscarinic/anticholinergic toxicity).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Two or more medicines with anticholinergic effects taken together can add up and cause confusion, falls, constipation, dry mouth and trouble passing urine.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Bladder antispasmodics",
+      "ingredients": [
+        "oxybutynin",
+        "solifenacin",
+        "darifenacin",
+        "tolterodine"
+      ],
+      "brands": {
+        "oxybutynin": [
+          "Ditropan",
+          "Oxytrol"
+        ],
+        "solifenacin": [
+          "Vesicare",
+          "Solicare",
+          "Solicare ODT",
+          "Vesican ODT",
+          "Vesifen"
+        ],
+        "darifenacin": [
+          "Enablex"
+        ],
+        "tolterodine": [
+          "Detrusitol"
+        ]
+      }
+    },
+    {
+      "key": "B",
+      "name": "Intestinal antispasmodics",
+      "ingredients": [
+        "hyoscine butylbromide",
+        "propantheline",
+        "hyoscyamine",
+        "atropine"
+      ],
+      "brands": {
+        "hyoscine butylbromide": [
+          "Buscopan",
+          "Buscopan Forte",
+          "Gastro-Soothe",
+          "Setacol",
+          "Stomex"
+        ],
+        "propantheline": [
+          "Pro-Banthine"
+        ],
+        "hyoscyamine": [
+          "Donnatab"
+        ],
+        "atropine": [
+          "Donnatab"
+        ]
+      },
+      "note": "Donnatab contains hyoscyamine, atropine and hyoscine hydrobromide in one medicine."
+    },
+    {
+      "key": "C",
+      "name": "Tricyclic antidepressants",
+      "ingredients": [
+        "amitriptyline",
+        "nortriptyline",
+        "dosulepin",
+        "doxepin",
+        "imipramine",
+        "clomipramine"
+      ],
+      "brands": {
+        "amitriptyline": [
+          "Endep",
+          "Entrip",
+          "Amichlor",
+          "Amidep"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "dosulepin": [
+          "Dothep",
+          "Prothiaden"
+        ],
+        "doxepin": [
+          "Sinequan",
+          "Deptran"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Tolerade",
+          "Melipramine"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ]
+      },
+      "note": "Dosulepin was called dothiepin."
+    },
+    {
+      "key": "D",
+      "name": "First-generation sedating antihistamines",
+      "ingredients": [
+        "promethazine",
+        "dexchlorpheniramine",
+        "cyproheptadine",
+        "doxylamine",
+        "diphenhydramine",
+        "pheniramine",
+        "dimenhydrinate",
+        "chlorphenamine",
+        "brompheniramine"
+      ],
+      "brands": {
+        "promethazine": [
+          "Phenergan",
+          "Allersoothe",
+          "Avomine",
+          "Allersoothe Elixir",
+          "Fenezal",
+          "Histaren",
+          "Phenergan Elixir",
+          "Progan Children's Allergy Relief Elixir"
+        ],
+        "dexchlorpheniramine": [
+          "Polaramine",
+          "Polaramine Repetab",
+          "Polaramine Syrup",
+          "Polarelief"
+        ],
+        "cyproheptadine": [
+          "Periactin"
+        ],
+        "doxylamine": [
+          "Restavit",
+          "Dozile",
+          "Mersyndol",
+          "Mersyndol Forte",
+          "Dozavit",
+          "Restamine"
+        ],
+        "diphenhydramine": [
+          "Unisom SleepGels"
+        ],
+        "pheniramine": [
+          "Avil",
+          "Avil Retard",
+          "Avil Syrup"
+        ],
+        "dimenhydrinate": [
+          "TravaCalm Original",
+          "Dramamine"
+        ],
+        "chlorphenamine": [
+          "Demazin 6 Hour",
+          "Codral Night"
+        ],
+        "brompheniramine": [
+          "Dimetapp Cold & Allergy"
+        ]
+      },
+      "note": "Mersyndol and Mersyndol Forte are paracetamol with codeine and doxylamine. TravaCalm Original supplies dimenhydrinate and hyoscine hydrobromide in one tablet. TravaCalm H.O. supplies hyoscine alone. Chlorphenamine is also called chlorpheniramine. Use the full cold medicine name or the ingredient list to identify the sedating antihistamine."
+    },
+    {
+      "key": "E",
+      "name": "Antipsychotics with strong anticholinergic effects",
+      "ingredients": [
+        "olanzapine",
+        "quetiapine",
+        "clozapine",
+        "chlorpromazine",
+        "periciazine"
+      ],
+      "brands": {
+        "olanzapine": [
+          "Zyprexa",
+          "Aprolan",
+          "Aprolan ODT",
+          "Lanez",
+          "Lanez ODT",
+          "Lanzek",
+          "Lanzek Zydis",
+          "Lonza",
+          "Lonza ODT",
+          "Lyprosia",
+          "Lyprosia ODT",
+          "Olancor",
+          "Olanza",
+          "Olanzaccord",
+          "Olanzacor",
+          "Oprexa",
+          "Ozin",
+          "Ozin ODT",
+          "Prolanza",
+          "Prolanza ODT",
+          "Pryzex",
+          "Pryzex ODT",
+          "Tolaze ODT",
+          "Tolazine ODT",
+          "Torapine ODT",
+          "Torrenia ODT",
+          "Zylap",
+          "Zylap ODT",
+          "Zylapine",
+          "Zylapine ODT",
+          "Zypine",
+          "Zypine ODT",
+          "Zyprexa Zydis"
+        ],
+        "quetiapine": [
+          "Seroquel",
+          "Seroquel XR",
+          "Aliquen",
+          "Delucon",
+          "Kaptan",
+          "Ketizenol",
+          "Qualez",
+          "Quepine XR",
+          "Quetapen",
+          "Quetia",
+          "Quetia XR",
+          "Quetiaccord",
+          "Quetiaquel XR",
+          "Quetin",
+          "Quipine",
+          "Sequase",
+          "Sequase XR",
+          "Serapine",
+          "Serapine XR",
+          "Seroccord",
+          "Seronia",
+          "Serotiapine XR",
+          "Syquet",
+          "Syquet XR",
+          "Syzopine",
+          "Tevatiapine XR",
+          "Tiapine XR",
+          "Tiava XR",
+          "Xque XR"
+        ],
+        "clozapine": [
+          "Clozaril",
+          "Clopine",
+          "Closyn",
+          "Clozaril ODT",
+          "Clozitor",
+          "Versacloz"
+        ],
+        "chlorpromazine": [
+          "Largactil",
+          "Largactil Syrup"
+        ],
+        "periciazine": [
+          "Neulactil"
+        ]
+      }
+    },
+    {
+      "key": "F",
+      "name": "Other medicines with anticholinergic effects",
+      "ingredients": [
+        "benzatropine",
+        "trihexyphenidyl",
+        "orphenadrine",
+        "hyoscine hydrobromide",
+        "prochlorperazine",
+        "paroxetine",
+        "disopyramide"
+      ],
+      "brands": {
+        "benzatropine": [
+          "Benztrop"
+        ],
+        "trihexyphenidyl": [
+          "Artane"
+        ],
+        "orphenadrine": [
+          "Norflex",
+          "Norgesic"
+        ],
+        "hyoscine hydrobromide": [
+          "TravaCalm H.O.",
+          "TravaCalm Original",
+          "Kwells",
+          "Kwells Kids",
+          "Travacalm HO"
+        ],
+        "prochlorperazine": [
+          "Stemzine",
+          "Nausetil",
+          "Nausrelief",
+          "Procalm",
+          "Proclazine",
+          "Stemetil"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Paxtine",
+          "Extine"
+        ],
+        "disopyramide": [
+          "Rythmodan"
+        ]
+      },
+      "note": "Benzatropine was called benztropine. Trihexyphenidyl was called benzhexol. Norgesic is orphenadrine with paracetamol. Count oral prochlorperazine tablets."
+    }
+  ],
+  "rule_for_models": "For a person aged 65 or older, look for at least two different anticholinergic active ingredients from Groups A to F, including ingredients in the same group. Count each different anticholinergic active ingredient once, including two in the same product. Cite the single supply line when it identifies both. Count repeated brands or strengths of the same active ingredient only once. For separate products, cite a supply of each. Suspect use together when their supplies overlap or fall within 60 days of each other. Use the 60-day interval to suspect concurrent use unless the record explicitly states that one medicine was stopped before the other began with no overlap. Do not use dispensing dates or pack size alone to rule out overlap within 60 days. Give no finding for an explicitly documented switch with no overlap. If the medicines and timing qualify but age is unknown, report only a possible finding and ask whether the person was 65 or older at the time of supply. Estimate days covered from quantity and directions when these give a usable schedule. For supplies more than 60 days apart, require evidence of overlap. If the directions leave duration unclear, ask whether both were used together. A large pack alone does not establish a finding.",
+  "cannot_be_seen": "Medicines bought without a prescription that add to the anticholinergic load, such as sedating antihistamines, travel sickness tablets and some cold and flu products. Also whether both medicines are still being taken, the reason for each one, and whether the patient has symptoms such as confusion, dry mouth, constipation or trouble passing urine.",
+  "ask_the_gp": "The combined anticholinergic load of these medicines, and whether each one is still needed.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

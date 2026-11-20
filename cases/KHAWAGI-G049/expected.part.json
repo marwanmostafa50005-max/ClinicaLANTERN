@@ -1,0 +1,41 @@
+[
+  {
+    "file": "KHAWAGI-G049/pos-fact.csv",
+    "kind": "positive",
+    "about": "Promethazine is supplied at age 65 with an established diagnosis of benign prostatic hyperplasia.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G049",
+        "must_cite": [
+          [
+            "L021"
+          ],
+          [
+            "L026"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G049/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about benign prostatic hyperplasia when promethazine is supplied.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G049",
+        "must_cite": [
+          [
+            "L017"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G049/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Promethazine is supplied after urology assessment explicitly excluded benign prostatic hyperplasia.",
+    "findings": []
+  }
+]

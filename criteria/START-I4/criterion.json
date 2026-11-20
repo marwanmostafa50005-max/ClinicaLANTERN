@@ -1,0 +1,108 @@
+{
+  "id": "START-I4",
+  "label": "START I4",
+  "family": "STOPP_START",
+  "title": "Vaginal oestrogen for recurrent urinary infections",
+  "statement": "Topical vaginal oestrogen or vaginal oestrogen pessary in women for recurrent urinary tract infections.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "In some women, a vaginal oestrogen cream or pessary can lower the chance of urinary infections coming back.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Vaginal oestrogen that meets this criterion",
+      "ingredients": [
+        "estradiol",
+        "estriol",
+        "conjugated estrogens"
+      ],
+      "brands": {
+        "estradiol": [
+          "Vagifem",
+          "Estro-Pess",
+          "Vagifem Low"
+        ],
+        "estriol": [
+          "Ovestin",
+          "Vespen"
+        ],
+        "conjugated estrogens": [
+          "Premarin"
+        ]
+      },
+      "note": "Only vaginal forms count: vaginal tablets, pessaries and creams. Premarin counts only as the vaginal cream. Oestrogen tablets, patches and gels for the whole body do not count. Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "B",
+      "name": "Medicines that imply recurrent urinary infections",
+      "ingredients": [
+        "methenamine hippurate",
+        "trimethoprim",
+        "nitrofurantoin"
+      ],
+      "brands": {
+        "methenamine hippurate": [
+          "Hiprex",
+          "Uraleev",
+          "Uramet"
+        ],
+        "trimethoprim": [
+          "Alprim",
+          "Trimethoprim (Mylan)",
+          "Trimethoprim (Viatris)",
+          "Trimethoprim (Wgr)",
+          "Triprim"
+        ],
+        "nitrofurantoin": [
+          "Macrodantin",
+          "Fudantin",
+          "Nitrodantin",
+          "Urodantin"
+        ]
+      },
+      "note": "Methenamine hippurate is taken to prevent urinary infections. Trimethoprim and nitrofurantoin are antibiotics used for urinary infections. A single course does not imply the condition. Generic packs showing the ingredient with a company name count."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Recurrent urinary tract infection",
+      "meets": "The record states recurrent urinary tract infections, for example three in 12 months or two in six months."
+    },
+    {
+      "kind": "observation",
+      "what": "Vaginal oestrogen from another supplier",
+      "meets": "Current vaginal oestrogen from another supplier clears the treatment omission. Confirmed absence of outside vaginal treatment settles only that part of the review. An unknown answer leaves outside cover unresolved.",
+      "options": [
+        {
+          "words": "Currently using vaginal oestrogen from another supplier",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "No current vaginal oestrogen from another supplier",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this item only to people aged 65 or older. If age or sex is unknown and the other evidence would support a finding, report only a possible finding and ask the pharmacist to confirm the missing age or sex. Report no omission if the record documents end-of-life care with a palliative focus, a contraindication to the proposed therapy, or another valid reason for omitting it. In a woman, suspect a finding when the record holds a line for recurrent urinary tract infection and no Group A medicine is supplied in the last six months of the record, and cite the condition line. Review vaginal oestrogen for recurrent urinary infection in the context of perimenopause or menopause. If the record specifically establishes that neither applies, do not flag this as an omission. For a woman aged 65 or older without a recurrent urinary infection line, check for methenamine hippurate or at least three supplies of trimethoprim or nitrofurantoin in total within 12 months. If either clue is present and vaginal oestrogen was not supplied in the last six months, report only a possible finding and request the missing fact by its name, Recurrent urinary tract infection. A Not known answer leaves recurrence unresolved. A No answer rules it out even when the medicine clue remains. If a methenamine supply is old, ask whether it still relates to recurrent infections. A course known to be unrelated or no longer relevant does not qualify. Without a condition line or a qualifying Group B clue, report no finding. When a Group A medicine is supplied in the last six months, or the record says the infections are not recurrent, there is no finding. If a possible omission depends on unclear outside treatment, ask for \"Vaginal oestrogen from another supplier\". Count only treatment used vaginally. Current vaginal oestrogen from another supplier clears the omission. Confirmed absence of outside treatment settles only cover from that source. An unknown answer leaves cover unresolved and the finding possible. The answer does not establish the underlying condition.",
+  "cannot_be_seen": "How many infections the woman has had and whether they were proved by a urine test, antibiotics given in hospital or by another pharmacy, and the reason an antibiotic was supplied. Also any history of breast cancer or unexplained vaginal bleeding. Ask whether the antibiotic or methenamine was for repeated urinary infections and whether vaginal oestrogen is obtained elsewhere. Ask about any history of breast cancer or unexplained vaginal bleeding for the GP review.",
+  "ask_the_gp": "A review of whether a vaginal oestrogen would help to lower the chance of the urinary infections coming back.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "only_sex": "female"
+}

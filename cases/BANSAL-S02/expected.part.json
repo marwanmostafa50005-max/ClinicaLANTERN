@@ -1,0 +1,43 @@
+[
+  {
+    "file": "BANSAL-S02/pos-fact.csv",
+    "kind": "positive",
+    "about": "Gestation of 26 weeks on 14 July supports pregnancy at both the May Panadeine Forte supply and the July Endone supply.",
+    "findings": [
+      {
+        "criterion": "BANSAL-S02",
+        "must_cite": [
+          [
+            "L023",
+            "L032"
+          ],
+          [
+            "L033"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BANSAL-S02/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about \"Pregnancy on the opioid supply date being reviewed\". Panadeine Forte (codeine) in April 2026 and Tramal (tramadol) in June 2026 are supplied to a 29-year-old woman.",
+    "findings": [
+      {
+        "criterion": "BANSAL-S02",
+        "must_cite": [
+          [
+            "L013",
+            "L020"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BANSAL-S02/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Opioids were last supplied in September 2025, months before the pregnancy recorded in February 2026. Paracetamol is the only analgesic supplied during the recorded pregnancy.",
+    "findings": []
+  }
+]

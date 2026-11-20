@@ -1,0 +1,44 @@
+[
+  {
+    "file": "START-G1/pos-fact.csv",
+    "kind": "positive",
+    "about": "The record shows symptomatic GOLD 2 COPD with persistent exertional breathlessness and only a reliever inhaler (salbutamol, Ventolin) over 13 months, with no long-acting muscarinic or beta 2 inhaler at any time.",
+    "findings": [
+      {
+        "criterion": "START-G1",
+        "must_cite": [
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-G1/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: salbutamol is supplied for COPD with no long-acting bronchodilator, but the record holds no condition line confirming COPD and no facts documenting symptoms or GOLD stage.",
+    "findings": [
+      {
+        "criterion": "START-G1",
+        "must_cite": [
+          [
+            "L003",
+            "L006",
+            "L009",
+            "L014",
+            "L017",
+            "L020",
+            "L023"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-G1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The record shows chronic asthma alone and daily budesonide without a long-acting bronchodilator, so the COPD criterion gives no finding.",
+    "findings": []
+  }
+]

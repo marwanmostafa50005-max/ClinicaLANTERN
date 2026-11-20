@@ -1,0 +1,53 @@
+[
+  {
+    "file": "OPTIMISE-T3-01/pos-fact.csv",
+    "kind": "positive",
+    "about": "After the January olanzapine start, weight rose from 78 kg to 82.5 kg in the first month. Metformin had been stopped in October.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T3-01",
+        "must_cite": [
+          [
+            "L009"
+          ],
+          [
+            "L011"
+          ],
+          [
+            "L010"
+          ],
+          [
+            "L016"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T3-01/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about Body weight at or just before starting clozapine or olanzapine, Body weight about one month after starting clozapine or olanzapine, Start of this clozapine or olanzapine course or Severe mental illness.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T3-01",
+        "must_cite": [
+          [
+            "L001",
+            "L006",
+            "L009",
+            "L014",
+            "L018",
+            "L022",
+            "L025"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T3-01/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Olanzapine is started, but body weight rises only from 78 kg to 79.5 kg (about 2%) in the first month, so there is no early weight gain.",
+    "findings": []
+  }
+]

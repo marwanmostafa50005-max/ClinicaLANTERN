@@ -1,0 +1,70 @@
+{
+  "id": "SCOTNTI-RESP-06",
+  "label": "SCOTNTI RESP-06",
+  "family": "SCOTNTI",
+  "title": "Six or more SABA inhalers in a year",
+  "statement": "Number of people prescribed 6 or more short-acting beta-agonist (SABA) inhalers per annum as a percentage of all people prescribed SABAs",
+  "statement_origin": "published",
+  "source": {
+    "document": "Scottish Government. Polypharmacy guidance: appropriate prescribing, making medicines safe, effective and sustainable 2026 to 2029",
+    "citation": "Scottish Government. Polypharmacy guidance: appropriate prescribing, making medicines safe, effective and sustainable 2026 to 2029. Appendix C, Poor Asthma Control.",
+    "url": "https://www.gov.scot/publications/polypharmacy-guidance-appropriate-prescribing-making-medicines-safe-effective-sustainable-2026-2029/pages/14/",
+    "licence": "UK Open Government Licence v3.0",
+    "licence_status": "proposed",
+    "credit": "Contains public sector information licensed under the Open Government Licence v3.0 (Public Health Scotland and Scottish Government).",
+    "modification_notice": "Statement reproduced without changes. Plain-language fields and Australian medicine mapping added for this draft."
+  },
+  "plain_summary": "Six or more short-acting beta-agonist (SABA) inhalers in 12 months are a priority trigger for review. In Australia, the Australian Asthma Handbook links 3 or more SABA canisters per year to an increased risk of exacerbations, and 12 or more canisters per year to an increased risk of asthma death. Ask the patient about non-prescription salbutamol purchases and inhaler technique.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Short-acting beta-agonist inhalers",
+      "ingredients": [
+        "salbutamol",
+        "terbutaline"
+      ],
+      "brands": {
+        "salbutamol": [
+          "Ventolin",
+          "Ventolin CFC-Free",
+          "Ventolin CFC-Free with dose counter",
+          "Asmol",
+          "Asmol CFC-Free",
+          "Asmol CFC-Free with dose counter",
+          "Zempreon",
+          "Zempreon CFC-Free",
+          "Zempreon CFC-Free with dose counter",
+          "Airomir Autohaler",
+          "Respolin"
+        ],
+        "terbutaline": [
+          "Bricanyl Turbuhaler"
+        ]
+      },
+      "note": "Group A includes pressurised inhalers, autohalers and dry-powder inhalers. A single supply can contain more than one inhaler device. Ventolin Nebules and other nebuliser solutions, Bricanyl Injection, and oral SABA formulations (tablets and liquids) do not count."
+    }
+  ],
+  "count_supplies": {
+    "group": "A",
+    "months": 12,
+    "window": "any",
+    "form_has": [
+      "inhaler",
+      "autohaler",
+      "turbuhaler",
+      "powder for inhalation",
+      "inhalation powder",
+      "metered dose aerosol",
+      "metered-dose aerosol",
+      "pressurised inhalation",
+      "pressurized inhalation",
+      "pmdi"
+    ]
+  },
+  "rule_for_models": "At any age, use the application's Group A total for any rolling 12 months. Report a finding when the total establishes six or more inhaler devices and cite the contributing supplies, even if another supply is unclear. If the result depends on an unread quantity, an uncertain unit or a pack size that cannot be verified, report a possible finding and ask how many inhaler devices were supplied.",
+  "cannot_be_seen": "S3 pharmacist-only over-the-counter salbutamol inhalers are often absent from prescription records, so true SABA use may be higher than shown. Standard PBS supplies often dispense 2 inhaler devices at once so a patient can keep a spare inhaler at work, school or home, meaning supplied devices do not prove all doses were used. Dispensing records cannot distinguish asthma from COPD, and do not show inhaler technique or supplies from another pharmacy.",
+  "ask_the_gp": "Whether asthma or COPD control, reliever use, inhaler technique and preventer treatment should be reviewed given the number of SABA inhaler devices supplied.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

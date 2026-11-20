@@ -1,0 +1,47 @@
+[
+  {
+    "file": "CKD-N05A/pos-fact.csv",
+    "kind": "positive",
+    "about": "Monthly Invega Sustenna warrants review at CrCl 49 mL/min.",
+    "findings": [
+      {
+        "criterion": "CKD-N05A",
+        "must_cite": [
+          [
+            "L045"
+          ],
+          [
+            "L001"
+          ],
+          [
+            "L044"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CKD-N05A/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about creatinine clearance for the monthly Invega Sustenna supply.",
+    "findings": [
+      {
+        "criterion": "CKD-N05A",
+        "must_cite": [
+          [
+            "L029"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CKD-N05A/near-miss.csv",
+    "kind": "near_miss",
+    "about": "At CrCl 50 mL/min, the monthly Invega Sustenna supply falls outside the review threshold.",
+    "findings": []
+  }
+]

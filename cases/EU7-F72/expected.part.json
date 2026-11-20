@@ -1,0 +1,47 @@
+[
+  {
+    "file": "EU7-F72/pos-brand.csv",
+    "kind": "positive",
+    "about": "Aropax (paroxetine), by brand name only, is supplied eight times from September 2025 to March 2026 to a 73-year-old.",
+    "findings": [
+      {
+        "criterion": "EU7-F72",
+        "must_cite": [
+          [
+            "L003",
+            "L007",
+            "L010",
+            "L014",
+            "L017",
+            "L021",
+            "L024",
+            "L028"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F72/pos-buried.csv",
+    "kind": "positive",
+    "about": "Fluoxetine (APO-Fluoxetine) 20 mg, two capsules a day (40 mg a day, above the EU(7)-PIM review threshold of 20 mg daily), is supplied three times from December 2025 to February 2026, in the middle of a 15-month history.",
+    "findings": [
+      {
+        "criterion": "EU7-F72",
+        "must_cite": [
+          [
+            "L029",
+            "L033",
+            "L038"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F72/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Sertraline, an antidepressant that is not on the list, is supplied monthly. None of fluoxetine, paroxetine or fluvoxamine appears.",
+    "findings": []
+  }
+]

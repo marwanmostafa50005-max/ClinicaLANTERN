@@ -1,0 +1,89 @@
+{
+  "id": "CKD-J01X",
+  "label": "CKD review: Review methenamine hippurate used for UTI prevention at eGFR below 10 mL/min/1.73 m²",
+  "family": "CKD",
+  "title": "Review methenamine hippurate used for UTI prevention at eGFR below 10 mL/min/1.73 m²",
+  "statement": "For an adult outpatient with established CKD, review methenamine hippurate used for UTI prevention at eGFR below 10 mL/min/1.73 m².",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "A systematically collated library of prescribing safety indicators for people with chronic kidney disease, Additional file 2 (Appendix 3)",
+    "citation": "Smith F, Hayward S, Hole B, Kimpton G, Sluman C, Whiting P, Caskey F. BMC Nephrology. 2020;21:493.",
+    "doi": "10.1186/s12882-020-02158-0",
+    "url": "https://link.springer.com/article/10.1186/s12882-020-02158-0",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Smith F, Hayward S, Hole B, Kimpton G, Sluman C, Whiting P, Caskey F. A systematically collated library of prescribing safety indicators for people with chronic kidney disease. BMC Nephrology 2020;21:493. https://doi.org/10.1186/s12882-020-02158-0; Additional file 2 (Appendix 3), https://doi.org/10.6084/m9.figshare.13257677. © The Author(s) 2020, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Changes were made. Smith et al. compiled the CKD indicators. Original screening wording and Australian adaptations. Clinical cross-check: Hiprex Australian PI (https://www.safetyandquality.gov.au/medicine-finder/hiprex).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "For an adult outpatient with established CKD, review methenamine hippurate used for UTI prevention at eGFR below 10 mL/min/1.73 m².",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Methenamine hippurate for urinary infection prevention",
+      "ingredients": [
+        "methenamine hippurate"
+      ],
+      "brands": {
+        "methenamine hippurate": [
+          "Hiprex",
+          "Uraleev",
+          "Uramet",
+          "APOHEALTH Urinary Tract Antibacterial",
+          "Chemists' Own Urinary Tract Antibacterial"
+        ]
+      },
+      "note": "The intended use may appear in the supply directions or in a linked clinical note. Exclude other urinary medicines. A line labelled hexamine hippurate counts as methenamine hippurate."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Chronic kidney disease",
+      "meets": "CKD was established by the supply under review. If its timing is uncertain, keep the finding possible unless another fact rules it out.",
+      "options": [
+        {
+          "words": "CKD was established by the supply under review",
+          "effect": "meets"
+        },
+        {
+          "words": "CKD was absent at the supply under review",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for methenamine hippurate at supply",
+      "meets": "Prevention of urinary tract infection, including recurrence, documented in the directions or a dated clinical record.",
+      "options": [
+        {
+          "words": "Preventing a urinary tract infection",
+          "effect": "meets"
+        },
+        {
+          "words": "Another purpose",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "result",
+      "what": "eGFR",
+      "meets": "Indexed eGFR below 10 mL/min/1.73 m² on a dated result relevant to supply."
+    }
+  ],
+  "rule_for_models": "For an outpatient aged 18 or older supplied methenamine hippurate for UTI prevention, flag established CKD with a dated indexed eGFR below 10 mL/min/1.73 m² applicable at supply. Read the directions and linked notes for the indication before asking. Cite the supply, preventive use, CKD and eGFR. Give no finding for another known purpose, CKD ruled out or an applicable eGFR of 10 or higher. If the other evidence allows a finding, ask only for the missing age, indication, CKD status or dated indexed eGFR and report a possible finding. CrCl or an undated result alone cannot establish the eGFR at supply.",
+  "cannot_be_seen": "Dispensing does not establish the dose taken. Kidney results obtained elsewhere, their units and their timing may be missing.",
+  "ask_the_gp": "Methenamine hippurate is contraindicated when eGFR is below 10 mL/min/1.73 m². Could you confirm whether it is being used to prevent UTI and review suitability before further supply against the current indexed eGFR?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

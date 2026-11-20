@@ -1,0 +1,44 @@
+[
+  {
+    "file": "SCOTNTI-GI-NSAID-AP/pos-brand.csv",
+    "kind": "positive",
+    "about": "Iscover (L017) and Voltaren suppositories (L018) overlap on 19 and 20 May before daily Somac (L019) starts on 21 May.",
+    "findings": [
+      {
+        "criterion": "SCOTNTI-GI-NSAID-AP",
+        "must_cite": [
+          [
+            "L018"
+          ],
+          [
+            "L017"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "SCOTNTI-GI-NSAID-AP/pos-buried.csv",
+    "kind": "positive",
+    "about": "Twice-daily Brilinta (L031) covers the intramuscular Toradol dose (L036) on 22 January without recorded gastro-protection.",
+    "findings": [
+      {
+        "criterion": "SCOTNTI-GI-NSAID-AP",
+        "must_cite": [
+          [
+            "L036"
+          ],
+          [
+            "L031"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "SCOTNTI-GI-NSAID-AP/near-miss.csv",
+    "kind": "near_miss",
+    "about": "During Iscover treatment (L017), only Voltaren skin gel (L018) is used before Somac (L020) covers the full oral Brufen course (L019).",
+    "findings": []
+  }
+]

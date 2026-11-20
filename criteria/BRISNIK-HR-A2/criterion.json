@@ -1,0 +1,94 @@
+{
+  "id": "BRISNIK-HR-A2",
+  "label": "Brisnik A2: tricyclic in ischaemic heart disease",
+  "family": "BRISNIK",
+  "title": "Tricyclic antidepressant at 50 mg a day or more in ischaemic heart disease",
+  "statement": "Prescribed TCA (in doses ≥ 50 mg/day) - and the patient has a history of ischemic heart disease",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.2 candidate repairs and adopted conventions merged with attribution). Not endorsed by the source authors."
+  },
+  "plain_summary": "Tricyclic antidepressants at 50 mg a day or more can cause fast or irregular heartbeats, so they are risky for a person with ischaemic heart disease (narrowed heart arteries).",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Tricyclic antidepressants (TCAs)",
+      "ingredients": [
+        "amitriptyline",
+        "clomipramine",
+        "dosulepin",
+        "doxepin",
+        "imipramine",
+        "nortriptyline",
+        "trimipramine"
+      ],
+      "brands": {
+        "amitriptyline": [
+          "Endep",
+          "Amichlor",
+          "Amidep",
+          "Entrip"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "dosulepin": [
+          "Dothep",
+          "Prothiaden"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ]
+      },
+      "note": "A tricyclic counts only at a daily dose of 50 mg or more. Work the dose out from strength and directions. Dothiepin is the former name for dosulepin."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Ischaemic heart disease (coronary artery disease, angina or a past heart attack)",
+      "meets": "Ischaemic heart disease is recorded as a current or past condition.",
+      "options": [
+        {
+          "words": "Current or past diagnosis of coronary disease, angina or heart attack",
+          "effect": "meets"
+        },
+        {
+          "words": "History confirms none of these diagnoses",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "For a Group A tricyclic at 50 mg a day or more (daily dose = mg per tablet or capsule multiplied by the total number of tablets or capsules directed per day), cite the supply and any recorded current or past ischaemic heart disease, including angina or myocardial infarction. If the directions leave the threshold uncertain and the other requirements could be met, report a possible finding and name the missing fact as the prescribed daily dose of the specific tricyclic in mg per day. Use the pharmacist's dose for the same medicine and course, and keep an unknown dose open. Give no finding if the entire prescribed range is below 50 mg or if a history review excludes ischaemic heart disease. If the dose qualifies or could qualify and the history is unknown, report a possible finding and name the missing history of ischaemic heart disease. Ask whether a doctor has diagnosed angina or coronary artery disease, or whether the person has had a heart attack. A calcium score alone leaves this history unknown. An explicit history review recording no current or past ischaemic heart disease supports no finding.",
+  "cannot_be_seen": "Whether the person has ischaemic heart disease when no condition line is recorded, how severe it is, ECG and stress test results, why the tricyclic was chosen, and what the person actually takes.",
+  "ask_the_gp": "A review of the tricyclic antidepressant dose and choice for this person, and confirmation of whether the person has ever been diagnosed with ischaemic heart disease.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

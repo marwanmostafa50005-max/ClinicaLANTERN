@@ -1,0 +1,72 @@
+{
+  "id": "FDADSC-2",
+  "label": "FDADSC: delayed or stopped denosumab",
+  "family": "FDADSC",
+  "title": "Denosumab 60 mg supply gap and vertebral fracture risk",
+  "statement": "Prolia may lower the calcium levels in your blood, and it is administered as a subcutaneous injection under the skin by a health care professional once every 6 months. Do not stop taking Prolia without talking with your health care professional as your risk of bone fracture, including in the spine, is increased after stopping, skipping, or delaying Prolia.",
+  "statement_origin": "published",
+  "source": {
+    "document": "US FDA Drug Safety Communication: Prolia (denosumab)",
+    "citation": "US Food and Drug Administration. Prolia Drug Safety Communication. Posted 19 January 2024.",
+    "url": "https://www.fda.gov/safety/medical-product-safety-information/prolia-denosumab-drug-safety-communication-fda-adds-boxed-warning-increased-risk-severe-hypocalcemia",
+    "licence": "Public domain",
+    "licence_status": "proposed",
+    "credit": "Credit the U.S. Food and Drug Administration as the source. Credit is appreciated but not required. FDA recommends recording the copy date and linking to the source.",
+    "modification_notice": "Statement reproduced without changes."
+  },
+  "plain_summary": "A gap after denosumab 60 mg can lead to rebound vertebral fractures at any adult age. The TGA safety update of 21 November 2025 reports multiple vertebral fractures as early as 7 months after the last dose and says transition to another antiresorptive should be considered if treatment stops.",
+  "medicine_groups": [
+    {
+      "key": "denosumab_osteoporosis",
+      "name": "Denosumab 60 mg pre-filled syringe",
+      "ingredients": [
+        "denosumab"
+      ],
+      "brands": {
+        "denosumab": [
+          "Prolia",
+          "Jubbonti",
+          "Stoboclo",
+          "Corora",
+          "Ospomyv",
+          "Denolia",
+          "Deskeltia"
+        ]
+      },
+      "note": "Exclude 120 mg oncology products such as Xgeva, Wyost, Osenvelt, Ganvado, Xborso, Dostiva and Dexeva. Generic packs that name denosumab count when the strength and form match. V2a sources: Australian Prolia Product Information and Australian Xgeva Product Information. A denosumab 60 mg/mL pre-filled syringe containing 1 mL counts for any indication."
+    },
+    {
+      "key": "antiresorptive_transition",
+      "name": "Bisphosphonate transition after denosumab",
+      "ingredients": [
+        "alendronate",
+        "risedronate",
+        "zoledronic acid"
+      ],
+      "brands": {
+        "alendronate": [
+          "Fosamax Once Weekly",
+          "Fosamax",
+          "Fosamax Plus",
+          "Alendro Once Weekly"
+        ],
+        "risedronate": [
+          "Actonel",
+          "Actonel EC",
+          "Actonel EC Combi",
+          "Actonel EC Combi D"
+        ],
+        "zoledronic acid": [
+          "Aclasta"
+        ]
+      },
+      "note": "This is the protective group. A later oral or parenteral bisphosphonate supply can clear the supply-gap finding. Count an osteoporosis zoledronic acid infusion of 5 mg/100 mL, including Aclasta or a generic equivalent. Exclude 4 mg oncology products such as Zometa. Count generic and combination packs naming alendronate or risedronate, including packs with calcium or colecalciferol, only when the supplied pack contains the bisphosphonate. Denosumab, calcium and vitamin D are not bisphosphonates."
+    }
+  ],
+  "rule_for_models": "For an adult aged 18 years or older with a denosumab_osteoporosis supply, measure the gap from the latest such supply to the latest date in the dispensing record, or the system review date when supplied. Report a possible finding when the gap is more than 6 months, meaning more than 183 days, with no later denosumab or antiresorptive_transition supply, and cite the latest denosumab supply; a later denosumab or bisphosphonate supply means no finding. The FDA alert gives no lateness grace period, so the pharmacist decides borderline timing, asks whether an injection or bisphosphonate was received elsewhere or delayed, and reports at most a possible finding with an age check when adult age is not established.",
+  "cannot_be_seen": "Supply precedes administration, and the actual injection date is not shown. Injections or bisphosphonates may be supplied at another pharmacy, hospital or infusion clinic, or may be delayed, so the pharmacist should ask the patient about them. A planned specialist cessation is not recorded.",
+  "ask_the_gp": "A review of whether denosumab was delayed, skipped or stopped, the administration date, and transition to another antiresorptive if needed.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

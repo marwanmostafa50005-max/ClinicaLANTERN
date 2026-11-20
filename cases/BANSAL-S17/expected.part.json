@@ -1,0 +1,51 @@
+[
+  {
+    "file": "BANSAL-S17/pos-fact.csv",
+    "kind": "positive",
+    "about": "Surgical discharge and the first OxyNorm supply for knee replacement pain are recorded on 23 January 2026. Supplies recur every 28 days and continue beyond 23 April, the three-month boundary.",
+    "findings": [
+      {
+        "criterion": "BANSAL-S17",
+        "must_cite": [
+          [
+            "L013"
+          ],
+          [
+            "L014"
+          ],
+          [
+            "L034",
+            "L039",
+            "L044"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BANSAL-S17/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about a hospital stay or surgery. OxyNorm (oxycodone), by brand name only, is supplied every 28 days for seven months from 26 January 2026.",
+    "findings": [
+      {
+        "criterion": "BANSAL-S17",
+        "must_cite": [
+          [
+            "L004"
+          ],
+          [
+            "L020",
+            "L024",
+            "L028"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BANSAL-S17/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Discharge from hospital after surgery is recorded on 5 February 2026 and OxyNorm (oxycodone) is supplied on 5 and 26 February and 19 March 2026, then stops, so there is no opioid supply more than 3 months after discharge.",
+    "findings": []
+  }
+]

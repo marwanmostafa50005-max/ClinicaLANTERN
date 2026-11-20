@@ -1,0 +1,357 @@
+{
+  "id": "OPTIMISE-T3-04",
+  "label": "OPTIMISE T3-04: H2 blocker with high anticholinergic burden",
+  "family": "OPTIMISE",
+  "title": "H2 receptor antagonist with a high anticholinergic burden medicine",
+  "statement": "Where gastroprotection is indicated, low dose proton pump inhibitors (PPIs) are the preferred treatment choice in adults with SMI who are prescribed agents with a high anticholinergic cognitive burden (ACB). This is because H 2 receptor antagonists may increase the ACB and could increase the risk of cognitive impairment",
+  "statement_origin": "published",
+  "source": {
+    "document": "Carolan A, et al. OPTIMISE. BMC Psychiatry 2022;22:585, Tables 2-3",
+    "citation": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Where stomach protection is needed, a low dose proton pump inhibitor is preferred to an H2 blocker in a person taking medicines with a high anticholinergic burden.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Medicines with a high anticholinergic burden (working list)",
+      "ingredients": [
+        "clozapine",
+        "olanzapine",
+        "quetiapine",
+        "chlorpromazine",
+        "amitriptyline",
+        "paroxetine",
+        "benztropine",
+        "trihexyphenidyl",
+        "oxybutynin",
+        "benzatropine",
+        "nortriptyline",
+        "doxepin",
+        "clomipramine",
+        "imipramine",
+        "dosulepin",
+        "solifenacin",
+        "tolterodine",
+        "promethazine",
+        "cyproheptadine"
+      ],
+      "brands": {
+        "clozapine": [
+          "Clozaril",
+          "Clopine",
+          "Closyn",
+          "Clozaril ODT",
+          "Clozitor",
+          "Versacloz"
+        ],
+        "olanzapine": [
+          "Zyprexa",
+          "Zyprexa Zydis",
+          "Aprolan",
+          "Aprolan ODT",
+          "Lanez",
+          "Lanez ODT",
+          "Lanzek",
+          "Lanzek Zydis",
+          "Lonza",
+          "Lonza ODT",
+          "Lyprosia",
+          "Lyprosia ODT",
+          "Olancor",
+          "Olanza",
+          "Olanzaccord",
+          "Olanzacor",
+          "Oprexa",
+          "Ozin",
+          "Ozin ODT",
+          "Prolanza",
+          "Prolanza ODT",
+          "Pryzex",
+          "Pryzex ODT",
+          "Tolaze ODT",
+          "Tolazine ODT",
+          "Torapine ODT",
+          "Torrenia ODT",
+          "Zylap",
+          "Zylap ODT",
+          "Zylapine",
+          "Zylapine ODT",
+          "Zypine",
+          "Zypine ODT",
+          "Zyprexa Relprevv"
+        ],
+        "quetiapine": [
+          "Seroquel",
+          "Seroquel XR",
+          "Aliquen",
+          "Delucon",
+          "Kaptan",
+          "Ketizenol",
+          "Qualez",
+          "Quepine XR",
+          "Quetapen",
+          "Quetia",
+          "Quetia XR",
+          "Quetiaccord",
+          "Quetiaquel XR",
+          "Quetin",
+          "Quipine",
+          "Sequase",
+          "Sequase XR",
+          "Serapine",
+          "Serapine XR",
+          "Seroccord",
+          "Seronia",
+          "Serotiapine XR",
+          "Syquet",
+          "Syquet XR",
+          "Syzopine",
+          "Tevatiapine XR",
+          "Tiapine XR",
+          "Tiava XR",
+          "Xque XR"
+        ],
+        "chlorpromazine": [
+          "Largactil",
+          "Largactil Syrup"
+        ],
+        "amitriptyline": [
+          "Endep",
+          "Amichlor",
+          "Amidep",
+          "Entrip"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Aropax CR",
+          "Extine",
+          "Oxetine",
+          "Paroxo",
+          "Paxtine",
+          "Roxet",
+          "Roxtine"
+        ],
+        "benztropine": [
+          "Cogentin",
+          "Benztrop"
+        ],
+        "trihexyphenidyl": [
+          "Artane"
+        ],
+        "oxybutynin": [
+          "Ditropan"
+        ],
+        "benzatropine": [
+          "Cogentin",
+          "Benztrop"
+        ],
+        "nortriptyline": [
+          "Allegron"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "clomipramine": [
+          "Anafranil"
+        ],
+        "imipramine": [
+          "Tofranil"
+        ],
+        "dosulepin": [
+          "Dosulepin (Mylan)",
+          "Dosulepin (Viatris)",
+          "Dothep",
+          "Prothiaden"
+        ],
+        "solifenacin": [
+          "Vesicare"
+        ],
+        "tolterodine": [
+          "Detrusitol"
+        ],
+        "promethazine": [
+          "Phenergan"
+        ],
+        "cyproheptadine": [
+          "Periactin"
+        ]
+      },
+      "note": "The source gives no ingredient list. Count the listed systemic medicines. For Zyprexa Relprevv, use documented administration and its interval to establish exposure. For oxybutynin, count oral forms only. An oxybutynin patch and a skin cream containing doxepin do not qualify. If the only candidate is a supply of Zyprexa Relprevv and administration is unknown, report at most a possible finding when the other checks allow it. Ask whether and when it was administered."
+    },
+    {
+      "key": "B",
+      "name": "H2 receptor antagonists",
+      "ingredients": [
+        "famotidine",
+        "ranitidine",
+        "cimetidine",
+        "nizatidine"
+      ],
+      "brands": {
+        "famotidine": [
+          "Pepcid",
+          "Ausfam 40",
+          "Pepcidine"
+        ],
+        "ranitidine": [
+          "Zantac",
+          "Acidsoothe",
+          "Ausran",
+          "Gavilast 12 Hour Action",
+          "Rani-2",
+          "Ranihexal",
+          "Ranital Forte",
+          "Ranoxyl",
+          "Ranoxyl Heartburn Relief",
+          "Ulcaid",
+          "Zantac Double Strength",
+          "Zantac Relief",
+          "Zantac Relief Extra Strength"
+        ],
+        "cimetidine": [
+          "Cimetidine (Genrx)",
+          "Magicul",
+          "Tagamet"
+        ],
+        "nizatidine": [
+          "Tazac",
+          "Tazac Pulvules"
+        ]
+      },
+      "note": "Count oral tablets, capsules and liquids that identify a listed H2 receptor antagonist, including oral combinations with a confirmed Group B ingredient. A brand family or an antacid alone does not establish the ingredient."
+    },
+    {
+      "key": "C",
+      "name": "Proton pump inhibitors (the preferred choice)",
+      "ingredients": [
+        "pantoprazole",
+        "esomeprazole",
+        "omeprazole",
+        "rabeprazole",
+        "lansoprazole"
+      ],
+      "brands": {
+        "pantoprazole": [
+          "Somac",
+          "Gastenz",
+          "Ozpan",
+          "Pantaccord",
+          "Panthron",
+          "Panto",
+          "Pantofast",
+          "Pantoloc",
+          "Prazole",
+          "Rizil",
+          "Salpraz",
+          "Salpraz Heartburn Relief",
+          "Somac Heartburn Relief",
+          "Sozol",
+          "Suvacid Heartburn Relief",
+          "Topra",
+          "Torprazole",
+          "Torzole"
+        ],
+        "esomeprazole": [
+          "Nexium",
+          "Axagon",
+          "Beezole",
+          "Emeprazol",
+          "Esopran",
+          "Esopreze",
+          "Guardium Acid Reflux Relief",
+          "Jubeso",
+          "Jubium",
+          "Mepreze",
+          "Nexazole",
+          "Nexcid",
+          "Nexium 24HR Once Daily Dosing",
+          "Nexole",
+          "Nexprazole",
+          "Noxicid",
+          "Noxicid Caps Heartburn Relief",
+          "Noxicid Tabs Heartburn Relief",
+          "Zanzole 24HR"
+        ],
+        "omeprazole": [
+          "Losec",
+          "Acimax",
+          "Maxor",
+          "Maxor EC",
+          "Maxor Heartburn Relief",
+          "Meprazol",
+          "Omepral",
+          "Omepro",
+          "Omezole",
+          "Ozmep",
+          "Pemzo",
+          "Probitor"
+        ],
+        "rabeprazole": [
+          "Pariet",
+          "Parbezol",
+          "Parzol",
+          "Perizel DR",
+          "Prabez",
+          "Rabzole",
+          "Razit",
+          "Zabep"
+        ],
+        "lansoprazole": [
+          "Zoton",
+          "Lanzopran",
+          "Zopral",
+          "Zopral ODT",
+          "Zoton Fastab"
+        ]
+      },
+      "note": "A proton pump inhibitor in place of the H2 receptor antagonist is not a finding."
+    }
+  ],
+  "rule_for_models": "Report no finding for anyone under 18, if severe mental illness or the need for gastroprotection is ruled out, if a qualifying Group A medicine and Group B H2 receptor antagonist pair is absent, or if a Group C proton pump inhibitor replaces the H2 receptor antagonist. For a finding in an adult aged 18 or older, cite one supply from each group that overlaps the other or falls within 60 days of it, and cite the lines documenting severe mental illness and a need for gastroprotection. If depot olanzapine is the only Group A candidate, a dispensing date does not prove an injection. Use the actual injection date and prescribed interval to establish exposure for the qualifying pair. If otherwise eligible and administration is unclear, report a possible finding and ask about \"Olanzapine depot administration during the H2 treatment review\". If an injection was given but its date or interval is unclear, ask for \"Olanzapine depot dosing interval in weeks and date of injection\" and keep the finding possible until timing is established. There is no finding if no relevant injection was given or its timing rules out a qualifying pair. With a qualifying pair and no exclusion, report only a possible finding if age, severe mental illness or the need for gastroprotection is unknown, ask whether the person is 18 or older if age is missing, and name each missing clinical fact.",
+  "cannot_be_seen": "Whether stomach protection is really needed, why the H2 blocker was chosen, whether the person has severe mental illness, kidney function, and any proton pump inhibitor tried before.",
+  "ask_the_gp": "A review of whether a low dose proton pump inhibitor could replace the H2 receptor antagonist, and whether stomach protection is still needed.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Severe mental illness",
+      "meets": "A documented severe mental illness such as schizophrenia."
+    },
+    {
+      "kind": "observation",
+      "what": "Need for gastroprotection",
+      "meets": "The record documents an ongoing clinical indication for stomach protection."
+    },
+    {
+      "kind": "observation",
+      "what": "Olanzapine depot administration during the H2 treatment review",
+      "meets": "Ask only if depot olanzapine is the sole candidate for Group A and administration cannot be established.",
+      "options": [
+        {
+          "words": "An olanzapine depot injection was given",
+          "effect": "meets"
+        },
+        {
+          "words": "None of the relevant depot injections was given",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "result",
+      "what": "Olanzapine depot dosing interval in weeks and date of injection",
+      "meets": "For a confirmed injection, enter the prescribed interval in weeks and use the actual injection date as the date of the result. Ask only for details missing from the record."
+    }
+  ]
+}

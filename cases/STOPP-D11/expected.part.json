@@ -1,0 +1,57 @@
+[
+  {
+    "file": "STOPP-D11/pos-fact.csv",
+    "kind": "positive",
+    "about": "Insomnia is recorded on 11 June 2025 and zopiclone (Imovane, a Z-drug) is supplied for one tablet every night, 28 tablets every 28 days, for about 11 months. The finding must cite the insomnia line and the zopiclone supplies.",
+    "findings": [
+      {
+        "criterion": "STOPP-D11",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L002",
+            "L006",
+            "L010",
+            "L014",
+            "L018",
+            "L022",
+            "L026",
+            "L030",
+            "L034",
+            "L038",
+            "L042"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-D11/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: supplies of 28 zolpidem tablets with as-needed directions could cover 14 days, but the record gives neither the frequency of use nor the indication.",
+    "findings": [
+      {
+        "criterion": "STOPP-D11",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L009",
+            "L013",
+            "L017",
+            "L021",
+            "L025"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-D11/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Insomnia is recorded, but zopiclone (Imovane) is supplied only once, 7 tablets for 7 nights, which is less than 2 weeks.",
+    "findings": []
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "file": "NHSBSA-PAIN02/pos-fact.csv",
+    "kind": "positive",
+    "about": "Kapanol was supplied twice with no prescription laxative nearby, and the patient reports regular use for pain despite an ineffective non-prescription laxative.",
+    "findings": [
+      {
+        "criterion": "NHSBSA-PAIN02",
+        "must_cite": [
+          [
+            "L034",
+            "L038"
+          ],
+          [
+            "L039"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "NHSBSA-PAIN02/pos-nofact.csv",
+    "kind": "positive",
+    "about": "A possible finding remains because the tablets contain 15 mg of codeine per unit, there is no prescription laxative nearby, and regular use and non-prescription laxative use are unknown.",
+    "findings": [
+      {
+        "criterion": "NHSBSA-PAIN02",
+        "must_cite": [
+          [
+            "L021",
+            "L024"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "NHSBSA-PAIN02/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The earlier Aspalgin contains 8 mg of codeine per tablet, and both later Durotram XR supplies have prescribed glycerol for constipation within the two-month window.",
+    "findings": []
+  }
+]

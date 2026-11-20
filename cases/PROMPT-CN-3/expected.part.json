@@ -1,0 +1,44 @@
+[
+  {
+    "file": "PROMPT-CN-3/pos-brand.csv",
+    "kind": "positive",
+    "about": "Normison (temazepam, a benzodiazepine) is supplied four times, 28 tablets each, from 19 November 2025 to 8 February 2026 (about 12 weeks), by brand name only.",
+    "findings": [
+      {
+        "criterion": "PROMPT-CN-3",
+        "must_cite": [
+          [
+            "L004",
+            "L008",
+            "L012",
+            "L015"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PROMPT-CN-3/pos-buried.csv",
+    "kind": "positive",
+    "about": "Nitrazepam (Mogadon) is supplied four times, 28 tablets each, from 21 January to 15 April 2026, in the middle of a 15-month history.",
+    "findings": [
+      {
+        "criterion": "PROMPT-CN-3",
+        "must_cite": [
+          [
+            "L032",
+            "L036",
+            "L040",
+            "L046"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PROMPT-CN-3/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Temazepam (Normison) is supplied as three separate courses of 7 tablets each, about five months apart, so no run of supply reaches four weeks.",
+    "findings": []
+  }
+]

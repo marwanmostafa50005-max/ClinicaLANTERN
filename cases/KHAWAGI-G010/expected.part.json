@@ -1,0 +1,44 @@
+[
+  {
+    "file": "KHAWAGI-G010/pos-fact.csv",
+    "kind": "positive",
+    "about": "At age 65 the patient has documented dementia and receives risperidone after a same-day assessment confirms that a past episode resolved and there is no current psychosis or continuing psychotic illness.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G010",
+        "must_cite": [
+          [
+            "L025"
+          ],
+          [
+            "L026"
+          ],
+          [
+            "L027"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G010/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about dementia or psychosis status at risperidone supply.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G010",
+        "must_cite": [
+          [
+            "L017"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G010/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Established schizophrenia in remission is a continuing psychotic illness at risperidone supply and excludes the finding.",
+    "findings": []
+  }
+]

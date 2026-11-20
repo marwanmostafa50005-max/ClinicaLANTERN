@@ -1,0 +1,66 @@
+[
+  {
+    "file": "START-D3/pos-fact.csv",
+    "kind": "positive",
+    "about": "Alzheimer's dementia (mild to moderate) is recorded, and no donepezil, rivastigmine or galantamine is supplied in the whole history.",
+    "findings": [
+      {
+        "criterion": "START-D3",
+        "must_cite": [
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-D3/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: memantine is supplied without a recent cholinesterase inhibitor, and the missing facts are Alzheimer's dementia diagnosis and stage and Previous use of donepezil, rivastigmine or galantamine.",
+    "findings": [
+      {
+        "criterion": "START-D3",
+        "must_cite": [
+          [
+            "L004",
+            "L008",
+            "L012",
+            "L016",
+            "L020",
+            "L024",
+            "L028",
+            "L032"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-D3/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Alzheimer's dementia is recorded, and donepezil (Aricept) is supplied every month through the last six months, so nothing is missing.",
+    "findings": []
+  },
+  {
+    "file": "START-D3/pos-mixed-dementia.csv",
+    "kind": "positive",
+    "about": "Mild Alzheimer's dementia qualifies despite coexisting vascular dementia, and no cholinesterase inhibitor is supplied.",
+    "findings": [
+      {
+        "criterion": "START-D3",
+        "must_cite": [
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-D3/near-miss-bradycardia.csv",
+    "kind": "near_miss",
+    "about": "Mild to moderate Alzheimer's dementia is recorded without a cholinesterase inhibitor supply, and the specialist documents why all three medicines are unsuitable.",
+    "findings": []
+  }
+]

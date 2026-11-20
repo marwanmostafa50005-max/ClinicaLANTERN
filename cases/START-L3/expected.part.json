@@ -1,0 +1,38 @@
+[
+  {
+    "file": "START-L3/pos-fact.csv",
+    "kind": "positive",
+    "about": "The vaccination history confirms this 67-year-old woman has received no zoster vaccine and has no prior shingles episode or current deferral.",
+    "findings": [
+      {
+        "criterion": "START-L3",
+        "must_cite": [
+          [
+            "L045"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-L3/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about shingles vaccination and no zoster vaccine is supplied.",
+    "findings": [
+      {
+        "criterion": "START-L3",
+        "must_cite": [
+          [
+            "L028"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-L3/near-miss.csv",
+    "kind": "near_miss",
+    "about": "A line records two Shingrix doses (March and July 2025), so nothing should flag.",
+    "findings": []
+  }
+]

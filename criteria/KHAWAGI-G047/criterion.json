@@ -1,0 +1,119 @@
+{
+  "id": "KHAWAGI-G047",
+  "label": "Khawagi review: Review a benzodiazepine at age 65 or older when sleep apnoea is documented",
+  "family": "KHAWAGI",
+  "title": "Review a benzodiazepine at age 65 or older when sleep apnoea is documented",
+  "statement": "Review a benzodiazepine at age 65 or older when sleep apnoea is documented.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Khawagi et al., S3 File, Table 2",
+    "citation": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: a systematic review. PLoS ONE 2019;14(5):e0217406",
+    "doi": "10.1371/journal.pone.0217406.s003",
+    "url": "https://doi.org/10.1371/journal.pone.0217406.s003",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Adapted from Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: a systematic review. PLoS ONE 2019;14(5):e0217406, S3 File, Table 2, https://doi.org/10.1371/journal.pone.0217406.s003. (c) 2019 Khawagi et al., CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Original screening wording and Australian adaptations. S3 reference(s) as indexed in the supplied qualification: [66], [116]. Clinical cross-check: Khawagi review (https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0217406). Valium Australian PI (https://www.safetyandquality.gov.au/medicine-finder/valium).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "Review a benzodiazepine at age 65 or older when sleep apnoea is documented.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Benzodiazepines",
+      "ingredients": [
+        "alprazolam",
+        "bromazepam",
+        "clobazam",
+        "clonazepam",
+        "diazepam",
+        "flunitrazepam",
+        "lorazepam",
+        "midazolam",
+        "nitrazepam",
+        "oxazepam",
+        "temazepam"
+      ],
+      "brands": {
+        "alprazolam": [
+          "Kalma",
+          "Alprax",
+          "Ralozam",
+          "Xanax",
+          "Xanax Tri-Score",
+          "Zamhexal"
+        ],
+        "bromazepam": [
+          "Lexotan"
+        ],
+        "clobazam": [
+          "Frisium",
+          "Clobium"
+        ],
+        "clonazepam": [
+          "Rivotril",
+          "Paxam"
+        ],
+        "diazepam": [
+          "Valium",
+          "Antenex",
+          "Ducene",
+          "Ranzepam",
+          "Valpam"
+        ],
+        "flunitrazepam": [
+          "Hypnodorm"
+        ],
+        "lorazepam": [
+          "Ativan"
+        ],
+        "midazolam": [
+          "Hypnovel",
+          "Midalim",
+          "Midavel"
+        ],
+        "nitrazepam": [
+          "Mogadon",
+          "Alodorm"
+        ],
+        "oxazepam": [
+          "Alepam",
+          "Murelax",
+          "Serepax"
+        ],
+        "temazepam": [
+          "Temaze",
+          "Normison",
+          "Temtabs"
+        ]
+      },
+      "note": "A single supply is enough. Z-drugs are outside the printed class."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Sleep apnoea syndrome",
+      "meets": "A diagnosis of sleep apnoea that applies at the time of benzodiazepine supply.",
+      "options": [
+        {
+          "words": "Sleep apnoea was present at the time of the benzodiazepine supply",
+          "effect": "meets"
+        },
+        {
+          "words": "Sleep apnoea was absent at the time of the benzodiazepine supply",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "At age 65 or older, give a finding for a Group A benzodiazepine supply with sleep apnoea documented at supply, whatever the indication. Cite the medicine and diagnosis. Asthma or COPD alone does not qualify. Z-drugs are excluded. Give no finding below age 65 or if sleep apnoea is ruled out. If age, exposure or sleep apnoea status is unclear and the other evidence fits, report only a possible finding naming the missing evidence. Ask whether sleep apnoea had been diagnosed by the time of this supply. If its timing is unknown, keep the finding possible.",
+  "cannot_be_seen": "Dispensing does not establish actual use, indication or a prescriber’s intent. Treatment and assessments elsewhere may be missing.",
+  "ask_the_gp": "Could you confirm whether the patient has sleep apnoea and review whether the benzodiazepine remains suitable? If the benzodiazepine is still being used and sleep apnoea is confirmed, could we review it today before the next dose?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

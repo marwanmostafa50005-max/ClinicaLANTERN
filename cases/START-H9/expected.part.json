@@ -1,0 +1,47 @@
+[
+  {
+    "file": "START-H9/pos-brand.csv",
+    "kind": "positive",
+    "about": "Methoblastin (methotrexate) is supplied by brand name only eleven times, every 28 days from 3 June 2025 to 10 March 2026. No folic acid is supplied.",
+    "findings": [
+      {
+        "criterion": "START-H9",
+        "must_cite": [
+          [
+            "L019",
+            "L022",
+            "L026",
+            "L029",
+            "L033",
+            "L036"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-H9/pos-buried.csv",
+    "kind": "positive",
+    "about": "Methotrexate (Methoblastin) is supplied every 28 days from 6 January to 18 August 2026, in the last third of a 17-month history. No folic acid is supplied at any time.",
+    "findings": [
+      {
+        "criterion": "START-H9",
+        "must_cite": [
+          [
+            "L042",
+            "L046",
+            "L051",
+            "L055",
+            "L059"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-H9/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Methotrexate (Methoblastin) is supplied every 28 days and folic acid (Megafol) is supplied every 12 weeks, the last time on 10 February 2026, so a folic acid supplement is there.",
+    "findings": []
+  }
+]

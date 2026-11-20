@@ -1,0 +1,213 @@
+{
+  "id": "OPTIMISE-T3-02",
+  "label": "OPTIMISE T3-02: dementia with vascular disease, no aspirin",
+  "family": "OPTIMISE",
+  "title": "Dementia with cerebrovascular disease and no low dose aspirin",
+  "statement": "For people with dementia who have a history of cerebrovascular disease or who have evidence on neurological examination or neuroimaging of cerebrovascular disease consider low-dose aspirin eg. 75 mg daily to prevent or lessen further cognitive decline, unless contraindicated",
+  "statement_origin": "published",
+  "source": {
+    "document": "Carolan A, et al. OPTIMISE. BMC Psychiatry 2022;22:585, Tables 2-3",
+    "citation": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "In a person with dementia, a history of ischaemic stroke or TIA, or neurological examination or imaging evidence of ischaemic cerebrovascular disease, can prompt a review of secondary stroke prevention.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Dementia medicines (a hint of dementia)",
+      "ingredients": [
+        "donepezil",
+        "galantamine",
+        "rivastigmine",
+        "memantine"
+      ],
+      "brands": {
+        "donepezil": [
+          "Aricept",
+          "Alzil",
+          "Arazil",
+          "Aricept-D",
+          "Aridon",
+          "Aridon APN",
+          "Aridon ODT",
+          "Ariez",
+          "Doceptil",
+          "Donaccord",
+          "Donpesyn"
+        ],
+        "galantamine": [
+          "Reminyl",
+          "Galantyl",
+          "Gamine XR"
+        ],
+        "rivastigmine": [
+          "Exelon",
+          "Exelon Patch"
+        ],
+        "memantine": [
+          "Ebixa",
+          "Ebixa Drops",
+          "Memantipin",
+          "Memanxa",
+          "Mimiva"
+        ]
+      },
+      "note": "Listed dementia medicines supplied as tablets, capsules, oral liquids or transdermal patches can suggest dementia when no diagnosis is recorded."
+    },
+    {
+      "key": "B",
+      "name": "Low dose aspirin",
+      "ingredients": [
+        "aspirin"
+      ],
+      "brands": {
+        "aspirin": [
+          "Cartia",
+          "Astrix",
+          "Cardiprin 100",
+          "Aspro",
+          "Aspro Clear",
+          "Aspro Clear Extra Strength",
+          "Aspro Protect",
+          "Cardasa",
+          "Cardiprin",
+          "Disprin Direct",
+          "Disprin Extra Strength",
+          "Disprin Max",
+          "Disprin Original",
+          "Disprin Regular",
+          "Ecotrin",
+          "Princard",
+          "Solprin",
+          "Spren"
+        ]
+      },
+      "note": "Count a maintenance dose of 75 to 150 mg of aspirin daily. If supplied, there is no finding. If aspirin is present at another or unclear dose, ask whether it is the person's low-dose maintenance regimen before reporting it as missing. A loading dose or a recorded antiplatelet indication alone does not establish that regimen."
+    },
+    {
+      "key": "C",
+      "name": "Other antiplatelet or anticoagulant",
+      "ingredients": [
+        "clopidogrel",
+        "ticagrelor",
+        "prasugrel",
+        "dipyridamole",
+        "warfarin",
+        "apixaban",
+        "rivaroxaban",
+        "dabigatran"
+      ],
+      "brands": {
+        "clopidogrel": [
+          "Plavix",
+          "Iscover",
+          "CoPlavix",
+          "DuoPlavin",
+          "Clogrel",
+          "Clopaccord",
+          "Clopithromb",
+          "Clovix",
+          "Piax",
+          "Plavicor",
+          "Plidogrel",
+          "Viplex"
+        ],
+        "ticagrelor": [
+          "Brilinta",
+          "Bricalor",
+          "Brilinta ODT",
+          "Novalant",
+          "Ticalor",
+          "Tirela"
+        ],
+        "prasugrel": [
+          "Effient",
+          "Prasugrel (Ajs)",
+          "Prasugrel (Lupin)",
+          "Prasugrel (Scp)"
+        ],
+        "dipyridamole": [
+          "Persantin SR",
+          "Asasantin SR"
+        ],
+        "warfarin": [
+          "Coumadin",
+          "Marevan"
+        ],
+        "apixaban": [
+          "Eliquis",
+          "Alexibic",
+          "Apexa",
+          "Apixor",
+          "Axibic",
+          "Elapex"
+        ],
+        "rivaroxaban": [
+          "Xarelto",
+          "Ixarola",
+          "Relaban",
+          "Rivalembic",
+          "Rivarelto",
+          "Rivator",
+          "Rivaxib",
+          "Rivaxotor",
+          "Rivoxa",
+          "Roxabic",
+          "Roxalem",
+          "Roxator",
+          "Toriva",
+          "Troxa",
+          "Xaremed"
+        ],
+        "dabigatran": [
+          "Pradaxa"
+        ]
+      },
+      "note": "If the supply supports current treatment with a Group C medicine, report no finding. If current cover is uncertain, ask the pharmacist to check it. CoPlavix and DuoPlavin are clopidogrel with aspirin. Asasantin SR contains dipyridamole and aspirin."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Dementia",
+      "meets": "Recorded as having dementia"
+    },
+    {
+      "kind": "condition",
+      "what": "Evidence of clinically relevant ischaemic cerebrovascular disease",
+      "meets": "A history, neurological examination or imaging report documents clinically relevant ischaemic cerebrovascular disease. An examination or imaging report can establish this without a separately recorded event. Incidental white matter changes alone and haemorrhagic stroke alone do not qualify.",
+      "options": [
+        {
+          "words": "Ischaemic stroke or TIA, or clinically relevant ischaemic disease confirmed on examination or imaging",
+          "effect": "meets"
+        },
+        {
+          "words": "No qualifying ischaemic disease, including haemorrhagic stroke alone or incidental white matter changes alone",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "The type of cerebrovascular disease is unclear",
+          "effect": "unknown"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Regular aspirin daily dose in mg and dosing schedule",
+      "meets": "When the label and recorded directions do not settle maintenance use, enter the regular amount in mg and how often it is taken, or record that the only dose was a loading dose."
+    }
+  ],
+  "rule_for_models": "Report no finding if dementia is explicitly ruled out, even with a Group A supply. Also report no finding if the record rules out ischaemic cerebrovascular disease, documents aspirin hypersensitivity or a current contraindication such as active gastrointestinal bleeding, or shows that Group B aspirin maintenance at 75 to 150 mg daily or Group C treatment covers the review date based on dates, quantities, directions and recorded treatment status. From age 18, if dementia and qualifying ischaemic disease are documented by a stroke or TIA history, neurological examination or imaging, cite the dementia and cerebrovascular evidence and request review of aspirin suitability without assuming cognitive benefit. If no exclusion applies and dementia is recorded or suggested by Group A, report only a possible finding when evidence is missing or unclear and ask the pharmacist to confirm what is uncertain: adult age, the dementia diagnosis, qualifying cerebrovascular disease, current treatment cover or aspirin maintenance use. If an aspirin supply leaves the maintenance dose or schedule unclear, cite both the aspirin supply and the line that records dementia or shows a Group A supply. Ask the pharmacist for \"Regular aspirin daily dose in mg and dosing schedule\" even when evidence of ischaemic disease is also missing. A confirmed regular 75 to 150 mg every day closes the review. A loading dose alone or a confirmed regimen outside that range does not close it if the other conditions hold. If maintenance use is still unknown, keep the finding possible.",
+  "cannot_be_seen": "Whether aspirin is unsuitable (bleeding risk, stomach ulcer, allergy), over the counter aspirin, the type of dementia, and imaging not in the record.",
+  "ask_the_gp": "Could you confirm whether there is a history, examination finding or imaging result showing ischaemic cerebrovascular disease? If confirmed, could you review aspirin suitability in light of bleeding risk, contraindications and current treatment?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

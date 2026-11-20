@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <g stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- One camping gas lantern: wire handle, round vented cap, glass cylinder, burner and cartridge. -->
+    <circle cx="256" cy="226" r="42" fill="#edbf67" opacity="0.12"/>
+    <path d="M194 126V92C194 26 318 26 318 92V126" stroke="#071d49" stroke-width="10"/>
+    <circle cx="194" cy="126" r="8" fill="#27c2d0" stroke="#071d49" stroke-width="6"/>
+    <circle cx="318" cy="126" r="8" fill="#27c2d0" stroke="#071d49" stroke-width="6"/>
+    <path d="M188 126V112C188 91 204 80 224 80H288C308 80 324 91 324 112V126Z" fill="#0e7490" stroke="#071d49" stroke-width="10"/>
+    <path d="M222 96V114M256 96V114M290 96V114" stroke="#27c2d0" stroke-width="9"/>
+    <path d="M196 136H316V268C316 282 306 290 292 290H220C206 290 196 282 196 268V136Z" fill="#27c2d0" fill-opacity="0.10" stroke="#071d49" stroke-width="10"/>
+    <path d="M214 154V210" stroke="#ffffff" stroke-width="9" opacity="0.82"/>
+    <path d="M298 154V194" stroke="#ffffff" stroke-width="9" opacity="0.82"/>
+    <path d="M256 174C239 194 235 220 256 248C277 220 273 194 256 174Z" fill="#edbf67" fill-opacity="0.58" stroke="#9a6200" stroke-width="7"/>
+    <path d="M256 196C247 208 247 224 256 234C265 224 265 208 256 196Z" fill="#fff8e3"/>
+    <path d="M246 210L266 228M266 210L246 228" stroke="#0e7490" stroke-width="4" opacity="0.78"/>
+    <rect x="176" y="286" width="160" height="34" rx="14" fill="#0e7490" stroke="#071d49" stroke-width="10"/>
+    <path d="M168 320H344" stroke="#071d49" stroke-width="12"/>
+    <path d="M176 330H336V410C336 434 318 448 294 448H218C194 448 176 434 176 410V330Z" fill="#0e7490" stroke="#071d49" stroke-width="10"/>
+    <path d="M180 350H332M180 416H332" stroke="#27c2d0" stroke-width="8" opacity="0.78"/>
+    <path d="M204 364V398" stroke="#ffffff" stroke-width="8" opacity="0.35"/>
+    <path d="M176 306H154" stroke="#071d49" stroke-width="10"/>
+    <circle cx="140" cy="306" r="18" fill="#0e7490" stroke="#071d49" stroke-width="10"/>
+    <path d="M218 450H294" stroke="#071d49" stroke-width="10"/>
+    
+  </g>
+</svg>

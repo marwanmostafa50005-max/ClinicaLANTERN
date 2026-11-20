@@ -1,0 +1,41 @@
+[
+  {
+    "file": "KHAWAGI-G003/pos-fact.csv",
+    "kind": "positive",
+    "about": "The specialist records fluoxetine as antidepressant treatment for depression at age five.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G003",
+        "must_cite": [
+          [
+            "L025"
+          ],
+          [
+            "L024"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G003/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about the treatment indication for amitriptyline at age five.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G003",
+        "must_cite": [
+          [
+            "L016"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G003/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Amitriptyline is prescribed for neuropathic pain at age five.",
+    "findings": []
+  }
+]

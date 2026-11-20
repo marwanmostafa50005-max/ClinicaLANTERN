@@ -1,0 +1,234 @@
+{
+  "id": "STOPP-K2",
+  "label": "STOPP K2",
+  "family": "STOPP_START",
+  "title": "Antipsychotic in a person who keeps falling",
+  "statement": "Antipsychotic drugs in patients with recurrent falls (may cause Parkinsonism).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Antipsychotics can cause stiffness and slowness like Parkinson disease, and they raise the risk of falls in someone who has already fallen more than once.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antipsychotics, the major tranquilliser medicines",
+      "ingredients": [
+        "amisulpride",
+        "aripiprazole",
+        "brexpiprazole",
+        "chlorpromazine",
+        "clozapine",
+        "haloperidol",
+        "lurasidone",
+        "olanzapine",
+        "paliperidone",
+        "quetiapine",
+        "risperidone",
+        "ziprasidone",
+        "asenapine",
+        "cariprazine",
+        "periciazine",
+        "flupentixol",
+        "zuclopenthixol"
+      ],
+      "brands": {
+        "amisulpride": [
+          "Solian",
+          "Sulprix",
+          "Amipride"
+        ],
+        "aripiprazole": [
+          "Abilify",
+          "Abilify ODT",
+          "Abipra",
+          "Abyraz",
+          "Aprazole",
+          "Aripic",
+          "Aripra",
+          "Arizole",
+          "Abilify Maintena",
+          "Abilify Asimtufii"
+        ],
+        "brexpiprazole": [
+          "Rexulti"
+        ],
+        "chlorpromazine": [
+          "Largactil",
+          "Largactil Syrup"
+        ],
+        "clozapine": [
+          "Clozaril",
+          "Clopine",
+          "Closyn",
+          "Clozaril ODT",
+          "Clozitor",
+          "Versacloz"
+        ],
+        "haloperidol": [
+          "Serenace",
+          "Haldol Decanoate"
+        ],
+        "lurasidone": [
+          "Latuda",
+          "Bilura",
+          "Latulem",
+          "Lavione",
+          "Luracor",
+          "Luralem",
+          "Luralembic",
+          "Lurobi"
+        ],
+        "olanzapine": [
+          "Zyprexa",
+          "Zyprexa Zydis",
+          "Aprolan",
+          "Aprolan ODT",
+          "Lanez",
+          "Lanez ODT",
+          "Lanzek",
+          "Lanzek Zydis",
+          "Lonza",
+          "Lonza ODT",
+          "Lyprosia",
+          "Lyprosia ODT",
+          "Olancor",
+          "Olanza",
+          "Olanzaccord",
+          "Olanzacor",
+          "Oprexa",
+          "Ozin",
+          "Ozin ODT",
+          "Prolanza",
+          "Prolanza ODT",
+          "Pryzex",
+          "Pryzex ODT",
+          "Tolaze ODT",
+          "Tolazine ODT",
+          "Torapine ODT",
+          "Torrenia ODT",
+          "Zylap",
+          "Zylap ODT",
+          "Zylapine",
+          "Zylapine ODT",
+          "Zypine",
+          "Zypine ODT",
+          "Zyprexa Relprevv"
+        ],
+        "paliperidone": [
+          "Invega",
+          "Invega Sustenna",
+          "Invega Trinza",
+          "Invega Hafyera"
+        ],
+        "quetiapine": [
+          "Seroquel",
+          "Seroquel XR",
+          "Aliquen",
+          "Delucon",
+          "Kaptan",
+          "Ketizenol",
+          "Qualez",
+          "Quepine XR",
+          "Quetapen",
+          "Quetia",
+          "Quetia XR",
+          "Quetiaccord",
+          "Quetiaquel XR",
+          "Quetin",
+          "Quipine",
+          "Sequase",
+          "Sequase XR",
+          "Serapine",
+          "Serapine XR",
+          "Seroccord",
+          "Seronia",
+          "Serotiapine XR",
+          "Syquet",
+          "Syquet XR",
+          "Syzopine",
+          "Tevatiapine XR",
+          "Tiapine XR",
+          "Tiava XR",
+          "Xque XR"
+        ],
+        "risperidone": [
+          "Risperdal",
+          "Ozidal",
+          "Resdone",
+          "Respaz",
+          "Risdone",
+          "Rispa",
+          "Rispaccord",
+          "Rispaccord-0.5",
+          "Risperdal Quicklet",
+          "Risperibell",
+          "Rispericor",
+          "Rispericor-0.5",
+          "Risperisan",
+          "Rispernia",
+          "Rixadone",
+          "Sperid",
+          "Risperdal Consta",
+          "Risvan"
+        ],
+        "ziprasidone": [
+          "Zeldox",
+          "Ziprox"
+        ],
+        "asenapine": [
+          "Saphris"
+        ],
+        "cariprazine": [
+          "Reagila"
+        ],
+        "periciazine": [
+          "Neulactil"
+        ],
+        "flupentixol": [
+          "Fluanxol",
+          "Fluanxol Depot"
+        ],
+        "zuclopenthixol": [
+          "Clopixol",
+          "Clopixol Depot"
+        ]
+      },
+      "note": "Prochlorperazine and metoclopramide (used for nausea) are not counted."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Recurrent falls",
+      "meets": "two or more falls in the past 12 months, or a line that says recurrent falls",
+      "options": [
+        {
+          "words": "Two or more falls in the past 12 months",
+          "effect": "meets"
+        },
+        {
+          "words": "No falls or one fall in the past 12 months",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this rule from age 65, return no finding below 65, and check a missing age before confirming a finding. When a Group A antipsychotic is supplied and the record explicitly confirms recurrent falls or shows two or more falls in the past 12 months, report a finding and cite the supply and falls lines. With a Group A supply, report a possible finding and name the missing falls history if the falls history is absent or recorded as unknown, or return no finding if the record shows no falls or only one fall.",
+  "cannot_be_seen": "The record may show the prescribed dose, the reason for treatment and dates of falls. The indication, actual use, recent falls, stiffness or tremor may need confirmation.",
+  "ask_the_gp": "Whether the antipsychotic is still needed and could be reduced or stopped, given the falls. A falls and medicines review.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

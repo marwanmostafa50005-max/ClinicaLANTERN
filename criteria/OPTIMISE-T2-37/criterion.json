@@ -1,0 +1,322 @@
+{
+  "id": "OPTIMISE-T2-37",
+  "label": "OPTIMISE T2-37: omega-3 fish oil in severe mental illness",
+  "family": "OPTIMISE",
+  "title": "Omega-3 fish oil in severe mental illness",
+  "statement": "Do not routinely prescribe Omega 3 fish oils in people with SMI",
+  "statement_origin": "published",
+  "source": {
+    "document": "Carolan A, et al. OPTIMISE. BMC Psychiatry 2022;22:585, Tables 2-3",
+    "citation": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "modification_notice": "Statement text as recorded by the earlier project. It has not been compared with the publisher's page. Not endorsed by the source authors."
+  },
+  "plain_summary": "Omega-3 fish oil capsules should not be given as a routine to adults with severe mental illness.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Omega-3 fish oils",
+      "ingredients": [
+        "omega-3-acid ethyl esters",
+        "fish oil",
+        "omega-3-acid ethyl esters-90"
+      ],
+      "brands": {
+        "omega-3-acid ethyl esters": [
+          "Omacor"
+        ],
+        "fish oil": [
+          "Cod Liver Oil (Blackmores)",
+          "Concentrated Epa / Dha (Amplio)",
+          "Concentrated Fish Oil (Oviit)",
+          "Dha Omega-3 Fish Oil Kid'S (Oviit)",
+          "Fish Oil (Blackmores)",
+          "Fish Oil (Faulding)",
+          "Fish Oil (Health Plus Vitamins)",
+          "Fish Oil (Wagner)",
+          "Fish Oil Omega 3 (Healthy Care)",
+          "High Strength Fish Oil (Melrose)",
+          "High Strength Odourless Fish Oil (Oviit)",
+          "Liquid Fish Oil (Nature'S Own)",
+          "Odourless Fish Oil (A-Won)"
+        ],
+        "omega-3-acid ethyl esters-90": [
+          "Omacor"
+        ]
+      },
+      "note": "Count the listed oral capsules and liquids, including products containing fish oil alongside another oil. Verify the ingredient and form when the label is unclear. A supply alone cannot establish routine prescribing or its purpose."
+    },
+    {
+      "key": "B",
+      "name": "Antipsychotics and lithium (clues to severe mental illness only)",
+      "ingredients": [
+        "risperidone",
+        "paliperidone",
+        "amisulpride",
+        "haloperidol",
+        "zuclopenthixol",
+        "olanzapine",
+        "quetiapine",
+        "aripiprazole",
+        "clozapine",
+        "lithium carbonate",
+        "chlorpromazine",
+        "lurasidone",
+        "brexpiprazole",
+        "ziprasidone",
+        "flupentixol",
+        "flupentixol decanoate",
+        "periciazine",
+        "asenapine",
+        "cariprazine"
+      ],
+      "brands": {
+        "risperidone": [
+          "Risperdal",
+          "Risperdal Consta",
+          "Ozidal",
+          "Resdone",
+          "Respaz",
+          "Risdone",
+          "Rispa",
+          "Rispaccord",
+          "Rispaccord-0.5",
+          "Risperdal Quicklet",
+          "Risperibell",
+          "Rispericor",
+          "Rispericor-0.5",
+          "Risperisan",
+          "Rispernia",
+          "Rixadone",
+          "Sperid",
+          "Uzedy"
+        ],
+        "paliperidone": [
+          "Invega",
+          "Invega Sustenna",
+          "Invega Hafyera",
+          "Invega Trinza",
+          "Palmeux",
+          "Trevicta"
+        ],
+        "amisulpride": [
+          "Solian",
+          "Amipride",
+          "Sulprix"
+        ],
+        "haloperidol": [
+          "Serenace",
+          "Haldol Decanoate"
+        ],
+        "zuclopenthixol": [
+          "Clopixol"
+        ],
+        "olanzapine": [
+          "Zyprexa",
+          "Aprolan",
+          "Aprolan ODT",
+          "Lanez",
+          "Lanez ODT",
+          "Lanzek",
+          "Lanzek Zydis",
+          "Lonza",
+          "Lonza ODT",
+          "Lyprosia",
+          "Lyprosia ODT",
+          "Olancor",
+          "Olanza",
+          "Olanzaccord",
+          "Olanzacor",
+          "Oprexa",
+          "Ozin",
+          "Ozin ODT",
+          "Prolanza",
+          "Prolanza ODT",
+          "Pryzex",
+          "Pryzex ODT",
+          "Tolaze ODT",
+          "Tolazine ODT",
+          "Torapine ODT",
+          "Torrenia ODT",
+          "Zylap",
+          "Zylap ODT",
+          "Zylapine",
+          "Zylapine ODT",
+          "Zypine",
+          "Zypine ODT",
+          "Zyprexa Zydis",
+          "Zyprexa Relprevv"
+        ],
+        "quetiapine": [
+          "Seroquel",
+          "Seroquel XR",
+          "Aliquen",
+          "Delucon",
+          "Kaptan",
+          "Ketizenol",
+          "Qualez",
+          "Quepine XR",
+          "Quetapen",
+          "Quetia",
+          "Quetia XR",
+          "Quetiaccord",
+          "Quetiaquel XR",
+          "Quetin",
+          "Quipine",
+          "Sequase",
+          "Sequase XR",
+          "Serapine",
+          "Serapine XR",
+          "Seroccord",
+          "Seronia",
+          "Serotiapine XR",
+          "Syquet",
+          "Syquet XR",
+          "Syzopine",
+          "Tevatiapine XR",
+          "Tiapine XR",
+          "Tiava XR",
+          "Xque XR"
+        ],
+        "aripiprazole": [
+          "Abilify",
+          "Abilify Maintena",
+          "Abilify Asimtufii",
+          "Abilify ODT",
+          "Abipra",
+          "Abyraz",
+          "Aprazole",
+          "Aripic",
+          "Aripra",
+          "Arizole"
+        ],
+        "clozapine": [
+          "Clozaril",
+          "Clopine",
+          "Closyn",
+          "Clozaril ODT",
+          "Clozitor",
+          "Versacloz"
+        ],
+        "lithium carbonate": [
+          "Lithicarb",
+          "Quilonum SR",
+          "Lithicarb SR",
+          "Lithquil SR",
+          "Lithspen"
+        ],
+        "chlorpromazine": [
+          "Largactil"
+        ],
+        "lurasidone": [
+          "Latuda"
+        ],
+        "brexpiprazole": [
+          "Rexulti"
+        ],
+        "ziprasidone": [
+          "Zeldox"
+        ],
+        "flupentixol": [],
+        "flupentixol decanoate": [
+          "Fluanxol Depot",
+          "Fluanxol Concentrated Depot"
+        ],
+        "periciazine": [
+          "Neulactil"
+        ],
+        "asenapine": [
+          "Saphris"
+        ],
+        "cariprazine": [
+          "Reagila"
+        ]
+      },
+      "note": "These are not a diagnosis. They are used only as a clue when the record holds no diagnosis line. The added oral antipsychotics and the two named depot products prompt a question about diagnosis only."
+    }
+  ],
+  "rule_for_models": "First identify a Group A fish oil supply. If none is recorded, give no finding. Only then use Group B as a clue to ask about an unrecorded diagnosis. Apply this criterion to adults aged 18 or over. Use the recorded age if it establishes age during this course. Only if the fish oil course otherwise warrants review and age then is unknown, report a possible finding and ask for \"Age during the fish oil course under review\". An adult answer allows assessment. Exclude treatment while under 18. If age remains unknown, keep the finding possible. If there is neither a recorded severe mental illness nor a Group B supply, report no finding. For an adult with recorded severe mental illness, flag documented routine prescribing of Group A fish oil without a separate supported indication. Cite the diagnosis, fish oil supply and recorded purpose. A documented self-selected purchase or prescribing solely for an established independent indication gives no finding. If prescribing status or purpose is unknown, report only a possible finding and name the missing fact. If diagnosis is missing but Group B antipsychotic or lithium supply suggests possible severe mental illness, report only a possible finding and name the missing diagnosis, subject to the same exclusions. A record showing no severe mental illness gives no finding.",
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Severe mental illness",
+      "meets": "Severe mental illness (such as schizophrenia, schizoaffective disorder, bipolar disorder or severe depression) is recorded as a current condition. A milder condition alone, such as an anxiety disorder, does not meet this."
+    },
+    {
+      "kind": "observation",
+      "what": "How fish oil was supplied for this course",
+      "meets": "Routine prescribing is documented. A self-selected purchase gives no finding. Ask if this is unknown.",
+      "options": [
+        {
+          "words": "Routinely prescribed",
+          "effect": "meets"
+        },
+        {
+          "words": "Chosen by the patient without a prescription",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Prescribed but whether it was routine is unclear",
+          "effect": "unknown"
+        },
+        {
+          "words": "Prescribed on an individual basis and not as a routine treatment",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for prescribing fish oil for this course",
+      "meets": "Its routine use was for the severe mental illness without a separate supported indication. An independent indication alone gives no finding. Ask if the purpose is unknown.",
+      "options": [
+        {
+          "words": "Routine treatment for severe mental illness with no separate supported indication",
+          "effect": "meets"
+        },
+        {
+          "words": "Prescribed solely for a separate established indication",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Several reasons were given and their role needs review",
+          "effect": "unknown"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Age during the fish oil course under review",
+      "meets": "Ask only if the fish oil course otherwise warrants review and the record does not establish age during this course. Use the answer for that period only.",
+      "options": [
+        {
+          "words": "18 or older",
+          "effect": "meets"
+        },
+        {
+          "words": "Under 18",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "cannot_be_seen": "The diagnosis unless it is in the record, why the fish oil is taken (for example high triglycerides), and fish oil bought outside the pharmacy.",
+  "ask_the_gp": "A review of whether the omega-3 fish oil is still needed for this person.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "file": "NHSBSA-GIB02/pos-brand.csv",
+    "kind": "positive",
+    "about": "Mobic and Eliquis are supplied by brand only on 6 June 2026 to an adult, so the oral NSAID and oral anticoagulant are concurrent.",
+    "findings": [
+      {
+        "criterion": "NHSBSA-GIB02",
+        "must_cite": [
+          [
+            "L019"
+          ],
+          [
+            "L020"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "NHSBSA-GIB02/pos-buried.csv",
+    "kind": "positive",
+    "about": "The oral rivaroxaban course supplied on 6 February 2026 overlaps the rectal diclofenac supplied on 12 February. The nearby diclofenac gel is topical and the two naproxen supplies are outside the 60-day window.",
+    "findings": [
+      {
+        "criterion": "NHSBSA-GIB02",
+        "must_cite": [
+          [
+            "L036"
+          ],
+          [
+            "L035"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "NHSBSA-GIB02/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Naprosyn was supplied on 6 January 2026 and Xarelto on 6 June 2026, 151 days apart, so the supplies do not overlap and are more than 60 days apart.",
+    "findings": []
+  }
+]

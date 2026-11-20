@@ -1,0 +1,28 @@
+patient_ref,patient_age,patient_sex,record_type,dispense_date,medicine,brand,strength,form,quantity,repeats_left,directions,prescriber,detail,value
+F-S18-03,67,F,,2026-01-15,pantoprazole,Somac,40 mg,tablet,60,5,Take ONE tablet daily,Dr A. Example,,
+F-S18-03,67,F,,2026-01-20,levothyroxine,Oroxine,100 mcg,tablet,100,4,Take ONE tablet each morning,Dr A. Example,,
+F-S18-03,67,F,,2026-02-05,paracetamol,Panadol Osteo,665 mg,tablet,96,3,Take TWO tablets up to three times daily if needed,Dr A. Example,,
+F-S18-03,67,F,condition,2026-02-10,,,,,,,,,Hepatic impairment,Child-Pugh A (mild)
+F-S18-03,67,F,result,2026-02-10,,,,,,,,,Serum albumin,40 g/L
+F-S18-03,67,F,,2026-03-03,tapentadol,Palexia SR,50 mg,tablet,60,4,Take ONE tablet twice daily for chronic knee osteoarthritis pain,Dr C. Specimen,,
+F-S18-03,67,F,,2026-03-03,lactulose,Duphalac,3.34 g/5 mL,oral liquid,500,5,Take 15 mL each morning,Dr A. Example,,
+F-S18-03,67,F,condition,2026-03-03,,,,,,,,,Hepatic impairment,Child-Pugh A (mild)
+F-S18-03,67,F,,2026-03-12,pantoprazole,Somac,40 mg,tablet,60,4,Take ONE tablet daily,Dr A. Example,,
+F-S18-03,67,F,,2026-03-31,tapentadol,Palexia SR,50 mg,tablet,60,3,Take ONE tablet twice daily,Dr C. Specimen,,
+F-S18-03,67,F,,2026-03-31,lactulose,Duphalac,3.34 g/5 mL,oral liquid,500,4,Take 15 mL each morning,Dr A. Example,,
+F-S18-03,67,F,,2026-04-02,paracetamol,Panadol Osteo,665 mg,tablet,96,2,Take TWO tablets up to three times daily if needed,Dr A. Example,,
+F-S18-03,67,F,,2026-04-28,tapentadol,Palexia SR,50 mg,tablet,60,2,Take ONE tablet twice daily,Dr C. Specimen,,
+F-S18-03,67,F,,2026-04-28,lactulose,Duphalac,3.34 g/5 mL,oral liquid,500,3,Take 15 mL each morning,Dr A. Example,,
+F-S18-03,67,F,,2026-04-30,levothyroxine,Oroxine,100 mcg,tablet,100,3,Take ONE tablet each morning,Dr A. Example,,
+F-S18-03,67,F,,2026-05-07,pantoprazole,Somac,40 mg,tablet,60,3,Take ONE tablet daily,Dr A. Example,,
+F-S18-03,67,F,,2026-05-26,tapentadol,Palexia SR,50 mg,tablet,60,1,Take ONE tablet twice daily,Dr C. Specimen,,
+F-S18-03,67,F,,2026-05-26,lactulose,Duphalac,3.34 g/5 mL,oral liquid,500,2,Take 15 mL each morning,Dr A. Example,,
+F-S18-03,67,F,,2026-05-28,paracetamol,Panadol Osteo,665 mg,tablet,96,1,Take TWO tablets up to three times daily if needed,Dr A. Example,,
+F-S18-03,67,F,,2026-06-23,tapentadol,Palexia SR,50 mg,tablet,60,0,Take ONE tablet twice daily,Dr C. Specimen,,
+F-S18-03,67,F,,2026-06-23,lactulose,Duphalac,3.34 g/5 mL,oral liquid,500,1,Take 15 mL each morning,Dr A. Example,,
+F-S18-03,67,F,,2026-07-02,pantoprazole,Somac,40 mg,tablet,60,2,Take ONE tablet daily,Dr A. Example,,
+F-S18-03,67,F,,2026-07-21,tapentadol,Palexia SR,50 mg,tablet,60,0,Take ONE tablet twice daily,Dr C. Specimen,,
+F-S18-03,67,F,,2026-07-21,lactulose,Duphalac,3.34 g/5 mL,oral liquid,500,0,Take 15 mL each morning,Dr A. Example,,
+F-S18-03,67,F,,2026-07-23,paracetamol,Panadol Osteo,665 mg,tablet,96,0,Take TWO tablets up to three times daily if needed,Dr A. Example,,
+F-S18-03,67,F,,2026-08-08,levothyroxine,Oroxine,100 mcg,tablet,100,2,Take ONE tablet each morning,Dr A. Example,,
+F-S18-03,67,F,,2026-08-27,pantoprazole,Somac,40 mg,tablet,60,1,Take ONE tablet daily,Dr A. Example,,

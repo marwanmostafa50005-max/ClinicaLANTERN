@@ -1,0 +1,102 @@
+{
+  "id": "MHRA-3",
+  "label": "MHRA 3",
+  "family": "MHRA",
+  "title": "Systemic valproate and contraception for men who may father children",
+  "statement": "as a precaution, recommend that male patients use effective contraception (condoms, plus contraception used by the female sexual partner) throughout the valproate treatment period and for 3 months after stopping valproate, to allow for one completed sperm cycle not exposed to valproate",
+  "statement_origin": "published",
+  "source": {
+    "document": "MHRA Drug Safety Update: Valproate use in men",
+    "citation": "Medicines and Healthcare products Regulatory Agency. Drug Safety Update volume 18, issue 2: September 2024: 1.",
+    "url": "https://www.gov.uk/drug-safety-update/valproate-use-in-men-as-a-precaution-men-and-their-partners-should-use-effective-contraception",
+    "licence": "UK Open Government Licence v3.0",
+    "licence_status": "proposed",
+    "credit": "Contains public sector information licensed under the Open Government Licence v3.0.",
+    "modification_notice": "Statement reproduced without changes."
+  },
+  "plain_summary": "Men who can father children should use effective contraception with their female partner during valproate treatment and for 3 months after stopping. Australian TGA guidance from March 2025 also requires discussion of effective contraception for the patient and female partner during treatment and for 3 months after stopping. The UK advice recommends condoms plus partner contraception unless pregnancy is impossible or the partner already uses highly effective contraception. Never stop valproate abruptly because seizures or mood relapse can occur.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Systemic valproate",
+      "ingredients": [
+        "sodium valproate",
+        "valproate sodium",
+        "valproic acid"
+      ],
+      "brands": {
+        "sodium valproate": [
+          "Epilim",
+          "Epilim EC",
+          "Epilim IV",
+          "Epilim Liquid",
+          "Epilim Syrup",
+          "Valpro",
+          "Valpro EC",
+          "Valproate Winthrop",
+          "Valproate Winthrop EC",
+          "APO-Sodium Valproate",
+          "Sodium Valproate Sandoz",
+          "Valprease",
+          "Epilim Crushable"
+        ],
+        "valproate sodium": [
+          "Epilim",
+          "Epilim EC",
+          "Epilim IV",
+          "Epilim Liquid",
+          "Epilim Syrup",
+          "Valpro",
+          "Valpro EC",
+          "Valproate Winthrop",
+          "Valproate Winthrop EC",
+          "APO-Sodium Valproate",
+          "Sodium Valproate Sandoz",
+          "Valprease",
+          "Epilim Crushable"
+        ],
+        "valproic acid": []
+      },
+      "note": "All listed systemic valproate forms count, including oral tablets, oral liquids and intravenous preparations. Generic packs showing a listed ingredient count. Match valproic acid by ingredient name. No Australian single-ingredient brand was verified for valproic acid."
+    }
+  ],
+  "rule_for_models": "For a male patient of any age with reproductive potential, check systemic valproate during treatment and for three months after the last dose, including sodium valproate (valproate sodium) and valproic acid. A later supply is not required. Use the recorded last dose when available. Otherwise estimate coverage from supply dates, quantities, directions and later supplies. For a current check use the latest date in the record. For a dated finding use the observation date. Cite the medicine and an observation for that period when pregnancy is possible and the patient confirms a gap in condoms or partner contraception. There is no finding if pregnancy is impossible, the partner uses highly effective contraception, both recommended methods are used, or the period has ended. If sex, reproductive risk, protection or last-dose timing matters and is unknown, report a possible finding naming the missing information. For a patient recorded as female, give no finding. If age is missing, still check and ask the pharmacist to confirm age. If daily dose, current use or the last dose is needed to establish the three-calendar-month window, ask about the missing information. When reproductive risk or protection is missing or unknown, report a possible finding naming \"Pregnancy risk and contraception during the valproate precaution period\" if the patient may be within the precaution period. Apply the answer only to the period it describes.",
+  "cannot_be_seen": "Whether the patient can father children, whether condoms and partner contraception are used, plans for pregnancy, actual medicine use, and supplies elsewhere may be missing. The record does not show whether counselling has occurred.",
+  "ask_the_gp": "Could you review reproductive planning and effective contraception for this patient and his female partner during valproate treatment and for 3 months after stopping?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Pregnancy risk and contraception during the valproate precaution period",
+      "meets": "During treatment or within three months of the last dose, pregnancy is possible and the patient confirms condoms or partner contraception are missing. The partner does not use highly effective contraception. If protection is uncertain, record Not known.",
+      "options": [
+        {
+          "words": "Pregnancy is possible and protection is missing",
+          "effect": "meets"
+        },
+        {
+          "words": "Using condoms and partner contraception",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Partner uses highly effective contraception",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "No pregnancy risk",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ],
+      "ask_when": {
+        "group": "A"
+      }
+    }
+  ],
+  "only_sex": "male"
+}

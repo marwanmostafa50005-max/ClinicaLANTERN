@@ -1,0 +1,32 @@
+[
+  {
+    "file": "START-F4/pos-fact.csv",
+    "kind": "positive",
+    "about": "The record holds diverticulosis and a history of constipation, and no fibre supplement is supplied anywhere in the 9-month history. A macrogol laxative is supplied, which is not a fibre supplement.",
+    "findings": [
+      {
+        "criterion": "START-F4",
+        "must_cite": [
+          [
+            "L005"
+          ],
+          [
+            "L006"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-F4/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The record holds diverticulosis and a history of constipation, but Metamucil (ispaghula husk, a fibre supplement) is supplied every month from January to September 2026, so nothing is omitted.",
+    "findings": []
+  },
+  {
+    "file": "START-F4/near-miss-dextrin.csv",
+    "kind": "near_miss",
+    "about": "Diverticulosis and a history of constipation are recorded. Wheat dextrin powder was supplied in the final six months, so there is no fibre omission.",
+    "findings": []
+  }
+]

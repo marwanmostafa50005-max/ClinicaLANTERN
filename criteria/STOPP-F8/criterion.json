@@ -1,0 +1,67 @@
+{
+  "id": "STOPP-F8",
+  "label": "STOPP F8",
+  "family": "STOPP_START",
+  "title": "Megestrol used to increase appetite",
+  "statement": "Megestrol acetate to increase appetite (increased risk of thrombosis and death with unproven efficacy)",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Megestrol acetate used to improve appetite raises the risk of blood clots and death and is not proven to work. Megestrol given as hormone treatment for cancer is a different use.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Megestrol acetate",
+      "ingredients": [
+        "megestrol acetate",
+        "megestrol"
+      ],
+      "brands": {
+        "megestrol acetate": [
+          "Megace"
+        ],
+        "megestrol": []
+      },
+      "note": "Tablets and liquids count. A line may show Megace or the ingredient name with a company name."
+    }
+  ],
+  "rule_for_models": "Apply this criterion only to people aged 65 years or older. If age is unknown, leave eligibility unconfirmed. If appetite stimulation is a stated purpose of this supply, cite the megestrol supply and that indication even when the patient also receives cancer treatment. If the reason for megestrol is missing or recorded as not known, report a possible finding and say that the reason for the medicine is missing. Clear the finding if megestrol was used solely for another purpose, such as hormone treatment for breast or endometrial cancer.",
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Reason megestrol is used",
+      "meets": "The record identifies appetite stimulation as a reason for this supply, including treatment of poor appetite associated with weight loss or cachexia.",
+      "options": [
+        {
+          "words": "To improve appetite, including for weight loss or cachexia",
+          "effect": "meets"
+        },
+        {
+          "words": "As hormone treatment for cancer only",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "For another reason unrelated to appetite",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "cannot_be_seen": "Why megestrol was started, which is the key fact, because a dispensing history does not hold the reason. Also the actual dose taken, weight and appetite, and medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "Whether megestrol is being used to increase appetite, and whether it is still needed given the risk of blood clots.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

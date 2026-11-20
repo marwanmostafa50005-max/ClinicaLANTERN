@@ -1,0 +1,54 @@
+[
+  {
+    "file": "STOPP-D21/pos-fact.csv",
+    "kind": "positive",
+    "about": "L001 records psychosis as the reason for starting chlorpromazine and the patient reports no earlier antipsychotic treatment for these symptoms.",
+    "findings": [
+      {
+        "criterion": "STOPP-D21",
+        "must_cite": [
+          [
+            "L002",
+            "L007",
+            "L012",
+            "L017",
+            "L022",
+            "L027",
+            "L032",
+            "L037",
+            "L042",
+            "L047",
+            "L052"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-D21/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: L002 identifies psychosis as the reason for periciazine, but the record does not say what the earlier quetiapine at L001 treated.",
+    "findings": [
+      {
+        "criterion": "STOPP-D21",
+        "must_cite": [
+          [
+            "L002"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-D21/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Prochlorperazine (Stemetil), a phenothiazine, is supplied now and then, but the record shows vertigo as the reason, an accepted use, so it must not flag.",
+    "findings": []
+  }
+]

@@ -1,0 +1,10 @@
+2026-08-04 | Lipitor (atorvastatin) 20 mg tablet | qty 30 | repeats 2 | Take ONE tablet at night | Dr A. Ex
+2026-08-04 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 0 | Take TWO tablets three times a day | Dr A. Ex
+2026-08-13 | Tritace 5 mg tablet | qty 30 | repeats 3 | Take ONE tablet daily | Dr C. Sp
+2026-09-03 | Coversyl 5 mg tablet | qty 30 | repeats 3 | Take ONE tablet in the morning | Dr A. Ex
+2026-09-03 | Lipitor (atorvastatin) 20 mg tablet | qty 30 | repeats 1 | Take ONE tablet at night | Dr A. Ex
+2026-09-11 | Tritace 5 mg tablet | qty 30 | repeats 2 | Take ONE tablet daily | Dr C. Sp
+2026-09-18 | Chlorsig (chloramphenicol) 0.5% eye drops | qty 1 | repeats 0 | Instil ONE drop into the right eye four times a day for 5 days | Dr B. Sa
+2026-10-02 | Coversyl 5 mg tablet | qty 30 | repeats 2 | Take ONE tablet in the morning | Dr A. Ex
+2026-10-02 | Lipitor (atorvastatin) 20 mg tablet | qty 30 | repeats 0 | Take ONE tablet at night | Dr A. Ex
+2026-10-12 | Tritace 5 mg tablet | qty 30 | repeats 1 | Take ONE tablet daily | Dr C. Sp

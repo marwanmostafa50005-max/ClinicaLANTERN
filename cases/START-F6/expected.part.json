@@ -1,0 +1,41 @@
+[
+  {
+    "file": "START-F6/pos-brand.csv",
+    "kind": "positive",
+    "about": "Three antibiotic courses are supplied by brand name only (Augmentin Duo in March, Keflex in June, Zithromax in August 2026) and no probiotic is supplied anywhere in the history.",
+    "findings": [
+      {
+        "criterion": "START-F6",
+        "must_cite": [
+          [
+            "L010",
+            "L020",
+            "L027"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-F6/pos-buried.csv",
+    "kind": "positive",
+    "about": "Two antibiotic courses (Bactrim DS on 8 January and Vibramycin on 26 February 2026) are supplied in the middle of a 14-month history and no probiotic is supplied anywhere.",
+    "findings": [
+      {
+        "criterion": "START-F6",
+        "must_cite": [
+          [
+            "L033",
+            "L042"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-F6/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Two antibiotic courses are supplied (Augmentin Duo in April and Keflex in August 2026) and on the same day each time a probiotic (Inner Health Plus) is supplied, so nothing is omitted.",
+    "findings": []
+  }
+]

@@ -1,0 +1,1026 @@
+/* The panels that open over the page, the findings under the bell, and the import panel. */
+
+.panel {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  overflow-x: clip;
+  background: var(--page);
+  outline: none;
+  animation: panel-in 0.2s ease-out;
+}
+
+@keyframes panel-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+}
+
+/* A panel opened by the page address (?panel=bell) is shown at once, with no movement. */
+html.panel-instant .panel {
+  animation: none;
+}
+
+.panel--import {
+  --accent: var(--cyan);
+  --accent-tint: var(--cyan-tint);
+}
+
+.panel--bell {
+  --accent: var(--red);
+  --accent-tint: var(--red-tint);
+}
+
+.panel--letter {
+  --accent: var(--gold);
+  --accent-tint: var(--gold-tint);
+}
+
+.panel-head {
+  flex: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 14px;
+  padding: 9px clamp(14px, 2.4vw, 28px);
+  border-top: 5px solid var(--accent);
+  border-bottom: 1px solid var(--line);
+  background: var(--white);
+}
+
+.panel-icon {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: var(--accent-tint);
+}
+
+.panel-icon svg {
+  width: 26px;
+  height: 26px;
+}
+
+.panel-title {
+  margin: 0;
+  color: var(--navy);
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+
+.panel-fictional {
+  margin-left: auto;
+}
+
+.panel-body {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+  padding: 18px clamp(14px, 2.4vw, 28px) 36px;
+}
+
+.panel-inner {
+  display: grid;
+  gap: 16px;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.panel-lede {
+  color: var(--muted);
+  font-size: 1.02rem;
+}
+
+.section-title {
+  margin: 8px 0 0;
+  color: var(--navy);
+  font-size: 1.15rem;
+}
+
+/* ---------- one finding ---------- */
+
+.finding {
+  display: grid;
+  gap: 14px;
+  padding: 18px 22px 18px;
+  border: 1px solid var(--line);
+  border-left: 6px solid var(--red);
+  border-radius: var(--radius);
+  background: var(--card);
+  box-shadow: var(--shadow);
+}
+
+.finding-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 6px 24px;
+}
+
+.finding-label {
+  margin: 0;
+  color: var(--navy);
+  font-size: 1.35rem;
+}
+
+.finding-title {
+  margin-top: 2px;
+  font-size: 1.06rem;
+}
+
+.finding-meta {
+  display: grid;
+  color: var(--muted);
+  font-size: 0.95rem;
+  text-align: right;
+}
+
+.finding-patient {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.finding-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.finding-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px 26px;
+}
+
+.finding-part {
+  display: grid;
+  gap: 7px;
+  align-content: start;
+  min-width: 0;
+}
+
+.question-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.question-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.finding-part h4 {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.criterion-text {
+  /* Line breaks in the source text are kept. A very long text scrolls inside its box. */
+  max-height: 22em;
+  overflow: auto;
+  white-space: pre-line;
+  margin: 0;
+  padding: 12px 16px;
+  border-left: 4px solid var(--navy);
+  border-radius: 0 var(--radius-small) var(--radius-small) 0;
+  background: var(--navy-tint);
+  color: var(--navy);
+  font-size: 1.05rem;
+  line-height: 1.5;
+}
+
+.credit {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.credit--small {
+  font-size: 0.84rem;
+}
+
+.finding-actions {
+  display: grid;
+  gap: 10px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line-soft);
+}
+
+.bypass-form {
+  display: grid;
+  gap: 8px;
+  max-width: 640px;
+}
+
+.bypass-form label {
+  font-weight: 600;
+  color: var(--navy);
+}
+
+/* The upload way only. The rest of the card does not use these. */
+.path-o-finder {
+  display: grid;
+  gap: 10px;
+  max-width: 640px;
+  padding: 14px;
+  border: 2px solid var(--path-teal);
+  border-radius: var(--radius);
+  background: var(--path-deep);
+  color: var(--path-paper);
+}
+
+.path-o-head {
+  padding: 14px;
+}
+
+.path-o-mark {
+  display: block;
+  height: 52px;
+  width: auto;
+}
+
+.path-o-line {
+  margin: 0;
+  color: var(--path-paper);
+  font-size: 0.98rem;
+  line-height: 1.5;
+}
+
+.path-o-finder :focus-visible {
+  outline: 3px solid var(--path-teal-bright);
+  outline-offset: 3px;
+}
+
+.path-o-finder .file-input:focus-visible + .file-label {
+  outline-color: var(--path-teal-bright);
+}
+
+.path-o-finder .btn-path-use {
+  background: var(--path-teal);
+  border-color: var(--path-teal);
+  color: var(--path-paper);
+}
+
+.path-o-finder .btn-path-use:hover:not(:disabled) {
+  background: var(--path-teal-bright);
+  border-color: var(--path-teal-bright);
+  color: var(--path-deep);
+}
+
+.path-o-finder .btn-path-type {
+  background: transparent;
+  border-color: var(--path-teal-bright);
+  color: var(--path-teal-bright);
+}
+
+.path-o-finder .btn-path-type:hover:not(:disabled) {
+  background: var(--path-teal-bright);
+  color: var(--path-deep);
+}
+
+.path-o-finder .btn-path-use:disabled,
+.path-o-finder .btn-path-type:disabled {
+  background: var(--disabled-bg);
+  border-color: var(--disabled-border);
+  color: var(--disabled-text);
+}
+
+/* The date field is the card's own field. It sits on paper so its navy label can be read. */
+.path-o-finder .bypass-form {
+  background: var(--path-paper);
+  padding: 10px 14px;
+  border-radius: var(--radius-small);
+}
+
+/* The check-the-report warning. Burgundy on paper. The words are the warning. */
+.path-o-warn {
+  margin: 0;
+  padding: 10px 14px;
+  border: 1px solid var(--path-burgundy);
+  border-radius: var(--radius-small);
+  background: var(--path-paper);
+  color: var(--path-burgundy);
+  font-size: 0.98rem;
+}
+
+/* ---------- dispensing lines ---------- */
+
+.lines {
+  display: grid;
+  gap: 4px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.line {
+  display: grid;
+  grid-template-columns: 3.3em minmax(0, 1fr);
+  gap: 8px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  background: var(--fill-bar);
+  font-size: 0.95rem;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+
+.line-id {
+  padding-top: 1px;
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.86rem;
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+/* A matching line: gold background, a dark gold bar, and bold ID. Also marked in words for screen readers. */
+.line--hit {
+  background: var(--gold-tint);
+  box-shadow: inset 4px 0 0 var(--gold-dark);
+  color: var(--ink-warm);
+}
+
+.line--hit .line-id {
+  color: var(--gold-dark);
+  font-weight: 700;
+}
+
+.cell {
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+.cell--first {
+  font-weight: 600;
+}
+
+.cell-sep {
+  color: var(--text-faint);
+}
+
+.lines-box--scroll {
+  max-height: 290px;
+  padding: 6px;
+  overflow: auto;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-small);
+  background: var(--white);
+}
+
+/* ---------- the grey list: not confirmed by the second check ---------- */
+
+.grey-list {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--fill-segment-idle);
+  color: var(--text-segment-idle);
+}
+
+.grey-list summary {
+  padding: 12px 18px;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: var(--radius);
+}
+
+.grey-list ul {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding: 0 18px 16px;
+  list-style: none;
+}
+
+.grey-item {
+  display: grid;
+  gap: 4px;
+  padding: 12px 14px;
+  border: 1px solid var(--border-segment);
+  border-radius: var(--radius-small);
+  background: var(--fill-segment);
+  font-size: 0.96rem;
+}
+
+.grey-head {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 10px;
+  color: var(--text-strong);
+}
+
+.grey-meta {
+  margin-left: auto;
+  color: var(--text-soft);
+  font-size: 0.9rem;
+}
+
+.grey-who {
+  font-weight: 600;
+}
+
+.grey-empty {
+  padding: 0 18px 14px;
+}
+
+.grey-list--plain {
+  background: var(--white);
+}
+
+/* ---------- import ---------- */
+
+.dropzone {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  gap: 6px;
+  padding: 16px 20px 16px;
+  border: 2.5px dashed var(--cyan-dark);
+  border-radius: 20px;
+  background: var(--white);
+  text-align: center;
+  transition:
+    background-color 0.15s ease,
+    transform 0.15s ease;
+}
+
+.dropzone--over {
+  background: var(--cyan-tint);
+  transform: translateY(-2px);
+}
+
+.dropzone-icon {
+  width: 38px;
+  height: 38px;
+  color: var(--cyan-dark);
+}
+
+.dropzone-title {
+  color: var(--navy);
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.dropzone-help {
+  max-width: 92ch;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.dropzone-help--warn {
+  color: var(--text);
+}
+
+.file-field {
+  position: relative;
+  display: inline-block;
+}
+
+.file-label {
+  cursor: pointer;
+}
+
+.file-input {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.file-input:focus-visible + .file-label {
+  outline: 3px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+.failed-screening {
+  display: grid;
+  gap: 6px;
+}
+
+.failed-list {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-small);
+  background: var(--white);
+}
+
+.failed-list summary {
+  padding: 10px 14px;
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--navy);
+}
+
+.failed-list ul {
+  margin: 0;
+  padding: 0 14px 12px 28px;
+  color: var(--text);
+  font-size: 0.95rem;
+}
+
+.case {
+  display: grid;
+  gap: 9px;
+  padding: 16px 20px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--card);
+  box-shadow: var(--shadow-small);
+}
+
+.case-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px 12px;
+}
+
+.case-file {
+  margin: 0;
+  color: var(--navy);
+  font-size: 1.12rem;
+  overflow-wrap: anywhere;
+}
+
+.case-meta,
+.case-note {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.case-status {
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+  font-size: 1.04rem;
+  font-weight: 600;
+  color: var(--navy);
+}
+
+.case-status > svg,
+.case-status > .spinner {
+  flex: none;
+  margin-top: 3px;
+}
+
+.case-status--warn {
+  color: var(--red-ink);
+}
+
+.case-status--ok {
+  color: var(--cyan-ink);
+}
+
+/* One small block for each criterion, in screening order. */
+.segments {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(0, 1fr);
+  gap: 4px;
+  max-width: 520px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.segment {
+  height: 10px;
+  border-radius: 5px;
+  background: var(--track-grey);
+}
+
+.segment--clear {
+  background: var(--cyan-dark);
+}
+
+.segment--suspected {
+  background: var(--red);
+}
+
+.segment--failed {
+  background: repeating-linear-gradient(45deg, var(--gold-dark) 0 4px, var(--gold) 4px 8px);
+}
+
+.segment--running {
+  background: var(--cyan);
+  animation: pulse-bar 1.1s ease-in-out infinite;
+}
+
+@keyframes pulse-bar {
+  50% {
+    opacity: 0.35;
+  }
+}
+
+.case-lines summary {
+  width: fit-content;
+  cursor: pointer;
+  color: var(--cyan-dark);
+  font-weight: 600;
+}
+
+.case-lines .lines-box {
+  margin-top: 8px;
+}
+
+.scan-check {
+  display: grid;
+  gap: 10px;
+  padding: 14px 16px;
+  border: 1.5px solid var(--border-gold-soft);
+  border-radius: var(--radius-small);
+  background: var(--scan-warm);
+}
+
+.scan-check h5 {
+  margin: 0;
+  color: var(--gold-ink);
+  font-size: 1.06rem;
+}
+
+.scan-pair {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 12px;
+}
+
+.scan-pages {
+  display: grid;
+  gap: 8px;
+  max-height: 290px;
+  padding: 6px;
+  overflow: auto;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-small);
+  background: var(--white);
+}
+
+.scan-pages img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line-soft);
+}
+
+/* The pictures and the link that shows them at full size. */
+.scan-pictures {
+  display: grid;
+  gap: 6px;
+  align-content: start;
+  justify-items: start;
+  min-width: 0;
+}
+
+.scan-pictures .scan-pages {
+  width: 100%;
+}
+
+/* At full size the pictures take the whole width, the rows go under them, and the box scrolls both ways. */
+.scan-pair--stack {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.scan-pages--large {
+  max-height: 70vh;
+  justify-items: start;
+}
+
+.scan-pages--large img {
+  width: auto;
+  max-width: none;
+}
+
+.rows-edit {
+  display: grid;
+  gap: 6px;
+  align-content: start;
+  min-width: 0;
+}
+
+/* One row on each line: no wrapping, so a row stays one row while it is corrected. */
+.rows-box {
+  min-height: 180px;
+  resize: vertical;
+  font-family: var(--mono);
+  font-size: 0.86rem;
+  line-height: 1.5;
+  white-space: pre;
+  overflow: auto;
+}
+
+@media (max-width: 860px) {
+  .finding-grid,
+  .scan-pair {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .finding {
+    padding: 14px 14px 16px;
+  }
+
+  .finding-meta {
+    text-align: left;
+  }
+
+  .grey-meta {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .panel-title {
+    font-size: 1.15rem;
+  }
+
+  .panel-fictional {
+    order: 4;
+    margin-left: 0;
+  }
+
+  .panel-close {
+    margin-left: auto;
+  }
+
+  .panel-close span {
+    /* The arrow stays; the words are still read out. */
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  .btn-large {
+    flex: 1 1 auto;
+  }
+}
+
+/* ---------- added after the review of 18 November ---------- */
+
+/* The note that the page shows sample data or a recorded run, repeated in the head of every panel. */
+.panel-note {
+  white-space: normal;
+}
+
+/* Accept and Bypass stay in view at the bottom of the panel while the evidence above is read.
+   The space under the last card is given to the content, not to the box that scrolls: a row that
+   sticks to the bottom then sits on the very edge of the panel, with no strip of text under it. */
+.panel--bell .panel-body {
+  padding-bottom: 0;
+}
+
+.panel--bell .panel-inner {
+  padding-bottom: 36px;
+}
+
+.finding-actions {
+  position: sticky;
+  bottom: 0;
+  z-index: 2;
+  margin: 0 -22px -18px;
+  padding: 12px 22px 16px;
+  border-radius: 0 0 var(--radius) var(--radius);
+  background: var(--card);
+  box-shadow: var(--shadow-panel-foot);
+}
+
+/* A line that only the first model named. */
+.line--first-model {
+  background: var(--highlight-warm);
+  box-shadow: inset 4px 0 0 var(--gold);
+}
+
+.line-who {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 0 7px;
+  border: 1px solid var(--border-gold-soft);
+  border-radius: 999px;
+  background: var(--white);
+  color: var(--gold-ink);
+  font-size: 0.78rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* Words a model wrote: set apart from the signed criterion text. */
+.model-words {
+  padding-left: 10px;
+  border-left: 3px solid var(--line);
+}
+
+/* The key under the coloured bars of a history. */
+.segments-key {
+  color: var(--muted);
+  font-size: 0.86rem;
+}
+
+.key {
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.key::before {
+  content: '';
+  display: inline-block;
+  width: 18px;
+  height: 8px;
+  margin-right: 5px;
+  border-radius: 4px;
+  background: var(--track-grey);
+  vertical-align: 1px;
+}
+
+.key--clear::before {
+  background: var(--cyan-dark);
+}
+
+.key--suspected::before {
+  background: var(--red);
+}
+
+.key--failed::before {
+  background: repeating-linear-gradient(45deg, var(--gold-dark) 0 4px, var(--gold) 4px 8px);
+}
+
+.clear-reasons {
+  display: grid;
+  gap: 6px;
+  margin: 8px 0 0;
+  padding-left: 20px;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+/* One page of a scan: its picture beside the rows read from it. */
+.scan-page {
+  display: grid;
+  gap: 6px;
+}
+
+.scan-page-title {
+  margin: 4px 0 0;
+  color: var(--navy);
+  font-size: 0.98rem;
+  font-weight: 700;
+}
+
+.scan-page-title--warn {
+  color: var(--red-ink);
+}
+
+@media (max-width: 860px) {
+  .finding-actions {
+    margin: 0 -14px -16px;
+    padding: 12px 14px 14px;
+  }
+}
+
+/* ---------- records that also carry conditions and results (docs/SPEC.md section 6a) ---------- */
+
+/* "Possible finding. The record does not show: ..." sits above the evidence of the finding. */
+.possible-line {
+  font-size: 1.02rem;
+}
+
+/* A fact from the record (a condition, a result or an observation) among the lines: its kind is
+   set as a small mark, so the line is not read as a supply. */
+.cell--kind {
+  display: inline-block;
+  padding: 0 7px;
+  border: 1px solid var(--input-border);
+  border-radius: 6px;
+  background: var(--white);
+  color: var(--navy);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+
+/* Many criteria (the list can hold 413). In one row the bars had no width left, and at phone
+   width the row ran off the side. So a long list is drawn as small blocks in several rows. */
+.segments--many {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+
+.segments--many .segment {
+  flex: 0 0 6px;
+  height: 6px;
+  border-radius: 2px;
+}
+
+/* ---------- parts built after the look was approved, drawn in its style ---------- */
+
+/* The heading of a group of findings: one group for each imported history. The patient, the file
+   name in quiet type, and how many findings wait in the group. */
+.group-title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 12px;
+}
+
+.group-title .credit {
+  font-weight: 400;
+}
+
+.group-title .tag {
+  align-self: center;
+  margin-left: auto;
+}
+
+/* The findings the two models disagree on. The list is always open, so its heading is a heading
+   and not a line that folds the list away. It looks like the line of the folded lists. */
+.grey-title {
+  margin: 0;
+  padding: 12px 18px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* One such finding shows the criterion and the two views side by side: a little more room between its parts. */
+.grey-item--views {
+  gap: 10px;
+}
+
+/* The criteria that could not be screened, listed on the findings page. There the list stands
+   beside the two grey lists, so it takes their corners and their indent: its arrow lines up with
+   theirs. Inside a card of the import panel the list keeps its smaller approved shape. */
+.panel--bell .panel-inner > .failed-list {
+  border-radius: var(--radius);
+}
+
+.panel--bell .panel-inner > .failed-list summary {
+  padding: 12px 18px;
+  border-radius: var(--radius);
+}
+
+.panel--bell .panel-inner > .failed-list ul {
+  padding: 0 18px 14px 34px;
+}
+
+/* the criteria panel */
+
+.criteria-panel .criteria-group {
+  display: grid;
+  gap: 8px;
+}
+
+.criteria-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 8px;
+}
+
+.criteria-row {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-small);
+  background: var(--card);
+  box-shadow: var(--shadow-small);
+}
+
+.criteria-summary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px 12px;
+  padding: 12px 16px;
+  cursor: pointer;
+}
+
+.criteria-label {
+  color: var(--navy);
+  font-weight: 700;
+}
+
+.criteria-title {
+  color: var(--text);
+  font-size: 0.98rem;
+}
+
+.criteria-detail {
+  display: grid;
+  gap: 10px;
+  padding: 0 16px 14px;
+}

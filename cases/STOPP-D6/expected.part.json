@@ -1,0 +1,47 @@
+[
+  {
+    "file": "STOPP-D6/pos-fact.csv",
+    "kind": "positive",
+    "about": "The Zoloft taper history places the 20 May sodium of 125 mmol/L during treatment, with recovery to 137 mmol/L on 23 May.",
+    "findings": [
+      {
+        "criterion": "STOPP-D6",
+        "must_cite": [
+          [
+            "L041"
+          ],
+          [
+            "L043"
+          ],
+          [
+            "L044"
+          ],
+          [
+            "L047"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-D6/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no sodium result or low sodium line anywhere, although escitalopram (an SSRI) is supplied monthly.",
+    "findings": [
+      {
+        "criterion": "STOPP-D6",
+        "must_cite": [
+          [
+            "L030"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-D6/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The June 2025 low sodium resolved that month, and serum sodium was 130 mmol/L at the latest citalopram supply in April 2026.",
+    "findings": []
+  }
+]

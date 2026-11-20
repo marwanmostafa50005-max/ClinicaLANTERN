@@ -1,0 +1,112 @@
+{
+  "id": "BANSAL-S15",
+  "label": "BANSAL S15: codeine or morphine, severe renal impairment",
+  "family": "BANSAL",
+  "title": "Codeine or morphine with severe kidney impairment",
+  "statement": "Prescription of codeine or morphine to a patient with severe renal impairment, i.e. the most recent eGFR < 30 mL/min per 1.73 m 2 [92, 93]",
+  "statement_origin": "published",
+  "source": {
+    "document": "Bansal N, et al. Development of prescribing indicators related to opioid-related harm in patients with chronic pain in primary care. BMC Med 2024;22:5, Tables 3-4",
+    "citation": "Bansal N, Campbell SM, Lin C-Y, Ashcroft DM, Chen L-C. Development of prescribing indicators related to opioid-related harm in patients with chronic pain in primary care - a modified e-Delphi study. BMC Med 2024;22:5. doi:10.1186/s12916-023-03213-x",
+    "doi": "10.1186/s12916-023-03213-x",
+    "url": "https://doi.org/10.1186/s12916-023-03213-x",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Bansal N, Campbell SM, Lin C-Y, Ashcroft DM, Chen L-C. Development of prescribing indicators related to opioid-related harm in patients with chronic pain in primary care - a modified e-Delphi study. BMC Med 2024;22:5. doi:10.1186/s12916-023-03213-x",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.2 candidate repairs and adopted conventions merged with attribution). Not endorsed by the source authors."
+  },
+  "plain_summary": "Codeine and morphine, and their active breakdown products, build up when the kidneys work poorly, which can cause heavy sedation and slowed breathing.",
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "eGFR",
+      "meets": "Use the latest eGFR applicable at supply or during confirmed opioid treatment. A value below 30 mL/min/1.73 m² meets the threshold. A value of 30 or higher does not. Request the sample date or unit when its absence prevents interpretation."
+    },
+    {
+      "kind": "observation",
+      "what": "Use of the as-needed opioid on the kidney sample date under review",
+      "meets": "Ask only if the later sample could fall within this as-needed course and the record leaves exposure on that date uncertain. Still using the opioid on the sample date supports applying that result to this course. If the course had ended, assess that exposure using the result applicable during treatment. Unknown use leaves this link unresolved.",
+      "options": [
+        {
+          "words": "Still using this opioid on the sample date",
+          "effect": "meets"
+        },
+        {
+          "words": "This course had ended before the sample",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for the codeine supply under review",
+      "meets": "Ask only if the product and directions leave pain use unclear and it could change the finding. Count this supply for pain. Exclude cough and other non-pain uses. Unknown use leaves the finding possible.",
+      "options": [
+        {
+          "words": "Pain",
+          "effect": "meets"
+        },
+        {
+          "words": "Cough",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Another non-pain use",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Codeine and morphine",
+      "ingredients": [
+        "codeine",
+        "morphine"
+      ],
+      "brands": {
+        "codeine": [
+          "Panadeine Forte (codeine with paracetamol)",
+          "Panadeine (codeine with paracetamol)",
+          "Codalgin Forte (codeine with paracetamol)",
+          "Mersyndol (codeine with paracetamol and doxylamine)",
+          "Panadeine Extra",
+          "Mersyndol Forte",
+          "Nurofen Plus",
+          "Codphos",
+          "Codapane Forte 500/30",
+          "Comfarol Forte",
+          "Prodeine Forte"
+        ],
+        "morphine": [
+          "MS Contin",
+          "Kapanol",
+          "Ordine",
+          "Sevredol",
+          "MS Mono",
+          "Anamorph",
+          "MS Contin Suspension",
+          "MS Normal",
+          "Momex SR",
+          "RA-Morph"
+        ]
+      },
+      "note": "Other opioids do not count for this criterion. Combination products with codeine count. Generic packs labelled with the ingredient and company count. Exclude codeine cough liquids. If the reason for codeine is unclear, report at most a possible finding and ask whether it was used for pain."
+    }
+  ],
+  "rule_for_models": "For a person over 18, assess each codeine or morphine exposure using the latest eGFR known at supply or during supported ongoing treatment. Cite the result and supply for a value below 30 mL/min/1.73 m², even if it has risen. A value of 30 or higher does not qualify, and a result first measured after the course ended cannot establish an earlier finding. If otherwise eligible, keep the finding possible when age, pain use, ongoing exposure, or the applicable result, unit or sample date is unclear. If the product and directions leave codeine use unclear, ask what this supply was for. If a later sample could fall within an as-needed course and the dates are unclear, ask whether this opioid was still used on the sample date. Apply each answer only to that exposure and never use the counter entry date as the sample date.",
+  "cannot_be_seen": "The current kidney function if it is not recorded, the dose actually taken, and whether a kidney specialist is involved.",
+  "ask_the_gp": "A review of the choice and dose of the opioid for this level of kidney function, and a current eGFR if none is recent.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

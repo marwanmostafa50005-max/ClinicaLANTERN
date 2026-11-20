@@ -1,0 +1,44 @@
+[
+  {
+    "file": "DREISCHULTE-17/pos-brand.csv",
+    "kind": "positive",
+    "about": "At age 75, Naprosyn overlaps with Natrilix SR and the record shows no supply of an ACE inhibitor or ARB within 60 days either side of the NSAID supply.",
+    "findings": [
+      {
+        "criterion": "DREISCHULTE-17",
+        "must_cite": [
+          [
+            "L018"
+          ],
+          [
+            "L016"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "DREISCHULTE-17/pos-buried.csv",
+    "kind": "positive",
+    "about": "At age 79, naproxen overlaps with hydrochlorothiazide and the record shows no supply of an ACE inhibitor or ARB within 60 days either side of the NSAID supply.",
+    "findings": [
+      {
+        "criterion": "DREISCHULTE-17",
+        "must_cite": [
+          [
+            "L036"
+          ],
+          [
+            "L033"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "DREISCHULTE-17/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Perindopril covers the full naproxen course from 2025-10-15 to 2025-10-17, so there is no finding.",
+    "findings": []
+  }
+]

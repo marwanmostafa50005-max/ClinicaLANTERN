@@ -1,0 +1,194 @@
+{
+  "id": "START-H7",
+  "label": "START H7",
+  "family": "STOPP_START",
+  "title": "Bone protection after teriparatide or abaloparatide stops",
+  "statement": "Anti-resorptive treatment after discontinuation of teriparatide/abaloparatide treatment for osteoporosis.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "After a course of teriparatide or abaloparatide for osteoporosis ends, a bone anti-resorptive medicine is usually needed to keep the gain in bone strength.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Bone-building injections for osteoporosis",
+      "ingredients": [
+        "teriparatide",
+        "abaloparatide"
+      ],
+      "brands": {
+        "teriparatide": [
+          "Forteo",
+          "Terrosa",
+          "Ritosa"
+        ],
+        "abaloparatide": [
+          "Eladynos"
+        ]
+      },
+      "note": "Teriparatide pens are supplied about every 28 days. Eladynos is an Australian registered brand of abaloparatide. Forteo may appear in older records."
+    },
+    {
+      "key": "B",
+      "name": "Bone anti-resorptive medicines that can follow the course",
+      "ingredients": [
+        "alendronic acid",
+        "risedronic acid",
+        "zoledronic acid",
+        "ibandronic acid",
+        "denosumab",
+        "raloxifene",
+        "alendronate",
+        "risedronate"
+      ],
+      "brands": {
+        "alendronic acid": [
+          "Fosamax",
+          "Fosamax Plus",
+          "Adronat",
+          "Alendro",
+          "Alendro Once-Weekly",
+          "Binosto",
+          "Fosamax Once Weekly"
+        ],
+        "risedronic acid": [
+          "Actonel",
+          "Actonel Once a Week",
+          "Acris Once-a-Month",
+          "Acris Once-a-Week",
+          "Actonate",
+          "Actonate EC Once-a-Week",
+          "Actonate Once-a-Month",
+          "Actonel EC Once-a-Week",
+          "Actonel Once-a-Month",
+          "Atelvia",
+          "Atelvia EC Once-a-Week",
+          "Atelvia Once-a-Month",
+          "Perodon",
+          "Risedro Once a Week",
+          "Actonel Combi",
+          "Actonel Combi D"
+        ],
+        "zoledronic acid": [
+          "Aclasta",
+          "Aclonat",
+          "Amonzitra",
+          "Astazol",
+          "Azolast",
+          "Bonezol",
+          "Deztron",
+          "Osteovan",
+          "Ostira",
+          "Zolaccord",
+          "Zoledasta"
+        ],
+        "ibandronic acid": [],
+        "denosumab": [
+          "Prolia",
+          "Corora",
+          "Ganvado",
+          "Jubbonti",
+          "Osenvelt",
+          "Prolia with Automatic Needle Guard",
+          "Rexadev",
+          "Stoboclo",
+          "Wyost",
+          "Xgeva"
+        ],
+        "raloxifene": [
+          "Evista",
+          "Evifyne",
+          "Fixta",
+          "Fixta 60",
+          "Ralovista"
+        ],
+        "alendronate": [
+          "Fosamax",
+          "Fosamax Plus",
+          "Adronat",
+          "Alendro",
+          "Alendro Once-Weekly",
+          "Binosto",
+          "Fosamax Once Weekly"
+        ],
+        "risedronate": [
+          "Actonel",
+          "Actonel Once a Week",
+          "Acris Once-a-Month",
+          "Acris Once-a-Week",
+          "Actonate",
+          "Actonate EC Once-a-Week",
+          "Actonate Once-a-Month",
+          "Actonel EC Once-a-Week",
+          "Actonel Once-a-Month",
+          "Atelvia",
+          "Atelvia EC Once-a-Week",
+          "Atelvia Once-a-Month",
+          "Perodon",
+          "Risedro Once a Week",
+          "Actonel Combi",
+          "Actonel Combi D"
+        ]
+      },
+      "note": "Alendronic acid, risedronic acid and zoledronic acid count. Fosamax Plus is alendronic acid with colecalciferol. No Australian brand is listed for ibandronic acid. Count raloxifene only when the record documents follow-on osteoporosis treatment in a postmenopausal woman after teriparatide or abaloparatide. Calcium and vitamin D alone do not count. Zoledronic acid is usually given as a clinic infusion, so it may not show in a pharmacy record. Denosumab (Prolia) also counts here. Check denosumab strength and intended treatment. The 60 mg osteoporosis presentations include Prolia, Jubbonti and Stoboclo. A 120 mg oncology presentation such as Xgeva, Wyost or Osenvelt does not by itself establish follow-on osteoporosis care. If the plan is unclear, confirm it before clearing the finding. For zoledronic acid, check that an osteoporosis infusion was given or arranged as follow-on treatment. A 4 mg oncology regimen or a brand name alone does not establish that plan."
+    }
+  ],
+  "rule_for_models": "Apply only from age 65 and report no omission if the record documents end-of-life care with a palliative focus, a contraindication to follow-on therapy or another valid reason to omit it. If age is unknown, confirm that the person is at least 65 before reporting a finding. When the record says that a Group A medicine for osteoporosis has stopped, flag the stop for review unless Group B anti-resorptive treatment was given or arranged as follow-on care at that date. When supplies alone suggest the course ended, report a possible stop only if the last Group A supply was more than 60 days before the end of the record and there is no subsequent qualifying Group B supply or documented follow-on care. For a possible stop based on this gap, cite both the last Group A supply and the osteoporosis entry on the final date to show the interval and the condition being treated. If no osteoporosis entry falls on the final date, cite any entry on that date, including a supply, along with the last Group A supply. If a zoledronic acid supply is the only possible follow-on and its purpose is unclear, keep the omission possible until the regimen is confirmed. For a suspected stop, ask about anabolic osteoporosis treatment and follow-on care if continuation or subsequent care is unclear. Confirmed continuation or qualifying follow-on care given or arranged clears the omission. A confirmed stop without follow-on care supports a finding. Use the documented date and treatment where available. Ask about the role of raloxifene only when it is the sole possible follow-on after the course and its purpose or postmenopausal status is unclear. When that is the only uncertainty, name only the raloxifene fact as missing. Count it only for confirmed follow-on osteoporosis treatment in a postmenopausal woman. If it fails those conditions, assess the stop without counting it. An unresolved answer leaves the omission possible.",
+  "cannot_be_seen": "Whether the course was completed as planned or stopped early, doses given in a clinic or hospital, and the reason the pens stopped. A record this short cannot show a full course, which can last up to two years. Ask whether teriparatide or abaloparatide is still obtained elsewhere and whether a clinic or hospital has given or arranged a zoledronic acid infusion or denosumab injection.",
+  "ask_the_gp": "Could you confirm whether the course of teriparatide or abaloparatide has ended and review what follow-on bone protection has been given or arranged?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Anabolic osteoporosis treatment and follow-on care",
+      "meets": "After a suspected stop, confirm whether injections continue elsewhere or the course ended. Check the date and treatment in the clinic record where known. A confirmed stop without qualifying follow-on care supports a finding. Continuing injections or qualifying follow-on care given or arranged clears the omission. An uncertain answer leaves it possible.",
+      "options": [
+        {
+          "words": "The anabolic injections are continuing",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "The course ended and qualifying follow-on treatment was given or arranged",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "The course ended without follow-on treatment",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Role of raloxifene after anabolic osteoporosis treatment",
+      "meets": "Ask only when raloxifene is the only possible follow-on after the course. Does it qualify as follow-on osteoporosis treatment in a postmenopausal woman? If it does, clear the omission. If it does not, it cannot cover the stop. If unclear, the omission remains possible.",
+      "options": [
+        {
+          "words": "Confirmed follow-on in a postmenopausal woman",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Does not meet those conditions",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

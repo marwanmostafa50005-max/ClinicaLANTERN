@@ -1,0 +1,41 @@
+[
+  {
+    "file": "NHSNPSA-2016-011-1/pos-fact.csv",
+    "kind": "positive",
+    "about": "The patient feels well after injecting insulin drawn from a Toujeo SoloStar pen with a syringe, but the dose is uncertain and needs urgent medical advice immediately.",
+    "findings": [
+      {
+        "criterion": "NHSNPSA-2016-011-1",
+        "must_cite": [
+          [
+            "L048"
+          ],
+          [
+            "L049"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "NHSNPSA-2016-011-1/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about insulin withdrawal method status for the supplied Humalog U200 KwikPen.",
+    "findings": [
+      {
+        "criterion": "NHSNPSA-2016-011-1",
+        "must_cite": [
+          [
+            "L026"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "NHSNPSA-2016-011-1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Toujeo SoloStar is supplied and the observation rules out both syringe withdrawal and any plan to draw insulin from the pen with a syringe.",
+    "findings": []
+  }
+]

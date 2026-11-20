@@ -1,0 +1,170 @@
+{
+  "id": "START-K1",
+  "label": "START K1",
+  "family": "STOPP_START",
+  "title": "Strong opioid for moderate to severe pain that is not arthritis pain",
+  "statement": "High-potency opioids in moderate-severe non-arthritis pain, where paracetamol, NSAIDs or low-potency opioids are not appropriate to the pain severity or have been ineffective.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A person with moderate to severe pain that is not from arthritis, and in whom paracetamol, anti-inflammatory medicines or weaker opioids are not enough, should have a strong opioid considered.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "High-potency opioids, the medicines that meet this criterion",
+      "ingredients": [
+        "morphine",
+        "oxycodone",
+        "hydromorphone",
+        "fentanyl",
+        "buprenorphine",
+        "methadone",
+        "tapentadol"
+      ],
+      "brands": {
+        "morphine": [
+          "MS Contin",
+          "Kapanol",
+          "Ordine",
+          "Sevredol",
+          "MS Mono",
+          "Anamorph",
+          "MS Contin Suspension",
+          "MS Normal",
+          "Momex SR",
+          "RA-Morph"
+        ],
+        "oxycodone": [
+          "OxyContin",
+          "OxyNorm",
+          "Endone",
+          "Targin (with naloxone)",
+          "Endone XR",
+          "Novacodone",
+          "Oxycodor",
+          "Oxycone",
+          "Oxylenus",
+          "Oxylieve MR",
+          "Oxyndone",
+          "Xedone"
+        ],
+        "hydromorphone": [
+          "Jurnista",
+          "Dilaudid",
+          "Dilaudid-HP",
+          "Palladone XL"
+        ],
+        "fentanyl": [
+          "Durogesic",
+          "Denpax",
+          "Fenpatch"
+        ],
+        "buprenorphine": [
+          "Norspan",
+          "Temgesic (sublingual tablet)"
+        ],
+        "methadone": [
+          "Physeptone",
+          "Opod-D Syrup"
+        ],
+        "tapentadol": [
+          "Palexia",
+          "Palexia SR",
+          "Lodat SR",
+          "Palexia IR",
+          "Tadol IR",
+          "Tadol SR",
+          "Tapal IR",
+          "Tapal SR",
+          "Tapex IR",
+          "Tapex SR",
+          "Tapexia",
+          "Tapexia SR"
+        ]
+      },
+      "note": "Count a methadone product only when the record supports use for this pain. Biodone Forte, Opod-P Liquid and Physeptone Liquid are opioid-dependence formulations. Suboxone, Subutex and depot buprenorphine for dependence, including Buvidal and Sublocade, do not establish pain treatment. If the use of Opod-D Syrup or the use or form of another methadone supply is unclear, report at most a possible omission and ask why it was supplied. A documented supply for this pain meets the treatment requirement. Generic packs that show the ingredient name with a company name count."
+    }
+  ],
+  "rule_for_models": "Apply only at age 65 or older. If age is unknown and the other evidence would support a finding, report only a possible finding and ask the pharmacist to confirm the age. For a recorded condition of moderate to severe non-arthritis pain, apply these checks in order:\n- give no finding if there is a documented valid reason for omission, an end-of-life plan focused on palliation, a simpler treatment that works or is suitable and has yet to be tried, or ongoing or current Group A pain treatment that counts under the group note and was supplied in the last six months counted back from the latest date in the record. Check the product, form and indication. A dependence-only supply and a finished short course clearly for an unrelated episode (such as dental or acute procedural pain) do not treat this pain.\n- if the assessment named Simpler pain relief for this pain is missing or unknown, cite the pain line and report only a possible finding that names this fact\n- if a recorded supply or a report of outside treatment leaves the indication or current cover unclear, report only a possible finding. Cite the pain line and identify any unclear supply. Name the missing fact Strong opioid treatment for this pain. Check whether any strong opioid currently treats the qualifying pain, including supplies from a hospital or another pharmacy. A confirmed supply for this pain gives no finding. If no strong opioid currently treats it, assess pain severity and simpler treatment separately. An unknown answer leaves the finding possible. Where separate pain episodes could give different answers, leave the episode in doubt for review and do not apply one answer across them.\n- otherwise confirm the omission and cite both the pain line and the assessment showing simpler options failed or were unsuitable for the severity of this pain, taking the Australian indication for the intended opioid formulation into account in any review.",
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Moderate to severe pain that is not arthritis pain",
+      "meets": "A condition line recording moderate to severe pain from a cause other than arthritis (for example cancer pain or severe pain after surgery).",
+      "ask_when": "always",
+      "options": [
+        {
+          "words": "There is moderate to severe pain from a cause other than arthritis",
+          "effect": "meets"
+        },
+        {
+          "words": "There is no current moderate to severe pain from a cause other than arthritis",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Simpler pain relief for this pain",
+      "meets": "Consider paracetamol, anti-inflammatory medicines and weaker opioids as relevant to this pain. The assessment meets the criterion if the relevant options gave too little relief or were unsuitable for the severity of this pain. If a simpler option works or a suitable option has yet to be tried, give no finding. If response or suitability is unclear, keep the finding possible.",
+      "options": [
+        {
+          "words": "The relevant simpler options gave too little relief or were unsuitable for this pain",
+          "effect": "meets"
+        },
+        {
+          "words": "A simpler medicine controls this pain",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "A suitable simpler medicine has yet to be tried",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Strong opioid treatment for this pain",
+      "meets": "Check whether any strong opioid is currently supplied for the qualifying pain, including treatment supplied by a hospital or another pharmacy. No current strong opioid for this pain meets the treatment gap only.",
+      "options": [
+        {
+          "words": "Currently supplied for this pain",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Only for dependence or another pain, with no current strong opioid for this pain",
+          "effect": "meets"
+        },
+        {
+          "words": "No strong opioid currently supplied for this pain",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "cannot_be_seen": "The pain, its severity and its cause are not in a dispensing history unless a condition line is present. Whether paracetamol, anti-inflammatory medicines or weaker opioids have been tried and failed, or are unsuitable, and what the person wants. Ask which pain medicines have been tried, including paracetamol, anti-inflammatory medicines and weaker opioids, and whether they helped or were unsuitable. Ask whether a hospital or another pharmacy supplies a stronger opioid for this pain.",
+  "ask_the_gp": "A review of the pain and its treatment so far, and whether a stronger opioid is suitable.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

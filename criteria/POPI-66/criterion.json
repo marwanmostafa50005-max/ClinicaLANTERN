@@ -1,0 +1,139 @@
+{
+  "id": "POPI-66",
+  "label": "POPI: a bladder anticholinergic alone for bedwetting without daytime symptoms",
+  "family": "POPI",
+  "title": "A bladder anticholinergic alone for bedwetting without daytime symptoms",
+  "statement": "An anticholinergic agent used as a monotherapy in the absence of daytime symptoms",
+  "statement_origin": "published",
+  "source": {
+    "document": "International consensus validation of the POPI tool (Pediatrics: Omission of Prescriptions and Inappropriate prescriptions) to identify inappropriate prescribing in pediatrics",
+    "citation": "Sadozai L, Sable S, Le Roux E, et al. International consensus validation of the POPI tool (Pediatrics: Omission of Prescriptions and Inappropriate prescriptions) to identify inappropriate prescribing in pediatrics. PLOS ONE. 2020;15(10):e0240105.",
+    "doi": "10.1371/journal.pone.0240105",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0240105",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "© 2020 Sadozai et al. Table 2, International consensus validation of the POPI tool. PLOS ONE 15(10), e0240105. https://doi.org/10.1371/journal.pone.0240105. CC BY 4.0.",
+    "modification_notice": "Table 2 wording is reproduced unchanged. The record rules, medicine mappings and fictional examples are local adaptations."
+  },
+  "plain_summary": "POPI flags a bladder anticholinergic used alone for bedwetting when the child has no daytime urinary symptoms.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Bladder anticholinergics",
+      "ingredients": [
+        "oxybutynin",
+        "solifenacin",
+        "tolterodine",
+        "darifenacin",
+        "propantheline"
+      ],
+      "brands": {
+        "oxybutynin": [
+          "Ditropan",
+          "Oxytrol"
+        ],
+        "solifenacin": [
+          "Vesicare",
+          "Solicare",
+          "Solicare ODT",
+          "Vesican ODT",
+          "Vesifen"
+        ],
+        "tolterodine": [
+          "Detrusitol"
+        ],
+        "darifenacin": [
+          "Enablex"
+        ],
+        "propantheline": [
+          "Pro-Banthine"
+        ]
+      },
+      "note": "These are Australian examples. Count another bladder anticholinergic if its identity and use for bedwetting are clear. Generic packs showing the ingredient with a company name count. Check the reason for supply, including for a patch."
+    },
+    {
+      "key": "B",
+      "name": "Desmopressin",
+      "ingredients": [
+        "desmopressin"
+      ],
+      "brands": {
+        "desmopressin": [
+          "Minirin",
+          "Adin",
+          "Adin Melt",
+          "Desmomed",
+          "Minirin Melt",
+          "Nocdurna"
+        ]
+      },
+      "note": "Use the indication to identify treatment for bedwetting. Exclude injections and desmopressin products identified as treatment for bleeding."
+    },
+    {
+      "key": "C",
+      "name": "Tricyclic agents",
+      "ingredients": [
+        "imipramine",
+        "amitriptyline"
+      ],
+      "brands": {
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "amitriptyline": [
+          "Endep",
+          "Entrip"
+        ]
+      },
+      "note": "Recognise a tricyclic by its ingredient or brand, including a generic pack with a company name. Count it as bedwetting treatment only if that use is clear."
+    }
+  ],
+  "rule_for_models": "If a person under 18 receives a Group A bladder anticholinergic for bedwetting, daytime urinary symptoms are explicitly absent and no other bedwetting medicine is supplied on the same day or within 60 days before or after, cite the supply, diagnosis and symptom record. For each Group A supply, give no finding at age 18 or older, if it was solely for another indication, if daytime urinary symptoms are documented during treatment, or if another bedwetting medicine was supplied in that period (including Group B desmopressin or a Group C tricyclic used for bedwetting, excluding desmopressin injections and desmopressin used for bleeding). If an in-window supply might be another bedwetting treatment and its indication or relevant form is unclear, report only a possible finding when the other evidence fits. Ask about that supply before concluding that the bladder anticholinergic was used alone. If no exclusion applies to a Group A supply and age, indication or daytime symptom history is missing, report only a possible finding, name each missing fact and ask the parent or patient for the missing details (age at supply, whether the medicine is for bedwetting and whether daytime urgency, frequency and wetting were all confirmed absent during this course).",
+  "cannot_be_seen": "A medicine obtained elsewhere or bought without a prescription is not in the record. Silence about daytime symptoms does not establish their absence.",
+  "ask_the_gp": "Could you check for daytime bladder symptoms and review the use of the bladder anticholinergic alone for bedwetting?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Nocturnal enuresis",
+      "meets": "Bedwetting was present during the treatment period under review. The diagnosis alone cannot establish why a particular medicine was supplied. Use the directions, a linked indication or the pharmacist's confirmation to identify the medicine used for bedwetting. If the link is unclear, leave the finding possible unless another fact rules it out.",
+      "options": [
+        {
+          "words": "Bedwetting was present during the treatment period under review",
+          "effect": "meets"
+        },
+        {
+          "words": "Bedwetting was absent during the treatment period under review",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Daytime urinary symptoms absent during this bedwetting treatment",
+      "meets": "Was the absence of daytime urgency, frequency and wetting confirmed during this course? A documented absence supports the finding. Any daytime urinary symptom excludes it. If symptoms were not assessed or their absence is uncertain, choose Not known.",
+      "options": [
+        {
+          "words": "Yes, daytime urgency, frequency and wetting were all absent during this course",
+          "effect": "meets"
+        },
+        {
+          "words": "No, daytime urinary symptoms were present during this course",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

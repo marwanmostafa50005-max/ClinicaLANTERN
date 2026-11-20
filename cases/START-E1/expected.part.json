@@ -1,0 +1,50 @@
+[
+  {
+    "file": "START-E1/pos-fact.csv",
+    "kind": "positive",
+    "about": "The latest eGFR is 24 and corrected calcium is 2.01 mmol/L, secondary hyperparathyroidism is recorded and no active vitamin D is supplied despite earlier results above both thresholds.",
+    "findings": [
+      {
+        "criterion": "START-E1",
+        "must_cite": [
+          [
+            "L050"
+          ],
+          [
+            "L051"
+          ],
+          [
+            "L003"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-E1/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: cinacalcet is supplied and no active vitamin D supply is recorded. The record lacks \"eGFR\", \"Corrected serum calcium\", \"Secondary hyperparathyroidism due to chronic kidney disease\" and \"Alfacalcidol or calcitriol from a hospital or dialysis clinic in the last six months of the record\".",
+    "findings": [
+      {
+        "criterion": "START-E1",
+        "must_cite": [
+          [
+            "L005",
+            "L010",
+            "L015",
+            "L020",
+            "L025",
+            "L030",
+            "L035"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-E1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The kidney and calcium facts are recorded, and alfacalcidol (One-Alpha) is supplied every month through the last six months, so nothing is missing.",
+    "findings": []
+  }
+]

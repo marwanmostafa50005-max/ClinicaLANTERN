@@ -1,0 +1,266 @@
+{
+  "id": "KHAWAGI-G002",
+  "label": "Khawagi review: Review antipsychotic treatment supplied before a child's sixth birthday",
+  "family": "KHAWAGI",
+  "title": "Review antipsychotic treatment supplied before a child's sixth birthday",
+  "statement": "Review antipsychotic treatment supplied before a child's sixth birthday.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Khawagi et al. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. S3 File.",
+    "citation": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. PLoS ONE 2019;14(5):e0217406.",
+    "doi": "10.1371/journal.pone.0217406",
+    "url": "https://doi.org/10.1371/journal.pone.0217406.s003",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. PLoS ONE 2019;14(5):e0217406. https://doi.org/10.1371/journal.pone.0217406; S3 File, https://doi.org/10.1371/journal.pone.0217406.s003. © 2019 Khawagi et al., CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). S3 File, G002. Original screening wording and Australian adaptations. S3 reference(s) as indexed in the supplied qualification: [69]. Clinical cross-check: Khawagi review (https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0217406).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "Review antipsychotic treatment supplied before a child's sixth birthday.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antipsychotics",
+      "ingredients": [
+        "amisulpride",
+        "aripiprazole",
+        "asenapine",
+        "brexpiprazole",
+        "cariprazine",
+        "chlorpromazine",
+        "clozapine",
+        "droperidol",
+        "flupentixol",
+        "haloperidol",
+        "lurasidone",
+        "olanzapine",
+        "paliperidone",
+        "periciazine",
+        "prochlorperazine",
+        "quetiapine",
+        "risperidone",
+        "ziprasidone",
+        "zuclopenthixol",
+        "flupentixol decanoate",
+        "trifluoperazine"
+      ],
+      "brands": {
+        "amisulpride": [
+          "Solian",
+          "Amipride",
+          "Sulprix"
+        ],
+        "aripiprazole": [
+          "Abilify",
+          "Abilify ODT",
+          "Abipra",
+          "Abyraz",
+          "Aprazole",
+          "Aripic",
+          "Aripra",
+          "Arizole",
+          "Abilify Maintena"
+        ],
+        "asenapine": [
+          "Saphris"
+        ],
+        "brexpiprazole": [
+          "Rexulti"
+        ],
+        "cariprazine": [
+          "Reagila"
+        ],
+        "chlorpromazine": [
+          "Largactil",
+          "Largactil Syrup"
+        ],
+        "clozapine": [
+          "Clopine",
+          "Closyn",
+          "Clozaril",
+          "Clozaril ODT",
+          "Clozitor",
+          "Versacloz"
+        ],
+        "droperidol": [
+          "Droleptan",
+          "Droperidol (Ajs)",
+          "Droperidol (Lupin)",
+          "Droperidol (Medsurge)",
+          "Droperidol (Panpharma)",
+          "Droperidol (Sxp)"
+        ],
+        "flupentixol": [
+          "Fluanxol Concentrated Depot",
+          "Fluanxol",
+          "Fluanxol Depot"
+        ],
+        "haloperidol": [
+          "Serenace",
+          "Haldol Decanoate"
+        ],
+        "lurasidone": [
+          "Latuda",
+          "Bilura",
+          "Latulem",
+          "Lavione",
+          "Luracor",
+          "Luralem",
+          "Luralembic",
+          "Lurobi"
+        ],
+        "olanzapine": [
+          "Zyprexa",
+          "Aprolan",
+          "Aprolan ODT",
+          "Lanez",
+          "Lanez ODT",
+          "Lanzek",
+          "Lanzek Zydis",
+          "Lonza",
+          "Lonza ODT",
+          "Lyprosia",
+          "Lyprosia ODT",
+          "Olancor",
+          "Olanza",
+          "Olanzaccord",
+          "Olanzacor",
+          "Oprexa",
+          "Ozin",
+          "Ozin ODT",
+          "Prolanza",
+          "Prolanza ODT",
+          "Pryzex",
+          "Pryzex ODT",
+          "Tolaze ODT",
+          "Tolazine ODT",
+          "Torapine ODT",
+          "Torrenia ODT",
+          "Zylap",
+          "Zylap ODT",
+          "Zylapine",
+          "Zylapine ODT",
+          "Zypine",
+          "Zypine ODT",
+          "Zyprexa Zydis",
+          "Zyprexa Relprevv"
+        ],
+        "paliperidone": [
+          "Invega",
+          "Invega Sustenna",
+          "Invega Trinza"
+        ],
+        "periciazine": [
+          "Neulactil"
+        ],
+        "prochlorperazine": [
+          "Stemetil",
+          "Nausetil",
+          "Nausrelief",
+          "Procalm",
+          "Proclazine",
+          "Stemzine"
+        ],
+        "quetiapine": [
+          "Seroquel",
+          "Aliquen",
+          "Delucon",
+          "Kaptan",
+          "Ketizenol",
+          "Qualez",
+          "Quepine XR",
+          "Quetapen",
+          "Quetia",
+          "Quetia XR",
+          "Quetiaccord",
+          "Quetiaquel XR",
+          "Quetin",
+          "Quipine",
+          "Sequase",
+          "Sequase XR",
+          "Serapine",
+          "Serapine XR",
+          "Seroccord",
+          "Seronia",
+          "Seroquel XR",
+          "Serotiapine XR",
+          "Syquet",
+          "Syquet XR",
+          "Syzopine",
+          "Tevatiapine XR",
+          "Tiapine XR",
+          "Tiava XR",
+          "Xque XR"
+        ],
+        "risperidone": [
+          "Risperdal",
+          "Ozidal",
+          "Resdone",
+          "Respaz",
+          "Risdone",
+          "Rispa",
+          "Rispaccord",
+          "Rispaccord-0.5",
+          "Risperdal Quicklet",
+          "Risperibell",
+          "Rispericor",
+          "Rispericor-0.5",
+          "Risperisan",
+          "Rispernia",
+          "Rixadone",
+          "Sperid",
+          "Risperdal Consta"
+        ],
+        "ziprasidone": [
+          "Zeldox",
+          "Ziprox"
+        ],
+        "zuclopenthixol": [
+          "Clopixol Acuphase",
+          "Clopixol",
+          "Clopixol Depot"
+        ],
+        "flupentixol decanoate": [
+          "Fluanxol Concentrated Depot",
+          "Fluanxol Depot"
+        ],
+        "trifluoperazine": [
+          "Stelazine",
+          "Stelazine Forte",
+          "Stelazine Spansule"
+        ]
+      },
+      "note": "Count oral and injectable antipsychotics. Flupentixol decanoate is the depot form of flupentixol. Count a matching supply once under either ingredient name. For a medicine also used for nausea or vomiting, check why this supply was prescribed."
+    }
+  ],
+  "rule_for_models": "Use age on the supply date. From the sixth birthday give no finding. If age is unknown, give no finding and ask for the age. Before six, flag antipsychotic treatment and cite the supply and any evidence of its purpose. Check the indication for formulations also used for nausea or vomiting, including prochlorperazine, chlorpromazine, haloperidol and droperidol. Accept a record or pharmacist answer about this supply. Exclude any supply confirmed to be for another purpose, including olanzapine for vomiting. If the indication is unclear, give only a possible finding and ask the pharmacist to confirm it.",
+  "cannot_be_seen": "Dispensing does not establish actual use, indication or a prescriber’s intent. Treatment and assessments elsewhere may be missing.",
+  "ask_the_gp": "Could you confirm why this medicine was prescribed and review its use as antipsychotic treatment in this child under six?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Reason for this antipsychotic supply before the sixth birthday",
+      "meets": "When the indication needs checking, either a record or the pharmacist can confirm the reason for this supply. Antipsychotic treatment qualifies. Another purpose excludes the supply. An unknown reason leaves it open.",
+      "options": [
+        {
+          "words": "This supply was for antipsychotic treatment",
+          "effect": "meets"
+        },
+        {
+          "words": "This supply was for nausea or vomiting",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "This supply was for a different reason unrelated to antipsychotic treatment, nausea or vomiting",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

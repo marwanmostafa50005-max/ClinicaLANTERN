@@ -1,0 +1,334 @@
+{
+  "id": "BANSAL-S08",
+  "label": "BANSAL S08: persistent opioid in myasthenia gravis",
+  "family": "BANSAL",
+  "title": "Persistent opioid in myasthenia gravis",
+  "statement": "Persistent prescription of opioid analgesics to a patient with myasthenia gravis [72–74]",
+  "statement_origin": "published",
+  "source": {
+    "document": "Bansal N, et al. Development of prescribing indicators related to opioid-related harm in patients with chronic pain in primary care. BMC Med 2024;22:5, Tables 3-4",
+    "citation": "Bansal N, Campbell SM, Lin C-Y, Ashcroft DM, Chen L-C. Development of prescribing indicators related to opioid-related harm in patients with chronic pain in primary care - a modified e-Delphi study. BMC Med 2024;22:5. doi:10.1186/s12916-023-03213-x",
+    "doi": "10.1186/s12916-023-03213-x",
+    "url": "https://doi.org/10.1186/s12916-023-03213-x",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Bansal N, Campbell SM, Lin C-Y, Ashcroft DM, Chen L-C. Development of prescribing indicators related to opioid-related harm in patients with chronic pain in primary care - a modified e-Delphi study. BMC Med 2024;22:5. doi:10.1186/s12916-023-03213-x",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.2 candidate repairs and adopted conventions merged with attribution). Not endorsed by the source authors."
+  },
+  "plain_summary": "Opioids can weaken breathing and muscles, and people with myasthenia gravis are already at risk of muscle and breathing weakness. A recorded diagnosis can establish myasthenia gravis during a persistent opioid course. Some medicines, such as pyridostigmine, can prompt the pharmacist to check for it. Without a diagnosis or one of those medicines, the history gives no reason to suspect it.",
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Myasthenia gravis",
+      "meets": "Myasthenia gravis was present during the opioid course. Ask about Myasthenia gravis when a Group B medicine points to it and the record does not settle the diagnosis. An unknown answer leaves this finding possible. Group C alone does not prompt the question.",
+      "options": [
+        {
+          "words": "Myasthenia gravis present during the opioid course",
+          "effect": "meets"
+        },
+        {
+          "words": "Myasthenia gravis absent during the opioid course",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ],
+      "ask_when": {
+        "group": "B"
+      }
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for the methadone course under review",
+      "meets": "Ask only when the product and record leave its use unclear and the other evidence fits. Count this course for chronic non-cancer pain outside palliative care. Exclude opioid dependence and other uses. Unknown use leaves the finding possible.",
+      "options": [
+        {
+          "words": "Chronic non-cancer pain outside palliative care",
+          "effect": "meets"
+        },
+        {
+          "words": "Opioid dependence",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Another use, including cancer pain or palliative care",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Duration of the opioid course under review",
+      "meets": "Ask only when repeat prescriptions span at least three calendar months and the dates, quantities and directions leave continuity uncertain. One continuing course of at least three calendar months qualifies. A shorter course or separate courses do not. If unknown, keep the finding possible.",
+      "options": [
+        {
+          "words": "One continuing course of at least three calendar months",
+          "effect": "meets"
+        },
+        {
+          "words": "A shorter course or separate courses",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Opioid analgesics",
+      "ingredients": [
+        "codeine",
+        "fentanyl",
+        "hydromorphone",
+        "methadone",
+        "morphine",
+        "oxycodone",
+        "tapentadol",
+        "tramadol",
+        "buprenorphine",
+        "pethidine"
+      ],
+      "brands": {
+        "codeine": [
+          "Panadeine Forte (codeine with paracetamol)",
+          "Panadeine (codeine with paracetamol)",
+          "Codalgin Forte (codeine with paracetamol)",
+          "Mersyndol (codeine with paracetamol and doxylamine)",
+          "Panadeine Extra",
+          "Mersyndol Forte",
+          "Nurofen Plus",
+          "Codphos",
+          "Codapane Forte 500/30",
+          "Comfarol Forte",
+          "Prodeine Forte"
+        ],
+        "fentanyl": [
+          "Durogesic",
+          "Denpax",
+          "Fenpatch"
+        ],
+        "hydromorphone": [
+          "Jurnista",
+          "Dilaudid",
+          "Dilaudid-HP",
+          "Palladone XL"
+        ],
+        "methadone": [
+          "Physeptone",
+          "Opod-D Syrup"
+        ],
+        "morphine": [
+          "MS Contin",
+          "Kapanol",
+          "Ordine",
+          "Sevredol",
+          "MS Mono",
+          "Anamorph",
+          "MS Contin Suspension",
+          "MS Normal",
+          "Momex SR",
+          "RA-Morph"
+        ],
+        "oxycodone": [
+          "OxyContin",
+          "OxyNorm",
+          "Endone",
+          "Proladone",
+          "Targin (oxycodone with naloxone)",
+          "Endone XR",
+          "Novacodone",
+          "Oxycodor",
+          "Oxycone",
+          "Oxylenus",
+          "Oxylieve MR",
+          "Oxyndone",
+          "Xedone"
+        ],
+        "tapentadol": [
+          "Palexia",
+          "Palexia SR",
+          "Lodat SR",
+          "Palexia IR",
+          "Tadol IR",
+          "Tadol SR",
+          "Tapal IR",
+          "Tapal SR",
+          "Tapex IR",
+          "Tapex SR",
+          "Tapexia",
+          "Tapexia SR"
+        ],
+        "tramadol": [
+          "Tramal",
+          "Tramal SR",
+          "Zydol",
+          "Zydol SR",
+          "Durotram",
+          "Durotram XR",
+          "Iptramol",
+          "Lodam",
+          "Lodam SR",
+          "Tramahexal",
+          "Tramahexal SR",
+          "Tramal Drops",
+          "Tramedo",
+          "Tramedo SR"
+        ],
+        "buprenorphine": [
+          "Norspan",
+          "Temgesic",
+          "Bupredermal",
+          "B-Patch"
+        ],
+        "pethidine": []
+      },
+      "note": "Count products supplied for pain, including generic packs labelled with the ingredient and company. Temgesic sublingual tablets are a pain product. Exclude cough linctuses and buprenorphine products for dependence, including depot injections. Exclude Biodone Forte, Opod-P Liquid and Physeptone Liquid when matching analgesic brands. For methadone, check the form and reason for supply. Physeptone tablets and Opod-D Syrup can count for pain. If the indication or Physeptone formulation is unclear, report at most a possible finding and ask what was supplied and why."
+    },
+    {
+      "key": "B",
+      "name": "Medicines that point to myasthenia gravis",
+      "ingredients": [
+        "pyridostigmine",
+        "neostigmine",
+        "efgartigimod alfa",
+        "rozanolixizumab",
+        "zilucoplan"
+      ],
+      "brands": {
+        "pyridostigmine": [
+          "Mestinon",
+          "Mestinon Timespan",
+          "Pyridostigmine Bromide (Method Pharmaceuticals)",
+          "Pyridostigmine Bromide (Rising Pharmaceuticals)"
+        ],
+        "neostigmine": [
+          "Neostigmine (Juno)",
+          "Neostigmine methylsulfate (AstraZeneca)"
+        ],
+        "efgartigimod alfa": [
+          "Vyvgart"
+        ],
+        "rozanolixizumab": [
+          "Rystiggo"
+        ],
+        "zilucoplan": [
+          "Zilbrysq"
+        ]
+      },
+      "note": "These medicines are used for little else. A supply during the opioid course makes myasthenia gravis likely. Neostigmine given with glycopyrronium for anaesthesia does not count."
+    },
+    {
+      "key": "C",
+      "name": "Other medicines used to treat myasthenia gravis, which have other uses",
+      "ingredients": [
+        "eculizumab",
+        "ravulizumab",
+        "prednisolone",
+        "prednisone",
+        "azathioprine",
+        "mycophenolate mofetil",
+        "mycophenolate sodium",
+        "methotrexate",
+        "ciclosporin",
+        "tacrolimus",
+        "cyclophosphamide",
+        "rituximab"
+      ],
+      "brands": {
+        "eculizumab": [
+          "Soliris"
+        ],
+        "ravulizumab": [
+          "Ultomiris"
+        ],
+        "prednisolone": [
+          "Panafcortelone",
+          "Solone",
+          "Predsolone",
+          "Predmix",
+          "Redipred"
+        ],
+        "prednisone": [
+          "Panafcort",
+          "Predsone",
+          "Sone"
+        ],
+        "azathioprine": [
+          "Imuran",
+          "Azapin",
+          "Azamun",
+          "Azahexal",
+          "Imazan",
+          "Thioprine",
+          "Azran"
+        ],
+        "mycophenolate mofetil": [
+          "CellCept",
+          "Ceptolate",
+          "Imulate",
+          "Alcept",
+          "Cellplant",
+          "Mycocept",
+          "Mofit",
+          "Celmuno"
+        ],
+        "mycophenolate sodium": [
+          "Myfortic",
+          "Mycotex"
+        ],
+        "methotrexate": [
+          "Methoblastin",
+          "Trexject",
+          "Imutrex",
+          "Chexate",
+          "Ciptrexate"
+        ],
+        "ciclosporin": [
+          "Neoral",
+          "Sandimmun",
+          "Cicloral"
+        ],
+        "tacrolimus": [
+          "Prograf",
+          "Prograf XL",
+          "Advagraf XL",
+          "Tacrograf",
+          "Pacrolim",
+          "Tacoccord"
+        ],
+        "cyclophosphamide": [
+          "Endoxan",
+          "Cycloblastin",
+          "Cyclonex"
+        ],
+        "rituximab": [
+          "MabThera",
+          "MabThera SC",
+          "Riximyo",
+          "Ruxience",
+          "Truxima",
+          "Ristova",
+          "Rixonfya",
+          "Rixvyda"
+        ]
+      },
+      "note": "These treat myasthenia gravis and many other conditions. Alone they do not point to myasthenia gravis. Together with a Group B medicine they support it. Eye drops, ointments, enemas and suppositories do not count. Immunoglobulin given in hospital is not in a pharmacy dispensing history."
+    }
+  ],
+  "rule_for_models": "For a person over 18 with myasthenia gravis during the opioid course, report a finding and cite the condition line and repeated Group A opioid supplies for pain when the course covers at least three calendar months. For fixed directions, calculate cover from supply dates, stop dates, quantity and units per day, and give no finding for opioid use for cancer pain or palliative care, for a short course, for as-needed repeats spanning less than three calendar months without evidence of longer prescribing, or when myasthenia gravis is explicitly ruled out during the course. If the record does not establish Myasthenia gravis, look for a Group B supply during the otherwise eligible opioid course. Exclude neostigmine given with glycopyrronium for anaesthesia. If there is no qualifying Group B supply and the condition is unrecorded, give no finding and ask no question, even if a Group C medicine is supplied. If a Group B supply points to Myasthenia gravis, report only a possible finding and ask the pharmacist to confirm Myasthenia gravis. Cite the Group B supply and the repeated opioid supplies. Cite any eligible Group C supply during the course as supporting evidence. Exclude eye drops, ointments, enemas and suppositories from Group C. For an otherwise eligible course, keep the finding possible if age, the methadone product or reason for its use, or continuity of prescriptions spanning at least three calendar months is unclear. Ask the pharmacist to clarify the missing detail.",
+  "cannot_be_seen": "A Group B medicine can suggest myasthenia gravis. Dispensing alone cannot confirm it. Without a diagnosis or a Group B supply, the history cannot show the condition. The reason for the opioid and any breathing or muscle weakness may also be missing.",
+  "ask_the_gp": "If myasthenia gravis is confirmed or a medicine supplied during the opioid course points to it, could you review the need for and choice of opioid and confirm the diagnosis if it is uncertain?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

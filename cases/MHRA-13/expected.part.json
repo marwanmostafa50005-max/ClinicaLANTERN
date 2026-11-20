@@ -1,0 +1,41 @@
+[
+  {
+    "file": "MHRA-13/pos-fact.csv",
+    "kind": "positive",
+    "about": "Forxiga is supplied and the record confirms hospitalisation for major bowel surgery.",
+    "findings": [
+      {
+        "criterion": "MHRA-13",
+        "must_cite": [
+          [
+            "L031"
+          ],
+          [
+            "L032"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "MHRA-13/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about hospitalisation for major surgery or acute serious medical illness, and Jardiance is supplied.",
+    "findings": [
+      {
+        "criterion": "MHRA-13",
+        "must_cite": [
+          [
+            "L025"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "MHRA-13/near-miss.csv",
+    "kind": "near_miss",
+    "about": "A stable outpatient has Xigduo XR 5/1000 and an observation confirms no planned surgery and no acute serious medical illness.",
+    "findings": []
+  }
+]

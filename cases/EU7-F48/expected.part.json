@@ -1,0 +1,42 @@
+[
+  {
+    "file": "EU7-F48/pos-brand.csv",
+    "kind": "positive",
+    "about": "Pethidine injection, recorded by ingredient name, is supplied three times between April and June 2026 to a person aged 72.",
+    "findings": [
+      {
+        "criterion": "EU7-F48",
+        "must_cite": [
+          [
+            "L012",
+            "L017",
+            "L021"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F48/pos-buried.csv",
+    "kind": "positive",
+    "about": "Pethidine injection is supplied three times between January and March 2026, in the middle of a 14-month history, to a person aged 69.",
+    "findings": [
+      {
+        "criterion": "EU7-F48",
+        "must_cite": [
+          [
+            "L037",
+            "L043",
+            "L047"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F48/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Pethidine injection is supplied twice, but the person is 58 and the criterion applies from age 65, so it must not flag.",
+    "findings": []
+  }
+]

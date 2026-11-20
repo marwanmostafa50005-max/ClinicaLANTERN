@@ -1,0 +1,44 @@
+[
+  {
+    "file": "OPTIMISE-T2-20/pos-fact.csv",
+    "kind": "positive",
+    "about": "Levothyroxine was started on 20 January 2026. The day 14 TSH was early. The first later sample was taken on day 98, after the day 28 to 42 window.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T2-20",
+        "must_cite": [
+          [
+            "L023"
+          ],
+          [
+            "L022"
+          ],
+          [
+            "L040"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T2-20/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about Serum TSH. The first Eutroxsig supply was on 10 February 2026 after more than three months without levothyroxine, and the full test window is visible.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T2-20",
+        "must_cite": [
+          [
+            "L012"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T2-20/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Oroxine was supplied on 20 January and started on 3 February 2026. The TSH of 2.8 mIU/L on 10 March was taken on day 35 of treatment and was within the documented primary replacement target.",
+    "findings": []
+  }
+]

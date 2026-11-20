@@ -1,0 +1,57 @@
+[
+  {
+    "file": "STOPP-J2/pos-fact.csv",
+    "kind": "positive",
+    "about": "Actos (pioglitazone) is supplied every four weeks from December 2025 and the record has a heart failure line, with furosemide and bisoprolol also supplied.",
+    "findings": [
+      {
+        "criterion": "STOPP-J2",
+        "must_cite": [
+          [
+            "L003",
+            "L009",
+            "L015",
+            "L021",
+            "L027",
+            "L033",
+            "L039",
+            "L045",
+            "L051",
+            "L057"
+          ],
+          [
+            "L002"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-J2/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about heart failure; Actos (pioglitazone) is supplied every four weeks.",
+    "findings": [
+      {
+        "criterion": "STOPP-J2",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L009",
+            "L013",
+            "L017",
+            "L021",
+            "L025",
+            "L029"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-J2/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Actos (pioglitazone) is supplied, but the record shows heart failure was looked for and excluded (normal echocardiogram).",
+    "findings": []
+  }
+]

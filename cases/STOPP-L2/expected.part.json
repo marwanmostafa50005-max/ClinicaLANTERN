@@ -1,0 +1,34 @@
+[
+  {
+    "file": "STOPP-L2/pos-brand.csv",
+    "kind": "positive",
+    "about": "Palexia SR (tapentadol), named by brand only, is supplied every two weeks for regular twice-daily use from March to September 2026, and no laxative is supplied at any time.",
+    "findings": [
+      {
+        "criterion": "STOPP-L2",
+        "must_cite": [
+          ["L009", "L010", "L013", "L014", "L017", "L018", "L021", "L023", "L026", "L027", "L030", "L031", "L032", "L035", "L036"]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-L2/pos-buried.csv",
+    "kind": "positive",
+    "about": "OxyContin (oxycodone) is supplied every two weeks for regular twice-daily use from December 2025 to March 2026, in the middle of a 14-month history, and no laxative is supplied at any time.",
+    "findings": [
+      {
+        "criterion": "STOPP-L2",
+        "must_cite": [
+          ["L028", "L029", "L034", "L035", "L041", "L042", "L043", "L048"]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-L2/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Palexia SR (tapentadol) is supplied regularly from March 2026, but Movicol (a macrogol laxative) is supplied with it from the first day and every four weeks after, so a laxative is supplied alongside the opioid.",
+    "findings": []
+  }
+]

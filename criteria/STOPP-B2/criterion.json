@@ -1,0 +1,89 @@
+{
+  "id": "STOPP-B2",
+  "label": "STOPP B2",
+  "family": "STOPP_START",
+  "title": "Verapamil or diltiazem with severe heart failure",
+  "statement": "Verapamil or diltiazem with NYHA Class III or IV heart failure (may worsen heart failure with reduced ejection fraction i.e., HFREF).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Verapamil and diltiazem slow the heart and weaken its pumping. In moderate to severe heart failure with a weak pump they can make the heart failure worse.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Verapamil and diltiazem",
+      "ingredients": [
+        "verapamil",
+        "diltiazem"
+      ],
+      "brands": {
+        "verapamil": [
+          "Isoptin",
+          "Isoptin SR",
+          "Veracaps SR",
+          "Anpec",
+          "Anpec SR",
+          "Cordilox SR",
+          "Tarka"
+        ],
+        "diltiazem": [
+          "Cardizem",
+          "Cardizem CD",
+          "Vasocardol",
+          "Vasocardol CD",
+          "Dilzem",
+          "Coras",
+          "Danzem",
+          "Diltahexal",
+          "Diltahexal CD",
+          "Dilzem CD",
+          "Ditatem"
+        ]
+      },
+      "note": "Tablets and capsules, including slow-release forms, count. Verapamil with trandolapril (Tarka) counts as verapamil."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Heart failure with its NYHA class",
+      "meets": "NYHA class III or IV confirmed by the clinical record or the doctor. Ask whether the patient has been told they have heart failure and becomes markedly breathless with light activity or at rest. Symptoms alone do not establish a class.",
+      "options": [
+        {
+          "words": "Heart failure with NYHA class III or IV confirmed by the record or doctor",
+          "effect": "meets"
+        },
+        {
+          "words": "Heart failure with NYHA class I or II confirmed by the record or doctor",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Heart failure explicitly excluded",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Heart failure is present but its NYHA class is unknown",
+          "effect": "unknown"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "For people aged 65 years or older (confirm age if unknown) supplied a Group A medicine (verapamil or diltiazem), suspect a finding when the record shows NYHA class III or IV heart failure and cite both the supply and the heart failure line. If no line about heart failure exists, report a possible finding and name the missing heart failure fact; if heart failure is recorded without its NYHA class, report a possible finding and name the missing class. If heart failure is explicitly absent or the recorded class is I or II, report no finding.",
+  "cannot_be_seen": "The NYHA class if it is not recorded, the ejection fraction, and why verapamil or diltiazem was chosen.",
+  "ask_the_gp": "Could you confirm whether heart failure is present and its NYHA class if unknown, and review verapamil or diltiazem if class III or IV heart failure is confirmed?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

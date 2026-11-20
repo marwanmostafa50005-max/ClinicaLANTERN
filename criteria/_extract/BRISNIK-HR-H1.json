@@ -1,0 +1,96 @@
+{
+  "id": "BRISNIK-HR-H1",
+  "old_id": "LX-BRISNIK-HR-H1",
+  "found": true,
+  "label": "BRISNIK-HR-H1",
+  "family": "BRISNIK",
+  "statement": "Prescribed anticholinergic antidepressant opipramol, other TCAs (in doses ≥ 50 mg/day), or paroxetine - and the patient has persistent constipation",
+  "statement_chars": 147,
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "edition": "Brisnik et al. antidepressant deprescribing indicators (2024), Tables 3-4; Additional file 3 (eTable 3) consulted for definitions referenced by footnote [c]",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.2 candidate repairs and adopted conventions merged with attribution). Not endorsed by the source authors."
+  },
+  "rights_block_as_recorded": {
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "basis": "Licence printed on the article (CC BY 4.0). Additional file 3 (supplied 8 Nov 2026; 1,022,454 bytes; SHA-256 6b1a94b0...) is now available; it holds references/comments and some definitions cited by footnote [c], and cites third-party sources (e.g., CredibleMeds QTdrugs list) that are not embedded here. Card-level reconciliation of any footnote [c] definition is recorded in the card's footnotes/dependencies.",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.2 candidate repairs and adopted conventions merged with attribution). Not endorsed by the source authors.",
+    "field_dependencies": [
+      "The source does not enumerate which medicines count as “other TCAs”; resolve class membership using an applicable external drug-class list."
+    ],
+    "status_proposed": "dependency-unresolved (field-level; see field_dependencies)",
+    "per_card_check": "Elicit self-check: licence, licence link, credit line, modification notice and dependency status present on this card; independent rights review pending"
+  },
+  "context_as_recorded": {
+    "section": "Table 3, H. Constipation",
+    "locator": "Brisnik Table 3 (high-risk prescribing), H. Constipation, indicator H1",
+    "preambles": [
+      {
+        "scope": "Brisnik rating frame (article)",
+        "text": "Necessity of review | For an average patient treated with antidepressants in primary care: Assuming no overprescribing/high-risk prescribing, how necessary a is it to conduct a critical review* of antidepressant use within the next 3 months in order to prevent adverse effects/reduce medication burden? 1–3 = not necessary; 4–6 = might be necessary; 7–9 = clearly necessary"
+      },
+      {
+        "scope": "Brisnik indicator purpose (article)",
+        "text": "We performed a structured literature review and expert consensus process (RAM) in order to synthesize and reach consensus on a set of 62 explicit indicators (37 indicators of high-risk prescribing and 25 indicators of overprescribing of antidepressants) that should prompt a critical review of antidepressant continuation."
+      }
+    ],
+    "footnotes_and_definitions": [],
+    "extra_columns": [
+      "Delphi: median 7",
+      "PMC rendering: Prescribed anticholinergic antidepressant opipramol, other TCAs (in doses ≥ 50 mg/day), or paroxetine- and the patient has persistent constipation"
+    ],
+    "source_rows": [
+      {
+        "source_row_id": "BRISNIK-HR-H1",
+        "role": "Canonical criterion",
+        "source": "Brisnik antidepressant indicators (2024)"
+      }
+    ],
+    "related_documents": [
+      {
+        "document": "Brisnik et al. 2024, Additional file 3 (eTable 3: corresponding references and comments in the event of changes between round 2 and round 3 of the RAM assessment)",
+        "url": "https://static-content.springer.com/esm/art%3A10.1186%2Fs12916-024-03397-w/MediaObjects/12916_2024_3397_MOESM3_ESM.pdf",
+        "role": "definitions and references cited by footnote [c]; not a replacement for Table 3 wording"
+      }
+    ]
+  },
+  "extraction": {
+    "note": "Paths are inside the earlier project's folder.",
+    "register": "build-evidence/resumption-20261110/criteria-lane/CRITERIA_413_REGISTER_V1.json",
+    "package_file": "build-evidence/source-successor-local/r2-4/revision-6-preparation/targeted-successor-1/clinicalantern-source-drafts-r246-preparation-successor-1.json",
+    "package_bytes": 62148118,
+    "package_sha256": "25d5a4d2b0aa1da603009b85f1713f99513cbb9bbe7e98c555dd9cd820018e97",
+    "card_version": "4.3.0-r2.2",
+    "taken": "Only the statement text, the item label, the source document fields and the rights block.",
+    "field_origins": {
+      "label": "The card's item label, unchanged.",
+      "family": "The card's source family, unchanged.",
+      "statement": "The card's text_verbatim, unchanged.",
+      "source.document": "The card's source document, unchanged.",
+      "source.edition": "The card's edition_version, unchanged.",
+      "source.citation": "The same text as the credit line. The package has no separate citation field.",
+      "source.doi": "The card's DOI, unchanged. null means the package records none.",
+      "source.url": "Built from the DOI as a doi.org link. The package records no article address. null when there is no DOI.",
+      "source.licence": "The rights block's licence, unchanged.",
+      "source.credit": "The rights block's credit line, unchanged.",
+      "source.modification_notice": "The rights block's modification notice, unchanged.",
+      "rights_block_as_recorded": "The card's whole rights block, unchanged.",
+      "context_as_recorded": "Text the earlier project recorded beside the statement: section, locator, preambles, footnotes, extra table columns, the source rows by identifier, and related documents. Row text other than the statement is not copied."
+    },
+    "cautions": [
+      "The licence is a proposal by the earlier project. It is not confirmed. The founder should check it on the publisher's page.",
+      "The earlier project recorded the rights status \"dependency-unresolved (field-level; see field_dependencies)\". That is its own self-check. Its note says an independent rights review is pending.",
+      "The earlier project lists 1 open point for this card. See rights_block_as_recorded.field_dependencies.",
+      "The statement is the wording the earlier project recorded as verbatim. This extraction did not compare it with the publisher's page.",
+      "The modification notice describes changes made by the earlier project. Check that it fits this prototype before it is shown.",
+      "The source's framing text is in context_as_recorded.preambles. It can set limits the statement does not repeat, such as the age group."
+    ]
+  }
+}

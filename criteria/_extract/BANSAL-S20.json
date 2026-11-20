@@ -1,0 +1,110 @@
+{
+  "id": "BANSAL-S20",
+  "old_id": "LX-BANSAL-S20",
+  "found": true,
+  "label": "S20",
+  "family": "BANSAL",
+  "statement": "Persistent prescription of tramadol, buprenorphine, or oxycodone to a patient with a medical history of ventricular tachycardia [100, 101]",
+  "statement_chars": 138,
+  "source": {
+    "document": "Bansal N, et al. Development of prescribing indicators related to opioid-related harm in patients with chronic pain in primary care. BMC Med 2024;22:5, Tables 3-4",
+    "edition": "Bansal et al. opioid prescribing indicators (2024), Tables 3-4; Additional file 11 consulted (round-2 feasibility ratings)",
+    "citation": "Bansal N, Campbell SM, Lin C-Y, Ashcroft DM, Chen L-C. Development of prescribing indicators related to opioid-related harm in patients with chronic pain in primary care - a modified e-Delphi study. BMC Med 2024;22:5. doi:10.1186/s12916-023-03213-x",
+    "doi": "10.1186/s12916-023-03213-x",
+    "url": "https://doi.org/10.1186/s12916-023-03213-x",
+    "licence": "CC BY 4.0",
+    "credit": "Bansal N, Campbell SM, Lin C-Y, Ashcroft DM, Chen L-C. Development of prescribing indicators related to opioid-related harm in patients with chronic pain in primary care - a modified e-Delphi study. BMC Med 2024;22:5. doi:10.1186/s12916-023-03213-x",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.2 candidate repairs and adopted conventions merged with attribution). Not endorsed by the source authors."
+  },
+  "rights_block_as_recorded": {
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "credit": "Bansal N, Campbell SM, Lin C-Y, Ashcroft DM, Chen L-C. Development of prescribing indicators related to opioid-related harm in patients with chronic pain in primary care - a modified e-Delphi study. BMC Med 2024;22:5. doi:10.1186/s12916-023-03213-x",
+    "basis": "Licence printed on the article (CC BY 4.0). Additional file 11 (supplied 8 Nov 2026; 18,778 bytes; SHA-256 c08cb66f...) reviewed: it reports round-2 feasibility ratings, not an appropriateness or final-wording list.",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.2 candidate repairs and adopted conventions merged with attribution). Not endorsed by the source authors.",
+    "field_dependencies": [],
+    "status_proposed": "verified-for-use",
+    "per_card_check": "Elicit self-check: licence, licence link, credit line, modification notice and dependency status present on this card; independent rights review pending"
+  },
+  "context_as_recorded": {
+    "section": "Table 3",
+    "locator": "Bansal Table 3 scenario 20",
+    "preambles": [
+      {
+        "scope": "Bansal scenario frame (article)",
+        "text": "Each indicator described a scenario of prescribing opioid analgesics to typical adult patients with chronic noncancer pain in the general practice setting."
+      },
+      {
+        "scope": "Bansal definitions (article)",
+        "text": "In this study, the “acute prescription” refers to a prescription issued on a one-off basis for acute pain, including an “as-needed” prescription. “Persistent prescribing” refers to multiple prescriptions lasting 3 months or more."
+      },
+      {
+        "scope": "Bansal final set (article)",
+        "text": "Following both rounds of the Delphi technique process, 15 of the 21 indicators were considered to describe harmful opioid prescribing patterns involving persistent opioid prescriptions in patients with specific comorbidities and high-risk patient groups."
+      }
+    ],
+    "footnotes_and_definitions": [
+      {
+        "marker": "Table 3 note",
+        "text": "Note: A/IA agreement (disagreement index < 1) on the inappropriateness. Neutral, agreement (disagreement index < 1) on equivocality. a Converged to the agreement on the inappropriateness in the second survey round. #Scenario modified or $split into two scenarios in the second survey round"
+      },
+      {
+        "marker": "AF3",
+        "text": "Bansal et al. 2024 Additional file 3 ('Key characteristics in each scenario'): patients are 'average' patients of any gender, aged over 18 years and registered with the general practice for at least six months; 'chronic non-cancer pain' is pain unrelated to cancer persisting for over three months; patients with acute pain or at the end-of-life stage, regardless of cancer, are not covered; these characteristics apply to all scenarios except circumstances specified in a scenario; 'medical history' means conditions documented in the electronic health record; 'recent medical history' means conditions recorded in the past 12 months; 'opioid analgesics' are opioid preparations prescribed for pain relief (methadone and sublingual buprenorphine indicated for opioid substitution therapy are not included); 'persistent' prescribing means multiple prescriptions lasting three months or more; an acute prescription is a one-off prescription for acute pain, including an 'as needed' prescription."
+      }
+    ],
+    "extra_columns": [
+      "Ratings: {\"round1\": \"2 (2, 4) | 17 | 6 | 1 | A/IA (0.229)\", \"round2\": \"2 (2,3) | 15 | 4 | 0 | A/IA (0.220)\", \"modification_flag\": \"\"}"
+    ],
+    "source_rows": [
+      {
+        "source_row_id": "BANSAL-S20",
+        "role": "Canonical criterion",
+        "source": "Bansal opioid indicators (2024)"
+      }
+    ],
+    "related_documents": [
+      {
+        "document": "Bansal et al. 2024, Additional file 11 (consensus on the feasibility of modified prescribing scenarios rated in the second round of the e-Delphi survey)",
+        "url": "https://static-content.springer.com/esm/art%3A10.1186%2Fs12916-023-03213-x/MediaObjects/12916_2023_3213_MOESM11_ESM.docx",
+        "role": "feasibility ratings of round-2 wordings; not an appropriateness or final-wording list"
+      },
+      {
+        "document": "Bansal et al. 2024, Additional file 3 ('Key characteristics in each scenario')",
+        "url": "https://static-content.springer.com/esm/art%3A10.1186%2Fs12916-023-03213-x/MediaObjects/12916_2023_3213_MOESM3_ESM.docx",
+        "role": "population frame and definitions for all scenarios; retrieved and hashed by Helper C (receipt in C88 handoff); text supplied in the C88 handoff; Elicit did not re-hash the original docx"
+      }
+    ]
+  },
+  "extraction": {
+    "note": "Paths are inside the earlier project's folder.",
+    "register": "build-evidence/resumption-20261110/criteria-lane/CRITERIA_413_REGISTER_V1.json",
+    "package_file": "build-evidence/source-successor-local/r2-4/revision-6-preparation/targeted-successor-1/clinicalantern-source-drafts-r246-preparation-successor-1.json",
+    "package_bytes": 62148118,
+    "package_sha256": "25d5a4d2b0aa1da603009b85f1713f99513cbb9bbe7e98c555dd9cd820018e97",
+    "card_version": "4.3.0-local-r2.4",
+    "taken": "Only the statement text, the item label, the source document fields and the rights block.",
+    "field_origins": {
+      "label": "The card's item label, unchanged.",
+      "family": "The card's source family, unchanged.",
+      "statement": "The card's text_verbatim, unchanged.",
+      "source.document": "The card's source document, unchanged.",
+      "source.edition": "The card's edition_version, unchanged.",
+      "source.citation": "The same text as the credit line. The package has no separate citation field.",
+      "source.doi": "The card's DOI, unchanged. null means the package records none.",
+      "source.url": "Built from the DOI as a doi.org link. The package records no article address. null when there is no DOI.",
+      "source.licence": "The rights block's licence, unchanged.",
+      "source.credit": "The rights block's credit line, unchanged.",
+      "source.modification_notice": "The rights block's modification notice, unchanged.",
+      "rights_block_as_recorded": "The card's whole rights block, unchanged.",
+      "context_as_recorded": "Text the earlier project recorded beside the statement: section, locator, preambles, footnotes, extra table columns, the source rows by identifier, and related documents. Row text other than the statement is not copied."
+    },
+    "cautions": [
+      "The licence is a proposal by the earlier project. It is not confirmed. The founder should check it on the publisher's page.",
+      "The earlier project recorded the rights status \"verified-for-use\". That is its own self-check. Its note says an independent rights review is pending.",
+      "The statement is the wording the earlier project recorded as verbatim. This extraction did not compare it with the publisher's page.",
+      "The modification notice describes changes made by the earlier project. Check that it fits this prototype before it is shown.",
+      "The source's framing text is in context_as_recorded.preambles. It can set limits the statement does not repeat, such as the age group."
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "file": "START-F3/pos-brand.csv",
+    "kind": "positive",
+    "about": "Mobic (meloxicam, an NSAID) is supplied four times from April to July 2026, shown by brand name only, and no proton pump inhibitor is supplied anywhere in the history.",
+    "findings": [
+      {
+        "criterion": "START-F3",
+        "must_cite": [
+          [
+            "L013",
+            "L017",
+            "L021",
+            "L025"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-F3/pos-buried.csv",
+    "kind": "positive",
+    "about": "Two short courses of Naprosyn (naproxen, an NSAID) are supplied on 13 January and 11 February 2026, in the middle of a 14-month history, and no proton pump inhibitor is supplied anywhere.",
+    "findings": [
+      {
+        "criterion": "START-F3",
+        "must_cite": [
+          [
+            "L033",
+            "L038"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-F3/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Celebrex (celecoxib, an NSAID) is supplied from April to August 2026, but esomeprazole (Nexium, a proton pump inhibitor) is supplied every month from a week before the first NSAID supply, so nothing is omitted.",
+    "findings": []
+  }
+]

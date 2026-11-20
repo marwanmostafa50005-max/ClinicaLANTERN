@@ -1,0 +1,94 @@
+{
+  "id": "GERARD-11",
+  "label": "Gerard: starting repaglinide or a sulfonylurea after age 75",
+  "family": "GERARD",
+  "title": "Starting repaglinide or a sulfonylurea after age 75",
+  "statement": "It is necessary not to initiate treatment with a hypoglycaemic drug (repaglinide or sulfonylurea) in a patient over 75 years old.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Development of explicit definitions of potentially inappropriate prescriptions for antidiabetic drugs in people with type 2 diabetes: A Delphi survey and consensus meeting",
+    "citation": "Gerard E, Bugday D, Calafiore M, Baran J, Gautier S, Henry H, et al. (2025). Development of explicit definitions of potentially inappropriate prescriptions for antidiabetic drugs in people with type 2 diabetes: A Delphi survey and consensus meeting. PLOS ONE 20(10), e0334836.",
+    "doi": "10.1371/journal.pone.0334836",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0334836",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "© 2025 Gerard et al. Gerard E, Bugday D, Calafiore M, Baran J, Gautier S, Henry H, et al. (2025). Development of explicit definitions of potentially inappropriate prescriptions for antidiabetic drugs in people with type 2 diabetes: A Delphi survey and consensus meeting. PLOS ONE 20(10), e0334836. https://doi.org/10.1371/journal.pone.0334836. Table 2. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The statements are reproduced. The qualification decisions and Australian mappings are additions by GPT-6.2 Astra.",
+    "modification_notice": "Table 2 wording is reproduced unchanged. The Australian medicine groups, screening rules and fictional histories are adaptations by GPT-6.2 Astra."
+  },
+  "plain_summary": "Review a new prescription for repaglinide or a sulfonylurea for someone with type 2 diabetes who was older than 75 at the start.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Sulfonylureas or repaglinide",
+      "ingredients": [
+        "gliclazide",
+        "glimepiride",
+        "glipizide",
+        "glibenclamide",
+        "repaglinide"
+      ],
+      "brands": {
+        "gliclazide": [
+          "Gliclazide MR-WGR",
+          "Diamicron",
+          "Diamicron MR",
+          "Glyade"
+        ],
+        "glimepiride": [
+          "Glimepiride Sandoz",
+          "Amaryl",
+          "Dimirel"
+        ],
+        "glipizide": [
+          "Glipidiab",
+          "Minidiab",
+          "Melizide"
+        ],
+        "glibenclamide": [
+          "Daonil",
+          "Glimel",
+          "Semi-Daonil"
+        ],
+        "repaglinide": [
+          "NovoNorm"
+        ]
+      }
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Type 2 diabetes",
+      "meets": "Documented type 2 diabetes at the time of treatment."
+    },
+    {
+      "kind": "observation",
+      "what": "Repaglinide or sulfonylurea supply under review: start or repeat and age at start",
+      "meets": "A dated note, a new-start direction or the pharmacist confirms that the supply under review started this medicine when the patient was older than 75.",
+      "options": [
+        {
+          "words": "This supply started the medicine when the patient was older than 75",
+          "effect": "meets"
+        },
+        {
+          "words": "This supply started the medicine at age 75 or younger",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "This was a repeat of established treatment",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Flag a supply of repaglinide or a sulfonylurea that started treatment after age 75 in a patient with type 2 diabetes. Cite the supply, the diagnosis and the start evidence from the directions, a dated note or the pharmacist’s answer about that supply. A repeat, a start at age 75 or younger, or confirmed absence of type 2 diabetes gives no finding for that supply. If the other evidence fits but the diagnosis, start or age at the start is missing or unknown, report a possible finding and ask for that detail.",
+  "cannot_be_seen": "A first visible dispensing may be a refill from a prescription started elsewhere. The record may omit the original start date and the person's treatment goals.",
+  "ask_the_gp": "Could you confirm when repaglinide or the sulfonylurea was started and review its suitability given the person’s age at the time and risk of hypoglycaemia?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,97 @@
+{
+  "id": "FDADSC-7",
+  "label": "FDADSC: fluoroquinolone with aortic aneurysm risk",
+  "family": "FDADSC",
+  "title": "Systemic fluoroquinolone with aortic aneurysm or vascular risk",
+  "statement": "The U.S. Food and Drug Administration today issued a Drug Safety Communication warning health care professionals to avoid prescribing fluoroquinolone antibiotics to patients who have an aortic aneurysm or are at risk for an aortic aneurysm, such as patients with a history of blood vessel blockages or aneurysms, high blood pressure, certain genetic conditions such as Marfan syndrome and Ehlers-Danlos syndrome, and elderly patients.",
+  "statement_origin": "published",
+  "source": {
+    "document": "US FDA Drug Safety Communication and FDA In Brief: fluoroquinolone antibiotics and aortic aneurysm risk",
+    "citation": "U.S. Food and Drug Administration. FDA warns about increased risk of ruptures or tears in the aorta blood vessel with fluoroquinolone antibiotics in certain patients. 20 December 2018.",
+    "url": "https://www.fda.gov/news-events/fda-brief/fda-brief-fda-warns-fluoroquinolone-antibiotics-can-cause-aortic-aneurysm-certain-patients",
+    "licence": "Public domain",
+    "licence_status": "proposed",
+    "credit": "Credit the U.S. Food and Drug Administration as the source. Credit is appreciated but not required. FDA recommends recording the copy date and linking to the source.",
+    "modification_notice": "The published statement is unchanged. The Australian medicine list, screening rule, question and fictional histories were added for this draft."
+  },
+  "plain_summary": "Review systemic ciprofloxacin, norfloxacin or moxifloxacin in a patient with an aortic aneurysm or vascular risk unless the prescriber has confirmed that no other antibiotic is suitable for this infection. The TGA's March 2025 update strengthens warnings for all oral and injectable fluoroquinolones and excludes eye and ear drops. Patients should not stop an antibiotic without prescriber review. Sudden severe chest, stomach or back pain needs urgent medical care.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Systemic fluoroquinolone antibiotics",
+      "ingredients": [
+        "ciprofloxacin",
+        "norfloxacin",
+        "moxifloxacin"
+      ],
+      "brands": {
+        "ciprofloxacin": [
+          "APO-Ciprofloxacin",
+          "C-Flox 250",
+          "C-Flox 500",
+          "C-Flox 750",
+          "CIPROFLOXACIN-WGR",
+          "Ciprofloxacin Sandoz",
+          "Ciprol 250",
+          "Ciprol 500",
+          "Ciprol 750",
+          "AURO-CIPROFLOXACIN 250",
+          "AURO-CIPROFLOXACIN 500",
+          "AURO-CIPROFLOXACIN 750",
+          "CIPROFLOXACIN AN 250mg",
+          "Ciproxin",
+          "Ciproxin 250",
+          "Ciproxin 500",
+          "Ciproxin 750"
+        ],
+        "norfloxacin": [
+          "APO-Norfloxacin",
+          "Roxin",
+          "GN-NORFLOXACIN",
+          "Noroxin"
+        ],
+        "moxifloxacin": [
+          "AVELOX",
+          "MOXIFLOXACIN APO",
+          "GenRx MOXIFLOXACIN",
+          "MOXEZIN"
+        ]
+      },
+      "note": "Count only oral or injectable systemic products. Brand names were checked on current PBS or ARTG public pages. Ingredient-only and generic labels count when the product is systemic. Exclude all eye and ear drops, including Ciloxan, Ocuflox, Vigamox and Ciproxin HC. Levofloxacin, ofloxacin and delafloxacin are not in this Australian group."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Aortic aneurysm or high vascular risk for aortic rupture",
+      "meets": "Patient has an aortic aneurysm or risk factors for aortic aneurysm (such as peripheral atherosclerotic vascular disease, hypertension, Marfan syndrome, Ehlers-Danlos syndrome, or older age) without confirmed lack of alternative antibiotic",
+      "ask_when": {
+        "group": "A"
+      },
+      "options": [
+        {
+          "words": "Known aortic aneurysm or previous aortic dissection. The prescriber has not ruled out all other antibiotics for this infection",
+          "effect": "meets"
+        },
+        {
+          "words": "High vascular risk (peripheral vascular disease, hypertension, Marfan or Ehlers-Danlos syndrome, or older age). The prescriber has not ruled out all other antibiotics for this infection",
+          "effect": "meets"
+        },
+        {
+          "words": "No aortic aneurysm or vascular risk factors, or prescriber confirmed no other antibiotic is suitable",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not yet asked or unknown",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "For an oral or injectable Group A supply, check for a documented aortic aneurysm, previous aortic dissection, peripheral atherosclerotic vascular disease, hypertension, Marfan syndrome, Ehlers-Danlos syndrome or older age, and do not infer hypertension from medicines alone. Use the recorded age when assessing older age as a risk factor. The pharmacist decides borderline ages. Report no finding if risk is excluded or the prescriber has confirmed that no other antibiotic is suitable for this infection. Otherwise, report a finding when a risk is present. Cite the supply and the row recording the relevant age, condition or counter answer. If age is missing and no other risk information is available, report a possible finding and ask about age and vascular risk. If vascular risk is otherwise unrecorded or unknown, report a possible finding naming the missing risk information.",
+  "cannot_be_seen": "Whether no other antibiotic is suitable, the reason for treatment, medicines supplied elsewhere, and whether the patient takes the antibiotic. Aneurysm and vascular risk may be unrecorded. Do not infer hypertension from blood pressure medicines.",
+  "ask_the_gp": "If the patient has an aortic aneurysm or vascular risk, could you review today whether another antibiotic is suitable for this infection? Could you advise the patient about continuing treatment safely and seeking emergency care immediately for sudden severe chest, abdominal or back pain?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

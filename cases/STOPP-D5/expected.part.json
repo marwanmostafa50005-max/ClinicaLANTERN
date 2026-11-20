@@ -1,0 +1,59 @@
+[
+  {
+    "file": "STOPP-D5/pos-fact.csv",
+    "kind": "positive",
+    "about": "Risperdal supplies cover the same daily dose from September to May, with agitation due to dementia recorded as the indication and no medication review during that interval.",
+    "findings": [
+      {
+        "criterion": "STOPP-D5",
+        "must_cite": [
+          [
+            "L025"
+          ],
+          [
+            "L028"
+          ],
+          [
+            "L032"
+          ],
+          [
+            "L036"
+          ],
+          [
+            "L040"
+          ],
+          [
+            "L004"
+          ],
+          [
+            "L041"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-D5/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: quetiapine supplies span more than three calendar months, but the nightly dose, indication and medication review history are missing.",
+    "findings": [
+      {
+        "criterion": "STOPP-D5",
+        "must_cite": [
+          [
+            "L003"
+          ],
+          [
+            "L033"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-D5/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The record identifies schizophrenia as the reason for the unchanged risperidone dose.",
+    "findings": []
+  }
+]

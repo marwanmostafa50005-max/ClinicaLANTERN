@@ -1,0 +1,91 @@
+{
+  "id": "CKD-C10B",
+  "label": "CKD review: Review fixed-dose ezetimibe/simvastatin supplying over 20 mg/day of simvastatin at eGFR below 60 mL/min/1.73 m²",
+  "family": "CKD",
+  "title": "Review fixed-dose ezetimibe/simvastatin supplying over 20 mg/day of simvastatin at eGFR below 60 mL/min/1.73 m²",
+  "statement": "For an adult outpatient with established CKD, review fixed-dose ezetimibe/simvastatin supplying over 20 mg/day of simvastatin at eGFR below 60 mL/min/1.73 m².",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "A systematically collated library of prescribing safety indicators for people with chronic kidney disease. Additional file 2, Appendix 3",
+    "citation": "Smith F, Hayward S, Hole B, Kimpton G, Sluman C, Whiting P, Caskey F. BMC Nephrology. 2020;21:493.",
+    "doi": "10.1186/s12882-020-02158-0",
+    "url": "https://link.springer.com/article/10.1186/s12882-020-02158-0",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Smith F, Hayward S, Hole B, Kimpton G, Sluman C, Whiting P, Caskey F. A systematically collated library of prescribing safety indicators for people with chronic kidney disease. BMC Nephrology 2020;21:493. https://doi.org/10.1186/s12882-020-02158-0; Additional file 2 (Appendix 3), https://doi.org/10.6084/m9.figshare.13257677. © The Author(s) 2020, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Changes were made. Smith et al. compiled the CKD indicators. Original screening wording and Australian adaptations. Clinical cross-check: Vytorin Australian PI (https://www.safetyandquality.gov.au/medicine-finder/vytorin).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "For an adult outpatient with established CKD, review fixed-dose ezetimibe/simvastatin supplying over 20 mg/day of simvastatin at eGFR below 60 mL/min/1.73 m².",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Ezetimibe and simvastatin in one tablet",
+      "ingredients": [
+        "ezetimibe",
+        "simvastatin"
+      ],
+      "brands": {
+        "ezetimibe": [
+          "Vytorin",
+          "APO-Ezetimibe/Simvastatin",
+          "Ezetimibe/Simvastatin Sandoz",
+          "Ezetimibe/Simvastatin-WGR",
+          "Ezetorin",
+          "EzSimva GH",
+          "Pharmacor Ezetimibe Simvastatin",
+          "Zeklen",
+          "Zimybe"
+        ],
+        "simvastatin": [
+          "Vytorin",
+          "APO-Ezetimibe/Simvastatin",
+          "Ezetimibe/Simvastatin Sandoz",
+          "Ezetimibe/Simvastatin-WGR",
+          "Ezetorin",
+          "EzSimva GH",
+          "Pharmacor Ezetimibe Simvastatin",
+          "Zeklen",
+          "Zimybe"
+        ]
+      },
+      "note": "Both ingredients must be in the same tablet. Exclude plain ezetimibe, plain simvastatin and separate tablets of the two. Multiply the simvastatin strength per combination tablet by the number of tablets directed per day."
+    }
+  ],
+  "rule_for_models": "For an adult outpatient with established CKD, flag a single fixed-dose ezetimibe/simvastatin product supplying over 20 mg/day of simvastatin with eGFR below 60 mL/min/1.73 m² at supply. Cite the combination, dose, CKD and result. Exclude single-ingredient products and the two ingredients supplied as separate tablets. Report no finding for confirmed absence of CKD, an applicable eGFR of 60 or higher, or a daily simvastatin dose of 20 mg or less. If CKD at supply or the dated eGFR applicable then is unknown, report only a possible finding when the other evidence allows it. Use the simvastatin strength and the directed tablets per day first. If the dose remains unclear and the other evidence allows a finding, ask for the daily dose of simvastatin from the combination tablet (mg/day) at supply. Use a confirmed dose and cite its line. If the dose is still unknown, report only a possible finding. If age is unknown and the other evidence still allows this finding, report only a possible finding and ask whether the patient was at least 18 at supply. A known exclusion takes precedence over a missing fact.",
+  "cannot_be_seen": "Dispensing does not establish the dose taken. Kidney results obtained elsewhere, their units and their timing may be missing.",
+  "ask_the_gp": "Could you confirm any missing CKD diagnosis, dated eGFR at supply and daily combination-tablet dose? If the patient was taking more than 20 mg of simvastatin daily at an eGFR below 60 mL/min/1.73 m², could you review the current regimen?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Chronic kidney disease",
+      "meets": "CKD was established by the supply under review. If its timing is uncertain, keep the finding possible unless another fact rules it out.",
+      "options": [
+        {
+          "words": "CKD was established by the supply under review",
+          "effect": "meets"
+        },
+        {
+          "words": "CKD was absent at the supply under review",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "result",
+      "what": "eGFR",
+      "meets": "A dated eGFR applicable at supply is below 60 mL/min/1.73 m². Enter the test date if known. A result with unknown timing leaves this fact open."
+    },
+    {
+      "kind": "result",
+      "what": "Daily dose of simvastatin from the combination tablet (mg/day)",
+      "meets": "Use the simvastatin strength per fixed-dose ezetimibe/simvastatin tablet and the prescribed tablets per day at supply. Ask for the confirmed daily simvastatin dose only if the directions leave it uncertain and it could change the finding. Over 20 mg/day meets the dose test. A dose of 20 mg/day or less excludes the finding. An unknown dose leaves it possible if the other facts allow it."
+    }
+  ]
+}

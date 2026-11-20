@@ -1,0 +1,269 @@
+{
+  "id": "OPTIMISE-T2-19",
+  "label": "OPTIMISE T2-19",
+  "family": "OPTIMISE",
+  "title": "Levothyroxine started at a high dose",
+  "statement": "When starting levothyroxine, 50-100mcg daily is the recommended starting dose for most adults. In adults over 65 years or adults with ischaemic heart disease lower doses of 25mcg daily can be initiated",
+  "statement_origin": "published",
+  "source": {
+    "document": "Carolan A, et al. OPTIMISE. BMC Psychiatry 2022;22:585, Tables 2-3",
+    "citation": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "modification_notice": "Text reproduced as recorded by the earlier project and not yet compared with the publisher's page. Not endorsed by the source authors."
+  },
+  "plain_summary": "In an adult with severe mental illness, review a new levothyroxine dose above 100 micrograms daily, or above 50 micrograms daily if the person is over 65 or had ischaemic heart disease at the start. A starting dose of 25 micrograms is an option in either higher-risk group.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Levothyroxine, the thyroid hormone tablet",
+      "ingredients": [
+        "levothyroxine"
+      ],
+      "brands": {
+        "levothyroxine": [
+          "Eutroxsig",
+          "Oroxine",
+          "Eltroxin",
+          "Levothox",
+          "Levoxine",
+          "Thyrox"
+        ]
+      },
+      "note": "Tablets count. The strength is in micrograms (mcg). Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "B",
+      "name": "Antipsychotics and lithium (a sign the person may have severe mental illness)",
+      "ingredients": [
+        "olanzapine",
+        "quetiapine",
+        "risperidone",
+        "aripiprazole",
+        "clozapine",
+        "paliperidone",
+        "amisulpride",
+        "haloperidol",
+        "lithium carbonate",
+        "lurasidone",
+        "brexpiprazole",
+        "cariprazine",
+        "ziprasidone",
+        "asenapine",
+        "zuclopenthixol",
+        "flupentixol",
+        "flupentixol decanoate",
+        "chlorpromazine",
+        "periciazine",
+        "trifluoperazine"
+      ],
+      "brands": {
+        "olanzapine": [
+          "Zyprexa",
+          "Zyprexa Zydis",
+          "Aprolan",
+          "Aprolan ODT",
+          "Lanez",
+          "Lanez ODT",
+          "Lanzek",
+          "Lanzek Zydis",
+          "Lonza",
+          "Lonza ODT",
+          "Lyprosia",
+          "Lyprosia ODT",
+          "Olancor",
+          "Olanza",
+          "Olanzaccord",
+          "Olanzacor",
+          "Oprexa",
+          "Ozin",
+          "Ozin ODT",
+          "Prolanza",
+          "Prolanza ODT",
+          "Pryzex",
+          "Pryzex ODT",
+          "Tolaze ODT",
+          "Tolazine ODT",
+          "Torapine ODT",
+          "Torrenia ODT",
+          "Zylap",
+          "Zylap ODT",
+          "Zylapine",
+          "Zylapine ODT",
+          "Zypine",
+          "Zypine ODT",
+          "Zyprexa Relprevv"
+        ],
+        "quetiapine": [
+          "Seroquel",
+          "Seroquel XR",
+          "Aliquen",
+          "Delucon",
+          "Kaptan",
+          "Ketizenol",
+          "Qualez",
+          "Quepine XR",
+          "Quetapen",
+          "Quetia",
+          "Quetia XR",
+          "Quetiaccord",
+          "Quetiaquel XR",
+          "Quetin",
+          "Quipine",
+          "Sequase",
+          "Sequase XR",
+          "Serapine",
+          "Serapine XR",
+          "Seroccord",
+          "Seronia",
+          "Serotiapine XR",
+          "Syquet",
+          "Syquet XR",
+          "Syzopine",
+          "Tevatiapine XR",
+          "Tiapine XR",
+          "Tiava XR",
+          "Xque XR"
+        ],
+        "risperidone": [
+          "Risperdal",
+          "Risperdal Consta",
+          "Ozidal",
+          "Resdone",
+          "Respaz",
+          "Risdone",
+          "Rispa",
+          "Rispaccord",
+          "Rispaccord-0.5",
+          "Risperdal Quicklet",
+          "Risperibell",
+          "Rispericor",
+          "Rispericor-0.5",
+          "Risperisan",
+          "Rispernia",
+          "Rixadone",
+          "Sperid",
+          "Uzedy"
+        ],
+        "aripiprazole": [
+          "Abilify",
+          "Abilify Maintena",
+          "Abilify Asimtufii",
+          "Abilify ODT",
+          "Abipra",
+          "Abyraz",
+          "Aprazole",
+          "Aripic",
+          "Aripra",
+          "Arizole"
+        ],
+        "clozapine": [
+          "Clozaril",
+          "Clopine",
+          "Closyn",
+          "Clozaril ODT",
+          "Clozitor",
+          "Versacloz"
+        ],
+        "paliperidone": [
+          "Invega",
+          "Invega Sustenna",
+          "Invega Hafyera",
+          "Invega Trinza",
+          "Palmeux",
+          "Trevicta"
+        ],
+        "amisulpride": [
+          "Solian",
+          "Amipride",
+          "Sulprix"
+        ],
+        "haloperidol": [
+          "Serenace"
+        ],
+        "lithium carbonate": [
+          "Lithicarb",
+          "Quilonum SR",
+          "Lithicarb SR",
+          "Lithquil SR",
+          "Lithspen"
+        ],
+        "lurasidone": [
+          "Latuda",
+          "Bilura",
+          "Latulem",
+          "Lavione",
+          "Luracor",
+          "Luralem",
+          "Luralembic",
+          "Lurobi"
+        ],
+        "brexpiprazole": [
+          "Rexulti"
+        ],
+        "cariprazine": [
+          "Reagila"
+        ],
+        "ziprasidone": [
+          "Zeldox",
+          "Ziprox"
+        ],
+        "asenapine": [
+          "Saphris"
+        ],
+        "zuclopenthixol": [
+          "Clopixol"
+        ],
+        "flupentixol": [
+          "Fluanxol"
+        ],
+        "flupentixol decanoate": [
+          "Fluanxol"
+        ],
+        "chlorpromazine": [
+          "Largactil"
+        ],
+        "periciazine": [
+          "Neulactil"
+        ],
+        "trifluoperazine": [
+          "Stelazine"
+        ]
+      },
+      "note": "This group is not the medicine the finding is about. It only shows that the person may be in the group the OPTIMISE tool was written for. A medicine used for another reason, for example low-dose quetiapine for sleep, can mislead."
+    }
+  ],
+  "rule_for_models": "For adults aged 18 or older, check the first Group A supply after at least three months of recorded history without levothyroxine. Apply this check when severe mental illness is documented or a Group B antipsychotic or lithium supply suggests it. If neither is present or severe mental illness is ruled out, give no finding. For a potentially high start with unknown age or less than three months of preceding history, report only a possible finding. Name the missing age or start history and ask for confirmation. Give no finding for a known age under 18 or established ongoing treatment. Calculate the directed daily dose from tablet strength and tablet count. For a fully specified repeating schedule, divide the total micrograms by the number of days in the cycle. If the dose or the treatment stage at the first local supply is unclear and would change the finding, cite that supply, report only a possible finding and ask for the missing information. A first local supply alone does not confirm a new course or its start date. For every Group A tablet, flag a confirmed start above 50 micrograms daily if the person was over 65 or had documented ischaemic heart disease at the first dose. A 25 microgram start is an option in either group. For other adults, including those aged 18 through 65 with unknown cardiac history, flag a confirmed start above 100 micrograms daily. Do not infer heart disease from missing information or a later diagnosis. Give no finding at or below the applicable threshold, or for a continuation or later increase. For a full finding, cite the first levothyroxine supply, the condition line documenting severe mental illness and any cardiac diagnosis used to apply the lower threshold. If only a Group B supply suggests severe mental illness, report at most a possible finding. Cite that supply and the first levothyroxine supply, and ask to confirm the missing fact: Severe mental illness diagnosis, such as schizophrenia.",
+  "cannot_be_seen": "Whether this is a true new start or a restart, thyroid medicine supplied by another pharmacy or hospital, the person's heart condition, weight, thyroid blood test results and the reason for treatment.",
+  "ask_the_gp": "Whether the starting dose of levothyroxine suits this person's age and heart history.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Ischaemic heart disease at the first levothyroxine supply",
+      "meets": "A dated diagnosis or explicit pharmacist confirmation establishes that ischaemic heart disease was present at the first dose. Unknown timing leaves this fact open. When heart disease was present at the start, the review threshold is above 50 micrograms daily.",
+      "options": [
+        {
+          "words": "Ischaemic heart disease was present at the first dose",
+          "effect": "meets"
+        },
+        {
+          "words": "Ischaemic heart disease was absent at the first dose",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "condition",
+      "what": "Severe mental illness diagnosis, such as schizophrenia",
+      "meets": "Cite the condition line naming the diagnosis for a full finding. A Group B supply alone supports only a possible finding."
+    }
+  ]
+}

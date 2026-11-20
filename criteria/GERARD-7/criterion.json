@@ -1,0 +1,83 @@
+{
+  "id": "GERARD-7",
+  "label": "Gerard: SGLT2 inhibitor during a bacterial skin infection of the pelvis or genitals",
+  "family": "GERARD",
+  "title": "SGLT2 inhibitor during a bacterial skin infection of the pelvis or genitals",
+  "statement": "It is necessary to assess the need to temporarily discontinue an SGLT-2 inhibitor in a patient with a bacterial skin infection localized in the pelvic or genital area.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Development of explicit definitions of potentially inappropriate prescriptions for antidiabetic drugs in people with type 2 diabetes: A Delphi survey and consensus meeting",
+    "citation": "Gerard E, Bugday D, Calafiore M, Baran J, Gautier S, Henry H, et al. (2025). Development of explicit definitions of potentially inappropriate prescriptions for antidiabetic drugs in people with type 2 diabetes: A Delphi survey and consensus meeting. PLOS ONE 20(10), e0334836.",
+    "doi": "10.1371/journal.pone.0334836",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0334836",
+    "licence": "CC BY 4.0",
+    "credit": "© 2025 Gerard et al. Gerard E, Bugday D, Calafiore M, Baran J, Gautier S, Henry H, et al. (2025). Development of explicit definitions of potentially inappropriate prescriptions for antidiabetic drugs in people with type 2 diabetes: A Delphi survey and consensus meeting. PLOS ONE 20(10), e0334836. https://doi.org/10.1371/journal.pone.0334836. Table 2. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The statements are reproduced. GPT-6.2 Astra added the Australian medicine mapping, screening rules and fictional cases.",
+    "licence_status": "proposed",
+    "modification_notice": "The published statement is unchanged. The plain-language rule, Australian medicine mapping and test cases are adaptations."
+  },
+  "plain_summary": "An active bacterial skin infection in this area calls for assessment of whether a temporary pause is needed.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "SGLT2 inhibitors",
+      "ingredients": [
+        "dapagliflozin",
+        "empagliflozin",
+        "ertugliflozin"
+      ],
+      "brands": {
+        "dapagliflozin": [
+          "Forxiga",
+          "Dapagliflozin AZN",
+          "Xigduo XR",
+          "Glixafor",
+          "Qtern",
+          "Sidapvia"
+        ],
+        "empagliflozin": [
+          "Jardiance",
+          "Jardiamet",
+          "Glyxambi"
+        ],
+        "ertugliflozin": [
+          "Steglatro",
+          "Segluromet",
+          "Steglujan"
+        ]
+      },
+      "note": "Count a listed ingredient in a combination product."
+    }
+  ],
+  "rule_for_models": "Start with any Group A supply. Check for type 2 diabetes and an active bacterial skin infection of the pelvic or genital area during treatment. If both are documented, cite the supply, diabetes and infection evidence and report a finding. A pharmacist's answer confirming a bacterial skin infection at either site during this course establishes the overlap. If one or both facts are unknown and the available evidence fits, report only a possible finding and name each missing fact. Give no finding if type 2 diabetes is ruled out, the supply is documented solely for a non-diabetes indication, or the relevant condition is excluded. A fungal infection alone or an infection confined to another site is outside this rule. Ask what the medicine treats and whether the patient has a skin infection around the pelvis or genitals. If its bacterial cause is uncertain, ask the doctor to confirm it. Assess overlap from the dispensing date and the quantity divided by the directed units per day, allowing for a documented stop or change. A condition known to be outside treatment gives no finding. If overlap cannot be established and the other facts still fit, report only a possible finding. Ask the patient for the daily dose and treatment dates.",
+  "cannot_be_seen": "An antibiotic supply cannot establish the diagnosis or site. A urinary infection or a fungal infection alone does not meet this criterion. Check whether the infection is still active and the medicine is still being taken. Suspected Fournier's gangrene needs emergency assessment. A missing infection history alone does not establish an emergency.",
+  "ask_the_gp": "Could you confirm type 2 diabetes where unclear, check whether there is an active bacterial skin infection in the pelvic or genital area, and review whether a temporary pause is appropriate?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Type 2 diabetes",
+      "meets": "The record confirms type 2 diabetes during treatment."
+    },
+    {
+      "kind": "condition",
+      "what": "Bacterial skin infection of the pelvis or genitals",
+      "meets": "A dated diagnosis or the pharmacist's answer confirms a bacterial skin infection at either site while the person was taking the SGLT2 inhibitor. If the site, cause or timing is uncertain, choose Not known.",
+      "options": [
+        {
+          "words": "Bacterial skin infection at either site during this course",
+          "effect": "meets"
+        },
+        {
+          "words": "No bacterial skin infection at either site during this course",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

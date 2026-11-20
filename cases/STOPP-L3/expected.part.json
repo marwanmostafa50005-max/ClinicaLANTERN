@@ -1,0 +1,47 @@
+[
+  {
+    "file": "STOPP-L3/pos-fact.csv",
+    "kind": "positive",
+    "about": "Severe breakthrough cancer pain was recorded on the second day of the patient's first opioid treatment, so Abstral does not count as rescue and no other rescue was supplied.",
+    "findings": [
+      {
+        "criterion": "STOPP-L3",
+        "must_cite": [
+          [
+            "L032"
+          ],
+          [
+            "L034"
+          ],
+          [
+            "L035"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-L3/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about breakthrough pain, its severity or whether it is cancer pain, and the directions do not establish the daily maintenance dose or duration before Abstral.",
+    "findings": [
+      {
+        "criterion": "STOPP-L3",
+        "must_cite": [
+          [
+            "L017"
+          ],
+          [
+            "L020"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-L3/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Abstral covered breakthrough cancer pain after seven full days of oral morphine at 60 mg daily and was supplied again throughout maintenance treatment.",
+    "findings": []
+  }
+]

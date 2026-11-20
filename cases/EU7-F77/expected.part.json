@@ -1,0 +1,43 @@
+[
+  {
+    "file": "EU7-F77/pos-brand.csv",
+    "kind": "positive",
+    "about": "Blackmores Ginkgoforte is supplied four times by brand name alone from September 2025 to March 2026 to a 70-year-old.",
+    "findings": [
+      {
+        "criterion": "EU7-F77",
+        "must_cite": [
+          [
+            "L003",
+            "L010",
+            "L016",
+            "L022"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F77/pos-buried.csv",
+    "kind": "positive",
+    "about": "Ginkgo biloba is supplied three times from December 2025 to April 2026, in the middle of a 15-month history.",
+    "findings": [
+      {
+        "criterion": "EU7-F77",
+        "must_cite": [
+          [
+            "L029",
+            "L037",
+            "L048"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F77/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Ginkgo biloba is supplied to a 49-year-old. The list is for people aged 65 or over, so this must not be flagged.",
+    "findings": []
+  }
+]

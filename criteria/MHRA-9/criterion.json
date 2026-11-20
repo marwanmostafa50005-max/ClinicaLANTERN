@@ -1,0 +1,82 @@
+{
+  "id": "MHRA-9",
+  "label": "MHRA 9",
+  "family": "MHRA",
+  "title": "Simvastatin with clarithromycin or erythromycin",
+  "statement": "Contraindicated with simvastatin",
+  "statement_origin": "published",
+  "source": {
+    "document": "MHRA Drug Safety Update: Simvastatin: updated advice on drug interactions",
+    "citation": "Medicines and Healthcare products Regulatory Agency. Drug Safety Update volume 6, issue 1: August 2012: S1.",
+    "url": "https://www.gov.uk/drug-safety-update/simvastatin-updated-advice-on-drug-interactions",
+    "licence": "UK Open Government Licence v3.0",
+    "licence_status": "proposed",
+    "credit": "Contains public sector information licensed under the Open Government Licence v3.0.",
+    "modification_notice": "Statement reproduced without changes. The criterion is limited to the erythromycin and clarithromycin interaction named in the source row."
+  },
+  "plain_summary": "Simvastatin, including ezetimibe with simvastatin, must not be used with oral or intravenous clarithromycin or erythromycin because of the risk of severe muscle harm.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Simvastatin and ezetimibe with simvastatin",
+      "ingredients": [
+        "simvastatin",
+        "ezetimibe + simvastatin"
+      ],
+      "brands": {
+        "simvastatin": [
+          "Zocor",
+          "Lipex",
+          "Zimstat",
+          "Simvar",
+          "Simvabell"
+        ],
+        "ezetimibe + simvastatin": [
+          "Vytorin",
+          "Ezesim",
+          "Ezetorin",
+          "Zimybe"
+        ]
+      },
+      "note": "Oral simvastatin counts. A fixed-dose ezetimibe with simvastatin product counts through its simvastatin component."
+    },
+    {
+      "key": "B",
+      "name": "Systemic clarithromycin and erythromycin",
+      "ingredients": [
+        "clarithromycin",
+        "erythromycin",
+        "esomeprazole + amoxicillin + clarithromycin",
+        "omeprazole + amoxicillin + clarithromycin"
+      ],
+      "brands": {
+        "clarithromycin": [
+          "Klacid",
+          "Kalixocin",
+          "Clarac"
+        ],
+        "erythromycin": [
+          "E-Mycin",
+          "E-Mycin 400",
+          "Eryc",
+          "E.E.S.",
+          "Erythrocin"
+        ],
+        "esomeprazole + amoxicillin + clarithromycin": [
+          "Nexium Hp7",
+          "Esomeprazole Sandoz Hp7"
+        ],
+        "omeprazole + amoxicillin + clarithromycin": [
+          "Klacid Hp7"
+        ]
+      },
+      "note": "Oral and intravenous clarithromycin and erythromycin count, including oral Helicobacter eradication packs that contain clarithromycin. Topical erythromycin products (gels, lotions, solutions and swabs) do not count. Azithromycin and roxithromycin do not count."
+    }
+  ],
+  "rule_for_models": "For any age, suspect a finding when a Group A simvastatin-containing supply and a Group B oral or intravenous clarithromycin or erythromycin supply have supply dates that overlap or fall within 60 days of each other. One supply of each is enough, and a clarithromycin-containing eradication pack counts. Do not count topical erythromycin, azithromycin or roxithromycin. Report no finding if the record explicitly documents that simvastatin was paused for the full duration of the antibiotic course. If a documented pause is incomplete or unclear, still suspect a finding and ask whether simvastatin was withheld throughout the antibiotic course.",
+  "cannot_be_seen": "Actual ingestion, temporary treatment changes, muscle symptoms and supplies from another pharmacy may not be visible. The route may need checking if the form is unclear.",
+  "ask_the_gp": "Could you review the simvastatin and clarithromycin or erythromycin combination and the plan during antibiotic treatment?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

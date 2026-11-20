@@ -1,0 +1,68 @@
+[
+  {
+    "file": "OPTIMISE-T2-06/pos-fact.csv",
+    "kind": "positive",
+    "about": "Simvastatin 40 mg (Zocor) is supplied every month for 11 months and a condition line records schizophrenia.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T2-06",
+        "must_cite": [
+          [
+            "L003",
+            "L008",
+            "L012",
+            "L017",
+            "L022",
+            "L026",
+            "L030",
+            "L035",
+            "L039",
+            "L043",
+            "L048"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T2-06/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: simvastatin and quetiapine are supplied, and the only recorded condition is gastro-oesophageal reflux disease. The record holds no diagnosis of severe mental illness.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T2-06",
+        "must_cite": [
+          [
+            "L002",
+            "L006",
+            "L010",
+            "L015",
+            "L019",
+            "L023",
+            "L027",
+            "L031"
+          ],
+          [
+            "L001",
+            "L005",
+            "L009",
+            "L013",
+            "L017",
+            "L022",
+            "L026",
+            "L030"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T2-06/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Bipolar disorder is recorded, but pravastatin is the only statin supplied.",
+    "findings": []
+  }
+]

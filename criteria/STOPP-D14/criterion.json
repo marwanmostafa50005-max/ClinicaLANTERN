@@ -1,0 +1,230 @@
+{
+  "id": "STOPP-D14",
+  "label": "STOPP D14",
+  "family": "STOPP_START",
+  "title": "Strong anticholinergic medicine in delirium or dementia",
+  "statement": "Drugs with potent anticholinergics/antimuscarinic effects** in patients with delirium or dementia (risk of exacerbation of cognitive impairment).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Medicines with strong anticholinergic effects can make confusion and memory problems worse in a person with delirium or dementia.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Medicines with strong anticholinergic effects",
+      "ingredients": [
+        "amitriptyline",
+        "nortriptyline",
+        "imipramine",
+        "doxepin",
+        "chlorpromazine",
+        "clozapine",
+        "thioridazine",
+        "diphenhydramine",
+        "chlorphenamine",
+        "tolterodine",
+        "oxybutynin",
+        "hyoscine hydrobromide",
+        "benzatropine",
+        "procyclidine",
+        "tizanidine",
+        "solifenacin",
+        "darifenacin",
+        "dosulepin",
+        "clomipramine",
+        "promethazine",
+        "doxylamine",
+        "dexchlorpheniramine",
+        "cyproheptadine",
+        "trihexyphenidyl",
+        "benzhexol",
+        "benztropine",
+        "chlorpheniramine",
+        "pheniramine",
+        "biperiden",
+        "orphenadrine",
+        "propantheline"
+      ],
+      "brands": {
+        "biperiden": [
+          "Akineton"
+        ],
+        "amitriptyline": [
+          "Endep",
+          "Amichlor",
+          "Amidep",
+          "Entrip"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "doxepin": [
+          "Sinequan",
+          "Deptran"
+        ],
+        "chlorpromazine": [
+          "Largactil",
+          "Largactil Syrup"
+        ],
+        "clozapine": [
+          "Clozaril",
+          "Clopine",
+          "Closyn",
+          "Clozaril ODT",
+          "Clozitor",
+          "Versacloz"
+        ],
+        "thioridazine": [
+          "Aldazine"
+        ],
+        "diphenhydramine": [
+          "Snuzaid Tab",
+          "Snuzaid Gel",
+          "Unisom Sleepgel",
+          "Benadryl Cough Medicine for Dry Coughs",
+          "Children's Paedamin Antihistamine"
+        ],
+        "chlorphenamine": [
+          "Codral Night",
+          "Codral Day & Night",
+          "Piriton",
+          "Allergex"
+        ],
+        "tolterodine": [
+          "Detrusitol"
+        ],
+        "oxybutynin": [
+          "Ditropan",
+          "Oxytrol"
+        ],
+        "hyoscine hydrobromide": [
+          "Kwells",
+          "Kwells Kids",
+          "Travacalm HO"
+        ],
+        "benzatropine": [
+          "Cogentin",
+          "Benztrop"
+        ],
+        "procyclidine": [
+          "Kemadrin"
+        ],
+        "tizanidine": [
+          "Sirdalud"
+        ],
+        "solifenacin": [
+          "Vesicare",
+          "Solicare",
+          "Solicare ODT",
+          "Vesican ODT",
+          "Vesifen"
+        ],
+        "darifenacin": [
+          "Enablex"
+        ],
+        "dosulepin": [
+          "Dothep",
+          "Prothiaden"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "promethazine": [
+          "Phenergan",
+          "Allersoothe",
+          "Allersoothe Elixir",
+          "Avomine",
+          "Fenezal",
+          "Histaren",
+          "Phenergan Elixir",
+          "Progan Children's Allergy Relief Elixir"
+        ],
+        "doxylamine": [
+          "Restavit",
+          "Dozile",
+          "Dozavit",
+          "Restamine"
+        ],
+        "dexchlorpheniramine": [
+          "Polaramine",
+          "Polaramine Repetab",
+          "Polaramine Syrup",
+          "Polarelief"
+        ],
+        "cyproheptadine": [
+          "Periactin"
+        ],
+        "trihexyphenidyl": [
+          "Artane"
+        ],
+        "benzhexol": [],
+        "benztropine": [],
+        "chlorpheniramine": [
+          "Codral Night",
+          "Codral Day & Night",
+          "Piriton",
+          "Allergex"
+        ],
+        "pheniramine": [
+          "Avil",
+          "Avil Retard",
+          "Avil Syrup"
+        ],
+        "orphenadrine": [
+          "Norflex",
+          "Norgesic"
+        ],
+        "propantheline": [
+          "Pro-Banthine"
+        ]
+      },
+      "note": "The STOPP footnote gives examples. This draft also lists other medicines with strong anticholinergic effects. Benztropine and chlorpheniramine are former names for benzatropine and chlorphenamine respectively and also count. Trihexyphenidyl and benzhexol are names for the same medicine. For antihistamines, count systemic products. Check the active ingredients of cough and cold products because formulations vary. Hyoscine butylbromide is outside this group because it barely enters the brain. Generic packs that show the ingredient name with a company name count too. For a Benadryl product, count diphenhydramine if the ingredient is recorded or the full name is Benadryl Cough Medicine for Dry Coughs. The name Benadryl alone leaves the ingredient unresolved. Oxytrol is a systemic oxybutynin patch. Count an antihistamine mixture only if its ingredients or an identified formulation establish exposure. Count recorded systemic pheniramine. Historical Piriton and Allergex tablets contain chlorphenamine. Codral Night contains chlorphenamine. In the identified Codral Day & Night pack, the night tablet contains chlorphenamine. A day tablet alone does not count. Read Sirdalud as tizanidine when it appears on a past oral supply. Norgesic contains orphenadrine and paracetamol. Count its orphenadrine component. Pro-Banthine contains propantheline bromide. Children's Paedamin Antihistamine oral liquid contained diphenhydramine. Its Australian registration was cancelled on 25 November 2019. The Paedamin decongestant combination was a separate product. Check the full product name or ingredients when a record says only Paedamin."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Dementia or delirium",
+      "meets": "Dementia or active delirium at the assessed exposure.",
+      "options": [
+        {
+          "words": "Dementia was present when the medicine was used",
+          "effect": "meets"
+        },
+        {
+          "words": "Delirium was active when the medicine was used",
+          "effect": "meets"
+        },
+        {
+          "words": "Neither condition was present when the medicine was used",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Before reporting any STOPP finding, confirm the person is aged 65 or older and has a Group A supply. Report a finding and cite the supply and condition lines if dementia or active delirium was present at that exposure, disregarding delirium that resolved before treatment. If neither condition is confirmed, report no finding when both are ruled out, or cite the supply and report only a possible finding naming the missing detail when condition status or timing is unclear.",
+  "cannot_be_seen": "The record may omit a diagnosis, its severity, the reason for treatment or medicines bought without a prescription, including sleep aids and cough or allergy medicines.",
+  "ask_the_gp": "Whether the anticholinergic medicine is still needed, and whether a safer choice or a review of the medicine is due.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,166 @@
+/* The top half of the first screen: the mark, the name with the golden L, the purpose line, the slogan. */
+
+.hero {
+  /* At least half of the first screen. */
+  min-height: 52vh;
+  min-height: 52svh;
+  display: flex;
+  flex-direction: column;
+  padding: 14px 20px 22px;
+  overflow: hidden;
+  background:
+    radial-gradient(64rem 26rem at 50% 50%, var(--white) 0%, var(--white-fade) 72%),
+    linear-gradient(180deg, var(--hero-top) 0%, var(--page) 100%);
+}
+
+.hero-strip {
+  flex: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 12px;
+}
+
+.hero-strip-left {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.stage-tag {
+  padding: 3px 12px;
+  border: 1.5px solid var(--navy);
+  border-radius: 999px;
+  color: var(--navy);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.stage-note {
+  padding: 3px 12px;
+  border-radius: 999px;
+  background: var(--navy);
+  color: var(--white);
+  font-size: 0.86rem;
+  font-weight: 600;
+}
+
+/* The mark and the words sit in the middle of the space under the strip. */
+.hero-lockup {
+  display: flex;
+  align-items: center;
+  gap: clamp(20px, 3.4vw, 52px);
+  max-width: 100%;
+  margin: auto;
+  padding: 14px 4px 8px;
+}
+
+/* The mark and the name grow with the band: with the height of the screen, held by its width.
+   (Until 18 November they stopped at 196 px and 88 px, so on a large screen the brand itself was
+   under a fifth of the screen though the band was half of it.) */
+.hero-mark {
+  flex: none;
+  width: clamp(112px, min(20vw, 26vh), 320px);
+  height: auto;
+  aspect-ratio: 1;
+  filter: drop-shadow(0 16px 24px var(--hero-mark-shadow));
+  shape-rendering: geometricPrecision;
+}
+
+.hero-words {
+  min-width: 0;
+}
+
+/* The name as on the brand sheet: thin navy "Clinica", a golden "L", bold navy "ANTERN". */
+.wordmark {
+  margin: 0;
+  color: var(--navy);
+  font-family: var(--font-brand);
+  font-size: clamp(2.5rem, min(7.4vw, 12vh), 8rem);
+  font-weight: 300;
+  line-height: 1.05;
+  white-space: nowrap;
+}
+
+.wm-clinica {
+  font-weight: 300;
+  letter-spacing: -0.012em;
+}
+
+.wm-l {
+  display: inline-block;
+  margin: 0 0.04em 0 0.025em;
+  color: var(--gold);
+  font-size: 1.34em;
+  font-weight: 300;
+  line-height: 0;
+  text-shadow:
+    0 0 0.32em var(--wm-l-glow),
+    0 0.012em 0 var(--wm-l-shadow);
+}
+
+.wm-antern {
+  font-weight: 700;
+  letter-spacing: 0.085em;
+}
+
+.purpose {
+  margin-top: 0.85rem;
+  color: var(--navy);
+  font-family: var(--font-brand);
+  font-size: clamp(1rem, min(1.9vw, 3.1vh), 2rem);
+  font-weight: 600;
+  letter-spacing: 0.005em;
+}
+
+.slogan {
+  margin-top: 0.5rem;
+  color: var(--text);
+  font-family: var(--font-brand);
+  font-size: clamp(1rem, min(1.9vw, 3.1vh), 2rem);
+  font-weight: 300;
+  letter-spacing: 0.13em;
+}
+
+@media (max-width: 760px) {
+  .hero {
+    padding: 14px 16px 20px;
+  }
+
+  .hero-lockup {
+    flex-direction: column;
+    text-align: center;
+    gap: 18px;
+  }
+
+  .wordmark {
+    font-size: clamp(2.2rem, 11.4vw, 3.6rem);
+  }
+
+  .slogan {
+    letter-spacing: 0.07em;
+  }
+}
+
+/* A short window, such as a laptop with the browser toolbars showing. */
+@media (max-height: 700px) and (min-width: 761px) {
+  .hero {
+    padding-bottom: 12px;
+  }
+
+  .hero-lockup {
+    padding: 6px 4px 4px;
+  }
+
+  .hero-mark {
+    width: clamp(112px, 22vh, 196px);
+  }
+
+  .wordmark {
+    font-size: clamp(2.5rem, min(6.2vw, 11vh), 5.5rem);
+  }
+}

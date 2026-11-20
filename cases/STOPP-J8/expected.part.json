@@ -1,0 +1,62 @@
+[
+  {
+    "file": "STOPP-J8/pos-fact.csv",
+    "kind": "positive",
+    "about": "Premarin (conjugated oestrogens) is supplied alone every four weeks with no progestogen, and the record says the uterus is intact.",
+    "findings": [
+      {
+        "criterion": "STOPP-J8",
+        "must_cite": [
+          [
+            "L003",
+            "L008",
+            "L012",
+            "L016",
+            "L021",
+            "L025",
+            "L029",
+            "L033",
+            "L038",
+            "L042"
+          ],
+          [
+            "L002"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-J8/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the uterus is intact and Estrofem is supplied, but the only possible cover is a Mirena with no record of insertion or continued use.",
+    "findings": [
+      {
+        "criterion": "STOPP-J8",
+        "must_cite": [
+          [
+            "L004",
+            "L008",
+            "L011",
+            "L014",
+            "L018",
+            "L021",
+            "L024"
+          ],
+          [
+            "L002"
+          ],
+          [
+            "L003"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-J8/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Premarin (oestrogen alone) is supplied, but the record says the person has had a total hysterectomy, so there is no uterus to protect.",
+    "findings": []
+  }
+]

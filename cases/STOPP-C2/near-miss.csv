@@ -1,0 +1,34 @@
+patient_ref,patient_age,patient_sex,record_type,dispense_date,medicine,brand,strength,form,quantity,repeats_left,directions,prescriber,detail,value
+F-C2-03,72,M,observation,2025-09-08,,,,,,,,,Blood pressure,126/74 mmHg
+F-C2-03,72,M,,2025-09-08,clopidogrel,Plavix,75 mg,tablet,28,5,Take ONE tablet daily,Dr A. Example,,
+F-C2-03,72,M,,2025-09-08,atorvastatin,Lipitor,40 mg,tablet,30,5,Take ONE tablet at night,Dr A. Example,,
+F-C2-03,72,M,,2025-09-08,pantoprazole,Somac,40 mg,enteric coated tablet,30,5,Take ONE tablet daily before breakfast,Dr B. Sample,,
+F-C2-03,72,M,,2025-10-07,clopidogrel,Plavix,75 mg,tablet,28,4,Take ONE tablet daily,Dr A. Example,,
+F-C2-03,72,M,,2025-10-09,atorvastatin,Lipitor,40 mg,tablet,30,4,Take ONE tablet at night,Dr A. Example,,
+F-C2-03,72,M,,2025-10-09,pantoprazole,Somac,40 mg,enteric coated tablet,30,4,Take ONE tablet daily before breakfast,Dr B. Sample,,
+F-C2-03,72,M,,2025-11-03,clopidogrel,Plavix,75 mg,tablet,28,3,Take ONE tablet daily,Dr A. Example,,
+F-C2-03,72,M,,2025-11-07,atorvastatin,Lipitor,40 mg,tablet,30,3,Take ONE tablet at night,Dr A. Example,,
+F-C2-03,72,M,,2025-11-07,pantoprazole,Somac,40 mg,enteric coated tablet,30,3,Take ONE tablet daily before breakfast,Dr B. Sample,,
+F-C2-03,72,M,,2025-11-30,clopidogrel,Plavix,75 mg,tablet,28,2,Take ONE tablet daily,Dr A. Example,,
+F-C2-03,72,M,,2025-12-06,atorvastatin,Lipitor,40 mg,tablet,30,2,Take ONE tablet at night,Dr A. Example,,
+F-C2-03,72,M,,2025-12-06,pantoprazole,Somac,40 mg,enteric coated tablet,30,2,Take ONE tablet daily before breakfast,Dr B. Sample,,
+F-C2-03,72,M,,2025-12-31,clopidogrel,Plavix,75 mg,tablet,28,1,Take ONE tablet daily,Dr A. Example,,
+F-C2-03,72,M,,2026-01-08,atorvastatin,Lipitor,40 mg,tablet,30,1,Take ONE tablet at night,Dr A. Example,,
+F-C2-03,72,M,,2026-01-08,pantoprazole,Somac,40 mg,enteric coated tablet,30,1,Take ONE tablet daily before breakfast,Dr B. Sample,,
+F-C2-03,72,M,,2026-01-26,clopidogrel,Plavix,75 mg,tablet,28,0,Take ONE tablet daily,Dr A. Example,,
+F-C2-03,72,M,observation,2026-02-02,,,,,,,,,Blood pressure,132/78 mmHg
+F-C2-03,72,M,,2026-02-05,atorvastatin,Lipitor,40 mg,tablet,30,0,Take ONE tablet at night,Dr A. Example,,
+F-C2-03,72,M,,2026-02-05,pantoprazole,Somac,40 mg,enteric coated tablet,30,0,Take ONE tablet daily before breakfast,Dr B. Sample,,
+F-C2-03,72,M,,2026-02-24,clopidogrel,Plavix,75 mg,tablet,28,5,Take ONE tablet daily,Dr A. Example,,
+F-C2-03,72,M,,2026-03-08,atorvastatin,Lipitor,40 mg,tablet,30,5,Take ONE tablet at night,Dr A. Example,,
+F-C2-03,72,M,,2026-03-08,pantoprazole,Somac,40 mg,enteric coated tablet,30,5,Take ONE tablet daily before breakfast,Dr B. Sample,,
+F-C2-03,72,M,,2026-03-22,clopidogrel,Plavix,75 mg,tablet,28,4,Take ONE tablet daily,Dr A. Example,,
+F-C2-03,72,M,,2026-04-05,atorvastatin,Lipitor,40 mg,tablet,30,4,Take ONE tablet at night,Dr A. Example,,
+F-C2-03,72,M,,2026-04-05,pantoprazole,Somac,40 mg,enteric coated tablet,30,4,Take ONE tablet daily before breakfast,Dr B. Sample,,
+F-C2-03,72,M,,2026-04-20,clopidogrel,Plavix,75 mg,tablet,28,3,Take ONE tablet daily,Dr A. Example,,
+F-C2-03,72,M,,2026-05-06,atorvastatin,Lipitor,40 mg,tablet,30,3,Take ONE tablet at night,Dr A. Example,,
+F-C2-03,72,M,,2026-05-06,pantoprazole,Somac,40 mg,enteric coated tablet,30,3,Take ONE tablet daily before breakfast,Dr B. Sample,,
+F-C2-03,72,M,observation,2026-05-06,,,,,,,,,Blood pressure,130/76 mmHg
+F-C2-03,72,M,observation,2026-06-15,,,,,,,,,Bleeding disorder or recent bleeding,History reviewed: no bleeding disorder during clopidogrel treatment and no non-trivial spontaneous bleed during treatment or in the preceding six months
+F-C2-03,72,M,,2026-06-20,aspirin,Disprin Regular,300 mg,dispersible tablet,24,0,Take ONE tablet up to three times daily when needed for dental pain,Dr A. Example,,
+F-C2-03,72,M,condition,2026-06-21,,,,,,,,,Spontaneous gastrointestinal bleed,Admitted to hospital with melaena.

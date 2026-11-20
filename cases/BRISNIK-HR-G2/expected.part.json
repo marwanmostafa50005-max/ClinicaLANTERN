@@ -1,0 +1,68 @@
+[
+  {
+    "file": "BRISNIK-HR-G2/pos-brand.csv",
+    "kind": "positive",
+    "about": "Zoloft (sertraline, an SSRI) and Plavix (clopidogrel, an antiplatelet) are supplied monthly from October 2025 to May 2026 to a woman aged 72, by brand name only.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-G2",
+        "must_cite": [
+          [
+            "L003",
+            "L007",
+            "L009",
+            "L014",
+            "L017",
+            "L021",
+            "L024",
+            "L028",
+            "L032"
+          ],
+          [
+            "L005",
+            "L008",
+            "L012",
+            "L015",
+            "L018",
+            "L019",
+            "L023",
+            "L026",
+            "L029"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-G2/pos-buried.csv",
+    "kind": "positive",
+    "about": "Lexapro (escitalopram, an SSRI) and Eliquis (apixaban, an anticoagulant) are both supplied monthly from January to May 2026, in the middle of a 16-month history, to a man aged 74.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-G2",
+        "must_cite": [
+          [
+            "L031",
+            "L038",
+            "L043",
+            "L050",
+            "L055"
+          ],
+          [
+            "L033",
+            "L039",
+            "L046",
+            "L051",
+            "L057"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-G2/near-miss.csv",
+    "kind": "near_miss",
+    "about": "At age 70 the patient has the age risk, but sertraline was stopped before apixaban began and the replacement antidepressant is mirtazapine.",
+    "findings": []
+  }
+]

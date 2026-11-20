@@ -1,0 +1,340 @@
+{
+  "id": "BRISNIK-HR-E1",
+  "label": "Brisnik HR-E1",
+  "family": "BRISNIK",
+  "title": "Tranylcypromine with another serotonergic medicine",
+  "statement": "Prescribed tranylcypromine - and the patient is co-prescribed ≥ 1 further serotonergic drug (e.g., tramadol, fentanyl, triptans, metoclopramide, SSRI, SNRI, TCA)[c]",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.2 candidate repairs and adopted conventions merged with attribution). Not endorsed by the source authors."
+  },
+  "plain_summary": "Tranylcypromine taken with another medicine that raises serotonin, such as tramadol, a triptan, metoclopramide or another antidepressant, can cause serotonin syndrome, which is dangerous.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Tranylcypromine",
+      "ingredients": [
+        "tranylcypromine"
+      ],
+      "brands": {
+        "tranylcypromine": [
+          "Parnate",
+          "Parpromine",
+          "Tranamef",
+          "Tranylmed"
+        ]
+      },
+      "note": "Tranylcypromine is a monoamine oxidase inhibitor (MAOI). Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "B",
+      "name": "Other serotonergic medicines (examples)",
+      "ingredients": [
+        "tramadol",
+        "tapentadol",
+        "fentanyl",
+        "sumatriptan",
+        "rizatriptan",
+        "zolmitriptan",
+        "eletriptan",
+        "naratriptan",
+        "metoclopramide",
+        "linezolid",
+        "lithium",
+        "trazodone",
+        "vortioxetine",
+        "sertraline",
+        "escitalopram",
+        "citalopram",
+        "fluoxetine",
+        "paroxetine",
+        "fluvoxamine",
+        "venlafaxine",
+        "desvenlafaxine",
+        "duloxetine",
+        "amitriptyline",
+        "nortriptyline",
+        "imipramine",
+        "clomipramine",
+        "doxepin",
+        "dosulepin",
+        "trimipramine",
+        "pethidine",
+        "dextromethorphan",
+        "methadone",
+        "dapoxetine",
+        "moclobemide"
+      ],
+      "brands": {
+        "tramadol": [
+          "Tramal",
+          "Durotram",
+          "Zydol",
+          "Durotram XR",
+          "Iptramol",
+          "Lodam",
+          "Lodam SR",
+          "Tramahexal",
+          "Tramahexal SR",
+          "Tramal Drops",
+          "Tramal SR",
+          "Tramedo",
+          "Tramedo SR",
+          "Zydol SR"
+        ],
+        "tapentadol": [
+          "Palexia"
+        ],
+        "fentanyl": [
+          "Durogesic",
+          "Denpax",
+          "Fenpatch"
+        ],
+        "sumatriptan": [
+          "Imigran",
+          "Suvalan",
+          "Clustran",
+          "Imigran FDT",
+          "Imigran Migraine",
+          "Imigran Mk II",
+          "Imigran Mk II with Autoinjector",
+          "Imigran S",
+          "Iptam",
+          "Sumaccord",
+          "Sumagraine Migraine Relief",
+          "Sumagran",
+          "Sumatab",
+          "Sumatran"
+        ],
+        "rizatriptan": [
+          "Maxalt",
+          "Rixalt",
+          "Maxalt Migraine Relief",
+          "Maxatan"
+        ],
+        "zolmitriptan": [
+          "Zomig",
+          "Zoltrip",
+          "Zomig Rapimelt"
+        ],
+        "eletriptan": [
+          "Relpax",
+          "Eletx"
+        ],
+        "naratriptan": [
+          "Naramig"
+        ],
+        "metoclopramide": [
+          "Maxolon",
+          "Pramin",
+          "Aspramide",
+          "Emexlon"
+        ],
+        "linezolid": [
+          "Zyvox",
+          "Linevox",
+          "Nezolid"
+        ],
+        "lithium": [
+          "Lithicarb",
+          "Quilonum SR"
+        ],
+        "trazodone": [
+          "Desyrel"
+        ],
+        "vortioxetine": [
+          "Brintellix"
+        ],
+        "sertraline": [
+          "Zoloft",
+          "Concorz",
+          "Detralon",
+          "Eleva",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Setrona",
+          "Tralen",
+          "Xydep"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam",
+          "Loxalate"
+        ],
+        "citalopram": [
+          "Cipramil",
+          "Celapram",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talam",
+          "Talohexal"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Zactin",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Extine",
+          "Paxtine",
+          "Aropax CR",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ],
+        "venlafaxine": [
+          "Efexor-XR",
+          "Venlor XR",
+          "Elaxine SR",
+          "Altven",
+          "Enlafax XR",
+          "Evelexa XR",
+          "Ozvenaf",
+          "Venfax SR",
+          "Venla",
+          "Venlexor XR"
+        ],
+        "desvenlafaxine": [
+          "Pristiq",
+          "Desfax",
+          "Desven"
+        ],
+        "duloxetine": [
+          "Cymbalta",
+          "Andepra",
+          "Baltine",
+          "Coperin",
+          "Deotine",
+          "Depreta",
+          "Drulox",
+          "Dulocym",
+          "Duloxecor",
+          "Dytrex",
+          "Symlox",
+          "Texotine",
+          "Tixol",
+          "Xerol DR"
+        ],
+        "amitriptyline": [
+          "Endep",
+          "Amichlor",
+          "Amidep",
+          "Entrip"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "dosulepin": [
+          "Dothep",
+          "Prothiaden"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ],
+        "pethidine": [
+          "Pethidine (AstraZeneca)",
+          "Pethidine (Juno)",
+          "Pethidine Hydrochloride (DBL)",
+          "DBL Pethidine Hydrochloride"
+        ],
+        "dextromethorphan": [
+          "Benadryl For The Family Dry Forte",
+          "Bisolvon Dry",
+          "Bisolvon Dry Kids",
+          "Duro-Tuss Dextromethorphan Dry Cough Liquid Forte",
+          "Robitussin Dry Cough Forte",
+          "Strepsils Dry Cough",
+          "Tussinol For Dry Coughs",
+          "Vicks Cough",
+          "Vicks Cough Syrup",
+          "Vicks Formula 44 For Dry Coughs"
+        ],
+        "methadone": [
+          "Physeptone",
+          "Physeptone Liquid",
+          "Biodone Forte",
+          "Aspen Methadone Syrup",
+          "Aspen Methadone Liquid",
+          "Opod-D Syrup",
+          "Opod-P Liquid"
+        ],
+        "dapoxetine": [
+          "Priligy"
+        ],
+        "moclobemide": [
+          "Aurorix",
+          "Amira",
+          "Clobemix",
+          "Moclobemide Sandoz",
+          "Moclobemide-WGR"
+        ]
+      },
+      "note": "The source gives only examples and no full list, so this is a working list for the pharmacist to check. It holds the examples named in the source (tramadol, fentanyl, triptans, metoclopramide, SSRIs, SNRIs, tricyclics) plus a few well-known others (tapentadol, linezolid, lithium, trazodone, vortioxetine). The antidepressants in this list count as further serotonergic medicines when they are a different medicine from the one being checked. Count a co-prescribed cough preparation when its recorded ingredients or the exact listed oral product and form identify dextromethorphan. A cough product with unknown ingredients does not establish exposure."
+    }
+  ],
+  "rule_for_models": "Screen for overlapping courses or supplies within 60 days of Group A tranylcypromine and another serotonergic medicine, including the examples in Group B. Cite both supplies for same-day review if the medicines were prescribed together, taken together or switched without the required washout. If timing is uncertain, report a possible finding for same-day review, ask when the last dose of the first medicine and the first dose of the second were taken, and check the required interval for that pair and direction in the product information. Report no finding for a switch with a completed washout and no overlap.",
+  "cannot_be_seen": "Whether the person really takes both medicines at the same time, medicines bought over the counter (for example some cough medicines), and doses changed outside the pharmacy. Group B is only a list of examples.",
+  "ask_the_gp": "A check of whether tranylcypromine and the other serotonergic medicine can safely be taken together, and a review of the combination.",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

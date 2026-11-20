@@ -1,0 +1,44 @@
+[
+  {
+    "file": "POPI-07/pos-brand.csv",
+    "kind": "positive",
+    "about": "Possible finding: Ordine was supplied as needed for pain and only senna was supplied, but the family cannot establish how long the child took morphine.",
+    "findings": [
+      {
+        "criterion": "POPI-07",
+        "must_cite": [
+          [
+            "L027"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "POPI-07/pos-buried.csv",
+    "kind": "positive",
+    "about": "The parent confirms postoperative pain and doses spanning 84 hours for the as-needed morphine course, with senna as the only laxative supplied.",
+    "findings": [
+      {
+        "criterion": "POPI-07",
+        "must_cite": [
+          [
+            "L025"
+          ],
+          [
+            "L027"
+          ],
+          [
+            "L028"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "POPI-07/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The uncovered March morphine course ended at exactly 48 hours, and lactulose covered the separate four-day course in September.",
+    "findings": []
+  }
+]

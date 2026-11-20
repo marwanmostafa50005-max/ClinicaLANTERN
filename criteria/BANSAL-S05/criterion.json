@@ -1,0 +1,203 @@
+{
+  "id": "BANSAL-S05",
+  "label": "Bansal S05: opioid with dementia",
+  "family": "BANSAL",
+  "title": "Ongoing opioid in a person with dementia",
+  "statement": "Persistent prescription of opioid analgesics to a patient with dementia [64, 65]",
+  "statement_origin": "published",
+  "source": {
+    "document": "Bansal N, et al. Development of prescribing indicators related to opioid-related harm in patients with chronic pain in primary care. BMC Med 2024;22:5, Tables 3-4",
+    "citation": "Bansal N, Campbell SM, Lin C-Y, Ashcroft DM, Chen L-C. Development of prescribing indicators related to opioid-related harm in patients with chronic pain in primary care - a modified e-Delphi study. BMC Med 2024;22:5. doi:10.1186/s12916-023-03213-x",
+    "doi": "10.1186/s12916-023-03213-x",
+    "url": "https://doi.org/10.1186/s12916-023-03213-x",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Bansal N, Campbell SM, Lin C-Y, Ashcroft DM, Chen L-C. Development of prescribing indicators related to opioid-related harm in patients with chronic pain in primary care - a modified e-Delphi study. BMC Med 2024;22:5. doi:10.1186/s12916-023-03213-x",
+    "modification_notice": "Statement text reproduced without changes. Medicine groups, brands and rules added by ClinicaLANTERN."
+  },
+  "plain_summary": "Opioids can add to confusion, drowsiness and falls in a person with dementia.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Opioid pain medicines",
+      "ingredients": [
+        "buprenorphine",
+        "codeine",
+        "fentanyl",
+        "hydromorphone",
+        "methadone",
+        "morphine",
+        "oxycodone",
+        "tapentadol",
+        "tramadol",
+        "pethidine"
+      ],
+      "brands": {
+        "buprenorphine": [
+          "Norspan",
+          "Temgesic",
+          "Bupredermal",
+          "B-Patch"
+        ],
+        "codeine": [
+          "Panadeine Forte",
+          "Panadeine",
+          "Mersyndol",
+          "Codphos",
+          "Codalgin Forte",
+          "Comfarol Forte",
+          "Prodeine Forte",
+          "Mersyndol Forte",
+          "Nurofen Plus",
+          "Aspalgin",
+          "Codapane Forte 500/30"
+        ],
+        "fentanyl": [
+          "Durogesic",
+          "Denpax",
+          "Fenpatch"
+        ],
+        "hydromorphone": [
+          "Jurnista",
+          "Dilaudid",
+          "Dilaudid-HP",
+          "Palladone XL"
+        ],
+        "morphine": [
+          "MS Contin",
+          "Kapanol",
+          "Ordine",
+          "Sevredol",
+          "Anamorph",
+          "MS Contin Suspension",
+          "MS Mono",
+          "MS Normal",
+          "Momex SR",
+          "RA-Morph"
+        ],
+        "oxycodone": [
+          "OxyContin",
+          "Endone",
+          "OxyNorm",
+          "Targin",
+          "Endone XR",
+          "Novacodone",
+          "Oxycodor",
+          "Oxycone",
+          "Oxylenus",
+          "Oxylieve MR",
+          "Oxyndone",
+          "Xedone"
+        ],
+        "tapentadol": [
+          "Palexia",
+          "Palexia SR",
+          "Lodat SR",
+          "Palexia IR",
+          "Tadol IR",
+          "Tadol SR",
+          "Tapal IR",
+          "Tapal SR",
+          "Tapex IR",
+          "Tapex SR",
+          "Tapexia",
+          "Tapexia SR"
+        ],
+        "tramadol": [
+          "Tramal",
+          "Zydol",
+          "Tramal SR",
+          "Durotram XR",
+          "Iptramol",
+          "Lodam",
+          "Lodam SR",
+          "Tramahexal",
+          "Tramahexal SR",
+          "Tramal Drops",
+          "Tramedo",
+          "Tramedo SR",
+          "Zydol SR"
+        ],
+        "methadone": [
+          "Physeptone",
+          "Opod-D Syrup"
+        ],
+        "pethidine": []
+      },
+      "note": "Tablets, capsules, liquids, patches and injections used for pain count. Codeine combined with paracetamol counts, for example Panadeine Forte. Targin is oxycodone with naloxone. Count methadone when the product and record support use for pain. Ask for the indication if it is unclear. Exclude methadone and buprenorphine used for opioid dependence. Generic packs that show the ingredient name with a company name count too. Count only opioid analgesics used for pain in the source population. If the indication is unknown, report at most a possible finding and ask what the product was used for. Exclude substitution treatment and codeine cough preparations. Physeptone tablets can be used for pain. Opod-D Syrup has both pain and dependence indications. Confirm its use before counting it. Opod-P Liquid, Physeptone Liquid and Biodone Forte are dependence products. Codeine with ibuprofen or aspirin counts when used for pain."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Dementia",
+      "meets": "Dementia was present during the opioid course. An unknown answer leaves the finding possible.",
+      "options": [
+        {
+          "words": "Dementia present during the opioid course",
+          "effect": "meets"
+        },
+        {
+          "words": "Dementia absent during the opioid course",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for the opioid course under review",
+      "meets": "Ask only if the product and record leave its purpose unclear and the other evidence fits. Only chronic non-cancer pain outside palliative care qualifies for this course. An unknown reason leaves the finding possible.",
+      "options": [
+        {
+          "words": "Chronic non-cancer pain outside palliative care",
+          "effect": "meets"
+        },
+        {
+          "words": "Cancer pain or palliative care",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Opioid dependence",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Another use, including cough",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Duration of the opioid course under review",
+      "meets": "Ask only when repeat prescriptions span at least three calendar months and the dates, quantities and directions leave continuity uncertain. One continuing course of at least three calendar months qualifies. A shorter course or separate courses do not. If unknown, keep the finding possible.",
+      "options": [
+        {
+          "words": "Yes, one continuing course of at least three calendar months",
+          "effect": "meets"
+        },
+        {
+          "words": "No, a shorter course or separate courses",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "In a person over 18 at supply whose dementia was present during the opioid course, cite the diagnosis and a Group A opioid supply if more than one prescription for chronic non-cancer pain forms one course of at least three months by documented course dates or by supply dates, quantities and directions. Report no finding for age 18 or younger, dementia ruled out, separate documented short courses, dependence treatment or codeine cough preparations. If the other evidence fits, report only a possible finding and ask about missing age, dementia status, the reason for this opioid course or its duration, whichever is unclear. Ask about duration only if repeat supplies span at least three calendar months and the directions or gaps leave continuity uncertain.",
+  "cannot_be_seen": "The type and stage of dementia, why the opioid was started, how pain is assessed, and care given by a carer, hospital or another pharmacy.",
+  "ask_the_gp": "A review of whether the opioid is still needed, and of non-opioid ways to manage the pain.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

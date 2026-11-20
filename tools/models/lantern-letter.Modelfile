@@ -1,0 +1,8 @@
+# ClinicaLANTERN, model 3 (Ogee): it drafts the letter for a finding the pharmacist accepted.
+# Put the two model files beside this file. With the model server up:  ollama create lantern-letter -f lantern-letter.Modelfile
+FROM ./gemma-4-26B_q4_0-it.gguf
+FROM ./gemma-4-26B-it-mmproj.gguf
+PARAMETER temperature 0
+PARAMETER seed 42
+PARAMETER top_k 1
+PARAMETER num_ctx 16384

@@ -1,0 +1,98 @@
+{
+  "id": "BRISNIK-HR-A7",
+  "label": "Brisnik A7: fluoxetine, paroxetine or bupropion with metoprolol or propranolol",
+  "family": "BRISNIK",
+  "title": "Fluoxetine, paroxetine or bupropion with metoprolol or propranolol",
+  "statement": "Prescribed fluoxetine, paroxetine, or bupropion - and the patient is co-prescribed metoprolol or propranolol (risk of bradycardia)",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2). Not endorsed by the source authors."
+  },
+  "plain_summary": "Fluoxetine, paroxetine and bupropion can raise the level of metoprolol and propranolol in the body. Together they can slow the heart too much (bradycardia). For fluoxetine with metoprolol, check whether metoprolol is being used for heart failure before supply. If it is, Australian fluoxetine product information lists this combination as contraindicated and the pharmacist should seek prescriber review before supply.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Fluoxetine, paroxetine and bupropion",
+      "ingredients": [
+        "bupropion",
+        "fluoxetine",
+        "paroxetine"
+      ],
+      "brands": {
+        "bupropion": [
+          "Zyban",
+          "Contrave",
+          "Contrave 8/90"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Zactin",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Paxtine",
+          "Aropax CR",
+          "Extine",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ]
+      },
+      "note": "Zyban is sold for stopping smoking. A supply of it still counts as bupropion. Count combination tablets containing bupropion, including Contrave with naltrexone."
+    },
+    {
+      "key": "B",
+      "name": "Metoprolol and propranolol",
+      "ingredients": [
+        "metoprolol",
+        "propranolol"
+      ],
+      "brands": {
+        "metoprolol": [
+          "Betaloc",
+          "Minax",
+          "Agtolac",
+          "Lopresor",
+          "Metatar",
+          "Metohexal",
+          "Metolol",
+          "Metrol",
+          "Metrol-XL",
+          "Minax XL",
+          "Mistrom",
+          "Tobeta-XL",
+          "Topreloc-XL",
+          "Toprol-XL"
+        ],
+        "propranolol": [
+          "Inderal",
+          "Deralin",
+          "Drofate",
+          "Hemangiol"
+        ]
+      },
+      "note": "Any dose counts."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when a Group A medicine (fluoxetine, paroxetine or bupropion) and a Group B medicine (metoprolol or propranolol) are both supplied, where supply dates overlap or fall within 60 days of each other. Name both medicines.",
+  "cannot_be_seen": "Heart rate, ECG and blood pressure results, symptoms such as dizziness or fainting, the doses actually taken, and whether the beta-blocker is used for the heart or for another reason.",
+  "ask_the_gp": "Could you review the combination, check the heart rate and consider whether an alternative would suit the reason each medicine is used?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

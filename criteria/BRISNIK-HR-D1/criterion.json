@@ -1,0 +1,120 @@
+{
+  "id": "BRISNIK-HR-D1",
+  "label": "Brisnik HR-D1",
+  "family": "BRISNIK",
+  "title": "Anticholinergic antidepressant in a person with dementia or cognitive impairment",
+  "statement": "Prescribed anticholinergic antidepressant opipramol, other TCAs (in doses ≥ 50 mg/day), or paroxetine - and the patient has cognitive impairment or dementia",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.2 candidate repairs and adopted conventions merged with attribution). Not endorsed by the source authors."
+  },
+  "plain_summary": "Opipramol or paroxetine at any dose, or another tricyclic antidepressant at 50 mg a day or more, can worsen memory and thinking, so it is a concern in a person who has dementia or cognitive impairment.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Opipramol at any dose and other tricyclic antidepressants at 50 mg/day or more",
+      "ingredients": [
+        "opipramol",
+        "amitriptyline",
+        "nortriptyline",
+        "imipramine",
+        "clomipramine",
+        "doxepin",
+        "dosulepin",
+        "trimipramine"
+      ],
+      "brands": {
+        "opipramol": [],
+        "amitriptyline": [
+          "Endep",
+          "Amichlor",
+          "Amidep",
+          "Entrip"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "dosulepin": [
+          "Dothep",
+          "Prothiaden"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ]
+      },
+      "note": "Opipramol is not sold in Australia, so it is listed by ingredient only. The source does not list which medicines are 'other TCAs', so this list is a working list for the pharmacist to check. Work out the daily dose as the strength times the number of tablets or capsules taken each day. Low-dose amitriptyline under 50 mg a day does not count. Dothiepin is the older name for dosulepin. Count a listed ingredient when its name appears with a company name."
+    },
+    {
+      "key": "B",
+      "name": "Paroxetine (any dose)",
+      "ingredients": [
+        "paroxetine"
+      ],
+      "brands": {
+        "paroxetine": [
+          "Aropax",
+          "Extine",
+          "Paxtine",
+          "Aropax CR",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ]
+      },
+      "note": "Paroxetine counts at any dose. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Dementia or cognitive impairment",
+      "meets": "A recorded diagnosis of dementia or cognitive impairment, including mild cognitive impairment, that applies during the antidepressant course.",
+      "options": [
+        {
+          "words": "Cognitive impairment or dementia was diagnosed and present during this course",
+          "effect": "meets"
+        },
+        {
+          "words": "A clinician ruled out both conditions for this course",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "The condition began only after this course ended",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Check for opipramol or Group B paroxetine at any dose, or another Group A tricyclic at 50 mg/day or more from strength and directions. Cite the qualifying supply and the diagnosis of dementia or cognitive impairment present during treatment, even after an earlier normal assessment. Exclude a course if the dose is known to be below its threshold, both conditions were clinically ruled out for that course or the condition began only afterwards. Otherwise, if dose, diagnosis or timing is unclear, cite the supply and any cognitive assessment, report a possible finding and ask for the missing information. Symptoms or a screening score alone leave the diagnosis open.",
+  "cannot_be_seen": "Whether the person has dementia or cognitive impairment, unless a line in the record says so. Why the antidepressant was started, how the person really takes it, and doses changed outside the pharmacy. A low dose used for pain or sleep looks the same as one used for depression.",
+  "ask_the_gp": "A review of whether this antidepressant is still the right choice given the person's memory or thinking, and, where the record is silent, a check of whether the person has dementia or cognitive impairment.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

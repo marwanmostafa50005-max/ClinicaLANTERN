@@ -1,0 +1,159 @@
+{
+  "id": "BANSAL-S17",
+  "label": "BANSAL S17: opioid over 3 months after surgery discharge",
+  "family": "BANSAL",
+  "title": "Opioid for over 3 months after discharge from surgery",
+  "statement": "Acute or persistent prescription of opioid analgesics to a patient for more than 3 months following the patient’s discharge from the hospital after surgery [94, 95]",
+  "statement_origin": "published",
+  "source": {
+    "document": "Bansal N, et al. Development of prescribing indicators related to opioid-related harm in patients with chronic pain in primary care. BMC Med 2024;22:5, Tables 3-4",
+    "citation": "Bansal N, Campbell SM, Lin C-Y, Ashcroft DM, Chen L-C. Development of prescribing indicators related to opioid-related harm in patients with chronic pain in primary care - a modified e-Delphi study. BMC Med 2024;22:5. doi:10.1186/s12916-023-03213-x",
+    "doi": "10.1186/s12916-023-03213-x",
+    "url": "https://doi.org/10.1186/s12916-023-03213-x",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Bansal N, Campbell SM, Lin C-Y, Ashcroft DM, Chen L-C. Development of prescribing indicators related to opioid-related harm in patients with chronic pain in primary care - a modified e-Delphi study. BMC Med 2024;22:5. doi:10.1186/s12916-023-03213-x",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.3 candidate repairs, adopted conventions and independent-audit corrections merged with attribution). Not endorsed by the source authors."
+  },
+  "plain_summary": "Continued opioid supply more than three months after surgical discharge warrants review of the reason for treatment and the recovery plan.",
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Timing of this opioid course after surgical discharge",
+      "meets": "The discharge date and the linked course show continued postoperative pain treatment more than three calendar months after discharge, or the pharmacist confirms that timing for the course in the record. A discharge without timing or linkage leaves the finding possible.",
+      "options": [
+        {
+          "words": "This postoperative course continued beyond three months after discharge",
+          "effect": "meets"
+        },
+        {
+          "words": "This postoperative course ended within three months of discharge",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "The opioid was for another reason or there was no surgical discharge",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Opioid analgesics",
+      "ingredients": [
+        "codeine",
+        "fentanyl",
+        "hydromorphone",
+        "methadone",
+        "morphine",
+        "oxycodone",
+        "tapentadol",
+        "tramadol",
+        "buprenorphine"
+      ],
+      "brands": {
+        "codeine": [
+          "Panadeine Forte (codeine with paracetamol)",
+          "Panadeine (codeine with paracetamol)",
+          "Codalgin Forte (codeine with paracetamol)",
+          "Mersyndol (codeine with paracetamol and doxylamine)",
+          "Panadeine Extra",
+          "Mersyndol Forte",
+          "Nurofen Plus",
+          "Codphos",
+          "Prodeine Forte"
+        ],
+        "fentanyl": [
+          "Durogesic",
+          "Denpax",
+          "Fenpatch"
+        ],
+        "hydromorphone": [
+          "Jurnista",
+          "Dilaudid",
+          "Dilaudid-HP",
+          "Palladone XL"
+        ],
+        "methadone": [
+          "Physeptone",
+          "Opod-D Syrup"
+        ],
+        "morphine": [
+          "MS Contin",
+          "Kapanol",
+          "Ordine",
+          "Sevredol",
+          "MS Mono",
+          "Anamorph",
+          "MS Contin Suspension",
+          "MS Normal",
+          "Momex SR",
+          "RA-Morph"
+        ],
+        "oxycodone": [
+          "OxyContin",
+          "OxyNorm",
+          "Endone",
+          "Proladone",
+          "Targin (oxycodone with naloxone)",
+          "Endone XR",
+          "Novacodone",
+          "Oxycodor",
+          "Oxycone",
+          "Oxylenus",
+          "Oxylieve MR",
+          "Oxyndone",
+          "Xedone"
+        ],
+        "tapentadol": [
+          "Palexia",
+          "Palexia SR",
+          "Lodat SR",
+          "Palexia IR",
+          "Tadol IR",
+          "Tadol SR",
+          "Tapal IR",
+          "Tapal SR",
+          "Tapex IR",
+          "Tapex SR",
+          "Tapexia",
+          "Tapexia SR"
+        ],
+        "tramadol": [
+          "Tramal",
+          "Tramal SR",
+          "Zydol",
+          "Zydol SR",
+          "Durotram",
+          "Durotram XR",
+          "Iptramol",
+          "Lodam",
+          "Lodam SR",
+          "Tramahexal",
+          "Tramahexal SR",
+          "Tramal Drops",
+          "Tramedo",
+          "Tramedo SR"
+        ],
+        "buprenorphine": [
+          "Norspan",
+          "Temgesic",
+          "B-Patch",
+          "Bupredermal"
+        ]
+      },
+      "note": "Count products supplied for pain, including generic packs labelled with the ingredient and company. Temgesic sublingual tablets are a pain product. Exclude cough linctuses and buprenorphine products for dependence, including depot injections. Exclude Biodone Forte, Opod-P Liquid and Physeptone Liquid when matching analgesic brands. For methadone, check the form and reason for supply. Physeptone tablets and Opod-D Syrup can count for pain. If the indication or Physeptone formulation is unclear, report at most a possible finding and ask what was supplied and why."
+    }
+  ],
+  "rule_for_models": "Apply to patients aged over 18. Confirm when the evidence links a Group A opioid course to postoperative pain from discharge until more than three calendar months later. Exclude cancer pain and end-of-life care. Cite the discharge or pharmacist's confirmation of timing, the link to surgery and the opioid evidence. Use supply dates, quantity, directions and any stop date. For a fixed daily dose, divide the quantity by the daily units. A maximum as-needed dose gives the shortest time the quantity could last and cannot prove continued use. An isolated later supply, an unrelated course or a course ending on or before the boundary gives no finding. When the course could qualify but age, indication, discharge timing or continuation is unclear, report a possible finding and ask only for the missing information.",
+  "cannot_be_seen": "The operation and the date of discharge if they are not recorded, ongoing pain from the operation, and whether the opioid is still needed.",
+  "ask_the_gp": "Could you confirm whether the opioid was continued for postoperative pain and review whether it is still needed? If dose reduction is appropriate, could you review the plan with the patient?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,61 @@
+[
+  {
+    "file": "EU7-F47/pos-brand.csv",
+    "kind": "positive",
+    "about": "Four Quinate supplies for a 71-year-old woman each record night leg cramps in the directions.",
+    "findings": [
+      {
+        "criterion": "EU7-F47",
+        "must_cite": [
+          [
+            "L013",
+            "L017",
+            "L021",
+            "L025"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F47/pos-buried.csv",
+    "kind": "positive",
+    "about": "Three quinine supplies in the middle of a 74-year-old man's history each record night leg cramps in the directions.",
+    "findings": [
+      {
+        "criterion": "EU7-F47",
+        "must_cite": [
+          [
+            "L032",
+            "L037",
+            "L042"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F47/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The 70-year-old woman has magnesium aspartate supplies and no quinine supply.",
+    "findings": []
+  },
+  {
+    "file": "EU7-F47/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about what quinine treats in this 71-year-old woman, so cite a quinine supply and ask what it treats.",
+    "findings": [
+      {
+        "criterion": "EU7-F47",
+        "must_cite": [
+          [
+            "L013",
+            "L017",
+            "L021",
+            "L025"
+          ]
+        ]
+      }
+    ]
+  }
+]

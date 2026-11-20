@@ -1,0 +1,94 @@
+{
+  "id": "STOPP-D20",
+  "label": "STOPP D20",
+  "family": "STOPP_START",
+  "title": "Memory supplement or nootropic in dementia",
+  "statement": "Nootropics in dementia including Gingko Biloba, piracetam, pramiracetam, phenylpiracetam, aniracetam, phosphatidylserine, modafinil, L-theanine, omega-3 fatty acids, panax ginseng, rhodiola, creatine (no evidence of efficacy).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "STOPP flags products used to improve cognition in dementia for review. For ginkgo, there is low-certainty evidence of some benefit at six months.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Nootropics and memory supplements",
+      "ingredients": [
+        "ginkgo biloba",
+        "piracetam",
+        "pramiracetam",
+        "phenylpiracetam",
+        "aniracetam",
+        "phosphatidylserine",
+        "modafinil",
+        "l-theanine",
+        "omega-3 fatty acids",
+        "panax ginseng",
+        "rhodiola",
+        "creatine"
+      ],
+      "brands": {
+        "ginkgo biloba": [
+          "Tebonin",
+          "Blackmores Ginkgo 6000 mg Tebonin EGb 761"
+        ],
+        "piracetam": [],
+        "pramiracetam": [],
+        "phenylpiracetam": [],
+        "aniracetam": [],
+        "phosphatidylserine": [],
+        "modafinil": [
+          "Modavigil",
+          "Modafin"
+        ],
+        "l-theanine": [],
+        "omega-3 fatty acids": [
+          "Omacor"
+        ],
+        "panax ginseng": [],
+        "rhodiola": [],
+        "creatine": []
+      },
+      "note": "Most of these are bought without a prescription, so a pharmacy record may show only some. Fish oil capsules count as omega-3 fatty acids. Several have no Australian brand listed, so the history may show the ingredient name or a company product name."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Dementia",
+      "meets": "A line shows that the person has dementia."
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for taking the product being checked for use in dementia",
+      "meets": "Memory or thinking is a reason for taking this product. The diagnosis of dementia must be established separately.",
+      "options": [
+        {
+          "words": "To help with memory or thinking",
+          "effect": "meets"
+        },
+        {
+          "words": "Only for another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply only to people aged 65 years or older. Below 65 there is no finding. If age is unknown, record eligibility as unresolved and confirm age before reporting either finding. Suspect D20 when dementia is documented and a Group A product is recorded as being used for cognition. Cite the supply and the evidence of dementia and intended use. If dementia or the purpose is unclear, report a possible finding, cite the Group A supply and name what is missing, unless the record establishes that the product is used solely for another indication. A normal cognitive score alone leaves dementia status uncertain. An explicit No to the Dementia question or a clinical assessment that excludes dementia gives no D20 finding.",
+  "cannot_be_seen": "Why the product is taken (for example omega-3 for blood fats or modafinil for a sleep disorder), and products bought without a record.",
+  "ask_the_gp": "Could you confirm the purpose of this product and, if it is being used for cognitive symptoms of dementia, review its likely benefits and risks for this person?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

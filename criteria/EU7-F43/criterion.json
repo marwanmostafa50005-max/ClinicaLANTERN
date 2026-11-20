@@ -1,0 +1,51 @@
+{
+  "id": "EU7-F43",
+  "label": "EU(7)-PIM: coxibs",
+  "family": "EU7",
+  "title": "Celecoxib or etoricoxib in an older person",
+  "statement": "Celecoxib | In lists: 1, 2, 5, 6 (B) | Main reason: Very high risk of GI bleeding, ulceration, or perforation, which may be fatal; cardiovascular contraindications | Dose adjustment/special considerations: The risk of bleeding may be reduced if combined with proton-pump inhibitors (use <8 weeks, low dose). E | Alternatives: Paracetamol; ibuprofen (≤3 x 400 mg/d or for a period shorter than one week); naproxen (≤2 x 250 mg/d or for a period shorter than one week). E Opioids with lower risk of delirium (e.g., tilidine/naloxone, morphine[d], oxycodone, buprenorphine, hydromorphone). E, P || Etoricoxib | In lists: 4 (A); 1, 2, 5, 6 (B) | Main reason: Very high risk of GI bleeding, ulceration, or perforation, which may be fatal; cardiovascular contraindications | Dose adjustment/special considerations: Shortest possible duration of therapy. P Start with lower dose; the risk of bleeding may be reduced if combined with proton-pump inhibitors (use <8 weeks, low dose). E | Alternatives: Paracetamol; ibuprofen (≤3 x 400 mg/d or for a period shorter than one week); naproxen (≤2 x 250 mg/d or for a period shorter than one week). E Opioids with lower risk of delirium (e.g., tilidine/naloxone, morphine[d], oxycodone, buprenorphine, hydromorphone). E, P",
+  "statement_origin": "published",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.2 candidate repairs and adopted conventions merged with attribution). Not endorsed by the source authors."
+  },
+  "plain_summary": "Celecoxib and etoricoxib can cause serious stomach or bowel bleeding in older people. They can also cause cardiovascular harm. The person’s cardiovascular history, dose and duration of use matter.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Celecoxib and etoricoxib (COX-2 inhibitors)",
+      "ingredients": [
+        "celecoxib",
+        "etoricoxib"
+      ],
+      "brands": {
+        "celecoxib": [
+          "Celebrex",
+          "Celaxib",
+          "Anacoxib",
+          "Celebrex Relief",
+          "Celetoid",
+          "Celexi",
+          "Celocox",
+          "Kudeq"
+        ],
+        "etoricoxib": [
+          "Arcoxia"
+        ]
+      },
+      "note": "Capsules and tablets count. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when celecoxib or etoricoxib (Group A) is supplied to a person aged 65 or older. One supply is enough. If the other criteria could be met and age is unknown, report only a possible finding and ask the pharmacist to confirm whether the person is 65 or older.",
+  "cannot_be_seen": "Why the medicine was started, kidney function, blood pressure, heart disease and past stomach ulcers or bleeding. The history can show a recorded supply of stomach protection. It cannot show how long the pain medicine was taken, whether the person took the stomach protection, or whether they obtained it elsewhere or bought it without a recorded supply.",
+  "ask_the_gp": "Whether the medicine is still needed, whether paracetamol or another lower-risk option would do, and the person's stomach and heart risk.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,15 @@
+2026-07-06 | Eliquis 5 mg tablet | qty 60 | repeats 3 | Take ONE tablet twice a day | Dr A. Example
+2026-07-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 2 | Take ONE tablet in the morning | Dr A. Example
+2026-07-06 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 4 | Take ONE tablet daily | Dr A. Example
+2026-07-16 | Mobic 15 mg tablet | qty 30 | repeats 2 | Take ONE tablet daily with food | Dr B. Sample
+2026-08-04 | Eliquis 5 mg tablet | qty 60 | repeats 2 | Take ONE tablet twice a day | Dr A. Example
+2026-08-04 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 1 | Take ONE tablet in the morning | Dr A. Example
+2026-08-04 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 3 | Take ONE tablet daily | Dr A. Example
+2026-08-15 | Mobic 15 mg tablet | qty 30 | repeats 1 | Take ONE tablet daily with food | Dr B. Sample
+2026-09-03 | Eliquis 5 mg tablet | qty 60 | repeats 1 | Take ONE tablet twice a day | Dr A. Example
+2026-09-03 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 0 | Take ONE tablet in the morning | Dr A. Example
+2026-09-03 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 2 | Take ONE tablet daily | Dr A. Example
+2026-09-14 | Mobic 15 mg tablet | qty 30 | repeats 0 | Take ONE tablet daily with food | Dr B. Sample
+2026-10-02 | Eliquis 5 mg tablet | qty 60 | repeats 0 | Take ONE tablet twice a day | Dr A. Example
+2026-10-02 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 5 | Take ONE tablet in the morning | Dr A. Example
+2026-10-02 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 1 | Take ONE tablet daily | Dr A. Example

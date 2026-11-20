@@ -1,0 +1,50 @@
+[
+  {
+    "file": "OPTIMISE-T2-49/pos-fact.csv",
+    "kind": "positive",
+    "about": "The October denosumab injection was due again in April. In June the clinic confirmed there was no further treatment or plan for the T12 fracture.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T2-49",
+        "must_cite": [
+          [
+            "L029"
+          ],
+          [
+            "L048"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T2-49/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about vertebral fracture, and calcium and vitamin D (by brand name only) are supplied with no osteoporosis treatment.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T2-49",
+        "must_cite": [
+          [
+            "L001",
+            "L002",
+            "L007",
+            "L010",
+            "L013",
+            "L015",
+            "L019",
+            "L021",
+            "L025",
+            "L028"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T2-49/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The fracture history records a left wrist fracture and explicitly rules out any vertebral fracture.",
+    "findings": []
+  }
+]

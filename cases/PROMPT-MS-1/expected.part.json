@@ -1,0 +1,42 @@
+[
+  {
+    "file": "PROMPT-MS-1/pos-brand.csv",
+    "kind": "positive",
+    "about": "At age 45, four consecutive 30-capsule supplies of Celebrex at one capsule daily cover 18 November 2025 through 17 March 2026.",
+    "findings": [
+      {
+        "criterion": "PROMPT-MS-1",
+        "must_cite": [
+          [
+            "L004",
+            "L007",
+            "L010",
+            "L014"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PROMPT-MS-1/pos-buried.csv",
+    "kind": "positive",
+    "about": "At age 64, two 56-tablet supplies of Naprosyn SR at one tablet daily cover 7 January through 28 April 2026 with no uncovered days.",
+    "findings": [
+      {
+        "criterion": "PROMPT-MS-1",
+        "must_cite": [
+          [
+            "L032",
+            "L038"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PROMPT-MS-1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Skin gel supplies do not count, and the two oral diclofenac supplies document separate courses of up to ten days each.",
+    "findings": []
+  }
+]

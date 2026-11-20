@@ -1,0 +1,117 @@
+{
+  "id": "MHRA-16",
+  "label": "MHRA: metformin and vitamin B12 review",
+  "family": "MHRA",
+  "title": "Metformin and reduced vitamin B12 levels",
+  "statement": "Test vitamin B12 serum levels if deficiency is suspected (for example, in patients presenting with megaloblastic anaemia or new-onset neuropathy) and consider periodic vitamin B12 monitoring in patients with risk factors for vitamin B12 deficiency.",
+  "statement_origin": "published",
+  "source": {
+    "document": "UK MHRA Drug Safety Update, Metformin and reduced vitamin B12 levels: new advice for monitoring patients at risk",
+    "citation": "Drug Safety Update volume 15, issue 11: June 2022: 1. Published 20 June 2022.",
+    "url": "https://www.gov.uk/drug-safety-update/metformin-and-reduced-vitamin-b12-levels-new-advice-for-monitoring-patients-at-risk",
+    "licence": "UK Open Government Licence v3.0",
+    "licence_status": "proposed",
+    "credit": "Contains public sector information licensed under the Open Government Licence v3.0.",
+    "modification_notice": "Statement combines the published MHRA testing and periodic monitoring advice. Plain-language fields, Australian medicine mapping, counter question and fictional histories are adaptations."
+  },
+  "plain_summary": "Metformin can lower vitamin B12 levels, with risk rising at higher doses and longer treatment. RACGP diabetes guidance supports clinically appropriate B12 assessment during prolonged metformin treatment, aligned with testing symptomatic patients and considering periodic monitoring for patients at risk. Patients should not stop metformin abruptly without prescriber advice.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Metformin and fixed-dose metformin combinations",
+      "ingredients": [
+        "metformin",
+        "empagliflozin with metformin",
+        "dapagliflozin with metformin",
+        "ertugliflozin with metformin",
+        "sitagliptin with metformin",
+        "vildagliptin with metformin",
+        "linagliptin with metformin",
+        "saxagliptin with metformin",
+        "alogliptin with metformin",
+        "glibenclamide with metformin"
+      ],
+      "brands": {
+        "metformin": [
+          "Diabex",
+          "Diabex XR",
+          "Diaformin",
+          "Diaformin XR",
+          "Formet",
+          "Glucophage",
+          "Glucohexal",
+          "Glucobete",
+          "Metex XR"
+        ],
+        "empagliflozin with metformin": [
+          "Jardiamet"
+        ],
+        "dapagliflozin with metformin": [
+          "Xigduo XR"
+        ],
+        "ertugliflozin with metformin": [
+          "Segluromet"
+        ],
+        "sitagliptin with metformin": [
+          "Janumet",
+          "Janumet XR",
+          "Sitaglo-Met",
+          "Velmetia",
+          "Sitametin",
+          "Javenko XR"
+        ],
+        "vildagliptin with metformin": [
+          "Galvumet",
+          "Vildmet"
+        ],
+        "linagliptin with metformin": [
+          "Trajentamet"
+        ],
+        "saxagliptin with metformin": [
+          "Kombiglyze XR"
+        ],
+        "alogliptin with metformin": [
+          "Nesina Met"
+        ],
+        "glibenclamide with metformin": [
+          "Glucovance"
+        ]
+      },
+      "note": "Immediate-release, extended-release, and all fixed-dose combination tablets containing metformin count. Jardiamet (empagliflozin with metformin), Xigduo XR (dapagliflozin with metformin), Segluromet (ertugliflozin with metformin), Janumet, Janumet XR, Sitaglo-Met, Velmetia, Sitametin and Javenko XR (sitagliptin with metformin), Galvumet and Vildmet (vildagliptin with metformin), Trajentamet (linagliptin with metformin), Kombiglyze XR (saxagliptin with metformin), Nesina Met (alogliptin with metformin) and Glucovance (glibenclamide with metformin) all contain metformin and count. Plain Trajenta (linagliptin alone) and plain Nesina (alogliptin alone) do not contain metformin and do not count. Generic packs that show metformin in the ingredient or brand name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Vitamin B12 deficiency symptoms or risk factors on metformin",
+      "meets": "Patient on metformin has suspected vitamin B12 deficiency symptoms (extreme tiredness, pins and needles or neuropathy, sore red tongue, pale or yellow skin, or megaloblastic anaemia) or unmonitored risk factors for vitamin B12 deficiency (low-normal baseline B12, malabsorption or GI disorder, vegan or restricted diet, or concomitant PPI or colchicine)",
+      "ask_when": {
+        "group": "A"
+      },
+      "options": [
+        {
+          "words": "New or worsening symptoms of vitamin B12 deficiency (extreme tiredness, pins and needles, sore red tongue, or suspected megaloblastic anaemia)",
+          "effect": "meets"
+        },
+        {
+          "words": "Risk factors for vitamin B12 deficiency (malabsorption, vegan or restricted diet, low-normal baseline B12, or concomitant PPI or colchicine) with no periodic B12 check",
+          "effect": "meets"
+        },
+        {
+          "words": "No symptoms suggesting B12 deficiency, and either no risk factors or periodic B12 monitoring is up to date.",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not yet asked or unknown",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "At any age, start with a Group A metformin supply. Check dated conditions, observations and relevant vitamin B12 results. Report a finding if the record shows one of the listed symptoms suggesting deficiency, such as megaloblastic anaemia or new-onset neuropathy, or a risk factor with monitoring outstanding. Cite the supply and the supporting lines. A low-normal baseline result can support the risk assessment. A low B12 result alone shows that testing occurred and does not establish a missed test. If symptoms, risk or monitoring status cannot be determined, report a possible finding, cite the supply and ask the pharmacist to check. Current monitoring clears only the risk-factor branch. Report no finding if neither branch applies or there is no Group A supply. Do not infer a monitoring interval or an age cutoff.",
+  "cannot_be_seen": "Symptoms, diet, malabsorption and other risk factors unless recorded or entered at the counter. Vitamin B12 results and their dates unless recorded. Whether metformin is actually taken, whether any monitoring is current, and medicines or supplements supplied elsewhere or bought without a prescription.",
+  "ask_the_gp": "Could you review vitamin B12 testing or monitoring for this patient taking metformin, considering any symptoms and risk factors? Risk rises with higher metformin dose and longer treatment. RACGP diabetes practice aligns with testing symptomatic patients and considering periodic monitoring for at-risk patients, without setting an interval here. Could you also review correction if deficiency is confirmed? Patients should never stop metformin abruptly without prescriber advice.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

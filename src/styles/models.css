@@ -1,0 +1,229 @@
+@font-face {
+  font-family: Cinzel;
+  font-style: normal;
+  font-weight: 500;
+  font-display: block;
+  src: url(./fonts/cinzel-latin-500-normal.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: Cinzel;
+  font-style: normal;
+  font-weight: 700;
+  font-display: block;
+  src: url(./fonts/cinzel-latin-700-normal.woff2) format('woff2');
+}
+
+.icon-block {
+  --d: clamp(100px, 27vw, 176px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  max-width: 100%;
+}
+
+@media (max-width: 360px) {
+  .icon-block {
+    --d: clamp(84px, 26vw, 100px);
+  }
+}
+
+@media (max-height: 700px) and (min-width: 600px) {
+  .icon-block {
+    --d: 160px;
+  }
+}
+
+.model-bar {
+  --model-gap: clamp(8px, 4vw, 84px);
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: var(--model-gap);
+  width: fit-content;
+  max-width: 100%;
+  height: 76px;
+  padding: 6px clamp(8px, 2vw, 16px);
+  border-radius: var(--radius);
+  background: var(--navy);
+  box-sizing: border-box;
+}
+
+.model-bar-place {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  width: var(--d, 176px);
+  min-width: 0;
+}
+
+.model-bar-logo {
+  flex: none;
+  width: 64px;
+  height: 64px;
+  shape-rendering: geometricPrecision;
+}
+
+.model-bar-name {
+  font-family: Cinzel, var(--font-display);
+  font-size: 20px;
+  font-weight: 700;
+  font-synthesis: none;
+  letter-spacing: 1.2px;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.model-bar-name--mantle {
+  color: var(--cyan);
+}
+
+.model-bar-name--lumen {
+  color: var(--lumen-on-navy);
+}
+
+.model-bar-name--ogee {
+  color: var(--gold);
+}
+
+@media (max-width: 699px) {
+  .model-bar {
+    height: 52px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+
+  .model-bar-logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .model-bar-name {
+    font-size: 13px;
+    letter-spacing: 0.8px;
+  }
+
+  .model-bar-place {
+    flex-direction: column;
+    gap: 2px;
+  }
+}
+
+@media (max-width: 699px) and (min-width: 520px) {
+  .model-bar-place {
+    flex-direction: row;
+    gap: 8px;
+  }
+}
+
+/* The two arrows (the founder's order of 19 November 2026): Mantle points at Lumen, Lumen points at Ogee.
+   Each arrow belongs to the place it starts from and sits in the middle of the free space before the next model.
+   It is taken out of the flow, so no logo and no name moves. Decoration only. The arrows are shapes painted in gold,
+   not text: the rule that keeps gold out of ordinary text colours is not touched. */
+.model-bar-arrow {
+  --arrow-length: clamp(14px, calc(var(--model-gap) - 14px), 44px);
+  --arrow-nudge: 0px;
+  position: absolute;
+  top: 50%;
+  left: calc(100% + var(--model-gap) / 2 + var(--arrow-nudge));
+  width: var(--arrow-length);
+  height: 16px;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+.model-bar-arrow::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 3px;
+  height: 4px;
+  margin-top: -2px;
+  border-radius: 2px;
+  background: var(--gold);
+}
+
+.model-bar-arrow::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 3px;
+  box-sizing: border-box;
+  width: 10px;
+  height: 10px;
+  margin-top: -5px;
+  border-top: 4px solid var(--gold);
+  border-right: 4px solid var(--gold);
+  border-radius: 1px;
+  transform: rotate(45deg);
+}
+
+/* The names differ in width, so the free space is not centred on the gap. These small shifts centre each arrow in it. */
+.model-bar-arrow--first {
+  --arrow-nudge: 3px;
+}
+
+.model-bar-arrow--second {
+  --arrow-nudge: 5px;
+}
+
+/* A short window makes the places narrower (160 px): shorter arrows. */
+@media (max-height: 700px) and (min-width: 700px) {
+  .model-bar-arrow {
+    --arrow-length: clamp(12px, calc(var(--model-gap) - 24px), 36px);
+  }
+}
+
+@media (max-width: 699px) {
+  .model-bar-arrow {
+    --arrow-length: 26px;
+    height: 12px;
+  }
+
+  .model-bar-arrow::before {
+    right: 2px;
+    height: 3px;
+    margin-top: -1.5px;
+  }
+
+  .model-bar-arrow::after {
+    right: 2px;
+    width: 8px;
+    height: 8px;
+    margin-top: -4px;
+    border-top-width: 3px;
+    border-right-width: 3px;
+  }
+
+  .model-bar-arrow--first {
+    --arrow-nudge: 2px;
+  }
+
+  .model-bar-arrow--second {
+    --arrow-nudge: 3px;
+  }
+}
+
+/* The phone layout puts each name under its logo. That needs 56 px of room, so the bar is 64 px high there.
+   At 52 px the logos and the names ran over its edges. The arrows sit level with the logos. */
+@media (max-width: 519px) {
+  .model-bar {
+    height: 64px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+
+  .model-bar-arrow {
+    --arrow-length: 22px;
+    top: calc(50% - 8px);
+  }
+
+  .model-bar-arrow--first,
+  .model-bar-arrow--second {
+    --arrow-nudge: 0px;
+  }
+}

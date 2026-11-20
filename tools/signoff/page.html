@@ -1,0 +1,1757 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sign-off: ClinicaLANTERN</title>
+<link rel="icon" href="/mark.svg">
+<style>
+/* The colours and type of ClinicaLANTERN (docs/SPEC.md section 8, src/styles/tokens.css). */
+:root {
+  --navy: #071d49; --gold: #edbf67; --cyan: #27c2d0; --cyan-dark: #0e7490; --gold-dark: #9a6200;
+  --red: #b42318; --page: #f7f9fc; --text: #14233b;
+  --muted: #4b5b76; --line: #d6deea; --line-soft: #e7ecf4; --card: #ffffff;
+  --navy-tint: #eaeef6; --cyan-tint: #e5f8fa; --gold-tint: #fdf3dc; --red-tint: #fdeceb;
+  --gold-ink: #5f3d00; --cyan-ink: #0b4f63; --red-ink: #8a1c12;
+  --font-stack: "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  --font: "Segoe UI Variable Text", "Segoe UI Variable", var(--font-stack);
+  --font-display: "Segoe UI Variable Display", "Segoe UI Variable", var(--font-stack);
+  --font-small: "Segoe UI Variable Small", "Segoe UI Variable", var(--font-stack);
+  --mono: Consolas, "Cascadia Mono", "Courier New", monospace;
+  --radius: 14px; --radius-small: 10px;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html, body { height: 100%; }
+html {
+  font-optical-sizing: auto;
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  accent-color: var(--navy);
+  scrollbar-color: var(--line) transparent;
+}
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  border: 2px solid transparent; border-radius: 999px; background: var(--line); background-clip: padding-box;
+}
+::selection { background: var(--gold-tint); color: var(--navy); }
+body {
+  margin: 0; display: flex; flex-direction: column; overflow: hidden;
+  background: var(--page); color: var(--text); font-family: var(--font); font-size: 16px; line-height: 1.45;
+}
+button, input, textarea, select { font: inherit; color: inherit; }
+p { margin: 0; }
+:focus-visible { outline: 3px solid var(--navy); outline-offset: 2px; }
+[hidden] { display: none !important; }
+
+/* ---------- the top bar ---------- */
+.bar {
+  flex: none; display: flex; align-items: center; gap: 14px; min-height: 50px; padding: 4px 16px;
+  background: var(--navy); color: #fff;
+}
+.bar :focus-visible { outline-color: var(--gold); }
+.mark { flex: none; width: 34px; height: 34px; border-radius: 8px; box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4); }
+.wordmark { flex: none; font-size: 1.3rem; font-weight: 300; white-space: nowrap; line-height: 1; }
+.wordmark .wm-l { color: var(--gold); font-size: 1.3em; margin: 0 0.03em; }
+.wordmark b { font-weight: 700; letter-spacing: 0.085em; }
+.tool-name { flex: none; padding-left: 14px; border-left: 1px solid rgba(255, 255, 255, 0.3); font-weight: 600; white-space: nowrap; }
+.counts { flex: none; display: flex; gap: 6px; margin-left: auto; }
+.chip {
+  display: inline-flex; align-items: baseline; gap: 5px; padding: 2px 9px; border-radius: 999px;
+  background: rgba(255, 255, 255, 0.1); border: 1px solid rgba(255, 255, 255, 0.22); font-size: 0.85rem; white-space: nowrap;
+}
+.chip b { font-size: 1.05rem; font-variant-numeric: tabular-nums lining-nums; }
+.chip--signed b { color: #7fe3ec; }
+.chip--change b, .chip--again b { color: var(--gold); }
+button.chip { font: inherit; font-size: 0.85rem; color: var(--navy); background: var(--gold); border-color: var(--gold); font-weight: 600; cursor: pointer; }
+button.chip:hover { background: #f5d48f; }
+.progress { flex: none; display: grid; gap: 3px; width: 140px; font-size: 0.78rem; }
+.progress-track { display: flex; height: 10px; border-radius: 5px; overflow: hidden; background: rgba(255, 255, 255, 0.2); }
+.progress-track i { display: block; height: 100%; }
+.seg-signed { background: var(--cyan); }
+.seg-change { background: var(--gold); }
+.seg-nd { background: repeating-linear-gradient(45deg, #9aa7bd 0 3px, #6c7a93 3px 6px); }
+.who { flex: 0 1 auto; min-width: 0; display: flex; align-items: baseline; gap: 6px; font-size: 0.88rem; white-space: nowrap; }
+.who-name { min-width: 0; max-width: 190px; overflow: hidden; text-overflow: ellipsis; font-weight: 600; }
+.who button { flex: none; padding: 0; border: 0; background: none; color: var(--gold); text-decoration: underline; cursor: pointer; font-size: 0.84rem; }
+
+.filters {
+  flex: none; display: flex; flex-wrap: wrap; align-items: center; gap: 6px 7px; min-height: 46px; padding: 6px 16px;
+  background: #fff; border-bottom: 1px solid var(--line); font-size: 0.86rem;
+}
+.filters input[type="search"], .filters select {
+  height: 32px; padding: 2px 6px; border: 1.5px solid #b9c4d8; border-radius: 8px; background: #fff;
+}
+.filters input[type="search"] { width: 176px; }
+.filters select { max-width: 150px; }
+.filters label.tick { display: inline-flex; align-items: center; gap: 5px; white-space: nowrap; cursor: pointer; }
+.filters .is-on { border-color: var(--navy); background: var(--navy-tint); font-weight: 600; }
+.mini {
+  height: 32px; padding: 2px 10px; border: 1.5px solid #b9c4d8; border-radius: 8px; background: #fff; color: var(--navy);
+  font-weight: 600; cursor: pointer; white-space: nowrap;
+}
+.mini:hover:not(:disabled) { background: var(--navy-tint); border-color: var(--navy); }
+.mini:disabled { color: #8a96ab; background: #f1f3f7; cursor: not-allowed; }
+.keys { margin-left: auto; color: var(--muted); font-size: 0.8rem; white-space: nowrap; }
+.keys span { margin-left: 7px; }
+kbd {
+  display: inline-block; min-width: 1.5em; padding: 0 4px; border: 1px solid #b9c4d8; border-bottom-width: 2px; border-radius: 5px;
+  background: #fff; color: var(--navy); font-family: var(--font); font-size: 0.78rem; font-weight: 700; text-align: center;
+}
+.alarm { flex: none; padding: 8px 16px; background: var(--red); color: #fff; font-weight: 600; }
+.signoff-line {
+  flex: none; padding: 7px 16px; background: var(--gold-tint); border-bottom: 1px solid #e7c98a;
+  color: var(--gold-ink); font-size: 0.9rem; font-weight: 600;
+}
+.signoff-line.is-bad { background: var(--red-tint); border-color: #f1b5af; color: var(--red-ink); }
+.final-test { margin-top: 6px; color: var(--navy); font-size: 0.95rem; line-height: 1.4; }
+.final-test .ft-mark {
+  display: inline-block; margin-right: 8px; padding: 1px 8px; border-radius: 999px; font-size: 0.72rem;
+  font-weight: 700; letter-spacing: 0.04em; vertical-align: baseline;
+}
+.ft-mark--pass { background: var(--cyan-tint); color: var(--cyan-ink); border: 1px solid #a9e3ea; }
+.ft-mark--fail { background: var(--red-tint); color: var(--red-ink); border: 1px solid #f1b5af; }
+.ft-mark--wait { background: var(--gold-tint); color: var(--gold-ink); border: 1px solid #e7c98a; }
+.ft-mark--plain { background: #fff; color: var(--muted); border: 1px solid var(--line); }
+.row-set-aside { opacity: 0.72; }
+.row-set-aside .row-title::after { content: ' · Set aside'; color: var(--red-ink); font-weight: 600; }
+
+/* ---------- the three columns ---------- */
+.work { flex: 1; min-height: 0; display: grid; grid-template-columns: 252px minmax(0, 1fr) 404px; }
+.list { overflow-x: hidden; overflow-y: auto; background: #fff; border-right: 1px solid var(--line); }
+.sheet { overflow: auto; padding: 16px 22px 70px; outline: none; }
+.side { overflow: auto; background: #fff; border-left: 1px solid var(--line); padding: 12px 16px 40px; }
+
+/* ---------- the list ---------- */
+.list-head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 8px; padding: 7px 12px; color: var(--muted); font-size: 0.82rem; font-weight: 600; }
+.list-head .link { padding: 0; font-size: 0.82rem; }
+.row > span:last-child { min-width: 0; overflow: hidden; display: flex; flex-direction: column; align-items: flex-start; gap: 2px; }
+.row .final-test { font-size: 0.76rem; font-weight: 500; white-space: normal; line-height: 1.35; }
+.list-warn { margin: 0 8px 6px; padding: 7px 10px; border: 1px solid #f1b5af; border-radius: 8px; background: var(--red-tint); color: var(--red-ink); font-size: 0.82rem; }
+.list-section {
+  position: sticky; top: 0; z-index: 1; padding: 5px 12px; background: var(--navy-tint); color: var(--navy);
+  border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); font-size: 0.76rem; font-weight: 700; letter-spacing: 0.07em; text-transform: uppercase;
+}
+.row {
+  display: grid; grid-template-columns: 22px minmax(0, 1fr); align-items: center; gap: 8px; width: 100%; padding: 6px 10px 6px 10px;
+  border: 0; border-bottom: 1px solid var(--line-soft); border-left: 4px solid transparent; background: #fff; text-align: left; cursor: pointer;
+}
+.row:hover { background: #f3f6fb; }
+.row.is-current { background: var(--gold-tint); border-left-color: var(--gold-dark); }
+.row-id { display: flex; align-items: baseline; gap: 6px; color: var(--navy); font-size: 0.86rem; font-weight: 700; white-space: nowrap; font-variant-numeric: tabular-nums lining-nums; }
+.row-id small { margin-left: auto; font-size: 0.66rem; font-weight: 700; letter-spacing: 0.04em; }
+.row-id .r-pass { color: var(--cyan-dark); }
+.row-id .r-fail { color: var(--red); }
+.row-id .r-audit { color: var(--ink-soft, #5a6472); margin-left: 6px; }
+.row-id .r-audit--you { color: var(--red); font-weight: 700; }
+.audit-points { margin: 8px 0 0; padding-left: 18px; }
+.audit-points li { margin: 6px 0; }
+.audit-change { color: var(--ink-soft, #5a6472); margin-top: 3px; white-space: pre-wrap; }
+.row-title { display: block; color: var(--muted); font-size: 0.8rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.dot {
+  display: grid; place-items: center; width: 20px; height: 20px; border-radius: 50%; border: 2px solid #9aa7bd;
+  color: #fff; font-size: 0.72rem; font-weight: 700; line-height: 1;
+}
+.s-signed .dot, .s-file_signed .dot { background: var(--cyan-dark); border-color: var(--cyan-dark); }
+.s-change .dot, .s-nd_change .dot { background: var(--gold); border-color: var(--gold-dark); color: var(--navy); }
+.s-look_again .dot { background: #fff; border-color: var(--red); color: var(--red); }
+.s-nd_open .dot { border-style: dashed; color: #6c7a93; }
+.s-nd_agreed .dot { background: #6c7a93; border-color: #6c7a93; }
+.list-empty { padding: 16px 12px; color: var(--muted); font-size: 0.9rem; }
+.list-foot { padding: 12px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.78rem; overflow-wrap: anywhere; }
+.list-foot p + p { margin-top: 6px; }
+
+/* ---------- the criterion ---------- */
+.sheet-inner { display: grid; gap: 16px; max-width: 900px; margin: 0 auto; }
+.head-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 6px; }
+.tag {
+  display: inline-flex; align-items: center; padding: 2px 10px; border: 1px solid transparent; border-radius: 999px;
+  background: var(--navy-tint); color: var(--navy); font-size: 0.8rem; font-weight: 600; white-space: nowrap;
+}
+.tag--warn { background: var(--gold-tint); border-color: #e7c98a; color: var(--gold-ink); }
+.tag--red { background: var(--red-tint); border-color: #f1b5af; color: var(--red-ink); }
+.tag--ok { background: var(--cyan-tint); border-color: #a9e3ea; color: var(--cyan-ink); }
+.tag--plain { background: #fff; border-color: var(--line); color: var(--muted); font-family: var(--mono); font-weight: 400; }
+.head-label { margin: 0; color: var(--navy); font-family: var(--font-display); font-size: 1.7rem; font-weight: 700; line-height: 1.15; }
+.head-title { margin-top: 3px; font-size: 1.2rem; }
+.head-plain { margin-top: 6px; color: var(--muted); }
+.jump-row {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 14px; padding: 6px 12px; border: 1px solid var(--line);
+  border-radius: var(--radius-small); background: #fff; color: var(--muted); font-size: 0.86rem;
+}
+.jump-row .link { padding: 0; font-size: 0.86rem; }
+.jump-row .link.is-changed { color: var(--red); }
+.block h3, .side h3 {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 0 0 6px; color: var(--muted);
+  font-size: 0.78rem; font-weight: 700; letter-spacing: 0.07em; text-transform: uppercase;
+}
+.block h3 .tag, .side h3 .tag { letter-spacing: 0; text-transform: none; }
+.block p.body { font-size: 1.04rem; }
+.quote {
+  margin: 0; padding: 12px 16px; border-left: 4px solid var(--navy); border-radius: 0 var(--radius-small) var(--radius-small) 0;
+  background: var(--navy-tint); color: var(--navy); font-size: 1.1rem; line-height: 1.5; white-space: pre-line; overflow-wrap: anywhere;
+}
+.quote.is-short { max-height: 17.5em; overflow: hidden; -webkit-mask-image: linear-gradient(#000 70%, transparent); mask-image: linear-gradient(#000 70%, transparent); }
+.quote-row + .quote-row { margin-top: 10px; padding-top: 10px; border-top: 1px solid #c9d3e6; }
+.quote-row b { display: block; }
+.quote-row span { display: block; font-size: 1rem; }
+.credit { margin-top: 6px; color: var(--muted); font-size: 0.88rem; }
+.link {
+  padding: 2px 0; border: 0; background: none; color: var(--cyan-dark); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; cursor: pointer;
+}
+.link:hover { color: var(--navy); }
+.group { padding: 10px 14px; border: 1px solid var(--line); border-radius: var(--radius-small); background: var(--card); }
+.group + .group { margin-top: 8px; }
+.group-name { color: var(--navy); font-weight: 700; }
+.group-ing { margin-top: 2px; font-size: 1.04rem; }
+.group-brands { margin-top: 4px; color: #33435e; font-size: 0.92rem; }
+.group-brands i { color: var(--muted); font-style: normal; }
+.group-note { margin-top: 4px; color: var(--muted); font-size: 0.88rem; }
+.facts { margin: 0; padding: 0; list-style: none; display: grid; gap: 6px; }
+.facts li { padding: 8px 12px; border: 1px solid #e7c98a; border-radius: var(--radius-small); background: #fffaf0; }
+.facts small { display: block; margin-top: 2px; color: var(--gold-ink); font-size: 0.9rem; }
+.history { padding: 9px 14px; border: 1px solid var(--line); border-radius: var(--radius-small); background: var(--card); }
+.history + .history { margin-top: 8px; }
+.history-top { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; }
+.history-top .link { margin-left: auto; }
+.history-file { color: var(--muted); font-family: var(--mono); font-size: 0.82rem; }
+.history-about { margin-top: 4px; }
+.rows-box { margin-top: 8px; max-height: 372px; overflow: auto; border: 1px solid var(--line); border-radius: 8px; }
+table.rows { width: 100%; border-collapse: collapse; font-size: 0.82rem; line-height: 1.35; }
+table.rows th { position: sticky; top: 0; padding: 5px 6px; background: var(--navy-tint); color: var(--navy); text-align: left; font-size: 0.72rem; letter-spacing: 0.04em; text-transform: uppercase; white-space: nowrap; }
+table.rows td { padding: 4px 6px; border-top: 1px solid var(--line-soft); vertical-align: top; }
+table.rows td.id { color: var(--muted); font-family: var(--mono); white-space: nowrap; }
+table.rows td.date, table.rows td.prescriber { white-space: nowrap; font-variant-numeric: tabular-nums lining-nums; }
+table.rows tr.hit td { background: var(--gold-tint); color: #2e1e00; }
+table.rows tr.hit td.id { color: var(--gold-dark); font-weight: 700; box-shadow: inset 4px 0 0 var(--gold-dark); }
+table.rows tr.fact td { font-style: italic; }
+.rows-note { margin-top: 6px; color: var(--muted); font-size: 0.84rem; }
+.note { padding: 10px 14px; border: 1px solid var(--line); border-radius: var(--radius-small); background: #fff; }
+.note--warn { background: var(--gold-tint); border-color: #e7c98a; color: var(--gold-ink); }
+.note--error { background: var(--red-tint); border-color: #f1b5af; color: var(--red-ink); }
+.note--ok { background: var(--cyan-tint); border-color: #a9e3ea; color: var(--cyan-ink); }
+.file-line { color: var(--muted); font-size: 0.8rem; overflow-wrap: anywhere; }
+.plain-pre { margin: 0; white-space: pre-wrap; font-family: var(--mono); font-size: 0.84rem; }
+
+/* ---------- the side: decision, result, second opinion, doubts ---------- */
+.pos { display: flex; justify-content: space-between; gap: 8px; color: var(--muted); font-size: 0.86rem; font-weight: 600; }
+.status { margin-top: 6px; padding: 8px 12px; border: 1px solid var(--line); border-radius: var(--radius-small); background: var(--page); font-size: 0.95rem; }
+.status--ok { background: var(--cyan-tint); border-color: #a9e3ea; color: var(--cyan-ink); }
+.status--warn { background: var(--gold-tint); border-color: #e7c98a; color: var(--gold-ink); }
+.status--again { background: var(--red-tint); border-color: #f1b5af; color: var(--red-ink); }
+.status blockquote { margin: 5px 0 0; padding: 4px 0 4px 10px; border-left: 3px solid var(--gold-dark); white-space: pre-wrap; overflow-wrap: anywhere; max-height: 8.5em; overflow: auto; }
+.status .link { margin-right: 14px; font-size: 0.9rem; }
+.status ul { margin: 4px 0 0; padding-left: 20px; }
+.unsaved { margin-top: 6px; padding: 8px 12px; border: 1.5px solid var(--gold-dark); border-radius: var(--radius-small); background: var(--gold-tint); color: var(--gold-ink); font-size: 0.95rem; }
+.unsaved .link { margin-right: 14px; font-size: 0.9rem; }
+.big {
+  display: flex; align-items: center; justify-content: center; gap: 12px; width: 100%; margin-top: 8px; border-radius: 12px;
+  font-weight: 700; letter-spacing: 0.05em; cursor: pointer; transition: background-color 0.12s ease, transform 0.08s ease;
+}
+.big:active:not(:disabled) { transform: translateY(1px); }
+.big--sign { min-height: 60px; border: 2px solid var(--navy); background: var(--navy); color: #fff; font-size: 1.3rem; }
+.big--sign:hover:not(:disabled) { background: #0f2f73; }
+.big--change { min-height: 50px; border: 2px solid var(--gold-dark); background: #fff; color: var(--gold-ink); font-size: 1.1rem; }
+.big--change:hover:not(:disabled) { background: var(--gold-tint); }
+.big:disabled { border-color: #dde3ec; background: #eef1f6; color: #6f7c93; cursor: not-allowed; }
+.keycap { display: inline-grid; place-items: center; min-width: 26px; height: 26px; padding: 0 6px; border-radius: 6px; font-size: 0.84rem; letter-spacing: 0; }
+.big--sign .keycap { background: var(--gold); color: var(--navy); }
+.big--change .keycap { background: var(--gold-tint); border: 1px solid var(--gold-dark); }
+.big:disabled .keycap { background: #dde3ec; color: #6f7c93; border: 0; }
+.nav { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; margin-top: 8px; }
+.nav .mini { height: 36px; padding: 2px 4px; }
+.change-box { margin-top: 8px; padding: 10px 12px; border: 1.5px solid var(--gold-dark); border-radius: var(--radius-small); background: #fffaf0; }
+.change-box label { display: block; color: var(--gold-ink); font-weight: 700; }
+.change-box textarea { display: block; width: 100%; min-height: 104px; margin-top: 6px; padding: 8px 10px; border: 1.5px solid #b9c4d8; border-radius: 8px; background: #fff; resize: vertical; }
+.change-box .row2 { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 8px; }
+.change-box .hint { color: var(--muted); font-size: 0.8rem; }
+.btn-solid { height: 36px; padding: 2px 14px; border: 0; border-radius: 8px; background: var(--navy); color: #fff; font-weight: 600; cursor: pointer; }
+.btn-solid:hover { background: #0f2f73; }
+.saved-note { margin-top: 8px; color: var(--muted); font-size: 0.8rem; }
+.side section { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--line-soft); }
+.side .small { color: var(--muted); font-size: 0.84rem; }
+.side ul, .side ol { margin: 4px 0 0; padding-left: 22px; }
+.side li { margin-top: 3px; }
+.side li::marker { color: var(--muted); font-size: 0.86rem; }
+.doubt + .doubt { margin-top: 10px; }
+.doubt-from { color: var(--muted); font-size: 0.8rem; font-weight: 600; }
+.doubt p { margin-top: 4px; }
+.side details { margin-top: 8px; }
+.side summary { cursor: pointer; color: var(--cyan-dark); font-weight: 600; font-size: 0.9rem; }
+.side details > div { margin-top: 4px; padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--page); font-size: 0.9rem; }
+.side details p + p { margin-top: 6px; }
+code { font-family: var(--mono); font-size: 0.9em; }
+
+/* ---------- the name box and the small messages ---------- */
+.overlay { position: fixed; inset: 0; z-index: 60; display: grid; place-items: center; padding: 16px; background: rgba(7, 29, 73, 0.55); }
+.name-card { width: min(520px, 100%); padding: 24px 26px; border-radius: var(--radius); background: #fff; box-shadow: 0 20px 50px rgba(7, 29, 73, 0.4); border-top: 6px solid var(--gold); }
+.name-card h2 { margin: 0 0 6px; color: var(--navy); font-size: 1.4rem; }
+.name-card input { display: block; width: 100%; height: 46px; margin-top: 12px; padding: 4px 12px; border: 1.5px solid #b9c4d8; border-radius: var(--radius-small); font-size: 1.1rem; }
+.name-card .row2 { display: flex; align-items: center; gap: 10px; margin-top: 14px; }
+.name-card .btn-solid { height: 44px; padding: 4px 22px; font-size: 1.05rem; }
+.name-card .err { color: var(--red); font-weight: 600; }
+.toast {
+  position: fixed; left: 50%; bottom: 18px; z-index: 70; transform: translateX(-50%); max-width: min(640px, calc(100vw - 32px));
+  padding: 10px 18px; border-radius: var(--radius); background: var(--navy); color: #fff; box-shadow: 0 14px 32px rgba(7, 29, 73, 0.36); font-weight: 600;
+}
+.toast.is-bad { background: var(--red); }
+.empty { padding: 40px 18px; border: 1.5px dashed var(--line); border-radius: var(--radius); color: var(--muted); text-align: center; font-size: 1.05rem; }
+
+@media (max-width: 1180px) {
+  .work { grid-template-columns: 210px minmax(0, 1fr) 340px; }
+  .tool-name { display: none; }
+}
+@media (max-width: 900px) {
+  body { overflow: auto; }
+  html, body { height: auto; }
+  .work { display: block; }
+  .list { max-height: 240px; border-right: 0; border-bottom: 1px solid var(--line); }
+  .side { border-left: 0; border-top: 1px solid var(--line); }
+  .keys, .progress { display: none; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition-duration: 0.01ms !important; } }
+</style>
+</head>
+<body>
+<header>
+  <div class="bar">
+    <img class="mark" src="/mark.svg" alt="">
+    <div class="wordmark" aria-label="ClinicaLANTERN"><span aria-hidden="true">Clinica<span class="wm-l">L</span><b>ANTERN</b></span></div>
+    <div class="tool-name">Clinical reviewer sign-off</div>
+    <div class="counts" id="counts" aria-live="polite"></div>
+    <div class="progress" id="progress"></div>
+    <div class="who" id="who"></div>
+  </div>
+  <div class="signoff-line" id="signoff-line" aria-live="polite"></div>
+  <div class="filters" role="search">
+    <input type="search" id="q" placeholder="Search the list" title="Search by number, name or medicine" aria-label="Search the criteria by number, name or medicine" autocomplete="off" spellcheck="false">
+    <select id="f-family" aria-label="Family"><option value="">All families</option></select>
+    <select id="f-set" aria-label="Group">
+      <option value="">All groups</option><option value="ten">First ten</option><option value="reserve">Reserves</option><option value="further">Further</option>
+    </select>
+    <select id="f-signoff" aria-label="Sign-off list"></select>
+    <select id="f-status" aria-label="Decision" hidden>
+      <option value="">Any decision</option><option value="todo">Not signed</option><option value="signed">Signed</option>
+      <option value="change">Needs a change</option><option value="again">Look again</option><option value="nd">Not drafted</option>
+    </select>
+    <select id="f-result" aria-label="Scored result">
+      <option value="">Any result</option><option value="pass">PASS</option><option value="fail">Not passing</option><option value="none">Not scored</option>
+    </select>
+    <select id="f-opinion" aria-label="Second opinion">
+      <option value="">Any opinion</option><option value="agree">Gemini agrees</option><option value="doubt">Gemini doubts</option><option value="none">No opinion yet</option>
+    </select>
+    <select id="f-audit" aria-label="Audit">
+      <option value="">Any audit</option><option value="foryou">audit: for you</option>
+      <option value="change">audit: change</option><option value="sound">audit: sound</option>
+      <option value="founder">audit: founder</option><option value="none">audit: not yet reported</option>
+    </select>
+    <label class="tick"><input type="checkbox" id="f-doubts"> With doubts</label>
+    <button type="button" class="link" id="lists-link">Condition lists</button>
+    <span class="keys">Keys:<span><kbd>S</kbd> sign</span><span><kbd>C</kbd> needs a change</span><span><kbd>&larr;</kbd> <kbd>&rarr;</kbd> back, next</span><span><kbd>U</kbd> undo</span></span>
+  </div>
+  <div class="alarm" id="alarm" role="alert" hidden></div>
+</header>
+<main class="work">
+  <nav class="list" id="list" aria-label="The criteria"></nav>
+  <article class="sheet" id="sheet" tabindex="-1" aria-label="The criterion"></article>
+  <aside class="side" id="side" aria-label="Your decision"></aside>
+</main>
+
+<div class="overlay" id="name-box" hidden>
+  <form class="name-card" id="name-form">
+    <h2>Your name as clinical reviewer</h2>
+    <p>Type your name once. It is kept with your signatures.</p>
+    <input type="text" id="name-input" maxlength="80" autocomplete="name" aria-label="Your name as clinical reviewer">
+    <div class="row2">
+      <button type="submit" class="btn-solid">Start</button>
+      <button type="button" class="link" id="name-cancel" hidden>Cancel</button>
+      <span class="err" id="name-err"></span>
+    </div>
+  </form>
+</div>
+<div class="toast" id="toast" role="status" hidden></div>
+
+<script>
+'use strict';
+
+// ---------- small tools ----------
+const $ = id => document.getElementById(id);
+
+/** Builds an element. Text is always added as text, never as markup, so a file cannot put code on the page. */
+function el(tag, attrs, ...kids) {
+  const node = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs || {})) {
+    if (v === false || v === null || v === undefined) continue;
+    if (k === 'class') node.className = v;
+    else if (k.startsWith('on')) node.addEventListener(k.slice(2), v);
+    else node.setAttribute(k, v === true ? '' : v);
+  }
+  for (const kid of kids.flat(Infinity)) {
+    if (kid === false || kid === null || kid === undefined || kid === '') continue;
+    node.append(kid.nodeType ? kid : document.createTextNode(String(kid)));
+  }
+  return node;
+}
+
+/**
+ * One medicine list under a condition fact. The heading stays as it is.
+ * An https page is a link in the existing link style. Any other source is plain words.
+ */
+function markerMedicineLine(heading, items) {
+  const bits = [heading];
+  const rows = Array.isArray(items) ? items.filter(item => item && typeof item.name === 'string' && item.name) : [];
+  if (rows.length) {
+    bits.push(' ');
+    rows.forEach((item, i) => {
+      if (i) bits.push('; ');
+      bits.push(item.name, ' ');
+      const href = typeof item.href === 'string' ? item.href : '';
+      if (/^https:\/\//i.test(href)) bits.push(el('a', { class: 'link', href, target: '_blank', rel: 'noopener' }, item.words || href));
+      else bits.push(item.words || '');
+    });
+  }
+  return el('small', null, bits);
+}
+
+/** The one line under a condition fact, and the look-again line when the list has changed since. */
+function listDecisionLines(mark) {
+  if (!mark) return [];
+  if (mark.state === 'changed_since') {
+    const lines = ['You decided this on an earlier version of the list. It has changed since: look again.'];
+    if (mark.namesKnown) {
+      lines.push('Added: ' + (mark.added && mark.added.length ? mark.added.join(', ') : 'nothing') + '.');
+      lines.push('Taken out: ' + (mark.removed && mark.removed.length ? mark.removed.join(', ') : 'nothing') + '.');
+    } else {
+      lines.push('The names of what was added and taken out were not kept with that decision.');
+    }
+    return lines;
+  }
+  if (mark.state === 'right') return [`You marked this list right on ${dayAndTime(mark.at)}.`];
+  if (mark.state === 'change') return [`You asked for a change to this list: ${mark.note}`];
+  return ['You have not looked at this list yet.'];
+}
+
+/** Puts these children into a node, in place of what was there. Empty ones are left out. */
+function fill(node, ...kids) {
+  node.replaceChildren(...kids.flat(Infinity).filter(kid => kid !== false && kid !== null && kid !== undefined && kid !== ''));
+  return node;
+}
+
+async function api(address, body) {
+  const options = { cache: 'no-store' };
+  if (body !== undefined) {
+    options.method = 'POST';
+    options.headers = { 'Content-Type': 'application/json', 'X-Signoff': '1' };
+    options.body = JSON.stringify(body);
+  }
+  let res;
+  try { res = await fetch(address, options); } catch {
+    const e = new Error('The sign-off page is not running on this computer. Start it again, then reload this page.');
+    e.down = true;
+    throw e;
+  }
+  let data = null;
+  try { data = await res.json(); } catch { /* no body */ }
+  if (!res.ok) {
+    const e = new Error((data && data.message) || `The page answered with an error (${res.status}).`);
+    e.status = res.status;
+    e.data = data || {};
+    throw e;
+  }
+  return data;
+}
+
+function dayAndTime(iso) {
+  const d = new Date(iso);
+  if (!iso || Number.isNaN(d.getTime())) return '';
+  return d.toLocaleDateString('en-AU', { day: 'numeric', month: 'short', year: 'numeric' }) + ' at ' +
+    d.toLocaleTimeString('en-AU', { hour: 'numeric', minute: '2-digit' });
+}
+function dayOnly(iso) {
+  const d = new Date(iso);
+  return !iso || Number.isNaN(d.getTime()) ? '' : d.toLocaleDateString('en-AU', { day: 'numeric', month: 'short', year: 'numeric' });
+}
+const plural = (n, one, many) => `${n} ${n === 1 ? one : many}`;
+
+let toastTimer = 0;
+function toast(text, bad = false) {
+  const box = $('toast');
+  box.textContent = text;
+  box.className = bad ? 'toast is-bad' : 'toast';
+  box.hidden = false;
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => { box.hidden = true; }, bad ? 7000 : 3200);
+}
+
+function alarm(text) {
+  $('alarm').textContent = text || '';
+  $('alarm').hidden = !text;
+}
+
+/** Text with **bold** and `code` marks, as nodes. */
+function marked(text) {
+  return String(text).split(/(\*\*[^*]+\*\*|`[^`]+`)/).map(part => {
+    if (part.startsWith('**') && part.endsWith('**') && part.length > 4) return el('strong', null, part.slice(2, -2));
+    if (part.startsWith('`') && part.endsWith('`') && part.length > 2) return el('code', null, part.slice(1, -1));
+    return part;
+  });
+}
+
+/** Lines from a notes file: numbered points, dash points and plain lines. */
+function notesBlock(lines) {
+  const out = [];
+  let list = null;
+  for (const raw of lines) {
+    const line = String(raw).trim();
+    if (!line) { list = null; continue; }
+    const numbered = /^(\d+)\.\s+(.*)$/.exec(line);
+    const dashed = /^[-*]\s+(.*)$/.exec(line);
+    if (numbered) {
+      if (!list || list.tagName !== 'OL') { list = el('ol', null); out.push(list); }
+      list.append(el('li', { value: numbered[1] }, marked(numbered[2])));
+    } else if (dashed) {
+      if (!list || list.tagName !== 'UL') { list = el('ul', null); out.push(list); }
+      list.append(el('li', null, marked(dashed[1])));
+    } else {
+      list = null;
+      out.push(el('p', null, marked(line)));
+    }
+  }
+  return out;
+}
+
+// ---------- what the page knows ----------
+const S = {
+  entries: [], byId: new Map(), families: [], counts: null, signoff: null, tally: null, reviewer: '', undo: null, ledgerFile: '',
+  search: null,
+  filters: { q: '', family: '', set: '', status: '', signoff: 'ready', result: '', opinion: '', audit: '', doubts: false },
+  shown: [],
+  current: null, detail: null, ticket: 0, stale: false,
+  busy: false, lockUntil: 0, putBack: 0, fetching: 0,
+  noteOpen: false, drafts: new Map(), openRows: new Map(), wholeStatement: new Set(),
+  lists: false, listNote: null, listFocus: '', listDrafts: new Map(), conditionLists: null, listDecisions: null
+};
+
+const needs = state => state === 'unsigned' || state === 'look_again' || state === 'nd_open';
+const familyWord = key => (S.families.find(f => f.key === key) || { word: key }).word;
+
+// ---------- words typed in the change box and not saved yet ----------
+// They are kept in this browser as they are typed, so that a reload or a closed tab does not lose them.
+// They are not in the ledger until "Save" is pressed. The top bar counts them.
+// They are kept under the name of the ledger file, so that a test run with another ledger never shows them.
+const draftKey = () => 'signoff.unsaved-words:' + S.ledgerFile;
+
+function loadDrafts() {
+  try {
+    const kept = JSON.parse(localStorage.getItem(draftKey()) || '{}');
+    for (const [id, text] of Object.entries(kept)) if (typeof text === 'string' && text.trim() && !S.drafts.has(id)) S.drafts.set(id, text);
+  } catch { /* the words are then kept only while this page is open */ }
+}
+
+function keepDrafts() {
+  try {
+    if (S.drafts.size) localStorage.setItem(draftKey(), JSON.stringify(Object.fromEntries(S.drafts)));
+    else localStorage.removeItem(draftKey());
+  } catch { /* as above */ }
+}
+
+function setDraft(id, text) {
+  const had = S.drafts.has(id);
+  if (String(text).trim()) S.drafts.set(id, text); else S.drafts.delete(id);
+  keepDrafts();
+  if (had !== S.drafts.has(id)) renderCounts();
+}
+
+function dropDraft(id) {
+  if (!S.drafts.delete(id)) return;
+  keepDrafts();
+  renderCounts();
+}
+
+/** The words typed for this criterion that are not what the ledger holds. '' when there are none. */
+function unsavedFor(d) {
+  const text = S.drafts.get(d.id);
+  if (!text || !text.trim()) return '';
+  const saved = (d.state === 'change' || d.state === 'nd_change') && d.status ? String(d.status.note || '') : '';
+  return text.trim() === saved.trim() ? '' : text;
+}
+const sectionOf = e => (e.set === 'ten' ? 'First ten' : e.set === 'reserve' ? 'Reserves' : familyWord(e.family));
+
+function takeList(data) {
+  S.entries = data.entries;
+  S.entries.forEach((e, i) => { e.pos = i; });
+  S.byId = new Map(S.entries.map(e => [e.id, e]));
+  S.families = data.families;
+  S.counts = data.counts;
+  S.signoff = data.signoff ?? null;
+  S.tally = data.tally;
+  S.reviewer = data.reviewer;
+  S.undo = data.undo;
+  S.ledgerFile = data.ledgerFile;
+  S.conditionLists = data.conditionLists || null;
+  S.listDecisions = data.listDecisions || null;
+  if ((data.putBack || 0) > S.putBack) toast('The ledger file was missing from the disk. It was put back from memory. No decision is lost.', true);
+  S.putBack = data.putBack || 0;
+}
+
+function inUseEntry(e) {
+  if (e.kind === 'not_drafted') return false;
+  if (e.audit && e.audit.setAside) return false;
+  return true;
+}
+function signedEntry(e) {
+  return e.state === 'signed' || e.state === 'file_signed' || e.state === 'nd_agreed';
+}
+
+function renderSignoffLine() {
+  const box = $('signoff-line');
+  const s = S.signoff;
+  if (!s) { box.textContent = ''; return; }
+  if (!s.auditOk) {
+    box.className = 'signoff-line is-bad';
+    box.textContent = `${s.auditError} Signing is not available.`;
+    return;
+  }
+  box.className = 'signoff-line';
+  const ft = s.finalTest;
+  box.textContent = `Final test: ${ft.passed} of ${ft.total} passed. Ready to sign: ${s.ready}. Signed: ${s.signed}.`;
+}
+
+function fillSignoffFilter() {
+  const sel = $('f-signoff');
+  const keep = sel.value || S.filters.signoff || 'ready';
+  const c = (S.signoff && S.signoff.filterCounts) || { ready: 0, not_ready: 0, signed: 0, change: 0, all: S.entries.length };
+  const opts = [
+    ['ready', `READY TO SIGN (${c.ready})`],
+    ['not_ready', `NOT READY YET (${c.not_ready})`],
+    ['signed', `SIGNED (${c.signed})`],
+    ['change', `NEEDS A CHANGE (${c.change})`],
+    ['all', `ALL (${c.all})`]
+  ];
+  fill(sel, opts.map(([value, label]) => el('option', { value }, label)));
+  sel.value = opts.some(([v]) => v === keep) ? keep : 'ready';
+  S.filters.signoff = sel.value;
+}
+
+// ---------- the top bar ----------
+function renderCounts() {
+  renderSignoffLine();
+  fillSignoffFilter();
+  const c = S.counts;
+  if (!c) return;
+  const chip = (cls, n, word) => el('span', { class: 'chip ' + cls }, el('b', null, n), word);
+  const unsaved = [...S.drafts.keys()].filter(id => S.byId.has(id)).length;
+  fill($('counts'),
+    chip('chip--signed', c.signed, 'signed'),
+    chip('chip--change', c.change, 'to change'),
+    chip('', c.left, 'left'),
+    chip('', c.notDrafted, 'not drafted'),
+    c.lookAgain ? chip('chip--again', c.lookAgain, 'look again') : null,
+    unsaved ? el('button', { type: 'button', class: 'chip', id: 'chip-unsaved', title: 'You typed these words and did not save them. Click to see them.', onclick: showUnsaved },
+      el('b', null, unsaved), unsaved === 1 ? 'note not saved' : 'notes not saved') : null
+  );
+  const done = c.signed + c.change + c.notDraftedDone;
+  const pct = n => (c.total ? (100 * n / c.total).toFixed(2) + '%' : '0%');
+  fill($('progress'),
+    el('div', { class: 'progress-track', role: 'img', 'aria-label': `${done} of ${c.total} done` },
+      el('i', { class: 'seg-signed', style: 'width:' + pct(c.signed) }),
+      el('i', { class: 'seg-change', style: 'width:' + pct(c.change) }),
+      el('i', { class: 'seg-nd', style: 'width:' + pct(c.notDraftedDone) })),
+    el('div', null, `${done} of ${c.total} done`)
+  );
+  fill($('who'),
+    el('span', { class: 'who-name', title: S.reviewer ? `Clinical reviewer: ${S.reviewer}` : '' }, S.reviewer || 'No reviewer name yet'),
+    el('button', { type: 'button', onclick: () => askName(true) }, S.reviewer ? 'change' : 'type it')
+  );
+  document.title = `${done} of ${c.total} done. Sign-off: ClinicaLANTERN`;
+}
+
+// ---------- filters and the list ----------
+function matches(e) {
+  const f = S.filters;
+  if (f.signoff === 'ready' && !(inUseEntry(e) && e.audit && e.audit.auditComplete && e.audit.textMatches !== false && !signedEntry(e) && e.kind === 'criterion')) return false;
+  if (f.signoff === 'not_ready' && !(inUseEntry(e) && e.kind === 'criterion' && !(e.audit && e.audit.auditComplete))) return false;
+  if (f.signoff === 'signed' && !signedEntry(e)) return false;
+  if (f.signoff === 'change' && e.state !== 'change' && e.state !== 'nd_change') return false;
+  if (f.family && e.family !== f.family) return false;
+  if (f.set && e.set !== f.set) return false;
+  if (f.status === 'todo' && !needs(e.state)) return false;
+  if (f.status === 'signed' && e.state !== 'signed' && e.state !== 'file_signed') return false;
+  if (f.status === 'change' && e.state !== 'change' && e.state !== 'nd_change') return false;
+  if (f.status === 'again' && e.state !== 'look_again') return false;
+  if (f.status === 'nd' && e.kind !== 'not_drafted') return false;
+  if (f.result && e.result !== f.result) return false;
+  if (f.opinion === 'agree' && e.opinion !== 'agree') return false;
+  if (f.opinion === 'doubt' && e.opinion !== 'doubt' && e.opinion !== 'wrong') return false;
+  if (f.opinion === 'none' && e.opinion) return false;
+  if (f.audit === 'foryou' && !(e.audit && e.audit.forYou)) return false;
+  if (f.audit === 'change' && (!e.audit || e.audit.final !== 'CHANGE')) return false;
+  if (f.audit === 'sound' && (!e.audit || e.audit.final !== 'SOUND')) return false;
+  if (f.audit === 'founder' && (!e.audit || e.audit.final !== 'FOUNDER')) return false;
+  if (f.audit === 'none' && e.audit) return false;
+  if (f.doubts && !e.doubts) return false;
+  if (f.q) {
+    const text = (S.search && S.search[e.id]) || `${e.id} ${e.label} ${e.title}`.toLowerCase();
+    for (const word of f.q.toLowerCase().split(/\s+/)) if (word && !text.includes(word)) return false;
+  }
+  return true;
+}
+
+function readFilters() {
+  S.filters = {
+    q: $('q').value.trim(), family: $('f-family').value, set: $('f-set').value, status: $('f-status').value,
+    signoff: $('f-signoff').value || 'ready',
+    result: $('f-result').value, opinion: $('f-opinion').value, audit: $('f-audit').value, doubts: $('f-doubts').checked
+  };
+  for (const id of ['f-family', 'f-set', 'f-status', 'f-result', 'f-opinion', 'f-audit', 'f-signoff']) $(id).classList.toggle('is-on', id === 'f-signoff' ? Boolean(S.filters.signoff) : Boolean($(id).value));
+  $('q').classList.toggle('is-on', Boolean(S.filters.q));
+}
+
+const DOT = { unsigned: '', signed: '✓', file_signed: '✓', change: '✎', look_again: '!', nd_open: '', nd_agreed: '✓', nd_change: '✎' };
+const STATE_WORDS = {
+  unsigned: 'not signed', signed: 'signed', file_signed: 'signed in the file', change: 'needs a change', look_again: 'look again',
+  nd_open: 'not drafted', nd_agreed: 'not drafted, agreed', nd_change: 'not drafted, change asked'
+};
+
+// The parts of a criterion file, in the words of the page. Used to say what changed since a decision.
+const PART_WORDS = {
+  statement: 'the statement', statement_origin: 'whether the statement is the published text', source: 'the credit line or the licence',
+  medicine_groups: 'the medicines that count', needs_facts: 'the facts it needs', rule_for_models: 'what the models are told',
+  ask_the_gp: 'what the letter asks the GP', cannot_be_seen: 'what cannot be seen in the record', urgency: 'the urgency',
+  only_sex: 'who is asked a standing question', count_supplies: 'how supplies are counted',
+  label: 'the name', title: 'the title', plain_summary: 'the line in plain words', family: 'the family', id: 'the number'
+};
+const partWord = key => PART_WORDS[key] || `the field "${key}"`;
+
+const FT_MARK = {
+  PASSED: ['PASSED', 'ft-mark--pass'],
+  'DID NOT PASS': ['DID NOT PASS', 'ft-mark--fail'],
+  'NEW TEXT': ['NEW TEXT', 'ft-mark--wait'],
+  WAITING: ['WAITING', 'ft-mark--wait']
+};
+
+function finalTestMark(state) {
+  const [word, cls] = FT_MARK[state] || [state || '', 'ft-mark--plain'];
+  if (!word) return null;
+  return el('span', { class: `ft-mark ${cls}` }, word);
+}
+
+function rowFor(e) {
+  const aside = e.audit && e.audit.setAside;
+  return el('button', {
+    type: 'button', class: `row s-${e.state}${e.id === S.current ? ' is-current' : ''}${aside ? ' row-set-aside' : ''}`, 'data-id': e.id,
+    title: `${e.label}. ${e.title}`, 'aria-label': `${e.id}, ${e.title}, ${STATE_WORDS[e.state] || ''}`, onclick: () => go(e.id)
+  },
+    el('span', { class: 'dot', 'aria-hidden': 'true' }, DOT[e.state] || ''),
+    el('span', null,
+      el('span', { class: 'row-id' }, (e.n ? e.n + '. ' : '') + e.id,
+        e.result === 'pass' ? el('small', { class: 'r-pass' }, 'PASS') : e.result === 'fail' ? el('small', { class: 'r-fail' }, 'NOT PASSING') : null,
+        e.audit ? el('small', { class: e.audit.forYou ? 'r-audit r-audit--you' : 'r-audit' },
+          `audit: ${e.audit.final ? e.audit.final.toLowerCase() : 'reported'}${e.audit.forYou ? ', for you' : ''}`) : null),
+      el('span', { class: 'row-title' }, e.title || (e.kind === 'not_drafted' ? 'Not drafted' : '')),
+      e.audit && e.audit.finalTestText ? el('span', { class: 'final-test' }, finalTestMark(e.audit.finalTestState), e.audit.finalTestText) : null));
+}
+
+function tallyText() {
+  const t = S.tally;
+  if (!t) return [];
+  const lines = [`${plural(t.total, 'criterion', 'criteria')}: ${t.repo} in the repository, ${t.board + t.boardRepair} on the build board, ${t.drafts} drafts in the waves, ${t.notDrafted} not drafted.`];
+  for (const out of t.leftOut) lines.push(`Left out: ${out.id}. ${out.why}`);
+  if (S.ledgerFile) lines.push(`Your clicks are kept in ${S.ledgerFile}`);
+  return lines;
+}
+
+function tallyWarnings() {
+  const t = S.tally;
+  if (!t) return [];
+  const out = [];
+  if (t.missing.length) out.push(`No file was found for: ${t.missing.join(', ')}.`);
+  out.push(...t.problems);
+  return out;
+}
+
+function renderList() {
+  S.shown = S.entries.filter(matches);
+  const box = $('list');
+  const keep = box.scrollTop;
+  const frag = document.createDocumentFragment();
+  const f = S.filters;
+  const filtered = Boolean(f.q || f.family || f.set || f.status || (f.signoff && f.signoff !== 'ready') || f.result || f.opinion || f.audit || f.doubts);
+  frag.append(el('div', { class: 'list-head' }, el('span', null, `Showing ${S.shown.length} of ${S.entries.length}`),
+    filtered ? el('button', { type: 'button', class: 'link', onclick: clearFilters }, 'Clear the filters') : null));
+  for (const w of tallyWarnings()) frag.append(el('div', { class: 'list-warn' }, w));
+  let section = '';
+  for (const e of S.shown) {
+    const name = sectionOf(e);
+    if (name !== section) {
+      section = name;
+      frag.append(el('div', { class: 'list-section' }, name));
+    }
+    frag.append(rowFor(e));
+  }
+  if (!S.shown.length) frag.append(el('p', { class: 'list-empty' }, 'Nothing matches. Clear the filters to see everything.'));
+  frag.append(el('div', { class: 'list-foot' }, tallyText().map(line => el('p', null, line))));
+  box.replaceChildren(frag);
+  box.scrollTop = keep;
+}
+
+function markCurrent(scroll) {
+  for (const row of $('list').querySelectorAll('.row.is-current')) row.classList.remove('is-current');
+  const row = S.current ? $('list').querySelector(`.row[data-id="${CSS.escape(S.current)}"]`) : null;
+  if (row) {
+    row.classList.add('is-current');
+    if (scroll) {
+      // Bring the row into view. The section name sticks to the top of the list and would cover a row placed right under it.
+      const box = $('list').getBoundingClientRect();
+      const r = row.getBoundingClientRect();
+      if (r.top < box.top + 36 || r.bottom > box.bottom - 6) row.scrollIntoView({ block: 'center' });
+    }
+  }
+}
+
+// ---------- the criterion ----------
+function statementNode(text, id) {
+  const cells = text.split(' | ');
+  const asRows = text.includes(' || ') || cells.length >= 3;
+  const quote = el('blockquote', { class: 'quote' });
+  if (asRows) {
+    for (const row of text.split(' || ')) {
+      const parts = row.split(' | ');
+      quote.append(el('div', { class: 'quote-row' }, el('b', null, parts[0]), parts.slice(1).map(p => el('span', null, p))));
+    }
+  } else {
+    quote.textContent = text;
+  }
+  const long = text.length > 1400;
+  const out = [quote];
+  if (asRows) out.push(el('p', { class: 'credit' }, 'Shown as table rows, one under the other. The words are unchanged.'));
+  if (long) {
+    const open = S.wholeStatement.has(id);
+    quote.classList.toggle('is-short', !open);
+    const button = el('button', { type: 'button', class: 'link' });
+    const label = () => { button.textContent = quote.classList.contains('is-short') ? `Show the whole statement (${text.length.toLocaleString('en-AU')} characters)` : 'Show less of the statement'; };
+    button.addEventListener('click', () => {
+      const nowShort = quote.classList.toggle('is-short');
+      if (nowShort) S.wholeStatement.delete(id); else S.wholeStatement.add(id);
+      label();
+    });
+    label();
+    out.push(button);
+  }
+  return out;
+}
+
+function block(title, ...kids) {
+  return el('section', { class: 'block' }, el('h3', null, title), kids);
+}
+
+function groupNode(g) {
+  const withBrands = g.brands.filter(([, list]) => list.length);
+  const listed = new Set(g.ingredients.map(x => x.toLowerCase()));
+  const noBrand = g.ingredients.filter(i => !withBrands.some(([name]) => name.toLowerCase() === i.toLowerCase()));
+  const brandKids = [];
+  withBrands.forEach(([ingredient, list], i) => {
+    if (i) brandKids.push(' · ');
+    brandKids.push(list.join(', '), ' ', el('i', null, `(${ingredient}${listed.has(ingredient.toLowerCase()) ? '' : ', not in the ingredient list'})`));
+  });
+  return el('div', { class: 'group' },
+    el('div', { class: 'group-name' }, `Group ${g.key}${g.name ? '. ' + g.name : ''}`),
+    el('div', { class: 'group-ing' }, g.ingredients.join(', ') || 'No ingredient is listed.'),
+    withBrands.length ? el('div', { class: 'group-brands' }, el('b', null, 'Brands: '), brandKids) : el('div', { class: 'group-brands' }, 'No brand name is listed.'),
+    withBrands.length && noBrand.length ? el('div', { class: 'group-note' }, `No brand listed for: ${noBrand.join(', ')}.`) : null,
+    g.note ? el('div', { class: 'group-note' }, el('b', null, 'The models are also told: '), g.note) : null);
+}
+
+function historyNode(d, h) {
+  const key = `${h.folder}/${h.file}`;
+  const box = el('div', { class: 'rows-holder' });
+  const button = el('button', { type: 'button', class: 'link' }, 'Show the rows');
+  const show = async () => {
+    button.disabled = true;
+    try {
+      const data = await api(`/api/history?id=${encodeURIComponent(d.id)}&folder=${encodeURIComponent(h.folder)}&file=${encodeURIComponent(h.file)}`);
+      box.replaceChildren(rowsTable(data));
+      button.textContent = 'Hide the rows';
+      S.openRows.set(d.id + '|' + key, true);
+    } catch (e) {
+      box.replaceChildren(el('p', { class: 'note note--error' }, e.message));
+    }
+    button.disabled = false;
+  };
+  button.addEventListener('click', () => {
+    if (box.firstChild) {
+      box.replaceChildren();
+      button.textContent = 'Show the rows';
+      S.openRows.delete(d.id + '|' + key);
+    } else show();
+  });
+  if (S.openRows.get(d.id + '|' + key)) show();
+  const kindTag = h.kind === 'positive' ? 'tag tag--warn' : h.kind ? 'tag tag--ok' : 'tag tag--red';
+  return el('div', { class: 'history' },
+    el('div', { class: 'history-top' },
+      el('span', { class: kindTag }, h.tag),
+      h.how ? el('span', { class: 'tag' }, h.how) : null,
+      el('span', { class: 'history-file' }, h.file),
+      h.there ? button : el('span', { class: 'history-file' }, 'file not found')),
+    el('p', { class: 'history-about' }, h.about || 'The answer sheet has no line for this file.'),
+    h.alsoFor.length ? el('p', { class: 'rows-note' }, `This history also plants: ${h.alsoFor.join(', ')}.`) : null,
+    box);
+}
+
+function rowsTable(data) {
+  const head = el('tr', null, ['Line', 'Date', 'Medicine or fact', 'Qty', 'Repeats', 'Directions', 'Prescriber'].map(t => el('th', null, t)));
+  const body = data.lines.map(l => el('tr', { class: (l.cited ? 'hit ' : '') + (l.type ? 'fact' : '') },
+    el('td', { class: 'id' }, l.id),
+    el('td', { class: 'date' }, l.date),
+    el('td', null, l.type ? `${l.type.charAt(0).toUpperCase() + l.type.slice(1)}: ${l.what}` : l.what),
+    el('td', null, l.quantity), el('td', null, l.repeats), el('td', null, l.directions), el('td', { class: 'prescriber' }, l.prescriber)));
+  const p = data.patient;
+  const who = p ? ['Fictional patient', p.ref, p.age ? `age ${p.age}` : '', p.sex].filter(Boolean).join(', ') : 'Fictional patient';
+  return el('div', null,
+    el('div', { class: 'rows-box' }, el('table', { class: 'rows' }, el('thead', null, head), el('tbody', null, body))),
+    el('p', { class: 'rows-note' }, `${who}. No real person. ${plural(data.lines.length, 'row', 'rows')}.` +
+      (data.cited ? ' The gold rows are the planted lines the models must point to.' : ' No line is planted for this criterion.')));
+}
+
+function renderSheet(d) {
+  const kids = [];
+  if (S.stale) {
+    kids.push(el('div', { class: 'note note--warn' }, 'This file has changed on disk since you opened it. ',
+      el('button', { type: 'button', class: 'link', onclick: () => go(d.id) }, 'Show the new version')));
+  }
+  const groupTag = d.set === 'ten' ? `First ten, number ${d.n}` : d.set === 'reserve' ? `Reserve ${d.n.replace('R', '')}` : 'Further';
+  // On a second look: the parts that are not the ones he decided on are marked, so that he need not hunt for them.
+  const changedSet = new Set(d.status && d.status.state === 'look_again' && Array.isArray(d.status.changed) ? d.status.changed : []);
+  const changedTag = (...keys) => (keys.some(k => changedSet.has(k)) ? el('span', { class: 'tag tag--red' }, 'Changed since your decision') : null);
+  const otherChanged = [...changedSet].filter(k => !PART_WORDS[k]);
+  kids.push(el('header', null,
+    el('div', { class: 'head-tags' },
+      el('span', { class: 'tag' }, groupTag),
+      el('span', { class: 'tag' }, d.familyWord),
+      d.kind === 'not_drafted' ? el('span', { class: 'tag tag--warn' }, 'Not drafted')
+        : el('span', { class: d.facts ? 'tag tag--warn' : 'tag' }, d.facts ? 'Needs a fact from the record' : 'Judged from the supplies alone'),
+      d.urgent ? el('span', { class: 'tag tag--red' }, 'Same day') : null,
+      el('span', { class: 'tag tag--plain' }, d.id),
+      changedTag('label', 'title', 'plain_summary', 'family', 'id')),
+    el('h1', { class: 'head-label' }, d.label),
+    d.title ? el('p', { class: 'head-title' }, d.title) : null,
+    d.audit && d.audit.finalTest && d.audit.finalTest.text
+      ? el('p', { class: 'final-test' }, finalTestMark(d.audit.finalTest.state), d.audit.finalTest.text) : null,
+    d.audit && d.audit.extraNote ? el('p', { class: 'head-plain' }, d.audit.extraNote) : null,
+    d.criterion && d.criterion.summary ? el('p', { class: 'head-plain' }, 'In plain words: ', d.criterion.summary) : null));
+
+  if (d.error) {
+    kids.push(el('div', { class: 'note note--error' }, `This file could not be read. ${d.error} It cannot be signed. Press NEEDS A CHANGE to report it.`));
+  }
+
+  if (d.audit) {
+    const a = d.audit;
+    const AUDIT_STATUS_WORDS = { DONE: 'done', 'TO BE APPLIED': 'to be applied', 'WAITING FOR ITS TEST': 'waiting for its test', 'FOR YOU': 'for you', 'NO CHANGE': 'no change', 'SET ASIDE': 'set aside', '': 'noted' };
+    const inner = [
+      a.needsRescore ? el('p', { class: 'body' }, el('b', null, 'A re-score of this criterion is planned after the corrections are in.')) : null,
+      a.points.length
+        ? el('ul', { class: 'audit-points' }, a.points.map(p => el('li', null,
+            el('span', { class: p.status === 'FOR YOU' ? 'tag tag--red' : 'tag' }, AUDIT_STATUS_WORDS[p.status] || p.status),
+            p.decision ? el('span', { class: 'tag' }, String(p.decision).toLowerCase()) : null,
+            p.field ? el('b', null, ` ${p.field}. `) : ' ',
+            p.problem || 'No problem is written for this point.',
+            p.change ? el('div', { class: 'audit-change' }, p.change) : null)))
+        : el('p', { class: 'body' }, 'The audit record holds no points for this criterion.')
+    ];
+    kids.push(el('details', { class: 'block' },
+      el('summary', null, a.pointsSummary ? a.pointsSummary.line : 'Audit of 19 November', a.final ? el('span', { class: 'tag' }, `audit: ${a.final.toLowerCase()}`) : null),
+      el('div', null, ...inner)));
+    if (a.auditComplete && a.textMatches === false) {
+      kids.push(el('div', { class: 'note' }, 'This audit was made for an earlier text. It does not make this text ready to sign.'));
+    }
+  } else {
+    kids.push(el('div', { class: 'note' }, 'audit: not yet reported'));
+  }
+
+  if (d.kind === 'not_drafted') {
+    const reason = d.notDrafted.reason.split(/\r?\n/).map(s => s.trim()).filter(s => s && !s.startsWith('#'));
+    kids.push(block('Why it was not drafted', reason.map(line => el('p', { class: 'body' }, line))));
+    if (d.notDrafted.published) {
+      kids.push(block(['The published statement', el('span', { class: 'tag' }, 'Published text, from the extract file')],
+        statementNode(d.notDrafted.published.statement, d.id),
+        d.notDrafted.published.credit ? el('p', { class: 'credit' }, 'Credit: ', d.notDrafted.published.credit) : null));
+    }
+    kids.push(el('div', { class: 'note' }, 'The drafter judged that this criterion cannot be tested from a dispensing history. So there is no medicine list, no rule and no test history. Nothing here can be signed. Say whether you agree to leave it out, or ask for a change.'));
+  }
+
+  const c = d.criterion;
+  if (c) {
+    const published = c.origin === 'published';
+    // Every part of the criterion is also named in one line under the heading, so that nothing below the first screen is missed.
+    const stops = [];
+    const headAt = kids.length;
+    const part = (word, node, ...keys) => { stops.push([word, node, keys.some(k => changedSet.has(k))]); kids.push(node); };
+    part('Statement', block(
+      [published ? 'The published statement' : 'The statement',
+        el('span', { class: published ? 'tag' : 'tag tag--warn' }, published ? 'Published text' : "The entrant's own words. Not the published text."),
+        changedTag('statement', 'statement_origin', 'source')],
+      statementNode(c.statement, d.id),
+      c.source.credit ? el('p', { class: 'credit' }, 'Credit: ', c.source.credit) : el('p', { class: 'credit' }, 'No credit line is in the file.'),
+      el('p', { class: 'credit' }, [c.source.notice, c.source.licence ? `Licence as read: ${c.source.licence}. ${c.source.confirmed ? 'Confirmed by you.' : 'Not yet confirmed by you.'}` : ''].filter(Boolean).join(' '))),
+    'statement', 'statement_origin', 'source');
+
+    part(`Medicines (${plural(c.groups.length, 'group', 'groups')})`, block(['Medicines that count', changedTag('medicine_groups')],
+      c.groups.length ? c.groups.map(groupNode) : el('p', { class: 'body' }, 'No fixed list. The models use the statement and the rule.')), 'medicine_groups');
+
+    if (c.facts.length || changedSet.has('needs_facts')) {
+      let markerNoteShown = false;
+      part(`Facts needed (${c.facts.length})`, block(['Facts this criterion needs', changedTag('needs_facts')],
+        c.facts.length ? el('ul', { class: 'facts' }, c.facts.map(f => {
+          const extra = [];
+          if (Array.isArray(f.markers)) {
+            if (!markerNoteShown && c.conditionNote) {
+              extra.push(el('p', { class: 'body' }, c.conditionNote));
+              markerNoteShown = true;
+            }
+            if (f.markerMeds) {
+              extra.push(markerMedicineLine('Medicines that point to this condition (the application asks about it when one is supplied):', f.markerMeds.pointing));
+              extra.push(markerMedicineLine('Other medicines used for it, which have other uses (never asked alone):', f.markerMeds.other));
+              for (const line of f.markers) {
+                if (typeof line === 'string' && (line.startsWith('No medicine points to this condition:') || line.startsWith('What the list can miss:'))) {
+                  extra.push(el('small', null, line));
+                }
+              }
+            } else {
+              for (const line of f.markers) extra.push(el('small', null, line));
+            }
+            if (f.listMark) {
+              extra.push(el('button', { type: 'button', class: 'link', onclick: () => showLists(f.listMark.key) }, 'Condition lists'));
+              for (const line of listDecisionLines(f.listMark)) extra.push(el('small', null, line));
+            }
+          }
+          return el('li', null, el('b', null, (f.kind ? f.kind.charAt(0).toUpperCase() + f.kind.slice(1) : 'Fact') + ': '), f.what,
+            f.meets ? el('small', null, 'It counts when: ', f.meets) : null,
+            ...(Array.isArray(f.rules) ? f.rules.map(line => el('small', null, line)) : []),
+            ...extra);
+        }))
+          : el('p', { class: 'body' }, 'No fact is needed now.')), 'needs_facts');
+    }
+    if (c.questionRules && c.questionRules.length) {
+      part('Question rules', block(['When a question is asked', changedTag('only_sex', 'count_supplies')],
+        el('ul', { class: 'facts' }, c.questionRules.map(line => el('li', null, line)))), 'only_sex', 'count_supplies');
+    }
+    part('What the models are told', block(['The models are told', changedTag('rule_for_models')], el('p', { class: 'body' }, c.rule || 'Nothing is written.')), 'rule_for_models');
+    part('The letter to the GP', block(['The letter asks the GP', changedTag('ask_the_gp')], el('p', { class: 'body' }, c.ask || 'Nothing is written.')), 'ask_the_gp');
+    part('Cannot be seen', block(['Cannot be seen in the record', changedTag('cannot_be_seen')], el('p', { class: 'body' }, c.cannot || 'Nothing is written.')), 'cannot_be_seen');
+    part(c.urgency === 'same_day' ? 'Urgency: same day' : 'Urgency: routine', block(['Urgency', changedTag('urgency')], el('p', { class: 'body' },
+      c.urgency === 'same_day' ? el('span', { class: 'tag tag--red' }, 'Same day') : el('span', { class: 'tag' }, 'Routine'))), 'urgency');
+    if (c.other || otherChanged.length) {
+      part('Other fields', block(['Other fields in this file', changedTag(...otherChanged)], el('pre', { class: 'plain-pre' }, c.other || 'None now.')), ...otherChanged);
+    }
+
+    const hs = d.histories.list;
+    const criterionFrom = d.file.wave || 'repository';
+    part(`Test histories (${hs.length})`, block(['Test histories', el('span', { class: 'tag tag--warn' }, 'Fictional patients. No real person.')],
+      hs.length ? hs.map(h => historyNode(d, h)) : el('p', { class: 'body' }, 'No test history was found for this criterion.'),
+      hs.length && d.histories.from && d.histories.from !== criterionFrom
+        ? el('p', { class: 'rows-note' }, `These histories are read from ${d.histories.from === 'repository' ? 'the repository' : d.histories.from}. The criterion is read from ${criterionFrom === 'repository' ? 'the repository' : criterionFrom}.`) : null));
+
+    kids.splice(headAt, 0, el('nav', { class: 'jump-row', 'aria-label': 'The parts of this criterion' },
+      el('span', null, 'On this page:'),
+      stops.map(([word, node, changed]) => el('button', {
+        type: 'button', class: changed ? 'link is-changed' : 'link', title: changed ? 'This part changed since your decision' : null,
+        onclick: () => { node.scrollIntoView({ block: 'start' }); $('sheet').focus({ preventScroll: true }); }
+      }, word))));
+  }
+
+  const others = d.file.others.length ? ` Older copies: ${d.file.others.join('; ')}.` : '';
+  kids.push(el('p', { class: 'file-line' }, `This is the copy in ${d.file.where}${d.file.wave ? ', ' + d.file.wave : ''}: ${d.file.path}. File fingerprint ${d.hash.slice(0, 12)}.${others}`));
+  $('sheet').replaceChildren(el('div', { class: 'sheet-inner' }, kids));
+}
+
+// ---------- the side ----------
+function statusNode(d) {
+  const s = d.status;
+  const who = d.reviewer || 'you';
+  const link = (text, fn) => el('button', { type: 'button', class: 'link', onclick: fn }, text);
+  const quote = text => (text ? el('blockquote', null, text) : null);
+  switch (s.state) {
+    case 'signed':
+      return el('div', { class: 'status status--ok' },
+        el('div', null, el('b', null, '✓ Signed'), ` by ${s.by || who} on ${dayAndTime(s.at)}.`),
+        s.sameWords ? el('div', null, 'The file was saved again after that. Its words are the same, so your signature stands.') : null,
+        s.applied ? el('div', null, `Written into the file${s.appliedAt ? ' on ' + dayOnly(s.appliedAt) : ''}. This one is final.`)
+          : el('div', null, link('Withdraw the signature', doWithdraw)));
+    case 'file_signed':
+      return el('div', { class: 'status status--ok' }, el('b', null, '✓ Signed in the file'), `: ${s.fileSigned.name || 'no name'}, ${s.fileSigned.date || 'no date'}. This signature is not in your ledger.`);
+    case 'change':
+    case 'nd_change':
+      return el('div', { class: 'status status--warn' },
+        el('div', null, el('b', null, 'You asked for a change'), ` on ${dayAndTime(s.at)}:`), quote(s.note),
+        el('div', null, link('Edit my words', () => openNote()), link('Remove this request', doWithdraw)));
+    case 'look_again': {
+      const was = s.was === 'signed' ? 'You signed an earlier version of this file' : s.was === 'change' ? 'You asked for a change to an earlier version of this file' : 'You agreed to leave this one out';
+      const then = s.was === 'agreed' ? 'It has been drafted since then.' : 'The file has changed since then.';
+      const parts = Array.isArray(s.changed) ? s.changed : [];
+      return el('div', { class: 'status status--again' },
+        el('div', null, el('b', null, 'Look again. '), `${was} on ${dayAndTime(s.at)}. ${then} Please read it again.`), quote(s.note),
+        parts.length ? el('div', null, el('b', null, 'What changed: '), el('ul', null, parts.map(k => el('li', null, partWord(k)))),
+          'These parts are marked in red on the page. The other parts are as you read them.') : null,
+        el('div', null, link('Forget my earlier decision', doWithdraw)));
+    }
+    case 'nd_agreed':
+      return el('div', { class: 'status status--ok' },
+        el('div', null, el('b', null, '✓ You agreed'), ` to leave this one out, on ${dayAndTime(s.at)}.`),
+        el('div', null, link('Take that back', doWithdraw)));
+    case 'nd_open':
+      return el('div', { class: 'status' }, s.was ? `Your earlier decision was about an earlier version (${dayAndTime(s.at)}). Please read it again.` : 'Not drafted. There is nothing to sign.');
+    default:
+      return el('div', { class: 'status' }, 'Not signed yet.');
+  }
+}
+
+function resultNode(d) {
+  const r = d.result;
+  const cls = r.bucket === 'pass' ? 'tag tag--ok' : r.bucket === 'fail' ? 'tag tag--red' : 'tag';
+  return el('section', null, el('h3', null, 'Scored result'),
+    el('p', null, el('span', { class: cls }, r.word)),
+    r.lines.length ? el('ul', null, r.lines.map(line => el('li', null, line))) : null,
+    r.older ? el('p', { class: 'status status--warn' }, r.older) : null,
+    r.from ? el('p', { class: 'small' }, `${r.from}${r.when ? ', ' + dayAndTime(r.when) : ''}.`) : null);
+}
+
+function opinionNode(d) {
+  const o = d.opinion;
+  if (!o) return el('section', null, el('h3', null, 'Second opinion'), el('p', null, 'None yet.'));
+  const words = { agree: ['Gemini agrees', 'tag tag--ok'], doubt: ['Gemini has a doubt', 'tag tag--warn'], wrong: ['Gemini says this is wrong', 'tag tag--red'] };
+  const [word, cls] = words[o.verdict] || [`Gemini: ${o.verdict || 'no verdict given'}`, 'tag'];
+  return el('section', null, el('h3', null, 'Second opinion'),
+    el('p', null, el('span', { class: cls }, word)),
+    o.points.length ? el('ul', null, o.points.map(p => el('li', null, p))) : null,
+    el('p', { class: 'small' }, `${o.file}, ${dayAndTime(o.when)}.${o.count > 1 ? ` This is the newest of ${o.count} opinions.` : ''}`));
+}
+
+function doubtsNode(d) {
+  const kids = [el('h3', null, "The drafter's doubts")];
+  if (!d.doubts.list.length) kids.push(el('p', null, 'None written for this criterion.'));
+  for (const item of d.doubts.list) {
+    kids.push(el('div', { class: 'doubt' },
+      el('div', { class: 'doubt-from' }, item.from),
+      item.beside ? el('p', { class: 'small' }, item.beside) : null,
+      item.text ? el('p', null, item.text) : null,
+      item.items && item.items.length ? el('ol', null, item.items.map(t => el('li', null, t))) : null,
+      item.lines ? notesBlock(item.lines) : null));
+  }
+  if (d.doubts.waveNotes) {
+    kids.push(el('details', null, el('summary', null, `Notes for the whole wave ${d.doubts.waveNotes.from}`), el('div', null, notesBlock(d.doubts.waveNotes.lines))));
+  }
+  if (d.doubts.questions.length) {
+    kids.push(el('details', null, el('summary', null, 'Questions G1 to G4, for several criteria'), el('div', null, notesBlock(d.doubts.questions))));
+  }
+  return el('section', null, kids);
+}
+
+function renderSide(d) {
+  const nd = d.kind === 'not_drafted';
+  const signed = d.state === 'signed' || d.state === 'file_signed' || d.state === 'nd_agreed';
+  const asked = d.state === 'change' || d.state === 'nd_change';
+  const auditOk = S.signoff && S.signoff.auditOk;
+  const maySign = auditOk && (d.canSign || nd) && !signed && !asked && !d.bad;
+  const notReadyText = d.audit && d.audit.finalTest ? d.audit.finalTest.text : 'The audit is not complete for this criterion.';
+  let sign;
+  if (signed || asked) {
+    sign = el('button', {
+      type: 'button', class: 'big big--sign', id: 'btn-sign', disabled: true, onclick: doSign,
+      title: asked ? 'You asked for a change here. Remove that request first, then sign.' : null
+    }, signed ? (nd ? '✓ AGREED' : '✓ SIGNED') : (nd ? 'AGREE: LEAVE IT OUT' : 'SIGN'), el('span', { class: 'keycap' }, 'S'));
+  } else if (maySign) {
+    sign = el('button', { type: 'button', class: 'big big--sign', id: 'btn-sign', onclick: doSign },
+      nd ? 'AGREE: LEAVE IT OUT' : 'SIGN', el('span', { class: 'keycap' }, 'S'));
+  } else {
+    sign = el('div', { class: 'status status--warn' }, auditOk && !nd
+      ? el('p', null, 'Not ready to sign: ', notReadyText)
+      : el('p', null, S.signoff && S.signoff.auditError ? `${S.signoff.auditError} Signing is not available.` : 'Signing is not available.'));
+  }
+  const change = el('button', { type: 'button', class: 'big big--change', id: 'btn-change', onclick: () => openNote() }, 'NEEDS A CHANGE', el('span', { class: 'keycap' }, 'C'));
+  const inList = S.shown.findIndex(e => e.id === d.id);
+  const filtered = S.shown.length !== S.entries.length;
+  // Words he typed for this criterion and did not save. They are never dropped without a word from him.
+  const typed = unsavedFor(d);
+  if (!typed && S.drafts.has(d.id)) dropDraft(d.id);               // what was typed is what the ledger holds: nothing is unsaved
+  const kids = [
+    el('div', { class: 'pos' }, el('span', null, `Criterion ${d.position} of ${d.total}`),
+      filtered ? el('span', null, inList === -1 ? 'not in the filtered list' : `${inList + 1} of ${S.shown.length} shown`) : null),
+    statusNode(d),
+    typed && !S.noteOpen ? el('div', { class: 'unsaved', id: 'unsaved-line' },
+      el('div', null, el('b', null, 'You wrote something here and did not save it.')),
+      el('div', null,
+        el('button', { type: 'button', class: 'link', onclick: () => { S.lockUntil = 0; openNote(); } }, 'Show my words'),
+        el('button', { type: 'button', class: 'link', onclick: () => { dropDraft(d.id); if (S.detail) renderSide(S.detail); } }, 'Throw them away'))) : null,
+    sign, change
+  ];
+  if (S.noteOpen) {
+    const area = el('textarea', { id: 'note-text', maxlength: '6000', placeholder: 'Say what needs to change, in your own words.' });
+    area.value = S.drafts.get(d.id) ?? ((d.state === 'change' || d.state === 'nd_change') ? d.status.note : '');
+    area.addEventListener('input', () => setDraft(d.id, area.value));
+    kids.push(el('div', { class: 'change-box' },
+      el('label', { for: 'note-text' }, 'What needs to change?'), area,
+      typed ? el('div', { class: 'hint', id: 'unsaved-hint' }, 'These words are not saved yet. Press Save to keep them.') : null,
+      el('div', { class: 'row2' },
+        el('button', { type: 'button', class: 'btn-solid', onclick: doChange }, 'Save and go to the next one'),
+        el('button', { type: 'button', class: 'mini', onclick: closeNote }, 'Cancel'),
+        el('span', { class: 'hint' }, 'Ctrl+Enter saves. Esc cancels.'))));
+  }
+  kids.push(el('div', { class: 'nav' },
+    el('button', { type: 'button', class: 'mini', onclick: () => step(-1), title: 'Left arrow' }, '← Back'),
+    el('button', { type: 'button', class: 'mini', onclick: () => step(1), title: 'Right arrow' }, 'Next →'),
+    el('button', { type: 'button', class: 'mini', onclick: doSkip, title: 'Leave this one and go to the next one that is not signed' }, 'Skip'),
+    el('button', { type: 'button', class: 'mini', disabled: !S.undo, onclick: doUndo, title: S.undo ? `Undo: ${S.undo.text}` : 'Nothing to undo' }, 'Undo')));
+  kids.push(el('p', { class: 'saved-note' }, S.undo ? `Last click: ${S.undo.text}. ` : '', 'Each click is saved at once. Nothing is final until apply.mjs is run.'));
+  kids.push(resultNode(d), opinionNode(d), doubtsNode(d));
+  fill($('side'), kids);
+  if (S.noteOpen) $('note-text').focus();
+}
+
+// ---------- condition lists: one decision for each list ----------
+function listByKey(key) {
+  const lists = S.conditionLists;
+  if (!lists || !Array.isArray(lists.conditions)) return null;
+  return lists.conditions.find(c => c.key === key) || null;
+}
+
+function conditionCard(c) {
+  const mark = c.decision || { state: 'not_looked', fingerprint: '' };
+  const lines = [
+    markerMedicineLine('Medicines that point to this condition (the application asks about it when one is supplied):', c.pointing),
+    markerMedicineLine('Other medicines used for it, which have other uses (never asked alone):', c.other)
+  ];
+  if (c.none) lines.push(el('small', null, `No medicine points to this condition: ${c.none}`));
+  if (c.miss) lines.push(el('small', null, `What the list can miss: ${c.miss}`));
+  for (const line of listDecisionLines(mark)) lines.push(el('small', null, line));
+  const criteria = Array.isArray(c.criteria) ? c.criteria : [];
+  const links = criteria.map((item, i) => {
+    const word = item.n ? `${item.n}. ${item.label}` : item.label;
+    const bits = [el('button', { type: 'button', class: 'link', onclick: () => go(item.id) }, word)];
+    if (i < criteria.length - 1) bits.push('; ');
+    return bits;
+  });
+  const kids = [
+    el('h3', null, c.condition || 'This condition'),
+    c.question ? el('p', { class: 'body' }, c.question) : null,
+    el('ul', { class: 'facts' }, el('li', null, lines)),
+    el('p', { class: 'body' }, `${plural(criteria.length, 'criterion shows', 'criteria show')} this list.`)
+  ];
+  if (criteria.length) kids.push(el('p', null, links));
+  if (c.key) {
+    kids.push(el('button', { type: 'button', class: 'big big--sign', onclick: () => decideList(c, 'right') }, 'THIS LIST IS RIGHT'));
+    kids.push(el('button', { type: 'button', class: 'big big--change', onclick: () => openListNote(c) }, 'NEEDS A CHANGE'));
+  }
+  if (S.listNote === c.key) {
+    const area = el('textarea', { id: 'list-note', maxlength: '6000', placeholder: 'Say what needs to change, in your own words.' });
+    area.value = S.listDrafts.get(c.key) || '';
+    area.addEventListener('input', () => {
+      if (area.value.trim()) S.listDrafts.set(c.key, area.value); else S.listDrafts.delete(c.key);
+    });
+    kids.push(el('div', { class: 'change-box' },
+      el('label', { for: 'list-note' }, 'What needs to change?'), area,
+      el('div', { class: 'row2' },
+        el('button', { type: 'button', class: 'btn-solid', onclick: () => decideList(c, 'change') }, 'Save'),
+        el('button', { type: 'button', class: 'mini', onclick: () => { S.listNote = null; renderLists(S.conditionLists, c.key); } }, 'Cancel'),
+        el('span', { class: 'hint' }, 'Ctrl+Enter saves. Esc cancels.'))));
+  }
+  return el('section', { class: 'block', id: 'cond-' + c.key }, kids);
+}
+
+function renderLists(view, focusKey) {
+  S.listFocus = focusKey || '';
+  if (!view) {
+    fill($('sheet'), el('h1', { class: 'head-label' }, 'Condition lists'),
+      el('p', { class: 'body' }, 'The condition lists are not on this computer.'));
+  } else {
+    const d = S.listDecisions || { right: 0, change: 0, notLookedAt: 0, changedSince: 0 };
+    fill($('sheet'),
+      el('h1', { class: 'head-label' }, 'Condition lists'),
+      view.note ? el('p', { class: 'body' }, view.note) : null,
+      el('p', { class: 'body' }, `${d.right} marked right, ${d.change} need a change, ${d.notLookedAt} not looked at, ${d.changedSince} changed since.`),
+      view.conditions.map(conditionCard));
+  }
+  fill($('side'),
+    el('p', { class: 'saved-note' }, S.undo ? `Last click: ${S.undo.text}. ` : '', 'A list is decided once, for every criterion that shows it. Each click is saved at once.'),
+    el('button', { type: 'button', class: 'mini', disabled: !S.undo, onclick: doUndo, title: S.undo ? `Undo: ${S.undo.text}` : 'Nothing to undo' }, 'Undo'));
+  const node = focusKey ? document.getElementById('cond-' + focusKey) : null;
+  if (node) node.scrollIntoView({ block: 'start' });
+}
+
+async function showLists(key) {
+  S.lists = true;
+  S.listFocus = key || S.listFocus || '';
+  try { history.replaceState(null, '', '#lists' + (S.listFocus ? ':' + encodeURIComponent(S.listFocus) : '')); } catch { /* not important */ }
+  try {
+    await refreshList();
+  } catch (e) {
+    problem(e);
+    return;
+  }
+  renderLists(S.conditionLists, S.listFocus);
+  const node = S.listFocus ? document.getElementById('cond-' + S.listFocus) : null;
+  if (node) node.scrollIntoView({ block: 'start' });
+  else $('sheet').scrollTop = 0;
+}
+
+function openListNote(c) {
+  if (!S.reviewer) { askName(false); return; }
+  S.listNote = c.key;
+  renderLists(S.conditionLists, c.key);
+  const area = $('list-note');
+  if (area) area.focus();
+}
+
+async function decideList(c, which) {
+  if (S.busy) return;
+  if (!S.reviewer) { askName(false); return; }
+  const body = { key: c.key, fingerprint: c.decision ? c.decision.fingerprint : '' };
+  if (which === 'change') {
+    const typed = $('list-note') ? $('list-note').value : (S.listDrafts.get(c.key) || '');
+    const note = String(typed).trim();
+    if (!note) { toast('Please write what needs to change.', true); return; }
+    body.note = note;
+  }
+  S.busy = true;
+  try {
+    const r = await api(which === 'right' ? '/api/list-right' : '/api/list-change', body);
+    took(r);
+    if (which === 'change') S.listDrafts.delete(c.key);
+    S.listNote = null;
+    toast(which === 'right' ? `Marked right: ${c.condition}.` : `Saved your change request for ${c.condition}.`);
+    S.busy = false;
+    await showLists(c.key);
+  } catch (e) {
+    S.busy = false;
+    problem(e);
+    if (e.status === 409 || e.status === 404) await showLists(c.key);
+  }
+}
+
+// ---------- moving about ----------
+async function go(id, quiet = false) {
+  if (!id || !S.byId.has(id)) return;
+  S.lists = false;
+  S.listNote = null;
+  const moved = id !== S.current;
+  if (moved && S.noteOpen && S.detail && S.detail.id === S.current && unsavedFor(S.detail)) {
+    // He is leaving a change box with words in it. They are kept, and he is told that they are not saved.
+    toast(`Your words for ${S.detail.label} are not saved yet. They are kept for you. The gold button at the top takes you back to them.`, true);
+  }
+  S.current = id;
+  if (moved) S.noteOpen = false;
+  try { history.replaceState(null, '', '#' + encodeURIComponent(id)); } catch { /* not important */ }
+  markCurrent(true);
+  const ticket = ++S.ticket;
+  if (S.fetching > 0) {
+    // An earlier move is still being fetched (an arrow key is held down). Wait a moment: only the last move is fetched.
+    await new Promise(resolve => setTimeout(resolve, 70));
+    if (ticket !== S.ticket) return;
+  }
+  let d;
+  S.fetching++;
+  try {
+    d = await api('/api/criterion?id=' + encodeURIComponent(id));
+  } catch (e) {
+    S.fetching--;
+    if (ticket !== S.ticket) return;
+    problem(e);
+    if (!S.detail || S.detail.id !== id) {
+      // Never leave another criterion on the page under this one's name.
+      S.detail = null;
+      fill($('sheet'), el('div', { class: 'empty' }, `This criterion cannot be shown just now. ${e.message}`));
+      fill($('side'));
+    }
+    return;
+  }
+  S.fetching--;
+  if (ticket !== S.ticket) return;                 // a later move has taken over
+  alarm('');
+  // The red "changed" marks on the page belong to a decision. When the decision goes, the page is drawn again without them.
+  const marks = x => JSON.stringify(x.status && x.status.state === 'look_again' && Array.isArray(x.status.changed) ? x.status.changed : []);
+  const sameFile = S.detail && S.detail.id === d.id && S.detail.hash === d.hash && marks(S.detail) === marks(d);
+  S.detail = d;
+  S.stale = false;
+  S.undo = d.undo;
+  if (quiet && sameFile) {                         // only the decision, the result or the second opinion changed
+    renderSide(d);
+    return;
+  }
+  S.lockUntil = Date.now() + 450;                  // a key held from the last criterion cannot sign this one
+  renderSheet(d);
+  renderSide(d);
+  if (moved || !quiet) { $('sheet').scrollTop = 0; $('side').scrollTop = 0; }
+  if (!S.noteOpen && $('name-box').hidden && document.activeElement !== $('q')) $('sheet').focus({ preventScroll: true });
+}
+
+function step(dir) {
+  const cur = S.byId.get(S.current);
+  const pos = cur ? cur.pos : -1;
+  const target = dir > 0 ? S.shown.find(e => e.pos > pos) : [...S.shown].reverse().find(e => e.pos < pos);
+  if (target) go(target.id);
+  else toast(dir > 0 ? 'This is the last one in the list.' : 'This is the first one in the list.');
+}
+
+function nextNeeding(fromId) {
+  const from = S.byId.get(fromId);
+  const pos = from ? from.pos : -1;
+  const open = S.entries.filter(e => needs(e.state) && e.id !== fromId && matches(e));
+  return open.find(e => e.pos > pos) || open[0] || null;
+}
+
+async function moveOn(fromId) {
+  const next = nextNeeding(fromId);
+  if (next) { await go(next.id); return; }
+  const outside = S.entries.filter(e => needs(e.state) && e.id !== fromId).length;
+  toast(outside ? `Nothing more to decide in this list. ${outside} more are outside the filters. Clear the filters to see them.` : 'Every criterion has a decision now. Nothing is final until apply.mjs is run.');
+  await go(fromId);
+}
+
+// ---------- the clicks ----------
+const ready = () => !S.busy && !S.lists && $('name-box').hidden && S.detail && S.detail.id === S.current;
+
+function took(r) {
+  if (r.entry) {
+    const old = S.byId.get(r.entry.id);
+    if (old) Object.assign(old, r.entry);
+  }
+  if (r.counts) S.counts = r.counts;
+  if (r.signoff) S.signoff = r.signoff;
+  S.undo = r.undo || null;
+  renderCounts();
+  renderList();
+}
+
+function problem(e) {
+  if (e.down || (e.data && e.data.ledger)) alarm(e.message);
+  toast(e.message, true);
+}
+
+async function doSign() {
+  if (!ready()) return;
+  const d = S.detail;
+  if (Date.now() < S.lockUntil) return;
+  if (!(S.signoff && S.signoff.auditOk)) { toast(S.signoff && S.signoff.auditError ? S.signoff.auditError : 'Signing is not available.', true); return; }
+  if (!d.canSign && d.kind !== 'not_drafted') {
+    const t = d.audit && d.audit.finalTest ? d.audit.finalTest.text : 'The audit is not complete for this criterion.';
+    toast('Not ready to sign: ' + t, true);
+    return;
+  }
+  if (!S.reviewer) { askName(false); return; }
+  if (d.bad) { toast('This file cannot be read, so it cannot be signed.', true); return; }
+  if (d.state === 'signed' || d.state === 'file_signed') { toast('This one is already signed.'); return; }
+  if (d.state === 'nd_agreed') { toast('You have already agreed to leave this one out.'); return; }
+  if (d.state === 'change' || d.state === 'nd_change') { toast('You asked for a change here. Remove that request first, then sign.', true); return; }
+  if (unsavedFor(d)) {
+    // Words are waiting in the change box. A signature must not sweep them away.
+    toast('You typed a change request here and did not save it. Save it, or throw the words away. Then you can sign.', true);
+    if (!S.noteOpen) renderSide(d);
+    return;
+  }
+  S.busy = true;
+  try {
+    const r = await api('/api/sign', { id: d.id, file_hash: d.hash });
+    S.noteOpen = false;
+    took(r);
+    toast(d.kind === 'not_drafted' ? `Agreed: ${d.label} is left out.` : `Signed: ${d.label}.`);
+    S.busy = false;
+    await moveOn(d.id);
+  } catch (e) {
+    S.busy = false;
+    problem(e);
+    if (e.status === 409 || e.status === 404) { await refreshList(); await go(d.id); }
+  }
+}
+
+function openNote() {
+  if (!ready() || Date.now() < S.lockUntil) return;
+  if (!S.reviewer) { askName(false); return; }
+  S.noteOpen = true;
+  renderSide(S.detail);
+}
+
+function closeNote() {
+  S.noteOpen = false;
+  if (S.detail) renderSide(S.detail);
+  $('sheet').focus({ preventScroll: true });
+}
+
+async function doChange() {
+  if (!ready()) return;
+  const d = S.detail;
+  const note = ($('note-text') ? $('note-text').value : '').trim();
+  if (!note) { toast('Please write what needs to change.', true); return; }
+  S.busy = true;
+  try {
+    const r = await api('/api/change', { id: d.id, file_hash: d.hash, note });
+    S.noteOpen = false;
+    dropDraft(d.id);
+    took(r);
+    toast(`Saved your change request for ${d.label}.`);
+    S.busy = false;
+    await moveOn(d.id);
+  } catch (e) {
+    S.busy = false;
+    problem(e);
+    if (e.status === 409 || e.status === 404) { await refreshList(); await go(d.id); if (S.detail && S.detail.id === d.id) { S.noteOpen = true; renderSide(S.detail); } }
+  }
+}
+
+async function doWithdraw() {
+  if (!ready()) return;
+  const d = S.detail;
+  S.busy = true;
+  try {
+    took(await api('/api/withdraw', { id: d.id }));
+    toast(`Taken back: ${d.label}.`);
+  } catch (e) { problem(e); }
+  S.busy = false;
+  await go(d.id, true);
+}
+
+async function doUndo() {
+  if (S.busy || !$('name-box').hidden) return;
+  if (!S.undo) { toast('There is nothing to undo.'); return; }
+  S.busy = true;
+  let r = null;
+  try {
+    r = await api('/api/undo', { token: S.undo.token });
+    took(r);
+    if (r.kind === 'list') {
+      toast(`Undone: ${r.undone}.`);
+      S.busy = false;
+      if (r.note) S.listDrafts.set(r.id, r.note);
+      S.listNote = r.note ? r.id : null;
+      await showLists(r.id);
+      if (r.note) toast(`Undone: ${r.undone}. Your words are back in the box. They are not saved.`);
+      return;
+    }
+    // Undoing a change request takes his words out of the ledger. They go back into the change box, so they are not lost.
+    if (r.note && r.id) setDraft(r.id, r.note);
+    toast(`Undone: ${r.undone}.`);
+  } catch (e) {
+    problem(e);
+    await refreshList();
+  }
+  S.busy = false;
+  if (r && r.id && S.byId.has(r.id)) {
+    await go(r.id, r.id === S.current);
+    if (r.note && S.detail && S.detail.id === r.id && unsavedFor(S.detail)) {
+      S.noteOpen = true;
+      renderSide(S.detail);
+      toast(`Undone: ${r.undone}. Your words are back in the box. They are not saved.`);
+    }
+  } else if (S.current) await go(S.current, true);
+}
+
+/** Goes to the words that were typed and not saved, and opens the box on them. */
+async function showUnsaved() {
+  const ids = S.entries.filter(e => S.drafts.has(e.id)).map(e => e.id);
+  if (!ids.length || S.busy) return;
+  const id = ids.includes(S.current) ? S.current : ids[0];
+  await go(id);
+  if (S.detail && S.detail.id === id && S.current === id) { S.lockUntil = 0; openNote(); }
+}
+
+function doSkip() {
+  if (!S.current) return;
+  const next = nextNeeding(S.current);
+  if (next) go(next.id);
+  else toast('There is no other criterion waiting for a decision in this list.');
+}
+
+// ---------- the reviewer's name ----------
+function askName(canCancel) {
+  $('name-input').value = S.reviewer || '';
+  $('name-err').textContent = '';
+  $('name-cancel').hidden = !canCancel || !S.reviewer;
+  $('name-box').hidden = false;
+  $('name-input').focus();
+}
+
+$('name-cancel').addEventListener('click', () => { $('name-box').hidden = true; });
+$('name-form').addEventListener('submit', async ev => {
+  ev.preventDefault();
+  try {
+    const r = await api('/api/reviewer', { name: $('name-input').value });
+    S.reviewer = r.reviewer;
+    $('name-box').hidden = true;
+    renderCounts();
+    if (S.current) go(S.current, true);
+    $('sheet').focus({ preventScroll: true });
+  } catch (e) {
+    $('name-err').textContent = e.message;
+  }
+});
+
+// ---------- keeping up with the files ----------
+async function refreshList() {
+  const data = await api('/api/list');
+  takeList(data);
+  renderCounts();
+  renderList();
+  markCurrent(false);
+}
+
+async function loadSearch() {
+  try { S.search = (await api('/api/search-index')).texts; if (S.filters.q) renderList(); } catch { /* the short search still works */ }
+}
+
+async function poll() {
+  if (S.busy || document.hidden) return;
+  try {
+    await refreshList();
+    alarm('');
+  } catch (e) {
+    alarm(e.message);
+    return;
+  }
+  if (S.lists) {
+    if (!S.listNote) renderLists(S.conditionLists, S.listFocus);
+    return;
+  }
+  const d = S.detail;
+  const e = d ? S.byId.get(d.id) : null;
+  if (d && !e) { toast('This criterion is not in the list any more.', true); return; }
+  if (!d && S.current) { go(S.current); return; }          // it could not be shown before: try again
+  if (!d || d.id !== S.current) return;
+  if (e.hash !== d.hash) {
+    if (!S.stale) { S.stale = true; renderSheet(d); }
+  } else if ((e.state !== d.state || e.result !== d.result || e.opinion !== d.opinion) && !S.noteOpen) {
+    go(d.id, true);
+  }
+}
+
+// ---------- start ----------
+function fillFamilies() {
+  const sel = $('f-family');
+  const keep = sel.value;
+  fill(sel, el('option', { value: '' }, 'All families'), S.families.map(f => el('option', { value: f.key }, `${f.word} (${f.count})`)));
+  sel.value = keep;
+}
+
+function onFilter() {
+  readFilters();
+  renderList();
+  markCurrent(false);
+  if (S.detail && S.detail.id === S.current && !S.noteOpen) renderSide(S.detail);
+}
+
+// Was the last thing he did a mouse click or a key press? After a filter is picked with the mouse, the
+// keyboard goes back to the criterion. Otherwise the next S would land in the drop-down and change the filter.
+let byPointer = false;
+document.addEventListener('pointerdown', () => { byPointer = true; }, true);
+document.addEventListener('keydown', () => { byPointer = false; }, true);
+const keysToSheet = () => { if (!S.noteOpen && $('name-box').hidden) $('sheet').focus({ preventScroll: true }); };
+
+for (const id of ['f-family', 'f-set', 'f-status', 'f-result', 'f-opinion', 'f-doubts', 'f-signoff']) {
+  $(id).addEventListener('change', () => { onFilter(); if (byPointer) keysToSheet(); });
+}
+let typing = 0;
+$('q').addEventListener('input', () => { clearTimeout(typing); typing = setTimeout(onFilter, 120); });
+$('q').addEventListener('search', () => { clearTimeout(typing); onFilter(); });      // the small cross in the box, or Enter
+$('q').addEventListener('keydown', ev => {
+  if (ev.key === 'Enter') { clearTimeout(typing); onFilter(); if (S.shown.length) go(S.shown[0].id); }
+});
+function clearFilters() {
+  $('q').value = '';
+  for (const id of ['f-family', 'f-set', 'f-status', 'f-result', 'f-opinion', 'f-audit']) $(id).value = '';
+  $('f-signoff').value = 'ready';
+  $('f-doubts').checked = false;
+  onFilter();
+}
+
+document.addEventListener('keydown', ev => {
+  const t = ev.target;
+  const inField = t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.tagName === 'SELECT');
+  if (t && t.id === 'note-text') {
+    if (ev.key === 'Escape') { ev.preventDefault(); closeNote(); }
+    else if (ev.key === 'Enter' && (ev.ctrlKey || ev.metaKey)) { ev.preventDefault(); doChange(); }
+    return;
+  }
+  if (t && t.id === 'list-note') {
+    if (ev.key === 'Escape') { ev.preventDefault(); S.listNote = null; renderLists(S.conditionLists, S.listFocus); }
+    else if (ev.key === 'Enter' && (ev.ctrlKey || ev.metaKey)) {
+      ev.preventDefault();
+      const c = listByKey(S.listNote);
+      if (c) decideList(c, 'change');
+    }
+    return;
+  }
+  if (inField) {
+    // Esc leaves a box or a filter and gives the keys back to the criterion. The search words stay as they are.
+    if (ev.key === 'Escape' && $('name-box').hidden) { ev.preventDefault(); t.blur(); keysToSheet(); }
+    return;
+  }
+  if (ev.ctrlKey || ev.metaKey || ev.altKey || !$('name-box').hidden) return;
+  const key = ev.key.length === 1 ? ev.key.toLowerCase() : ev.key;
+  if (S.noteOpen && $('note-text')) {
+    // The change box is open, but the keyboard is somewhere else on the page (he clicked on the text to read it).
+    // No key may sign or undo now. A letter goes into the box, where he was writing.
+    if (key === 'Escape') closeNote();
+    else if (key === 'ArrowRight') { ev.preventDefault(); step(1); }
+    else if (key === 'ArrowLeft') { ev.preventDefault(); step(-1); }
+    else if (ev.key.length === 1 && ev.key !== ' ') $('note-text').focus();          // the letter is then typed into the box
+    return;
+  }
+  if (key === 's') { ev.preventDefault(); if (!ev.repeat) doSign(); }
+  else if (key === 'c') { ev.preventDefault(); if (!ev.repeat) openNote(); }
+  else if (key === 'u') { ev.preventDefault(); if (!ev.repeat) doUndo(); }
+  else if (key === 'ArrowRight') { ev.preventDefault(); step(1); }
+  else if (key === 'ArrowLeft') { ev.preventDefault(); step(-1); }
+  else if (key === 'Escape' && S.noteOpen) closeNote();
+});
+
+// A button that was clicked keeps the keyboard. Give it back to the page, so Space and Enter cannot press it again.
+document.addEventListener('click', ev => {
+  const b = ev.target && ev.target.closest ? ev.target.closest('button') : null;
+  if (b && (b.classList.contains('big') || b.closest('.nav'))) b.blur();
+});
+
+async function start() {
+  try {
+    await refreshList();
+  } catch (e) {
+    alarm(e.message);
+    $('sheet').replaceChildren(el('div', { class: 'empty' }, e.message));
+    setTimeout(start, 5000);
+    return;
+  }
+  loadDrafts();
+  renderCounts();
+  fillFamilies();
+  readFilters();
+  loadSearch();
+  const asked = decodeURIComponent(location.hash.slice(1));
+  const firstReady = S.entries.find(e => inUseEntry(e) && e.audit && e.audit.auditComplete && e.audit.textMatches !== false && !signedEntry(e) && e.kind === 'criterion');
+  const listsAsked = asked === 'lists' || asked.startsWith('lists:');
+  const first = S.byId.has(asked) ? asked : (firstReady || S.entries.find(e => needs(e.state)) || S.entries[0] || {}).id;
+  if (listsAsked) {
+    await showLists(asked.startsWith('lists:') ? asked.slice('lists:'.length) : '');
+  } else if (!first) {
+    $('sheet').replaceChildren(el('div', { class: 'empty' }, 'No criterion was found. The list on the left says where the page looked.'));
+  } else {
+    const want = new URLSearchParams(location.search).get('show');
+    await go(first);
+    if (want === 'rows' && S.detail) {
+      const b = $('sheet').querySelector('.history .link');
+      if (b) { b.click(); b.closest('.block').scrollIntoView({ block: 'start' }); }
+    }
+    if (want === 'change' && S.detail && S.reviewer) { S.lockUntil = 0; openNote(); }
+  }
+  if (!S.reviewer) askName(false);
+  setInterval(poll, 15000);
+  window.addEventListener('focus', poll);
+  $('lists-link').addEventListener('click', () => showLists(S.listFocus || ''));
+  window.addEventListener('hashchange', () => {
+    const id = decodeURIComponent(location.hash.slice(1));
+    if (id === 'lists' || id.startsWith('lists:')) showLists(id.startsWith('lists:') ? id.slice('lists:'.length) : '');
+    else if (id !== S.current && S.byId.has(id)) go(id);
+  });
+}
+
+start();
+</script>
+</body>
+</html>

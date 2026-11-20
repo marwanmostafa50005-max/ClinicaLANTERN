@@ -1,0 +1,273 @@
+{
+  "id": "BRISNIK-OP-DEPR1",
+  "label": "Brisnik DEPR1: antidepressant for a first episode of mild depression",
+  "family": "BRISNIK",
+  "title": "Antidepressant for a first episode of mild depression",
+  "statement": "Prescribed an antidepressant - and the patient has a first episode of mild depression",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "For a first episode of mild depression an antidepressant is usually not the first choice, so the need for it should be reviewed.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antidepressants",
+      "ingredients": [
+        "citalopram",
+        "escitalopram",
+        "fluoxetine",
+        "fluvoxamine",
+        "paroxetine",
+        "sertraline",
+        "desvenlafaxine",
+        "duloxetine",
+        "venlafaxine",
+        "amitriptyline",
+        "clomipramine",
+        "dosulepin",
+        "doxepin",
+        "imipramine",
+        "nortriptyline",
+        "trimipramine",
+        "moclobemide",
+        "phenelzine",
+        "tranylcypromine",
+        "bupropion",
+        "agomelatine",
+        "mirtazapine",
+        "vortioxetine",
+        "mianserin",
+        "reboxetine"
+      ],
+      "brands": {
+        "citalopram": [
+          "Cipramil",
+          "Celapram",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talam",
+          "Talohexal"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam",
+          "Loxalate"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Zactin",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Extine",
+          "Aropax CR",
+          "Oxetine",
+          "Paroxo",
+          "Paxtine",
+          "Roxet",
+          "Roxtine"
+        ],
+        "sertraline": [
+          "Zoloft",
+          "Concorz",
+          "Detralon",
+          "Eleva",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Setrona",
+          "Tralen",
+          "Xydep"
+        ],
+        "desvenlafaxine": [
+          "Pristiq",
+          "Desfax",
+          "Desven"
+        ],
+        "duloxetine": [
+          "Cymbalta",
+          "Andepra",
+          "Baltine",
+          "Coperin",
+          "Deotine",
+          "Depreta",
+          "Drulox",
+          "Dulocym",
+          "Duloxecor",
+          "Dytrex",
+          "Symlox",
+          "Texotine",
+          "Tixol",
+          "Xerol DR"
+        ],
+        "venlafaxine": [
+          "Efexor-XR",
+          "Altven",
+          "Elaxine",
+          "Elaxine SR",
+          "Enlafax XR",
+          "Evelexa XR",
+          "Ozvenaf",
+          "Venfax SR",
+          "Venla",
+          "Venlexor XR"
+        ],
+        "amitriptyline": [
+          "Endep",
+          "Amichlor",
+          "Amidep",
+          "Entrip"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "dosulepin": [
+          "Dothep",
+          "Prothiaden"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ],
+        "moclobemide": [
+          "Aurorix",
+          "Maosig",
+          "Amira",
+          "Arima",
+          "Clobemide",
+          "Clobemix",
+          "Mohexal"
+        ],
+        "phenelzine": [
+          "Nardil"
+        ],
+        "tranylcypromine": [
+          "Parnate",
+          "Parpromine",
+          "Tranamef",
+          "Tranylmed"
+        ],
+        "bupropion": [
+          "Zyban"
+        ],
+        "agomelatine": [
+          "Valdoxan",
+          "Domion",
+          "Nortim",
+          "Valomel"
+        ],
+        "mirtazapine": [
+          "Avanza",
+          "Remeron",
+          "Aurozapine",
+          "Avanza Soltab",
+          "Axit",
+          "Milivin OD",
+          "Mirtanza",
+          "Mirtanza ODT",
+          "Mirtazon",
+          "Remeron Soltab"
+        ],
+        "vortioxetine": [
+          "Brintellix"
+        ],
+        "mianserin": [
+          "Tolvon",
+          "Lumin"
+        ],
+        "reboxetine": [
+          "Edronax"
+        ]
+      },
+      "note": "Count oral antidepressant tablets, capsules and liquids when the indication fits this criterion. Exclude topical doxepin and bupropion with naltrexone for weight management (Contrave). Generic packs that show the ingredient name with a company name count too. Bupropion is listed under Zyban."
+    }
+  ],
+  "rule_for_models": "For any oral Group A antidepressant, suspect a finding when the record links that course to a first episode of mild depression and cite both the supply and the episode line. Report no finding for topical doxepin, Contrave for weight management, a different sole indication such as bupropion for smoking cessation, or an episode known to be recurrent or more than mild. If treatment for a first mild episode remains possible, ask what the medicine was prescribed for and, if for depression, whether this was the first episode and how severe the doctor said it was; report only a possible finding and name whatever remains unclear about the indication, episode history or severity.",
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Reason for this antidepressant and type of depression episode",
+      "meets": "The antidepressant treats this first mild episode. An antidepressant solely for another reason or depression known to be recurrent, moderate or severe excludes the finding. If the indication, severity or episode history remains uncertain, keep the finding possible.",
+      "options": [
+        {
+          "words": "This antidepressant treats a first mild episode of depression",
+          "effect": "meets"
+        },
+        {
+          "words": "This antidepressant is solely for another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Depression is recurrent, moderate or severe",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "cannot_be_seen": "How bad the depression is, whether this is really the first episode, what else has been tried, and why the doctor chose an antidepressant.",
+  "ask_the_gp": "A review of whether an antidepressant is the best treatment for this episode, or whether talking therapy or monitoring would do.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

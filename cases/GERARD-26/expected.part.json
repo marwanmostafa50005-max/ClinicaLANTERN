@@ -1,0 +1,47 @@
+[
+  {
+    "file": "GERARD-26/pos-fact.csv",
+    "kind": "positive",
+    "about": "BMI is 17.8 kg/m² during dapagliflozin treatment in a person with recorded type 2 diabetes.",
+    "findings": [
+      {
+        "criterion": "GERARD-26",
+        "must_cite": [
+          [
+            "L045"
+          ],
+          [
+            "L002"
+          ],
+          [
+            "L046"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "GERARD-26/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about BMI during dulaglutide treatment for a person with recorded type 2 diabetes.",
+    "findings": [
+      {
+        "criterion": "GERARD-26",
+        "must_cite": [
+          [
+            "L026"
+          ],
+          [
+            "L002"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "GERARD-26/near-miss.csv",
+    "kind": "near_miss",
+    "about": "BMI is exactly 18.0 kg/m² during dulaglutide treatment, at the boundary excluded by the source.",
+    "findings": []
+  }
+]

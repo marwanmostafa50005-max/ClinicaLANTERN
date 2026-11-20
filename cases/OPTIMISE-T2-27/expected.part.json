@@ -1,0 +1,69 @@
+[
+  {
+    "file": "OPTIMISE-T2-27/pos-fact.csv",
+    "kind": "positive",
+    "about": "Risperdal covers the episode of symptomatic high prolactin, the review records relapse with both reduction and switching, and the dispensing rows show no aripiprazole supply during the episode.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T2-27",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L009",
+            "L013",
+            "L017",
+            "L021",
+            "L025",
+            "L029",
+            "L036",
+            "L040",
+            "L044",
+            "L048"
+          ],
+          [
+            "L033",
+            "L034",
+            "L035"
+          ],
+          [
+            "L034",
+            "L035"
+          ],
+          [
+            "L035"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T2-27/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about hyperprolactinaemia or prolactin. Solian (amisulpride, an antipsychotic that raises prolactin) is supplied every month and no aripiprazole is supplied.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T2-27",
+        "must_cite": [
+          [
+            "L002",
+            "L005",
+            "L008",
+            "L011",
+            "L014",
+            "L017",
+            "L020",
+            "L023",
+            "L026"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T2-27/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Oral aripiprazole began on 3 February for symptomatic high prolactin, the repeat samples were taken on 6 and 10 February, and the latter was normal with documented resolution.",
+    "findings": []
+  }
+]

@@ -1,0 +1,166 @@
+{
+  "id": "STOPP-G2",
+  "label": "STOPP G2",
+  "family": "STOPP_START",
+  "title": "Steroid tablets instead of inhaled steroid for COPD",
+  "statement": "Systemic corticosteroids instead of inhaled corticosteroids for maintenance therapy in moderate-severe COPD (unnecessary exposure to long-term side-effects of systemic corticosteroids and effective inhaled therapies are available).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Steroid tablets used as long-term treatment for moderate to severe COPD expose the person to avoidable side effects when inhaled steroids are available.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Systemic corticosteroids (tablets and liquids)",
+      "ingredients": [
+        "prednisolone",
+        "prednisone",
+        "methylprednisolone",
+        "dexamethasone"
+      ],
+      "brands": {
+        "prednisolone": [
+          "Panafcortelone",
+          "Predsolone",
+          "Solone",
+          "Predmix",
+          "Redipred"
+        ],
+        "prednisone": [
+          "Panafcort",
+          "Predsone",
+          "Sone"
+        ],
+        "methylprednisolone": [
+          "Medrol"
+        ],
+        "dexamethasone": [
+          "Dexmethsone"
+        ]
+      },
+      "note": "Short courses of a few days to two weeks do not count as maintenance. Hydrocortisone replacement therapy is not in this group."
+    },
+    {
+      "key": "B",
+      "name": "Inhaled corticosteroids, alone or in combination inhalers",
+      "ingredients": [
+        "budesonide",
+        "beclometasone",
+        "fluticasone propionate",
+        "fluticasone furoate",
+        "ciclesonide",
+        "mometasone"
+      ],
+      "brands": {
+        "budesonide": [
+          "Pulmicort Turbuhaler",
+          "Symbicort",
+          "Bufomix Easyhaler",
+          "Pulmicort Respule",
+          "Breztri Aerosphere",
+          "DuoResp Spiromax",
+          "Rilast"
+        ],
+        "beclometasone": [
+          "Qvar",
+          "Fostair",
+          "Trimbow (with formoterol and glycopyrronium)"
+        ],
+        "fluticasone propionate": [
+          "Flixotide",
+          "Seretide (with salmeterol)",
+          "Flutiform (with formoterol)",
+          "Axotide",
+          "Axotide Accuhaler",
+          "Axotide Junior Accuhaler",
+          "Axotide Junior Inhaler",
+          "Flixotide Accuhaler",
+          "Flixotide Junior Accuhaler",
+          "Flixotide Junior Inhaler",
+          "Flixotide Nebules",
+          "Fluair Inhaler",
+          "Pavtide",
+          "SalplusF",
+          "Salflumix Easyhaler",
+          "Evocair"
+        ],
+        "fluticasone furoate": [
+          "Arnuity Ellipta",
+          "Breo Ellipta (with vilanterol)",
+          "Trelegy Ellipta"
+        ],
+        "ciclesonide": [
+          "Alvesco"
+        ],
+        "mometasone": [
+          "Asmanex Twisthaler",
+          "Atectura Breezhaler",
+          "Enerzair Breezhaler"
+        ]
+      },
+      "note": "Combination inhalers that contain an inhaled steroid count. Combination names are listed under the steroid ingredient. Confirm that the inhaler was in use for the COPD episode. If its timing or role is unclear, report a possible finding."
+    }
+  ],
+  "rule_for_models": "For people aged 65 or older, assess documented Group A oral steroid maintenance treatment for moderate, severe or very severe COPD from the first supply. If the course is uncertain, use supply dates, quantities and directions to clarify regular use. Exclude short courses for flare-ups. Confirm a finding and cite the steroid, COPD severity and treatment reason if no Group B inhaled steroid was supplied for use during that episode, disregarding inhalers stopped before it. There is no finding if COPD was absent or mild during the episode, or the steroid was used only for a flare-up or another condition. Leave eligibility unconfirmed if age is unknown, and report a possible finding if the diagnosis, severity, steroid indication, regular use or inhaler overlap is unclear, naming what is missing and asking how the steroid was taken when directions are unclear so the pharmacist can judge gaps or overlap.",
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Chronic obstructive pulmonary disease (COPD), moderate to severe",
+      "meets": "COPD recorded as moderate, severe or very severe",
+      "options": [
+        {
+          "words": "COPD was moderate, severe or very severe during this treatment",
+          "effect": "meets"
+        },
+        {
+          "words": "COPD was mild during this treatment",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "The patient did not have COPD during this treatment",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for the oral corticosteroid course being assessed for COPD maintenance",
+      "meets": "The steroid was used for maintenance of the qualifying COPD, rather than only for an exacerbation or another illness.",
+      "options": [
+        {
+          "words": "Maintenance treatment for COPD",
+          "effect": "meets"
+        },
+        {
+          "words": "Only for a COPD flare",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Only for another indication",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "cannot_be_seen": "Whether the person has COPD and how severe it is, why the steroid tablets were started, and the dose actually taken. Also breathing test results, and medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "Whether the long-term steroid tablets are still needed, and whether an inhaled steroid treatment would be suitable instead.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,13 @@
+node_modules/
+dist/
+dist-replay/
+data/
+*.log
+.DS_Store
+Thumbs.db
+eval/results/*/raw/
+
+# The founder's own notes hold one phrase that the coordinator advised should not appear in anything a judge sees
+# (the founder has not ruled on it). The file is kept out of the commit until he decides: keep it out, or commit
+# a copy without that sentence. It stays on this computer. See docs/REVIEW_FIXES.md.
+docs/FOUNDER_DESIGN.md

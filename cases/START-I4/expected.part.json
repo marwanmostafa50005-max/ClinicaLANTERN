@@ -1,0 +1,59 @@
+[
+  {
+    "file": "START-I4/pos-fact.csv",
+    "kind": "positive",
+    "about": "The record holds a line for recurrent urinary tract infection (three infections in 12 months). Methenamine hippurate (Hiprex) is supplied every month but no vaginal oestrogen is supplied.",
+    "findings": [
+      {
+        "criterion": "START-I4",
+        "must_cite": [
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-I4/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the missing fact is Recurrent urinary tract infection. Four separate antibiotic supplies for urinary infection (trimethoprim three times, nitrofurantoin once) are spread over eight months and no vaginal oestrogen is supplied.",
+    "findings": [
+      {
+        "criterion": "START-I4",
+        "must_cite": [
+          [
+            "L005",
+            "L011"
+          ],
+          [
+            "L005",
+            "L017"
+          ],
+          [
+            "L005",
+            "L023"
+          ],
+          [
+            "L011",
+            "L017"
+          ],
+          [
+            "L011",
+            "L023"
+          ],
+          [
+            "L017",
+            "L023"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-I4/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The record holds a line for recurrent urinary tract infection and Ovestin (estriol vaginal cream) is supplied about every 3 to 4 months, last on 21 April 2026, so a vaginal oestrogen is there.",
+    "findings": []
+  }
+]

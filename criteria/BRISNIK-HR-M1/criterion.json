@@ -1,0 +1,208 @@
+{
+  "id": "BRISNIK-HR-M1",
+  "label": "Brisnik HR-M1: SSRI, SNRI, MAOI or bupropion with sleep problems or agitation",
+  "family": "BRISNIK",
+  "title": "Activating antidepressant with persistent sleep problems or agitation",
+  "statement": "Prescribed SSRI, SNRI, MAOI, or bupropion - and the patient has persistent sleeping disturbances (e.g., insomnia, restless leg syndrome) or is experiencing agitation",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "These antidepressants can make sleep problems, restless legs or agitation worse, so a person who has those problems should have the medicine reviewed.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "SSRIs, SNRIs, MAOIs and bupropion",
+      "ingredients": [
+        "citalopram",
+        "escitalopram",
+        "fluoxetine",
+        "fluvoxamine",
+        "paroxetine",
+        "sertraline",
+        "desvenlafaxine",
+        "duloxetine",
+        "venlafaxine",
+        "moclobemide",
+        "phenelzine",
+        "tranylcypromine",
+        "bupropion"
+      ],
+      "brands": {
+        "citalopram": [
+          "Cipramil",
+          "Celapram",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talam",
+          "Talohexal"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam",
+          "Loxalate"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Zactin",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Extine",
+          "Aropax CR",
+          "Oxetine",
+          "Paroxo",
+          "Paxtine",
+          "Roxet",
+          "Roxtine"
+        ],
+        "sertraline": [
+          "Zoloft",
+          "Concorz",
+          "Detralon",
+          "Eleva",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Setrona",
+          "Tralen",
+          "Xydep"
+        ],
+        "desvenlafaxine": [
+          "Pristiq",
+          "Desfax",
+          "Desven"
+        ],
+        "duloxetine": [
+          "Cymbalta",
+          "Andepra",
+          "Baltine",
+          "Coperin",
+          "Deotine",
+          "Depreta",
+          "Drulox",
+          "Dulocym",
+          "Duloxecor",
+          "Dytrex",
+          "Symlox",
+          "Texotine",
+          "Tixol",
+          "Xerol DR"
+        ],
+        "venlafaxine": [
+          "Efexor-XR",
+          "Altven",
+          "Elaxine",
+          "Elaxine SR",
+          "Enlafax XR",
+          "Evelexa XR",
+          "Ozvenaf",
+          "Venfax SR",
+          "Venla",
+          "Venlexor XR"
+        ],
+        "moclobemide": [
+          "Aurorix",
+          "Maosig",
+          "Amira",
+          "Arima",
+          "Clobemide",
+          "Clobemix",
+          "Mohexal"
+        ],
+        "phenelzine": [
+          "Nardil"
+        ],
+        "tranylcypromine": [
+          "Parnate",
+          "Parpromine",
+          "Tranamef",
+          "Tranylmed"
+        ],
+        "bupropion": [
+          "Zyban",
+          "Contrave"
+        ]
+      },
+      "note": "Generic packs that show the ingredient name with a company name count too. Contrave contains bupropion with naltrexone. Count the bupropion exposure once. Moclobemide is a reversible MAO inhibitor."
+    }
+  ],
+  "rule_for_models": "With a Group A supply, report a finding and cite the supply and symptom lines if the person has persistent sleep trouble or current agitation during that course. Agitation can be new and sleep can be normal. If neither symptom qualifies, report no finding. If the symptom history, its timing or the persistence of sleep trouble is unknown and no qualifying symptom is established, report a possible finding and ask what is missing.",
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Persistent sleeping disturbance (for example insomnia or restless legs syndrome) or agitation",
+      "meets": "Persistent sleep trouble or current agitation during the relevant course meets this condition. Either symptom is sufficient. If both are absent there is no finding. If persistence or timing is unclear, keep the finding possible.",
+      "options": [
+        {
+          "words": "Persistent sleep trouble during this course",
+          "effect": "meets"
+        },
+        {
+          "words": "Agitation during this course that is present now",
+          "effect": "meets"
+        },
+        {
+          "words": "Both symptoms during this course",
+          "effect": "meets"
+        },
+        {
+          "words": "Neither symptom during this course",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "cannot_be_seen": "Whether the person sleeps badly or is agitated, how long it has gone on, whether it began after the antidepressant, and sleeping medicines bought without a prescription.",
+  "ask_the_gp": "A review of the person's sleep or agitation and whether this antidepressant may be contributing.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

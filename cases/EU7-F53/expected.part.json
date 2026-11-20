@@ -1,0 +1,42 @@
+[
+  {
+    "file": "EU7-F53/pos-brand.csv",
+    "kind": "positive",
+    "about": "Cafergot is supplied by brand name only three times between April and August 2026 to a person aged 67.",
+    "findings": [
+      {
+        "criterion": "EU7-F53",
+        "must_cite": [
+          [
+            "L011",
+            "L020",
+            "L027"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F53/pos-buried.csv",
+    "kind": "positive",
+    "about": "Ergotamine with caffeine is supplied three times between January and May 2026, in the middle of a 14-month history, to a person aged 66.",
+    "findings": [
+      {
+        "criterion": "EU7-F53",
+        "must_cite": [
+          [
+            "L033",
+            "L043",
+            "L051"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F53/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Ergotamine with caffeine is supplied twice to a person aged 54, below the age of 65, so it must not flag.",
+    "findings": []
+  }
+]

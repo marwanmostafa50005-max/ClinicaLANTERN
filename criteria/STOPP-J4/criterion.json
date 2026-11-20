@@ -1,0 +1,81 @@
+{
+  "id": "STOPP-J4",
+  "label": "STOPP J4",
+  "family": "STOPP_START",
+  "title": "SGLT2 inhibitor with symptomatic low blood pressure",
+  "statement": "Sodium glucose co-transporter (SGLT2) inhibitors (e.g., canagliflozin, dapagliflozin, empagliflozin, ertugliflozin) with symptomatic hypotension (risk of exacerbation of hypotension).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "SGLT2 inhibitors such as empagliflozin and dapagliflozin can lower blood pressure further in a person who already has low blood pressure with symptoms.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "SGLT2 inhibitors",
+      "ingredients": [
+        "canagliflozin",
+        "dapagliflozin",
+        "empagliflozin",
+        "ertugliflozin"
+      ],
+      "brands": {
+        "canagliflozin": [
+          "Invokana"
+        ],
+        "dapagliflozin": [
+          "Forxiga",
+          "Xigduo XR (with metformin)",
+          "Glixafor",
+          "Qtern (with saxagliptin)",
+          "Sidapvia"
+        ],
+        "empagliflozin": [
+          "Jardiance",
+          "Jardiamet (with metformin)",
+          "Glyxambi (with linagliptin)"
+        ],
+        "ertugliflozin": [
+          "Steglatro",
+          "Segluromet (with metformin)",
+          "Steglujan (with sitagliptin)"
+        ]
+      },
+      "note": "Combination products count and the combination is named. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Symptomatic hypotension",
+      "meets": "A line that says the person has low blood pressure with symptoms such as dizziness on standing, or blood pressure readings that are low with symptoms recorded",
+      "options": [
+        {
+          "words": "Low blood pressure caused symptoms during this SGLT2 inhibitor course",
+          "effect": "meets"
+        },
+        {
+          "words": "There was no low blood pressure with symptoms during this course",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this criterion only to people aged 65 years or older. If age is unknown and the other criteria apply, ask for age before confirming a finding. Suspect a finding when a Group A medicine (an SGLT2 inhibitor) is supplied and the record has a line showing symptomatic low blood pressure; cite the supply lines and that fact line. For a Group A supply, use the blood pressure and symptom assessment relevant to that supply. The pharmacist judges borderline readings alongside the symptoms. A borderline reading alone cannot confirm a finding. If low blood pressure is recorded and symptoms are unknown, report a possible finding and ask whether symptoms accompanied the low pressure. If there is no assessment of symptomatic hypotension, report a possible finding and ask whether low blood pressure caused symptoms during supply. Give no finding when the assessment excludes symptomatic hypotension, including a low reading explicitly recorded as asymptomatic.",
+  "cannot_be_seen": "Whether the person feels dizzy or faints, the current blood pressure, fluid intake, and other medicines that lower blood pressure supplied elsewhere. Blood pressure lines may be missing from a pharmacy record.",
+  "ask_the_gp": "A review of the blood pressure and of whether the SGLT2 inhibitor is still suitable.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

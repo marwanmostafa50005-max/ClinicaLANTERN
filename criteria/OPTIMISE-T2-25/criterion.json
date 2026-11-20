@@ -1,0 +1,264 @@
+{
+  "id": "OPTIMISE-T2-25",
+  "label": "OPTIMISE T2-25",
+  "family": "OPTIMISE",
+  "title": "No check for prolactin symptoms on an antipsychotic",
+  "statement": "Systematically assess for symptoms of hyperprolactinaemia in people with SMI who are prescribed an antipsychotic at 3 months and biannually thereafter",
+  "statement_origin": "published",
+  "source": {
+    "document": "Carolan A, et al. OPTIMISE. BMC Psychiatry 2022;22:585, Tables 2-3",
+    "citation": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "modification_notice": "Text reproduced as recorded by the earlier project and not yet compared with the publisher's page. Not endorsed by the source authors."
+  },
+  "plain_summary": "A person who takes an antipsychotic should be asked about symptoms of high prolactin at 3 months and then regularly after that.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antipsychotics",
+      "ingredients": [
+        "risperidone",
+        "paliperidone",
+        "olanzapine",
+        "quetiapine",
+        "aripiprazole",
+        "clozapine",
+        "amisulpride",
+        "haloperidol",
+        "chlorpromazine",
+        "lurasidone",
+        "asenapine",
+        "zuclopenthixol",
+        "flupentixol",
+        "brexpiprazole",
+        "ziprasidone",
+        "cariprazine",
+        "periciazine",
+        "trifluoperazine"
+      ],
+      "brands": {
+        "risperidone": [
+          "Risperdal",
+          "Risperdal Consta",
+          "Ozidal",
+          "Resdone",
+          "Respaz",
+          "Risdone",
+          "Rispa",
+          "Rispaccord",
+          "Rispaccord-0.5",
+          "Risperdal Quicklet",
+          "Risperibell",
+          "Rispericor",
+          "Rispericor-0.5",
+          "Risperisan",
+          "Rispernia",
+          "Rixadone",
+          "Sperid",
+          "Uzedy"
+        ],
+        "paliperidone": [
+          "Invega",
+          "Invega Sustenna",
+          "Invega Trinza",
+          "Invega Hafyera",
+          "Palmeux",
+          "Trevicta"
+        ],
+        "olanzapine": [
+          "Zyprexa",
+          "Zyprexa Zydis",
+          "Zyprexa Relprevv",
+          "Aprolan",
+          "Aprolan ODT",
+          "Lanez",
+          "Lanez ODT",
+          "Lanzek",
+          "Lanzek Zydis",
+          "Lonza",
+          "Lonza ODT",
+          "Lyprosia",
+          "Lyprosia ODT",
+          "Olancor",
+          "Olanza",
+          "Olanzaccord",
+          "Olanzacor",
+          "Oprexa",
+          "Ozin",
+          "Ozin ODT",
+          "Prolanza",
+          "Prolanza ODT",
+          "Pryzex",
+          "Pryzex ODT",
+          "Tolaze ODT",
+          "Tolazine ODT",
+          "Torapine ODT",
+          "Torrenia ODT",
+          "Zylap",
+          "Zylap ODT",
+          "Zylapine",
+          "Zylapine ODT",
+          "Zypine",
+          "Zypine ODT"
+        ],
+        "quetiapine": [
+          "Seroquel",
+          "Seroquel XR",
+          "Aliquen",
+          "Delucon",
+          "Kaptan",
+          "Ketizenol",
+          "Qualez",
+          "Quepine XR",
+          "Quetapen",
+          "Quetia",
+          "Quetia XR",
+          "Quetiaccord",
+          "Quetiaquel XR",
+          "Quetin",
+          "Quipine",
+          "Sequase",
+          "Sequase XR",
+          "Serapine",
+          "Serapine XR",
+          "Seroccord",
+          "Seronia",
+          "Serotiapine XR",
+          "Syquet",
+          "Syquet XR",
+          "Syzopine",
+          "Tevatiapine XR",
+          "Tiapine XR",
+          "Tiava XR",
+          "Xque XR"
+        ],
+        "aripiprazole": [
+          "Abilify",
+          "Abilify Maintena",
+          "Abilify Asimtufii",
+          "Abilify ODT",
+          "Abipra",
+          "Abyraz",
+          "Aprazole",
+          "Aripic",
+          "Aripra",
+          "Arizole"
+        ],
+        "clozapine": [
+          "Clozaril",
+          "Clopine",
+          "Closyn",
+          "Clozaril ODT",
+          "Clozitor",
+          "Versacloz"
+        ],
+        "amisulpride": [
+          "Solian",
+          "Amipride",
+          "Sulprix"
+        ],
+        "haloperidol": [
+          "Serenace",
+          "Haldol Decanoate"
+        ],
+        "chlorpromazine": [
+          "Largactil",
+          "Largactil Syrup"
+        ],
+        "lurasidone": [
+          "Latuda",
+          "Bilura",
+          "Latulem",
+          "Lavione",
+          "Luracor",
+          "Luralem",
+          "Luralembic",
+          "Lurobi"
+        ],
+        "asenapine": [
+          "Saphris"
+        ],
+        "zuclopenthixol": [
+          "Clopixol",
+          "Clopixol Depot"
+        ],
+        "flupentixol": [
+          "Fluanxol",
+          "Fluanxol Depot"
+        ],
+        "brexpiprazole": [
+          "Rexulti"
+        ],
+        "ziprasidone": [
+          "Zeldox",
+          "Ziprox"
+        ],
+        "cariprazine": [
+          "Reagila"
+        ],
+        "periciazine": [
+          "Neulactil"
+        ],
+        "trifluoperazine": [
+          "Stelazine",
+          "Stelazine Forte",
+          "Stelazine Spansule"
+        ]
+      },
+      "note": "Tablets, capsules, liquids, wafers and long-acting injections count. Generic packs that show the ingredient name with a company name count too. Match flupentixol decanoate to the flupentixol group. Use the recorded formulation to distinguish depot injection from tablets."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Scheduled checks for high prolactin symptoms during this antipsychotic course",
+      "meets": "At least one scheduled symptom check was missed during ongoing treatment. All checks due so far being completed clears the monitoring concern for this course. If the history is incomplete, ask which review was checked and report only what the evidence supports.",
+      "options": [
+        {
+          "words": "At least one scheduled symptom check was missed during this course",
+          "effect": "meets"
+        },
+        {
+          "words": "All symptom checks due so far were completed",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "condition",
+      "what": "Severe mental illness",
+      "meets": "A condition line records severe mental illness, such as schizophrenia, schizoaffective disorder, bipolar disorder or severe depression."
+    },
+    {
+      "kind": "observation",
+      "what": "Antipsychotic use on the date of the scheduled symptom review",
+      "meets": "Ask only if the supplies or depot interval leave coverage uncertain. Identify the course and the due date in the possible finding. Apply the answer only to that review. If several reviews are uncertain and the answer cannot be linked to a date, leave them open.",
+      "options": [
+        {
+          "words": "The patient was still taking the antipsychotic at that review",
+          "effect": "meets"
+        },
+        {
+          "words": "Treatment had stopped before that review",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "If age is missing and the other evidence supports a finding or possible finding, report only a possible finding and ask whether the person is 18 or older. For a person aged 18 or older with documented severe mental illness, check whether one or more Group A supplies support ongoing treatment at each review due date. Use the treatment start date, supply dates, quantity and prescribed daily dose or documented depot dosing interval. Divide quantity by units per day for fixed daily dosing. Count a depot interval from documented administration, or seek confirmation if only collection is recorded. An explicit stop breaks the course. The pharmacist judges uncertain refill gaps without assuming uninterrupted treatment. Check for a dated assessment of hyperprolactinaemia symptoms at month 3 of treatment, then at months 9, 15 and every six months thereafter while treatment continues. Count equivalent checks for sexual, reproductive, breast or hormonal adverse effects, such as breast milk production, missed periods, breast swelling or sexual problems. Accept a dated assessment linked to the due review or pharmacist confirmation that all checks due in this course were completed. A confirmed missed check supports a finding. Name a particular missed review only if the evidence identifies it. If timing is borderline and the link is unclear, ask the pharmacist to confirm which review it covered. A baseline assessment or later review does not establish that an intervening review took place. Identify each due review with no matching assessment as unrecorded. Cite the diagnosis, the relevant review history and supplies showing treatment across the due review. If the record explicitly excludes severe mental illness during treatment, there is no finding. A different indication alone does not exclude a coexisting severe mental illness. If there is no symptom-review information at all or the qualifying diagnosis is unclear, report only a possible finding and name the missing evidence. If a review could have fallen due and an assessment for it is unrecorded, but the dose, dosing interval or continuity is unclear, report only a possible finding. Identify the due date and ask for \"Antipsychotic use on the date of the scheduled symptom review\" if coverage is uncertain. Check the dose or injection interval if needed. If treatment continued, assess the symptom check for that date. Exclude reviews after treatment stopped. If the answer is unknown or cannot be linked to that review, leave it open. Do not carry the answer across review dates.",
+  "cannot_be_seen": "Whether the person was asked about symptoms at a visit that was not written down, who is responsible for the check, and whether the person has severe mental illness when no condition line is recorded (antipsychotics have other uses).",
+  "ask_the_gp": "Whether the person has been checked for symptoms of high prolactin, and when the next check is due.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

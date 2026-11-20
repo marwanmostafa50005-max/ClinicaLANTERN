@@ -1,0 +1,35 @@
+patient_ref,patient_age,patient_sex,record_type,dispense_date,medicine,brand,strength,form,quantity,repeats_left,directions,prescriber,detail,value
+F-ECZE07-03,7,F,observation,2026-01-11,,,,,,,,,Weight,23.7 kg
+F-ECZE07-03,7,F,observation,2026-01-11,,,,,,,,,Height,123.4 cm
+F-ECZE07-03,7,F,observation,2026-01-11,,,,,,,,,Pulse,88 beats/min
+F-ECZE07-03,7,F,,2026-01-11,white soft paraffin,,100%,ointment,100 g,0,Apply a thin layer to dry skin as needed,Dr A. Example,,
+F-ECZE07-03,7,F,observation,2026-02-06,,,,,,,,,Weight,23.8 kg
+F-ECZE07-03,7,F,observation,2026-02-06,,,,,,,,,Height,123.9 cm
+F-ECZE07-03,7,F,observation,2026-02-06,,,,,,,,,Pulse,91 beats/min
+F-ECZE07-03,7,F,observation,2026-03-04,,,,,,,,,Weight,24.0 kg
+F-ECZE07-03,7,F,observation,2026-03-04,,,,,,,,,Height,124.3 cm
+F-ECZE07-03,7,F,observation,2026-03-04,,,,,,,,,Pulse,94 beats/min
+F-ECZE07-03,7,F,,2026-03-04,white soft paraffin,,100%,ointment,100 g,0,Apply a thin layer to dry skin as needed,Dr A. Example,,
+F-ECZE07-03,7,F,observation,2026-03-30,,,,,,,,,Weight,24.1 kg
+F-ECZE07-03,7,F,observation,2026-03-30,,,,,,,,,Height,124.8 cm
+F-ECZE07-03,7,F,observation,2026-03-30,,,,,,,,,Pulse,88 beats/min
+F-ECZE07-03,7,F,observation,2026-04-25,,,,,,,,,Weight,24.3 kg
+F-ECZE07-03,7,F,observation,2026-04-25,,,,,,,,,Height,125.2 cm
+F-ECZE07-03,7,F,observation,2026-04-25,,,,,,,,,Pulse,91 beats/min
+F-ECZE07-03,7,F,,2026-04-25,white soft paraffin,,100%,ointment,100 g,0,Apply a thin layer to dry skin as needed,Dr A. Example,,
+F-ECZE07-03,7,F,observation,2026-05-21,,,,,,,,,Weight,24.4 kg
+F-ECZE07-03,7,F,observation,2026-05-21,,,,,,,,,Height,125.7 cm
+F-ECZE07-03,7,F,observation,2026-05-21,,,,,,,,,Pulse,94 beats/min
+F-ECZE07-03,7,F,condition,2026-05-23,,,,,,,,,Atopic eczema,Diagnosed at this visit
+F-ECZE07-03,7,F,,2026-05-23,mupirocin,Bactroban,20 mg/g,ointment,15 g,0,Apply a small amount to the eczema patch three times daily for five days,Dr A. Example,,
+F-ECZE07-03,7,F,observation,2026-05-23,,,,,,,,,Clinical assessment of the eczema patch,Localised secondary bacterial infection at this visit
+F-ECZE07-03,7,F,observation,2026-06-16,,,,,,,,,Weight,24.6 kg
+F-ECZE07-03,7,F,observation,2026-06-16,,,,,,,,,Height,126.2 cm
+F-ECZE07-03,7,F,observation,2026-06-16,,,,,,,,,Pulse,88 beats/min
+F-ECZE07-03,7,F,,2026-06-16,white soft paraffin,,100%,ointment,100 g,0,Apply a thin layer to dry skin as needed,Dr A. Example,,
+F-ECZE07-03,7,F,condition,2026-07-08,,,,,,,,,Atopic eczema,Flexural eczema at both elbows
+F-ECZE07-03,7,F,observation,2026-07-08,,,,,,,,,Skin assessment,Elbow patches dry without signs of infection
+F-ECZE07-03,7,F,,2026-07-08,mupirocin,Bactroban,20 mg/g,ointment,15 g,0,Apply to impetigo on the chin three times daily for five days,Dr A. Example,,
+F-ECZE07-03,7,F,observation,2026-07-12,,,,,,,,,Weight,24.8 kg
+F-ECZE07-03,7,F,observation,2026-07-12,,,,,,,,,Height,126.6 cm
+F-ECZE07-03,7,F,observation,2026-07-12,,,,,,,,,Pulse,91 beats/min

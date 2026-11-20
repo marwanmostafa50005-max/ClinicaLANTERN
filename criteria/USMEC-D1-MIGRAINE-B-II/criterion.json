@@ -1,0 +1,168 @@
+{
+  "id": "USMEC-D1-MIGRAINE-B-II",
+  "label": "USMEC: combined pill with a history of migraine with aura",
+  "family": "USMEC",
+  "title": "Combined pill with a history of migraine with aura",
+  "statement": "ii. With aura",
+  "statement_origin": "published",
+  "source": {
+    "document": "U.S. Medical Eligibility Criteria for Contraceptive Use, 2024. Appendix D, Table D1",
+    "citation": "Nguyen AT, Curtis KM, Tepper NK, et al. U.S. Medical Eligibility Criteria for Contraceptive Use, 2024. MMWR Recomm Rep 2024;73(No. RR-4):1–126. doi:10.15585/mmwr.rr7304a1.",
+    "doi": "10.15585/mmwr.rr7304a1",
+    "url": "https://www.cdc.gov/mmwr/volumes/73/rr/rr7304a1_appendix.htm#TD1_down",
+    "licence": "Public domain",
+    "licence_status": "proposed",
+    "credit": "Nguyen AT, Curtis KM, Tepper NK, et al. U.S. Medical Eligibility Criteria for Contraceptive Use, 2024. MMWR Recomm Rep 2024;73(No. RR-4):1–126. doi:10.15585/mmwr.rr7304a1.",
+    "modification_notice": "The table row is reproduced unchanged. This draft applies the combined hormonal contraceptive column to combined oral pills."
+  },
+  "plain_summary": "The U.S. criteria classify combined pill use as an unacceptable risk for someone who has ever had migraine with aura.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Combined oral contraceptive pills",
+      "ingredients": [
+        "ethinylestradiol with levonorgestrel",
+        "ethinylestradiol with norethisterone",
+        "ethinylestradiol with drospirenone",
+        "ethinylestradiol with desogestrel",
+        "ethinylestradiol with gestodene",
+        "ethinylestradiol with dienogest",
+        "estradiol valerate with dienogest",
+        "estetrol with drospirenone",
+        "drospirenone + estetrol",
+        "desogestrel + ethinylestradiol",
+        "dienogest + ethinylestradiol",
+        "drospirenone + ethinylestradiol",
+        "ethinylestradiol + gestodene",
+        "ethinylestradiol + levonorgestrel",
+        "ethinylestradiol + norethisterone",
+        "ethinylestradiol with cyproterone acetate"
+      ],
+      "brands": {
+        "ethinylestradiol with levonorgestrel": [
+          "Lenest 30 ED",
+          "Levlen ED",
+          "Microgynon 30 ED",
+          "Microgynon 20 ED",
+          "Evelyn 150/30 ED",
+          "Eleanor 150/30 ED",
+          "Femme-Tab ED 20/100",
+          "Femme-Tab ED 30/150",
+          "Monofeme",
+          "Nordette",
+          "Loette",
+          "Microlevlen ED",
+          "Seasonique"
+        ],
+        "ethinylestradiol with norethisterone": [
+          "Norimin",
+          "Norimin-1",
+          "Brevinor",
+          "Brevinor-1",
+          "Synphasic"
+        ],
+        "ethinylestradiol with drospirenone": [
+          "Yaz",
+          "Yasmin",
+          "Yaz Flex",
+          "Isabelle",
+          "Petibelle"
+        ],
+        "ethinylestradiol with desogestrel": [
+          "Marvelon",
+          "Marvelon 28"
+        ],
+        "ethinylestradiol with gestodene": [
+          "Minulet",
+          "Femoden ED"
+        ],
+        "ethinylestradiol with dienogest": [
+          "Valette"
+        ],
+        "estradiol valerate with dienogest": [
+          "Qlaira"
+        ],
+        "estetrol with drospirenone": [
+          "Nextstellis"
+        ],
+        "drospirenone + estetrol": [
+          "Nextstellis"
+        ],
+        "desogestrel + ethinylestradiol": [
+          "Marvelon",
+          "Marvelon 28"
+        ],
+        "dienogest + ethinylestradiol": [
+          "Valette"
+        ],
+        "drospirenone + ethinylestradiol": [
+          "Yaz",
+          "Yasmin",
+          "Yaz Flex",
+          "Isabelle",
+          "Petibelle"
+        ],
+        "ethinylestradiol + gestodene": [
+          "Minulet",
+          "Femoden ED"
+        ],
+        "ethinylestradiol + levonorgestrel": [
+          "Lenest 30 ED",
+          "Levlen ED",
+          "Microgynon 30 ED",
+          "Microgynon 20 ED",
+          "Evelyn 150/30 ED",
+          "Eleanor 150/30 ED",
+          "Femme-Tab ED 20/100",
+          "Femme-Tab ED 30/150",
+          "Monofeme",
+          "Nordette",
+          "Loette",
+          "Microlevlen ED",
+          "Seasonique"
+        ],
+        "ethinylestradiol + norethisterone": [
+          "Norimin",
+          "Norimin-1",
+          "Brevinor",
+          "Brevinor-1",
+          "Synphasic"
+        ],
+        "ethinylestradiol with cyproterone acetate": [
+          "Diane-35 ED",
+          "Brenda-35 ED",
+          "Estelle-35 ED",
+          "Juliet-35 ED"
+        ]
+      },
+      "note": "Count oral contraceptive packs containing a progestogen with ethinylestradiol up to 35 micrograms per active tablet, estradiol valerate or estetrol. Check the active tablets across the pack for products with several phases. Exclude progestogen-only pills, patches, rings and menopausal hormone therapy. Qlaira contains estradiol valerate. Plain estradiol with nomegestrol is outside the published pill definition. For ethinylestradiol pills, every active phase must meet the limit. Exclude Logynon ED, Triphasil, Trifeme, Triquilar ED and Tri-Minulet because each has a 40 microgram phase. For Nordette, check the specific pack and count only the qualifying strength."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Migraine with aura",
+      "meets": "A recorded diagnosis or a pharmacist's confirmation establishes that migraine with aura had occurred by the combined pill supply under review.",
+      "options": [
+        {
+          "words": "Migraine with aura had occurred by this combined pill supply",
+          "effect": "meets"
+        },
+        {
+          "words": "Migraine with aura had never occurred by this combined pill supply",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "For a Group A combined pill supply, cite the pill and the diagnosis or pharmacist's answer confirming that migraine with aura had occurred by that supply. If the record confirms no history of migraine with aura by that supply, report no finding. If the history, migraine type or timing is unknown, cite the pill and report a possible finding naming what is missing.",
+  "cannot_be_seen": "A headache or a triptan supply cannot establish aura. The diagnosis date alone cannot establish when the last aura occurred or whether the pill is being taken.",
+  "ask_the_gp": "Could you review the combined pill and confirm the migraine diagnosis and the date of the last aura?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

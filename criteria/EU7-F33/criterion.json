@@ -1,0 +1,46 @@
+{
+  "id": "EU7-F33",
+  "label": "EU(7)-PIM: venotonic vein medicines",
+  "family": "EU7",
+  "title": "Listed vein medicines for review in older people",
+  "statement": "Hidrosmin | In lists: 6 (B) | Main reason: No proven efficacy; unfavourable risk/benefit profile; orthostatic hypotension and fall risks are increased with most vasodilators | Dose adjustment/special considerations: (blank: per ESM note, no suggestion by experts or in Micromedex) | Alternatives: Compression stocking . E || Escin (=Aescin) | In lists: 6 (B) | Main reason: No proven efficacy; unfavourable risk/benefit profile; orthostatic hypotension and fall risks are increased with most vasodilators | Dose adjustment/special considerations: (blank: per ESM note, no suggestion by experts or in Micromedex) | Alternatives: Compression stocking . E || Vincamine-Rutoside | In lists: 1 (A); 6 (B) | Main reason: No proven efficacy; unfavourable risk/benefit profile; orthostatic hypotension and fall risks are increased with most vasodilators | Dose adjustment/special considerations: (blank: per ESM note, no suggestion by experts or in Micromedex) | Alternatives: Compression stocking . E || Troxerutin-Vincamine | In lists: 1 (A); 6 (B) | Main reason: No proven efficacy; unfavourable risk/benefit profile; orthostatic hypotension and fall risks are increased with most vasodilators | Dose adjustment/special considerations: (blank: per ESM note, no suggestion by experts or in Micromedex) | Alternatives: Compression stocking . E",
+  "statement_origin": "published",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "The table rows were converted to text. The parenthetical explanation of empty dose cells comes from the appendix legend. Not endorsed by the source authors."
+  },
+  "plain_summary": "The EU(7)-PIM panel found no proven benefit and an unfavourable balance of benefit and harm for these vein medicines in older people. It reported that most vasodilators increase the risk of low blood pressure on standing and falls.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Venotonic vein medicines",
+      "ingredients": [
+        "hidrosmin",
+        "escin",
+        "vincamine with rutoside",
+        "troxerutin with vincamine",
+        "aescin"
+      ],
+      "brands": {
+        "hidrosmin": [],
+        "escin": [],
+        "vincamine with rutoside": [],
+        "troxerutin with vincamine": [],
+        "aescin": []
+      },
+      "note": "Escin is also called aescin. None of these has a known Australian brand, so a history shows the ingredient name. Diosmin and compression stockings are not in this group. Count escin or aescin when listed as an active ingredient in its own right. Exclude horse chestnut extract when escin or aescin appears only as the substance used to standardise the extract. Include hidrosmin gel labelled for venous insufficiency. Exclude local bruise preparations."
+    }
+  ],
+  "rule_for_models": "At age 65 or older, flag one systemic supply of hidrosmin, escin (aescin), vincamine with rutoside or troxerutin with vincamine, or a supply of hidrosmin gel labelled for venous insufficiency. Count escin or aescin only when listed as an active ingredient in its own right. Exclude local bruise preparations and horse chestnut extract that mentions escin or aescin only to describe its standardisation. If age, preparation or route is unclear and a supply could qualify, report only a possible finding and ask the pharmacist to confirm the missing information. A recorded age below 65 gives no finding.",
+  "cannot_be_seen": "Why the medicine was started, whether the person has leg swelling or vein disease, whether compression stockings are used, and medicines bought over the counter or as complementary products.",
+  "ask_the_gp": "Whether the vein medicine is still needed, and whether compression stockings or another approach could replace it.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

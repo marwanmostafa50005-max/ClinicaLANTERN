@@ -1,0 +1,126 @@
+{
+  "id": "STOPP-G4",
+  "label": "STOPP G4",
+  "family": "STOPP_START",
+  "title": "Benzodiazepine with respiratory failure",
+  "statement": "Benzodiazepines with acute or chronic respiratory failure i.e. pO2 < 8.0 kPa ± pCO2 > 6.5 kPa (risk of exacerbation of respiratory failure).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A benzodiazepine in a person with acute or chronic respiratory failure can make the breathing failure worse. Respiratory failure here means low blood oxygen, or high blood carbon dioxide as well.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Benzodiazepines",
+      "ingredients": [
+        "diazepam",
+        "oxazepam",
+        "temazepam",
+        "nitrazepam",
+        "alprazolam",
+        "clonazepam",
+        "lorazepam",
+        "clobazam",
+        "flunitrazepam",
+        "bromazepam",
+        "midazolam"
+      ],
+      "brands": {
+        "diazepam": [
+          "Valium",
+          "Antenex",
+          "Ducene",
+          "Ranzepam",
+          "Valpam"
+        ],
+        "oxazepam": [
+          "Serepax",
+          "Murelax",
+          "Alepam"
+        ],
+        "temazepam": [
+          "Normison",
+          "Temaze",
+          "Temtabs"
+        ],
+        "nitrazepam": [
+          "Mogadon",
+          "Alodorm"
+        ],
+        "alprazolam": [
+          "Xanax",
+          "Alprax",
+          "Kalma",
+          "Ralozam",
+          "Xanax Tri-Score",
+          "Zamhexal"
+        ],
+        "clonazepam": [
+          "Rivotril",
+          "Paxam"
+        ],
+        "lorazepam": [
+          "Ativan"
+        ],
+        "clobazam": [
+          "Frisium",
+          "Clobium"
+        ],
+        "flunitrazepam": [
+          "Hypnodorm"
+        ],
+        "bromazepam": [
+          "Lexotan"
+        ],
+        "midazolam": [
+          "Hypnovel"
+        ]
+      },
+      "note": "Zolpidem and zopiclone are not benzodiazepines and are not in this group. Count systemic tablets, capsules, oral liquids or drops, injections, and buccal or rectal preparations containing a listed benzodiazepine. A generic pack may show the ingredient name with a company name."
+    }
+  ],
+  "rule_for_models": "Check Group A benzodiazepine supplies only for people aged 65 or older (eligibility is unconfirmed if age is unknown). Cite the supply and either a diagnosis of acute or chronic respiratory failure current at supply or a dated arterial PaO2 below 8.0 kPa that the pharmacist judges relevant at supply (multiply mmHg by 0.133322). Without a current diagnosis, report no finding if a relevant arterial PaO2 is at least 8.0 kPa, but if the arterial result is missing (a venous result cannot substitute), uninterpretable or of uncertain relevance, report only a possible finding and ask for a relevant arterial result or diagnosis.",
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "Arterial oxygen partial pressure (PaO2) in kPa or mmHg",
+      "meets": "Arterial oxygen partial pressure (PaO2) below 8.0 kPa on a dated blood gas relevant at supply meets this threshold. Convert mmHg to kPa before comparison. A missing unit or uncertain timing leaves the result unresolved. Oxygen saturation, venous oxygen and carbon dioxide pressure cannot substitute."
+    },
+    {
+      "kind": "condition",
+      "what": "Recorded diagnosis of acute or chronic respiratory failure",
+      "meets": "Acute or chronic respiratory failure documented as current at supply. Home oxygen alone does not establish the diagnosis.",
+      "options": [
+        {
+          "words": "Acute respiratory failure was diagnosed and current at this supply",
+          "effect": "meets"
+        },
+        {
+          "words": "Chronic respiratory failure was diagnosed and current at this supply",
+          "effect": "meets"
+        },
+        {
+          "words": "No respiratory failure diagnosis was current at this supply",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "cannot_be_seen": "Whether the person has respiratory failure if the record holds no line about it, and the date and result of any blood gas test. Also how often the benzodiazepine is really taken, and medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "Whether the person has respiratory failure, and whether the benzodiazepine is still needed or can be stopped.",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

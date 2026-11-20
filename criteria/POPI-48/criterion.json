@@ -1,0 +1,75 @@
+{
+  "id": "POPI-48",
+  "label": "POPI: second oral ivermectin dose for scabies at two weeks",
+  "family": "POPI",
+  "title": "Second oral ivermectin dose for scabies at two weeks",
+  "statement": "A second dose of ivermectin two weeks after the first",
+  "statement_origin": "published",
+  "source": {
+    "document": "International consensus validation of the POPI tool (2020), Table 2",
+    "citation": "Sadozai L, Sable S, Le Roux E, et al. International consensus validation of the POPI tool (Pediatrics: Omission of Prescriptions and Inappropriate prescriptions) to identify inappropriate prescribing in pediatrics. PLOS ONE. 2020;15(10):e0240105.",
+    "doi": "10.1371/journal.pone.0240105",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0240105",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "© 2020 Sadozai et al. Table 2, International consensus validation of the POPI tool. PLOS ONE 15(10), e0240105. https://doi.org/10.1371/journal.pone.0240105. CC BY 4.0.",
+    "modification_notice": "The published item is reproduced unchanged. The Australian medicine examples, screening rule and fictional histories are local additions."
+  },
+  "plain_summary": "POPI flags omission of the second oral ivermectin dose two weeks after the first dose for scabies.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Oral ivermectin",
+      "ingredients": [
+        "ivermectin"
+      ],
+      "brands": {
+        "ivermectin": [
+          "Stromectol",
+          "Glenmect"
+        ]
+      },
+      "note": "Check the quantity and directions for both doses, including tablets supplied together."
+    }
+  ],
+  "rule_for_models": "Age 18 or older at the first dose gives no omission finding. An unknown age can give only the possible omission described below. For a child aged 5 to under 18 years with a recorded weight of at least 15 kg and documented classic scabies, count a second oral ivermectin dose intended for any day from 7 through 14 days after the first dose, including tablets supplied together. Use quantities and directions to establish coverage. Report an omission only once the record extends through the end of that window and clearly shows that no repeat was provided. Cite the diagnosis, weight and first supply. If coverage is unclear, a repeat was provided in the window or the indication is different, give no omission finding. Use age and weight at the first dose. A later weight or an undated weight with no clear link to that dose leaves eligibility uncertain. Give no omission finding for confirmed crusted scabies, age below 5 years or weight below 15 kg. If scabies is documented without its type, use the possible-finding branch below. If the record extends through day 14 after the first dose and clearly shows only that dose, with no repeat supplied or provided in the first pack, report a possible omission when eligibility is uncertain and no exclusion applies. Cite the first supply and any available weight or diagnosis line. Name each missing fact: \"Classic scabies treated with the first oral ivermectin dose\" if the indication or scabies type is unclear, and \"Weight at the first oral ivermectin dose\" if the weight at that dose is unclear. If age at the first dose is unknown, say so. Ask the parent or prescriber to confirm the missing facts.",
+  "cannot_be_seen": "The record omits medicine obtained elsewhere or bought without a prescription and cannot confirm that the doses were taken. A repeat at 7 to 14 days can fit Queensland guidance.",
+  "ask_the_gp": "Could you confirm the indication, whether the scabies was classic or crusted, and the child's weight at the first dose? Could you also check the first dose date and whether a repeat was provided, including tablets in the first pack?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Classic scabies treated with the first oral ivermectin dose",
+      "meets": "The first oral ivermectin dose was for classic scabies. A crusted scabies diagnosis or a different indication gives no omission finding. If the type or reason for treatment is unknown, eligibility remains uncertain.",
+      "options": [
+        {
+          "words": "The first dose was for classic scabies",
+          "effect": "meets"
+        },
+        {
+          "words": "The first dose was for crusted scabies",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "The first dose was for another condition",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "The first dose was for scabies, but the type is unknown",
+          "effect": "unknown"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "result",
+      "what": "Weight at the first oral ivermectin dose",
+      "meets": "Use the child's weight in kilograms at the first oral ivermectin dose. Enter the weight and measurement date if known. At least 15 kg meets the weight condition. Below 15 kg gives no omission finding. Leave eligibility uncertain if the value, unit or link to the first dose cannot be established."
+    }
+  ]
+}

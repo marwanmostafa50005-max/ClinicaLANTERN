@@ -1,0 +1,217 @@
+{
+  "id": "START-I5",
+  "label": "START I5",
+  "family": "STOPP_START",
+  "title": "Erectile dysfunction medicine for persistent, distressing erectile dysfunction",
+  "statement": "Phosphodiesterase type-5 inhibitors (e.g., avanafil, sildenafil, tadalafil, vardenafil) for persistent erectile dysfunction that causes distress.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A man with persistent erectile dysfunction that troubles him should have a tablet of the PDE5 inhibitor type (such as sildenafil or tadalafil) considered, and the record shows none.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "PDE5 inhibitors, the medicines that meet this criterion",
+      "ingredients": [
+        "sildenafil",
+        "tadalafil",
+        "vardenafil",
+        "avanafil"
+      ],
+      "brands": {
+        "sildenafil": [
+          "Viagra",
+          "Alsioz",
+          "Azulvig",
+          "Caveroz",
+          "Ernafil",
+          "Silaran",
+          "Silcap",
+          "Sildaccord",
+          "Sildaccord PHT",
+          "Sildatio PHT",
+          "Sildenacap",
+          "Silerec",
+          "Vasafil",
+          "Vedafil",
+          "Wafesil",
+          "Revatio"
+        ],
+        "tadalafil": [
+          "Cialis",
+          "Adcirca",
+          "Ciavor",
+          "Cidala",
+          "Cidala PHT",
+          "Cilatil",
+          "Tadacip",
+          "Tadalaccord",
+          "Tadalca",
+          "Tadalis"
+        ],
+        "vardenafil": [
+          "Levitra"
+        ],
+        "avanafil": [
+          "Spedra"
+        ]
+      },
+      "note": "A current sildenafil or tadalafil regimen for pulmonary arterial hypertension is a reason to suppress the omission. It does not establish treatment for erectile dysfunction. Also suppress the omission during documented concurrent nitrate use, including as-needed nitrate therapy. If the other eligibility criteria are met but the indication or overlap is uncertain, report only a possible finding and identify what needs checking. Generic packs that show the ingredient name with a company name count. For Revatio, Adcirca, Sildaccord PHT, Sildatio PHT or Cidala PHT, check whether the current regimen is for pulmonary arterial hypertension. The brand alone does not establish erectile dysfunction treatment or a current regimen. End-of-life care or another valid clinical reason to withhold treatment also rules out the omission. If there was a previous trial, check the response and why it ended. The supply alone cannot establish suitability. If the tablet treatment history could explain the omission, ask for \"Erectile dysfunction tablet treatment history\". Read the condition, regimen and any other indication together. If the only uncertainty is why sildenafil or tadalafil is used now, ask for \"Purpose of current sildenafil or tadalafil treatment\". If the reason a prior trial ended or another clinical concern leaves suitability unclear, report only a possible finding and ask about that concern."
+    },
+    {
+      "key": "B",
+      "name": "Medicines that imply the condition",
+      "ingredients": [
+        "alprostadil"
+      ],
+      "brands": {
+        "alprostadil": [
+          "Caverject",
+          "Caverject Impulse"
+        ]
+      },
+      "note": "Caverject and Caverject Impulse identify intracavernosal alprostadil even when the directions say to use it as directed. A brand-only supply can start a possible finding. Ask about its purpose, persistence and distress. If the supply was solely for a diagnostic test, it does not count as treatment. Use a separate erectile dysfunction line if present. Exclude neonatal infusions and generic alprostadil when its route or purpose cannot be resolved. Supply dates alone cannot establish persistence. The pharmacist checks borderline persistence with the patient or GP. Transient symptoms or absence of distress rule out this omission. Start from an erectile dysfunction line or a qualifying alprostadil supply. Review any unclear injection purpose against that supply alone. Give no finding below age 65. If age is unknown and the other evidence supports an omission, report it only as possible and ask for age. If persistence or distress is unknown, keep an otherwise eligible finding possible and ask for \"Erectile dysfunction that is persistent and causes distress\"."
+    },
+    {
+      "key": "C",
+      "name": "Medicines that make a PDE5 inhibitor unsuitable during concurrent use",
+      "ingredients": [
+        "glyceryl trinitrate",
+        "isosorbide mononitrate",
+        "isosorbide dinitrate",
+        "nicorandil",
+        "riociguat"
+      ],
+      "brands": {
+        "glyceryl trinitrate": [
+          "Anginine",
+          "Nitrolingual",
+          "Nitrolingual Pumpspray",
+          "Transiderm-Nitro",
+          "Minitran",
+          "Rectogesic"
+        ],
+        "isosorbide mononitrate": [
+          "Imdur",
+          "Duride",
+          "Monodur"
+        ],
+        "isosorbide dinitrate": [
+          "Isordil Sublingual",
+          "Isordil"
+        ],
+        "nicorandil": [
+          "Ikotab"
+        ],
+        "riociguat": [
+          "Adempas"
+        ]
+      },
+      "note": "Check whether a nitrate, nicorandil or riociguat is in use on the latest record date. Current use rules out the omission, including nitrate or nicorandil taken only when needed. Check the product, form and dates. For riociguat (Adempas), use the quantity and directions to work out how many days the pack covers. If that cover ends before the latest record date, look for a later fill or a dated account of continued use. An earlier fill alone cannot establish current use. If coverage or continued use is unclear, keep an otherwise eligible finding possible and ask whether the patient still takes riociguat. If nitrate or nicorandil use is unclear, ask about current use, including occasional doses."
+    }
+  ],
+  "rule_for_models": "At age 65 or older regardless of sex, suspect an omission for persistent, distressing erectile dysfunction if no Group A PDE5 inhibitor was supplied for it in the last six months ending on the latest record date and no clinical reason rules out treatment. Before ruling it out for Group C riociguat (Adempas), state the days from the last supply to the latest record date and the days the pack covers (quantity divided by tablets per day). If persistence or distress is unknown or the pack would have run out and continued use is unclear, report an otherwise eligible finding as possible, name the missing facts and cite the erectile dysfunction line or one qualifying Group B alprostadil supply, then any prior trial assessment and any supply whose continued use is uncertain.",
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Erectile dysfunction that is persistent and causes distress",
+      "meets": "The record documents erectile dysfunction that persists and causes the patient distress. If either feature is unknown, ask whether the problem has continued and whether it bothers the patient.",
+      "options": [
+        {
+          "words": "The problem persists and causes distress",
+          "effect": "meets"
+        },
+        {
+          "words": "There is no erectile dysfunction, or it is temporary or causes no distress",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Current use of nitrates or nicorandil",
+      "meets": "Any current nitrate or nicorandil use rules out this omission. Use of neither clears only this check. If current use is unclear, keep the finding possible and ask whether the patient still uses a nitrate, even occasionally, or nicorandil.",
+      "options": [
+        {
+          "words": "Using a nitrate or nicorandil, even occasionally",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Using neither a nitrate nor nicorandil",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Erectile dysfunction tablet treatment history",
+      "meets": "Use the patient's account or the clinician's assessment of sildenafil, tadalafil, vardenafil or avanafil obtained anywhere. Current treatment for erectile dysfunction or advice against further treatment rules out the omission. If treatment remains an option after a previous trial, or has never been tried and there is no known reason to avoid it, only this check is clear. An unclear outcome or its relevance leaves the omission possible.",
+      "options": [
+        {
+          "words": "Currently treated for erectile dysfunction",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "A clinician advised against further treatment",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Previously tried and remains an option for review",
+          "effect": "meets"
+        },
+        {
+          "words": "Never tried and no known reason to avoid it",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Purpose of current sildenafil or tadalafil treatment",
+      "meets": "Check current use if the indication is the only unresolved issue. Current use for erectile dysfunction or pulmonary arterial hypertension rules out the omission. If neither medicine is used for either condition, continue the other eligibility checks. Assess any other documented indication separately. If the purpose remains unknown, keep the omission possible.",
+      "options": [
+        {
+          "words": "For erectile dysfunction",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "For pulmonary arterial hypertension",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Neither medicine is currently used for either of these conditions",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "cannot_be_seen": "The condition is not in a dispensing history unless a condition line is present. Whether the problem is persistent and distressing, whether the man wants treatment, current nitrate use, including nitrates obtained elsewhere or without a prescription, and blood pressure if no reading is recorded, and any treatment bought elsewhere or paid for privately.",
+  "ask_the_gp": "A review of whether treatment for erectile dysfunction has been discussed and whether a PDE5 inhibitor is suitable, including a check of the heart medicines and blood pressure.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

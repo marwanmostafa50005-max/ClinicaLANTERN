@@ -1,0 +1,59 @@
+[
+  {
+    "file": "STOPP-C16/pos-fact.csv",
+    "kind": "positive",
+    "about": "The patient describes primary prevention, but a previous stroke of unknown type leaves the finding possible until its type and the indication are reconciled.",
+    "findings": [
+      {
+        "criterion": "STOPP-C16",
+        "must_cite": [
+          [
+            "L004",
+            "L008",
+            "L014",
+            "L020",
+            "L026",
+            "L032",
+            "L038",
+            "L039",
+            "L040"
+          ],
+          [
+            "L001"
+          ],
+          [
+            "L041"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-C16/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the directions give half a 300 mg aspirin tablet daily (150 mg), and the record holds no line about either Atherosclerotic cardiovascular disease or Reason for regular aspirin use.",
+    "findings": [
+      {
+        "criterion": "STOPP-C16",
+        "must_cite": [
+          [
+            "L001",
+            "L007",
+            "L013",
+            "L019",
+            "L025",
+            "L030",
+            "L031",
+            "L032"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-C16/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Cartia (low-dose aspirin) is supplied eight times, but the record shows a heart attack, so the aspirin is for secondary prevention and there is no finding.",
+    "findings": []
+  }
+]

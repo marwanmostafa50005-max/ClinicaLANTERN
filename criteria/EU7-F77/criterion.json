@@ -1,0 +1,43 @@
+{
+  "id": "EU7-F77",
+  "label": "EU(7)-PIM: ginkgo biloba",
+  "family": "EU7",
+  "title": "Ginkgo biloba in an older person",
+  "statement": "Ginkgo biloba | In lists: 1 (A) | Main reason: No efficacy proven; increased risk of orthostatic hypotension and fall | Dose adjustment/special considerations: (blank: per ESM note, no suggestion by experts or in Micromedex) | Alternatives: Non-pharmacological treatment; consider pharmacotherapy of Alzheimer-type dementia: acetylcholinesterase, memantine[d]. E",
+  "statement_origin": "published",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "The European list flags ginkgo because of concerns about falls and low blood pressure on standing. Ginkgo probably has little or no benefit in mild cognitive impairment. Some people with dementia may have modest symptom improvement at six months, but the evidence is uncertain.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Ginkgo biloba (a herbal memory product)",
+      "ingredients": [
+        "ginkgo biloba"
+      ],
+      "brands": {
+        "ginkgo biloba": [
+          "Tebonin",
+          "Tebonin EGb 761",
+          "Blackmores Ginkgo 6000 mg Tebonin EGb 761",
+          "Blackmores Ginkgoforte"
+        ]
+      },
+      "note": "Tablets and capsules of ginkgo leaf extract count, alone or in a mixed product that names ginkgo. A supply can show the ingredient name or a listed brand. The list is for older people, so the rule uses age 65 or over."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when a person aged 65 or over is supplied ginkgo biloba (Group A). If ginkgo biloba is supplied and age is missing, report only a possible finding and ask the pharmacist to confirm whether the person is 65 or older.",
+  "cannot_be_seen": "Unlabelled over-the-counter purchases may be missing from this history, even when bought here. Ask whether the patient takes ginkgo, why they take it and whether they have felt dizzy on standing or had a fall. Standing blood pressure is unknown unless recorded.",
+  "ask_the_gp": "A review of whether ginkgo biloba is still needed, and whether it adds to the risk of falls.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

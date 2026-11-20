@@ -1,0 +1,69 @@
+[
+  {
+    "file": "OPTIMISE-T3-04/pos-fact.csv",
+    "kind": "positive",
+    "about": "Clozapine and famotidine overlap in an adult with recorded schizophrenia and a documented need for ongoing gastroprotection.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T3-04",
+        "must_cite": [
+          [
+            "L006",
+            "L010",
+            "L019",
+            "L024",
+            "L030",
+            "L035"
+          ],
+          [
+            "L016",
+            "L023",
+            "L028"
+          ],
+          [
+            "L014"
+          ],
+          [
+            "L015"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T3-04/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: depot olanzapine and Pepcid were supplied, but administration, severe mental illness and the need for gastroprotection are unconfirmed.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T3-04",
+        "must_cite": [
+          [
+            "L001",
+            "L006",
+            "L010",
+            "L014",
+            "L019",
+            "L023",
+            "L027"
+          ],
+          [
+            "L004",
+            "L009",
+            "L013",
+            "L017",
+            "L022",
+            "L026",
+            "L030"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T3-04/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Olanzapine and famotidine overlap in an adult with schizophrenia. The record rules out a need for gastroprotection and identifies reflux as the reason for acid suppression.",
+    "findings": []
+  }
+]

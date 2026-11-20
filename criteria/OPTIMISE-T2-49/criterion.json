@@ -1,0 +1,223 @@
+{
+  "id": "OPTIMISE-T2-49",
+  "label": "OPTIMISE T2-49: vertebral fracture, no bisphosphonate",
+  "family": "OPTIMISE",
+  "title": "Past vertebral fracture and no bone-protecting treatment",
+  "statement": "Adults > 50 years of age with a history of vertebral fracture should be considered for antiosteoporosis therapy with an oral bisphosphonate without necessarily requiring risk assessment or DEXA scan",
+  "statement_origin": "published",
+  "source": {
+    "document": "Carolan A, et al. OPTIMISE. BMC Psychiatry 2022;22:585, Tables 2-3",
+    "citation": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "For adults over 50 with an osteoporotic vertebral fracture or one without significant trauma, review current treatment and consider an oral bisphosphonate. A risk score or bone scan is not always needed. Confirm the cause if it is unclear or the only finding is a mild vertebral deformity. A fracture due solely to significant trauma does not qualify.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Oral bisphosphonates",
+      "ingredients": [
+        "alendronate",
+        "risedronate",
+        "risedronic acid",
+        "alendronic acid"
+      ],
+      "brands": {
+        "alendronate": [
+          "Fosamax",
+          "Fosamax Plus",
+          "Adronat",
+          "Adronat Once Weekly",
+          "Alendraccord",
+          "Alendro",
+          "Alendro Once Weekly",
+          "Alendrobell",
+          "Alendrocor",
+          "Binosto",
+          "Densate",
+          "Fonat",
+          "Fosamax Once Weekly",
+          "Ossmax"
+        ],
+        "risedronate": [
+          "Actonel",
+          "Actonel Once a Week",
+          "Actonel EC",
+          "Actonel Combi",
+          "Actonel Combi D"
+        ],
+        "risedronic acid": [
+          "Actonel",
+          "Actonel Once a Week",
+          "Actonel EC",
+          "Actonel Combi",
+          "Actonel Combi D"
+        ],
+        "alendronic acid": [
+          "Fosamax",
+          "Fosamax Plus",
+          "Adronat",
+          "Adronat Once Weekly",
+          "Alendraccord",
+          "Alendro",
+          "Alendro Once Weekly",
+          "Alendrobell",
+          "Alendrocor",
+          "Binosto",
+          "Densate",
+          "Fonat",
+          "Fosamax Once Weekly",
+          "Ossmax"
+        ]
+      },
+      "note": "Tablets only. Injections are not an oral bisphosphonate. Ibandronate and Bonviva were removed because no current Australian osteoporosis brand was confirmed. Alendronic acid is the acid name for alendronate. Fosamax Plus contains alendronate and colecalciferol. Actonel Combi and Actonel Combi D include an oral risedronate tablet. Count the bisphosphonate component only when its directed use or a documented plan supports cover."
+    },
+    {
+      "key": "B",
+      "name": "Other osteoporosis treatment",
+      "ingredients": [
+        "denosumab",
+        "raloxifene",
+        "teriparatide",
+        "zoledronic acid",
+        "romosozumab"
+      ],
+      "brands": {
+        "denosumab": [
+          "Prolia",
+          "Corora",
+          "Ganvado",
+          "Jubbonti",
+          "Osenvelt",
+          "Prolia with Automatic Needle Guard",
+          "Rexadev",
+          "Stoboclo",
+          "Wyost",
+          "Xgeva"
+        ],
+        "raloxifene": [
+          "Evista",
+          "Evifyne",
+          "Fixta",
+          "Ralovista"
+        ],
+        "teriparatide": [
+          "Terrosa",
+          "Forteo",
+          "Ritosa"
+        ],
+        "zoledronic acid": [
+          "Aclasta",
+          "Aclonat",
+          "Amonzitra",
+          "Astazol",
+          "Azolast",
+          "Bonezol",
+          "Deztron",
+          "Osteovan",
+          "Ostira",
+          "Zolaccord",
+          "Zoledasta"
+        ],
+        "romosozumab": [
+          "Evenity"
+        ]
+      },
+      "note": "Count treatment at the review date when the medicine, dose, administration or supply date and scheduled interval support current treatment, or a documented plan addresses the fracture. A past supply alone is insufficient. If a dose is overdue or a pause or transition is unclear, ask about the plan, including follow-on therapy after denosumab."
+    },
+    {
+      "key": "C",
+      "name": "Calcium or vitamin D (a hint only)",
+      "ingredients": [
+        "calcium carbonate",
+        "calcium citrate",
+        "colecalciferol"
+      ],
+      "brands": {
+        "calcium carbonate": [
+          "Caltrate",
+          "Bonecal",
+          "Cal Sup",
+          "Cal-500",
+          "Cal-600",
+          "Cal-Care",
+          "Calci-Tab",
+          "Calcia-1000",
+          "Reddycal",
+          "Caltrate 600mg with Vitamin D Tablets",
+          "Caltrate Plus",
+          "Ostelin Calcium & Vitamin D3"
+        ],
+        "calcium citrate": [
+          "Citracal"
+        ],
+        "colecalciferol": [
+          "Ostelin",
+          "OsteVit-D Vitamin D3 1000 IU",
+          "Blackmores Vitamin D3 1000 IU",
+          "Nature's Own Vitamin D3 1000IU",
+          "Caltrate 600mg with Vitamin D Tablets",
+          "Caltrate Plus",
+          "Ostelin Calcium & Vitamin D3"
+        ]
+      },
+      "note": "These are not treatment for the criterion. They only hint that bone health is being managed. A calcium carbonate product labelled for antacid use alone does not provide a bone-health clue."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Vertebral fracture",
+      "meets": "A documented osteoporotic vertebral fracture or vertebral fracture without significant trauma. Confirm an unknown cause or isolated mild deformity. A fracture due solely to significant trauma does not qualify.",
+      "options": [
+        {
+          "words": "A past vertebral fracture due to osteoporosis or without major trauma",
+          "effect": "meets"
+        },
+        {
+          "words": "All vertebral fractures were due to major trauma",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "No history of vertebral fracture",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "A vertebral fracture or deformity is recorded but its cause is unclear",
+          "effect": "unknown"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Current osteoporosis treatment plan for this vertebral fracture",
+      "meets": "Use a documented plan for this fracture first. Ask only when treatment is overdue, paused or changing and the plan is unclear.",
+      "options": [
+        {
+          "words": "A current plan addresses treatment for this fracture",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "There is no current treatment plan for this fracture",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "For adults over 50, assess Group A and B treatment at the date of review in both the confirmed and possible cases. If age is missing and the other evidence would support a finding or possible finding, report only a possible finding and confirm that the person is over 50. Check the medicine, dose, administration or supply date and scheduled interval, or a documented treatment plan that addresses the fracture. A past supply alone does not establish current cover. Use the prescribed schedule and the last documented administration or directed supply cover. If unclear directions leave the dose or next due date unknown, report only a possible finding when the other criteria warrant review. Ask for the dose, interval and last administration. The pharmacist decides borderline overdue gaps. If treatment for a qualifying fracture is overdue, paused or changing, use any documented plan, including follow-on therapy after denosumab. If the plan is unclear, report only a possible finding and ask about the Current osteoporosis treatment plan for this vertebral fracture. A current plan addressing the fracture closes the review. If the plan is confirmed absent, flag only if the fracture qualifies and there is no current treatment cover. An unknown plan leaves the finding possible. With no current treatment or plan, flag a documented osteoporotic vertebral fracture or one without significant trauma and cite the fracture. Ask for confirmation if the cause is unknown or only an isolated mild deformity is recorded. If vertebral fracture history is unknown, a Group C supplement without current treatment or a plan prompts a possible finding. Ask about vertebral fracture even if another fracture is recorded. Exclude products labelled solely as antacids. There is no finding with current treatment or a plan addressing the fracture, at age 50 or under, with no history of vertebral fracture, or if all vertebral fractures were due solely to significant trauma. Without vertebral fracture evidence or a Group C supplement there is no finding.",
+  "cannot_be_seen": "Whether the person has a past vertebral fracture when no line says so, any bone scan or risk score, past bisphosphonate use or intolerance, kidney function, dental problems and swallowing problems.",
+  "ask_the_gp": "Is there a documented vertebral fracture without significant trauma? If so, could you review current osteoporosis treatment and whether an oral bisphosphonate is suitable?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

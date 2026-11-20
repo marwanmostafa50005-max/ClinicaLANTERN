@@ -1,0 +1,55 @@
+[
+  {
+    "file": "STOPP-K3/pos-fact.csv",
+    "kind": "positive",
+    "about": "Imdur (isosorbide mononitrate, a vasodilator) is supplied monthly while the record holds a recurrent falls line and two lying and standing blood pressure lines that each show a systolic drop of 20 mmHg or more.",
+    "findings": [
+      {
+        "criterion": "STOPP-K3",
+        "must_cite": [
+          [
+            "L029",
+            "L034",
+            "L039",
+            "L043",
+            "L047",
+            "L050"
+          ],
+          [
+            "L030"
+          ],
+          [
+            "L031"
+          ],
+          [
+            "L037"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-K3/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about falls and no line about blood pressure on standing, while Alphapress (hydralazine, a vasodilator) is supplied regularly.",
+    "findings": [
+      {
+        "criterion": "STOPP-K3",
+        "must_cite": [
+          [
+            "L005",
+            "L009",
+            "L013",
+            "L019"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-K3/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Must not flag: Imdur (isosorbide mononitrate) is supplied monthly and the record shows recurrent falls, but the lying and standing blood pressure drop is only 6/2 mmHg, so there is no postural hypotension.",
+    "findings": []
+  }
+]

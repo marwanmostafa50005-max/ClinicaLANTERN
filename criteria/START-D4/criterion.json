@@ -1,0 +1,52 @@
+{
+  "id": "START-D4",
+  "label": "START D4",
+  "family": "STOPP_START",
+  "title": "No rivastigmine for Lewy body or Parkinson's disease dementia",
+  "statement": "Rivastigmine for Dementia with Lewy Bodies or Parkinson’s disease dementia.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "START names rivastigmine for dementia with Lewy bodies or Parkinson’s disease dementia. When no supply is recorded, check whether another cholinesterase inhibitor is already treating the dementia.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Medicines that meet this criterion: rivastigmine",
+      "ingredients": [
+        "rivastigmine"
+      ],
+      "brands": {
+        "rivastigmine": [
+          "Exelon",
+          "Exelon Patch"
+        ]
+      },
+      "note": "Rivastigmine includes the skin patch and the capsules. Donepezil and galantamine do not count for this criterion. Generic capsules or patches labelled with rivastigmine and a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Dementia with Lewy bodies, or Parkinson's disease dementia",
+      "meets": "either diagnosis recorded as present",
+      "ask_when": "always",
+      "close_when": {
+        "group": "A"
+      }
+    }
+  ],
+  "rule_for_models": "Apply only when the record establishes age 65 years or older. Suppress the finding if the record gives an end-of-life palliative focus, a contraindication to the proposed therapy or another valid clinical reason for its omission. Donepezil or galantamine alone does not clear an otherwise qualifying finding. Ask for a review of the current treatment and the reason for omitting rivastigmine. Avoid suggesting duplicate treatment. Suspect a finding when the record holds a line for dementia with Lewy bodies or Parkinson's disease dementia and no rivastigmine (Group A, including capsules and transdermal patches) is supplied in the last six months of the record; cite the condition line. When rivastigmine is supplied in the last six months, there is no finding. A Yes from the pharmacist confirms that at least one qualifying diagnosis is present. A No confirms that neither is present, so there is no finding. Another dementia diagnosis alone does not qualify. A coexisting dementia diagnosis does not cancel a qualifying diagnosis. A Not known answer leaves the diagnosis unresolved unless the record already establishes it. A medicine for Parkinson's disease alone does not show dementia, so with no dementia line make no finding.",
+  "cannot_be_seen": "Supplies alone cannot show whether the person has dementia, its type, an end-of-life palliative focus or a contraindication to rivastigmine. They may also omit a previous trial stopped for nausea, a slow heart rate or a patch reaction, a choice by the person or family to decline treatment, or supplies from another pharmacy or hospital.",
+  "ask_the_gp": "Whether rivastigmine is suitable for this person, or has already been tried and stopped.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

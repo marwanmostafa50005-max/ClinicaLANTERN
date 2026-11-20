@@ -1,0 +1,161 @@
+{
+  "id": "FDADSC-4",
+  "label": "FDADSC: systemic NSAID from 20 weeks of pregnancy",
+  "family": "FDADSC",
+  "title": "Systemic NSAID from 20 weeks of pregnancy",
+  "statement": "FDA recommends that health care professionals should limit prescribing NSAIDs between 20 to 30 weeks of pregnancy and avoid prescribing them after 30 weeks of pregnancy. If NSAID treatment is determined necessary, limit use to the lowest effective dose and shortest duration possible. The above recommendations do not apply to low-dose 81 mg aspirin prescribed for certain conditions in pregnancy.",
+  "statement_origin": "published",
+  "source": {
+    "document": "US FDA Drug Safety Communication: nonsteroidal anti-inflammatory drugs in pregnancy",
+    "citation": "US Food and Drug Administration. NSAIDs Drug Safety Communication. Posted 15 October 2020.",
+    "url": "https://www.fda.gov/safety/medical-product-safety-information/nonsteroidal-anti-inflammatory-drugs-nsaids-drug-safety-communication-avoid-use-nsaids-pregnancy-20",
+    "licence": "Public domain",
+    "licence_status": "proposed",
+    "credit": "Credit the U.S. Food and Drug Administration as the source. Credit is appreciated but not required. FDA recommends recording the copy date and linking to the source.",
+    "modification_notice": "Statement reproduced without changes."
+  },
+  "plain_summary": "Systemic NSAIDs from 20 weeks of pregnancy can cause foetal kidney dysfunction and low amniotic fluid. From 20 weeks to before 30 weeks, use the lowest effective dose for the shortest time if treatment is necessary and the Australian product information permits it. Avoid systemic NSAIDs from 30 weeks. The FDA exception covers prescribed low-dose aspirin at 81 mg for certain conditions in pregnancy. Australian guidance differs: prescribed doses of 100 to 150 mg daily for pre-eclampsia prevention are low-dose prophylaxis, so check the directions and purpose before classifying aspirin as analgesia (NSW Agency for Clinical Innovation, 2026). Voltaren PI 17 November 2025, Celebrex PI 6 March 2025 and Brufen PI 8 April 2026 warn of foetal renal dysfunction and oligohydramnios from about 20 weeks and contraindicate third-trimester use. Naprosyn PI warns in the second and third trimesters.",
+  "medicine_groups": [
+    {
+      "key": "systemic_nsaids",
+      "name": "Systemic NSAIDs",
+      "ingredients": [
+        "ibuprofen",
+        "naproxen",
+        "diclofenac",
+        "meloxicam",
+        "celecoxib",
+        "indometacin",
+        "etoricoxib",
+        "mefenamic acid",
+        "piroxicam",
+        "ketoprofen",
+        "ketorolac",
+        "aspirin",
+        "tenoxicam",
+        "parecoxib"
+      ],
+      "brands": {
+        "ibuprofen": [
+          "Brufen",
+          "Nurofen",
+          "Advil",
+          "Panafen",
+          "Maxigesic",
+          "Nuromol",
+          "Mersynofen",
+          "Nurofen Plus"
+        ],
+        "naproxen": [
+          "Naprosyn",
+          "Naprosyn SR",
+          "Proxen",
+          "Proxen SR",
+          "Anaprox",
+          "Crysanal",
+          "Inza",
+          "Naprogesic",
+          "Vimovo"
+        ],
+        "diclofenac": [
+          "Voltaren 50",
+          "Fenac EC",
+          "Voltaren",
+          "Voltaren Rapid",
+          "Clonac",
+          "Arthrotec"
+        ],
+        "meloxicam": [
+          "Mobic",
+          "Movalis",
+          "Melobic",
+          "Meloxibell",
+          "Moxicam"
+        ],
+        "celecoxib": [
+          "Celebrex",
+          "Celaxib",
+          "Celexi"
+        ],
+        "indometacin": [
+          "Indocid",
+          "Arthrexin"
+        ],
+        "etoricoxib": [
+          "Arcoxia"
+        ],
+        "mefenamic acid": [
+          "Ponstan"
+        ],
+        "piroxicam": [
+          "Mobilis 20",
+          "Feldene",
+          "Feldene-D",
+          "Mobilis"
+        ],
+        "ketoprofen": [
+          "Oruvail SR",
+          "Orudis",
+          "Oruvail"
+        ],
+        "ketorolac": [
+          "Toradol"
+        ],
+        "aspirin": [
+          "Solprin",
+          "Aspalgin",
+          "Disprin Original",
+          "Disprin",
+          "Aspro Clear"
+        ],
+        "tenoxicam": [
+          "Tilcotil"
+        ],
+        "parecoxib": [
+          "Dynastat"
+        ]
+      },
+      "note": "Only oral, rectal or parenteral products count. Voltaren 50 tablets and Voltaren suppositories are systemic. Oral or injectable Toradol and parenteral Dynastat count. Exclude Voltaren Emulgel, Voltaren Osteo Gel, Solaraze, Dofidaz, Nurofen Gel, Feldene Gel and other topical gels or creams, Strefen lozenges, and Voltaren Ophtha, Acular or Nevanac eye drops. Generic packs that show the ingredient name count too. For aspirin, use the strength and directions to calculate the dose taken and the total daily dose. Count analgesic use, including several low-strength tablets taken for pain. Exclude prescribed low-dose prophylaxis, including Australian regimens of 100 to 150 mg daily and half a 300 mg tablet daily. Unclear dose or purpose needs confirmation."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Pregnancy at 20 weeks gestation or later",
+      "meets": "Pregnancy had reached 20 weeks when the systemic NSAID was supplied. A dated pregnancy record can establish gestation at that time.",
+      "options": [
+        {
+          "words": "Not pregnant or under 20 weeks at this supply",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "20 to under 28 weeks at this supply",
+          "effect": "meets"
+        },
+        {
+          "words": "28 to under 30 weeks at this supply",
+          "effect": "meets"
+        },
+        {
+          "words": "30 weeks or later at this supply",
+          "effect": "meets"
+        },
+        {
+          "words": "At least 20 weeks at this supply, exact week unknown",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "For a systemic NSAID, use gestation at supply or calculate it from a dated entry in the same continuing pregnancy. For aspirin, exclude prescribed low-dose prophylaxis. If its dose or purpose is unclear, ask the pharmacist to confirm it and keep an otherwise qualifying finding possible. From 20 weeks, report a finding for a qualifying supply and cite the supply and pregnancy evidence. From 20 to under 30 weeks, review the lowest effective dose and shortest duration if treatment is necessary and the product information permits it. For unclear or as-needed directions, ask the pharmacist about actual dose and duration. Check product-specific third-trimester restrictions from 28 weeks and avoidance from 30 weeks. If only the 20-week threshold is confirmed, ask about the exact gestation before applying either later threshold. If pregnancy is possible and status or gestation at supply is unknown, cite the supply, report a possible finding and ask. When age or sex is missing or the circumstances are borderline, ask the pharmacist to clarify whether pregnancy was possible. Known prepubertal or postmenopausal status gives no finding in the absence of evidence of pregnancy. A record establishing male sex, no pregnancy or gestation under 20 weeks at supply gives no finding.",
+  "cannot_be_seen": "Pregnancy and gestational age may be missing. Non-prescription NSAIDs and supplies from another pharmacy or hospital may be absent. The record does not prove actual use, dose or duration, and may not show ultrasound findings or oligohydramnios.",
+  "ask_the_gp": "Could you review the indication, dose and duration at the gestation when this NSAID was supplied, including any Australian third-trimester contraindication from 28 weeks and FDA advice to avoid use from 30 weeks? If treatment lasts beyond 48 hours from 20 weeks, would ultrasound monitoring of amniotic fluid be appropriate?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "only_sex": "female"
+}

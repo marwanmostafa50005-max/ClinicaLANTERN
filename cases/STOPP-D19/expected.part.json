@@ -1,0 +1,59 @@
+[
+  {
+    "file": "STOPP-D19/pos-fact.csv",
+    "kind": "positive",
+    "about": "Memantine (Ebixa) is supplied every four weeks from July 2025 to April 2026 and the record holds a seizure disorder line.",
+    "findings": [
+      {
+        "criterion": "STOPP-D19",
+        "must_cite": [
+          [
+            "L003",
+            "L008",
+            "L013",
+            "L018",
+            "L023",
+            "L028",
+            "L033",
+            "L038",
+            "L042",
+            "L047",
+            "L052"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-D19/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: Ebixa is supplied, but the record does not say whether a current or past seizure disorder was diagnosed.",
+    "findings": [
+      {
+        "criterion": "STOPP-D19",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L009",
+            "L013",
+            "L017",
+            "L021",
+            "L025",
+            "L029",
+            "L033"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-D19/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Ebixa is supplied and the clinical assessment explicitly excludes a current or past seizure disorder.",
+    "findings": []
+  }
+]

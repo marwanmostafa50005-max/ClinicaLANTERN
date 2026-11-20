@@ -1,0 +1,53 @@
+[
+  {
+    "file": "CKD-C09B/pos-fact.csv",
+    "kind": "positive",
+    "about": "Ramipril and the amiloride combination are supplied together at Cockcroft-Gault clearance of 46 mL/min.",
+    "findings": [
+      {
+        "criterion": "CKD-C09B",
+        "must_cite": [
+          [
+            "L046"
+          ],
+          [
+            "L047"
+          ],
+          [
+            "L042"
+          ],
+          [
+            "L045"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CKD-C09B/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about Cockcroft-Gault creatinine clearance at the documented medicine supply.",
+    "findings": [
+      {
+        "criterion": "CKD-C09B",
+        "must_cite": [
+          [
+            "L032"
+          ],
+          [
+            "L033"
+          ],
+          [
+            "L030"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CKD-C09B/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Both medicines are supplied together at Cockcroft-Gault clearance of exactly 50 mL/min.",
+    "findings": []
+  }
+]

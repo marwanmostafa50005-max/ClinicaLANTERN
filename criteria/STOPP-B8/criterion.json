@@ -1,0 +1,108 @@
+{
+  "id": "STOPP-B8",
+  "label": "STOPP B8",
+  "family": "STOPP_START",
+  "title": "Loop diuretic for ankle swelling without a clear cause",
+  "statement": "Loop diuretic for dependent ankle oedema without clinical, biochemical or radiological evidence of heart failure, liver failure, nephrotic syndrome or renal failure (leg elevation and /or compression hosiery usually more appropriate).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A loop diuretic (water tablet) is not the right treatment for swollen ankles from standing or sitting, unless heart failure, liver failure, nephrotic syndrome or kidney failure is the cause. Raising the legs or compression stockings usually work better.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Loop diuretics",
+      "ingredients": [
+        "furosemide",
+        "bumetanide",
+        "etacrynic acid"
+      ],
+      "brands": {
+        "furosemide": [
+          "Lasix",
+          "Urex",
+          "Urex Forte",
+          "Uremide",
+          "Frusax",
+          "Frusehexal",
+          "Frusemix",
+          "Frusemix-M",
+          "Frusid",
+          "Furo",
+          "Lasix High Dose",
+          "Lasix M",
+          "Urex-M"
+        ],
+        "bumetanide": [
+          "Burinex"
+        ],
+        "etacrynic acid": [
+          "Edecrin"
+        ]
+      },
+      "note": "Tablets, liquids and injections count. Generic packs that show the ingredient name with a company name count too. Recognise ethacrynic acid as another spelling of etacrynic acid."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Dependent ankle oedema",
+      "meets": "The loop diuretic was used for dependent ankle oedema. Swelling alone does not establish why the medicine was used.",
+      "options": [
+        {
+          "words": "The loop diuretic was used for dependent ankle oedema",
+          "effect": "meets"
+        },
+        {
+          "words": "The loop diuretic was used only for another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "There was no dependent ankle oedema",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Assessment for heart failure, liver failure, nephrotic syndrome or renal failure",
+      "meets": "A documented assessment finds no clinical, biochemical or radiological evidence of any of the four causes. Evidence supporting any cause excludes the finding. If the assessment is missing and no cause is supported, report only a possible finding. No numerical eGFR cutoff applies.",
+      "options": [
+        {
+          "words": "The assessment found no evidence of any of the four conditions",
+          "effect": "meets"
+        },
+        {
+          "words": "There was evidence of at least one of the four conditions",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "The assessment was unavailable or inconclusive",
+          "effect": "unknown"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this criterion only to people aged 65 years or older. For a person under 65, report no finding. If age is unknown and the other evidence would support a finding, report it only as possible and identify age as missing. For a Group A loop diuretic supplied for recorded dependent ankle oedema, report a finding when a documented assessment finds no evidence of heart failure, liver failure, nephrotic syndrome or renal failure. Cite the assessment, oedema and supply lines. If the assessment is missing or inconclusive and no evidence supports any of the four causes, report only a possible finding and name the missing assessment. Report no finding if dependent ankle oedema is excluded or the loop was used only for another reason. If the oedema status or indication is unclear and no cause is supported, cite the supply and name each missing fact in a possible finding. Any recorded clinical condition, biochemical result or radiological evidence supporting one of the four causes means no finding. Do not add an eGFR cut-off of 30 or any other numerical renal-failure threshold that is absent from the statement.",
+  "cannot_be_seen": "Why the water tablet was started, and swelling, heart, liver and kidney tests that are not in the record. Whether leg elevation or stockings were tried.",
+  "ask_the_gp": "A review of the cause of the ankle swelling and whether the loop diuretic is still needed, with a check of heart, liver and kidney function.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,31 @@
+patient_ref,patient_age,patient_sex,record_type,dispense_date,medicine,brand,strength,form,quantity,repeats_left,directions,prescriber,detail,value
+F-BRON25-02,0,M,observation,2026-01-07,,,,,,,,,Weight,4.42 kg
+F-BRON25-02,0,M,observation,2026-01-07,,,,,,,,,Length,55.3 cm
+F-BRON25-02,0,M,observation,2026-01-07,,,,,,,,,Head circumference,37.1 cm
+F-BRON25-02,0,M,,2026-01-07,white soft paraffin,,100%,ointment,100 g,0,Apply a thin layer to dry skin as needed,Dr A. Example,,
+F-BRON25-02,0,M,observation,2026-02-02,,,,,,,,,Weight,5.12 kg
+F-BRON25-02,0,M,observation,2026-02-02,,,,,,,,,Length,57.8 cm
+F-BRON25-02,0,M,observation,2026-02-02,,,,,,,,,Head circumference,38.3 cm
+F-BRON25-02,0,M,observation,2026-02-28,,,,,,,,,Weight,5.76 kg
+F-BRON25-02,0,M,observation,2026-02-28,,,,,,,,,Length,60.1 cm
+F-BRON25-02,0,M,observation,2026-02-28,,,,,,,,,Head circumference,39.3 cm
+F-BRON25-02,0,M,,2026-02-28,white soft paraffin,,100%,ointment,100 g,0,Apply a thin layer to dry skin as needed,Dr A. Example,,
+F-BRON25-02,0,M,observation,2026-03-26,,,,,,,,,Weight,6.32 kg
+F-BRON25-02,0,M,observation,2026-03-26,,,,,,,,,Length,62.3 cm
+F-BRON25-02,0,M,observation,2026-03-26,,,,,,,,,Head circumference,40.3 cm
+F-BRON25-02,0,M,observation,2026-04-21,,,,,,,,,Weight,6.80 kg
+F-BRON25-02,0,M,observation,2026-04-21,,,,,,,,,Length,64.3 cm
+F-BRON25-02,0,M,observation,2026-04-21,,,,,,,,,Head circumference,41.2 cm
+F-BRON25-02,0,M,,2026-04-21,white soft paraffin,,100%,ointment,100 g,0,Apply a thin layer to dry skin as needed,Dr A. Example,,
+F-BRON25-02,0,M,observation,2026-05-17,,,,,,,,,Weight,7.22 kg
+F-BRON25-02,0,M,observation,2026-05-17,,,,,,,,,Length,66.1 cm
+F-BRON25-02,0,M,observation,2026-05-17,,,,,,,,,Head circumference,42.0 cm
+F-BRON25-02,0,M,observation,2026-05-19,,,,,,,,,Age at assessment,6 months
+F-BRON25-02,0,M,,2026-05-19,amoxicillin,Amoxicillin B&B,250 mg/5 mL,oral suspension,100 mL,0,Give 2.5 mL twice daily for five days for bronchiolitis,Dr A. Example,,
+F-BRON25-02,0,M,observation,2026-06-12,,,,,,,,,Weight,7.56 kg
+F-BRON25-02,0,M,observation,2026-06-12,,,,,,,,,Length,67.8 cm
+F-BRON25-02,0,M,observation,2026-06-12,,,,,,,,,Head circumference,42.7 cm
+F-BRON25-02,0,M,,2026-06-12,white soft paraffin,,100%,ointment,100 g,0,Apply a thin layer to dry skin as needed,Dr A. Example,,
+F-BRON25-02,0,M,observation,2026-07-08,,,,,,,,,Weight,7.84 kg
+F-BRON25-02,0,M,observation,2026-07-08,,,,,,,,,Length,69.3 cm
+F-BRON25-02,0,M,observation,2026-07-08,,,,,,,,,Head circumference,43.4 cm

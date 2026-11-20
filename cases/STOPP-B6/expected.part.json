@@ -1,0 +1,55 @@
+[
+  {
+    "file": "STOPP-B6/pos-fact.csv",
+    "kind": "positive",
+    "about": "L001 documents amiodarone as the first medicine for rate control in atrial fibrillation, followed by Cordarone X supplies.",
+    "findings": [
+      {
+        "criterion": "STOPP-B6",
+        "must_cite": [
+          [
+            "L002",
+            "L007",
+            "L011",
+            "L016",
+            "L020",
+            "L025",
+            "L029",
+            "L034",
+            "L038"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-B6/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record shows amiodarone supplies but gives no line about Supraventricular tachyarrhythmia, Reason for treating the rhythm or First treatment tried for this rhythm and goal.",
+    "findings": [
+      {
+        "criterion": "STOPP-B6",
+        "must_cite": [
+          [
+            "L002",
+            "L006",
+            "L010",
+            "L014",
+            "L018",
+            "L022",
+            "L026"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-B6/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The cardiology history identifies ventricular tachycardia as the sole reason for amiodarone.",
+    "findings": []
+  }
+]

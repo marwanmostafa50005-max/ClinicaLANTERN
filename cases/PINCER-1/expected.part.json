@@ -1,0 +1,47 @@
+[
+  {
+    "file": "PINCER-1/pos-fact.csv",
+    "kind": "positive",
+    "about": "Peptic ulcer disease is recorded on 10 June 2025. Naprosyn (naproxen, a non-selective NSAID) is supplied four times from January 2026 to April 2026, within the last six months of the record, and no proton pump inhibitor is ever supplied. The finding must cite the diagnosis line and the NSAID supplies.",
+    "findings": [
+      {
+        "criterion": "PINCER-1",
+        "must_cite": [
+          [
+            "L028",
+            "L032",
+            "L037",
+            "L041"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PINCER-1/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about peptic ulcer disease. Voltaren (diclofenac, a non-selective NSAID) is supplied four times from January 2026 to April 2026 and no proton pump inhibitor is ever supplied.",
+    "findings": [
+      {
+        "criterion": "PINCER-1",
+        "must_cite": [
+          [
+            "L025",
+            "L029",
+            "L033",
+            "L037"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PINCER-1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Peptic ulcer disease was recorded more than six months before the record ends and no PPI was supplied, but meloxicam was the only NSAID supplied and is excluded from Group A.",
+    "findings": []
+  }
+]

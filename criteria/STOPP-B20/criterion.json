@@ -1,0 +1,417 @@
+{
+  "id": "STOPP-B20",
+  "label": "STOPP B20",
+  "family": "STOPP_START",
+  "title": "Blood pressure medicine in severe aortic stenosis",
+  "statement": "Antihypertensive drugs in severe symptomatic aortic stenosis (risk of severe hypotension, syncope).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "In severe aortic stenosis with symptoms, the heart has trouble pushing blood through a narrow valve. Blood pressure medicines can drop the pressure too far and cause fainting.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Blood pressure medicines (antihypertensives)",
+      "ingredients": [
+        "perindopril",
+        "ramipril",
+        "enalapril",
+        "lisinopril",
+        "quinapril",
+        "trandolapril",
+        "candesartan",
+        "irbesartan",
+        "telmisartan",
+        "valsartan",
+        "olmesartan",
+        "losartan",
+        "amlodipine",
+        "felodipine",
+        "nifedipine",
+        "lercanidipine",
+        "diltiazem",
+        "verapamil",
+        "indapamide",
+        "hydrochlorothiazide",
+        "chlortalidone",
+        "metoprolol",
+        "bisoprolol",
+        "atenolol",
+        "carvedilol",
+        "nebivolol",
+        "doxazosin",
+        "prazosin",
+        "moxonidine",
+        "hydralazine",
+        "fosinopril",
+        "propranolol",
+        "clonidine",
+        "methyldopa",
+        "labetalol",
+        "hydrochlorothiazide with amiloride",
+        "captopril",
+        "minoxidil"
+      ],
+      "brands": {
+        "fosinopril": [
+          "Monopril"
+        ],
+        "propranolol": [
+          "Inderal",
+          "Deralin"
+        ],
+        "clonidine": [
+          "Catapres"
+        ],
+        "methyldopa": [
+          "Aldomet"
+        ],
+        "labetalol": [
+          "Trandate"
+        ],
+        "hydrochlorothiazide with amiloride": [
+          "Moduretic"
+        ],
+        "perindopril": [
+          "Coversyl",
+          "Coversyl Plus",
+          "Coversyl Plus LD",
+          "Idaprex",
+          "Idaprex Arg",
+          "Indopril",
+          "Indosyl Mono",
+          "Ozapace",
+          "Perindo",
+          "Perindo Arg",
+          "Perindoarg",
+          "Perindobell",
+          "Perisyl",
+          "Prexum",
+          "Coveram",
+          "Reaptan",
+          "Triplixam SR"
+        ],
+        "ramipril": [
+          "Tritace",
+          "Ramace",
+          "Prilace",
+          "Ramibell",
+          "Tryzan",
+          "Vascalace"
+        ],
+        "enalapril": [
+          "Renitec",
+          "Acetec",
+          "Alphapril",
+          "Amprace",
+          "Auspril",
+          "Elapril",
+          "Enahexal",
+          "Enalabell",
+          "Malean",
+          "Renitec M",
+          "Renitec Plus",
+          "Zan-Extra"
+        ],
+        "lisinopril": [
+          "Zestril",
+          "Prinivil",
+          "Fibsol",
+          "Linopril",
+          "Liprace",
+          "Lisinobell",
+          "Lisinotrust",
+          "Lisodrate",
+          "Lisodur",
+          "Lisoril",
+          "Ozten",
+          "Sinop",
+          "Zinopril"
+        ],
+        "quinapril": [
+          "Accupril",
+          "Acquin",
+          "Aquinafil",
+          "Filpril",
+          "Qpril",
+          "Accuretic"
+        ],
+        "trandolapril": [
+          "Tarka",
+          "Odrik",
+          "Dolapril",
+          "Gopten",
+          "Goricap",
+          "Tranalpha"
+        ],
+        "candesartan": [
+          "Atacand",
+          "Atacand Plus",
+          "Adesan",
+          "Asartan",
+          "Candelem",
+          "Candesan"
+        ],
+        "irbesartan": [
+          "Avapro",
+          "Karvea",
+          "Avapro HCT",
+          "Abisart",
+          "Ambotens",
+          "Avsartan",
+          "Irbesat",
+          "Irbestin",
+          "Irbetan",
+          "Irprestan",
+          "Karbesat",
+          "Karvezide"
+        ],
+        "telmisartan": [
+          "Micardis",
+          "Micardis Plus",
+          "Twynsta",
+          "Mizart",
+          "Pritor",
+          "Telmigen",
+          "Teltartan"
+        ],
+        "valsartan": [
+          "Diovan",
+          "Co-Diovan",
+          "Exforge",
+          "Dilart",
+          "Exforge HCT"
+        ],
+        "olmesartan": [
+          "Olmetec",
+          "Olmetec Plus",
+          "Olmertan",
+          "Olmes",
+          "Olmesart",
+          "Olsetan",
+          "Sevikar",
+          "Sevikar HCT"
+        ],
+        "losartan": [
+          "Cozaar",
+          "Hyzaar",
+          "Cozavan"
+        ],
+        "amlodipine": [
+          "Norvasc",
+          "Amloc",
+          "Caduet",
+          "Amline",
+          "Amlo",
+          "Amlocor",
+          "Amlotrust",
+          "Amvas",
+          "Besidep",
+          "Nordip",
+          "Norvapine",
+          "Ozlodip",
+          "Perivasc"
+        ],
+        "felodipine": [
+          "Plendil"
+        ],
+        "nifedipine": [
+          "Adalat",
+          "Adalat Oros",
+          "Addos XR",
+          "Adefin",
+          "Adefin XL",
+          "Nifehexal",
+          "Nyefax",
+          "Nypine"
+        ],
+        "lercanidipine": [
+          "Zanidip",
+          "Ledip",
+          "Lepine",
+          "Lercadip",
+          "Lercan",
+          "Zircol"
+        ],
+        "diltiazem": [
+          "Cardizem",
+          "Cardizem CD",
+          "Vasocardol",
+          "Vasocardol CD",
+          "Coras",
+          "Danzem",
+          "Diltahexal",
+          "Diltahexal CD",
+          "Dilzem",
+          "Dilzem CD",
+          "Ditatem"
+        ],
+        "verapamil": [
+          "Isoptin",
+          "Isoptin SR",
+          "Anpec",
+          "Anpec SR",
+          "Cordilox SR",
+          "Veracaps SR"
+        ],
+        "indapamide": [
+          "Natrilix SR",
+          "Napamide",
+          "Dapa-Tabs",
+          "Indahexal",
+          "Indapamol",
+          "Insig",
+          "Natrilix",
+          "Odaplix SR",
+          "Tenaxil SR"
+        ],
+        "hydrochlorothiazide": [
+          "Dithiazide"
+        ],
+        "chlortalidone": [
+          "Hygroton"
+        ],
+        "metoprolol": [
+          "Betaloc",
+          "Lopresor",
+          "Minax",
+          "Agtolac",
+          "Metatar",
+          "Metohexal",
+          "Metolol",
+          "Metrol",
+          "Metrol-XL",
+          "Minax XL",
+          "Mistrom",
+          "Tobeta-XL",
+          "Topreloc-XL",
+          "Toprol-XL"
+        ],
+        "bisoprolol": [
+          "Bicor",
+          "Concor",
+          "Beprol",
+          "Bicard",
+          "Biso",
+          "Bispro"
+        ],
+        "atenolol": [
+          "Tenormin",
+          "Noten",
+          "Anselol",
+          "Atehexal",
+          "Aten",
+          "Colaptyn",
+          "Tenolten",
+          "Tensig"
+        ],
+        "carvedilol": [
+          "Dilatrend",
+          "Carvidol",
+          "Dicarz",
+          "Dilasig",
+          "Kredex",
+          "Vedilol",
+          "Volirop"
+        ],
+        "nebivolol": [
+          "Nebilet",
+          "Lobivon",
+          "Lobivon Composite Starter Titration Pack",
+          "Nebaloc",
+          "Nebilet Composite Starter Titration Pack",
+          "Nepiten"
+        ],
+        "doxazosin": [
+          "Carduran"
+        ],
+        "prazosin": [
+          "Minipress",
+          "Pratsiol",
+          "Pressin"
+        ],
+        "moxonidine": [
+          "Physiotens",
+          "Moxotens",
+          "Normatens"
+        ],
+        "hydralazine": [
+          "Alphapress"
+        ],
+        "captopril": [
+          "Capoten"
+        ],
+        "minoxidil": [
+          "Loniten"
+        ]
+      },
+      "note": "ACE inhibitors, angiotensin receptor blockers, calcium channel blockers, thiazide-like diuretics, beta-blockers and other blood pressure lowering medicines count. Combination products count under the first ingredient named in the brand, for example Coversyl Plus is perindopril with indapamide, Twynsta is telmisartan with amlodipine, Exforge is valsartan with amlodipine, Caduet is amlodipine with atorvastatin and Tarka is trandolapril with verapamil. Loop diuretics and spironolactone are not in this group. Only systemic blood pressure treatment counts. Exclude local skin or anal creams and ointments, including topical diltiazem. Coveram and Reaptan contain perindopril and amlodipine. Triplixam SR adds indapamide. Karvezide, Sevikar HCT, Exforge HCT, Accuretic and Moduretic include hydrochlorothiazide. Sevikar contains olmesartan and amlodipine. Count oral minoxidil used to lower blood pressure. Exclude topical minoxidil and oral minoxidil used solely for hair loss. If the purpose of oral minoxidil is unclear, confirm it before making a finding. Renitec Plus contains enalapril with hydrochlorothiazide. Zan-Extra contains enalapril with lercanidipine."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Aortic stenosis",
+      "meets": "A clinician has documented severe aortic stenosis with symptoms. Ask whether the patient has been told their aortic valve is narrowed and whether they have fainting, dizziness, chest pain or shortness of breath. Confirm severity and the link to symptoms from the clinical record or doctor.",
+      "options": [
+        {
+          "words": "Confirmed severe aortic stenosis causing symptoms",
+          "effect": "meets"
+        },
+        {
+          "words": "Mild or moderate aortic stenosis",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Aortic stenosis without symptoms",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "No aortic stenosis",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Aortic stenosis present, severity or symptoms not known",
+          "effect": "unknown"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for oral minoxidil during this course",
+      "meets": "Ask only if an oral minoxidil supply could qualify, its purpose is unclear and the answer could change the finding. Use for hypertension qualifies. Use solely for hair loss or another non-hypertensive purpose rules out this exposure.",
+      "options": [
+        {
+          "words": "Used to lower blood pressure",
+          "effect": "meets"
+        },
+        {
+          "words": "Used solely for hair loss or another purpose",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "For a person aged 65 or older supplied a systemic Group A blood pressure medicine (confirm age first if unknown), suspect a finding when severe symptomatic aortic stenosis is recorded and cite both the supply and condition lines. If there is no line about aortic stenosis, report a possible finding and name the missing condition, but if aortic stenosis is explicitly absent, mild, moderate or asymptomatic, report no finding. If the remaining evidence could qualify, keep the finding possible and ask the Aortic stenosis question, specifying which detail is missing. Exclude topical minoxidil. If oral minoxidil is the only exposure that could qualify, its purpose is unclear and valve disease has not ruled out a finding, report a possible finding and ask for \"Reason for oral minoxidil during this course\". Confirm this exposure only for blood pressure treatment. An unknown purpose leaves it possible. Use solely for another purpose closes this exposure. Assess a separate qualifying antihypertensive independently.",
+  "cannot_be_seen": "The dispensing history may omit the valve diagnosis, its severity on echocardiography, the clinical history of symptoms attributable to the stenosis and the reason for each blood pressure medicine. Several of these medicines are also used for heart failure or after a heart attack.",
+  "ask_the_gp": "Could you confirm any missing valve diagnosis, severity or symptoms and review the blood pressure medicines and doses with the cardiologist if severe symptomatic aortic stenosis is confirmed?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

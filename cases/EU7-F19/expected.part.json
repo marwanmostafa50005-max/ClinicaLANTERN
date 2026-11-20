@@ -1,0 +1,34 @@
+[
+  {
+    "file": "EU7-F19/pos-brand.csv",
+    "kind": "positive",
+    "about": "Prasugrel Lupin (prasugrel), by brand name only, is supplied eleven times from December 2025 to September 2026 to a 76-year-old man.",
+    "findings": [
+      {
+        "criterion": "EU7-F19",
+        "must_cite": [
+          ["L001", "L004", "L007", "L011", "L014", "L017", "L021", "L025", "L028", "L031", "L034"]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F19/pos-buried.csv",
+    "kind": "positive",
+    "about": "Persantin SR (dipyridamole) is supplied four times from January to April 2026 to a 74-year-old woman, in the middle of a 14-month history.",
+    "findings": [
+      {
+        "criterion": "EU7-F19",
+        "must_cite": [
+          ["L031", "L037", "L041", "L046"]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F19/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The only antiplatelet medicine is Plavix (clopidogrel), which is not on the list and which the source suggests as an alternative, so the criterion is not met.",
+    "findings": []
+  }
+]

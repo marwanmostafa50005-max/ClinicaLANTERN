@@ -1,0 +1,53 @@
+{
+  "id": "POPI-27",
+  "label": "POPI: a cough medicine that thins mucus before age two",
+  "family": "POPI",
+  "title": "A cough medicine that thins mucus before age two",
+  "statement": "Mucolytic drugs, mucokinetic drugs, or helicidine before two years of age",
+  "statement_origin": "published",
+  "source": {
+    "document": "International consensus validation of the POPI tool (2020), Table 2",
+    "citation": "Sadozai L, Sable S, Le Roux E, et al. International consensus validation of the POPI tool (Pediatrics: Omission of Prescriptions and Inappropriate prescriptions) to identify inappropriate prescribing in pediatrics. PLOS ONE. 2020;15(10):e0240105.",
+    "doi": "10.1371/journal.pone.0240105",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0240105",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "© 2020 Sadozai et al. Table 2, International consensus validation of the POPI tool. PLOS ONE 15(10), e0240105. https://doi.org/10.1371/journal.pone.0240105. CC BY 4.0.",
+    "modification_notice": "The published item is reproduced unchanged. The Australian medicine examples, screening rule and fictional histories are local additions."
+  },
+  "plain_summary": "POPI flags a mucus-thinning cough medicine supplied before the child's second birthday. Australian guidance differs: the over-the-counter monograph warns against oral bromhexine cough products in children under six (TGA, 2024).",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Mucolytic or mucokinetic cough products, or helicidine",
+      "ingredients": [
+        "bromhexine",
+        "helicidine",
+        "acetylcysteine"
+      ],
+      "brands": {
+        "bromhexine": [
+          "Bisolvon Chesty",
+          "Bicof Chesty",
+          "Bisolvon Chesty Forte",
+          "Bisolvon Chesty Forte On-the-Go",
+          "Bisolvon Chesty Kids",
+          "Duro-Tuss Chesty Cough Double Strength",
+          "Duro-Tuss Chesty Cough Liquid Regular",
+          "Benadryl Chesty Forte"
+        ],
+        "helicidine": [],
+        "acetylcysteine": [
+          "Omegapharm Acetylcysteine"
+        ]
+      },
+      "note": "Count bromhexine cough products, including combinations. Count acetylcysteine only when the preparation and use establish respiratory mucolytic treatment for cough. Omegapharm Acetylcysteine solution for inhalation is an example. Exclude intravenous antidote use and other non-cough uses. The source also names helicidine. Its Australian supply is unconfirmed. Check other products against the published class and cough formulation."
+    }
+  ],
+  "rule_for_models": "Flag a Group A cough product supplied before the child's second birthday and cite the supply. Count an identified cough preparation or directions for cough, and exclude other uses of the ingredient. If age at supply is unknown and the cough product qualifies, report only a possible finding and ask the pharmacist to confirm the child's age on that date.",
+  "cannot_be_seen": "The record may omit cough products bought without a prescription and cannot show whether a dose was given. Australian bromhexine labelling excludes children under six.",
+  "ask_the_gp": "Could you review the cough product and the child's age when it was supplied?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "file": "PINCER-10/pos-brand.csv",
+    "kind": "positive",
+    "about": "Cordarone X (amiodarone) 200 mg is supplied six times from May to October 2026 with directions to take one tablet twice a day, by brand name only.",
+    "findings": [
+      {
+        "criterion": "PINCER-10",
+        "must_cite": [
+          [
+            "L025",
+            "L029"
+          ],
+          [
+            "L029",
+            "L033",
+            "L037"
+          ],
+          [
+            "L025",
+            "L033",
+            "L037"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PINCER-10/pos-buried.csv",
+    "kind": "positive",
+    "about": "Amiodarone (Aratac) 200 mg is supplied four times from June to September 2026 with directions to take one tablet morning and night, near the end of a 15-month history that holds many other medicines, and the course covers more than one month within the three months before the record ends.",
+    "findings": [
+      {
+        "criterion": "PINCER-10",
+        "must_cite": [
+          [
+            "L059",
+            "L064"
+          ],
+          [
+            "L059",
+            "L069"
+          ],
+          [
+            "L064",
+            "L069"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PINCER-10/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Each amiodarone 200 mg supply has directions that clearly say to take it once a day.",
+    "findings": []
+  }
+]

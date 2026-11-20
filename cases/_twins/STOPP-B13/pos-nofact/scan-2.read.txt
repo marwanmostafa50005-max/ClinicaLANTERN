@@ -1,0 +1,22 @@
+2025-11-09 | Karvezide (irbesartan + hydrochlorothiazide) 300 mg/12.5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning
+2025-11-09 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night
+2025-11-18 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 0 | Take TWO tablets once daily with the evening m
+2025-11-18 | Flomaxtra (tamsulosin) 400 microgram modified release tablet | qty 30 | repeats 0 | Take ONE tablet daily
+2025-12-07 | Karvezide (irbesartan + hydrochlorothiazide) 300 mg/12.5 mg tablet | qty 30 | repeats 3 | Take ONE tablet in the morning
+2025-12-07 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 3 | Take ONE tablet at night
+2025-12-16 | Inspra (eplerenone) 25 mg tablet | qty 30 | repeats 5 | Take ONE tablet daily
+2025-12-17 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 5 | Take TWO tablets once daily with the evening m
+2025-12-17 | Flomaxtra (tamsulosin) 400 microgram modified release tablet | qty 30 | repeats 5 | Take ONE tablet daily
+2026-01-07 | Karvezide (irbesartan + hydrochlorothiazide) 300 mg/12.5 mg tablet | qty 30 | repeats 2 | Take ONE tablet in the morning
+2026-01-07 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 2 | Take ONE tablet at night
+2026-01-15 | Inspra (eplerenone) 25 mg tablet | qty 30 | repeats 4 | Take ONE tablet daily
+2026-01-16 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take TWO tablets once daily with the evening m
+2026-01-16 | Flomaxtra (tamsulosin) 400 microgram modified release tablet | qty 30 | repeats 4 | Take ONE tablet daily
+2026-02-06 | Karvezide (irbesartan + hydrochlorothiazide) 300 mg/12.5 mg tablet | qty 30 | repeats 1 | Take ONE tablet in the morning
+2026-02-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 1 | Take ONE tablet at night
+2026-02-13 | Inspra (eplerenone) 25 mg tablet | qty 30 | repeats 3 | Take ONE tablet daily
+2026-02-13 | Jardiance (empagliflozin) 10 mg tablet | qty 30 | repeats 5 | Take ONE tablet in the morning
+2026-02-15 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 3 | Take TWO tablets once daily with the evening m
+2026-02-15 | Flomaxtra (tamsulosin) 400 microgram modified release tablet | qty 30 | repeats 3 | Take ONE tablet daily
+2026-03-08 | Karvezide (irbesartan + hydrochlorothiazide) 300 mg/12.5 mg tablet | qty 30 | repeats 0 | Take ONE tablet in the morning
+2026-03-08 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 0 | Take ONE tablet at night

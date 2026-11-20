@@ -1,0 +1,316 @@
+{
+  "id": "STOPP-B15",
+  "label": "STOPP B15",
+  "family": "STOPP_START",
+  "title": "QT-prolonging medicine with a prolonged QTc",
+  "statement": "Drugs that predictably prolong the QTc interval (QTc = QT/RR) in patients with known with demonstrable QTc prolongation (to >450 msec in males and >470 msec in females), including quinolones, macrolides, ondansetron, citalopram (doses > 20 mg/day), escitalopram (doses > 10 mg/day), tricyclic antidepressants, lithium, haloperidol, digoxin, class 1A antiarrhythmics, class III antiarrhythmics, tizanidine, phenothiazines, astemizole, mirabegron (risk of life-threatening ventricular arrhythmias).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Some medicines can lengthen the QT interval on the heart tracing. When the QTc is already long, they raise the risk of a dangerous heart rhythm. B15 names digoxin, although a small study in healthy adults found that intravenous digoxin shortened QTc. Use the QTc reported on the ECG. A long QTc during digoxin treatment does not establish that digoxin caused it.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Medicines that predictably prolong the QTc interval",
+      "ingredients": [
+        "ciprofloxacin",
+        "norfloxacin",
+        "moxifloxacin",
+        "azithromycin",
+        "clarithromycin",
+        "erythromycin",
+        "roxithromycin",
+        "ondansetron",
+        "amitriptyline",
+        "nortriptyline",
+        "dosulepin",
+        "doxepin",
+        "imipramine",
+        "clomipramine",
+        "lithium",
+        "haloperidol",
+        "digoxin",
+        "disopyramide",
+        "quinidine",
+        "amiodarone",
+        "sotalol",
+        "tizanidine",
+        "chlorpromazine",
+        "fluphenazine",
+        "trifluoperazine",
+        "prochlorperazine",
+        "thioridazine",
+        "astemizole",
+        "mirabegron",
+        "fluphenazine decanoate",
+        "periciazine",
+        "promethazine",
+        "domperidone",
+        "methadone",
+        "lithium carbonate"
+      ],
+      "brands": {
+        "ciprofloxacin": [
+          "Ciproxin",
+          "Arflox",
+          "C-Flox",
+          "Ciaxone",
+          "Cifran",
+          "Ciprol",
+          "Cirofaxin",
+          "Loxip",
+          "Profloxin",
+          "Proquin",
+          "Roflo"
+        ],
+        "norfloxacin": [
+          "Noroxin"
+        ],
+        "moxifloxacin": [
+          "Avelox",
+          "Moximed"
+        ],
+        "azithromycin": [
+          "Zithromax",
+          "Zedd",
+          "Zithro",
+          "Zitrocin"
+        ],
+        "clarithromycin": [
+          "Klacid",
+          "Clarac",
+          "Clarant",
+          "Clarihexal",
+          "Clarithro",
+          "Clarithrom",
+          "Kalixocin",
+          "Nexium Hp7",
+          "Klacid Hp7"
+        ],
+        "erythromycin": [
+          "Erythrocin",
+          "E-Mycin",
+          "Eryc"
+        ],
+        "roxithromycin": [
+          "Rulide",
+          "Biaxsig",
+          "Roxar",
+          "Roxide",
+          "Roximycin",
+          "Rulide D"
+        ],
+        "ondansetron": [
+          "Zofran",
+          "Zofran Zydis",
+          "Danset",
+          "Danset ODT",
+          "Danzetron",
+          "Ondaz",
+          "Ondaz Zydis",
+          "Ondron",
+          "Ondron ODT",
+          "Onsetron",
+          "Onsetron ODT",
+          "Ostran",
+          "Ostran-ODT",
+          "Reditron",
+          "Reditron-ODT",
+          "Tronz",
+          "Zilfojim",
+          "Zilfojim ODT",
+          "Zofraset",
+          "Zondan",
+          "Zosetron",
+          "Zotren",
+          "Zotren ODT"
+        ],
+        "amitriptyline": [
+          "Endep",
+          "Tryptanol",
+          "Amichlor",
+          "Amidep",
+          "Entrip"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "dosulepin": [
+          "Prothiaden",
+          "Dothep"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "lithium": [
+          "Lithicarb",
+          "Quilonum SR"
+        ],
+        "haloperidol": [
+          "Serenace",
+          "Haldol Decanoate"
+        ],
+        "digoxin": [
+          "Lanoxin",
+          "Lanoxin PG",
+          "Lanoxin Paediatric Elixir",
+          "Sigmaxin",
+          "Sigmaxin PG"
+        ],
+        "disopyramide": [
+          "Rythmodan"
+        ],
+        "quinidine": [
+          "Kinidin Durules"
+        ],
+        "amiodarone": [
+          "Cordarone X",
+          "Aratac",
+          "Amdarone",
+          "Cardinorm",
+          "Rithmik"
+        ],
+        "sotalol": [
+          "Sotacor",
+          "Cardol",
+          "Solavert",
+          "Sotab",
+          "Sotahexal"
+        ],
+        "tizanidine": [],
+        "chlorpromazine": [
+          "Largactil",
+          "Largactil Syrup"
+        ],
+        "fluphenazine": [
+          "Modecate"
+        ],
+        "trifluoperazine": [
+          "Stelazine",
+          "Stelazine Forte",
+          "Stelazine Spansule"
+        ],
+        "prochlorperazine": [
+          "Stemetil",
+          "Nausetil",
+          "Nausrelief",
+          "Procalm",
+          "Proclazine",
+          "Stemzine"
+        ],
+        "thioridazine": [],
+        "astemizole": [],
+        "mirabegron": [
+          "Betmiga"
+        ],
+        "fluphenazine decanoate": [
+          "Modecate"
+        ],
+        "periciazine": [
+          "Neulactil"
+        ],
+        "promethazine": [
+          "Phenergan"
+        ],
+        "domperidone": [
+          "APO-Domperidone",
+          "Motilium"
+        ],
+        "methadone": [
+          "Physeptone",
+          "Biodone Forte"
+        ],
+        "lithium carbonate": [
+          "Lithicarb"
+        ]
+      },
+      "note": "Quinolones, macrolides, ondansetron, tricyclic antidepressants, lithium, haloperidol, digoxin, class 1A and class III antiarrhythmics, tizanidine, phenothiazines, astemizole and mirabegron. The statement says 'including', so these are examples named in the statement, not a full list. Disopyramide and quinidine are the class 1A medicines listed. Tizanidine, thioridazine and astemizole are not sold in Australia, so they have no brands. Nexium Hp7 and Klacid Hp7 include oral clarithromycin."
+    },
+    {
+      "key": "B",
+      "name": "Citalopram and escitalopram above the dose limit",
+      "ingredients": [
+        "citalopram",
+        "escitalopram"
+      ],
+      "brands": {
+        "citalopram": [
+          "Cipramil",
+          "Celapram",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talam",
+          "Talohexal"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam",
+          "Loxalate"
+        ]
+      },
+      "note": "These count only above the limit: citalopram over 20 mg a day, escitalopram over 10 mg a day. Work the daily dose out from the tablet strength and the number of tablets a day in the directions."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "QTc interval",
+      "meets": "above 450 ms in a male or above 470 ms in a female"
+    },
+    {
+      "kind": "result",
+      "what": "Daily dose of citalopram during this course in mg per day",
+      "meets": "Enter the total daily dose of citalopram in mg per day during the course being assessed and the date it applied if known. Only a dose above 20 mg per day qualifies. An unknown dose leaves this exposure possible unless the relevant QTc rules it out."
+    },
+    {
+      "kind": "result",
+      "what": "Daily dose of escitalopram during this course in mg per day",
+      "meets": "Enter the total daily dose of escitalopram in mg per day during the course being assessed and the date it applied if known. Only a dose above 10 mg per day qualifies. An unknown dose leaves this exposure possible unless the relevant QTc rules it out."
+    }
+  ],
+  "rule_for_models": "Apply this rule only to people aged 65 or older. If age is unknown, confirm age before reporting a STOPP finding. Use systemic preparations. Exclude local eye, ear and skin products. Assess each systemic course separately. A Group A medicine qualifies at any dose. For Group B, work out daily intake from strength and directions. Citalopram must exceed 20 mg per day and escitalopram must exceed 10 mg per day. At or below the relevant limit, close that exposure without a QTc question. A separate qualifying exposure still counts. For a qualifying exposure, report a finding if the most recent QTc relevant to that course is above 450 ms in a male or above 470 ms in a female. Cite the supply, the QTc and any dose answer needed. If QTc is missing for a qualifying exposure, report a possible finding and ask for the QTc interval. A relevant QTc at or below the limit rules out the finding for that course. Use dated results before or during the assessed course that reflect QTc at exposure. Do not pair a completed course with a later unrelated prolonged result or describe a completed course as current. If the timing or course cover is unclear, report only a possible finding and name what is uncertain. If Group B directions leave intake unresolved and a relevant QTc has not ruled out the finding, report only a possible finding. Ask for \"Daily dose of citalopram during this course in mg per day\" or \"Daily dose of escitalopram during this course in mg per day\", according to the medicine supplied. A tablet strength alone cannot establish daily intake. An unknown dose leaves this course possible. A confirmed dose above the relevant limit still needs a qualifying QTc.",
+  "cannot_be_seen": "The QTc result if it is not in the record, the date and method of the heart tracing, the potassium and magnesium levels, other medicines bought without a prescription, and whether the person has ever had a rhythm problem.",
+  "ask_the_gp": "Could you review current qualifying treatment today if QTc prolongation is documented during the exposure, including whether a repeat ECG or a change of medicine is appropriate? If the finding is possible, could you confirm the missing dose, ECG result or timing?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

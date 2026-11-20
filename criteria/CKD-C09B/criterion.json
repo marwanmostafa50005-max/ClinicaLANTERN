@@ -1,0 +1,280 @@
+{
+  "id": "CKD-C09B",
+  "label": "CKD review: Review amiloride with an ACE inhibitor or ARB when CrCl is below 50 mL/min",
+  "family": "CKD",
+  "title": "Review amiloride with an ACE inhibitor or ARB when CrCl is below 50 mL/min",
+  "statement": "For an adult outpatient with established CKD, review amiloride with an ACE inhibitor or ARB when CrCl is below 50 mL/min.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "A systematically collated library of prescribing safety indicators for people with chronic kidney disease. Additional file 2, Appendix 3",
+    "citation": "Smith F, Hayward S, Hole B, Kimpton G, Sluman C, Whiting P, Caskey F. BMC Nephrology. 2020;21:493.",
+    "doi": "10.1186/s12882-020-02158-0",
+    "url": "https://link.springer.com/article/10.1186/s12882-020-02158-0",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Smith F, Hayward S, Hole B, Kimpton G, Sluman C, Whiting P, Caskey F. A systematically collated library of prescribing safety indicators for people with chronic kidney disease. BMC Nephrology 2020;21:493. https://doi.org/10.1186/s12882-020-02158-0; Additional file 2 (Appendix 3), https://doi.org/10.6084/m9.figshare.13257677. © The Author(s) 2020, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Changes were made. Smith et al. compiled the CKD indicators. Original screening wording and Australian adaptations. Clinical cross-check: Moduretic Australian PI (https://www.safetyandquality.gov.au/medicine-finder/moduretic). PPRNet indicators (https://digital.ahrq.gov/sites/default/files/docs/publication/r18hs017037-ornstein-final-report-2010.pdf).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "For an adult outpatient with established CKD, review amiloride with an ACE inhibitor or ARB when CrCl is below 50 mL/min.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "ACE inhibitors or ARBs",
+      "ingredients": [
+        "captopril",
+        "enalapril",
+        "fosinopril",
+        "lisinopril",
+        "perindopril",
+        "quinapril",
+        "ramipril",
+        "trandolapril",
+        "candesartan",
+        "eprosartan",
+        "irbesartan",
+        "losartan",
+        "olmesartan",
+        "telmisartan",
+        "valsartan"
+      ],
+      "brands": {
+        "captopril": [
+          "Acenorm",
+          "Capoten",
+          "Captohexal",
+          "Captopril (Apo)",
+          "Captopril (Chemmart)",
+          "Captopril (Douglas)",
+          "Captopril (Genrx)",
+          "Captopril (Reach)",
+          "Captopril (Sandoz)",
+          "Captopril (Terry White Chemists)",
+          "Captopril (Wl)",
+          "Topace",
+          "Zedace"
+        ],
+        "enalapril": [
+          "Renitec",
+          "Acetec",
+          "Alphapril",
+          "Amprace",
+          "Auspril",
+          "Elapril",
+          "Enahexal",
+          "Enalabell",
+          "Malean",
+          "Renitec M",
+          "Zan-Extra"
+        ],
+        "fosinopril": [
+          "Fosinopril (Dp)",
+          "Fosinopril Sodium (Apo)",
+          "Fosinopril Sodium (Genrx)",
+          "Fosinopril Sodium (Sandoz)",
+          "Fosinopril Sodium (Winthrop)",
+          "Fosipril",
+          "Monace",
+          "Monopril"
+        ],
+        "lisinopril": [
+          "Fibsol",
+          "Linopril",
+          "Liprace",
+          "Lisinobell",
+          "Lisinopril (An)",
+          "Lisinopril (Apo)",
+          "Lisinopril (Apotex)",
+          "Lisinopril (Auro)",
+          "Lisinopril (Chemmart)",
+          "Lisinopril (Dm)",
+          "Lisinopril (Drla)",
+          "Lisinopril (Ga)",
+          "Lisinopril (Generic Health)",
+          "Lisinopril (Genrx)",
+          "Zestril"
+        ],
+        "perindopril": [
+          "Coversyl",
+          "Idaprex",
+          "Idaprex Arg",
+          "Indopril",
+          "Indosyl Mono",
+          "Ozapace",
+          "Perindo",
+          "Perindo Arg",
+          "Perindoarg",
+          "Perindobell",
+          "Perindopril (An)",
+          "Perindopril (Apotex)",
+          "Perindopril (Arrow)",
+          "Perindopril (Btc)",
+          "Coveram",
+          "Coversyl Plus",
+          "Reaptan",
+          "Triplixam"
+        ],
+        "quinapril": [
+          "Accupril",
+          "Acquin",
+          "Aquinafil",
+          "Filpril",
+          "Qpril",
+          "Quinapril (Apo)",
+          "Quinapril (Chemmart)",
+          "Quinapril (Dp)",
+          "Quinapril (Ga)",
+          "Quinapril (Generic Health)",
+          "Quinapril (Genrx)",
+          "Quinapril (Pfizer)",
+          "Quinapril (Pharmacor)",
+          "Quinapril (Sandoz)"
+        ],
+        "ramipril": [
+          "Tritace",
+          "Ramipril Tabs-WGR",
+          "Prilace",
+          "Ramace",
+          "Ramibell",
+          "Tryzan",
+          "Vascalace"
+        ],
+        "trandolapril": [
+          "Dolapril",
+          "Gopten",
+          "Goricap",
+          "Odrik",
+          "Tranalpha",
+          "Trandolapril (Apo)",
+          "Trandolapril (Chemmart)",
+          "Trandolapril (Dp)",
+          "Trandolapril (Ga)",
+          "Trandolapril (Generic Health)",
+          "Trandolapril (Genrx)",
+          "Trandolapril (Pharmacor)",
+          "Trandolapril (Terry White Chemists)",
+          "Trandolapril (Viatris)",
+          "Tarka"
+        ],
+        "candesartan": [
+          "Atacand",
+          "Candesartan AN",
+          "Adesan",
+          "Asartan",
+          "Candelem",
+          "Candesan",
+          "Atacand Plus"
+        ],
+        "eprosartan": [
+          "Teveten"
+        ],
+        "irbesartan": [
+          "Avapro HCT",
+          "Karvezide",
+          "Avapro",
+          "Karvea"
+        ],
+        "losartan": [
+          "Cozaar",
+          "Cozavan",
+          "Losartan (Apo)"
+        ],
+        "olmesartan": [
+          "Olmertan",
+          "Olmes",
+          "Olmesart",
+          "Olmesartan (Akm)",
+          "Olmesartan (Alembic)",
+          "Olmesartan (Alkem)",
+          "Olmesartan (An)",
+          "Olmesartan (Apo)",
+          "Olmesartan (Apotex)",
+          "Olmesartan (Apx)",
+          "Olmesartan (Arw)",
+          "Olmesartan (Blooms The Chemist)",
+          "Olmesartan (Chemmart)",
+          "Olmesartan (Gppl)",
+          "Olmetec",
+          "Olmetec Plus",
+          "Sevikar",
+          "Sevikar HCT"
+        ],
+        "telmisartan": [
+          "Micardis",
+          "Mizart",
+          "Pritor",
+          "Telmigen",
+          "Telmisartan (Alkem)",
+          "Telmisartan (An)",
+          "Telmisartan (Apo)",
+          "Telmisartan (Apotex)",
+          "Telmisartan (Atx)",
+          "Telmisartan (Chemmart)",
+          "Telmisartan (Drla)",
+          "Telmisartan (Gh)",
+          "Telmisartan (Mylan)",
+          "Telmisartan (Noumed)",
+          "Micardis Plus",
+          "Twilem",
+          "Twynsta"
+        ],
+        "valsartan": [
+          "Dilart",
+          "Diovan",
+          "Valsartan (Apo)",
+          "Valsartan (Apotex)",
+          "Co-Diovan",
+          "Entresto",
+          "Exforge",
+          "Exforge HCT"
+        ]
+      },
+      "note": "Count the relevant ingredient in a combination tablet."
+    },
+    {
+      "key": "B",
+      "name": "Amiloride products",
+      "ingredients": [
+        "amiloride"
+      ],
+      "brands": {
+        "amiloride": [
+          "Moduretic",
+          "Kaluril"
+        ]
+      },
+      "note": "Moduretic contains amiloride and hydrochlorothiazide. Only the amiloride counts here."
+    }
+  ],
+  "rule_for_models": "For an outpatient aged 18 or older, check amiloride, including combination tablets, with an ACE inhibitor or ARB. Use quantity and directions to estimate overlap. If coverage is unclear, supplies within 60 days can support a possible finding. A documented switch without co-use rules it out. With established CKD and overlapping supplies or documented co-use, flag a dated measured or Cockcroft-Gault creatinine clearance below 50 mL/min during treatment. Cite both supplies, CKD and clearance. An indexed result or eGFR cannot establish this threshold. If age, co-use, CKD at treatment or dated clearance is uncertain, report only a possible finding naming the missing evidence and citing the available lines. Give no finding if a known fact excludes it, including clearance of 50 mL/min or higher.",
+  "cannot_be_seen": "Dispensing does not establish the dose taken. Kidney results obtained elsewhere, their units and their timing may be missing.",
+  "ask_the_gp": "Could you review concurrent use of amiloride with the ACE inhibitor or ARB, serum potassium and the dated measured or Cockcroft-Gault creatinine clearance in mL/min?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Chronic kidney disease",
+      "meets": "CKD was established by the supply under review. If its timing is uncertain, keep the finding possible unless another fact rules it out.",
+      "options": [
+        {
+          "words": "CKD was established by the supply under review",
+          "effect": "meets"
+        },
+        {
+          "words": "CKD was absent at the supply under review",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "result",
+      "what": "Creatinine clearance (unindexed, mL/min)",
+      "meets": "A dated measured or Cockcroft-Gault creatinine clearance below 50 mL/min during concurrent treatment qualifies. Confirm the test date and unindexed unit. An undated value leaves clearance at treatment unknown."
+    }
+  ]
+}

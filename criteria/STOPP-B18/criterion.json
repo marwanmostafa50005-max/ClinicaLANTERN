@@ -1,0 +1,257 @@
+{
+  "id": "STOPP-B18",
+  "label": "STOPP B18",
+  "family": "STOPP_START",
+  "title": "Long-term antipsychotic with vascular disease",
+  "statement": "Long-term antipsychotics with known history of coronary, cerebral or peripheral vascular disease (increased risk of thrombosis).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Antipsychotic medicines taken for a long time can raise the risk of clots in a person who already has heart, brain or leg artery disease.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antipsychotics",
+      "ingredients": [
+        "risperidone",
+        "olanzapine",
+        "quetiapine",
+        "haloperidol",
+        "aripiprazole",
+        "amisulpride",
+        "paliperidone",
+        "clozapine",
+        "chlorpromazine",
+        "lurasidone",
+        "asenapine",
+        "brexpiprazole",
+        "zuclopenthixol",
+        "flupentixol",
+        "fluphenazine",
+        "trifluoperazine",
+        "ziprasidone",
+        "cariprazine",
+        "periciazine",
+        "flupentixol decanoate",
+        "fluphenazine decanoate"
+      ],
+      "brands": {
+        "risperidone": [
+          "Risperdal",
+          "Risperdal Consta",
+          "Ozidal",
+          "Resdone",
+          "Respaz",
+          "Risdone",
+          "Rispa",
+          "Rispaccord",
+          "Rispaccord-0.5",
+          "Risperdal Quicklet",
+          "Risperibell",
+          "Rispericor",
+          "Rispericor-0.5",
+          "Risperisan",
+          "Rispernia",
+          "Rixadone",
+          "Sperid",
+          "Uzedy"
+        ],
+        "olanzapine": [
+          "Zyprexa",
+          "Zyprexa Zydis",
+          "Zyprexa Relprevv",
+          "Aprolan",
+          "Aprolan ODT",
+          "Lanez",
+          "Lanez ODT",
+          "Lanzek",
+          "Lanzek Zydis",
+          "Lonza",
+          "Lonza ODT",
+          "Lyprosia",
+          "Lyprosia ODT",
+          "Olancor",
+          "Olanza",
+          "Olanzaccord",
+          "Olanzacor",
+          "Oprexa",
+          "Ozin",
+          "Ozin ODT",
+          "Prolanza",
+          "Prolanza ODT",
+          "Pryzex",
+          "Pryzex ODT",
+          "Tolaze ODT",
+          "Tolazine ODT",
+          "Torapine ODT",
+          "Torrenia ODT",
+          "Zylap",
+          "Zylap ODT",
+          "Zylapine",
+          "Zylapine ODT",
+          "Zypine",
+          "Zypine ODT"
+        ],
+        "quetiapine": [
+          "Seroquel",
+          "Seroquel XR",
+          "Aliquen",
+          "Delucon",
+          "Kaptan",
+          "Ketizenol",
+          "Qualez",
+          "Quepine XR",
+          "Quetapen",
+          "Quetia",
+          "Quetia XR",
+          "Quetiaccord",
+          "Quetiaquel XR",
+          "Quetin",
+          "Quipine",
+          "Sequase",
+          "Sequase XR",
+          "Serapine",
+          "Serapine XR",
+          "Seroccord",
+          "Seronia",
+          "Serotiapine XR",
+          "Syquet",
+          "Syquet XR",
+          "Syzopine",
+          "Tevatiapine XR",
+          "Tiapine XR",
+          "Tiava XR",
+          "Xque XR"
+        ],
+        "haloperidol": [
+          "Serenace",
+          "Haldol Decanoate"
+        ],
+        "aripiprazole": [
+          "Abilify",
+          "Abilify Maintena",
+          "Abilify Asimtufii",
+          "Abilify ODT",
+          "Abipra",
+          "Abyraz",
+          "Aprazole",
+          "Aripic",
+          "Aripra",
+          "Arizole"
+        ],
+        "amisulpride": [
+          "Solian",
+          "Amipride",
+          "Sulprix"
+        ],
+        "paliperidone": [
+          "Invega",
+          "Invega Sustenna",
+          "Invega Hafyera",
+          "Invega Trinza",
+          "Palmeux",
+          "Trevicta"
+        ],
+        "clozapine": [
+          "Clozaril",
+          "Clopine",
+          "Closyn",
+          "Clozaril ODT",
+          "Clozitor",
+          "Versacloz"
+        ],
+        "chlorpromazine": [
+          "Largactil",
+          "Largactil Syrup"
+        ],
+        "lurasidone": [
+          "Latuda",
+          "Bilura",
+          "Latulem",
+          "Lavione",
+          "Luracor",
+          "Luralem",
+          "Luralembic",
+          "Lurobi"
+        ],
+        "asenapine": [
+          "Saphris"
+        ],
+        "brexpiprazole": [
+          "Rexulti"
+        ],
+        "zuclopenthixol": [
+          "Clopixol"
+        ],
+        "flupentixol": [
+          "Fluanxol"
+        ],
+        "fluphenazine": [
+          "Modecate"
+        ],
+        "trifluoperazine": [
+          "Stelazine",
+          "Stelazine Forte",
+          "Stelazine Spansule"
+        ],
+        "ziprasidone": [
+          "Zeldox",
+          "Ziprox"
+        ],
+        "cariprazine": [
+          "Reagila"
+        ],
+        "periciazine": [
+          "Neulactil"
+        ],
+        "flupentixol decanoate": [
+          "Fluanxol"
+        ],
+        "fluphenazine decanoate": [
+          "Modecate"
+        ]
+      },
+      "note": "Tablets, liquids and long-acting injections count. Prochlorperazine and metoclopramide, used for nausea, are not in this group. Low doses, for example quetiapine at night for sleep, still count because the statement sets no dose limit."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Coronary, cerebral or peripheral vascular disease",
+      "meets": "any of these recorded as a current or past diagnosis"
+    },
+    {
+      "kind": "observation",
+      "what": "Duration of antipsychotic treatment during this course",
+      "meets": "Ask only if treatment beyond three calendar months is plausible, exposure dates remain unclear and vascular history has not ruled out the finding. For a depot, check when it was given and the documented dosing interval.",
+      "options": [
+        {
+          "words": "Treatment continued for more than three months",
+          "effect": "meets"
+        },
+        {
+          "words": "Treatment lasted three months or less, or consisted of separate short courses",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this criterion only to people aged 65 years or older. If age is unknown, confirm it before reporting a finding. Suspect a finding when a Group A antipsychotic is supplied long term (for oral or monthly treatment, continuous cover beyond three calendar months shown by supply dates, quantities and directions, or for a multi-month depot, dated treatment covering more than three months at its documented dosing interval) and the record shows coronary, cerebral or peripheral vascular disease (cite that line too). Check directions, quantity and gaps. For any depot, use confirmed administration dates and the documented interval. A dispensing date alone does not prove administration. If a course beyond three calendar months is plausible but its duration remains unclear, ask for \"Duration of antipsychotic treatment during this course\". If duration is confirmed, cite the answer as well as the supporting supply and vascular history. An unknown duration leaves only a possible finding if vascular history has not ruled it out. Name any missing vascular history. Apply the exclusions below first. Report no finding if the record explicitly excludes a history of coronary, cerebral and peripheral vascular disease or the course lasted three months or less or consisted of separate short courses. If long-term treatment is supported but vascular history is missing, report only a possible finding and name that history.",
+  "cannot_be_seen": "Why the antipsychotic was started, whether the person is still taking it, and any vascular disease that was never recorded.",
+  "ask_the_gp": "Could you confirm any missing vascular history or treatment duration and review the antipsychotic if long-term treatment and vascular disease are both confirmed?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,104 @@
+[
+  {
+    "file": "START-B9/pos-fact.csv",
+    "kind": "positive",
+    "about": "L001 documents heart failure with reduced ejection fraction. Ramipril was supplied regularly in the last six months without sacubitril with valsartan. At L059, symptoms persist despite the best tolerated ramipril dose.",
+    "findings": [
+      {
+        "criterion": "START-B9",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L022",
+            "L028",
+            "L033",
+            "L038",
+            "L043",
+            "L049",
+            "L054"
+          ],
+          [
+            "L059"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-B9/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about Heart failure with reduced ejection fraction, Ongoing symptoms from heart failure, or Best tolerated ACE inhibitor or ARB dose. Cite a Coralan supply and a ramipril supply in the last six months. No sacubitril with valsartan was supplied in that period.",
+    "findings": [
+      {
+        "criterion": "START-B9",
+        "must_cite": [
+          [
+            "L001",
+            "L006",
+            "L012",
+            "L017",
+            "L022",
+            "L028",
+            "L033"
+          ],
+          [
+            "L002",
+            "L007",
+            "L013",
+            "L018",
+            "L023",
+            "L029",
+            "L034"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-B9/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The record has a line for heart failure with reduced ejection fraction and Entresto (sacubitril with valsartan) is already supplied every month in place of an ACE inhibitor, so there is no finding.",
+    "findings": []
+  },
+  {
+    "file": "START-B9/pos-partial-facts.csv",
+    "kind": "positive",
+    "about": "Possible finding: L038 confirms persistent symptoms on the highest tolerated ramipril dose. Coralan is supplied. The only missing fact is Heart failure with reduced ejection fraction.",
+    "findings": [
+      {
+        "criterion": "START-B9",
+        "must_cite": [
+          [
+            "L001",
+            "L006",
+            "L012",
+            "L017",
+            "L022",
+            "L028",
+            "L033"
+          ],
+          [
+            "L002",
+            "L007",
+            "L013",
+            "L018",
+            "L023",
+            "L029",
+            "L034"
+          ],
+          [
+            "L038"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-B9/near-miss-comfort-care.csv",
+    "kind": "near_miss",
+    "about": "Persistent symptoms and reduced ejection fraction are documented on the best tolerated candesartan dose. The current comfort-focused plan records the decision to continue it.",
+    "findings": []
+  }
+]

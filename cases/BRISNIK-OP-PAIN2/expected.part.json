@@ -1,0 +1,63 @@
+[
+  {
+    "file": "BRISNIK-OP-PAIN2/pos-fact.csv",
+    "kind": "positive",
+    "about": "The record links venlafaxine 150 mg daily to neuropathic pain and confirms there is no other current indication for an antidepressant.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-PAIN2",
+        "must_cite": [
+          [
+            "L001",
+            "L007",
+            "L011",
+            "L015",
+            "L019",
+            "L023",
+            "L027",
+            "L031",
+            "L035",
+            "L039"
+          ],
+          [
+            "L002"
+          ],
+          [
+            "L003"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-PAIN2/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: venlafaxine is supplied at 150 mg daily and nerve pain is recorded, but the record does not establish \"Neuropathic pain as a reason for venlafaxine on this course\" or \"Any other current indication for an antidepressant\".",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-PAIN2",
+        "must_cite": [
+          [
+            "L002",
+            "L006",
+            "L010",
+            "L014",
+            "L018",
+            "L022",
+            "L027",
+            "L031"
+          ],
+          [
+            "L003"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-PAIN2/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Venlafaxine 150 mg a day is supplied, but the record also holds a line for depression, which is an accepted reason for an antidepressant, so it must not flag.",
+    "findings": []
+  }
+]

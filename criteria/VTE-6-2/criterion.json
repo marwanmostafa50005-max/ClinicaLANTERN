@@ -1,0 +1,161 @@
+{
+  "id": "VTE-6-2",
+  "label": "VTE: rivaroxaban starting dose after day 21",
+  "family": "VTE",
+  "title": "Rivaroxaban starting dose supplied after day 21 of acute clot treatment",
+  "statement": "15 mg BID with food × 3 weeks then 20 mg once daily with food",
+  "statement_origin": "published",
+  "source": {
+    "document": "Guidance for the practical management of the direct oral anticoagulants (DOACs) in VTE treatment",
+    "citation": "Burnett AE, Mahan CE, Vazquez SR, Oertel LB, Garcia DA, Ansell J. Guidance for the practical management of the direct oral anticoagulants (DOACs) in VTE treatment. Journal of Thrombosis and Thrombolysis. 2016, 41, 206–232. doi:10.1007/s11239-015-1310-7.",
+    "doi": "10.1007/s11239-015-1310-7",
+    "url": "https://link.springer.com/article/10.1007/s11239-015-1310-7",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Burnett AE, Mahan CE, Vazquez SR, Oertel LB, Garcia DA, Ansell J. Guidance for the practical management of the direct oral anticoagulants (DOACs) in VTE treatment. Journal of Thrombosis and Thrombolysis. 2016, 41, 206–232. doi:10.1007/s11239-015-1310-7. https://link.springer.com/article/10.1007/s11239-015-1310-7 Licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The two dosing cells are reproduced verbatim. The decision to review a later supply and the record requirements were added for this qualification.",
+    "modification_notice": "The table wording is unchanged. The record checks and fictional histories were added for pharmacist review."
+  },
+  "plain_summary": "A later supply still directs rivaroxaban 15 mg twice daily after the first 21 days of treatment for an acute clot.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Rivaroxaban",
+      "ingredients": [
+        "rivaroxaban"
+      ],
+      "brands": {
+        "rivaroxaban": [
+          "APO-Rivaroxaban",
+          "ARX-Rivaroxaban 15",
+          "Blooms The Chemist Rivaroxaban",
+          "RIVAXIB",
+          "Rivarelto",
+          "Rivaroxaban Lupin",
+          "Rivaroxaban Sandoz",
+          "Rivaroxaban-Teva",
+          "Rivoxa",
+          "XAREMED",
+          "Xarelto",
+          "Ixarola",
+          "Relaban",
+          "Rivalembic",
+          "Rivator",
+          "Rivaxotor",
+          "Roxabic",
+          "Roxalem",
+          "Roxator",
+          "Toriva",
+          "Troxa"
+        ]
+      },
+      "note": "Multiply strength by tablets per dose, then by doses per day to get the daily dose. One 15 mg tablet twice daily gives 15 mg per dose and 30 mg per day. Food intake is outside this check. Count a later supply only if its directions still apply on that date. Pack size, an early refill or directions that step down on time do not establish continuation."
+    }
+  ],
+  "rule_for_models": "For adults aged 18 or over, confirm this finding only when the starting record and a separate supply for the same acute deep vein thrombosis or pulmonary embolism both direct rivaroxaban 15 mg twice daily and the later supply continues that dose on day 22 or later. Count the first dose, including any hospital dose, as day 1. At each supply, check the strength, tablets per dose and frequency. If the prescribed regimen is unclear, ask only about the point where it is missing. Accept the pharmacist's confirmation for that point in this course. A total of 30 mg per day alone leaves the frequency unknown. Cite both supplies, the evidence of the diagnosis and any pharmacist answer used for the indication, interval, course link or either regimen. Two compatible supplies at least 21 days apart can prompt a check, but the first visible fill alone does not establish day 1. If the pattern fits and age, indication, start, regimen or course link is unclear or not known, cite the available evidence and report only a possible finding naming what is missing. For this criterion, report no finding below age 18, within the first 21 treatment days, for a different indication, a new clot or a different prescribed regimen at either point, or for an early refill or an on-time step-down without continued high-dose directions.",
+  "cannot_be_seen": "The first visible fill or discharge date alone cannot establish day 1. Hospital treatment and outside supplies may be missing. A supply does not show which doses the patient took. If the start is uncertain or the later supply could be for a new clot, the record cannot establish continued use for the same episode.",
+  "ask_the_gp": "Could you confirm the indication and first dose date, including any hospital doses, and review the current rivaroxaban directions for this course?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Acute deep vein thrombosis or pulmonary embolism",
+      "meets": "A dated diagnosis or the pharmacist's answer identifies an acute deep vein thrombosis or pulmonary embolism in the episode under review.",
+      "options": [
+        {
+          "words": "An acute deep vein thrombosis or pulmonary embolism was confirmed in the episode under review",
+          "effect": "meets"
+        },
+        {
+          "words": "An acute deep vein thrombosis or pulmonary embolism was ruled out in the episode under review",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Time from the first rivaroxaban dose for this clot to the later supply, including hospital doses",
+      "meets": "A dated first dose or the pharmacist's confirmation places the later supply on day 22 or later, counting any first dose in hospital as day 1.",
+      "options": [
+        {
+          "words": "First dose was 21 or more days before the later supply",
+          "effect": "meets"
+        },
+        {
+          "words": "First dose was less than 21 days before the later supply",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for the later rivaroxaban supply",
+      "meets": "The starting regimen continued for the same acute episode.",
+      "options": [
+        {
+          "words": "Continuing treatment for the same acute clot",
+          "effect": "meets"
+        },
+        {
+          "words": "Starting treatment for a new clot",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "A different indication",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Prescribed rivaroxaban regimen at the first dose",
+      "meets": "The directions or a pharmacist answer for this course confirm 15 mg twice daily at the first dose.",
+      "options": [
+        {
+          "words": "15 mg twice daily",
+          "effect": "meets"
+        },
+        {
+          "words": "A different regimen",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Prescribed rivaroxaban regimen at the later supply",
+      "meets": "The directions or a pharmacist answer for this course confirm 15 mg twice daily at the later supply.",
+      "options": [
+        {
+          "words": "15 mg twice daily",
+          "effect": "meets"
+        },
+        {
+          "words": "A different regimen",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

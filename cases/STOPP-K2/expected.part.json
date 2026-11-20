@@ -1,0 +1,51 @@
+[
+  {
+    "file": "STOPP-K2/pos-fact.csv",
+    "kind": "positive",
+    "about": "Risvan injections are supplied by brand alone every four weeks and the record documents recurrent falls.",
+    "findings": [
+      {
+        "criterion": "STOPP-K2",
+        "must_cite": [
+          [
+            "L007",
+            "L011",
+            "L015",
+            "L020",
+            "L023",
+            "L028",
+            "L030"
+          ],
+          [
+            "L029"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-K2/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about falls anywhere, while Seroquel (quetiapine, an antipsychotic) is supplied monthly.",
+    "findings": [
+      {
+        "criterion": "STOPP-K2",
+        "must_cite": [
+          [
+            "L005",
+            "L009",
+            "L013",
+            "L017",
+            "L021"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-K2/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Must not flag: Risperdal (risperidone) is supplied monthly, but the record shows only a single fall with no recurrence.",
+    "findings": []
+  }
+]

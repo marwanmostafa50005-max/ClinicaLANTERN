@@ -1,0 +1,143 @@
+{
+  "id": "START-D1",
+  "label": "START D1",
+  "family": "STOPP_START",
+  "title": "Parkinson's medicine missing in Parkinson's disease",
+  "statement": "L-DOPA or a dopamine agonist in idiopathic Parkinson’s disease with functional impairment and resultant disability.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A person with Parkinson's disease whose daily life is affected should usually take levodopa or a dopamine agonist. This check looks for a person with Parkinson's disease who is not being supplied one.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Medicines that meet this criterion: levodopa and dopamine agonists",
+      "ingredients": [
+        "levodopa",
+        "pramipexole",
+        "ropinirole",
+        "rotigotine",
+        "bromocriptine",
+        "apomorphine",
+        "foslevodopa",
+        "cabergoline"
+      ],
+      "brands": {
+        "levodopa": [
+          "Sinemet",
+          "Sinemet CR",
+          "Madopar",
+          "Madopar Rapid",
+          "Madopar HBS",
+          "Stalevo",
+          "Kinson",
+          "Duodopa"
+        ],
+        "pramipexole": [
+          "Sifrol",
+          "Pamex",
+          "Pexemis",
+          "Pexole XR",
+          "Sifrol ER",
+          "Simipex",
+          "Simipex XR",
+          "Simpral"
+        ],
+        "ropinirole": [
+          "Requip",
+          "Requip XL"
+        ],
+        "rotigotine": [
+          "Neupro"
+        ],
+        "bromocriptine": [
+          "Parlodel",
+          "Kripton"
+        ],
+        "apomorphine": [
+          "Apomine",
+          "Movapo"
+        ],
+        "foslevodopa": [
+          "Vyalev"
+        ],
+        "cabergoline": [
+          "Cabaser"
+        ]
+      },
+      "note": "Levodopa is always combined with another ingredient: Sinemet and Sinemet CR are levodopa with carbidopa, Madopar products are levodopa with benserazide and Stalevo is levodopa with carbidopa and entacapone. Any form and strength counts. Bromocriptine is also used for other conditions. Generic packs that show the ingredient name with a company name count too. Vyalev contains foslevodopa with foscarbidopa. Cabaser is a cabergoline product for Parkinson's disease."
+    },
+    {
+      "key": "B",
+      "name": "Medicines that imply Parkinson's disease",
+      "ingredients": [
+        "rasagiline",
+        "selegiline",
+        "entacapone"
+      ],
+      "brands": {
+        "rasagiline": [
+          "Azilect",
+          "Alziras",
+          "Rasalect",
+          "Rasaline",
+          "Rasazil"
+        ],
+        "selegiline": [
+          "Eldepryl",
+          "Selgene",
+          "Zelapar Buccal"
+        ],
+        "entacapone": [
+          "Comtan"
+        ]
+      },
+      "note": "These are medicines for Parkinson's disease that are not levodopa or a dopamine agonist. A supply suggests Parkinson's disease when the record holds no line about it, but it does not prove it."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Idiopathic Parkinson's disease",
+      "meets": "The record documents idiopathic Parkinson’s disease."
+    },
+    {
+      "kind": "observation",
+      "what": "Difficulty with daily activities caused by Parkinson's motor symptoms",
+      "meets": "Motor symptoms from idiopathic Parkinson’s disease cause disability in daily activities."
+    },
+    {
+      "kind": "observation",
+      "what": "Levodopa or a dopamine agonist supplied elsewhere for Parkinson's disease in the last six months",
+      "meets": "A confirmed absence of outside treatment meets only the outside supply check. A qualifying outside supply rules out the omission. An unknown answer leaves treatment unresolved.",
+      "options": [
+        {
+          "words": "A qualifying medicine was supplied elsewhere for Parkinson's disease",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "The patient or supplying service confirms there was no such supply",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this criterion only to people aged 65 years or older. If age is unknown, confirm it before reporting a finding. Make no finding if the record documents an end-of-life plan focused on comfort or another valid clinical reason to omit both levodopa and dopamine agonist treatment. Suspect a finding when idiopathic Parkinson’s disease and resulting difficulty with daily activities are documented and no Group A medicine was supplied in the last six months. Cite the diagnosis and the evidence of disability. When the cause or functional impact is missing, report only a possible finding and identify the missing fact. Secondary parkinsonism alone or documented absence of functional impairment gives no finding. When the record holds no Parkinson's disease line, but a Group B medicine (rasagiline, selegiline or entacapone) is supplied and no Group A medicine is supplied in the last six months, report only a possible finding and cite a Group B supply. For missing clinical evidence, name each fact still needed: Idiopathic Parkinson's disease or Difficulty with daily activities caused by Parkinson's motor symptoms. A confirmed absence of either requirement rules out the omission. An unknown answer leaves it possible if the other evidence supports it. For a possible finding with no qualifying local supply, ask for \"Levodopa or a dopamine agonist supplied elsewhere for Parkinson's disease in the last six months\" if the outside supply check is unresolved. A confirmed qualifying supply elsewhere rules out the omission. A confirmed absence settles only outside supply. Check the diagnosis and disability separately. If outside supply remains unknown, keep the finding possible. Count cabergoline supplied for Parkinson's disease. A supply recorded solely for another condition does not count. If cabergoline is the only candidate and its purpose is unclear, report at most a possible finding and ask what it treats. When qualifying Group A treatment is supplied in the last six months, there is no finding.",
+  "cannot_be_seen": "Whether the disease is idiopathic (rather than drug-induced or another cause), whether it causes real disability, the person's wishes, and medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "Whether levodopa or a dopamine agonist has been considered for this Parkinson's disease, based on how much it affects daily life, and the reason if none is used. If the record does not show it, please also confirm the diagnosis.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

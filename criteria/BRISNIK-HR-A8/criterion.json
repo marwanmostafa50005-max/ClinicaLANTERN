@@ -1,0 +1,161 @@
+{
+  "id": "BRISNIK-HR-A8",
+  "label": "Brisnik A8: antidepressant with uncontrolled hypertension",
+  "family": "BRISNIK",
+  "title": "SNRI, high-dose tricyclic, bupropion or tranylcypromine in uncontrolled hypertension",
+  "statement": "Prescribed SNRI, TCA (in doses ≥ 50 mg/day), bupropion, or tranylcypromine - and the patient has uncontrolled hypertension[c]",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.2 candidate repairs and adopted conventions merged with attribution). Not endorsed by the source authors."
+  },
+  "plain_summary": "Some antidepressants (SNRIs, tricyclics at 50 mg a day or more, bupropion and tranylcypromine) can raise blood pressure. They are risky for a person whose high blood pressure is not controlled. Contrave is contraindicated in uncontrolled hypertension. For someone presenting with Contrave, confirm current blood pressure control and seek same-day prescriber review before supply if hypertension is uncontrolled.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "SNRIs, the serotonin and noradrenaline reuptake inhibitor antidepressants",
+      "ingredients": [
+        "desvenlafaxine",
+        "duloxetine",
+        "venlafaxine"
+      ],
+      "brands": {
+        "desvenlafaxine": [
+          "Pristiq",
+          "Desfax",
+          "Desven"
+        ],
+        "duloxetine": [
+          "Cymbalta",
+          "Andepra",
+          "Baltine",
+          "Coperin",
+          "Deotine",
+          "Depreta",
+          "Drulox",
+          "Dulocym",
+          "Duloxecor",
+          "Dytrex",
+          "Symlox",
+          "Texotine",
+          "Tixol",
+          "Xerol DR"
+        ],
+        "venlafaxine": [
+          "Efexor-XR",
+          "Enlafax",
+          "Venlexor",
+          "Altven",
+          "Elaxine SR",
+          "Enlafax XR",
+          "Evelexa XR",
+          "Ozvenaf",
+          "Venfax SR",
+          "Venla",
+          "Venlexor XR"
+        ]
+      },
+      "note": "Any dose counts."
+    },
+    {
+      "key": "B",
+      "name": "Tricyclic antidepressants (TCAs)",
+      "ingredients": [
+        "amitriptyline",
+        "clomipramine",
+        "dosulepin",
+        "doxepin",
+        "imipramine",
+        "nortriptyline",
+        "trimipramine"
+      ],
+      "brands": {
+        "amitriptyline": [
+          "Endep",
+          "Amichlor",
+          "Amidep",
+          "Entrip"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "dosulepin": [
+          "Dothep",
+          "Prothiaden"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ]
+      },
+      "note": "A tricyclic counts only at a daily dose of 50 mg or more. Work the dose out from strength and directions. Dosulepin is also called dothiepin."
+    },
+    {
+      "key": "C",
+      "name": "Bupropion",
+      "ingredients": [
+        "bupropion"
+      ],
+      "brands": {
+        "bupropion": [
+          "Zyban",
+          "Contrave"
+        ]
+      },
+      "note": "A supply containing bupropion counts, including Contrave tablets containing bupropion and naltrexone."
+    },
+    {
+      "key": "D",
+      "name": "Tranylcypromine",
+      "ingredients": [
+        "tranylcypromine"
+      ],
+      "brands": {
+        "tranylcypromine": [
+          "Parnate",
+          "Parpromine",
+          "Tranamef",
+          "Tranylmed"
+        ]
+      },
+      "note": "Any dose counts."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "Blood pressure",
+      "meets": "Enter the dated blood pressure in mmHg. For several measurements, enter each value with its measurement date in the value field and put the latest measurement date in the date field. Use the systolic value alongside the other recent readings. Recent systolic readings above 160 mmHg qualify regardless of cardiac history. For readings above 140 through 160 mmHg inclusive, either recorded chronic heart failure or coronary heart disease qualifies, explicit absence of both gives no finding, and unresolved history gives a possible finding. Readings at or below 140 mmHg give no finding. If no blood pressure is recorded, report a possible finding."
+    },
+    {
+      "kind": "condition",
+      "what": "Chronic heart failure or coronary heart disease",
+      "meets": "Either condition qualifies when recent systolic readings are above 140 through 160 mmHg inclusive."
+    }
+  ],
+  "rule_for_models": "For Group A, C or D at any dose or a Group B tricyclic at 50 mg a day or more (work out the daily dose from strength and directions), assess blood pressure control. Recent systolic readings above 160 mmHg qualify regardless of cardiac history. For readings above 140 through 160 mmHg inclusive, either recorded chronic heart failure or coronary heart disease qualifies, explicit absence of both gives no finding, and unresolved history gives a possible finding. Only then ask for \"Chronic heart failure or coronary heart disease\". Readings at or below 140 mmHg give no finding. If there is no blood pressure line, report a possible finding and name \"Blood pressure\" as missing. For a Group B tricyclic, a prescribed range wholly at or above 50 mg a day meets the dose test. A maximum below 50 mg a day rules out that supply. If the dose is unknown or the directions allow doses both below and at or above 50 mg a day, report only a possible finding from that supply unless the blood pressure or cardiac history rules it out. Identify the missing daily dose in the finding. Use the dated systolic readings together, whether recorded as observations or typed results. Use the upper number of a blood pressure pair and the measurement date, not the date of entry. If missing dates, old readings, too few readings or disagreement leave current control uncertain, report only a possible finding when the medicine could qualify. If current control is uncertain, name \"Blood pressure\" as unresolved and ask for recent systolic readings with their dates. A difference between readings that leaves the same decision does not by itself make the finding uncertain. Cite one qualifying supply (or the supply with the unclear dose for a possible finding), each available reading used to judge control, and the cardiac history line when it decides the finding.",
+  "cannot_be_seen": "Blood pressure when it is not recorded, home or ambulatory readings, whether the person has heart failure or coronary heart disease when no cardiac history is recorded, whether the person takes the blood pressure medicines, and what the person actually takes.",
+  "ask_the_gp": "Could you review blood pressure control and whether this medicine is still appropriate? If Contrave is prescribed and hypertension is uncontrolled, could you review its use today before supply?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

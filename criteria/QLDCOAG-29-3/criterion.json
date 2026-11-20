@@ -1,0 +1,85 @@
+{
+  "id": "QLDCOAG-29-3",
+  "label": "QLDCOAG 29-3",
+  "family": "QLDCOAG",
+  "title": "DOAC kidney function monitoring interval",
+  "statement": "Monitoring of kidney function is recommended for all patients receiving a DOAC at least every 6 to 12 months. If clinical condition suggests kidney function could deteriorate, or if patient is acutely unwell, elderly or has unstable kidney function or moderate kidney impairment more frequent monitoring may be required.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Anticoagulant Guideline for Hospitalised Adult Patients",
+    "citation": "Queensland Health. Anticoagulant Guideline for Hospitalised Adult Patients. Last minor update June 2026. Page 29, section 1.2.5, Anticoagulant therapy to reduce stroke risk in patients with AF, clinical monitoring paragraph.",
+    "url": "https://www.health.qld.gov.au/__data/assets/pdf_file/0015/1152213/statewide-anticoagulant-guideline.pdf",
+    "licence": "Creative Commons Attribution 4.0 Australia",
+    "licence_status": "proposed",
+    "credit": "State of Queensland (Queensland Health)",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Ongoing apixaban, rivaroxaban or dabigatran treatment needs kidney function monitoring at least every 6 to 12 months, and some patients need an earlier test when kidney function may have changed.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Apixaban, rivaroxaban and dabigatran",
+      "ingredients": [
+        "apixaban",
+        "rivaroxaban",
+        "dabigatran"
+      ],
+      "brands": {
+        "apixaban": [
+          "APIXABAN-WGR",
+          "APO-Apixaban",
+          "Apexa",
+          "Apixaban Dr.Reddy's",
+          "Apixaban Lupin",
+          "Apixaban Sandoz",
+          "Apixaban Viatris",
+          "Apixaban-APX",
+          "Cip Apixaban 2.5",
+          "Cip Apixaban 5",
+          "Eliquis",
+          "MSN-APIXABAN"
+        ],
+        "rivaroxaban": [
+          "APO-Rivaroxaban",
+          "ARX-Rivaroxaban 10",
+          "ARX-Rivaroxaban 15",
+          "ARX-Rivaroxaban 20",
+          "Blooms The Chemist Rivaroxaban",
+          "Relaban",
+          "RIVAXIB",
+          "Rivarelto",
+          "Rivaroxaban Dr.Reddy's",
+          "Rivaroxaban Lupin",
+          "Rivaroxaban Sandoz",
+          "Rivaroxaban-Teva",
+          "Rivoxa",
+          "TROXA",
+          "XAREMED",
+          "Xarelto",
+          "iXarola"
+        ],
+        "dabigatran": [
+          "ARX-Dabigatran",
+          "Dabigatran Sandoz",
+          "Dabigatran Viatris",
+          "PHARMACOR DABIGATRAN",
+          "Pradaxa"
+        ]
+      },
+      "note": "Oral supplies of these three DOAC ingredients count. Brand-only lines count as their ingredient."
+    }
+  ],
+  "rule_for_models": "This criterion applies from age 18. Report no finding for a known age under 18. If age is missing and the pattern would otherwise qualify, report at most a possible finding and confirm adult age. Assess ongoing Group A apixaban, rivaroxaban or dabigatran treatment even when the local supply history is short. Prior treatment documented elsewhere can establish ongoing use. Exclude documented brief prophylaxis or stopped treatment from routine interval screening. If the history may start mid-course and ongoing use is unclear, ask about earlier treatment. If older supplies leave current use uncertain, ask whether the patient still takes the medicine. Report at most a possible finding while that answer could change an otherwise due review. For dabigatran, age 75 or over and creatinine clearance of 30 to 50 mL/min are recognised risk markers. Do not use those numbers as automatic six-month cutoffs for all three medicines. The pharmacist judges borderline cases. Use the date of the most recent DOAC supply to assess the interval. If the most recent kidney test was more than 12 months before the most recent DOAC supply, report a finding and cite the relevant supplies and the dated result. If a documented shorter monitoring interval has passed, report a finding and cite the supplies, the dated result and the plan. At six months, review whether older age or moderate or unstable kidney impairment warrants earlier testing. Cite any risk line that prompts review. If risk status is unclear and would change the decision, report a possible finding and ask \"Have you been acutely unwell, or has anyone told you your kidney function has been changing?\" Review new acute illness or suspected kidney deterioration after the test even if the result is recent. Cite the dated evidence of this change. A test within the applicable interval with no later risk gives no finding. If the test date is missing or uncertain, report a possible finding, cite the relevant supplies and ask \"When was your most recent kidney blood test?\" An undated result or the date it was entered at the counter cannot establish the monitoring interval.",
+  "cannot_be_seen": "Kidney function tests done outside the pharmacy and the atrial fibrillation diagnosis may be absent. The record may also not show acute illness or whether kidney function is unstable.",
+  "ask_the_gp": "Could you review the date of the most recent kidney function test and the monitoring interval for this DOAC, including any clinical reason for more frequent testing?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "Dated kidney function result (serum creatinine, eGFR, or creatinine clearance)",
+      "meets": "Use the verified test date and the reported value with its unit, such as serum creatinine in micromol/L, eGFR in mL/min/1.73 m2 or creatinine clearance in mL/min. Monitoring is overdue if the test was more than 12 months before the most recent DOAC supply or a documented shorter interval has passed. New acute illness or suspected kidney deterioration after the test prompts review even if the result is recent. Without a verified test date the interval is unknown."
+    }
+  ]
+}

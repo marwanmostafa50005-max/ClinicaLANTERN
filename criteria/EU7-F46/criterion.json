@@ -1,0 +1,94 @@
+{
+  "id": "EU7-F46",
+  "label": "EU(7)-PIM: strontium ranelate",
+  "family": "EU7",
+  "title": "Strontium ranelate in an older person with immobility, clot risk or severe renal impairment",
+  "statement": "The EU(7)-PIM list for older people notes strontium ranelate even though it appears in none of the listed national lists. It raises the risk of blood clots in the veins, and the risk is higher in people who are immobilised for a time or for good. The need to continue the medicine should be reviewed in people over 80 who have a raised clot risk. It should be avoided if the kidneys are severely impaired. Bisphosphonates and vitamin D are listed as alternatives.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "The statement is written in ClinicaLANTERN's own plain words from the published table row, because part of the row text comes from a third party (Micromedex) whose reuse rights are not settled. Not endorsed by the source authors. Earlier project notice: Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.2 candidate repairs and adopted conventions merged with attribution). Not endorsed by the source authors."
+  },
+  "plain_summary": "Strontium ranelate can raise the risk of blood clots, especially when an older person cannot move about or already has a raised clot risk, and it should be avoided in severe kidney impairment. Australian guidance differs: the Protos boxed warning applied at any age to temporary or permanent immobilisation and to a current or past history of venous thromboembolism (including pulmonary embolism), ischaemic heart disease, peripheral vascular disease, cerebrovascular disease or uncontrolled hypertension (TGA, 2014).",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Strontium ranelate",
+      "ingredients": [
+        "strontium ranelate"
+      ],
+      "brands": {
+        "strontium ranelate": [
+          "Protos"
+        ]
+      },
+      "note": "Protos has been withdrawn from sale in Australia but may still show in older histories. Sachets count."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Mobility during strontium ranelate treatment",
+      "meets": "Temporary or permanent immobilisation overlapped strontium ranelate treatment. Being mobile throughout treatment excludes only this route. Unknown mobility or unclear overlap leaves it open.",
+      "options": [
+        {
+          "words": "Immobilised for some or all of treatment",
+          "effect": "meets"
+        },
+        {
+          "words": "Mobile throughout treatment",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "condition",
+      "what": "Increased venous thromboembolism risk in a person over 80",
+      "meets": "For a person over 80, a previous venous clot or another increased venous clot risk applied during treatment. No such risk during treatment excludes only this route. Unknown risk or timing leaves it open.",
+      "options": [
+        {
+          "words": "Had a previous venous clot before or during treatment",
+          "effect": "meets"
+        },
+        {
+          "words": "Had another known reason for raised venous clot risk during treatment",
+          "effect": "meets"
+        },
+        {
+          "words": "Had no previous venous clot or other raised venous clot risk during treatment",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "result",
+      "what": "Creatinine clearance (unindexed, mL/min)",
+      "meets": "Creatinine clearance below 30 mL/min meets the renal route. A value of 30 mL/min or higher excludes only the renal route. Use the measured value in mL/min for the treatment period. If the value, unit or timing is unclear, this route remains unresolved."
+    },
+    {
+      "kind": "result",
+      "what": "Age",
+      "meets": "Use age in completed years from the patient details or a typed Age line. Mobility and creatinine clearance apply from age 65. Raised venous clot risk applies only above age 80. Ask only when age is missing and could change the finding."
+    }
+  ],
+  "rule_for_models": "For a person aged 65 years or over supplied strontium ranelate (Group A), suspect a finding when ANY of these routes applies: (a) a mobility line shows temporary or permanent immobilisation during treatment; (b) the person is over 80 and a condition or observation line shows previous venous thromboembolism or another increased clot risk during treatment; or (c) a result line shows severe renal failure with unindexed creatinine clearance below 30 mL/min during treatment. Use age in completed years from the patient details or a typed Age line. If neither gives the age, strontium ranelate was supplied and a route could still apply, report a possible finding and request only Age first. If Age is marked Not known, keep the finding possible. Check whether they are at least 65 and, for the clot-risk route, whether they are over 80. Do not require all three routes. Cite a supply line and each fact line supporting the applicable route. For the immobilisation route, cite the mobility line and a supply that covers the recorded immobilisation date or is dated on or after immobilisation started with no later record of return to mobility. An answer confirming immobilisation or raised clot risk during treatment can establish that route. Cite the answer and a supply. Identify a past exposure by date only when the record identifies it. A mobile person can still have a finding through clot risk or severe renal impairment, and a creatinine clearance of 30 mL/min or higher rules out only the renal route. When a route is established, report the finding and note any applicable facts that are still missing. If no route is established and an applicable fact is missing, marked Not known or unclear in timing, report a possible finding. Name each unresolved fact exactly as listed: \"Mobility during strontium ranelate treatment\", \"Creatinine clearance (unindexed, mL/min)\" or, only for a person over 80, \"Increased venous thromboembolism risk in a person over 80\". Check mobility and kidney function at age 65 or over. Missing clot-risk information matters only over age 80. Report no finding when the record rules out all routes applicable at that age, or when the person is under 65.",
+  "cannot_be_seen": "When no relevant lines are recorded: whether the person is immobilised, has had a blood clot before or has other clot risks, and the kidney function. The record also does not show how the medicine is really taken.",
+  "ask_the_gp": "Whether strontium ranelate is still needed, with immobility, clot risk, age and kidney function in mind, and confirmation of any of these facts that the record does not show.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

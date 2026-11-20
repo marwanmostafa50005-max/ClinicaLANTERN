@@ -1,0 +1,127 @@
+{
+  "id": "GERARD-24",
+  "label": "Gerard: Concurrent GLP-1 analogue and DPP-4 inhibitor",
+  "family": "GERARD",
+  "title": "Concurrent GLP-1 analogue and DPP-4 inhibitor",
+  "statement": "It is necessary to review and optimize the prescription of a GLP-1 analogue+DPP-4 inhibitor combination.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Development of explicit definitions of potentially inappropriate prescriptions for antidiabetic drugs in people with type 2 diabetes: A Delphi survey and consensus meeting",
+    "citation": "Gerard E, Bugday D, Calafiore M, Baran J, Gautier S, Henry H, et al. (2025). Development of explicit definitions of potentially inappropriate prescriptions for antidiabetic drugs in people with type 2 diabetes: A Delphi survey and consensus meeting. PLOS ONE 20(10), e0334836.",
+    "doi": "10.1371/journal.pone.0334836",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0334836",
+    "licence": "CC BY 4.0",
+    "credit": "© 2025 Gerard et al. Gerard E, Bugday D, Calafiore M, Baran J, Gautier S, Henry H, et al. (2025). Development of explicit definitions of potentially inappropriate prescriptions for antidiabetic drugs in people with type 2 diabetes: A Delphi survey and consensus meeting. PLOS ONE 20(10), e0334836. https://doi.org/10.1371/journal.pone.0334836. Table 2. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The statements are reproduced. GPT-6.2 Astra added the Australian medicine mapping, screening rules and fictional cases.",
+    "licence_status": "proposed",
+    "modification_notice": "The published statement is unchanged. The plain-language rule, Australian medicine mapping and test cases are adaptations."
+  },
+  "plain_summary": "In type 2 diabetes, supplying these two classes together calls for a review of the combination.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "GLP-1 analogues",
+      "ingredients": [
+        "dulaglutide",
+        "liraglutide",
+        "semaglutide"
+      ],
+      "brands": {
+        "dulaglutide": [
+          "Trulicity"
+        ],
+        "liraglutide": [
+          "Liraglutide Lupin",
+          "Victoza",
+          "Benedo",
+          "Saxenda",
+          "Xultophy"
+        ],
+        "semaglutide": [
+          "Ozempic",
+          "Wegovy",
+          "Wegovy Flextouch",
+          "Rybelsus"
+        ]
+      },
+      "note": "Count a listed ingredient in a combination product. Exclude dual GIP/GLP-1 agonists."
+    },
+    {
+      "key": "B",
+      "name": "DPP-4 inhibitors",
+      "ingredients": [
+        "alogliptin",
+        "linagliptin",
+        "saxagliptin",
+        "sitagliptin",
+        "vildagliptin"
+      ],
+      "brands": {
+        "alogliptin": [
+          "Nesina Met",
+          "Nesina"
+        ],
+        "linagliptin": [
+          "Linagliptin-WGR",
+          "Trajenta",
+          "Trajiptin",
+          "Trajentamet",
+          "Glyxambi"
+        ],
+        "saxagliptin": [
+          "Onglyza",
+          "Kombiglyze XR",
+          "Qtern"
+        ],
+        "sitagliptin": [
+          "Januvia",
+          "Janorix",
+          "Sitaglin",
+          "Sitaglo",
+          "Sitazitin",
+          "Xelevia",
+          "Janumet",
+          "Janumet XR",
+          "Steglujan"
+        ],
+        "vildagliptin": [
+          "Vildagliptin/Metformin Astron",
+          "Galvus",
+          "Galvumet"
+        ]
+      },
+      "note": "Count a listed ingredient in a combination product."
+    }
+  ],
+  "rule_for_models": "For a person with recorded type 2 diabetes, flag a GLP-1 analogue and a DPP-4 inhibitor when the supply dates and directions support overlapping treatment or a dated note or pharmacist answer confirms use together. Cite both supplies, the diagnosis and any separate line that establishes overlap. Count ingredients in combination products. Give no finding if the first course ended before the second began or the record rules out type 2 diabetes. If the supplies fall within 60 days of each other and overlap is uncertain, report a possible finding. Name both medicines and the supply dates and ask whether they were used together then. A confirmed switch gives no finding for that pair. An unknown answer leaves overlap open. If the pair could qualify and diabetes type is unknown, report only a possible finding and ask about the diagnosis.",
+  "cannot_be_seen": "Dispensing dates alone cannot distinguish continued use from a recent switch. The study did not include dual GIP/GLP-1 agonists in this item. If diabetes type is unknown, ask about the diagnosis. If overlap is unclear, ask about use during the period being reviewed.",
+  "ask_the_gp": "Could you confirm the diabetes type and whether both medicines are intended to continue?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Type 2 diabetes",
+      "meets": "The record confirms type 2 diabetes during treatment."
+    },
+    {
+      "kind": "observation",
+      "what": "Use of the GLP-1 analogue and DPP-4 inhibitor together during the period under review",
+      "meets": "Were these two medicines used together during the period identified in the finding? Ask only when both were supplied, their overlap is unclear and type 2 diabetes is still possible or confirmed.",
+      "options": [
+        {
+          "words": "They were used together",
+          "effect": "meets"
+        },
+        {
+          "words": "The first medicine had stopped before the second began",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

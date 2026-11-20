@@ -1,0 +1,137 @@
+{
+  "id": "NHSBSA-PAIN03",
+  "label": "NHSBSA PAIN03",
+  "family": "NHSBSA",
+  "title": "Opioid treatment for more than three months",
+  "statement": "Patients 18 years old or over currently prescribed an oral or transdermal opioid for more than 3 months",
+  "statement_origin": "published",
+  "source": {
+    "document": "Harms Dashboard Specification",
+    "citation": "NHSBSA. Harms Dashboard Specification. November 2025.",
+    "url": "https://www.nhsbsa.nhs.uk/sites/default/files/2025-11/Harms%20Dashboard%20Specification_2025-11.docx",
+    "licence": "UK Open Government Licence v3.0",
+    "licence_status": "proposed",
+    "credit": "Harms Dashboard Specification, NHSBSA Copyright 2026. This information is licenced under the terms of the Open Government Licence. Contains information originally developed by NHS Digital (NHS England), licenced under the current version of the Open Government Licence (UK OGL v3.0).",
+    "modification_notice": "Statement reproduced without changes. Australian medicine names, test histories and review text are adaptations."
+  },
+  "plain_summary": "Oral or transdermal opioid supplies continuing for more than 3 months call for a review of ongoing treatment, dose and the pain plan. At the counter, ask whether the opioid is taken regularly or only when needed, whether it is for cancer or palliative pain, and whether a pain review or tapering plan is already in place.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Oral or transdermal opioid analgesics",
+      "ingredients": [
+        "buprenorphine",
+        "codeine",
+        "fentanyl",
+        "hydromorphone",
+        "methadone",
+        "morphine",
+        "oxycodone",
+        "oxycodone with naloxone",
+        "tapentadol",
+        "tramadol",
+        "paracetamol with codeine",
+        "ibuprofen with codeine",
+        "aspirin with codeine",
+        "paracetamol with codeine and doxylamine",
+        "paracetamol with codeine and promethazine",
+        "tramadol with paracetamol"
+      ],
+      "brands": {
+        "buprenorphine": [
+          "Norspan",
+          "B-Patch",
+          "Bupredermal",
+          "Temgesic"
+        ],
+        "codeine": [
+          "Aspen Codeine"
+        ],
+        "fentanyl": [
+          "Durogesic",
+          "Fentanyl Sandoz",
+          "Denpax",
+          "Fenpatch",
+          "Dutran"
+        ],
+        "hydromorphone": [
+          "Dilaudid",
+          "Jurnista"
+        ],
+        "methadone": [
+          "Physeptone"
+        ],
+        "morphine": [
+          "MS Contin",
+          "MS Mono",
+          "Kapanol",
+          "Ordine",
+          "Sevredol",
+          "Anamorph",
+          "Momex SR"
+        ],
+        "oxycodone": [
+          "Endone",
+          "OxyNorm",
+          "OxyContin",
+          "Oxyndone"
+        ],
+        "oxycodone with naloxone": [
+          "Targin"
+        ],
+        "tapentadol": [
+          "Palexia",
+          "Palexia IR",
+          "Palexia SR"
+        ],
+        "tramadol": [
+          "Tramal",
+          "Tramal SR",
+          "Zydol",
+          "Zydol SR",
+          "Tramedo",
+          "Tramedo SR",
+          "Lodam",
+          "Durotram XR"
+        ],
+        "paracetamol with codeine": [
+          "Panadeine Forte",
+          "Codalgin Forte",
+          "Codapane Forte",
+          "Comfarol Forte",
+          "Prodeine Forte",
+          "Dolaforte",
+          "Panadeine",
+          "Panadeine Extra",
+          "Painstop Day-Time Pain Reliever",
+          "Prodeinextra",
+          "Panamax Co"
+        ],
+        "ibuprofen with codeine": [
+          "Nurofen Plus",
+          "Panafen Plus"
+        ],
+        "aspirin with codeine": [
+          "Aspalgin"
+        ],
+        "paracetamol with codeine and doxylamine": [
+          "Mersyndol",
+          "Mersyndol Forte"
+        ],
+        "paracetamol with codeine and promethazine": [
+          "Painstop Night-Time Pain Reliever"
+        ],
+        "tramadol with paracetamol": [
+          "Zaldiar"
+        ]
+      },
+      "note": "Oral and transdermal opioid analgesics count, including oral combination analgesics and Temgesic sublingual pain tablets. Injections (such as Dilaudid-HP), rectal suppositories (such as Proladone) and nasal or transmucosal fentanyl products (such as Abstral, Actiq, Fentora and PecFent) do not count. Opioid-dependence products (Subutex, Suboxone, Buvidal, Sublocade, Biodone Forte and Methadone Syrup) are excluded under their Australian TGA Product Information and TGA register entries (tga.gov.au), which approve them for opioid dependence rather than analgesia. Physeptone or an unbranded oral methadone line with no recorded indication gives at most a possible finding asking whether it is used for pain or opioid dependence. Generic packs that show the ingredient name count too."
+    }
+  ],
+  "rule_for_models": "Apply this rule to people aged 18 or over. If age is missing, ask whether the patient is 18 or over only when the qualifying opioid duration pattern is present, and keep that finding possible. Suspect a finding when dated Group A supplies form a continuing prescribed course covering more than 90 days, including the days provided by the latest active supply and counting each covered date once, with repeat supplies no more than 60 days apart and the latest supply still within its expected supply duration or dispensed within 60 days of the latest date in the history; cite all supplies in that sequence. Do not flag a historical opioid sequence that ended more than 60 days before the latest date in the history, or isolated single supplies. For oral medicines, divide the quantity supplied by the quantity taken per day in the same units. For patches, divide the number supplied by the number worn at once and multiply by the labelled days between changes. Do not count an uncovered day as a day supplied. A regular monthly refill pattern can support ongoing prescribing despite minor differences in refill dates. The pharmacist decides borderline gaps. If a gap leaves ongoing treatment uncertain, directions are unclear or when needed, or the reason for oral methadone is missing, report at most a possible finding and ask whether the opioid has been used regularly for pain.",
+  "cannot_be_seen": "Dispensing lines alone cannot show whether an opioid is taken regularly or only when needed, active cancer pain, or palliative care. They also cannot show whether the medicine was taken, supplies from another pharmacy or hospital, whether a dose reduction is already under way, or supervised opioid-dependence therapy that sits outside standard PBS dispensing histories.",
+  "ask_the_gp": "Could you review the ongoing opioid therapy, dose and pain plan, including whether long-term treatment is still needed and what follow-up is appropriate?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

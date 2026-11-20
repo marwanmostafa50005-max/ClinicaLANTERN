@@ -1,0 +1,59 @@
+[
+  {
+    "file": "STOPP-B2/pos-fact.csv",
+    "kind": "positive",
+    "about": "Verapamil SR 240 mg is supplied monthly, and heart failure of NYHA class III is recorded.",
+    "findings": [
+      {
+        "criterion": "STOPP-B2",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L009",
+            "L013",
+            "L018",
+            "L022",
+            "L026",
+            "L030",
+            "L034",
+            "L038",
+            "L042"
+          ],
+          [
+            "L017"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-B2/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about heart failure. Diltiazem CD 180 mg is supplied monthly.",
+    "findings": [
+      {
+        "criterion": "STOPP-B2",
+        "must_cite": [
+          [
+            "L002",
+            "L005",
+            "L008",
+            "L011",
+            "L014",
+            "L017",
+            "L020",
+            "L023",
+            "L026"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-B2/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Diltiazem is supplied monthly, but the recorded heart failure is NYHA class II, which is below class III, so it must not flag.",
+    "findings": []
+  }
+]

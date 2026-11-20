@@ -1,0 +1,60 @@
+[
+  {
+    "file": "BRISNIK-HR-N1/pos-fact.csv",
+    "kind": "positive",
+    "about": "Lexapro (escitalopram) is supplied every month for 12 months and the record holds a line for new sexual dysfunction since starting it, so the finding must cite both.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-N1",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L009",
+            "L013",
+            "L017",
+            "L021",
+            "L025",
+            "L030",
+            "L034",
+            "L038",
+            "L042",
+            "L046"
+          ],
+          [
+            "L029"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-N1/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about sexual function, while Cymbalta (duloxetine, an SNRI) is supplied every month for 9 months.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-N1",
+        "must_cite": [
+          [
+            "L001",
+            "L004",
+            "L007",
+            "L010",
+            "L013",
+            "L016",
+            "L019",
+            "L022",
+            "L025"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-N1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Zoloft (sertraline) is supplied every month but the record says no sexual problems were reported, so it must not flag.",
+    "findings": []
+  }
+]

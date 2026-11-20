@@ -1,0 +1,47 @@
+[
+  {
+    "file": "MHRA-12/pos-fact.csv",
+    "kind": "positive",
+    "about": "Lyrica is supplied on 6 October 2026, the day the record confirms current pregnancy.",
+    "findings": [
+      {
+        "criterion": "MHRA-12",
+        "must_cite": [
+          [
+            "L045"
+          ],
+          [
+            "L046"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "MHRA-12/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about Pregnancy for this woman of childbearing age, although pregabalin is supplied.",
+    "findings": [
+      {
+        "criterion": "MHRA-12",
+        "must_cite": [
+          [
+            "L004",
+            "L008",
+            "L012",
+            "L016",
+            "L020",
+            "L024",
+            "L028"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "MHRA-12/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The Pregnancy entry on 31 October 2026 rules out pregnancy throughout every Lyrica course.",
+    "findings": []
+  }
+]

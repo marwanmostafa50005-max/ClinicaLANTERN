@@ -1,0 +1,44 @@
+[
+  {
+    "file": "KHAWAGI-G123/pos-brand.csv",
+    "kind": "positive",
+    "about": "The Lamictal supply covers the start of Levlen ED, an oestrogen-containing combined pill.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G123",
+        "must_cite": [
+          [
+            "L017"
+          ],
+          [
+            "L018"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G123/pos-buried.csv",
+    "kind": "positive",
+    "about": "A combined levonorgestrel and ethinylestradiol pill starts during scheduled lamotrigine treatment.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G123",
+        "must_cite": [
+          [
+            "L030"
+          ],
+          [
+            "L031"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G123/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The contraceptive is an oral progestogen-only pill containing levonorgestrel.",
+    "findings": []
+  }
+]

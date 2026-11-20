@@ -1,0 +1,59 @@
+[
+  {
+    "file": "CKD-N03A/pos-fact.csv",
+    "kind": "positive",
+    "about": "The 600 mg tablet directions and the two charted dose times establish 1,200 mg/day of gabapentin at an unindexed clearance of 35 mL/min.",
+    "findings": [
+      {
+        "criterion": "CKD-N03A",
+        "must_cite": [
+          [
+            "L046"
+          ],
+          [
+            "L047"
+          ],
+          [
+            "L001"
+          ],
+          [
+            "L043"
+          ],
+          [
+            "L045"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CKD-N03A/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about Severe hepatic impairment at the levetiracetam supply, and 500 mg twice daily at indexed clearance 40 mL/min/1.73 m² exceeds only the reduced limit.",
+    "findings": [
+      {
+        "criterion": "CKD-N03A",
+        "must_cite": [
+          [
+            "L031"
+          ],
+          [
+            "L030"
+          ],
+          [
+            "L001"
+          ],
+          [
+            "L028"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CKD-N03A/near-miss.csv",
+    "kind": "near_miss",
+    "about": "At 30 mL/min, pregabalin 300 mg/day equals the ceiling.",
+    "findings": []
+  }
+]

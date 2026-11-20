@@ -1,0 +1,48 @@
+[
+  {
+    "file": "STOPP-F4/pos-brand.csv",
+    "kind": "positive",
+    "about": "Ferro-Gradumet (ferrous sulfate 325 mg) is supplied monthly with directions of two tablets a day, which is 650 mg of ferrous sulfate a day (about 210 mg of iron), by brand name only.",
+    "findings": [
+      {
+        "criterion": "STOPP-F4",
+        "must_cite": [
+          [
+            "L004",
+            "L007",
+            "L011",
+            "L014",
+            "L018",
+            "L021",
+            "L025",
+            "L028",
+            "L032"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-F4/pos-buried.csv",
+    "kind": "positive",
+    "about": "Ferrous sulfate 325 mg is supplied three times from January to March 2026, in the middle of a 16-month history, with directions of one tablet three times a day, which is 975 mg of ferrous sulfate a day (about 315 mg of iron).",
+    "findings": [
+      {
+        "criterion": "STOPP-F4",
+        "must_cite": [
+          [
+            "L028",
+            "L033",
+            "L037"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-F4/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Maltofer (iron polymaltose) is supplied with directions of two 100 mg tablets a day, which is exactly 200 mg of iron a day and not more than 200 mg, so there is no finding.",
+    "findings": []
+  }
+]

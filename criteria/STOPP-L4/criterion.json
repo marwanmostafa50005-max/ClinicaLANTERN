@@ -1,0 +1,64 @@
+{
+  "id": "STOPP-L4",
+  "label": "STOPP L4: lignocaine patch for osteoarthritis pain",
+  "family": "STOPP_START",
+  "title": "Lignocaine patch for osteoarthritis pain",
+  "statement": "Topical lidocaine (lignocaine) patch for treatment of chronic osteoarthritis pain (lack of evidence of efficacy).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Lignocaine (lidocaine) patches have not been shown to help long-lasting osteoarthritis pain.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Lidocaine patches",
+      "ingredients": [
+        "lignocaine",
+        "lidocaine"
+      ],
+      "brands": {
+        "lignocaine": [],
+        "lidocaine": [
+          "Nervoderm",
+          "Versatis"
+        ]
+      },
+      "note": "Medicated skin patches only. Lignocaine is another name for lidocaine. Nervoderm and Versatis are Australian lidocaine patches. Creams, gels, sprays and injections do not count."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Pain condition the lignocaine patch is used for",
+      "meets": "The record links this lidocaine patch to chronic osteoarthritis pain.",
+      "options": [
+        {
+          "words": "Used for chronic osteoarthritis pain",
+          "effect": "meets"
+        },
+        {
+          "words": "Used only for another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "At age 65 or older, flag a lidocaine patch linked to chronic osteoarthritis pain and cite the supply and indication (if age alone is unknown, report only a possible finding and ask for age), but give no finding for a patch documented solely for another indication. When the indication or chronicity is unclear, report only a possible finding and identify the missing detail. Ask how long this osteoarthritis pain has been present and let the pharmacist judge borderline chronicity.",
+  "cannot_be_seen": "The reason the patch was prescribed, where it is worn, whether it was bought without a prescription or supplied elsewhere, and whether the person has both osteoarthritis and nerve pain.",
+  "ask_the_gp": "A review of whether the lignocaine patch is helping the osteoarthritis pain and whether it should continue.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

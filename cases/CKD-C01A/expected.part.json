@@ -1,0 +1,50 @@
+[
+  {
+    "file": "CKD-C01A/pos-fact.csv",
+    "kind": "positive",
+    "about": "Stage 3b CKD was recorded on 9 May and Lanoxin 250 micrograms daily was supplied on 13 August for the audit dated 18 September.",
+    "findings": [
+      {
+        "criterion": "CKD-C01A",
+        "must_cite": [
+          [
+            "L028"
+          ],
+          [
+            "L040"
+          ],
+          [
+            "L044"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CKD-C01A/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: oral digoxin is supplied above 125 micrograms/day and CKD is documented, but the record does not establish \"Stage 3b, 4 or 5 CKD documented at least three calendar months before the latest date in the record\".",
+    "findings": [
+      {
+        "criterion": "CKD-C01A",
+        "must_cite": [
+          [
+            "L018"
+          ],
+          [
+            "L029"
+          ],
+          [
+            "L030"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CKD-C01A/near-miss.csv",
+    "kind": "near_miss",
+    "about": "At the September audit the August dose exceeds 125 micrograms daily, but the documented stage is 3a with a supporting eGFR of 45 mL/min/1.73 m2.",
+    "findings": []
+  }
+]

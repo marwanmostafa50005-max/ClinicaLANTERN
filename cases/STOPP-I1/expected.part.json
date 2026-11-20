@@ -1,0 +1,55 @@
+[
+  {
+    "file": "STOPP-I1/pos-fact.csv",
+    "kind": "positive",
+    "about": "Detrusitol (tolterodine, a bladder antimuscarinic) is supplied every 4 weeks from December 2025 while the record holds a Dementia (Alzheimer type) condition line.",
+    "findings": [
+      {
+        "criterion": "STOPP-I1",
+        "must_cite": [
+          [
+            "L006",
+            "L010",
+            "L015",
+            "L019",
+            "L023",
+            "L028",
+            "L033",
+            "L038",
+            "L043"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-I1/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about dementia or the person's memory or thinking, while oxybutynin (a bladder antimuscarinic) is supplied every 4 weeks.",
+    "findings": [
+      {
+        "criterion": "STOPP-I1",
+        "must_cite": [
+          [
+            "L002",
+            "L005",
+            "L009",
+            "L013",
+            "L017",
+            "L021",
+            "L025"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-I1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Vesicare (solifenacin) is supplied every 4 weeks, and the clinical assessment documents no dementia or chronic cognitive impairment.",
+    "findings": []
+  }
+]

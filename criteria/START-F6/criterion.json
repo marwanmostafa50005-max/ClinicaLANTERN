@@ -1,0 +1,249 @@
+{
+  "id": "START-F6",
+  "label": "START F6",
+  "family": "STOPP_START",
+  "title": "Probiotic with antibiotics to prevent C. difficile diarrhoea",
+  "statement": "Probiotics used with antibiotics in patients who are not immunocompromised or severely debilitated for the prevention of Clostridioides difficile -associated diarrhoea.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A probiotic taken during an antibiotic course may lower the chance of a serious bowel infection called C. difficile diarrhoea, in people whose immune system is working normally.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Probiotics (medicines that meet this criterion)",
+      "ingredients": [
+        "probiotic (lactobacillus and bifidobacterium)",
+        "saccharomyces boulardii"
+      ],
+      "brands": {
+        "probiotic (lactobacillus and bifidobacterium)": [
+          "Inner Health Plus"
+        ],
+        "saccharomyces boulardii": []
+      },
+      "note": "Most probiotics are sold without a prescription, so a record may show few of them. A product counts when its ingredients are lactobacillus, bifidobacterium or saccharomyces."
+    },
+    {
+      "key": "B",
+      "name": "Antibiotics by mouth (the medicines whose supply raises the check)",
+      "ingredients": [
+        "amoxicillin",
+        "amoxicillin with clavulanic acid",
+        "azithromycin",
+        "cefalexin",
+        "cefuroxime",
+        "ciprofloxacin",
+        "clarithromycin",
+        "clindamycin",
+        "doxycycline",
+        "flucloxacillin",
+        "metronidazole",
+        "nitrofurantoin",
+        "norfloxacin",
+        "trimethoprim",
+        "trimethoprim with sulfamethoxazole"
+      ],
+      "brands": {
+        "amoxicillin": [
+          "Amoxil",
+          "Moxacin",
+          "Alphamox",
+          "Amiloxyn",
+          "Amohexal",
+          "Amoxapin",
+          "Amoxil Duo",
+          "Amoxil Forte",
+          "Amoxil Paediatric Drops",
+          "Axycillin",
+          "Bgramin",
+          "Cilamox",
+          "Fisamox",
+          "Ibiamox",
+          "Maxamox",
+          "Ranmoxy",
+          "Xycilan",
+          "Yomax"
+        ],
+        "amoxicillin with clavulanic acid": [
+          "Augmentin",
+          "Augmentin Duo",
+          "Clavulin",
+          "Curam"
+        ],
+        "azithromycin": [
+          "Zithromax",
+          "Zedd",
+          "Zithro",
+          "Zitrocin"
+        ],
+        "cefalexin": [
+          "Keflex",
+          "Ialex",
+          "Cepha",
+          "Cephabell",
+          "Cephacor",
+          "Cephalex",
+          "Cephalkem",
+          "Cephatrust",
+          "Cilex",
+          "Ibilex",
+          "Keforal",
+          "Rancef",
+          "Sporahexal"
+        ],
+        "cefuroxime": [
+          "Zinnat"
+        ],
+        "ciprofloxacin": [
+          "Ciproxin",
+          "Arflox",
+          "C-Flox",
+          "Ciaxone",
+          "Cifran",
+          "Ciprol",
+          "Cirofaxin",
+          "Loxip",
+          "Profloxin",
+          "Proquin",
+          "Roflo"
+        ],
+        "clarithromycin": [
+          "Klacid",
+          "Clarac",
+          "Clarant",
+          "Clarihexal",
+          "Clarithro",
+          "Clarithrom",
+          "Kalixocin"
+        ],
+        "clindamycin": [
+          "Dalacin C",
+          "Calindamin",
+          "Cleocin",
+          "Clindamyk"
+        ],
+        "doxycycline": [
+          "Vibramycin",
+          "Doryx",
+          "Doxiris",
+          "Doxsig",
+          "Doxy",
+          "Doxy Acne Pack",
+          "Doxyhexal",
+          "Doxylin",
+          "Frakas",
+          "Vibra-Tabs"
+        ],
+        "flucloxacillin": [
+          "Flucil",
+          "Staphylex",
+          "Flopen",
+          "Flopen Viatris",
+          "Floxapen",
+          "Floxapen Forte",
+          "Floxsig",
+          "Flubiclox"
+        ],
+        "metronidazole": [
+          "Flagyl",
+          "Flagyl S",
+          "Metrogyl",
+          "Metronidamed",
+          "Metronide"
+        ],
+        "nitrofurantoin": [
+          "Macrobid"
+        ],
+        "norfloxacin": [
+          "Noroxin",
+          "Laxiflocin",
+          "Norflohexal",
+          "Nufloxib",
+          "Roxin"
+        ],
+        "trimethoprim": [
+          "Alprim",
+          "Triprim"
+        ],
+        "trimethoprim with sulfamethoxazole": [
+          "Bactrim",
+          "Bactrim DS",
+          "Resprim",
+          "Resprim Forte"
+        ]
+      },
+      "note": "Each course counts on its own. Skin creams, eye drops and ear drops do not count. Nexium Hp7 is a Helicobacter pylori pack that contains two antibiotics, and it counts as a course. Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "C",
+      "name": "Medicines that suppress the immune system (these remove the finding)",
+      "ingredients": [
+        "azathioprine",
+        "ciclosporin",
+        "methotrexate",
+        "mycophenolate",
+        "tacrolimus"
+      ],
+      "brands": {
+        "azathioprine": [
+          "Imuran",
+          "Azahexal",
+          "Azamun",
+          "Azapin",
+          "Azran",
+          "Imazan",
+          "Thioprine"
+        ],
+        "ciclosporin": [
+          "Neoral",
+          "Sandimmun",
+          "Cicloral"
+        ],
+        "methotrexate": [
+          "Methoblastin",
+          "Chexate",
+          "Ciptrexate",
+          "Imutrex"
+        ],
+        "mycophenolate": [
+          "CellCept",
+          "Alcept",
+          "Cellplant",
+          "Celmuno",
+          "Ceptolate",
+          "Imulate",
+          "Mofit",
+          "Mycocept",
+          "Mycotex",
+          "Myfortic"
+        ],
+        "tacrolimus": [
+          "Prograf",
+          "Advagraf",
+          "Advagraf XL",
+          "Pacrolim",
+          "Prograf XL",
+          "Prograf-XL",
+          "Tacoccord",
+          "Tacrograf"
+        ]
+      },
+      "note": "Their supply suggests the person may be immunocompromised, so the criterion does not apply. This list is short and is not complete. Chemotherapy and long courses of high-dose steroids also suppress the immune system."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when a Group B antibiotic is supplied and no Group A probiotic has a supply date within 7 days of that antibiotic supply. Do not suspect a finding when the record shows a Group C medicine, or a line that records the person as immunocompromised, on cancer treatment or severely debilitated. Treat each antibiotic course on its own.",
+  "cannot_be_seen": "Whether the person is immunocompromised or severely debilitated when no line says so, and whether a probiotic was bought over the counter, which is common. Also past C. difficile infection, which makes the check more important, and antibiotics given by a hospital.",
+  "ask_the_gp": "Whether a probiotic should be suggested during antibiotic courses for this person, if the person's immune system is normal.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

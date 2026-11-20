@@ -1,0 +1,159 @@
+{
+  "id": "BANSAL-S02",
+  "label": "Bansal S02: opioid in pregnancy",
+  "family": "BANSAL",
+  "title": "Opioid pain medicine during pregnancy",
+  "statement": "Acute or persistent prescription of opioid analgesics to a woman during pregnancy [50–58]",
+  "statement_origin": "published",
+  "source": {
+    "document": "Bansal N, et al. Development of prescribing indicators related to opioid-related harm in patients with chronic pain in primary care. BMC Med 2024;22:5, Tables 3-4",
+    "citation": "Bansal N, Campbell SM, Lin C-Y, Ashcroft DM, Chen L-C. Development of prescribing indicators related to opioid-related harm in patients with chronic pain in primary care - a modified e-Delphi study. BMC Med 2024;22:5. doi:10.1186/s12916-023-03213-x",
+    "doi": "10.1186/s12916-023-03213-x",
+    "url": "https://doi.org/10.1186/s12916-023-03213-x",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Bansal N, Campbell SM, Lin C-Y, Ashcroft DM, Chen L-C. Development of prescribing indicators related to opioid-related harm in patients with chronic pain in primary care - a modified e-Delphi study. BMC Med 2024;22:5. doi:10.1186/s12916-023-03213-x",
+    "modification_notice": "Statement text reproduced without changes. Medicine groups, brands and rules added by ClinicaLANTERN."
+  },
+  "plain_summary": "Opioid pain medicines used in pregnancy can harm the unborn baby and can cause withdrawal in the newborn, even after a short course.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Opioid pain medicines",
+      "ingredients": [
+        "buprenorphine",
+        "codeine",
+        "fentanyl",
+        "hydromorphone",
+        "morphine",
+        "oxycodone",
+        "tapentadol",
+        "tramadol",
+        "methadone",
+        "pethidine"
+      ],
+      "brands": {
+        "buprenorphine": [
+          "Norspan",
+          "Temgesic",
+          "Bupredermal",
+          "B-Patch"
+        ],
+        "codeine": [
+          "Panadeine Forte",
+          "Panadeine",
+          "Mersyndol",
+          "Codphos",
+          "Codalgin Forte",
+          "Panadeine Extra",
+          "Mersyndol Forte",
+          "Nurofen Plus",
+          "Codapane Forte 500/30",
+          "Comfarol Forte",
+          "Prodeine Forte"
+        ],
+        "fentanyl": [
+          "Durogesic",
+          "Denpax",
+          "Fenpatch"
+        ],
+        "hydromorphone": [
+          "Jurnista",
+          "Dilaudid",
+          "Dilaudid-HP",
+          "Palladone XL"
+        ],
+        "morphine": [
+          "MS Contin",
+          "Kapanol",
+          "Ordine",
+          "Sevredol",
+          "Anamorph",
+          "MS Contin Suspension",
+          "MS Mono",
+          "MS Normal",
+          "Momex SR",
+          "RA-Morph"
+        ],
+        "oxycodone": [
+          "OxyContin",
+          "Endone",
+          "OxyNorm",
+          "Targin",
+          "Endone XR",
+          "Novacodone",
+          "Oxycodor",
+          "Oxycone",
+          "Oxylenus",
+          "Oxylieve MR",
+          "Oxyndone",
+          "Xedone"
+        ],
+        "tapentadol": [
+          "Palexia",
+          "Palexia SR",
+          "Lodat SR",
+          "Palexia IR",
+          "Tadol IR",
+          "Tadol SR",
+          "Tapal IR",
+          "Tapal SR",
+          "Tapex IR",
+          "Tapex SR",
+          "Tapexia",
+          "Tapexia SR"
+        ],
+        "tramadol": [
+          "Tramal",
+          "Zydol",
+          "Durotram",
+          "Durotram XR",
+          "Iptramol",
+          "Lodam",
+          "Lodam SR",
+          "Tramahexal",
+          "Tramahexal SR",
+          "Tramal Drops",
+          "Tramal SR",
+          "Tramedo",
+          "Tramedo SR",
+          "Zydol SR"
+        ],
+        "methadone": [
+          "Physeptone",
+          "Opod-D Syrup"
+        ],
+        "pethidine": []
+      },
+      "note": "Tablets, capsules, liquids, patches and injections used for pain count. Codeine combined with paracetamol counts, for example Panadeine Forte. Targin is oxycodone with naloxone. Methadone and buprenorphine used for opioid dependence are not counted here. Generic packs that show the ingredient name with a company name count too. For a product with more than one indication, such as methadone or buprenorphine, report at most a possible finding if pain use is unclear. Count Opod-D Syrup only when its use for pain is confirmed. Exclude substitution treatment and codeine cough preparations. Count Physeptone tablets when used for pain. Do not match Physeptone Liquid as a tablet."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Pregnancy on the opioid supply date being reviewed",
+      "meets": "Dated pregnancy status, gestation, a recorded outcome or the pharmacist's answer about the particular opioid supply date supports pregnancy on that date.",
+      "options": [
+        {
+          "words": "Dated evidence supports pregnancy on that supply date",
+          "effect": "meets"
+        },
+        {
+          "words": "Dated evidence rules out pregnancy on that supply date",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Flag any Group A opioid analgesic supplied to a female patient during a pregnancy established by dated evidence or the pharmacist's answer about that supply date, at any age and whether the supply is acute or persistent. Cite the qualifying opioid supply line and any dated pregnancy line. Exclude opioid dependence treatment and codeine cough preparations. Give no finding for a male patient, or when dated evidence or the pharmacist's answer rules out pregnancy on the supply date. When pregnancy on the supply date is not documented, report a possible finding citing the opioid supply line and ask about pregnancy only for a female patient for whom pregnancy is possible, not for a young child or a postmenopausal woman. Name the missing fact exactly as \"Pregnancy on the opioid supply date being reviewed\". When there is more than one supply, use an answer only for the supply it identifies. Supplies outside the recorded pregnancy give no finding unless there is evidence of another pregnancy. If a supplied product has more than one indication, such as methadone or buprenorphine, and pain use is unclear, report at most a possible finding and ask whether it was used for pain. Do not downgrade a single-indication opioid analgesic because the dispensing label carries no indication.",
+  "cannot_be_seen": "Whether she is pregnant, when the pregnancy began, why the opioid was supplied, whether the pain is cancer pain or the patient is receiving palliative care, and care given by a hospital, midwife or another pharmacy.",
+  "ask_the_gp": "A review of the opioid and of safer options during pregnancy.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "only_sex": "female"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "SCOTRESP-01",
+  "label": "SCOTRESP: twelve or more short-acting reliever inhalers in a year",
+  "family": "SCOTRESP",
+  "title": "Twelve or more short-acting reliever inhalers in a year",
+  "statement": "People (including Chronic Obstructive Pulmonary Disease (COPD)) prescribed ≥12 SABA in 12 months",
+  "statement_origin": "published",
+  "source": {
+    "document": "Quality prescribing strategy for respiratory conditions in Scotland: improving patient care and promoting environmental sustainability",
+    "citation": "Kennedy E, Vint K, Mair A, et al. International Journal of Pharmacy Practice. 2025;33(5):534-540.",
+    "doi": "10.1093/ijpp/riaf054",
+    "url": "https://academic.oup.com/ijpp/article/33/5/534/8191719",
+    "licence": "UK Open Government Licence v3.0",
+    "licence_status": "proposed",
+    "credit": "© Crown copyright 2025. Scottish Government, Effective Prescribing and Therapeutics. Kennedy E, Vint K, Mair A, et al., Table 1. Contains public sector information licensed under the Open Government Licence v3.0.",
+    "modification_notice": "Table 1 wording reproduced unchanged. The Australian screening rule and fictional histories are adaptations."
+  },
+  "plain_summary": "Twelve or more prescribed short-acting reliever inhalers in a year prompt a review of reliever supply at any age, including in COPD. Australian guidance differs: in adults and adolescents with asthma, dispensing three or more 200-dose salbutamol canisters in a year signals increased risk of a severe asthma attack (National Asthma Council Australia, 2025).",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Short-acting beta agonist inhalers",
+      "ingredients": [
+        "salbutamol",
+        "terbutaline"
+      ],
+      "brands": {
+        "salbutamol": [
+          "Ventolin",
+          "Asmol",
+          "Zempreon",
+          "Airomir",
+          "Airomir Autohaler",
+          "Butamol",
+          "Epaq Inhaler",
+          "Salmol",
+          "Univent Cipule",
+          "Ventolin Inhaler",
+          "Ventolin Rotacap",
+          "Zempreon Inhaler"
+        ],
+        "terbutaline": [
+          "Bricanyl Turbuhaler",
+          "Bricanyl"
+        ]
+      },
+      "note": "Count a prescribed handheld short-acting reliever inhaler. Check the recorded form, especially for plain Bricanyl. Exclude nebuliser solutions and ampoules, oral products, injections and over-the-counter sales. If the form is unclear, confirm it before counting the supply. Use the device count when the quantity is in inhalers. For packs, use the known number of inhalers per pack. If the quantity is explicitly in actuations, divide it by the verified actuations per device for that presentation. Count only whole devices supplied. Leave out puffs in the directions and unfilled repeats. A blank prescriber alone does not establish an over-the-counter sale. If unclear units, pack size or prescription status could change the finding, report it as possible and ask the pharmacist to check the entry."
+    }
+  ],
+  "rule_for_models": "At each prescribed handheld salbutamol (including Ventolin) or terbutaline supply, look back 12 calendar months ending on that date. Within that window, list each matching line ID once and subtotal the whole inhalers supplied in each month, including the current supply and supplies with zero repeats left. Add the monthly subtotals and, at any age, suspect a finding and cite the contributing lines if the sum is 12 or more.",
+  "cannot_be_seen": "Other pharmacies and over-the-counter sales may add to the count. Supplies alone cannot establish the diagnosis, how many doses were taken or how well symptoms are controlled. At review, ask about relievers bought over the counter or obtained elsewhere, current symptoms and how the patient uses the inhaler.",
+  "ask_the_gp": "Could we review the reliever supply alongside current symptoms, inhaler technique and the respiratory treatment plan?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,61 @@
+[
+  {
+    "file": "GERARD-40/pos-fact.csv",
+    "kind": "positive",
+    "about": "At assessment on 12 September the latest HbA1c from 11 June was more than three calendar months old during ongoing empagliflozin treatment for type 2 diabetes.",
+    "findings": [
+      {
+        "criterion": "GERARD-40",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L003",
+            "L009",
+            "L013",
+            "L018",
+            "L022"
+          ],
+          [
+            "L026"
+          ],
+          [
+            "L041"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "GERARD-40/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: empagliflozin treatment for type 2 diabetes covers the full interval, but the record does not show \"Timing of the most recent HbA1c blood test\" as of 14 September 2026.",
+    "findings": [
+      {
+        "criterion": "GERARD-40",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L002",
+            "L006",
+            "L009",
+            "L012",
+            "L015"
+          ],
+          [
+            "L028"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "GERARD-40/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The latest HbA1c is exactly three calendar months old at assessment.",
+    "findings": []
+  }
+]

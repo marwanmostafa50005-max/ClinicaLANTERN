@@ -1,0 +1,59 @@
+[
+  {
+    "file": "KHAWAGI-G172/pos-fact.csv",
+    "kind": "positive",
+    "about": "A 12-hour trough of 1.2 mmol/L exceeds the documented maintenance ceiling of 0.8 mmol/L and the next supply continues 1000 mg daily without a recorded hold or review plan.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G172",
+        "must_cite": [
+          [
+            "L035"
+          ],
+          [
+            "L036"
+          ],
+          [
+            "L043"
+          ],
+          [
+            "L044"
+          ],
+          [
+            "L045"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G172/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record is missing \"Documented upper lithium trough target for this treatment phase (mmol/L)\" for the correctly timed 1.3 mmol/L trough, and the next lithium dose is unchanged.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G172",
+        "must_cite": [
+          [
+            "L026"
+          ],
+          [
+            "L031"
+          ],
+          [
+            "L032"
+          ],
+          [
+            "L033"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G172/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The April trough equals the prescribed target, and the prescriber documented a hold after the above-target May trough despite unchanged directions on the June supply.",
+    "findings": []
+  }
+]

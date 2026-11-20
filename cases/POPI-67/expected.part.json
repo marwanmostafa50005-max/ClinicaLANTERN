@@ -1,0 +1,47 @@
+[
+  {
+    "file": "POPI-67/pos-fact.csv",
+    "kind": "positive",
+    "about": "Both imipramine and oxybutynin are supplied for the documented bedwetting regimen on the same day.",
+    "findings": [
+      {
+        "criterion": "POPI-67",
+        "must_cite": [
+          [
+            "L015"
+          ],
+          [
+            "L018"
+          ],
+          [
+            "L019"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "POPI-67/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about whether the tricyclic and the separate anticholinergic are being used for nocturnal enuresis.",
+    "findings": [
+      {
+        "criterion": "POPI-67",
+        "must_cite": [
+          [
+            "L017"
+          ],
+          [
+            "L018"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "POPI-67/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The supplies overlap and imipramine treats bedwetting, but oxybutynin is used only for daytime bladder spasm.",
+    "findings": []
+  }
+]

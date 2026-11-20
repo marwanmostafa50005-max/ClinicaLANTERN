@@ -1,0 +1,83 @@
+[
+  {
+    "file": "BRISNIK-HR-G1/pos-fact.csv",
+    "kind": "positive",
+    "about": "Escitalopram (an SSRI) and apixaban (an anticoagulant) are supplied monthly, and the record holds a line for a past gastrointestinal bleed.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-G1",
+        "must_cite": [
+          [
+            "L003",
+            "L007",
+            "L011",
+            "L015",
+            "L019",
+            "L023",
+            "L027",
+            "L031",
+            "L035",
+            "L039",
+            "L043"
+          ],
+          [
+            "L004",
+            "L008",
+            "L012",
+            "L016",
+            "L020",
+            "L024",
+            "L028",
+            "L032",
+            "L036",
+            "L040",
+            "L044"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-G1/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about a past bleeding event, and sertraline and ticagrelor (an antiplatelet) are supplied together.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-G1",
+        "must_cite": [
+          [
+            "L002",
+            "L005",
+            "L009",
+            "L012",
+            "L015",
+            "L018",
+            "L021",
+            "L024",
+            "L027"
+          ],
+          [
+            "L003",
+            "L006",
+            "L008",
+            "L011",
+            "L014",
+            "L017",
+            "L020",
+            "L023",
+            "L026"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-G1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The patient has a past gastrointestinal bleed and the last sertraline supply is within 60 days of the first rivaroxaban supply, but sertraline was stopped before rivaroxaban began.",
+    "findings": []
+  }
+]

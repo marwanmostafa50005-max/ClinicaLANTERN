@@ -1,0 +1,45 @@
+{
+  "id": "EU7-F07",
+  "label": "EU(7)-PIM: scopolamine (hyoscine), metopimazine",
+  "family": "EU7",
+  "title": "Hyoscine hydrobromide (scopolamine) or metopimazine in an older person",
+  "statement": "Scopolamine | In lists: 1, 3 (A); 5 (B) | Main reason: Anticholinergic side effects; no proven efficacy | Dose adjustment/special considerations: 5 mg/4h; may be appropriate and useful in palliative care. E | Alternatives: Domperidone (<30 mg/d) if no contraindications. E || Metopimazine | In lists: 1(A) | Main reason: No proven efficacy; muscarinic blocking agent; side effects such as confusion and sedation | Dose adjustment/special considerations: (blank: per ESM note, no suggestion by experts or in Micromedex) | Alternatives: Domperidone (<30 mg/d) if no contraindications. E",
+  "statement_origin": "published",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Two rows of the source table as extracted for this prototype: the rows are joined, the column names are written in, and an empty cell is shown as a note in brackets. The cell wording was recorded as word for word and has not been compared again with the publisher's page. The authors have not reviewed this layout."
+  },
+  "plain_summary": "Hyoscine hydrobromide can prevent travel sickness. In an older person, weigh the expected benefit against confusion and sedation. It may also be appropriate in palliative care. The historical hyoscine dose in the source is unsuitable for Australian dosing advice. The panel also flagged metopimazine for its anticholinergic effects and uncertain benefit.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Scopolamine, which is called hyoscine hydrobromide in Australia, and metopimazine",
+      "ingredients": [
+        "hyoscine hydrobromide",
+        "metopimazine"
+      ],
+      "brands": {
+        "hyoscine hydrobromide": [
+          "Kwells",
+          "Travacalm HO",
+          "Travacalm Original",
+          "Kwells Kids"
+        ],
+        "metopimazine": []
+      },
+      "note": "Scopolamine is called hyoscine in Australia. Hyoscine butylbromide (for example Buscopan, Buscopan Forte, Setacol) is a different medicine for bowel cramps and does not count. Travacalm Original is hyoscine hydrobromide with dimenhydrinate and caffeine. Travacalm Natural is ginger and does not count. Hyoscine hydrobromide injection counts. It is often used in palliative care, where the source says it may be appropriate. Donnatab, Donnalix and Donnagel hold a very small amount of hyoscine with other belladonna alkaloids. They are bowel antispasmodics and do not count here. No Australian brand was found for metopimazine. Generic packs that show the ingredient name with a company name count too. Scopolamine identifies hyoscine hydrobromide. A shortened hyoscine entry needs enough product detail to distinguish the salt."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when any Group A medicine (hyoscine hydrobromide, which is scopolamine, or metopimazine) is supplied to a patient aged 65 years or over. If the medicine criteria are otherwise met and age at supply is unknown, report only a possible finding and ask for age confirmation. An age below 65 rules out this finding. One supply is enough, including a travel-sickness pack or an injection. Hyoscine hydrobromide may be appropriate in palliative care and still warrants pharmacist review. The dose printed in the historical source is unsuitable for Australian dosing advice. Do not use it as a screening threshold, recommend it or reproduce it in a GP letter. Count an entry for scopolamine. For an entry saying only hyoscine, check the salt, brand, strength and form. If these leave the salt uncertain and the age requirement is met or unknown, report only a possible finding and ask which product was supplied. Hyoscine butylbromide (Buscopan) is a different medicine and does not count. Belladonna alkaloid bowel antispasmodic combinations, including Donnatab, Donnalix and Donnagel, do not count under this criterion.",
+  "cannot_be_seen": "Unless relevant condition or observation lines are recorded, why the medicine is used and whether the patient is receiving palliative care, where the source says it may be appropriate. The record also does not show actual adherence, unrecorded confusion, drowsiness, blurred vision, constipation or trouble passing urine, or travel sickness tablets bought without a prescription.",
+  "ask_the_gp": "Whether this medicine is still needed at the patient's age, whether it is part of palliative care, and whether the patient has had any confusion or drowsiness.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

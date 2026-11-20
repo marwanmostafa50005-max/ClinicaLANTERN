@@ -1,0 +1,57 @@
+[
+  {
+    "file": "OPTIMISE-T3-02/pos-fact.csv",
+    "kind": "positive",
+    "about": "Dementia and clinically relevant ischaemic disease are documented. A single aspirin loading dose has been supplied.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T3-02",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L002"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T3-02/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the dementia medicines suggest a diagnosis, the record holds no line about qualifying cerebrovascular disease, and the aspirin label leaves its regular dose and schedule unknown.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T3-02",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L006",
+            "L008",
+            "L009",
+            "L012",
+            "L013",
+            "L015",
+            "L019",
+            "L021",
+            "L022",
+            "L024",
+            "L025",
+            "L027"
+          ],
+          [
+            "L026"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T3-02/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The CT shows incidental white matter changes alone and the history records no qualifying cerebrovascular event or other indication.",
+    "findings": []
+  }
+]

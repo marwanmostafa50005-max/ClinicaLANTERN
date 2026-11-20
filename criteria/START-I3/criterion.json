@@ -1,0 +1,109 @@
+{
+  "id": "START-I3",
+  "label": "START I3",
+  "family": "STOPP_START",
+  "title": "Vaginal oestrogen for atrophic vaginitis",
+  "statement": "Topical vaginal oestrogen or vaginal oestrogen pessary for symptomatic atrophic vaginitis.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A woman with dryness, soreness or other symptoms from atrophic vaginitis may be helped by a low-dose oestrogen cream, pessary or tablet used in the vagina.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Vaginal oestrogen that meets this criterion",
+      "ingredients": [
+        "estradiol",
+        "estriol",
+        "conjugated estrogens"
+      ],
+      "brands": {
+        "estradiol": [
+          "Vagifem",
+          "Estro-Pess",
+          "Vagifem Low"
+        ],
+        "estriol": [
+          "Ovestin",
+          "Vespen"
+        ],
+        "conjugated estrogens": [
+          "Premarin"
+        ]
+      },
+      "note": "Only vaginal forms count: vaginal tablets, pessaries and creams. Premarin counts only as the vaginal cream. Oestrogen tablets, patches and gels for the whole body do not count. Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "B",
+      "name": "Vaginal oestrogen identified by brand for the standing question",
+      "ingredients": [],
+      "brands": {
+        "estradiol": [
+          "Vagifem",
+          "Vagifem Low",
+          "Estro-Pess"
+        ]
+      },
+      "note": "A supply of one of these brands in the last six months closes the standing question. Use Group A to assess vaginal treatment from the full product name and form."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Atrophic vaginitis with symptoms",
+      "meets": "The record states atrophic vaginitis (vaginal atrophy) with symptoms.",
+      "ask_when": "always",
+      "close_when": {
+        "group": "B"
+      },
+      "options": [
+        {
+          "words": "Currently has symptoms from vaginal atrophy",
+          "effect": "meets"
+        },
+        {
+          "words": "No current symptoms from vaginal atrophy",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Vaginal oestrogen from another supplier",
+      "meets": "Current vaginal oestrogen from another supplier clears the treatment omission. Confirmed absence of outside vaginal treatment settles only that part of the review. An unknown answer leaves outside cover unresolved.",
+      "options": [
+        {
+          "words": "Currently using vaginal oestrogen from another supplier",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "No current vaginal oestrogen from another supplier",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this item only to people aged 65 or older. If age or sex is unknown and the other evidence would support a finding, report only a possible finding and ask the pharmacist to confirm the missing age or sex. In a woman, suspect a finding and cite the condition line only when it documents symptomatic atrophic vaginitis, no Group A medicine was supplied in the last six months of the record, and the record gives no valid reason for omission such as end-of-life care with a palliative focus or a contraindication to the proposed therapy. For the clinical check, use Group A and the recorded form. Vaginal cream, vaginal tablets and pessaries count. Oral products and patches do not qualify. Group B identifies vaginal treatment by brand alone for the standing question. If a possible omission depends on unclear outside treatment, ask for \"Vaginal oestrogen from another supplier\". Count only treatment used vaginally. Current vaginal oestrogen from another supplier clears the omission. Confirmed absence of outside treatment settles only cover from that source. An unknown answer leaves cover unresolved and the finding possible. The answer does not establish the underlying condition.",
+  "cannot_be_seen": "How bad the symptoms are, whether the woman has had breast cancer or unexplained vaginal bleeding, and vaginal moisturisers or lubricants bought without a prescription. Also any past reaction to oestrogen and treatment from a specialist. Ask whether symptoms are still present and whether vaginal oestrogen is obtained elsewhere. Ask about any history of breast cancer or unexplained vaginal bleeding for the GP review.",
+  "ask_the_gp": "A review of whether a vaginal oestrogen would help the symptoms of atrophic vaginitis.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "only_sex": "female"
+}

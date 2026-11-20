@@ -1,0 +1,52 @@
+[
+  {
+    "file": "PROMPT-RS-4/pos-fact.csv",
+    "kind": "positive",
+    "about": "Eight regular bromhexine supplies span September to March, and L054 links that course to COPD and records zero flare-ups in the year covering those supplies.",
+    "findings": [
+      {
+        "criterion": "PROMPT-RS-4",
+        "must_cite": [
+          [
+            "L054"
+          ],
+          [
+            "L016",
+            "L022",
+            "L027",
+            "L032",
+            "L038",
+            "L043",
+            "L047",
+            "L053"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PROMPT-RS-4/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: two brand-only supplies and a dated note show routine maintenance use, but the record holds no line about COPD or its stability.",
+    "findings": [
+      {
+        "criterion": "PROMPT-RS-4",
+        "must_cite": [
+          [
+            "L023",
+            "L027"
+          ],
+          [
+            "L031"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PROMPT-RS-4/near-miss.csv",
+    "kind": "near_miss",
+    "about": "COPD is recorded, but it is flaring up (an acute exacerbation line, prednisolone and an antibiotic on 9 February 2026), so it is not stable. Bromhexine is supplied only twice, in the weeks after the flare-up.",
+    "findings": []
+  }
+]

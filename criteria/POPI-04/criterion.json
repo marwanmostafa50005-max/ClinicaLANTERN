@@ -1,0 +1,130 @@
+{
+  "id": "POPI-04",
+  "label": "POPI: two NSAIDs for pain or fever",
+  "family": "POPI",
+  "title": "Two different NSAIDs used together for pain or fever in a child",
+  "statement": "The combined use of two NSAIDs",
+  "statement_origin": "published",
+  "source": {
+    "document": "International consensus validation of the POPI tool (Pediatrics: Omission of Prescriptions and Inappropriate prescriptions) to identify inappropriate prescribing in pediatrics",
+    "citation": "Sadozai L, Sable S, Le Roux E, et al. International consensus validation of the POPI tool (Pediatrics: Omission of Prescriptions and Inappropriate prescriptions) to identify inappropriate prescribing in pediatrics. PLOS ONE. 2020;15(10):e0240105.",
+    "doi": "10.1371/journal.pone.0240105",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0240105",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "© 2020 Sadozai et al. Table 2, International consensus validation of the POPI tool. PLOS ONE 15(10), e0240105. https://doi.org/10.1371/journal.pone.0240105. CC BY 4.0.",
+    "modification_notice": "The published item is reproduced unchanged. The summary, screening rule, medicine examples and fictional histories were added for pharmacist review."
+  },
+  "plain_summary": "A child has two different anti-inflammatory pain medicines directed for use at the same time.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "NSAIDs",
+      "ingredients": [
+        "ibuprofen",
+        "naproxen",
+        "diclofenac",
+        "mefenamic acid",
+        "celecoxib",
+        "meloxicam",
+        "indometacin",
+        "ketoprofen",
+        "piroxicam",
+        "etoricoxib"
+      ],
+      "brands": {
+        "ibuprofen": [
+          "Nurofen Caplet",
+          "Amcal Ibuprofen Suspension for Children",
+          "Nurofen",
+          "Nurofen for Children",
+          "Advil",
+          "Brufen",
+          "Maxigesic",
+          "Nuromol"
+        ],
+        "naproxen": [
+          "Naprogesic",
+          "Aleve",
+          "Aleve 24 Hour",
+          "Anaprox",
+          "Crysanal",
+          "Femme-Free",
+          "Inza",
+          "Naprofem",
+          "Naprosyn",
+          "Naprosyn SR",
+          "Naprosyn SR 1000",
+          "Nurolasts Period Pain",
+          "Proxen",
+          "Proxen SR"
+        ],
+        "diclofenac": [
+          "Voltaren 50",
+          "Voltaren",
+          "Voltaren 25",
+          "Voltaren Rapid",
+          "Fenac",
+          "Fenac EC"
+        ],
+        "mefenamic acid": [
+          "Ponstan",
+          "Femin",
+          "Mefic",
+          "Menamic"
+        ],
+        "celecoxib": [
+          "Celebrex"
+        ],
+        "meloxicam": [
+          "Mobic"
+        ],
+        "indometacin": [
+          "Indocid"
+        ],
+        "ketoprofen": [
+          "Orudis SR"
+        ],
+        "piroxicam": [
+          "Feldene",
+          "Feldene-D"
+        ],
+        "etoricoxib": [
+          "Arcoxia"
+        ]
+      },
+      "note": "These are Australian examples. Count distinct NSAID ingredients used for pain or fever. Two names for the same ingredient count once. Check form and ingredients for each brand. Count a systemic combination product once for each distinct NSAID it contains. The paracetamol in Maxigesic and Nuromol does not count as a second NSAID. For a cream, gel or eye drop, count it only if the specific product warns about concurrent use with the other NSAID. Australian Nurofen Pain and Inflammation Relief Gel 5% has this warning. A local product with no such warning does not qualify."
+    }
+  ],
+  "rule_for_models": "Use this check under age 18. If age is unknown and the remaining evidence supports a possible or full finding, report only a possible finding and ask for age. A known age of 18 or older gives no finding. In a child with known or possible treatment for pain or fever, look for two different Group A NSAIDs whose supply dates overlap or fall within 60 days of each other. Use the recorded products, forms and directions when they settle the question. Exclude a switch, use on separate days, duplicate brands of one ingredient or a product that does not qualify. If use together for pain or fever is established, cite both supplies and any observation needed to confirm use of that pair. If both supplies could qualify but their purpose, form or use together is unclear, cite both and report only a possible finding. Ask for 'Use of these two NSAIDs for pain or fever' for that pair. An unknown answer leaves it possible. Use an answer only for the pair it describes.",
+  "cannot_be_seen": "A supply date alone cannot establish that both medicines were taken. Over-the-counter purchases and changes to the pain plan may be missing.",
+  "ask_the_gp": "Could you review whether both anti-inflammatory medicines were intended for use together for this child's pain or fever?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Use of these two NSAIDs for pain or fever",
+      "meets": "For this pair, both products qualify by purpose and formulation and the child used them together for pain or fever.",
+      "options": [
+        {
+          "words": "Both qualifying products were used together for pain or fever",
+          "effect": "meets"
+        },
+        {
+          "words": "They were used on separate days or one replaced the other",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "One product did not qualify by purpose or formulation",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

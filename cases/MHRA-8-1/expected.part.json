@@ -1,0 +1,44 @@
+[
+  {
+    "file": "MHRA-8-1/pos-brand.csv",
+    "kind": "positive",
+    "about": "Zocor 40 mg once daily and Cordarone X 200 are supplied together by brand only, so simvastatin exceeds the 20 mg daily cap.",
+    "findings": [
+      {
+        "criterion": "MHRA-8-1",
+        "must_cite": [
+          [
+            "L017"
+          ],
+          [
+            "L018"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "MHRA-8-1/pos-buried.csv",
+    "kind": "positive",
+    "about": "Vytorin supplying 40 mg simvastatin daily and Cardizem are planted together in the middle of a 16-month history.",
+    "findings": [
+      {
+        "criterion": "MHRA-8-1",
+        "must_cite": [
+          [
+            "L037"
+          ],
+          [
+            "L038"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "MHRA-8-1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "During the Isoptin course, Lipex 20 mg nightly replaces Zocor 20 mg nightly and the daily simvastatin dose stays at 20 mg.",
+    "findings": []
+  }
+]

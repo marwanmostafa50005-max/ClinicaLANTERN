@@ -1,0 +1,57 @@
+[
+  {
+    "file": "STOPP-E2/pos-fact.csv",
+    "kind": "positive",
+    "about": "Pradaxa 110 mg (dabigatran) is supplied 11 times from December 2025 to September 2026 and shown by brand name only, and the record holds the line \"eGFR 27 mL/min/1.73 m2\" dated 2026-04-08. The finding must cite the supplies and that line.",
+    "findings": [
+      {
+        "criterion": "STOPP-E2",
+        "must_cite": [
+          [
+            "L002",
+            "L006",
+            "L010",
+            "L014",
+            "L018",
+            "L023",
+            "L027",
+            "L031",
+            "L035",
+            "L039",
+            "L043"
+          ],
+          [
+            "L021"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-E2/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about the eGFR (kidney function). Pradaxa 150 mg (dabigatran) is supplied 7 times from March 2026 to August 2026.",
+    "findings": [
+      {
+        "criterion": "STOPP-E2",
+        "must_cite": [
+          [
+            "L002",
+            "L006",
+            "L010",
+            "L014",
+            "L018",
+            "L022",
+            "L026"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-E2/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Pradaxa 110 mg (dabigatran) is supplied 7 times from March 2026 to August 2026, but the record holds an eGFR of 36 mL/min/1.73 m2 dated 2026-04-20, which is not low enough for the criterion, so there is no finding.",
+    "findings": []
+  }
+]

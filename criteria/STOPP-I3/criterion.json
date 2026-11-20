@@ -1,0 +1,97 @@
+{
+  "id": "STOPP-I3",
+  "label": "STOPP I3: bladder antimuscarinic with enlarged prostate and high residual urine",
+  "family": "STOPP_START",
+  "title": "Bladder antimuscarinic for urinary symptoms with enlarged prostate and high residual urine",
+  "statement": "Systemic antimuscarinic (e.g., oxybutynin, tolterodine, trospium) drugs for lower urinary tract symptoms with benign prostatic hyperplasia (BPH) and high post-void residual volume i.e. > 200 ml (uncertain efficacy and increased risk of urinary retention in older men).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "In an older man with an enlarged prostate who still holds more than 200 mL of urine after passing water, a bladder antimuscarinic may not help and can make him unable to pass urine.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Bladder antimuscarinic medicines (taken by mouth or as a patch)",
+      "ingredients": [
+        "oxybutynin",
+        "tolterodine",
+        "solifenacin",
+        "darifenacin",
+        "fesoterodine",
+        "trospium",
+        "propantheline"
+      ],
+      "brands": {
+        "oxybutynin": [
+          "Ditropan",
+          "Oxytrol"
+        ],
+        "tolterodine": [
+          "Detrusitol"
+        ],
+        "solifenacin": [
+          "Vesicare",
+          "Solicare",
+          "Vesifen",
+          "Solicare ODT",
+          "Vesican ODT"
+        ],
+        "darifenacin": [
+          "Enablex"
+        ],
+        "fesoterodine": [],
+        "trospium": [],
+        "propantheline": [
+          "Pro-Banthine"
+        ]
+      },
+      "note": "Tablets, capsules, liquids and skin patches count. Eye drops and inhalers do not. No Australian brand is listed for fesoterodine or trospium, so a history may show only the ingredient name. Other medicines with antimuscarinic action, such as tricyclic antidepressants, are not in this group. Mirabegron is not an antimuscarinic. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Benign prostatic hyperplasia (enlarged prostate)",
+      "meets": "A diagnosis of benign prostatic hyperplasia confirms benign enlargement. To support the finding, the same line or separate evidence must also show that the bladder medicine treats lower urinary tract symptoms."
+    },
+    {
+      "kind": "result",
+      "what": "Post-void residual volume",
+      "meets": "More than 200 mL"
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for taking the bladder medicine",
+      "meets": "The directions or another record line say the medicine treats lower urinary tract symptoms.",
+      "options": [
+        {
+          "words": "Lower urinary tract symptoms",
+          "effect": "meets"
+        },
+        {
+          "words": "Another reason only",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply only to men aged 65 or older supplied a Group A medicine. If age or sex is unknown and no known requirement rules out the finding, report only a possible finding. Name the missing detail and ask the pharmacist to confirm it. Cite the supply and the evidence that it treats lower urinary tract symptoms, that the man has benign prostatic hyperplasia and that the post-void residual is above 200 mL. If any requirement is ruled out, give no finding. Otherwise, if any required fact is missing or unknown, report a possible finding and name the missing fact.",
+  "cannot_be_seen": "The residual urine volume, and whether there is an enlarged prostate, when the record has no such lines. Also how bad the urinary symptoms are, and whether the man has had a bladder scan.",
+  "ask_the_gp": "Whether the bladder antimuscarinic is helping, and a check of residual urine volume and the risk of urinary retention.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "only_sex": "male"
+}

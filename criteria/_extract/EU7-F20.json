@@ -1,0 +1,126 @@
+{
+  "id": "EU7-F20",
+  "old_id": "LX-EU7-F20",
+  "found": true,
+  "label": "EU7-F20",
+  "family": "EU7",
+  "statement": "Dabigatranc | In lists: 6 (B) | Main reason: Limited information on use for older adults and on the risk of bleeding events in this population; no reversal agent is available in case of overdose | Dose adjustment/special considerations: Reduce dose for adults aged >75 years old (150 mg/d) and CrCl 30-50 (110 mg twice per day); contraindicated if CrCl <30. E | Alternatives: (none stated) || Rivaroxabanc | In lists: 6 (B) | Main reason: Limited information on use for older adults; risk of bleeding events; no reversal agent available in case of overdose; risk of bleeding may be higher in cases of severe renal failure | Dose adjustment/special considerations: Reduce dose for adults aged >65 years and avoid use for persons with CrCl <30 ml/min. E, M | Alternatives: (none stated) || Apixabanc | In lists: 6 (B) | Main reason: Limited information on use for older adults; risk of bleeding events; no reversal agent available in case of overdose | Dose adjustment/special considerations: Reduce dose to 2.5 mg orally twice daily for patients with any 2 of the following (M) (1 of the following (E)): ≥80 years old, body weight ≤60 kg, or serum creatinine ≥1.5 mg/dL. Do not use if CrCl less than 15 mL/min or if undergoing dialysis; reduce dose to 2.5 mg twice per day in cases of severe renal failure (CrCl 15 mL/min to 29 mL/min); no dosage adjustment necessary in cases of mild (CrCl 51 to 80 mL/min) or moderate (CrCl 30 to 50 mL/min) renal failure. M | Alternatives: (none stated)",
+  "statement_chars": 1488,
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "edition": "EU(7)-PIM list (2015), ESM1 full list",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.2 candidate repairs and adopted conventions merged with attribution). Not endorsed by the source authors."
+  },
+  "rights_block_as_recorded": {
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "basis": "Parent article grant printed (CC BY 4.0). ESM1 has no separate licence statement; the supplied inspection found no contrary notice. Upstream expression marked M (Micromedex), and alternatives marked P/L/McL/B, carry provenance that needs a per-member check before verbatim reuse; independently stated facts are not barred by the citation alone.",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.2 candidate repairs and adopted conventions merged with attribution). Not endorsed by the source authors.",
+    "field_dependencies": [
+      "Rivaroxaban: special-considerations text marked M (Micromedex). Keep provenance; reuse of the verbatim M-marked expression needs a rights check; independently stated facts are not barred by the citation alone.",
+      "Apixaban: special-considerations text marked M (Micromedex). Keep provenance; reuse of the verbatim M-marked expression needs a rights check; independently stated facts are not barred by the citation alone."
+    ],
+    "status_proposed": "dependency-unresolved (field-level; see field_dependencies)",
+    "per_card_check": "Elicit self-check: licence, licence link, credit line, modification notice and dependency status present on this card; independent rights review pending"
+  },
+  "context_as_recorded": {
+    "section": "Elicit family grouping (ATC level 4 with class merges): Direct oral anticoagulants",
+    "locator": "EU(7)-PIM ESM1 rows EU7-049 (ESM table row 72, ATC B01AE07), EU7-050 (ESM table row 73, ATC B01AF01), EU7-051 (ESM table row 74, ATC B01AF02)",
+    "preambles": [
+      {
+        "scope": "EU(7)-PIM list aim (article)",
+        "text": "The aim of the study was to develop a European list of potentially inappropriate medications (PIM) for older people, which can be used for the analysis and comparison of prescribing patterns across European countries and for clinical practice."
+      },
+      {
+        "scope": "EU(7)-PIM article: dose and alternative suggestions",
+        "text": "The PIM list contains suggestions for dose adjustments and therapeutic alternatives. Dose adjustments and drug alternatives suggested by the experts during the Delphi survey were compiled and included in the EU(7)-PIM list, prioritising in each case those made by the higher number of experts. Suggestions were complemented, if necessary, with information available from the other PIM lists and from Micromedex® [[32](http://pmc.ncbi.nlm.nih.gov/articles/PMC4464049/#CR32)], a commercially available database which contains comprehensive information on drug use."
+      }
+    ],
+    "footnotes_and_definitions": [
+      {
+        "marker": "c",
+        "text": "Drug reevaluated during the last brief survey."
+      },
+      {
+        "marker": "g",
+        "text": "ATC according to WIDO (2013) [46];"
+      },
+      {
+        "marker": "h",
+        "text": "ATC according to WHO ATC-code website 2013;"
+      },
+      {
+        "marker": "i",
+        "text": "ATC according to WHO ATC-code website 2014."
+      },
+      {
+        "marker": "E/M/P/L/McL/B",
+        "text": "E: Experts; M: Micromedex ® [32]; P: PRISCUS list [22]; L: Laroche et al (2007) [3]; McL: McLeod et al (1997) [26]; B: Beers list (2012) [18]."
+      },
+      {
+        "marker": "blank special-considerations cell",
+        "text": "Note: if nothing is stated under “Dose adjustment / special considerations of use”, this means that no suggestion was made either by the experts or in Micromedex® ."
+      },
+      {
+        "marker": "In lists (legend a)",
+        "text": "'In lists' gives the numbered prior PIM lists in which the substance appears, with Category A (precisely this active substance is named as a PIM) or Category B (a PIM only in certain clinical conditions or comorbidities, or not named but covered as a PIM drug class). 'Does not appear as PIM' means the substance was not a PIM in those prior lists; it is still an entry of the EU(7)-PIM list and is not an exclusion. Entries the panel judged questionable carry footnote d.",
+        "source": "EU(7)-PIM ESM1 legend (footnotes a and d)"
+      }
+    ],
+    "extra_columns": [],
+    "source_rows": [
+      {
+        "source_row_id": "EU7-049",
+        "name_as_printed": "Dabigatranc"
+      },
+      {
+        "source_row_id": "EU7-050",
+        "name_as_printed": "Rivaroxabanc"
+      },
+      {
+        "source_row_id": "EU7-051",
+        "name_as_printed": "Apixabanc"
+      }
+    ],
+    "related_documents": []
+  },
+  "extraction": {
+    "note": "Paths are inside the earlier project's folder.",
+    "register": "build-evidence/resumption-20261110/criteria-lane/CRITERIA_413_REGISTER_V1.json",
+    "package_file": "build-evidence/source-successor-local/r2-4/revision-6-preparation/targeted-successor-1/clinicalantern-source-drafts-r246-preparation-successor-1.json",
+    "package_bytes": 62148118,
+    "package_sha256": "25d5a4d2b0aa1da603009b85f1713f99513cbb9bbe7e98c555dd9cd820018e97",
+    "card_version": "4.3.0-r2.2",
+    "taken": "Only the statement text, the item label, the source document fields and the rights block.",
+    "field_origins": {
+      "label": "The card's item label, unchanged.",
+      "family": "The card's source family, unchanged.",
+      "statement": "The card's text_verbatim, unchanged.",
+      "source.document": "The card's source document, unchanged.",
+      "source.edition": "The card's edition_version, unchanged.",
+      "source.citation": "The same text as the credit line. The package has no separate citation field.",
+      "source.doi": "The card's DOI, unchanged. null means the package records none.",
+      "source.url": "Built from the DOI as a doi.org link. The package records no article address. null when there is no DOI.",
+      "source.licence": "The rights block's licence, unchanged.",
+      "source.credit": "The rights block's credit line, unchanged.",
+      "source.modification_notice": "The rights block's modification notice, unchanged.",
+      "rights_block_as_recorded": "The card's whole rights block, unchanged.",
+      "context_as_recorded": "Text the earlier project recorded beside the statement: section, locator, preambles, footnotes, extra table columns, the source rows by identifier, and related documents. Row text other than the statement is not copied."
+    },
+    "cautions": [
+      "The licence is a proposal by the earlier project. It is not confirmed. The founder should check it on the publisher's page.",
+      "The earlier project recorded the rights status \"dependency-unresolved (field-level; see field_dependencies)\". That is its own self-check. Its note says an independent rights review is pending.",
+      "The earlier project lists 2 open points for this card. See rights_block_as_recorded.field_dependencies.",
+      "The statement is the wording the earlier project recorded as verbatim. This extraction did not compare it with the publisher's page.",
+      "The modification notice describes changes made by the earlier project. Check that it fits this prototype before it is shown.",
+      "The source's framing text is in context_as_recorded.preambles. It can set limits the statement does not repeat, such as the age group.",
+      "The statement holds 3 rows of the source table. The earlier project joined them with \" || \". Rows: Dabigatranc, Rivaroxabanc, Apixabanc."
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "file": "POPI-59/pos-fact.csv",
+    "kind": "positive",
+    "about": "The dermatologist's supply of 1 mg/g tacrolimus ointment is linked to atopic eczema at age 15.",
+    "findings": [
+      {
+        "criterion": "POPI-59",
+        "must_cite": [
+          [
+            "L022"
+          ],
+          [
+            "L023"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "POPI-59/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about atopic eczema for the child receiving 0.1% tacrolimus ointment at age 14.",
+    "findings": [
+      {
+        "criterion": "POPI-59",
+        "must_cite": [
+          [
+            "L015"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "POPI-59/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The 1 mg/g tacrolimus ointment is for skin patches diagnosed as vitiligo without eczema.",
+    "findings": []
+  }
+]

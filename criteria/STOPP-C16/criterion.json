@@ -1,0 +1,92 @@
+{
+  "id": "STOPP-C16",
+  "label": "STOPP C16: aspirin for primary prevention",
+  "family": "STOPP_START",
+  "title": "Low-dose aspirin with no heart or blood vessel disease recorded",
+  "statement": "Aspirin for primary prevention in cardiovascular disease (no evidence of benefit).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Taking low-dose aspirin to prevent a first heart attack or stroke has no proven benefit and adds bleeding risk.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Low-dose aspirin",
+      "ingredients": [
+        "aspirin"
+      ],
+      "brands": {
+        "aspirin": [
+          "Cartia",
+          "Astrix",
+          "Aspro Protect",
+          "Cardasa",
+          "Cardiprin",
+          "Ecotrin",
+          "Princard",
+          "Solprin",
+          "Spren"
+        ]
+      },
+      "note": "Only low-dose aspirin taken daily as an antiplatelet counts, for example 100 mg once a day. A brand name or tablet strength alone cannot establish daily antiplatelet use. For any higher-strength aspirin tablet, check the amount taken and the indication. A documented daily low antiplatelet dose counts, including a prescribed fraction of a tablet. Use for pain alone does not count. Aspirin with dipyridamole (Asasantin SR) is not in this group. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "rule_for_models": "For a person aged 65 or older, assess regular low-dose aspirin from strength, quantity, directions and supply dates, including a prescribed tablet fraction. If age is unknown, record eligibility as unknown and do not flag. If the indication and disease history conflict, keep the finding possible until they are reconciled. Otherwise give no finding for established atherosclerotic cardiovascular disease, documented secondary prevention or another confirmed indication with no primary prevention use, including pain-only use. Confirm only when primary prevention is documented and established disease is excluded. A negative disease history alone does not establish the indication. If the regimen could qualify but the disease history, stroke type, daily dose or indication is unclear, report a possible finding and name what needs checking. Name the missing disease history as Atherosclerotic cardiovascular disease and the missing indication as Reason for regular aspirin use when each affects the finding. If the only event is a haemorrhagic stroke or a stroke of unknown type, clarify why aspirin is taken. For a stroke of unknown type, also ask which type it was. For every finding, cite one qualifying aspirin supply, then the stroke or disease-history line when present, then the aspirin-indication line when present.",
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Atherosclerotic cardiovascular disease",
+      "meets": "Established disease includes heart attack, angina, coronary stent or bypass, ischaemic stroke, transient ischaemic attack and peripheral artery disease. An explicit negative leaves the indication to be checked. An unknown history or a stroke of unknown type leaves a possible finding when the regimen could qualify. A haemorrhagic stroke alone does not establish secondary cardiovascular prevention.",
+      "options": [
+        {
+          "words": "No established cardiovascular disease",
+          "effect": "meets"
+        },
+        {
+          "words": "Established cardiovascular disease confirmed",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for regular aspirin use",
+      "meets": "Aspirin is taken to prevent a first cardiovascular event. Confirm only if established cardiovascular disease is also excluded. An unknown reason or conflicting information leaves the finding open.",
+      "options": [
+        {
+          "words": "Prevention of a first cardiovascular event",
+          "effect": "meets"
+        },
+        {
+          "words": "Treatment of established cardiovascular disease",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Another confirmed indication with no primary prevention use",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "cannot_be_seen": "Why aspirin was started if the reason is unrecorded, any heart or blood vessel disease not recorded here, and aspirin bought without a prescription. Also supplies from a hospital or another pharmacy.",
+  "ask_the_gp": "Whether the person has established cardiovascular disease, and whether the aspirin is still needed or could be stopped.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

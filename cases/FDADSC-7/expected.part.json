@@ -1,0 +1,41 @@
+[
+  {
+    "file": "FDADSC-7/pos-fact.csv",
+    "kind": "positive",
+    "about": "C-Flox 500 was supplied to a patient with confirmed high vascular risk. The prescriber has not confirmed that this is the only suitable antibiotic.",
+    "findings": [
+      {
+        "criterion": "FDADSC-7",
+        "must_cite": [
+          [
+            "L038"
+          ],
+          [
+            "L039"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "FDADSC-7/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about aortic aneurysm or high vascular risk for aortic rupture, and APO-Norfloxacin is supplied.",
+    "findings": [
+      {
+        "criterion": "FDADSC-7",
+        "must_cite": [
+          [
+            "L030"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "FDADSC-7/near-miss.csv",
+    "kind": "near_miss",
+    "about": "APO-Ciprofloxacin is supplied, but the recorded answer says there are no aneurysm risk factors or the prescriber confirmed no other antibiotic is suitable.",
+    "findings": []
+  }
+]

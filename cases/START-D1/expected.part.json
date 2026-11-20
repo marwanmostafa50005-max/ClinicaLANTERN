@@ -1,0 +1,55 @@
+[
+  {
+    "file": "START-D1/pos-fact.csv",
+    "kind": "positive",
+    "about": "L001 records idiopathic Parkinson’s disease. Motor symptoms make dressing difficult (L046). No levodopa or dopamine agonist was supplied in the last six months.",
+    "findings": [
+      {
+        "criterion": "START-D1",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L046"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-D1/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: Azilect (rasagiline) is supplied without a qualifying local treatment. The missing facts are \"Idiopathic Parkinson's disease\", \"Difficulty with daily activities caused by Parkinson's motor symptoms\" and \"Levodopa or a dopamine agonist supplied elsewhere for Parkinson's disease in the last six months\".",
+    "findings": [
+      {
+        "criterion": "START-D1",
+        "must_cite": [
+          [
+            "L001",
+            "L004",
+            "L007",
+            "L010",
+            "L013",
+            "L016",
+            "L020",
+            "L023",
+            "L026"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-D1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The record has a line for Parkinson's disease and Sinemet (levodopa with carbidopa) is supplied every month, so there is no finding.",
+    "findings": []
+  },
+  {
+    "file": "START-D1/near-miss-treatment-review.csv",
+    "kind": "near_miss",
+    "about": "Motor symptoms of idiopathic Parkinson’s disease limit dressing. The neurologist and patient agreed to forgo both treatments after disabling hallucinations.",
+    "findings": []
+  }
+]

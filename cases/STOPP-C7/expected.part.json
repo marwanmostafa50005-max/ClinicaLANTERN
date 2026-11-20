@@ -1,0 +1,53 @@
+[
+  {
+    "file": "STOPP-C7/pos-fact.csv",
+    "kind": "positive",
+    "about": "The record shows permanent AF, repeated Plavix supplies and a note confirming clopidogrel is used instead of anticoagulation for AF stroke prevention.",
+    "findings": [
+      {
+        "criterion": "STOPP-C7",
+        "must_cite": [
+          [
+            "L018",
+            "L022",
+            "L026",
+            "L030",
+            "L034",
+            "L038"
+          ],
+          [
+            "L001"
+          ],
+          [
+            "L042"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-C7/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record shows daily low-dose Cartia and no anticoagulant, but gives no AF history or reason for antiplatelet treatment. The two later Disprin supplies were for pain.",
+    "findings": [
+      {
+        "criterion": "STOPP-C7",
+        "must_cite": [
+          [
+            "L005",
+            "L009",
+            "L013",
+            "L017",
+            "L021"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-C7/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Plavix (clopidogrel) is supplied nine times with no anticoagulant. A clinical history review documents no AF.",
+    "findings": []
+  }
+]

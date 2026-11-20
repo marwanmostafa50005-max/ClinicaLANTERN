@@ -1,0 +1,18 @@
+{
+  "id": "KHAWAGI-G121",
+  "old_id": "",
+  "found": true,
+  "family": "KHAWAGI",
+  "source": {
+    "document": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: a systematic review. PLoS One 2019;14(5):e0217406 (the list is the article S3 File)",
+    "citation": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: a systematic review. PLoS One 2019;14(5):e0217406. doi:10.1371/journal.pone.0217406",
+    "doi": "10.1371/journal.pone.0217406",
+    "url": "https://doi.org/10.1371/journal.pone.0217406",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "modification_notice": "Statement: the row of the S3 File, word for word, as printed (confirmed against the published file by Elicit on 18 November 2026). The licences of the papers each row was collected from are being checked (Elicit, request sent 18 November 2026; ruling R1, open for the founder). The S3 File itself carries no licence note of its own; it is used under the article CC BY 4.0.",
+    "credit": "Adapted from Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: a systematic review. PLoS ONE 2019;14(5):e0217406, S3 File, Table 3, https://doi.org/10.1371/journal.pone.0217406.s003. (c) 2019 Khawagi et al., CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Changes: restated as a screening rule."
+  },
+  "label": "KHAWAGI G121",
+  "statement": "Mood stabilisers | Lithium | NSAID | >= 65"
+}

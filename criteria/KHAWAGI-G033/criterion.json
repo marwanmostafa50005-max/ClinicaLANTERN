@@ -1,0 +1,65 @@
+{
+  "id": "KHAWAGI-G033",
+  "label": "Khawagi review: Review amitriptyline in a person with epilepsy or a history of seizures",
+  "family": "KHAWAGI",
+  "title": "Review amitriptyline in a person with epilepsy or a history of seizures",
+  "statement": "Review amitriptyline in a person with epilepsy or a history of seizures.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Khawagi et al. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. S3 File.",
+    "citation": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. PLoS ONE 2019;14(5):e0217406.",
+    "doi": "10.1371/journal.pone.0217406",
+    "url": "https://doi.org/10.1371/journal.pone.0217406.s003",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. PLoS ONE 2019;14(5):e0217406. https://doi.org/10.1371/journal.pone.0217406; S3 File, https://doi.org/10.1371/journal.pone.0217406.s003. © 2019 Khawagi et al., CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). S3 File, Table 2, printed rows 33 and 34 of 91, PDF p.2. The retained tricyclic branch is row 34. Original screening wording and Australian adaptations. S3 reference(s) as indexed in the supplied qualification: [15], [71]. Clinical cross-check: Endep Australian PI (https://www.safetyandquality.gov.au/medicine-finder/endep). ILAE depression recommendations (https://psychologicalsciences.unimelb.edu.au/__data/assets/pdf_file/0003/4333890/Mula_etal_2022b-Wilson.pdf).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "Review amitriptyline in a person with epilepsy or a history of seizures.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Systemic amitriptyline",
+      "note": "Count oral amitriptyline. Exclude topical compounds used for local treatment. Check an unclear route before counting systemic exposure.",
+      "ingredients": [
+        "amitriptyline"
+      ],
+      "brands": {
+        "amitriptyline": [
+          "Amitriptyline AN",
+          "Endep",
+          "Entrip",
+          "Amichlor",
+          "Amidep"
+        ]
+      }
+    }
+  ],
+  "rule_for_models": "Report one finding when systemic amitriptyline is supplied and the record confirms epilepsy or a history of seizures at supply. Count any treatment indication and cite the supply and the clinical record or pharmacist answer establishing that history by the supply date. Give no finding if both epilepsy and a seizure history are excluded. If neither is established and either remains unknown, cite the supply and report only a possible finding naming the missing history. Ask whether the patient had epilepsy or had ever had a seizure by that supply. Ask about seizure control and the reason for amitriptyline when reviewing a finding.",
+  "cannot_be_seen": "Dispensing does not establish actual use, indication or a prescriber’s intent. Treatment and assessments elsewhere may be missing.",
+  "ask_the_gp": "Could you confirm whether this patient has epilepsy or a history of seizures and review seizure control and the suitability of amitriptyline?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Epilepsy or history of seizures",
+      "meets": "A clinical record or the pharmacist confirms epilepsy or a history of seizures by the reviewed supply date. Either qualifies. If both are excluded, there is no finding. Otherwise an unknown history remains open.",
+      "options": [
+        {
+          "words": "Epilepsy or a seizure history is confirmed by the time of supply",
+          "effect": "meets"
+        },
+        {
+          "words": "Both epilepsy and a seizure history are excluded at supply",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

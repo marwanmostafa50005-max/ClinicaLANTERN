@@ -1,0 +1,106 @@
+{
+  "id": "STOPP-K9",
+  "label": "STOPP K9: alpha blocker for blood pressure with recurrent falls",
+  "family": "STOPP_START",
+  "title": "Alpha blocker for blood pressure in a person who falls",
+  "statement": "Alpha blockers as antihypertensives in patients with recurrent falls (may cause orthostatic hypotension).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Alpha blockers such as prazosin and doxazosin can make blood pressure drop when standing up, which raises the risk of falling in a person who already falls often.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Alpha blockers used for blood pressure",
+      "ingredients": [
+        "prazosin",
+        "doxazosin",
+        "terazosin"
+      ],
+      "brands": {
+        "prazosin": [
+          "Minipress",
+          "Pratsiol",
+          "Pressin"
+        ],
+        "doxazosin": [
+          "Cardura"
+        ],
+        "terazosin": [
+          "Hytrin"
+        ]
+      },
+      "note": "Tablets count. Alpha blockers used only for the prostate, such as tamsulosin, alfuzosin and silodosin, are not in this group. For doxazosin, prazosin and terazosin, check whether the medicine is used for hypertension or for prostate symptoms. A supply alone cannot distinguish those uses. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Recurrent falls",
+      "meets": "Two or more falls in the past 12 months or a documented diagnosis of recurrent falls.",
+      "options": [
+        {
+          "effect": "meets",
+          "words": "Two or more falls in the past 12 months"
+        },
+        {
+          "effect": "meets",
+          "words": "Recurrent falls are documented"
+        },
+        {
+          "effect": "does_not_meet",
+          "words": "One fall in the past 12 months and no diagnosis of recurrent falls"
+        },
+        {
+          "effect": "does_not_meet",
+          "words": "No falls in the past 12 months and no diagnosis of recurrent falls"
+        },
+        {
+          "effect": "unknown",
+          "words": "Not known"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for the alpha blocker",
+      "meets": "The record links the alpha blocker under review to treatment of hypertension, either alone or alongside another indication. Hypertension recorded without that link leaves the indication uncertain.",
+      "options": [
+        {
+          "words": "High blood pressure",
+          "effect": "meets"
+        },
+        {
+          "words": "Urinary symptoms from the prostate only",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Both high blood pressure and urinary symptoms from the prostate",
+          "effect": "meets"
+        },
+        {
+          "words": "Another reason only",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this criterion only to people aged 65 years or older. If age is unknown and the other conditions are met, report only a possible finding and ask for the age. Flag a Group A alpha blocker when the record links it to treatment of hypertension, alone or alongside another use, and documents recurrent falls or at least two falls in the past 12 months up to the latest date in the record. Cite the supply, its recorded indication and the falls evidence. A diagnosis of hypertension alone does not establish the reason for the alpha blocker. If the medicine was used only for another reason, or there were zero or one fall in that period with no documented diagnosis of recurrent falls, there is no finding even if the other fact is unknown. Otherwise, with a Group A supply, report a possible finding when either fact is missing or unknown. Cite the supply and name each missing fact as \"Recurrent falls\" or \"Reason for the alpha blocker\", as applicable.",
+  "cannot_be_seen": "The reason for the alpha blocker, lying and standing blood pressures, and the number and causes of falls may be unknown unless recorded. The record may also omit blood pressure medicines bought or supplied elsewhere.",
+  "ask_the_gp": "A review of whether the alpha blocker is still needed for blood pressure, and whether another option would carry less risk of dizziness on standing.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

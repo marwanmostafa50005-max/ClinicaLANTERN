@@ -1,0 +1,53 @@
+[
+  {
+    "file": "PINCER-8/pos-fact.csv",
+    "kind": "positive",
+    "about": "Amiodarone (Cordarone X) is supplied every 60 days for a year. The newest thyroid test (TSH) is dated 10 February 2026, more than six months before the end of the record. The latest date in the record is 2026-10-20.",
+    "findings": [
+      {
+        "criterion": "PINCER-8",
+        "must_cite": [
+          [
+            "L002",
+            "L013",
+            "L022"
+          ],
+          [
+            "L044",
+            "L052"
+          ],
+          [
+            "L018"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PINCER-8/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about \"Thyroid function test\". Aratac (amiodarone) is supplied by brand name seven times in the last 12 months. The latest date in the record is 2026-10-22.",
+    "findings": [
+      {
+        "criterion": "PINCER-8",
+        "must_cite": [
+          [
+            "L002",
+            "L009",
+            "L014"
+          ],
+          [
+            "L029",
+            "L034"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PINCER-8/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Amiodarone is supplied every 60 days for a year, but a thyroid test (TSH) was recorded on 18 August 2026, inside the last six months.",
+    "findings": []
+  }
+]

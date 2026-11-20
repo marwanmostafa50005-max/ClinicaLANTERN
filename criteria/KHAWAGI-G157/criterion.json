@@ -1,0 +1,50 @@
+{
+  "id": "KHAWAGI-G157",
+  "label": "Khawagi G157: Six-month carbamazepine level in the published indicator",
+  "family": "KHAWAGI",
+  "title": "Six-month carbamazepine level in the published indicator",
+  "statement": "Mood stabilisers | Carbamazepine | Carbamazepine level | - | Every 6 months | [50]",
+  "statement_origin": "published",
+  "source": {
+    "document": "Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review, S3 File",
+    "citation": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. PLoS ONE 2019;14(5):e0217406, S3 File.",
+    "doi": "10.1371/journal.pone.0217406",
+    "url": "https://doi.org/10.1371/journal.pone.0217406.s003",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. PLoS ONE 2019;14(5):e0217406. https://doi.org/10.1371/journal.pone.0217406; S3 File, https://doi.org/10.1371/journal.pone.0217406.s003. © 2019 Khawagi et al., CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Changes were made.",
+    "modification_notice": "The S3 row wording is retained. Screening rules and fictional histories were added."
+  },
+  "plain_summary": "The published indicator looks for a carbamazepine level every six months. Its use as a routine check in Australia needs clinical review. Convention proposed by Elicit, not yet ruled by the founder: Carbamazepine supplied ≥6 months with no level result in the previous 6 months.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Carbamazepine",
+      "ingredients": [
+        "carbamazepine"
+      ],
+      "brands": {
+        "carbamazepine": [
+          "Tegretol CR",
+          "Avloire",
+          "Avloire CR",
+          "Tegretol",
+          "Teril"
+        ]
+      }
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "Carbamazepine concentration",
+      "meets": "The latest dated carbamazepine concentration is older than 6 calendar months at the latest qualifying supply."
+    }
+  ],
+  "rule_for_models": "At the latest supply of carbamazepine, assess only if dated supplies and directions support at least 6 months of ongoing treatment with the qualifying medicine and the record covers the interval. If the latest carbamazepine concentration is older than 6 calendar months, cite that line and supplies establishing duration as a possible monitoring gap, or cite those supplies and name the missing carbamazepine concentration if it is absent throughout. A dated carbamazepine concentration on or within the previous 6 calendar months gives no finding regardless of its value.",
+  "cannot_be_seen": "Outside monitoring and supplies may be missing. A gap in this record cannot establish that care was missed. The indication for a drug level and the individual monitoring plan may be unknown.",
+  "ask_the_gp": "Could you review whether a carbamazepine level is clinically indicated and whether one is already available?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

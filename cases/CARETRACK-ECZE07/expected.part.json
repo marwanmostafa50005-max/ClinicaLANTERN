@@ -1,0 +1,44 @@
+[
+  {
+    "file": "CARETRACK-ECZE07/pos-fact.csv",
+    "kind": "positive",
+    "about": "Mupirocin was supplied for eczema and the clinician recorded atopic eczema without signs of infection at that visit.",
+    "findings": [
+      {
+        "criterion": "CARETRACK-ECZE07",
+        "must_cite": [
+          [
+            "L023"
+          ],
+          [
+            "L022"
+          ],
+          [
+            "L024"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CARETRACK-ECZE07/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about an atopic eczema diagnosis or the infection status of the patch named in the mupirocin directions.",
+    "findings": [
+      {
+        "criterion": "CARETRACK-ECZE07",
+        "must_cite": [
+          [
+            "L022"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CARETRACK-ECZE07/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The first course treated infected eczema, and the later course treated chin impetigo while the elbow eczema showed no signs of infection.",
+    "findings": []
+  }
+]

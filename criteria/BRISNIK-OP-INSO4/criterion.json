@@ -1,0 +1,114 @@
+{
+  "id": "BRISNIK-OP-INSO4",
+  "label": "Brisnik: INSO4",
+  "family": "BRISNIK",
+  "title": "Sedating antidepressant for more than 8 weeks for sleep",
+  "statement": "Prescribed a sedating antidepressant > 8 weeks for insomnia - and the patient has no other indications for an antidepressant",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.2 candidate repairs and adopted conventions merged with attribution). Not endorsed by the source authors."
+  },
+  "plain_summary": "A sedating antidepressant prescribed for more than 8 weeks for sleep alone may no longer help and carries risks such as falls. If the person has no other reason to take an antidepressant, it should be reviewed.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Sedating antidepressants",
+      "ingredients": [
+        "amitriptyline",
+        "dosulepin",
+        "doxepin",
+        "trimipramine",
+        "mirtazapine",
+        "trazodone",
+        "mianserin",
+        "nortriptyline",
+        "agomelatine"
+      ],
+      "brands": {
+        "amitriptyline": [
+          "Endep",
+          "Amichlor",
+          "Amidep",
+          "Entrip"
+        ],
+        "dosulepin": [
+          "Prothiaden",
+          "Dothep"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ],
+        "mirtazapine": [
+          "Avanza",
+          "Remeron",
+          "Remeron SolTab",
+          "Mirtazon",
+          "Aurozapine",
+          "Avanza Soltab",
+          "Axit",
+          "Milivin OD",
+          "Mirtanza",
+          "Mirtanza ODT"
+        ],
+        "trazodone": [],
+        "mianserin": [
+          "Tolvon",
+          "Lumin"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "agomelatine": [
+          "Valdoxan",
+          "Domion",
+          "Nortim",
+          "Valomel"
+        ]
+      },
+      "note": "Count these listed medicines when assessing prolonged treatment for insomnia. A bedtime direction alone does not establish why the medicine was prescribed. Dothiepin is the former name for dosulepin. Exclude doxepin cream used on the skin. Match trazodone by ingredient when no verified brand is available."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Reason for the sedating antidepressant on the course being reviewed for use beyond eight weeks",
+      "meets": "The record establishes treatment for insomnia and no other current indication for an antidepressant. A contemporaneous note or prescription direction can document purpose. A remote or unrelated diagnosis alone does not establish a current indication.",
+      "options": [
+        {
+          "words": "This medicine treated insomnia and there was no other current reason for an antidepressant",
+          "effect": "meets"
+        },
+        {
+          "words": "This medicine was prescribed for a reason other than insomnia",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "There was another current reason for an antidepressant",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Look for one course of the same Group A medicine prescribed for more than 56 days, at any dose. Use the prescription dates, quantities and directions, or a dated history of ongoing treatment. A single supply can qualify. A brief late refill or as-needed directions need not end a continuing prescription, but separate courses cannot be added and distant fills alone cannot establish continuity. Confirm when this course treated insomnia and there was no other current indication for an antidepressant. Cite the indication and the supply or supplies establishing duration. If the course could qualify but duration or indication is unclear, report a possible finding and ask only about what is missing. A course of 56 days or less, use solely for another purpose or another current antidepressant indication gives no finding.",
+  "cannot_be_seen": "Why the medicine was started, whether it is really taken for sleep or pain, and any reason for an antidepressant that is not in the record. Doses taken in practice, tablets cut in half, and supplies from a hospital or another pharmacy.",
+  "ask_the_gp": "Whether the sedating antidepressant is still needed after more than 8 weeks, whether it is being used for sleep, and whether a review or a plan to stop is suitable.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

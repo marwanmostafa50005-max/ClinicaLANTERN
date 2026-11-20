@@ -1,0 +1,696 @@
+{
+  "id": "BRISNIK-HR-C4",
+  "label": "Brisnik: antidepressant after a stroke with a fall-risk medicine",
+  "family": "BRISNIK",
+  "title": "Any antidepressant in a person with a history of stroke who also takes another fall-risk medicine",
+  "statement": "Prescribed any antidepressant - and the patient has a history of stroke and co-prescribed ≥ 1 further fall-risk-increasing drug",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Text reproduced without changes. Not endorsed by the source authors."
+  },
+  "plain_summary": "After a stroke, balance and strength can be reduced. An antidepressant together with another medicine that raises the risk of falls adds to the risk of a fall.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antidepressants (any)",
+      "ingredients": [
+        "citalopram",
+        "escitalopram",
+        "fluoxetine",
+        "fluvoxamine",
+        "paroxetine",
+        "sertraline",
+        "venlafaxine",
+        "desvenlafaxine",
+        "duloxetine",
+        "mirtazapine",
+        "amitriptyline",
+        "clomipramine",
+        "dosulepin",
+        "doxepin",
+        "imipramine",
+        "nortriptyline",
+        "trimipramine",
+        "trazodone",
+        "tranylcypromine",
+        "moclobemide",
+        "phenelzine",
+        "agomelatine",
+        "vortioxetine",
+        "reboxetine",
+        "mianserin"
+      ],
+      "brands": {
+        "citalopram": [
+          "Cipramil",
+          "Celapram",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talam",
+          "Talohexal"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esipram",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam",
+          "Loxalate"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet",
+          "Zactin"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Paxtine",
+          "Aropax CR",
+          "Extine",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ],
+        "sertraline": [
+          "Zoloft",
+          "Concorz",
+          "Detralon",
+          "Eleva",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Setrona",
+          "Tralen",
+          "Xydep"
+        ],
+        "venlafaxine": [
+          "Efexor-XR",
+          "Altven",
+          "Elaxine SR",
+          "Enlafax XR",
+          "Evelexa XR",
+          "Ozvenaf",
+          "Venfax SR",
+          "Venla",
+          "Venlexor XR"
+        ],
+        "desvenlafaxine": [
+          "Pristiq",
+          "Desfax",
+          "Desven"
+        ],
+        "duloxetine": [
+          "Cymbalta",
+          "Andepra",
+          "Baltine",
+          "Coperin",
+          "Deotine",
+          "Depreta",
+          "Drulox",
+          "Dulocym",
+          "Duloxecor",
+          "Dytrex",
+          "Symlox",
+          "Texotine",
+          "Tixol",
+          "Xerol DR"
+        ],
+        "mirtazapine": [
+          "Avanza",
+          "Remeron",
+          "Aurozapine",
+          "Avanza Soltab",
+          "Axit",
+          "Milivin OD",
+          "Mirtanza",
+          "Mirtanza ODT",
+          "Mirtazon",
+          "Remeron Soltab"
+        ],
+        "amitriptyline": [
+          "Endep",
+          "Amichlor",
+          "Amidep",
+          "Entrip"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "dosulepin": [
+          "Prothiaden",
+          "Dothep"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "imipramine": [
+          "Imipramine Hcl (Leading Pharma)",
+          "Melipramine",
+          "Tofranil",
+          "Tolerade"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ],
+        "trazodone": [
+          "Desyrel"
+        ],
+        "tranylcypromine": [
+          "Parnate",
+          "Parpromine",
+          "Tranamef",
+          "Tranylmed"
+        ],
+        "moclobemide": [
+          "Aurorix",
+          "Amira",
+          "Arima",
+          "Clobemide",
+          "Clobemix",
+          "Maosig",
+          "Mohexal"
+        ],
+        "phenelzine": [
+          "Nardil"
+        ],
+        "agomelatine": [
+          "Valdoxan",
+          "Domion",
+          "Nortim",
+          "Valomel"
+        ],
+        "vortioxetine": [
+          "Brintellix"
+        ],
+        "reboxetine": [
+          "Edronax"
+        ],
+        "mianserin": [
+          "Lumin",
+          "Tolvon"
+        ]
+      },
+      "note": "All antidepressant classes count, at any dose: SSRI, SNRI, mirtazapine, tricyclics, trazodone, tranylcypromine, moclobemide, phenelzine, agomelatine, vortioxetine, reboxetine and mianserin. Bupropion sold for quitting smoking is not counted. Dosulepin is also called dothiepin. Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "B",
+      "name": "Other medicines that increase the risk of falls",
+      "ingredients": [
+        "alprazolam",
+        "diazepam",
+        "nitrazepam",
+        "oxazepam",
+        "temazepam",
+        "clonazepam",
+        "zolpidem",
+        "quetiapine",
+        "olanzapine",
+        "risperidone",
+        "haloperidol",
+        "aripiprazole",
+        "oxycodone",
+        "tramadol",
+        "morphine",
+        "tapentadol",
+        "fentanyl",
+        "buprenorphine",
+        "gabapentin",
+        "pregabalin",
+        "carbamazepine",
+        "sodium valproate",
+        "oxybutynin",
+        "solifenacin",
+        "tolterodine",
+        "promethazine",
+        "furosemide",
+        "hydrochlorothiazide",
+        "indapamide",
+        "spironolactone",
+        "doxazosin",
+        "prazosin",
+        "glyceryl trinitrate",
+        "isosorbide mononitrate",
+        "clonidine",
+        "moxonidine",
+        "lorazepam",
+        "zopiclone",
+        "valproic acid",
+        "codeine",
+        "tamsulosin",
+        "clobazam",
+        "hydromorphone",
+        "bumetanide"
+      ],
+      "brands": {
+        "alprazolam": [
+          "Xanax",
+          "Kalma",
+          "Alprax",
+          "Ralozam",
+          "Xanax Tri-Score",
+          "Zamhexal"
+        ],
+        "diazepam": [
+          "Valium",
+          "Ducene",
+          "Antenex",
+          "Ranzepam",
+          "Valpam"
+        ],
+        "nitrazepam": [
+          "Mogadon",
+          "Alodorm"
+        ],
+        "oxazepam": [
+          "Serepax",
+          "Alepam",
+          "Murelax"
+        ],
+        "temazepam": [
+          "Normison",
+          "Temaze",
+          "Temtabs"
+        ],
+        "clonazepam": [
+          "Rivotril",
+          "Paxam"
+        ],
+        "zolpidem": [
+          "Stilnox",
+          "Dormizol",
+          "Dormizol CR",
+          "Somidem",
+          "Stildem",
+          "Stilnox CR",
+          "Stilnoxium CR",
+          "Zolpibell"
+        ],
+        "quetiapine": [
+          "Seroquel",
+          "Aliquen",
+          "Delucon",
+          "Kaptan",
+          "Ketizenol",
+          "Qualez",
+          "Quepine XR",
+          "Quetapen",
+          "Quetia",
+          "Quetia XR",
+          "Quetiaccord",
+          "Quetiaquel XR",
+          "Quetin",
+          "Quipine",
+          "Sequase",
+          "Sequase XR",
+          "Serapine",
+          "Serapine XR",
+          "Seroccord",
+          "Seronia",
+          "Seroquel XR",
+          "Serotiapine XR",
+          "Syquet",
+          "Syquet XR",
+          "Syzopine",
+          "Tevatiapine XR",
+          "Tiapine XR",
+          "Tiava XR",
+          "Xque XR"
+        ],
+        "olanzapine": [
+          "Zyprexa",
+          "Aprolan",
+          "Aprolan ODT",
+          "Lanez",
+          "Lanez ODT",
+          "Lanzek",
+          "Lanzek Zydis",
+          "Lonza",
+          "Lonza ODT",
+          "Lyprosia",
+          "Lyprosia ODT",
+          "Olancor",
+          "Olanza",
+          "Olanzaccord",
+          "Olanzacor",
+          "Oprexa",
+          "Ozin",
+          "Ozin ODT",
+          "Prolanza",
+          "Prolanza ODT",
+          "Pryzex",
+          "Pryzex ODT",
+          "Tolaze ODT",
+          "Tolazine ODT",
+          "Torapine ODT",
+          "Torrenia ODT",
+          "Zylap",
+          "Zylap ODT",
+          "Zylapine",
+          "Zylapine ODT",
+          "Zypine",
+          "Zypine ODT",
+          "Zyprexa Zydis"
+        ],
+        "risperidone": [
+          "Risperdal",
+          "Ozidal",
+          "Resdone",
+          "Respaz",
+          "Risdone",
+          "Rispa",
+          "Rispaccord",
+          "Rispaccord-0.5",
+          "Risperdal Quicklet",
+          "Risperibell",
+          "Rispericor",
+          "Rispericor-0.5",
+          "Risperisan",
+          "Rispernia",
+          "Rixadone",
+          "Sperid"
+        ],
+        "haloperidol": [
+          "Serenace"
+        ],
+        "aripiprazole": [
+          "Abilify",
+          "Abilify ODT",
+          "Abipra",
+          "Abyraz",
+          "Aprazole",
+          "Aripic",
+          "Aripra",
+          "Arizole"
+        ],
+        "oxycodone": [
+          "Endone",
+          "OxyNorm",
+          "OxyContin",
+          "Targin",
+          "Endone XR",
+          "Novacodone",
+          "Oxycodor",
+          "Oxycone",
+          "Oxylenus",
+          "Oxylieve MR",
+          "Oxyndone",
+          "Xedone"
+        ],
+        "tramadol": [
+          "Tramal",
+          "Zydol",
+          "Durotram XR",
+          "Iptramol",
+          "Lodam",
+          "Lodam SR",
+          "Tramahexal",
+          "Tramahexal SR",
+          "Tramal Drops",
+          "Tramal SR",
+          "Tramedo",
+          "Tramedo SR",
+          "Zydol SR"
+        ],
+        "morphine": [
+          "MS Contin",
+          "Kapanol",
+          "Sevredol",
+          "Anamorph",
+          "MS Contin Suspension",
+          "MS Mono",
+          "MS Normal",
+          "Momex SR",
+          "Ordine",
+          "RA-Morph"
+        ],
+        "tapentadol": [
+          "Palexia"
+        ],
+        "fentanyl": [
+          "Durogesic",
+          "Denpax",
+          "Fenpatch"
+        ],
+        "buprenorphine": [
+          "Norspan"
+        ],
+        "gabapentin": [
+          "Neurontin",
+          "Gabaccord",
+          "Gabacor",
+          "Gabahexal",
+          "Gabalep",
+          "Gabalex",
+          "Gabapen",
+          "Gabaran",
+          "Gabatine",
+          "Gantin",
+          "Gapentin",
+          "Mipentine",
+          "Nupentin",
+          "Nupentin Tab",
+          "Pendine"
+        ],
+        "pregabalin": [
+          "Lyrica",
+          "Adimis",
+          "Adirag",
+          "Adiris",
+          "Adrabalin",
+          "Adranuro",
+          "Adraprega",
+          "Algerika",
+          "Brillior",
+          "Cipgablin",
+          "Gabrica",
+          "Lypralin",
+          "Lyraccord",
+          "Lyrica CR",
+          "Lyrigalin",
+          "Lyrilin",
+          "Lyzalon",
+          "Neurica",
+          "Neuroccord",
+          "Prebalin",
+          "Pregabica",
+          "Pregaciplin",
+          "Pregaredi",
+          "Prelinaccord",
+          "Sudorega"
+        ],
+        "carbamazepine": [
+          "Tegretol",
+          "Avloire",
+          "Avloire CR",
+          "Tegretol CR",
+          "Teril"
+        ],
+        "sodium valproate": [
+          "Epilim"
+        ],
+        "oxybutynin": [
+          "Ditropan",
+          "Oxytrol"
+        ],
+        "solifenacin": [
+          "Vesicare",
+          "Solicare",
+          "Solicare ODT",
+          "Vesican ODT",
+          "Vesifen"
+        ],
+        "tolterodine": [
+          "Detrusitol"
+        ],
+        "promethazine": [
+          "Phenergan",
+          "Allersoothe",
+          "Allersoothe Elixir",
+          "Avomine",
+          "Fenezal",
+          "Histaren",
+          "Phenergan Elixir",
+          "Progan Children's Allergy Relief Elixir"
+        ],
+        "furosemide": [
+          "Lasix",
+          "Frusax",
+          "Frusehexal",
+          "Frusemix",
+          "Frusemix-M",
+          "Frusid",
+          "Furo",
+          "Lasix High Dose",
+          "Lasix M",
+          "Uremide",
+          "Urex",
+          "Urex Forte",
+          "Urex-M"
+        ],
+        "hydrochlorothiazide": [
+          "Dithiazide",
+          "Karvezide",
+          "Micardis Plus",
+          "Atacand Plus",
+          "Moduretic"
+        ],
+        "indapamide": [
+          "Natrilix",
+          "Dapa-Tabs",
+          "Indahexal",
+          "Indapamol",
+          "Insig",
+          "Napamide",
+          "Natrilix SR",
+          "Odaplix SR",
+          "Tenaxil SR",
+          "Coversyl Plus"
+        ],
+        "spironolactone": [
+          "Aldactone",
+          "Spiractin"
+        ],
+        "doxazosin": [
+          "Carduran"
+        ],
+        "prazosin": [
+          "Minipress",
+          "Pratsiol",
+          "Pressin"
+        ],
+        "glyceryl trinitrate": [
+          "Anginine",
+          "Nitrolingual",
+          "Minitran",
+          "Lycinate",
+          "Nitrostat"
+        ],
+        "isosorbide mononitrate": [
+          "Imdur",
+          "Duride",
+          "Imdur Durules",
+          "Imtrate",
+          "Isobide MR",
+          "Isomonit",
+          "Monodur",
+          "Monodur Durules"
+        ],
+        "clonidine": [
+          "Catapres",
+          "Dixarit"
+        ],
+        "moxonidine": [
+          "Physiotens",
+          "Moxotens",
+          "Normatens"
+        ],
+        "lorazepam": [
+          "Ativan"
+        ],
+        "zopiclone": [
+          "Imovane",
+          "Cloipca",
+          "Imoclone",
+          "Imrest",
+          "Ipclone",
+          "Zstar",
+          "Ztab"
+        ],
+        "valproic acid": [
+          "Epilim"
+        ],
+        "codeine": [
+          "Panadeine Forte",
+          "Codalgin Forte"
+        ],
+        "tamsulosin": [
+          "Flomaxtra"
+        ],
+        "clobazam": [
+          "Frisium"
+        ],
+        "hydromorphone": [
+          "Dilaudid",
+          "Dilaudid-HP"
+        ],
+        "bumetanide": [
+          "Burinex"
+        ]
+      },
+      "note": "This is the drafter's own list of the usual fall-risk medicines: benzodiazepines, zolpidem, antipsychotics, opioids, gabapentin and pregabalin, other antiepileptics, bladder antimuscarinics, promethazine, diuretics, alpha-blockers, nitrates and centrally acting blood pressure medicines. A different antidepressant that raises falls risk can count. Count repeat supplies of one ingredient only once. Count a listed diuretic in a combination tablet. For each medicine, check the active ingredient and form against the product information if uncertain. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "History of stroke",
+      "meets": "A stroke had occurred before or during the period of combined prescribing.",
+      "options": [
+        {
+          "words": "Stroke before or during combined treatment",
+          "effect": "meets"
+        },
+        {
+          "words": "No stroke had occurred by the end of combined treatment",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Look for a Group A antidepressant and a different fall-risk medicine from Group B or a second fall-risk antidepressant from Group A, with overlapping supplies or supply dates within 60 days. Cite both medicines and the history if a stroke had occurred by the time of combined prescribing, even if an earlier entry denied stroke. For that pair, report no finding if no stroke had yet occurred, and a possible finding if the history or timing is unclear, asking whether a stroke had occurred by then.",
+  "cannot_be_seen": "When the stroke happened, how well the person has recovered, and the doses really taken. Medicines bought without a prescription or supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "If stroke history is unclear, could you confirm whether the patient has had a stroke? If so, could you review the antidepressant, the other medicine that increases falls risk and the patient's risk of falling?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

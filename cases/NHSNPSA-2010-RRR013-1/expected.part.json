@@ -1,0 +1,38 @@
+[
+  {
+    "file": "NHSNPSA-2010-RRR013-1/pos-brand.csv",
+    "kind": "positive",
+    "about": "Ryzodeg 70/30 is named only by brand and its dinner dose uses U even though its breakfast dose spells out units.",
+    "findings": [
+      {
+        "criterion": "NHSNPSA-2010-RRR013-1",
+        "must_cite": [
+          [
+            "L018"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "NHSNPSA-2010-RRR013-1/pos-buried.csv",
+    "kind": "positive",
+    "about": "A supply named only by its two insulin ingredients has directions that use IU for the breakfast dose.",
+    "findings": [
+      {
+        "criterion": "NHSNPSA-2010-RRR013-1",
+        "must_cite": [
+          [
+            "L033"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "NHSNPSA-2010-RRR013-1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Humalog U200 KwikPen is a concentrated insulin pen but directions spell units in full with no U or IU abbreviation.",
+    "findings": []
+  }
+]

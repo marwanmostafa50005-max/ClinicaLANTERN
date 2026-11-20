@@ -1,0 +1,60 @@
+[
+  {
+    "file": "STOPP-D15/pos-fact.csv",
+    "kind": "positive",
+    "about": "Risperidone treats non-severe behavioural symptoms of dementia. The first three supplies cover more than 84 distinct days at the directed dose.",
+    "findings": [
+      {
+        "criterion": "STOPP-D15",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L002"
+          ],
+          [
+            "L012",
+            "L017",
+            "L022",
+            "L027",
+            "L032",
+            "L037",
+            "L042",
+            "L047",
+            "L052"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-D15/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the first three quetiapine supplies cover more than 84 distinct days at the directed dose. The record does not say whether it treats behavioural or psychological symptoms of dementia.",
+    "findings": [
+      {
+        "criterion": "STOPP-D15",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L009",
+            "L013",
+            "L017",
+            "L021",
+            "L025",
+            "L029"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-D15/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The 100-tablet haloperidol supply has unclear directions, but the dated treatment record gives the first and last doses. This October course and the later 56 days of risperidone for mild agitation were separate and each was under 12 weeks.",
+    "findings": []
+  }
+]

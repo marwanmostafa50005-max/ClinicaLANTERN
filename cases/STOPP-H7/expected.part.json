@@ -1,0 +1,54 @@
+[
+  {
+    "file": "STOPP-H7/pos-fact.csv",
+    "kind": "positive",
+    "about": "Rheumatoid arthritis is recorded, and the Mobic and Panafcortelone directions name it as the reason for both courses and give dates that overlap.",
+    "findings": [
+      {
+        "criterion": "STOPP-H7",
+        "must_cite": [
+          [
+            "L023",
+            "L033",
+            "L035"
+          ],
+          [
+            "L028",
+            "L034"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-H7/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: Mobic and Panafcortelone supplies fall within 60 days of each other, but the record holds no line about \"Arthritis or rheumatism of any kind, for example rheumatoid arthritis or osteoarthritis\", \"Reason for this NSAID course\" or \"Arthritis or rheumatism as a reason for the systemic corticosteroid course under review\".",
+    "findings": [
+      {
+        "criterion": "STOPP-H7",
+        "must_cite": [
+          [
+            "L007",
+            "L011",
+            "L016",
+            "L021"
+          ],
+          [
+            "L015",
+            "L020"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-H7/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The March Mobic supply falls within 60 days of the prednisolone supply, and the medicines diary rules out overlap by recording the final prednisolone dose on 6 March and the first new meloxicam dose on 8 March.",
+    "findings": []
+  }
+]

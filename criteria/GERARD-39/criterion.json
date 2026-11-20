@@ -1,0 +1,307 @@
+{
+  "id": "GERARD-39",
+  "label": "Gerard 39",
+  "family": "GERARD",
+  "title": "Annual eGFR monitoring during non-insulin diabetes treatment",
+  "statement": "It is necessary to monitor the estimated glomerular filtration rate (eGFR) of a patient on an antidiabetic drug (other than insulin) at least once a year.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Development of explicit definitions of potentially inappropriate prescriptions for antidiabetic drugs in people with type 2 diabetes: A Delphi survey and consensus meeting",
+    "citation": "Gerard E, Bugday D, Calafiore M, Baran J, Gautier S, Henry H, et al. (2025). Development of explicit definitions of potentially inappropriate prescriptions for antidiabetic drugs in people with type 2 diabetes: A Delphi survey and consensus meeting. PLOS ONE 20(10), e0334836.",
+    "doi": "10.1371/journal.pone.0334836",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0334836",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "© 2025 Gerard et al. Gerard E, Bugday D, Calafiore M, Baran J, Gautier S, Henry H, et al. (2025). Development of explicit definitions of potentially inappropriate prescriptions for antidiabetic drugs in people with type 2 diabetes: A Delphi survey and consensus meeting. PLOS ONE 20(10), e0334836. https://doi.org/10.1371/journal.pone.0334836. Table 2. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The statements are reproduced. The qualification decisions and Australian mappings are additions by GPT-6.2 Astra. The screening rules and fictional histories are adaptations by GPT-6.2 Astra."
+  },
+  "plain_summary": "Review annual eGFR monitoring when non-insulin treatment for type 2 diabetes has continued for more than a year and the last eGFR is overdue or a full year without testing is confirmed.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "metformin",
+      "ingredients": [
+        "metformin"
+      ],
+      "brands": {
+        "metformin": [
+          "Metformin Pfizer",
+          "Nesina Met",
+          "Vildagliptin/Metformin Astron",
+          "Segluromet",
+          "Diabex",
+          "Diabex XR",
+          "Diaformin",
+          "Diaformin XR",
+          "Glucophage",
+          "Janumet",
+          "Janumet XR",
+          "Jardiamet",
+          "Xigduo XR",
+          "Galvumet",
+          "Trajentamet",
+          "Kombiglyze XR"
+        ]
+      },
+      "note": "Count a listed ingredient alone or in a combination used for type 2 diabetes. Count one combination supply once."
+    },
+    {
+      "key": "B",
+      "name": "sulfonylureas",
+      "ingredients": [
+        "gliclazide",
+        "glimepiride",
+        "glipizide",
+        "glibenclamide"
+      ],
+      "brands": {
+        "gliclazide": [
+          "Gliclazide MR-WGR",
+          "Diamicron",
+          "Diamicron MR"
+        ],
+        "glimepiride": [
+          "Glimepiride Sandoz",
+          "Amaryl"
+        ],
+        "glipizide": [
+          "Glipidiab",
+          "Minidiab",
+          "Melizide"
+        ],
+        "glibenclamide": [
+          "Daonil",
+          "Glimel",
+          "Semi-Daonil"
+        ]
+      }
+    },
+    {
+      "key": "C",
+      "name": "DPP-4 inhibitors",
+      "ingredients": [
+        "alogliptin",
+        "linagliptin",
+        "saxagliptin",
+        "sitagliptin",
+        "vildagliptin"
+      ],
+      "brands": {
+        "alogliptin": [
+          "Nesina",
+          "Nesina Met"
+        ],
+        "linagliptin": [
+          "Linagliptin-WGR",
+          "Trajenta",
+          "Trajentamet",
+          "Glyxambi"
+        ],
+        "saxagliptin": [
+          "Onglyza",
+          "Qtern",
+          "Kombiglyze XR"
+        ],
+        "sitagliptin": [
+          "Januvia",
+          "Janorix",
+          "Sitaglin",
+          "Sitaglo",
+          "Sitazitin",
+          "Xelevia",
+          "Steglujan",
+          "Janumet",
+          "Janumet XR",
+          "Sidapvia"
+        ],
+        "vildagliptin": [
+          "Galvus",
+          "Vildagliptin/Metformin Astron",
+          "Galvumet"
+        ]
+      },
+      "note": "Count a listed ingredient alone or in a combination used for type 2 diabetes. Count one combination supply once."
+    },
+    {
+      "key": "D",
+      "name": "GLP-1 analogues",
+      "ingredients": [
+        "dulaglutide",
+        "liraglutide",
+        "semaglutide",
+        "exenatide"
+      ],
+      "brands": {
+        "dulaglutide": [
+          "Trulicity"
+        ],
+        "liraglutide": [
+          "Liraglutide Lupin",
+          "Victoza",
+          "Benedo",
+          "Saxenda"
+        ],
+        "semaglutide": [
+          "Ozempic",
+          "Wegovy",
+          "Wegovy Flextouch",
+          "Rybelsus"
+        ],
+        "exenatide": [
+          "Byetta",
+          "Bydureon"
+        ]
+      }
+    },
+    {
+      "key": "E",
+      "name": "SGLT2 inhibitors",
+      "ingredients": [
+        "dapagliflozin",
+        "empagliflozin",
+        "ertugliflozin",
+        "canagliflozin"
+      ],
+      "brands": {
+        "dapagliflozin": [
+          "Dapagliflozin AZN",
+          "Forxiga",
+          "Xigduo XR",
+          "Qtern",
+          "Sidapvia",
+          "Glixafor"
+        ],
+        "empagliflozin": [
+          "Jardiance",
+          "Jardiamet",
+          "Glyxambi"
+        ],
+        "ertugliflozin": [
+          "Steglatro",
+          "Segluromet",
+          "Steglujan"
+        ],
+        "canagliflozin": [
+          "Invokana"
+        ]
+      },
+      "note": "Count a listed ingredient alone or in a combination used for type 2 diabetes. Count one combination supply once."
+    },
+    {
+      "key": "F",
+      "name": "alpha-glucosidase inhibitors",
+      "ingredients": [
+        "acarbose"
+      ],
+      "brands": {
+        "acarbose": [
+          "Acarbose-WGR",
+          "Glucobay"
+        ]
+      }
+    },
+    {
+      "key": "G",
+      "name": "Thiazolidinediones",
+      "ingredients": [
+        "pioglitazone",
+        "rosiglitazone"
+      ],
+      "brands": {
+        "pioglitazone": [
+          "Actos",
+          "Vexazone"
+        ],
+        "rosiglitazone": [
+          "Avandia"
+        ]
+      }
+    },
+    {
+      "key": "H",
+      "name": "Dual GIP and GLP-1 receptor agonists",
+      "ingredients": [
+        "tirzepatide"
+      ],
+      "brands": {
+        "tirzepatide": [
+          "Mounjaro"
+        ]
+      },
+      "note": "Confirm use for type 2 diabetes."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Type 2 diabetes",
+      "meets": "Type 2 diabetes is recorded."
+    },
+    {
+      "kind": "observation",
+      "what": "When was the most recent kidney function (eGFR) blood test done?",
+      "meets": "The most recent eGFR blood test was more than 12 months before the latest date in the record, or none has been done, during ongoing non-insulin diabetes treatment. Exactly 12 months before the latest date in the record is within the interval. A value without timing leaves the question open.",
+      "options": [
+        {
+          "words": "More than 12 months before the latest date in the record, or never done",
+          "effect": "meets"
+        },
+        {
+          "words": "No eGFR during the full 12 months before the latest date in the record, confirmed",
+          "effect": "meets"
+        },
+        {
+          "words": "Within 12 months before the latest date in the record, including exactly 12 months before",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Timing not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for the non-insulin medicine under review",
+      "meets": "Ask only when the reason for this medicine is unclear and would change the finding. Name the medicine in the finding. Count it if it is used for type 2 diabetes, even if it has another use. If it is used only for another condition, assess any other qualifying diabetes medicine separately. An unknown reason stays open.",
+      "options": [
+        {
+          "words": "Used for type 2 diabetes, alone or with another reason",
+          "effect": "meets"
+        },
+        {
+          "words": "Used only for another condition",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Use of non-insulin diabetes treatment throughout the 12 months before the latest date in the record",
+      "meets": "Ask only if supply dates, quantities, directions and documented treatment dates leave actual use uncertain. Count documented switches between qualifying medicines. Taken throughout the interval confirms continuity. A confirmed break rules it out. Unknown use leaves continuity open. This answer does not establish test timing.",
+      "options": [
+        {
+          "words": "Taken throughout the interval",
+          "effect": "meets"
+        },
+        {
+          "words": "Treatment did not cover the full interval",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Use the cut-off 12 months before the latest date in the record. Flag when the record covers the interval, listed non-insulin treatment for type 2 diabetes began before the cut-off and continued through the latest date, and the latest eGFR was before the cut-off or no eGFR in the interval is confirmed. The eGFR may predate the start of treatment. Give no finding if a eGFR was done on or after the cut-off, type 2 diabetes is ruled out, or qualifying treatment did not cover the required period. Use the recorded indication, including the directions. Check other listed medicines if one was used only for another condition. Use supply dates, quantities, directions, documented switches and actual use to establish continuity. Cite the diagnosis, early and current treatment evidence, and the test date or timing answer when known. If relevant evidence is unclear, give only a possible finding and name each missing fact. Give the latest record date in the finding when asking about timing. An undated value, an unspecified blood test or missing results alone cannot establish when the last eGFR was done. An answer about indication or use leaves unknown test timing open. Never use the counter entry date as the test date.",
+  "cannot_be_seen": "Outside pathology results may be missing. Confirm the diabetes indication when a qualifying supply could be for weight management, heart failure or chronic kidney disease. Saxenda, Wegovy including Wegovy FlexTouch, and Liraglutide Lupin can be used for weight management. Some SGLT2 inhibitors can be used for heart failure or chronic kidney disease. A brand or a diagnosis alone does not establish the reason for this supply.",
+  "ask_the_gp": "Could you confirm the date of the last eGFR and review the appropriate interval for this patient?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,113 @@
+{
+  "id": "KHAWAGI-G156",
+  "label": "Khawagi review: Check for a full blood count in the past year during stable carbamazepine or valproate treatment",
+  "family": "KHAWAGI",
+  "title": "Check for a full blood count in the past year during stable carbamazepine or valproate treatment",
+  "statement": "Check for a full blood count in the past year during stable carbamazepine or valproate treatment.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review, S3 File",
+    "citation": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. PLoS ONE 2019;14(5):e0217406, S3 File.",
+    "doi": "10.1371/journal.pone.0217406",
+    "url": "https://doi.org/10.1371/journal.pone.0217406.s003",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. PLoS ONE 2019;14(5):e0217406. https://doi.org/10.1371/journal.pone.0217406; S3 File, https://doi.org/10.1371/journal.pone.0217406.s003. © 2019 Khawagi et al., CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). S3 item G156. Original screening wording and Australian adaptations. S3 reference(s) as indexed in the supplied qualification: [81], [105], [113]. Clinical cross-check: Tegretol Australian PI (https://www.safetyandquality.gov.au/medicine-finder/tegretol).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "Check for a full blood count in the past year during stable carbamazepine or valproate treatment.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Carbamazepine or valproate",
+      "ingredients": [
+        "carbamazepine",
+        "sodium valproate",
+        "valproic acid"
+      ],
+      "brands": {
+        "carbamazepine": [
+          "Tegretol CR",
+          "Avloire",
+          "Avloire CR",
+          "Tegretol",
+          "Teril"
+        ],
+        "sodium valproate": [
+          "Epilim EC200",
+          "Epilim",
+          "Epilim EC500",
+          "Epilim Crushable",
+          "Epilim Liquid",
+          "Epilim Syrup",
+          "Valpro",
+          "Valpro EC 200",
+          "Valpro EC 500",
+          "Valprease",
+          "Valprease 200",
+          "Valprease 500"
+        ],
+        "valproic acid": []
+      },
+      "note": "Count oral valproate recorded as valproic acid or by its salt, including oral tablets, liquid and syrup. The listed Epilim products contain sodium valproate."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Timing of full blood count at the latest stable carbamazepine or valproate supply",
+      "meets": "At the latest qualifying supply, check dated full blood count, including tests done elsewhere, against the previous 12 calendar months and any shorter documented plan. Count the boundary date as in time. A pharmacist who has checked the test date may confirm its timing against both checks. Use the date the sample was taken, including for a count done elsewhere. A confirmed sample date is enough to check timing even if the test values are unavailable. The date the answer was entered does not establish the sample date. A missing or overdue test supports only a possible gap. If the date or timing is uncertain, keep the gap unconfirmed.",
+      "options": [
+        {
+          "words": "Done within 12 calendar months and in time under any shorter documented plan",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "The latest test was more than 12 calendar months earlier",
+          "effect": "meets"
+        },
+        {
+          "words": "Within 12 calendar months but overdue under a shorter documented plan",
+          "effect": "meets"
+        },
+        {
+          "words": "No completed test was found after checking for tests done elsewhere",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Individual follow-up plan for full blood count",
+      "meets": "At the latest qualifying supply, check whether a shorter deadline in the individual plan has passed without the requested test. A confirmed missed deadline gives a possible gap. If there is no outstanding earlier test, the annual check still applies. If a shorter plan is known but its timing or completion is unclear, ask for the due date and the latest test date.",
+      "options": [
+        {
+          "words": "An earlier deadline has passed without the test",
+          "effect": "meets"
+        },
+        {
+          "words": "The earlier test was completed or is not yet due",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "There is no shorter testing plan",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "At the latest qualifying supply, use refill dates, quantities and daily directions to check for at least 12 months of ongoing stable carbamazepine or oral valproate treatment, excluding a completed switch or an incomplete treatment window. Use the sample date, including for a count done elsewhere. A pharmacist who has checked that date may confirm whether the annual check and any shorter deadline were met. Report no finding if the latest full blood count is within the previous 12 calendar months (including the boundary) and meets any shorter documented plan. If the count is missing, overdue or undated, or the timing of a known shorter plan is unclear, report only a possible full blood count gap, cite the supplies and any result or plan, and ask for the test date and any earlier deadline, checking daily dose, interruptions and current use if continuity is unclear so the pharmacist can judge borderline gaps.",
+  "cannot_be_seen": "Outside pathology or follow-up may be missing. An incomplete observation window cannot establish an overdue test.",
+  "ask_the_gp": "Could you confirm the date of the last full blood count during ongoing carbamazepine or valproate treatment and when the next count is due under the annual or individual plan?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

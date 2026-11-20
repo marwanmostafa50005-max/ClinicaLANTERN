@@ -1,0 +1,91 @@
+{
+  "id": "MHRA-8-1",
+  "label": "MHRA 8-1",
+  "family": "MHRA",
+  "title": "Simvastatin above 20 mg daily with amiodarone, verapamil or diltiazem",
+  "statement": "Do not exceed 20 mg simvastatin daily",
+  "statement_origin": "published",
+  "source": {
+    "document": "MHRA Drug Safety Update: Simvastatin: updated advice on drug interactions",
+    "citation": "Medicines and Healthcare products Regulatory Agency. Drug Safety Update volume 6, issue 1: August 2012: S1.",
+    "url": "https://www.gov.uk/drug-safety-update/simvastatin-updated-advice-on-drug-interactions",
+    "licence": "UK Open Government Licence v3.0",
+    "licence_status": "proposed",
+    "credit": "Contains public sector information licensed under the Open Government Licence v3.0.",
+    "modification_notice": "Statement reproduced without changes. MHRA-8-1 keeps only the amiodarone, verapamil and diltiazem decision from the source row."
+  },
+  "plain_summary": "Simvastatin above 20 mg daily needs review with amiodarone, verapamil or diltiazem; this is the MHRA-8 split for those three interacting medicines, and amlodipine is excluded because Australian Zocor Product Information dated 5 February 2025 permits up to 40 mg simvastatin daily with amlodipine.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Simvastatin and ezetimibe with simvastatin",
+      "ingredients": [
+        "simvastatin",
+        "ezetimibe + simvastatin"
+      ],
+      "brands": {
+        "simvastatin": [
+          "Zocor",
+          "Lipex",
+          "Zimstat",
+          "Simvar",
+          "Simvabell"
+        ],
+        "ezetimibe + simvastatin": [
+          "Vytorin",
+          "Ezesim",
+          "Ezetorin",
+          "Zimybe"
+        ]
+      },
+      "note": "Oral simvastatin counts. A fixed-dose ezetimibe with simvastatin product counts through its simvastatin component."
+    },
+    {
+      "key": "B",
+      "name": "Amiodarone, verapamil and diltiazem",
+      "ingredients": [
+        "amiodarone",
+        "verapamil",
+        "trandolapril + verapamil",
+        "diltiazem"
+      ],
+      "brands": {
+        "amiodarone": [
+          "Cordarone X",
+          "Cordarone X 100",
+          "Cordarone X 200",
+          "Aratac",
+          "Rithmik"
+        ],
+        "verapamil": [
+          "Isoptin",
+          "Isoptin SR",
+          "Cordilox",
+          "Cordilox SR",
+          "Anpec",
+          "Anpec SR",
+          "Veracaps SR"
+        ],
+        "trandolapril + verapamil": [
+          "Tarka"
+        ],
+        "diltiazem": [
+          "Cardizem",
+          "Cardizem CD",
+          "Vasocardol",
+          "Vasocardol CD",
+          "Coras",
+          "Diltahexal",
+          "Diltahexal CD"
+        ]
+      },
+      "note": "Only systemic amiodarone, verapamil (including trandolapril with verapamil), and diltiazem belong to this split. Compounded topical diltiazem cream or ointment for anal fissure does not count. Amlodipine is excluded from this split."
+    }
+  ],
+  "rule_for_models": "For any age, suspect a finding when a Group A simvastatin supply and a Group B systemic amiodarone, verapamil (including trandolapril with verapamil), or diltiazem supply have supply dates that overlap or fall within 60 days of each other, and the total simvastatin dose exceeds 20 mg daily. Work out the daily simvastatin dose from the strength and directions, including the simvastatin component of ezetimibe with simvastatin. Add doses from separate simvastatin supplies only when directions show they are taken together. Do not add a repeat, brand swap or documented replacement regimen. Topical diltiazem for anal fissure does not count, and amlodipine is not part of this split. If the directions do not give a daily dose, or if it is unclear whether two simvastatin supplies are taken together, report a possible finding that asks for the daily dose.",
+  "cannot_be_seen": "Actual ingestion, treatment changes between supplies, muscle symptoms and supplies from another pharmacy may not be visible. Directions may not show the daily dose.",
+  "ask_the_gp": "Could you review the total daily simvastatin dose and the interacting medicine, including whether the dose exceeds 20 mg daily?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

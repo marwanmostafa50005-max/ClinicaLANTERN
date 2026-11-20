@@ -1,0 +1,145 @@
+{
+  "id": "STOPP-C11",
+  "label": "STOPP C11",
+  "family": "STOPP_START",
+  "title": "Warfarin as the first blood thinner for atrial fibrillation",
+  "statement": "Vitamin K antagonist as first-line anticoagulant for atrial fibrillation, unless there is concurrent metallic heart valve in-situ, moderate-to-severe mitral stenosis, or eGFR < 15 mls/min./1.73m² (direct thrombin inhibitors or factor Xa inhibitors are equally efficacious and safer than vitamin K antagonists).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "For atrial fibrillation, newer blood thinners (dabigatran, apixaban, rivaroxaban, edoxaban) are as effective as warfarin and safer. Warfarin is still right for a person with a metal heart valve, moderate to severe mitral stenosis or very poor kidney function.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Vitamin K antagonist (warfarin)",
+      "ingredients": [
+        "warfarin"
+      ],
+      "brands": {
+        "warfarin": [
+          "Coumadin",
+          "Marevan"
+        ]
+      },
+      "note": "Tablets count. Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "B",
+      "name": "Newer blood thinners (direct thrombin inhibitor and factor Xa inhibitors)",
+      "ingredients": [
+        "dabigatran",
+        "apixaban",
+        "rivaroxaban",
+        "edoxaban"
+      ],
+      "brands": {
+        "dabigatran": [
+          "Pradaxa"
+        ],
+        "apixaban": [
+          "Eliquis",
+          "Alexibic",
+          "Apexa",
+          "Apixor",
+          "Axibic",
+          "Elapex"
+        ],
+        "rivaroxaban": [
+          "Xarelto",
+          "Ixarola",
+          "Relaban",
+          "Rivoxa",
+          "Rivaxib",
+          "Roxator",
+          "Toriva",
+          "Rivalembic",
+          "Rivarelto",
+          "Rivator",
+          "Rivaxotor",
+          "Roxabic",
+          "Roxalem",
+          "Troxa",
+          "Xaremed"
+        ],
+        "edoxaban": []
+      },
+      "note": "No Australian brand is listed for edoxaban. Generic packs that show the ingredient name with a company name count too. Count an earlier anticoagulant only if it was used for atrial fibrillation before warfarin."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Atrial fibrillation",
+      "meets": "Confirmed atrial fibrillation meets the diagnosis requirement. Establish the reason for warfarin separately. If atrial fibrillation is explicitly excluded for the treatment under review, report no finding."
+    },
+    {
+      "kind": "condition",
+      "what": "Metallic heart valve or moderate to severe mitral stenosis",
+      "meets": "Neither a mechanical heart valve nor moderate to severe mitral stenosis was present. Either excludes the finding. An unknown valve type or unclear stenosis severity needs clarification.",
+      "options": [
+        {
+          "words": "Neither a mechanical valve nor moderate to severe mitral stenosis was present",
+          "effect": "meets"
+        },
+        {
+          "words": "A mechanical heart valve was present",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Moderate or severe mitral stenosis was present",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Both conditions were present",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "result",
+      "what": "eGFR",
+      "meets": "Use an eGFR relevant to the treatment under review, expressed in mL/min/1.73 m². A value of 15 or more meets this requirement. A value below 15 excludes the finding. If the unit, indexing or relevance is unclear, keep this fact unresolved. The date of entry is separate from the date of measurement."
+    },
+    {
+      "kind": "observation",
+      "what": "First anticoagulant used for atrial fibrillation",
+      "meets": "Warfarin was the first anticoagulant used for atrial fibrillation. Earlier anticoagulation for another indication does not determine this. If the order for atrial fibrillation is unknown, the finding stays possible.",
+      "options": [
+        {
+          "words": "Warfarin was the first anticoagulant used for atrial fibrillation",
+          "effect": "meets"
+        },
+        {
+          "words": "Another anticoagulant was used first for atrial fibrillation",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Warfarin was used only for another indication",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this criterion only to people aged 65 years or older with a Group A warfarin supply. Give no finding below 65, if atrial fibrillation is excluded, if warfarin was used solely for another indication, or if another anticoagulant was used first for atrial fibrillation. A mechanical valve, moderate to severe mitral stenosis or a relevant indexed eGFR below 15 mL/min/1.73 m² also excludes the finding. A refill, transfer or restart can qualify if warfarin was first for atrial fibrillation. A first visible supply or a gap alone cannot establish treatment order. A pharmacist answer linked to a dated supply can establish the order. Its entry date does not establish the start date. For a supported finding, cite the supply, evidence of first-line use for atrial fibrillation, confirmation that both valve exclusions are absent and a relevant indexed eGFR of at least 15 mL/min/1.73 m². Cite the start-day supply when available. If the finding is otherwise possible and age, indication, treatment order, valve status or relevant indexed eGFR is unclear, cite the available evidence and name each missing fact. Ask for First anticoagulant used for atrial fibrillation only if the order is unresolved.",
+  "cannot_be_seen": "Earlier anticoagulant use, the reason for starting warfarin, valve type and echocardiogram findings may be missing. The age of the eGFR result is uncertain if the measurement date is missing.",
+  "ask_the_gp": "A review of whether a newer blood thinner would suit this person better than warfarin.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

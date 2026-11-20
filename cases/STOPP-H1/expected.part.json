@@ -1,0 +1,56 @@
+[
+  {
+    "file": "STOPP-H1/pos-fact.csv",
+    "kind": "positive",
+    "about": "Naproxen (Naprosyn SR) is supplied monthly from October 2025 to May 2026 with no proton pump inhibitor or H2 antagonist, and the record holds a peptic ulcer disease line.",
+    "findings": [
+      {
+        "criterion": "STOPP-H1",
+        "must_cite": [
+          [
+            "L001",
+            "L007",
+            "L011",
+            "L016",
+            "L020",
+            "L025",
+            "L029",
+            "L034",
+            "L038"
+          ],
+          [
+            "L005"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-H1/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about peptic ulcer or bleeding history. Voltaren (diclofenac, an NSAID) is supplied monthly by brand name only from February to September 2026 with no stomach-protecting medicine.",
+    "findings": [
+      {
+        "criterion": "STOPP-H1",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L009",
+            "L013",
+            "L017",
+            "L021",
+            "L025",
+            "L029"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-H1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The record holds a peptic ulcer disease line and naproxen is supplied monthly, but Pantoloc (pantoprazole) is supplied every month with it, so there is no finding.",
+    "findings": []
+  }
+]

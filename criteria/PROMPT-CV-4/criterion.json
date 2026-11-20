@@ -1,0 +1,97 @@
+{
+  "id": "PROMPT-CV-4",
+  "label": "PROMPT CV-4: short-acting dipyridamole alone",
+  "family": "PROMPT",
+  "title": "Short-acting dipyridamole as the only antiplatelet",
+  "statement": "The use of oral short-acting dipyridamole should not be used as monotherapy in antiplatelet treatment.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Cooper JA, et al. The development of the PROMPT criteria. BMC Health Serv Res 2014;14:484, Table 4",
+    "citation": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Dipyridamole tablets (the short-acting kind) used as the only medicine to prevent clots do not give enough protection on their own.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Short-acting dipyridamole taken by mouth",
+      "ingredients": [
+        "dipyridamole"
+      ],
+      "brands": {
+        "dipyridamole": [
+          "Persantin",
+          "Persantin 100"
+        ]
+      },
+      "note": "Count Persantin only when the line identifies an oral immediate-release tablet. Exclude Persantin SR, other modified-release products and injections. A brand alone with no form does not establish eligibility."
+    },
+    {
+      "key": "B",
+      "name": "Other antiplatelet medicines",
+      "ingredients": [
+        "aspirin",
+        "clopidogrel",
+        "ticagrelor",
+        "prasugrel"
+      ],
+      "brands": {
+        "aspirin": [
+          "Cardiprin",
+          "Astrix",
+          "Cartia",
+          "Asasantin SR (aspirin with modified-release dipyridamole)",
+          "Aspro",
+          "Aspro Clear",
+          "Aspro Clear Extra Strength",
+          "Aspro Protect",
+          "Cardasa",
+          "Disprin Direct",
+          "Disprin Extra Strength",
+          "Disprin Max",
+          "Disprin Original",
+          "Disprin Regular",
+          "Ecotrin",
+          "Princard",
+          "Solprin",
+          "Spren"
+        ],
+        "clopidogrel": [
+          "Plavix",
+          "Iscover",
+          "Clogrel",
+          "Clopaccord",
+          "Clopithromb",
+          "Clovix",
+          "Piax",
+          "Plavicor",
+          "Plidogrel",
+          "Viplex",
+          "CoPlavix",
+          "DuoCover"
+        ],
+        "ticagrelor": [
+          "Brilinta",
+          "Bricalor",
+          "Brilinta ODT",
+          "Novalant",
+          "Ticalor",
+          "Tirela"
+        ],
+        "prasugrel": [
+          "Effient"
+        ]
+      },
+      "note": "If one of these is supplied as antiplatelet treatment within 60 days of the dipyridamole, dipyridamole is not alone. Count aspirin as a second antiplatelet when its recorded use or regimen supports antiplatelet treatment. Exclude aspirin used only for occasional pain. If its purpose is unclear and would change the finding, ask the pharmacist to confirm it."
+    }
+  ],
+  "rule_for_models": "For people aged 45 to 64 inclusive, assess each oral short-acting dipyridamole supply separately and suspect monotherapy if no Group B antiplatelet was supplied on the same day or within 60 days before or after it. For aspirin, use its recorded purpose or regimen to decide whether it counts as antiplatelet treatment. Aspirin used only for occasional pain does not count. If its purpose is unclear and would change the finding, report only a possible finding and ask the pharmacist to confirm its purpose. Count Persantin only when the line identifies an oral immediate-release tablet, and exclude injections and modified-release dipyridamole (including Persantin SR and packs with aspirin) from Group A. If age is missing, record that eligibility is unknown.",
+  "cannot_be_seen": "Why dipyridamole was prescribed, antiplatelet medicines from a hospital or bought without a prescription (for example aspirin), and the stroke or heart history.",
+  "ask_the_gp": "A review of the antiplatelet treatment, including whether dipyridamole alone is still the plan.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

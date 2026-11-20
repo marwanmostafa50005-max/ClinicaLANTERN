@@ -1,0 +1,54 @@
+[
+  {
+    "file": "STOPP-D23/pos-fact.csv",
+    "kind": "positive",
+    "about": "The condition line attributes parkinsonism to risperidone and identifies it as the reason for the Sifrol supplies.",
+    "findings": [
+      {
+        "criterion": "STOPP-D23",
+        "must_cite": [
+          [
+            "L031",
+            "L037",
+            "L043",
+            "L048",
+            "L053",
+            "L056"
+          ],
+          [
+            "L030"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-D23/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the first ropinirole supply follows haloperidol, but the record does not say whether ropinirole treats antipsychotic movement side effects or drug-induced parkinsonism.",
+    "findings": [
+      {
+        "criterion": "STOPP-D23",
+        "must_cite": [
+          [
+            "L020"
+          ],
+          [
+            "L001",
+            "L005",
+            "L008",
+            "L011",
+            "L014",
+            "L017"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-D23/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The discharge letter records drug-induced parkinsonism, and L002 identifies Parkinson disease as the sole reason for Madopar.",
+    "findings": []
+  }
+]

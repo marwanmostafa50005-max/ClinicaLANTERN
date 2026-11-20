@@ -1,0 +1,53 @@
+[
+  {
+    "file": "CKD-N04B/pos-fact.csv",
+    "kind": "positive",
+    "about": "Immediate-release pramipexole totals 2 mg of salt daily for Parkinson disease at 18 mL/min, above 1.5 mg/day.",
+    "findings": [
+      {
+        "criterion": "CKD-N04B",
+        "must_cite": [
+          [
+            "L046"
+          ],
+          [
+            "L001"
+          ],
+          [
+            "L003"
+          ],
+          [
+            "L045"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CKD-N04B/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about creatinine clearance for the pramipexole supply.",
+    "findings": [
+      {
+        "criterion": "CKD-N04B",
+        "must_cite": [
+          [
+            "L030"
+          ],
+          [
+            "L001"
+          ],
+          [
+            "L003"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CKD-N04B/near-miss.csv",
+    "kind": "near_miss",
+    "about": "At 20 mL/min, the daily salt dose of 2 mg for Parkinson disease falls within the 2.25 mg limit.",
+    "findings": []
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "file": "BRISNIK-OP-DEPR8/pos-fact.csv",
+    "kind": "positive",
+    "about": "Depression showed no clinically meaningful improvement on sertraline 50 mg daily before the dose rose to 100 mg daily.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-DEPR8",
+        "must_cite": [
+          [
+            "L006",
+            "L011",
+            "L013",
+            "L017"
+          ],
+          [
+            "L013"
+          ],
+          [
+            "L022",
+            "L027",
+            "L032",
+            "L037",
+            "L042",
+            "L047"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-DEPR8/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: Zoloft increased from 50 mg to 100 mg daily, but the record gives neither the indication nor the response to 50 mg daily.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-DEPR8",
+        "must_cite": [
+          [
+            "L004",
+            "L007",
+            "L009"
+          ],
+          [
+            "L014",
+            "L016",
+            "L018",
+            "L023",
+            "L025",
+            "L027"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-DEPR8/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Depression improved meaningfully on sertraline 50 mg daily before the dose rose to 100 mg daily.",
+    "findings": []
+  }
+]

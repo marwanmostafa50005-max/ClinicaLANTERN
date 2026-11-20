@@ -1,0 +1,54 @@
+[
+  {
+    "file": "STOPP-C11/pos-fact.csv",
+    "kind": "positive",
+    "about": "The initiation note records warfarin as the first anticoagulant for atrial fibrillation, with a Marevan supply that day and an indexed eGFR of 54 mL/min/1.73 m2 the day before.",
+    "findings": [
+      {
+        "criterion": "STOPP-C11",
+        "must_cite": [
+          [
+            "L004"
+          ],
+          [
+            "L005"
+          ],
+          [
+            "L001",
+            "L004"
+          ],
+          [
+            "L002"
+          ],
+          [
+            "L003"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-C11/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about atrial fibrillation or eGFR, although the initiation note records a first anticoagulant start and Coumadin is supplied that day.",
+    "findings": [
+      {
+        "criterion": "STOPP-C11",
+        "must_cite": [
+          [
+            "L002"
+          ],
+          [
+            "L003"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-C11/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Warfarin (Marevan) is supplied for a person with atrial fibrillation, but the record shows a metallic heart valve, which is the exception in the criterion.",
+    "findings": []
+  }
+]

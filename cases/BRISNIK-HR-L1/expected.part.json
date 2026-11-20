@@ -1,0 +1,56 @@
+[
+  {
+    "file": "BRISNIK-HR-L1/pos-fact.csv",
+    "kind": "positive",
+    "about": "Aropax (paroxetine) is supplied every month for 12 months and the record holds a line for angle closure glaucoma, so the finding must cite both.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-L1",
+        "must_cite": [
+          [
+            "L002",
+            "L007",
+            "L011",
+            "L016",
+            "L020",
+            "L025",
+            "L029",
+            "L034",
+            "L038",
+            "L043",
+            "L047",
+            "L052"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-L1/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the earlier amitriptyline dose was below 50 mg, the later directions span that threshold, and the missing facts for the later prescription are \"History of angle-closure glaucoma\" and \"Prescribed daily dose of the tricyclic antidepressant\".",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-L1",
+        "must_cite": [
+          [
+            "L013",
+            "L016",
+            "L019",
+            "L022",
+            "L025"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-L1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Aropax (paroxetine) is supplied every month but the record shows open angle glaucoma, not angle closure glaucoma, so it must not flag.",
+    "findings": []
+  }
+]

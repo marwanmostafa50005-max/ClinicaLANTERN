@@ -1,0 +1,199 @@
+{
+  "id": "KHAWAGI-G083",
+  "label": "Khawagi review: Review potential overlap of selegiline with an SSRI or tricyclic antidepressant",
+  "family": "KHAWAGI",
+  "title": "Review potential overlap of selegiline with an SSRI or tricyclic antidepressant",
+  "statement": "Review potential overlap of selegiline with an SSRI or tricyclic antidepressant.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Khawagi et al. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. S3 File.",
+    "citation": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. PLoS ONE 2019;14(5):e0217406.",
+    "doi": "10.1371/journal.pone.0217406",
+    "url": "https://doi.org/10.1371/journal.pone.0217406.s003",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. PLoS ONE 2019;14(5):e0217406. https://doi.org/10.1371/journal.pone.0217406; S3 File, https://doi.org/10.1371/journal.pone.0217406.s003. © 2019 Khawagi et al., CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). S3 File, Table 3, printed rows 11 and 19 of 66, PDF p.3. Original screening wording and Australian adaptations. S3 reference(s) as indexed in the supplied qualification: [102], [111]. Clinical cross-check: Khawagi review (https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0217406).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "Review potential overlap of selegiline with an SSRI or tricyclic antidepressant.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Selegiline",
+      "ingredients": [
+        "selegiline"
+      ],
+      "brands": {
+        "selegiline": [
+          "Eldepryl",
+          "Selgene",
+          "Zelapar Buccal"
+        ]
+      }
+    },
+    {
+      "key": "B",
+      "name": "SSRIs or tricyclic antidepressants",
+      "ingredients": [
+        "sertraline",
+        "escitalopram",
+        "citalopram",
+        "fluoxetine",
+        "paroxetine",
+        "fluvoxamine",
+        "amitriptyline",
+        "nortriptyline",
+        "imipramine",
+        "clomipramine",
+        "doxepin",
+        "dosulepin",
+        "trimipramine"
+      ],
+      "brands": {
+        "sertraline": [
+          "Zoloft",
+          "IPCA-Sertraline",
+          "Concorz",
+          "Detralon",
+          "Eleva",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Setrona",
+          "Tralen",
+          "Xydep"
+        ],
+        "escitalopram": [
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalopram (An)",
+          "Escitalopram (Apo)",
+          "Escitalopram (Apx)",
+          "Escitalopram (Arx)",
+          "Escitalopram (As)",
+          "Lexapro",
+          "Esipram",
+          "Loxalate"
+        ],
+        "citalopram": [
+          "Abbapram",
+          "Celapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Cipramil",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Citalopram (A)",
+          "Citalopram (Actavis)",
+          "Citalopram (Amneal)",
+          "Citalopram (An)",
+          "Citalopram (Apl)"
+        ],
+        "fluoxetine": [
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Fluoxetine (An)",
+          "Fluoxetine (Apo)",
+          "Fluoxetine (Apotex)",
+          "Fluoxetine (Arrow)",
+          "Fluoxetine (Ascent)",
+          "Fluoxetine (Blooms The Chemist)",
+          "Fluoxetine (Btc)",
+          "Fluoxetine (Chemmart)",
+          "Fluoxetine (Dp)",
+          "Fluoxetine (Ga)",
+          "Prozac",
+          "Lovan",
+          "Zactin"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Aropax Cr",
+          "Extine",
+          "Oxetine",
+          "Paroxetine (Actavis)",
+          "Paroxetine (Amneal)",
+          "Paroxetine (An)",
+          "Paroxetine (Apo)",
+          "Paroxetine (Apotex)",
+          "Paroxetine (Apx)",
+          "Paroxetine (Blooms The Chemist)",
+          "Paroxetine (Chemmart)",
+          "Paroxetine (Dp)",
+          "Paroxetine (Ga)"
+        ],
+        "fluvoxamine": [
+          "Faverin",
+          "Fluvoxamine (An)",
+          "Fluvoxamine (Apotex)",
+          "Fluvoxamine (Chemmart)",
+          "Fluvoxamine (Terry White Chemists)",
+          "Fluvoxamine (Wgr)",
+          "Fluvoxamine Maleate (Apo)",
+          "Fluvoxamine Maleate (Ga)",
+          "Luvox",
+          "Movox",
+          "Voxam"
+        ],
+        "amitriptyline": [
+          "Amitriptyline AN",
+          "Endep",
+          "Entrip"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortriptyline (Apo)",
+          "Nortritabs"
+        ],
+        "imipramine": [
+          "Imipramine Hcl (Leading Pharma)",
+          "Melipramine",
+          "Tofranil",
+          "Tolerade"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Clomipramine (Apo)",
+          "Clomipramine (Wgr)",
+          "Clomipramine Hydrochloride (Chemmart)",
+          "Clomipramine Hydrochloride (Genrx)",
+          "Clomipramine Hydrochloride (Terry White Chemists)",
+          "Placil"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "dosulepin": [
+          "Dosulepin (Mylan)",
+          "Dosulepin (Viatris)",
+          "Dothep",
+          "Prothiaden"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ]
+      }
+    }
+  ],
+  "rule_for_models": "Report and cite both supplies when their dates, quantities and directions show overlapping use of selegiline and an SSRI or tricyclic antidepressant (exclude SNRIs). If supplies are within 60 days and unclear directions leave overlap possible, report only a possible finding and ask whether the patient took both medicines at the same time or stopped one before starting the other. A documented course that ended before the other began does not qualify.",
+  "cannot_be_seen": "Dispensing does not establish actual use, indication or a prescriber’s intent. Treatment and assessments elsewhere may be missing.",
+  "ask_the_gp": "Could you review the interaction risk from possible overlap between selegiline and this SSRI or tricyclic antidepressant?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

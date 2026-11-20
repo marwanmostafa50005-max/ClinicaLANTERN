@@ -1,0 +1,56 @@
+[
+  {
+    "file": "OPTIMISE-T2-25/pos-fact.csv",
+    "kind": "positive",
+    "about": "Schizophrenia is documented and L002 records a same-date baseline symptom review on 10 June 2025, but no assessment is recorded for the reviews due on 10 September 2025 and 10 March 2026 during uninterrupted olanzapine treatment.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T2-25",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L002"
+          ],
+          [
+            "L003"
+          ],
+          [
+            "L012"
+          ],
+          [
+            "L032"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T2-25/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the March Seroquel directions and the April refill leave treatment on 9 April uncertain, and the record gives neither the severe mental illness diagnosis nor a symptom check for that review.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T2-25",
+        "must_cite": [
+          [
+            "L003"
+          ],
+          [
+            "L010"
+          ],
+          [
+            "L013"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T2-25/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The adult with schizophrenia has a dated three-month symptom review on 10 December 2025 and a nine-month review on 5 June 2026 during the final Abilify supply.",
+    "findings": []
+  }
+]

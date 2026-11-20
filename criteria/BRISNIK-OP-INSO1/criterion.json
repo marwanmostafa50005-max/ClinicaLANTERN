@@ -1,0 +1,98 @@
+{
+  "id": "BRISNIK-OP-INSO1",
+  "label": "Brisnik: INSO1",
+  "family": "BRISNIK",
+  "title": "Tricyclic antidepressant at 50 mg a day or more for sleep",
+  "statement": "Prescribed TCA ≥ 50 mg/day for insomnia[2] - and the patient has no other indications for an antidepressant",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.2 candidate repairs and adopted conventions merged with attribution). Not endorsed by the source authors."
+  },
+  "plain_summary": "Review a tricyclic antidepressant prescribed at 50 mg a day or more for insomnia when the person has no other indication for an antidepressant. Footnote 2 means this applies at any treatment duration.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Tricyclic antidepressants (TCAs)",
+      "ingredients": [
+        "amitriptyline",
+        "nortriptyline",
+        "dosulepin",
+        "doxepin",
+        "imipramine",
+        "clomipramine",
+        "trimipramine"
+      ],
+      "brands": {
+        "amitriptyline": [
+          "Endep",
+          "Amichlor",
+          "Amidep",
+          "Entrip"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "dosulepin": [
+          "Prothiaden",
+          "Dothep"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ]
+      },
+      "note": "Count oral products labelled with a listed ingredient, including names followed by a company name. Dothiepin is the former name for dosulepin. Exclude skin preparations. Match the listed tricyclics by ingredient or brand."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Reason for the tricyclic antidepressant on the course being reviewed for insomnia",
+      "meets": "The record establishes treatment for insomnia and no other current indication for an antidepressant. A contemporaneous note or prescription direction can document purpose. A remote or unrelated diagnosis alone does not establish a current indication.",
+      "options": [
+        {
+          "words": "This medicine treated insomnia and there was no other current reason for an antidepressant",
+          "effect": "meets"
+        },
+        {
+          "words": "This medicine was prescribed for a reason other than insomnia",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "There was another current reason for an antidepressant",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Suspect a finding when a Group A medicine (a tricyclic antidepressant) is supplied at a daily dose of 50 mg or more, worked out as mg per tablet or capsule times units per day, or mg per mL times mL per day, using the prescribed directions (for example 25 mg, TWO at night is 50 mg). Confirm when the record establishes that the medicine was prescribed for insomnia and the person had no other current antidepressant indication. Cite the supply and indication evidence. Add strengths of the same medicine only when the directions explicitly prescribe them together. If the directions leave it unclear whether the prescribed dose reaches 50 mg a day, report only a possible finding unless another detail rules it out. Cite the unclear directions and ask what daily dose was prescribed. If the medicine meets the dose threshold but either indication detail is unknown, report a possible finding and name each missing detail. A bedtime direction alone leaves the purpose unknown. A documented purpose other than insomnia, or another current antidepressant indication, gives no finding.",
+  "cannot_be_seen": "Why the medicine was started, whether it is really taken for sleep or pain, and any reason for an antidepressant that is not in the record. Doses taken in practice, tablets cut in half, and supplies from a hospital or another pharmacy.",
+  "ask_the_gp": "Whether the tricyclic antidepressant is still needed at this dose, whether it is being used for sleep, and whether a review or a lower dose is suitable.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

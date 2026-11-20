@@ -1,0 +1,206 @@
+{
+  "id": "PINCER-2",
+  "label": "PINCER 2",
+  "family": "PINCER",
+  "title": "Beta-blocker for a person with asthma",
+  "statement": "Patients with asthma who have been prescribed a beta-blocker: - More specifically those with a computer-coded diagnosis of asthma, at least six months prior to data collection, who have a computer record of one or more prescriptions for a beta-blocker (oral preparations or eye drops) in the six months prior to data collection - The denominator for this outcome measure is patients with a computer-coded diagnosis of asthma, at least six months prior to data collection.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Avery AJ, et al. Protocol for the PINCER trial. Trials 2009;10:28; correction Trials 2010;11:23",
+    "citation": "Avery AJ, Rodgers S, Cantrill JA, et al. Protocol for the PINCER trial. Trials 2009;10:28. doi:10.1186/1745-6215-10-28; correction Trials 2010;11:23",
+    "doi": "10.1186/1745-6215-10-28",
+    "url": "https://doi.org/10.1186/1745-6215-10-28",
+    "licence": "CC BY 2.0",
+    "licence_status": "proposed",
+    "credit": "Avery AJ, Rodgers S, Cantrill JA, et al. Protocol for the PINCER trial. Trials 2009;10:28. doi:10.1186/1745-6215-10-28; correction Trials 2010;11:23",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A beta-blocker, as a tablet or as eye drops, can set off a serious asthma attack in a person with asthma.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Beta-blockers (oral preparations and eye drops)",
+      "ingredients": [
+        "atenolol",
+        "metoprolol",
+        "propranolol",
+        "carvedilol",
+        "bisoprolol",
+        "nebivolol",
+        "sotalol",
+        "labetalol",
+        "timolol",
+        "betaxolol",
+        "dorzolamide with timolol",
+        "brimonidine with timolol",
+        "latanoprost with timolol",
+        "travoprost with timolol",
+        "bimatoprost with timolol",
+        "brinzolamide with timolol",
+        "brimonidine + timolol",
+        "dorzolamide + timolol",
+        "latanoprost + timolol",
+        "timolol + travoprost",
+        "pindolol"
+      ],
+      "brands": {
+        "atenolol": [
+          "Tenormin",
+          "Noten",
+          "Anselol",
+          "Atehexal",
+          "Aten",
+          "Colaptyn",
+          "Tenolten",
+          "Tensig"
+        ],
+        "metoprolol": [
+          "Betaloc",
+          "Minax",
+          "Toprol-XL",
+          "Agtolac",
+          "Lopresor",
+          "Metatar",
+          "Metohexal",
+          "Metolol",
+          "Metrol",
+          "Metrol-XL",
+          "Minax XL",
+          "Mistrom",
+          "Tobeta-XL",
+          "Topreloc-XL"
+        ],
+        "propranolol": [
+          "Inderal",
+          "Deralin",
+          "Drofate",
+          "Hemangiol"
+        ],
+        "carvedilol": [
+          "Dilatrend",
+          "Carvidol",
+          "Dicarz",
+          "Dilasig",
+          "Kredex",
+          "Vedilol",
+          "Volirop"
+        ],
+        "bisoprolol": [
+          "Beprol",
+          "Bicard",
+          "Bicor",
+          "Biso",
+          "Bisoprolol (An)",
+          "Bisoprolol (Apo)",
+          "Bisoprolol (Apotex)",
+          "Bisoprolol (Auro)",
+          "Bisoprolol (Cipla)",
+          "Bisoprolol (Dr. Reddy'S)",
+          "Bisoprolol (Generic Health)",
+          "Bisoprolol (Genrx)",
+          "Bisoprolol (Noumed)",
+          "Bisoprolol (Sandoz)"
+        ],
+        "nebivolol": [
+          "Nebilet",
+          "Lobivon",
+          "Lobivon Composite Starter Titration Pack",
+          "Nebaloc",
+          "Nebilet Composite Starter Titration Pack",
+          "Nepiten"
+        ],
+        "sotalol": [
+          "Sotacor",
+          "Cardol",
+          "Solavert",
+          "Sotab",
+          "Sotahexal"
+        ],
+        "labetalol": [
+          "Trandate",
+          "Presolol"
+        ],
+        "timolol": [
+          "Timoptol",
+          "Tenopt",
+          "Nyogel",
+          "Timoeye",
+          "Timoptol-XE"
+        ],
+        "betaxolol": [
+          "Betoptic",
+          "Betoptic S",
+          "Betoquin"
+        ],
+        "dorzolamide with timolol": [
+          "Cosopt"
+        ],
+        "brimonidine with timolol": [
+          "Combigan"
+        ],
+        "latanoprost with timolol": [
+          "Xalacom"
+        ],
+        "travoprost with timolol": [
+          "DuoTrav"
+        ],
+        "bimatoprost with timolol": [
+          "Ganfort",
+          "Ganfort PF"
+        ],
+        "brinzolamide with timolol": [
+          "Azarga"
+        ],
+        "brimonidine + timolol": [
+          "Combigan"
+        ],
+        "dorzolamide + timolol": [
+          "Cosopt"
+        ],
+        "latanoprost + timolol": [
+          "Xalacom"
+        ],
+        "timolol + travoprost": [
+          "DuoTrav"
+        ],
+        "pindolol": [
+          "Barbloc",
+          "Pindol",
+          "Visken"
+        ]
+      },
+      "note": "All oral preparations, including liquids, and eye drops count. Combination eye drops are listed under the combination name. Ingredient-labelled oral bisoprolol packs count, including packs that also name the supplier."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Asthma",
+      "meets": "When was the diagnosis of asthma first coded? Count a coded diagnosis on or before the date six calendar months before the end of the dispensing history. Choose Not known if the coding history cannot be verified.",
+      "options": [
+        {
+          "words": "The diagnosis was already coded at least six months before the end of the dispensing history",
+          "effect": "meets"
+        },
+        {
+          "words": "The diagnosis was first coded in the last six months of the dispensing history, after the cutoff",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Records confirm no coded diagnosis by the end of the dispensing history",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Suspect a finding when a Group A medicine (a beta-blocker supplied as an oral preparation or eye drops) is supplied at least once in the six months before the latest date in the record AND the record holds an asthma line dated at least six months before that latest date; cite the asthma line and the supply lines. With a qualifying beta-blocker supply in the final six months, a pharmacist's confirmation that the diagnosis was already coded by the six-month cutoff also supports a finding. Cite the coded history or the confirming answer and the qualifying supplies. Report no finding if the first code was after the cutoff or records confirm no diagnosis was coded by the end of the history. A statement about whether the patient has asthma today does not establish the coding history. A later entry alone does not establish the first coding date. If the supply pattern qualifies and the coding history is missing or uncertain, report only a possible finding, cite the qualifying supplies and name \"Asthma\" as the missing fact. If the record shows asthma was not on record six months before the end, or shows no beta-blocker supply in the last six months, there is no finding.",
+  "cannot_be_seen": "Whether the person really has asthma now, how severe it is, why the beta-blocker was chosen, and whether the doctor has already weighed the risk.",
+  "ask_the_gp": "Whether the person has asthma, and a review of whether a beta-blocker is the right choice for them.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

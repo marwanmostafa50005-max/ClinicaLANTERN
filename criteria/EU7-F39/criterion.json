@@ -1,0 +1,62 @@
+{
+  "id": "EU7-F39",
+  "label": "EU(7)-PIM: medicines for overactive bladder",
+  "family": "EU7",
+  "title": "Bladder medicines flagged by EU(7)-PIM",
+  "statement": "Older people should avoid these oral medicines: flavoxate, oral oxybutynin, tolterodine, solifenacin, trospium, darifenacin and fesoterodine. Flavoxate can reduce urine flow and cause urinary retention. The other medicines are antimuscarinics and can cause dry mouth or constipation. Some can also cause confusion or affect the heart rhythm. For overactive bladder, the list suggests bladder training, pelvic floor exercises and physical and behaviour therapy.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Reworded in plain words by ClinicaLANTERN from the source table rows. Not endorsed by the source authors."
+  },
+  "plain_summary": "Bladder antimuscarinics such as oxybutynin and solifenacin can cause constipation and dry mouth. Some can also cause confusion in older people.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Medicines for overactive bladder",
+      "ingredients": [
+        "flavoxate",
+        "oxybutynin",
+        "tolterodine",
+        "solifenacin",
+        "trospium",
+        "darifenacin",
+        "fesoterodine"
+      ],
+      "brands": {
+        "flavoxate": [],
+        "oxybutynin": [
+          "Ditropan"
+        ],
+        "tolterodine": [
+          "Detrusitol"
+        ],
+        "solifenacin": [
+          "Vesicare",
+          "Solicare",
+          "Solicare ODT",
+          "Vesican ODT",
+          "Vesifen"
+        ],
+        "trospium": [],
+        "darifenacin": [
+          "Enablex"
+        ],
+        "fesoterodine": []
+      },
+      "note": "Oral tablets and capsules containing a listed ingredient count. This includes tablets that dissolve in the mouth and tablets or capsules that release the medicine slowly. Oxybutynin skin patches (Oxytrol) are not named in the source and are not counted here. Mirabegron (Betmiga) is not an antimuscarinic and is not in this group. No Australian brand is listed for flavoxate, trospium or fesoterodine, so a history may show the ingredient name. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when the person is aged 65 or older and at least one Group A medicine (flavoxate, oxybutynin, tolterodine, solifenacin, trospium, darifenacin or fesoterodine, by mouth) is supplied. One supply is enough; repeated supplies make it stronger. If the other criteria could be met and age is unknown, report only a possible finding and ask the pharmacist to confirm whether the person is 65 or older.",
+  "cannot_be_seen": "Why it was prescribed (urgency, leaking or a bladder problem), how well it works, any confusion or constipation, and whether bladder training has been tried.",
+  "ask_the_gp": "Could you confirm the indication and review the benefits and adverse effects, including any constipation, dry mouth or confusion? If the medicine is for overactive bladder, could bladder training or another suitable option help?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

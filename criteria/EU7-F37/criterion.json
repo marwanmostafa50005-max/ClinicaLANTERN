@@ -1,0 +1,40 @@
+{
+  "id": "EU7-F37",
+  "label": "EU(7)-PIM: niacin",
+  "family": "EU7",
+  "title": "Niacin (nicotinic acid)",
+  "statement": "Niacin (=Nicotinic acid) | In lists: 2 (A) | Main reason: Moderate risk of side effects; ineffective for the treatment of dementia | Dose adjustment/special considerations: (blank: per ESM note, no suggestion by experts or in Micromedex) | Alternatives: (none stated)",
+  "statement_origin": "published",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "The row was converted to text. The dose-cell explanation comes from the appendix legend. The words in parentheses under alternatives indicate an empty cell. Not endorsed by the source authors."
+  },
+  "plain_summary": "Niacin (nicotinic acid) has a moderate risk of side effects in older people and does not work for dementia.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Niacin (nicotinic acid)",
+      "ingredients": [
+        "niacin",
+        "nicotinic acid"
+      ],
+      "brands": {
+        "niacin": [],
+        "nicotinic acid": []
+      },
+      "note": "Niacin is also called nicotinic acid. Nicotinamide (also called niacinamide) is a different compound and does not count. Low-dose vitamin B3 inside a multivitamin does not count. No Australian brand is listed, so a history shows the ingredient name."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when the person is aged 65 or older and niacin (nicotinic acid) is supplied as a single medicine. If age is missing and the supply otherwise qualifies, report only a possible finding and ask the pharmacist to confirm whether the person is 65 or older. A recorded age below 65 gives no finding.",
+  "cannot_be_seen": "Why niacin was taken (for example a cholesterol problem or a vitamin deficiency), the dose actually taken, and niacin bought over the counter as a supplement.",
+  "ask_the_gp": "Whether niacin is still needed and whether a different treatment could be used, taking into account the reason it was started.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

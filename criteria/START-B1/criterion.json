@@ -1,0 +1,414 @@
+{
+  "id": "START-B1",
+  "label": "START B1",
+  "family": "STOPP_START",
+  "title": "High blood pressure with no blood pressure medicine",
+  "statement": "Antihypertensive therapy where systolic blood pressure > 140 mmHg and /or diastolic blood pressure > 90 mmHg, unless established moderate or severe physical frailty in whom the threshold for therapy is 150 mmHg systolic pressure and/or 90 mmHg diastolic pressure.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "If recent readings remain above the START threshold and no blood pressure medicine is recorded, review whether treatment is appropriate. Check an isolated raised reading against later readings or home or ambulatory measurements, and consider frailty, cardiovascular risk and tolerance. Australian guidance differs: for eligible people without known cardiovascular disease, blood pressure treatment is recommended at five-year risk of 10% or more, considered at 5% to below 10%, and warranted at blood pressure above 160/100 mmHg regardless of risk (Australian Chronic Disease Prevention Alliance, 2023).",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Blood pressure medicines (medicines that meet this criterion)",
+      "ingredients": [
+        "perindopril",
+        "ramipril",
+        "lisinopril",
+        "enalapril",
+        "quinapril",
+        "trandolapril",
+        "captopril",
+        "candesartan",
+        "irbesartan",
+        "telmisartan",
+        "olmesartan",
+        "valsartan",
+        "losartan",
+        "amlodipine",
+        "felodipine",
+        "lercanidipine",
+        "nifedipine",
+        "diltiazem",
+        "verapamil",
+        "indapamide",
+        "hydrochlorothiazide",
+        "spironolactone",
+        "moxonidine",
+        "doxazosin",
+        "prazosin",
+        "atenolol",
+        "metoprolol",
+        "bisoprolol",
+        "carvedilol",
+        "nebivolol",
+        "propranolol",
+        "fosinopril",
+        "chlortalidone",
+        "methyldopa",
+        "clonidine",
+        "labetalol",
+        "hydralazine"
+      ],
+      "brands": {
+        "perindopril": [
+          "Coversyl",
+          "Coversyl Plus",
+          "Coveram",
+          "Idaprex",
+          "Idaprex Arg",
+          "Indopril",
+          "Indosyl Mono",
+          "Ozapace",
+          "Perindo",
+          "Perindo Arg",
+          "Perindoarg",
+          "Perindobell",
+          "Perisyl",
+          "Prexum",
+          "Triplixam SR",
+          "Reaptan"
+        ],
+        "ramipril": [
+          "Tritace",
+          "Prilace",
+          "Ramace",
+          "Ramibell",
+          "Tryzan",
+          "Vascalace",
+          "Triasyn"
+        ],
+        "lisinopril": [
+          "Zestril",
+          "Prinivil",
+          "Zestoretic",
+          "Fibsol",
+          "Linopril",
+          "Liprace",
+          "Lisinobell",
+          "Lisinotrust",
+          "Lisodrate",
+          "Lisodur",
+          "Lisoril",
+          "Ozten",
+          "Sinop",
+          "Zinopril"
+        ],
+        "enalapril": [
+          "Renitec",
+          "Acetec",
+          "Alphapril",
+          "Amprace",
+          "Auspril",
+          "Elapril",
+          "Enahexal",
+          "Enalabell",
+          "Malean",
+          "Renitec M",
+          "Zan-Extra"
+        ],
+        "quinapril": [
+          "Accupril",
+          "Accuretic",
+          "Acquin",
+          "Aquinafil",
+          "Filpril",
+          "Qpril"
+        ],
+        "trandolapril": [
+          "Gopten",
+          "Tarka",
+          "Dolapril",
+          "Goricap",
+          "Odrik",
+          "Tranalpha"
+        ],
+        "captopril": [
+          "Capoten",
+          "Acenorm",
+          "Captohexal",
+          "Topace",
+          "Zedace"
+        ],
+        "candesartan": [
+          "Atacand",
+          "Atacand Plus",
+          "Adesan",
+          "Asartan",
+          "Candelem",
+          "Candesan"
+        ],
+        "irbesartan": [
+          "Avapro",
+          "Karvea",
+          "Avapro HCT",
+          "Karvezide",
+          "Abisart",
+          "Ambotens",
+          "Avsartan",
+          "Irbesat",
+          "Irbestin",
+          "Irbetan",
+          "Irprestan",
+          "Karbesat"
+        ],
+        "telmisartan": [
+          "Micardis",
+          "Micardis Plus",
+          "Mizart",
+          "Pritor",
+          "Telmigen",
+          "Teltartan",
+          "Twynsta"
+        ],
+        "olmesartan": [
+          "Olmetec",
+          "Olmetec Plus",
+          "Olmertan",
+          "Olmes",
+          "Olmesart",
+          "Olsetan",
+          "Sevikar",
+          "Sevikar HCT"
+        ],
+        "valsartan": [
+          "Diovan",
+          "Co-Diovan",
+          "Exforge",
+          "Dilart",
+          "Exforge HCT"
+        ],
+        "losartan": [
+          "Cozaar",
+          "Hyzaar",
+          "Cozavan"
+        ],
+        "amlodipine": [
+          "Norvasc",
+          "Caduet",
+          "Amline",
+          "Amlo",
+          "Amlocor",
+          "Amlotrust",
+          "Amvas",
+          "Besidep",
+          "Nordip",
+          "Norvapine",
+          "Ozlodip",
+          "Perivasc",
+          "Twynsta",
+          "Sevikar",
+          "Sevikar HCT",
+          "Triplixam SR",
+          "Reaptan",
+          "Exforge HCT"
+        ],
+        "felodipine": [
+          "Plendil",
+          "Triasyn"
+        ],
+        "lercanidipine": [
+          "Zanidip",
+          "Ledip",
+          "Lepine",
+          "Lercadip",
+          "Lercan",
+          "Zircol",
+          "Zan-Extra"
+        ],
+        "nifedipine": [
+          "Adalat",
+          "Adalat Oros",
+          "Addos XR",
+          "Adefin",
+          "Adefin XL",
+          "Nifehexal",
+          "Nyefax",
+          "Nypine"
+        ],
+        "diltiazem": [
+          "Cardizem",
+          "Cardizem CD",
+          "Vasocardol",
+          "Coras",
+          "Danzem",
+          "Diltahexal",
+          "Diltahexal CD",
+          "Dilzem",
+          "Dilzem CD",
+          "Ditatem",
+          "Vasocardol CD"
+        ],
+        "verapamil": [
+          "Isoptin",
+          "Isoptin SR",
+          "Anpec",
+          "Anpec SR",
+          "Cordilox SR",
+          "Veracaps SR"
+        ],
+        "indapamide": [
+          "Natrilix",
+          "Natrilix SR",
+          "Dapa-Tabs",
+          "Indahexal",
+          "Indapamol",
+          "Insig",
+          "Napamide",
+          "Odaplix SR",
+          "Tenaxil SR",
+          "Triplixam SR"
+        ],
+        "hydrochlorothiazide": [
+          "Dithiazide",
+          "Sevikar HCT",
+          "Exforge HCT"
+        ],
+        "spironolactone": [
+          "Aldactone",
+          "Spiractin"
+        ],
+        "moxonidine": [
+          "Physiotens",
+          "Moxotens",
+          "Normatens"
+        ],
+        "doxazosin": [
+          "Carduran"
+        ],
+        "prazosin": [
+          "Minipress",
+          "Pratsiol",
+          "Pressin"
+        ],
+        "atenolol": [
+          "Tenormin",
+          "Noten",
+          "Anselol",
+          "Atehexal",
+          "Aten",
+          "Colaptyn",
+          "Tenolten",
+          "Tensig"
+        ],
+        "metoprolol": [
+          "Betaloc",
+          "Lopresor",
+          "Minax",
+          "Toprol-XL",
+          "Agtolac",
+          "Metatar",
+          "Metohexal",
+          "Metolol",
+          "Metrol",
+          "Metrol-XL",
+          "Minax XL",
+          "Mistrom",
+          "Tobeta-XL",
+          "Topreloc-XL"
+        ],
+        "bisoprolol": [
+          "Bicor",
+          "Beprol",
+          "Bicard",
+          "Biso",
+          "Bispro"
+        ],
+        "carvedilol": [
+          "Dilatrend",
+          "Carvidol",
+          "Dicarz",
+          "Dilasig",
+          "Kredex",
+          "Vedilol",
+          "Volirop"
+        ],
+        "nebivolol": [
+          "Nebilet",
+          "Lobivon",
+          "Lobivon Composite Starter Titration Pack",
+          "Nebaloc",
+          "Nebilet Composite Starter Titration Pack",
+          "Nepiten"
+        ],
+        "propranolol": [
+          "Inderal",
+          "Deralin",
+          "Drofate",
+          "Hemangiol"
+        ],
+        "fosinopril": [
+          "APO-Fosinopril",
+          "Monace 20",
+          "Monopril"
+        ],
+        "chlortalidone": [
+          "Hygroton 25"
+        ],
+        "methyldopa": [
+          "Aldomet"
+        ],
+        "clonidine": [
+          "Catapres"
+        ],
+        "labetalol": [
+          "Trandate"
+        ],
+        "hydralazine": [
+          "Alphapress"
+        ]
+      },
+      "note": "Includes ACE inhibitors, angiotensin receptor blockers, calcium channel blockers, indapamide, spironolactone, beta-blockers, moxonidine and alpha-blockers. Combination products count, for example Coversyl Plus, Exforge and Hyzaar. Count only systemic blood pressure treatment. Exclude preparations applied locally, such as diltiazem cream or ointment for an anal fissure. Hydrochlorothiazide counts alone or in a combination. Coversyl Plus is perindopril with indapamide. Coveram is perindopril with amlodipine. Triasyn contains ramipril and felodipine. Match a combination by its verified name or listed ingredients. For the added medicines, count ongoing systemic treatment. If a medicine such as clonidine has another possible use and its purpose would change the finding, ask why it was supplied before treating it as blood pressure therapy. Zestoretic is lisinopril with hydrochlorothiazide. Accuretic is quinapril with hydrochlorothiazide. Tarka is trandolapril with verapamil. Combination products count. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "Blood pressure",
+      "meets": "Enter the latest representative systolic and diastolic pressures together in mmHg, for example 145/85 mmHg. Give the measurement date if known. Include the setting (clinic, home or ambulatory) and whether this was one reading or an average, if known. The systolic threshold is above 140 mmHg, or above 150 mmHg with established moderate or severe physical frailty. The diastolic threshold is above 90 mmHg in either case.",
+      "ask_when": "always",
+      "close_when": {
+        "group": "A"
+      }
+    },
+    {
+      "kind": "result",
+      "what": "Repeat blood pressure",
+      "meets": "Enter the systolic and diastolic pressures of a separate reading together in mmHg, with its measurement date and setting (clinic, home or ambulatory) if known. Say whether it was one reading or an average. This result helps establish whether the raised pressure persists."
+    },
+    {
+      "kind": "condition",
+      "what": "Established moderate or severe physical frailty",
+      "meets": "Ask only when representative systolic readings are above 140 and at most 150 mmHg and diastolic readings are at most 90 mmHg. In this range, absence of established moderate or severe frailty supports the omission. Its presence rules it out. An unknown answer leaves the finding possible.",
+      "options": [
+        {
+          "words": "Neither moderate nor severe physical frailty is present",
+          "effect": "meets"
+        },
+        {
+          "words": "Moderate or severe physical frailty is established",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this criterion only to people aged 65 years or older. If age is unknown, confirm it before reporting a finding. Use the recorded form, route and directions and any stated purpose to identify systemic Group A blood pressure treatment. A supply of this treatment in the last six months of the record rules out an omission. A local preparation or a supply clearly used for another purpose does not count. If the route or purpose of a supply is unclear and would change the decision, explain the uncertainty about that supply and report at most a possible omission. If there is no blood pressure reading, report no finding because there is no measurement to assess. For a reading entered at the counter, use the measurement date, setting and any recorded average to compare it with other dated readings. When representative readings remain above 140 but no higher than 150 mmHg systolic with diastolic pressure at or below 90 mmHg, and moderate or severe physical frailty is unknown, report only a possible finding. Cite the readings and ask whether this degree of frailty has been established. If moderate or severe physical frailty is ruled out, suspect an omission when representative readings remain above 140 mmHg systolic or above 90 mmHg diastolic. If frailty is unknown but representative readings remain above 150 mmHg systolic or above 90 mmHg diastolic, suspect an omission because either threshold is exceeded. Use above 150 mmHg systolic or above 90 mmHg diastolic for established moderate or severe physical frailty. If the only raised evidence is an isolated clinic reading or is too old or unrepresentative to establish persistent elevation and there is no later representative measurement, report a possible finding and name the missing result \"Repeat blood pressure\". Compare the repeat clinic, home or ambulatory measurement with the earlier reading. If the repeat result or its relevance is unknown, the finding stays possible. A representative series already in the record needs no repeat question. If later representative readings meet neither raised-pressure threshold, do not raise an omission from the earlier reading alone. Cite the readings that show persistent elevation or support a possible finding, and cite any supply whose unclear route or purpose leaves the omission uncertain.",
+  "cannot_be_seen": "Whether the person has moderate or severe frailty, the true blood pressure over time (readings at home or in the clinic), and any reason a doctor chose not to treat. Also medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "The person's blood pressure and whether treatment should be started or reviewed.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

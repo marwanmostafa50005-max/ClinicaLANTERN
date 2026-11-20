@@ -1,0 +1,321 @@
+{
+  "id": "STOPP-D13",
+  "label": "STOPP D13",
+  "family": "STOPP_START",
+  "title": "Anticholinergic medicine for antipsychotic movement effects",
+  "statement": "Anticholinergic/antimuscarinic drugs (biperiden, orphenadrine, procyclidine, trihexyphenidyl) to treat extra-pyramidal side-effects of antipsychotic medications (risk of anticholinergic toxicity).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "An anticholinergic medicine given to treat movement side effects of an antipsychotic can cause anticholinergic toxicity, such as confusion, dry mouth and urine retention.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Anticholinergic medicines for movement side effects",
+      "ingredients": [
+        "biperiden",
+        "orphenadrine",
+        "procyclidine",
+        "trihexyphenidyl"
+      ],
+      "brands": {
+        "biperiden": [
+          "Akineton"
+        ],
+        "orphenadrine": [
+          "Norflex",
+          "Norgesic",
+          "Disipal"
+        ],
+        "procyclidine": [
+          "Kemadrin"
+        ],
+        "trihexyphenidyl": [
+          "Artane"
+        ]
+      },
+      "note": "Benzhexol is the former name for trihexyphenidyl and also counts. Norflex, Norgesic and historical Disipal identify orphenadrine. Norgesic also contains paracetamol. The brand alone does not establish why it was taken. Generic packs showing an ingredient with a sponsor name count. Benztropine (Cogentin) is not named in the statement and is not in this group."
+    },
+    {
+      "key": "B",
+      "name": "Antipsychotic medicines",
+      "ingredients": [
+        "haloperidol",
+        "risperidone",
+        "olanzapine",
+        "quetiapine",
+        "clozapine",
+        "aripiprazole",
+        "amisulpride",
+        "paliperidone",
+        "chlorpromazine",
+        "lurasidone",
+        "brexpiprazole",
+        "zuclopenthixol",
+        "flupentixol",
+        "fluphenazine",
+        "trifluoperazine",
+        "periciazine",
+        "ziprasidone",
+        "cariprazine",
+        "asenapine",
+        "flupentixol decanoate",
+        "fluphenazine decanoate",
+        "paliperidone palmitate",
+        "olanzapine pamoate",
+        "haloperidol decanoate",
+        "zuclopenthixol decanoate",
+        "zuclopenthixol acetate"
+      ],
+      "brands": {
+        "haloperidol": [
+          "Serenace",
+          "Haldol Decanoate"
+        ],
+        "risperidone": [
+          "Risperdal",
+          "Ozidal",
+          "Resdone",
+          "Respaz",
+          "Risdone",
+          "Rispa",
+          "Rispaccord",
+          "Rispaccord-0.5",
+          "Risperdal Quicklet",
+          "Risperibell",
+          "Rispericor",
+          "Rispericor-0.5",
+          "Risperisan",
+          "Rispernia",
+          "Rixadone",
+          "Sperid",
+          "Risperdal Consta"
+        ],
+        "olanzapine": [
+          "Zyprexa",
+          "Zyprexa Zydis",
+          "Aprolan",
+          "Aprolan ODT",
+          "Lanez",
+          "Lanez ODT",
+          "Lanzek",
+          "Lanzek Zydis",
+          "Lonza",
+          "Lonza ODT",
+          "Lyprosia",
+          "Lyprosia ODT",
+          "Olancor",
+          "Olanza",
+          "Olanzaccord",
+          "Olanzacor",
+          "Oprexa",
+          "Ozin",
+          "Ozin ODT",
+          "Prolanza",
+          "Prolanza ODT",
+          "Pryzex",
+          "Pryzex ODT",
+          "Tolaze ODT",
+          "Tolazine ODT",
+          "Torapine ODT",
+          "Torrenia ODT",
+          "Zylap",
+          "Zylap ODT",
+          "Zylapine",
+          "Zylapine ODT",
+          "Zypine",
+          "Zypine ODT",
+          "Zyprexa Relprevv"
+        ],
+        "quetiapine": [
+          "Seroquel",
+          "Aliquen",
+          "Delucon",
+          "Kaptan",
+          "Ketizenol",
+          "Qualez",
+          "Quepine XR",
+          "Quetapen",
+          "Quetia",
+          "Quetia XR",
+          "Quetiaccord",
+          "Quetiaquel XR",
+          "Quetin",
+          "Quipine",
+          "Sequase",
+          "Sequase XR",
+          "Serapine",
+          "Serapine XR",
+          "Seroccord",
+          "Seronia",
+          "Seroquel XR",
+          "Serotiapine XR",
+          "Syquet",
+          "Syquet XR",
+          "Syzopine",
+          "Tevatiapine XR",
+          "Tiapine XR",
+          "Tiava XR",
+          "Xque XR"
+        ],
+        "clozapine": [
+          "Clozaril",
+          "Clopine",
+          "Closyn",
+          "Clozaril ODT",
+          "Clozitor",
+          "Versacloz"
+        ],
+        "aripiprazole": [
+          "Abilify",
+          "Abilify Maintena",
+          "Abilify Asimtufii",
+          "Abilify ODT",
+          "Abipra",
+          "Abyraz",
+          "Aprazole",
+          "Aripic",
+          "Aripra",
+          "Arizole"
+        ],
+        "amisulpride": [
+          "Solian",
+          "Amipride",
+          "Sulprix"
+        ],
+        "paliperidone": [
+          "Invega",
+          "Invega Sustenna",
+          "Invega Trinza",
+          "Invega Hafyera"
+        ],
+        "chlorpromazine": [
+          "Largactil",
+          "Largactil Syrup"
+        ],
+        "lurasidone": [
+          "Latuda",
+          "Bilura",
+          "Latulem",
+          "Lavione",
+          "Luracor",
+          "Luralem",
+          "Luralembic",
+          "Lurobi"
+        ],
+        "brexpiprazole": [
+          "Rexulti"
+        ],
+        "zuclopenthixol": [
+          "Clopixol",
+          "Clopixol Depot",
+          "Clopixol Acuphase"
+        ],
+        "flupentixol": [
+          "Fluanxol",
+          "Fluanxol Depot"
+        ],
+        "fluphenazine": [
+          "Modecate"
+        ],
+        "trifluoperazine": [
+          "Stelazine",
+          "Stelazine Forte",
+          "Stelazine Spansule"
+        ],
+        "periciazine": [
+          "Neulactil"
+        ],
+        "ziprasidone": [
+          "Zeldox",
+          "Ziprox"
+        ],
+        "cariprazine": [
+          "Reagila"
+        ],
+        "asenapine": [
+          "Saphris"
+        ],
+        "flupentixol decanoate": [
+          "Fluanxol",
+          "Fluanxol Depot"
+        ],
+        "fluphenazine decanoate": [
+          "Modecate"
+        ],
+        "paliperidone palmitate": [
+          "Invega Sustenna",
+          "Invega Trinza",
+          "Invega Hafyera"
+        ],
+        "olanzapine pamoate": [
+          "Zyprexa Relprevv"
+        ],
+        "haloperidol decanoate": [
+          "Haldol Decanoate"
+        ],
+        "zuclopenthixol decanoate": [
+          "Clopixol Depot"
+        ],
+        "zuclopenthixol acetate": [
+          "Clopixol Acuphase"
+        ]
+      },
+      "note": "These are the medicines whose movement side effects the group A medicines are used to treat. Quetiapine and clozapine are included here because this criterion covers any antipsychotic. Prochlorperazine and metoclopramide, used for nausea, are not in this group. Long-acting injections and asenapine sublingual wafers count. Generic packs showing an ingredient with a sponsor name count. Match a salt and its base as one supply. Clopixol Acuphase is the acetate injection for acute treatment. Use its own documented interval. Clopixol Depot is the decanoate maintenance injection."
+    }
+  ],
+  "rule_for_models": "If age is unknown and the other evidence supports a finding, report at most a possible finding and ask for the person's age. For a person aged 65 or older, count the days between a Group A anticholinergic supply and a Group B antipsychotic supply and treat the timing condition as met if the gap is 60 days or less or their supply periods overlap. The 60-day date test works even if directions are unclear. For a longer gap, use quantity and directions for tablets or the recorded administration date and prescribed interval for an injection. A documented schedule that links a supply to its injection date can also establish coverage. Only for a pair more than 60 days apart whose periods could still overlap, ask for 'Overlap of the anticholinergic and antipsychotic treatment periods' if the dose, injection date or interval leaves the timing uncertain. Identify the two medicines and supply dates, then check the dated dosing or administration records for that pair. Documented overlap meets the timing condition. If overlap is missing, Not known or cannot be linked to that pair, report at most a possible finding naming that fact, unless another reason rules out the finding. Assess each pair separately. If the supplies are more than 60 days apart and their treatment periods are known to be separate, give no finding even if the indication is missing. Cite both supplies and the indication line when it links the anticholinergic to treatment of a movement side effect of the antipsychotic. If the reason is missing or recorded as Not known, cite both qualifying supplies and report a possible finding that names the missing reason, but report no finding if the only recorded reason is another use.",
+  "cannot_be_seen": "Why the anticholinergic medicine was prescribed (it is also used for Parkinson's disease), whether the person has movement side effects, and medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "Whether the anticholinergic medicine is still needed, and whether a change to the antipsychotic or its dose would remove the movement effects.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Reason for the anticholinergic",
+      "meets": "The record links the Group A medicine to treatment of a movement side effect of the antipsychotic.",
+      "options": [
+        {
+          "words": "This anticholinergic treated movement side effects caused by the antipsychotic under review",
+          "effect": "meets"
+        },
+        {
+          "words": "It was used solely for another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Overlap of the anticholinergic and antipsychotic treatment periods",
+      "meets": "For the two supplies under review, dated dosing or injection records establish that their treatment periods overlapped.",
+      "options": [
+        {
+          "words": "Dated records show that these two treatment periods overlapped",
+          "effect": "meets"
+        },
+        {
+          "words": "Dated records show that these two treatment periods were separate",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

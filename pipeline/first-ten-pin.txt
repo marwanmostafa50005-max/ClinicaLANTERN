@@ -1,0 +1,126 @@
+CRITERION: STOPP-C10
+HISTORY: cases/STOPP-C10/pos-brand.csv
+LINES: L001 L002 L003 L004 L005 L006 L007 L008 L009 L010 L011 L012 L013 L014 L015 L016 L017 L018 L019 L020 L021 L022 L023 L024 L025 L026 L027 L028 L029 L030 L031 L032 L033 L034 L035 L036 L037
+
+--- SCREEN ---
+system
+You are the first screening step of a medicines review tool used by a community pharmacist. You read one fictional patient's dispensing history and decide whether ONE criterion may apply. You never decide the outcome: a second check and then the pharmacist come after you. Brand names count as their ingredient. If you are in doubt, report a suspected finding. Use only lines that exist in the history and quote their IDs exactly. Reply with JSON only.
+
+user
+PATIENT (fictional)
+Fictional patient F-C10-01, male, 71 years
+
+DISPENSING HISTORY (one supply per line, each line starts with its ID)
+L001 | 2026-01-08 | Eliquis 5 mg tablet | qty 60 | repeats 3 | Take ONE tablet twice a day | Dr A. Example
+L002 | 2026-01-08 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 2 | Take ONE tablet in the morning | Dr A. Example
+L003 | 2026-01-08 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 4 | Take ONE tablet daily | Dr A. Example
+L004 | 2026-02-06 | Eliquis 5 mg tablet | qty 60 | repeats 2 | Take ONE tablet twice a day | Dr A. Example
+L005 | 2026-02-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 1 | Take ONE tablet in the morning | Dr A. Example
+L006 | 2026-02-06 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 3 | Take ONE tablet daily | Dr A. Example
+L007 | 2026-03-09 | Eliquis 5 mg tablet | qty 60 | repeats 1 | Take ONE tablet twice a day | Dr A. Example
+L008 | 2026-03-09 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 0 | Take ONE tablet in the morning | Dr A. Example
+L009 | 2026-03-09 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 2 | Take ONE tablet daily | Dr A. Example
+L010 | 2026-03-20 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr A. Example
+L011 | 2026-04-08 | Eliquis 5 mg tablet | qty 60 | repeats 0 | Take ONE tablet twice a day | Dr A. Example
+L012 | 2026-04-08 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 5 | Take ONE tablet in the morning | Dr A. Example
+L013 | 2026-04-08 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 1 | Take ONE tablet daily | Dr A. Example
+L014 | 2026-04-21 | Amoxil (amoxicillin) 500 mg capsule | qty 20 | repeats 0 | Take ONE capsule three times a day until finished | Dr B. Sample
+L015 | 2026-05-07 | Eliquis 5 mg tablet | qty 60 | repeats 5 | Take ONE tablet twice a day | Dr A. Example
+L016 | 2026-05-07 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr A. Example
+L017 | 2026-05-07 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 0 | Take ONE tablet daily | Dr A. Example
+L018 | 2026-05-22 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 1 | Take TWO tablets three times a day | Dr A. Example
+L019 | 2026-06-05 | Eliquis 5 mg tablet | qty 60 | repeats 4 | Take ONE tablet twice a day | Dr A. Example
+L020 | 2026-06-05 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 3 | Take ONE tablet in the morning | Dr A. Example
+L021 | 2026-06-05 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 5 | Take ONE tablet daily | Dr A. Example
+L022 | 2026-06-17 | Mobic 15 mg tablet | qty 30 | repeats 3 | Take ONE tablet daily with food | Dr B. Sample
+L023 | 2026-07-06 | Eliquis 5 mg tablet | qty 60 | repeats 3 | Take ONE tablet twice a day | Dr A. Example
+L024 | 2026-07-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 2 | Take ONE tablet in the morning | Dr A. Example
+L025 | 2026-07-06 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 4 | Take ONE tablet daily | Dr A. Example
+L026 | 2026-07-16 | Mobic 15 mg tablet | qty 30 | repeats 2 | Take ONE tablet daily with food | Dr B. Sample
+L027 | 2026-08-04 | Eliquis 5 mg tablet | qty 60 | repeats 2 | Take ONE tablet twice a day | Dr A. Example
+L028 | 2026-08-04 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 1 | Take ONE tablet in the morning | Dr A. Example
+L029 | 2026-08-04 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 3 | Take ONE tablet daily | Dr A. Example
+L030 | 2026-08-15 | Mobic 15 mg tablet | qty 30 | repeats 1 | Take ONE tablet daily with food | Dr B. Sample
+L031 | 2026-09-03 | Eliquis 5 mg tablet | qty 60 | repeats 1 | Take ONE tablet twice a day | Dr A. Example
+L032 | 2026-09-03 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 0 | Take ONE tablet in the morning | Dr A. Example
+L033 | 2026-09-03 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 2 | Take ONE tablet daily | Dr A. Example
+L034 | 2026-09-14 | Mobic 15 mg tablet | qty 30 | repeats 0 | Take ONE tablet daily with food | Dr B. Sample
+L035 | 2026-10-02 | Eliquis 5 mg tablet | qty 60 | repeats 0 | Take ONE tablet twice a day | Dr A. Example
+L036 | 2026-10-02 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 5 | Take ONE tablet in the morning | Dr A. Example
+L037 | 2026-10-02 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 1 | Take ONE tablet daily | Dr A. Example
+
+CRITERION STOPP C10
+Nonsteroidal anti-inflammatory drugs (NSAIDs) and vitamin K antagonist, direct thrombin inhibitor or factor Xa inhibitors in combination (risk of major gastrointestinal bleeding).
+
+MEDICINES THAT COUNT
+Group A (NSAIDs, the anti-inflammatory pain medicines): celecoxib (Celebrex, Celaxib, Anacoxib, Celebrex Relief, Celetoid, Celexi, Celocox, Kudeq), diclofenac (Voltaren, Voltaren Rapid, Fenac, Clonac, Arthrotec, Cambia, Diclohexal, Difenac Rapid, Dinac, Fenac EC, Imflac, Inflamax Liquid Caps, Voltaren Rapid Extra Strength, Voltaren Rapid Liquid Capsules, Voltfast, Zorvolex), etoricoxib (Arcoxia), ibuprofen (Nurofen, Advil, Brufen, Rafen, Nurofen Plus, Panafen Plus, Nuromol, Maxigesic, Act-3, Advil 12 Hour, Advil Childrens Pain and Fever 2 to 7 Years, Advil Childrens Pain and Fever 7 to 12 Years, Advil Childrens Pain and Fever Relief 2 to 12 Years, Advil Double Strength, Advil Double Strength Caplets, Advil Double Strength Liquid Capsules, Advil Infants Pain and Fever Relief 3 Months to 2 Years, Advil Mini Caps, Advil Rapid Release, Brufen Pain, Brufen Syrup, Bugesic, Butafen, Butalgin, Fenpaed, Fenpaed Double Strength, Iprofen, Nurofen Back Pain, Nurofen Caplet, Nurofen Double Strength, Nurofen Liquid Capsule, Nurofen Meltlets, Nurofen Migraine Pain, Nurofen Period Pain, Nurofen Quickzorb, Nurofen Regular, Nurofen Tension Headache, Nurofen Zavance, Nurofen Zavance Liquid Capsules, Nurofen for Children 1 to 5 Years, Nurofen for Children 3 Months to 5 Years, Nurofen for Children 5 to 12 Years, Nurofen for Children 7+ Years, Nurofen for Children Baby 3+ Months, Nurofen for Children Infant Drops, Nurofen for Children Meltlet, Panafen IB, Panafen IB Mini Cap, Proven, Tri-Profen), indometacin (Indocid, Arthrexin), ketoprofen (Orudis, Oruvail), ketorolac (Toradol, Ketoral), mefenamic acid (Ponstan, Femin, Mefic, Menamic), meloxicam (Mobic, Movalis, Moxicam, Meloxibell, Agilocam, Melobic, Melox, Meloxiauro, Meloxibindo, Mobelox), naproxen (Naprosyn, Naprosyn SR, Anaprox, Inza, Proxen SR, Naprogesic, Aleve, Vimovo, Aleve 24 Hour, Crysanal, Femme-Free, Naprofem, Naprosyn SR 1000, Nurolasts Period Pain, Proxen), piroxicam (Feldene, Mobilis, Candyl, Candyl-D, Feldene-D, Mobilis D, Pirohexal-D), sulindac (Aclin) Note: Tablets, capsules, liquids, suppositories and injections count. Skin gels, creams and eye drops do not count, for example Voltaren Emulgel. Aspirin is not in this group. Nurofen Plus and Panafen Plus are ibuprofen with codeine. Nuromol and Maxigesic are ibuprofen with paracetamol. Arthrotec is diclofenac with misoprostol. Vimovo is naproxen with esomeprazole. Generic packs that show the ingredient name with a company name count too.
+Group B (Warfarin, dabigatran and the factor Xa inhibitors): warfarin (Coumadin, Marevan), dabigatran (Pradaxa), apixaban (Eliquis, Alexibic, Apexa, Apixor, Axibic, Elapex), rivaroxaban (Xarelto, Ixarola, Rivoxa, Relaban, Rivalembic, Rivarelto, Rivator, Rivaxib, Rivaxotor, Roxabic, Roxalem, Roxator, Toriva, Troxa, Xaremed), edoxaban, fondaparinux (Arixtra) Note: Warfarin is the vitamin K antagonist. Dabigatran is the direct thrombin inhibitor. Apixaban, rivaroxaban, edoxaban and fondaparinux are factor Xa inhibitors. No Australian brand is listed for edoxaban. Fondaparinux is an injection. Heparin and enoxaparin are not in this group. Antiplatelet medicines such as aspirin and clopidogrel are not anticoagulants. Generic packs that show the ingredient name with a company name count too.
+
+RULE
+Apply this criterion only to people aged 65 years or older. For a person under 65, report no finding. If age is unknown and the other evidence would support a finding, report it only as possible and identify age as missing. Suspect a finding when at least one Group A medicine (an NSAID) AND at least one Group B medicine (warfarin, dabigatran, apixaban, rivaroxaban, edoxaban or fondaparinux) both appear in the history and their supply dates overlap or fall within 60 days of each other. One supply of each is enough.
+
+TASK
+Decide whether this criterion may apply to this patient. Use only the dispensing history above.
+Return, in this order: reason (one or two short sentences: which of the listed medicines are in the history, and whether the rule is met), medicines (the ingredient names found), line_ids (the ID of every line that holds a medicine that counts and is part of the finding; an empty list when the rule is not met), suspected (true or false).
+
+--- CHECK ---
+system
+You are the second, independent check in a medicines review tool used by a community pharmacist. Another model has reported a suspected finding. Re-read the fictional dispensing history yourself and check it against the criterion. Confirm the finding unless the cited lines clearly do not contain the listed medicines or the rule is clearly not met; if you are unsure, confirm it and say what cannot be seen in a dispensing history. Brand names count as their ingredient. Use only lines that exist in the history and quote their IDs exactly. Reply with JSON only.
+
+user
+PATIENT (fictional)
+Fictional patient F-C10-01, male, 71 years
+
+DISPENSING HISTORY (one supply per line, each line starts with its ID)
+L001 | 2026-01-08 | Eliquis 5 mg tablet | qty 60 | repeats 3 | Take ONE tablet twice a day | Dr A. Example
+L002 | 2026-01-08 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 2 | Take ONE tablet in the morning | Dr A. Example
+L003 | 2026-01-08 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 4 | Take ONE tablet daily | Dr A. Example
+L004 | 2026-02-06 | Eliquis 5 mg tablet | qty 60 | repeats 2 | Take ONE tablet twice a day | Dr A. Example
+L005 | 2026-02-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 1 | Take ONE tablet in the morning | Dr A. Example
+L006 | 2026-02-06 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 3 | Take ONE tablet daily | Dr A. Example
+L007 | 2026-03-09 | Eliquis 5 mg tablet | qty 60 | repeats 1 | Take ONE tablet twice a day | Dr A. Example
+L008 | 2026-03-09 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 0 | Take ONE tablet in the morning | Dr A. Example
+L009 | 2026-03-09 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 2 | Take ONE tablet daily | Dr A. Example
+L010 | 2026-03-20 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr A. Example
+L011 | 2026-04-08 | Eliquis 5 mg tablet | qty 60 | repeats 0 | Take ONE tablet twice a day | Dr A. Example
+L012 | 2026-04-08 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 5 | Take ONE tablet in the morning | Dr A. Example
+L013 | 2026-04-08 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 1 | Take ONE tablet daily | Dr A. Example
+L014 | 2026-04-21 | Amoxil (amoxicillin) 500 mg capsule | qty 20 | repeats 0 | Take ONE capsule three times a day until finished | Dr B. Sample
+L015 | 2026-05-07 | Eliquis 5 mg tablet | qty 60 | repeats 5 | Take ONE tablet twice a day | Dr A. Example
+L016 | 2026-05-07 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr A. Example
+L017 | 2026-05-07 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 0 | Take ONE tablet daily | Dr A. Example
+L018 | 2026-05-22 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 1 | Take TWO tablets three times a day | Dr A. Example
+L019 | 2026-06-05 | Eliquis 5 mg tablet | qty 60 | repeats 4 | Take ONE tablet twice a day | Dr A. Example
+L020 | 2026-06-05 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 3 | Take ONE tablet in the morning | Dr A. Example
+L021 | 2026-06-05 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 5 | Take ONE tablet daily | Dr A. Example
+L022 | 2026-06-17 | Mobic 15 mg tablet | qty 30 | repeats 3 | Take ONE tablet daily with food | Dr B. Sample
+L023 | 2026-07-06 | Eliquis 5 mg tablet | qty 60 | repeats 3 | Take ONE tablet twice a day | Dr A. Example
+L024 | 2026-07-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 2 | Take ONE tablet in the morning | Dr A. Example
+L025 | 2026-07-06 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 4 | Take ONE tablet daily | Dr A. Example
+L026 | 2026-07-16 | Mobic 15 mg tablet | qty 30 | repeats 2 | Take ONE tablet daily with food | Dr B. Sample
+L027 | 2026-08-04 | Eliquis 5 mg tablet | qty 60 | repeats 2 | Take ONE tablet twice a day | Dr A. Example
+L028 | 2026-08-04 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 1 | Take ONE tablet in the morning | Dr A. Example
+L029 | 2026-08-04 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 3 | Take ONE tablet daily | Dr A. Example
+L030 | 2026-08-15 | Mobic 15 mg tablet | qty 30 | repeats 1 | Take ONE tablet daily with food | Dr B. Sample
+L031 | 2026-09-03 | Eliquis 5 mg tablet | qty 60 | repeats 1 | Take ONE tablet twice a day | Dr A. Example
+L032 | 2026-09-03 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 0 | Take ONE tablet in the morning | Dr A. Example
+L033 | 2026-09-03 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 2 | Take ONE tablet daily | Dr A. Example
+L034 | 2026-09-14 | Mobic 15 mg tablet | qty 30 | repeats 0 | Take ONE tablet daily with food | Dr B. Sample
+L035 | 2026-10-02 | Eliquis 5 mg tablet | qty 60 | repeats 0 | Take ONE tablet twice a day | Dr A. Example
+L036 | 2026-10-02 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 5 | Take ONE tablet in the morning | Dr A. Example
+L037 | 2026-10-02 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 1 | Take ONE tablet daily | Dr A. Example
+
+CRITERION STOPP C10
+Nonsteroidal anti-inflammatory drugs (NSAIDs) and vitamin K antagonist, direct thrombin inhibitor or factor Xa inhibitors in combination (risk of major gastrointestinal bleeding).
+
+MEDICINES THAT COUNT
+Group A (NSAIDs, the anti-inflammatory pain medicines): celecoxib (Celebrex, Celaxib, Anacoxib, Celebrex Relief, Celetoid, Celexi, Celocox, Kudeq), diclofenac (Voltaren, Voltaren Rapid, Fenac, Clonac, Arthrotec, Cambia, Diclohexal, Difenac Rapid, Dinac, Fenac EC, Imflac, Inflamax Liquid Caps, Voltaren Rapid Extra Strength, Voltaren Rapid Liquid Capsules, Voltfast, Zorvolex), etoricoxib (Arcoxia), ibuprofen (Nurofen, Advil, Brufen, Rafen, Nurofen Plus, Panafen Plus, Nuromol, Maxigesic, Act-3, Advil 12 Hour, Advil Childrens Pain and Fever 2 to 7 Years, Advil Childrens Pain and Fever 7 to 12 Years, Advil Childrens Pain and Fever Relief 2 to 12 Years, Advil Double Strength, Advil Double Strength Caplets, Advil Double Strength Liquid Capsules, Advil Infants Pain and Fever Relief 3 Months to 2 Years, Advil Mini Caps, Advil Rapid Release, Brufen Pain, Brufen Syrup, Bugesic, Butafen, Butalgin, Fenpaed, Fenpaed Double Strength, Iprofen, Nurofen Back Pain, Nurofen Caplet, Nurofen Double Strength, Nurofen Liquid Capsule, Nurofen Meltlets, Nurofen Migraine Pain, Nurofen Period Pain, Nurofen Quickzorb, Nurofen Regular, Nurofen Tension Headache, Nurofen Zavance, Nurofen Zavance Liquid Capsules, Nurofen for Children 1 to 5 Years, Nurofen for Children 3 Months to 5 Years, Nurofen for Children 5 to 12 Years, Nurofen for Children 7+ Years, Nurofen for Children Baby 3+ Months, Nurofen for Children Infant Drops, Nurofen for Children Meltlet, Panafen IB, Panafen IB Mini Cap, Proven, Tri-Profen), indometacin (Indocid, Arthrexin), ketoprofen (Orudis, Oruvail), ketorolac (Toradol, Ketoral), mefenamic acid (Ponstan, Femin, Mefic, Menamic), meloxicam (Mobic, Movalis, Moxicam, Meloxibell, Agilocam, Melobic, Melox, Meloxiauro, Meloxibindo, Mobelox), naproxen (Naprosyn, Naprosyn SR, Anaprox, Inza, Proxen SR, Naprogesic, Aleve, Vimovo, Aleve 24 Hour, Crysanal, Femme-Free, Naprofem, Naprosyn SR 1000, Nurolasts Period Pain, Proxen), piroxicam (Feldene, Mobilis, Candyl, Candyl-D, Feldene-D, Mobilis D, Pirohexal-D), sulindac (Aclin) Note: Tablets, capsules, liquids, suppositories and injections count. Skin gels, creams and eye drops do not count, for example Voltaren Emulgel. Aspirin is not in this group. Nurofen Plus and Panafen Plus are ibuprofen with codeine. Nuromol and Maxigesic are ibuprofen with paracetamol. Arthrotec is diclofenac with misoprostol. Vimovo is naproxen with esomeprazole. Generic packs that show the ingredient name with a company name count too.
+Group B (Warfarin, dabigatran and the factor Xa inhibitors): warfarin (Coumadin, Marevan), dabigatran (Pradaxa), apixaban (Eliquis, Alexibic, Apexa, Apixor, Axibic, Elapex), rivaroxaban (Xarelto, Ixarola, Rivoxa, Relaban, Rivalembic, Rivarelto, Rivator, Rivaxib, Rivaxotor, Roxabic, Roxalem, Roxator, Toriva, Troxa, Xaremed), edoxaban, fondaparinux (Arixtra) Note: Warfarin is the vitamin K antagonist. Dabigatran is the direct thrombin inhibitor. Apixaban, rivaroxaban, edoxaban and fondaparinux are factor Xa inhibitors. No Australian brand is listed for edoxaban. Fondaparinux is an injection. Heparin and enoxaparin are not in this group. Antiplatelet medicines such as aspirin and clopidogrel are not anticoagulants. Generic packs that show the ingredient name with a company name count too.
+
+RULE
+Apply this criterion only to people aged 65 years or older. For a person under 65, report no finding. If age is unknown and the other evidence would support a finding, report it only as possible and identify age as missing. Suspect a finding when at least one Group A medicine (an NSAID) AND at least one Group B medicine (warfarin, dabigatran, apixaban, rivaroxaban, edoxaban or fondaparinux) both appear in the history and their supply dates overlap or fall within 60 days of each other. One supply of each is enough.
+
+SUSPECTED FINDING FROM THE FIRST STEP
+{"criterion":"STOPP C10","suspected_lines":["L001","L002"],"medicines":["apixaban"],"reason":"Pinned stand-in. Not a model answer."}
+
+Return, in this order: step1_what_matches (one or two short sentences naming the medicines and their dates, or saying what is missing), step2_line_ids (the lines that prove the finding; an empty list when you do not confirm it), step3_what_cannot_be_seen (one sentence: what a dispensing history cannot show, for the doctor to check), step4_confirmed (true or false).

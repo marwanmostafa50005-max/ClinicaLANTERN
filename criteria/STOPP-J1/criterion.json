@@ -1,0 +1,62 @@
+{
+  "id": "STOPP-J1",
+  "label": "STOPP J1",
+  "family": "STOPP_START",
+  "title": "Long-acting sulfonylurea in type 2 diabetes",
+  "statement": "Sulphonylureas with a long half-life (e.g., glibenclamide, chlorpropamide, glimepiride) with type 2 diabetes mellitus (risk of prolonged hypoglycaemia).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Long-acting sulfonylureas such as glibenclamide and glimepiride can cause low blood sugar that lasts a long time in older people with type 2 diabetes.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Long-acting sulfonylureas",
+      "ingredients": [
+        "glibenclamide",
+        "glimepiride",
+        "chlorpropamide"
+      ],
+      "brands": {
+        "glibenclamide": [
+          "Daonil",
+          "Glimel",
+          "Semi-Daonil",
+          "Glucovance"
+        ],
+        "glimepiride": [
+          "Amaryl",
+          "Aylide",
+          "Diapride",
+          "Dimirel",
+          "Glimaccord",
+          "Glimepro",
+          "Gliride"
+        ],
+        "chlorpropamide": []
+      },
+      "note": "Immediate-release glipizide and gliclazide (including modified-release gliclazide) are outside this group. Chlorpropamide is not sold in Australia, so it has no brand. Generic packs that show the ingredient name with a company name count too. Glucovance contains glibenclamide with metformin."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Type 2 diabetes",
+      "meets": "A condition line that says the person has type 2 diabetes mellitus"
+    }
+  ],
+  "rule_for_models": "Apply J1 only to people aged 65 or older. If age is unknown and the other criteria could be met, report only a possible finding and ask the pharmacist to confirm whether the person is 65 or older. For a Group A supply (excluding immediate-release glipizide and all forms of gliclazide), cite the supply lines and the condition line if it confirms type 2 diabetes mellitus, report a possible finding and ask whether the person has type 2 diabetes if the diagnosis is missing or the diabetes type is unknown, or report no finding if the record rules out type 2 diabetes.",
+  "cannot_be_seen": "Diabetes type, glucose, HbA1c, kidney function and past low blood sugar episodes may be missing. Use the recorded facts and prescribed dose when available. The record cannot confirm the dose actually taken or events recorded elsewhere.",
+  "ask_the_gp": "A review of whether a shorter-acting diabetes medicine would suit this person better, taking into account any low blood sugar episodes.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

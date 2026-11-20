@@ -1,0 +1,44 @@
+[
+  {
+    "file": "NHSBSA-PAIN01-2/pos-brand.csv",
+    "kind": "positive",
+    "about": "OxyContin and Stilnox are supplied by brand only on 6 June 2026 to an adult, so an oral opioid and a Z-drug are concurrent.",
+    "findings": [
+      {
+        "criterion": "NHSBSA-PAIN01-2",
+        "must_cite": [
+          [
+            "L019"
+          ],
+          [
+            "L020"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "NHSBSA-PAIN01-2/pos-buried.csv",
+    "kind": "positive",
+    "about": "Imovane is supplied with the latest of three OxyContin supplies in the middle of a 14-month history, with all three opioid supplies within 60 days of the Z-drug.",
+    "findings": [
+      {
+        "criterion": "NHSBSA-PAIN01-2",
+        "must_cite": [
+          [
+            "L041"
+          ],
+          [
+            "L043"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "NHSBSA-PAIN01-2/near-miss.csv",
+    "kind": "near_miss",
+    "about": "OxyContin was supplied on 6 January 2026 and Stilnox on 6 June 2026, 151 days apart, so the supplies are not concurrent and are more than 60 days apart.",
+    "findings": []
+  }
+]

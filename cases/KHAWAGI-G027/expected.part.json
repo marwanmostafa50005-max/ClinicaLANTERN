@@ -1,0 +1,41 @@
+[
+  {
+    "file": "KHAWAGI-G027/pos-fact.csv",
+    "kind": "positive",
+    "about": "Chronic heart failure was documented before the supply of nortriptyline at 75 mg nightly.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G027",
+        "must_cite": [
+          [
+            "L025"
+          ],
+          [
+            "L026"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G027/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about chronic heart failure and the directions do not establish the daily amitriptyline dose.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G027",
+        "must_cite": [
+          [
+            "L017"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G027/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The cardiology assessment rules out chronic heart failure before the low-dose nortriptyline supply.",
+    "findings": []
+  }
+]

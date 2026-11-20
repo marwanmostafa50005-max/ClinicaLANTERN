@@ -1,0 +1,41 @@
+[
+  {
+    "file": "STOPP-E10/pos-fact.csv",
+    "kind": "positive",
+    "about": "The 22 September Methoblastin supply covers ongoing weekly treatment at the last record date, and the latest eGFR is 27 mL/min/1.73 m2.",
+    "findings": [
+      {
+        "criterion": "STOPP-E10",
+        "must_cite": [
+          [
+            "L046"
+          ],
+          [
+            "L023"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-E10/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the 11 August Methoblastin supply covers weekly treatment at the last record date, but the record has no eGFR result.",
+    "findings": [
+      {
+        "criterion": "STOPP-E10",
+        "must_cite": [
+          [
+            "L027"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-E10/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The eGFR was 71 mL/min/1.73 m2 during treatment. The final methotrexate dose was on 26 August. The eGFR was 26 mL/min/1.73 m2 on 16 September, with no further methotrexate supply.",
+    "findings": []
+  }
+]

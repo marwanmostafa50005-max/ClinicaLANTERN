@@ -1,0 +1,46 @@
+[
+  {
+    "file": "BANSAL-S10/pos-brand.csv",
+    "kind": "positive",
+    "about": "Palexia SR (tapentadol) is supplied monthly from April to July 2026, and one supply of Temaze (temazepam), both by brand name only, is made on 10 June 2026 while the Palexia supply of 3 June is still running.",
+    "findings": [
+      {
+        "criterion": "BANSAL-S10",
+        "must_cite": [
+          [
+            "L018",
+            "L023"
+          ],
+          [
+            "L022"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BANSAL-S10/pos-buried.csv",
+    "kind": "positive",
+    "about": "Tramadol is prescribed for 14 to 23 January 2026 and diazepam for 20 to 29 January. The prescribed courses overlap on 20 to 23 January.",
+    "findings": [
+      {
+        "criterion": "BANSAL-S10",
+        "must_cite": [
+          [
+            "L036",
+            "L038"
+          ],
+          [
+            "L037"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BANSAL-S10/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The February diazepam supply is within 60 days of as-needed oxycodone, but the prescriber stopped oxycodone before diazepam was prescribed and the July supply is later still.",
+    "findings": []
+  }
+]

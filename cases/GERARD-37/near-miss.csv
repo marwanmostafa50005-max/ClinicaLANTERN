@@ -1,0 +1,30 @@
+patient_ref,patient_age,patient_sex,record_type,dispense_date,medicine,brand,strength,form,quantity,repeats_left,directions,prescriber,detail,value
+F-G37-03,59,F,,2026-01-10,atorvastatin,,20 mg,tablet,30,5,Take one tablet at night.,Dr A. Example,,
+F-G37-03,59,F,condition,2026-01-10,,,,,,,,,Type 2 diabetes,Confirmed and ongoing.
+F-G37-03,59,F,,2026-01-12,latanoprost,,50 micrograms/mL,eye drops,2.5 mL,5,Instil one drop in each eye at night. Discard 28 days after opening.,Dr A. Example,,
+F-G37-03,59,F,,2026-01-14,amlodipine,,5 mg,tablet,30,5,Take one tablet each morning.,Dr A. Example,,
+F-G37-03,59,F,,2026-02-09,atorvastatin,,20 mg,tablet,30,4,Take one tablet at night.,Dr A. Example,,
+F-G37-03,59,F,,2026-02-09,latanoprost,,50 micrograms/mL,eye drops,2.5 mL,4,Instil one drop in each eye at night. Discard 28 days after opening.,Dr A. Example,,
+F-G37-03,59,F,,2026-02-13,amlodipine,,5 mg,tablet,30,4,Take one tablet each morning.,Dr A. Example,,
+F-G37-03,59,F,,2026-03-09,latanoprost,,50 micrograms/mL,eye drops,2.5 mL,3,Instil one drop in each eye at night. Discard 28 days after opening.,Dr A. Example,,
+F-G37-03,59,F,,2026-03-11,atorvastatin,,20 mg,tablet,30,3,Take one tablet at night.,Dr A. Example,,
+F-G37-03,59,F,,2026-03-15,amlodipine,,5 mg,tablet,30,3,Take one tablet each morning.,Dr A. Example,,
+F-G37-03,59,F,,2026-04-06,latanoprost,,50 micrograms/mL,eye drops,2.5 mL,2,Instil one drop in each eye at night. Discard 28 days after opening.,Dr A. Example,,
+F-G37-03,59,F,,2026-04-10,atorvastatin,,20 mg,tablet,30,2,Take one tablet at night.,Dr A. Example,,
+F-G37-03,59,F,,2026-04-14,amlodipine,,5 mg,tablet,30,2,Take one tablet each morning.,Dr A. Example,,
+F-G37-03,59,F,,2026-05-04,latanoprost,,50 micrograms/mL,eye drops,2.5 mL,1,Instil one drop in each eye at night. Discard 28 days after opening.,Dr A. Example,,
+F-G37-03,59,F,,2026-05-10,atorvastatin,,20 mg,tablet,30,1,Take one tablet at night.,Dr A. Example,,
+F-G37-03,59,F,,2026-05-14,amlodipine,,5 mg,tablet,30,1,Take one tablet each morning.,Dr A. Example,,
+F-G37-03,59,F,,2026-06-01,latanoprost,,50 micrograms/mL,eye drops,2.5 mL,0,Instil one drop in each eye at night. Discard 28 days after opening.,Dr A. Example,,
+F-G37-03,59,F,,2026-06-09,atorvastatin,,20 mg,tablet,30,0,Take one tablet at night.,Dr A. Example,,
+F-G37-03,59,F,,2026-06-13,amlodipine,,5 mg,tablet,30,0,Take one tablet each morning.,Dr A. Example,,
+F-G37-03,59,F,,2026-06-29,latanoprost,,50 micrograms/mL,eye drops,2.5 mL,5,Instil one drop in each eye at night. Discard 28 days after opening.,Dr A. Example,,
+F-G37-03,59,F,,2026-07-09,atorvastatin,,20 mg,tablet,30,5,Take one tablet at night.,Dr A. Example,,
+F-G37-03,59,F,,2026-07-13,amlodipine,,5 mg,tablet,30,5,Take one tablet each morning.,Dr A. Example,,
+F-G37-03,59,F,,2026-07-27,latanoprost,,50 micrograms/mL,eye drops,2.5 mL,4,Instil one drop in each eye at night. Discard 28 days after opening.,Dr A. Example,,
+F-G37-03,59,F,,2026-08-08,atorvastatin,,20 mg,tablet,30,4,Take one tablet at night.,Dr A. Example,,
+F-G37-03,59,F,,2026-08-12,amlodipine,,5 mg,tablet,30,4,Take one tablet each morning.,Dr A. Example,,
+F-G37-03,59,F,,2026-08-15,dulaglutide,Trulicity,1.5 mg/0.5 mL,pre-filled pen,4,4,Inject the contents of one pen under the skin once a week.,Dr A. Example,,
+F-G37-03,59,F,condition,2026-08-15,,,,,,,,,History of gallstones,No past or current gallstones.
+F-G37-03,59,F,condition,2026-08-18,,,,,,,,,Malnutrition,Dietitian assessment completed. Malnutrition excluded.
+F-G37-03,59,F,observation,2026-08-18,,,,,,,,,BMI,24.5 kg/m²

@@ -1,0 +1,23 @@
+2025-10-30 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 0 | Take TWO tablets daily with the evening meal | Dr A. Ex
+2025-10-30 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 4 | Take ONE tablet daily | Dr A. Ex
+2025-11-17 | Coumadin (warfarin) 2 mg tablet | qty 50 | repeats 1 | Take as directed by your doctor according to your INR result | Dr A. Ex
+2025-11-28 | Avapro (irbesartan) 150 mg tablet | qty 30 | repeats 0 | Take ONE tablet daily | Dr A. Ex
+2025-11-28 | Lipitor (atorvastatin) 20 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr A. Ex
+2025-11-28 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 5 | Take TWO tablets daily with the evening meal | Dr A. Ex
+2025-11-28 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 3 | Take ONE tablet daily | Dr A. Ex
+2025-12-10 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr A. Ex
+2025-12-29 | Avapro (irbesartan) 150 mg tablet | qty 30 | repeats 5 | Take ONE tablet daily | Dr A. Ex
+2025-12-29 | Lipitor (atorvastatin) 20 mg tablet | qty 30 | repeats 3 | Take ONE tablet at night | Dr A. Ex
+2025-12-29 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take TWO tablets daily with the evening meal | Dr A. Ex
+2025-12-29 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 2 | Take ONE tablet daily | Dr A. Ex
+2025-12-29 | Coumadin (warfarin) 2 mg tablet | qty 50 | repeats 0 | Take as directed by your doctor according to your INR result | Dr A. Ex
+2026-01-14 | Naprosyn SR (naproxen) 750 mg modified release tablet | qty 28 | repeats 3 | Take ONE tablet daily with food | Dr B. Sa
+2026-01-27 | Avapro (irbesartan) 150 mg tablet | qty 30 | repeats 4 | Take ONE tablet daily | Dr A. Ex
+2026-01-27 | Lipitor (atorvastatin) 20 mg tablet | qty 30 | repeats 2 | Take ONE tablet at night | Dr A. Ex
+2026-01-27 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 3 | Take TWO tablets daily with the evening meal | Dr A. Ex
+2026-01-27 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 1 | Take ONE tablet daily | Dr A. Ex
+2026-01-27 | Naprosyn SR (naproxen) 750 mg modified release tablet | qty 28 | repeats 2 | Take ONE tablet daily with food | Dr B. Sa
+2026-02-12 | Naprosyn SR (naproxen) 750 mg modified release tablet | qty 28 | repeats 2 | Take ONE tablet daily with food | Dr B. Sa
+2026-02-19 | Coumadin (warfarin) 2 mg tablet | qty 50 | repeats 2 | Take as directed by your doctor according to your INR result | Dr A. Ex
+2026-02-25 | Avapro (irbesartan) 150 mg tablet | qty 30 | repeats 3 | Take ONE tablet daily | Dr A. Ex
+2026-02-25 | Lipitor (atorvastatin) 20 mg tablet | qty 30 | repeats 1 | Take ONE tablet at night | Dr A. Ex

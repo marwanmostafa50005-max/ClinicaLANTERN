@@ -1,0 +1,47 @@
+[
+  {
+    "file": "PINCER-6/pos-fact.csv",
+    "kind": "positive",
+    "about": "Warfarin (Marevan) is supplied every 13 weeks from November 2025 to September 2026. The newest INR is dated 28 April 2026, more than three months before the end of the record.",
+    "findings": [
+      {
+        "criterion": "PINCER-6",
+        "must_cite": [
+          [
+            "L032"
+          ],
+          [
+            "L042"
+          ],
+          [
+            "L027"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PINCER-6/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about an INR. Coumadin (warfarin) is supplied by brand name four times in the last 12 months.",
+    "findings": [
+      {
+        "criterion": "PINCER-6",
+        "must_cite": [
+          [
+            "L018"
+          ],
+          [
+            "L027"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PINCER-6/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Warfarin is supplied four times, but INR checks are recorded on 11 August, 8 September and 6 October 2026, inside the last three months.",
+    "findings": []
+  }
+]

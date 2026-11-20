@@ -1,0 +1,45 @@
+[
+  {
+    "file": "STOPP-C6/pos-brand.csv",
+    "kind": "positive",
+    "about": "Tilodene identifies the five ticlopidine supplies from February to June 2026.",
+    "findings": [
+      {
+        "criterion": "STOPP-C6",
+        "must_cite": [
+          [
+            "L010",
+            "L014",
+            "L018",
+            "L022",
+            "L026"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-C6/pos-buried.csv",
+    "kind": "positive",
+    "about": "Ticlopidine is supplied four times from January to April 2026, in the middle of a 14-month history.",
+    "findings": [
+      {
+        "criterion": "STOPP-C6",
+        "must_cite": [
+          [
+            "L037",
+            "L042",
+            "L048",
+            "L053"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-C6/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Plavix (clopidogrel), a similar medicine, is supplied eight times. It is not ticlopidine, so there is no finding.",
+    "findings": []
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "file": "START-D4/pos-fact.csv",
+    "kind": "positive",
+    "about": "Dementia with Lewy bodies is recorded, and no rivastigmine is supplied in the whole history.",
+    "findings": [
+      {
+        "criterion": "START-D4",
+        "must_cite": [
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-D4/near-miss-nofact.csv",
+    "kind": "near_miss",
+    "about": "The record holds no dementia diagnosis and no rivastigmine supply, so the omission cannot be established.",
+    "findings": []
+  },
+  {
+    "file": "START-D4/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Parkinson's disease dementia is recorded, and rivastigmine (Exelon patch) is supplied every month through the last six months, so nothing is missing.",
+    "findings": []
+  },
+  {
+    "file": "START-D4/pos-mixed-dementia.csv",
+    "kind": "positive",
+    "about": "Dementia with Lewy bodies still qualifies when vascular dementia is also recorded and no rivastigmine is supplied.",
+    "findings": [
+      {
+        "criterion": "START-D4",
+        "must_cite": [
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "file": "STOPP-D7/pos-fact.csv",
+    "kind": "positive",
+    "about": "The January upper gastrointestinal bleed occurred during Aropax treatment, and a further significant bleed occurred the day before the latest supply.",
+    "findings": [
+      {
+        "criterion": "STOPP-D7",
+        "must_cite": [
+          [
+            "L041"
+          ],
+          [
+            "L042"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-D7/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about bleeding anywhere, although fluoxetine (an SSRI) is supplied monthly.",
+    "findings": [
+      {
+        "criterion": "STOPP-D7",
+        "must_cite": [
+          [
+            "L030"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-D7/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Lexapro (escitalopram, an SSRI) is supplied monthly, but the only bleeding line is a minor nosebleed that settled without treatment, which is not significant bleeding, so it must not flag.",
+    "findings": []
+  }
+]

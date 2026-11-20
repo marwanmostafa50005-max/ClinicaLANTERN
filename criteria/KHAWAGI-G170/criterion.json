@@ -1,0 +1,626 @@
+{
+  "id": "KHAWAGI-G170",
+  "label": "Khawagi review: Review apparent antidepressant monotherapy for a documented episode of acute bipolar depression in an adult",
+  "family": "KHAWAGI",
+  "title": "Review apparent antidepressant monotherapy for a documented episode of acute bipolar depression in an adult",
+  "statement": "Review apparent antidepressant monotherapy for a documented episode of acute bipolar depression in an adult.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review, S3 File",
+    "citation": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. PLoS ONE 2019;14(5):e0217406, S3 File.",
+    "doi": "10.1371/journal.pone.0217406",
+    "url": "https://doi.org/10.1371/journal.pone.0217406.s003",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. PLoS ONE 2019;14(5):e0217406. https://doi.org/10.1371/journal.pone.0217406; S3 File, https://doi.org/10.1371/journal.pone.0217406.s003. © 2019 Khawagi et al., CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). S3 item G170. Original screening wording and Australian adaptations. S3 reference(s) as indexed in the supplied qualification: [49]. Clinical cross-check: RANZCP mood guideline (https://www.ranzcp.org/getmedia/a4678cf4-91f5-4746-99d4-03dc7379ae51/mood-disorders-clinical-practice-guideline-2020.pdf).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "Review apparent antidepressant monotherapy for a documented episode of acute bipolar depression in an adult.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antidepressants",
+      "ingredients": [
+        "agomelatine",
+        "amitriptyline",
+        "citalopram",
+        "clomipramine",
+        "desvenlafaxine",
+        "dosulepin",
+        "doxepin",
+        "duloxetine",
+        "escitalopram",
+        "fluoxetine",
+        "fluvoxamine",
+        "imipramine",
+        "mianserin",
+        "mirtazapine",
+        "moclobemide",
+        "nortriptyline",
+        "paroxetine",
+        "phenelzine",
+        "reboxetine",
+        "sertraline",
+        "tranylcypromine",
+        "trimipramine",
+        "venlafaxine",
+        "vortioxetine"
+      ],
+      "brands": {
+        "agomelatine": [
+          "Agomelatine (Ardix)",
+          "Agomelatine (Lupin)",
+          "Agomelatine (Sandoz)",
+          "Agomelatine (Wgr)",
+          "Domion",
+          "Nortim",
+          "Valdoxan",
+          "Valomel"
+        ],
+        "amitriptyline": [
+          "Amichlor",
+          "Amidep",
+          "Amitriptyline (Ac)",
+          "Amitriptyline (Alphapharm)",
+          "Amitriptyline (An)",
+          "Amitriptyline (Apo)",
+          "Amitriptyline (Apx)",
+          "Amitriptyline (Blooms The Chemist)",
+          "Amitriptyline (Ch)",
+          "Amitriptyline (Gppl)",
+          "Amitriptyline (Gxp)",
+          "Amitriptyline (Lupin)",
+          "Amitriptyline (Mylan)",
+          "Amitriptyline (Pn)",
+          "Endep"
+        ],
+        "citalopram": [
+          "Abbapram",
+          "Celapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Cipramil",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Citalopram (A)",
+          "Citalopram (Actavis)",
+          "Citalopram (Amneal)",
+          "Citalopram (An)",
+          "Citalopram (Apl)"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Clomipramine (Apo)",
+          "Clomipramine (Wgr)",
+          "Clomipramine Hydrochloride (Chemmart)",
+          "Clomipramine Hydrochloride (Genrx)",
+          "Clomipramine Hydrochloride (Terry White Chemists)",
+          "Placil"
+        ],
+        "desvenlafaxine": [
+          "Desfax",
+          "Desven",
+          "Desvenlafaxine (Actavis)",
+          "Desvenlafaxine (Au)",
+          "Desvenlafaxine (Btc)",
+          "Desvenlafaxine (Medis)",
+          "Desvenlafaxine (Sandoz Pharma)",
+          "Desvenlafaxine (Sandoz)",
+          "Desvenlafaxine (Viatris)",
+          "Desvenlafaxine Mr (Apo)",
+          "Desvenlafaxine Mr (Apotex)",
+          "Desvenlafaxine Mr (Blooms The Chemist)",
+          "Desvenlafaxine Xr (Gh)",
+          "Desvenlafaxine Xr (Wgr)",
+          "Pristiq"
+        ],
+        "dosulepin": [
+          "Dosulepin (Mylan)",
+          "Dosulepin (Viatris)",
+          "Dothep",
+          "Prothiaden"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "duloxetine": [
+          "Andepra",
+          "Baltine",
+          "Coperin",
+          "Cymbalta",
+          "Deotine",
+          "Depreta",
+          "Drulox",
+          "Dulocym",
+          "Duloxecor",
+          "Duloxetine (Agh)",
+          "Duloxetine (Alembic)",
+          "Duloxetine (An)",
+          "Duloxetine (Apo)",
+          "Duloxetine (Apotex)"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esipram",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam",
+          "Loxalate"
+        ],
+        "fluoxetine": [
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Fluoxetine (An)",
+          "Fluoxetine (Apo)",
+          "Fluoxetine (Apotex)",
+          "Fluoxetine (Arrow)",
+          "Fluoxetine (Ascent)",
+          "Fluoxetine (Blooms The Chemist)",
+          "Fluoxetine (Btc)",
+          "Fluoxetine (Chemmart)",
+          "Fluoxetine (Dp)",
+          "Fluoxetine (Ga)",
+          "Prozac",
+          "Lovan"
+        ],
+        "fluvoxamine": [
+          "Faverin",
+          "Fluvoxamine (An)",
+          "Fluvoxamine (Apotex)",
+          "Fluvoxamine (Chemmart)",
+          "Fluvoxamine (Terry White Chemists)",
+          "Fluvoxamine (Wgr)",
+          "Fluvoxamine Maleate (Apo)",
+          "Fluvoxamine Maleate (Ga)",
+          "Luvox",
+          "Movox",
+          "Voxam"
+        ],
+        "imipramine": [
+          "Imipramine Hcl (Leading Pharma)",
+          "Melipramine",
+          "Tofranil",
+          "Tolerade"
+        ],
+        "mianserin": [
+          "Lumin",
+          "Tolvon"
+        ],
+        "mirtazapine": [
+          "Aurozapine",
+          "Avanza",
+          "Avanza Soltab",
+          "Axit",
+          "Milivin Od",
+          "Mirtanza",
+          "Mirtanza Odt",
+          "Mirtazapine (An)",
+          "Mirtazapine (Apo)",
+          "Mirtazapine (Apx)",
+          "Mirtazapine (Arw)",
+          "Mirtazapine (Auro)",
+          "Mirtazapine (Blooms The Chemist)",
+          "Mirtazapine (Chemmart)"
+        ],
+        "moclobemide": [
+          "Amira",
+          "Arima",
+          "Aurorix",
+          "Clobemide",
+          "Clobemix",
+          "Maosig",
+          "Moclobemide (An)",
+          "Moclobemide (Apo)",
+          "Moclobemide (Chemmart)",
+          "Moclobemide (Genrx)",
+          "Moclobemide (Ps)",
+          "Moclobemide (Sandoz)",
+          "Moclobemide (Str)",
+          "Moclobemide (Terry White Chemists)"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortriptyline (Apo)",
+          "Nortritabs"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Aropax Cr",
+          "Extine",
+          "Oxetine",
+          "Paroxetine (Actavis)",
+          "Paroxetine (Amneal)",
+          "Paroxetine (An)",
+          "Paroxetine (Apo)",
+          "Paroxetine (Apotex)",
+          "Paroxetine (Apx)",
+          "Paroxetine (Blooms The Chemist)",
+          "Paroxetine (Chemmart)",
+          "Paroxetine (Dp)",
+          "Paroxetine (Ga)"
+        ],
+        "phenelzine": [
+          "Nardil",
+          "Nardil (Canada)",
+          "Phenelzine Sulfate (Lupin)"
+        ],
+        "reboxetine": [
+          "Edronax"
+        ],
+        "sertraline": [
+          "Zoloft",
+          "Concorz",
+          "Detralon",
+          "Eleva",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Setrona",
+          "Tralen",
+          "Xydep"
+        ],
+        "tranylcypromine": [
+          "Parnate",
+          "Parpromine",
+          "Tranamef",
+          "Tranylmed"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ],
+        "venlafaxine": [
+          "Altven",
+          "Efexor-Xr",
+          "Elaxine Sr",
+          "Enlafax Xr",
+          "Evelexa Xr",
+          "Ozvenaf",
+          "Venfax Sr",
+          "Venla",
+          "Venlafaxine Sr (An)",
+          "Venlafaxine Sr (Scp)",
+          "Venlafaxine Sr (Stada)",
+          "Venlafaxine Xr (Actavis)",
+          "Venlafaxine Xr (Apo)",
+          "Venlafaxine Xr (Arw)"
+        ],
+        "vortioxetine": [
+          "Brintellix"
+        ]
+      }
+    },
+    {
+      "key": "B",
+      "name": "Ongoing mood stabilisers or scheduled antipsychotics for mood treatment",
+      "ingredients": [
+        "amisulpride",
+        "aripiprazole",
+        "asenapine",
+        "brexpiprazole",
+        "carbamazepine",
+        "cariprazine",
+        "chlorpromazine",
+        "clozapine",
+        "droperidol",
+        "flupentixol",
+        "fluphenazine",
+        "haloperidol",
+        "lamotrigine",
+        "lithium carbonate",
+        "lurasidone",
+        "olanzapine",
+        "paliperidone",
+        "periciazine",
+        "quetiapine",
+        "risperidone",
+        "sodium valproate",
+        "trifluoperazine",
+        "ziprasidone",
+        "zuclopenthixol",
+        "flupentixol decanoate",
+        "fluphenazine decanoate",
+        "valproic acid"
+      ],
+      "brands": {
+        "amisulpride": [
+          "Amipride",
+          "Amisulpride (Ajs)",
+          "Amisulpride (An)",
+          "Amisulpride (Apo)",
+          "Amisulpride (Apotex)",
+          "Amisulpride (Ch)",
+          "Amisulpride (Pharmacor)",
+          "Amisulpride (Sandoz Pharma)",
+          "Amisulpride (Sandoz)",
+          "Amisulpride (Sanofi)",
+          "Amisulpride (Scp)",
+          "Amisulpride (Wgr)",
+          "Amisulpride (Winthrop)",
+          "Solian"
+        ],
+        "aripiprazole": [
+          "Abilify",
+          "Abilify ODT",
+          "Abipra",
+          "Abyraz",
+          "Aprazole",
+          "Aripic",
+          "Aripra",
+          "Arizole",
+          "Abilify Maintena",
+          "Abilify Asimtufii"
+        ],
+        "asenapine": [
+          "Saphris"
+        ],
+        "brexpiprazole": [
+          "Rexulti"
+        ],
+        "carbamazepine": [
+          "Tegretol CR",
+          "Avloire",
+          "Avloire CR",
+          "Tegretol",
+          "Teril"
+        ],
+        "cariprazine": [
+          "Reagila"
+        ],
+        "chlorpromazine": [
+          "Chlorpromazine Hydrochloride Mixture (Orion)",
+          "Chlorpromazine Hydrochloride Mixture Forte (Orion)",
+          "Largactil",
+          "Largactil Syrup"
+        ],
+        "clozapine": [
+          "Clopine",
+          "Closyn",
+          "Clozapine (Akm)",
+          "Clozapine (Mylan)",
+          "Clozapine (Pharmacor)",
+          "Clozaril",
+          "Clozaril Odt",
+          "Clozitor",
+          "Versacloz"
+        ],
+        "droperidol": [],
+        "flupentixol": [],
+        "fluphenazine": [],
+        "haloperidol": [
+          "Haloperidol (Medicianz)",
+          "Haloperidol (Medsurge)",
+          "Serenace",
+          "Haldol Decanoate"
+        ],
+        "lamotrigine": [
+          "Lamictal",
+          "Elmendos",
+          "Lamidus",
+          "Lamitan",
+          "Lamitrin",
+          "Lamogine",
+          "Lamotran",
+          "Lamotrust",
+          "Logem",
+          "Motrig",
+          "Munatrep",
+          "Reedos",
+          "Seaze",
+          "Torlemo DT",
+          "Tortrigine DT"
+        ],
+        "lithium carbonate": [
+          "Lithicarb",
+          "Lithicarb SR",
+          "Lithquil SR",
+          "Lithspen",
+          "Quilonum SR"
+        ],
+        "lurasidone": [
+          "Bilura",
+          "Latuda",
+          "Latulem",
+          "Lavione",
+          "Luracor",
+          "Luralem",
+          "Luralembic",
+          "Lurasidone (Agh)",
+          "Lurasidone (Aghl)",
+          "Lurasidone (Alembic)",
+          "Lurasidone (Apl)",
+          "Lurasidone (Apo)",
+          "Lurasidone (Appl)",
+          "Lurasidone (Ardix)"
+        ],
+        "olanzapine": [
+          "Zyprexa",
+          "Aprolan",
+          "Aprolan ODT",
+          "Lanez",
+          "Lanez ODT",
+          "Lanzek",
+          "Lanzek Zydis",
+          "Lonza",
+          "Lonza ODT",
+          "Lyprosia",
+          "Lyprosia ODT",
+          "Olancor",
+          "Olanza",
+          "Olanzaccord",
+          "Olanzacor",
+          "Oprexa",
+          "Ozin",
+          "Ozin ODT",
+          "Prolanza",
+          "Prolanza ODT",
+          "Pryzex",
+          "Pryzex ODT",
+          "Tolaze ODT",
+          "Tolazine ODT",
+          "Torapine ODT",
+          "Torrenia ODT",
+          "Zylap",
+          "Zylap ODT",
+          "Zylapine",
+          "Zylapine ODT",
+          "Zypine",
+          "Zypine ODT",
+          "Zyprexa Zydis",
+          "Zyprexa Relprevv"
+        ],
+        "paliperidone": [
+          "Invega",
+          "Invega Hafyera",
+          "Invega Sustenna",
+          "Invega Trinza",
+          "Palmeux",
+          "Trevicta"
+        ],
+        "periciazine": [
+          "Neulactil"
+        ],
+        "quetiapine": [
+          "Seroquel",
+          "Aliquen",
+          "Delucon",
+          "Kaptan",
+          "Ketizenol",
+          "Qualez",
+          "Quepine XR",
+          "Quetapen",
+          "Quetia",
+          "Quetia XR",
+          "Quetiaccord",
+          "Quetiaquel XR",
+          "Quetin",
+          "Quipine",
+          "Sequase",
+          "Sequase XR",
+          "Serapine",
+          "Serapine XR",
+          "Seroccord",
+          "Seronia",
+          "Seroquel XR",
+          "Serotiapine XR",
+          "Syquet",
+          "Syquet XR",
+          "Syzopine",
+          "Tevatiapine XR",
+          "Tiapine XR",
+          "Tiava XR",
+          "Xque XR"
+        ],
+        "risperidone": [
+          "Risperdal",
+          "Ozidal",
+          "Resdone",
+          "Respaz",
+          "Risdone",
+          "Rispa",
+          "Rispaccord",
+          "Rispaccord-0.5",
+          "Risperdal Quicklet",
+          "Risperibell",
+          "Rispericor",
+          "Rispericor-0.5",
+          "Risperisan",
+          "Rispernia",
+          "Rixadone",
+          "Sperid",
+          "Risperdal Consta",
+          "Uzedy"
+        ],
+        "sodium valproate": [
+          "Epilim EC200",
+          "Epilim",
+          "Epilim EC500",
+          "Epilim Liquid",
+          "Valpro EC",
+          "Valprease 200",
+          "Valprease 500"
+        ],
+        "trifluoperazine": [
+          "Stelazine",
+          "Stelazine Forte",
+          "Stelazine Spansule"
+        ],
+        "ziprasidone": [
+          "Zeldox",
+          "Ziprasidone (Apo)",
+          "Ziprasidone (Genpar)",
+          "Ziprasidone (Gh)",
+          "Ziprasidone (Wgr)",
+          "Ziprasidone Titration Pack (Apo)",
+          "Ziprox"
+        ],
+        "zuclopenthixol": [
+          "Clopixol",
+          "Clopixol Depot"
+        ],
+        "flupentixol decanoate": [
+          "Fluanxol Concentrated Depot",
+          "Fluanxol Depot"
+        ],
+        "fluphenazine decanoate": [
+          "Modecate"
+        ],
+        "valproic acid": []
+      },
+      "note": "Look for ongoing lithium carbonate, sodium valproate, carbamazepine or lamotrigine, or a scheduled antipsychotic for mood treatment. Check for companion supplies on the antidepressant date or within 60 days before or after. Use dates, quantities and directions to assess overlap, including an earlier supply still covering the episode. Exclude short antiemetic or procedural courses. A brand identifies a candidate companion only. Require evidence that it was scheduled for mood treatment and covered the episode. Check the actual injection interval for a depot. A one-off procedural, antiemetic or emergency dose does not clear a finding."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Reason for this antidepressant at the supply under review",
+      "meets": "For the antidepressant supply under review, establish both a current acute bipolar depressive episode and use of this antidepressant for that episode. Ask about the indication if bipolar disorder is documented but the episode or treatment purpose is unclear.",
+      "ask_when": {
+        "group": "A"
+      },
+      "options": [
+        {
+          "words": "This antidepressant treated an acute bipolar depressive episode at that supply",
+          "effect": "meets"
+        },
+        {
+          "words": "There was no acute bipolar depressive episode at that supply",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "This antidepressant was used for another reason at that supply",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "For a confirmed finding, require age 18 or older, a documented acute bipolar depressive episode and antidepressant use for that episode at the supply under review. A pharmacist who confirms both for that supply provides this evidence. If age is unknown and the other evidence supports review, ask whether the patient was 18 or older at supply and report at most a possible finding. Count ongoing lithium, sodium valproate, carbamazepine, lamotrigine or a scheduled antipsychotic used for mood treatment as companion therapy. Exclude brief antiemetic or procedural use. The pharmacist decides borderline courses from their purpose and schedule. If the episode otherwise qualifies and unclear directions leave companion coverage uncertain, report a possible finding and ask whether mood treatment was ongoing then. Report a finding when the antidepressant treats the documented acute bipolar depressive episode and no qualifying companion covers it. A qualifying companion or a documented non-bipolar use of the antidepressant gives no finding. Cite the antidepressant and the evidence for the episode and any companion. Ask the patient what the antidepressant is for and whether another service supplies a mood stabiliser or antipsychotic. An antidepressant alone with no record pointing to bipolar disorder gives no finding. If a condition or supply directions document bipolar disorder but the episode or reason for the antidepressant is unclear, report a possible finding and ask about both. A past mood stabiliser with no recorded bipolar indication does not establish bipolar disorder. A known alternative indication, completed switch or non-qualifying record cannot establish this finding.",
+  "cannot_be_seen": "Dispensing does not establish actual use, indication or a prescriber’s intent. Treatment and assessments elsewhere may be missing.",
+  "ask_the_gp": "Could you confirm whether the antidepressant is treating acute bipolar depression and review whether a mood stabiliser or scheduled antipsychotic covers this episode?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

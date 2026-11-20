@@ -1,0 +1,46 @@
+[
+  {
+    "file": "START-B4/pos-fact.csv",
+    "kind": "positive",
+    "about": "An angina line is on the record and no beta-blocker is supplied in the whole history (perindopril and a statin are supplied).",
+    "findings": [
+      {
+        "criterion": "START-B4",
+        "must_cite": [
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-B4/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no angina or coronary artery disease line, Imdur and Nitrolingual Pumpspray are supplied, and no beta-blocker is supplied.",
+    "findings": [
+      {
+        "criterion": "START-B4",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L009",
+            "L013",
+            "L014",
+            "L018",
+            "L022",
+            "L026",
+            "L030"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-B4/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The record documents isolated vasospastic angina and no beta-blocker supply.",
+    "findings": []
+  }
+]

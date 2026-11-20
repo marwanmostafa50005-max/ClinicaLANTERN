@@ -1,0 +1,63 @@
+[
+  {
+    "file": "START-B11/pos-fact.csv",
+    "kind": "positive",
+    "about": "Symptomatic heart failure with reduced ejection fraction, ferritin of 180 micrograms/L and transferrin saturation of 19% are documented. No intravenous iron was supplied in the last six months.",
+    "findings": [
+      {
+        "criterion": "START-B11",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L033"
+          ],
+          [
+            "L034"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-B11/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: Coralan and Ferro-Gradumet are supplied, with no intravenous iron supply or recorded evidence for Symptomatic heart failure with reduced ejection fraction, Ferritin or Iron deficiency.",
+    "findings": [
+      {
+        "criterion": "START-B11",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L009",
+            "L013",
+            "L017",
+            "L021",
+            "L025",
+            "L029",
+            "L033"
+          ],
+          [
+            "L002",
+            "L006",
+            "L010",
+            "L014",
+            "L018",
+            "L022",
+            "L026",
+            "L030",
+            "L034"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-B11/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Symptomatic heart failure with reduced ejection fraction and a low ferritin are on the record, but Ferinject (intravenous iron) was supplied in July 2026, within the last six months of the record, so it must not flag.",
+    "findings": []
+  }
+]

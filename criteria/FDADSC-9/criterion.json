@@ -1,0 +1,91 @@
+{
+  "id": "FDADSC-9",
+  "label": "FDADSC: codeine or tramadol while breastfeeding",
+  "family": "FDADSC",
+  "title": "Codeine or tramadol while breastfeeding",
+  "statement": "We are also recommending against the use of codeine and tramadol medicines in breastfeeding mothers.",
+  "statement_origin": "published",
+  "source": {
+    "document": "US FDA Drug Safety Podcast: codeine and tramadol restrictions",
+    "citation": "US Food and Drug Administration. Drug Safety Podcast on codeine and tramadol. Posted 20 April 2017.",
+    "url": "https://www.fda.gov/drugs/fda-drug-safety-podcasts/fda-drug-safety-podcast-fda-restricts-use-prescription-codeine-pain-and-cough-medicines-and-tramadol",
+    "licence": "Public domain",
+    "licence_status": "proposed",
+    "credit": "Credit the U.S. Food and Drug Administration as the source. Credit is appreciated but not required. FDA recommends recording the copy date and linking to the source.",
+    "modification_notice": "Statement reproduced without changes."
+  },
+  "plain_summary": "Codeine or tramadol while breastfeeding can expose the infant to serious breathing harm. Panadeine Forte PI 25 May 2026 contraindicates codeine during breastfeeding. Tramal PI 9 July 2026 says tramadol is not recommended during breastfeeding.",
+  "medicine_groups": [
+    {
+      "key": "codeine_or_tramadol",
+      "name": "Codeine or tramadol",
+      "ingredients": [
+        "codeine",
+        "tramadol"
+      ],
+      "brands": {
+        "codeine": [
+          "Panadeine Forte",
+          "Codalgin Forte",
+          "Comfarol Forte",
+          "Mersyndol Forte",
+          "Painstop Day-Time Pain Reliever",
+          "Nurofen Plus",
+          "Aspalgin",
+          "Codapane Forte",
+          "Prodeine Forte",
+          "Panadeine",
+          "Panadeine Extra",
+          "Mersyndol",
+          "Codalgin",
+          "Dolaforte",
+          "Painstop Night-Time Pain Reliever",
+          "Actacode Linctus"
+        ],
+        "tramadol": [
+          "Tramal",
+          "Tramal SR",
+          "Zydol",
+          "Tramedo",
+          "Zaldiar",
+          "Zydol SR",
+          "Tramedo SR",
+          "Lodam"
+        ]
+      },
+      "note": "Plain codeine and combination tablets or liquids with paracetamol, ibuprofen or aspirin count. Tramadol combination products such as Zaldiar count. Tramal oral drops contain tramadol 100 mg/mL and count. Rikodeine is dihydrocodeine, a different ingredient, and does not count. Generic packs that show codeine or tramadol count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Breastfeeding",
+      "meets": "Reliable dated evidence confirms breastfeeding at the time of the supply under review, or the pharmacist confirms breastfeeding throughout the period covered by this record.",
+      "options": [
+        {
+          "words": "Breastfed throughout the period covered by this record",
+          "effect": "meets"
+        },
+        {
+          "words": "Did not breastfeed at any time covered by this record",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Breastfed during only part of the period covered by this record",
+          "effect": "unknown"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "For each codeine or tramadol supply, use the latest reliable evidence of Breastfeeding that applies to that supply, even if age is missing. If it confirms breastfeeding at supply, report a finding and cite the supply and the evidence. If it rules out breastfeeding then, report no finding. The pharmacist decides whether an earlier observation still applies. Where there is no breastfeeding row, consider whether breastfeeding is plausible for this patient. Do not routinely flag a clearly prepubertal or postmenopausal patient without other evidence suggesting breastfeeding. Missing age or sex alone does not start the check. The pharmacist decides borderline cases. If breastfeeding is plausible and status at supply is missing, stale, uncertain or conflicting, cite the supply and report a possible finding naming Breastfeeding. Ask the pharmacist to clarify whether the patient was breastfeeding when that medicine was supplied. A history-wide answer confirms or excludes breastfeeding at a supply only if it covers the whole record. If the patient breastfed for only part of the record or timing is unknown, keep the finding possible unless dated evidence establishes status at that supply. A male record without evidence suggesting breastfeeding gives no finding.",
+  "cannot_be_seen": "Breastfeeding status may be absent or out of date. Supply does not prove ingestion. The infant's age, sedation and breathing are not shown, and supplies elsewhere may be absent.",
+  "ask_the_gp": "A review of codeine or tramadol use while breastfeeding and the feeding plan.",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "only_sex": "female"
+}

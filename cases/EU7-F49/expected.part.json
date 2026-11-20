@@ -1,0 +1,42 @@
+[
+  {
+    "file": "EU7-F49/pos-brand.csv",
+    "kind": "positive",
+    "about": "Pentazocine is supplied three times between April and June 2026 to a person aged 70 (Fortral brand name only).",
+    "findings": [
+      {
+        "criterion": "EU7-F49",
+        "must_cite": [
+          [
+            "L011",
+            "L016",
+            "L021"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F49/pos-buried.csv",
+    "kind": "positive",
+    "about": "Pentazocine is supplied three times between January and March 2026, in the middle of a 14-month history, to a person aged 74.",
+    "findings": [
+      {
+        "criterion": "EU7-F49",
+        "must_cite": [
+          [
+            "L037",
+            "L044",
+            "L050"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F49/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Pentazocine is supplied twice to a person aged 55, below the age of 65, so it must not flag.",
+    "findings": []
+  }
+]

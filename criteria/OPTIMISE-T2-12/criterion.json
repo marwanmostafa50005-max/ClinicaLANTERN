@@ -1,0 +1,319 @@
+{
+  "id": "OPTIMISE-T2-12",
+  "label": "OPTIMISE T2-12: antiplatelet after vascular disease",
+  "family": "OPTIMISE",
+  "title": "No antiplatelet in severe mental illness with vascular disease",
+  "statement": "Commence antiplatelet therapy (aspirin or clopidogrel or prasugrel or ticagrelor) in adults with SMI with a documented history of coronary, cerebral or peripheral vascular disease",
+  "statement_origin": "published",
+  "source": {
+    "document": "Carolan A, et al. OPTIMISE. BMC Psychiatry 2022;22:585, Tables 2-3",
+    "citation": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.3 candidate repairs, adopted conventions and independent-audit corrections merged with attribution). Not endorsed by the source authors."
+  },
+  "plain_summary": "For an adult with severe mental illness and qualifying vascular disease, review an apparent antiplatelet omission after checking nonprescription aspirin, the current antithrombotic plan and bleeding risk.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antiplatelet medicines",
+      "ingredients": [
+        "aspirin",
+        "clopidogrel",
+        "prasugrel",
+        "ticagrelor"
+      ],
+      "brands": {
+        "aspirin": [
+          "Cartia",
+          "Astrix",
+          "Asasantin SR",
+          "CoPlavix",
+          "DuoCover",
+          "Aspro",
+          "Aspro Clear",
+          "Aspro Clear Extra Strength",
+          "Aspro Protect",
+          "Cardasa",
+          "Cardiprin",
+          "Disprin Direct",
+          "Disprin Extra Strength",
+          "Disprin Max",
+          "Disprin Original",
+          "Disprin Regular",
+          "Ecotrin",
+          "Princard",
+          "Solprin",
+          "Spren"
+        ],
+        "clopidogrel": [
+          "Plavix",
+          "Iscover",
+          "CoPlavix",
+          "DuoCover",
+          "Clogrel",
+          "Clopaccord",
+          "Clopithromb",
+          "Clovix",
+          "Piax",
+          "Plavicor",
+          "Plidogrel",
+          "Viplex"
+        ],
+        "prasugrel": [
+          "Effient"
+        ],
+        "ticagrelor": [
+          "Brilinta",
+          "Bricalor",
+          "Brilinta ODT",
+          "Novalant",
+          "Ticalor",
+          "Tirela"
+        ]
+      },
+      "note": "Asasantin SR is aspirin with dipyridamole. CoPlavix and DuoCover are clopidogrel with aspirin and count under both ingredients. Generic packs that show the ingredient name with a company name count too. Anticoagulants such as warfarin or apixaban are not antiplatelets and are not in this group. Aspirin bought without a prescription cannot be seen. Count aspirin when its product, directions or recorded treatment plan supports ongoing antiplatelet use. Exclude aspirin explicitly taken only as needed for pain or fever. Oral anticoagulants include warfarin (Coumadin or Marevan), apixaban (Eliquis), rivaroxaban (Xarelto) and dabigatran (Pradaxa). Their supply does not establish an anticoagulant-only plan."
+    },
+    {
+      "key": "B",
+      "name": "Antipsychotics and lithium (a sign the person may have severe mental illness)",
+      "ingredients": [
+        "olanzapine",
+        "quetiapine",
+        "risperidone",
+        "aripiprazole",
+        "clozapine",
+        "paliperidone",
+        "amisulpride",
+        "haloperidol",
+        "lithium carbonate",
+        "lurasidone",
+        "brexpiprazole",
+        "cariprazine",
+        "ziprasidone",
+        "asenapine",
+        "zuclopenthixol",
+        "flupentixol",
+        "flupentixol decanoate",
+        "chlorpromazine",
+        "periciazine",
+        "trifluoperazine"
+      ],
+      "brands": {
+        "olanzapine": [
+          "Zyprexa",
+          "Zyprexa Zydis",
+          "Aprolan",
+          "Aprolan ODT",
+          "Lanez",
+          "Lanez ODT",
+          "Lanzek",
+          "Lanzek Zydis",
+          "Lonza",
+          "Lonza ODT",
+          "Lyprosia",
+          "Lyprosia ODT",
+          "Olancor",
+          "Olanza",
+          "Olanzaccord",
+          "Olanzacor",
+          "Oprexa",
+          "Ozin",
+          "Ozin ODT",
+          "Prolanza",
+          "Prolanza ODT",
+          "Pryzex",
+          "Pryzex ODT",
+          "Tolaze ODT",
+          "Tolazine ODT",
+          "Torapine ODT",
+          "Torrenia ODT",
+          "Zylap",
+          "Zylap ODT",
+          "Zylapine",
+          "Zylapine ODT",
+          "Zypine",
+          "Zypine ODT",
+          "Zyprexa Relprevv"
+        ],
+        "quetiapine": [
+          "Seroquel",
+          "Seroquel XR",
+          "Aliquen",
+          "Delucon",
+          "Kaptan",
+          "Ketizenol",
+          "Qualez",
+          "Quepine XR",
+          "Quetapen",
+          "Quetia",
+          "Quetia XR",
+          "Quetiaccord",
+          "Quetiaquel XR",
+          "Quetin",
+          "Quipine",
+          "Sequase",
+          "Sequase XR",
+          "Serapine",
+          "Serapine XR",
+          "Seroccord",
+          "Seronia",
+          "Serotiapine XR",
+          "Syquet",
+          "Syquet XR",
+          "Syzopine",
+          "Tevatiapine XR",
+          "Tiapine XR",
+          "Tiava XR",
+          "Xque XR"
+        ],
+        "risperidone": [
+          "Risperdal",
+          "Risperdal Consta",
+          "Ozidal",
+          "Resdone",
+          "Respaz",
+          "Risdone",
+          "Rispa",
+          "Rispaccord",
+          "Rispaccord-0.5",
+          "Risperdal Quicklet",
+          "Risperibell",
+          "Rispericor",
+          "Rispericor-0.5",
+          "Risperisan",
+          "Rispernia",
+          "Rixadone",
+          "Sperid",
+          "Uzedy"
+        ],
+        "aripiprazole": [
+          "Abilify",
+          "Abilify Maintena",
+          "Abilify Asimtufii",
+          "Abilify ODT",
+          "Abipra",
+          "Abyraz",
+          "Aprazole",
+          "Aripic",
+          "Aripra",
+          "Arizole"
+        ],
+        "clozapine": [
+          "Clozaril",
+          "Clopine",
+          "Closyn",
+          "Clozaril ODT",
+          "Clozitor",
+          "Versacloz"
+        ],
+        "paliperidone": [
+          "Invega",
+          "Invega Sustenna",
+          "Invega Hafyera",
+          "Invega Trinza",
+          "Palmeux",
+          "Trevicta"
+        ],
+        "amisulpride": [
+          "Solian",
+          "Amipride",
+          "Sulprix"
+        ],
+        "haloperidol": [
+          "Serenace"
+        ],
+        "lithium carbonate": [
+          "Lithicarb",
+          "Quilonum SR",
+          "Lithicarb SR",
+          "Lithquil SR",
+          "Lithspen"
+        ],
+        "lurasidone": [
+          "Latuda",
+          "Bilura",
+          "Latulem",
+          "Lavione",
+          "Luracor",
+          "Luralem",
+          "Luralembic",
+          "Lurobi"
+        ],
+        "brexpiprazole": [
+          "Rexulti"
+        ],
+        "cariprazine": [
+          "Reagila"
+        ],
+        "ziprasidone": [
+          "Zeldox",
+          "Ziprox"
+        ],
+        "asenapine": [
+          "Saphris"
+        ],
+        "zuclopenthixol": [
+          "Clopixol"
+        ],
+        "flupentixol": [
+          "Fluanxol"
+        ],
+        "flupentixol decanoate": [
+          "Fluanxol"
+        ],
+        "chlorpromazine": [
+          "Largactil"
+        ],
+        "periciazine": [
+          "Neulactil"
+        ],
+        "trifluoperazine": [
+          "Stelazine"
+        ]
+      },
+      "note": "This group is not the medicine the finding is about. It only shows that the person may be in the group the OPTIMISE tool was written for. A medicine used for another reason, for example low-dose quetiapine for sleep, can mislead."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Atherosclerotic cardiovascular disease",
+      "meets": "A confirmed coronary or peripheral arterial diagnosis, ischaemic stroke or transient ischaemic attack qualifies. Haemorrhagic stroke alone does not qualify. An unspecified stroke leaves this route uncertain.",
+      "options": [
+        {
+          "words": "Coronary artery disease",
+          "effect": "meets"
+        },
+        {
+          "words": "No qualifying vascular disease",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Ischaemic stroke or transient ischaemic attack",
+          "effect": "meets"
+        },
+        {
+          "words": "Peripheral arterial disease",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "condition",
+      "what": "Severe mental illness",
+      "meets": "A condition line records severe mental illness, such as schizophrenia, schizoaffective disorder, bipolar disorder or severe depression."
+    }
+  ],
+  "rule_for_models": "For an adult aged 18 or over, suspect a finding only when both \"Atherosclerotic cardiovascular disease\" and \"Severe mental illness\" are documented, and no Group A antiplatelet is supplied. Before reporting an omission, check for a current, documented anticoagulant-only plan for this vascular indication. If it covers the current period, there is no omission. If no such plan is documented, assess the other evidence. If anticoagulation is recorded and the regimen or its timing is unclear, report only a possible finding and ask the GP to confirm the plan for this indication and period. A supply of an anticoagulant alone does not establish that plan. Cite both condition lines. If the vascular history or stroke type is uncertain, keep the vascular question open unless another qualifying diagnosis is documented. A Group B medicine supply alone does not prove severe mental illness for a full finding. Ask whether the person takes low-dose aspirin bought without a prescription. Ask what mental health condition was diagnosed and whether a doctor has diagnosed heart, brain or leg artery disease. Reconcile reported aspirin use before describing an omission. A full finding still needs both recorded diagnoses. If one or both condition lines are missing, report a possible finding only for a person in scope (a severe-mental-illness condition line or a Group B medicine supply) with no Group A antiplatelet supplied; name \"Atherosclerotic cardiovascular disease\" or \"Severe mental illness\", or both, according to which is missing. Cite the available condition or Group B supply evidence. If recorded or reported aspirin use is unclear, no other Group A antiplatelet is supplied and an omission would otherwise be flagged, report at most a possible finding. Cite an aspirin supply line only if one exists in the record, alongside the qualifying condition or Group B lines, and ask the patient or GP to confirm the purpose and current use of the aspirin regimen. There is no finding when the person is under 18, is outside the stated scope, has a qualifying antiplatelet or a documented qualifying anticoagulant-only plan, or the record explicitly rules out severe mental illness or the required vascular disease. If age is unknown and an omission would otherwise be possible, report at most a possible finding and ask whether the person is 18 or older.",
+  "cannot_be_seen": "Aspirin bought without a prescription and anticoagulants supplied elsewhere. Why no antiplatelet was used, including a past bleed, allergy or a clinical decision to use an anticoagulant alone instead. The exact vascular diagnosis if it was not recorded.",
+  "ask_the_gp": "Whether an antiplatelet medicine should be started, after a review of the person's vascular disease and bleeding risk.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

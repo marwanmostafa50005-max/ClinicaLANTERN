@@ -1,0 +1,43 @@
+[
+  {
+    "file": "EU7-F37/pos-brand.csv",
+    "kind": "positive",
+    "about": "Niacin is supplied four times from April to August 2026 for a man aged 66. The four planted lines use the ingredient name niacin.",
+    "findings": [
+      {
+        "criterion": "EU7-F37",
+        "must_cite": [
+          [
+            "L010",
+            "L014",
+            "L021",
+            "L025"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F37/pos-buried.csv",
+    "kind": "positive",
+    "about": "Nicotinic acid (niacin) is supplied three times in the middle of a 14-month history for a woman aged 72.",
+    "findings": [
+      {
+        "criterion": "EU7-F37",
+        "must_cite": [
+          [
+            "L028",
+            "L033",
+            "L037"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F37/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Nicotinamide (a different form of vitamin B3, not niacin) is supplied monthly, so nothing must flag.",
+    "findings": []
+  }
+]

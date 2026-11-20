@@ -1,0 +1,100 @@
+{
+  "id": "PROMPT-GI-3",
+  "label": "PROMPT: omeprazole or esomeprazole with clopidogrel",
+  "family": "PROMPT",
+  "title": "Omeprazole or esomeprazole with clopidogrel",
+  "statement": "Esomeprazole or omeprazole should not be used in combination with clopidogrel.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Cooper JA, et al. The development of the PROMPT criteria. BMC Health Serv Res 2014;14:484, Table 4",
+    "citation": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "doi": null,
+    "url": null,
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Omeprazole and esomeprazole can reduce how well clopidogrel works, which may weaken its protection against clots.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Omeprazole and esomeprazole (stomach acid medicines)",
+      "ingredients": [
+        "omeprazole",
+        "esomeprazole"
+      ],
+      "brands": {
+        "omeprazole": [
+          "Losec",
+          "Losec Tablets",
+          "Acimax",
+          "Maxor",
+          "Maxor EC",
+          "Maxor Heartburn Relief",
+          "Meprazol",
+          "Omepral",
+          "Omepro",
+          "Omezole",
+          "Ozmep",
+          "Pemzo",
+          "Probitor"
+        ],
+        "esomeprazole": [
+          "Nexium",
+          "Vimovo",
+          "Axagon",
+          "Beezole",
+          "Emeprazol",
+          "Esopran",
+          "Esopreze",
+          "Guardium Acid Reflux Relief",
+          "Jubeso",
+          "Jubium",
+          "Mepreze",
+          "Nexazole",
+          "Nexcid",
+          "Nexium 24HR Once Daily Dosing",
+          "Nexole",
+          "Nexprazole",
+          "Noxicid",
+          "Noxicid Caps Heartburn Relief",
+          "Noxicid Tabs Heartburn Relief",
+          "Zanzole 24HR",
+          "Nexium Hp7"
+        ]
+      },
+      "note": "Vimovo is naproxen with esomeprazole. Generic packs that show the ingredient name with a company name count too. Pantoprazole, lansoprazole and rabeprazole are not in this group."
+    },
+    {
+      "key": "B",
+      "name": "Clopidogrel",
+      "ingredients": [
+        "clopidogrel"
+      ],
+      "brands": {
+        "clopidogrel": [
+          "Plavix",
+          "Iscover",
+          "Clogrel",
+          "Clopaccord",
+          "Clopithromb",
+          "Clovix",
+          "Piax",
+          "Plavicor",
+          "Plidogrel",
+          "Viplex",
+          "CoPlavix",
+          "DuoCover"
+        ]
+      },
+      "note": "Generic packs that show the ingredient name with a company name count too. Aspirin and ticagrelor are not in this group."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when at least one Group A medicine (omeprazole or esomeprazole) AND clopidogrel (Group B) both appear in the history and their supply dates overlap or fall within 60 days of each other. One supply of each is enough. Exclude a pair when the record explicitly documents that omeprazole or esomeprazole stopped before clopidogrel began, or vice versa. Do not infer stopping from pack size alone. Keep the 60-day window when actual use is unclear. Apply this PROMPT rule to people aged 45 to 64 inclusive. If age is unknown, confirm it before reporting a finding.",
+  "cannot_be_seen": "Why each medicine was prescribed, whether the patient really takes both, the dose timing, and medicines bought without a prescription or supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "Would pantoprazole or another suitable acid-suppressing medicine with less potential to interact with clopidogrel suit this patient?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

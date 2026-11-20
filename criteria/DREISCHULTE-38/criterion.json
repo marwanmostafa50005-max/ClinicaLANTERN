@@ -1,0 +1,60 @@
+{
+  "id": "DREISCHULTE-38",
+  "label": "Dreischulte 38",
+  "family": "DREISCHULTE",
+  "title": "Warfarin with metronidazole",
+  "statement": "Patient treated with warfarin - is co-prescribed metronidazole",
+  "statement_origin": "published",
+  "source": {
+    "document": "Quality and safety of medication use in primary care: consensus validation of a new set of explicit medication assessment criteria and prioritisation of topics for improvement",
+    "citation": "Dreischulte T, Grant AM, McCowan C, McAnaw JJ, Guthrie B. Quality and safety of medication use in primary care: consensus validation of a new set of explicit medication assessment criteria and prioritisation of topics for improvement. BMC Clinical Pharmacology. 2012;12:5.",
+    "doi": "10.1186/1472-6904-12-5",
+    "url": "https://link.springer.com/article/10.1186/1472-6904-12-5",
+    "licence": "Creative Commons Attribution 2.0 Generic (CC BY 2.0)",
+    "licence_status": "proposed",
+    "credit": "© 2012 Dreischulte et al., licensee BioMed Central Ltd. Cite the five authors, article title, journal, year and DOI above. The original statements are reproduced under CC BY 2.0. The Australian checks and qualification judgments are by GPT-6.2 Astra.",
+    "modification_notice": "The published statement is reproduced unchanged. The screening rule, Australian medicine examples and fictional histories were written for this prototype."
+  },
+  "plain_summary": "A supply of metronidazole during warfarin treatment calls for a review of the interaction and the patient's INR monitoring.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Warfarin",
+      "ingredients": [
+        "warfarin"
+      ],
+      "brands": {
+        "warfarin": [
+          "Coumadin",
+          "Marevan"
+        ]
+      },
+      "note": "Use the dated supply and the current anticoagulation directions."
+    },
+    {
+      "key": "B",
+      "name": "Metronidazole",
+      "ingredients": [
+        "metronidazole"
+      ],
+      "brands": {
+        "metronidazole": [
+          "Flagyl",
+          "Flagyl S",
+          "Metrogyl",
+          "Metronidamed",
+          "Metronide",
+          "Rozex",
+          "Zidoval"
+        ]
+      },
+      "note": "Count systemic metronidazole. For Rozex skin gel, Rozex skin cream or Zidoval vaginal gel with overlapping warfarin, cite both supplies and report only a possible interaction for routine review. These local products do not establish the systemic interaction or its same-day urgency. Do not count other skin or vaginal products as systemic supplies. If the label gives only the ingredient and a local form, ask the pharmacist to identify the product before applying a product-specific warning."
+    }
+  ],
+  "rule_for_models": "In a patient taking Group A warfarin, suspect a finding when Group A and Group B (metronidazole) supply dates overlap or fall within 60 days of each other and the intended courses can overlap. Use the form, directions, quantity and any recorded hold or stop to exclude courses that cannot coincide. Cite both supplies even if there is no INR result. For overlapping Rozex skin treatment or Zidoval vaginal gel, report only a possible interaction for routine review. When the supplies are within 60 days and unclear directions leave overlap uncertain, cite both supplies and report only a possible finding. Ask the pharmacist to confirm the dose actually used and the treatment dates. A documented stop, hold or later start that rules out overlap gives no finding.",
+  "cannot_be_seen": "The supplies alone cannot show whether both medicines were taken, how the INR changed, whether bleeding occurred or what monitoring was arranged elsewhere.",
+  "ask_the_gp": "Could you confirm the metronidazole formulation? For systemic treatment, could we review the INR plan during and after the course today? For Rozex skin treatment or Zidoval vaginal gel, could we review the product warning at routine follow-up?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

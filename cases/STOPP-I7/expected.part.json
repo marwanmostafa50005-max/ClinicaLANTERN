@@ -1,0 +1,55 @@
+[
+  {
+    "file": "STOPP-I7/pos-fact.csv",
+    "kind": "positive",
+    "about": "DYTREX 60 (duloxetine) is supplied every 4 weeks while the record holds an Urge incontinence (overactive bladder) condition line.",
+    "findings": [
+      {
+        "criterion": "STOPP-I7",
+        "must_cite": [
+          [
+            "L004",
+            "L008",
+            "L011",
+            "L016",
+            "L020",
+            "L025",
+            "L029",
+            "L034",
+            "L038"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-I7/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about urinary urgency or urge incontinence, while duloxetine is supplied every 4 weeks.",
+    "findings": [
+      {
+        "criterion": "STOPP-I7",
+        "must_cite": [
+          [
+            "L002",
+            "L006",
+            "L009",
+            "L013",
+            "L017",
+            "L021",
+            "L025"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-I7/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Tixol 60 (duloxetine) is supplied every 4 weeks, and the assessment documents stress leakage only, without urgency or urge leakage.",
+    "findings": []
+  }
+]

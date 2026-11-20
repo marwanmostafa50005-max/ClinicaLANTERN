@@ -1,0 +1,189 @@
+{
+  "id": "STOPP-C12",
+  "label": "STOPP C12",
+  "family": "STOPP_START",
+  "title": "SSRI with a blood thinner after a major bleed",
+  "statement": "Selective serotonin reuptake inhibitors (SSRIs) in combination with Vitamin K antagonist, direct thrombin inhibitor or factor Xa inhibitor with a previous history of major haemorrhage (increased risk of bleeding due to antiplatelet effects of SSRIs).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "SSRI antidepressants make bleeding more likely because they affect platelets. Taking one together with a blood thinner is a particular concern for a person who has had a major bleed before.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "SSRI antidepressants",
+      "ingredients": [
+        "citalopram",
+        "escitalopram",
+        "fluoxetine",
+        "fluvoxamine",
+        "paroxetine",
+        "sertraline"
+      ],
+      "brands": {
+        "citalopram": [
+          "Cipramil",
+          "Celapram",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talam",
+          "Talohexal"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam",
+          "Loxalate"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Zactin",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Paxtine",
+          "Aropax CR",
+          "Extine",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ],
+        "sertraline": [
+          "Zoloft",
+          "Concorz",
+          "Detralon",
+          "Eleva",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Setrona",
+          "Tralen",
+          "Xydep"
+        ]
+      },
+      "note": "Tablets, capsules and liquids count. Venlafaxine, duloxetine and mirtazapine are not SSRIs and are not in this group. Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "B",
+      "name": "Warfarin, dabigatran and the factor Xa inhibitors",
+      "ingredients": [
+        "warfarin",
+        "dabigatran",
+        "apixaban",
+        "rivaroxaban",
+        "edoxaban",
+        "fondaparinux"
+      ],
+      "brands": {
+        "warfarin": [
+          "Coumadin",
+          "Marevan"
+        ],
+        "dabigatran": [
+          "Pradaxa"
+        ],
+        "apixaban": [
+          "Eliquis",
+          "Alexibic",
+          "Apexa",
+          "Apixor",
+          "Axibic",
+          "Elapex"
+        ],
+        "rivaroxaban": [
+          "Xarelto",
+          "Ixarola",
+          "Relaban",
+          "Rivoxa",
+          "Rivaxib",
+          "Roxator",
+          "Toriva",
+          "Rivalembic",
+          "Rivarelto",
+          "Rivator",
+          "Rivaxotor",
+          "Roxabic",
+          "Roxalem",
+          "Troxa",
+          "Xaremed"
+        ],
+        "edoxaban": [],
+        "fondaparinux": [
+          "Arixtra"
+        ]
+      },
+      "note": "Warfarin is the vitamin K antagonist. Dabigatran is the direct thrombin inhibitor. Apixaban, rivaroxaban, edoxaban and fondaparinux are factor Xa inhibitors. No Australian brand is listed for edoxaban. Aspirin and clopidogrel are not in this group. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Previous major bleeding",
+      "meets": "A major bleed occurred before or during combined use. An explicit negative for that period rules it out. Unknown timing or history leaves a possible finding.",
+      "options": [
+        {
+          "words": "Major bleeding before or during combined use",
+          "effect": "meets"
+        },
+        {
+          "words": "No major bleeding before or during combined use",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this criterion only if the recorded age is 65 years or older. If age is unknown, record that eligibility is unknown and do not flag under this criterion. Review an SSRI from Group A and a blood thinner from Group B when their covered dates overlap or their supply dates are within 60 days. Confirm and cite both supplies and the fact only if the patient had a major bleed before or while the combination was in use. Report no finding if major bleeding is excluded for that period. If the history or timing is unknown, including when only a minor bleed is recorded, report a possible finding.",
+  "cannot_be_seen": "Bleeds that happened before the record began or were never entered, how serious a past bleed was, and over-the-counter medicines that also raise bleeding risk.",
+  "ask_the_gp": "A review of the bleeding risk from the SSRI and blood thinner together, and whether the SSRI or the blood thinner choice should change.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

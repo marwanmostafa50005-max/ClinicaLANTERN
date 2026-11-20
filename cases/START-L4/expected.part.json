@@ -1,0 +1,41 @@
+[
+  {
+    "file": "START-L4/pos-fact.csv",
+    "kind": "positive",
+    "about": "At age 72 the last documented dose and its supply on 14 July 2025 are both more than 12 months before the record ends on 11 October 2026.",
+    "findings": [
+      {
+        "criterion": "START-L4",
+        "must_cite": [
+          [
+            "L056"
+          ],
+          [
+            "L004"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-L4/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about administration of the LP.8.1 vaccine supplied within the last 6 months for this 78-year-old.",
+    "findings": [
+      {
+        "criterion": "START-L4",
+        "must_cite": [
+          [
+            "L015"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-L4/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The record holds a line that a COVID-19 vaccine dose was given in May 2026, inside the last 12 months of the record, for a 72-year-old man, so no vaccine is missing.",
+    "findings": []
+  }
+]

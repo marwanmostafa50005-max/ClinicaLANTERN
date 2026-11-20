@@ -1,0 +1,44 @@
+[
+  {
+    "file": "START-F1/pos-fact.csv",
+    "kind": "positive",
+    "about": "The record holds severe gastro-oesophageal reflux disease and no proton pump inhibitor is supplied anywhere in the 9-month history.",
+    "findings": [
+      {
+        "criterion": "START-F1",
+        "must_cite": [
+          [
+            "L005"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-F1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The record holds severe gastro-oesophageal reflux disease, but esomeprazole (Nexium 40 mg, a proton pump inhibitor) is supplied every month from January to September 2026, so nothing is omitted.",
+    "findings": []
+  },
+  {
+    "file": "START-F1/pos-fact-ended-course.csv",
+    "kind": "positive",
+    "about": "Possible omission: the only proton pump inhibitor course ended on 7 June 2026 before severe reflux began on 15 July. The missing fact is \"Current proton pump inhibitor use for the qualifying reflux or stricture\".",
+    "findings": [
+      {
+        "criterion": "START-F1",
+        "must_cite": [
+          [
+            "L032"
+          ],
+          [
+            "L022"
+          ],
+          [
+            "L023"
+          ]
+        ]
+      }
+    ]
+  }
+]

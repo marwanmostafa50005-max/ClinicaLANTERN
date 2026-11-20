@@ -1,0 +1,44 @@
+[
+  {
+    "file": "OPTIMISE-T2-24/pos-fact.csv",
+    "kind": "positive",
+    "about": "An adult with schizophrenia switched from risperidone to periciazine on 14 September 2025 with a documented missed baseline and a later prolactin result on 4 November.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T2-24",
+        "must_cite": [
+          [
+            "L008"
+          ],
+          [
+            "L007"
+          ],
+          [
+            "L009"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T2-24/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the first Solian supply follows four months without it, and the record holds no line about a documented start, a qualifying diagnosis or baseline prolactin.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T2-24",
+        "must_cite": [
+          [
+            "L012"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T2-24/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Serenace (haloperidol) is first supplied on 11 February 2026 and a baseline prolactin was recorded on 21 January 2026, three weeks before the start, so there is no finding.",
+    "findings": []
+  }
+]

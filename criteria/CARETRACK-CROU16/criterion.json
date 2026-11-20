@@ -1,0 +1,145 @@
+{
+  "id": "CARETRACK-CROU16",
+  "label": "CareTrack Kids CROU16",
+  "family": "CARETRACK",
+  "title": "Antibiotic for croup in a child",
+  "statement": "Children diagnosed with croup were not treated with antibiotics.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Assessing the appropriateness of paediatric antibiotic overuse in Australian children: a population-based sample survey, Table 1",
+    "citation": "Arnolda G, Hibbert P, Ting HP, et al., on behalf of the CareTrack Kids investigative team. BMC Pediatrics. 2020;20:185.",
+    "doi": "10.1186/s12887-020-02052-6",
+    "url": "https://link.springer.com/article/10.1186/s12887-020-02052-6",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "© The Author(s) 2020. Arnolda G, Hibbert P, Ting HP, et al., on behalf of the CareTrack Kids investigative team. Assessing the appropriateness of paediatric antibiotic overuse in Australian children: a population-based sample survey. BMC Pediatrics 20, 185 (2020). https://doi.org/10.1186/s12887-020-02052-6. CC BY 4.0. http://creativecommons.org/licenses/by/4.0/",
+    "modification_notice": "The Table 1 wording is reproduced unchanged. The screening rule, Australian medicine examples and fictional histories were added for this draft."
+  },
+  "plain_summary": "Review an antibiotic explicitly supplied to treat a child's diagnosed croup.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antibiotics",
+      "ingredients": [
+        "amoxicillin",
+        "cefalexin",
+        "azithromycin",
+        "amoxicillin + clavulanic acid",
+        "phenoxymethylpenicillin",
+        "clarithromycin",
+        "erythromycin",
+        "cefaclor",
+        "trimethoprim + sulfamethoxazole",
+        "flucloxacillin",
+        "clindamycin"
+      ],
+      "brands": {
+        "amoxicillin": [
+          "Amoxicillin B&B",
+          "Amoxil",
+          "Alphamox",
+          "Cilamox"
+        ],
+        "cefalexin": [
+          "Cefalexin Sandoz",
+          "Keflex",
+          "Ibilex"
+        ],
+        "azithromycin": [
+          "Zithromax",
+          "Zedd",
+          "Zithro",
+          "Zitrocin"
+        ],
+        "amoxicillin + clavulanic acid": [
+          "Augmentin",
+          "Augmentin Duo",
+          "Clavulin-125F",
+          "Curam",
+          "Curam Duo"
+        ],
+        "phenoxymethylpenicillin": [
+          "Abbocillin-VK Filmtab",
+          "Abbocillin-V",
+          "Cilicaine VK"
+        ],
+        "clarithromycin": [
+          "Klacid"
+        ],
+        "erythromycin": [
+          "E.E.S. 200",
+          "E.E.S. 400 Filmtab",
+          "E.E.S. Granules",
+          "Eryc"
+        ],
+        "cefaclor": [
+          "Ceclor",
+          "Keflor"
+        ],
+        "trimethoprim + sulfamethoxazole": [
+          "Bactrim",
+          "Bactrim DS",
+          "Septrin"
+        ],
+        "flucloxacillin": [
+          "Flucil",
+          "Flopen Viatris"
+        ],
+        "clindamycin": [
+          "Dalacin C"
+        ]
+      },
+      "note": "These are Australian examples. Any antibiotic explicitly linked to treatment of the episode counts. Table 1 specifies no route. For croup, exclude eye or ear drops and skin creams or ointments used to treat those sites."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Croup",
+      "meets": "Diagnosed at this episode",
+      "options": [
+        {
+          "words": "Croup diagnosed at the treated visit",
+          "effect": "meets"
+        },
+        {
+          "words": "Croup ruled out at the treated visit",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Age at antibiotic treatment for croup",
+      "meets": "Confirm age 29 days through 15 years. Ask for the date of birth or age in days when a whole-year age of zero leaves eligibility unclear.",
+      "options": [
+        {
+          "words": "29 days old through 15 years old",
+          "effect": "meets"
+        },
+        {
+          "words": "Under 29 days old",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "16 years old or older",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Confirm for a child aged 29 days through 15 years when the antibiotic treated croup and croup was diagnosed at that visit. Cite the supply and the episode diagnosis. If the indication is missing at a suspected croup visit, ask the carer what the antibiotic treated at that visit. Report a possible finding only when the record or carer links the supply to croup and the diagnosis or eligible age remains uncertain. Cite the supply. Name \"Croup\" if the episode diagnosis is missing and \"Age at antibiotic treatment for croup\" if eligibility is unclear. If age in whole years is zero, ask for age in days or the date of birth when eligibility is unclear. Use an answer only for the visit it describes. Report no finding if croup was ruled out, the antibiotic treated another condition, the supply has no link to croup, or age was outside the range.",
+  "cannot_be_seen": "Dates alone do not identify the reason for treatment. A dispensing history may omit a complication, an alternative airway diagnosis or another infection.",
+  "ask_the_gp": "Could you confirm the diagnosis at this visit and review whether the antibiotic was for uncomplicated croup, a complication or another infection?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

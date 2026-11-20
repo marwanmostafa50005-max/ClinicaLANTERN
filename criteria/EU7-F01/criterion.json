@@ -1,0 +1,58 @@
+{
+  "id": "EU7-F01",
+  "label": "EU(7)-PIM: magnesium hydroxide, aluminium antacids",
+  "family": "EU7",
+  "title": "Magnesium hydroxide or an aluminium antacid in an older person",
+  "statement": "The EU(7)-PIM list names magnesium hydroxide and antacids that contain aluminium as potentially inappropriate medicines for older people. Magnesium hydroxide: risk of too much magnesium in the blood, which is higher in moderate to severe kidney failure. The panel advised reducing the magnesium hydroxide dose in moderate to severe kidney impairment. Its liquid dose has no stated concentration and cannot be applied across products. Antacids that contain aluminium: the kidneys remove less aluminium in older people, and there is a risk of harm to the brain and nervous system. The experts advise use for short periods only (3 to 4 days). Alternatives the experts suggest: as a laxative, an osmotic laxative such as macrogol or lactulose; as an antacid, when there is a proper reason to treat, a low-dose proton pump inhibitor for less than 8 weeks.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Summary written by the entrant in plain words from two rows of the source table (magnesium hydroxide; aluminium-containing antacids). Dose advice that the source marks as taken from Micromedex is left out. The authors have not reviewed this summary."
+  },
+  "plain_summary": "Magnesium hydroxide and antacids that contain aluminium can build up in an older person, mostly when the kidneys work less well, and can cause harm.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Magnesium hydroxide and antacids that contain aluminium",
+      "ingredients": [
+        "aluminium hydroxide",
+        "magnesium hydroxide",
+        "magaldrate"
+      ],
+      "brands": {
+        "aluminium hydroxide": [
+          "Mylanta Original",
+          "Mylanta Double Strength",
+          "Mylanta 2go Original",
+          "Mylanta 2go Double Strength",
+          "Mylanta P",
+          "Gelusil",
+          "Gastrogel Antacid",
+          "Alu-Tab"
+        ],
+        "magnesium hydroxide": [
+          "Mylanta 2go Rolltab",
+          "Magnesia S. Pellegrino",
+          "Mylanta FastChews",
+          "Mylanta 2go Antacid FastChews"
+        ],
+        "magaldrate": [
+          "Mylanta 2go Antacid Dual Action"
+        ]
+      },
+      "note": "Mylanta Original, Mylanta Double Strength, Mylanta 2go Original, Mylanta 2go Double Strength, Mylanta P and Gelusil are aluminium hydroxide with magnesium hydroxide and simethicone. Gastrogel Antacid is aluminium hydroxide with magnesium hydroxide and magnesium trisilicate. Alu-Tab is aluminium hydroxide alone. Mylanta 2go Rolltab is magnesium hydroxide with calcium carbonate. Magnesia S. Pellegrino is magnesium hydroxide with sodium bicarbonate and tartaric acid. Mylanta 2go Antacid Dual Action is magaldrate, a compound of aluminium and magnesium, with alginic acid and sodium bicarbonate. Not in this group: Mylanta Ranitidine, Gastrogel-Ranitidine, Gaviscon, Quick-Eze, Rennie, calcium carbonate tablets, sucralfate (Carafate, Ulcyte), and skin or ear products that hold aluminium. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when any Group A medicine (magnesium hydroxide, or an antacid that contains aluminium) is supplied to a patient aged 65 years or over. If the medicine criteria are otherwise met and age at supply is unknown, report only a possible finding and ask for age confirmation. An age below 65 rules out this finding. One supply is enough. For an aluminium-only product such as Alu-Tab, count antacid use. A supply used solely as a phosphate binder does not count. If the purpose is unclear, keep the finding possible until antacid use is confirmed. Assess magnesium hydroxide separately. Antacids that hold no magnesium hydroxide and no aluminium, such as Gaviscon or calcium carbonate tablets, do not count.",
+  "cannot_be_seen": "Supplies alone do not show kidney function or blood magnesium. Check any dated results in the record. The record may not show why the antacid was used, how much was taken each day, how long it was used or whether the person bought it without a prescription.",
+  "ask_the_gp": "Whether this medicine is still needed, taking account of the patient's age and kidney function, and whether a recent kidney function result is on file.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

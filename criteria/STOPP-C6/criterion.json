@@ -1,0 +1,41 @@
+{
+  "id": "STOPP-C6",
+  "label": "STOPP C6: ticlopidine",
+  "family": "STOPP_START",
+  "title": "Ticlopidine",
+  "statement": "Ticlopidine in any circumstances (clopidogrel and prasugrel have similar efficacy, stronger evidence and fewer side-effects).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Ticlopidine carries serious adverse effects. If the patient still takes it, review the indication and which antiplatelet is suitable. Prasugrel is contraindicated after a stroke or transient ischaemic attack.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Ticlopidine",
+      "ingredients": [
+        "ticlopidine"
+      ],
+      "brands": {
+        "ticlopidine": [
+          "Tilodene",
+          "Ticlid"
+        ]
+      },
+      "note": "Tilodene and Ticlid are ticlopidine tablets. Ticlid may appear on an overseas history. Clopidogrel and prasugrel are not in this group."
+    }
+  ],
+  "rule_for_models": "Apply this criterion only to people aged 65 or older. If age is under 65, there is no finding. If age is unknown, request the age before confirming a finding. Suspect a finding when ticlopidine (Group A) appears anywhere in the history, in any circumstances. One supply is enough.",
+  "cannot_be_seen": "Why ticlopidine was supplied, and whether it came from overseas or a compounding source. Also whether another antiplatelet is taken as well.",
+  "ask_the_gp": "Whether ticlopidine can be changed to clopidogrel or another suitable antiplatelet.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

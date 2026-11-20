@@ -1,0 +1,44 @@
+[
+  {
+    "file": "EU7-F81/pos-brand.csv",
+    "kind": "positive",
+    "about": "Nuelin SR (theophylline, a slow-release tablet) is supplied five times from October 2025 to February 2026, by brand name only.",
+    "findings": [
+      {
+        "criterion": "EU7-F81",
+        "must_cite": [
+          [
+            "L003",
+            "L007",
+            "L011",
+            "L015",
+            "L019"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F81/pos-buried.csv",
+    "kind": "positive",
+    "about": "Theophylline (Nuelin SR) is supplied three times from January to March 2026, in the middle of a 15-month history.",
+    "findings": [
+      {
+        "criterion": "EU7-F81",
+        "must_cite": [
+          [
+            "L032",
+            "L036",
+            "L041"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F81/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Tiotropium is supplied for lung disease. There is no oral theophylline supply.",
+    "findings": []
+  }
+]

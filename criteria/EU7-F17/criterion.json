@@ -1,0 +1,37 @@
+{
+  "id": "EU7-F17",
+  "label": "EU(7)-PIM: sitagliptin, vildagliptin",
+  "family": "EU7",
+  "title": "Sitagliptin or vildagliptin in an older person",
+  "statement": "Sitagliptin and vildagliptin are on the EU(7)-PIM list of potentially inappropriate medicines for older people. Three reasons are given. There is little safety information for older people (for sitagliptin, people aged 75 years or over). Older people have higher blood levels of these medicines than younger people. The medicines can cause low blood sugar, dizziness, headache and swelling of the feet and ankles. The list says to lower the dose when the kidneys work less well. In 2015 the list suggested 50 mg of sitagliptin daily for creatinine clearance of 30 to 50 mL/min and 25 mg daily below 30 mL/min. It suggested 50 mg of vildagliptin daily in moderate or severe kidney failure. For Januvia alone, the Australian product information gives 100 mg once daily at eGFR 45 or above, 50 mg once daily at 30 to below 45, and 25 mg once daily below 30 mL/min/1.73 m². Use the product information for the preparation supplied, including Galvus or a combination tablet. The alternatives it names are diet, metformin (less than 850 mg twice a day), insulin and gliclazide.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Statement written by the entrant in plain words from two rows of the source table. The source wording is not reproduced because part of the dose text is marked as coming from Micromedex. The authors have not reviewed this wording."
+  },
+  "plain_summary": "In 2015 the EU panel raised concerns about the safety evidence for sitagliptin and vildagliptin in older people. Review the dose against kidney function and the preparation supplied. Ask about dizziness, headache, ankle swelling and low blood sugar. The risk of low blood sugar is higher with insulin or a sulfonylurea.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Sitagliptin and vildagliptin",
+      "ingredients": ["sitagliptin", "vildagliptin"],
+      "brands": {
+        "sitagliptin": ["Januvia", "Xelevia", "Janorix", "Sitaglin", "Sitaglo", "Sitazitin", "Janumet", "Janumet XR", "Velmetia", "Sitaglo-Met", "Sitametin", "Steglujan", "Sidapvia", "Juvicor"],
+        "vildagliptin": ["Galvus", "Galvumet"]
+      },
+      "note": "Janumet, Janumet XR, Velmetia, Sitaglo-Met and Sitametin are sitagliptin with metformin. Steglujan is sitagliptin with ertugliflozin. Sidapvia is sitagliptin with dapagliflozin. Juvicor is sitagliptin with simvastatin. Galvumet is vildagliptin with metformin. Generic packs that show the ingredient name with a company name count too. Other gliptins are not named in the source and do not count: linagliptin (Trajenta, Trajentamet), saxagliptin (Onglyza) and alogliptin (Nesina)."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when a Group A medicine (sitagliptin or vildagliptin, alone or in a combination tablet) is supplied, at any dose, to a person with a recorded age of 65 or older. If age is missing and the medicine pattern matches, report only a possible finding and ask for the patient’s age. An age below 65 does not meet this criterion. One supply is enough. Linagliptin, saxagliptin and alogliptin do not count.",
+  "cannot_be_seen": "Kidney function, blood glucose and HbA1c results, any episodes of low blood sugar, dizziness or ankle swelling, and whether doses are taken.",
+  "ask_the_gp": "A review of whether this medicine and its dose still suit the patient's age and kidney function.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

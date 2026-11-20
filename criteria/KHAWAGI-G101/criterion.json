@@ -1,0 +1,55 @@
+{
+  "id": "KHAWAGI-G101",
+  "label": "Khawagi review: Review overlapping fluvoxamine and theophylline exposure",
+  "family": "KHAWAGI",
+  "title": "Review overlapping fluvoxamine and theophylline exposure",
+  "statement": "Review overlapping fluvoxamine and theophylline exposure.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Khawagi et al. (2019), S3 File. List of potential Prescribing Safety Indicators (PSIs) related to mental health medications and conditions.",
+    "citation": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. PLoS ONE 2019;14(5):e0217406.",
+    "doi": "10.1371/journal.pone.0217406",
+    "url": "https://doi.org/10.1371/journal.pone.0217406.s003",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. PLoS ONE 2019;14(5):e0217406. https://doi.org/10.1371/journal.pone.0217406; S3 File, https://doi.org/10.1371/journal.pone.0217406.s003. © 2019 Khawagi et al., CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Khawagi et al. (2019), PLOS ONE 14(5), e0217406, S3 File, CC BY 4.0. Original screening wording and Australian adaptations. S3 reference(s) as indexed in the supplied qualification: [89]. Clinical cross-check: Khawagi review (https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0217406).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "Review overlapping fluvoxamine and theophylline exposure.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Fluvoxamine",
+      "ingredients": [
+        "fluvoxamine"
+      ],
+      "brands": {
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ]
+      }
+    },
+    {
+      "key": "B",
+      "name": "Theophylline",
+      "ingredients": [
+        "theophylline"
+      ],
+      "brands": {
+        "theophylline": [
+          "Nuelin SR",
+          "Nuelin"
+        ]
+      }
+    }
+  ],
+  "rule_for_models": "Review concurrent fluvoxamine and theophylline. Use documented start and stop dates or an explicit course length. Otherwise estimate cover from the quantity and fixed daily directions, counting from the start date or, if none is given, the supply date. If directions are unclear and supplies within 60 days could overlap, report only a possible finding and ask whether both medicines were taken together. A documented stop before the other medicine started rules out overlap. Supply dates alone do not establish same-day urgency. Cite both supplies regardless of the indication.",
+  "cannot_be_seen": "Dispensing does not establish actual use, indication or a prescriber’s intent. Treatment and assessments elsewhere may be missing.",
+  "ask_the_gp": "Could you review whether fluvoxamine and theophylline were taken together and whether the risk of a raised theophylline level needs assessment?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

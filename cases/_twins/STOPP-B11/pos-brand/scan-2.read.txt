@@ -1,0 +1,8 @@
+2026-08-08 | Norvasc 10 mg tablet | qty 30 | repeats 2 | Take ONE tablet daily | Dr A. Example
+2026-08-10 | Physiotens 400 microgram tablet | qty 30 | repeats 2 | Take ONE tablet in the morning | Dr A. Example
+2026-08-24 | Micardis Plus (telmisartan + hydrochlorothiazide) 80 mg/12.5 mg tablet | qty 28 | repeats 1 | Take ONE tablet in the morning | Dr A. Example
+2026-09-07 | Norvasc 10 mg tablet | qty 30 | repeats 1 | Take ONE tablet daily | Dr A. Example
+2026-09-08 | Physiotens 400 microgram tablet | qty 30 | repeats 1 | Take ONE tablet in the morning | Dr A. Example
+2026-09-21 | Micardis Plus (telmisartan + hydrochlorothiazide) 80 mg/12.5 mg tablet | qty 28 | repeats 0 | Take ONE tablet in the morning | Dr A. Example
+2026-10-07 | Norvasc 10 mg tablet | qty 30 | repeats 0 | Take ONE tablet daily | Dr A. Example
+2026-10-08 | Physiotens 400 microgram tablet | qty 30 | repeats 0 | Take ONE tablet in the morning | Dr A. Example

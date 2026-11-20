@@ -1,0 +1,41 @@
+[
+  {
+    "file": "DREISCHULTE-73/pos-fact.csv",
+    "kind": "positive",
+    "about": "After a treatment interruption, the latest leflunomide supply was on 2026-10-30 and the checked pathology reports put the last completed full blood count 94 days earlier.",
+    "findings": [
+      {
+        "criterion": "DREISCHULTE-73",
+        "must_cite": [
+          [
+            "L046"
+          ],
+          [
+            "L047"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "DREISCHULTE-73/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line confirming whether a full blood count was completed on the latest leflunomide supply date or in the preceding 84 days.",
+    "findings": [
+      {
+        "criterion": "DREISCHULTE-73",
+        "must_cite": [
+          [
+            "L027"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "DREISCHULTE-73/near-miss.csv",
+    "kind": "near_miss",
+    "about": "A completed full blood count 70 days before the latest leflunomide supply falls inside the published 12-week window.",
+    "findings": []
+  }
+]

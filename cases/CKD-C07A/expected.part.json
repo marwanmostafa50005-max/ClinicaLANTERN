@@ -1,0 +1,50 @@
+[
+  {
+    "file": "CKD-C07A/pos-fact.csv",
+    "kind": "positive",
+    "about": "Cardol 80 mg twice daily is supplied at an unindexed creatinine clearance of 9 mL/min.",
+    "findings": [
+      {
+        "criterion": "CKD-C07A",
+        "must_cite": [
+          [
+            "L045"
+          ],
+          [
+            "L042"
+          ],
+          [
+            "L044"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CKD-C07A/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about indexed creatinine clearance for this patient off dialysis taking atenolol 100 mg daily.",
+    "findings": [
+      {
+        "criterion": "CKD-C07A",
+        "must_cite": [
+          [
+            "L032"
+          ],
+          [
+            "L029"
+          ],
+          [
+            "L030"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CKD-C07A/near-miss.csv",
+    "kind": "near_miss",
+    "about": "At indexed creatinine clearance of 35 mL/min/1.73 m² off dialysis, atenolol 100 mg every two days matches the renal schedule.",
+    "findings": []
+  }
+]

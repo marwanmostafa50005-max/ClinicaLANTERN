@@ -1,0 +1,52 @@
+[
+  {
+    "file": "START-B7/pos-fact.csv",
+    "kind": "positive",
+    "about": "The record shows heart failure (L001), eGFR 54 (L016) and current potassium within the laboratory reference range (L059). No spironolactone or eplerenone was supplied in the last six months.",
+    "findings": [
+      {
+        "criterion": "START-B7",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L016"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-B7/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about heart failure or serum potassium, but it shows Entresto supplies and an eGFR of 58 with no spironolactone or eplerenone supply in the last six months.",
+    "findings": [
+      {
+        "criterion": "START-B7",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L010",
+            "L014",
+            "L018",
+            "L022",
+            "L027",
+            "L031",
+            "L035"
+          ],
+          [
+            "L009"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-B7/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The record has a heart failure line but the latest eGFR is 27, which is not above 30, so spironolactone or eplerenone is not expected and there is no finding.",
+    "findings": []
+  }
+]

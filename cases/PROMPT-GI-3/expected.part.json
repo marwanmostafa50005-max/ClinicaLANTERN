@@ -1,0 +1,61 @@
+[
+  {
+    "file": "PROMPT-GI-3/pos-brand.csv",
+    "kind": "positive",
+    "about": "Nexium (esomeprazole) is supplied every four weeks from December 2025 to May 2026 while Plavix (clopidogrel) is supplied every four weeks from November 2025 to June 2026, and both appear by brand name only.",
+    "findings": [
+      {
+        "criterion": "PROMPT-GI-3",
+        "must_cite": [
+          [
+            "L005",
+            "L009",
+            "L013",
+            "L018",
+            "L022",
+            "L026",
+            "L031"
+          ],
+          [
+            "L004",
+            "L008",
+            "L012",
+            "L017",
+            "L021",
+            "L025",
+            "L030",
+            "L034"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PROMPT-GI-3/pos-buried.csv",
+    "kind": "positive",
+    "about": "Losec Tablets (omeprazole) is supplied three times in January 2026 to March 2026, in the middle of a 15-month history, while Iscover (clopidogrel) is supplied every four weeks from November 2025 to May 2026.",
+    "findings": [
+      {
+        "criterion": "PROMPT-GI-3",
+        "must_cite": [
+          [
+            "L032",
+            "L039",
+            "L044"
+          ],
+          [
+            "L035",
+            "L038",
+            "L043"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PROMPT-GI-3/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The record documents the last omeprazole dose on 28 January before clopidogrel began on 2 February, when pantoprazole was supplied.",
+    "findings": []
+  }
+]

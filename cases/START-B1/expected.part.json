@@ -1,0 +1,47 @@
+[
+  {
+    "file": "START-B1/pos-fact.csv",
+    "kind": "positive",
+    "about": "Three blood pressure lines (165/92, 168/94 and 172/96 mmHg) are on the record, there is no frailty line, and no blood pressure medicine is supplied in the whole history.",
+    "findings": [
+      {
+        "criterion": "START-B1",
+        "must_cite": [
+          [
+            "L011",
+            "L030"
+          ],
+          [
+            "L011",
+            "L041"
+          ],
+          [
+            "L030",
+            "L041"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-B1/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about \"Repeat blood pressure\" after one raised clinic reading, and no blood pressure medicine was supplied in the last six months.",
+    "findings": [
+      {
+        "criterion": "START-B1",
+        "must_cite": [
+          [
+            "L027"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-B1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Two raised blood pressure lines are on the record, but amlodipine (Norvasc) is supplied every month through to September 2026, so the high pressure is being treated.",
+    "findings": []
+  }
+]

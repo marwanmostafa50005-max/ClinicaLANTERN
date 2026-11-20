@@ -1,0 +1,156 @@
+{
+  "id": "BRISNIK-HR-A1",
+  "label": "Brisnik A1: antidepressant in heart failure",
+  "family": "BRISNIK",
+  "title": "SNRI, high-dose tricyclic or tranylcypromine in chronic heart failure",
+  "statement": "Prescribed SNRI, TCA (in doses ≥ 50 mg/day)[a], or tranylcypromine[b] - and the patient has a history of chronic heart failure",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.2 candidate repairs and adopted conventions merged with attribution). Not endorsed by the source authors."
+  },
+  "plain_summary": "Some antidepressants (SNRIs, tricyclics at 50 mg a day or more, and tranylcypromine) can strain the heart, so they are risky for a person with long-term heart failure.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "SNRIs, the serotonin and noradrenaline reuptake inhibitor antidepressants",
+      "ingredients": [
+        "desvenlafaxine",
+        "duloxetine",
+        "venlafaxine"
+      ],
+      "brands": {
+        "desvenlafaxine": [
+          "Pristiq",
+          "Desfax",
+          "Desven"
+        ],
+        "duloxetine": [
+          "Cymbalta",
+          "Andepra",
+          "Baltine",
+          "Coperin",
+          "Deotine",
+          "Depreta",
+          "Drulox",
+          "Dulocym",
+          "Duloxecor",
+          "Dytrex",
+          "Symlox",
+          "Texotine",
+          "Tixol",
+          "Xerol DR"
+        ],
+        "venlafaxine": [
+          "Efexor-XR",
+          "Enlafax",
+          "Venlexor",
+          "Altven",
+          "Elaxine SR",
+          "Enlafax XR",
+          "Evelexa XR",
+          "Ozvenaf",
+          "Venfax SR",
+          "Venla",
+          "Venlexor XR"
+        ]
+      },
+      "note": "Any dose counts."
+    },
+    {
+      "key": "B",
+      "name": "Tricyclic antidepressants (TCAs)",
+      "ingredients": [
+        "amitriptyline",
+        "clomipramine",
+        "dosulepin",
+        "doxepin",
+        "imipramine",
+        "nortriptyline",
+        "trimipramine"
+      ],
+      "brands": {
+        "amitriptyline": [
+          "Endep",
+          "Amichlor",
+          "Amidep",
+          "Entrip"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "dosulepin": [
+          "Dothep",
+          "Prothiaden"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ]
+      },
+      "note": "A tricyclic counts only at a daily dose of 50 mg or more. Work the dose out from strength and directions. Dothiepin is the former name for dosulepin."
+    },
+    {
+      "key": "C",
+      "name": "Tranylcypromine",
+      "ingredients": [
+        "tranylcypromine"
+      ],
+      "brands": {
+        "tranylcypromine": [
+          "Parnate",
+          "Parpromine",
+          "Tranamef",
+          "Tranylmed"
+        ]
+      },
+      "note": "Any dose counts."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Chronic heart failure",
+      "meets": "Chronic heart failure is recorded as a current or past condition.",
+      "options": [
+        {
+          "words": "Diagnosed with chronic heart failure now or in the past",
+          "effect": "meets"
+        },
+        {
+          "words": "History confirms no previous diagnosis of chronic heart failure",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "For Group A or C at any dose, or a Group B tricyclic at 50 mg a day or more (daily dose = mg per tablet or capsule multiplied by the total number of tablets or capsules directed per day), cite the supply and any recorded current or past chronic heart failure, even with normal ejection fraction. If the directions leave the threshold uncertain and the other requirements could be met, report a possible finding and name the missing fact as the prescribed daily dose of the specific tricyclic in mg per day. Use the pharmacist's dose for the same medicine and course, and keep an unknown dose open. Give no finding if the entire prescribed range is below 50 mg or if a history review excludes chronic heart failure. If this history is unknown, report a possible finding, name the missing history and ask whether a doctor has ever diagnosed heart failure or described a weak heart. Seek confirmation if the diagnosis is unclear. An explicit history review recording no current or past chronic heart failure supports no finding.",
+  "cannot_be_seen": "Whether the person has heart failure when no condition line is recorded, how severe it is, the heart pump (ejection fraction) result when no result is recorded, why the antidepressant was chosen, and what the person actually takes.",
+  "ask_the_gp": "A review of the antidepressant choice and dose for this person, and confirmation of whether the person has ever been diagnosed with chronic heart failure.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

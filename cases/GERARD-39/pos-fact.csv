@@ -1,0 +1,51 @@
+patient_ref,patient_age,patient_sex,record_type,dispense_date,medicine,brand,strength,form,quantity,repeats_left,directions,prescriber,detail,value
+F-G39-01,58,M,condition,2025-08-01,,,,,,,,,Type 2 diabetes,Confirmed
+F-G39-01,58,M,,2025-08-01,empagliflozin,Jardiance,25 mg,tablet,30,5,Start on 8 August 2025 and take one tablet each morning for type 2 diabetes,Dr A. Example,,
+F-G39-01,58,M,result,2025-08-01,,,,,,,,,HbA1c,6.9%
+F-G39-01,58,M,,2025-08-02,atorvastatin,,20 mg,tablet,30,5,Take one tablet daily,Dr A. Example,,
+F-G39-01,58,M,,2025-08-04,amlodipine,,5 mg,tablet,30,5,Take one tablet daily,Dr A. Example,,
+F-G39-01,58,M,result,2025-08-05,,,,,,,,,eGFR,85 mL/min/1.73 m2
+F-G39-01,58,M,,2025-08-31,empagliflozin,Jardiance,25 mg,tablet,30,4,Take one tablet each morning for type 2 diabetes,Dr A. Example,,
+F-G39-01,58,M,,2025-09-01,atorvastatin,,20 mg,tablet,30,4,Take one tablet daily,Dr A. Example,,
+F-G39-01,58,M,,2025-09-03,amlodipine,,5 mg,tablet,30,4,Take one tablet daily,Dr A. Example,,
+F-G39-01,58,M,,2025-09-30,empagliflozin,Jardiance,25 mg,tablet,30,3,Take one tablet each morning for type 2 diabetes,Dr A. Example,,
+F-G39-01,58,M,,2025-10-01,atorvastatin,,20 mg,tablet,30,3,Take one tablet daily,Dr A. Example,,
+F-G39-01,58,M,,2025-10-03,amlodipine,,5 mg,tablet,30,3,Take one tablet daily,Dr A. Example,,
+F-G39-01,58,M,result,2025-10-18,,,,,,,,,HbA1c,7.0%
+F-G39-01,58,M,,2025-10-30,empagliflozin,Jardiance,25 mg,tablet,30,2,Take one tablet each morning for type 2 diabetes,Dr A. Example,,
+F-G39-01,58,M,,2025-10-31,atorvastatin,,20 mg,tablet,30,2,Take one tablet daily,Dr A. Example,,
+F-G39-01,58,M,,2025-11-02,amlodipine,,5 mg,tablet,30,2,Take one tablet daily,Dr A. Example,,
+F-G39-01,58,M,,2025-11-29,empagliflozin,Jardiance,25 mg,tablet,30,1,Take one tablet each morning for type 2 diabetes,Dr A. Example,,
+F-G39-01,58,M,,2025-11-30,atorvastatin,,20 mg,tablet,30,1,Take one tablet daily,Dr A. Example,,
+F-G39-01,58,M,,2025-12-02,amlodipine,,5 mg,tablet,30,1,Take one tablet daily,Dr A. Example,,
+F-G39-01,58,M,,2025-12-29,empagliflozin,Jardiance,25 mg,tablet,30,0,Take one tablet each morning for type 2 diabetes,Dr A. Example,,
+F-G39-01,58,M,,2025-12-30,atorvastatin,,20 mg,tablet,30,0,Take one tablet daily,Dr A. Example,,
+F-G39-01,58,M,,2026-01-01,amlodipine,,5 mg,tablet,30,0,Take one tablet daily,Dr A. Example,,
+F-G39-01,58,M,result,2026-01-04,,,,,,,,,HbA1c,6.8%
+F-G39-01,58,M,,2026-01-28,empagliflozin,Jardiance,25 mg,tablet,30,5,Take one tablet each morning for type 2 diabetes,Dr A. Example,,
+F-G39-01,58,M,,2026-01-29,atorvastatin,,20 mg,tablet,30,5,Take one tablet daily,Dr A. Example,,
+F-G39-01,58,M,,2026-01-31,amlodipine,,5 mg,tablet,30,5,Take one tablet daily,Dr A. Example,,
+F-G39-01,58,M,,2026-02-27,empagliflozin,Jardiance,25 mg,tablet,30,4,Take one tablet each morning for type 2 diabetes,Dr A. Example,,
+F-G39-01,58,M,,2026-02-28,atorvastatin,,20 mg,tablet,30,4,Take one tablet daily,Dr A. Example,,
+F-G39-01,58,M,,2026-03-02,amlodipine,,5 mg,tablet,30,4,Take one tablet daily,Dr A. Example,,
+F-G39-01,58,M,result,2026-03-23,,,,,,,,,HbA1c,6.9%
+F-G39-01,58,M,,2026-03-29,empagliflozin,Jardiance,25 mg,tablet,30,3,Take one tablet each morning for type 2 diabetes,Dr A. Example,,
+F-G39-01,58,M,,2026-03-30,atorvastatin,,20 mg,tablet,30,3,Take one tablet daily,Dr A. Example,,
+F-G39-01,58,M,,2026-04-01,amlodipine,,5 mg,tablet,30,3,Take one tablet daily,Dr A. Example,,
+F-G39-01,58,M,,2026-04-28,empagliflozin,Jardiance,25 mg,tablet,30,2,Take one tablet each morning for type 2 diabetes,Dr A. Example,,
+F-G39-01,58,M,,2026-04-29,atorvastatin,,20 mg,tablet,30,2,Take one tablet daily,Dr A. Example,,
+F-G39-01,58,M,,2026-05-01,amlodipine,,5 mg,tablet,30,2,Take one tablet daily,Dr A. Example,,
+F-G39-01,58,M,,2026-05-28,empagliflozin,Jardiance,25 mg,tablet,30,1,Take one tablet each morning for type 2 diabetes,Dr A. Example,,
+F-G39-01,58,M,,2026-05-29,atorvastatin,,20 mg,tablet,30,1,Take one tablet daily,Dr A. Example,,
+F-G39-01,58,M,,2026-05-31,amlodipine,,5 mg,tablet,30,1,Take one tablet daily,Dr A. Example,,
+F-G39-01,58,M,result,2026-06-09,,,,,,,,,HbA1c,7.0%
+F-G39-01,58,M,,2026-06-27,empagliflozin,Jardiance,25 mg,tablet,30,0,Take one tablet each morning for type 2 diabetes,Dr A. Example,,
+F-G39-01,58,M,,2026-06-28,atorvastatin,,20 mg,tablet,30,0,Take one tablet daily,Dr A. Example,,
+F-G39-01,58,M,,2026-06-30,amlodipine,,5 mg,tablet,30,0,Take one tablet daily,Dr A. Example,,
+F-G39-01,58,M,,2026-07-27,empagliflozin,Jardiance,25 mg,tablet,30,5,Take one tablet each morning for type 2 diabetes,Dr A. Example,,
+F-G39-01,58,M,,2026-07-28,atorvastatin,,20 mg,tablet,30,5,Take one tablet daily,Dr A. Example,,
+F-G39-01,58,M,,2026-07-30,amlodipine,,5 mg,tablet,30,5,Take one tablet daily,Dr A. Example,,
+F-G39-01,58,M,,2026-08-26,empagliflozin,Jardiance,25 mg,tablet,30,4,Take one tablet each morning for type 2 diabetes,Dr A. Example,,
+F-G39-01,58,M,result,2026-08-26,,,,,,,,,HbA1c,6.8%
+F-G39-01,58,M,,2026-09-25,empagliflozin,Jardiance,25 mg,tablet,30,3,Take one tablet each morning for type 2 diabetes,Dr A. Example,,
+F-G39-01,58,M,,2026-10-25,empagliflozin,Jardiance,25 mg,tablet,30,2,Take one tablet each morning for type 2 diabetes,Dr A. Example,,

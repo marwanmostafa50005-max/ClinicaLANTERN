@@ -1,0 +1,47 @@
+[
+  {
+    "file": "GERARD-37/pos-fact.csv",
+    "kind": "positive",
+    "about": "The dietitian confirmed current malnutrition during dulaglutide treatment prescribed for type 2 diabetes.",
+    "findings": [
+      {
+        "criterion": "GERARD-37",
+        "must_cite": [
+          [
+            "L045"
+          ],
+          [
+            "L002"
+          ],
+          [
+            "L047"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "GERARD-37/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about a diagnosis of malnutrition during dulaglutide treatment prescribed for type 2 diabetes.",
+    "findings": [
+      {
+        "criterion": "GERARD-37",
+        "must_cite": [
+          [
+            "L026"
+          ],
+          [
+            "L002"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "GERARD-37/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The dietitian excluded malnutrition during dulaglutide treatment.",
+    "findings": []
+  }
+]

@@ -1,0 +1,90 @@
+{
+  "id": "POISONSTD-D2-1",
+  "label": "Poisons Standard: pregnancy beginning within 36 calendar months after acitretin",
+  "family": "POISONSTD",
+  "title": "Pregnancy beginning within 36 calendar months after acitretin",
+  "statement": "if the poison is acitretin or etretinate—advised the patient to avoid becoming pregnant during or for a period of 36 months after completion of treatment; and",
+  "statement_origin": "published",
+  "source": {
+    "document": "Therapeutic Goods (Poisons Standard—October 2026) Instrument 2026",
+    "citation": "Australian Poisons Standard, October 2026 (SUSMP No. 51), Appendix D, clause 2, F2026L01327, Appendix D, clause 2(b)(ii), read with clause 2 table item 1",
+    "url": "https://www.legislation.gov.au/F2026L01327/latest/text",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Sourced from the Federal Register of Legislation at 18 November 2026. For the latest information on Australian Government law please go to https://www.legislation.gov.au.",
+    "modification_notice": "The published subparagraph is reproduced unchanged. This review covers acitretin after treatment. Based on content from the Federal Register of Legislation at 18 November 2026. For the latest information on Australian Government legislation please go to https://www.legislation.gov.au."
+  },
+  "plain_summary": "A pregnancy that began within 36 calendar months after the last dose of acitretin needs prompt review.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Acitretin",
+      "ingredients": [
+        "acitretin"
+      ],
+      "brands": {
+        "acitretin": [
+          "Neotigason",
+          "ZETIN",
+          "Novatin"
+        ]
+      },
+      "note": "Human use. Australian oral capsules verified."
+    }
+  ],
+  "rule_for_models": "For a woman of child-bearing age, compare each pregnancy with each completed acitretin course. Flag the pregnancy once if conception or its entire estimated range falls after the last dose and within 36 calendar months of it. Cite the final supply for that course and the records dating its last dose and conception. Alternatively, cite the supply and the pharmacist's explicit confirmation that both dates for that course place conception in the interval. A course completion answer alone gives no last dose date. Never use the date of supply or entry as the last dose or invent either date. A general pregnancy answer alone cannot establish or exclude conception in that interval. If a supplied course could qualify but the dates, pregnancy history or link to that course are uncertain, report only a possible finding and name what is missing. Return no finding for an ongoing course or an absent supply. A check ruling out conception in the period closes the finding only through the date assessed. Conception during treatment is outside this post-treatment check and warrants prompt separate clinical review. If age or sex is missing and pregnancy potential at exposure is unclear, report only a possible finding and ask whether pregnancy was possible then. Use the recorded pregnancy history when it establishes this directly.",
+  "cannot_be_seen": "Supply dates and pack sizes alone cannot establish the last dose. A positive test or the first pregnancy entry alone cannot date conception. These records do not establish the advice given, a legal breach or fetal harm.",
+  "ask_the_gp": "Could you review any possible pregnancy against the last dose of acitretin and advise on follow-up if conception may have occurred within 36 calendar months after treatment?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Acitretin course completion",
+      "meets": "For the course linked to the final acitretin supply, use the actual last dose date recorded in the history. If only course status is known, the date itself is still missing.",
+      "options": [
+        {
+          "words": "Course finished and the last dose date is documented",
+          "effect": "meets"
+        },
+        {
+          "words": "Still taking this course",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Course finished but the last dose date is uncertain",
+          "effect": "unknown"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "condition",
+      "what": "Conception after the last dose of acitretin",
+      "meets": "For this completed acitretin course, the dated history or the pharmacist's check of both dates places conception after the last dose and within 36 calendar months. Check the last dose and the conception date or estimated range for this course before choosing the first answer.",
+      "options": [
+        {
+          "words": "The dates place conception after the last dose and within 36 calendar months",
+          "effect": "meets"
+        },
+        {
+          "words": "Pregnancy in that period is ruled out through the assessment date",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "There was a pregnancy but the dates are uncertain",
+          "effect": "unknown"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "only_sex": "female"
+}

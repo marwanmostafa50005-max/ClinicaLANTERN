@@ -1,0 +1,63 @@
+[
+  {
+    "file": "BRISNIK-HR-C3/pos-fact.csv",
+    "kind": "positive",
+    "about": "Lexapro (escitalopram) is supplied monthly for a year, and a condition line records dementia.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-C3",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L007",
+            "L011",
+            "L013",
+            "L018",
+            "L020",
+            "L024",
+            "L026",
+            "L030",
+            "L032",
+            "L036",
+            "L038"
+          ],
+          [
+            "L017"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-C3/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about cognitive impairment or dementia. Avanza (mirtazapine) is supplied monthly for eleven months.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-C3",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L007",
+            "L010",
+            "L013",
+            "L016",
+            "L018",
+            "L022",
+            "L024",
+            "L026",
+            "L028"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-C3/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Duloxetine is supplied and the clinical assessment documents no cognitive impairment or dementia.",
+    "findings": []
+  }
+]

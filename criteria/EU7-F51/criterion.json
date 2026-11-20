@@ -1,0 +1,45 @@
+{
+  "id": "EU7-F51",
+  "label": "EU(7)-PIM: methadone",
+  "family": "EU7",
+  "title": "Methadone in an older person",
+  "statement": "Methadone is a medicine to avoid in older people because it is very long-acting. The 2015 list favoured a low starting dose and gradual increases. For people starting methadone with renal failure, it suggested a lower initial dose, longer intervals and slower increases. For established opioid dependence treatment, review the maintenance plan with the treating service.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Statement written in plain words by ClinicaLANTERN from the EU(7)-PIM list row. The published row is not reproduced because part of its dose text is marked as taken from Micromedex and the rights are not settled."
+  },
+  "plain_summary": "Methadone stays in the body for a very long time, so in people aged 65 and over it can build up and cause harm.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Methadone",
+      "ingredients": [
+        "methadone"
+      ],
+      "brands": {
+        "methadone": [
+          "Physeptone",
+          "Aspen Methadone Syrup",
+          "Biodone Forte",
+          "Opod-D Syrup",
+          "Opod-P Liquid",
+          "Physeptone Liquid"
+        ]
+      },
+      "note": "Includes methadone syrup and tablets. Methadone given for opioid dependence is included. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when methadone is supplied to a person aged 65 or over. If methadone is supplied and age is unknown, report only a possible finding and ask the pharmacist to confirm whether the person is aged 65 or over. One supply is enough.",
+  "cannot_be_seen": "Ask the patient whether methadone is for pain or opioid dependence and which doctor or service manages the dose. Kidney function and heart tracing results may also be missing. Doses given at a clinic are not shown.",
+  "ask_the_gp": "A review of the methadone dose and plan, with the prescriber or treatment service if methadone is for dependence.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

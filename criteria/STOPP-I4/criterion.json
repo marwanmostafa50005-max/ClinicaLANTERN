@@ -1,0 +1,86 @@
+{
+  "id": "STOPP-I4",
+  "label": "STOPP I4: bladder antimuscarinic with constipation",
+  "family": "STOPP_START",
+  "title": "Bladder antimuscarinic with constipation",
+  "statement": "Systemic antimuscarinic drugs (e.g., oxybutynin, tolterodine, trospium) with constipation (risk of exacerbation of constipation).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Bladder antimuscarinic medicines such as oxybutynin, tolterodine and trospium slow the bowel and can make constipation worse.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Bladder antimuscarinic medicines (taken by mouth or as a patch)",
+      "ingredients": [
+        "oxybutynin",
+        "tolterodine",
+        "solifenacin",
+        "darifenacin",
+        "fesoterodine",
+        "trospium",
+        "propantheline"
+      ],
+      "brands": {
+        "oxybutynin": [
+          "Ditropan",
+          "Oxytrol"
+        ],
+        "tolterodine": [
+          "Detrusitol"
+        ],
+        "solifenacin": [
+          "Vesicare",
+          "Solicare",
+          "Vesifen",
+          "Solicare ODT",
+          "Vesican ODT"
+        ],
+        "darifenacin": [
+          "Enablex"
+        ],
+        "fesoterodine": [],
+        "trospium": [],
+        "propantheline": [
+          "Pro-Banthine"
+        ]
+      },
+      "note": "Tablets, capsules, liquids and skin patches count. Eye drops and inhalers do not. No Australian brand is listed for fesoterodine or trospium, so a history may show only the ingredient name. Other medicines with antimuscarinic action, such as tricyclic antidepressants, are not in this group. Mirabegron is not an antimuscarinic. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Constipation while using the bladder medicine",
+      "meets": "Constipation was present during this course, including a new episode.",
+      "options": [
+        {
+          "words": "Constipation during this course",
+          "effect": "meets"
+        },
+        {
+          "words": "No constipation during this course",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply I4 only to people aged 65 or older. If age is unknown and the other requirements could be met, report only a possible finding and ask the pharmacist to confirm whether the person is 65 or older. With a Group A supply, cite the supply and the dated condition or observation showing constipation during that course, including a new episode. A pharmacist answer about bowel habit during that course also counts. Give no finding if the record rules out constipation during the course. If bowel habit is unknown or the timing of an episode cannot be linked to the course, report a possible finding and ask about constipation during treatment. Constipation that first began after treatment stopped does not count for that course.",
+  "cannot_be_seen": "Whether the person is constipated when the record has no condition or observation about bowel habit. Laxatives bought without a prescription do not show, and laxative supplies alone do not prove constipation.",
+  "ask_the_gp": "Whether constipation is a problem for this person, and if so whether the bladder antimuscarinic should continue.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

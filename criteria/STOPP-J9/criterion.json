@@ -1,0 +1,80 @@
+{
+  "id": "STOPP-J9",
+  "label": "STOPP J9",
+  "family": "STOPP_START",
+  "title": "Levothyroxine for mildly raised TSH (subclinical hypothyroidism)",
+  "statement": "Levothyroxine in subclinical hypothyroidism i.e., normal free T4, elevated TSH but < 10 mU/L (no evidence of benefit, risk of iatrogenic thyrotoxicosis).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Levothyroxine given when thyroid hormone (free T4) is normal and TSH is only mildly raised (under 10 mU/L) has no proven benefit and can push the thyroid too high.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Levothyroxine, the thyroid hormone tablet",
+      "ingredients": [
+        "levothyroxine",
+        "thyroxine",
+        "thyroxine sodium"
+      ],
+      "brands": {
+        "levothyroxine": [
+          "Oroxine",
+          "Eutroxsig",
+          "Eltroxin",
+          "Levoxine",
+          "Levothox",
+          "Thyrox"
+        ],
+        "thyroxine": [],
+        "thyroxine sodium": []
+      },
+      "note": "Liothyronine and thyroid extracts are not counted. Thyroxine and thyroxine sodium are older names for levothyroxine in a medicine supply. A free T4 test is not a supply."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "Serum TSH before starting levothyroxine (value, unit and laboratory range)",
+      "meets": "above the laboratory reference range and below 10 mU/L before treatment for the recorded thyroid condition"
+    },
+    {
+      "kind": "result",
+      "what": "Free T4 from the same pre-treatment assessment (value, unit and laboratory range)",
+      "meets": "within the laboratory reference range at the same pre-treatment assessment as the TSH"
+    },
+    {
+      "kind": "condition",
+      "what": "Original indication for levothyroxine",
+      "meets": "Subclinical hypothyroidism was the reason for starting levothyroxine. Another indication excludes this finding. An unknown reason leaves it open if the available results could qualify.",
+      "options": [
+        {
+          "words": "Subclinical hypothyroidism",
+          "effect": "meets"
+        },
+        {
+          "words": "Another indication",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "With a levothyroxine supply at age 65 or older, confirm only if treatment started for subclinical hypothyroidism and the same pre-treatment assessment shows TSH above the laboratory range but below 10 mU/L, with free T4 in range. Cite the supply, both results and the indication. Give no finding without a supply, below age 65, for another indication or when a known baseline result excludes this pattern. If the finding is possible, cite the available evidence and ask for the missing age, indication, result, laboratory interpretation or link to the same assessment. The entry date is not the test date.",
+  "cannot_be_seen": "Earlier treatment, the original indication and baseline thyroid results may be absent from this record. Tests taken during treatment cannot establish the thyroid state before it began. Ask the patient why levothyroxine was started, including whether they had thyroid surgery. The GP record or original laboratory report is usually needed to verify pretreatment TSH and free T4.",
+  "ask_the_gp": "Could you review the original reason for levothyroxine and the TSH and free T4 results before treatment?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

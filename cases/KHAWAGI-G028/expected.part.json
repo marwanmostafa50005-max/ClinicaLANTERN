@@ -1,0 +1,41 @@
+[
+  {
+    "file": "KHAWAGI-G028/pos-fact.csv",
+    "kind": "positive",
+    "about": "The history shows amitriptyline at 100 mg/day and a recorded diagnosis of atrial flutter.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G028",
+        "must_cite": [
+          [
+            "L026"
+          ],
+          [
+            "L024"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G028/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about a cardiac arrhythmia with amitriptyline directed at 100 mg/day.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G028",
+        "must_cite": [
+          [
+            "L016"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G028/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The cardiology assessment excludes arrhythmia and records isolated long QT with amitriptyline directed at 100 mg/day.",
+    "findings": []
+  }
+]

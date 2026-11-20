@@ -1,0 +1,114 @@
+{
+  "id": "POPI-67",
+  "label": "POPI: a tricyclic with a separate bladder anticholinergic for bedwetting",
+  "family": "POPI",
+  "title": "A tricyclic with a separate bladder anticholinergic for bedwetting",
+  "statement": "Tricyclic agents in combination with anticholinergic agents",
+  "statement_origin": "published",
+  "source": {
+    "document": "International consensus validation of the POPI tool (Pediatrics: Omission of Prescriptions and Inappropriate prescriptions) to identify inappropriate prescribing in pediatrics",
+    "citation": "Sadozai L, Sable S, Le Roux E, et al. International consensus validation of the POPI tool (Pediatrics: Omission of Prescriptions and Inappropriate prescriptions) to identify inappropriate prescribing in pediatrics. PLOS ONE. 2020;15(10):e0240105.",
+    "doi": "10.1371/journal.pone.0240105",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0240105",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "© 2020 Sadozai et al. Table 2, International consensus validation of the POPI tool. PLOS ONE 15(10), e0240105. https://doi.org/10.1371/journal.pone.0240105. CC BY 4.0.",
+    "modification_notice": "Table 2 wording is reproduced unchanged. The record rules, medicine mappings and fictional examples are local adaptations."
+  },
+  "plain_summary": "POPI flags a tricyclic and a separate anticholinergic when both are used to treat a child’s bedwetting.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Tricyclic agents",
+      "ingredients": [
+        "imipramine",
+        "amitriptyline",
+        "nortriptyline"
+      ],
+      "brands": {
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "amitriptyline": [
+          "Endep",
+          "Entrip"
+        ],
+        "nortriptyline": [
+          "Allegron"
+        ]
+      },
+      "note": "Recognise a tricyclic by its ingredient or brand, including a generic pack with a company name. Count it as bedwetting treatment only if that use is clear."
+    },
+    {
+      "key": "B",
+      "name": "Bladder anticholinergics",
+      "ingredients": [
+        "oxybutynin",
+        "solifenacin",
+        "tolterodine",
+        "darifenacin",
+        "propantheline"
+      ],
+      "brands": {
+        "oxybutynin": [
+          "Ditropan",
+          "Oxytrol"
+        ],
+        "solifenacin": [
+          "Vesicare",
+          "Solicare",
+          "Solicare ODT",
+          "Vesican ODT",
+          "Vesifen"
+        ],
+        "tolterodine": [
+          "Detrusitol"
+        ],
+        "darifenacin": [
+          "Enablex"
+        ],
+        "propantheline": [
+          "Pro-Banthine"
+        ]
+      },
+      "note": "These are Australian examples. Count another bladder anticholinergic if its identity and use for bedwetting are clear. Generic packs showing the ingredient with a company name count. Check the reason for supply, including for a patch."
+    }
+  ],
+  "rule_for_models": "If a person aged under 18 years receives a Group A tricyclic and a separate Group B anticholinergic to treat nocturnal enuresis together and their supply dates overlap or fall within 60 days of each other, cite both supplies and the evidence that links both medicines to bedwetting during the same course. A diagnosis of nocturnal enuresis alone leaves the purpose of the medicines unclear. If bedwetting is ruled out during that course, report no finding. There is no finding in adults, if either medicine is absent, if the courses are clearly separate, or if either medicine is documented as being used only for another purpose. For a pair in that period with no recorded exclusion, report only a possible finding if age or use is unclear, name any missing facts, ask for age at supply if unknown, and if use is unclear ask the patient or parent what each medicine is for and whether the child uses both together.",
+  "cannot_be_seen": "Supply dates alone cannot show why each medicine was used or whether the child took them together.",
+  "ask_the_gp": "Could you confirm the purpose of each medicine and review their combined anticholinergic effects?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Are both the tricyclic and the separate anticholinergic being used together to treat this child's bedwetting?",
+      "meets": "Both medicines are used together for the child's bedwetting. Bedwetting during the course can be confirmed even when the purpose of each medicine is unclear. A diagnosis alone leaves the finding possible. If bedwetting is ruled out during the course, give no finding. If either medicine is used only for another purpose, exclude the finding. If either purpose is unknown and there is no known exclusion, the finding remains possible.",
+      "options": [
+        {
+          "words": "Yes, both are used together for bedwetting.",
+          "effect": "meets"
+        },
+        {
+          "words": "No, the two medicines are not used together for bedwetting.",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "The child had bedwetting during this course, but it is unclear whether both medicines were used together for it.",
+          "effect": "unknown"
+        },
+        {
+          "words": "Bedwetting was ruled out during this course.",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known. It is unclear whether both are used together for bedwetting.",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

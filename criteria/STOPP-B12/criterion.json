@@ -1,0 +1,202 @@
+{
+  "id": "STOPP-B12",
+  "label": "STOPP B12",
+  "family": "STOPP_START",
+  "title": "ACE inhibitor or ARB with high potassium",
+  "statement": "Angiotensin-Converting Enzyme inhibitors (ACEIs) or Angiotensin Receptor Blockers (ARBs) in patients with hyperkalaemia i.e., serum K > 5.5 mmol/l.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "An ACE inhibitor or an angiotensin receptor blocker (ARB) can push the blood potassium higher when it is already above 5.5 mmol/L. During ongoing, newly started or restarted treatment, a current potassium above 5.5 mmol/L or symptoms suggesting high potassium call for same-day clinical review. Use the local emergency pathway immediately if the level or symptoms warrant it. If the only concern is an old, recovered or missing result, a routine check of the latest value and its test date is enough.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "ACE inhibitors and ARBs",
+      "ingredients": [
+        "perindopril",
+        "ramipril",
+        "enalapril",
+        "lisinopril",
+        "quinapril",
+        "fosinopril",
+        "captopril",
+        "trandolapril",
+        "candesartan",
+        "irbesartan",
+        "telmisartan",
+        "olmesartan",
+        "valsartan",
+        "losartan",
+        "eprosartan"
+      ],
+      "brands": {
+        "perindopril": [
+          "Coversyl",
+          "Coversyl Plus",
+          "Idaprex",
+          "Idaprex Arg",
+          "Indopril",
+          "Indosyl Mono",
+          "Ozapace",
+          "Perindo",
+          "Perindo Arg",
+          "Perindoarg",
+          "Perindobell",
+          "Perisyl",
+          "Prexum",
+          "Coveram",
+          "Reaptan",
+          "Perindo Combi",
+          "Triplixam SR"
+        ],
+        "ramipril": [
+          "Tritace",
+          "Ramace",
+          "Prilace",
+          "Ramibell",
+          "Tryzan",
+          "Vascalace",
+          "Triasyn"
+        ],
+        "enalapril": [
+          "Renitec",
+          "Amprace",
+          "Acetec",
+          "Alphapril",
+          "Auspril",
+          "Elapril",
+          "Enahexal",
+          "Enalabell",
+          "Malean",
+          "Renitec M",
+          "Renitec Plus",
+          "Zan-Extra"
+        ],
+        "lisinopril": [
+          "Zestril",
+          "Prinivil",
+          "Fibsol",
+          "Linopril",
+          "Liprace",
+          "Lisinobell",
+          "Lisinotrust",
+          "Lisodrate",
+          "Lisodur",
+          "Lisoril",
+          "Ozten",
+          "Sinop",
+          "Zinopril"
+        ],
+        "quinapril": [
+          "Accupril",
+          "Accuretic",
+          "Acquin",
+          "Aquinafil",
+          "Filpril",
+          "Qpril"
+        ],
+        "fosinopril": [
+          "Monace",
+          "Fosipril",
+          "Monopril",
+          "Monoplus"
+        ],
+        "captopril": [
+          "Capoten",
+          "Acenorm",
+          "Captohexal",
+          "Topace",
+          "Zedace"
+        ],
+        "trandolapril": [
+          "Gopten",
+          "Dolapril",
+          "Goricap",
+          "Odrik",
+          "Tranalpha",
+          "Tarka"
+        ],
+        "candesartan": [
+          "Atacand",
+          "Atacand Plus",
+          "Adesan",
+          "Asartan",
+          "Candelem",
+          "Candesan"
+        ],
+        "irbesartan": [
+          "Avapro",
+          "Karvea",
+          "Avapro HCT",
+          "Abisart",
+          "Ambotens",
+          "Avsartan",
+          "Irbesat",
+          "Irbestin",
+          "Irbetan",
+          "Irprestan",
+          "Karbesat",
+          "Karvezide"
+        ],
+        "telmisartan": [
+          "Micardis",
+          "Micardis Plus",
+          "Twynsta",
+          "Mizart",
+          "Pritor",
+          "Telmigen",
+          "Teltartan"
+        ],
+        "olmesartan": [
+          "Olmetec",
+          "Olmetec Plus",
+          "Sevikar",
+          "Olmertan",
+          "Olmes",
+          "Olmesart",
+          "Olsetan",
+          "Sevikar HCT"
+        ],
+        "valsartan": [
+          "Diovan",
+          "Co-Diovan",
+          "Exforge",
+          "Entresto",
+          "Dilart",
+          "Exforge HCT"
+        ],
+        "losartan": [
+          "Cozaar",
+          "Hyzaar",
+          "Cozavan"
+        ],
+        "eprosartan": [
+          "Teveten",
+          "Teveten Plus"
+        ]
+      },
+      "note": "Combination products count under the ACE inhibitor or ARB they contain. Coversyl Plus has indapamide, Accuretic and Atacand Plus and Micardis Plus and Olmetec Plus and Avapro HCT and Co-Diovan and Hyzaar have hydrochlorothiazide, Twynsta has amlodipine, Sevikar has amlodipine, Exforge has amlodipine. Entresto is sacubitril with valsartan. Coveram and Reaptan also contain amlodipine. Perindo Combi also contains indapamide. Triplixam SR also contains amlodipine and indapamide. Karvezide, Renitec Plus, Monoplus and Teveten Plus also contain hydrochlorothiazide. Sevikar HCT and Exforge HCT also contain amlodipine and hydrochlorothiazide. Zan-Extra also contains lercanidipine, Triasyn contains felodipine and Tarka contains verapamil alongside their ACE inhibitor."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "Serum potassium",
+      "meets": "Above 5.5 mmol/L on the most recent result. With relevant treatment, a missing result leaves the finding possible. Ask for the value, unit and test date. If an undated value conflicts across the threshold with a dated value, confirm which is latest before deciding. A most recent result of 5.5 mmol/L or lower means no finding."
+    }
+  ],
+  "rule_for_models": "Apply this rule only to people aged 65 or older. If age is unknown, confirm age before reporting a STOPP finding. Check a Group A ACE inhibitor or ARB against the latest serum potassium. Flag a result above 5.5 mmol/L if treatment covered the test date or started or restarted afterwards while the high result remained unresolved. Cite the supply and result and date the finding to that exposure. A past high result alone does not establish high potassium today. Use supply date, quantity, directions and documented stops or restarts to establish exposure. If treatment ended before the high result and did not restart, or the latest valid result is 5.5 mmol/L or lower, give no finding. If relevant treatment is documented but its timing, the latest result or whether a previous high result still applied at a later start is unclear, report only a possible finding and ask for the missing information. Without Group A exposure, give no finding or potassium question under this criterion.",
+  "cannot_be_seen": "Potassium results taken outside this pharmacy, whether the result is from a haemolysed sample, whether the dose has already changed, and diet or other medicines that raise potassium.",
+  "ask_the_gp": "Could you review the patient the same day if they are taking, starting or restarting the ACE inhibitor or ARB and their current potassium is above 5.5 mmol/L or they have symptoms suggesting high potassium? Could you use the local emergency pathway immediately if the level or symptoms warrant it? If the only concern is an old, recovered or missing result, could you check the latest potassium value and its test date at routine review?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

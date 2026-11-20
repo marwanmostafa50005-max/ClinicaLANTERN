@@ -1,0 +1,28 @@
+{
+  "what_this_is": "Small fictional fixture for condition-marker application tests.",
+  "version": "2026-11-20",
+  "conditions": [
+    {
+      "condition": "chronic heart failure",
+      "question": "Does this patient have chronic heart failure?",
+      "fact_names": ["Heart failure", "Chronic heart failure"],
+      "points_to_it": [
+        { "ingredient": "sacubitril with valsartan", "brands": ["Entresto"], "forms": [], "also_points_to": [] },
+        { "ingredient": "digoxin", "brands": ["Lanoxin"], "forms": [], "also_points_to": [] },
+        { "ingredient": "formolin", "brands": ["Formo"], "forms": ["tablet"], "also_points_to": [] }
+      ],
+      "also_used_for_it": [{ "ingredient": "ramipril", "brands": ["Tritace"] }],
+      "no_medicine_points_to_it": ""
+    },
+    {
+      "condition": "dementia",
+      "question": "Does this patient have dementia?",
+      "fact_names": ["Dementia"],
+      "points_to_it": [
+        { "ingredient": "donepezil", "brands": ["Aricept"], "forms": [], "also_points_to": [] }
+      ],
+      "also_used_for_it": [],
+      "no_medicine_points_to_it": ""
+    }
+  ]
+}

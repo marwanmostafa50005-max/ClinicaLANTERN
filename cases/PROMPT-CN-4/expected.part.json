@@ -1,0 +1,51 @@
+[
+  {
+    "file": "PROMPT-CN-4/pos-brand.csv",
+    "kind": "positive",
+    "about": "Imovane (zopiclone), named by brand only, is supplied every 30 days from February to September 2026, eight supplies of 30 tablets taken nightly, which is far longer than four weeks.",
+    "findings": [
+      {
+        "criterion": "PROMPT-CN-4",
+        "must_cite": [
+          [
+            "L006",
+            "L009",
+            "L013",
+            "L016",
+            "L019",
+            "L022",
+            "L027",
+            "L030"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PROMPT-CN-4/pos-buried.csv",
+    "kind": "positive",
+    "about": "Stilnox (zolpidem) 10 mg nightly is supplied every two weeks from January to April 2026, seven supplies of 14 tablets, in the middle of a 15-month history, which covers about 14 weeks of use.",
+    "findings": [
+      {
+        "criterion": "PROMPT-CN-4",
+        "must_cite": [
+          [
+            "L031",
+            "L032",
+            "L037",
+            "L038",
+            "L039",
+            "L044",
+            "L045"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PROMPT-CN-4/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Two 15-tablet zolpidem courses start 45 days apart with a documented break, so neither course covers more than four weeks.",
+    "findings": []
+  }
+]

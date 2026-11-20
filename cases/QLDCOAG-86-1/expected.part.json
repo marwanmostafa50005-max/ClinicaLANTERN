@@ -1,0 +1,41 @@
+[
+  {
+    "file": "QLDCOAG-86-1/pos-fact.csv",
+    "kind": "positive",
+    "about": "Pradaxa is supplied, and the observation that dabigatran was removed from its original sealed blister strip for a dose administration aid is Yes.",
+    "findings": [
+      {
+        "criterion": "QLDCOAG-86-1",
+        "must_cite": [
+          [
+            "L040"
+          ],
+          [
+            "L039"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "QLDCOAG-86-1/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about Dabigatran removed from its original sealed blister strip for a dose administration aid, and ARX-Dabigatran is supplied once.",
+    "findings": [
+      {
+        "criterion": "QLDCOAG-86-1",
+        "must_cite": [
+          [
+            "L025"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "QLDCOAG-86-1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The packaging observation is No because Pradaxa capsules remain sealed in the original sealed blister strip and no dose administration aid is used, so there is no finding.",
+    "findings": []
+  }
+]

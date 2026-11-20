@@ -1,0 +1,523 @@
+{
+  "id": "SCOTNTI-CNS-3",
+  "label": "SCOTNTI CNS-3",
+  "family": "SCOTNTI",
+  "title": "Three or more CNS risk groups",
+  "statement": "Number of people prescribed three or more of the following: antipsychotics, antidepressants, benzodiazepines/z-drugs, opioids, gabapentinoids per 1,000 list size",
+  "statement_origin": "published",
+  "source": {
+    "document": "Scottish Government. Polypharmacy guidance: appropriate prescribing, making medicines safe, effective and sustainable 2026 to 2029",
+    "citation": "Scottish Government. Polypharmacy guidance: appropriate prescribing, making medicines safe, effective and sustainable 2026 to 2029. Appendix C, Increased risk of medication-related harm.",
+    "url": "https://www.gov.scot/publications/polypharmacy-guidance-appropriate-prescribing-making-medicines-safe-effective-sustainable-2026-2029/pages/14/",
+    "licence": "UK Open Government Licence v3.0",
+    "licence_status": "proposed",
+    "credit": "Contains public sector information licensed under the Open Government Licence v3.0 (Scottish Government and Public Health Scotland).",
+    "modification_notice": "Statement reproduced without changes. Plain-language fields and Australian medicine mapping added for this draft."
+  },
+  "plain_summary": "Using medicines from three or more of these five central nervous system risk groups increases the risk of cumulative sedation, falls, breathing suppression, dependence and overdose. Review whether each medicine is still needed and whether safer options exist. Never advise stopping an antipsychotic, antidepressant, benzodiazepine, opioid or gabapentinoid abruptly.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antipsychotics",
+      "ingredients": [
+        "risperidone",
+        "olanzapine",
+        "quetiapine",
+        "aripiprazole",
+        "paliperidone",
+        "amisulpride",
+        "ziprasidone",
+        "lurasidone",
+        "brexpiprazole",
+        "cariprazine",
+        "asenapine",
+        "clozapine",
+        "haloperidol",
+        "chlorpromazine",
+        "zuclopenthixol",
+        "periciazine",
+        "trifluoperazine"
+      ],
+      "brands": {
+        "risperidone": [
+          "Risperdal",
+          "Rixadone",
+          "Ozidal",
+          "Rispa",
+          "Rispernia"
+        ],
+        "olanzapine": [
+          "Zyprexa",
+          "Zyprexa Zydis",
+          "Zypine",
+          "Zypine ODT",
+          "Ozin",
+          "Pryzex",
+          "Pryzex ODT"
+        ],
+        "quetiapine": [
+          "Seroquel",
+          "Seroquel XR",
+          "Syquet",
+          "Quetia",
+          "Quetia XR",
+          "Kaptan",
+          "Aliquen",
+          "Quepine XR",
+          "Tevatiapine XR"
+        ],
+        "aripiprazole": [
+          "Abilify",
+          "Arizole",
+          "Abyraz",
+          "Aripena"
+        ],
+        "paliperidone": [
+          "Invega"
+        ],
+        "amisulpride": [
+          "Solian",
+          "Sulprix"
+        ],
+        "ziprasidone": [
+          "Zeldox",
+          "Ziprox"
+        ],
+        "lurasidone": [
+          "Latuda"
+        ],
+        "brexpiprazole": [
+          "Rexulti"
+        ],
+        "cariprazine": [
+          "Reagila"
+        ],
+        "asenapine": [
+          "Saphris"
+        ],
+        "clozapine": [
+          "Clozaril",
+          "Clopine",
+          "Clozitor"
+        ],
+        "haloperidol": [
+          "Serenace",
+          "Haldol"
+        ],
+        "chlorpromazine": [
+          "Largactil"
+        ],
+        "zuclopenthixol": [
+          "Clopixol",
+          "Clopixol Acuphase"
+        ],
+        "periciazine": [
+          "Neulactil"
+        ],
+        "trifluoperazine": [
+          "Stelazine"
+        ]
+      },
+      "note": "Oral and other non-depot antipsychotics count, including a documented course of short-acting Clopixol Acuphase (zuclopenthixol acetate) for its prescribed treatment period. Long-acting injectable and depot antipsychotics (including Risperdal Consta, Uzedy, Zyprexa Relprevv, Abilify Maintena, Abilify Asimtufii, Invega Sustenna, Invega Trinza, Invega Hafyera, Paljuna Monthly, Haldol Decanoate, Fluanxol Depot, Fluanxol Concentrated Depot, Clopixol Depot and Modecate) do not count. Generic packs that show the ingredient name count too. Prochlorperazine (Stemetil) is excluded from this group because it is primarily used as a short-term antiemetic or vertigo medicine in Australian primary care."
+    },
+    {
+      "key": "B",
+      "name": "Antidepressants",
+      "ingredients": [
+        "citalopram",
+        "escitalopram",
+        "fluoxetine",
+        "fluvoxamine",
+        "paroxetine",
+        "sertraline",
+        "venlafaxine",
+        "desvenlafaxine",
+        "duloxetine",
+        "amitriptyline",
+        "nortriptyline",
+        "dosulepin",
+        "clomipramine",
+        "imipramine",
+        "doxepin",
+        "mirtazapine",
+        "agomelatine",
+        "vortioxetine",
+        "reboxetine",
+        "moclobemide",
+        "phenelzine",
+        "tranylcypromine",
+        "mianserin"
+      ],
+      "brands": {
+        "citalopram": [
+          "Celapram",
+          "Cipramil",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talam",
+          "Talohexal"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Loxalate",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Zactin",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Paxtine",
+          "Aropax CR",
+          "Extine",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ],
+        "sertraline": [
+          "Zoloft",
+          "Setrona",
+          "Concorz",
+          "Detralon",
+          "Eleva",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Tralen",
+          "Xydep"
+        ],
+        "venlafaxine": [
+          "Efexor-XR",
+          "Enlafax-XR",
+          "Elaxine SR",
+          "Altven"
+        ],
+        "desvenlafaxine": [
+          "Pristiq",
+          "Desfax"
+        ],
+        "duloxetine": [
+          "Cymbalta",
+          "Andepra",
+          "Dytrex"
+        ],
+        "amitriptyline": [
+          "Endep",
+          "Entrip"
+        ],
+        "nortriptyline": [
+          "Allegron"
+        ],
+        "dosulepin": [
+          "Dothep",
+          "Prothiaden"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "imipramine": [
+          "Tofranil"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "mirtazapine": [
+          "Avanza",
+          "Avanza SolTab",
+          "Axit",
+          "Mirtazon"
+        ],
+        "agomelatine": [
+          "Valdoxan"
+        ],
+        "vortioxetine": [
+          "Brintellix"
+        ],
+        "reboxetine": [
+          "Edronax"
+        ],
+        "moclobemide": [
+          "Aurorix",
+          "Amira",
+          "Clobemix"
+        ],
+        "phenelzine": [
+          "Nardil"
+        ],
+        "tranylcypromine": [
+          "Parnate",
+          "Tranylmed"
+        ],
+        "mianserin": [
+          "Tolvon",
+          "Lumin"
+        ]
+      },
+      "note": "Oral SSRIs, SNRIs, tricyclic antidepressants, mirtazapine, agomelatine, vortioxetine, reboxetine, moclobemide, MAOIs and mianserin count. Recognise dothiepin as the former Australian name for dosulepin. Generic packs that show the ingredient name count too."
+    },
+    {
+      "key": "C",
+      "name": "Benzodiazepines and Z-drugs",
+      "ingredients": [
+        "diazepam",
+        "temazepam",
+        "oxazepam",
+        "lorazepam",
+        "clonazepam",
+        "nitrazepam",
+        "alprazolam",
+        "bromazepam",
+        "clobazam",
+        "flunitrazepam",
+        "triazolam",
+        "zolpidem",
+        "zopiclone"
+      ],
+      "brands": {
+        "diazepam": [
+          "Valium",
+          "Antenex",
+          "Valpam",
+          "Ducene",
+          "Ranzepam"
+        ],
+        "temazepam": [
+          "Temaze",
+          "Normison",
+          "Temtabs"
+        ],
+        "oxazepam": [
+          "Serepax",
+          "Murelax",
+          "Alepam"
+        ],
+        "lorazepam": [
+          "Ativan"
+        ],
+        "clonazepam": [
+          "Paxam",
+          "Rivotril"
+        ],
+        "nitrazepam": [
+          "Alodorm",
+          "Mogadon"
+        ],
+        "alprazolam": [
+          "Kalma",
+          "Xanax",
+          "Alprax"
+        ],
+        "bromazepam": [
+          "Lexotan"
+        ],
+        "clobazam": [
+          "Frisium",
+          "Clobium"
+        ],
+        "flunitrazepam": [
+          "Rohypnol",
+          "Hypnodorm"
+        ],
+        "triazolam": [
+          "Halcion"
+        ],
+        "zolpidem": [
+          "Stilnox",
+          "Stilnox CR",
+          "Dormizol",
+          "Somidem",
+          "Stildem"
+        ],
+        "zopiclone": [
+          "Imovane",
+          "Imrest",
+          "Imoclone"
+        ]
+      },
+      "note": "Oral benzodiazepines and the Z-drugs zolpidem and zopiclone count. Generic packs that show the ingredient name count too. Injections, suppositories, enemas and emergency buccal, rectal or intranasal benzodiazepine seizure products do not count."
+    },
+    {
+      "key": "D",
+      "name": "Systemic opioids",
+      "ingredients": [
+        "oxycodone",
+        "oxycodone with naloxone",
+        "morphine",
+        "fentanyl",
+        "buprenorphine",
+        "hydromorphone",
+        "tapentadol",
+        "tramadol",
+        "codeine",
+        "methadone",
+        "buprenorphine with naloxone"
+      ],
+      "brands": {
+        "oxycodone": [
+          "Endone",
+          "OxyNorm",
+          "OxyContin",
+          "Proladone"
+        ],
+        "oxycodone with naloxone": [
+          "Targin"
+        ],
+        "morphine": [
+          "MS Contin",
+          "MS Mono",
+          "Kapanol",
+          "Sevredol",
+          "Anamorph",
+          "Ordine",
+          "Momex SR"
+        ],
+        "fentanyl": [
+          "Durogesic",
+          "Denpax",
+          "Fenpatch",
+          "Dutran",
+          "Abstral",
+          "Fentora",
+          "Actiq",
+          "PecFent"
+        ],
+        "buprenorphine": [
+          "Norspan",
+          "B-Patch",
+          "Bupredermal",
+          "Temgesic",
+          "Subutex",
+          "Buvidal",
+          "Buvidal Weekly",
+          "Buvidal Monthly",
+          "Sublocade"
+        ],
+        "hydromorphone": [
+          "Dilaudid",
+          "Jurnista"
+        ],
+        "tapentadol": [
+          "Palexia SR",
+          "Palexia",
+          "Palexia IR"
+        ],
+        "tramadol": [
+          "Tramal",
+          "Tramal SR",
+          "Zydol",
+          "Tramedo",
+          "Zydol SR",
+          "Tramedo SR",
+          "Lodam",
+          "Zaldiar"
+        ],
+        "codeine": [
+          "Panadeine Forte",
+          "Codalgin Forte",
+          "Comfarol Forte",
+          "Codapane Forte",
+          "Prodeine Forte",
+          "Mersyndol Forte",
+          "Aspalgin",
+          "Nurofen Plus",
+          "Painstop Day-Time Pain Reliever",
+          "Panadeine",
+          "Panadeine Extra",
+          "Mersyndol"
+        ],
+        "methadone": [
+          "Physeptone",
+          "Methadone Syrup",
+          "Aspen Methadone Syrup",
+          "Biodone Forte"
+        ],
+        "buprenorphine with naloxone": [
+          "Suboxone",
+          "Suboxone 2/0.5",
+          "Suboxone 4/1",
+          "Suboxone 8/2",
+          "Suboxone 12/3"
+        ]
+      },
+      "note": "Systemic opioids count for this CNS risk check, including oral products, patches such as Durogesic and Norspan, Targin and Temgesic. Count a methadone or buprenorphine supply whether it is for pain or opioid dependence. This includes Physeptone, Methadone Syrup, Biodone Forte, Subutex, Suboxone, Buvidal and Sublocade. An ingredient-only supply of methadone or buprenorphine also counts. Count an ingredient-only combination that contains a listed systemic opioid, including paracetamol with codeine, ibuprofen with codeine and tramadol with paracetamol. A buprenorphine and naloxone sublingual film counts as one opioid. Count Group D once."
+    },
+    {
+      "key": "E",
+      "name": "Gabapentinoids",
+      "ingredients": [
+        "gabapentin",
+        "pregabalin"
+      ],
+      "brands": {
+        "gabapentin": [
+          "Neurontin",
+          "Gabapentin Sandoz",
+          "Nupentin 300",
+          "Nupentin",
+          "Gabacor",
+          "Gapentin",
+          "Pendine",
+          "Gabatine",
+          "Gantin"
+        ],
+        "pregabalin": [
+          "Lyrica",
+          "Pregabalin Sandoz",
+          "APO-Pregabalin",
+          "Lyrica CR",
+          "Lyzalon",
+          "Neuroccord",
+          "Prebalin",
+          "Lypralin"
+        ]
+      },
+      "note": "Oral gabapentin and pregabalin count. Match ingredient-only and brand-only rows."
+    }
+  ],
+  "rule_for_models": "At any age, including when age is missing, use supply dates, quantities and directions to identify at least one common treatment day across three or more distinct groups: non-depot antipsychotics (A), antidepressants (B), benzodiazepines or Z-drugs (C), systemic opioids for pain or dependence (D) and gabapentinoids (E). Count each group once. A missing reason for methadone does not downgrade an otherwise qualifying finding. Cite one qualifying supply per group and exclude courses that clearly finished before the third group started, including sequential switches. If supplies fall within 60 days and concurrent use is uncertain, including with when-needed directions, ask whether the medicines were taken together and report at most a possible finding.",
+  "cannot_be_seen": "Supervised opioid-dependence therapy (such as methadone or buprenorphine program dosing) may sit outside standard community PBS dispensing records and still adds CNS sedation and overdose risk. Supply dates do not prove that all medicines are still being taken together, and PRN use or sequential switches may be unclear. Reasons for treatment, alcohol, non-prescribed sedatives, and supplies from another pharmacy or hospital are also not shown.",
+  "ask_the_gp": "Whether the cumulative sedation, falls, breathing and overdose risk from these central nervous system medicine groups should be reviewed, including whether each medicine is still needed and how any reduction could be made safely.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

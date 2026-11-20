@@ -1,0 +1,219 @@
+{
+  "id": "START-C2",
+  "label": "START C2",
+  "family": "STOPP_START",
+  "title": "Antiplatelet missing in vascular disease",
+  "statement": "Antiplatelet therapy (aspirin or clopidogrel or prasugrel or ticagrelor) with a documented history of coronary, cerebral or peripheral vascular disease.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A person with known heart artery, brain artery or leg artery disease should usually take an antiplatelet such as low-dose aspirin or clopidogrel. Regular low-dose aspirin bought without a prescription also counts if the person confirms taking it for vascular prevention. A documented current reason to withhold antiplatelet treatment can explain its absence.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Medicines that meet this criterion: antiplatelet medicines",
+      "ingredients": [
+        "aspirin",
+        "clopidogrel",
+        "prasugrel",
+        "ticagrelor"
+      ],
+      "brands": {
+        "aspirin": [
+          "Cardiprin",
+          "Astrix",
+          "Aspro",
+          "Aspro Clear",
+          "Aspro Clear Extra Strength",
+          "Aspro Protect",
+          "Cardasa",
+          "Cartia",
+          "Disprin Direct",
+          "Disprin Extra Strength",
+          "Disprin Max",
+          "Disprin Original",
+          "Disprin Regular",
+          "Ecotrin",
+          "Princard",
+          "Solprin",
+          "Spren"
+        ],
+        "clopidogrel": [
+          "Plavix",
+          "Iscover",
+          "Duocover",
+          "Clogrel",
+          "Clopaccord",
+          "Clopithromb",
+          "Clovix",
+          "Piax",
+          "Plavicor",
+          "Plidogrel",
+          "Viplex",
+          "CoPlavix"
+        ],
+        "prasugrel": [
+          "Effient"
+        ],
+        "ticagrelor": [
+          "Brilinta",
+          "Bricalor",
+          "Brilinta ODT",
+          "Novalant",
+          "Ticalor",
+          "Tirela"
+        ]
+      },
+      "note": "Low-dose aspirin (usually 100 mg a day) counts. Duocover is clopidogrel with aspirin. For Aspro, Aspro Clear, Aspro Clear Extra Strength, Disprin Direct, Disprin Extra Strength, Disprin Max, Disprin Original, Disprin Regular, Ecotrin and Solprin, the name alone does not establish antiplatelet treatment. Check strength and directions. A higher-strength tablet, including soluble 300 mg aspirin, counts only if the record shows regular low-dose antiplatelet use. Exclude aspirin taken for pain. Dipyridamole does not count. Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "B",
+      "name": "Medicines that imply coronary artery disease",
+      "ingredients": [
+        "glyceryl trinitrate",
+        "isosorbide mononitrate",
+        "ranolazine"
+      ],
+      "brands": {
+        "glyceryl trinitrate": [
+          "Anginine",
+          "Nitrolingual Pumpspray",
+          "Minitran",
+          "Nitro-Dur",
+          "Lycinate",
+          "Nitrostat",
+          "Transiderm-Nitro"
+        ],
+        "isosorbide mononitrate": [
+          "Imdur",
+          "Duride",
+          "Imdur Durules",
+          "Imtrate",
+          "Isobide MR",
+          "Isomonit",
+          "Monodur",
+          "Monodur Durules"
+        ],
+        "ranolazine": [
+          "Ranexa"
+        ]
+      },
+      "note": "These are medicines for angina. A glyceryl trinitrate sublingual tablet, sublingual spray or antianginal patch can be an angina clue. Other preparations can count when the record documents their use for angina. Exclude rectal ointment and supplies whose formulation cannot be identified. A supply suggests heart artery disease when the record holds no line about it, but it does not prove it. Nitrates are also used for other conditions."
+    },
+    {
+      "key": "C",
+      "name": "Oral anticoagulants that prompt a check of the coronary treatment plan",
+      "ingredients": [
+        "warfarin",
+        "dabigatran",
+        "apixaban",
+        "rivaroxaban"
+      ],
+      "brands": {
+        "warfarin": [
+          "Coumadin",
+          "Marevan"
+        ],
+        "dabigatran": [
+          "Pradaxa"
+        ],
+        "apixaban": [
+          "Eliquis"
+        ],
+        "rivaroxaban": [
+          "Xarelto"
+        ]
+      },
+      "note": "Use a current oral anticoagulant supply to check its indication, coronary event or stent dates and the antithrombotic plan. This group is not an antiplatelet and does not clear an omission by itself."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "History of coronary artery disease, ischaemic stroke, transient ischaemic attack, atherosclerotic cerebrovascular disease or peripheral artery disease",
+      "meets": "A condition line records coronary artery disease (including a heart attack or coronary stent), ischaemic stroke, transient ischaemic attack, atherosclerotic cerebrovascular disease or peripheral artery disease. If stroke is the only history and its type is unknown, report only a possible finding and ask for the type. Haemorrhagic stroke alone does not qualify.",
+      "options": [
+        {
+          "words": "Coronary artery disease, including a previous heart attack or coronary stent, with or without other vascular disease",
+          "effect": "meets"
+        },
+        {
+          "words": "Ischaemic stroke, TIA, atherosclerotic cerebrovascular disease or peripheral artery disease, without known coronary disease",
+          "effect": "meets"
+        },
+        {
+          "words": "Stroke of unknown type is the only vascular history",
+          "effect": "unknown"
+        },
+        {
+          "words": "Haemorrhagic stroke is the only vascular history",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "None of the qualifying vascular diagnoses",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Regular aspirin use for vascular prevention",
+      "meets": "Aspirin taken only for pain or no aspirin use leaves an omission possible. Regular low-dose aspirin for vascular prevention, including aspirin bought without a prescription, clears the omission.",
+      "options": [
+        {
+          "words": "Takes regular low-dose aspirin for vascular prevention",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Takes aspirin only for pain",
+          "effect": "meets"
+        },
+        {
+          "words": "Does not take aspirin",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Documented plan for antiplatelet treatment with oral anticoagulation",
+      "meets": "In coronary disease with current oral anticoagulation, the documented current plan calls for an antiplatelet as well. A plan specifying anticoagulation alone clears the omission. A supply alone does not establish the plan.",
+      "options": [
+        {
+          "words": "The current plan calls for an antiplatelet as well",
+          "effect": "meets"
+        },
+        {
+          "words": "The current plan specifies anticoagulant treatment alone",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this criterion only to people aged 65 years or older. If age is unknown, confirm it before reporting a finding. Make no finding if the record documents a current valid reason to omit antiplatelet treatment, including a hold for active bleeding, or an end-of-life care plan focused on comfort. If a temporary antiplatelet hold has ended, say in the reason when it ended. If the person confirms current regular low-dose aspirin for vascular prevention, there is no antiplatelet omission even when the dispensing record has no aspirin line. If a Group B supply started the check, ask whether the patient has been diagnosed with coronary or other vascular disease. Suspect a finding when the record holds a condition line showing coronary artery disease, ischaemic stroke, transient ischaemic attack, atherosclerotic cerebrovascular disease or peripheral artery disease and no Group A medicine (aspirin, clopidogrel, prasugrel or ticagrelor) is supplied in the last six months counted back from the latest date in the record. Cite the condition line. Read the selected diagnosis on the pharmacist's line. If the only history is stroke of unknown type, leave the finding possible. An unknown answer does not establish vascular disease. A confirmed absence of qualifying disease rules it out. Haemorrhagic stroke alone does not qualify. Before reporting a coronary antiplatelet omission, check for current oral anticoagulation, its indication, the dates of acute coronary syndrome or coronary stenting, and the documented antithrombotic plan. Do not flag an omission when anticoagulant monotherapy is documented as appropriate, including long-term anticoagulation for atrial fibrillation when the last acute coronary syndrome or stent was more than 12 months before the latest date in the record and there is no separate antiplatelet indication. For coronary disease with current oral anticoagulation and no established antiplatelet treatment, report only a possible finding if the record leaves the plan unclear. Name the missing fact exactly as \"Documented plan for antiplatelet treatment with oral anticoagulation\". A supply alone cannot establish the plan. If the current plan calls for combined treatment, cite the plan when reporting an omission. If the plan specifies anticoagulation alone, make no finding. If the indication or event dates still leave the need for treatment unclear, keep the finding possible and ask the GP to clarify. When a qualifying vascular diagnosis is unknown but a Group B angina medicine is supplied and no Group A medicine is supplied in the last six months, report a possible finding, cite the Group B angina supply and name the missing fact exactly as \"History of coronary artery disease, ischaemic stroke, transient ischaemic attack, atherosclerotic cerebrovascular disease or peripheral artery disease\". When qualifying Group A treatment is supplied in the last six months, there is no finding. If aspirin is the only candidate, work out the daily dose from strength, amount per dose and frequency. Use clear directions and the patient's account, including any aspirin bought without a prescription. If vascular disease is established, no other qualifying antiplatelet is established and aspirin dose, purpose or non-prescription use remains unclear, report only a possible finding and name the missing fact exactly as \"Regular aspirin use for vascular prevention\". An unknown answer leaves the finding possible. Pain-only use or no aspirin use supports an omission only if the other requirements hold. For each finding, start the list of line IDs with the vascular diagnosis line (or one Group B angina supply if the diagnosis is missing), then include the dated follow-up line if it ended an antiplatelet hold, the line about aspirin use if it supports the finding, and the current treatment plan line if it calls for combined treatment.",
+  "cannot_be_seen": "Unreported aspirin bought without a prescription, an anticoagulant supplied elsewhere, an undocumented past bleed, ulcer or other reason an antiplatelet cannot be used (the source does not list these), and medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "Whether an antiplatelet has been considered for this vascular disease, and the reason if none is used. If the record does not show it, please also confirm the vascular disease diagnosis.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "file": "STOPP-B3/pos-brand.csv",
+    "kind": "positive",
+    "about": "At age 65, the patient receives Xalacom eye drops and oral Cardizem CD by brand name only, 14 days apart.",
+    "findings": [
+      {
+        "criterion": "STOPP-B3",
+        "must_cite": [
+          [
+            "L014"
+          ],
+          [
+            "L017"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-B3/pos-buried.csv",
+    "kind": "positive",
+    "about": "Verapamil (Isoptin SR) is supplied four times from January to April 2026, in the middle of a 14-month history, while atenolol (Noten) is supplied every month.",
+    "findings": [
+      {
+        "criterion": "STOPP-B3",
+        "must_cite": [
+          [
+            "L028",
+            "L033",
+            "L039",
+            "L045",
+            "L051",
+            "L057",
+            "L062"
+          ],
+          [
+            "L036",
+            "L042",
+            "L048",
+            "L054"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-B3/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Metoprolol and diltiazem skin cream are supplied on the same day, and the only oral calcium channel blocker is amlodipine.",
+    "findings": []
+  }
+]

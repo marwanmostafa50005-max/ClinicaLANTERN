@@ -1,0 +1,274 @@
+{
+  "id": "PINCER-1",
+  "label": "PINCER 1: NSAID after peptic ulcer, no PPI",
+  "family": "PINCER",
+  "title": "Non-selective NSAID after a peptic ulcer, without a PPI",
+  "statement": "Patients with a history of peptic ulcer who have been prescribed a non-selective NSAID: - More specifically, those with a computer-coded diagnosis of peptic ulcer disease, at least six months prior to data collection, who have a computer record for one or more prescriptions for a non-selective NSAID in the six months prior to data collection who have not also had a prescription for a PPI within that six month period - It should be noted that the denominator for this outcome measure is patients with a computer-coded diagnosis of peptic ulcer disease, at least six months prior to data collection, who have not also had a prescription for a PPI in the six months prior to data collection.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Avery AJ, et al. Protocol for the PINCER trial. Trials 2009;10:28; correction Trials 2010;11:23",
+    "citation": "Avery AJ, Rodgers S, Cantrill JA, et al. Protocol for the PINCER trial. Trials 2009;10:28. doi:10.1186/1745-6215-10-28; correction Trials 2010;11:23",
+    "doi": "10.1186/1745-6215-10-28",
+    "url": "https://doi.org/10.1186/1745-6215-10-28",
+    "licence": "CC BY 2.0",
+    "licence_status": "proposed",
+    "credit": "Avery AJ, Rodgers S, Cantrill JA, et al. Protocol for the PINCER trial. Trials 2009;10:28. doi:10.1186/1745-6215-10-28; correction Trials 2010;11:23",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "This indicator flags a person whose peptic ulcer diagnosis was recorded at least six months ago if the record shows a non-selective NSAID supply and no proton pump inhibitor supply in the last six months. This combination of circumstances raises concern about gastrointestinal bleeding.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Non-selective NSAIDs, the anti-inflammatory pain medicines",
+      "ingredients": [
+        "diclofenac",
+        "ibuprofen",
+        "indometacin",
+        "ketoprofen",
+        "ketorolac",
+        "mefenamic acid",
+        "naproxen",
+        "piroxicam",
+        "sulindac"
+      ],
+      "brands": {
+        "diclofenac": [
+          "Voltaren",
+          "Voltaren Rapid",
+          "Fenac",
+          "Clonac",
+          "Cambia",
+          "Diclohexal",
+          "Difenac Rapid",
+          "Dinac",
+          "Fenac EC",
+          "Imflac",
+          "Inflamax Liquid Caps",
+          "Voltaren Rapid Extra Strength",
+          "Voltaren Rapid Liquid Capsules",
+          "Voltfast",
+          "Zorvolex"
+        ],
+        "ibuprofen": [
+          "Nurofen",
+          "Advil",
+          "Brufen",
+          "Nurofen Plus",
+          "Panafen Plus",
+          "Nuromol",
+          "Maxigesic",
+          "Act-3",
+          "Advil 12 Hour",
+          "Advil Childrens Pain and Fever 2 to 7 Years",
+          "Advil Childrens Pain and Fever 7 to 12 Years",
+          "Advil Childrens Pain and Fever Relief 2 to 12 Years",
+          "Advil Double Strength",
+          "Advil Double Strength Caplets",
+          "Advil Double Strength Liquid Capsules",
+          "Advil Infants Pain and Fever Relief 3 Months to 2 Years",
+          "Advil Mini Caps",
+          "Advil Rapid Release",
+          "Brufen Pain",
+          "Brufen Syrup",
+          "Bugesic",
+          "Butafen",
+          "Butalgin",
+          "Fenpaed",
+          "Fenpaed Double Strength",
+          "Iprofen",
+          "Nurofen Back Pain",
+          "Nurofen Caplet",
+          "Nurofen Double Strength",
+          "Nurofen Liquid Capsule",
+          "Nurofen Meltlets",
+          "Nurofen Migraine Pain",
+          "Nurofen Period Pain",
+          "Nurofen Quickzorb",
+          "Nurofen Regular",
+          "Nurofen Tension Headache",
+          "Nurofen Zavance",
+          "Nurofen Zavance Liquid Capsules",
+          "Nurofen for Children 1 to 5 Years",
+          "Nurofen for Children 3 Months to 5 Years",
+          "Nurofen for Children 5 to 12 Years",
+          "Nurofen for Children 7+ Years",
+          "Nurofen for Children Baby 3+ Months",
+          "Nurofen for Children Infant Drops",
+          "Nurofen for Children Meltlet",
+          "Panafen IB",
+          "Panafen IB Mini Cap",
+          "Proven",
+          "Rafen",
+          "Tri-Profen"
+        ],
+        "indometacin": [
+          "Indocid",
+          "Arthrexin"
+        ],
+        "ketoprofen": [
+          "Orudis",
+          "Oruvail SR",
+          "Orudis SR"
+        ],
+        "ketorolac": [
+          "Toradol",
+          "Ketoral"
+        ],
+        "mefenamic acid": [
+          "Ponstan",
+          "Femin",
+          "Mefic",
+          "Menamic"
+        ],
+        "naproxen": [
+          "Naprosyn",
+          "Naprosyn SR",
+          "Anaprox",
+          "Inza",
+          "Proxen SR",
+          "Naprogesic",
+          "Aleve",
+          "Aleve 24 Hour",
+          "Crysanal",
+          "Femme-Free",
+          "Naprofem",
+          "Naprosyn SR 1000",
+          "Nurolasts Period Pain",
+          "Proxen"
+        ],
+        "piroxicam": [
+          "Feldene",
+          "Mobilis",
+          "Candyl",
+          "Candyl-D",
+          "Feldene-D",
+          "Mobilis D",
+          "Pirohexal-D"
+        ],
+        "sulindac": [
+          "Aclin"
+        ]
+      },
+      "note": "Count oral tablets, capsules and liquids, injections and rectal suppositories. Exclude skin and eye preparations. Celecoxib and etoricoxib are selective (COX-2) and are left out. Meloxicam is excluded here because it preferentially inhibits COX-2. Aspirin is not in this group. Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "B",
+      "name": "Proton pump inhibitors (PPIs)",
+      "ingredients": [
+        "esomeprazole",
+        "lansoprazole",
+        "omeprazole",
+        "pantoprazole",
+        "rabeprazole"
+      ],
+      "brands": {
+        "esomeprazole": [
+          "Nexium",
+          "Vimovo",
+          "Axagon",
+          "Beezole",
+          "Emeprazol",
+          "Esopran",
+          "Esopreze",
+          "Guardium Acid Reflux Relief",
+          "Jubeso",
+          "Jubium",
+          "Mepreze",
+          "Nexazole",
+          "Nexcid",
+          "Nexium 24HR Once Daily Dosing",
+          "Nexole",
+          "Nexprazole",
+          "Noxicid",
+          "Noxicid Caps Heartburn Relief",
+          "Noxicid Tabs Heartburn Relief",
+          "Zanzole 24HR"
+        ],
+        "lansoprazole": [
+          "Zoton",
+          "Zoton FasTab",
+          "Lanzopran",
+          "Zopral",
+          "Zopral ODT"
+        ],
+        "omeprazole": [
+          "Losec",
+          "Losec Tablets",
+          "Acimax",
+          "Maxor",
+          "Maxor EC",
+          "Maxor Heartburn Relief",
+          "Meprazol",
+          "Omepral",
+          "Omepro",
+          "Omezole",
+          "Ozmep",
+          "Pemzo",
+          "Probitor"
+        ],
+        "pantoprazole": [
+          "Somac",
+          "Salpraz",
+          "Sozol",
+          "Gastenz",
+          "Ozpan",
+          "Pantaccord",
+          "Panthron",
+          "Panto",
+          "Pantofast",
+          "Pantoloc",
+          "Prazole",
+          "Rizil",
+          "Salpraz Heartburn Relief",
+          "Somac Heartburn Relief",
+          "Suvacid Heartburn Relief",
+          "Topra",
+          "Torprazole",
+          "Torzole"
+        ],
+        "rabeprazole": [
+          "Pariet",
+          "Parbezol",
+          "Parzol",
+          "Perizel DR",
+          "Prabez",
+          "Rabzole",
+          "Razit",
+          "Zabep"
+        ]
+      },
+      "note": "Vimovo is naproxen with esomeprazole, so a Vimovo supply counts as a PPI. H2 blockers such as famotidine are not in this group. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Peptic ulcer disease",
+      "meets": "When was the diagnosis of peptic ulcer disease first coded? Count a coded diagnosis on or before the date six calendar months before the end of the dispensing history. Choose Not known if the coding history cannot be verified.",
+      "options": [
+        {
+          "words": "The diagnosis was already coded at least six months before the end of the dispensing history",
+          "effect": "meets"
+        },
+        {
+          "words": "The diagnosis was first coded in the last six months of the dispensing history, after the cutoff",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Records confirm no coded diagnosis by the end of the dispensing history",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Using the last date in the record, suspect a finding if a Group A systemic non-selective NSAID was supplied in the final six months, no Group B PPI was supplied in those months and a peptic ulcer diagnosis was coded at least six months before that date. Cite the diagnosis and the qualifying NSAID supplies even if a later gastroscopy was normal, and exclude meloxicam and skin or eye preparations. With a qualifying NSAID supply and no PPI in the final six months, a pharmacist's confirmation that the diagnosis was already coded by the six-month cutoff also supports a finding. Cite the coded history or the confirming answer and the qualifying supplies. Report no finding if the first code was after the cutoff or records confirm no diagnosis was coded by the end of the history. A statement about whether the patient has peptic ulcer disease today does not establish the coding history. A later entry alone does not establish the first coding date. If the supply pattern qualifies and the coding history is missing or uncertain, report only a possible finding, cite the qualifying supplies and name \"Peptic ulcer disease\" as the missing fact.",
+  "cannot_be_seen": "Whether the patient ever had an ulcer when no diagnosis is recorded, how healed or active it is, stomach acid medicines bought without a prescription, and NSAIDs bought without a prescription.",
+  "ask_the_gp": "Could you confirm whether a peptic ulcer has been diagnosed and when? If the history is confirmed, could you review the need for the NSAID and whether stomach protection or a different pain treatment is suitable?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

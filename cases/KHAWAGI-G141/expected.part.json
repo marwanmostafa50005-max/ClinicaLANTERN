@@ -1,0 +1,41 @@
+[
+  {
+    "file": "KHAWAGI-G141/pos-brand.csv",
+    "kind": "positive",
+    "about": "The Concerta label for a 15-year-old specifies one tablet in the morning and another at noon each day.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G141",
+        "must_cite": [
+          [
+            "L016"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G141/pos-buried.csv",
+    "kind": "positive",
+    "about": "Two modified-release methylphenidate labels supplied on the same day to a 16-year-old direct one capsule at breakfast and a different strength at lunchtime.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G141",
+        "must_cite": [
+          [
+            "L031"
+          ],
+          [
+            "L032"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G141/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The Concerta label for a 15-year-old specifies two tablets together each morning, so there is only one daily dose.",
+    "findings": []
+  }
+]

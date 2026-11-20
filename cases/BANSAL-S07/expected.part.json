@@ -1,0 +1,55 @@
+[
+  {
+    "file": "BANSAL-S07/pos-fact.csv",
+    "kind": "positive",
+    "about": "The methadone tablets for longstanding osteoarthritis pain cover 13 January to 9 March 2026 during carbamazepine treatment for recorded epilepsy.",
+    "findings": [
+      {
+        "criterion": "BANSAL-S07",
+        "must_cite": [
+          [
+            "L002"
+          ],
+          [
+            "L017",
+            "L021",
+            "L026"
+          ],
+          [
+            "L020",
+            "L025"
+          ],
+          [
+            "L022"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BANSAL-S07/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about epilepsy. Dilantin (phenytoin) is supplied every 30 days from 2 February 2026 and Endone (oxycodone) on 12 March and 9 April 2026, both by brand name only, while the phenytoin supplies of 4 March and 3 April are running.",
+    "findings": [
+      {
+        "criterion": "BANSAL-S07",
+        "must_cite": [
+          [
+            "L008",
+            "L013"
+          ],
+          [
+            "L012",
+            "L017"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BANSAL-S07/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Carbamazepine (Teril) is supplied with tramadol for a person with trigeminal neuralgia. Specialist review explicitly excluded epilepsy at L002.",
+    "findings": []
+  }
+]

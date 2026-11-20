@@ -1,0 +1,33 @@
+patient_ref,patient_age,patient_sex,record_type,dispense_date,medicine,brand,strength,form,quantity,repeats_left,directions,prescriber,detail,value
+F-B01A-02,59,M,,2025-12-04,atorvastatin,,20 mg,tablet,30,5,Take one tablet each evening,Dr A. Example,,
+F-B01A-02,59,M,,2025-12-08,amlodipine,,5 mg,tablet,30,5,Take one tablet each morning,Dr A. Example,,
+F-B01A-02,59,M,,2025-12-13,latanoprost,,50 micrograms/mL,eye drops,2.5 mL,5,Instil one drop in each eye at night,Dr A. Example,,
+F-B01A-02,59,M,,2026-01-03,atorvastatin,,20 mg,tablet,30,4,Take one tablet each evening,Dr A. Example,,
+F-B01A-02,59,M,,2026-01-07,amlodipine,,5 mg,tablet,30,4,Take one tablet each morning,Dr A. Example,,
+F-B01A-02,59,M,,2026-01-12,latanoprost,,50 micrograms/mL,eye drops,2.5 mL,4,Instil one drop in each eye at night,Dr A. Example,,
+F-B01A-02,59,M,,2026-02-02,atorvastatin,,20 mg,tablet,30,3,Take one tablet each evening,Dr A. Example,,
+F-B01A-02,59,M,,2026-02-06,amlodipine,,5 mg,tablet,30,3,Take one tablet each morning,Dr A. Example,,
+F-B01A-02,59,M,,2026-02-11,latanoprost,,50 micrograms/mL,eye drops,2.5 mL,3,Instil one drop in each eye at night,Dr A. Example,,
+F-B01A-02,59,M,,2026-03-04,atorvastatin,,20 mg,tablet,30,2,Take one tablet each evening,Dr A. Example,,
+F-B01A-02,59,M,,2026-03-08,amlodipine,,5 mg,tablet,30,2,Take one tablet each morning,Dr A. Example,,
+F-B01A-02,59,M,,2026-03-13,latanoprost,,50 micrograms/mL,eye drops,2.5 mL,2,Instil one drop in each eye at night,Dr A. Example,,
+F-B01A-02,59,M,,2026-04-03,atorvastatin,,20 mg,tablet,30,1,Take one tablet each evening,Dr A. Example,,
+F-B01A-02,59,M,,2026-04-07,amlodipine,,5 mg,tablet,30,1,Take one tablet each morning,Dr A. Example,,
+F-B01A-02,59,M,,2026-04-12,latanoprost,,50 micrograms/mL,eye drops,2.5 mL,1,Instil one drop in each eye at night,Dr A. Example,,
+F-B01A-02,59,M,,2026-05-03,atorvastatin,,20 mg,tablet,30,0,Take one tablet each evening,Dr A. Example,,
+F-B01A-02,59,M,,2026-05-07,amlodipine,,5 mg,tablet,30,0,Take one tablet each morning,Dr A. Example,,
+F-B01A-02,59,M,,2026-05-12,latanoprost,,50 micrograms/mL,eye drops,2.5 mL,0,Instil one drop in each eye at night,Dr A. Example,,
+F-B01A-02,59,M,,2026-06-02,atorvastatin,,20 mg,tablet,30,5,Take one tablet each evening,Dr A. Example,,
+F-B01A-02,59,M,,2026-06-06,amlodipine,,5 mg,tablet,30,5,Take one tablet each morning,Dr A. Example,,
+F-B01A-02,59,M,,2026-06-11,latanoprost,,50 micrograms/mL,eye drops,2.5 mL,5,Instil one drop in each eye at night,Dr A. Example,,
+F-B01A-02,59,M,condition,2026-06-15,,,,,,,,,Chronic kidney disease,Confirmed in renal outpatient clinic. Managed without dialysis.
+F-B01A-02,59,M,,2026-07-02,atorvastatin,,20 mg,tablet,30,4,Take one tablet each evening,Dr A. Example,,
+F-B01A-02,59,M,,2026-07-06,amlodipine,,5 mg,tablet,30,4,Take one tablet each morning,Dr A. Example,,
+F-B01A-02,59,M,,2026-07-11,latanoprost,,50 micrograms/mL,eye drops,2.5 mL,4,Instil one drop in each eye at night,Dr A. Example,,
+F-B01A-02,59,M,condition,2026-07-20,,,,,,,,,Non-valvular atrial fibrillation,Rivaroxaban for stroke prevention in non-valvular atrial fibrillation.
+F-B01A-02,59,M,,2026-08-01,atorvastatin,,20 mg,tablet,30,3,Take one tablet each evening,Dr A. Example,,
+F-B01A-02,59,M,,2026-08-05,amlodipine,,5 mg,tablet,30,3,Take one tablet each morning,Dr A. Example,,
+F-B01A-02,59,M,,2026-08-10,latanoprost,,50 micrograms/mL,eye drops,2.5 mL,3,Instil one drop in each eye at night,Dr A. Example,,
+F-B01A-02,59,M,result,2026-08-10,,,,,,,,,Creatinine clearance,42 mL/min (Cockcroft-Gault).
+F-B01A-02,59,M,observation,2026-08-11,,,,,,,,,Recent illness,Patient reported a brief illness the previous week.
+F-B01A-02,59,M,,2026-08-11,rivaroxaban,,20 mg,tablet,28,5,Take one tablet once daily with the evening meal,Dr A. Example,,

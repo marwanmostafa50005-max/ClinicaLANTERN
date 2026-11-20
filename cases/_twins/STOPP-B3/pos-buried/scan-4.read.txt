@@ -1,0 +1,16 @@
+2026-06-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 1 | Take TWO tablets three times a day, swallow whole | Dr A. Example
+2026-07-06 | Noten (atenolol) 50 mg tablet | qty 30 | repeats 4 | Take ONE tablet daily | Dr A. Example
+2026-07-06 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 4 | Take ONE tablet daily | Dr A. Example
+2026-07-06 | Avapro (irbesartan) 150 mg tablet | qty 30 | repeats 4 | Take ONE tablet daily | Dr A. Example
+2026-07-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 1 | Take TWO tablets once daily with the evening meal | Dr A. Example
+2026-07-13 | Nexium (esomeprazole) 20 mg enteric coated tablet | qty 30 | repeats 1 | Take ONE tablet daily | Dr A. Example
+2026-08-05 | Noten (atenolol) 50 mg tablet | qty 30 | repeats 3 | Take ONE tablet daily | Dr A. Example
+2026-08-05 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 3 | Take ONE tablet daily | Dr A. Example
+2026-08-05 | Avapro (irbesartan) 150 mg tablet | qty 30 | repeats 3 | Take ONE tablet daily | Dr A. Example
+2026-08-14 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 0 | Take TWO tablets once daily with the evening meal | Dr A. Example
+2026-08-14 | Nexium (esomeprazole) 20 mg enteric coated tablet | qty 30 | repeats 0 | Take ONE tablet daily | Dr A. Example
+2026-09-02 | Noten (atenolol) 50 mg tablet | qty 30 | repeats 2 | Take ONE tablet daily | Dr A. Example
+2026-09-02 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 2 | Take ONE tablet daily | Dr A. Example
+2026-09-02 | Avapro (irbesartan) 150 mg tablet | qty 30 | repeats 2 | Take ONE tablet daily | Dr A. Example
+2026-09-12 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 5 | Take TWO tablets once daily with the evening meal | Dr A. Example
+2026-09-12 | Nexium (esomeprazole) 20 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily | Dr A. Example

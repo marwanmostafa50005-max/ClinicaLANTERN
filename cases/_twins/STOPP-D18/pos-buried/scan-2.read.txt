@@ -1,0 +1,22 @@
+2025-10-31 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 5 | Take TWO tablets once daily with the evening meal | Dr A
+2025-11-18 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day, swallow whole | Dr A
+2025-11-23 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 0 | Take ONE tablet at night | Dr A
+2025-11-23 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 0 | Take ONE tablet in the morning | Dr A
+2025-11-23 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 0 | Take ONE tablet daily | Dr A
+2025-12-02 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take TWO tablets once daily with the evening meal | Dr A
+2025-12-09 | Exelon Patch 5 (rivastigmine) 4.6 mg/24 hours patch | qty 30 | repeats 0 | Apply ONE patch once daily, remove the old patch first | Dr B
+2025-12-21 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 5 | Take ONE tablet at night | Dr A
+2025-12-21 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 5 | Take ONE tablet in the morning | Dr A
+2025-12-21 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily | Dr A
+2025-12-31 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 3 | Take TWO tablets once daily with the evening meal | Dr A
+2026-01-08 | Lanoxin PG (digoxin) 62.5 microgram tablet | qty 200 | repeats 1 | Take TWO tablets daily | Dr A
+2026-01-08 | Exelon Patch 10 (rivastigmine) 9.5 mg/24 hours patch | qty 30 | repeats 5 | Apply ONE patch once daily, remove the old patch first | Dr B
+2026-01-21 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr A
+2026-01-21 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr A
+2026-01-21 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 4 | Take ONE tablet daily | Dr A
+2026-01-30 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 2 | Take TWO tablets once daily with the evening meal | Dr A
+2026-02-06 | Exelon Patch 10 (rivastigmine) 9.5 mg/24 hours patch | qty 30 | repeats 4 | Apply ONE patch once daily, remove the old patch first | Dr B
+2026-02-20 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 3 | Take ONE tablet at night | Dr A
+2026-02-20 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 3 | Take ONE tablet in the morning | Dr A
+2026-02-20 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 3 | Take ONE tablet daily | Dr A
+2026-03-01 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 1 | Take TWO tablets once daily with the evening meal | Dr A

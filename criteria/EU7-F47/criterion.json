@@ -1,0 +1,66 @@
+{
+  "id": "EU7-F47",
+  "label": "EU(7)-PIM: quinine",
+  "family": "EU7",
+  "title": "Quinine in an older person",
+  "statement": "The EU(7)-PIM list for older people notes quinine and its derivatives even though they are in none of the listed national lists. They carry a risk of heart effects and of rare unexpected (idiosyncratic) reactions. The dose should be adjusted when the kidneys work poorly. No alternative is stated. In this Australian screen, count single-ingredient quinine for night leg cramps. If the indication is unclear, ask what it treats. Exclude malaria, other documented indications and quinidine.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "The statement is written in ClinicaLANTERN's own plain words from the published table row, because part of the row text comes from a third party (Micromedex) whose reuse rights are not settled. Not endorsed by the source authors. Earlier project notice: Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.2 candidate repairs and adopted conventions merged with attribution). Not endorsed by the source authors."
+  },
+  "plain_summary": "Quinine, sometimes taken for night leg cramps, can cause serious heart rhythm problems and rare unexpected reactions in older people.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Quinine and its derivatives",
+      "ingredients": [
+        "quinine"
+      ],
+      "brands": {
+        "quinine": [
+          "Quinate",
+          "Quinbisul"
+        ]
+      },
+      "note": "Quinine sulfate and quinine bisulfate tablets count. Quinate and Quinbisul are quinine tablet brands. Tonic water does not count. Hydroxychloroquine and chloroquine are not in this group. Exclude quinidine."
+    }
+  ],
+  "rule_for_models": "For a person aged 65 or older, flag single-ingredient quinine tablets for night leg cramps and cite both the supply and its recorded indication. Exclude quinidine and quinine for malaria or another documented indication, and if the reason for an otherwise eligible supply is unclear, cite the supply, report only a possible finding and ask what it treats. If age is unknown and the supply otherwise qualifies, report only a possible finding and ask the pharmacist to confirm that the person is 65 or older.",
+  "cannot_be_seen": "Why quinine was started (usually night leg cramps), kidney function, heart rhythm problems and any medicines affecting heart rhythm supplied by another pharmacy or hospital. Quinine in drinks can also be missed.",
+  "ask_the_gp": "Whether quinine is still needed for the cramps, whether the person has a heart rhythm problem, and whether a non-medicine approach or another option would do.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Reason for this quinine supply",
+      "meets": "Night leg cramps are recorded for this supply in the directions or a linked fact. An unknown reason supports only a possible finding. Malaria or another documented indication gives no finding.",
+      "options": [
+        {
+          "words": "Night leg cramps",
+          "effect": "meets"
+        },
+        {
+          "words": "Malaria",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Another condition",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

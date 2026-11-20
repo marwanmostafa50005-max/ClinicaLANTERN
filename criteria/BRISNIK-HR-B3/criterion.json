@@ -1,0 +1,564 @@
+{
+  "id": "BRISNIK-HR-B3",
+  "label": "Brisnik: tricyclic at 50 mg a day or more, trazodone or tranylcypromine with a blood pressure lowering medicine at age 65 or over",
+  "family": "BRISNIK",
+  "title": "Tricyclic antidepressant, trazodone or tranylcypromine with another blood pressure lowering medicine, age 65 or over",
+  "statement": "Prescribed TCA (in doses ≥ 50 mg/day), trazodone, or tranylcypromine - and the patient is aged ≥ 65 years and co-prescribed ≥ 1 further drug with known blood pressure lowering effect (e.g., α-blockers, β-blockers, nitrates, SGLT inhibitors, levodopa, antipsychotics)[c]",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Text reproduced without changes. Not endorsed by the source authors."
+  },
+  "plain_summary": "A tricyclic antidepressant at 50 mg a day or more, trazodone or tranylcypromine can lower blood pressure. In a person aged 65 or over who also takes another medicine that lowers blood pressure, the risk of dizziness and falls is higher.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Tricyclic antidepressants (count only at 50 mg a day or more)",
+      "ingredients": [
+        "amitriptyline",
+        "clomipramine",
+        "dosulepin",
+        "doxepin",
+        "imipramine",
+        "nortriptyline",
+        "trimipramine"
+      ],
+      "brands": {
+        "amitriptyline": [
+          "Endep",
+          "Amichlor",
+          "Amidep",
+          "Entrip"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "dosulepin": [
+          "Prothiaden",
+          "Dothep"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "imipramine": [
+          "Tofranil"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ]
+      },
+      "note": "Work out the daily dose from the strength and the directions. For example, 25 mg tablets taken as TWO at night is 50 mg a day. Less than 50 mg a day does not count. Dosulepin is also called dothiepin. Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "B",
+      "name": "Trazodone and tranylcypromine (any dose)",
+      "ingredients": [
+        "trazodone",
+        "tranylcypromine"
+      ],
+      "brands": {
+        "trazodone": [
+          "Desyrel"
+        ],
+        "tranylcypromine": [
+          "Parnate",
+          "Parpromine",
+          "Tranamef",
+          "Tranylmed"
+        ]
+      },
+      "note": "Any dose counts. Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "C",
+      "name": "Medicines that lower blood pressure",
+      "ingredients": [
+        "atenolol",
+        "metoprolol",
+        "bisoprolol",
+        "carvedilol",
+        "propranolol",
+        "nebivolol",
+        "prazosin",
+        "doxazosin",
+        "tamsulosin",
+        "glyceryl trinitrate",
+        "isosorbide mononitrate",
+        "empagliflozin",
+        "dapagliflozin",
+        "ertugliflozin",
+        "levodopa",
+        "quetiapine",
+        "olanzapine",
+        "risperidone",
+        "haloperidol",
+        "aripiprazole",
+        "perindopril",
+        "ramipril",
+        "enalapril",
+        "lisinopril",
+        "candesartan",
+        "irbesartan",
+        "telmisartan",
+        "olmesartan",
+        "valsartan",
+        "amlodipine",
+        "felodipine",
+        "diltiazem",
+        "lercanidipine",
+        "furosemide",
+        "hydrochlorothiazide",
+        "indapamide",
+        "spironolactone",
+        "nifedipine",
+        "verapamil",
+        "losartan",
+        "moxonidine",
+        "clonidine",
+        "clozapine",
+        "labetalol",
+        "chlortalidone",
+        "sotalol",
+        "trandolapril"
+      ],
+      "brands": {
+        "atenolol": [
+          "Tenormin",
+          "Anselol",
+          "Atehexal",
+          "Aten",
+          "Colaptyn",
+          "Noten",
+          "Tenolten",
+          "Tensig"
+        ],
+        "metoprolol": [
+          "Minax",
+          "Betaloc",
+          "Agtolac",
+          "Lopresor",
+          "Metatar",
+          "Metohexal",
+          "Metolol",
+          "Metrol",
+          "Metrol-XL",
+          "Minax XL",
+          "Mistrom",
+          "Tobeta-XL",
+          "Topreloc-XL",
+          "Toprol-XL"
+        ],
+        "bisoprolol": [
+          "Bicor",
+          "Beprol",
+          "Bicard",
+          "Biso",
+          "Bispro"
+        ],
+        "carvedilol": [
+          "Dilatrend",
+          "Carvidol",
+          "Dicarz",
+          "Dilasig",
+          "Kredex",
+          "Vedilol",
+          "Volirop"
+        ],
+        "propranolol": [
+          "Deralin",
+          "Drofate",
+          "Hemangiol",
+          "Inderal"
+        ],
+        "nebivolol": [
+          "Nebilet",
+          "Lobivon",
+          "Lobivon Composite Starter Titration Pack",
+          "Nebaloc",
+          "Nebilet Composite Starter Titration Pack",
+          "Nepiten"
+        ],
+        "prazosin": [
+          "Minipress",
+          "Pratsiol",
+          "Pressin"
+        ],
+        "doxazosin": [
+          "Carduran"
+        ],
+        "tamsulosin": [
+          "Flomaxtra",
+          "Flosix",
+          "Duodart"
+        ],
+        "glyceryl trinitrate": [
+          "Anginine",
+          "Nitrolingual",
+          "Minitran",
+          "Lycinate",
+          "Nitrostat",
+          "Transiderm-Nitro",
+          "Nitro-Dur"
+        ],
+        "isosorbide mononitrate": [
+          "Imdur",
+          "Duride",
+          "Imdur Durules",
+          "Imtrate",
+          "Isobide MR",
+          "Isomonit",
+          "Monodur",
+          "Monodur Durules"
+        ],
+        "empagliflozin": [
+          "Jardiance",
+          "Glyxambi",
+          "Jardiamet"
+        ],
+        "dapagliflozin": [
+          "Forxiga",
+          "Xigduo XR",
+          "Glixafor"
+        ],
+        "ertugliflozin": [
+          "Steglatro"
+        ],
+        "levodopa": [
+          "Madopar",
+          "Sinemet",
+          "Kinson",
+          "Stalevo"
+        ],
+        "quetiapine": [
+          "Seroquel",
+          "Aliquen",
+          "Delucon",
+          "Kaptan",
+          "Ketizenol",
+          "Qualez",
+          "Quepine XR",
+          "Quetapen",
+          "Quetia",
+          "Quetia XR",
+          "Quetiaccord",
+          "Quetiaquel XR",
+          "Quetin",
+          "Quipine",
+          "Sequase",
+          "Sequase XR",
+          "Serapine",
+          "Serapine XR",
+          "Seroccord",
+          "Seronia",
+          "Seroquel XR",
+          "Serotiapine XR",
+          "Syquet",
+          "Syquet XR",
+          "Syzopine",
+          "Tevatiapine XR",
+          "Tiapine XR",
+          "Tiava XR",
+          "Xque XR"
+        ],
+        "olanzapine": [
+          "Zyprexa",
+          "Aprolan",
+          "Aprolan ODT",
+          "Lanez",
+          "Lanez ODT",
+          "Lanzek",
+          "Lanzek Zydis",
+          "Lonza",
+          "Lonza ODT",
+          "Lyprosia",
+          "Lyprosia ODT",
+          "Olancor",
+          "Olanza",
+          "Olanzaccord",
+          "Olanzacor",
+          "Oprexa",
+          "Ozin",
+          "Ozin ODT",
+          "Prolanza",
+          "Prolanza ODT",
+          "Pryzex",
+          "Pryzex ODT",
+          "Tolaze ODT",
+          "Tolazine ODT",
+          "Torapine ODT",
+          "Torrenia ODT",
+          "Zylap",
+          "Zylap ODT",
+          "Zylapine",
+          "Zylapine ODT",
+          "Zypine",
+          "Zypine ODT",
+          "Zyprexa Zydis"
+        ],
+        "risperidone": [
+          "Risperdal",
+          "Ozidal",
+          "Resdone",
+          "Respaz",
+          "Risdone",
+          "Rispa",
+          "Rispaccord",
+          "Rispaccord-0.5",
+          "Risperdal Quicklet",
+          "Risperibell",
+          "Rispericor",
+          "Rispericor-0.5",
+          "Risperisan",
+          "Rispernia",
+          "Rixadone",
+          "Sperid"
+        ],
+        "haloperidol": [
+          "Serenace"
+        ],
+        "aripiprazole": [
+          "Abilify",
+          "Abilify ODT",
+          "Abipra",
+          "Abyraz",
+          "Aprazole",
+          "Aripic",
+          "Aripra",
+          "Arizole"
+        ],
+        "perindopril": [
+          "Coversyl",
+          "Coversyl Plus",
+          "Idaprex",
+          "Idaprex Arg",
+          "Indopril",
+          "Indosyl Mono",
+          "Ozapace",
+          "Perindo",
+          "Perindo Arg",
+          "Perindoarg",
+          "Perindobell",
+          "Perisyl",
+          "Prexum",
+          "Coveram",
+          "Triplixam SR"
+        ],
+        "ramipril": [
+          "Tritace",
+          "Prilace",
+          "Ramace",
+          "Ramibell",
+          "Tryzan",
+          "Vascalace"
+        ],
+        "enalapril": [
+          "Renitec",
+          "Acetec",
+          "Alphapril",
+          "Amprace",
+          "Auspril",
+          "Elapril",
+          "Enahexal",
+          "Enalabell",
+          "Malean",
+          "Renitec M",
+          "Zan-Extra"
+        ],
+        "lisinopril": [
+          "Zestril",
+          "Fibsol",
+          "Linopril",
+          "Liprace",
+          "Lisinobell",
+          "Lisinotrust",
+          "Lisodrate",
+          "Lisodur",
+          "Lisoril",
+          "Ozten",
+          "Prinivil",
+          "Sinop",
+          "Zinopril"
+        ],
+        "candesartan": [
+          "Atacand",
+          "Adesan",
+          "Asartan",
+          "Candelem",
+          "Candesan"
+        ],
+        "irbesartan": [
+          "Avapro",
+          "Abisart",
+          "Ambotens",
+          "Avsartan",
+          "Irbesat",
+          "Irbestin",
+          "Irbetan",
+          "Irprestan",
+          "Karbesat",
+          "Karvea",
+          "Karvezide",
+          "Avapro HCT"
+        ],
+        "telmisartan": [
+          "Micardis",
+          "Twynsta",
+          "Mizart",
+          "Pritor",
+          "Telmigen",
+          "Teltartan",
+          "Micardis Plus"
+        ],
+        "olmesartan": [
+          "Olmetec",
+          "Olmertan",
+          "Olmes",
+          "Olmesart",
+          "Olsetan",
+          "Sevikar",
+          "Sevikar HCT"
+        ],
+        "valsartan": [
+          "Diovan",
+          "Dilart",
+          "Entresto",
+          "Exforge",
+          "Exforge HCT"
+        ],
+        "amlodipine": [
+          "Norvasc",
+          "Amline",
+          "Amlo",
+          "Amlocor",
+          "Amlotrust",
+          "Amvas",
+          "Besidep",
+          "Nordip",
+          "Norvapine",
+          "Ozlodip",
+          "Perivasc",
+          "Exforge",
+          "Exforge HCT",
+          "Sevikar HCT",
+          "Triplixam SR"
+        ],
+        "felodipine": [
+          "Plendil",
+          "Plendil ER"
+        ],
+        "furosemide": [
+          "Lasix",
+          "Frusax",
+          "Frusehexal",
+          "Frusemix",
+          "Frusemix-M",
+          "Frusid",
+          "Furo",
+          "Lasix High Dose",
+          "Lasix M",
+          "Uremide",
+          "Urex",
+          "Urex Forte",
+          "Urex-M"
+        ],
+        "hydrochlorothiazide": [
+          "Dithiazide",
+          "Atacand Plus",
+          "Olmetec Plus",
+          "Exforge HCT",
+          "Sevikar HCT"
+        ],
+        "indapamide": [
+          "Natrilix",
+          "Dapa-Tabs",
+          "Indahexal",
+          "Indapamol",
+          "Insig",
+          "Napamide",
+          "Natrilix SR",
+          "Odaplix SR",
+          "Tenaxil SR",
+          "Triplixam SR"
+        ],
+        "spironolactone": [
+          "Aldactone",
+          "Spiractin"
+        ],
+        "diltiazem": [
+          "Cardizem CD",
+          "Cardizem",
+          "Coras",
+          "Danzem",
+          "Diltahexal",
+          "Diltahexal CD",
+          "Dilzem",
+          "Dilzem CD",
+          "Ditatem",
+          "Vasocardol",
+          "Vasocardol CD"
+        ],
+        "lercanidipine": [
+          "Zanidip",
+          "Ledip",
+          "Lepine",
+          "Lercadip",
+          "Lercan",
+          "Zircol",
+          "Zan-Extra"
+        ],
+        "nifedipine": [
+          "Adalat Oros"
+        ],
+        "verapamil": [
+          "Isoptin SR",
+          "Tarka"
+        ],
+        "losartan": [
+          "Cozaar"
+        ],
+        "moxonidine": [
+          "Physiotens"
+        ],
+        "clonidine": [
+          "Catapres"
+        ],
+        "clozapine": [
+          "Clozaril"
+        ],
+        "labetalol": [
+          "Presolol"
+        ],
+        "chlortalidone": [
+          "Hygroton 25"
+        ],
+        "sotalol": [
+          "Sotacor",
+          "Cardol"
+        ],
+        "trandolapril": [
+          "Gopten",
+          "Tarka"
+        ]
+      },
+      "note": "Medicines with a known blood pressure lowering effect. The published examples are alpha-blockers, beta-blockers, nitrates, SGLT2 inhibitors, levodopa and antipsychotics. This draft also lists the usual blood pressure medicines (ACE inhibitors, angiotensin receptor blockers, the listed systemic calcium channel blockers, and diuretics) because they clearly lower blood pressure. Count diltiazem and lercanidipine taken by mouth. Tamsulosin is included as an alpha-blocker. Generic packs that show the ingredient name with a company name count too. Count oral blood pressure medicines and oral clozapine. Count systemic nitrate forms, including sublingual tablets, sprays and transdermal patches. Exclude creams or ointments used for local treatment. Count each distinct qualifying ingredient once, including an ingredient supplied in a combination product."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when the person is aged 65 or over and the record shows a supply of a Group A medicine at a daily dose of 50 mg or more (work out the daily dose as the mg per tablet or capsule times the total number prescribed per day in the directions) or any supply of a Group B medicine, AND at least one Group C medicine, and the supply dates overlap or fall within 60 days of each other. If the other criteria could be met and the Group A dose might reach 50 mg daily, report a possible finding and ask what daily dose is taken. This includes an unclear frequency or a dose range crossing 50 mg. A known maximum below 50 mg does not qualify. One supply of each is enough. Exclude a pair when the record explicitly documents that one medicine stopped before the other began. If age is unknown and the other evidence could meet this criterion, report at most a possible finding and ask the pharmacist to confirm whether the person is aged 65 or over.",
+  "cannot_be_seen": "Why each medicine was prescribed, the real blood pressure, the dose really taken, and medicines bought without a prescription or supplied by a hospital or another pharmacy. Ask about lightheadedness or dizziness on standing and recent falls. If the directions are unclear, ask what dose of the tricyclic is taken each day.",
+  "ask_the_gp": "A review of the antidepressant and of the blood pressure medicine together, and a check of lying and standing blood pressure.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

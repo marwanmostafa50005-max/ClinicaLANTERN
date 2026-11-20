@@ -1,0 +1,41 @@
+[
+  {
+    "file": "POPI-54/pos-fact.csv",
+    "kind": "positive",
+    "about": "The primary herpetic gingivostomatitis episode has a pain-relief supply and closes without any oral aciclovir supply.",
+    "findings": [
+      {
+        "criterion": "POPI-54",
+        "must_cite": [
+          [
+            "L022"
+          ],
+          [
+            "L023"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "POPI-54/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about primary herpetic gingivostomatitis during an episode of painful gingivostomatitis with no oral aciclovir supply.",
+    "findings": [
+      {
+        "criterion": "POPI-54",
+        "must_cite": [
+          [
+            "L015"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "POPI-54/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The diagnosis is recurrent oral herpes and oral aciclovir is supplied for the episode.",
+    "findings": []
+  }
+]

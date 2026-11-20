@@ -1,0 +1,46 @@
+patient_ref,patient_age,patient_sex,record_type,dispense_date,medicine,brand,strength,form,quantity,repeats_left,directions,prescriber,detail,value
+F-G23-01,58,M,condition,2026-01-02,,,,,,,,,Type 2 diabetes,Confirmed
+F-G23-01,58,M,,2026-01-02,sitagliptin,Januvia,100 mg,tablet,28,5,Take one tablet daily,Dr A. Example,,
+F-G23-01,58,M,result,2026-01-02,,,,,,,,,HbA1c,6.9%
+F-G23-01,58,M,,2026-01-03,atorvastatin,,20 mg,tablet,30,5,Take one tablet daily,Dr A. Example,,
+F-G23-01,58,M,,2026-01-05,amlodipine,,5 mg,tablet,30,5,Take one tablet daily,Dr A. Example,,
+F-G23-01,58,M,observation,2026-01-17,,,,,,,,,Blood pressure,124/78 mmHg
+F-G23-01,58,M,,2026-01-30,sitagliptin,Januvia,100 mg,tablet,28,4,Take one tablet daily,Dr A. Example,,
+F-G23-01,58,M,,2026-02-02,atorvastatin,,20 mg,tablet,30,4,Take one tablet daily,Dr A. Example,,
+F-G23-01,58,M,,2026-02-04,amlodipine,,5 mg,tablet,30,4,Take one tablet daily,Dr A. Example,,
+F-G23-01,58,M,observation,2026-02-16,,,,,,,,,Blood pressure,126/78 mmHg
+F-G23-01,58,M,,2026-02-27,sitagliptin,Januvia,100 mg,tablet,28,3,Take one tablet daily,Dr A. Example,,
+F-G23-01,58,M,,2026-03-04,atorvastatin,,20 mg,tablet,30,3,Take one tablet daily,Dr A. Example,,
+F-G23-01,58,M,,2026-03-06,amlodipine,,5 mg,tablet,30,3,Take one tablet daily,Dr A. Example,,
+F-G23-01,58,M,result,2026-03-13,,,,,,,,,eGFR,89 mL/min/1.73 m2
+F-G23-01,58,M,observation,2026-03-18,,,,,,,,,Blood pressure,121/78 mmHg
+F-G23-01,58,M,result,2026-03-21,,,,,,,,,HbA1c,7.0%
+F-G23-01,58,M,,2026-03-27,sitagliptin,Januvia,100 mg,tablet,28,2,Take one tablet daily,Dr A. Example,,
+F-G23-01,58,M,,2026-04-03,atorvastatin,,20 mg,tablet,30,2,Take one tablet daily,Dr A. Example,,
+F-G23-01,58,M,,2026-04-05,amlodipine,,5 mg,tablet,30,2,Take one tablet daily,Dr A. Example,,
+F-G23-01,58,M,observation,2026-04-17,,,,,,,,,Blood pressure,124/78 mmHg
+F-G23-01,58,M,,2026-04-24,sitagliptin,Januvia,100 mg,tablet,28,1,Take one tablet daily,Dr A. Example,,
+F-G23-01,58,M,,2026-05-03,atorvastatin,,20 mg,tablet,30,1,Take one tablet daily,Dr A. Example,,
+F-G23-01,58,M,,2026-05-05,amlodipine,,5 mg,tablet,30,1,Take one tablet daily,Dr A. Example,,
+F-G23-01,58,M,observation,2026-05-17,,,,,,,,,Blood pressure,126/78 mmHg
+F-G23-01,58,M,,2026-05-22,sitagliptin,Januvia,100 mg,tablet,28,0,Take one tablet daily,Dr A. Example,,
+F-G23-01,58,M,,2026-06-02,atorvastatin,,20 mg,tablet,30,0,Take one tablet daily,Dr A. Example,,
+F-G23-01,58,M,,2026-06-04,amlodipine,,5 mg,tablet,30,0,Take one tablet daily,Dr A. Example,,
+F-G23-01,58,M,result,2026-06-07,,,,,,,,,HbA1c,6.8%
+F-G23-01,58,M,observation,2026-06-16,,,,,,,,,Blood pressure,121/78 mmHg
+F-G23-01,58,M,,2026-06-19,sitagliptin,Januvia,100 mg,tablet,28,5,Take one tablet daily,Dr A. Example,,
+F-G23-01,58,M,,2026-07-02,atorvastatin,,20 mg,tablet,30,5,Take one tablet daily,Dr A. Example,,
+F-G23-01,58,M,,2026-07-04,amlodipine,,5 mg,tablet,30,5,Take one tablet daily,Dr A. Example,,
+F-G23-01,58,M,observation,2026-07-16,,,,,,,,,Blood pressure,124/78 mmHg
+F-G23-01,58,M,,2026-07-17,sitagliptin,Januvia,100 mg,tablet,28,4,Take one tablet daily,Dr A. Example,,
+F-G23-01,58,M,,2026-08-01,atorvastatin,,20 mg,tablet,30,4,Take one tablet daily,Dr A. Example,,
+F-G23-01,58,M,,2026-08-03,amlodipine,,5 mg,tablet,30,4,Take one tablet daily,Dr A. Example,,
+F-G23-01,58,M,,2026-08-14,sitagliptin,Januvia,100 mg,tablet,28,3,Take one tablet daily,Dr A. Example,,
+F-G23-01,58,M,observation,2026-08-15,,,,,,,,,Blood pressure,126/78 mmHg
+F-G23-01,58,M,result,2026-08-24,,,,,,,,,HbA1c,6.9%
+F-G23-01,58,M,,2026-08-31,atorvastatin,,20 mg,tablet,30,3,Take one tablet daily,Dr A. Example,,
+F-G23-01,58,M,,2026-09-02,amlodipine,,5 mg,tablet,30,3,Take one tablet daily,Dr A. Example,,
+F-G23-01,58,M,,2026-09-11,sitagliptin,Januvia,100 mg,tablet,28,2,Take one tablet daily,Dr A. Example,,
+F-G23-01,58,M,result,2026-09-11,,,,,,,,,Serum creatinine,80 micromol/L
+F-G23-01,58,M,observation,2026-09-14,,,,,,,,,Blood pressure,121/78 mmHg
+F-G23-01,58,M,result,2026-09-18,,,,,,,,,Serum creatinine,120 micromol/L

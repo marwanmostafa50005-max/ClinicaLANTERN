@@ -1,0 +1,66 @@
+[
+  {
+    "file": "BRISNIK-OP-DEPR9/pos-brand.csv",
+    "kind": "positive",
+    "about": "The Endep directions say to continue Lexapro with Endep for depression, and the two brand-only supplies overlap in December.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-DEPR9",
+        "must_cite": [
+          [
+            "L008",
+            "L012",
+            "L015",
+            "L018",
+            "L022",
+            "L025",
+            "L028"
+          ],
+          [
+            "L009",
+            "L013",
+            "L016",
+            "L019",
+            "L023",
+            "L026"
+          ],
+          [
+            "L009"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-DEPR9/pos-buried.csv",
+    "kind": "positive",
+    "about": "The dosulepin directions say to continue sertraline with dosulepin for depression, and the two supplies overlap in January.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-DEPR9",
+        "must_cite": [
+          [
+            "L032",
+            "L037",
+            "L042",
+            "L048"
+          ],
+          [
+            "L033",
+            "L038",
+            "L043"
+          ],
+          [
+            "L033"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-DEPR9/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Sertraline and mirtazapine are supplied together, but one of the pair is mirtazapine, which the criterion leaves out, so it must not flag.",
+    "findings": []
+  }
+]

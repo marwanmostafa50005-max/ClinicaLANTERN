@@ -1,0 +1,89 @@
+{
+  "id": "BRISNIK-OP-PAIN2",
+  "label": "Brisnik OP-PAIN2",
+  "family": "BRISNIK",
+  "title": "Venlafaxine 150 mg a day or more for neuropathic pain",
+  "statement": "Prescribed venlafaxine ≥ 150 mg/day for neuropathic pain - and the patient has no other indications for an antidepressant",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Venlafaxine at 150 mg a day or more, used only for nerve pain in a person with no other reason to take an antidepressant, may be more medicine than is needed.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Venlafaxine",
+      "ingredients": [
+        "venlafaxine"
+      ],
+      "brands": {
+        "venlafaxine": [
+          "Efexor-XR",
+          "Altven",
+          "Elaxine SR",
+          "Enlafax-XR",
+          "Enlafax XR",
+          "Evelexa XR",
+          "Ozvenaf",
+          "Venfax SR",
+          "Venla",
+          "Venlexor XR"
+        ]
+      },
+      "note": "Capsules and tablets both count. The daily dose is the strength of each capsule or tablet times the number taken in a day, from the directions. One 150 mg capsule a day is 150 mg a day. Two 75 mg capsules a day is also 150 mg a day. Enlafax-XR may appear as Enlafax XR on older records."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Neuropathic pain as a reason for venlafaxine on this course",
+      "meets": "The directions, a clinical entry or a pharmacist answer specifically link this venlafaxine course to neuropathic pain. A diagnosis or a generic Yes establishes only that the patient has nerve pain.",
+      "options": [
+        {
+          "words": "Venlafaxine was prescribed for neuropathic pain on this course",
+          "effect": "meets"
+        },
+        {
+          "words": "Venlafaxine was not prescribed for neuropathic pain on this course",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "condition",
+      "what": "Any other current indication for an antidepressant",
+      "meets": "A review confirms no other current indication for an antidepressant during the course under review. Another current indication excludes the finding. If this has not been assessed, the answer is unknown.",
+      "options": [
+        {
+          "words": "No other current indication besides neuropathic pain was found on review",
+          "effect": "meets"
+        },
+        {
+          "words": "Another current indication besides neuropathic pain was confirmed",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Start with a Group A venlafaxine supply, including packs labelled with a company name. Use strength and directions to total the prescribed daily dose across strengths in the same regimen. A dose below 150 mg a day, a current course solely for another purpose, or another current antidepressant indication excludes a finding. A resolved earlier indication does not exclude this course. Confirm only at 150 mg a day or more when this course treats nerve pain and a review confirms no other current indication. A pain diagnosis or a Yes to having nerve pain alone does not establish the medicine link. Otherwise report a possible finding, even with supplies alone, and name only what is missing. If the treatment purpose is unclear, name the missing fact \"Neuropathic pain as a reason for venlafaxine on this course\". If the prescribed dose or another indication is unclear, identify the missing daily dose in mg or the missing indication review. Cite the supplies and supporting entries used.",
+  "cannot_be_seen": "Why venlafaxine was started, whether it helps the pain, and any reason for an antidepressant that the record does not hold. Also the dose the person really takes, and medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "What is venlafaxine being used for? If it is for neuropathic pain, could we review its benefit, adverse effects and any other indication?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

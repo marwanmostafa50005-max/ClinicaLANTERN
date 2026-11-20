@@ -1,0 +1,13 @@
+2026-07-05 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 2 | Take ONE tablet in the morning | Dr A. Example
+2026-07-16 | Cardizem CD 240 mg modified release capsule | qty 30 | repeats 4 | Take ONE capsule daily | Dr B. Sample
+2026-07-23 | Betaloc 50 mg tablet | qty 100 | repeats 5 | Take ONE tablet twice a day | Dr A. Example
+2026-08-05 | Crestor 10 mg tablet | qty 30 | repeats 1 | Take ONE tablet daily | Dr A. Example
+2026-08-05 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 1 | Take ONE tablet in the morning | Dr A. Example
+2026-08-14 | Cardizem CD 240 mg modified release capsule | qty 30 | repeats 3 | Take ONE capsule daily | Dr B. Sample
+2026-09-04 | Crestor 10 mg tablet | qty 30 | repeats 0 | Take ONE tablet daily | Dr A. Example
+2026-09-04 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 0 | Take ONE tablet in the morning | Dr A. Example
+2026-09-10 | Betaloc 50 mg tablet | qty 100 | repeats 4 | Take ONE tablet twice a day | Dr A. Example
+2026-09-14 | Cardizem CD 240 mg modified release capsule | qty 30 | repeats 2 | Take ONE capsule daily | Dr B. Sample
+2026-10-04 | Crestor 10 mg tablet | qty 30 | repeats 5 | Take ONE tablet daily | Dr A. Example
+2026-10-04 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 5 | Take ONE tablet in the morning | Dr A. Example
+2026-10-13 | Cardizem CD 240 mg modified release capsule | qty 30 | repeats 1 | Take ONE capsule daily | Dr B. Sample

@@ -1,0 +1,46 @@
+[
+  {
+    "file": "EU7-F76/pos-brand.csv",
+    "kind": "positive",
+    "about": "Piracetam (no Australian brand exists, so the ingredient name is used) is supplied seven times from September 2025 to March 2026 to a 72-year-old.",
+    "findings": [
+      {
+        "criterion": "EU7-F76",
+        "must_cite": [
+          [
+            "L003",
+            "L007",
+            "L011",
+            "L014",
+            "L018",
+            "L021",
+            "L025"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F76/pos-buried.csv",
+    "kind": "positive",
+    "about": "Piracetam 1200 mg twice a day is supplied three times from December 2025 to February 2026, in the middle of a 15-month history.",
+    "findings": [
+      {
+        "criterion": "EU7-F76",
+        "must_cite": [
+          [
+            "L029",
+            "L033",
+            "L038"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F76/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Donepezil, a proven medicine for Alzheimer-type dementia that is not on the list, is supplied monthly. Piracetam does not appear.",
+    "findings": []
+  }
+]

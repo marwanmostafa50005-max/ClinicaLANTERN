@@ -1,0 +1,44 @@
+[
+  {
+    "file": "KHAWAGI-G109/pos-brand.csv",
+    "kind": "positive",
+    "about": "At age 65, the five scheduled nights of oral Imovane overlap the seven-day Klacid course.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G109",
+        "must_cite": [
+          [
+            "L017"
+          ],
+          [
+            "L018"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G109/pos-buried.csv",
+    "kind": "positive",
+    "about": "The zolpidem and clarithromycin courses overlap, but age at supply is missing, so the finding is possible.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G109",
+        "must_cite": [
+          [
+            "L031"
+          ],
+          [
+            "L032"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G109/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The patient is 64 at both supplies, below the threshold of 65.",
+    "findings": []
+  }
+]

@@ -1,0 +1,154 @@
+{
+  "id": "STOPP-D22",
+  "label": "STOPP D22",
+  "family": "STOPP_START",
+  "title": "Levodopa or a dopamine agonist for essential tremor",
+  "statement": "Levodopa or dopamine agonists for benign essential tremor (no evidence of efficacy)",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Levodopa and dopamine agonist medicines do not help essential tremor, so they add side effects for no benefit.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Levodopa medicines",
+      "ingredients": [
+        "levodopa with carbidopa",
+        "levodopa with benserazide",
+        "levodopa with carbidopa and entacapone",
+        "benserazide + levodopa",
+        "carbidopa + levodopa",
+        "carbidopa + entacapone + levodopa"
+      ],
+      "brands": {
+        "levodopa with carbidopa": [
+          "Sinemet",
+          "Sinemet CR",
+          "Kinson"
+        ],
+        "levodopa with benserazide": [
+          "Madopar",
+          "Madopar Rapid",
+          "Madopar HBS"
+        ],
+        "levodopa with carbidopa and entacapone": [
+          "Stalevo"
+        ],
+        "benserazide + levodopa": [
+          "Madopar",
+          "Madopar Rapid",
+          "Madopar HBS"
+        ],
+        "carbidopa + levodopa": [
+          "Sinemet",
+          "Sinemet CR",
+          "Kinson"
+        ],
+        "carbidopa + entacapone + levodopa": [
+          "Stalevo"
+        ]
+      },
+      "note": "Each brand is levodopa combined with the named medicine. Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "B",
+      "name": "Dopamine agonists",
+      "ingredients": [
+        "pramipexole",
+        "ropinirole",
+        "rotigotine",
+        "bromocriptine",
+        "cabergoline",
+        "apomorphine"
+      ],
+      "brands": {
+        "pramipexole": [
+          "Sifrol",
+          "Sifrol ER",
+          "Pamex",
+          "Pexemis",
+          "Pexole XR",
+          "Simipex",
+          "Simipex XR",
+          "Simpral"
+        ],
+        "ropinirole": [
+          "Requip",
+          "Requip XL",
+          "Repreve",
+          "Appese",
+          "Appese-0.25",
+          "Appese-0.5",
+          "Ropaccord",
+          "Ropicor",
+          "Ropicor-0.5"
+        ],
+        "rotigotine": [
+          "Neupro"
+        ],
+        "bromocriptine": [
+          "Parlodel",
+          "Kripton"
+        ],
+        "cabergoline": [
+          "Dostinex",
+          "Bergoline",
+          "Cabaser",
+          "Carbelin",
+          "Cobasol",
+          "Dostamine",
+          "Dostan",
+          "Novanex",
+          "Tinexa"
+        ],
+        "apomorphine": [
+          "Apomine",
+          "Apo-Go",
+          "Apomine Intermittent",
+          "Apomine PFS",
+          "Apowok",
+          "Movapo",
+          "Movapo PFS",
+          "Movapo Pen",
+          "Movapo Pod"
+        ]
+      },
+      "note": "Tablets, patches and injections count. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Use of this levodopa medicine or dopamine agonist for essential tremor",
+      "meets": "The record identifies essential tremor as a reason for this levodopa or dopamine agonist.",
+      "options": [
+        {
+          "words": "Essential tremor is a reason for this medicine",
+          "effect": "meets"
+        },
+        {
+          "words": "This medicine is used only for another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply only to people aged 65 years or older. Below 65 there is no finding. If age is unknown, record eligibility as unresolved and confirm age before reporting either finding. Report a finding if the record identifies essential tremor as a reason for a Group A levodopa medicine or a Group B dopamine agonist. If the indication is unclear, including when both essential tremor and Parkinson disease are recorded without a treatment link, report a possible finding and name the missing fact \"Use of this levodopa medicine or dopamine agonist for essential tremor\". Exclude use solely for another recorded indication. Cite a Group A or B supply and, for a confirmed finding, the line linking that medicine to essential tremor.",
+  "cannot_be_seen": "Why the medicine was started (Parkinson disease is the usual reason; ropinirole and pramipexole are also used for restless legs) and the cause of any tremor.",
+  "ask_the_gp": "Whether the medicine is helping, and whether the tremor has been checked as essential tremor or as Parkinson disease.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

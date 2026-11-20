@@ -1,0 +1,73 @@
+{
+  "id": "STOPP-C13",
+  "label": "STOPP C13",
+  "family": "STOPP_START",
+  "title": "Dabigatran with diltiazem or verapamil",
+  "statement": "Direct thrombin inhibitor (e.g., dabigatran) and diltiazem or verapamil (increased risk of bleeding).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Diltiazem and verapamil can raise the amount of dabigatran in the blood, which makes bleeding more likely.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Direct thrombin inhibitor taken by mouth",
+      "ingredients": [
+        "dabigatran"
+      ],
+      "brands": {
+        "dabigatran": [
+          "Pradaxa"
+        ]
+      },
+      "note": "Dabigatran is the only direct thrombin inhibitor listed. Apixaban, rivaroxaban and warfarin are not direct thrombin inhibitors. Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "B",
+      "name": "Diltiazem and verapamil",
+      "ingredients": [
+        "diltiazem",
+        "verapamil"
+      ],
+      "brands": {
+        "diltiazem": [
+          "Cardizem",
+          "Cardizem CD",
+          "Vasocardol",
+          "Vasocardol CD",
+          "Coras",
+          "Dilzem",
+          "Diltahexal",
+          "Danzem",
+          "Diltahexal CD",
+          "Dilzem CD",
+          "Ditatem"
+        ],
+        "verapamil": [
+          "Isoptin",
+          "Isoptin SR",
+          "Anpec",
+          "Cordilox SR",
+          "Veracaps SR",
+          "Tarka",
+          "Anpec SR"
+        ]
+      },
+      "note": "Only forms taken by mouth count. Tarka is trandolapril with verapamil. Other calcium channel blockers, such as amlodipine, felodipine, lercanidipine and nifedipine, are not in this group."
+    }
+  ],
+  "rule_for_models": "Apply this rule only to people aged 65 years or older. If age is unknown, confirm it before reporting a STOPP finding. Suspect a finding when Group A (dabigatran) AND a Group B medicine (diltiazem or verapamil) both appear in the history and their supply dates overlap or fall within 60 days of each other. Another anticoagulant with diltiazem or verapamil does not meet this rule.",
+  "cannot_be_seen": "Why each medicine was prescribed, kidney function, and any bleeding or bruising. Also whether the prescriber has already allowed for the combination in the dabigatran dose, whether both medicines are still being taken, and medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "Dabigatran together with diltiazem or verapamil, including the dabigatran dose, kidney function and the patient's risk of bleeding.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

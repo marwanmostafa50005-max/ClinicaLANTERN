@@ -1,0 +1,275 @@
+{
+  "id": "PINCER-3",
+  "label": "PINCER 3",
+  "family": "PINCER",
+  "title": "ACE inhibitor or loop diuretic without a kidney and salt check",
+  "statement": "Patients aged 75 years and older who have been prescribed an ACE inhibitor or a loop diuretic long-term (see below) who have not had a computer-recorded check of their renal function and electrolytes in the previous 15 months: - More specifically, long-term prescribing implies a first prescription for an ACE inhibitor or a loop diuretic at least 15 months before the time of data collection and at least one prescription in the six months beforehand - The denominator for this outcome measure is patients aged 75 years and older who have been prescribed an ACE inhibitor or a loop diuretic long-term according to the above definition.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Avery AJ, et al. Protocol for the PINCER trial. Trials 2009;10:28; correction Trials 2010;11:23",
+    "citation": "Avery AJ, Rodgers S, Cantrill JA, et al. Protocol for the PINCER trial. Trials 2009;10:28. doi:10.1186/1745-6215-10-28; correction Trials 2010;11:23",
+    "doi": "10.1186/1745-6215-10-28",
+    "url": "https://doi.org/10.1186/1745-6215-10-28",
+    "licence": "CC BY 2.0",
+    "licence_status": "proposed",
+    "credit": "Avery AJ, Rodgers S, Cantrill JA, et al. Protocol for the PINCER trial. Trials 2009;10:28. doi:10.1186/1745-6215-10-28; correction Trials 2010;11:23",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A person aged 75 or older who takes an ACE inhibitor or a loop diuretic long term needs a regular blood test of kidney function and salts.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "ACE inhibitors",
+      "ingredients": [
+        "ramipril",
+        "perindopril",
+        "enalapril",
+        "lisinopril",
+        "quinapril",
+        "cilazapril",
+        "captopril",
+        "fosinopril",
+        "trandolapril",
+        "perindopril with indapamide",
+        "perindopril with amlodipine",
+        "lisinopril with hydrochlorothiazide",
+        "quinapril with hydrochlorothiazide",
+        "trandolapril with verapamil",
+        "perindopril with indapamide and amlodipine",
+        "amlodipine + perindopril",
+        "indapamide + perindopril",
+        "hydrochlorothiazide + quinapril",
+        "enalapril with lercanidipine",
+        "fosinopril with hydrochlorothiazide",
+        "enalapril with hydrochlorothiazide",
+        "ramipril with felodipine"
+      ],
+      "brands": {
+        "ramipril": [
+          "Tritace",
+          "Ramace",
+          "Prilace",
+          "Ramibell",
+          "Tryzan",
+          "Vascalace"
+        ],
+        "perindopril": [
+          "Coversyl",
+          "Idaprex",
+          "Idaprex Arg",
+          "Indopril",
+          "Indosyl Mono",
+          "Ozapace",
+          "Perindo",
+          "Perindo Arg",
+          "Perindoarg",
+          "Perindobell",
+          "Perisyl",
+          "Prexum"
+        ],
+        "enalapril": [
+          "Renitec",
+          "Acetec",
+          "Alphapril",
+          "Amprace",
+          "Auspril",
+          "Elapril",
+          "Enahexal",
+          "Enalabell",
+          "Malean",
+          "Renitec M"
+        ],
+        "lisinopril": [
+          "Zestril",
+          "Fibsol",
+          "Linopril",
+          "Liprace",
+          "Lisinobell",
+          "Lisinotrust",
+          "Lisodrate",
+          "Lisodur",
+          "Lisoril",
+          "Ozten",
+          "Prinivil",
+          "Sinop",
+          "Zinopril"
+        ],
+        "quinapril": [
+          "Accupril",
+          "Acquin",
+          "Aquinafil",
+          "Filpril",
+          "Qpril"
+        ],
+        "cilazapril": [
+          "Inhibace"
+        ],
+        "captopril": [
+          "Acenorm",
+          "Capoten",
+          "Captohexal",
+          "Captopril (Apo)",
+          "Captopril (Chemmart)",
+          "Captopril (Douglas)",
+          "Captopril (Genrx)",
+          "Captopril (Reach)",
+          "Captopril (Sandoz)",
+          "Captopril (Terry White Chemists)",
+          "Captopril (Wl)",
+          "Topace",
+          "Zedace"
+        ],
+        "fosinopril": [
+          "Fosinopril (Dp)",
+          "Fosinopril Sodium (Apo)",
+          "Fosinopril Sodium (Genrx)",
+          "Fosinopril Sodium (Sandoz)",
+          "Fosinopril Sodium (Winthrop)",
+          "Fosipril",
+          "Monace",
+          "Monopril"
+        ],
+        "trandolapril": [
+          "Dolapril",
+          "Gopten",
+          "Goricap",
+          "Odrik",
+          "Tranalpha",
+          "Trandolapril (Apo)",
+          "Trandolapril (Chemmart)",
+          "Trandolapril (Dp)",
+          "Trandolapril (Ga)",
+          "Trandolapril (Generic Health)",
+          "Trandolapril (Genrx)",
+          "Trandolapril (Pharmacor)",
+          "Trandolapril (Terry White Chemists)",
+          "Trandolapril (Viatris)"
+        ],
+        "perindopril with indapamide": [
+          "Coversyl Plus"
+        ],
+        "perindopril with amlodipine": [
+          "Coveram",
+          "Reaptan"
+        ],
+        "lisinopril with hydrochlorothiazide": [
+          "Zestoretic"
+        ],
+        "quinapril with hydrochlorothiazide": [
+          "Accuretic"
+        ],
+        "trandolapril with verapamil": [
+          "Tarka"
+        ],
+        "perindopril with indapamide and amlodipine": [
+          "Coveram Plus",
+          "Triplixam SR",
+          "Triplixam 5/5/1.5 SR",
+          "Triplixam 10/5/1.5 SR",
+          "Triplixam 10/10/1.5 SR"
+        ],
+        "amlodipine + perindopril": [
+          "Coveram",
+          "Reaptan"
+        ],
+        "indapamide + perindopril": [
+          "Coversyl Plus"
+        ],
+        "hydrochlorothiazide + quinapril": [
+          "Accuretic"
+        ],
+        "enalapril with lercanidipine": [
+          "Zan-Extra"
+        ],
+        "fosinopril with hydrochlorothiazide": [
+          "Monoplus"
+        ],
+        "enalapril with hydrochlorothiazide": [
+          "Renitec Plus",
+          "Renitec Plus 20/6"
+        ],
+        "ramipril with felodipine": [
+          "Triasyn"
+        ]
+      },
+      "note": "Combination products with an ACE inhibitor count and are listed under the combination. Count the ACE inhibitor component across presentations."
+    },
+    {
+      "key": "B",
+      "name": "Loop diuretics",
+      "ingredients": [
+        "furosemide",
+        "bumetanide",
+        "etacrynic acid"
+      ],
+      "brands": {
+        "furosemide": [
+          "Lasix",
+          "Urex",
+          "Frusax",
+          "Frusehexal",
+          "Frusemix",
+          "Frusemix-M",
+          "Frusid",
+          "Furo",
+          "Lasix High Dose",
+          "Lasix M",
+          "Uremide",
+          "Urex Forte",
+          "Urex-M"
+        ],
+        "bumetanide": [
+          "Burinex"
+        ],
+        "etacrynic acid": [
+          "Edecrin"
+        ]
+      },
+      "note": "Furosemide is also written frusemide. Recognise ethacrynic acid as another spelling of etacrynic acid."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Kidney function and electrolyte checks in the 15 months ending on the latest record date",
+      "meets": "Use dated records to check kidney function (eGFR or creatinine), sodium and potassium in the 15 months ending on the latest date in the record. A confirmed gap for any one check meets the criterion. A latest result before the window with no later result for that check also shows a gap. If all three checks were recorded in the window, monitoring is complete. If records are incomplete and no gap is established, identify the checks with unknown timing.",
+      "options": [
+        {
+          "words": "Dated records confirm that at least one required check was overdue in this period",
+          "effect": "meets"
+        },
+        {
+          "words": "Kidney function, sodium and potassium were all checked and recorded in this period",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Kidney function was checked in this period. The record is incomplete for sodium or potassium",
+          "effect": "unknown"
+        },
+        {
+          "words": "Sodium and potassium were checked in this period. The kidney function check is unknown",
+          "effect": "unknown"
+        },
+        {
+          "words": "No dated information is available for any of the three checks",
+          "effect": "unknown"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "result",
+      "what": "Age in years at the end of the dispensing history",
+      "meets": "Enter the patient’s age in completed years at the end of this dispensing history. This criterion applies from age 75."
+    }
+  ],
+  "rule_for_models": "Look for an ACE inhibitor (Group A) or loop diuretic (Group B) first supplied at least 15 months before the latest date in the record and supplied again in the last six months. Check whether kidney function (eGFR or creatinine), sodium and potassium were each checked and recorded in the last 15 months ending on the latest date in the record. Use dated results or a pharmacist's confirmation from dated records. The date the pharmacist answers is not the test date. Give no finding if the person is under 75, the supplies do not qualify or all three checks were recorded in the window. With qualifying supplies at age 75 or older, report a finding if the latest dated result for any required check is before the window or the pharmacist verifies from dated records that a required check was missed in the window. Cite the qualifying supplies and the newest old result for each overdue check or the pharmacist's confirmation. Name any other required check whose timing is still unknown. If no gap is established and any required check has no usable date, report only a possible finding. Cite the qualifying supplies, name the missing checks and ask when they were last recorded. Use the age in the patient details or the typed \"Age in years at the end of the dispensing history\" result. Read the typed number as completed years at the end of the history. If age is missing, the supply dates qualify and recent complete monitoring has not ruled out a finding, report only a possible finding. Cite the qualifying supplies and any relevant older results. List only \"Age in years at the end of the dispensing history\" as missing and name any unresolved tests in the explanation. Below 75, give no finding and ask no monitoring question. At 75 or older, apply the monitoring rule and cite the age answer if it establishes eligibility. An unknown age leaves the finding possible unless another fact rules it out. For missing monitoring, list only 'Kidney function and electrolyte checks in the 15 months ending on the latest record date' as the missing monitoring fact. Name the individual missing checks in the explanation. A partial panel or a Not known answer alone leaves the missing checks unresolved.",
+  "cannot_be_seen": "Tests done at another site or not recorded here, the reason for the medicine, and whether the doctor has already arranged the blood test.",
+  "ask_the_gp": "Could you confirm when kidney function, sodium and potassium were last checked, including any results held elsewhere, and review whether repeat testing or a dose review is due?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

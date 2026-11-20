@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <g stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Three curved-leaf paper lamps in a pyramid. Large pale cores make this the brightest identity. -->
+    
+    <g>
+      <circle cx="256" cy="164" r="90" fill="#edbf67" opacity="0.19"/>
+      <path d="M256 60V80" stroke="#071d49" stroke-width="8"/>
+      <path d="M256 80C216 92 184 126 186 164C184 202 216 236 256 248C296 236 328 202 326 164C328 126 296 92 256 80Z" fill="#edbf67" fill-opacity="0.64" stroke="#9a6200" stroke-width="8"/>
+      <path d="M256 114C226 138 226 184 256 216C286 184 286 138 256 114Z" fill="#fff8e3"/>
+      <path d="M256 84C208 112 206 152 238 174C210 196 222 224 256 244" stroke="#9a6200" stroke-width="6"/>
+      <path d="M256 84C304 112 306 152 274 174C302 196 290 224 256 244" stroke="#9a6200" stroke-width="6"/>
+      <path d="M200 134C230 144 236 162 238 174" stroke="#ffffff" stroke-width="7" opacity="0.88"/>
+      <path d="M312 194C286 186 278 176 274 174" stroke="#ffffff" stroke-width="7" opacity="0.88"/>
+    </g>
+    
+    <g>
+      <circle cx="158" cy="356" r="90" fill="#edbf67" opacity="0.19"/>
+      <path d="M158 252V272" stroke="#071d49" stroke-width="8"/>
+      <path d="M158 272C118 284 86 318 88 356C86 394 118 428 158 440C198 428 230 394 228 356C230 318 198 284 158 272Z" fill="#edbf67" fill-opacity="0.64" stroke="#9a6200" stroke-width="8"/>
+      <path d="M158 306C128 330 128 376 158 408C188 376 188 330 158 306Z" fill="#fff8e3"/>
+      <path d="M158 276C110 304 108 344 140 366C112 388 124 416 158 436" stroke="#9a6200" stroke-width="6"/>
+      <path d="M158 276C206 304 208 344 176 366C204 388 192 416 158 436" stroke="#9a6200" stroke-width="6"/>
+      <path d="M102 326C132 336 138 354 140 366" stroke="#ffffff" stroke-width="7" opacity="0.88"/>
+      <path d="M214 386C188 378 180 368 176 366" stroke="#ffffff" stroke-width="7" opacity="0.88"/>
+    </g>
+    
+    <g>
+      <circle cx="354" cy="356" r="90" fill="#edbf67" opacity="0.19"/>
+      <path d="M354 252V272" stroke="#071d49" stroke-width="8"/>
+      <path d="M354 272C314 284 282 318 284 356C282 394 314 428 354 440C394 428 426 394 424 356C426 318 394 284 354 272Z" fill="#edbf67" fill-opacity="0.64" stroke="#9a6200" stroke-width="8"/>
+      <path d="M354 306C324 330 324 376 354 408C384 376 384 330 354 306Z" fill="#fff8e3"/>
+      <path d="M354 276C306 304 304 344 336 366C308 388 320 416 354 436" stroke="#9a6200" stroke-width="6"/>
+      <path d="M354 276C402 304 404 344 372 366C400 388 388 416 354 436" stroke="#9a6200" stroke-width="6"/>
+      <path d="M298 326C328 336 334 354 336 366" stroke="#ffffff" stroke-width="7" opacity="0.88"/>
+      <path d="M410 386C384 378 376 368 372 366" stroke="#ffffff" stroke-width="7" opacity="0.88"/>
+    </g>
+    
+  </g>
+</svg>

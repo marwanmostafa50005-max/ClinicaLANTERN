@@ -1,0 +1,52 @@
+[
+  {
+    "file": "OPTIMISE-T2-32/pos-fact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the final Epilim supply precedes the planned June folate check, its directions and quantity show treatment continued beyond the due date, and no repeat result is visible.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T2-32",
+        "must_cite": [
+          [
+            "L005"
+          ],
+          [
+            "L006"
+          ],
+          [
+            "L040"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T2-32/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about a folate result or the monitoring plan during continuing Tegretol supply.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T2-32",
+        "must_cite": [
+          [
+            "L002",
+            "L005",
+            "L008",
+            "L011",
+            "L014",
+            "L017",
+            "L020",
+            "L023",
+            "L026"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T2-32/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The latest red cell folate is within the laboratory range during Lamictal treatment and the next planned check falls after the record ends.",
+    "findings": []
+  }
+]

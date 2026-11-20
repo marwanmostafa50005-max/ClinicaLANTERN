@@ -1,0 +1,321 @@
+{
+  "id": "STOPP-H3",
+  "label": "STOPP H3",
+  "family": "STOPP_START",
+  "title": "Long-term NSAID for osteoarthritis, paracetamol not tried",
+  "statement": "Long-term use of NSAID (>3 months) for symptom relief of osteoarthritis pain where paracetamol has not been tried (simple analgesics preferable and usually as effective for pain relief and safer).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Review prolonged systemic NSAID use for osteoarthritis pain and whether paracetamol has been tried. For knee osteoarthritis, paracetamol generally provides less pain relief than NSAIDs but may be considered when NSAID harms are a concern. Australian guidance differs: a paracetamol trial is optional before an oral NSAID for knee or hip osteoarthritis (RACGP, 2018).",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "NSAIDs, the anti-inflammatory pain medicines",
+      "ingredients": [
+        "celecoxib",
+        "diclofenac",
+        "etoricoxib",
+        "ibuprofen",
+        "indometacin",
+        "ketoprofen",
+        "ketorolac",
+        "mefenamic acid",
+        "meloxicam",
+        "naproxen",
+        "piroxicam",
+        "sulindac"
+      ],
+      "brands": {
+        "celecoxib": [
+          "Celebrex",
+          "Celaxib",
+          "Anacoxib",
+          "Celebrex Relief",
+          "Celetoid",
+          "Celexi",
+          "Celocox",
+          "Kudeq"
+        ],
+        "diclofenac": [
+          "Voltaren",
+          "Voltaren Rapid",
+          "Fenac",
+          "Clonac",
+          "Arthrotec",
+          "Cambia",
+          "Diclohexal",
+          "Difenac Rapid",
+          "Dinac",
+          "Fenac EC",
+          "Imflac",
+          "Inflamax Liquid Caps",
+          "Voltaren Rapid Extra Strength",
+          "Voltaren Rapid Liquid Capsules",
+          "Voltfast",
+          "Zorvolex"
+        ],
+        "etoricoxib": [
+          "Arcoxia"
+        ],
+        "ibuprofen": [
+          "Nurofen",
+          "Advil",
+          "Brufen",
+          "Rafen",
+          "Nurofen Plus",
+          "Panafen Plus",
+          "Nuromol",
+          "Maxigesic",
+          "Act-3",
+          "Advil 12 Hour",
+          "Advil Childrens Pain and Fever 2 to 7 Years",
+          "Advil Childrens Pain and Fever 7 to 12 Years",
+          "Advil Childrens Pain and Fever Relief 2 to 12 Years",
+          "Advil Double Strength",
+          "Advil Double Strength Caplets",
+          "Advil Double Strength Liquid Capsules",
+          "Advil Infants Pain and Fever Relief 3 Months to 2 Years",
+          "Advil Mini Caps",
+          "Advil Rapid Release",
+          "Brufen Pain",
+          "Brufen Syrup",
+          "Bugesic",
+          "Butafen",
+          "Butalgin",
+          "Fenpaed",
+          "Fenpaed Double Strength",
+          "Iprofen",
+          "Nurofen Back Pain",
+          "Nurofen Caplet",
+          "Nurofen Double Strength",
+          "Nurofen Liquid Capsule",
+          "Nurofen Meltlets",
+          "Nurofen Migraine Pain",
+          "Nurofen Period Pain",
+          "Nurofen Quickzorb",
+          "Nurofen Regular",
+          "Nurofen Tension Headache",
+          "Nurofen Zavance",
+          "Nurofen Zavance Liquid Capsules",
+          "Nurofen for Children 1 to 5 Years",
+          "Nurofen for Children 3 Months to 5 Years",
+          "Nurofen for Children 5 to 12 Years",
+          "Nurofen for Children 7+ Years",
+          "Nurofen for Children Baby 3+ Months",
+          "Nurofen for Children Infant Drops",
+          "Nurofen for Children Meltlet",
+          "Panafen IB",
+          "Panafen IB Mini Cap",
+          "Proven",
+          "Tri-Profen"
+        ],
+        "indometacin": [
+          "Indocid",
+          "Arthrexin"
+        ],
+        "ketoprofen": [
+          "Orudis",
+          "Oruvail"
+        ],
+        "ketorolac": [
+          "Toradol",
+          "Ketoral"
+        ],
+        "mefenamic acid": [
+          "Ponstan",
+          "Femin",
+          "Mefic",
+          "Menamic"
+        ],
+        "meloxicam": [
+          "Mobic",
+          "Movalis",
+          "Moxicam",
+          "Meloxibell",
+          "Agilocam",
+          "Melobic",
+          "Melox",
+          "Meloxiauro",
+          "Meloxibindo",
+          "Mobelox"
+        ],
+        "naproxen": [
+          "Naprosyn",
+          "Naprosyn SR",
+          "Anaprox",
+          "Inza",
+          "Proxen SR",
+          "Naprogesic",
+          "Aleve",
+          "Vimovo",
+          "Aleve 24 Hour",
+          "Crysanal",
+          "Femme-Free",
+          "Naprofem",
+          "Naprosyn SR 1000",
+          "Nurolasts Period Pain",
+          "Proxen"
+        ],
+        "piroxicam": [
+          "Feldene",
+          "Mobilis",
+          "Candyl",
+          "Candyl-D",
+          "Feldene-D",
+          "Mobilis D",
+          "Pirohexal-D"
+        ],
+        "sulindac": [
+          "Aclin"
+        ]
+      },
+      "note": "Tablets, capsules, liquids, suppositories and injections count. Skin gels, creams and eye drops do not count, for example Voltaren Emulgel. Aspirin is not in this group. Nurofen Plus and Panafen Plus are ibuprofen with codeine. Nuromol and Maxigesic are ibuprofen with paracetamol. Arthrotec is diclofenac with misoprostol. Vimovo is naproxen with esomeprazole. Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "B",
+      "name": "Paracetamol, which shows a simple pain medicine was tried",
+      "ingredients": [
+        "paracetamol"
+      ],
+      "brands": {
+        "paracetamol": [
+          "Panadol",
+          "Panadol Osteo",
+          "Panamax",
+          "Dymadon",
+          "Panadeine",
+          "Panadeine Forte",
+          "Maxigesic",
+          "Nuromol",
+          "Duatrol SR",
+          "Dymadon P",
+          "Febridol",
+          "Febridol Clear",
+          "Febridol Infant Drops",
+          "Hedanol",
+          "Lemsip Cold and Flu",
+          "Lemsip Cold and Flu Liquid Capsule",
+          "Lemsip Max",
+          "Lemsip Max Cold and Flu",
+          "Osteomol",
+          "Panadol Back and Neck Long Lasting",
+          "Panadol Back and Neck Pain Relief",
+          "Panadol Caplet",
+          "Panadol Caplet Optizorb",
+          "Panadol Children 1 Month to 1 Year",
+          "Panadol Children's",
+          "Panadol Children's 1 to 5 Years",
+          "Panadol Children's 3+ Years",
+          "Panadol Children's 5 to 12 Years",
+          "Panadol Children's 6 Months to 5 Years",
+          "Panadol Children's 7+ Years",
+          "Panadol Children's Drops 1 Month to 2 Years",
+          "Panadol Children's Elixir 1 to 5 Years",
+          "Panadol Children's Elixir 5 to 12 Years",
+          "Panadol Cold and Flu Hot",
+          "Panadol Cold and Flu Max",
+          "Panadol Gel Cap",
+          "Panadol Gel Tab",
+          "Panadol Mini Cap",
+          "Panadol Optizorb",
+          "Panadol Rapid",
+          "Panadol Rapid Soluble",
+          "Panamax 120 Elixir",
+          "Panamax 240 Elixir",
+          "Parahexal",
+          "Paralgin",
+          "Paralgin Tabsule",
+          "Paramyl",
+          "Paramyl Osteo",
+          "Parapane",
+          "Parapane Osteo",
+          "Parmol",
+          "Tylenol",
+          "Tylenol PBS",
+          "Tylenol for Babies 1 Month to 2 Years",
+          "Tylenol for Children 2+ Years"
+        ]
+      },
+      "note": "Combination packs that contain paracetamol, such as Panadeine, Panadeine Forte, Maxigesic and Nuromol, also show paracetamol was supplied. Panadeine and Panadeine Forte are paracetamol with codeine. Generic packs that show the ingredient name with a company name count too. Lemsip Cold and Flu, Lemsip Cold and Flu Liquid Capsule, Lemsip Max, Lemsip Max Cold and Flu, Panadol Cold and Flu Hot and Panadol Cold and Flu Max are pack names. Check the recorded active ingredients. A combination or a supply for cold symptoms alone does not establish a simple paracetamol trial for osteoarthritis pain. If the formulation or trial is unclear, report a possible finding and ask what was tried."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Osteoarthritis",
+      "meets": "An osteoarthritis line is recorded"
+    },
+    {
+      "kind": "observation",
+      "what": "Previous trial of simple paracetamol for osteoarthritis pain",
+      "meets": "The patient had not tried paracetamol on its own for osteoarthritis pain by the first qualifying NSAID supply, including before this record or without a prescription.",
+      "options": [
+        {
+          "words": "Had not tried paracetamol alone for this pain by the first NSAID supply more than 90 days into the course",
+          "effect": "meets"
+        },
+        {
+          "words": "Had tried paracetamol alone for this pain by the first NSAID supply more than 90 days into the course",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for this NSAID course in possible osteoarthritis",
+      "meets": "This NSAID course treated osteoarthritis pain. Use the answer only for the course under review.",
+      "options": [
+        {
+          "words": "For osteoarthritis pain",
+          "effect": "meets"
+        },
+        {
+          "words": "Solely for another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Actual NSAID use during this course",
+      "meets": "The patient took the NSAID regularly during the qualifying course.",
+      "options": [
+        {
+          "words": "Taken regularly over this course",
+          "effect": "meets"
+        },
+        {
+          "words": "Used intermittently only",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "For a person aged 65 or older, assess the first systemic Group A NSAID supply more than 90 days after the course starts, with no gap over 60 days. Leave age eligibility unconfirmed if unknown. Flag regular use for osteoarthritis pain when the patient had not tried paracetamol alone by that date. Cite the NSAID course, the diagnosis and the trial history. Give no finding if simple Group B paracetamol was supplied by that date unless it was solely for another purpose. A documented earlier trial also clears the finding, including paracetamol bought elsewhere. A later trial does not clear an earlier finding. A combination alone does not establish a trial. If no exclusion applies and regular use, the diagnosis, the indication or a prior trial is uncertain, report a possible finding naming what is missing. Give no finding if osteoarthritis is excluded or the NSAID was used solely for another condition. For an otherwise qualifying course, ask what the NSAID treated only if its purpose is unclear. Ask about actual use only if the directions and record leave regular use uncertain. Apply each answer only to that course. Intermittent use alone gives no finding.",
+  "cannot_be_seen": "Why the NSAID was started, whether paracetamol was tried before the record began, and paracetamol bought without a prescription. Also how often the NSAID is really taken and medicines supplied by another pharmacy.",
+  "ask_the_gp": "Whether paracetamol has been tried for the osteoarthritis pain, and whether the NSAID can be stopped or reduced.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

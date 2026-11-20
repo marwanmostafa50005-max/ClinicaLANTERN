@@ -1,0 +1,63 @@
+[
+  {
+    "file": "BRISNIK-HR-E1/pos-brand.csv",
+    "kind": "positive",
+    "about": "Parnate (tranylcypromine) is supplied every 25 days and Imigran (sumatriptan, a triptan) is supplied five times over the same months, both by brand name only.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-E1",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L008",
+            "L011",
+            "L015",
+            "L018",
+            "L020",
+            "L023",
+            "L027",
+            "L030",
+            "L033",
+            "L037"
+          ],
+          [
+            "L004",
+            "L012",
+            "L019",
+            "L026",
+            "L034"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-E1/pos-buried.csv",
+    "kind": "positive",
+    "about": "Tranylcypromine is supplied throughout a 14-month history, and metoclopramide is supplied three times in the middle.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-E1",
+        "must_cite": [
+          [
+            "L027",
+            "L031",
+            "L036"
+          ],
+          [
+            "L026",
+            "L032",
+            "L037"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-E1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Parnate was last supplied in January 2026 and Imigran (sumatriptan) was first supplied in June 2026, about five months later, so the two were never supplied within 60 days of each other.",
+    "findings": []
+  }
+]

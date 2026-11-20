@@ -1,0 +1,76 @@
+{
+  "id": "STOPP-J5",
+  "label": "STOPP J5",
+  "family": "STOPP_START",
+  "title": "Systemic oestrogen with a history of breast cancer",
+  "statement": "Systemic oestrogens with a history of breast cancer (increased risk of recurrence).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Oestrogen taken by mouth, patch or gel can raise the chance of breast cancer coming back in a woman who has had it.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Systemic oestrogens",
+      "ingredients": [
+        "estradiol",
+        "conjugated oestrogens",
+        "conjugated estrogens"
+      ],
+      "brands": {
+        "estradiol": [
+          "Estrofem",
+          "Progynova",
+          "Zumenon",
+          "Estradot",
+          "Climara",
+          "Estrogel",
+          "Estrogel Pro",
+          "Sandrena",
+          "Femoston (with dydrogesterone)",
+          "Femoston Conti (with dydrogesterone)",
+          "Kliovance (with norethisterone)",
+          "Estalis (with norethisterone)",
+          "Kliogest (with norethisterone acetate)",
+          "Trisequens (with norethisterone acetate)",
+          "Angeliq (with drospirenone)",
+          "Estraderm MX",
+          "Bijuva",
+          "Estramon"
+        ],
+        "conjugated oestrogens": [
+          "Premarin",
+          "Premia (with medroxyprogesterone)",
+          "Duavive"
+        ],
+        "conjugated estrogens": [
+          "Premarin",
+          "Premia (with medroxyprogesterone)",
+          "Duavive"
+        ]
+      },
+      "note": "Vaginal tablets, creams, pessaries and rings do not count, for example Vagifem and Ovestin. Estradiol valerate (Progynova) counts as estradiol. Combination products with a progestogen are named. Tibolone is not in this group. Generic packs that show the ingredient name with a company name count too. Estrogel Pro contains systemic estradiol gel and progesterone capsules. Oral tablets and capsules, patches and skin gels count."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "History of breast cancer",
+      "meets": "A condition line that says the person has had breast cancer"
+    }
+  ],
+  "rule_for_models": "Apply this criterion from age 65 and ask for age before confirming a finding if age is unknown. When a Group A systemic oestrogen is supplied and a condition line records a history of breast cancer, suspect a finding and cite the supply and condition lines. With a Group A supply, report a possible finding if breast cancer history is missing and name the missing history, or report no finding if the record explicitly rules out that history.",
+  "cannot_be_seen": "Breast cancer history, type and dates may be missing. The supply may name the prescriber, but the reason for oestrogen therapy and any specialist advice may be missing.",
+  "ask_the_gp": "A review of whether the oestrogen is still suitable, taking into account any history of breast cancer.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

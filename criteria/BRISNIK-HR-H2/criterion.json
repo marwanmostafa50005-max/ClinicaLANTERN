@@ -1,0 +1,436 @@
+{
+  "id": "BRISNIK-HR-H2",
+  "label": "Brisnik: constipating antidepressant plus two constipating medicines",
+  "family": "BRISNIK",
+  "title": "Anticholinergic antidepressant with two other constipating medicines in an older person",
+  "statement": "Prescribed anticholinergic antidepressant opipramol, other TCAs (in doses ≥ 50 mg/day), or paroxetine - and the patient is aged ≥ 65 years and co-prescribed ≥ 2 further drugs known to have constipating effects (e.g., calcium antagonists, opioid, antihistamines, antipsychotics)",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Statement text reproduced without changes. Not endorsed by the source authors."
+  },
+  "plain_summary": "In a person aged 65 or over taking at least two other medicines that can cause constipation, review paroxetine or opipramol at any dose, or another tricyclic antidepressant at 50 mg/day or more.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Paroxetine and opipramol",
+      "ingredients": [
+        "paroxetine",
+        "opipramol"
+      ],
+      "brands": {
+        "paroxetine": [
+          "Aropax",
+          "Paxtine",
+          "Aropax CR",
+          "Extine",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ],
+        "opipramol": []
+      },
+      "note": "Any dose counts. No Australian brand is listed for opipramol, so use the ingredient name."
+    },
+    {
+      "key": "B",
+      "name": "Other tricyclic antidepressants (counted only at 50 mg a day or more)",
+      "ingredients": [
+        "amitriptyline",
+        "nortriptyline",
+        "imipramine",
+        "clomipramine",
+        "dosulepin",
+        "doxepin",
+        "trimipramine"
+      ],
+      "brands": {
+        "amitriptyline": [
+          "Endep",
+          "Amichlor",
+          "Amidep",
+          "Entrip"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "dosulepin": [
+          "Dothep",
+          "Prothiaden"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ]
+      },
+      "note": "Work out the daily dose from the strength and the directions. For example, 25 mg tablets taken as TWO tablets at night is 50 mg a day. A tricyclic below 50 mg a day does not count."
+    },
+    {
+      "key": "C",
+      "name": "Medicines known to cause constipation",
+      "ingredients": [
+        "amlodipine",
+        "felodipine",
+        "nifedipine",
+        "lercanidipine",
+        "verapamil",
+        "diltiazem",
+        "oxycodone",
+        "morphine",
+        "codeine",
+        "tramadol",
+        "tapentadol",
+        "fentanyl",
+        "buprenorphine",
+        "methadone",
+        "promethazine",
+        "cyproheptadine",
+        "dexchlorpheniramine",
+        "hydroxyzine",
+        "quetiapine",
+        "olanzapine",
+        "risperidone",
+        "clozapine",
+        "haloperidol",
+        "aripiprazole",
+        "oxybutynin",
+        "hydromorphone",
+        "solifenacin",
+        "doxylamine",
+        "ondansetron",
+        "ferrous sulfate",
+        "paliperidone"
+      ],
+      "brands": {
+        "amlodipine": [
+          "Norvasc",
+          "Amline",
+          "Amlo",
+          "Amlocor",
+          "Amlotrust",
+          "Amvas",
+          "Besidep",
+          "Nordip",
+          "Norvapine",
+          "Ozlodip",
+          "Perivasc",
+          "Coveram",
+          "Twynsta",
+          "Exforge",
+          "Sevikar",
+          "Caduet"
+        ],
+        "felodipine": [
+          "Plendil",
+          "Plendil ER",
+          "Felodur ER"
+        ],
+        "nifedipine": [
+          "Adalat",
+          "Adalat Oros",
+          "Addos XR",
+          "Adefin",
+          "Adefin XL",
+          "Nifehexal",
+          "Nyefax",
+          "Nypine"
+        ],
+        "lercanidipine": [
+          "Zanidip",
+          "Ledip",
+          "Lepine",
+          "Lercadip",
+          "Lercan",
+          "Zircol"
+        ],
+        "verapamil": [
+          "Isoptin",
+          "Anpec",
+          "Anpec SR",
+          "Cordilox SR",
+          "Isoptin SR",
+          "Veracaps SR"
+        ],
+        "diltiazem": [
+          "Cardizem",
+          "Cardizem CD",
+          "Coras",
+          "Danzem",
+          "Diltahexal",
+          "Diltahexal CD",
+          "Dilzem",
+          "Dilzem CD",
+          "Ditatem",
+          "Vasocardol",
+          "Vasocardol CD"
+        ],
+        "oxycodone": [
+          "Endone",
+          "OxyContin",
+          "Targin",
+          "Endone XR",
+          "Novacodone",
+          "Oxycodor",
+          "Oxylenus",
+          "Oxylieve MR",
+          "Oxyndone",
+          "Xedone",
+          "OxyNorm"
+        ],
+        "morphine": [
+          "MS Contin",
+          "Kapanol",
+          "Anamorph",
+          "MS Contin Suspension",
+          "MS Mono",
+          "MS Normal",
+          "Momex SR",
+          "Ordine",
+          "RA-Morph",
+          "Sevredol"
+        ],
+        "codeine": [
+          "Codeine Linctus",
+          "Panadeine Forte",
+          "Actacode Linctus",
+          "Codphos",
+          "Panadeine",
+          "Codalgin Forte",
+          "Nurofen Plus",
+          "Prodeine Forte",
+          "Mersyndol"
+        ],
+        "tramadol": [
+          "Tramal",
+          "Durotram XR",
+          "Iptramol",
+          "Lodam",
+          "Lodam SR",
+          "Tramahexal",
+          "Tramahexal SR",
+          "Tramal Drops",
+          "Tramal SR",
+          "Tramedo",
+          "Tramedo SR",
+          "Zydol",
+          "Zydol SR"
+        ],
+        "tapentadol": [
+          "Palexia",
+          "Palexia SR"
+        ],
+        "fentanyl": [
+          "Durogesic"
+        ],
+        "buprenorphine": [
+          "Norspan"
+        ],
+        "methadone": [
+          "Physeptone",
+          "Biodone Forte",
+          "Opod-D Syrup",
+          "Opod-P Liquid",
+          "Physeptone Liquid"
+        ],
+        "promethazine": [
+          "Phenergan",
+          "Allersoothe",
+          "Allersoothe Elixir",
+          "Avomine",
+          "Fenezal",
+          "Histaren",
+          "Phenergan Elixir",
+          "Progan Children's Allergy Relief Elixir"
+        ],
+        "cyproheptadine": [
+          "Periactin"
+        ],
+        "dexchlorpheniramine": [
+          "Polaramine",
+          "Polaramine Repetab",
+          "Polaramine Syrup",
+          "Polarelief"
+        ],
+        "hydroxyzine": [],
+        "quetiapine": [
+          "Seroquel",
+          "Aliquen",
+          "Delucon",
+          "Kaptan",
+          "Ketizenol",
+          "Qualez",
+          "Quepine XR",
+          "Quetapen",
+          "Quetia",
+          "Quetia XR",
+          "Quetiaccord",
+          "Quetiaquel XR",
+          "Quetin",
+          "Quipine",
+          "Sequase",
+          "Sequase XR",
+          "Serapine",
+          "Serapine XR",
+          "Seroccord",
+          "Seronia",
+          "Seroquel XR",
+          "Serotiapine XR",
+          "Syquet",
+          "Syquet XR",
+          "Syzopine",
+          "Tevatiapine XR",
+          "Tiapine XR",
+          "Tiava XR",
+          "Xque XR"
+        ],
+        "olanzapine": [
+          "Zyprexa",
+          "Aprolan",
+          "Aprolan ODT",
+          "Lanez",
+          "Lanez ODT",
+          "Lanzek",
+          "Lanzek Zydis",
+          "Lonza",
+          "Lonza ODT",
+          "Lyprosia",
+          "Lyprosia ODT",
+          "Olancor",
+          "Olanza",
+          "Olanzaccord",
+          "Olanzacor",
+          "Oprexa",
+          "Ozin",
+          "Ozin ODT",
+          "Prolanza",
+          "Prolanza ODT",
+          "Pryzex",
+          "Pryzex ODT",
+          "Tolaze ODT",
+          "Tolazine ODT",
+          "Torapine ODT",
+          "Torrenia ODT",
+          "Zylap",
+          "Zylap ODT",
+          "Zylapine",
+          "Zylapine ODT",
+          "Zypine",
+          "Zypine ODT",
+          "Zyprexa Zydis"
+        ],
+        "risperidone": [
+          "Risperdal",
+          "Ozidal",
+          "Resdone",
+          "Respaz",
+          "Risdone",
+          "Rispa",
+          "Rispaccord",
+          "Rispaccord-0.5",
+          "Risperdal Quicklet",
+          "Risperibell",
+          "Rispericor",
+          "Rispericor-0.5",
+          "Risperisan",
+          "Rispernia",
+          "Rixadone",
+          "Sperid"
+        ],
+        "clozapine": [
+          "Clozaril",
+          "Clopine",
+          "Closyn",
+          "Clozaril ODT",
+          "Clozitor",
+          "Versacloz"
+        ],
+        "haloperidol": [
+          "Serenace"
+        ],
+        "aripiprazole": [
+          "Abilify",
+          "Abilify ODT",
+          "Abipra",
+          "Abyraz",
+          "Aprazole",
+          "Aripic",
+          "Aripra",
+          "Arizole"
+        ],
+        "oxybutynin": [
+          "Ditropan",
+          "Oxytrol"
+        ],
+        "hydromorphone": [
+          "Dilaudid"
+        ],
+        "solifenacin": [
+          "Vesicare"
+        ],
+        "doxylamine": [
+          "Restavit",
+          "Dozile",
+          "Mersyndol"
+        ],
+        "ondansetron": [
+          "Zofran"
+        ],
+        "ferrous sulfate": [
+          "Ferro-Grad C"
+        ],
+        "paliperidone": [
+          "Invega",
+          "Invega Sustenna"
+        ]
+      },
+      "note": "Count the listed calcium channel blockers, opioids, sedating antihistamines and antipsychotics. Count each different qualifying Group C active ingredient once, including when two are in one product. The standard Mersyndol tablet supplies codeine and doxylamine. Check the exact formulation before counting both. Panadeine Forte supplies only one qualifying ingredient, codeine. Count systemic nifedipine and exclude topical nifedipine used locally. For hydroxyzine, match the ingredient name because this list has no brand entry. Match the listed systemic opioid forms, including the fentanyl and buprenorphine patches. Targin contains oxycodone with naloxone. Count oral or transdermal oxybutynin once. Count oral or injected hydromorphone when the course is concurrent. Oral solifenacin, doxylamine, ondansetron and prescribed oral ferrous sulfate also count. Count paliperidone once across oral and depot preparations."
+    }
+  ],
+  "rule_for_models": "At age 65 or over, suspect a finding when paroxetine or opipramol (Group A, any dose) or another tricyclic (Group B, at least 50 mg daily from strength and directions) is supplied with at least two different Group C ingredients on dates that overlap or fall within 60 days of each other, counting oral or transdermal oxybutynin once and counting only systemic forms of diltiazem and nifedipine. Exclude a combination when a documented stop or switch shows the three medicines were never used together. If age is unknown and the other evidence could meet this criterion, report at most a possible finding and name the missing fact Age and ask for age in years. Only if age and both partners could qualify and no Group A medicine qualifies with them, check whether the Group B directions settle the dose. If the maximum is below 50 mg a day, exclude that course. If the threshold is unclear, report a possible finding and name \"Prescribed daily dose of the tricyclic antidepressant\". Apply the answer only to that medicine and course. A dose of 50 mg a day or more qualifies, a lower dose excludes that course, and an unknown dose leaves it possible. Cite the antidepressant, both partners and any dose clarification used.",
+  "cannot_be_seen": "Whether the person is constipated, whether the medicines are really taken, and over-the-counter medicines such as antihistamines. Ask about bowel habit and non-prescription medicines, including sedating antihistamines. Clarify an uncertain prescribed tricyclic dose only if age and both partners could qualify and no Group A medicine qualifies with them.",
+  "ask_the_gp": "A review of whether all of these medicines are still needed, and the person's bowel habit.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Prescribed daily dose of the tricyclic antidepressant",
+      "meets": "For the tricyclic and treatment episode being reviewed, 50 mg a day or more meets the dose threshold. Below 50 mg a day rules out that course. If the answer is unknown or cannot be linked to that course, its dose remains uncertain.",
+      "options": [
+        {
+          "words": "50 mg a day or more",
+          "effect": "meets"
+        },
+        {
+          "words": "Below 50 mg a day",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

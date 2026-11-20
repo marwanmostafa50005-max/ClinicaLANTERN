@@ -1,0 +1,61 @@
+{
+  "id": "QLDCOAG-14-1",
+  "label": "QLDCOAG 14-1",
+  "family": "QLDCOAG",
+  "title": "Warfarin brand change or concurrent brands",
+  "statement": "The different brands of warfarin available in Australia (Marevan® and Coumadin®) are not interchangeable. However, there may be instances where brand substitution is required (e.g. stock shortages). Unless advised by a health professional, remain on the same brand once started on warfarin therapy. Swapping brands may affect INR control. Queensland Health facilities generally use the Marevan® brand.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Guideline for Warfarin Management in the Community",
+    "citation": "Queensland Health and Royal Flying Doctor Service Queensland Section. Guideline for Warfarin Management in the Community. Last minor update November 2026. Page 14, Appendix 1: Patient education, first counselling bullet.",
+    "url": "https://www.health.qld.gov.au/__data/assets/pdf_file/0025/443806/warfarin-guideline.pdf",
+    "licence": "Creative Commons Attribution 4.0 International",
+    "licence_status": "proposed",
+    "credit": "State of Queensland (Queensland Health)",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Coumadin and Marevan are not interchangeable because bioequivalence has not been established, so a change or overlapping supply needs review unless a health professional advised it.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Warfarin",
+      "ingredients": [
+        "warfarin"
+      ],
+      "brands": {
+        "warfarin": [
+          "Coumadin",
+          "Marevan"
+        ]
+      },
+      "note": "Oral warfarin counts. Coumadin and Marevan brand-only lines count as warfarin."
+    }
+  ],
+  "rule_for_models": "For an identified switch between Coumadin and Marevan during the same warfarin course, cite one supply of each brand from that course, regardless of the gap between those supplies. If the record does not identify a switch, check whether supplies of the two brands are at most 60 calendar days apart and cite both supplies if they are. Report a definite finding if the record confirms unintended use of both brands, even if a health professional advised the switch. Cite the evidence of combined use. If no health professional advised this change, report a definite finding and cite the confirming observation. If advice about this switch is missing or not known, report a possible finding and ask whether a health professional advised this particular change. An advised substitution alone gives no finding. If there is separate evidence suggesting unintended use of both brands but actual use is unclear, keep that concern possible. One consistent brand at different strengths gives no finding. An empty brand field cannot establish a switch. Review the INR monitoring plan and avoid abrupt cessation.",
+  "cannot_be_seen": "The record may not show whether a health professional advised a brand change, supplies from another pharmacy, or whether closer INR monitoring is arranged. An empty brand field does not prove a switch.",
+  "ask_the_gp": "Could you review the warfarin brand change or concurrent brands, confirm whether substitution was advised by a health professional, and review the INR monitoring plan?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Advice about change of warfarin brand",
+      "meets": "No health professional advised the identified change. Advice about a different switch does not answer this question.",
+      "options": [
+        {
+          "words": "No health professional advised this change",
+          "effect": "meets"
+        },
+        {
+          "words": "A health professional advised this change",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

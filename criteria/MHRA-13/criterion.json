@@ -1,0 +1,108 @@
+{
+  "id": "MHRA-13",
+  "label": "MHRA 13",
+  "family": "MHRA",
+  "title": "SGLT2 inhibitor during major surgery or acute serious illness",
+  "statement": "interrupt sodium-glucose co-transporter 2 (SGLT2) inhibitor treatment in patients who are hospitalised for major surgical procedures or acute serious medical illnesses",
+  "statement_origin": "published",
+  "source": {
+    "document": "MHRA Drug Safety Update: SGLT2 inhibitors: monitor ketones in blood during treatment interruption for surgical procedures or acute serious medical illness",
+    "citation": "Medicines and Healthcare products Regulatory Agency. Drug Safety Update volume 13, issue 8: March 2020: 4.",
+    "url": "https://www.gov.uk/drug-safety-update/sglt2-inhibitors-monitor-ketones-in-blood-during-treatment-interruption-for-surgical-procedures-or-acute-serious-medical-illness",
+    "licence": "UK Open Government Licence v3.0",
+    "licence_status": "proposed",
+    "credit": "Contains public sector information licensed under the Open Government Licence v3.0.",
+    "modification_notice": "Statement reproduced without changes."
+  },
+  "plain_summary": "An SGLT2 inhibitor needs interruption during hospitalisation for major surgery or acute serious medical illness. Australian Jardiance Product Information dated 19 February 2026 and Forxiga Product Information dated 7 May 2026 align with ceasing before major surgery and interrupting during acute serious illness or hospitalisation, restarting only after clinical stability and normal oral intake, without a fixed pre-operative day count in the Product Information. The MHRA also advises monitoring ketones during interruption, preferably in blood. Restart requires normal ketones as well as clinical stability.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "SGLT2 inhibitors and SGLT2 inhibitor combination products",
+      "ingredients": [
+        "dapagliflozin",
+        "empagliflozin",
+        "canagliflozin",
+        "ertugliflozin",
+        "dapagliflozin + metformin",
+        "empagliflozin + metformin",
+        "empagliflozin + linagliptin",
+        "dapagliflozin + saxagliptin",
+        "ertugliflozin + metformin",
+        "ertugliflozin + sitagliptin",
+        "dapagliflozin + sitagliptin"
+      ],
+      "brands": {
+        "dapagliflozin": [
+          "Forxiga"
+        ],
+        "empagliflozin": [
+          "Jardiance"
+        ],
+        "canagliflozin": [
+          "Invokana"
+        ],
+        "ertugliflozin": [
+          "Steglatro"
+        ],
+        "dapagliflozin + metformin": [
+          "Xigduo XR"
+        ],
+        "empagliflozin + metformin": [
+          "Jardiamet"
+        ],
+        "empagliflozin + linagliptin": [
+          "Glyxambi"
+        ],
+        "dapagliflozin + saxagliptin": [
+          "Qtern"
+        ],
+        "ertugliflozin + metformin": [
+          "Segluromet"
+        ],
+        "ertugliflozin + sitagliptin": [
+          "Steglujan"
+        ],
+        "dapagliflozin + sitagliptin": [
+          "Sidapvia"
+        ]
+      },
+      "note": "Oral SGLT2 inhibitors and SGLT2 inhibitor fixed-dose combination tablets count."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Hospitalisation for major surgery or acute serious medical illness",
+      "meets": "The admission was for major surgery or acute serious illness during this treatment course and the medicine continued while interruption was needed. An unknown admission or hold status leaves the finding possible.",
+      "options": [
+        {
+          "words": "Admitted during this course and the medicine continued when it should have been held",
+          "effect": "meets"
+        },
+        {
+          "words": "Admitted during this course and the medicine was held for the required period",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "No admission for either reason during this course",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Admitted during this course, unsure whether the medicine was held",
+          "effect": "unknown"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "For any age, a Group A SGLT2 inhibitor supply starts the check. The pharmacist decides borderline surgical or illness severity where the record is unclear. Compare the admission dates with the treatment period shown by supply dates, quantity, directions and any recorded interruption. Report a finding only when the evidence shows that treatment continued during a qualifying admission when it should have been held. Cite the supply and the lines showing the admission and continued treatment. Report no finding if the periods clearly do not overlap, the medicine was held for the required period or the only supply followed an appropriate restart. If the admission, its timing or severity, or the interruption is missing or uncertain, cite the supply and report a possible finding. Ask the pharmacist to confirm the missing information about that admission. Ask the patient or carer about current hospitalisation, planned major surgery or an acute serious illness and any plan to hold the medicine. Planned surgery alone does not establish a qualifying admission. If the recorded condition does not qualify, report no finding. The source gives no specific stop or restart time, so do not invent one.",
+  "cannot_be_seen": "Hospital care, planned surgery, ketone results, clinical stability, oral intake and actual interruption may be absent from a community dispensing record.",
+  "ask_the_gp": "Could you confirm with the treating team whether the SGLT2 inhibitor was held during the admission and blood ketones were monitored? Could you review the restart plan, including whether ketones have returned to normal, the patient is clinically stable and normal oral intake has resumed?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

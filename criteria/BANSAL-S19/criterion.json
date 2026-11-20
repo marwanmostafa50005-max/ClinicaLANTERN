@@ -1,0 +1,150 @@
+{
+  "id": "BANSAL-S19",
+  "label": "Bansal S19",
+  "family": "BANSAL",
+  "title": "Persistent opioid after a recent fall in a person over 65",
+  "statement": "Persistent prescription of opioid analgesics to a patient aged over 65 years with a recent medical history of falling [81, 82, 99]",
+  "statement_origin": "published",
+  "source": {
+    "document": "Bansal N, et al. Development of prescribing indicators related to opioid-related harm in patients with chronic pain in primary care. BMC Med 2024;22:5, Tables 3-4",
+    "citation": "Bansal N, Campbell SM, Lin C-Y, Ashcroft DM, Chen L-C. Development of prescribing indicators related to opioid-related harm in patients with chronic pain in primary care - a modified e-Delphi study. BMC Med 2024;22:5. doi:10.1186/s12916-023-03213-x",
+    "doi": "10.1186/s12916-023-03213-x",
+    "url": "https://doi.org/10.1186/s12916-023-03213-x",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Bansal N, Campbell SM, Lin C-Y, Ashcroft DM, Chen L-C. Development of prescribing indicators related to opioid-related harm in patients with chronic pain in primary care - a modified e-Delphi study. BMC Med 2024;22:5. doi:10.1186/s12916-023-03213-x",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.2 candidate repairs and adopted conventions merged with attribution). Not endorsed by the source authors."
+  },
+  "plain_summary": "An opioid taken for months can cause drowsiness and unsteadiness, which raises the chance of another fall in an older person who has already fallen.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Opioid analgesics",
+      "ingredients": [
+        "morphine",
+        "oxycodone",
+        "tramadol",
+        "tapentadol",
+        "buprenorphine",
+        "fentanyl",
+        "hydromorphone",
+        "codeine",
+        "methadone"
+      ],
+      "brands": {
+        "morphine": [
+          "MS Contin",
+          "Kapanol",
+          "Sevredol",
+          "Ordine",
+          "Anamorph",
+          "MS Mono",
+          "MS Contin Suspension",
+          "MS Normal",
+          "Momex SR",
+          "RA-Morph"
+        ],
+        "oxycodone": [
+          "OxyContin",
+          "Endone",
+          "OxyNorm",
+          "Targin (oxycodone with naloxone)",
+          "Endone XR",
+          "Novacodone",
+          "Oxycodor",
+          "Oxycone",
+          "Oxylenus",
+          "Oxylieve MR",
+          "Oxyndone",
+          "Xedone"
+        ],
+        "tramadol": [
+          "Tramal",
+          "Durotram",
+          "Tramal SR",
+          "Durotram XR",
+          "Iptramol",
+          "Lodam",
+          "Lodam SR",
+          "Tramahexal",
+          "Tramahexal SR",
+          "Tramal Drops",
+          "Tramedo",
+          "Tramedo SR",
+          "Zydol",
+          "Zydol SR"
+        ],
+        "tapentadol": [
+          "Palexia",
+          "Palexia SR",
+          "Lodat SR",
+          "Palexia IR",
+          "Tadol IR",
+          "Tadol SR",
+          "Tapal IR",
+          "Tapal SR",
+          "Tapex IR",
+          "Tapex SR",
+          "Tapexia",
+          "Tapexia SR"
+        ],
+        "buprenorphine": [
+          "Norspan",
+          "Temgesic",
+          "B-Patch",
+          "Bupredermal"
+        ],
+        "fentanyl": [
+          "Durogesic",
+          "Denpax",
+          "Fenpatch"
+        ],
+        "hydromorphone": [
+          "Jurnista",
+          "Dilaudid",
+          "Dilaudid-HP",
+          "Palladone XL"
+        ],
+        "codeine": [
+          "Panadeine Forte",
+          "Codalgin Forte",
+          "Nurofen Plus",
+          "Codphos",
+          "Prodeine Forte"
+        ],
+        "methadone": [
+          "Physeptone",
+          "Opod-D Syrup"
+        ]
+      },
+      "note": "Count opioid analgesics supplied for pain, including methadone, sublingual buprenorphine and analgesic codeine combinations. Buvidal Weekly, Buvidal Monthly, Sublocade, Subutex, Subutex FDT, Bupradex, Biodone Forte, Opod-P Liquid and Physeptone Liquid are opioid dependence products. Check the form if the line only says Physeptone. Exclude supplies for opioid dependence and codeine cough preparations such as Actacode Linctus. If a product has more than one indication, such as methadone (including Opod-D Syrup) or buprenorphine, and pain use is unclear, report at most a possible finding and ask whether it was supplied for pain."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Falls in the 12 months before the most recent opioid supply",
+      "meets": "A dated fall or the pharmacist's history confirms a fall in the 12 months before the most recent opioid supply. An older fall alone leaves this unknown. A history covering the full window can exclude a recent fall.",
+      "options": [
+        {
+          "words": "A fall occurred in that period",
+          "effect": "meets"
+        },
+        {
+          "words": "No falls occurred in that period",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "In a person aged over 65 years, report a finding and cite the qualifying opioid supply and fall lines when Group A opioid analgesics were supplied in a continuous course lasting at least three calendar months and a fall occurred in the 12 months before the most recent opioid supply. Assess continuity from supply dates, quantities and directions, including repeats on the same prescription. Exclude opioid dependence treatment and codeine cough preparations when assessing the course. Give no finding if the person is aged 65 or younger, if the course does not cover at least three calendar months, or if the pharmacist's answer or a dated review covering the whole 12-month window rules out falls in that window without dated fall evidence. An older fall alone leaves recent falls unknown. If the person could meet the criterion and a requirement is unresolved (such as falls in those 12 months, missing age, unclear directions on a course that could cover three months, or pain use of a product with more than one indication such as methadone or buprenorphine), report a possible finding citing the qualifying opioid supply lines and ask only about the unresolved requirement. When the fall history is missing, name \"Falls in the 12 months before the most recent opioid supply\". Do not downgrade a single-indication opioid analgesic because the dispensing label carries no indication.",
+  "cannot_be_seen": "Falls that were never recorded or were not reported to the doctor, how the patient is really taking the opioid, and whether the pain is cancer pain or end of life care.",
+  "ask_the_gp": "Could you confirm any falls in the 12 months before the latest opioid supply if the history is missing, and review the opioid and the person’s risk of falling?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

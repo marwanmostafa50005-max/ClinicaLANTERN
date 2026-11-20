@@ -1,0 +1,44 @@
+[
+  {
+    "file": "POPI-45/pos-brand.csv",
+    "kind": "positive",
+    "about": "The brand-only Doryx and Roaccutane supplies have overlapping courses.",
+    "findings": [
+      {
+        "criterion": "POPI-45",
+        "must_cite": [
+          [
+            "L015"
+          ],
+          [
+            "L016"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "POPI-45/pos-buried.csv",
+    "kind": "positive",
+    "about": "The minocycline course is still active when oral isotretinoin for congenital ichthyosis starts three days later.",
+    "findings": [
+      {
+        "criterion": "POPI-45",
+        "must_cite": [
+          [
+            "L032"
+          ],
+          [
+            "L034"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "POPI-45/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The seven-day doxycycline course ends more than three weeks before isotretinoin starts.",
+    "findings": []
+  }
+]

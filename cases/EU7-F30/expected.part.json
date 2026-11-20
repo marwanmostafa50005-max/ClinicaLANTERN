@@ -1,0 +1,34 @@
+[
+  {
+    "file": "EU7-F30/pos-brand.csv",
+    "kind": "positive",
+    "about": "Alphapress (hydralazine), by brand name only, is supplied six times from January to September 2026 to a 71-year-old woman.",
+    "findings": [
+      {
+        "criterion": "EU7-F30",
+        "must_cite": [
+          ["L003", "L007", "L012", "L018", "L022", "L028"]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F30/pos-buried.csv",
+    "kind": "positive",
+    "about": "Hydralazine (Alphapress) is supplied four times from December 2025 to May 2026 to a 73-year-old man, in the middle of a 14-month history.",
+    "findings": [
+      {
+        "criterion": "EU7-F30",
+        "must_cite": [
+          ["L022", "L031", "L041", "L047"]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F30/near-miss.csv",
+    "kind": "near_miss",
+    "about": "No hydralazine is supplied: the similar names are hydrochlorothiazide (in Avapro HCT) and hydroxychloroquine (Plaquenil), which are different medicines, so the criterion is not met.",
+    "findings": []
+  }
+]

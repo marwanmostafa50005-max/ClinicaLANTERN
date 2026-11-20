@@ -1,0 +1,363 @@
+{
+  "id": "STOPP-L1",
+  "label": "STOPP L1: strong opioid as first line for mild pain",
+  "family": "STOPP_START",
+  "title": "Strong opioid first for mild pain",
+  "statement": "Use of oral or transdermal strong opioids (morphine, oxycodone, fentanyl, buprenorphine, diamorphine, methadone, tramadol, pethidine, pentazocine) as first line therapy for mild pain (WHO analgesic ladder not observed; paracetamol or NSAID not prescribed as first-line therapy).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Review a strong opioid started as the first medicine for mild pain. Check which treatments were tried and whether paracetamol or an anti-inflammatory medicine was suitable for this person.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Strong opioids (as named in the criterion)",
+      "ingredients": [
+        "morphine",
+        "oxycodone",
+        "fentanyl",
+        "buprenorphine",
+        "diamorphine",
+        "methadone",
+        "tramadol",
+        "pethidine",
+        "pentazocine"
+      ],
+      "brands": {
+        "morphine": [
+          "MS Contin",
+          "MS Mono",
+          "Kapanol",
+          "Ordine",
+          "Sevredol",
+          "Anamorph",
+          "MS Contin Suspension",
+          "MS Normal",
+          "Momex SR",
+          "RA-Morph"
+        ],
+        "oxycodone": [
+          "OxyContin",
+          "Endone",
+          "OxyNorm",
+          "Targin",
+          "Endone XR",
+          "Novacodone",
+          "Oxycodor",
+          "Oxycone",
+          "Oxylenus",
+          "Oxylieve MR",
+          "Oxyndone",
+          "Xedone"
+        ],
+        "fentanyl": [
+          "Durogesic",
+          "Denpax",
+          "Fenpatch"
+        ],
+        "buprenorphine": [
+          "Norspan",
+          "Bupredermal"
+        ],
+        "diamorphine": [],
+        "methadone": [
+          "Physeptone",
+          "Biodone",
+          "Opod-D Syrup",
+          "Opod-P Liquid",
+          "Physeptone Liquid"
+        ],
+        "tramadol": [
+          "Tramal",
+          "Tramal SR",
+          "Zydol",
+          "Zydol SR",
+          "Durotram XR",
+          "Iptramol",
+          "Lodam",
+          "Lodam SR",
+          "Tramahexal",
+          "Tramahexal SR",
+          "Tramal Drops",
+          "Tramedo",
+          "Tramedo SR",
+          "Zaldiar"
+        ],
+        "pethidine": [],
+        "pentazocine": []
+      },
+      "note": "Count oral and transdermal pain products. Exclude injections and suppositories, including Proladone. Exclude a product identified as treatment for opioid dependence. Biodone Forte oral liquid is a dependence product. If the line says only Biodone and the use is unknown, ask why it was supplied and report at most a possible finding. Targin is oxycodone with naloxone. Diamorphine, pethidine and pentazocine are not normally supplied from a community pharmacy in Australia, so no brand is listed. Codeine, tapentadol and hydromorphone are not named in the criterion and are not in this group. Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "B",
+      "name": "First line pain medicines: paracetamol and NSAIDs",
+      "ingredients": [
+        "paracetamol",
+        "ibuprofen",
+        "naproxen",
+        "diclofenac",
+        "celecoxib",
+        "meloxicam",
+        "etoricoxib",
+        "piroxicam",
+        "indometacin",
+        "ketoprofen",
+        "mefenamic acid"
+      ],
+      "brands": {
+        "paracetamol": [
+          "Panadol",
+          "Panadol Osteo",
+          "Panamax",
+          "Dymadon",
+          "Benylin Sore Throat",
+          "Duatrol SR",
+          "Dymadon P",
+          "Febridol",
+          "Febridol Clear",
+          "Febridol Infant Drops",
+          "Hedanol",
+          "Lemsip Cold and Flu",
+          "Lemsip Cold and Flu Liquid Capsule",
+          "Lemsip Max",
+          "Lemsip Max Cold and Flu",
+          "Osteomol",
+          "Panadol Back and Neck Long Lasting",
+          "Panadol Back and Neck Pain Relief",
+          "Panadol Caplet",
+          "Panadol Caplet Optizorb",
+          "Panadol Children 1 Month to 1 Year",
+          "Panadol Children's",
+          "Panadol Children's 1 to 5 Years",
+          "Panadol Children's 3+ Years",
+          "Panadol Children's 5 to 12 Years",
+          "Panadol Children's 6 Months to 5 Years",
+          "Panadol Children's 7+ Years",
+          "Panadol Children's Drops 1 Month to 2 Years",
+          "Panadol Children's Elixir 1 to 5 Years",
+          "Panadol Children's Elixir 5 to 12 Years",
+          "Panadol Cold and Flu Hot",
+          "Panadol Cold and Flu Max",
+          "Panadol Gel Cap",
+          "Panadol Gel Tab",
+          "Panadol Mini Cap",
+          "Panadol Optizorb",
+          "Panadol Rapid",
+          "Panadol Rapid Soluble",
+          "Panamax 120 Elixir",
+          "Panamax 240 Elixir",
+          "Parahexal",
+          "Paralgin",
+          "Paralgin Tabsule",
+          "Paramyl",
+          "Paramyl Osteo",
+          "Parapane",
+          "Parapane Osteo",
+          "Parmol",
+          "Tylenol",
+          "Tylenol PBS",
+          "Tylenol for Babies 1 Month to 2 Years",
+          "Tylenol for Children 2+ Years"
+        ],
+        "ibuprofen": [
+          "Nurofen",
+          "Advil",
+          "Brufen",
+          "Rafen",
+          "Act-3",
+          "Advil 12 Hour",
+          "Advil Childrens Pain and Fever 2 to 7 Years",
+          "Advil Childrens Pain and Fever 7 to 12 Years",
+          "Advil Childrens Pain and Fever Relief 2 to 12 Years",
+          "Advil Double Strength",
+          "Advil Double Strength Caplets",
+          "Advil Double Strength Liquid Capsules",
+          "Advil Infants Pain and Fever Relief 3 Months to 2 Years",
+          "Advil Mini Caps",
+          "Advil Rapid Release",
+          "Brufen Pain",
+          "Brufen Syrup",
+          "Bugesic",
+          "Butafen",
+          "Butalgin",
+          "Fenpaed",
+          "Fenpaed Double Strength",
+          "Iprofen",
+          "Nurofen Back Pain",
+          "Nurofen Caplet",
+          "Nurofen Double Strength",
+          "Nurofen Liquid Capsule",
+          "Nurofen Meltlets",
+          "Nurofen Migraine Pain",
+          "Nurofen Period Pain",
+          "Nurofen Quickzorb",
+          "Nurofen Regular",
+          "Nurofen Tension Headache",
+          "Nurofen Zavance",
+          "Nurofen Zavance Liquid Capsules",
+          "Nurofen for Children 1 to 5 Years",
+          "Nurofen for Children 3 Months to 5 Years",
+          "Nurofen for Children 5 to 12 Years",
+          "Nurofen for Children 7+ Years",
+          "Nurofen for Children Baby 3+ Months",
+          "Nurofen for Children Infant Drops",
+          "Nurofen for Children Meltlet",
+          "Panafen IB",
+          "Panafen IB Mini Cap",
+          "Proven",
+          "Tri-Profen"
+        ],
+        "naproxen": [
+          "Naprosyn",
+          "Naprosyn SR",
+          "Aleve",
+          "Inza",
+          "Aleve 24 Hour",
+          "Anaprox",
+          "Crysanal",
+          "Femme-Free",
+          "Naprofem",
+          "Naprogesic",
+          "Naprosyn SR 1000",
+          "Nurolasts Period Pain",
+          "Proxen",
+          "Proxen SR"
+        ],
+        "diclofenac": [
+          "Voltaren",
+          "Voltaren Rapid",
+          "Fenac",
+          "Cambia",
+          "Clonac",
+          "Diclohexal",
+          "Difenac Rapid",
+          "Dinac",
+          "Fenac EC",
+          "Imflac",
+          "Inflamax Liquid Caps",
+          "Voltaren Rapid Extra Strength",
+          "Voltaren Rapid Liquid Capsules",
+          "Voltfast",
+          "Zorvolex"
+        ],
+        "celecoxib": [
+          "Celebrex",
+          "Celaxib",
+          "Anacoxib",
+          "Celebrex Relief",
+          "Celetoid",
+          "Celexi",
+          "Celocox",
+          "Kudeq"
+        ],
+        "meloxicam": [
+          "Mobic",
+          "Movalis",
+          "Agilocam",
+          "Melobic",
+          "Melox",
+          "Meloxiauro",
+          "Meloxibell",
+          "Meloxibindo",
+          "Mobelox",
+          "Moxicam"
+        ],
+        "etoricoxib": [
+          "Arcoxia"
+        ],
+        "piroxicam": [
+          "Feldene",
+          "Mobilis"
+        ],
+        "indometacin": [
+          "Indocid"
+        ],
+        "ketoprofen": [
+          "Orudis SR",
+          "Oruvail SR"
+        ],
+        "mefenamic acid": [
+          "Ponstan"
+        ]
+      },
+      "note": "Tablets, capsules and liquids count. Skin gels and creams do not count. Products that also hold codeine, such as Panadeine Forte, are not counted here. Paracetamol and some NSAIDs can also be bought without a prescription, which a dispensing history cannot show. Generic packs that show the ingredient name with a company name count too. For these NSAIDs, verify the oral form and that it was used before the opioid for the same pain episode. A brand alone does not establish the form or the episode."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Pain severity when the strong opioid was started for this episode",
+      "meets": "Pain was mild at the start of this opioid for this episode, for example a recorded score of 1 to 3 out of 10.",
+      "options": [
+        {
+          "words": "Mild pain",
+          "effect": "meets"
+        },
+        {
+          "words": "Moderate or severe pain",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "No pain at that time",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Initial severity not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "What was the opioid started for?",
+      "meets": "The supplied opioid was started for this pain episode. Assess pain severity separately.",
+      "options": [
+        {
+          "words": "To treat this episode of pain",
+          "effect": "meets"
+        },
+        {
+          "words": "For another reason only, such as dependence treatment or a different pain episode",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "What was tried first for this pain, including paracetamol or an anti-inflammatory bought without a prescription?",
+      "meets": "The opioid was the first pain medicine for this episode, including medicines from other sources when checking what was tried.",
+      "options": [
+        {
+          "words": "The opioid was the first pain medicine for this episode",
+          "effect": "meets"
+        },
+        {
+          "words": "Another pain medicine was tried first for this episode, including any bought without a prescription",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "For a person aged 65 or older, flag an oral or transdermal Group A opioid started as the first pain medicine for mild pain and cite the starting supply and the record linking it to that episode. Exclude Biodone Forte, other dependence products, treatment for another indication, moderate or severe pain at the start, and earlier oral paracetamol or an oral NSAID used for the same pain. If the supply otherwise fits but age, the reason for starting the opioid, initial pain severity or treatment order is unclear, report only a possible finding and ask for each missing detail.",
+  "cannot_be_seen": "Whether paracetamol or an NSAID was tried and bought without a prescription, the cause and real severity of the pain, whether the opioid was started in hospital, and cancer or end of life care.",
+  "ask_the_gp": "A review of the pain plan, including whether paracetamol or an anti-inflammatory medicine was tried first and whether the strong opioid is still needed.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,51 @@
+[
+  {
+    "file": "STOPP-D24/pos-fact.csv",
+    "kind": "positive",
+    "about": "L005 records dexchlorpheniramine as the first treatment for this urticaria, and the earlier cetirizine at L004 was for hay fever.",
+    "findings": [
+      {
+        "criterion": "STOPP-D24",
+        "must_cite": [
+          [
+            "L007",
+            "L013",
+            "L019",
+            "L024",
+            "L030",
+            "L036",
+            "L041",
+            "L046"
+          ],
+          [
+            "L005"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-D24/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: L010 records dexchlorpheniramine for hives, but the reason for the cetirizine at L009 is unknown.",
+    "findings": [
+      {
+        "criterion": "STOPP-D24",
+        "must_cite": [
+          [
+            "L010"
+          ],
+          [
+            "L009"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-D24/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Phenergan (promethazine hydrochloride, an older antihistamine) is supplied three times, but a condition line records motion sickness as the reason, so it is not for allergy or itch and must not flag.",
+    "findings": []
+  }
+]

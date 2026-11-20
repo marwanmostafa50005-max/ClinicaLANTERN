@@ -1,0 +1,101 @@
+{
+  "id": "START-D6",
+  "label": "START D6",
+  "family": "STOPP_START",
+  "title": "No dopamine agonist for restless legs syndrome",
+  "statement": "Dopamine agonist (ropinirole or pramipexole or rotigotine) for Restless Legs Syndrome, once iron deficiency and severe chronic kidney disease (i.e., eGFR < 30 ml/min/m²) have been excluded.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A person with restless legs syndrome, in whom iron deficiency has been excluded and eGFR is at least 30 mL/min/1.73 m², is not being supplied ropinirole, pramipexole or rotigotine. START prints ml/min/m² here. The kidney function requirement is indexed eGFR of at least 30 mL/min/1.73 m². Australian guidance differs: for persistent symptoms, gabapentin or pregabalin is preferred first because dopamine agonists can worsen symptoms over time (Australian Journal of General Practice, 2025).",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Medicines that meet this criterion: dopamine agonists",
+      "ingredients": [
+        "ropinirole",
+        "pramipexole",
+        "rotigotine"
+      ],
+      "brands": {
+        "ropinirole": [
+          "Requip",
+          "Repreve",
+          "Appese",
+          "Appese-0.25",
+          "Appese-0.5",
+          "Ropaccord",
+          "Ropicor",
+          "Ropicor-0.5"
+        ],
+        "pramipexole": [
+          "Sifrol",
+          "Pamex",
+          "Pexemis",
+          "Pexole XR",
+          "Sifrol ER",
+          "Simipex",
+          "Simipex XR",
+          "Simpral"
+        ],
+        "rotigotine": [
+          "Neupro"
+        ]
+      },
+      "note": "Rotigotine is the skin patch."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Restless legs syndrome",
+      "meets": "The record documents restless legs syndrome.",
+      "ask_when": "always",
+      "close_when": {
+        "group": "A"
+      }
+    },
+    {
+      "kind": "observation",
+      "what": "Iron deficiency assessment for these restless legs symptoms",
+      "meets": "Use ferritin and transferrin saturation interpreted together or a dated clinical assessment. The pharmacist can record that assessment's conclusion. Confirmed relevant iron deficiency rules out the omission. A lone normal ferritin, uninterpreted borderline results or no assessment leaves iron status unknown.",
+      "options": [
+        {
+          "words": "Ferritin and transferrin saturation interpreted together exclude relevant iron deficiency",
+          "effect": "meets"
+        },
+        {
+          "words": "A dated clinical assessment excludes relevant iron deficiency",
+          "effect": "meets"
+        },
+        {
+          "words": "Iron deficiency relevant to these symptoms is present",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Iron status not established",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "result",
+      "what": "eGFR",
+      "meets": "Enter the eGFR in mL/min/1.73 m2 and its measurement date if known. A value of 30 or higher meets the kidney function requirement."
+    }
+  ],
+  "rule_for_models": "Apply this check to a person aged 65 years or older with recorded restless legs syndrome. Make no finding when a Group A medicine (ropinirole, pramipexole or rotigotine) was supplied in the last six months, the record gives a valid clinical reason for omission such as effective alternative treatment, or care has an end-of-life palliative focus. Otherwise flag an omission for review when the iron assessment excludes iron deficiency relevant to the symptoms and eGFR is at least 30 mL/min/1.73 m². Cite the diagnosis, iron assessment and eGFR separately. Accept the recorded interpretation of ferritin and transferrin saturation together, a dated clinical assessment, or the pharmacist's answer reporting either conclusion. Keep accepting existing result lines. An inconclusive assessment does not exclude iron deficiency. A ferritin in the general reference range alone leaves iron status unconfirmed. If results are borderline and no clinical interpretation is recorded, ask the treating clinician whether iron deficiency has been excluded. With no recorded restless legs diagnosis, make no finding from supplies alone. With the diagnosis recorded, if only iron status or eGFR or both are unknown, report only a possible review. If the iron assessment is missing, name Iron deficiency assessment for these restless legs symptoms. If kidney function is missing, name eGFR. Name both when both are missing. Use the numeric eGFR and its unit to judge the threshold. Make no finding with relevant iron deficiency or eGFR below 30 mL/min/1.73 m². If age is unknown, confirm it before reporting a finding.",
+  "cannot_be_seen": "How troublesome the restless legs are, the iron and kidney results if they are not in the record, whether a dopamine agonist was tried and stopped, and whether another medicine or treating low iron is being used instead.",
+  "ask_the_gp": "Whether treatment of the restless legs should be reviewed, once iron stores and kidney function have been checked.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

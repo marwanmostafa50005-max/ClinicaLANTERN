@@ -1,0 +1,47 @@
+[
+  {
+    "file": "KHAWAGI-G149/pos-fact.csv",
+    "kind": "positive",
+    "about": "The latest laboratory plasma glucose falls one day outside the six-month window and no HbA1c is visible, so ask about a possible monitoring gap.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G149",
+        "must_cite": [
+          [
+            "L004"
+          ],
+          [
+            "L050"
+          ],
+          [
+            "L029"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G149/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about laboratory plasma glucose or HbA1c during six observable months of maintenance olanzapine.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G149",
+        "must_cite": [
+          [
+            "L003"
+          ],
+          [
+            "L035"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G149/near-miss.csv",
+    "kind": "near_miss",
+    "about": "A dated HbA1c on the six-month boundary satisfies the monitoring check.",
+    "findings": []
+  }
+]

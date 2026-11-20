@@ -1,0 +1,333 @@
+{
+  "id": "OPTIMISE-T2-03",
+  "label": "OPTIMISE T2-03: high-intensity statin after cardiovascular disease",
+  "family": "OPTIMISE",
+  "title": "Absent or lower-intensity statin for secondary cardiovascular prevention in an adult with severe mental illness",
+  "statement": "Commence high intensity statin therapy (eg. atorvastatin 80 mg daily) in adults with existing CV disease for secondary prevention. Lower doses can be chosen if there are potential drug interactions, high risk of adverse effects or patient preference",
+  "statement_origin": "published",
+  "source": {
+    "document": "Carolan A, et al. OPTIMISE. BMC Psychiatry 2022;22:585, Tables 2-3",
+    "citation": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "doi": "10.1186/s12888-022-04235-0",
+    "url": "https://doi.org/10.1186/s12888-022-04235-0",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.3 candidate repairs, adopted conventions and independent-audit corrections merged with attribution). Not endorsed by the source authors."
+  },
+  "plain_summary": "For adults with severe mental illness and established atherosclerotic cardiovascular disease, this criterion recognises atorvastatin 40 to 80 mg or rosuvastatin 20 to 40 mg daily as high intensity. An interaction, high risk of adverse effects or patient preference can justify a lower dose.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Statins (cholesterol-lowering medicines)",
+      "ingredients": [
+        "atorvastatin",
+        "rosuvastatin",
+        "simvastatin",
+        "pravastatin",
+        "fluvastatin",
+        "pitavastatin"
+      ],
+      "brands": {
+        "atorvastatin": [
+          "Lipitor",
+          "Atozet",
+          "Atomed",
+          "Atorvachol",
+          "Atorvator",
+          "Atostat",
+          "Bansep",
+          "Chorit",
+          "Lorstat",
+          "Storvas",
+          "Tormed",
+          "Torvastat",
+          "Trovas",
+          "Caduet"
+        ],
+        "rosuvastatin": [
+          "Crestor",
+          "Rosuzet",
+          "Affora",
+          "Alphastat",
+          "Cavstat",
+          "Cisero",
+          "Crestabs",
+          "Crestat",
+          "Crestatin",
+          "Crosuva",
+          "Crosvar",
+          "Rostor",
+          "Rosuvacor",
+          "Visacor",
+          "Ezalo"
+        ],
+        "simvastatin": [
+          "Zocor",
+          "Lipex",
+          "Vytorin",
+          "Invast",
+          "Myvast",
+          "Ransim",
+          "Simvabell",
+          "Simvacor",
+          "Simvahexal",
+          "Simvar",
+          "Simvasyn",
+          "Simvatrust",
+          "Zimstat",
+          "Zimybe"
+        ],
+        "pravastatin": [
+          "Pravachol",
+          "Cholpra",
+          "Cholstat",
+          "Cholvastin",
+          "Lipostat",
+          "Liprachol",
+          "Pralect",
+          "Pratin",
+          "Prava",
+          "Pravaccord",
+          "Pravastat",
+          "Pravista",
+          "Redichol",
+          "Vastoran"
+        ],
+        "fluvastatin": [
+          "Lescol",
+          "Lescol XL",
+          "Vastin"
+        ],
+        "pitavastatin": [
+          "Livalo"
+        ]
+      },
+      "note": "Atozet is atorvastatin with ezetimibe. Rosuzet is rosuvastatin with ezetimibe. Vytorin is simvastatin with ezetimibe. Caduet is amlodipine with atorvastatin. For Atozet, Rosuzet, Vytorin and Caduet, use only the statin strength to calculate the daily statin dose. Generic packs that show the ingredient name with a company name count too. Ezetimibe on its own is not a statin."
+    },
+    {
+      "key": "B",
+      "name": "Antipsychotics and lithium (a sign the person may have severe mental illness)",
+      "ingredients": [
+        "olanzapine",
+        "quetiapine",
+        "risperidone",
+        "aripiprazole",
+        "clozapine",
+        "paliperidone",
+        "amisulpride",
+        "haloperidol",
+        "lithium carbonate",
+        "lurasidone",
+        "brexpiprazole",
+        "cariprazine",
+        "ziprasidone",
+        "asenapine",
+        "zuclopenthixol",
+        "flupentixol",
+        "flupentixol decanoate",
+        "chlorpromazine",
+        "periciazine"
+      ],
+      "brands": {
+        "olanzapine": [
+          "Zyprexa",
+          "Zyprexa Zydis",
+          "Aprolan",
+          "Aprolan ODT",
+          "Lanez",
+          "Lanez ODT",
+          "Lanzek",
+          "Lanzek Zydis",
+          "Lonza",
+          "Lonza ODT",
+          "Lyprosia",
+          "Lyprosia ODT",
+          "Olancor",
+          "Olanza",
+          "Olanzaccord",
+          "Olanzacor",
+          "Oprexa",
+          "Ozin",
+          "Ozin ODT",
+          "Prolanza",
+          "Prolanza ODT",
+          "Pryzex",
+          "Pryzex ODT",
+          "Tolaze ODT",
+          "Tolazine ODT",
+          "Torapine ODT",
+          "Torrenia ODT",
+          "Zylap",
+          "Zylap ODT",
+          "Zylapine",
+          "Zylapine ODT",
+          "Zypine",
+          "Zypine ODT"
+        ],
+        "quetiapine": [
+          "Seroquel",
+          "Seroquel XR",
+          "Aliquen",
+          "Delucon",
+          "Kaptan",
+          "Ketizenol",
+          "Qualez",
+          "Quepine XR",
+          "Quetapen",
+          "Quetia",
+          "Quetia XR",
+          "Quetiaccord",
+          "Quetiaquel XR",
+          "Quetin",
+          "Quipine",
+          "Sequase",
+          "Sequase XR",
+          "Serapine",
+          "Serapine XR",
+          "Seroccord",
+          "Seronia",
+          "Serotiapine XR",
+          "Syquet",
+          "Syquet XR",
+          "Syzopine",
+          "Tevatiapine XR",
+          "Tiapine XR",
+          "Tiava XR",
+          "Xque XR"
+        ],
+        "risperidone": [
+          "Risperdal",
+          "Risperdal Consta",
+          "Ozidal",
+          "Resdone",
+          "Respaz",
+          "Risdone",
+          "Rispa",
+          "Rispaccord",
+          "Rispaccord-0.5",
+          "Risperdal Quicklet",
+          "Risperibell",
+          "Rispericor",
+          "Rispericor-0.5",
+          "Risperisan",
+          "Rispernia",
+          "Rixadone",
+          "Sperid",
+          "Uzedy"
+        ],
+        "aripiprazole": [
+          "Abilify",
+          "Abilify Maintena",
+          "Abilify Asimtufii",
+          "Abilify ODT",
+          "Abipra",
+          "Abyraz",
+          "Aprazole",
+          "Aripic",
+          "Aripra",
+          "Arizole"
+        ],
+        "clozapine": [
+          "Clozaril",
+          "Clopine",
+          "Closyn",
+          "Clozaril ODT",
+          "Clozitor",
+          "Versacloz"
+        ],
+        "paliperidone": [
+          "Invega",
+          "Invega Sustenna",
+          "Invega Hafyera",
+          "Invega Trinza",
+          "Palmeux",
+          "Trevicta"
+        ],
+        "amisulpride": [
+          "Solian",
+          "Amipride",
+          "Sulprix"
+        ],
+        "haloperidol": [
+          "Serenace"
+        ],
+        "lithium carbonate": [
+          "Lithicarb",
+          "Quilonorm",
+          "Lithicarb SR",
+          "Lithquil SR",
+          "Lithspen",
+          "Quilonum SR"
+        ],
+        "lurasidone": [
+          "Latuda"
+        ],
+        "brexpiprazole": [
+          "Rexulti"
+        ],
+        "cariprazine": [
+          "Reagila"
+        ],
+        "ziprasidone": [
+          "Zeldox"
+        ],
+        "asenapine": [
+          "Saphris"
+        ],
+        "zuclopenthixol": [
+          "Clopixol"
+        ],
+        "flupentixol": [],
+        "flupentixol decanoate": [
+          "Fluanxol Depot",
+          "Fluanxol Concentrated Depot"
+        ],
+        "chlorpromazine": [
+          "Largactil"
+        ],
+        "periciazine": [
+          "Neulactil"
+        ]
+      },
+      "note": "This group is not the medicine the finding is about. It only shows that the person may be in the group the OPTIMISE tool was written for. A medicine used for another reason, for example low-dose quetiapine for sleep, can mislead."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Established atherosclerotic cardiovascular disease",
+      "meets": "Documented coronary disease, peripheral arterial disease, or ischaemic stroke or transient ischaemic attack with a documented indication for lipid-lowering secondary prevention."
+    },
+    {
+      "kind": "condition",
+      "what": "Severe mental illness",
+      "meets": "A diagnosis of severe mental illness is documented."
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for the current lower statin dose",
+      "meets": "Ask only when the current statin dose is known to be lower and the other criteria for a finding are met. No qualifying reason supports a finding. A potential interaction, high risk of adverse effects or patient preference explains the lower dose. An unknown reason leaves this branch open.",
+      "options": [
+        {
+          "words": "No qualifying reason",
+          "effect": "meets"
+        },
+        {
+          "words": "Interaction, high risk of adverse effects or patient preference",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply from age 18 when severe mental illness is documented or a Group B supply suggests it. If severe mental illness or qualifying vascular disease is explicitly ruled out, report no finding. If age is unknown and the other evidence could meet this criterion, report at most a possible finding and ask the pharmacist to confirm whether the person is aged 18 or over. For a full finding, require both documented severe mental illness and an indication for lipid-lowering secondary prevention: documented coronary disease, peripheral arterial disease, or an ischaemic stroke or transient ischaemic attack with a documented indication for lipid lowering. Cite both diagnoses. Flag the absence of a Group A statin throughout the history. For the current statin regimen, use the latest applicable directions and calculate the daily dose from the statin strength, amount per dose and frequency. Give no finding and do not seek a lower-dose justification for atorvastatin 40 to 80 mg daily or rosuvastatin 20 to 40 mg daily, including the lower end of each range. Accept a lower dose for a documented potential interaction, high risk of adverse effects or patient preference. Flag a lower dose if the record establishes that none of these reasons applies. If the dose is unclear, report a possible finding and ask for the dose. Only when a lower dose would otherwise be a finding and its reason is unclear, report a possible finding and ask for Reason for the current lower statin dose. If the pharmacist confirms a qualifying reason, give no finding on this branch. If no qualifying reason applies, cite that observation and the current statin supply with both diagnoses. If the reason is not known, keep the finding possible. If there is evidence of scope but the mental illness diagnosis or vascular indication is unclear, report at most a possible finding for an unresolved statin omission or dose and identify the missing evidence. Cite the available diagnosis or Group B supply and any relevant statin supply.",
+  "cannot_be_seen": "Whether the person really has had a heart attack, stroke or similar event if it was not recorded. Why no statin was used, such as past side effects or a decision by the person. Statins supplied elsewhere. The daily dose when strength or directions are missing or unclear. Ask whether a clinician has diagnosed severe mental illness or vascular disease, such as a heart attack, angina, peripheral arterial disease, stroke or transient ischaemic attack. Check the type of stroke and the indication for lipid lowering in the record. Ask about statins supplied elsewhere and whether side effects, interactions or preference explain a lower dose.",
+  "ask_the_gp": "Could you review whether to start a statin for secondary prevention or, if a lower-intensity dose is being used, whether the dose suits the person's interactions, risk of adverse effects and preferences?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

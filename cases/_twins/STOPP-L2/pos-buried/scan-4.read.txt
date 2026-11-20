@@ -1,0 +1,9 @@
+2026-07-14 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 0 | Take TWO tablets three times a day | Dr K. Specimen
+2026-08-02 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 3 | Take TWO tablets once a day with the evening meal | Dr K. Specimen
+2026-08-02 | Avapro (irbesartan) 150 mg tablet | qty 30 | repeats 3 | Take ONE tablet daily | Dr K. Specimen
+2026-08-02 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 1 | Take ONE tablet daily | Dr K. Specimen
+2026-08-02 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 4 | Take ONE tablet in the morning before food | Dr K. Specimen
+2026-09-01 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 2 | Take TWO tablets once a day with the evening meal | Dr K. Specimen
+2026-09-01 | Avapro (irbesartan) 150 mg tablet | qty 30 | repeats 2 | Take ONE tablet daily | Dr K. Specimen
+2026-09-01 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 0 | Take ONE tablet daily | Dr K. Specimen
+2026-09-01 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 3 | Take ONE tablet in the morning before food | Dr K. Specimen

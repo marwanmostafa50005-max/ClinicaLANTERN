@@ -1,0 +1,52 @@
+[
+  {
+    "file": "BANSAL-S05/pos-fact.csv",
+    "kind": "positive",
+    "about": "Norspan (buprenorphine patch) is supplied every month for seven months. The record shows dementia.",
+    "findings": [
+      {
+        "criterion": "BANSAL-S05",
+        "must_cite": [
+          [
+            "L005",
+            "L011",
+            "L017",
+            "L023",
+            "L029",
+            "L035",
+            "L041"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BANSAL-S05/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: dementia status is missing and six as-needed tramadol prescriptions do not establish whether this was one continuing course.",
+    "findings": [
+      {
+        "criterion": "BANSAL-S05",
+        "must_cite": [
+          [
+            "L003",
+            "L008",
+            "L012",
+            "L016",
+            "L020",
+            "L024"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BANSAL-S05/near-miss.csv",
+    "kind": "near_miss",
+    "about": "OxyContin (oxycodone) is supplied every month, but the record says mild cognitive impairment with dementia excluded.",
+    "findings": []
+  }
+]

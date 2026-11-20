@@ -1,0 +1,72 @@
+[
+  {
+    "file": "BRISNIK-OP-MISC1/pos-fact.csv",
+    "kind": "positive",
+    "about": "Sertraline is supplied every four weeks while the record holds lines for chronic heart failure and for a first episode of moderate depression.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-MISC1",
+        "must_cite": [
+          [
+            "L003",
+            "L008",
+            "L013",
+            "L018",
+            "L023",
+            "L029",
+            "L034",
+            "L039",
+            "L044",
+            "L049",
+            "L054",
+            "L059",
+            "L064"
+          ],
+          [
+            "L001"
+          ],
+          [
+            "L002"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-MISC1/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the reason for bupropion is unclear. Repeats of the same sacubitril with valsartan product overlap it, but use of an earlier as-needed furosemide pack during that course is uncertain. Neither heart failure nor a qualifying depressive episode is documented.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-MISC1",
+        "must_cite": [
+          [
+            "L003",
+            "L007",
+            "L011",
+            "L015",
+            "L019",
+            "L023"
+          ],
+          [
+            "L004",
+            "L008",
+            "L012",
+            "L016",
+            "L020",
+            "L024"
+          ],
+          [
+            "L002"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-MISC1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The record holds chronic heart failure, but the depression line says recurrent and severe, so it is not a first mild or moderate episode.",
+    "findings": []
+  }
+]

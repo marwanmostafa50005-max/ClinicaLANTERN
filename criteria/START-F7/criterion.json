@@ -1,0 +1,231 @@
+{
+  "id": "START-F7",
+  "label": "START F7",
+  "family": "STOPP_START",
+  "title": "Helicobacter pylori treatment for an active ulcer",
+  "statement": "Helicobacter pylori eradication therapy in HP -associated active peptic ulcer disease.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A stomach or bowel ulcer caused by the Helicobacter pylori germ should be treated with a short course of acid medicine and antibiotics to clear the germ and stop the ulcer coming back.",
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Active peptic ulcer disease",
+      "meets": "A current stomach or duodenal ulcer is confirmed for the episode being reviewed. An explicit negative for this episode rules it out even with sucralfate supply. Unknown status may prompt clarification when a qualifying clue exists. An undated answer cannot link multiple episodes.",
+      "options": [
+        {
+          "words": "An active stomach or duodenal ulcer is confirmed for this episode",
+          "effect": "meets"
+        },
+        {
+          "words": "An active ulcer is ruled out for this episode",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Evidence of current Helicobacter pylori infection with this active ulcer",
+      "meets": "Use the test method, reported result and collection date when documented. Select the answer for this ulcer episode. A linked diagnosis or a positive breath test, stool antigen test or biopsy supports current infection. A reliable negative for this episode clears the check if there is no other evidence of current infection. Serology alone, unclear timing or an unreliable negative leaves infection unresolved.",
+      "options": [
+        {
+          "words": "A positive urea breath test, stool antigen test or biopsy shows current infection with this ulcer",
+          "effect": "meets"
+        },
+        {
+          "words": "A clinical diagnosis links this ulcer to current infection",
+          "effect": "meets"
+        },
+        {
+          "words": "A reliable test for this episode was negative and there is no other evidence of current infection",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "The negative test may be unreliable, including during proton pump inhibitor use",
+          "effect": "unknown"
+        },
+        {
+          "words": "Only serology or an unspecified test is available",
+          "effect": "unknown"
+        },
+        {
+          "words": "Infection status or the link to this ulcer is unknown",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Helicobacter pylori eradication therapy (medicines that meet this criterion)",
+      "ingredients": [
+        "esomeprazole with amoxicillin and clarithromycin"
+      ],
+      "brands": {
+        "esomeprazole with amoxicillin and clarithromycin": [
+          "Nexium Hp7"
+        ]
+      },
+      "note": "The pack is a one-week course. The same treatment may be supplied as separate medicines: a proton pump inhibitor (Group B) with amoxicillin and clarithromycin, or with amoxicillin or clarithromycin and metronidazole, all supplied within 14 days of each other. That also counts."
+    },
+    {
+      "key": "B",
+      "name": "Parts of eradication therapy when supplied separately",
+      "ingredients": [
+        "amoxicillin",
+        "clarithromycin",
+        "metronidazole",
+        "esomeprazole",
+        "lansoprazole",
+        "omeprazole",
+        "pantoprazole",
+        "rabeprazole"
+      ],
+      "brands": {
+        "amoxicillin": [
+          "Amoxil",
+          "Moxacin",
+          "Alphamox",
+          "Amiloxyn",
+          "Amohexal",
+          "Amoxapin",
+          "Amoxil Duo",
+          "Amoxil Forte",
+          "Amoxil Paediatric Drops",
+          "Axycillin",
+          "Bgramin",
+          "Cilamox",
+          "Fisamox",
+          "Ibiamox",
+          "Maxamox",
+          "Ranmoxy",
+          "Xycilan",
+          "Yomax"
+        ],
+        "clarithromycin": [
+          "Klacid",
+          "Clarac",
+          "Clarant",
+          "Clarihexal",
+          "Clarithro",
+          "Clarithrom",
+          "Kalixocin"
+        ],
+        "metronidazole": [
+          "Flagyl",
+          "Flagyl S",
+          "Metrogyl",
+          "Metronidamed",
+          "Metronide"
+        ],
+        "esomeprazole": [
+          "Nexium",
+          "Axagon",
+          "Beezole",
+          "Emeprazol",
+          "Esopran",
+          "Esopreze",
+          "Guardium Acid Reflux Relief",
+          "Jubeso",
+          "Jubium",
+          "Mepreze",
+          "Nexazole",
+          "Nexcid",
+          "Nexium 24HR Once Daily Dosing",
+          "Nexole",
+          "Nexprazole",
+          "Noxicid",
+          "Noxicid Caps Heartburn Relief",
+          "Noxicid Tabs Heartburn Relief",
+          "Zanzole 24HR"
+        ],
+        "lansoprazole": [
+          "Zoton",
+          "Lanzopran",
+          "Zopral",
+          "Zopral ODT",
+          "Zoton Fastab"
+        ],
+        "omeprazole": [
+          "Losec",
+          "Acimax",
+          "Maxor",
+          "Maxor EC",
+          "Maxor Heartburn Relief",
+          "Meprazol",
+          "Omepral",
+          "Omepro",
+          "Omezole",
+          "Ozmep",
+          "Pemzo",
+          "Probitor"
+        ],
+        "pantoprazole": [
+          "Somac",
+          "Gastenz",
+          "Ozpan",
+          "Pantaccord",
+          "Panthron",
+          "Panto",
+          "Pantofast",
+          "Pantoloc",
+          "Prazole",
+          "Rizil",
+          "Salpraz",
+          "Salpraz Heartburn Relief",
+          "Somac Heartburn Relief",
+          "Sozol",
+          "Suvacid Heartburn Relief",
+          "Topra",
+          "Torprazole",
+          "Torzole"
+        ],
+        "rabeprazole": [
+          "Pariet",
+          "Parbezol",
+          "Parzol",
+          "Perizel DR",
+          "Prabez",
+          "Rabzole",
+          "Razit",
+          "Zabep"
+        ]
+      },
+      "note": "A proton pump inhibitor alone is not eradication therapy. One antibiotic alone is not either. Count another regimen explicitly documented as specialist-directed H. pylori eradication for this episode. If the indication for separate medicines is unclear, ask which regimen was used. For routine matching of separate supplies, count only oral tablets, capsules or liquids. Exclude skin and vaginal products, suppositories and injections from that match. The separate provision for a documented specialist eradication regimen still applies."
+    },
+    {
+      "key": "C",
+      "name": "Medicines that imply the condition",
+      "ingredients": [
+        "sucralfate"
+      ],
+      "brands": {
+        "sucralfate": [
+          "Ulcyte",
+          "Carafate"
+        ]
+      },
+      "note": "Sucralfate is used for ulcers. It suggests an ulcer but does not show that Helicobacter pylori is the cause."
+    }
+  ],
+  "rule_for_models": "Apply this criterion only to people aged 65 years or older. If age is unknown, confirm it before reporting a finding. Make no finding if the record documents an end-of-life palliative focus or a valid clinical reason to omit eradication therapy for this episode, including a contraindication. For an active ulcer linked to current H. pylori infection, flag a possible omission when the record shows no eradication treatment for that episode. A positive urea breath test, stool antigen test or biopsy showing current H. pylori infection with the active ulcer qualifies. An explicit clinical diagnosis linking the active ulcer to current infection also qualifies. Record that diagnosis with the clinical diagnosis choice under Evidence of current Helicobacter pylori infection with this active ulcer. Absence of a clinical diagnosis does not exclude infection or override a qualifying test. If the only evidence is serology, an unspecified test or a test of uncertain reliability, an otherwise eligible finding stays possible. Name the missing fact \"Evidence of current Helicobacter pylori infection with this active ulcer\". If an active ulcer is recorded without a test for current infection or a clinical diagnosis linking the ulcer to current H. pylori, and no treatment for that episode is recorded, report only a possible finding and ask for Evidence of current Helicobacter pylori infection with this active ulcer. If an active ulcer is ruled out for this episode, make no finding even if Group C was supplied. If neither an active ulcer nor a Group C supply is recorded, report no finding. If the dates do not establish which ulcer episode the evidence belongs to, ask which episode was assessed. Do not attach an undated answer to a different ulcer episode. Cite the ulcer and the evidence of current infection. Return no omission finding for an episode treated with a Group A pack, a Group B regimen or a documented alternative eradication regimen linked to that episode. Compare the dates of the ulcer, test and course with any recorded treatment note. Count documented eradication elsewhere for this episode. Treatment for an earlier ulcer does not close the current review. If the link is unclear, report only a possible finding and identify the ulcer and course that need dated evidence. Do not use the 14-day interval for the components of a regimen as a limit between diagnosis and treatment. If a valid post-treatment test shows persistent or recurrent infection with an active ulcer, ask for review of the result and previous treatment. If only Group C suggests an ulcer and no treatment for the suspected episode is recorded, report a possible finding, cite the Group C supply and name whichever facts are missing: \"Active peptic ulcer disease\" and \"Evidence of current Helicobacter pylori infection with this active ulcer\". A valid negative test for current infection closes this check if no other evidence supports active infection. If an active ulcer has no recorded eradication treatment and a urea breath test or stool antigen test was negative while the patient was using a proton pump inhibitor without a recorded pause before testing, infection status is uncertain. In the absence of other evidence of infection, report only a possible finding and name \"Evidence of current Helicobacter pylori infection with this active ulcer\". Cite the ulcer, the negative result and the evidence of use at testing. Ask whether the proton pump inhibitor was withheld before the test or whether a reliable result is available.",
+  "cannot_be_seen": "Whether the germ was treated by a hospital or another pharmacy, and whether an allergy to penicillin or another reason ruled out the usual antibiotics. If the record does not say, it is unclear whether a proton pump inhibitor was withheld before testing or a test after treatment showed the germ was cleared.",
+  "ask_the_gp": "Whether Helicobacter pylori eradication therapy has been given or should be started, and whether a test after treatment is planned.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,51 @@
+[
+  {
+    "file": "STOPP-F1/pos-fact.csv",
+    "kind": "positive",
+    "about": "Maxolon (metoclopramide) is supplied about every eight weeks from October 2025 by brand name only, and the record holds Parkinson's disease as a condition.",
+    "findings": [
+      {
+        "criterion": "STOPP-F1",
+        "must_cite": [
+          [
+            "L005",
+            "L011",
+            "L017",
+            "L023",
+            "L029",
+            "L035"
+          ],
+          [
+            "L003"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-F1/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about Parkinson's disease or Parkinsonism, and Stemetil (prochlorperazine) is supplied about every eight weeks from October 2025.",
+    "findings": [
+      {
+        "criterion": "STOPP-F1",
+        "must_cite": [
+          [
+            "L003",
+            "L008",
+            "L013",
+            "L018",
+            "L023",
+            "L028"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-F1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Maxolon is supplied but the record states that Parkinson's disease was excluded and the tremor is essential tremor, so there is no finding.",
+    "findings": []
+  }
+]

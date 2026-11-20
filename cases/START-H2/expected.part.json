@@ -1,0 +1,50 @@
+[
+  {
+    "file": "START-H2/pos-brand.csv",
+    "kind": "positive",
+    "about": "Predsolone (prednisolone 10 mg a day) is supplied every month for ten months, by brand name only, and no bisphosphonate, vitamin D or calcium is ever supplied.",
+    "findings": [
+      {
+        "criterion": "START-H2",
+        "must_cite": [
+          [
+            "L001",
+            "L004",
+            "L008",
+            "L010",
+            "L014",
+            "L017",
+            "L020",
+            "L023",
+            "L027",
+            "L030"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-H2/pos-buried.csv",
+    "kind": "positive",
+    "about": "Two 60-tablet prednisolone supplies cover 120 consecutive days. Fosamax Plus supplies a bisphosphonate and vitamin D. The only calcium is an antacid used when needed for heartburn.",
+    "findings": [
+      {
+        "criterion": "START-H2",
+        "must_cite": [
+          [
+            "L031"
+          ],
+          [
+            "L046"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-H2/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Prednisolone is supplied only once, as a five-day course in May 2026, so the steroid is not long-term and no bone protection is expected.",
+    "findings": []
+  }
+]

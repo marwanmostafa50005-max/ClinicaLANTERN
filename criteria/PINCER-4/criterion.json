@@ -1,0 +1,190 @@
+{
+  "id": "PINCER-4",
+  "label": "PINCER 4",
+  "family": "PINCER",
+  "title": "Combined pill after a blood clot",
+  "statement": "Proportions of women with a past medical history of venous or arterial thrombosis who have been prescribed the combined oral contraceptive pill - More specifically, women with a history of venous or arterial thrombosis recorded at least six months prior to data collection who have a computer-recorded prescription for the combined oral contraceptive pill in the six months prior to data collection.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Avery AJ, et al. Protocol for the PINCER trial. Trials 2009;10:28; correction Trials 2010;11:23",
+    "citation": "Avery AJ, Rodgers S, Cantrill JA, et al. Protocol for the PINCER trial. Trials 2009;10:28. doi:10.1186/1745-6215-10-28; correction Trials 2010;11:23",
+    "doi": "10.1186/1745-6215-10-28",
+    "url": "https://doi.org/10.1186/1745-6215-10-28",
+    "licence": "CC BY 2.0",
+    "licence_status": "proposed",
+    "credit": "Avery AJ, Rodgers S, Cantrill JA, et al. Protocol for the PINCER trial. Trials 2009;10:28. doi:10.1186/1745-6215-10-28; correction Trials 2010;11:23",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A woman who has had a blood clot in a vein or artery should not take a combined oral contraceptive, because it raises the clot risk.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Combined oral contraceptive pills",
+      "ingredients": [
+        "ethinylestradiol with levonorgestrel",
+        "ethinylestradiol with norethisterone",
+        "ethinylestradiol with desogestrel",
+        "ethinylestradiol with drospirenone",
+        "ethinylestradiol with cyproterone",
+        "estradiol valerate with dienogest",
+        "estradiol with nomegestrol",
+        "ethinylestradiol with dienogest",
+        "estetrol with drospirenone",
+        "dienogest + estradiol",
+        "estradiol + nomegestrol",
+        "cyproterone + ethinylestradiol",
+        "desogestrel + ethinylestradiol",
+        "drospirenone + ethinylestradiol",
+        "ethinylestradiol + levonorgestrel",
+        "ethinylestradiol + norethisterone",
+        "ethinylestradiol with gestodene"
+      ],
+      "brands": {
+        "ethinylestradiol with levonorgestrel": [
+          "Microgynon 20 ED",
+          "Microgynon 30 ED",
+          "Levlen ED",
+          "Monofeme",
+          "Trifeme",
+          "Evelyn 150/30 ED",
+          "Eleanor 150/30 ED",
+          "Femme-Tab ED",
+          "Femme-Tab ED 20/100",
+          "Femme-Tab ED 30/150",
+          "Loette",
+          "Nordette",
+          "Triquilar ED"
+        ],
+        "ethinylestradiol with norethisterone": [
+          "Brevinor",
+          "Norimin",
+          "Brevinor-1",
+          "Norimin-1",
+          "Synphasic"
+        ],
+        "ethinylestradiol with desogestrel": [
+          "Marvelon"
+        ],
+        "ethinylestradiol with drospirenone": [
+          "Yaz",
+          "Yasmin",
+          "Isabelle"
+        ],
+        "ethinylestradiol with cyproterone": [
+          "Diane-35 ED",
+          "Brenda-35 ED",
+          "Estelle-35 ED",
+          "Juliet-35 ED"
+        ],
+        "estradiol valerate with dienogest": [
+          "Qlaira"
+        ],
+        "estradiol with nomegestrol": [
+          "Zoely"
+        ],
+        "ethinylestradiol with dienogest": [
+          "Valette"
+        ],
+        "estetrol with drospirenone": [
+          "Nextstellis"
+        ],
+        "dienogest + estradiol": [
+          "Qlaira"
+        ],
+        "estradiol + nomegestrol": [
+          "Zoely"
+        ],
+        "cyproterone + ethinylestradiol": [
+          "Diane-35 ED",
+          "Brenda-35 ED",
+          "Estelle-35 ED",
+          "Juliet-35 ED"
+        ],
+        "desogestrel + ethinylestradiol": [
+          "Marvelon"
+        ],
+        "drospirenone + ethinylestradiol": [
+          "Yaz",
+          "Yasmin",
+          "Isabelle"
+        ],
+        "ethinylestradiol + levonorgestrel": [
+          "Microgynon 20 ED",
+          "Microgynon 30 ED",
+          "Levlen ED",
+          "Monofeme",
+          "Trifeme",
+          "Evelyn 150/30 ED",
+          "Eleanor 150/30 ED",
+          "Femme-Tab ED",
+          "Femme-Tab ED 20/100",
+          "Femme-Tab ED 30/150",
+          "Loette",
+          "Nordette",
+          "Triquilar ED"
+        ],
+        "ethinylestradiol + norethisterone": [
+          "Brevinor",
+          "Norimin",
+          "Brevinor-1",
+          "Norimin-1",
+          "Synphasic"
+        ],
+        "ethinylestradiol with gestodene": [
+          "Minulet"
+        ]
+      },
+      "note": "Only combined oral contraceptive pills count. Exclude progestogen-only pills, vaginal rings and menopausal hormone therapy, including tablets that contain both an oestrogen and a progestogen."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "First recorded history of venous or arterial thrombosis",
+      "meets": "Count a history of a clot in a vein or artery recorded on or before the date six months before the end of the dispensing history. Examples include deep vein thrombosis, pulmonary embolism and a stroke or heart attack caused by a clot. Choose Not known if the timing of the first record cannot be verified.",
+      "options": [
+        {
+          "words": "A clot history was already recorded at least six months before the end of the dispensing history",
+          "effect": "meets"
+        },
+        {
+          "words": "The first record of a clot history was after the six-month cutoff and before or on the last history date",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Records confirm no clot history was recorded by the end of the dispensing history",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Patient sex",
+      "meets": "This criterion applies to women. Ask only when patient sex is missing and could change the finding.",
+      "options": [
+        {
+          "words": "Female",
+          "effect": "meets"
+        },
+        {
+          "words": "Male",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Suspect a finding when a woman has a Group A medicine (a combined oral contraceptive pill) supplied at least once in the six months before the latest date in the record AND the record holds a venous or arterial thrombosis line dated at least six months before that date; cite the thrombosis line and the supply lines. For a woman with a qualifying pill supply, accept a counter answer confirming that the clot history was already recorded by the six-month cutoff and cite it with the supply. A current statement about having a clot does not establish or exclude a past clot. Report no finding if records confirm that no clot history had been recorded by the end of the dispensing history. For an eligible woman with qualifying supplies and unresolved clot history or timing, report only a possible finding. If the patient is known to be male, report no finding and ask no question. If a qualifying pill supply is present and the recorded clot history has not ruled out a finding, first use any recorded patient sex. If sex is missing, report only a possible finding and name \"Patient sex\" as the missing fact. A Female answer allows the clot-history check to proceed. A Male answer rules out a finding. A Not known answer leaves eligibility unresolved. Do not request sex if the supply or clot history already rules out the finding. Once the criterion for women applies, name \"First recorded history of venous or arterial thrombosis\" as the missing fact only if the qualifying supply is present and the clot history or its timing is unresolved. If there is no combined pill supply in the last six months, there is no finding. Report no finding if the record rules out a history of thrombosis or if the only confirmed thrombosis was first recorded less than six months before the latest date. A later entry does not cancel an earlier qualifying history.",
+  "cannot_be_seen": "Clots recorded elsewhere, the reason the pill was chosen, any other cause of the clot, and whether the doctor has already weighed the risk.",
+  "ask_the_gp": "Could you confirm whether there is a history of venous or arterial thrombosis? If so, could you review the suitability of the combined pill and discuss other options with the patient?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

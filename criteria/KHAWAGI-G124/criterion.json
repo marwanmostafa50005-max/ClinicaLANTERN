@@ -1,0 +1,293 @@
+{
+  "id": "KHAWAGI-G124",
+  "label": "Khawagi review: Review a cholinesterase inhibitor with a listed systemic anticholinergic at age 65 or older",
+  "family": "KHAWAGI",
+  "title": "Review a cholinesterase inhibitor with a listed systemic anticholinergic at age 65 or older",
+  "statement": "Review a cholinesterase inhibitor with a listed systemic anticholinergic at age 65 or older.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Khawagi et al. (2019), S3 File. List of potential Prescribing Safety Indicators (PSIs) related to mental health medications and conditions.",
+    "citation": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. PLoS ONE 2019;14(5):e0217406.",
+    "doi": "10.1371/journal.pone.0217406",
+    "url": "https://doi.org/10.1371/journal.pone.0217406.s003",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. PLoS ONE 2019;14(5):e0217406. https://doi.org/10.1371/journal.pone.0217406; S3 File, https://doi.org/10.1371/journal.pone.0217406.s003. © 2019 Khawagi et al., CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Khawagi et al. (2019), PLOS ONE 14(5), e0217406, S3 File, CC BY 4.0. Original screening wording and Australian adaptations. S3 reference(s) as indexed in the supplied qualification: [77]. Clinical cross-check: Khawagi review (https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0217406).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "Review a cholinesterase inhibitor with a listed systemic anticholinergic at age 65 or older.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Cholinesterase inhibitors for dementia",
+      "ingredients": [
+        "donepezil",
+        "galantamine",
+        "rivastigmine"
+      ],
+      "brands": {
+        "donepezil": [
+          "Aricept",
+          "Alzil",
+          "Arazil",
+          "Aricept-D",
+          "Aridon",
+          "Aridon APN",
+          "Aridon ODT",
+          "Ariez",
+          "Doceptil",
+          "Donaccord",
+          "Donpesyn"
+        ],
+        "galantamine": [
+          "Reminyl",
+          "Galantyl",
+          "Gamine XR"
+        ],
+        "rivastigmine": [
+          "Exelon"
+        ]
+      }
+    },
+    {
+      "key": "B",
+      "name": "Anticholinergics listed in STOPP-M1 or STOPP-D14",
+      "ingredients": [
+        "amitriptyline",
+        "benzatropine",
+        "chlorphenamine",
+        "chlorpromazine",
+        "clomipramine",
+        "clozapine",
+        "cyproheptadine",
+        "darifenacin",
+        "dexchlorpheniramine",
+        "diphenhydramine",
+        "dosulepin",
+        "doxepin",
+        "doxylamine",
+        "hyoscine butylbromide",
+        "hyoscine hydrobromide",
+        "imipramine",
+        "nortriptyline",
+        "olanzapine",
+        "orphenadrine",
+        "oxybutynin",
+        "periciazine",
+        "pheniramine",
+        "procyclidine",
+        "promethazine",
+        "propantheline",
+        "quetiapine",
+        "solifenacin",
+        "thioridazine",
+        "tizanidine",
+        "tolterodine",
+        "trihexyphenidyl"
+      ],
+      "brands": {
+        "amitriptyline": [
+          "Endep",
+          "Amichlor",
+          "Amidep",
+          "Entrip"
+        ],
+        "benzatropine": [
+          "Benztrop"
+        ],
+        "chlorphenamine": [],
+        "chlorpromazine": [
+          "Largactil",
+          "Largactil Syrup"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "clozapine": [
+          "Clozaril",
+          "Clopine",
+          "Closyn",
+          "Clozaril ODT",
+          "Clozitor",
+          "Versacloz"
+        ],
+        "cyproheptadine": [
+          "Periactin"
+        ],
+        "darifenacin": [
+          "Enablex"
+        ],
+        "dexchlorpheniramine": [
+          "Polaramine",
+          "Polaramine Repetab",
+          "Polaramine Syrup",
+          "Polarelief"
+        ],
+        "diphenhydramine": [
+          "Paedamin Children's Antihistamine Children's",
+          "Snuzaid Gel",
+          "Snuzaid Tab",
+          "Unisom Sleepgel"
+        ],
+        "dosulepin": [
+          "Dothep",
+          "Prothiaden"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "doxylamine": [
+          "Restavit",
+          "Dozavit",
+          "Dozile",
+          "Restamine"
+        ],
+        "hyoscine butylbromide": [
+          "Buscopan",
+          "Buscopan Forte",
+          "Gastro-Soothe",
+          "Setacol",
+          "Stomex"
+        ],
+        "hyoscine hydrobromide": [
+          "Kwells",
+          "Kwells Kids",
+          "Travacalm HO"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "olanzapine": [
+          "Zyprexa",
+          "Aprolan",
+          "Aprolan ODT",
+          "Lanez",
+          "Lanez ODT",
+          "Lanzek",
+          "Lanzek Zydis",
+          "Lonza",
+          "Lonza ODT",
+          "Lyprosia",
+          "Lyprosia ODT",
+          "Olancor",
+          "Olanza",
+          "Olanzaccord",
+          "Olanzacor",
+          "Oprexa",
+          "Ozin",
+          "Ozin ODT",
+          "Prolanza",
+          "Prolanza ODT",
+          "Pryzex",
+          "Pryzex ODT",
+          "Tolaze ODT",
+          "Tolazine ODT",
+          "Torapine ODT",
+          "Torrenia ODT",
+          "Zylap",
+          "Zylap ODT",
+          "Zylapine",
+          "Zylapine ODT",
+          "Zypine",
+          "Zypine ODT",
+          "Zyprexa Zydis"
+        ],
+        "orphenadrine": [
+          "Norflex",
+          "Norgesic"
+        ],
+        "oxybutynin": [
+          "Ditropan",
+          "Oxytrol"
+        ],
+        "periciazine": [
+          "Neulactil"
+        ],
+        "pheniramine": [
+          "Avil",
+          "Avil Retard",
+          "Avil Syrup"
+        ],
+        "procyclidine": [
+          "Kemadrin"
+        ],
+        "promethazine": [
+          "Phenergan",
+          "Allersoothe",
+          "Allersoothe Elixir",
+          "Avomine",
+          "Fenezal",
+          "Histaren",
+          "Phenergan Elixir",
+          "Progan Children's Allergy Relief Elixir"
+        ],
+        "propantheline": [
+          "Pro-banthine"
+        ],
+        "quetiapine": [
+          "Seroquel",
+          "Aliquen",
+          "Delucon",
+          "Kaptan",
+          "Ketizenol",
+          "Qualez",
+          "Quepine XR",
+          "Quetapen",
+          "Quetia",
+          "Quetia XR",
+          "Quetiaccord",
+          "Quetiaquel XR",
+          "Quetin",
+          "Quipine",
+          "Sequase",
+          "Sequase XR",
+          "Serapine",
+          "Serapine XR",
+          "Seroccord",
+          "Seronia",
+          "Seroquel XR",
+          "Serotiapine XR",
+          "Syquet",
+          "Syquet XR",
+          "Syzopine",
+          "Tevatiapine XR",
+          "Tiapine XR",
+          "Tiava XR",
+          "Xque XR"
+        ],
+        "solifenacin": [
+          "Vesicare",
+          "Solicare",
+          "Solicare ODT",
+          "Vesican ODT",
+          "Vesifen"
+        ],
+        "thioridazine": [
+          "Aldazine"
+        ],
+        "tizanidine": [],
+        "tolterodine": [
+          "Detrusitol"
+        ],
+        "trihexyphenidyl": [
+          "Artane"
+        ]
+      },
+      "note": "Use the named ingredients in either local list. Benztropine is also called benzatropine, chlorpheniramine is also called chlorphenamine, and dosulepin is also called dothiepin. Check the active ingredient of non-prescription products. Benzhexol is another name for trihexyphenidyl. For chlorphenamine and tizanidine, check the ingredient if the brand is unfamiliar."
+    }
+  ],
+  "rule_for_models": "At age 65 or older, cite both medicines when donepezil, galantamine or rivastigmine and a systemic anticholinergic in Group B share treatment days based on the supply dates, quantities and units used per day or patch replacement intervals, whatever the anticholinergic is used for. Include systemic patches such as rivastigmine and oxybutynin, exclude local-only creams, eye drops, nasal sprays, inhalers and completed switches with no overlap, and do not calculate a numerical burden score. For plausible overlap at age 65 or older or with age unknown, cite both medicines as a possible finding only if age is unknown or directions are unclear or as needed, confirm whether the person is at least 65 if age is missing, and ask about actual use, including products bought without prescription, and any worsening of memory or confusion.",
+  "cannot_be_seen": "Dispensing does not establish actual use, indication or a prescriber’s intent. Treatment and assessments elsewhere may be missing.",
+  "ask_the_gp": "Could you review concurrent use of the cholinesterase inhibitor and systemic anticholinergic, and whether an alternative with fewer anticholinergic effects would suit this patient?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

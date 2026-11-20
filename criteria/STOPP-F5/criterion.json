@@ -1,0 +1,186 @@
+{
+  "id": "STOPP-F5",
+  "label": "STOPP F5",
+  "family": "STOPP_START",
+  "title": "Corticosteroid with a history of ulcer or oesophagitis",
+  "statement": "Corticosteroids with a history of peptic ulcer disease or erosive oesophagitis (risk of relapse unless proton pump inhibitor is co-prescribed).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A corticosteroid taken by mouth or given by a systemic injection can bring back a past stomach ulcer or erosive oesophagitis unless a proton pump inhibitor is also taken.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Systemic corticosteroids",
+      "ingredients": [
+        "prednisolone",
+        "prednisone",
+        "methylprednisolone",
+        "dexamethasone",
+        "hydrocortisone",
+        "cortisone acetate"
+      ],
+      "brands": {
+        "prednisolone": [
+          "Predsolone",
+          "Panafcortelone",
+          "Solone",
+          "Redipred",
+          "PredMix"
+        ],
+        "prednisone": [
+          "Panafcort",
+          "Predsone",
+          "Sone"
+        ],
+        "methylprednisolone": [
+          "Medrol",
+          "Solu-Medrol"
+        ],
+        "dexamethasone": [
+          "Dexmethsone"
+        ],
+        "hydrocortisone": [
+          "Hysone",
+          "Alkindi",
+          "Solu-Cortef",
+          "Solu-Cortef Act-O-Vial"
+        ],
+        "cortisone acetate": [
+          "Cortate"
+        ]
+      },
+      "note": "Oral tablets, capsules, granules and liquids count. Alkindi contains oral granules in a capsule for opening. Systemic intravenous or intramuscular hydrocortisone, dexamethasone and methylprednisolone count. Solu-Medrol is methylprednisolone. Exclude local injections, inhalers, skin creams, eye or ear drops, nasal sprays and rectal preparations. Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "B",
+      "name": "Proton pump inhibitors, which protect the stomach",
+      "ingredients": [
+        "omeprazole",
+        "esomeprazole",
+        "pantoprazole",
+        "lansoprazole",
+        "rabeprazole"
+      ],
+      "brands": {
+        "omeprazole": [
+          "Losec",
+          "Acimax",
+          "Maxor",
+          "Maxor EC",
+          "Maxor Heartburn Relief",
+          "Meprazol",
+          "Omepral",
+          "Omepro",
+          "Omezole",
+          "Ozmep",
+          "Pemzo",
+          "Probitor"
+        ],
+        "esomeprazole": [
+          "Nexium",
+          "Axagon",
+          "Beezole",
+          "Emeprazol",
+          "Esopran",
+          "Esopreze",
+          "Guardium Acid Reflux Relief",
+          "Jubeso",
+          "Jubium",
+          "Mepreze",
+          "Nexazole",
+          "Nexcid",
+          "Nexium 24HR Once Daily Dosing",
+          "Nexole",
+          "Nexprazole",
+          "Noxicid",
+          "Noxicid Caps Heartburn Relief",
+          "Noxicid Tabs Heartburn Relief",
+          "Zanzole 24HR",
+          "Vimovo"
+        ],
+        "pantoprazole": [
+          "Somac",
+          "Gastenz",
+          "Ozpan",
+          "Pantaccord",
+          "Panthron",
+          "Panto",
+          "Pantofast",
+          "Pantoloc",
+          "Prazole",
+          "Rizil",
+          "Salpraz",
+          "Salpraz Heartburn Relief",
+          "Somac Heartburn Relief",
+          "Sozol",
+          "Suvacid Heartburn Relief",
+          "Topra",
+          "Torprazole",
+          "Torzole"
+        ],
+        "lansoprazole": [
+          "Zoton",
+          "Lanzopran",
+          "Zopral",
+          "Zopral ODT",
+          "Zoton Fastab"
+        ],
+        "rabeprazole": [
+          "Pariet",
+          "Parbezol",
+          "Parzol",
+          "Perizel DR",
+          "Prabez",
+          "Rabzole",
+          "Razit",
+          "Zabep"
+        ]
+      },
+      "note": "Tablets, capsules and granules for oral administration count. Generic packs that show the ingredient name with a company name count too. Vimovo contains naproxen and esomeprazole in one oral tablet. Its esomeprazole counts as a PPI supply for this check."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Peptic ulcer disease or erosive oesophagitis",
+      "meets": "recorded as a past or current condition",
+      "options": [
+        {
+          "words": "Had peptic ulcer disease by the time of steroid treatment",
+          "effect": "meets"
+        },
+        {
+          "words": "Had erosive oesophagitis by the time of steroid treatment",
+          "effect": "meets"
+        },
+        {
+          "words": "Had both conditions by the time of steroid treatment",
+          "effect": "meets"
+        },
+        {
+          "words": "Had neither condition by the time of steroid treatment",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Assess Group A systemic steroids supplied at age 65 or older and confirm any unknown age. For each steroid course, use dates, quantities, directions and recorded stops to check Group B proton pump inhibitor cover during treatment. If any steroid treatment is uncovered, cite the steroid and any history of peptic ulcer disease or erosive oesophagitis by then. If cover or the history is unclear, report only a possible finding and name the missing detail. There is no finding if the course was covered or the record rules out a history of both conditions.",
+  "cannot_be_seen": "Whether the patient has had an ulcer or oesophagitis if the record holds none, the length of each steroid course, anti-inflammatory medicines bought without a prescription, and supplies from a hospital or another pharmacy.",
+  "ask_the_gp": "A review of whether stomach protection is needed while the corticosteroid continues.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

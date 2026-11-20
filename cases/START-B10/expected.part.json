@@ -1,0 +1,49 @@
+[
+  {
+    "file": "START-B10/pos-fact.csv",
+    "kind": "positive",
+    "about": "Chronic atrial fibrillation is recorded, the latest resting rate of 118 beats/min is above the documented target of below 110 beats/min, and no beta-blocker was supplied in the last six months.",
+    "findings": [
+      {
+        "criterion": "START-B10",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L042"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-B10/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding with ongoing apixaban and no recent beta-blocker. The missing facts are Chronic atrial fibrillation and Latest resting heart rate for atrial fibrillation rate control.",
+    "findings": [
+      {
+        "criterion": "START-B10",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L008",
+            "L011",
+            "L015",
+            "L018",
+            "L021",
+            "L025",
+            "L028"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-B10/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Chronic atrial fibrillation is recorded and the latest resting rate is 118 beats/min against a target below 110, but recent metoprolol supplies rule out this omission.",
+    "findings": []
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "id": "SCOTPOLY-SD-6",
+  "label": "SCOTPOLY: spironolactone or eplerenone during acute dehydrating illness",
+  "family": "SCOTPOLY",
+  "title": "Spironolactone or eplerenone during acute dehydrating illness",
+  "statement": "Step 5: Caution: AKI. Avoid combination with NSAIDs - Medication Sick Day Guidance: advise to stop during dehydrating illness",
+  "statement_origin": "published",
+  "source": {
+    "document": "Scottish Government Effective Prescribing and Therapeutics Division, Polypharmacy Guidance: Appropriate Prescribing - Making medicines safe, effective and sustainable 2026-2029, fourth edition",
+    "citation": "Scottish Government Effective Prescribing and Therapeutics Division. Polypharmacy Guidance: Appropriate Prescribing - Making medicines safe, effective and sustainable 2026-2029, fourth edition, published 2 March 2026. Appendix B, Table 38, Cardiovascular system, Spironolactone/eplerenone, Step 5 (web page 13, printed page 381).",
+    "url": "https://www.gov.scot/publications/polypharmacy-guidance-appropriate-prescribing-making-medicines-safe-effective-sustainable-2026-2029/pages/13/",
+    "licence": "UK Open Government Licence v3.0",
+    "licence_status": "proposed",
+    "credit": "Contains public sector information licensed under the Open Government Licence v3.0.",
+    "modification_notice": "The Appendix B wording is reproduced unchanged. The Australian screening rule, medicine groups, counter question and fictional histories are adaptations."
+  },
+  "plain_summary": "A dehydrating illness can increase the risk of acute kidney injury and hyperkalaemia (high blood potassium) in someone taking spironolactone or eplerenone. Ask about the sick-day plan and recent kidney function and potassium results. Review any temporary pause with the prescriber, especially when the medicine helps control heart failure. If a pause is agreed, review restarting once well and eating and drinking normally. Seek prompt medical review if symptoms persist or worsen or fluids cannot be kept down. Seek specialist advice before changing treatment in decompensated heart failure.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Spironolactone and eplerenone",
+      "ingredients": [
+        "spironolactone",
+        "eplerenone"
+      ],
+      "brands": {
+        "spironolactone": [
+          "Aldactone",
+          "Spiractin",
+          "Spironolactone Viatris"
+        ],
+        "eplerenone": [
+          "Inspra",
+          "APO-Eplerenone",
+          "ESPLER",
+          "Inpler"
+        ]
+      },
+      "note": "Count oral spironolactone or eplerenone. These are the two medicines named in the Appendix B row. Count supplies from the month of the newest dated record line and the two preceding calendar months, even if the directions say as directed or when needed. An unknown age does not prevent this check. An illness recorded only in a past episode leaves the current illness unknown. Check actual use at the counter."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Current dehydrating illness",
+      "meets": "The patient currently has an acute dehydrating illness, such as repeated vomiting or diarrhoea, fever with sweats or shaking, or cannot keep fluids down.",
+      "options": [
+        {
+          "words": "Current dehydrating illness, such as repeated vomiting or diarrhoea, inability to keep fluids down, or other signs of dehydration",
+          "effect": "meets"
+        },
+        {
+          "words": "Fever with more than mild sweats or shaking",
+          "effect": "meets"
+        },
+        {
+          "words": "No current dehydrating illness, including recovery or mild illness with normal fluid intake",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "At any age, look for oral spironolactone or eplerenone from Group A supplied from the start of the month containing the date 2 months before the latest date in the record through that latest date. With a qualifying supply, use the pharmacist's answer for this assessment, even if undated, or the latest relevant observation or condition that establishes current illness status. Confirm current dehydrating illness and cite the supply and illness lines. If status is missing, unknown or only describes a past episode, cite the supply and report a possible finding with Current dehydrating illness as the missing fact. Give no finding if there is no qualifying supply or the patient is well, has recovered or has only mild illness with normal fluid intake and no dehydration.",
+  "cannot_be_seen": "Current use, hydration, the reason for treatment and the sick-day plan may need a counter check. Kidney function and potassium levels are known only if results are recorded. Ask about worsening heart failure and non-prescription NSAIDs.",
+  "ask_the_gp": "Could you review the risk of acute kidney injury and hyperkalaemia, including whether kidney function and potassium need checking today? If a temporary pause is appropriate, when can the patient restart once well and eating and drinking normally? Could you advise on the sick-day plan and prompt review if symptoms persist or worsen, or if heart failure is decompensated?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

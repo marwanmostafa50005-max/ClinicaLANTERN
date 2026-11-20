@@ -1,0 +1,99 @@
+{
+  "id": "STOPP-D11",
+  "label": "STOPP D11",
+  "family": "STOPP_START",
+  "title": "Z-drug for insomnia for 2 weeks or more",
+  "statement": "Z-drugs (zolpidem, zopiclone, zaleplon) for insomnia for ≥ 2 weeks (increased risk of falls, fractures).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A Z-drug sleeping tablet taken for two weeks or more raises the risk of falls and fractures.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Z-drugs",
+      "ingredients": [
+        "zolpidem",
+        "zopiclone",
+        "zaleplon"
+      ],
+      "brands": {
+        "zolpidem": [
+          "Stilnox",
+          "Dormizol",
+          "Dormizol CR",
+          "Somidem",
+          "Stildem",
+          "Stilnox CR",
+          "Stilnoxium CR",
+          "Zolpibell"
+        ],
+        "zopiclone": [
+          "Imovane",
+          "Imrest",
+          "Cloipca",
+          "Imoclone",
+          "Ipclone",
+          "Zstar",
+          "Ztab"
+        ],
+        "zaleplon": []
+      },
+      "note": "Zaleplon is not sold in Australia, so it has no brand and would show only by ingredient name. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Insomnia as the reason for the Z-drug",
+      "meets": "This Z-drug course treated insomnia or poor sleep. A second indication may coexist.",
+      "options": [
+        {
+          "words": "This course was for insomnia or poor sleep, alone or alongside another reason",
+          "effect": "meets"
+        },
+        {
+          "words": "This course was solely for another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Duration of actual Z-drug use",
+      "meets": "Check the medicine, course dates, actual dose, frequency and any breaks. One course included at least 14 days of use.",
+      "options": [
+        {
+          "words": "One course included at least 14 days of use",
+          "effect": "meets"
+        },
+        {
+          "words": "Every course reviewed was under 14 days of use",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this rule only to people aged 65 years or older. If age is unknown, confirm it before reporting either a finding or a possible finding. Suspect a finding when the record holds a line for insomnia and Group A medicine supplies cover at least 14 days in the same course of treatment (use the supply dates, quantity and directions to establish coverage, and count each covered day once). Cite the insomnia line and the supply lines. If the supplies could cover 14 days but the dose, frequency or continuity is unclear, report only a possible finding unless this course was solely for another reason. Identify the medicine and supply dates and ask for 'Duration of actual Z-drug use'. Ask separately for 'Insomnia as the reason for the Z-drug' if the reason is unknown. Use the dated course, actual dose, frequency and breaks to assess duration. An answer of at least 14 days establishes duration only. If every course was shorter, give no finding. If duration is Not known or the answer cannot be linked to the course, report only a possible finding when the indication could qualify. If the reason for this course is missing or recorded as Not known, report only a possible finding if its duration could qualify. If this course was solely for another reason or the supplies cover less than 14 days, there is no finding.",
+  "cannot_be_seen": "Why the Z-drug was started, how often it is really taken, and medicines bought without a prescription or supplied by another pharmacy.",
+  "ask_the_gp": "Whether the sleeping tablet is still needed, and whether a plan to reduce it and other sleep help is due.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

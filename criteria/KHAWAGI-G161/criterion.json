@@ -1,0 +1,51 @@
+{
+  "id": "KHAWAGI-G161",
+  "label": "Khawagi review: Check for a recent thyroid result during stable lithium treatment",
+  "family": "KHAWAGI",
+  "title": "Check for a recent thyroid result during stable lithium treatment",
+  "statement": "Check for a recent thyroid result during stable lithium treatment.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. S3 File.",
+    "citation": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. PLoS ONE 2019;14(5):e0217406, S3 File.",
+    "doi": "10.1371/journal.pone.0217406",
+    "url": "https://doi.org/10.1371/journal.pone.0217406.s003",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. PLoS ONE 2019;14(5):e0217406. https://doi.org/10.1371/journal.pone.0217406; S3 File, https://doi.org/10.1371/journal.pone.0217406.s003. © 2019 Khawagi et al., CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Changes were made. S3 indicator G161. Original screening wording and Australian adaptations. S3 reference(s) as indexed in the supplied qualification: [49]. Clinical cross-check: WA lithium guideline §§2.7–2.8 (https://www.wacountry.health.wa.gov.au/~/media/WACHS/Documents/About-us/Policies/Specialised-Medication---Lithium-Guideline.pdf?thn=0).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "Check for a recent thyroid result during stable lithium treatment.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Lithium",
+      "ingredients": [
+        "lithium carbonate"
+      ],
+      "brands": {
+        "lithium carbonate": [
+          "Lithicarb",
+          "Quilonum SR",
+          "Lithicarb SR",
+          "Lithquil SR",
+          "Lithspen"
+        ]
+      },
+      "note": "Count systemic lithium, including a supply labelled simply lithium."
+    }
+  ],
+  "rule_for_models": "Check a six-month look-back for a dated thyroid function result during stable lithium treatment. An in-window TSH counts. Check that the record covers the six-month monitoring interval. Compare refill dates, quantities and directions for continued treatment on a stable regimen. If a test might be overdue and the daily dose, continuity or stability is unclear, report at most a possible gap and ask about the daily dose and any dose change or interruption. The pharmacist judges borderline gaps. Assess stable lithium for any indication. A completed switch off lithium ends this check. A dated thyroid function test, including TSH, within six calendar months of the latest qualifying supply gives no finding. Include the exact six-month boundary. If no qualifying thyroid test can be dated within that window, report only a possible gap and name the missing in-window thyroid test. Cite the relevant supplies and any available thyroid result. Ask whether the patient had a thyroid blood test elsewhere in the past six months.",
+  "cannot_be_seen": "Outside pathology or follow-up may be missing. An incomplete observation window cannot establish an overdue test.",
+  "ask_the_gp": "Could you confirm the date of the most recent thyroid function test during stable lithium treatment, whether it was within the past six months, and when follow-up is due?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "Thyroid function test",
+      "meets": "Enter the thyroid result, including TSH, and the date of the test. If only the date of the thyroid test is known, enter “test performed” with that date. Any qualifying test dated from the six-month cutoff through the latest stable lithium supply satisfies the check. If its date is unknown, ask about a possible gap."
+    }
+  ]
+}

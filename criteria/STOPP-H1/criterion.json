@@ -1,0 +1,297 @@
+{
+  "id": "STOPP-H1",
+  "label": "STOPP H1",
+  "family": "STOPP_START",
+  "title": "NSAID with past ulcer or stomach bleeding",
+  "statement": "Non-steroidal anti-inflammatory drugs (NSAIDs) other than COX-2 selective agents with history of peptic ulcer disease or gastrointestinal bleeding, unless with concurrent PPI or H2 antagonist (risk of peptic ulcer relapse).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "An anti-inflammatory pain medicine can cause another ulcer or bleed in someone who has had one before. This criterion flags use without a proton pump inhibitor or H2 antagonist.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "NSAIDs other than the COX-2 selective medicines",
+      "ingredients": [
+        "diclofenac",
+        "ibuprofen",
+        "indometacin",
+        "ketoprofen",
+        "ketorolac",
+        "mefenamic acid",
+        "meloxicam",
+        "naproxen",
+        "piroxicam",
+        "sulindac"
+      ],
+      "brands": {
+        "diclofenac": [
+          "Voltaren",
+          "Voltaren Rapid",
+          "Fenac",
+          "Clonac",
+          "Arthrotec (with misoprostol)",
+          "Cambia",
+          "Diclohexal",
+          "Difenac Rapid",
+          "Dinac",
+          "Fenac EC",
+          "Imflac",
+          "Inflamax Liquid Caps",
+          "Voltaren Rapid Extra Strength",
+          "Voltaren Rapid Liquid Capsules",
+          "Voltfast",
+          "Zorvolex"
+        ],
+        "ibuprofen": [
+          "Nurofen",
+          "Advil",
+          "Brufen",
+          "Rafen",
+          "Nurofen Plus (with codeine)",
+          "Nuromol (with paracetamol)",
+          "Maxigesic (with paracetamol)",
+          "Act-3",
+          "Advil 12 Hour",
+          "Advil Childrens Pain and Fever 2 to 7 Years",
+          "Advil Childrens Pain and Fever 7 to 12 Years",
+          "Advil Childrens Pain and Fever Relief 2 to 12 Years",
+          "Advil Double Strength",
+          "Advil Double Strength Caplets",
+          "Advil Double Strength Liquid Capsules",
+          "Advil Infants Pain and Fever Relief 3 Months to 2 Years",
+          "Advil Mini Caps",
+          "Advil Rapid Release",
+          "Brufen Pain",
+          "Brufen Syrup",
+          "Bugesic",
+          "Butafen",
+          "Butalgin",
+          "Fenpaed",
+          "Fenpaed Double Strength",
+          "Iprofen",
+          "Nurofen Back Pain",
+          "Nurofen Caplet",
+          "Nurofen Double Strength",
+          "Nurofen Liquid Capsule",
+          "Nurofen Meltlets",
+          "Nurofen Migraine Pain",
+          "Nurofen Period Pain",
+          "Nurofen Quickzorb",
+          "Nurofen Regular",
+          "Nurofen Tension Headache",
+          "Nurofen Zavance",
+          "Nurofen Zavance Liquid Capsules",
+          "Nurofen for Children 1 to 5 Years",
+          "Nurofen for Children 3 Months to 5 Years",
+          "Nurofen for Children 5 to 12 Years",
+          "Nurofen for Children 7+ Years",
+          "Nurofen for Children Baby 3+ Months",
+          "Nurofen for Children Infant Drops",
+          "Nurofen for Children Meltlet",
+          "Panafen IB",
+          "Panafen IB Mini Cap",
+          "Proven",
+          "Tri-Profen",
+          "Panafen Plus"
+        ],
+        "indometacin": [
+          "Indocid",
+          "Arthrexin"
+        ],
+        "ketoprofen": [
+          "Orudis",
+          "Oruvail"
+        ],
+        "ketorolac": [
+          "Toradol",
+          "Ketoral"
+        ],
+        "mefenamic acid": [
+          "Ponstan",
+          "Femin",
+          "Mefic",
+          "Menamic"
+        ],
+        "meloxicam": [
+          "Mobic",
+          "Movalis",
+          "Moxicam",
+          "Agilocam",
+          "Melobic",
+          "Melox",
+          "Meloxiauro",
+          "Meloxibell",
+          "Meloxibindo",
+          "Mobelox"
+        ],
+        "naproxen": [
+          "Naprosyn",
+          "Naprosyn SR",
+          "Anaprox",
+          "Inza",
+          "Proxen SR",
+          "Naprogesic",
+          "Aleve",
+          "Aleve 24 Hour",
+          "Crysanal",
+          "Femme-Free",
+          "Naprofem",
+          "Naprosyn SR 1000",
+          "Nurolasts Period Pain",
+          "Proxen"
+        ],
+        "piroxicam": [
+          "Feldene",
+          "Mobilis",
+          "Candyl",
+          "Candyl-D",
+          "Feldene-D",
+          "Mobilis D",
+          "Pirohexal-D"
+        ],
+        "sulindac": [
+          "Aclin"
+        ]
+      },
+      "note": "Tablets, capsules, liquids, suppositories and injections count. Skin gels, creams and eye drops do not count. Panafen Plus contains ibuprofen with codeine. Celecoxib and etoricoxib are COX-2 selective and are not in this group. Aspirin is not in this group. Vimovo (naproxen with esomeprazole) already holds a stomach-protecting medicine and is not in this group."
+    },
+    {
+      "key": "B",
+      "name": "Proton pump inhibitors and H2 antagonists",
+      "ingredients": [
+        "omeprazole",
+        "esomeprazole",
+        "pantoprazole",
+        "lansoprazole",
+        "rabeprazole",
+        "famotidine",
+        "cimetidine",
+        "nizatidine"
+      ],
+      "brands": {
+        "omeprazole": [
+          "Losec",
+          "Acimax",
+          "Maxor",
+          "Maxor EC",
+          "Maxor Heartburn Relief",
+          "Meprazol",
+          "Omepral",
+          "Omepro",
+          "Omezole",
+          "Ozmep",
+          "Pemzo",
+          "Probitor"
+        ],
+        "esomeprazole": [
+          "Nexium",
+          "Axagon",
+          "Beezole",
+          "Emeprazol",
+          "Esopran",
+          "Esopreze",
+          "Guardium Acid Reflux Relief",
+          "Jubeso",
+          "Jubium",
+          "Mepreze",
+          "Nexazole",
+          "Nexcid",
+          "Nexium 24HR Once Daily Dosing",
+          "Nexole",
+          "Nexprazole",
+          "Noxicid",
+          "Noxicid Caps Heartburn Relief",
+          "Noxicid Tabs Heartburn Relief",
+          "Zanzole 24HR"
+        ],
+        "pantoprazole": [
+          "Pantoloc",
+          "Somac",
+          "Gastenz",
+          "Ozpan",
+          "Pantaccord",
+          "Panthron",
+          "Panto",
+          "Pantofast",
+          "Prazole",
+          "Rizil",
+          "Salpraz",
+          "Salpraz Heartburn Relief",
+          "Somac Heartburn Relief",
+          "Sozol",
+          "Suvacid Heartburn Relief",
+          "Topra",
+          "Torprazole",
+          "Torzole"
+        ],
+        "lansoprazole": [
+          "Zoton",
+          "Lanzopran",
+          "Zopral",
+          "Zopral ODT",
+          "Zoton Fastab"
+        ],
+        "rabeprazole": [
+          "Pariet",
+          "Parbezol",
+          "Parzol",
+          "Perizel DR",
+          "Prabez",
+          "Rabzole",
+          "Razit",
+          "Zabep"
+        ],
+        "famotidine": [
+          "Arfam",
+          "Ausfam",
+          "Famohexal",
+          "Famotidine (An)",
+          "Famotidine (Apo)",
+          "Famotidine (Chemmart)",
+          "Famotidine (Genrx)",
+          "Famotidine (Ps)",
+          "Famotidine (Sandoz)",
+          "Famotidine (Terry White Chemists)",
+          "Famotidine (Tih)",
+          "Pamacid",
+          "Pepcidine",
+          "Pepzan"
+        ],
+        "cimetidine": [
+          "Cimetidine (Genrx)",
+          "Magicul",
+          "Tagamet"
+        ],
+        "nizatidine": [
+          "Nizac",
+          "Nizaction",
+          "Tacidine",
+          "Tazac Pulvule"
+        ]
+      },
+      "note": "Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "rule_for_models": "For people aged 65 or older (eligibility unconfirmed if age is unknown) with a systemic Group A NSAID and no Group B supply on overlapping dates or within 60 days of the NSAID supply, report a finding citing the NSAID lines and the condition line for peptic ulcer disease or past gastrointestinal bleeding, or a possible finding naming the missing history if that history is missing or not known. If a Group B medicine is supplied with the NSAID, there is no finding. If the record explicitly excludes both peptic ulcer disease and past gastrointestinal bleeding, there is no finding.",
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "History of peptic ulcer disease or gastrointestinal bleeding",
+      "meets": "A recorded history of peptic ulcer disease or gastrointestinal bleeding"
+    }
+  ],
+  "cannot_be_seen": "Whether the person has ever had a stomach ulcer or gastrointestinal bleeding, and when. Also how often the NSAID is really taken, anti-inflammatory medicines bought without a prescription, and medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "Whether the person has a history of peptic ulcer or gastrointestinal bleeding, and whether the NSAID is still needed or should be given with stomach protection.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,22 @@
+2025-07-01 | Coveram (perindopril arginine + amlodipine) 10 mg/10 mg tablet | qty 30 | repeats 2 | Take ONE tablet in the morning
+2025-07-01 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 2 | Take ONE tablet at night
+2025-07-01 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 2 | Take ONE tablet daily
+2025-07-10 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take TWO tablets once daily
+2025-07-10 | Duodart (dutasteride + tamsulosin) 500 microgram/400 microgram capsule | qty 30 | repeats 4 | Take ONE capsule daily
+2025-07-31 | Coveram (perindopril arginine + amlodipine) 10 mg/10 mg tablet | qty 30 | repeats 1 | Take ONE tablet in the morning
+2025-07-31 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 1 | Take ONE tablet at night
+2025-07-31 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 1 | Take ONE tablet daily
+2025-08-05 | Augmentin Duo Forte (amoxicillin + clavulanic acid) 875 mg/125 mg tablet | qty 10 | repeats 0 | Take ONE tablet twice a day
+2025-08-10 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 3 | Take TWO tablets once daily
+2025-08-10 | Duodart (dutasteride + tamsulosin) 500 microgram/400 microgram capsule | qty 30 | repeats 3 | Take ONE capsule daily
+2025-08-31 | Coveram (perindopril arginine + amlodipine) 10 mg/10 mg tablet | qty 30 | repeats 0 | Take ONE tablet in the morning
+2025-08-31 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 0 | Take ONE tablet at night
+2025-08-31 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 0 | Take ONE tablet daily
+2025-09-09 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 2 | Take TWO tablets once daily
+2025-09-09 | Duodart (dutasteride + tamsulosin) 500 microgram/400 microgram capsule | qty 30 | repeats 2 | Take ONE capsule daily
+2025-09-29 | Coveram (perindopril arginine + amlodipine) 10 mg/10 mg tablet | qty 30 | repeats 5 | Take ONE tablet in the morning
+2025-09-29 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 5 | Take ONE tablet at night
+2025-09-29 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet daily
+2025-10-08 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 1 | Take TWO tablets once daily
+2025-10-08 | Duodart (dutasteride + tamsulosin) 500 microgram/400 microgram capsule | qty 30 | repeats 1 | Take ONE capsule daily
+2025-10-21 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times daily

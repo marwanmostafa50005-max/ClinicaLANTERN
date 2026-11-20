@@ -1,0 +1,71 @@
+[
+  {
+    "file": "BRISNIK-HR-A7/pos-brand.csv",
+    "kind": "positive",
+    "about": "Aropax (paroxetine) and Betaloc (metoprolol) are both supplied monthly by brand name only.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-A7",
+        "must_cite": [
+          [
+            "L001",
+            "L004",
+            "L007",
+            "L010",
+            "L013",
+            "L016",
+            "L019",
+            "L022",
+            "L025",
+            "L028"
+          ],
+          [
+            "L002",
+            "L005",
+            "L008",
+            "L011",
+            "L014",
+            "L017",
+            "L020",
+            "L023",
+            "L026",
+            "L029"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-A7/pos-buried.csv",
+    "kind": "positive",
+    "about": "Fluoxetine and propranolol are both supplied for several months in the middle of a 14-month history.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-A7",
+        "must_cite": [
+          [
+            "L026",
+            "L032",
+            "L038",
+            "L044",
+            "L050"
+          ],
+          [
+            "L021",
+            "L027",
+            "L033",
+            "L039",
+            "L045",
+            "L051"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-A7/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Sertraline, which is not on the list, is supplied with metoprolol, so the antidepressant part of the criterion is not met.",
+    "findings": []
+  }
+]

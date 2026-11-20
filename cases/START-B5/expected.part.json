@@ -1,0 +1,53 @@
+[
+  {
+    "file": "START-B5/pos-fact.csv",
+    "kind": "positive",
+    "about": "A heart failure with reduced ejection fraction line is on the record (ejection fraction 31 percent) and no ACE inhibitor is supplied in the whole history.",
+    "findings": [
+      {
+        "criterion": "START-B5",
+        "must_cite": [
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-B5/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about Heart failure with reduced ejection fraction and shows Coralan and Inspra without an ACE inhibitor in the last six months.",
+    "findings": [
+      {
+        "criterion": "START-B5",
+        "must_cite": [
+          [
+            "L001",
+            "L002",
+            "L005",
+            "L006",
+            "L009",
+            "L010",
+            "L013",
+            "L014",
+            "L017",
+            "L018",
+            "L021",
+            "L022",
+            "L025",
+            "L026",
+            "L029",
+            "L030"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-B5/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Heart failure with reduced ejection fraction is documented and the only ramipril supply is outside the last six months, with current candesartan documented as the alternative.",
+    "findings": []
+  }
+]

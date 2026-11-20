@@ -1,0 +1,155 @@
+{
+  "id": "START-H6",
+  "label": "START H6",
+  "family": "STOPP_START",
+  "title": "Bone protection after denosumab is stopped",
+  "statement": "Anti-resorptive treatment after discontinuation of at least two doses of denosumab (rebound increased bone turnover markers, BMD loss, and increased risk of vertebral fracture following denosumab discontinuation).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Stopping denosumab (Prolia) can cause a rebound loss of bone density and a higher chance of spinal fractures, so another bone-protecting medicine is needed after it stops.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Denosumab for osteoporosis (the six-monthly injection)",
+      "ingredients": [
+        "denosumab"
+      ],
+      "brands": {
+        "denosumab": [
+          "Prolia",
+          "Corora",
+          "Jubbonti",
+          "Prolia with Automatic Needle Guard",
+          "Rexadev",
+          "Stoboclo"
+        ]
+      },
+      "note": "Prolia 60 mg given every six months counts. Exclude 120 mg denosumab presentations, including Xgeva, Wyost, Osenvelt and Ganvado. If strength and indication are unclear, confirm the presentation before counting a dose. Doses given in a clinic or hospital may not show in a pharmacy record."
+    },
+    {
+      "key": "B",
+      "name": "Other bone anti-resorptive medicines that can follow denosumab",
+      "ingredients": [
+        "alendronic acid",
+        "risedronic acid",
+        "zoledronic acid",
+        "ibandronic acid",
+        "alendronate",
+        "ibandronate",
+        "risedronate"
+      ],
+      "brands": {
+        "alendronic acid": [
+          "Fosamax",
+          "Fosamax Plus",
+          "Adronat",
+          "Alendro",
+          "Alendrobell",
+          "Binosto",
+          "Fosamax Once Weekly"
+        ],
+        "risedronic acid": [
+          "Actonel",
+          "Actonel Once a Week",
+          "Acris Once-a-Month",
+          "Acris Once-a-Week",
+          "Actonate",
+          "Actonate EC Once-a-Week",
+          "Actonate Once-a-Month",
+          "Actonel EC Once-a-Week",
+          "Actonel Once-a-Month",
+          "Atelvia",
+          "Atelvia EC Once-a-Week",
+          "Atelvia Once-a-Month",
+          "Perodon",
+          "Risedro Once a Week",
+          "Actonel Combi",
+          "Actonel Combi D"
+        ],
+        "zoledronic acid": [
+          "Aclasta",
+          "Aclonat",
+          "Amonzitra",
+          "Astazol",
+          "Azolast",
+          "Bonezol",
+          "Deztron",
+          "Osteovan",
+          "Ostira",
+          "Zolaccord",
+          "Zoledasta"
+        ],
+        "ibandronic acid": [],
+        "alendronate": [
+          "Fosamax",
+          "Fosamax Plus",
+          "Adronat",
+          "Alendro",
+          "Alendrobell",
+          "Binosto",
+          "Fosamax Once Weekly"
+        ],
+        "ibandronate": [],
+        "risedronate": [
+          "Actonel",
+          "Actonel Once a Week",
+          "Acris Once-a-Month",
+          "Acris Once-a-Week",
+          "Actonate",
+          "Actonate EC Once-a-Week",
+          "Actonate Once-a-Month",
+          "Actonel EC Once-a-Week",
+          "Actonel Once-a-Month",
+          "Atelvia",
+          "Atelvia EC Once-a-Week",
+          "Atelvia Once-a-Month",
+          "Perodon",
+          "Risedro Once a Week",
+          "Actonel Combi",
+          "Actonel Combi D"
+        ]
+      },
+      "note": "Alendronic acid, risedronic acid and zoledronic acid count. Fosamax Plus is alendronic acid with colecalciferol. No Australian brand is listed for ibandronic acid. Raloxifene, calcium and vitamin D do not count. Zoledronic acid is usually given as a clinic infusion, so it may not show in a pharmacy record. For zoledronic acid, confirm that the infusion was given as osteoporosis follow-on treatment. A 4 mg oncology infusion or a brand name alone does not establish that transition."
+    }
+  ],
+  "rule_for_models": "Confirm age if unknown. For people aged 65 or older, count distinct administrations or supplies of six-monthly Group A denosumab 60 mg for osteoporosis. Two clinic administrations count without any pharmacy supply. Count a supply and administration for the same injection once and exclude 120 mg presentations. After at least two doses or supplies, flag a documented stop without effective follow-on treatment. Compare the last confirmed administration date, or the last supply if administration is unknown, with the date six months before the latest date in the record. An earlier date suggests an overdue dose. An unverified gap, including one based on supplies alone, supports only a possible interruption. Ask about denosumab continuation and follow-on treatment only when a stop or overdue dose is suspected and protection remains unclear. Give no finding for confirmed continuation or an ongoing Group B oral course or osteoporosis infusion providing protection beyond the next dose due date. Check the due date of planned follow-on treatment and report only the duration observed.",
+  "cannot_be_seen": "A pharmacy supply does not establish when denosumab was given. Clinic or hospital doses, outside infusions, the reason for stopping and the follow-on plan may be missing. Confirm dates, later doses and the follow-on medicine and regimen against the clinic record.",
+  "ask_the_gp": "Could you confirm when the last denosumab dose was given and whether treatment is continuing? If it has stopped or the next six-monthly dose is overdue, could you review what follow-on bone protection has been given or planned?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Denosumab continuation and follow-on treatment",
+      "meets": "Confirm the last administration date, any later doses, and the name, date and regimen of any follow-on medicine with the clinic. Use documented dates and treatment details where available. A confirmed stop without effective follow-on treatment supports the finding. Confirmed continuation or effective follow-on treatment clears it. If either is uncertain, retain a possible finding.",
+      "options": [
+        {
+          "words": "Denosumab stopped without effective follow-on treatment",
+          "effect": "meets"
+        },
+        {
+          "words": "The clinic confirmed ongoing denosumab injections",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "The clinic confirmed effective follow-on osteoporosis treatment",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

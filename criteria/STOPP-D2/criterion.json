@@ -1,0 +1,302 @@
+{
+  "id": "STOPP-D2",
+  "label": "STOPP D2",
+  "family": "STOPP_START",
+  "title": "Tricyclic antidepressant started first for major depression",
+  "statement": "Initiation of TriCyclic Antidepressants (TCAs) as first-line treatment for major depression (higher risk of adverse drug reactions with TCAs than with SSRIs or SNRIs).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A tricyclic antidepressant started as the first medicine for major depression causes more side effects than an SSRI or SNRI antidepressant.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Tricyclic antidepressants",
+      "ingredients": [
+        "amitriptyline",
+        "nortriptyline",
+        "dosulepin",
+        "doxepin",
+        "imipramine",
+        "clomipramine",
+        "trimipramine"
+      ],
+      "brands": {
+        "amitriptyline": [
+          "Endep",
+          "Amichlor",
+          "Amidep",
+          "Entrip"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "dosulepin": [
+          "Prothiaden",
+          "Dothep"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ]
+      },
+      "note": "Tablets and capsules count. Mianserin and mirtazapine are not tricyclic antidepressants. Generic packs that show the ingredient name with a company name count too. Dothiepin is another name for dosulepin. Exclude doxepin cream."
+    },
+    {
+      "key": "B",
+      "name": "Other antidepressants",
+      "ingredients": [
+        "sertraline",
+        "citalopram",
+        "escitalopram",
+        "fluoxetine",
+        "paroxetine",
+        "venlafaxine",
+        "desvenlafaxine",
+        "duloxetine",
+        "fluvoxamine",
+        "mirtazapine",
+        "agomelatine",
+        "vortioxetine",
+        "moclobemide",
+        "mianserin",
+        "reboxetine"
+      ],
+      "brands": {
+        "sertraline": [
+          "Zoloft",
+          "Eleva",
+          "Concorz",
+          "Detralon",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Setrona",
+          "Tralen",
+          "Xydep"
+        ],
+        "citalopram": [
+          "Cipramil",
+          "Abbapram",
+          "Celapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talam",
+          "Talohexal"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam",
+          "Loxalate"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Zactin",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Paxtine",
+          "Aropax CR",
+          "Extine",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ],
+        "venlafaxine": [
+          "Efexor-XR",
+          "Altven",
+          "Enlafax",
+          "Elaxine SR",
+          "Enlafax XR",
+          "Evelexa XR",
+          "Ozvenaf",
+          "Venfax SR",
+          "Venla",
+          "Venlexor XR"
+        ],
+        "desvenlafaxine": [
+          "Pristiq",
+          "Desfax",
+          "Desven"
+        ],
+        "duloxetine": [
+          "Cymbalta",
+          "Andepra",
+          "Baltine",
+          "Coperin",
+          "Deotine",
+          "Depreta",
+          "Drulox",
+          "Dulocym",
+          "Duloxecor",
+          "Dytrex",
+          "Symlox",
+          "Texotine",
+          "Tixol",
+          "Xerol DR"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ],
+        "mirtazapine": [
+          "Aurozapine",
+          "Avanza",
+          "Avanza Soltab",
+          "Axit",
+          "Milivin Od",
+          "Mirtanza",
+          "Mirtanza Odt",
+          "Mirtazapine (An)",
+          "Mirtazapine (Apo)",
+          "Mirtazapine (Apx)",
+          "Mirtazapine (Arw)",
+          "Mirtazapine (Auro)",
+          "Mirtazapine (Blooms The Chemist)",
+          "Mirtazapine (Chemmart)"
+        ],
+        "agomelatine": [
+          "Valdoxan"
+        ],
+        "vortioxetine": [
+          "Brintellix"
+        ],
+        "moclobemide": [
+          "Aurorix",
+          "Amira"
+        ],
+        "mianserin": [
+          "Lumin",
+          "Tolvon"
+        ],
+        "reboxetine": [
+          "Edronax"
+        ]
+      },
+      "note": "Any earlier antidepressant documented for this episode counts, including medicines outside this list."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Major depression",
+      "meets": "A line shows major depression as a known condition for this person."
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for the tricyclic antidepressant in this episode",
+      "meets": "It was prescribed for this episode of major depression.",
+      "options": [
+        {
+          "words": "To treat this episode of major depression",
+          "effect": "meets"
+        },
+        {
+          "words": "Only for a different reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Tricyclic antidepressant use at the first supply shown for this episode",
+      "meets": "The patient or record identifies a new start.",
+      "options": [
+        {
+          "words": "Newly started at this supply for this episode",
+          "effect": "meets"
+        },
+        {
+          "words": "Continued from earlier treatment",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "First antidepressant tried for this episode of major depression, including treatment elsewhere",
+      "meets": "The tricyclic was the first antidepressant for this episode.",
+      "options": [
+        {
+          "words": "This tricyclic was the first antidepressant tried",
+          "effect": "meets"
+        },
+        {
+          "words": "A different antidepressant was tried first",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply only to people aged 65 years or older. Below 65 there is no finding. If age is unknown, record eligibility as unresolved and confirm age before reporting either finding. Suspect D2 when the record shows a tricyclic was started as the first antidepressant for this episode of major depression. Cite the first tricyclic supply and the evidence of its indication and treatment order. An earlier antidepressant supply alone cannot show whether it treated this episode. If major depression was ruled out for this episode, report no finding. If the diagnosis, indication, start or treatment order is unclear and no exclusion is established, report a possible finding, cite the first recorded tricyclic supply and name what needs confirmation. Exclude documented continuation, a later treatment for the same episode, and use solely for another reason.",
+  "cannot_be_seen": "Why the tricyclic was started (pain, sleep and bed-wetting are other uses), and any antidepressant taken before the record began or supplied elsewhere. Also how severe the depression is.",
+  "ask_the_gp": "Whether an SSRI or SNRI would be a better first choice, and the reason the tricyclic was chosen.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

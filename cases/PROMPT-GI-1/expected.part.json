@@ -1,0 +1,49 @@
+[
+  {
+    "file": "PROMPT-GI-1/pos-brand.csv",
+    "kind": "positive",
+    "about": "Dulcolax 5 mg (bisacodyl, a stimulant laxative) is supplied every month for nine months at two tablets nightly, and appears by brand name only. The directions record first-line treatment for chronic idiopathic constipation.",
+    "findings": [
+      {
+        "criterion": "PROMPT-GI-1",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L009",
+            "L013",
+            "L017",
+            "L021",
+            "L025",
+            "L029",
+            "L033"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PROMPT-GI-1/pos-buried.csv",
+    "kind": "positive",
+    "about": "Senokot 7.5 mg (senna, a stimulant laxative) is supplied monthly for four months in the middle of a 15-month history at two tablets nightly. The directions record first-line treatment for chronic idiopathic constipation.",
+    "findings": [
+      {
+        "criterion": "PROMPT-GI-1",
+        "must_cite": [
+          [
+            "L022",
+            "L027",
+            "L032",
+            "L037"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PROMPT-GI-1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Senokot is supplied during oxycodone treatment. The dated condition line documents opioid-induced constipation, so the exception applies.",
+    "findings": []
+  }
+]

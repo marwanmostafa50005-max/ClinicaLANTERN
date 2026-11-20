@@ -1,0 +1,141 @@
+{
+  "id": "GERARD-23",
+  "label": "Gerard 23",
+  "family": "GERARD",
+  "title": "Rapid creatinine rise during treatment with metformin, a GLP-1 analogue or a DPP-4 inhibitor",
+  "statement": "It is necessary to review and optimize the prescription of metformin, a GLP-1 analogue, or a DPP-4 inhibitor in a patient with a creatinine level that has increased 1.5-fold in 7 days.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Development of explicit definitions of potentially inappropriate prescriptions for antidiabetic drugs in people with type 2 diabetes: A Delphi survey and consensus meeting",
+    "citation": "Gerard E, Bugday D, Calafiore M, Baran J, Gautier S, Henry H, et al. (2025). Development of explicit definitions of potentially inappropriate prescriptions for antidiabetic drugs in people with type 2 diabetes: A Delphi survey and consensus meeting. PLOS ONE 20(10), e0334836.",
+    "doi": "10.1371/journal.pone.0334836",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0334836",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "© 2025 Gerard et al. Gerard E, Bugday D, Calafiore M, Baran J, Gautier S, Henry H, et al. (2025). Development of explicit definitions of potentially inappropriate prescriptions for antidiabetic drugs in people with type 2 diabetes: A Delphi survey and consensus meeting. PLOS ONE 20(10), e0334836. https://doi.org/10.1371/journal.pone.0334836. Table 2. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The statements are reproduced. The qualification decisions and Australian mappings are additions by GPT-6.2 Astra. The screening rules and fictional histories are adaptations by GPT-6.2 Astra."
+  },
+  "plain_summary": "Review the diabetes medicine if serum creatinine reaches at least 1.5 times its earlier value within seven days.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "metformin",
+      "ingredients": [
+        "metformin"
+      ],
+      "brands": {
+        "metformin": [
+          "Metformin Pfizer",
+          "Nesina Met",
+          "Vildagliptin/Metformin Astron",
+          "Diabex",
+          "Diabex XR",
+          "Diaformin",
+          "Diaformin XR",
+          "Metex XR",
+          "Janumet",
+          "Janumet XR",
+          "Trajentamet",
+          "Galvumet",
+          "Kombiglyze XR",
+          "Xigduo XR",
+          "Jardiamet",
+          "Segluromet"
+        ]
+      },
+      "note": "Count any listed ingredient, including in combination products."
+    },
+    {
+      "key": "B",
+      "name": "GLP-1 analogues",
+      "ingredients": [
+        "dulaglutide",
+        "liraglutide",
+        "semaglutide"
+      ],
+      "brands": {
+        "dulaglutide": [
+          "Trulicity"
+        ],
+        "liraglutide": [
+          "Liraglutide Lupin",
+          "Victoza",
+          "Saxenda"
+        ],
+        "semaglutide": [
+          "Ozempic",
+          "Wegovy",
+          "Wegovy Flextouch"
+        ]
+      },
+      "note": "Count a listed GLP-1 analogue alone or in a combination. Exclude dual GIP/GLP-1 agonists such as tirzepatide."
+    },
+    {
+      "key": "C",
+      "name": "DPP-4 inhibitors",
+      "ingredients": [
+        "alogliptin",
+        "linagliptin",
+        "saxagliptin",
+        "sitagliptin",
+        "vildagliptin"
+      ],
+      "brands": {
+        "alogliptin": [
+          "Nesina",
+          "Nesina Met"
+        ],
+        "linagliptin": [
+          "Linagliptin-WGR",
+          "Trajenta",
+          "Trajentamet",
+          "Glyxambi"
+        ],
+        "saxagliptin": [
+          "Onglyza",
+          "Kombiglyze XR",
+          "Qtern"
+        ],
+        "sitagliptin": [
+          "Januvia",
+          "Janorix",
+          "Sitaglin",
+          "Sitaglo",
+          "Sitazitin",
+          "Xelevia",
+          "Janumet",
+          "Janumet XR",
+          "Steglujan"
+        ],
+        "vildagliptin": [
+          "Galvus",
+          "Vildagliptin/Metformin Astron",
+          "Galvumet"
+        ]
+      },
+      "note": "Count a listed DPP-4 inhibitor alone or in a combination."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Type 2 diabetes",
+      "meets": "Type 2 diabetes is recorded."
+    },
+    {
+      "kind": "result",
+      "what": "Earlier serum creatinine",
+      "meets": "The first sample in the pair. Enter its value, unit and collection date if the record does not already give them."
+    },
+    {
+      "kind": "result",
+      "what": "Later serum creatinine",
+      "meets": "The second sample in the pair. Enter its value, unit and collection date if missing. Within seven days it must reach at least 1.5 times the earlier value in the same units."
+    }
+  ],
+  "rule_for_models": "For recorded type 2 diabetes, flag a supply of metformin, a GLP-1 analogue or a DPP-4 inhibitor covering a rise in serum creatinine to at least 1.5 times its earlier value within seven days, and cite the diagnosis, supply and both result lines. Use existing serum creatinine results for either sample. Put the samples in collection order and compare their values in the same units. If the diagnosis is missing or the pair is incomplete, undated or cannot be compared, report only a possible finding. Ask only for the missing diagnosis or the missing result value, unit or collection date for the earlier or later sample. Never use the date of entry at the counter as the collection date. Give no finding if the population is outside scope or the dated, comparable results show no qualifying rise. Estimate cover from the supply date, the quantity dispensed and the labelled dosing schedule. For pens, use the deliverable doses per pen and the interval between doses. If unclear directions leave treatment during the rise plausible but unconfirmed, report only a possible finding and ask about dose, frequency and treatment dates. A supply known to have ended before the rise gives no finding.",
+  "cannot_be_seen": "The record can omit outside results and changes in treatment after a blood test. A single creatinine or an eGFR cannot establish the rise. When results are missing, ask about recent blood tests, illness with vomiting or diarrhoea, dehydration or hospital care, and whether the two dated results can be checked. These details cannot establish the creatinine rise.",
+  "ask_the_gp": "Could you check the dated creatinine results and, if the rise is current and confirmed, review kidney function and the diabetes medicine today?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

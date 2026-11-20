@@ -1,0 +1,74 @@
+[
+  {
+    "file": "START-C1/pos-fact.csv",
+    "kind": "positive",
+    "about": "Paroxysmal atrial fibrillation is recorded at L001. The only anticoagulant was a finite course after knee replacement and the later temporary hold for bleeding has ended. At L053 the patient confirms there was no outside supply for atrial fibrillation in the last six months.",
+    "findings": [
+      {
+        "criterion": "START-C1",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L031"
+          ],
+          [
+            "L042"
+          ],
+          [
+            "L053"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-C1/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: there is no atrial fibrillation diagnosis. Lanoxin PG and Sotacor suggest it, and rivaroxaban 2.5 mg twice daily does not provide stroke prevention for atrial fibrillation. The missing facts are \"Atrial fibrillation\" and \"Anticoagulant supplied elsewhere for atrial fibrillation in the last six months\".",
+    "findings": [
+      {
+        "criterion": "START-C1",
+        "must_cite": [
+          [
+            "L001",
+            "L002",
+            "L005",
+            "L006",
+            "L009",
+            "L010",
+            "L013",
+            "L014",
+            "L017",
+            "L018",
+            "L021",
+            "L022",
+            "L026",
+            "L027",
+            "L030",
+            "L031",
+            "L034",
+            "L035"
+          ],
+          [
+            "L033",
+            "L037"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-C1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The record has a line for atrial fibrillation and Eliquis (apixaban) is supplied every month, so an anticoagulant is in place and there is no finding.",
+    "findings": []
+  },
+  {
+    "file": "START-C1/near-miss-bleeding.csv",
+    "kind": "near_miss",
+    "about": "Chronic atrial fibrillation is recorded and no anticoagulant is supplied. The hospital's current plan is to withhold anticoagulation during ongoing gastrointestinal bleeding.",
+    "findings": []
+  }
+]

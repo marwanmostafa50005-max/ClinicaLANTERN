@@ -1,0 +1,69 @@
+[
+  {
+    "file": "BRISNIK-OP-DEPR7/pos-fact.csv",
+    "kind": "positive",
+    "about": "Zoloft (sertraline) 50 mg is supplied monthly for 17 months; the record says treatment started in March 2023 (more than 2 years), three depressive episodes with impaired daily function in the last 5 years, and full remission.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-DEPR7",
+        "must_cite": [
+          [
+            "L006",
+            "L008",
+            "L010",
+            "L014",
+            "L016",
+            "L018",
+            "L022",
+            "L024",
+            "L026",
+            "L030",
+            "L032",
+            "L034",
+            "L038",
+            "L040",
+            "L042",
+            "L047",
+            "L049"
+          ],
+          [
+            "L002"
+          ],
+          [
+            "L001"
+          ],
+          [
+            "L046"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-DEPR7/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: earlier dispensing dates on the transfer summary and subsequent local supplies show a continuing course beyond two years. Recurrent depression is recorded, but the treatment indication, functional impairment during the episodes and current remission are unclear.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-DEPR7",
+        "must_cite": [
+          [
+            "L002"
+          ],
+          [
+            "L019",
+            "L020",
+            "L023",
+            "L024"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-DEPR7/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Sertraline is supplied with recurrent episodes and full remission on record, but the record says the current treatment started in February 2026, so it is under 2 years and must not flag.",
+    "findings": []
+  }
+]

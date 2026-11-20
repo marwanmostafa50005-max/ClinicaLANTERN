@@ -1,0 +1,256 @@
+{
+  "id": "STOPP-F3",
+  "label": "STOPP F3",
+  "family": "STOPP_START",
+  "title": "Constipating medicine with chronic constipation",
+  "statement": "Drugs likely to cause constipation (e.g. systemic antimuscarinics, oral iron, opioids, verapamil, aluminium antacids) with chronic constipation where non-constipating alternatives are available (risk of exacerbation of constipation).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Some medicines make constipation worse, so a person with long-term constipation should use one that does not, where there is a choice.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Medicines that can cause constipation",
+      "ingredients": [
+        "oxybutynin",
+        "solifenacin",
+        "tolterodine",
+        "darifenacin",
+        "fesoterodine",
+        "trospium",
+        "benzatropine",
+        "ferrous sulfate",
+        "ferrous fumarate",
+        "iron polymaltose",
+        "codeine",
+        "oxycodone",
+        "morphine",
+        "tramadol",
+        "tapentadol",
+        "buprenorphine",
+        "fentanyl",
+        "hydromorphone",
+        "methadone",
+        "verapamil",
+        "aluminium hydroxide",
+        "ferrous gluconate",
+        "hyoscine butylbromide",
+        "propantheline"
+      ],
+      "brands": {
+        "oxybutynin": [
+          "Ditropan",
+          "Oxytrol",
+          "Oxybutynin Chloride (Novitium Pharma)",
+          "Oxybutynin Hydrochloride (Niche Generics Limited)",
+          "Oxybutynin Hydrochloride (Sandoz)",
+          "Oxybutynin Hydrochloride (Winthrop)"
+        ],
+        "solifenacin": [
+          "Vesicare",
+          "Solicare",
+          "Solicare ODT",
+          "Vesican ODT",
+          "Vesifen"
+        ],
+        "tolterodine": [
+          "Detrusitol",
+          "Detrusitol XL"
+        ],
+        "darifenacin": [
+          "Enablex"
+        ],
+        "fesoterodine": [
+          "Toviaz"
+        ],
+        "trospium": [],
+        "benzatropine": [
+          "Benztrop",
+          "Cogentin",
+          "Benzatropine (Phebra)",
+          "Benztropine Mesylate (Omega)"
+        ],
+        "ferrous sulfate": [
+          "Ferro-Gradumet",
+          "Ferro-Liquid",
+          "Ferro-grad",
+          "Ferrogen",
+          "Ferro-Grad C",
+          "FGF",
+          "Fefol",
+          "Ferro-Max C"
+        ],
+        "ferrous fumarate": [
+          "Fersaday",
+          "Ferro-F-Tab",
+          "Ferro-Tab",
+          "Ferro Tab"
+        ],
+        "iron polymaltose": [
+          "Maltofer",
+          "Maltofer Syrup",
+          "Maltofer Drops"
+        ],
+        "codeine": [
+          "Panadeine Forte",
+          "Panadeine",
+          "Actacode Linctus",
+          "Codphos",
+          "Nurofen Plus",
+          "Panadeine Extra",
+          "Mersyndol Forte",
+          "Codalgin Forte"
+        ],
+        "oxycodone": [
+          "Endone",
+          "OxyContin",
+          "Oxynorm",
+          "Targin",
+          "Endone XR",
+          "Novacodone",
+          "Oxycodor",
+          "Oxycone",
+          "Oxylenus",
+          "Oxylieve MR",
+          "Oxyndone",
+          "Xedone"
+        ],
+        "morphine": [
+          "MS Contin",
+          "Kapanol",
+          "Sevredol",
+          "Ordine",
+          "Anamorph",
+          "MS Contin Suspension",
+          "MS Mono",
+          "MS Normal",
+          "Momex SR",
+          "RA-Morph"
+        ],
+        "tramadol": [
+          "Tramal",
+          "Zydol",
+          "Durotram",
+          "Durotram XR",
+          "Iptramol",
+          "Lodam",
+          "Lodam SR",
+          "Tramahexal",
+          "Tramahexal SR",
+          "Tramal Drops",
+          "Tramal SR",
+          "Tramedo",
+          "Tramedo SR",
+          "Zydol SR"
+        ],
+        "tapentadol": [
+          "Palexia",
+          "Palexia SR",
+          "Palexia IR"
+        ],
+        "buprenorphine": [
+          "Norspan",
+          "Temgesic",
+          "Bupradex",
+          "Buvidal Monthly",
+          "Buvidal Weekly",
+          "Sublocade",
+          "Subutex",
+          "Subutex FDT",
+          "Suboxone"
+        ],
+        "fentanyl": [
+          "Durogesic",
+          "Denpax",
+          "Fenpatch"
+        ],
+        "hydromorphone": [
+          "Jurnista",
+          "Dilaudid",
+          "Dilaudid-HP",
+          "Palladone XL"
+        ],
+        "methadone": [
+          "Physeptone",
+          "Biodone Forte",
+          "Methadone (Aft)",
+          "Methadone (Aspen)",
+          "Methadone (Phebra)",
+          "Methadone Hydrochloride Syrup (Orion)",
+          "Methadone Hydrochloride Syrup (Sigma)",
+          "Methadone Hydrochloride Syrup (Wellcome)",
+          "Methadone Liquid (Aspen)",
+          "Methadone Syrup (Aspen)",
+          "Opod-D Syrup",
+          "Opod-P Liquid",
+          "Physeptone Liquid"
+        ],
+        "verapamil": [
+          "Isoptin",
+          "Isoptin SR",
+          "Anpec",
+          "Anpec SR",
+          "Cordilox SR",
+          "Veracaps SR",
+          "Tarka"
+        ],
+        "aluminium hydroxide": [
+          "Mylanta Double Strength oral liquid",
+          "Mylanta Original",
+          "Mylanta 2go Antacid Double Strength chewable tablets",
+          "Gastrogel Antacid oral liquid",
+          "Alu-Tab"
+        ],
+        "ferrous gluconate": [],
+        "hyoscine butylbromide": [
+          "Buscopan"
+        ],
+        "propantheline": [
+          "Pro-Banthine"
+        ]
+      },
+      "note": "Systemic antimuscarinics (the listed bladder medicines, benzatropine and hyoscine butylbromide), oral iron, opioids, verapamil and aluminium antacids. Panadeine Forte and Panadeine are paracetamol with codeine. Targin is oxycodone with naloxone. Count a Mylanta product only when its recorded formulation confirms an aluminium antacid. Mylanta 2go Antacid Fastchews do not count. If the record says only Mylanta, ask which product was supplied. Opioid patches and oxybutynin patches count. Count iron taken by mouth. Exclude iron injections. Ferro-F-Tab contains ferrous fumarate with folic acid. Ferro-Grad C contains ferrous sulfate with vitamin C. FGF contains ferrous sulfate with folic acid. Tarka contains verapamil with trandolapril. Suboxone contains buprenorphine with naloxone. Eye drops and creams do not count. Generic packs that show the ingredient name with a company name count too. For trospium, match the recorded ingredient."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Chronic constipation",
+      "meets": "recorded as a current condition"
+    },
+    {
+      "kind": "observation",
+      "what": "Availability of a suitable non-constipating alternative",
+      "meets": "A non-constipating alternative is available and suitable for this patient and the condition being treated.",
+      "options": [
+        {
+          "words": "A suitable non-constipating alternative is available for this treatment",
+          "effect": "meets"
+        },
+        {
+          "words": "No suitable non-constipating alternative is available for this treatment",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "For a Group A supply, confirm the patient was at least 65 at supply and ask for age confirmation if needed. Report no finding if the record rules out current chronic constipation or a suitable non-constipating alternative. Otherwise cite the supply and the lines showing current chronic constipation and an available non-constipating alternative suitable for this patient and the reason for treatment, reporting only a possible finding that names any missing fact.",
+  "cannot_be_seen": "Whether the patient has constipation if the record holds none, bowel habit, laxatives bought without a prescription, and whether a medicine without the constipating effect is suitable for that person.",
+  "ask_the_gp": "A review of whether a medicine that does not cause constipation can be used instead.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

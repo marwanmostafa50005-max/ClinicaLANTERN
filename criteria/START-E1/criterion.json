@@ -1,0 +1,99 @@
+{
+  "id": "START-E1",
+  "label": "START E1",
+  "family": "STOPP_START",
+  "title": "No active vitamin D for severe kidney disease with low calcium",
+  "statement": "One-alpha hydroxycholecalciferol or calcitriol supplementation in severe chronic kidney (i.e., eGFR < 30 ml/min/m²) disease with hypocalcaemia (corrected serum calcium < 2.10 mmol/l) and associated secondary hyperparathyroidism.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A person with severe kidney disease, low calcium and an overactive parathyroid gland is not being supplied alfacalcidol or calcitriol. START prints ml/min/m² here. The severe kidney disease threshold is indexed eGFR below 30 mL/min/1.73 m².",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Medicines that meet this criterion: active vitamin D for kidney disease",
+      "ingredients": [
+        "alfacalcidol",
+        "calcitriol"
+      ],
+      "brands": {
+        "alfacalcidol": [
+          "One-Alpha"
+        ],
+        "calcitriol": [
+          "Rocaltrol",
+          "Calciprox",
+          "Calitrol",
+          "Citrihexal",
+          "Kosteo",
+          "Sical",
+          "Sitriol"
+        ]
+      },
+      "note": "Alfacalcidol is one-alpha hydroxycholecalciferol. Count systemic active vitamin D supplementation. Calcitriol applied to the skin as an ointment or cream does not count."
+    },
+    {
+      "key": "B",
+      "name": "Medicines that imply the condition: cinacalcet, used for secondary hyperparathyroidism in kidney disease",
+      "ingredients": [
+        "cinacalcet"
+      ],
+      "brands": {
+        "cinacalcet": [
+          "Sensipar"
+        ]
+      },
+      "note": "Cinacalcet hints at secondary hyperparathyroidism but not at the calcium level or the eGFR."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "eGFR",
+      "meets": "below 30 mL/min/1.73 m2"
+    },
+    {
+      "kind": "result",
+      "what": "Corrected serum calcium",
+      "meets": "below 2.10 mmol/L"
+    },
+    {
+      "kind": "condition",
+      "what": "Secondary hyperparathyroidism due to chronic kidney disease",
+      "meets": "A diagnosis of secondary hyperparathyroidism due to chronic kidney disease is confirmed. Raised parathyroid hormone alone does not confirm the cause. A negative answer rules out this diagnosis. An unknown answer leaves it unconfirmed."
+    },
+    {
+      "kind": "observation",
+      "what": "Alfacalcidol or calcitriol from a hospital or dialysis clinic in the last six months of the record",
+      "meets": "Whether a hospital or dialysis clinic supplied systemic alfacalcidol or calcitriol in the last six months of the record. Confirmed supply closes the omission. A report that neither was supplied there settles only the outside supply question. An unknown answer leaves outside supply unresolved.",
+      "options": [
+        {
+          "words": "Supplied in that period",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Neither medicine was supplied there in that period",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply only when the record establishes age 65 years or older. If age is unknown, confirm it before reporting a finding. Suppress the finding if the record gives an end-of-life palliative focus, a contraindication to the proposed therapy or another valid clinical reason for its omission. Use the latest clinically applicable result for each measurement. An older result cannot override a later applicable result for that measurement. If results conflict and their order or relevance is unclear, ask for the applicable result and keep an otherwise eligible finding possible. Suspect a finding when the record shows an eGFR below 30, a corrected serum calcium below 2.10 mmol/L and confirmed secondary hyperparathyroidism due to chronic kidney disease, and no Group A medicine (alfacalcidol, calcitriol) is supplied in the last six months of the record. Cite all three fact lines. A raised parathyroid hormone result alone does not confirm the renal diagnosis. With no Group A supply in the last six months and no exclusion, report only a possible finding if one or two qualifying facts are known and the rest are missing, or if cinacalcet is supplied and qualifying facts are missing. Cite the qualifying fact lines and the cinacalcet supply line when it starts the check. Name the missing clinical facts using their exact names: \"eGFR\", \"Corrected serum calcium\" or \"Secondary hyperparathyroidism due to chronic kidney disease\". With no qualifying fact and no cinacalcet supply, make no finding. Make no finding if the current eGFR is 30 mL/min/1.73 m² or higher, the current corrected calcium is 2.10 mmol/L or higher, or secondary hyperparathyroidism is ruled out. When systemic alfacalcidol or calcitriol from any source is documented in the last six months, make no finding and do not ask about outside supply. When cinacalcet starts an otherwise eligible check and outside supply is unresolved, report only a possible finding and name \"Alfacalcidol or calcitriol from a hospital or dialysis clinic in the last six months of the record\" along with any missing clinical facts. If neither medicine was supplied there in that period, judge the clinical facts separately. If outside supply is not known, the finding stays possible. Cite the qualifying clinical fact lines, one cinacalcet supply when it starts the check, and the hospital or dialysis clinic answer line when it informs the finding.",
+  "cannot_be_seen": "The latest eGFR, calcium (corrected for albumin) and parathyroid hormone results if they are not in the record, whether the person is on dialysis, whether the kidney team supplies the medicine from a hospital, and whether it was tried and stopped.",
+  "ask_the_gp": "Could the kidney team review the calcium level, kidney function, dialysis status, parathyroid hormone trend and current treatment before deciding whether active vitamin D is appropriate?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

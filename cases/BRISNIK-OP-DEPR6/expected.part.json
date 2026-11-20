@@ -1,0 +1,67 @@
+[
+  {
+    "file": "BRISNIK-OP-DEPR6/pos-fact.csv",
+    "kind": "positive",
+    "about": "Lexapro (escitalopram) 10 mg is supplied monthly for 17 months (more than 12), and the record has lines saying this was a first episode of moderate depression and that the depression is now in full remission.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-DEPR6",
+        "must_cite": [
+          [
+            "L005",
+            "L007",
+            "L009",
+            "L013",
+            "L015",
+            "L017",
+            "L021",
+            "L023",
+            "L025",
+            "L029",
+            "L031",
+            "L033",
+            "L037",
+            "L039",
+            "L041",
+            "L046",
+            "L048"
+          ],
+          [
+            "L004"
+          ],
+          [
+            "L045"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-DEPR6/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: Lexapro refills span the anniversary, but a possible interruption leaves the duration of one continuous course unclear. The indication, qualifying episode and current remission are undocumented.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-DEPR6",
+        "must_cite": [
+          [
+            "L002",
+            "L006",
+            "L007"
+          ],
+          [
+            "L029",
+            "L034",
+            "L035"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-DEPR6/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Escitalopram is supplied monthly for 15 months and the depression is in full remission, but the record says the first episode was mild, not moderate or severe, so it must not flag.",
+    "findings": []
+  }
+]

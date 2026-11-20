@@ -1,0 +1,247 @@
+{
+  "id": "BANSAL-S10",
+  "label": "BANSAL S10: opioid with benzodiazepine",
+  "family": "BANSAL",
+  "title": "Opioid with a benzodiazepine",
+  "statement": "Acute or persistent co-prescription of opioid analgesics with a benzodiazepine [79–83]",
+  "statement_origin": "published",
+  "source": {
+    "document": "Bansal N, et al. Development of prescribing indicators related to opioid-related harm in patients with chronic pain in primary care. BMC Med 2024;22:5, Tables 3-4",
+    "citation": "Bansal N, Campbell SM, Lin C-Y, Ashcroft DM, Chen L-C. Development of prescribing indicators related to opioid-related harm in patients with chronic pain in primary care - a modified e-Delphi study. BMC Med 2024;22:5. doi:10.1186/s12916-023-03213-x",
+    "doi": "10.1186/s12916-023-03213-x",
+    "url": "https://doi.org/10.1186/s12916-023-03213-x",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Bansal N, Campbell SM, Lin C-Y, Ashcroft DM, Chen L-C. Development of prescribing indicators related to opioid-related harm in patients with chronic pain in primary care - a modified e-Delphi study. BMC Med 2024;22:5. doi:10.1186/s12916-023-03213-x",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.2 candidate repairs and adopted conventions merged with attribution). Not endorsed by the source authors."
+  },
+  "plain_summary": "Taking an opioid with a benzodiazepine raises the risk of heavy sedation and slowed breathing.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Opioid analgesics",
+      "ingredients": [
+        "codeine",
+        "fentanyl",
+        "hydromorphone",
+        "methadone",
+        "morphine",
+        "oxycodone",
+        "tapentadol",
+        "tramadol",
+        "buprenorphine",
+        "pethidine"
+      ],
+      "brands": {
+        "codeine": [
+          "Panadeine Forte (codeine with paracetamol)",
+          "Panadeine (codeine with paracetamol)",
+          "Codalgin Forte (codeine with paracetamol)",
+          "Mersyndol (codeine with paracetamol and doxylamine)",
+          "Nurofen Plus (codeine with ibuprofen)",
+          "Prodeine Forte (paracetamol with codeine)",
+          "Aspalgin (aspirin with codeine)",
+          "Codapane Forte 500/30",
+          "Comfarol Forte"
+        ],
+        "fentanyl": [
+          "Durogesic"
+        ],
+        "hydromorphone": [
+          "Jurnista",
+          "Dilaudid",
+          "Dilaudid-HP",
+          "Palladone XL"
+        ],
+        "methadone": [
+          "Physeptone",
+          "Opod-D Syrup"
+        ],
+        "morphine": [
+          "MS Contin",
+          "Kapanol",
+          "Ordine",
+          "Sevredol",
+          "MS Mono",
+          "Anamorph",
+          "MS Contin Suspension",
+          "Momex SR",
+          "RA-Morph",
+          "MS Normal"
+        ],
+        "oxycodone": [
+          "OxyContin",
+          "OxyNorm",
+          "Endone",
+          "Proladone",
+          "Targin (oxycodone with naloxone)",
+          "Novacodone",
+          "Oxycodor",
+          "Oxycone",
+          "Oxylenus",
+          "Oxylieve MR",
+          "Oxyndone",
+          "Xedone",
+          "Endone XR"
+        ],
+        "tapentadol": [
+          "Palexia",
+          "Palexia SR",
+          "Lodat SR",
+          "Palexia IR",
+          "Tadol IR",
+          "Tadol SR",
+          "Tapal IR",
+          "Tapal SR",
+          "Tapex IR",
+          "Tapex SR",
+          "Tapexia",
+          "Tapexia SR"
+        ],
+        "tramadol": [
+          "Tramal",
+          "Tramal SR",
+          "Zydol",
+          "Zydol SR",
+          "Durotram",
+          "Durotram XR",
+          "Iptramol",
+          "Lodam",
+          "Lodam SR",
+          "Tramahexal",
+          "Tramahexal SR",
+          "Tramal Drops",
+          "Tramedo",
+          "Tramedo SR"
+        ],
+        "buprenorphine": [
+          "Norspan",
+          "Bupredermal",
+          "B-Patch",
+          "Temgesic"
+        ],
+        "pethidine": []
+      },
+      "note": "Only products used for pain count. Exclude codeine cough preparations. Exclude Biodone Forte, Opod-P Liquid and Physeptone Liquid, which are registered for opioid dependence. For Opod-D Syrup, Physeptone tablets or an unspecified methadone product, count only confirmed use for pain. If the use or product is unclear, report at most a possible finding. Count Temgesic sublingual tablets for pain. Exclude buprenorphine supplied for opioid dependence."
+    },
+    {
+      "key": "B",
+      "name": "Benzodiazepines",
+      "ingredients": [
+        "alprazolam",
+        "bromazepam",
+        "clobazam",
+        "clonazepam",
+        "diazepam",
+        "lorazepam",
+        "midazolam",
+        "nitrazepam",
+        "oxazepam",
+        "temazepam",
+        "flunitrazepam"
+      ],
+      "brands": {
+        "alprazolam": [
+          "Xanax",
+          "Kalma",
+          "Alprax",
+          "Ralozam",
+          "Xanax Tri-Score",
+          "Zamhexal"
+        ],
+        "bromazepam": [
+          "Lexotan"
+        ],
+        "clobazam": [
+          "Frisium",
+          "Clobium"
+        ],
+        "clonazepam": [
+          "Rivotril",
+          "Paxam"
+        ],
+        "diazepam": [
+          "Valium",
+          "Antenex",
+          "Ducene",
+          "Ranzepam",
+          "Valpam"
+        ],
+        "lorazepam": [
+          "Ativan"
+        ],
+        "nitrazepam": [
+          "Mogadon",
+          "Alodorm"
+        ],
+        "oxazepam": [
+          "Serepax",
+          "Murelax",
+          "Alepam"
+        ],
+        "temazepam": [
+          "Temaze",
+          "Normison",
+          "Temtabs"
+        ],
+        "midazolam": [
+          "Zyamis"
+        ],
+        "flunitrazepam": [
+          "Hypnodorm"
+        ]
+      },
+      "note": "Sleeping tablets of the Z-drug type (zolpidem) are not benzodiazepines and do not count. For midazolam, count a buccal seizure rescue prescription, including Zyamis. Confirm whether and when a dose was given before reporting that the medicines were taken together."
+    }
+  ],
+  "rule_for_models": "For adults aged over 18 with chronic non-cancer pain, suspect a finding when a Group A opioid for pain and a Group B benzodiazepine have overlapping prescribed courses, whether short or long. Estimate each course from the supply date, quantity and directions, using an explicit start date, stop date or prescribed duration when given, and exclude documented separate courses, codeine cough preparations and opioid dependence treatment, including Biodone Forte, Opod-P Liquid and Physeptone Liquid. Use a pharmacist's methadone answer only for that course. If the other evidence could qualify, report at most a possible finding and ask the pharmacist to confirm any unknown age, unclear methadone product or pain indication, or whether these prescriptions were current together when dates and directions are unclear and the supplies fall within 60 days. A rescue dose need not have been taken for its prescription to overlap.",
+  "cannot_be_seen": "Whether the person takes both medicines on the same days, the doses actually taken, and the reasons for each medicine. Ask what each medicine is for and whether both were taken on the same days. For buccal midazolam, ask whether a rescue dose was given and when.",
+  "ask_the_gp": "A review of whether both medicines are needed together, and of the doses.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Reason for methadone treatment",
+      "meets": "Methadone was prescribed for pain in the course being reviewed. A different indication excludes this methadone supply. An unknown indication leaves it possible.",
+      "options": [
+        {
+          "words": "For pain in this course",
+          "effect": "meets"
+        },
+        {
+          "words": "For opioid dependence",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "For another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Timing of the opioid and benzodiazepine prescriptions under review",
+      "meets": "Ask only if the supplies are within 60 days and the dates and directions leave prescribed overlap unclear. Overlapping prescriptions qualify and separate courses do not. An unknown answer leaves this pair possible.",
+      "options": [
+        {
+          "words": "Prescribed for use at the same time",
+          "effect": "meets"
+        },
+        {
+          "words": "Prescribed for separate periods",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

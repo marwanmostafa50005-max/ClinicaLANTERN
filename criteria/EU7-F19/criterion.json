@@ -1,0 +1,38 @@
+{
+  "id": "EU7-F19",
+  "label": "EU(7)-PIM: ticlopidine, dipyridamole, prasugrel",
+  "family": "EU7",
+  "title": "Ticlopidine, dipyridamole or prasugrel in an older person",
+  "statement": "The EU(7)-PIM list names ticlopidine, dipyridamole and prasugrel as potentially inappropriate medicines for older people. Ticlopidine: a risk of altered blood counts. Dipyridamole: less effective than aspirin, with a risk of widened blood vessels and a fall in blood pressure on standing, and with proven benefit only for people with artificial heart valves. Prasugrel: an unfavourable balance of risk and benefit, especially at age 75 and older. As alternatives the list suggests clopidogrel, or aspirin below 325 mg.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Statement written by the entrant in plain words from three rows of the source table. A dose note for ticlopidine that the source marks as taken from Micromedex is left out. The authors have not reviewed this wording."
+  },
+  "plain_summary": "Ticlopidine, dipyridamole and prasugrel are antiplatelet medicines that the EU(7)-PIM list regards as poor choices for an older person: ticlopidine can alter blood counts, dipyridamole works less well than aspirin and can lower blood pressure on standing, and prasugrel has an unfavourable balance of risk and benefit. Ask whether the person still takes the medicine and why it was started, for example after a stent, stroke or heart valve replacement. Ask about unusual bruising or bleeding and, for dipyridamole, dizziness on standing.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Ticlopidine, dipyridamole and prasugrel",
+      "ingredients": ["ticlopidine", "dipyridamole", "prasugrel"],
+      "brands": {
+        "ticlopidine": ["Ticlid", "Tilodene"],
+        "dipyridamole": ["Persantin", "Persantin SR"],
+        "prasugrel": ["Effient", "Prasugrel Lupin"]
+      },
+      "note": "Exclude Asasantin SR and Diasp SR because both contain aspirin as well as dipyridamole. Persantin SR is a modified release capsule of dipyridamole alone. Exclude injectable dipyridamole. Confirm the form when a supply says only Persantin. Ticlid and Tilodene are ticlopidine tablets and may no longer be on the market. Clopidogrel (Plavix, Iscover), ticagrelor (Brilinta) and aspirin on its own are not in this group. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "rule_for_models": "At age 65 or older, flag and cite a supply of ticlopidine (including combinations), single-ingredient oral dipyridamole (including Persantin SR), or prasugrel. The published list highlights prasugrel at age 75 or older, but a finding from age 65 requires no weight or stroke history. If the supply could qualify and age is missing or the dipyridamole formulation is unclear, report only a possible finding and ask for the missing detail.",
+  "cannot_be_seen": "Why the medicine was chosen, for example a recent stent, a stroke or an artificial heart valve, and whether a specialist started it. Also blood count results, blood pressure on standing, any past bleeding, aspirin bought without a prescription, and medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "Whether this antiplatelet medicine is still the best choice for the patient, and when the need for it was last reviewed.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

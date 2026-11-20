@@ -1,0 +1,53 @@
+[
+  {
+    "file": "CKD-C10A/pos-fact.csv",
+    "kind": "positive",
+    "about": "Rosuvastatin 20 mg daily is supplied off dialysis with indexed creatinine clearance of 27 mL/min/1.73 m².",
+    "findings": [
+      {
+        "criterion": "CKD-C10A",
+        "must_cite": [
+          [
+            "L046"
+          ],
+          [
+            "L042"
+          ],
+          [
+            "L043"
+          ],
+          [
+            "L045"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CKD-C10A/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about indexed creatinine clearance at the documented medicine supply.",
+    "findings": [
+      {
+        "criterion": "CKD-C10A",
+        "must_cite": [
+          [
+            "L033"
+          ],
+          [
+            "L029"
+          ],
+          [
+            "L031"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CKD-C10A/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The patient is off dialysis and takes rosuvastatin 20 mg daily, but indexed creatinine clearance is exactly 30 mL/min/1.73 m².",
+    "findings": []
+  }
+]

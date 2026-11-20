@@ -1,0 +1,44 @@
+[
+  {
+    "file": "NHSBSA-GIB03/pos-brand.csv",
+    "kind": "positive",
+    "about": "Eliquis and Plavix are supplied by brand only on 6 June 2026 to an adult, with no listed gastro-protective medicine supplied in the record.",
+    "findings": [
+      {
+        "criterion": "NHSBSA-GIB03",
+        "must_cite": [
+          [
+            "L019"
+          ],
+          [
+            "L020"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "NHSBSA-GIB03/pos-buried.csv",
+    "kind": "positive",
+    "about": "The 6 February Coumadin supply and 12 February Cartia supply overlap in a 13-month history with no gastro-protective supply.",
+    "findings": [
+      {
+        "criterion": "NHSBSA-GIB03",
+        "must_cite": [
+          [
+            "L032"
+          ],
+          [
+            "L033"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "NHSBSA-GIB03/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Eliquis and Plavix are supplied together on 6 June 2026, but Somac is supplied on the same date, so the absent gastro-protection condition is not met.",
+    "findings": []
+  }
+]

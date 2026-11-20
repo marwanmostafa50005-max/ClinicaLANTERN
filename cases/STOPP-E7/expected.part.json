@@ -1,0 +1,59 @@
+[
+  {
+    "file": "STOPP-E7/pos-fact.csv",
+    "kind": "positive",
+    "about": "Kerendia is supplied by brand every four weeks, and the eGFR was 27 mL/min/1.73 m² during the first pack.",
+    "findings": [
+      {
+        "criterion": "STOPP-E7",
+        "must_cite": [
+          [
+            "L007",
+            "L012",
+            "L016",
+            "L020",
+            "L023",
+            "L028",
+            "L031",
+            "L035",
+            "L039",
+            "L043",
+            "L046",
+            "L051"
+          ],
+          [
+            "L008"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-E7/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about eGFR or any kidney result, and eplerenone (Inspra) is supplied monthly from January 2026.",
+    "findings": [
+      {
+        "criterion": "STOPP-E7",
+        "must_cite": [
+          [
+            "L005",
+            "L008",
+            "L011",
+            "L014",
+            "L016",
+            "L020",
+            "L022",
+            "L025"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-E7/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The eGFR was 30 before Kerendia and 38 during the later Aldactone course. Neither result is below 30 mL/min/1.73 m².",
+    "findings": []
+  }
+]

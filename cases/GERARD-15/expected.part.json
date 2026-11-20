@@ -1,0 +1,59 @@
+[
+  {
+    "file": "GERARD-15/pos-fact.csv",
+    "kind": "positive",
+    "about": "HbA1c is 6.6% during gliclazide and alogliptin/metformin treatment. Empagliflozin is supplied only for heart failure and leaves the diabetes ingredient count at three.",
+    "findings": [
+      {
+        "criterion": "GERARD-15",
+        "must_cite": [
+          [
+            "L002"
+          ],
+          [
+            "L040"
+          ],
+          [
+            "L041"
+          ],
+          [
+            "L042"
+          ],
+          [
+            "L043"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "GERARD-15/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: HbA1c is 6.6% during gliclazide and empagliflozin supply, but the record holds no line about whether the empagliflozin supplied on 20 May 2026 was part of diabetes treatment.",
+    "findings": [
+      {
+        "criterion": "GERARD-15",
+        "must_cite": [
+          [
+            "L002"
+          ],
+          [
+            "L025"
+          ],
+          [
+            "L026"
+          ],
+          [
+            "L027"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "GERARD-15/near-miss.csv",
+    "kind": "near_miss",
+    "about": "HbA1c is exactly 7.0% during concurrent gliclazide and metformin treatment.",
+    "findings": []
+  }
+]

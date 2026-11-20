@@ -1,0 +1,38 @@
+[
+  {
+    "file": "POPI-22/pos-brand.csv",
+    "kind": "positive",
+    "about": "A brand-only loperamide melt was supplied for diarrhoea at age two.",
+    "findings": [
+      {
+        "criterion": "POPI-22",
+        "must_cite": [
+          [
+            "L035"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "POPI-22/pos-buried.csv",
+    "kind": "positive",
+    "about": "A compounded loperamide supply for diarrhoea at age two appears midway through the history.",
+    "findings": [
+      {
+        "criterion": "POPI-22",
+        "must_cite": [
+          [
+            "L037"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "POPI-22/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Loperamide was supplied on the third birthday, outside this POPI age threshold.",
+    "findings": []
+  }
+]

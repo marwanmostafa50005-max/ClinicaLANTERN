@@ -1,0 +1,44 @@
+[
+  {
+    "file": "OPTIMISE-T2-12/pos-fact.csv",
+    "kind": "positive",
+    "about": "No antiplatelet is supplied in a year, and the record holds schizophrenia and peripheral arterial disease.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T2-12",
+        "must_cite": [
+          ["L002"],
+          ["L001"]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T2-12/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: \"Severe mental illness\" and \"Atherosclerotic cardiovascular disease\" are unconfirmed. Quetiapine is supplied. The patient reports buying aspirin and cannot confirm its purpose or schedule.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T2-12",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L008",
+            "L011",
+            "L015",
+            "L018",
+            "L021",
+            "L025"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T2-12/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Schizophrenia and coronary disease are documented. A current cardiology plan for coronary disease specifies apixaban alone.",
+    "findings": []
+  }
+]

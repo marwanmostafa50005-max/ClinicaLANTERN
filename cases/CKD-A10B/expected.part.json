@@ -1,0 +1,47 @@
+[
+  {
+    "file": "CKD-A10B/pos-fact.csv",
+    "kind": "positive",
+    "about": "Alogliptin 25 mg daily exceeds the 12.5 mg ceiling at a creatinine clearance of 44 mL/min.",
+    "findings": [
+      {
+        "criterion": "CKD-A10B",
+        "must_cite": [
+          [
+            "L002"
+          ],
+          [
+            "L045"
+          ],
+          [
+            "L047"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CKD-A10B/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about indexed eGFR for sitagliptin 100 mg daily.",
+    "findings": [
+      {
+        "criterion": "CKD-A10B",
+        "must_cite": [
+          [
+            "L002"
+          ],
+          [
+            "L033"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CKD-A10B/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Sitagliptin 100 mg daily meets the ceiling at an indexed eGFR of exactly 45 mL/min/1.73 m².",
+    "findings": []
+  }
+]

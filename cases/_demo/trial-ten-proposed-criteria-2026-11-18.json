@@ -1,0 +1,179 @@
+{
+ "startedAt": "2026-11-17T22:09:12.309Z",
+ "base": "http://127.0.0.1:8788",
+ "file": "cases/STOPP-C10/pos-brand.csv",
+ "caseId": "C0001",
+ "criteriaInUse": [
+  "STOPP-C10",
+  "STOPP-B3",
+  "STOPP-B13",
+  "STOPP-C14",
+  "STOPP-D18",
+  "STOPP-L2",
+  "STOPP-D8",
+  "STOPP-A3",
+  "STOPP-B11",
+  "PINCER-9"
+ ],
+ "timeline": [
+  {
+   "at": 0.1,
+   "now": "Model 1 is screening: criterion 1 of 10"
+  },
+  {
+   "at": 13.3,
+   "now": "Model 1 is screening: criterion 2 of 10"
+  },
+  {
+   "at": 17.1,
+   "now": "Model 1 is screening: criterion 3 of 10"
+  },
+  {
+   "at": 20,
+   "now": "Model 1 is screening: criterion 4 of 10"
+  },
+  {
+   "at": 22.3,
+   "now": "Model 1 is screening: criterion 5 of 10"
+  },
+  {
+   "at": 25.4,
+   "now": "Model 1 is screening: criterion 6 of 10"
+  },
+  {
+   "at": 27.9,
+   "now": "Model 1 is screening: criterion 7 of 10"
+  },
+  {
+   "at": 30.3,
+   "now": "Model 1 is screening: criterion 8 of 10"
+  },
+  {
+   "at": 32.9,
+   "now": "Model 1 is screening: criterion 9 of 10"
+  },
+  {
+   "at": 34.9,
+   "now": "Model 1 is screening: criterion 10 of 10"
+  },
+  {
+   "at": 37,
+   "now": "Model 2 is double-checking 1 finding"
+  },
+  {
+   "at": 71.9,
+   "now": "Idle"
+  }
+ ],
+ "patient": {
+  "label": "Fictional patient F-C10-01",
+  "age": 71,
+  "sex": "M"
+ },
+ "lines": 37,
+ "parts": 1,
+ "secondsImportToScreened": 37,
+ "secondsImportToChecked": 71.9,
+ "criteria": [
+  {
+   "criterionId": "STOPP-C10",
+   "status": "suspected",
+   "seconds": 13.2
+  },
+  {
+   "criterionId": "STOPP-B3",
+   "status": "clear",
+   "seconds": 3.7
+  },
+  {
+   "criterionId": "STOPP-B13",
+   "status": "clear",
+   "seconds": 2.8
+  },
+  {
+   "criterionId": "STOPP-C14",
+   "status": "clear",
+   "seconds": 2.5
+  },
+  {
+   "criterionId": "STOPP-D18",
+   "status": "clear",
+   "seconds": 3.1
+  },
+  {
+   "criterionId": "STOPP-L2",
+   "status": "clear",
+   "seconds": 2.4
+  },
+  {
+   "criterionId": "STOPP-D8",
+   "status": "clear",
+   "seconds": 2.3
+  },
+  {
+   "criterionId": "STOPP-A3",
+   "status": "clear",
+   "seconds": 2.5
+  },
+  {
+   "criterionId": "STOPP-B11",
+   "status": "clear",
+   "seconds": 2
+  },
+  {
+   "criterionId": "PINCER-9",
+   "status": "clear",
+   "seconds": 2.1
+  }
+ ],
+ "findings": [
+  {
+   "id": "F0001",
+   "caseId": "C0001",
+   "criterionId": "STOPP-C10",
+   "state": "confirmed",
+   "screen": {
+    "lineIds": [
+     "L001",
+     "L022"
+    ],
+    "medicines": [
+     "apixaban",
+     "meloxicam"
+    ],
+    "reason": "The patient was prescribed Eliquis (apixaban) and Mobic (meloxicam), which are a factor Xa inhibitor and an NSAID respectively, with overlapping supply dates.",
+    "linesVerified": true,
+    "model": "lantern-screen",
+    "at": "2026-11-17T22:09:12.304Z",
+    "seconds": 13.18
+   },
+   "seenByPharmacist": false,
+   "check": {
+    "confirmed": true,
+    "lineIds": [
+     "L001",
+     "L022"
+    ],
+    "whatMatches": "L001 (Eliquis/apixaban) was supplied on 2026-01-08 and L022 (Mobic/meloxicam) was supplied on 2026-06-17, which are within 60 days of each other (approx. 160 days apart is incorrect, wait: Jan 8 to Jun 17 is > 60 days. Let me re-read the rule: 'overlap or fall within 60 days of each other'. Jan 8 to Jun 17 is 160 days. This is NOT within 60 days. Let me check other lines. L022 is Jun 17. L019 is Jun 5. Jun 5 to Jun 17 is 12 days. L019 is Eliquis. L022 is Mobic. So L019 and L022 are within 60 days. The first step cited L001 and L022. L001 is Jan 8. L022 is Jun 17. That is not within 60 days. However, the rule says 'at least one Group A... AND at least one Group B... both appear... and their supply dates overlap or fall within 60 days'. It does not require the *specific* lines cited in the first step to be the *only* ones, but the finding is valid if *any* pair exists. The first step cited L001 and L022. Are they within 60 days? No. But is the finding valid? Yes, because L019 (Eliquis, Jun 5) and L022 (Mobic, Jun 17) are within 60 days. The prompt asks to confirm the finding unless the cited lines clearly do not contain the medicines or the rule is clearly not met. The rule IS met by L019 and L022. The cited lines L001 and L022 do contain the correct medicines, but the date proximity for *those specific two* is not met. However, usually in these tasks, if the finding is valid based on the history, we confirm it, but we should probably cite the lines that actually prove the 60-day rule. The instruction says 'line_ids (the lines that prove it)'. So I should provide the lines that actually satisfy the 60-day condition. L019 and L022 are the best pair. L023 (Jul 6) and L026 (Jul 16) are also within 60 days. L027 (Aug 4) and L030 (Aug 15) are within 60 days. L031 (Sep 3) and L034 (Sep 14) are within 60 days. The first step cited L001 and L022. L001 is Jan 8. L022 is Jun 17. That is not within 60 days. So the *cited* lines do not prove the rule via proximity. But the finding itself (that the patient has this combination) is true. The prompt says 'Confirm the finding unless the cited lines clearly do not contain the listed medicines or the rule is clearly not met'. The rule is met by other lines. The cited lines contain the correct medicines. I will confirm the finding but update the line_ids to the ones that actually satisfy the date constraint to be precise, or stick to the ones that show the interaction. Usually, the most recent or overlapping ones are best. L019 and L022 are 12 days apart. L023 and L026 are 10 days apart. I will use L019 and L022 as they are the first instance of the 60-day window.",
+    "whatCannotBeSeen": "A dispensing history shows when medicines were supplied but not when they were actually taken, so it cannot confirm if the patient was concurrently taking both medications at the same time.",
+    "completed": true,
+    "model": "lantern-check",
+    "at": "2026-11-17T22:09:49.083Z",
+    "seconds": 34.88
+   }
+  }
+ ],
+ "counts": {
+  "historiesScreened": 1,
+  "findingsConfirmed": 1,
+  "accepted": 0,
+  "bypassed": 0,
+  "lettersReady": 0,
+  "lettersSent": 0,
+  "repliesRecorded": 0,
+  "closed": 0,
+  "overdue": 0,
+  "bellBadge": 1,
+  "letterBadge": 0
+ }
+}

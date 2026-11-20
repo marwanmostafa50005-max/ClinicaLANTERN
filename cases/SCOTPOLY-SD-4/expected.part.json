@@ -1,0 +1,44 @@
+[
+  {
+    "file": "SCOTPOLY-SD-4/pos-brand.csv",
+    "kind": "positive",
+    "about": "Jardiance was supplied recently and the patient reports a current dehydrating illness.",
+    "findings": [
+      {
+        "criterion": "SCOTPOLY-SD-4",
+        "must_cite": [
+          [
+            "L033"
+          ],
+          [
+            "L036"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "SCOTPOLY-SD-4/pos-buried.csv",
+    "kind": "positive",
+    "about": "A recent dapagliflozin supply appears among other medicines and the patient reports a current febrile illness with reduced fluid intake.",
+    "findings": [
+      {
+        "criterion": "SCOTPOLY-SD-4",
+        "must_cite": [
+          [
+            "L023"
+          ],
+          [
+            "L035"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "SCOTPOLY-SD-4/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The patient recently received empagliflozin and reports eating and drinking normally without dehydration.",
+    "findings": []
+  }
+]

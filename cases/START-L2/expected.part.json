@@ -1,0 +1,38 @@
+[
+  {
+    "file": "START-L2/pos-fact.csv",
+    "kind": "positive",
+    "about": "On 2 October 2026 the complete history confirms no 21vPCV and exactly 12 calendar months since the only 20vPCV dose, so review is due.",
+    "findings": [
+      {
+        "criterion": "START-L2",
+        "must_cite": [
+          [
+            "L049"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-L2/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about pneumococcal vaccination and no pneumococcal vaccine is supplied.",
+    "findings": [
+      {
+        "criterion": "START-L2",
+        "must_cite": [
+          [
+            "L028"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-L2/near-miss.csv",
+    "kind": "near_miss",
+    "about": "At the 15 September 2026 assessment, 21vPCV is due on 16 September 2026, so there is no current omission.",
+    "findings": []
+  }
+]

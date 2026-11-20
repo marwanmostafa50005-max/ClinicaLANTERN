@@ -1,0 +1,56 @@
+{
+  "id": "EU7-F74",
+  "label": "EU(7)-PIM: bupropion, venlafaxine, reboxetine",
+  "family": "EU7",
+  "title": "Bupropion, venlafaxine or reboxetine in an older person",
+  "statement": "Bupropion | In lists: 5 (B) | Main reason: May lower seizure threshold | Dose adjustment/special considerations: Reduce dose and dosing frequency for older adults and patients with renal failure. M | Alternatives: Non-pharmacological treatment, SSRI (except PIM: fluoxetine, paroxetine, fluvoxamine)[e], mirtazapine[d], trazodone. E || Venlafaxine | In lists: does not appear as PIM | Main reason: Higher risk of all-cause mortality, attempted suicide, stroke, seizures, upper gastrointestinal bleeding, falls and fracture | Dose adjustment/special considerations: Start with 25-50 mg, two times per day and increase by 25 mg/dose; for extended-release formulation start with 37.5 mg once daily and increase by 37.5 mg every 4-7 days as tolerated. E Reduce the total daily dose by 25-50% in cases of mild to moderate renal failure. M | Alternatives: Non-pharmacological treatment, SSRI (except PIM: fluoxetine, paroxetine, fluvoxamine)[e], mirtazapine[d], trazodone. E || Reboxetine | In lists: does not appear as PIM | Main reason: Side effects (dry mouth, constipation, headache, drowsiness, dizziness, excessive sweating and insomnia). Higher risk of conduction disturbances, tachycardia, occasional atrial and ventricular ectopy | Dose adjustment/special considerations: Reduce dose in cases of renal failure; start with 2 mg two times per day in cases of renal failure; for older adults, reduce dose to 4-6 mg/d. M | Alternatives: Non-pharmacological treatment, SSRI (except PIM: fluoxetine, paroxetine, fluvoxamine)[e], mirtazapine[d], trazodone. E",
+  "statement_origin": "published",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "The European list flags all three medicines for review in older people. Bupropion can increase seizure risk and may be used to help stop smoking or, with naltrexone, for weight management. Venlafaxine is linked to falls, bleeding and stroke. Its listed dose reduction applies in mild to moderate kidney failure. Reboxetine can affect heart rhythm. The list advises lower doses of bupropion and reboxetine in older people.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Bupropion, venlafaxine and reboxetine (antidepressants)",
+      "ingredients": [
+        "bupropion",
+        "venlafaxine",
+        "reboxetine"
+      ],
+      "brands": {
+        "bupropion": [
+          "Zyban",
+          "Contrave"
+        ],
+        "venlafaxine": [
+          "Efexor-XR",
+          "Enlafax XR",
+          "Altven",
+          "Elaxine SR",
+          "Evelexa XR",
+          "Venfax SR",
+          "Venla",
+          "Venlexor XR"
+        ],
+        "reboxetine": [
+          "Edronax"
+        ]
+      },
+      "note": "Tablets and capsules count, extended-release forms too. Contrave is naltrexone with bupropion. Edronax tablets contain reboxetine. The list is for older people, so the rule uses age 65 or over."
+    }
+  ],
+  "rule_for_models": "Flag a supply of bupropion, venlafaxine or reboxetine from age 65 and calculate the daily dose from the strength and directions when possible. If age is unknown and a Group A medicine is supplied, report only a possible finding and ask the pharmacist to confirm whether the person is at least 65. For bupropion the list gives no fixed daily-dose cut-off. Ask the pharmacist and GP to review dose and frequency in light of the indication and kidney function. For reboxetine the European range in older people is 4 to 6 mg/day. Identify a dose above 6 mg/day as outside that range. A venlafaxine supply at age 65 or over is a confirmed finding even if the indication, kidney result and start date are all unknown. Use the formulation and any recorded indication for dose review. Do not infer a diagnosis from the supply. Compare the renal dose only with a dated kidney result relevant to the supply. Compare the starting dose only when a documented start date shows that the supply began treatment. Leave unsupported dose comparisons open. For any Group A supply with unclear directions, retain the age-eligible finding, say that the daily dose is unknown and ask the patient to confirm it. Do not infer an excessive dose.",
+  "cannot_be_seen": "Use a recorded indication and any dated kidney result relevant to the supply. Dispensing alone cannot establish the intended dose adjustment or the dose taken.",
+  "ask_the_gp": "Could you review why this medicine is being used and whether its dose suits the person’s indication and kidney function?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "EU7-F48",
+  "label": "EU(7)-PIM: pethidine",
+  "family": "EU7",
+  "title": "Pethidine in an older person",
+  "statement": "Pethidine (also called meperidine) is a medicine to avoid in older people. It raises the risk of falls, fractures, confusion, dependency and withdrawal. The 2015 list suggests a low starting dose, a short course and dose reduction in renal impairment. Australian DBL pethidine product information rules out continuous intravenous infusion and patient-controlled analgesia in people with renal impairment.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Statement written in plain words by ClinicaLANTERN from the EU(7)-PIM list row. The published row is not reproduced because part of its dose text is marked as taken from Micromedex and the rights are not settled."
+  },
+  "plain_summary": "Pethidine is a strong opioid pain medicine. In people aged 65 and over it can cause confusion, falls and dependency, and safer pain medicines exist.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Pethidine",
+      "ingredients": [
+        "pethidine"
+      ],
+      "brands": {
+        "pethidine": []
+      },
+      "note": "Also written meperidine. Australian supply is as an injection, so the history shows the ingredient name, often with a company name. No brand is listed."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when pethidine (meperidine) is supplied to a person aged 65 or over. If pethidine is supplied and age is unknown, report only a possible finding and ask the pharmacist to confirm whether the person is aged 65 or over. One supply is enough.",
+  "cannot_be_seen": "Why pethidine was needed (for example palliative care or a short hospital stay), kidney function, and how much pethidine was actually given or taken. Also medicines given in hospital or by another pharmacy.",
+  "ask_the_gp": "Whether pethidine is still needed and whether a safer pain medicine could replace it.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,135 @@
+{
+  "id": "START-E2",
+  "label": "START E2",
+  "family": "STOPP_START",
+  "title": "No phosphate binder for severe kidney disease with high phosphate",
+  "statement": "Phosphate binder in severe chronic kidney disease (i.e., eGFR < 30 ml/min/m²) if serum phosphate concentration persistently >1.76 mmol/l (5.5 mg/dl) despite adherence to renal diet.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A person with severe kidney disease whose blood phosphate stays high is not being supplied a phosphate binder such as sevelamer. START prints ml/min/m² here. The severe kidney disease threshold is indexed eGFR below 30 mL/min/1.73 m².",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Medicines that meet this criterion: phosphate binders",
+      "ingredients": [
+        "sevelamer",
+        "lanthanum",
+        "sucroferric oxyhydroxide",
+        "calcium carbonate",
+        "aluminium hydroxide"
+      ],
+      "brands": {
+        "sevelamer": [
+          "Renagel",
+          "Renvela"
+        ],
+        "lanthanum": [
+          "Fosrenol"
+        ],
+        "sucroferric oxyhydroxide": [
+          "Velphoro"
+        ],
+        "calcium carbonate": [
+          "Caltrate",
+          "Cal Sup",
+          "Cal-Sup",
+          "Cal-500",
+          "Cal-600",
+          "Bonecal",
+          "Cal-Care",
+          "Calci-Tab"
+        ],
+        "aluminium hydroxide": [
+          "Alu-Tab"
+        ]
+      },
+      "note": "Calcium carbonate counts only when taken with meals as a phosphate binder. An over-the-counter calcium supplement alone does not prove a binder is in use. Oral aluminium hydroxide counts only when the record identifies mealtime use as a phosphate binder. Antacid use does not clear a finding. If its purpose is unclear and the other evidence supports an omission, report only a possible finding and ask how and why it is taken. For each calcium carbonate brand, verify that the supplied product contains calcium carbonate and is used with meals to bind phosphate. A brand match alone does not establish protection."
+    },
+    {
+      "key": "B",
+      "name": "Medicines that can suggest a kidney indication when a separate record or the pharmacist confirms a chronic kidney disease diagnosis. The onset date may be unknown. Cite the diagnosis line with a qualifying supply for a possible finding. A supply alone cannot trigger this check.",
+      "ingredients": [
+        "alfacalcidol",
+        "calcitriol",
+        "cinacalcet"
+      ],
+      "brands": {
+        "alfacalcidol": [
+          "One-Alpha"
+        ],
+        "calcitriol": [
+          "Rocaltrol",
+          "Calciprox",
+          "Calitrol",
+          "Citrihexal",
+          "Kosteo",
+          "Sical",
+          "Sitriol"
+        ],
+        "cinacalcet": [
+          "Sensipar"
+        ]
+      },
+      "note": "These hint at severe kidney disease but not at the phosphate level. Exclude topical calcitriol, including skin ointment, as a renal treatment clue. A qualifying supply and a confirmed diagnosis can support a possible review when results are missing. The supply does not establish chronic kidney disease."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "eGFR",
+      "meets": "below 30 mL/min/1.73 m2"
+    },
+    {
+      "kind": "result",
+      "what": "Serum phosphate",
+      "meets": "A serum phosphate result above 1.76 mmol/L (5.5 mg/dL). Record the value in its reported unit and give its collection date if known."
+    },
+    {
+      "kind": "result",
+      "what": "Serum phosphate on another collection date",
+      "meets": "Another serum phosphate result above 1.76 mmol/L (5.5 mg/dL) on a different collection date. Record its original value and unit and its own collection date if known."
+    },
+    {
+      "kind": "observation",
+      "what": "Adherence to a renal diet",
+      "meets": "The renal diet was followed over the phosphate measurements used to establish persistence. If the diet was not followed over those measurements, this requirement is not met. If adherence or its timing is unknown, the review remains possible.",
+      "options": [
+        {
+          "words": "Followed the renal diet over the phosphate measurements being assessed",
+          "effect": "meets"
+        },
+        {
+          "words": "Did not follow the renal diet over that period",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "condition",
+      "what": "Chronic kidney disease",
+      "meets": "A record or the pharmacist confirms a diagnosis of chronic kidney disease, even if the onset date is unknown. The date the pharmacist entered the answer is not the date of diagnosis. With missing results, cite the diagnosis and one qualifying Group B supply for a possible review. A negative answer rules out this branch. An unknown answer leaves the diagnosis unresolved.",
+      "ask_when": {
+        "group": "B"
+      }
+    }
+  ],
+  "rule_for_models": "For a person confirmed to be 65 or older with no Group A phosphate binder supplied in the last six months counted back from the latest date in the record, a supported finding must cite a recorded diagnosis of chronic kidney disease or other evidence that kidney impairment is chronic. Also cite an eGFR below 30 mL/min/1.73 m², serum phosphate above 1.76 mmol/L (5.5 mg/dL) on at least two different collection dates and the record that the renal diet was followed over those results. If the other evidence fits but chronicity is unknown, report only a possible finding and name the missing fact \"Chronic kidney disease\". If the other evidence fits, report only a possible finding when adherence is unknown, the pharmacist questions whether the dated eGFR still applies or the phosphate elevation persists, or the purpose or timing of supplied calcium carbonate or oral aluminium hydroxide is unclear. Check binder cover first. A dated record linking that supply to mealtime use as a binder establishes cover. A documented different purpose rules out only that supply as a binder. If another qualifying binder already establishes cover, make no finding. Otherwise, if binder use is unclear, name the actual product and supply date in the possible finding and ask how and why that supply was taken. If results are missing in this age group and no binder was supplied in the last six months, report only a possible finding when the available facts meet the stated conditions, naming the missing facts as \"eGFR\", \"Serum phosphate\" or \"Adherence to a renal diet\" as applicable and citing both the chronic kidney disease diagnosis line and one Group B supply (alfacalcidol, non-topical calcitriol or cinacalcet). Accept a diagnosis confirmed in the record or by the pharmacist even if the onset date is unknown. Use the recorded clinical date when known. Do not use the date of entry as the date of diagnosis. For a medicine-led review, an undated counter confirmation and a qualifying Group B supply support only a possible finding unless separate evidence establishes chronic kidney disease for a supported finding. A Group B supply alone does not establish kidney disease. A negative diagnosis answer rules out the medicine-led branch. An unknown answer leaves the diagnosis unresolved. Make no finding if current evidence shows eGFR of 30 mL/min/1.73 m² or higher, phosphate that has not stayed above 1.76 mmol/L on serial results, or that the renal diet was not followed. For an otherwise eligible review, name \"Serum phosphate\" if no result is known. If one dated high result is known and persistence remains unresolved, keep the review possible and name \"Serum phosphate on another collection date\". Use each report once in its original unit with its own collection date. One high result, a repeat without a collection date, two entries from the same date, or a Not known answer leaves persistence unresolved. The counter entry date is never the collection date. Make no finding if the record gives a contraindication to binder treatment, another valid reason for omission or an end-of-life palliative focus. For a supported finding cite the eGFR, the diet evidence for the period assessed, at least two high phosphate results from distinct collection dates and the evidence of chronic kidney disease. For a medicine-led possible finding cite a qualifying Group B supply and the confirming diagnosis line.",
+  "cannot_be_seen": "The latest eGFR and phosphate results if they are not in the record, whether the person follows the renal diet, whether the person is on dialysis, whether the kidney team supplies the binder from a hospital, and whether a binder was tried and stopped.",
+  "ask_the_gp": "Could you review whether a phosphate binder is appropriate in light of the kidney function, phosphate results and renal diet history?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

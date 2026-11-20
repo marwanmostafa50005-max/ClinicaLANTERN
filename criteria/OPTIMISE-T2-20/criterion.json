@@ -1,0 +1,101 @@
+{
+  "id": "OPTIMISE-T2-20",
+  "label": "OPTIMISE T2-20",
+  "family": "OPTIMISE",
+  "title": "Thyroid blood test after starting levothyroxine",
+  "statement": "TFTs should be performed 4–6 weeks after starting levothyroxine and dose adjusted according to response. TSH is the most reliable marker of adequacy of replacement of treatment and a value within the reference range 0.4–4.0mIU/L) should be considered the therapeutic target",
+  "statement_origin": "published",
+  "source": {
+    "document": "Carolan A, et al. OPTIMISE. BMC Psychiatry 2022;22:585, Tables 2-3",
+    "citation": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "modification_notice": "Text reproduced as recorded by the earlier project and not yet compared with the publisher's page. Not endorsed by the source authors."
+  },
+  "plain_summary": "Check whether a thyroid stimulating hormone (TSH) sample was taken four to six weeks after levothyroxine was started. For primary thyroid hormone replacement, also review the response to a timely TSH outside the patient's treatment target.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Levothyroxine, the thyroid hormone tablet",
+      "ingredients": [
+        "levothyroxine"
+      ],
+      "brands": {
+        "levothyroxine": [
+          "Eutroxsig",
+          "Oroxine",
+          "Eltroxin",
+          "Levothox",
+          "Levoxine",
+          "Thyrox"
+        ]
+      },
+      "note": "Tablets count. The strength is in micrograms (mcg). Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "Serum TSH",
+      "meets": "Enter the measured TSH in mIU/L with the sample date. A sample on days 28 through 42 inclusive is timely. A first sample after day 42 is late if the record covers the window and has no timely or undated result. Missing, early-only or undated results leave timely testing uncertain. For primary replacement, compare a timely value with the applicable target."
+    },
+    {
+      "kind": "observation",
+      "what": "Documented response to an out-of-target TSH during primary replacement",
+      "meets": "Ask only for a timely out-of-target TSH during primary replacement. A confirmed outstanding response meets the dose branch. A documented appropriate response closes it. An unknown response leaves it possible.",
+      "options": [
+        {
+          "words": "Confirmed that an appropriate response is outstanding",
+          "effect": "meets"
+        },
+        {
+          "words": "An appropriate response is documented",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Treatment goal for levothyroxine",
+      "meets": "For a timely TSH, primary replacement calls for comparison with the applicable target. A different treatment goal closes the dose check only. An unknown goal or target leaves dose review open.",
+      "options": [
+        {
+          "words": "Primary replacement with the usual target of 0.4 to 4.0 mIU/L",
+          "effect": "meets"
+        },
+        {
+          "words": "Primary replacement with an individual TSH target",
+          "effect": "meets"
+        },
+        {
+          "words": "Primary replacement with an uncertain TSH target",
+          "effect": "meets"
+        },
+        {
+          "words": "A different treatment goal",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "result",
+      "what": "Individual TSH target (lower and upper bounds and unit)",
+      "meets": "Enter the documented lower and upper TSH limits in mIU/L, for example 1.0 to 3.0 mIU/L. Use the range applicable when the sample was taken. A value below the lower limit or above the upper limit calls for review of the response. An unknown range leaves dose review open."
+    }
+  ],
+  "rule_for_models": "Use the documented start of a new levothyroxine course (Group A) as day 0. If no other start is documented, use the first supply after at least three months of history without levothyroxine unless there is evidence that it was a refill or that treatment began on a different date. A continuation does not start a new window. If the start remains uncertain, including when the first visible supply has less prior history, report only a possible finding if follow-up could be overdue and identify the missing start date for that course. Add four weeks and six weeks to the start date and give both calendar dates in the reason. Compare each TSH sample date through the end of the record with these dates before assessing its value. A sample on or between these dates is timely (days 28 through 42 inclusive). A pre-start sample or a sample before day 28 cannot satisfy the check. Assess missing or late follow-up only after day 42 and only if the record covers the full window. If no timely sample is recorded and a result is undated, report a possible finding naming Serum TSH and ask for its sample date. Never use the counter entry date as the sample date. If there is no timely or undated result but there is a sample after day 42, report the first such sample as late even if the value is in range. Give the start date, sample date and interval. If there is no sample on or after day 28, report a possible finding naming Serum TSH and ask for the dated result. When only early post-start samples are recorded, cite an early sample. For a timely result, assess dose response only during primary replacement. A different treatment goal closes only the dose check. If the goal is unclear, report a possible dose finding naming Treatment goal for levothyroxine. Use the documented individual target, or 0.4 to 4.0 mIU/L when the usual target applies. Include both limits in the range. If the applicable range is unclear, report a possible dose finding naming Individual TSH target (lower and upper bounds and unit). Use only a goal and range that apply to this sample. A result within target closes the dose check. For a timely result outside target, cite it and any documented response. A documented appropriate response closes the dose check. A confirmed outstanding response gives a finding. If the response to this result is unclear, report a possible finding naming Documented response to an out-of-target TSH during primary replacement. When there are several courses or results, use a response only for the result it addresses. In the list of line IDs, give the first qualifying levothyroxine supply, then the separate dated start line if present and, for late follow-up, the first TSH result sampled after day 42.",
+  "cannot_be_seen": "Blood tests done by another doctor or laboratory that are not in this record, whether the person started taking the tablets on the day they were supplied, and any dose change written only in the doctor's notes. The record may omit a diagnosis of severe mental illness, the population studied in OPTIMISE.",
+  "ask_the_gp": "Whether a thyroid function test (TSH) has been done since levothyroxine was started, and whether the dose needs a review.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

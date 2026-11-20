@@ -1,0 +1,34 @@
+[
+  {
+    "file": "EU7-F05/pos-brand.csv",
+    "kind": "positive",
+    "about": "Maxolon (metoclopramide), by brand name only, is supplied five times from February to July 2026 to a 71-year-old man.",
+    "findings": [
+      {
+        "criterion": "EU7-F05",
+        "must_cite": [
+          ["L010", "L013", "L017", "L021", "L027"]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F05/pos-buried.csv",
+    "kind": "positive",
+    "about": "Motilium (domperidone) 10 mg is supplied four times from 13 January 2026 to 17 March 2026, in the middle of a 14-month history, with the direction TWO tablets three times a day, which is 60 mg a day and above the 30 mg limit.",
+    "findings": [
+      {
+        "criterion": "EU7-F05",
+        "must_cite": [
+          ["L029", "L030", "L034", "L040"]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F05/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Motilium (domperidone) 10 mg is supplied six times with the direction ONE tablet three times a day to a patient aged 67, which is 30 mg a day: equal to the limit, not above it, and no metoclopramide is supplied.",
+    "findings": []
+  }
+]

@@ -1,0 +1,262 @@
+{
+  "id": "START-D5",
+  "label": "START D5",
+  "family": "STOPP_START",
+  "title": "No SSRI for persistent severe anxiety",
+  "statement": "Selective serotonin reuptake inhibitor (or SNRI or pregabalin if SSRI contraindicated) for persistent severe anxiety that affects independent functioning and quality of life.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A person with persistent severe anxiety that affects daily life is not being supplied an SSRI (or an SNRI or pregabalin where an SSRI cannot be used).",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "SSRIs",
+      "ingredients": [
+        "citalopram",
+        "escitalopram",
+        "fluoxetine",
+        "fluvoxamine",
+        "paroxetine",
+        "sertraline"
+      ],
+      "brands": {
+        "citalopram": [
+          "Cipramil",
+          "Celapram",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talam",
+          "Talohexal"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam",
+          "Loxalate"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Zactin",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Paxtine",
+          "Aropax CR",
+          "Extine",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ],
+        "sertraline": [
+          "Zoloft",
+          "Setrona",
+          "Concorz",
+          "Detralon",
+          "Eleva",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Tralen",
+          "Xydep"
+        ]
+      },
+      "note": "SSRIs are the first choice in START D5."
+    },
+    {
+      "key": "B",
+      "name": "SNRIs and pregabalin",
+      "ingredients": [
+        "venlafaxine",
+        "desvenlafaxine",
+        "duloxetine",
+        "pregabalin"
+      ],
+      "brands": {
+        "venlafaxine": [
+          "Efexor-XR",
+          "Altven",
+          "Elaxine SR",
+          "Enlafax XR",
+          "Evelexa XR",
+          "Ozvenaf",
+          "Venfax SR",
+          "Venla",
+          "Venlexor XR"
+        ],
+        "desvenlafaxine": [
+          "Pristiq",
+          "Desfax",
+          "Desven"
+        ],
+        "duloxetine": [
+          "Cymbalta",
+          "Andepra",
+          "Baltine",
+          "Coperin",
+          "Deotine",
+          "Depreta",
+          "Drulox",
+          "Dulocym",
+          "Duloxecor",
+          "Dytrex",
+          "Symlox",
+          "Texotine",
+          "Tixol",
+          "Xerol DR"
+        ],
+        "pregabalin": [
+          "Lyrica",
+          "Adimis",
+          "Adirag",
+          "Adiris",
+          "Adrabalin",
+          "Adranuro",
+          "Adraprega",
+          "Algerika",
+          "Brillior",
+          "Cipgablin",
+          "Gabrica",
+          "Lypralin",
+          "Lyraccord",
+          "Lyrica CR",
+          "Lyrigalin",
+          "Lyrilin",
+          "Lyzalon",
+          "Neurica",
+          "Neuroccord",
+          "Prebalin",
+          "Pregabica",
+          "Pregaciplin",
+          "Pregaredi",
+          "Prelinaccord",
+          "Sudorega"
+        ]
+      },
+      "note": "Count an SNRI (venlafaxine, desvenlafaxine or duloxetine) or pregabalin only when an SSRI is contraindicated and the alternative is recorded as treatment for the qualifying anxiety. Pregabalin for anxiety is off-label in Australia (Lyrica product information, section 4.1)."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Persistent severe anxiety that affects independent functioning and quality of life",
+      "meets": "recorded as present",
+      "ask_when": "always",
+      "close_when": {
+        "group": "A",
+        "months": 6
+      }
+    },
+    {
+      "kind": "observation",
+      "what": "Suitability of SSRI treatment",
+      "meets": "The prescriber has documented a contraindication to SSRI treatment. A confirmed suitable SSRI rules out this exception. Missing documentation leaves suitability unknown.",
+      "options": [
+        {
+          "words": "The prescriber has documented a reason SSRIs cannot be used",
+          "effect": "meets"
+        },
+        {
+          "words": "The prescriber has confirmed that an SSRI can be used",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for treatment with an SNRI or pregabalin",
+      "meets": "At least one SNRI or pregabalin supplied in the last six months is used for the qualifying anxiety. If all such medicines are used only for another reason, this requirement is absent. An uncertain indication leaves it open. A dated indication that names this anxiety can confirm the reason for supply.",
+      "options": [
+        {
+          "words": "At least one SNRI or pregabalin supplied in the last six months was used for this anxiety",
+          "effect": "meets"
+        },
+        {
+          "words": "All of these medicines were used only for other reasons",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Current management plan for the qualifying anxiety",
+      "meets": "When an SSRI is contraindicated, review whether an SNRI or pregabalin is being used for the qualifying anxiety or there is a documented clinical reason to omit all suitable drug treatment.",
+      "options": [
+        {
+          "words": "No qualifying treatment and no agreed clinical reason to omit it",
+          "effect": "meets"
+        },
+        {
+          "words": "Qualifying alternative treatment for this anxiety is confirmed",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "A documented clinical reason supports omitting all suitable drug treatment",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply only to a person aged 65 years or older with documented persistent severe anxiety that impairs independent functioning and reduces quality of life. Cite the condition line. If it is unclear whether the anxiety is persistent, ask how long it has affected daily life and check the assessment with the treating doctor before reporting an omission. Make no finding for mild or short-lived anxiety, an absent anxiety diagnosis, an end-of-life palliative focus or a documented valid reason to omit all suitable drug treatment. Check supplies in the last six months counted back from the latest date in the record. If age is unknown, confirm it before reporting a finding. If an SSRI (Group A) was supplied in that period, return no finding and an empty citation list. If an SNRI or pregabalin (Group B) was supplied in that period, check both the SSRI contraindication and why each alternative was supplied. If an SSRI contraindication is documented and any of these alternatives was supplied for the qualifying anxiety, return no finding and an empty citation list. If an SSRI is documented as suitable, or an alternative was supplied only for another condition, that alternative does not count even if the other fact is unknown. Pregabalin for pain leaves the anxiety question open. If a supplied alternative could still qualify and either fact is unknown, report only a possible finding. Ask for whichever fact is missing, using the names Suitability of SSRI treatment and Reason for treatment with an SNRI or pregabalin. Only when an SSRI contraindication is confirmed and the record still leaves current management unclear, report a possible finding and name Current management plan for the qualifying anxiety. A confirmed SNRI or pregabalin for this anxiety during the review period gives no finding. A documented clinical reason to omit all suitable drug treatment also gives no finding. An unknown plan leaves the finding possible. Report an omission when there is no qualifying treatment and no valid clinical reason to omit it. Cite any supply and fact used to rule out an alternative. When an SNRI is already supplied, ask for a review without suggesting duplicate antidepressant therapy.",
+  "cannot_be_seen": "How severe the anxiety is and how it affects daily life, whether talking therapy is being used instead, whether an antidepressant was tried and stopped, why an SSRI might not be suitable, and any supply from another pharmacy.",
+  "ask_the_gp": "Whether treatment of the anxiety should be reviewed, including the reason for any current SNRI or pregabalin and the suitability of an SSRI.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "file": "EU7-F43/pos-brand.csv",
+    "kind": "positive",
+    "about": "Arcoxia (etoricoxib) 60 mg is supplied five times from April to July 2026 to a 69-year-old man, by brand name only.",
+    "findings": [
+      {
+        "criterion": "EU7-F43",
+        "must_cite": [
+          [
+            "L016",
+            "L020",
+            "L022",
+            "L028",
+            "L029"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F43/pos-buried.csv",
+    "kind": "positive",
+    "about": "Celecoxib 200 mg is supplied three times from January to March 2026, in the middle of a 16-month history of a 73-year-old woman.",
+    "findings": [
+      {
+        "criterion": "EU7-F43",
+        "must_cite": [
+          [
+            "L036",
+            "L041",
+            "L047"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F43/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Celebrex (celecoxib) 200 mg is supplied four times from March to June 2026, but the patient is a 57-year-old, below the older-person age of 65, so the criterion is not met.",
+    "findings": []
+  }
+]

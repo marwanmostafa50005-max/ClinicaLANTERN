@@ -1,0 +1,64 @@
+{
+  "id": "KHAWAGI-G028",
+  "label": "Khawagi review: Review amitriptyline above 75 mg/day in a person with a documented arrhythmia",
+  "family": "KHAWAGI",
+  "title": "Review amitriptyline above 75 mg/day in a person with a documented arrhythmia",
+  "statement": "Review amitriptyline above 75 mg/day in a person with a documented arrhythmia.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Khawagi et al. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. S3 File.",
+    "citation": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. PLoS ONE 2019;14(5):e0217406.",
+    "doi": "10.1371/journal.pone.0217406",
+    "url": "https://doi.org/10.1371/journal.pone.0217406.s003",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. PLoS ONE 2019;14(5):e0217406. https://doi.org/10.1371/journal.pone.0217406; S3 File, https://doi.org/10.1371/journal.pone.0217406.s003. © 2019 Khawagi et al., CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). S3 File, G028. Original screening wording and Australian adaptations. S3 reference(s) as indexed in the supplied qualification: [10]. Clinical cross-check: Khawagi review (https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0217406). Endep Australian PI (https://www.safetyandquality.gov.au/medicine-finder/endep).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "Review amitriptyline above 75 mg/day in a person with a documented arrhythmia.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Amitriptyline",
+      "ingredients": [
+        "amitriptyline"
+      ],
+      "brands": {
+        "amitriptyline": [
+          "Endep",
+          "Amichlor",
+          "Amidep",
+          "Entrip"
+        ]
+      },
+      "note": "Count oral amitriptyline. Exclude topical compounds used for local treatment. Do not convert an amount applied to the skin into a systemic daily dose."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Cardiac arrhythmia",
+      "meets": "A dated diagnosis or a pharmacist answer confirms an arrhythmia at this supply, including atrial fibrillation, atrial flutter or a ventricular arrhythmia. An isolated conduction disorder, long QT or postural hypotension does not qualify.",
+      "options": [
+        {
+          "words": "A diagnosed heart rhythm disorder applied at this supply",
+          "effect": "meets"
+        },
+        {
+          "words": "No heart rhythm disorder applied at this supply",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Report a finding for amitriptyline above 75 mg per day when a dated diagnosis or the pharmacist confirms cardiac arrhythmia at that supply, regardless of indication. This includes atrial fibrillation, atrial flutter and ventricular arrhythmia. Cite the dose evidence and the arrhythmia line. Give no finding at 75 mg per day or less or if arrhythmia is excluded. An isolated conduction disorder, long QT or postural hypotension does not establish arrhythmia. Multiply strength per tablet by tablets directed per day, or mg per mL by mL per day for an oral liquid. Add doses explicitly directed together. Use both ends of a range and do not assume a maximum or as-needed dose is taken. If the available evidence still fits and the dose could exceed 75 mg per day, report only a possible finding when dose or diagnosis is unclear. Name each missing fact, including the daily dose or whether there is a cardiac arrhythmia. Ask how much is taken each day and whether the patient has a diagnosed heart rhythm problem such as atrial fibrillation or flutter.",
+  "cannot_be_seen": "Dispensing does not establish actual use, indication or a prescriber’s intent. Treatment and assessments elsewhere may be missing.",
+  "ask_the_gp": "Could you confirm the intended daily dose and whether this patient has a cardiac arrhythmia, and review whether amitriptyline above 75 mg per day remains suitable?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

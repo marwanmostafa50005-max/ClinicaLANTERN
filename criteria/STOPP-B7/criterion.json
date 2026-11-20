@@ -1,0 +1,469 @@
+{
+  "id": "STOPP-B7",
+  "label": "STOPP B7",
+  "family": "STOPP_START",
+  "title": "Loop diuretic as the first medicine for high blood pressure",
+  "statement": "Loop diuretic as first-line treatment for hypertension unless there is concurrent heart failure requiring diuretic therapy (safer, more effective alternatives available).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A loop diuretic (water tablet) such as furosemide is not a good first choice for high blood pressure. Safer and more effective medicines exist. It is acceptable if the person also has heart failure that needs a water tablet.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Loop diuretics",
+      "ingredients": [
+        "furosemide",
+        "bumetanide",
+        "etacrynic acid"
+      ],
+      "brands": {
+        "furosemide": [
+          "Lasix",
+          "Urex",
+          "Urex Forte",
+          "Frusax",
+          "Frusehexal",
+          "Frusemix",
+          "Frusemix-M",
+          "Frusid",
+          "Furo",
+          "Lasix High Dose",
+          "Lasix M",
+          "Uremide",
+          "Urex-M"
+        ],
+        "bumetanide": [
+          "Burinex"
+        ],
+        "etacrynic acid": [
+          "Edecrin"
+        ]
+      },
+      "note": "Tablets, liquids and injections count. Generic packs that show the ingredient name with a company name count too. Recognise ethacrynic acid as another spelling of etacrynic acid."
+    },
+    {
+      "key": "B",
+      "name": "Other medicines used to treat hypertension",
+      "ingredients": [
+        "perindopril",
+        "ramipril",
+        "enalapril",
+        "lisinopril",
+        "candesartan",
+        "irbesartan",
+        "telmisartan",
+        "olmesartan",
+        "amlodipine",
+        "felodipine",
+        "lercanidipine",
+        "hydrochlorothiazide",
+        "indapamide",
+        "spironolactone",
+        "moxonidine",
+        "doxazosin",
+        "prazosin",
+        "valsartan",
+        "atenolol",
+        "bisoprolol",
+        "carvedilol",
+        "labetalol",
+        "metoprolol",
+        "nebivolol",
+        "propranolol",
+        "chlortalidone",
+        "nifedipine",
+        "diltiazem",
+        "verapamil",
+        "fosinopril",
+        "quinapril",
+        "trandolapril",
+        "losartan",
+        "clonidine",
+        "methyldopa",
+        "hydralazine",
+        "pindolol",
+        "oxprenolol",
+        "captopril",
+        "eprosartan",
+        "minoxidil"
+      ],
+      "brands": {
+        "perindopril": [
+          "Coversyl",
+          "Idaprex",
+          "Idaprex Arg",
+          "Indopril",
+          "Indosyl Mono",
+          "Ozapace",
+          "Perindo",
+          "Perindo Arg",
+          "Perindoarg",
+          "Perindobell",
+          "Perisyl",
+          "Prexum",
+          "Coversyl Plus",
+          "Coveram",
+          "Triplixam SR"
+        ],
+        "ramipril": [
+          "Tritace",
+          "Prilace",
+          "Ramace",
+          "Ramibell",
+          "Tryzan",
+          "Vascalace"
+        ],
+        "enalapril": [
+          "Renitec",
+          "Acetec",
+          "Alphapril",
+          "Amprace",
+          "Auspril",
+          "Elapril",
+          "Enahexal",
+          "Enalabell",
+          "Malean",
+          "Renitec M",
+          "Renitec Plus 20/6"
+        ],
+        "lisinopril": [
+          "Zestril",
+          "Fibsol",
+          "Linopril",
+          "Liprace",
+          "Lisinobell",
+          "Lisinotrust",
+          "Lisodrate",
+          "Lisodur",
+          "Lisoril",
+          "Ozten",
+          "Prinivil",
+          "Sinop",
+          "Zinopril"
+        ],
+        "candesartan": [
+          "Atacand",
+          "Adesan",
+          "Asartan",
+          "Candelem",
+          "Candesan",
+          "Atacand Plus"
+        ],
+        "irbesartan": [
+          "Avapro",
+          "Abisart",
+          "Ambotens",
+          "Avsartan",
+          "Irbesat",
+          "Irbestin",
+          "Irbetan",
+          "Irprestan",
+          "Karbesat",
+          "Karvea",
+          "Karvezide",
+          "Avapro HCT"
+        ],
+        "telmisartan": [
+          "Micardis",
+          "Mizart",
+          "Pritor",
+          "Telmigen",
+          "Teltartan",
+          "Micardis Plus",
+          "Twynsta"
+        ],
+        "olmesartan": [
+          "Olmetec",
+          "Olmertan",
+          "Olmes",
+          "Olmesart",
+          "Olsetan",
+          "Olmetec Plus",
+          "Sevikar"
+        ],
+        "amlodipine": [
+          "Norvasc",
+          "Amline",
+          "Amlo",
+          "Amlocor",
+          "Amlotrust",
+          "Amvas",
+          "Besidep",
+          "Nordip",
+          "Norvapine",
+          "Ozlodip",
+          "Perivasc"
+        ],
+        "felodipine": [
+          "Plendil"
+        ],
+        "lercanidipine": [
+          "Zanidip",
+          "Ledip",
+          "Lepine",
+          "Lercadip",
+          "Lercan",
+          "Zircol"
+        ],
+        "hydrochlorothiazide": [
+          "Dithiazide",
+          "Moduretic"
+        ],
+        "indapamide": [
+          "Natrilix SR",
+          "Dapa-Tabs",
+          "Indahexal",
+          "Indapamol",
+          "Insig",
+          "Napamide",
+          "Natrilix",
+          "Odaplix SR",
+          "Tenaxil SR"
+        ],
+        "spironolactone": [
+          "Aldactone",
+          "Spiractin"
+        ],
+        "moxonidine": [
+          "Physiotens",
+          "Moxotens",
+          "Normatens"
+        ],
+        "doxazosin": [
+          "Carduran"
+        ],
+        "prazosin": [
+          "Minipress",
+          "Pratsiol",
+          "Pressin"
+        ],
+        "valsartan": [
+          "Dilart",
+          "Diovan",
+          "Co-Diovan",
+          "Exforge"
+        ],
+        "atenolol": [
+          "Anselol",
+          "Atehexal",
+          "Aten",
+          "Atenolol (Aft)",
+          "Atenolol (Amneal)",
+          "Atenolol (An)",
+          "Atenolol (Apo)",
+          "Atenolol (Apx)",
+          "Atenolol (Blooms The Chemist)",
+          "Atenolol (Chemmart)",
+          "Atenolol (Ga)",
+          "Atenolol (Generic Health)",
+          "Atenolol (Genrx)",
+          "Atenolol (Gh)",
+          "Tenormin"
+        ],
+        "bisoprolol": [
+          "Beprol",
+          "Bicard",
+          "Bicor",
+          "Biso",
+          "Bisoprolol (An)",
+          "Bisoprolol (Apo)",
+          "Bisoprolol (Apotex)",
+          "Bisoprolol (Auro)",
+          "Bisoprolol (Cipla)",
+          "Bisoprolol (Dr. Reddy'S)",
+          "Bisoprolol (Generic Health)",
+          "Bisoprolol (Genrx)",
+          "Bisoprolol (Noumed)",
+          "Bisoprolol (Sandoz)"
+        ],
+        "carvedilol": [
+          "Carvedilol (An)",
+          "Carvedilol (Apo)",
+          "Carvedilol (As)",
+          "Carvedilol (Auro)",
+          "Carvedilol (Blooms The Chemist)",
+          "Carvedilol (Ch)",
+          "Carvedilol (Chemmart)",
+          "Carvedilol (Drla)",
+          "Carvedilol (Genepharm)",
+          "Carvedilol (Generic Health)",
+          "Carvedilol (Genrx)",
+          "Carvedilol (Gn)",
+          "Carvedilol (Sandoz)",
+          "Carvedilol (Scp)",
+          "Dilatrend"
+        ],
+        "labetalol": [
+          "Presolol",
+          "Trandate"
+        ],
+        "metoprolol": [
+          "Betaloc",
+          "Lopresor",
+          "Metatar",
+          "Metohexal",
+          "Metolol",
+          "Metoprolol (Actavis)",
+          "Metoprolol (An)",
+          "Metoprolol (Apo)",
+          "Metoprolol (Arx)",
+          "Metoprolol (Chemmart)",
+          "Metoprolol (Genrx)",
+          "Metoprolol (Noumed)",
+          "Metoprolol (Rbx)"
+        ],
+        "nebivolol": [
+          "Lobivon",
+          "Lobivon Composite Starter Titration Pack",
+          "Nebaloc",
+          "Nebilet",
+          "Nebilet Composite Starter Titration Pack",
+          "Nebivolol (Apo)",
+          "Nebivolol (Lupin)",
+          "Nebivolol (Sandoz)",
+          "Nebivolol (Viatris)",
+          "Nebivolol (Wgr)",
+          "Nepiten"
+        ],
+        "propranolol": [
+          "Deralin",
+          "Drofate",
+          "Inderal",
+          "Propranolol (Apo)",
+          "Propranolol (Blooms The Chemist)",
+          "Propranolol (Chemmart)",
+          "Propranolol (Viatris)",
+          "Propranolol (Wgr)"
+        ],
+        "chlortalidone": [
+          "Hygroton",
+          "Hygroton 25"
+        ],
+        "nifedipine": [
+          "Adalat Oros"
+        ],
+        "diltiazem": [
+          "Cardizem CD"
+        ],
+        "verapamil": [
+          "Isoptin SR"
+        ],
+        "fosinopril": [
+          "Fosinopril (Dp)",
+          "Fosinopril Sodium (Apo)",
+          "Fosinopril Sodium (Genrx)",
+          "Fosinopril Sodium (Sandoz)",
+          "Fosinopril Sodium (Winthrop)",
+          "Fosipril",
+          "Monace",
+          "Monopril"
+        ],
+        "quinapril": [
+          "Accupril"
+        ],
+        "trandolapril": [
+          "Gopten"
+        ],
+        "losartan": [
+          "Cozaar"
+        ],
+        "clonidine": [
+          "Catapres"
+        ],
+        "methyldopa": [],
+        "hydralazine": [],
+        "pindolol": [],
+        "oxprenolol": [
+          "Corbeton"
+        ],
+        "captopril": [],
+        "eprosartan": [
+          "Teveten",
+          "Teveten Plus"
+        ],
+        "minoxidil": [
+          "Loniten"
+        ]
+      },
+      "note": "Includes ACE inhibitors, angiotensin receptor blockers, calcium channel blockers, thiazide and similar diuretics, spironolactone, moxonidine and alpha-blockers. Count beta-blockers when their documented use was for hypertension. Generic packs that show the ingredient name with a company name count too. Recognise chlorthalidone as another spelling of chlortalidone. An earlier supply counts only if the record shows that it was used for hypertension before the loop diuretic. A combination name alone does not establish the indication. Recognise methyldopa, hydralazine and pindolol by ingredient where no brand is listed. Count oral minoxidil only when used for high blood pressure. Topical minoxidil does not count."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Reason for starting the loop diuretic",
+      "meets": "Hypertension was at least one reason for starting the loop diuretic. A diagnosis alone cannot establish its purpose. Check treatment order and whether heart failure required a diuretic when the loop was started.",
+      "options": [
+        {
+          "words": "The loop diuretic was used at least in part for high blood pressure",
+          "effect": "meets"
+        },
+        {
+          "words": "The loop diuretic was used solely for another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "condition",
+      "what": "Concurrent heart failure requiring a diuretic",
+      "meets": "The exception is absent if there was no heart failure at the start of loop treatment or if heart failure did not require a diuretic then. Heart failure that required a diuretic at that time excludes the finding. If this remains unclear and the finding is otherwise possible, report only a possible finding.",
+      "options": [
+        {
+          "words": "There was no heart failure when the loop diuretic was started",
+          "effect": "meets"
+        },
+        {
+          "words": "Heart failure was present but did not require a diuretic when the loop was started",
+          "effect": "meets"
+        },
+        {
+          "words": "Heart failure required a diuretic when the loop was started",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Blood pressure treatment tried before the loop diuretic",
+      "meets": "The loop diuretic was the first medicine tried for high blood pressure. Earlier treatment for high blood pressure clears the finding. If the sequence is unknown, report only a possible finding.",
+      "options": [
+        {
+          "words": "The loop diuretic was the first medicine used for hypertension",
+          "effect": "meets"
+        },
+        {
+          "words": "Another medicine was used for hypertension first",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Treatment order not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "For a person aged 65 or older, report a finding when a Group A loop diuretic was the first medicine used for hypertension and heart failure did not require a diuretic when the loop was started. Cite the loop supply and the facts showing its indication, treatment order and the absence of the heart failure exception. A hypertension diagnosis alone does not establish why the loop was started. Check the purpose and order of any medicines started on the same day. Report no finding under age 65, if hypertension is excluded, if the loop was used solely for another reason, if earlier hypertension treatment is documented, or if heart failure required a diuretic when the loop was started. If a loop was supplied and a finding is otherwise possible, report only a possible finding and cite the loop supply. Name age if unknown and name each unresolved fact by its exact name. Use \"Reason for starting the loop diuretic\" for an unclear indication, \"Blood pressure treatment tried before the loop diuretic\" for an unclear sequence, and \"Concurrent heart failure requiring a diuretic\" if the need for a diuretic for heart failure at the start of treatment is unclear.",
+  "cannot_be_seen": "Why the water tablet was started, and swelling or kidney and liver problems that are not in the record. A first-line blood pressure medicine supplied by another pharmacy or a hospital.",
+  "ask_the_gp": "A review of why the loop diuretic is used and whether a first-line blood pressure medicine would suit better.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

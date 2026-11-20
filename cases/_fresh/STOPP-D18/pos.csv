@@ -1,0 +1,7 @@
+patient_ref,patient_age,patient_sex,record_type,dispense_date,medicine,brand,strength,form,quantity,repeats_left,directions,prescriber,detail,value
+F-FR-D18-1,79,F,,2026-03-19,galantamine,Reminyl,8 mg,tablet,56,2,Take ONE tablet twice a day,Dr A. Example,,
+F-FR-D18-1,79,F,,2026-04-02,sotalol,Sotab,80 mg,tablet,30,2,Take ONE tablet twice a day,Dr B. Sample,,
+F-FR-D18-1,79,F,,2026-04-16,galantamine,Reminyl,8 mg,tablet,56,1,Take ONE tablet twice a day,Dr A. Example,,
+F-FR-D18-1,79,F,,2026-04-30,sotalol,Sotab,80 mg,tablet,30,1,Take ONE tablet twice a day,Dr B. Sample,,
+F-FR-D18-1,79,F,,2026-05-14,galantamine,Reminyl,8 mg,tablet,56,0,Take ONE tablet twice a day,Dr A. Example,,
+F-FR-D18-1,79,F,,2026-05-28,vitamin D,Ostelin,1000 IU,tablet,60,5,Take ONE tablet daily,Dr A. Example,,

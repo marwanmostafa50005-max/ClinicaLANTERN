@@ -1,0 +1,55 @@
+[
+  {
+    "file": "OPTIMISE-T2-03/pos-fact.csv",
+    "kind": "positive",
+    "about": "Schizophrenia and ischaemic heart disease are recorded. The latest atorvastatin regimen is 20 mg daily and the medication review identifies no qualifying reason for the lower dose.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T2-03",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L002"
+          ],
+          [
+            "L046"
+          ],
+          [
+            "L047"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T2-03/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: olanzapine suggests severe mental illness, but the diagnosis and vascular indication are undocumented and no statin is supplied.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T2-03",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L008",
+            "L011",
+            "L015",
+            "L018",
+            "L021",
+            "L025",
+            "L028"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T2-03/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Schizophrenia and ischaemic heart disease are recorded, and atorvastatin 40 mg once daily meets the high-intensity criterion.",
+    "findings": []
+  }
+]

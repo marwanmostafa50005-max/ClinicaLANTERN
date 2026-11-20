@@ -1,0 +1,41 @@
+[
+  {
+    "file": "FDADSC-4/pos-fact.csv",
+    "kind": "positive",
+    "about": "The pregnancy record on 6 July gives 32 weeks gestation, so the Naprosyn supply on 20 July was at 34 weeks.",
+    "findings": [
+      {
+        "criterion": "FDADSC-4",
+        "must_cite": [
+          [
+            "L031"
+          ],
+          [
+            "L028"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "FDADSC-4/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about Pregnancy at 20 weeks gestation or later, and Celebrex is supplied to a 29-year-old woman.",
+    "findings": [
+      {
+        "criterion": "FDADSC-4",
+        "must_cite": [
+          [
+            "L018"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "FDADSC-4/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Naprosyn was supplied on 17 June at 14 weeks gestation, two weeks after the 12-week pregnancy record on 3 June.",
+    "findings": []
+  }
+]

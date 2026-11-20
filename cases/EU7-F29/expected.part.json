@@ -1,0 +1,34 @@
+[
+  {
+    "file": "EU7-F29/pos-brand.csv",
+    "kind": "positive",
+    "about": "Guanethidine is supplied six times from January to September 2026 to a 75-year-old man, and it is shown by ingredient name because it has no Australian brand.",
+    "findings": [
+      {
+        "criterion": "EU7-F29",
+        "must_cite": [
+          ["L003", "L007", "L012", "L018", "L021", "L028"]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F29/pos-buried.csv",
+    "kind": "positive",
+    "about": "Guanethidine is supplied three times from December 2025 to March 2026 to a 67-year-old woman, in the middle of a 14-month history.",
+    "findings": [
+      {
+        "criterion": "EU7-F29",
+        "must_cite": [
+          ["L026", "L036", "L041"]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F29/near-miss.csv",
+    "kind": "near_miss",
+    "about": "No guanethidine is supplied: the record holds ordinary blood pressure medicines and one similar name, guaifenesin cough liquid (Robitussin Chesty Cough), so the criterion is not met.",
+    "findings": []
+  }
+]

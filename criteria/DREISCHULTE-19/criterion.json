@@ -1,0 +1,493 @@
+{
+  "id": "DREISCHULTE-19",
+  "label": "Dreischulte 19",
+  "family": "DREISCHULTE",
+  "title": "Oral NSAID with an ACE inhibitor or ARB and no diuretic in patients aged 65 or younger",
+  "statement": "Patient aged ≤65 treated with an ACEI or ARB but no diuretic - is co-prescribed an oral NSAID",
+  "statement_origin": "published",
+  "source": {
+    "document": "Quality and safety of medication use in primary care: consensus validation of a new set of explicit medication assessment criteria and prioritisation of topics for improvement",
+    "citation": "Dreischulte T, Grant AM, McCowan C, McAnaw JJ, Guthrie B. Quality and safety of medication use in primary care: consensus validation of a new set of explicit medication assessment criteria and prioritisation of topics for improvement. BMC Clinical Pharmacology. 2012;12:5.",
+    "doi": "10.1186/1472-6904-12-5",
+    "url": "https://link.springer.com/article/10.1186/1472-6904-12-5",
+    "licence": "Creative Commons Attribution 2.0 Generic (CC BY 2.0)",
+    "licence_status": "proposed",
+    "credit": "© 2012 Dreischulte et al., licensee BioMed Central Ltd. Dreischulte T, Grant AM, McCowan C, McAnaw JJ, Guthrie B. Quality and safety of medication use in primary care: consensus validation of a new set of explicit medication assessment criteria and prioritisation of topics for improvement. BMC Clinical Pharmacology. 2012;12:5. doi:10.1186/1472-6904-12-5. CC BY 2.0.",
+    "modification_notice": "The published statement is reproduced unchanged. GPT-6.2 Astra added the screening rule, medicine lists and fictional cases."
+  },
+  "plain_summary": "In a patient aged 65 or younger, an oral anti-inflammatory pain medicine may put kidney function at risk when taken with an ACE inhibitor or ARB and no diuretic.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Oral nonsteroidal anti-inflammatory drugs (NSAIDs)",
+      "ingredients": [
+        "aspirin",
+        "celecoxib",
+        "diclofenac",
+        "etoricoxib",
+        "ibuprofen",
+        "indometacin",
+        "ketoprofen",
+        "ketorolac",
+        "mefenamic acid",
+        "meloxicam",
+        "naproxen",
+        "piroxicam",
+        "sulindac"
+      ],
+      "brands": {
+        "aspirin": [
+          "Alka-Seltzer",
+          "Aspirin (Amcal)",
+          "Aspirin (Bayer)",
+          "Aspirin (Black & Gold)",
+          "Aspirin (Blooms The Chemist)",
+          "Aspirin (Chemmart)",
+          "Aspirin (Coles)",
+          "Aspirin (Dbl)",
+          "Aspirin (Guardian)",
+          "Aspirin (Mayne Pharma)",
+          "Aspirin (Pharmacy Choice)",
+          "Aspirin (Pharmacy Health)",
+          "Aspirin (Priceline Pharmacy)",
+          "Aspirin Ec (Amcal)",
+          "Disprin Original",
+          "Aspro Clear Regular Strength"
+        ],
+        "celecoxib": [
+          "Celebrex",
+          "Anacoxib",
+          "Celaxib",
+          "Celebrex Relief",
+          "Celetoid",
+          "Celexi",
+          "Celocox",
+          "Kudeq"
+        ],
+        "diclofenac": [
+          "Voltaren",
+          "Cambia",
+          "Clonac",
+          "Diclohexal",
+          "Difenac Rapid",
+          "Dinac",
+          "Fenac",
+          "Fenac EC",
+          "Imflac",
+          "Inflamax Liquid Caps",
+          "Voltaren Rapid",
+          "Voltaren Rapid Extra Strength",
+          "Voltaren Rapid Liquid Capsules",
+          "Voltfast",
+          "Zorvolex",
+          "Arthrotec"
+        ],
+        "etoricoxib": [
+          "Arcoxia"
+        ],
+        "ibuprofen": [
+          "Brufen",
+          "Act-3",
+          "Advil",
+          "Advil 12 Hour",
+          "Advil Childrens Pain and Fever 2 to 7 Years",
+          "Advil Childrens Pain and Fever 7 to 12 Years",
+          "Advil Childrens Pain and Fever Relief 2 to 12 Years",
+          "Advil Double Strength",
+          "Advil Double Strength Caplets",
+          "Advil Double Strength Liquid Capsules",
+          "Advil Infants Pain and Fever Relief 3 Months to 2 Years",
+          "Advil Mini Caps",
+          "Advil Rapid Release",
+          "Brufen Pain",
+          "Brufen Syrup",
+          "Bugesic",
+          "Butafen",
+          "Butalgin",
+          "Fenpaed",
+          "Fenpaed Double Strength",
+          "Iprofen",
+          "Nurofen Back Pain",
+          "Nurofen Caplet",
+          "Nurofen Double Strength",
+          "Nurofen Liquid Capsule",
+          "Nurofen Meltlets",
+          "Nurofen Migraine Pain",
+          "Nurofen Period Pain",
+          "Nurofen Quickzorb",
+          "Nurofen Regular",
+          "Nurofen Tension Headache",
+          "Nurofen Zavance",
+          "Nurofen Zavance Liquid Capsules",
+          "Nurofen for Children 1 to 5 Years",
+          "Nurofen for Children 3 Months to 5 Years",
+          "Nurofen for Children 5 to 12 Years",
+          "Nurofen for Children 7+ Years",
+          "Nurofen for Children Baby 3+ Months",
+          "Nurofen for Children Infant Drops",
+          "Nurofen for Children Meltlet",
+          "Panafen IB",
+          "Panafen IB Mini Cap",
+          "Proven",
+          "Rafen",
+          "Tri-Profen",
+          "Nurofen",
+          "Nurofen Plus",
+          "Panafen Plus",
+          "Nuromol",
+          "Maxigesic",
+          "Nuromol Dual Action Pain Relief"
+        ],
+        "indometacin": [
+          "Arthrexin",
+          "Indocid"
+        ],
+        "ketoprofen": [
+          "Orudis Sr",
+          "Oruvail Sr"
+        ],
+        "ketorolac": [
+          "Toradol"
+        ],
+        "mefenamic acid": [
+          "Femin",
+          "Mefenamic Acid (Mlabs)",
+          "Mefenamic Acid (Mlpl)",
+          "Mefic",
+          "Menamic",
+          "Ponstan"
+        ],
+        "meloxicam": [
+          "Meloxicam-WGR",
+          "Mobic",
+          "Movalis",
+          "Moxicam"
+        ],
+        "naproxen": [
+          "Naprosyn",
+          "Aleve",
+          "Aleve 24 Hour",
+          "Anaprox",
+          "Crysanal",
+          "Femme-Free",
+          "Inza",
+          "Naprofem",
+          "Naprogesic",
+          "Naprosyn SR",
+          "Naprosyn SR 1000",
+          "Nurolasts Period Pain",
+          "Proxen",
+          "Proxen SR",
+          "Vimovo"
+        ],
+        "piroxicam": [
+          "Candyl",
+          "Candyl-D",
+          "Feldene",
+          "Feldene-D",
+          "Mobilis",
+          "Mobilis D",
+          "Pirohexal-D",
+          "Piroxicam (Apo)",
+          "Piroxicam (Chemmart)",
+          "Piroxicam (Dwrn)",
+          "Piroxicam (Genrx)",
+          "Piroxicam (Terry White Chemists)"
+        ],
+        "sulindac": [
+          "Aclin"
+        ]
+      },
+      "note": "Count prescribed oral NSAIDs, including those in combination products. Exclude low-dose antiplatelet aspirin. Check the route. Gels applied to the skin, eye drops, suppositories and injections do not count. For Voltaren, Indocid, Feldene and Toradol, check that the supplied form is oral. For aspirin, check the strength, directions and intended use. If these do not distinguish pain or inflammation from antiplatelet use, ask the pharmacist to confirm before counting it."
+    },
+    {
+      "key": "B",
+      "name": "ACE inhibitors and angiotensin receptor blockers (ARBs)",
+      "ingredients": [
+        "captopril",
+        "enalapril",
+        "fosinopril",
+        "lisinopril",
+        "perindopril",
+        "quinapril",
+        "ramipril",
+        "trandolapril",
+        "candesartan",
+        "eprosartan",
+        "irbesartan",
+        "losartan",
+        "olmesartan",
+        "telmisartan",
+        "valsartan"
+      ],
+      "brands": {
+        "captopril": [
+          "Acenorm",
+          "Capoten",
+          "Captohexal",
+          "Captopril (Apo)",
+          "Captopril (Chemmart)",
+          "Captopril (Douglas)",
+          "Captopril (Genrx)",
+          "Captopril (Reach)",
+          "Captopril (Sandoz)",
+          "Captopril (Terry White Chemists)",
+          "Captopril (Wl)",
+          "Topace",
+          "Zedace"
+        ],
+        "enalapril": [
+          "Renitec",
+          "Acetec",
+          "Alphapril",
+          "Amprace",
+          "Auspril",
+          "Elapril",
+          "Enahexal",
+          "Enalabell",
+          "Malean",
+          "Renitec M",
+          "Zan-Extra"
+        ],
+        "fosinopril": [
+          "Fosinopril (Dp)",
+          "Fosinopril Sodium (Apo)",
+          "Fosinopril Sodium (Genrx)",
+          "Fosinopril Sodium (Sandoz)",
+          "Fosinopril Sodium (Winthrop)",
+          "Fosipril",
+          "Monace",
+          "Monopril"
+        ],
+        "lisinopril": [
+          "Fibsol",
+          "Linopril",
+          "Liprace",
+          "Lisinobell",
+          "Lisinopril (An)",
+          "Lisinopril (Apo)",
+          "Lisinopril (Apotex)",
+          "Lisinopril (Auro)",
+          "Lisinopril (Chemmart)",
+          "Lisinopril (Dm)",
+          "Lisinopril (Drla)",
+          "Lisinopril (Ga)",
+          "Lisinopril (Generic Health)",
+          "Lisinopril (Genrx)",
+          "Zestril",
+          "Prinivil"
+        ],
+        "perindopril": [
+          "Coversyl",
+          "Coversyl Plus LD",
+          "Idaprex",
+          "Idaprex Arg",
+          "Indopril",
+          "Indosyl Mono",
+          "Ozapace",
+          "Perindo",
+          "Perindo Arg",
+          "Perindoarg",
+          "Perindobell",
+          "Perisyl",
+          "Prexum",
+          "Coversyl Plus",
+          "Triplixam SR",
+          "Coveram",
+          "Reaptan",
+          "Coveram Plus SR",
+          "Reaptan Plus SR"
+        ],
+        "quinapril": [
+          "Accupril",
+          "Acquin",
+          "Aquinafil",
+          "Filpril",
+          "Qpril",
+          "Quinapril (Apo)",
+          "Quinapril (Chemmart)",
+          "Quinapril (Dp)",
+          "Quinapril (Ga)",
+          "Quinapril (Generic Health)",
+          "Quinapril (Genrx)",
+          "Quinapril (Pfizer)",
+          "Quinapril (Pharmacor)",
+          "Quinapril (Sandoz)"
+        ],
+        "ramipril": [
+          "Tritace",
+          "Prilace",
+          "Ramace",
+          "Ramibell",
+          "Tryzan",
+          "Vascalace"
+        ],
+        "trandolapril": [
+          "Dolapril",
+          "Gopten",
+          "Goricap",
+          "Odrik",
+          "Tranalpha",
+          "Trandolapril (Apo)",
+          "Trandolapril (Chemmart)",
+          "Trandolapril (Dp)",
+          "Trandolapril (Ga)",
+          "Trandolapril (Generic Health)",
+          "Trandolapril (Genrx)",
+          "Trandolapril (Pharmacor)",
+          "Trandolapril (Terry White Chemists)",
+          "Trandolapril (Viatris)",
+          "Tarka"
+        ],
+        "candesartan": [
+          "Atacand",
+          "Candesartan HCTZ AN",
+          "Adesan",
+          "Asartan",
+          "Candelem",
+          "Candesan",
+          "Atacand Plus"
+        ],
+        "eprosartan": [
+          "Teveten"
+        ],
+        "irbesartan": [
+          "Avapro",
+          "Abisart",
+          "Ambotens",
+          "Avsartan",
+          "Irbesat",
+          "Irbestin",
+          "Irbetan",
+          "Irprestan",
+          "Karbesat",
+          "Karvea",
+          "Avapro HCT",
+          "Karvezide"
+        ],
+        "losartan": [
+          "Cozaar",
+          "Cozavan",
+          "Losartan (Apo)"
+        ],
+        "olmesartan": [
+          "Olmesartan Ameda",
+          "Olmetec",
+          "Olmetec Plus",
+          "Sevikar",
+          "Sevikar HCT"
+        ],
+        "telmisartan": [
+          "Micardis",
+          "Mizart",
+          "Pritor",
+          "Telmigen",
+          "Teltartan",
+          "Micardis Plus",
+          "Twynsta"
+        ],
+        "valsartan": [
+          "Dilart",
+          "Diovan",
+          "Valsartan (Apo)",
+          "Valsartan (Apotex)",
+          "Entresto",
+          "Co-Diovan",
+          "Exforge",
+          "Exforge HCT",
+          "Dilart HCT"
+        ]
+      },
+      "note": "Count each ingredient of a combination tablet, including the valsartan in sacubitril with valsartan. Coversyl alone contains perindopril. Coversyl Plus LD also contains indapamide, so it counts in Groups B and C. Distinguish plain tablets from products marked Plus or HCT. Plain Sevikar and Exforge count in Group B only. Their HCT versions also count in Group C. Read the full product name, including Plus or HCT and any strength before SR. Plain Coveram and Reaptan count in Group B. Coveram Plus SR, Reaptan Plus SR and Dilart HCT each count in both B and C."
+    },
+    {
+      "key": "C",
+      "name": "Diuretics",
+      "ingredients": [
+        "amiloride",
+        "bumetanide",
+        "chlortalidone",
+        "eplerenone",
+        "furosemide",
+        "hydrochlorothiazide",
+        "indapamide",
+        "spironolactone",
+        "triamterene"
+      ],
+      "brands": {
+        "amiloride": [
+          "Kaluril",
+          "Moduretic"
+        ],
+        "bumetanide": [
+          "Burinex"
+        ],
+        "chlortalidone": [
+          "Hygroton"
+        ],
+        "eplerenone": [
+          "Eplerenone (An)",
+          "Eplerenone (Apo)",
+          "Eplerenone (Apotex)",
+          "Eplerenone (Viatris)",
+          "Espler",
+          "Inpler",
+          "Inspra",
+          "Plera"
+        ],
+        "furosemide": [
+          "Furosemide-WGR",
+          "Lasix",
+          "Urex",
+          "Uremide",
+          "APO-Frusemide"
+        ],
+        "hydrochlorothiazide": [
+          "Dithiazide",
+          "Candesartan HCTZ AN",
+          "Atacand Plus",
+          "Avapro HCT",
+          "Karvezide",
+          "Micardis Plus",
+          "Olmetec Plus",
+          "Co-Diovan",
+          "Sevikar HCT",
+          "Exforge HCT",
+          "Moduretic",
+          "Hydrene",
+          "Dilart HCT"
+        ],
+        "indapamide": [
+          "Natrilix",
+          "Natrilix SR",
+          "Coversyl Plus LD",
+          "Dapa-Tabs",
+          "Indahexal",
+          "Indapamol",
+          "Insig",
+          "Napamide",
+          "Odaplix SR",
+          "Tenaxil SR",
+          "Coversyl Plus",
+          "Triplixam SR",
+          "Coveram Plus SR",
+          "Reaptan Plus SR"
+        ],
+        "spironolactone": [
+          "Aldactone",
+          "Spiractin"
+        ],
+        "triamterene": [
+          "Hydrene"
+        ]
+      },
+      "note": "Include loop, thiazide, thiazide-like and potassium-sparing diuretics. Count the hydrochlorothiazide in a combination tablet such as Candesartan HCTZ AN. It counts in Groups B and C. Hydrene supplies both triamterene and hydrochlorothiazide. Frusemide is an older spelling of furosemide."
+    }
+  ],
+  "rule_for_models": "For a patient aged 65 or younger, report and cite a prescribed oral NSAID and an ACE inhibitor or ARB if they overlap on at least one day with no diuretic treatment evident on that day. Check every ingredient and use dates, directions, quantities and documented starts or stops, including earlier supplies that still cover the episode. Give no finding if the required courses do not overlap, the diuretic covers every common day, or the patient is outside the age range. If the pattern could qualify but age, indication or treatment dates are unclear, cite the relevant supplies, report a possible finding and ask only for the missing detail.",
+  "cannot_be_seen": "Medicines obtained elsewhere or bought without a prescription are missing from this record. The supplies cannot show which doses the person took or how the medicines affected kidney function.",
+  "ask_the_gp": "Could you review the need for the oral NSAID, check for supplies from other sources and review the latest kidney function?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

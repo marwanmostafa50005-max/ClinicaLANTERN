@@ -1,0 +1,267 @@
+{
+  "id": "START-B9",
+  "label": "START B9",
+  "family": "STOPP_START",
+  "title": "Sacubitril with valsartan not tried in heart failure",
+  "statement": "Sacubitril/valsartan in heart failure with reduced ejection fraction causing persistent heart failure symptoms despite optimal dose of ACE inhibitor or Angiotensin Receptor Blocker (Sacubitril/valsartan to replace ACE inhibitor or Angiotensin Receptor Blocker).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A person with heart failure and a weak pumping heart who still has symptoms on a full dose of an ACE inhibitor or an angiotensin receptor blocker may do better if sacubitril with valsartan replaces it. This check looks for a person with that condition who stays on the older medicine.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Medicines that meet this criterion: sacubitril with valsartan",
+      "ingredients": [
+        "sacubitril with valsartan",
+        "sacubitril + valsartan"
+      ],
+      "brands": {
+        "sacubitril with valsartan": [
+          "Entresto",
+          "Omtralo",
+          "Valtresto"
+        ],
+        "sacubitril + valsartan": [
+          "Entresto",
+          "Omtralo",
+          "Valtresto"
+        ]
+      },
+      "note": "Entresto is a combination of sacubitril and valsartan. Omtralo and Valtresto also contain both ingredients. Count a generic pack labelled with both ingredients."
+    },
+    {
+      "key": "B",
+      "name": "ACE inhibitors and angiotensin receptor blockers (the medicines it would replace)",
+      "ingredients": [
+        "ramipril",
+        "perindopril",
+        "enalapril",
+        "lisinopril",
+        "captopril",
+        "quinapril",
+        "trandolapril",
+        "fosinopril",
+        "candesartan",
+        "irbesartan",
+        "telmisartan",
+        "valsartan",
+        "losartan",
+        "olmesartan",
+        "eprosartan"
+      ],
+      "brands": {
+        "ramipril": [
+          "Tritace",
+          "Ramace",
+          "Prilace",
+          "Ramibell",
+          "Tryzan",
+          "Vascalace",
+          "Triasyn"
+        ],
+        "perindopril": [
+          "Coversyl",
+          "Coversyl Plus",
+          "Idaprex",
+          "Idaprex Arg",
+          "Indopril",
+          "Indosyl Mono",
+          "Ozapace",
+          "Perindo",
+          "Perindo Arg",
+          "Perindoarg",
+          "Perindobell",
+          "Perisyl",
+          "Prexum",
+          "Coveram"
+        ],
+        "enalapril": [
+          "Renitec",
+          "Acetec",
+          "Alphapril",
+          "Amprace",
+          "Auspril",
+          "Elapril",
+          "Enahexal",
+          "Enalabell",
+          "Malean",
+          "Renitec M"
+        ],
+        "lisinopril": [
+          "Zestril",
+          "Prinivil",
+          "Fibsol",
+          "Linopril",
+          "Liprace",
+          "Lisinobell",
+          "Lisinotrust",
+          "Lisodrate",
+          "Lisodur",
+          "Lisoril",
+          "Ozten",
+          "Sinop",
+          "Zinopril"
+        ],
+        "captopril": [
+          "Capoten",
+          "Acenorm",
+          "Captohexal",
+          "Topace",
+          "Zedace"
+        ],
+        "quinapril": [
+          "Accupril",
+          "Acquin",
+          "Aquinafil",
+          "Filpril",
+          "Qpril",
+          "Accuretic"
+        ],
+        "trandolapril": [
+          "Gopten",
+          "Dolapril",
+          "Goricap",
+          "Odrik",
+          "Tranalpha",
+          "Tarka"
+        ],
+        "fosinopril": [
+          "APO-Fosinopril",
+          "Monopril",
+          "Monace 20"
+        ],
+        "candesartan": [
+          "Atacand",
+          "Adesan",
+          "Asartan",
+          "Candelem",
+          "Candesan",
+          "Atacand Plus"
+        ],
+        "irbesartan": [
+          "Avapro",
+          "Abisart",
+          "Ambotens",
+          "Avsartan",
+          "Irbesat",
+          "Irbestin",
+          "Irbetan",
+          "Irprestan",
+          "Karbesat",
+          "Karvea",
+          "Avapro HCT",
+          "Karvezide"
+        ],
+        "telmisartan": [
+          "Micardis",
+          "Mizart",
+          "Pritor",
+          "Telmigen",
+          "Teltartan",
+          "Micardis Plus",
+          "Twynsta"
+        ],
+        "valsartan": [
+          "Diovan",
+          "Dilart",
+          "Co-Diovan",
+          "Exforge"
+        ],
+        "losartan": [
+          "Cozaar",
+          "Cozavan"
+        ],
+        "olmesartan": [
+          "Olmetec",
+          "Olmertan",
+          "Olmes",
+          "Olmesart",
+          "Olsetan",
+          "Olmetec Plus",
+          "Sevikar"
+        ],
+        "eprosartan": [
+          "Teveten",
+          "Teveten Plus"
+        ]
+      },
+      "note": "Combination products that contain one of these (for example Coversyl Plus with indapamide) count. Valsartan on its own counts here, but sacubitril with valsartan does not."
+    },
+    {
+      "key": "C",
+      "name": "Medicines that imply heart failure",
+      "ingredients": [
+        "ivabradine"
+      ],
+      "brands": {
+        "ivabradine": [
+          "Coralan",
+          "Caranor",
+          "Cobadine",
+          "Coralide"
+        ]
+      },
+      "note": "Ivabradine is used for chronic heart failure. A supply suggests heart failure when the record holds no line about it, but it is not proof."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Heart failure with reduced ejection fraction",
+      "meets": "A condition line for heart failure with reduced ejection fraction, or a left ventricular ejection fraction result of 40% or less"
+    },
+    {
+      "kind": "observation",
+      "what": "Ongoing symptoms from heart failure",
+      "meets": "A clinical review or the pharmacist confirms that heart failure symptoms persist on the current ACE inhibitor or ARB dose. Resolved or absent symptoms do not meet this requirement. An unknown answer leaves it open.",
+      "options": [
+        {
+          "words": "Heart failure symptoms persist on the current ACE inhibitor or ARB dose",
+          "effect": "meets"
+        },
+        {
+          "words": "Heart failure symptoms have resolved or are absent on this dose",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Best tolerated ACE inhibitor or ARB dose",
+      "meets": "A clinical review or the pharmacist confirms that the prescriber considers the current dose optimal or the highest tolerated. A lower dose still being adjusted does not qualify. The dispensed strength alone cannot establish this.",
+      "options": [
+        {
+          "words": "The prescriber has confirmed this is the optimal or highest tolerated dose",
+          "effect": "meets"
+        },
+        {
+          "words": "The current dose is below the best tolerated dose or is still being adjusted",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this criterion only to people aged 65 years or older. If age is unknown, confirm it before reporting a finding. Make no finding if the record documents end-of-life care focused on comfort, a contraindication to sacubitril with valsartan, or another valid clinical reason to omit it. Suspect a finding when the record shows heart failure with reduced ejection fraction, regular Group B supply in the last six months, persistent heart failure symptoms despite the best tolerated Group B dose, and no Group A supply in that period. Cite the heart failure evidence, the in-window supplies and the lines confirming symptoms and dose. A recorded assessment or a pharmacist's answer about the current treatment can confirm each qualifier. Use supply dates, quantities and directions to assess regular use. If regular supply is the only uncertain requirement, report only a possible finding and ask the pharmacist to assess the pattern. If symptoms or dose are unclear, report only a possible finding. Ask about breathlessness or swelling only if ongoing symptoms are unclear. Ask whether the prescriber is still adjusting the ACE inhibitor or ARB dose only if the best tolerated dose is unclear. If symptoms have resolved or are absent, or the dose is below the best tolerated dose or still being adjusted, there is no B9 omission. When reduced-ejection-fraction heart failure is undocumented, ivabradine suggests the diagnosis, Group B is supplied regularly in the last six months and Group A is absent in that period, report only a possible finding. Cite an ivabradine supply, an in-window Group B supply and any lines confirming symptoms or dose. Name only the facts still missing, using their question names: Heart failure with reduced ejection fraction, Ongoing symptoms from heart failure, or Best tolerated ACE inhibitor or ARB dose. An unknown answer leaves that requirement open. A confirmed absence of reduced-ejection-fraction heart failure rules out the omission. When a Group A medicine is supplied in the last six months, or no Group B medicine is supplied, there is no finding.",
+  "cannot_be_seen": "Whether symptoms persist, whether the ACE inhibitor or angiotensin receptor blocker is at the best dose the person can tolerate, blood pressure, potassium and kidney function, and past swelling of the face or throat (angioedema).",
+  "ask_the_gp": "If symptoms on the current ACE inhibitor or angiotensin receptor blocker are unclear, could you confirm whether they persist? If symptoms persist on the best tolerated dose, has a change to sacubitril with valsartan been considered? If the record does not show it, please also confirm the heart failure diagnosis and ejection fraction.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

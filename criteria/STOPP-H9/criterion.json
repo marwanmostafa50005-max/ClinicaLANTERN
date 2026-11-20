@@ -1,0 +1,169 @@
+{
+  "id": "STOPP-H9",
+  "label": "STOPP H9",
+  "family": "STOPP_START",
+  "title": "Long-term opioid for osteoarthritis",
+  "statement": "Long-term opioids for osteoarthritis (lack of evidence of efficacy, increased risk of serious side-effects).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Opioid pain medicines used for months for osteoarthritis have little proof of benefit and a higher risk of serious side effects.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Opioid pain medicines",
+      "ingredients": [
+        "tramadol",
+        "tapentadol",
+        "oxycodone",
+        "morphine",
+        "codeine",
+        "buprenorphine",
+        "fentanyl",
+        "hydromorphone",
+        "methadone"
+      ],
+      "brands": {
+        "tramadol": [
+          "Tramal",
+          "Tramal SR",
+          "Zydol",
+          "Durotram XR",
+          "Iptramol",
+          "Lodam",
+          "Lodam SR",
+          "Tramahexal",
+          "Tramahexal SR",
+          "Tramal Drops",
+          "Tramedo",
+          "Tramedo SR",
+          "Zydol SR"
+        ],
+        "tapentadol": [
+          "Palexia",
+          "Palexia SR",
+          "Lodat SR",
+          "Palexia IR",
+          "Tadol IR",
+          "Tadol SR",
+          "Tapal IR",
+          "Tapal SR",
+          "Tapex IR",
+          "Tapex SR",
+          "Tapexia",
+          "Tapexia SR"
+        ],
+        "oxycodone": [
+          "OxyContin",
+          "OxyNorm",
+          "Endone",
+          "Targin",
+          "Endone XR",
+          "Novacodone",
+          "Oxycodor",
+          "Oxycone",
+          "Oxylenus",
+          "Oxylieve MR",
+          "Oxyndone",
+          "Xedone"
+        ],
+        "morphine": [
+          "MS Contin",
+          "Kapanol",
+          "Sevredol",
+          "Anamorph",
+          "MS Contin Suspension",
+          "MS Mono",
+          "MS Normal",
+          "Momex SR",
+          "Ordine",
+          "RA-Morph"
+        ],
+        "codeine": [
+          "Panadeine Forte",
+          "Codalgin Forte",
+          "Codphos",
+          "Comfarol Forte",
+          "Nurofen Plus"
+        ],
+        "buprenorphine": [
+          "Norspan",
+          "Temgesic"
+        ],
+        "fentanyl": [
+          "Durogesic",
+          "Denpax",
+          "Fenpatch"
+        ],
+        "hydromorphone": [
+          "Jurnista",
+          "Dilaudid",
+          "Palladone XL"
+        ],
+        "methadone": [
+          "Physeptone"
+        ]
+      },
+      "note": "Targin is oxycodone with naloxone. Panadeine Forte, Codalgin Forte and Comfarol Forte contain codeine with paracetamol. Nurofen Plus contains codeine with ibuprofen. Exclude codeine cough mixtures such as Actacode Linctus. Tablets, capsules, liquids and skin patches count. Exclude opioid injections and buprenorphine formulations for opioid dependence, including Subutex, Subutex FDT, Bupradex, Buvidal Weekly, Buvidal Monthly and Sublocade. Generic packs that show the ingredient name with a company name count too. Methadone tablets used for pain count. Exclude methadone used for opioid dependence, including oral liquids supplied for that purpose. If the reason is unclear, ask what the course treated."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Osteoarthritis",
+      "meets": "An osteoarthritis line is recorded"
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for this opioid course",
+      "meets": "This opioid course treated osteoarthritis pain. A course solely for another pain or for opioid dependence is excluded.",
+      "options": [
+        {
+          "words": "Osteoarthritis pain",
+          "effect": "meets"
+        },
+        {
+          "words": "Solely another reason, including opioid dependence",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Actual opioid use during this course for osteoarthritis",
+      "meets": "The patient took the opioid regularly for osteoarthritis across the qualifying course.",
+      "options": [
+        {
+          "words": "Taken regularly for osteoarthritis over this course",
+          "effect": "meets"
+        },
+        {
+          "words": "Used only in short or intermittent courses",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Exclude unused packs and supplies documented solely for another reason, including opioid dependence, then assess earlier fills separately unless the record also links them to that exclusion. Suspect regular Group A opioid use for osteoarthritis at age 65 or older when the first and last remaining fills are more than 90 days apart with no gap over 60 days, unless osteoarthritis is ruled out or use was only short or intermittent. Cite the first, intervening and last supplies showing that pattern and any lines linking regular use to osteoarthritis pain, and report a possible finding asking only for the missing facts if age, diagnosis, purpose or regular use is unclear.",
+  "cannot_be_seen": "Why the opioid was started, because it may be for cancer pain or another pain. Also how often it is really taken, any plan to reduce it, and medicines supplied by another pharmacy.",
+  "ask_the_gp": "Whether the opioid is still needed for the osteoarthritis pain, and whether it can be reduced or replaced.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,78 @@
+{
+  "id": "KHAWAGI-G172",
+  "label": "Khawagi review: Review an unchanged or higher lithium dose after a correctly timed trough above the patient's documented target",
+  "family": "KHAWAGI",
+  "title": "Review an unchanged or higher lithium dose after a correctly timed trough above the patient's documented target",
+  "statement": "Review an unchanged or higher lithium dose after a correctly timed trough above the patient's documented target.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. S3 File.",
+    "citation": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. PLoS ONE 2019;14(5):e0217406, S3 File.",
+    "doi": "10.1371/journal.pone.0217406",
+    "url": "https://doi.org/10.1371/journal.pone.0217406.s003",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. PLoS ONE 2019;14(5):e0217406. https://doi.org/10.1371/journal.pone.0217406; S3 File, https://doi.org/10.1371/journal.pone.0217406.s003. © 2019 Khawagi et al., CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Changes were made. S3 indicator G172. Original screening wording and Australian adaptations. S3 reference(s) as indexed in the supplied qualification: [15]. Clinical cross-check: WA lithium guideline §§2.7–2.8 (https://www.wacountry.health.wa.gov.au/~/media/WACHS/Documents/About-us/Policies/Specialised-Medication---Lithium-Guideline.pdf?thn=0). Lithium monitoring around interactions (https://australianprescriber.tg.org.au/articles/lithium-therapy-and-its-interactions.html).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "Review an unchanged or higher lithium dose after a correctly timed trough above the patient's documented target.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Lithium",
+      "ingredients": [
+        "lithium carbonate"
+      ],
+      "brands": {
+        "lithium carbonate": [
+          "Lithicarb",
+          "Quilonum SR",
+          "Lithicarb SR",
+          "Lithquil SR",
+          "Lithspen"
+        ]
+      },
+      "note": "Count systemic lithium, including a supply labelled simply lithium."
+    }
+  ],
+  "rule_for_models": "For a finding, require a dated lithium trough strictly above the documented upper target for this patient and phase, followed by an unchanged or higher comparable dose with no recorded hold or review plan. No measured level, a known mistimed sample, a level at or below target, a reduced dose, or a recorded hold or review plan gives no finding under this criterion. For the standard trough, check that the sample was taken about 12 hours after the last dose and before the next dose, or use the prescribed sampling schedule for this formulation. Use sampling evidence and the prescribed target for this result and treatment phase only. A target alone is not a measured level. Do not substitute a population target. If a measured level raises concern but its sample date, timing, target or dose comparison is unclear, report only a possible finding and ask for the missing information. Name \"Timing of the lithium sample under review\" if timing is unclear and \"Documented upper lithium trough target for this treatment phase (mmol/L)\" if the target is missing. When the dose or plan after a dated above-target trough is unclear, ask what happened after that sample. Use a documented hold, lower dose or review plan only if the record links it to that result, even if later dispensing directions are unchanged. A general answer about lithium does not establish what happened after this sample. Keep an unresolved dose comparison possible. Ask about new vomiting, tremor or unsteadiness. Calculate both daily doses from the strength, units per dose and doses per day for like formulations. Cite the concentration, timing, personal target and supplies before and after the sample. Cite any response used to judge the dose or plan.",
+  "cannot_be_seen": "Dispensing does not establish actual use, indication or a prescriber’s intent. Treatment and assessments elsewhere may be missing.",
+  "ask_the_gp": "Could you confirm the sampling time, individual target and follow-up plan for this measured lithium result?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "Serum lithium",
+      "meets": "Enter the measured serum lithium in mmol/L and its sample date. A date of entry does not date the sample. Use a separate documented target for the patient and phase. An undated concentration cannot establish a post-result dose comparison.",
+      "ask_when": {
+        "group": "A"
+      }
+    },
+    {
+      "kind": "observation",
+      "what": "Timing of the lithium sample under review",
+      "meets": "Check the last dose and sample times against the prescribed trough schedule for this result. For the standard schedule, the sample is due about 12 hours after the last dose and before the next. If the timing is unknown and the result raises concern, ask for the times.",
+      "options": [
+        {
+          "words": "This sample was taken at the prescribed trough time",
+          "effect": "meets"
+        },
+        {
+          "words": "This sample was taken outside the prescribed trough time",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "result",
+      "what": "Documented upper lithium trough target for this treatment phase (mmol/L)",
+      "meets": "Enter the prescribed upper trough target in mmol/L and the date it applied or the treatment phase it covered. Compare the separately measured trough with the target that applied to that sample. Equality gives no finding. If the target for that phase is unknown and the measured level raises concern, ask for the prescribed value."
+    }
+  ]
+}

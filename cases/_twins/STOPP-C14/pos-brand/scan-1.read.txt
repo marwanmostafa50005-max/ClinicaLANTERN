@@ -1,0 +1,22 @@
+2026-01-12 | Eliquis 5 mg tablet | qty 60 | repeats 4 | Take ONE tablet twice a day | Dr A. Example
+2026-01-12 | Atacand (candesartan) 8 mg tablet | qty 30 | repeats 1 | Take ONE tablet daily | Dr A. Example
+2026-02-10 | Eliquis 5 mg tablet | qty 60 | repeats 3 | Take ONE tablet twice a day | Dr A. Example
+2026-02-10 | Atacand (candesartan) 8 mg tablet | qty 30 | repeats 0 | Take ONE tablet daily | Dr A. Example
+2026-02-24 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr A. Example
+2026-03-12 | Eliquis 5 mg tablet | qty 60 | repeats 2 | Take ONE tablet twice a day | Dr A. Example
+2026-03-12 | Isoptin SR 240 mg modified release tablet | qty 30 | repeats 5 | Take ONE tablet daily with food | Dr C. Template
+2026-03-12 | Atacand (candesartan) 8 mg tablet | qty 30 | repeats 5 | Take ONE tablet daily | Dr A. Example
+2026-04-10 | Eliquis 5 mg tablet | qty 60 | repeats 1 | Take ONE tablet twice a day | Dr A. Example
+2026-04-10 | Isoptin SR 240 mg modified release tablet | qty 30 | repeats 4 | Take ONE tablet daily with food | Dr C. Template
+2026-04-10 | Atacand (candesartan) 8 mg tablet | qty 30 | repeats 4 | Take ONE tablet daily | Dr A. Example
+2026-05-11 | Eliquis 5 mg tablet | qty 60 | repeats 0 | Take ONE tablet twice a day | Dr A. Example
+2026-05-11 | Isoptin SR 240 mg modified release tablet | qty 30 | repeats 3 | Take ONE tablet daily with food | Dr C. Template
+2026-05-11 | Atacand (candesartan) 8 mg tablet | qty 30 | repeats 3 | Take ONE tablet daily | Dr A. Example
+2026-05-19 | Alprim (trimethoprim) 300 mg tablet | qty 7 | repeats 0 | Take ONE tablet at night until finished | Dr B. Sample
+2026-06-09 | Eliquis 5 mg tablet | qty 60 | repeats 5 | Take ONE tablet twice a day | Dr A. Example
+2026-06-09 | Isoptin SR 240 mg modified release tablet | qty 30 | repeats 2 | Take ONE tablet daily with food | Dr C. Template
+2026-06-09 | Atacand (candesartan) 8 mg tablet | qty 30 | repeats 2 | Take ONE tablet daily | Dr A. Example
+2026-06-23 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 1 | Take TWO tablets three times a day | Dr A. Example
+2026-07-09 | Eliquis 5 mg tablet | qty 60 | repeats 4 | Take ONE tablet twice a day | Dr A. Example
+2026-07-09 | Isoptin SR 240 mg modified release tablet | qty 30 | repeats 1 | Take ONE tablet daily with food | Dr C. Template
+2026-07-09 | Atacand (candesartan) 8 mg tablet | qty 30 | repeats 1 | Take ONE tablet daily | Dr A. Example

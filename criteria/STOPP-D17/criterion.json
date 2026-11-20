@@ -1,0 +1,139 @@
+{
+  "id": "STOPP-D17",
+  "label": "STOPP D17",
+  "family": "STOPP_START",
+  "title": "Acetylcholinesterase inhibitor with persistent slow pulse, heart block or recurrent unexplained fainting",
+  "statement": "Acetylcholinesterase inhibitors with a known history of persistent bradycardia (< 60 beats/min.), heart block or recurrent unexplained syncope (risk of cardiac conduction failure, syncope and injury).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Acetylcholinesterase inhibitors can slow the heart. A history of a persistently slow pulse, heart block or repeated unexplained fainting makes this a concern.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Acetylcholinesterase inhibitors",
+      "ingredients": [
+        "donepezil",
+        "rivastigmine",
+        "galantamine",
+        "pyridostigmine"
+      ],
+      "brands": {
+        "donepezil": [
+          "Aricept",
+          "Alzil",
+          "Arazil",
+          "Aricept-D",
+          "Aridon",
+          "Aridon APN",
+          "Aridon ODT",
+          "Ariez",
+          "Doceptil",
+          "Donaccord",
+          "Donpesyn"
+        ],
+        "rivastigmine": [
+          "Exelon",
+          "Exelon Patch",
+          "Exelon Patch 5",
+          "Exelon Patch 10",
+          "Exelon Patch 15",
+          "Prometax",
+          "Rivastigmelon"
+        ],
+        "galantamine": [
+          "Reminyl",
+          "Galantyl",
+          "Gamine XR"
+        ],
+        "pyridostigmine": [
+          "Mestinon",
+          "Mestinon Timespan"
+        ]
+      },
+      "note": "Tablets, capsules and skin patches count. Exelon is made as capsules and as a patch. Memantine is not in this group. Generic packs that show the ingredient name with a company name count too. Pyridostigmine for myasthenia gravis also counts."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "History of heart block of any degree",
+      "meets": "A diagnosis of heart block of any degree, now or in the past, meets this part of the rule.",
+      "options": [
+        {
+          "words": "Diagnosed now",
+          "effect": "meets"
+        },
+        {
+          "words": "Diagnosed in the past",
+          "effect": "meets"
+        },
+        {
+          "words": "Never diagnosed",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "condition",
+      "what": "History of recurrent unexplained fainting",
+      "meets": "The record shows repeated unexplained fainting. A single unexplained faint leaves recurrence unresolved.",
+      "options": [
+        {
+          "words": "Yes, there is a history of recurrent unexplained fainting",
+          "effect": "meets"
+        },
+        {
+          "words": "No, the history excludes recurrent unexplained fainting",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "History of a heart rate persistently below 60 beats per minute",
+      "meets": "A documented history or repeated readings establish a persistent rate below 60 beats per minute. A single low reading leaves persistence unknown. A normal reading cannot exclude a past history.",
+      "options": [
+        {
+          "words": "Yes, there is a history of persistent readings below 60",
+          "effect": "meets"
+        },
+        {
+          "words": "No, the history excludes a persistent rate below 60",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "result",
+      "what": "Heart rate relevant to the history of persistent bradycardia",
+      "meets": "Enter the measured heart rate in beats/min and its measurement date. Dated pulse readings consistently below 60 beats per minute can establish a persistent pattern. A single reading below 60 cannot establish persistence. A normal reading cannot exclude earlier persistent bradycardia, heart block or repeated unexplained fainting. The pharmacist checks borderline cases."
+    }
+  ],
+  "rule_for_models": "Apply this rule from age 65. Below 65 there is no finding. If age is unknown, confirm eligibility before reporting either outcome. With a Group A supply, report a finding when the record shows a history of heart block, persistent bradycardia below 60 beats per minute, or recurrent unexplained fainting. Cite the supply and the evidence for the qualifying history. One unexplained faint leaves recurrence unknown. An answer that excludes one history clears only that history. A single heart rate below 60 beats per minute does not establish persistence. A reading of 60 or more does not rule out a qualifying history. Use dated pulse readings from existing observations or results. If no qualifying history is established, report one possible finding if any history is unresolved. Name each unresolved history exactly as History of heart block of any degree, History of recurrent unexplained fainting or History of a heart rate persistently below 60 beats per minute. If dated pulse readings are needed to assess persistence, name Heart rate relevant to the history of persistent bradycardia and request the measured pulse and its date. Report no finding when the history rules out all three.",
+  "cannot_be_seen": "Heart rate readings and heart tracings that are not in the record, and whether any fainting had a known cause. Also whether the person takes a medicine that slows the heart that was supplied elsewhere.",
+  "ask_the_gp": "A heart rate and rhythm check, and whether the acetylcholinesterase inhibitor is still suitable.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

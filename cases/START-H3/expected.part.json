@@ -1,0 +1,47 @@
+[
+  {
+    "file": "START-H3/pos-fact.csv",
+    "kind": "positive",
+    "about": "The record shows osteoporosis and a lumbar spine T-score of -2.9. Alendronate (Fosamax) is supplied every four weeks, but vitamin D is never supplied.",
+    "findings": [
+      {
+        "criterion": "START-H3",
+        "must_cite": [
+          [
+            "L001",
+            "L002"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-H3/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about osteoporosis, a fragility fracture or a T-score, but alendronate (Fosamax) is supplied every four weeks and vitamin D is never supplied.",
+    "findings": [
+      {
+        "criterion": "START-H3",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L010",
+            "L013",
+            "L017",
+            "L021",
+            "L027",
+            "L029",
+            "L033"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-H3/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The record shows osteoporosis, and vitamin D (Ostelin Vitamin D3 1000IU) is supplied about every eight weeks up to the end, so nothing is missing.",
+    "findings": []
+  }
+]

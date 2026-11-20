@@ -1,0 +1,66 @@
+{
+  "id": "EU7-F32",
+  "label": "EU(7)-PIM: pentoxifylline and similar vasodilators",
+  "family": "EU7",
+  "title": "Peripheral vasodilators for review in older people",
+  "statement": "The 2015 EU(7)-PIM list flags pentoxifylline, nicergoline, dihydroergocristine (alone or with raubasine), cyclandelate, vincamine, moxisylyte, vinburnine, buflomedil, naftidrofuryl and ergoloid mesylate (dihydroergotoxine) for review in older people. The authors questioned their benefit and highlighted low blood pressure on standing and falls.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Reworded in plain words by ClinicaLANTERN from the source table rows. Not endorsed by the source authors."
+  },
+  "plain_summary": "Review why the medicine was started, what benefit the person has noticed and whether they have had dizziness on standing or falls.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Peripheral vasodilators named by EU(7)",
+      "ingredients": [
+        "pentoxifylline",
+        "oxpentifylline",
+        "nicergoline",
+        "dihydroergocristine",
+        "raubasine with dihydroergocristine",
+        "cyclandelate",
+        "vincamine",
+        "moxisylyte",
+        "vinburnine",
+        "buflomedil",
+        "naftidrofuryl",
+        "ergoloid mesylate",
+        "dihydroergotoxine"
+      ],
+      "brands": {
+        "pentoxifylline": [
+          "Trental"
+        ],
+        "oxpentifylline": [
+          "Trental"
+        ],
+        "nicergoline": [],
+        "dihydroergocristine": [],
+        "raubasine with dihydroergocristine": [],
+        "cyclandelate": [],
+        "vincamine": [],
+        "moxisylyte": [],
+        "vinburnine": [],
+        "buflomedil": [],
+        "naftidrofuryl": [],
+        "ergoloid mesylate": [],
+        "dihydroergotoxine": []
+      },
+      "note": "Trental contains pentoxifylline, also called oxpentifylline. Ergoloid mesylate is also called dihydroergotoxine. Count either spelling of each medicine once. Use ingredient names for nicergoline, dihydroergocristine alone or with raubasine, cyclandelate, vincamine, moxisylyte, vinburnine, buflomedil, naftidrofuryl and ergoloid mesylate when no Australian product name has been verified. Nitrates such as isosorbide mononitrate and calcium channel blockers are outside this group. A generic pack can show the ingredient with a company name."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when the person is aged 65 or older and at least one Group A medicine (pentoxifylline, nicergoline, dihydroergocristine, raubasine with dihydroergocristine, cyclandelate, vincamine, moxisylyte, vinburnine, buflomedil, naftidrofuryl or ergoloid mesylate) is supplied. If age is missing and the supply otherwise qualifies, report only a possible finding and ask the pharmacist to confirm whether the person is 65 or older. A recorded age below 65 gives no finding.",
+  "cannot_be_seen": "Why the medicine was started, whether it helps the person's leg pain or memory, how often it is really taken, and whether the person has had falls or dizziness on standing.",
+  "ask_the_gp": "Whether the medicine is still needed and whether it can be reviewed or stopped, taking into account the person's blood pressure on standing and any falls.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

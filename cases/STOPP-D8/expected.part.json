@@ -1,0 +1,53 @@
+[
+  {
+    "file": "STOPP-D8/pos-brand.csv",
+    "kind": "positive",
+    "about": "Eight supplies of Temaze, each with 25 tablets for nightly use, cover one course from March into September 2026.",
+    "findings": [
+      {
+        "criterion": "STOPP-D8",
+        "must_cite": [
+          [
+            "L005",
+            "L012",
+            "L019",
+            "L026"
+          ],
+          [
+            "L009",
+            "L015",
+            "L022",
+            "L028"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-D8/pos-buried.csv",
+    "kind": "positive",
+    "about": "Antenex (diazepam) 5 mg twice a day is supplied five times from January to April 2026, in the middle of a 15-month history, which covers more than three months of use.",
+    "findings": [
+      {
+        "criterion": "STOPP-D8",
+        "must_cite": [
+          [
+            "L031",
+            "L041",
+            "L047"
+          ],
+          [
+            "L036",
+            "L046"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-D8/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Two 14-tablet Normison supplies are 45 days apart, with a stop after the first pack and a new course in October.",
+    "findings": []
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "file": "KHAWAGI-G031/pos-fact.csv",
+    "kind": "positive",
+    "about": "The history shows nortriptyline and a diagnosis of syncope at age 70 without a documented STOPP-D1 reason.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G031",
+        "must_cite": [
+          [
+            "L026"
+          ],
+          [
+            "L024"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G031/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about syncope despite the qualifying nortriptyline supply.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G031",
+        "must_cite": [
+          [
+            "L016"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G031/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Nortriptyline is present at age 70 and the assessment explicitly excludes syncope.",
+    "findings": []
+  }
+]

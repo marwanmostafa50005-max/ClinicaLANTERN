@@ -1,0 +1,55 @@
+{
+  "id": "EU7-F60",
+  "label": "EU(7)-PIM: anticholinergic antiparkinson medicines",
+  "family": "EU7",
+  "title": "Anticholinergic antiparkinson medicine in an older person",
+  "statement": "Trihexyphenidyl | In lists: 1, 5 (A); 2, 5, 6 (B) | Main reason: Risk of anticholinergic and CNS side effects including orthostatic hypotension, falls, sedation, weakness, confusion, amnesia | Dose adjustment/special considerations: Start low–go slow. M | Alternatives: Levodopa; carbidopa-levodopa; benserazide levodopa; irreversible inhibitor of monoamine oxidase as rasagiline. E || Biperiden | In lists: 1, 3 (A); 2, 6 (B) | Main reason: Risk of anticholinergic and CNS side effects including orthostatic hypotension, falls, sedation, weakness, confusion, amnesia | Dose adjustment/special considerations: (blank: per ESM note, no suggestion by experts or in Micromedex) | Alternatives: Levodopa; carbidopa-levodopa; benserazide levodopa; irreversible inhibitor of monoamine oxidase as rasagiline. E || Tropatepin | In lists: 1 (A); 2, 6 (B) | Main reason: Risk of anticholinergic and CNS side effects including orthostatic hypotension, falls, sedation, weakness, confusion, amnesia | Dose adjustment/special considerations: (blank: per ESM note, no suggestion by experts or in Micromedex) | Alternatives: Levodopa; carbidopa-levodopa; benserazide levodopa; irreversible inhibitor of monoamine oxidase as rasagiline. E || Benzatropine | In lists: 2, 6 (B) | Main reason: Risk of anticholinergic and CNS side effects including orthostatic hypotension, falls, sedation, weakness, confusion, amnesia | Dose adjustment/special considerations: Start low–go slow. M | Alternatives: Levodopa; carbidopa-levodopa; benserazide levodopa; irreversible inhibitor of monoamine oxidase as rasagiline. E",
+  "statement_origin": "published",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.2 candidate repairs and adopted conventions merged with attribution). Not endorsed by the source authors."
+  },
+  "plain_summary": "Benzhexol, benzatropine and similar medicines can cause confusion, falls, dizziness on standing and sedation in older people.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Anticholinergic antiparkinson medicines",
+      "ingredients": [
+        "benzhexol",
+        "trihexyphenidyl",
+        "biperiden",
+        "tropatepine",
+        "benzatropine",
+        "benztropine"
+      ],
+      "brands": {
+        "benzhexol": [],
+        "trihexyphenidyl": [
+          "Artane"
+        ],
+        "biperiden": [
+          "Akineton"
+        ],
+        "tropatepine": [],
+        "benzatropine": [
+          "Benztrop",
+          "Cogentin"
+        ],
+        "benztropine": []
+      },
+      "note": "Trihexyphenidyl was previously called benzhexol. Benzatropine may also appear as benztropine. Each pair refers to one medicine. Akineton tablets count as biperiden. Benzatropine tablets and injections count."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when a person aged 65 or older has at least one supply of any Group A medicine (benzhexol or trihexyphenidyl, biperiden, tropatepine or benzatropine). Any strength counts. If age is missing and any Group A medicine is supplied, report only a possible finding and ask whether the person is 65 or older.",
+  "cannot_be_seen": "Why the medicine was prescribed (Parkinson's disease or side effects of an antipsychotic), whether it is working, and any confusion, falls or dizziness on standing.",
+  "ask_the_gp": "Whether the anticholinergic medicine is still needed, and whether a safer option for this person is worth discussing.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "file": "SCOTRESP-13/pos-brand.csv",
+    "kind": "positive",
+    "about": "APOHEALTH Chesty Mucus Relief Forte is prescribed regularly for sputum clearance with enough tablets at three per day for more than six continuous months.",
+    "findings": [
+      {
+        "criterion": "SCOTRESP-13",
+        "must_cite": [
+          [
+            "L011"
+          ],
+          [
+            "L014"
+          ],
+          [
+            "L017"
+          ],
+          [
+            "L020"
+          ],
+          [
+            "L023"
+          ],
+          [
+            "L026"
+          ],
+          [
+            "L029"
+          ],
+          [
+            "L032"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "SCOTRESP-13/pos-buried.csv",
+    "kind": "positive",
+    "about": "Consecutive bromhexine supplies cover three tablets daily beyond the six-month anniversary in the middle of the history and continue through the final record date.",
+    "findings": [
+      {
+        "criterion": "SCOTRESP-13",
+        "must_cite": [
+          [
+            "L037"
+          ],
+          [
+            "L042"
+          ],
+          [
+            "L047"
+          ],
+          [
+            "L053"
+          ],
+          [
+            "L061"
+          ],
+          [
+            "L066"
+          ],
+          [
+            "L071"
+          ],
+          [
+            "L076"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "SCOTRESP-13/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Two ten-day bromhexine prescriptions more than seven months apart leave a long gap in treatment.",
+    "findings": []
+  }
+]

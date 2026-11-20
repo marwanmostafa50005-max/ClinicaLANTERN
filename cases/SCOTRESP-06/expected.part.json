@@ -1,0 +1,43 @@
+[
+  {
+    "file": "SCOTRESP-06/pos-fact.csv",
+    "kind": "positive",
+    "about": "Asthma is documented and neither the September nor the October salmeterol supply has an inhaled corticosteroid within 60 days either side.",
+    "findings": [
+      {
+        "criterion": "SCOTRESP-06",
+        "must_cite": [
+          [
+            "L045",
+            "L051"
+          ],
+          [
+            "L046"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "SCOTRESP-06/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record has no asthma line and neither the September nor the October salmeterol supply has an inhaled corticosteroid within 60 days either side.",
+    "findings": [
+      {
+        "criterion": "SCOTRESP-06",
+        "must_cite": [
+          [
+            "L023",
+            "L026"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "SCOTRESP-06/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Budesonide was supplied within 60 days of both salmeterol supplies and the recorded diagnosis is COPD alone.",
+    "findings": []
+  }
+]

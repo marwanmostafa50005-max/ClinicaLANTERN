@@ -1,0 +1,72 @@
+[
+  {
+    "file": "START-E2/pos-fact.csv",
+    "kind": "positive",
+    "about": "An established chronic kidney disease diagnosis, an eGFR of 24 and three phosphate results of 2.1, 2.3 and 2.2 mmol/L are recorded with the renal diet followed, and no phosphate binder is supplied in the whole history.",
+    "findings": [
+      {
+        "criterion": "START-E2",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L014"
+          ],
+          [
+            "L002",
+            "L013"
+          ],
+          [
+            "L002",
+            "L030"
+          ],
+          [
+            "L013",
+            "L030"
+          ],
+          [
+            "L031"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-E2/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the pharmacist confirmed chronic kidney disease without an onset date and alfacalcidol and cinacalcet are supplied without a binder, but the record holds no line about eGFR, repeated serum phosphate results or adherence to a renal diet. The missing facts are \"eGFR\", \"Serum phosphate\" and \"Adherence to a renal diet\".",
+    "findings": [
+      {
+        "criterion": "START-E2",
+        "must_cite": [
+          [
+            "L004",
+            "L005",
+            "L009",
+            "L010",
+            "L014",
+            "L015",
+            "L019",
+            "L020",
+            "L024",
+            "L025",
+            "L029",
+            "L030",
+            "L034",
+            "L035"
+          ],
+          [
+            "L036"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-E2/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The kidney and phosphate facts are recorded, and sevelamer (Renvela) is supplied every month through the last six months, so nothing is missing.",
+    "findings": []
+  }
+]

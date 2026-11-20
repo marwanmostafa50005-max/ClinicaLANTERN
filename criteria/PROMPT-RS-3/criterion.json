@@ -1,0 +1,141 @@
+{
+  "id": "PROMPT-RS-3",
+  "label": "PROMPT RS-3",
+  "family": "PROMPT",
+  "title": "Long-term oral corticosteroid without a bisphosphonate",
+  "statement": "A concomitant bisphosphonate should be prescribed if oral corticosteroids are used long-term (greater than three months).",
+  "statement_origin": "published",
+  "source": {
+    "document": "Cooper JA, et al. The development of the PROMPT criteria. BMC Health Serv Res 2014;14:484, Table 4",
+    "citation": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "doi": "10.1186/s12913-014-0484-6",
+    "url": "https://doi.org/10.1186/s12913-014-0484-6",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Corticosteroid tablets taken for more than 3 months weaken the bones, and this criterion expects a bisphosphonate to be supplied with them. Australian guidance differs: denosumab is also approved for adults at increased fracture risk from long-term systemic corticosteroids (Prolia product information, 2026).",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Oral corticosteroids",
+      "ingredients": [
+        "prednisolone",
+        "prednisone",
+        "dexamethasone",
+        "hydrocortisone",
+        "cortisone acetate",
+        "cortisone"
+      ],
+      "brands": {
+        "prednisolone": [
+          "Panafcortelone",
+          "Solone",
+          "Predmix",
+          "Redipred",
+          "Predsolone"
+        ],
+        "prednisone": [
+          "Panafcort",
+          "Predsone",
+          "Sone"
+        ],
+        "dexamethasone": [
+          "Dexmethsone"
+        ],
+        "hydrocortisone": [
+          "Hysone",
+          "Alkindi"
+        ],
+        "cortisone acetate": [
+          "Cortate"
+        ],
+        "cortisone": [
+          "Cortate"
+        ]
+      },
+      "note": "Oral tablets, liquids and granules count, including Alkindi hydrocortisone granules. Ask whether hydrocortisone or cortisone acetate is adrenal replacement and document the answer for review. Inhalers, nose sprays, creams, eye drops and injections do not count. Budesonide for bowel disease and fludrocortisone are not listed."
+    },
+    {
+      "key": "B",
+      "name": "Bisphosphonates",
+      "ingredients": [
+        "alendronate",
+        "risedronate",
+        "zoledronic acid",
+        "risedronic acid",
+        "alendronic acid"
+      ],
+      "brands": {
+        "alendronate": [
+          "Fosamax",
+          "Fosamax Plus",
+          "Fosamax Plus D-Cal",
+          "Adronat",
+          "Adronat Once Weekly",
+          "Alendraccord",
+          "Alendro",
+          "Alendro Once Weekly",
+          "Alendrobell",
+          "Alendrocor",
+          "Binosto",
+          "Densate",
+          "Fonat",
+          "Fosamax Once Weekly",
+          "Ossmax"
+        ],
+        "risedronate": [
+          "Actonel",
+          "Actonel EC",
+          "Actonel Combi",
+          "Actonel Combi D"
+        ],
+        "zoledronic acid": [
+          "Aclasta",
+          "Zometa",
+          "Aclonat",
+          "Amonzitra",
+          "Astazol",
+          "Azolast",
+          "Bonezol",
+          "Deztron",
+          "Osteovan",
+          "Ostira",
+          "Zolaccord",
+          "Zoledasta"
+        ],
+        "risedronic acid": [
+          "Actonel",
+          "Actonel EC",
+          "Actonel Combi",
+          "Actonel Combi D"
+        ],
+        "alendronic acid": [
+          "Fosamax",
+          "Fosamax Plus",
+          "Fosamax Plus D-Cal",
+          "Adronat",
+          "Adronat Once Weekly",
+          "Alendraccord",
+          "Alendro",
+          "Alendro Once Weekly",
+          "Alendrobell",
+          "Alendrocor",
+          "Binosto",
+          "Densate",
+          "Fonat",
+          "Fosamax Once Weekly",
+          "Ossmax"
+        ]
+      },
+      "note": "Aclasta is one infusion a year. Fosamax Plus is alendronate with colecalciferol. Fosamax Plus D-Cal also holds calcium. Actonel Combi is risedronate with calcium. Actonel Combi D also holds colecalciferol. Denosumab (Prolia), raloxifene, teriparatide, calcium and vitamin D are not bisphosphonates. If one of these is supplied without a bisphosphonate, still report the finding and name it. Ask whether a clinic or hospital gave a zoledronic acid infusion and when. Ask about denosumab and record it for the GP review. Only a bisphosphonate with cover during the steroid course meets Group B."
+    }
+  ],
+  "rule_for_models": "Apply this criterion only to people aged 45 to 64 inclusive. If age is unknown, confirm it before reporting a finding. Suspect a finding when supplies of a Group A medicine (oral corticosteroid) cover more than 3 months of regular use without a long break, counting from the first supply to the day the last supply should run out, and no Group B medicine (bisphosphonate) is supplied during that time. Separate short courses do not count, even when repeated. If a break or a series of short courses leaves continuity uncertain, ask the pharmacist to judge whether regular treatment continued for more than three months. When repeated supplies could cover more than three months and no bisphosphonate cover is established, report at most a possible finding if the daily dose or taper is unclear. Ask what daily doses were taken, whether there were breaks and how long treatment continued. Count 12 months of cover from a documented 5 mg zoledronic acid infusion given as annual osteoporosis treatment. For another regimen, use its documented interval. If the dose, indication or interval is unclear, record the infusion and ask the GP to confirm its coverage.",
+  "cannot_be_seen": "The reason for the corticosteroid and how long it is planned to continue, bone density results and fracture history, bone medicines given at a hospital or clinic or supplied by another pharmacy, calcium and vitamin D bought without a prescription, and whether doses were taken. For hydrocortisone or cortisone acetate tablets, whether they are replacement treatment for adrenal insufficiency, where a bisphosphonate may not be expected.",
+  "ask_the_gp": "Bone protection for this patient in view of the long-term oral corticosteroid, including fracture risk and whether a bone density test is due.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

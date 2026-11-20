@@ -1,0 +1,43 @@
+[
+  {
+    "file": "EU7-F79/pos-brand.csv",
+    "kind": "positive",
+    "about": "Sudafed Sinus 12 Hour Relief (pseudoephedrine), by brand name only and without paracetamol, is supplied four times from October to December 2025 to a 72-year-old.",
+    "findings": [
+      {
+        "criterion": "EU7-F79",
+        "must_cite": [
+          [
+            "L008",
+            "L012",
+            "L014",
+            "L018"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F79/pos-buried.csv",
+    "kind": "positive",
+    "about": "Pseudoephedrine (Sudafed Sinus 12 Hour Relief) 120 mg is supplied three times from December 2025 to January 2026, in the middle of a 15-month history.",
+    "findings": [
+      {
+        "criterion": "EU7-F79",
+        "must_cite": [
+          [
+            "L029",
+            "L033",
+            "L038"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F79/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Loratadine and a fluticasone nose spray are supplied for a stuffy nose. Neither is pseudoephedrine or phenylpropanolamine.",
+    "findings": []
+  }
+]

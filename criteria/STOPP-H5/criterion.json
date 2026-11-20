@@ -1,0 +1,117 @@
+{
+  "id": "STOPP-H5",
+  "label": "STOPP H5",
+  "family": "STOPP_START",
+  "title": "Corticosteroid treatment for osteoarthritis",
+  "statement": "Corticosteroids (other than periodic intra-articular injections for mono-articular pain) for osteoarthritis (risk of systemic corticosteroid side-effects).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "This criterion flags steroid treatment for osteoarthritis except periodic injections into a joint for pain confined to that joint.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Oral or injected corticosteroids",
+      "ingredients": [
+        "prednisolone",
+        "prednisone",
+        "methylprednisolone",
+        "dexamethasone",
+        "triamcinolone",
+        "betamethasone"
+      ],
+      "brands": {
+        "prednisolone": [
+          "Panafcortelone",
+          "Predsolone",
+          "Redipred",
+          "Solone"
+        ],
+        "prednisone": [
+          "Panafcort",
+          "Predsone",
+          "Sone"
+        ],
+        "methylprednisolone": [
+          "Medrol",
+          "Depo-Medrol",
+          "Solu-Medrol"
+        ],
+        "dexamethasone": [
+          "Dexmethsone"
+        ],
+        "triamcinolone": [
+          "Kenacort-A 10",
+          "Kenacort-A 40"
+        ],
+        "betamethasone": [
+          "Celestone Chronodose"
+        ]
+      },
+      "note": "Include oral forms, systemic injections and intra-articular injections of these medicines. Inhaled, nasal, eye, ear and skin corticosteroids do not count. Hydrocortisone and fludrocortisone taken as hormone replacement are not in this group. Generic packs that show the ingredient name with a company name count too. Exclude periodic intra-articular injections for pain confined to one joint. Kenacort-A contains triamcinolone acetonide. Check the recorded route and reason for each injection."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Osteoarthritis",
+      "meets": "An osteoarthritis line is recorded"
+    },
+    {
+      "kind": "observation",
+      "what": "Osteoarthritis as a reason for the oral or injected corticosteroid course under review",
+      "meets": "The directions or treatment record link the steroid to osteoarthritis.",
+      "options": [
+        {
+          "words": "This steroid course treated osteoarthritis",
+          "effect": "meets"
+        },
+        {
+          "words": "This steroid course was used only for another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Pattern of steroid injections for this osteoarthritis treatment",
+      "meets": "The injections were systemic or the course fell outside periodic injections into the same joint for pain confined to that joint.",
+      "options": [
+        {
+          "words": "Systemic steroid injection",
+          "effect": "meets"
+        },
+        {
+          "words": "Only periodic injections into the same joint for pain confined to that joint",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Joint injections were not periodic, more than one joint was injected, or pain was not confined to the injected joint",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "For people aged 65 or older, flag an oral or systemic injected steroid used for osteoarthritis, or joint injections for osteoarthritis outside the periodic single-joint exception. Leave age eligibility unconfirmed if unknown. Cite the steroid and the evidence of its indication and, for joint injections, the site and pattern. Give no finding if osteoarthritis is excluded, the steroid was solely for another condition, the treatment was inhaled, nasal, eye, ear or skin treatment, or the only treatment was periodic injections into the same joint for pain confined to that joint. Ask about the indication only if unclear. Ask about injections only when the record leaves their route, site or pattern unresolved and this changes the result. The pharmacist judges whether the spacing is periodic. If a deciding fact is unknown or spacing is borderline, report a possible finding naming the missing detail.",
+  "cannot_be_seen": "Why the steroid was prescribed, because a short course may be for another illness such as asthma or a flare of another condition. Also whether injections into a joint are recorded, and medicines supplied by another pharmacy.",
+  "ask_the_gp": "Whether the steroid is for the osteoarthritis or for another condition, and whether it is still needed.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

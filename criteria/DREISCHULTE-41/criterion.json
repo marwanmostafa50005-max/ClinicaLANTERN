@@ -1,0 +1,55 @@
+{
+  "id": "DREISCHULTE-41",
+  "label": "Dreischulte 41: warfarin with rifampicin",
+  "family": "DREISCHULTE",
+  "title": "Warfarin with rifampicin",
+  "statement": "Patient treated with warfarin - is co-prescribed rifampin",
+  "statement_origin": "published",
+  "source": {
+    "document": "Quality and safety of medication use in primary care: consensus validation of a new set of explicit medication assessment criteria and prioritisation of topics for improvement",
+    "citation": "Dreischulte T, Grant AM, McCowan C, McAnaw JJ, Guthrie B. Quality and safety of medication use in primary care: consensus validation of a new set of explicit medication assessment criteria and prioritisation of topics for improvement. BMC Clinical Pharmacology. 2012;12:5.",
+    "doi": "10.1186/1472-6904-12-5",
+    "url": "https://link.springer.com/article/10.1186/1472-6904-12-5",
+    "licence": "Creative Commons Attribution 2.0 Generic (CC BY 2.0)",
+    "licence_status": "proposed",
+    "credit": "© 2012 Dreischulte et al., licensee BioMed Central Ltd. Dreischulte T, Grant AM, McCowan C, McAnaw JJ, Guthrie B. Quality and safety of medication use in primary care: consensus validation of a new set of explicit medication assessment criteria and prioritisation of topics for improvement. BMC Clinical Pharmacology. 2012;12:5. doi:10.1186/1472-6904-12-5. CC BY 2.0 (https://creativecommons.org/licenses/by/2.0/).",
+    "modification_notice": "The statement is reproduced verbatim. GPT-6.2 Astra drafted the Australian screening rule and fictional cases."
+  },
+  "plain_summary": "Rifampicin can reduce the effect of warfarin during treatment. The effect can change again when rifampicin stops.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Warfarin",
+      "ingredients": [
+        "warfarin"
+      ],
+      "brands": {
+        "warfarin": [
+          "Coumadin",
+          "Marevan"
+        ]
+      }
+    },
+    {
+      "key": "B",
+      "name": "Rifampicin",
+      "ingredients": [
+        "rifampicin"
+      ],
+      "brands": {
+        "rifampicin": [
+          "Rifadin",
+          "Rimycin",
+          "Rifinah"
+        ]
+      },
+      "note": "Rifampin is the name used for rifampicin in the published statement. Count combination packs containing rifampicin, including tablets labelled as rifampicin with isoniazid or as Rifinah."
+    }
+  ],
+  "rule_for_models": "Suspect concurrent treatment when warfarin and rifampicin supply dates overlap or fall within 60 days of each other. Use the quantity, directions and any recorded hold or stop to exclude courses that did not overlap. Cite a supply of each medicine even if there is no INR result. When the supplies are within 60 days and unclear directions leave overlap uncertain, cite both supplies and report only a possible finding. Ask the pharmacist to confirm the dose actually used and the treatment dates. A documented stop, hold or later start that rules out overlap gives no finding.",
+  "cannot_be_seen": "Supply lines cannot confirm which doses were taken, medicines supplied elsewhere, the INR response or a bleeding or clotting event.",
+  "ask_the_gp": "Could you review the INR results and the monitoring plan for starting and stopping rifampicin?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

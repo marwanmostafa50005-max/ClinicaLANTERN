@@ -1,0 +1,46 @@
+[
+  {
+    "file": "START-K3/pos-fact.csv",
+    "kind": "positive",
+    "about": "A condition line records post-herpetic neuralgia and gabapentin is supplied, but no lidocaine 5% patch is supplied across 12 months.",
+    "findings": [
+      {
+        "criterion": "START-K3",
+        "must_cite": [
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-K3/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about nerve pain, pregabalin (a nerve pain medicine) is supplied every month, and no lidocaine 5% patch is supplied.",
+    "findings": [
+      {
+        "criterion": "START-K3",
+        "must_cite": [
+          [
+            "L003",
+            "L006",
+            "L009",
+            "L012",
+            "L015",
+            "L018",
+            "L021",
+            "L024",
+            "L027"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-K3/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Post-herpetic neuralgia is on the record but a lidocaine 5% patch is supplied every month, so the criterion is met and nothing should flag.",
+    "findings": []
+  }
+]

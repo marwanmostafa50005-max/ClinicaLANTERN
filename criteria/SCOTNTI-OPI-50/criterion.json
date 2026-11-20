@@ -1,0 +1,155 @@
+{
+  "id": "SCOTNTI-OPI-50",
+  "label": "SCOTNTI OPI-50",
+  "family": "SCOTNTI",
+  "title": "High-dose opioid at or above 50 mg oral morphine equivalent over 6 months",
+  "statement": "Number of people prescribed an opioid at an average daily dose of opioid equivalent to ≥ 50mg per day of oral morphine over the previous 6 months as a percentage of all people prescribed step 2 and strong opioids",
+  "statement_origin": "published",
+  "source": {
+    "document": "Scottish Government. Polypharmacy guidance: appropriate prescribing: making medicines safe, effective and sustainable 2026-2029",
+    "citation": "Scottish Government. Polypharmacy guidance: appropriate prescribing: making medicines safe, effective and sustainable 2026-2029. Appendix C, Table 39.",
+    "url": "https://www.gov.scot/publications/polypharmacy-guidance-appropriate-prescribing-making-medicines-safe-effective-sustainable-2026-2029/pages/14/",
+    "licence": "UK Open Government Licence v3.0",
+    "licence_status": "proposed",
+    "credit": "Scottish Government. Polypharmacy guidance: appropriate prescribing: making medicines safe, effective and sustainable 2026-2029. Contains public sector information licensed under the Open Government Licence v3.0.",
+    "modification_notice": "Statement reproduced without changes. Group A is reused unchanged from W3027. Plain-language fields, the counter question and fictional Australian histories are adaptations."
+  },
+  "plain_summary": "An average daily opioid dose at or above 50 mg oral morphine equivalent over the previous 6 months calls for GP review of pain management, the ongoing dose and gradual tapering if appropriate. Abrupt reduction or cessation after long-term use can cause withdrawal. In Australia, discuss Take Home Naloxone.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Oral or transdermal opioid analgesics",
+      "ingredients": [
+        "buprenorphine",
+        "codeine",
+        "fentanyl",
+        "hydromorphone",
+        "methadone",
+        "morphine",
+        "oxycodone",
+        "oxycodone with naloxone",
+        "tapentadol",
+        "tramadol",
+        "paracetamol with codeine",
+        "ibuprofen with codeine",
+        "aspirin with codeine",
+        "paracetamol with codeine and doxylamine",
+        "paracetamol with codeine and promethazine",
+        "tramadol with paracetamol"
+      ],
+      "brands": {
+        "buprenorphine": [
+          "Norspan",
+          "B-Patch",
+          "Bupredermal",
+          "Temgesic"
+        ],
+        "codeine": [
+          "Aspen Codeine"
+        ],
+        "fentanyl": [
+          "Durogesic",
+          "Fentanyl Sandoz",
+          "Denpax",
+          "Fenpatch",
+          "Dutran"
+        ],
+        "hydromorphone": [
+          "Dilaudid",
+          "Jurnista"
+        ],
+        "methadone": [
+          "Physeptone"
+        ],
+        "morphine": [
+          "MS Contin",
+          "MS Mono",
+          "Kapanol",
+          "Ordine",
+          "Sevredol",
+          "Anamorph",
+          "Momex SR"
+        ],
+        "oxycodone": [
+          "Endone",
+          "OxyNorm",
+          "OxyContin",
+          "Oxyndone"
+        ],
+        "oxycodone with naloxone": [
+          "Targin"
+        ],
+        "tapentadol": [
+          "Palexia",
+          "Palexia IR",
+          "Palexia SR"
+        ],
+        "tramadol": [
+          "Tramal",
+          "Tramal SR",
+          "Zydol",
+          "Zydol SR",
+          "Tramedo",
+          "Tramedo SR",
+          "Lodam",
+          "Durotram XR"
+        ],
+        "paracetamol with codeine": [
+          "Panadeine Forte",
+          "Codalgin Forte",
+          "Codapane Forte",
+          "Comfarol Forte",
+          "Prodeine Forte",
+          "Dolaforte",
+          "Panadeine",
+          "Panadeine Extra",
+          "Painstop Day-Time Pain Reliever"
+        ],
+        "ibuprofen with codeine": [
+          "Nurofen Plus"
+        ],
+        "aspirin with codeine": [
+          "Aspalgin"
+        ],
+        "paracetamol with codeine and doxylamine": [
+          "Mersyndol",
+          "Mersyndol Forte"
+        ],
+        "paracetamol with codeine and promethazine": [
+          "Painstop Night-Time Pain Reliever"
+        ],
+        "tramadol with paracetamol": [
+          "Zaldiar"
+        ]
+      },
+      "note": "Oral and transdermal opioid analgesics count, including oral combination analgesics and Temgesic sublingual pain tablets. Injections (such as Dilaudid-HP), rectal suppositories (such as Proladone) and nasal or transmucosal fentanyl products (such as Abstral, Actiq, Fentora and PecFent) do not count. Opioid-dependence products (Subutex, Suboxone, Buvidal, Sublocade, Biodone Forte and Methadone Syrup) are excluded under their Australian TGA Product Information and TGA register entries (tga.gov.au), which approve them for opioid dependence rather than analgesia. Physeptone or an unbranded oral methadone line with no recorded indication gives at most a possible finding asking whether it is used for pain or opioid dependence. Generic packs that show the ingredient name count too. Exclude oral opioid cough preparations, including Actacode Codeine Linctus."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Average daily oral morphine equivalent dose status (50 mg threshold)",
+      "meets": "Average daily oral morphine equivalent dose is 50 mg or more over the previous 6 months.",
+      "options": [
+        {
+          "words": "50 mg or more oral morphine equivalent per day over the previous 6 months",
+          "effect": "meets"
+        },
+        {
+          "words": "Below 50 mg oral morphine equivalent per day over the previous 6 months",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not yet calculated or unknown",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Count back six months from the latest date in the record, excluding the date exactly six months earlier. Require Group A supplies in at least four of those six monthly intervals. Otherwise report no finding. Exclude loperamide and diphenoxylate. For a qualifying record, cite every Group A supply in the qualifying exposure window. Use the latest applicable six-month dose assessment, including a counter answer for this review marked \"no date\". Ignore dated assessments outside the window or superseded by a treatment change. Exclude methadone used for opioid dependence. A palliative, cancer or specialist pain plan does not clear a finding. Report the finding when 50 mg or more oral morphine equivalent per day over the previous 6 months is selected, even if such a plan is recorded, unless reaching 50 mg per day depends on Physeptone or unbranded oral methadone with an unknown indication. Note the plan as context. If a care plan is the only recorded answer, treat the dose as unknown. Cite the dose assessment as well as the supplies for a confirmed finding. If the threshold depends on methadone of unclear indication, report only a possible finding and ask whether it was prescribed for pain or the threshold is met from other pain medicines alone. If the verified average is below 50 mg oral morphine equivalent per day for the period, report no finding. If the dose is missing, unknown, uncalculated or unresolved after conflicting answers, report a possible finding citing those supplies. Name the missing Average daily oral morphine equivalent dose status (50 mg threshold) and ask the pharmacist to verify the six-month average using a clinical reference. For a missing or unknown dose, ask about regular and as-needed use and any opioids supplied elsewhere, including by a hospital. Ask whether a palliative, cancer, specialist pain or tapering plan already guides treatment. When as-directed, as-needed or variable directions do not establish a daily dose, ask how much was taken and how often, then reconcile that account with quantities supplied. A verified dose for the same period takes precedence. Do not calculate the dose from the dispensing history. Ask the pharmacist to use a clinical reference appropriate to each opioid, route and formulation. For each documented regimen, the pharmacist calculates the prescribed daily dose from strength and directions, including patch delivery rate and replacement schedule where relevant. The pharmacist converts it to oral morphine equivalent, multiplies by days covered in the window, sums the amounts and divides by the actual number of days in the window. The pharmacist reconciles quantities, gaps and changes without counting an early refill twice and records the verified result. If a regimen, conversion or coverage is uncertain, leave the dose unknown.",
+  "cannot_be_seen": "Supply dates, strengths, quantities and directions can support an estimate of the dose supplied by this pharmacy. They cannot establish a verified six-month average on their own. The history may omit outside supplies, actual use and any palliative, cancer, specialist pain or tapering plan.",
+  "ask_the_gp": "Could you review pain management, the ongoing opioid dose and whether a gradual taper is appropriate, taking withdrawal risk into account, and discuss Take Home Naloxone?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

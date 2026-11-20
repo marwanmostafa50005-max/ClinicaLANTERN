@@ -1,0 +1,279 @@
+{
+  "id": "SCOTPOLY-CT-3",
+  "label": "SCOTPOLY: NSAID with SSRI",
+  "family": "SCOTPOLY",
+  "title": "Systemic NSAID with an SSRI at the same time",
+  "statement": "This hot topic considers the impact of prescribing a non-steroidal anti-inflammatory drug (NSAID) and a selective serotonin re-uptake inhibitor (SSRI) at the same time and the increased risk of GI bleeding if these are taken together.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Scottish Government Effective Prescribing and Therapeutics Division, Polypharmacy Guidance: Appropriate Prescribing - Making medicines safe, effective and sustainable 2026-2029, fourth edition",
+    "citation": "Scottish Government. Polypharmacy Guidance: Appropriate Prescribing - Making medicines safe, effective and sustainable 2026-2029. Published 2 March 2026.",
+    "url": "https://www.gov.scot/publications/polypharmacy-guidance-appropriate-prescribing-making-medicines-safe-effective-sustainable-2026-2029/pages/8/",
+    "licence": "Open Government Licence v3.0",
+    "licence_status": "proposed",
+    "credit": "Contains public sector information licensed under the Open Government Licence v3.0."
+  },
+  "plain_summary": "A systemic anti-inflammatory pain medicine taken with an SSRI antidepressant raises the risk of bleeding from the stomach or bowel. Pharmacists should ask about non-prescription anti-inflammatory medicines and whether a proton pump inhibitor or other gastroprotection is in use. Do not advise stopping the SSRI abruptly.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Systemic non-steroidal anti-inflammatory drugs",
+      "ingredients": [
+        "ibuprofen",
+        "naproxen",
+        "diclofenac",
+        "meloxicam",
+        "celecoxib",
+        "etoricoxib",
+        "indometacin",
+        "ketoprofen",
+        "ketorolac",
+        "mefenamic acid",
+        "piroxicam",
+        "sulindac",
+        "tiaprofenic acid"
+      ],
+      "brands": {
+        "ibuprofen": [
+          "Nurofen",
+          "Advil",
+          "Brufen",
+          "Rafen",
+          "Nurofen Plus",
+          "Panafen Plus",
+          "Nuromol",
+          "Maxigesic",
+          "Act-3",
+          "Advil 12 Hour",
+          "Advil Childrens Pain and Fever 2 to 7 Years",
+          "Advil Childrens Pain and Fever 7 to 12 Years",
+          "Advil Childrens Pain and Fever Relief 2 to 12 Years",
+          "Advil Double Strength",
+          "Advil Double Strength Caplets",
+          "Advil Double Strength Liquid Capsules",
+          "Advil Infants Pain and Fever Relief 3 Months to 2 Years",
+          "Advil Mini Caps",
+          "Advil Rapid Release",
+          "Brufen Pain",
+          "Brufen Syrup",
+          "Bugesic",
+          "Butafen",
+          "Butalgin",
+          "Fenpaed",
+          "Fenpaed Double Strength",
+          "Iprofen",
+          "Nurofen Back Pain",
+          "Nurofen Caplet",
+          "Nurofen Double Strength",
+          "Nurofen Liquid Capsule",
+          "Nurofen Meltlets",
+          "Nurofen Migraine Pain",
+          "Nurofen Period Pain",
+          "Nurofen Quickzorb",
+          "Nurofen Regular",
+          "Nurofen Tension Headache",
+          "Nurofen Zavance",
+          "Nurofen Zavance Liquid Capsules",
+          "Nurofen for Children 1 to 5 Years",
+          "Nurofen for Children 3 Months to 5 Years",
+          "Nurofen for Children 5 to 12 Years",
+          "Nurofen for Children 7+ Years",
+          "Nurofen for Children Baby 3+ Months",
+          "Nurofen for Children Infant Drops",
+          "Nurofen for Children Meltlet",
+          "Panafen IB",
+          "Panafen IB Mini Cap",
+          "Proven",
+          "Tri-Profen",
+          "Mersynofen"
+        ],
+        "naproxen": [
+          "Naprosyn",
+          "Naprosyn SR",
+          "Anaprox",
+          "Inza",
+          "Proxen SR",
+          "Naprogesic",
+          "Aleve",
+          "Aleve 24 Hour",
+          "Crysanal",
+          "Femme-Free",
+          "Naprofem",
+          "Naprosyn SR 1000",
+          "Proxen",
+          "Vimovo"
+        ],
+        "diclofenac": [
+          "Voltaren",
+          "Voltaren Rapid",
+          "Fenac",
+          "Clonac",
+          "Cambia",
+          "Diclohexal",
+          "Difenac Rapid",
+          "Dinac",
+          "Fenac EC",
+          "Imflac",
+          "Inflamax Liquid Caps",
+          "Voltaren Rapid Extra Strength",
+          "Voltaren Rapid Liquid Capsules",
+          "Voltfast",
+          "Zorvolex",
+          "Arthrotec"
+        ],
+        "meloxicam": [
+          "Mobic",
+          "Movalis",
+          "Moxicam",
+          "Meloxibell",
+          "Agilocam",
+          "Melobic",
+          "Melox",
+          "Mobelox"
+        ],
+        "celecoxib": [
+          "Celebrex",
+          "Celaxib",
+          "Anacoxib",
+          "Celebrex Relief",
+          "Celetoid",
+          "Celexi",
+          "Celocox",
+          "Kudeq"
+        ],
+        "etoricoxib": [
+          "Arcoxia"
+        ],
+        "indometacin": [
+          "Indocid",
+          "Arthrexin"
+        ],
+        "ketoprofen": [
+          "Orudis",
+          "Oruvail"
+        ],
+        "mefenamic acid": [
+          "Ponstan",
+          "Femin",
+          "Mefic",
+          "Menamic"
+        ],
+        "piroxicam": [
+          "Feldene",
+          "Mobilis",
+          "Candyl",
+          "Candyl-D",
+          "Feldene-D",
+          "Mobilis D",
+          "Pirohexal-D"
+        ],
+        "sulindac": [
+          "Aclin"
+        ],
+        "tiaprofenic acid": [
+          "Surgam SA"
+        ],
+        "ketorolac": [
+          "Toradol"
+        ]
+      },
+      "note": "Use the recorded form. Count oral and rectal systemic products and recorded systemic NSAID injections. Indometacin may also appear as indomethacin. Voltaren tablets and Voltaren suppositories count as systemic diclofenac. Vimovo is a combination tablet containing naproxen with esomeprazole. Arthrotec is a combination tablet containing diclofenac with misoprostol. Mersynofen contains ibuprofen with paracetamol. Toradol oral tablets and intramuscular injections count as systemic ketorolac. Acular eye drops do not count. Voltaren Emulgel, Voltaren Osteo Gel, Solaraze, Dofidaz, topical Imflac gel, Nurofen Gel, Feldene Gel, Voltaren Ophtha, Nevanac, and Strefen throat lozenges do not count. Oral Imflac tablets count as systemic diclofenac. Low-dose aspirin does not count."
+    },
+    {
+      "key": "B",
+      "name": "SSRIs (selective serotonin reuptake inhibitors)",
+      "ingredients": [
+        "citalopram",
+        "escitalopram",
+        "fluoxetine",
+        "fluvoxamine",
+        "paroxetine",
+        "sertraline"
+      ],
+      "brands": {
+        "citalopram": [
+          "Celapram",
+          "Cipramil",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talam",
+          "Talohexal"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Loxalate",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Zactin",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Paxtine",
+          "Aropax CR",
+          "Extine",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ],
+        "sertraline": [
+          "Zoloft",
+          "Setrona",
+          "Concorz",
+          "Detralon",
+          "Eleva",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Tralen",
+          "Xydep"
+        ]
+      },
+      "note": "SNRIs such as venlafaxine, desvenlafaxine and duloxetine, tricyclic antidepressants, mirtazapine, vortioxetine and agomelatine are not in this group."
+    }
+  ],
+  "rule_for_models": "At any age, report a finding when dates, quantities and directions show at least one day of overlap between a Group A systemic NSAID and a Group B SSRI. Cite a supply from each group. Exclude clearly separate courses, NSAIDs used locally on the skin, in the eye or in the throat, and non-SSRI antidepressants. If both medicines were supplied within 60 days and overlap is uncertain, report a possible finding and ask whether they were taken together.",
+  "cannot_be_seen": "Non-prescription NSAIDs, non-prescription proton pump inhibitors, past bleeding or ulcer history, and why each medicine was prescribed.",
+  "ask_the_gp": "Whether the NSAID is still needed with the SSRI and whether gastroprotection or bleeding risk should be reviewed.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

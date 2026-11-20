@@ -1,0 +1,50 @@
+[
+  {
+    "file": "PINCER-2/pos-fact.csv",
+    "kind": "positive",
+    "about": "Asthma is on record from June 2025 and atenolol (a beta-blocker) is supplied every month from November 2025, including the last six months.",
+    "findings": [
+      {
+        "criterion": "PINCER-2",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L030",
+            "L033",
+            "L036",
+            "L039",
+            "L042",
+            "L045",
+            "L048"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PINCER-2/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about asthma. Timoptol eye drops (timolol, a beta-blocker) are supplied by brand name five times in the last nine months.",
+    "findings": [
+      {
+        "criterion": "PINCER-2",
+        "must_cite": [
+          [
+            "L010",
+            "L015",
+            "L021",
+            "L024"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PINCER-2/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Asthma is on record, but the last beta-blocker (atenolol) supply was about eight months before the end of the record, so there is none in the last six months.",
+    "findings": []
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "file": "FDADSC-9/pos-fact.csv",
+    "kind": "positive",
+    "about": "The patient reports breastfeeding since 1 July at an August review, covering the 22 July Panadeine Forte supply.",
+    "findings": [
+      {
+        "criterion": "FDADSC-9",
+        "must_cite": [
+          [
+            "L028"
+          ],
+          [
+            "L031"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "FDADSC-9/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about Breastfeeding, and Tramal is supplied to a 28-year-old woman.",
+    "findings": [
+      {
+        "criterion": "FDADSC-9",
+        "must_cite": [
+          [
+            "L018"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "FDADSC-9/near-miss.csv",
+    "kind": "near_miss",
+    "about": "At a July review the patient reports using formula only since breastfeeding stopped in May, before the June Panadeine Forte supply.",
+    "findings": []
+  }
+]

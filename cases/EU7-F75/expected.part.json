@@ -1,0 +1,45 @@
+[
+  {
+    "file": "EU7-F75/pos-brand.csv",
+    "kind": "positive",
+    "about": "Concerta (methylphenidate), by brand name only, is supplied six times from September 2025 to January 2026 to a 70-year-old.",
+    "findings": [
+      {
+        "criterion": "EU7-F75",
+        "must_cite": [
+          [
+            "L004",
+            "L007",
+            "L011",
+            "L014",
+            "L018",
+            "L021"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F75/pos-buried.csv",
+    "kind": "positive",
+    "about": "Methylphenidate (Artige) 10 mg is supplied three times from December 2025 to February 2026, in the middle of a 15-month history.",
+    "findings": [
+      {
+        "criterion": "EU7-F75",
+        "must_cite": [
+          [
+            "L029",
+            "L033",
+            "L038"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F75/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Methylphenidate (Concerta) is supplied to a 38-year-old. The list is for people aged 65 or over, so this must not be flagged.",
+    "findings": []
+  }
+]

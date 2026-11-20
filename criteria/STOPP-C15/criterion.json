@@ -1,0 +1,126 @@
+{
+  "id": "STOPP-C15",
+  "label": "STOPP C15: oestrogen or androgen with past VTE",
+  "family": "STOPP_START",
+  "title": "Systemic oestrogen or androgen after a blood clot in a vein",
+  "statement": "Systemic oestrogens or androgens with pervious history of venous thromboembolism (increased risk of recurrent venous thromboembolism).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A person who has had a blood clot in a vein (a deep vein thrombosis or a clot in the lung) and is still supplied with an oestrogen or an androgen (such as testosterone) that acts through the whole body may be at higher risk of another clot.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Systemic oestrogens",
+      "ingredients": [
+        "estradiol",
+        "estradiol valerate",
+        "conjugated estrogens"
+      ],
+      "brands": {
+        "estradiol": [
+          "Estrofem",
+          "Estradot",
+          "Climara",
+          "Estrogel",
+          "Sandrena",
+          "Femoston",
+          "Femoston-Conti",
+          "Kliovance",
+          "Zumenon",
+          "Estalis",
+          "Estalis Continuous",
+          "Estalis Sequi",
+          "Kliogest",
+          "Trisequens",
+          "Angeliq",
+          "Bijuva",
+          "Estraderm MX",
+          "Estrogel Pro"
+        ],
+        "estradiol valerate": [
+          "Progynova"
+        ],
+        "conjugated estrogens": [
+          "Premarin",
+          "Duavive"
+        ]
+      },
+      "note": "Tablets, systemic capsules, patches and skin gels count because they act through the whole body. Femoston and Femoston-Conti are estradiol with dydrogesterone. Kliovance is estradiol with norethisterone. Vaginal creams, pessaries and rings used only for local effect do not count, for example Vagifem and Ovestin. Tibolone and contraceptive pills are not in this group. Generic packs that show the ingredient name with a company name count too. Estraderm MX is an estradiol patch. Estalis, Estalis Continuous, Estalis Sequi, Kliogest and Trisequens include estradiol and norethisterone acetate in their regimens. Angeliq contains estradiol and drospirenone. Bijuva contains estradiol and progesterone. Estrogel Pro contains systemic estradiol gel and progesterone capsules. Duavive contains conjugated estrogens and bazedoxifene. A skin spray that delivers oestrogen throughout the body also counts."
+    },
+    {
+      "key": "B",
+      "name": "Systemic androgens",
+      "ingredients": [
+        "testosterone undecanoate",
+        "testosterone esters",
+        "testosterone enantate",
+        "testosterone",
+        "mesterolone"
+      ],
+      "brands": {
+        "testosterone undecanoate": [
+          "Reandron 1000",
+          "Andriol Testocaps"
+        ],
+        "testosterone esters": [
+          "Sustanon 250"
+        ],
+        "testosterone enantate": [
+          "Primoteston Depot"
+        ],
+        "testosterone": [
+          "Testogel",
+          "Androfeme-1",
+          "Androforte",
+          "Androgel",
+          "Testavan",
+          "Androderm"
+        ],
+        "mesterolone": [
+          "Proviron"
+        ]
+      },
+      "note": "Systemic testosterone injections, skin gels, creams, patches and oral capsules count. Sustanon 250 is a mix of testosterone esters. Generic packs that show the ingredient name with a company name count too. Proviron is mesterolone, an androgen taken by mouth, and counts."
+    }
+  ],
+  "rule_for_models": "Screen only people aged 65 or older with a Group A systemic oestrogen or Group B systemic androgen supply (record unknown age as unknown eligibility). Cite the supply and the condition line if treatment started or continued after a deep vein thrombosis or pulmonary embolism, even if a dated note confirms the earlier clot without its exact date. Report only a possible finding if timing is unclear or clot history is missing, saying what is unknown, and give no finding for a course that ended by the time of the clot or when the record rules out a past clot.",
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Clot in a deep vein or lung in relation to systemic hormone treatment",
+      "meets": "Treatment started or continued after a deep vein thrombosis or pulmonary embolism. No previous clot, or a first clot after all treatment ended, rules out the finding. Unknown history or timing leaves it open.",
+      "options": [
+        {
+          "words": "Hormone treatment started or continued after a clot",
+          "effect": "meets"
+        },
+        {
+          "words": "First clot occurred after all hormone treatment ended",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "No previous clot",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "cannot_be_seen": "Whether the person has ever had a clot unless it is recorded, why the hormone was started, and any specialist advice. Also the clot treatment given, and supplies from another pharmacy or a hospital.",
+  "ask_the_gp": "Whether the hormone is still needed given the past clot, and whether a safer option or a specialist review is appropriate.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

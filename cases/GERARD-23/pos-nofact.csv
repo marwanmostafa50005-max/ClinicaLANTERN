@@ -1,0 +1,35 @@
+patient_ref,patient_age,patient_sex,record_type,dispense_date,medicine,brand,strength,form,quantity,repeats_left,directions,prescriber,detail,value
+F-G23-02,62,F,condition,2026-01-04,,,,,,,,,Type 2 diabetes,Confirmed
+F-G23-02,62,F,,2026-01-04,sitagliptin,Januvia,100 mg,tablet,28,5,Take one tablet daily,Dr A. Example,,
+F-G23-02,62,F,result,2026-01-04,,,,,,,,,HbA1c,6.9%
+F-G23-02,62,F,,2026-01-05,atorvastatin,,20 mg,tablet,30,5,Take one tablet daily,Dr A. Example,,
+F-G23-02,62,F,,2026-01-07,amlodipine,,5 mg,tablet,30,5,Take one tablet daily,Dr A. Example,,
+F-G23-02,62,F,,2026-02-01,sitagliptin,Januvia,100 mg,tablet,28,4,Take one tablet daily,Dr A. Example,,
+F-G23-02,62,F,,2026-02-04,atorvastatin,,20 mg,tablet,30,4,Take one tablet daily,Dr A. Example,,
+F-G23-02,62,F,,2026-02-06,amlodipine,,5 mg,tablet,30,4,Take one tablet daily,Dr A. Example,,
+F-G23-02,62,F,,2026-03-01,sitagliptin,Januvia,100 mg,tablet,28,3,Take one tablet daily,Dr A. Example,,
+F-G23-02,62,F,,2026-03-06,atorvastatin,,20 mg,tablet,30,3,Take one tablet daily,Dr A. Example,,
+F-G23-02,62,F,,2026-03-08,amlodipine,,5 mg,tablet,30,3,Take one tablet daily,Dr A. Example,,
+F-G23-02,62,F,result,2026-03-15,,,,,,,,,eGFR,89 mL/min/1.73 m2
+F-G23-02,62,F,result,2026-03-23,,,,,,,,,HbA1c,7.0%
+F-G23-02,62,F,,2026-03-29,sitagliptin,Januvia,100 mg,tablet,28,2,Take one tablet daily,Dr A. Example,,
+F-G23-02,62,F,,2026-04-05,atorvastatin,,20 mg,tablet,30,2,Take one tablet daily,Dr A. Example,,
+F-G23-02,62,F,,2026-04-07,amlodipine,,5 mg,tablet,30,2,Take one tablet daily,Dr A. Example,,
+F-G23-02,62,F,,2026-04-26,sitagliptin,Januvia,100 mg,tablet,28,1,Take one tablet daily,Dr A. Example,,
+F-G23-02,62,F,,2026-05-05,atorvastatin,,20 mg,tablet,30,1,Take one tablet daily,Dr A. Example,,
+F-G23-02,62,F,,2026-05-07,amlodipine,,5 mg,tablet,30,1,Take one tablet daily,Dr A. Example,,
+F-G23-02,62,F,,2026-05-24,sitagliptin,Januvia,100 mg,tablet,28,0,Take one tablet daily,Dr A. Example,,
+F-G23-02,62,F,,2026-06-04,atorvastatin,,20 mg,tablet,30,0,Take one tablet daily,Dr A. Example,,
+F-G23-02,62,F,,2026-06-06,amlodipine,,5 mg,tablet,30,0,Take one tablet daily,Dr A. Example,,
+F-G23-02,62,F,result,2026-06-09,,,,,,,,,HbA1c,6.8%
+F-G23-02,62,F,,2026-06-21,sitagliptin,Januvia,100 mg,tablet,28,5,Take one tablet daily,Dr A. Example,,
+F-G23-02,62,F,,2026-07-04,atorvastatin,,20 mg,tablet,30,5,Take one tablet daily,Dr A. Example,,
+F-G23-02,62,F,,2026-07-06,amlodipine,,5 mg,tablet,30,5,Take one tablet daily,Dr A. Example,,
+F-G23-02,62,F,,2026-07-19,sitagliptin,Januvia,100 mg,tablet,28,4,Take one tablet daily,Dr A. Example,,
+F-G23-02,62,F,,2026-08-03,atorvastatin,,20 mg,tablet,30,4,Take one tablet daily,Dr A. Example,,
+F-G23-02,62,F,,2026-08-05,amlodipine,,5 mg,tablet,30,4,Take one tablet daily,Dr A. Example,,
+F-G23-02,62,F,,2026-08-16,sitagliptin,Januvia,100 mg,tablet,28,3,Take one tablet daily,Dr A. Example,,
+F-G23-02,62,F,result,2026-08-26,,,,,,,,,HbA1c,6.9%
+F-G23-02,62,F,,2026-09-02,atorvastatin,,20 mg,tablet,30,3,Take one tablet daily,Dr A. Example,,
+F-G23-02,62,F,,2026-09-04,amlodipine,,5 mg,tablet,30,3,Take one tablet daily,Dr A. Example,,
+F-G23-02,62,F,,2026-09-13,sitagliptin,Januvia,100 mg,tablet,28,2,Take one tablet daily,Dr A. Example,,

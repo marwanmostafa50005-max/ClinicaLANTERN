@@ -1,0 +1,157 @@
+{
+  "id": "STOPP-D1",
+  "label": "STOPP D1",
+  "family": "STOPP_START",
+  "title": "Tricyclic antidepressant with a condition it can worsen",
+  "statement": "TriCyclic Antidepressants (TCAs) in patients with dementia, narrow angle glaucoma, cardiac conduction abnormalities, prostatism, chronic constipation, recent falls, prior history of urinary retention or orthostatic hypotension (risk of worsening these conditions).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Tricyclic antidepressants can make dementia, narrow angle glaucoma, heart rhythm problems, prostate symptoms, constipation, falls, urine retention and low standing blood pressure worse.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Tricyclic antidepressants (TCAs)",
+      "ingredients": [
+        "amitriptyline",
+        "nortriptyline",
+        "imipramine",
+        "doxepin",
+        "clomipramine",
+        "dosulepin"
+      ],
+      "brands": {
+        "amitriptyline": [
+          "Endep",
+          "Amichlor",
+          "Amidep",
+          "Entrip"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "doxepin": [
+          "Sinequan",
+          "Deptran"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "dosulepin": [
+          "Dothep",
+          "Prothiaden"
+        ]
+      },
+      "note": "Tablets and capsules count. Low-dose amitriptyline and nortriptyline are often used for nerve pain, which does not change the finding. Generic packs that show the ingredient name with a company name count too. Dothiepin is the former Australian name for dosulepin. Read either name as the same ingredient. Exclude creams and gels applied to the skin."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Dementia",
+      "meets": "Recorded"
+    },
+    {
+      "kind": "condition",
+      "what": "Angle-closure glaucoma",
+      "meets": "Recorded as narrow angle (open angle glaucoma does not meet)"
+    },
+    {
+      "kind": "condition",
+      "what": "Cardiac conduction abnormality (for example heart block)",
+      "meets": "Recorded, or an ECG result showing a conduction problem"
+    },
+    {
+      "kind": "condition",
+      "what": "Enlarged prostate with urinary symptoms",
+      "meets": "Recorded"
+    },
+    {
+      "kind": "condition",
+      "what": "Chronic constipation",
+      "meets": "Recorded"
+    },
+    {
+      "kind": "observation",
+      "what": "Recent falls",
+      "meets": "A fall judged recent in its clinical context. Ask when it happened and have the pharmacist decide borderline timing.",
+      "options": [
+        {
+          "words": "A fall was recent when the tricyclic was supplied",
+          "effect": "meets"
+        },
+        {
+          "words": "There was no recent fall when the tricyclic was supplied",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "condition",
+      "what": "Past urinary retention",
+      "meets": "A history of urinary retention, including a bladder scan interpreted by the treating clinician as showing retention. An uninterpreted volume leaves the history unresolved.",
+      "options": [
+        {
+          "words": "Urinary retention had occurred by the time the tricyclic was supplied",
+          "effect": "meets"
+        },
+        {
+          "words": "There had been no urinary retention by the time the tricyclic was supplied",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Evidence of postural hypotension during tricyclic treatment",
+      "meets": "A recorded diagnosis of orthostatic hypotension, or a sustained fall from lying blood pressure within three minutes of standing of at least 20 mmHg systolic or at least 10 mmHg diastolic.",
+      "options": [
+        {
+          "words": "A diagnosis of postural hypotension applies to this treatment",
+          "effect": "meets"
+        },
+        {
+          "words": "Within three minutes of standing, blood pressure fell from lying by at least 20 mmHg systolic or 10 mmHg diastolic and the fall was sustained",
+          "effect": "meets"
+        },
+        {
+          "words": "Assessment excludes postural hypotension for this treatment",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "When a Group A tablet or capsule is supplied to someone aged 65 or older (ask for age before confirming if unknown), suspect a finding if any listed condition applied at the time of supply. Use supply dates, quantities, directions and any dated account of stopping to identify each course. Check whether dementia, angle-closure glaucoma, a cardiac conduction abnormality, an enlarged prostate with urinary symptoms, chronic constipation or postural hypotension was active during treatment. If treatment is ongoing at the latest date in the record, a pharmacist's Yes to any of the first five conditions confirms the finding. A No excludes that condition for current treatment unless dated evidence shows it was active earlier in the same course. For each finished course, including an earlier course of the same medicine, use dated evidence. A history-wide answer alone cannot confirm or exclude a condition for a finished course, even if the answer line says to treat it as present throughout the record. A condition active during treatment counts even if it later resolved. First onset after treatment ended does not count. First documentation after treatment ended leaves timing unclear unless the record gives the onset or says whether the condition applied during treatment. An old diagnosis of angle-closure glaucoma alone leaves its status during treatment unclear. Documented resolution before treatment excludes that episode. For postural hypotension, count a diagnosis that applies during treatment or a sustained fall from lying blood pressure of at least 20 mmHg systolic or 10 mmHg diastolic within three minutes of standing. A recent fall is judged in relation to that supply, and urinary retention must have occurred at or before supply. One confirmed condition is enough. If none is established and any remain unresolved, including after a Not known answer, report a possible finding. Name the tricyclic and its supply dates, give the exact names of only the unresolved facts, and ask whether they applied to that course. Report no finding for a course when all eight conditions are ruled out. For each finding, cite the supporting fact line if present, then one supply from the course to which the finding applies.",
+  "cannot_be_seen": "Whether the person has any of these conditions, how severe they are, and why the antidepressant was started (low doses are often used for nerve pain or sleep).",
+  "ask_the_gp": "Whether a tricyclic antidepressant is still the right choice, given the person's conditions, and whether a review of the medicine is due.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

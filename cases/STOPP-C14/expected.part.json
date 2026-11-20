@@ -1,0 +1,64 @@
+[
+  {
+    "file": "STOPP-C14/pos-brand.csv",
+    "kind": "positive",
+    "about": "Isoptin SR (verapamil, a P-glycoprotein inhibitor named by the criterion) is supplied every month from March 2026 while Eliquis (apixaban) is supplied every month, and both appear by brand name only.",
+    "findings": [
+      {
+        "criterion": "STOPP-C14",
+        "must_cite": [
+          [
+            "L001",
+            "L003",
+            "L006",
+            "L009",
+            "L012",
+            "L016",
+            "L020",
+            "L023",
+            "L026",
+            "L029"
+          ],
+          [
+            "L007",
+            "L010",
+            "L013",
+            "L017",
+            "L021",
+            "L024",
+            "L027",
+            "L030"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-C14/pos-buried.csv",
+    "kind": "positive",
+    "about": "Two packs of Klacid (clarithromycin, a macrolide) are supplied in February 2026, in the middle of a 14-month history, while rivaroxaban (Xarelto) is supplied throughout.",
+    "findings": [
+      {
+        "criterion": "STOPP-C14",
+        "must_cite": [
+          [
+            "L027",
+            "L031",
+            "L037",
+            "L041"
+          ],
+          [
+            "L035",
+            "L036"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-C14/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Klacid (clarithromycin) was supplied once in November 2025, about seven months before Eliquis (apixaban) started in June 2026, and the medicines supplied with Eliquis (amlodipine, doxycycline, rosuvastatin, paracetamol) are not P-glycoprotein inhibitors named by the criterion.",
+    "findings": []
+  }
+]

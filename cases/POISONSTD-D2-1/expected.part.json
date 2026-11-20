@@ -1,0 +1,44 @@
+[
+  {
+    "file": "POISONSTD-D2-1/pos-fact.csv",
+    "kind": "positive",
+    "about": "The September conception dates fall within 36 months of the documented last acitretin dose on 31 March.",
+    "findings": [
+      {
+        "criterion": "POISONSTD-D2-1",
+        "must_cite": [
+          [
+            "L019"
+          ],
+          [
+            "L050"
+          ],
+          [
+            "L051"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "POISONSTD-D2-1/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: current pregnancy status is recorded, but the last acitretin dose and any conception in the post-treatment period are unknown.",
+    "findings": [
+      {
+        "criterion": "POISONSTD-D2-1",
+        "must_cite": [
+          [
+            "L020"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "POISONSTD-D2-1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The March pregnancy ended before treatment. L035 excludes conception between the October last dose and the end of the record.",
+    "findings": []
+  }
+]

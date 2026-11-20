@@ -1,0 +1,68 @@
+{
+  "id": "OPTIMISE-T2-42",
+  "label": "OPTIMISE T2-42: clozapine after stopping smoking",
+  "family": "OPTIMISE",
+  "title": "Clozapine when a person stops smoking",
+  "statement": "Consider a dose reduction by up to 50% in patients taking clozapine who stop smoking abruptly. Carefully monitor for adverse effects of clozapine and destabilisation of mental illness. Perform a clozapine assay 3–5 days after dose adjustment or abrupt cessation of smoking",
+  "statement_origin": "published",
+  "source": {
+    "document": "Carolan A, et al. OPTIMISE. BMC Psychiatry 2022;22:585, Tables 2-3",
+    "citation": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Stopping smoking can raise clozapine blood levels, so the dose may need to come down and the level may need checking.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Clozapine",
+      "ingredients": [
+        "clozapine"
+      ],
+      "brands": {
+        "clozapine": [
+          "Clozaril",
+          "Clopine",
+          "Closyn",
+          "Clozaril ODT",
+          "Clozitor",
+          "Versacloz"
+        ]
+      },
+      "note": "Tablets and suspension count."
+    }
+  ],
+  "rule_for_models": "Seek same-day review when a new abrupt smoking stop is identified during Group A clozapine treatment. Cite the actual quit date and evidence of exposure on that date, using supply date, quantity and daily dose from strength and directions. Do not wait for a refill. If a stop is reported but the directions leave exposure on that date uncertain, report only a possible finding and ask for the dose and whether clozapine was taken then. If exposure is established independently, proceed with same-day review and confirm the unclear dose in that review. Check the record for dose review, adverse effects and mental-state change. Look for a clozapine level 3 to 5 days after cessation and after any related dose adjustment, including a reduction. Cite the sample date and result if recorded. If the sample date is missing, confirm it before treating the result as a check in that window. Cite any dated plan separately. Before the window ends, distinguish a planned or not-yet-due test from a result already recorded. After the window, query a missing result even if the test was planned. After a confirmed stop, ask separately about the dose review, adverse effects, mental state and level only where each check is outstanding. If abrupt cessation is reported but the date or exposure is unclear, keep the finding possible and ask for the actual quit date and treatment at that time. A shared Smoking status answer does not give a quit date or prove exposure to this medicine. If the answer is Not known, keep an otherwise eligible finding possible. Apply this criterion to adults aged 18 or over. If age is missing and the other evidence still supports review, report only a possible finding and ask the pharmacist to confirm age. If smoking status is missing, report only a possible finding and ask about Smoking status. Do not infer cessation or request post-cessation tests from a supply alone. There is no cessation finding for continued smoking or a remote stop. The pharmacist decides borderline timing from the actual quit date, exposure and outstanding monitoring.",
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Smoking status",
+      "meets": "A recent abrupt stop prompts review. Check the actual quit date against exposure to each medicine separately. If the date or exposure is unclear, the finding stays possible.",
+      "options": [
+        {
+          "words": "Stopped smoking abruptly recently during this treatment",
+          "effect": "meets"
+        },
+        {
+          "words": "Continues to smoke",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Never smoked or stopped a long time ago",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "cannot_be_seen": "Dispensing lines alone do not show smoking status, the actual quit date, adverse effects or changes in mental state. Dose changes, monitoring plans and clozapine levels may be known only to the patient or another service unless recorded here.",
+  "ask_the_gp": "If a new abrupt stop is confirmed, could we review the dose, adverse effects and mental state today if this is still outstanding? Is a clozapine level planned or available 3 to 5 days after the stop, even at the same dose, and after any related dose adjustment?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,155 @@
+{
+  "id": "START-B11",
+  "label": "START B11",
+  "family": "STOPP_START",
+  "title": "Heart failure with iron deficiency and no intravenous iron",
+  "statement": "Intravenous iron for symptomatic heart failure with reduced ejection fraction and iron deficiency.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A person with symptomatic heart failure with reduced ejection fraction and iron deficiency should be offered iron given by drip (intravenous iron).",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Intravenous iron (medicines that meet this criterion)",
+      "ingredients": [
+        "ferric carboxymaltose",
+        "ferric derisomaltose",
+        "iron sucrose",
+        "iron polymaltose"
+      ],
+      "brands": {
+        "ferric carboxymaltose": [
+          "Ferinject",
+          "Ferivo",
+          "Ferricarbo",
+          "Ferrive"
+        ],
+        "ferric derisomaltose": [
+          "Monofer"
+        ],
+        "iron sucrose": [
+          "Venofer"
+        ],
+        "iron polymaltose": [
+          "Ferrosig",
+          "Ferrum H"
+        ]
+      },
+      "note": "Count intravenous iron only. For Ferrosig or Ferrum H, count only a documented intravenous infusion. A brand or ampoule alone does not establish the route. An intramuscular dose counts in neither group. If the route of an injection is missing, ask for it before deciding whether IV iron was given. Iron tablets and capsules do not count. Intravenous iron is often given in hospital and may not appear in a pharmacy record."
+    },
+    {
+      "key": "B",
+      "name": "Medicines that imply the condition",
+      "ingredients": [
+        "ivabradine",
+        "sacubitril with valsartan",
+        "ferrous sulfate",
+        "iron polymaltose",
+        "sacubitril + valsartan",
+        "ferrous fumarate"
+      ],
+      "brands": {
+        "ivabradine": [
+          "Coralan",
+          "Caranor",
+          "Cobadine",
+          "Coralide"
+        ],
+        "sacubitril with valsartan": [
+          "Entresto"
+        ],
+        "ferrous sulfate": [
+          "Ferro-Gradumet",
+          "Fefol",
+          "Ferro-Liquid",
+          "Ferro-grad",
+          "Ferrogen",
+          "Ferro-grad C",
+          "FGF"
+        ],
+        "iron polymaltose": [
+          "Maltofer",
+          "Maltofer Syrup"
+        ],
+        "sacubitril + valsartan": [
+          "Entresto"
+        ],
+        "ferrous fumarate": [
+          "Ferro-tab",
+          "Ferro-f-tab"
+        ]
+      },
+      "note": "Ivabradine and sacubitril with valsartan imply heart failure with reduced ejection fraction. Oral iron implies iron deficiency has been treated. When neither condition has been recorded, suspect a possible finding only when the record holds one medicine that implies heart failure AND one oral iron medicine. Fefol is ferrous sulfate with folic acid. Count iron polymaltose in Group B only in an oral form, including Maltofer."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Symptomatic heart failure with reduced ejection fraction",
+      "meets": "Confirm heart failure with reduced ejection fraction and current symptoms due to heart failure. A left ventricular ejection fraction of 40% or less supports reduced function. It cannot establish symptoms. Use Not known if either part is uncertain and neither has been ruled out.",
+      "options": [
+        {
+          "words": "Reduced ejection fraction with current symptoms due to heart failure",
+          "effect": "meets"
+        },
+        {
+          "words": "Symptomatic heart failure with reduced ejection fraction is ruled out",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "result",
+      "what": "Ferritin",
+      "meets": "Enter serum ferritin in micrograms/L with the date if known. Below 100 supports iron deficiency. From 100 to 299 inclusive, iron deficiency by this test requires transferrin saturation below 20%. An independently documented diagnosis can establish deficiency without this result."
+    },
+    {
+      "kind": "result",
+      "what": "Transferrin saturation",
+      "meets": "Enter transferrin saturation as a percentage and the measurement date if known. A value below 20% supports iron deficiency when ferritin from the same assessment is 100 to 299 micrograms/L."
+    },
+    {
+      "kind": "condition",
+      "what": "Iron deficiency",
+      "meets": "Yes means there is a current documented diagnosis of iron deficiency. Choose No only if iron deficiency has been confirmed absent. Choose Not known if the notes do not establish or exclude it."
+    },
+    {
+      "kind": "observation",
+      "what": "Intravenous iron in the six-month review period",
+      "meets": "No intravenous iron was received in the last six months counted back from the latest date in the record. Check all settings, including hospital.",
+      "options": [
+        {
+          "words": "Received intravenous iron in this period",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Did not receive intravenous iron in this period",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this criterion only to people aged 65 years or older. If age is unknown, confirm it before reporting a finding. Suspect a finding when the record documents symptomatic heart failure with reduced ejection fraction AND iron deficiency (documented iron deficiency, ferritin below 100 micrograms/L, or ferritin 100 to 299 micrograms/L with transferrin saturation below 20%), and no supply of any Group A medicine in the last six months counted back from the latest date in the record. Cite the symptomatic heart failure line and the evidence of iron deficiency. Use ferritin and Transferrin saturation from the same clinical assessment and cite both lines when they establish deficiency. Ferritin below 100 micrograms/L does not require a saturation result. If symptomatic heart failure with reduced ejection fraction is ruled out, there is no finding. If the other conditions are met but symptoms are unknown, report a possible finding and ask for Symptomatic heart failure with reduced ejection fraction. If ferritin is 100 to 299 micrograms/L, no current diagnosis establishes iron deficiency and the other conditions fit, check Transferrin saturation. If a result from the same assessment is missing or unknown, report a possible finding, name Transferrin saturation and cite the heart failure and ferritin lines. If symptomatic heart failure with reduced ejection fraction is documented, oral iron is supplied, iron deficiency is neither documented nor excluded, and no Group A medicine was supplied in the last six months, report only a possible finding. Cite the heart failure and oral iron lines and name Ferritin and Iron deficiency as the missing evidence. When there is no heart failure or iron line but the record shows a Group B heart failure medicine AND an oral iron medicine, and no Group A medicine in the last six months, report a possible finding, cite those supply lines, and name the missing facts Symptomatic heart failure with reduced ejection fraction, Ferritin and Iron deficiency. Ask for Iron deficiency only on an otherwise possible finding when the laboratory evidence leaves the diagnosis open. A current documented diagnosis establishes deficiency. Missing notes leave it unknown. A confirmed absence rules out the diagnosis unless independent iron studies conflict. Reconcile conflicting current evidence before confirming an omission. Use the route and dates in the record first. A confirmed intravenous iron supply or infusion in the last six months gives no finding. An intramuscular dose does not count. If the only candidate has an unclear injection route or a hospital infusion is reported with unclear timing, report only a possible finding when this uncertainty affects the decision. Name Intravenous iron in the six-month review period and cite the evidence of the injection or reported infusion if recorded. If no intravenous iron was received in the period, assess the other requirements. An unknown answer leaves the review possible. Without a documented diagnosis of iron deficiency, ferritin of 300 micrograms/L or higher, or ferritin of 100 to 299 micrograms/L with saturation of 20% or higher, does not establish iron deficiency and gives no finding.",
+  "cannot_be_seen": "Symptoms, the true ejection fraction, iron and blood count results not on the record, and any reason intravenous iron was not suitable. Intravenous iron is mostly given in hospital, so the pharmacy record may not show it.",
+  "ask_the_gp": "Whether the person has iron deficiency, and whether intravenous iron should be arranged.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

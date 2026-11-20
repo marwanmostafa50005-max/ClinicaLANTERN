@@ -1,0 +1,53 @@
+[
+  {
+    "file": "STOPP-C9/pos-fact.csv",
+    "kind": "positive",
+    "about": "Warfarin continued beyond 12 months after a first unprovoked pulmonary embolism, with uninterrupted treatment documented by the clinic and no continuing risk or separate indication at follow-up.",
+    "findings": [
+      {
+        "criterion": "STOPP-C9",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L002"
+          ],
+          [
+            "L048"
+          ],
+          [
+            "L049"
+          ],
+          [
+            "L053"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-C9/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: repeat warfarin supplies for pulmonary embolism span more than 12 months, but the record holds no line about whether this was the first embolism, whether treatment was continuous or whether any risk or separate indication persists.",
+    "findings": [
+      {
+        "criterion": "STOPP-C9",
+        "must_cite": [
+          [
+            "L005"
+          ],
+          [
+            "L025"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-C9/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Fourteen supplies of 60 apixaban tablets at two tablets daily extend past 12 months after a first pulmonary embolism, but the recorded Factor V Leiden thrombophilia is a continuing clotting risk.",
+    "findings": []
+  }
+]

@@ -1,0 +1,100 @@
+{
+  "id": "PROMPT-CN-3",
+  "label": "PROMPT: long-term benzodiazepine",
+  "family": "PROMPT",
+  "title": "Benzodiazepine supplied for more than four weeks",
+  "statement": "Benzodiazepines (e.g. nitrazepam, temazepam) should not be used long-term (greater than four weeks).",
+  "statement_origin": "published",
+  "source": {
+    "document": "Cooper JA, et al. The development of the PROMPT criteria. BMC Health Serv Res 2014;14:484, Table 4",
+    "citation": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A benzodiazepine such as nitrazepam or temazepam used for longer than four weeks can cause dependence, drowsiness, confusion and falls.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Benzodiazepines",
+      "ingredients": [
+        "diazepam",
+        "temazepam",
+        "oxazepam",
+        "nitrazepam",
+        "lorazepam",
+        "alprazolam",
+        "clonazepam",
+        "clobazam",
+        "bromazepam",
+        "flunitrazepam",
+        "triazolam",
+        "midazolam"
+      ],
+      "brands": {
+        "diazepam": [
+          "Valium",
+          "Antenex",
+          "Ducene",
+          "Valpam",
+          "Ranzepam"
+        ],
+        "temazepam": [
+          "Normison",
+          "Temaze",
+          "Temtabs"
+        ],
+        "oxazepam": [
+          "Serepax",
+          "Murelax",
+          "Alepam"
+        ],
+        "nitrazepam": [
+          "Mogadon",
+          "Alodorm"
+        ],
+        "lorazepam": [
+          "Ativan"
+        ],
+        "alprazolam": [
+          "Xanax",
+          "Kalma",
+          "Alprax",
+          "Ralozam",
+          "Xanax Tri-Score",
+          "Zamhexal"
+        ],
+        "clonazepam": [
+          "Rivotril",
+          "Paxam"
+        ],
+        "clobazam": [
+          "Frisium",
+          "Clobium"
+        ],
+        "bromazepam": [
+          "Lexotan"
+        ],
+        "flunitrazepam": [
+          "Hypnodorm"
+        ],
+        "triazolam": [
+          "Halcion"
+        ],
+        "midazolam": [
+          "Hypnovel",
+          "Midalim",
+          "Midavel"
+        ]
+      },
+      "note": "Z-drugs such as zolpidem and zopiclone are not benzodiazepines and are not counted here. For injectable, rectal or buccal rescue medicines, an isolated dose or replacement stock does not establish use beyond four weeks. Assess documented ongoing treatment against the same duration. If ongoing use is plausible but unclear, ask how often and for how long it was used."
+    }
+  ],
+  "rule_for_models": "Apply this PROMPT criterion only when the recorded patient age is 45 to 64 inclusive. If age is missing, record that eligibility is unknown and do not report a PROMPT finding. Suspect a finding when a Group A medicine (a benzodiazepine) is supplied on dates that cover more than four weeks (28 days): repeat supplies no more than 60 days apart that together last more than 28 days, or one supply that lasts more than 28 days at the directed dose. If directions give no daily dose and the supplies could cover more than 28 days, report only a possible finding. Ask the patient how much they take, how often and for how long. Pack size or time between refills alone cannot establish regular use. Count consecutive supplies of different Group A benzodiazepines together when they are no more than 60 days apart and the dates and directions support a continuing course. Count overlapping days once. Exclude isolated short courses and do not join supplies more than 60 days apart.",
+  "cannot_be_seen": "Why the benzodiazepine was started, whether there is a reason for longer treatment such as epilepsy or palliative care, and whether the tablets are taken every night or only now and then. Also whether a gradual dose reduction is under way and any supply from another pharmacy.",
+  "ask_the_gp": "Whether the benzodiazepine is still needed after more than four weeks of supply, and a plan to reduce it slowly if it is not.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

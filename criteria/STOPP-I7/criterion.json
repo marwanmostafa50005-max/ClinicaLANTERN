@@ -1,0 +1,76 @@
+{
+  "id": "STOPP-I7",
+  "label": "STOPP I7: duloxetine with urinary urgency or urge incontinence",
+  "family": "STOPP_START",
+  "title": "Duloxetine with urinary urgency or urge incontinence",
+  "statement": "Duloxetine with urinary urgency or urge incontinence (duloxetine is indicated in stress incontinence but not in urinary urgency or urge incontinence).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "In Australia, duloxetine use for stress urinary incontinence is off-label. When an older person taking duloxetine has urinary urgency or urge incontinence, review the reason for treatment.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Duloxetine",
+      "ingredients": [
+        "duloxetine"
+      ],
+      "brands": {
+        "duloxetine": [
+          "Cymbalta",
+          "Andepra",
+          "Coperin",
+          "Drulox",
+          "Dytrex",
+          "Symlox",
+          "DYTREX 60",
+          "Tixol 60",
+          "Baltine",
+          "Deotine",
+          "Depreta",
+          "Dulocym",
+          "Duloxecor",
+          "Texotine",
+          "Tixol",
+          "Xerol DR"
+        ]
+      },
+      "note": "Capsules count. Duloxetine is also used for depression, anxiety and nerve pain, so a supply alone does not show why it is taken. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Urinary urgency or urge incontinence (overactive bladder)",
+      "meets": "The record shows urinary urgency or urge incontinence during duloxetine use, including overactive bladder with urgency.",
+      "options": [
+        {
+          "words": "Urgency during duloxetine use, with or without leakage",
+          "effect": "meets"
+        },
+        {
+          "words": "Neither urgency nor urge leakage during duloxetine use",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply only to people aged 65 or older supplied duloxetine. If age is unknown and the other criteria could be met, report only a possible finding and ask the pharmacist to confirm whether the person is 65 or older. Cite the supply and the line showing urgency or urge leakage during duloxetine use, including overactive bladder with urgency. Give no finding if both symptoms were absent during treatment or there was only stress leakage. If symptoms during treatment are unknown, report a possible finding even if depression or pain is recorded.",
+  "cannot_be_seen": "Why duloxetine was prescribed, and whether the person has urgency or urge incontinence, when the record has no condition line. Duloxetine is often taken for depression or pain, so this cannot be judged from supplies alone.",
+  "ask_the_gp": "Why duloxetine was started, and whether it is meant for the bladder; if it is, whether it should be reviewed.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

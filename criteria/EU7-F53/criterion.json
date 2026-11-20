@@ -1,0 +1,40 @@
+{
+  "id": "EU7-F53",
+  "label": "EU(7)-PIM: ergotamine",
+  "family": "EU7",
+  "title": "Ergotamine in an older person",
+  "statement": "Ergotamine | In lists: 4 (A) | Main reason: Unfavourable risk/benefit profile | Dose adjustment/special considerations: (blank: per ESM note, no suggestion by experts or in Micromedex) | Alternatives: Paracetamol; ibuprofen (≤3 x 400 mg/d or for a period shorter than one week); naproxen (≤2 x 250 mg/d or for a period shorter than one week); non-pharmacological treatment (silence, rest, darkness). E",
+  "statement_origin": "published",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Ergotamine is a migraine medicine that narrows blood vessels. In people aged 65 and over the risks are thought to outweigh the benefit.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Ergotamine",
+      "ingredients": [
+        "ergotamine"
+      ],
+      "brands": {
+        "ergotamine": [
+          "Cafergot"
+        ]
+      },
+      "note": "Includes ergotamine with caffeine. Dihydroergotamine is not named in the list and is not included. Cafergot tablets contain ergotamine and caffeine."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when ergotamine (alone or with caffeine) is supplied to a person aged 65 or over. If ergotamine is supplied and age is unknown, report only a possible finding and ask the pharmacist to confirm whether the person is aged 65 or over. One supply is enough.",
+  "cannot_be_seen": "Why it was prescribed, heart and blood vessel disease, and how often it is really taken.",
+  "ask_the_gp": "Whether ergotamine is still needed and whether a safer migraine treatment could replace it.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

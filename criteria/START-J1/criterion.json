@@ -1,0 +1,437 @@
+{
+  "id": "START-J1",
+  "label": "START J1",
+  "family": "STOPP_START",
+  "title": "ACE inhibitor or ARB in diabetes with kidney damage",
+  "statement": "ACE inhibitor or Angiotensin Receptor Blocker (if intolerant of ACE inhibitor) in diabetes with evidence of renal disease i.e., dipstick proteinuria or microalbuminuria (>30 mg/24 hours) unless evidence of severe CKD (eGFR < 30 ml/min/m²).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "START J1 prompts review of an ACE inhibitor, or an ARB if an ACE inhibitor is not tolerated, in an older person with diabetes and qualifying urine protein or albumin. The source prints ml/min/m². This screen uses indexed eGFR below 30 mL/min/1.73 m² to place the person outside J1. An ACE inhibitor or ARB may still be appropriate after individual kidney and medicines review.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "ACE inhibitors and angiotensin receptor blockers (ARBs), the medicines that meet this criterion",
+      "ingredients": [
+        "captopril",
+        "cilazapril",
+        "enalapril",
+        "fosinopril",
+        "lisinopril",
+        "perindopril",
+        "quinapril",
+        "ramipril",
+        "trandolapril",
+        "candesartan",
+        "eprosartan",
+        "irbesartan",
+        "losartan",
+        "olmesartan",
+        "telmisartan",
+        "valsartan"
+      ],
+      "brands": {
+        "captopril": [
+          "Capoten",
+          "Acenorm",
+          "Captohexal",
+          "Topace",
+          "Zedace"
+        ],
+        "cilazapril": [
+          "Inhibace"
+        ],
+        "enalapril": [
+          "Renitec",
+          "Renitec Plus (with hydrochlorothiazide)",
+          "Acetec",
+          "Alphapril",
+          "Amprace",
+          "Auspril",
+          "Elapril",
+          "Enahexal",
+          "Enalabell",
+          "Malean",
+          "Renitec M"
+        ],
+        "lisinopril": [
+          "Zestril",
+          "Prinivil",
+          "Zestoretic (with hydrochlorothiazide)",
+          "Fibsol",
+          "Linopril",
+          "Liprace",
+          "Lisinobell",
+          "Lisinotrust",
+          "Lisodrate",
+          "Lisodur",
+          "Lisoril",
+          "Ozten",
+          "Sinop",
+          "Zinopril"
+        ],
+        "perindopril": [
+          "Coversyl",
+          "Coversyl Plus (with indapamide)",
+          "Coveram (with amlodipine)",
+          "Idaprex",
+          "Idaprex Arg",
+          "Indopril",
+          "Indosyl Mono",
+          "Ozapace",
+          "Perindo",
+          "Perindo Arg",
+          "Perindoarg",
+          "Perindobell",
+          "Perisyl",
+          "Prexum",
+          "Triplixam SR (with amlodipine and indapamide)",
+          "Reaptan (with amlodipine)"
+        ],
+        "quinapril": [
+          "Accupril",
+          "Accuretic (with hydrochlorothiazide)",
+          "Acquin",
+          "Aquinafil",
+          "Filpril",
+          "Qpril"
+        ],
+        "ramipril": [
+          "Tritace",
+          "Prilace",
+          "Ramace",
+          "Ramibell",
+          "Tryzan",
+          "Vascalace"
+        ],
+        "trandolapril": [
+          "Tarka (with verapamil)",
+          "Gopten"
+        ],
+        "candesartan": [
+          "Atacand",
+          "Atacand Plus (with hydrochlorothiazide)",
+          "Adesan",
+          "Asartan",
+          "Candelem",
+          "Candesan"
+        ],
+        "eprosartan": [
+          "Teveten"
+        ],
+        "irbesartan": [
+          "Avapro",
+          "Karvea",
+          "Avapro HCT (with hydrochlorothiazide)",
+          "Abisart",
+          "Ambotens",
+          "Avsartan",
+          "Irbesat",
+          "Irbestin",
+          "Irbetan",
+          "Irprestan",
+          "Karbesat",
+          "Karvezide (with hydrochlorothiazide)"
+        ],
+        "losartan": [
+          "Cozaar",
+          "Hyzaar (with hydrochlorothiazide)",
+          "Cozavan"
+        ],
+        "olmesartan": [
+          "Olmetec",
+          "Olmetec Plus (with hydrochlorothiazide)",
+          "Olmertan",
+          "Olmes",
+          "Olmesart",
+          "Olsetan",
+          "Sevikar (with amlodipine)",
+          "Sevikar HCT (with amlodipine and hydrochlorothiazide)"
+        ],
+        "telmisartan": [
+          "Micardis",
+          "Micardis Plus (with hydrochlorothiazide)",
+          "Mizart",
+          "Pritor",
+          "Telmigen",
+          "Teltartan",
+          "Twynsta (with amlodipine)",
+          "Pritor Plus (with hydrochlorothiazide)"
+        ],
+        "valsartan": [
+          "Diovan",
+          "Co-Diovan (with hydrochlorothiazide)",
+          "Entresto (with sacubitril)",
+          "Dilart",
+          "Exforge (with amlodipine)",
+          "Exforge HCT (with amlodipine and hydrochlorothiazide)"
+        ],
+        "fosinopril": [
+          "Fosinopril (Dp)",
+          "Fosinopril Sodium (Apo)",
+          "Fosinopril Sodium (Genrx)",
+          "Fosinopril Sodium (Sandoz)",
+          "Fosinopril Sodium (Winthrop)",
+          "Fosipril",
+          "Monace",
+          "Monopril"
+        ]
+      },
+      "note": "Combination products are listed under the ingredient that counts, with the other ingredient named. Sacubitril with valsartan counts as Group A exposure. Generic packs that show the ingredient name with a company name count."
+    },
+    {
+      "key": "B",
+      "name": "Medicines for diabetes, which imply the condition",
+      "ingredients": [
+        "metformin",
+        "gliclazide",
+        "glimepiride",
+        "glipizide",
+        "pioglitazone",
+        "sitagliptin",
+        "vildagliptin",
+        "linagliptin",
+        "saxagliptin",
+        "empagliflozin",
+        "dapagliflozin",
+        "insulin glargine",
+        "insulin aspart",
+        "insulin lispro",
+        "dulaglutide",
+        "semaglutide",
+        "acarbose",
+        "alogliptin",
+        "ertugliflozin",
+        "liraglutide",
+        "tirzepatide",
+        "insulin degludec",
+        "insulin detemir",
+        "isophane insulin",
+        "insulin neutral",
+        "insulin glulisine",
+        "glibenclamide"
+      ],
+      "brands": {
+        "metformin": [
+          "Diabex",
+          "Diaformin",
+          "Glucophage",
+          "Diabex XR",
+          "Diaformin Alphapharm XR",
+          "Diaformin Viatris",
+          "Diaformin Viatris XR",
+          "Diaformin XR",
+          "Diamet",
+          "Diaxemet XR",
+          "Formet",
+          "Glucobete",
+          "Glucohexal",
+          "Glucomet",
+          "Glucophage XR",
+          "Medformin",
+          "Metex XR",
+          "Metforbell",
+          "Metofex XR"
+        ],
+        "gliclazide": [
+          "Diamicron",
+          "Diamicron MR",
+          "Glyade",
+          "Diastal MR",
+          "Didax MR",
+          "Glyade MR",
+          "Mellihexal",
+          "Nidem",
+          "Oziclide MR"
+        ],
+        "glimepiride": [
+          "Amaryl",
+          "Aylide",
+          "Diapride",
+          "Dimirel",
+          "Glimaccord",
+          "Glimepro",
+          "Gliride"
+        ],
+        "glipizide": [
+          "Minidiab",
+          "Melizide"
+        ],
+        "pioglitazone": [
+          "Actos",
+          "Acpio",
+          "Actaze",
+          "Atilos",
+          "Aztyme",
+          "Piozone",
+          "Pizaccord",
+          "Prioten",
+          "Vexazone"
+        ],
+        "sitagliptin": [
+          "Januvia",
+          "Janumet (with metformin)",
+          "Janorix",
+          "Sitaglin",
+          "Sitaglo",
+          "Sitazitin",
+          "Xelevia",
+          "Janumet XR (with metformin)"
+        ],
+        "vildagliptin": [
+          "Galvus",
+          "Galvumet (with metformin)"
+        ],
+        "linagliptin": [
+          "Trajenta",
+          "Trajentamet (with metformin)",
+          "Trajiptin"
+        ],
+        "saxagliptin": [
+          "Onglyza",
+          "Kombiglyze XR (with metformin)"
+        ],
+        "empagliflozin": [
+          "Jardiance",
+          "Jardiamet (with metformin)",
+          "Glyxambi (with linagliptin)"
+        ],
+        "dapagliflozin": [
+          "Forxiga",
+          "Xigduo XR (with metformin)",
+          "Glixafor",
+          "Qtern (with saxagliptin)"
+        ],
+        "insulin glargine": [
+          "Lantus",
+          "Toujeo",
+          "Basaglar",
+          "Basaglar Kwikpen",
+          "Lantus Solostar",
+          "Optisulin",
+          "Optisulin Solostar",
+          "Semglee",
+          "Toujeo Max Solostar",
+          "Toujeo Solostar"
+        ],
+        "insulin aspart": [
+          "NovoRapid",
+          "Fiasp",
+          "Fiasp Flextouch",
+          "Fiasp Penfill",
+          "Novorapid Flexpen",
+          "Novorapid Innolet",
+          "Novorapid Penfill",
+          "Truvelog",
+          "Truvelog Solostar",
+          "NovoMix 30"
+        ],
+        "insulin lispro": [
+          "Humalog",
+          "Humalog Kwikpen",
+          "Humalog Mix25",
+          "Humalog Mix50"
+        ],
+        "dulaglutide": [
+          "Trulicity"
+        ],
+        "semaglutide": [
+          "Ozempic"
+        ],
+        "acarbose": [
+          "Glucobay"
+        ],
+        "alogliptin": [
+          "Nesina",
+          "Nesina Met (with metformin)"
+        ],
+        "ertugliflozin": [
+          "Steglatro",
+          "Segluromet (with metformin)",
+          "Steglujan (with sitagliptin)"
+        ],
+        "liraglutide": [
+          "Victoza"
+        ],
+        "tirzepatide": [
+          "Mounjaro"
+        ],
+        "insulin degludec": [
+          "Ryzodeg 70/30 (with insulin aspart)",
+          "Tresiba Penfill"
+        ],
+        "insulin detemir": [
+          "Levemir"
+        ],
+        "isophane insulin": [
+          "Protaphane",
+          "Humulin NPH",
+          "Humulin 30/70"
+        ],
+        "insulin neutral": [
+          "Actrapid",
+          "Humulin R",
+          "Humulin 30/70"
+        ],
+        "insulin glulisine": [
+          "Apidra",
+          "Apidra SoloStar"
+        ],
+        "glibenclamide": [
+          "Daonil"
+        ]
+      },
+      "note": "Metformin, SGLT2 inhibitors and semaglutide are sometimes used for other reasons (for example polycystic ovary syndrome, heart failure, kidney disease or weight loss), so a supply only suggests diabetes. Generic packs showing the ingredient with a company name count. A supply alone cannot confirm diabetes. Ask why the person takes the medicine, including tirzepatide or liraglutide. Exclude Wegovy, including Wegovy Flextouch, even if the line also names semaglutide. Exclude semaglutide documented solely for weight management or cardiovascular risk reduction. A separate diabetes diagnosis or another qualifying diabetes medicine still counts."
+    }
+  ],
+  "rule_for_models": "Apply only at age 65 or older, outside end-of-life care focused on palliation and with no documented valid reason for omission. If age is unknown and the other evidence would support a finding, report only a possible finding and ask the pharmacist to confirm the age. Give no finding for any Group A supply in the last six months counted back from the latest date in the record, a latest eGFR below 30 mL/min/1.73 m², or documented absence of diabetes. A No answer to Diabetes rules out the omission even when a medicine suggests diabetes. Exclude Wegovy, including Wegovy Flextouch, and semaglutide used solely for weight management or cardiovascular risk reduction as diabetes clues. A separate diabetes diagnosis or qualifying Group B supply still counts. Without evidence suggesting diabetes, give no finding. Use current urine evidence. Dipstick proteinuria, urine albumin above 30 mg/24 hours, or a spot urine albumin-to-creatinine ratio of at least 3 mg/mmol or at least 30 mg/g qualifies for either sex. A negative dipstick does not cancel a separate qualifying albumin result. An older normal result does not cancel a later qualifying result. Give no finding when current urine evidence is nonqualifying and there is no separate qualifying result. A typed result counts only according to its test, value and unit. An eGFR of 30 mL/min/1.73 m² or above clears only the severe kidney disease exclusion. Current treatment with a Group A medicine from another supplier rules out the omission. If outside treatment is in doubt, keep an otherwise supported omission possible and request ACE inhibitor or angiotensin receptor blocker from another supplier. Taking neither elsewhere clears only this check. An unknown answer leaves coverage unresolved. Stopping an ACE inhibitor after side effects does not establish current use or exclude review of an angiotensin receptor blocker. With confirmed diabetes, qualifying urine evidence, a current eGFR at or above 30 mL/min/1.73 m² and no unresolved exclusion, flag for review. Cite the diabetes line, urine result and latest eGFR. If diabetes is suggested only by a qualifying Group B supply, keep an otherwise supported finding possible and request Diabetes. If urine evidence is missing or uninterpretable, or current results conflict and cannot be reconciled, keep an otherwise supported finding possible and request Urine protein or albumin. If a current eGFR cannot be established, keep an otherwise supported finding possible and request eGFR. An answer of Not known supplies no diagnosis or measurement. Use only results that identify the test. An unnamed unknown result supplies no measurement. For a possible finding, name each missing fact exactly as listed and cite the supporting lines, including the qualifying medicine supply when diabetes is unconfirmed and any urine or eGFR result supporting the finding.",
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Diabetes",
+      "meets": "A condition line recording diabetes (type 1 or type 2)."
+    },
+    {
+      "kind": "result",
+      "what": "Urine protein or albumin",
+      "meets": "Enter the test name and the result as reported. For a protein dipstick, enter the reported finding. For urine albumin over 24 hours or a spot albumin-to-creatinine ratio, enter the value and its unit. Include the sample date if known. Dipstick proteinuria or urine albumin above 30 mg/24 hours qualifies. Exactly 30 mg/24 hours does not qualify on that measure. For either sex, a spot urine albumin-to-creatinine ratio of at least 3 mg/mmol or at least 30 mg/g qualifies. If the test, unit or interpretation is unclear, or current results conflict and cannot be reconciled, retain a possible finding and request the report."
+    },
+    {
+      "kind": "result",
+      "what": "eGFR",
+      "meets": "Use the latest interpretable eGFR in mL/min/1.73 m². A value below 30 rules out this omission. A value of 30 or above clears only this exclusion. If a current value cannot be established, report an otherwise supported omission as possible and request eGFR."
+    },
+    {
+      "kind": "observation",
+      "what": "ACE inhibitor or angiotensin receptor blocker from another supplier",
+      "meets": "Ask about current treatment only when an otherwise possible omission depends on whether another supplier provides the medicine. Taking neither clears only this check. An unknown answer leaves coverage unresolved. Stopping an ACE inhibitor after side effects does not establish current use or rule out review of an angiotensin receptor blocker.",
+      "options": [
+        {
+          "words": "Currently taking one from another supplier",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Taking neither from another supplier",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "cannot_be_seen": "Diabetes is not in a dispensing history unless a condition line is present. Urine tests and kidney function are not in it either. Also whether an ACE inhibitor was tried and not tolerated, low blood pressure, high potassium, or a palliative plan. Ask whether the medicine is for diabetes and whether the patient has been told about protein in the urine or kidney disease. Ask whether an ACE inhibitor or ARB is supplied elsewhere or was stopped because of side effects. Seek the actual urine and kidney results before treating either as confirmed.",
+  "ask_the_gp": "A review of the most recent urine albumin and kidney function results, and whether an ACE inhibitor or ARB is suitable.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

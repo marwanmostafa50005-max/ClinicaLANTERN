@@ -1,0 +1,58 @@
+[
+  {
+    "file": "OPTIMISE-T2-22/pos-fact.csv",
+    "kind": "positive",
+    "about": "The 3 February levothyroxine start is a routine addition for severe depression, with a pre-start TSH of 2.1 mIU/L within the laboratory interval and a clinical assessment of normal thyroid function.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T2-22",
+        "must_cite": [
+          [
+            "L024"
+          ],
+          [
+            "L025"
+          ],
+          [
+            "L026"
+          ],
+          [
+            "L017"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T2-22/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about baseline thyroid function, overlapping symptoms, a qualifying severe mental illness or the reason for starting Oroxine on 10 March 2026.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T2-22",
+        "must_cite": [
+          [
+            "L017"
+          ],
+          [
+            "L003",
+            "L006",
+            "L009",
+            "L013",
+            "L016",
+            "L020",
+            "L024",
+            "L029",
+            "L033"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T2-22/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The pre-start TSH was 12.4 mIU/L, and the record documents primary hypothyroidism as the reason for thyroid replacement despite concurrent Avanza.",
+    "findings": []
+  }
+]

@@ -1,0 +1,75 @@
+{
+  "id": "STOPP-F1",
+  "label": "STOPP F1",
+  "family": "STOPP_START",
+  "title": "Prochlorperazine or metoclopramide with Parkinsonism",
+  "statement": "Prochlorperazine or metoclopramide with Parkinsonism (risk of exacerbating Parkinsonian symptoms).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Prochlorperazine and metoclopramide can make the symptoms of Parkinson's disease worse.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Prochlorperazine and metoclopramide",
+      "ingredients": [
+        "prochlorperazine",
+        "metoclopramide"
+      ],
+      "brands": {
+        "prochlorperazine": [
+          "Stemetil",
+          "Nausetil",
+          "Nausrelief",
+          "Procalm",
+          "Proclazine",
+          "Stemzine"
+        ],
+        "metoclopramide": [
+          "Maxolon",
+          "Pramin",
+          "Aspramide",
+          "Emexlon",
+          "Anagraine",
+          "Metomax"
+        ]
+      },
+      "note": "Tablets, capsules, liquids, injections and prochlorperazine suppositories count. Generic packs that show the ingredient name with a company name count too. Anagraine tablets and Metomax capsules contain metoclopramide with paracetamol."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Parkinson's disease or Parkinsonism during the prochlorperazine or metoclopramide course under review",
+      "meets": "Parkinson's disease or Parkinsonism was present during the antiemetic course being assessed",
+      "options": [
+        {
+          "words": "Present during this course",
+          "effect": "meets"
+        },
+        {
+          "words": "Absent during this course",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this criterion only when the patient was aged 65 years or older at the supply being assessed. If age is unknown, ask for age confirmation before attributing a STOPP finding. For a Group A supply, report a finding if Parkinson's disease or Parkinsonism was present during treatment and cite the supply and condition lines. If the condition was absent or excluded at the time, there is no finding for that course. If the condition or its timing is unknown, report only a possible finding and ask whether it was present during that course.",
+  "cannot_be_seen": "Whether the patient has Parkinsonism if the record holds no line about it, how often the medicine is really taken, and any hospital or other pharmacy supplies.",
+  "ask_the_gp": "Could you confirm whether the patient has Parkinsonism if this is unclear, and review the suitability of the dispensed prochlorperazine or metoclopramide if Parkinsonism is present?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

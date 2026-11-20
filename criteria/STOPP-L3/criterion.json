@@ -1,0 +1,196 @@
+{
+  "id": "STOPP-L3",
+  "label": "STOPP L3: long-acting opioid without a short-acting opioid",
+  "family": "STOPP_START",
+  "title": "Long-acting opioid with no short-acting opioid",
+  "statement": "Long-acting opioids without short-acting opioids for break-through moderate or severe pain (risk of persistence of severe pain).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Review moderate or severe breakthrough pain during long-acting opioid treatment when the record shows no qualifying short-acting rescue supply.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Long-acting opioids",
+      "ingredients": [
+        "morphine",
+        "oxycodone",
+        "fentanyl",
+        "buprenorphine",
+        "hydromorphone",
+        "tapentadol",
+        "tramadol",
+        "oxycodone with naloxone",
+        "oxycodone + naloxone"
+      ],
+      "brands": {
+        "morphine": [
+          "MS Contin",
+          "MS Mono",
+          "Kapanol",
+          "MS Contin Suspension",
+          "Momex SR"
+        ],
+        "oxycodone": [
+          "OxyContin",
+          "Targin",
+          "Endone XR",
+          "Novacodone",
+          "Oxylieve MR"
+        ],
+        "fentanyl": [
+          "Durogesic",
+          "Denpax",
+          "Dutran",
+          "Fenpatch"
+        ],
+        "buprenorphine": [
+          "Norspan",
+          "Bupredermal"
+        ],
+        "hydromorphone": [
+          "Jurnista",
+          "Palladone XL"
+        ],
+        "tapentadol": [
+          "Palexia SR",
+          "Lodat SR",
+          "Tadol SR",
+          "Tapal SR",
+          "Tapex SR",
+          "Tapexia SR"
+        ],
+        "tramadol": [
+          "Tramal SR",
+          "Zydol SR",
+          "Durotram XR",
+          "Lodam SR",
+          "Tramahexal SR",
+          "Tramedo SR"
+        ],
+        "oxycodone with naloxone": [
+          "Targin"
+        ],
+        "oxycodone + naloxone": [
+          "Targin"
+        ]
+      },
+      "note": "Only the long-acting forms count: modified release or slow release tablets, capsules or granules, and long-acting patches. Targin is long-acting oxycodone with naloxone. Generic packs that show the ingredient name with a company name count too. Novacodone was registered as modified release. Plain Tapexia is a short-acting tablet and Tapexia SR is sustained release. Match the full label and documented release form. If unresolved, do not assign a release group from the name alone. Count combination ingredient spellings as one long-acting supply. For buprenorphine, only analgesic patches count in Group A. Exclude sublingual products such as Temgesic, Subutex and Suboxone, and the depot injections Buvidal and Sublocade."
+    },
+    {
+      "key": "B",
+      "name": "Short-acting opioids for breakthrough pain",
+      "ingredients": [
+        "morphine",
+        "oxycodone",
+        "hydromorphone",
+        "tapentadol",
+        "tramadol",
+        "fentanyl"
+      ],
+      "brands": {
+        "morphine": [
+          "Ordine",
+          "Sevredol",
+          "Anamorph",
+          "MS Normal",
+          "RA-Morph"
+        ],
+        "oxycodone": [
+          "Endone",
+          "OxyNorm",
+          "Oxycodor",
+          "Oxycone",
+          "Oxylenus",
+          "Oxyndone",
+          "Xedone"
+        ],
+        "hydromorphone": [
+          "Dilaudid",
+          "Dilaudid-HP"
+        ],
+        "tapentadol": [
+          "Palexia",
+          "Palexia IR",
+          "Tadol IR",
+          "Tapal IR",
+          "Tapex IR",
+          "Tapexia"
+        ],
+        "tramadol": [
+          "Tramal",
+          "Zydol",
+          "Iptramol",
+          "Lodam",
+          "Tramahexal",
+          "Tramal Drops",
+          "Tramedo"
+        ],
+        "fentanyl": [
+          "Abstral",
+          "Fentora",
+          "Actiq"
+        ]
+      },
+      "note": "Only short-acting rescue formulations count. Count Abstral sublingual tablets, Fentora buccal tablets and Actiq lozenges only for breakthrough cancer pain during established maintenance opioid treatment for persistent cancer pain. Check the treatment taken for at least one week before rescue. For Abstral, the minimum is oral morphine 60 mg/day or a confirmed equivalent. For Fentora, the minimum is oral morphine 60 mg/day, a fentanyl patch delivering 25 micrograms/hour, oral oxycodone 30 mg/day, oral hydromorphone 8 mg/day or a confirmed equivalent. For Actiq, the minimum is morphine 60 mg/day, a fentanyl patch delivering 50 micrograms/hour or a confirmed equivalent. Apply each product's own threshold. A supply alone does not establish tolerance. If eligibility is unclear and no other rescue covers the episode, report at most a possible omission. If the indication or maintenance treatment is known to be outside the product criteria, assess the omission without that product. Fentanyl patches belong only in Group A. The same ingredient can appear in Group A as a long-acting form and in Group B as a short-acting form. Generic packs that show the ingredient name with a company name count too. Match the entire brand and the documented form. A plain brand prefix cannot override an SR, MR or XR suffix. Historical brands identify dated supplies only."
+    }
+  ],
+  "rule_for_models": "At age 65 or older, report moderate or severe breakthrough pain on a Group A long-acting opioid when no qualifying Group B short-acting rescue supplied within 60 days before or after the Group A supply covers that episode. Count Abstral, Fentora or Actiq only for breakthrough cancer pain and exclude it if fewer than seven full days elapsed from when the patient began taking that product's required daily maintenance opioid dose for persistent cancer pain to the first rescue dose, even if the daily dose was high enough. If a missing fact about age, breakthrough pain, severity or the eligibility of the only potential fentanyl rescue could change the decision, report only a possible omission and name each missing fact, and for every finding cite the Group A supply, any recorded pain and maintenance treatment evidence, and any unsuitable or unresolved fentanyl rescue supply.",
+  "cannot_be_seen": "Whether a short-acting opioid was supplied by a hospital or another pharmacy, whether the pain really breaks through, and cases where a long-acting patch is used on purpose without a short-acting medicine, for example for stable pain.",
+  "ask_the_gp": "When no short-acting rescue was supplied, ask for a review of whether the person needs a short-acting opioid for breakthrough pain, or whether the long-acting dose is right. When Abstral, Fentora or Actiq was supplied, name the product and the evidence on cancer pain and opioid tolerance, and state clearly if the supply is unsuitable or unresolved rather than saying no rescue was supplied. For a current supply before opioid tolerance was established, ask: \"Could we review the fentanyl rescue and the maintenance opioid today because of the risk of respiratory depression, and confirm whether a suitable short-acting opioid is needed?\" For a past, non-cancer or unresolved fentanyl rescue supply, ask to review the fentanyl rescue, the long-acting dose, and whether a suitable short-acting opioid is needed.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Breakthrough pain during long-acting opioid treatment",
+      "meets": "Moderate or severe breakthrough pain occurred during the long-acting opioid treatment being assessed.",
+      "options": [
+        {
+          "words": "Moderate or severe breakthrough pain during this treatment",
+          "effect": "meets"
+        },
+        {
+          "words": "No breakthrough pain or only mild breakthrough pain during this treatment",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Use of Abstral, Fentora or Actiq as the only potential rescue for this episode",
+      "meets": "The only potential rescue for the episode was Abstral, Fentora or Actiq, and its indication or prior maintenance opioid treatment was confirmed outside that product’s Group B requirements. Check the actual opioid, route, dose and duration before the first rescue dose. Verify any dose equivalence. If these remain uncertain, a possible finding stays open.",
+      "options": [
+        {
+          "words": "The fentanyl was for an episode other than breakthrough cancer pain",
+          "effect": "meets"
+        },
+        {
+          "words": "The patient had not taken the required maintenance opioid dose for persistent cancer pain for at least seven days before the first rescue dose",
+          "effect": "meets"
+        },
+        {
+          "words": "For breakthrough cancer pain after at least seven days at the required maintenance dose for this fentanyl product",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

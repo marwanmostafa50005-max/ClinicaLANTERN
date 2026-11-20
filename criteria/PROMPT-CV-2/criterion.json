@@ -1,0 +1,88 @@
+{
+  "id": "PROMPT-CV-2",
+  "label": "PROMPT CV-2: aspirin dose over 150 mg",
+  "family": "PROMPT",
+  "title": "Aspirin dose above 150 mg a day for antiplatelet use",
+  "statement": "Aspirin doses should not exceed 150 mg/day for anti-platelet therapy.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Cooper JA, et al. The development of the PROMPT criteria. BMC Health Serv Res 2014;14:484, Table 4",
+    "citation": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Aspirin taken every day to prevent heart attack or stroke works at low doses, and higher doses add stomach bleeding risk without more benefit.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Aspirin",
+      "ingredients": [
+        "aspirin"
+      ],
+      "brands": {
+        "aspirin": [
+          "Cardiprin",
+          "Astrix",
+          "Cartia",
+          "Asasantin SR (aspirin with modified-release dipyridamole)",
+          "Solprin",
+          "Disprin Direct Chewables",
+          "Aspro Clear",
+          "Aspro",
+          "Aspro Clear Extra Strength",
+          "Aspro Protect",
+          "Cardasa",
+          "Disprin Direct",
+          "Disprin Extra Strength",
+          "Disprin Max",
+          "Disprin Original",
+          "Disprin Regular",
+          "Ecotrin",
+          "Princard",
+          "Spren",
+          "CoPlavix",
+          "DuoCover",
+          "Aspalgin"
+        ]
+      },
+      "note": "Antiplatelet and pain-relief products are listed, but this criterion applies only to regular daily antiplatelet use. Cardiprin is a 100 mg product, not 300 mg. Solprin and Aspro Clear include 300 mg products. For combination packs such as Asasantin SR, only the aspirin component counts."
+    }
+  ],
+  "rule_for_models": "Apply this PROMPT criterion only to people aged 45 to 64 inclusive. If age is missing, record that eligibility is unknown and do not report a PROMPT finding. Suspect a finding when a Group A medicine (aspirin) is supplied as a regular daily medicine with a daily dose above 150 mg. Work out the daily aspirin dose from the aspirin strength and directions, for example one 300 mg tablet daily is 300 mg a day; one 100 mg tablet daily is 100 mg a day and is not a finding. For a combination pack such as Asasantin SR, count only the aspirin component, not the dipyridamole strength. Exclude aspirin documented solely for another indication, as-needed use and a one-off loading dose. If regular antiplatelet use is recorded or plausible and unclear directions leave a dose above 150 mg/day possible, report only a possible finding. If the unit or schedule is unclear, identify the course and the amount that needs clarification in the possible finding. Use clear directions directly. Add the daily aspirin amounts only when the directions or other recorded information show the products are taken together. Overlapping refills alone do not establish this. Ask the pharmacist to clarify borderline regular use. Report a finding when the regular daily aspirin dose used for ongoing clot prevention is above 150 mg. Either answer that includes clot prevention can qualify, even when the dose is also used for anti-inflammatory treatment. Link that purpose to the dose under review. If the indication is unknown and the dose and pattern otherwise qualify, report a possible finding and ask the pharmacist for Reason for taking oral aspirin. A bare Yes or No to the former question about clot prevention, pain or another reason leaves the purpose unknown unless other evidence establishes it. Cite a qualifying supply and any line used to establish the purpose or to show that it remains unknown.",
+  "cannot_be_seen": "Why aspirin was prescribed, whether the person takes it for pain or to prevent clots, how much is really taken, aspirin bought without a prescription, and any bleeding history.",
+  "ask_the_gp": "A review of whether this is antiplatelet therapy, whether the aspirin dose is above 150 mg a day, and whether a lower daily dose would be enough.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Reason for taking oral aspirin",
+      "meets": "The dose under review is taken regularly to prevent blood clots, alone or alongside another purpose. If the dose and pattern otherwise qualify and the purpose is unknown, report only a possible finding.",
+      "options": [
+        {
+          "words": "For clot prevention without anti-inflammatory use",
+          "effect": "meets"
+        },
+        {
+          "words": "For anti-inflammatory treatment without clot prevention",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "For both clot prevention and anti-inflammatory treatment",
+          "effect": "meets"
+        },
+        {
+          "words": "For pain relief or another purpose without clot prevention or anti-inflammatory use",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

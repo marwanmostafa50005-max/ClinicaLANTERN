@@ -1,0 +1,128 @@
+/* The judges' view: a recorded run, played step by step. The bar on the first screen, and the
+   list of recorded cases that the magnifying glass opens. Both are drawn with the approved look:
+   the white card of the first recorded-run view, and the history card of the import panel. */
+
+/* The bar sits at the foot of the top band, in the room under the slogan, so the three icons, the
+   status line and the counts stay on the first screen (at 1366 by 768 they move down by 6 px). */
+.replay {
+  flex: none;
+  display: grid;
+  justify-items: center;
+  gap: 3px;
+  width: min(1040px, 100%);
+  margin: 0 auto;
+  padding: 6px 14px 8px;
+  border: 1.5px solid var(--navy);
+  border-radius: var(--radius);
+  background: var(--white);
+  text-align: center;
+}
+
+/* The quiet lines: the three steps of the guide, and what the recording is. They do not change
+   while a run plays. */
+.replay-note {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.replay-note > span + span {
+  margin-left: 0.5em;
+}
+
+/* Where the run is, which case it is, and what belongs to this step only: a step that a script
+   entered, a wait that was cut short. All the words that change from step to step are on this
+   one line, so the bar keeps its height and the buttons under it keep their place. */
+.replay-step {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  gap: 0 0.75em;
+  width: 100%;
+  min-width: 0;
+  color: var(--navy);
+  font-size: 0.98rem;
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+/* The count, a step that a script entered and a wait that was cut keep their whole words. One
+   that is longer than the line gets a line of its own and wraps there. */
+.replay-step > * {
+  flex: 0 1 auto;
+  min-width: 0;
+}
+
+.replay-wait {
+  color: var(--muted);
+}
+
+/* The title of the case takes the room that is left on the line, up to its own length. When the
+   line is full the title gives way, never the other words: the whole title is in its tooltip
+   and in the list of recorded cases. */
+.replay-title {
+  flex: 1 1 3em;
+  max-width: max-content;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.replay-buttons {
+  justify-content: center;
+}
+
+/* A phone has no tooltip: the title is shown whole there, on as many lines as it needs. */
+@media (max-width: 760px) {
+  .replay-title {
+    flex: 0 1 auto;
+    max-width: none;
+    overflow: visible;
+    white-space: normal;
+  }
+}
+
+/* ---------- the list of recorded cases, in the import panel ---------- */
+
+.replay-picker {
+  display: grid;
+  gap: 16px;
+}
+
+.replay-run-list {
+  display: grid;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* One recorded case: the card of a history (.case in panels.css), as a button. */
+.replay-run-row {
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+}
+
+.replay-run-row .case-file {
+  font-weight: 700;
+}
+
+.replay-run-row:hover:not(:disabled) {
+  border-color: var(--navy);
+}
+
+.replay-run-row:disabled {
+  cursor: wait;
+}
+
+/* ---------- lines inside the three panels ---------- */
+
+/* The line that says a recorded run cannot be changed, and the line that says how the recording
+   was made, as the three panels show them today. */
+.replay-made-how,
+.replay-off-note {
+  margin: 0 0 8px;
+  color: var(--text);
+  font-size: 14px;
+  line-height: 1.4;
+}

@@ -1,0 +1,44 @@
+{
+  "id": "EU7-F41",
+  "label": "EU(7)-PIM: nitrofurantoin over a week",
+  "family": "EU7",
+  "title": "Nitrofurantoin for more than a week",
+  "statement": "Nitrofurantoin (>1 week) | In lists: 1, 4, 5 (A) | Main reason: Unfavourable risk/benefit ratio, particularly with long-term use (pulmonary side effects, liver damage, etc.); contraindicated if severe renal failure due to decreased excretion and increased risk of toxicity | Dose adjustment/special considerations: 50-100 mg/8h; use shorter than one week. E | Alternatives: Other antibiotics in accordance with sensitivity and resistance testing. E",
+  "statement_origin": "published",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.2 candidate repairs and adopted conventions merged with attribution). Not endorsed by the source authors."
+  },
+  "plain_summary": "In someone aged 65 or older, more than seven days of nitrofurantoin prompts a review of the reason for use, kidney function and possible lung or liver harm. Some people with recurrent urinary infections take a planned low dose for prevention. The dose in the quoted 2015 European table is historical. Check the Australian product information for the formulation and indication before advising on a dose.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Nitrofurantoin",
+      "ingredients": [
+        "nitrofurantoin"
+      ],
+      "brands": {
+        "nitrofurantoin": [
+          "Macrodantin",
+          "Fudantin",
+          "Nitrodantin",
+          "Urodantin",
+          "Furadantin"
+        ]
+      },
+      "note": "Oral tablets, capsules and liquid count. Macrodantin is the brand to look for. Another brand, such as a modified-release product, may also be seen."
+    }
+  ],
+  "rule_for_models": "Suspect a finding for a person aged 65 or older if nitrofurantoin (Group A) covers more than seven consecutive days. Use the prescribed course length when stated. Otherwise divide the quantity by the fixed daily quantity in the same units. Join courses only when their covered dates overlap or follow directly, counting each day once. Separate courses of seven days or fewer give no finding. If missing information about age, daily use, duration or a gap could change the result, report only a possible finding and ask the pharmacist to confirm the missing detail.",
+  "cannot_be_seen": "Kidney function, the reason for treatment (for example a urine infection or prevention of infections), culture results, lung or liver symptoms, and how many days the person really took it.",
+  "ask_the_gp": "Whether the nitrofurantoin is still needed beyond one week, the person's kidney function, and whether any lung or liver symptoms need a check.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

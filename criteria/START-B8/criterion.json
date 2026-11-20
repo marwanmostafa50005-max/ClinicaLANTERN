@@ -1,0 +1,128 @@
+{
+  "id": "START-B8",
+  "label": "START B8",
+  "family": "STOPP_START",
+  "title": "SGLT-2 inhibitor missing in heart failure",
+  "statement": "SGLT-2 inhibitors (canagliflozin, dapagliflozin, empagliflozin, ertugliflozin) in symptomatic heart failure with or without reduced ejection fraction regardless of diabetes being present or not.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A person with heart failure and symptoms should usually take an SGLT-2 inhibitor (a gliflozin such as dapagliflozin or empagliflozin), even if they do not have diabetes. This check looks for a person with heart failure who is not being supplied one.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Medicines that meet this criterion: SGLT-2 inhibitors",
+      "ingredients": [
+        "canagliflozin",
+        "dapagliflozin",
+        "empagliflozin",
+        "ertugliflozin"
+      ],
+      "brands": {
+        "canagliflozin": [
+          "Invokana",
+          "Vokanamet"
+        ],
+        "dapagliflozin": [
+          "Forxiga",
+          "Xigduo XR",
+          "Qtern",
+          "Glixafor"
+        ],
+        "empagliflozin": [
+          "Jardiance",
+          "Jardiamet",
+          "Glyxambi"
+        ],
+        "ertugliflozin": [
+          "Steglatro",
+          "Segluromet",
+          "Steglujan"
+        ]
+      },
+      "note": "Any form and strength counts, and the person does not need diabetes. Combination products count: Vokanamet is with metformin, Xigduo XR is dapagliflozin with metformin, Qtern is dapagliflozin with saxagliptin, Jardiamet and Synjardy are empagliflozin with metformin, Glyxambi is empagliflozin with linagliptin, Segluromet is ertugliflozin with metformin and Steglujan is ertugliflozin with sitagliptin. Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "B",
+      "name": "Medicines that imply heart failure",
+      "ingredients": [
+        "sacubitril with valsartan",
+        "ivabradine",
+        "sacubitril + valsartan"
+      ],
+      "brands": {
+        "sacubitril with valsartan": [
+          "Entresto"
+        ],
+        "ivabradine": [
+          "Coralan",
+          "Caranor",
+          "Cobadine",
+          "Coralide"
+        ],
+        "sacubitril + valsartan": [
+          "Entresto"
+        ]
+      },
+      "note": "Sacubitril with valsartan (Entresto) is a combination product. Ivabradine is used for chronic heart failure. A supply of either one suggests heart failure when the record holds no line about it, but it is not proof."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Symptomatic heart failure",
+      "meets": "Confirm diagnosed heart failure and current symptoms due to it. Breathlessness or swelling alone cannot establish the cause. If the diagnosis or the cause of the symptoms is uncertain, use Not known. Neither ejection fraction nor diabetes status is required.",
+      "options": [
+        {
+          "words": "Heart failure is causing symptoms now",
+          "effect": "meets"
+        },
+        {
+          "words": "Heart failure is present without current symptoms from it",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Heart failure has been ruled out",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "SGLT-2 inhibitor supplied elsewhere in the review period",
+      "meets": "Check local supplies first. Ask only in an otherwise possible review if outside supply needs clarification. A confirmed outside supply of a listed medicine in the last six months closes the omission. If none was supplied elsewhere, assess the diagnosis and symptoms. An unknown answer cannot settle treatment.",
+      "options": [
+        {
+          "words": "Outside supply confirmed in the last six months",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "No outside supply in the last six months",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Age required: 65 years or older (confirm an unknown age before reporting)\nNo finding: any Group A supply in the last six months, or confirmed absence of heart failure, or heart failure confirmed to be asymptomatic\nGive no omission finding if the record documents end-of-life care focused on palliation or a current clinical reason to withhold SGLT-2 treatment.\nOtherwise, with no Group A supply in the last six months:\n- Documented symptomatic heart failure: suspected finding, citing the diagnosis and symptoms due to heart failure (one line may show both)\n- Documented heart failure with unknown symptoms: possible finding, asking whether heart failure causes symptoms\n- When the record holds no heart failure line but shows a dated Group B supply (sacubitril with valsartan or ivabradine) anywhere in the record, report only a possible finding and cite a Group B supply. Ask whether heart failure was diagnosed and causes symptoms such as breathlessness or swelling. For an otherwise possible finding, if local supplies leave an outside supply to clarify, name \"SGLT-2 inhibitor supplied elsewhere in the review period\". A confirmed outside supply of a listed Group A medicine in the same six months closes the omission. If none was supplied elsewhere, assess the diagnosis and symptoms. An unknown answer leaves an unresolved outside supply possible and does not establish whether treatment was supplied or withheld.",
+  "cannot_be_seen": "Symptoms if their status is unrecorded, current kidney function if a recent eGFR result is missing, repeated genital or urinary infections, a history of ketoacidosis, and medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "Whether an SGLT-2 inhibitor (dapagliflozin or empagliflozin) has been considered for this heart failure, and the reason if one is not suitable. Could you confirm the diagnosis and whether heart failure is causing symptoms if either detail is missing?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,43 @@
+[
+  {
+    "file": "START-H8/pos-fact.csv",
+    "kind": "positive",
+    "about": "The record holds a gout line (recurrent attacks, four in 12 months) and colchicine is supplied for attacks, but no allopurinol or febuxostat is supplied.",
+    "findings": [
+      {
+        "criterion": "START-H8",
+        "must_cite": [
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-H8/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: colchicine is supplied, and an earlier 200-tablet allopurinol supply may still cover the person at the latest record date. The missing facts are \"Gout with recurrent attacks\" and \"Allopurinol or febuxostat from another supplier\".",
+    "findings": [
+      {
+        "criterion": "START-H8",
+        "must_cite": [
+          [
+            "L006",
+            "L018",
+            "L027"
+          ],
+          [
+            "L012"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-H8/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The record holds a gout line (recurrent attacks) and allopurinol (Zyloprim) is supplied every month to the end of the history, so the xanthine-oxidase inhibitor is there.",
+    "findings": []
+  }
+]

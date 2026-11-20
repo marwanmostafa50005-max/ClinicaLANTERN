@@ -1,0 +1,294 @@
+{
+  "id": "STOPP-D15",
+  "label": "STOPP D15",
+  "family": "STOPP_START",
+  "title": "Antipsychotic for longer than 12 weeks in dementia",
+  "statement": "Antipsychotics in patients with behavioural and psychological symptoms of dementia (BPSD) for longer than 12 weeks unless BPSD symptoms are severe and other non-pharmacological treatments have failed (increased risk of stroke, myocardial infarction).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "An antipsychotic taken for more than 12 weeks to settle behavioural symptoms of dementia raises the risk of stroke and heart attack, so it needs a review.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antipsychotics",
+      "ingredients": [
+        "risperidone",
+        "quetiapine",
+        "olanzapine",
+        "haloperidol",
+        "aripiprazole",
+        "amisulpride",
+        "chlorpromazine",
+        "clozapine",
+        "paliperidone",
+        "periciazine",
+        "lurasidone",
+        "brexpiprazole",
+        "flupentixol",
+        "zuclopenthixol",
+        "asenapine",
+        "ziprasidone",
+        "cariprazine",
+        "trifluoperazine",
+        "fluphenazine",
+        "fluphenazine decanoate"
+      ],
+      "brands": {
+        "risperidone": [
+          "Risperdal",
+          "Risperdal Consta",
+          "Rispa",
+          "Ozidal",
+          "Resdone",
+          "Respaz",
+          "Risdone",
+          "Rispaccord",
+          "Rispaccord-0.5",
+          "Risperdal Quicklet",
+          "Risperibell",
+          "Rispericor",
+          "Rispericor-0.5",
+          "Risperisan",
+          "Rispernia",
+          "Rixadone",
+          "Sperid",
+          "Uzedy"
+        ],
+        "quetiapine": [
+          "Seroquel",
+          "Seroquel XR",
+          "Aliquen",
+          "Delucon",
+          "Kaptan",
+          "Ketizenol",
+          "Qualez",
+          "Quepine XR",
+          "Quetapen",
+          "Quetia",
+          "Quetia XR",
+          "Quetiaccord",
+          "Quetiaquel XR",
+          "Quetin",
+          "Quipine",
+          "Sequase",
+          "Sequase XR",
+          "Serapine",
+          "Serapine XR",
+          "Seroccord",
+          "Seronia",
+          "Serotiapine XR",
+          "Syquet",
+          "Syquet XR",
+          "Syzopine",
+          "Tevatiapine XR",
+          "Tiapine XR",
+          "Tiava XR",
+          "Xque XR"
+        ],
+        "olanzapine": [
+          "Zyprexa",
+          "Zyprexa Zydis",
+          "Aprolan",
+          "Aprolan ODT",
+          "Lanez",
+          "Lanez ODT",
+          "Lanzek",
+          "Lanzek Zydis",
+          "Lonza",
+          "Lonza ODT",
+          "Lyprosia",
+          "Lyprosia ODT",
+          "Olancor",
+          "Olanza",
+          "Olanzaccord",
+          "Olanzacor",
+          "Oprexa",
+          "Ozin",
+          "Ozin ODT",
+          "Prolanza",
+          "Prolanza ODT",
+          "Pryzex",
+          "Pryzex ODT",
+          "Tolaze ODT",
+          "Tolazine ODT",
+          "Torapine ODT",
+          "Torrenia ODT",
+          "Zylap",
+          "Zylap ODT",
+          "Zylapine",
+          "Zylapine ODT",
+          "Zypine",
+          "Zypine ODT",
+          "Zyprexa Relprevv"
+        ],
+        "haloperidol": [
+          "Serenace",
+          "Haldol Decanoate"
+        ],
+        "aripiprazole": [
+          "Abilify",
+          "Abilify ODT",
+          "Abipra",
+          "Abyraz",
+          "Aprazole",
+          "Aripic",
+          "Aripra",
+          "Arizole",
+          "Abilify Maintena",
+          "Abilify Asimtufii"
+        ],
+        "amisulpride": [
+          "Solian",
+          "Amipride",
+          "Sulprix"
+        ],
+        "chlorpromazine": [
+          "Largactil",
+          "Largactil Syrup"
+        ],
+        "clozapine": [
+          "Clozaril",
+          "Clopine",
+          "Closyn",
+          "Clozaril ODT",
+          "Clozitor",
+          "Versacloz"
+        ],
+        "paliperidone": [
+          "Invega",
+          "Invega Sustenna",
+          "Invega Hafyera",
+          "Invega Trinza",
+          "Palmeux",
+          "Trevicta"
+        ],
+        "periciazine": [
+          "Neulactil"
+        ],
+        "lurasidone": [
+          "Latuda",
+          "Bilura",
+          "Latulem",
+          "Lavione",
+          "Luracor",
+          "Luralem",
+          "Luralembic",
+          "Lurobi"
+        ],
+        "brexpiprazole": [
+          "Rexulti"
+        ],
+        "flupentixol": [
+          "Fluanxol Depot",
+          "Fluanxol"
+        ],
+        "zuclopenthixol": [
+          "Clopixol Depot",
+          "Clopixol"
+        ],
+        "asenapine": [
+          "Saphris"
+        ],
+        "ziprasidone": [
+          "Zeldox",
+          "Ziprox"
+        ],
+        "cariprazine": [
+          "Reagila"
+        ],
+        "trifluoperazine": [
+          "Stelazine"
+        ],
+        "fluphenazine": [
+          "Modecate"
+        ],
+        "fluphenazine decanoate": [
+          "Modecate"
+        ]
+      },
+      "note": "Tablets, liquids and injections count, as do asenapine sublingual wafers and ziprasidone or cariprazine capsules. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Behavioural and psychological symptoms of dementia as the reason for the antipsychotic",
+      "meets": "The antipsychotic is recorded as treatment for behavioural or psychological symptoms of dementia.",
+      "options": [
+        {
+          "words": "The antipsychotic course under review treated behavioural or psychological symptoms of dementia",
+          "effect": "meets"
+        },
+        {
+          "words": "The antipsychotic course under review was solely for another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Severity of the dementia symptoms and outcome of non-drug treatment",
+      "meets": "The symptoms are recorded as non-severe, or the record states that non-drug treatment helped or was never tried. Either fact rules out the exception.",
+      "options": [
+        {
+          "words": "Symptoms were not severe during the course under review",
+          "effect": "meets"
+        },
+        {
+          "words": "Non-drug treatment helped during that course",
+          "effect": "meets"
+        },
+        {
+          "words": "Non-drug treatment had not been tried",
+          "effect": "meets"
+        },
+        {
+          "words": "Symptoms were severe and non-drug treatments had failed",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Duration of the antipsychotic course under review",
+      "meets": "At least one course under review exceeded 84 distinct covered days. Check the dose, frequency, injection dates and treatment breaks as applicable.",
+      "options": [
+        {
+          "words": "One course under review exceeded 84 distinct covered days",
+          "effect": "meets"
+        },
+        {
+          "words": "No course under review exceeded 84 distinct covered days",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "If age is unknown, confirm it before reporting either outcome. For a person aged 65 or older, count a Group A antipsychotic course if one supply or linked refills establish more than 84 days of treatment at the directed dose. Use quantities, directions and dates, including a documented depot interval when applicable. For fixed daily dosing, divide each supply quantity by the units taken per day, such as tablets or capsules per day, and for all forms count only distinct covered days within the same course before assessing the indication or exception. If one or more supplies could cover more than 84 days in the same course but unclear directions or a missing depot interval prevent a count, ask for 'Duration of the antipsychotic course under review' only if no known exclusion settles the finding. Check the dose and frequency, injection dates and intervals, and breaks as relevant. If a course is confirmed to exceed 84 distinct covered days, assess the indication and exception below. If no course exceeded 84 covered days, report no finding. If duration is missing, Not known or cannot be linked to the course under review, report only a possible finding naming that fact unless another exclusion applies. Do not discard a refill simply because the preceding pack lasted over 60 days or join known separate courses. For a qualifying course, check whether the antipsychotic treats behavioural or psychological symptoms of dementia. If it does, report a finding when the symptoms are recorded as non-severe or the record shows that non-drug treatment helped or was never tried. Cite the indication, the evidence that rules out the exception and the supplies establishing duration. There is no finding if the symptoms are severe and non-drug treatments have failed, the medicine is used solely for another indication, the person does not have dementia, or age or duration does not qualify. Otherwise report a possible finding and name the unresolved indication or exception.",
+  "cannot_be_seen": "Whether the symptoms are severe, whether other treatments without medicines were tried and failed, and whether the dose has been reviewed. Also antipsychotics supplied by a hospital or another pharmacy, and whether the antipsychotic is really for another illness such as schizophrenia.",
+  "ask_the_gp": "Whether the antipsychotic is still needed, and whether the dose can be reduced slowly.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "file": "SCOTPOLY-SD-2/pos-brand.csv",
+    "kind": "positive",
+    "about": "Natrilix SR was supplied recently and the patient reports a current dehydrating illness.",
+    "findings": [
+      {
+        "criterion": "SCOTPOLY-SD-2",
+        "must_cite": [
+          [
+            "L034"
+          ],
+          [
+            "L035"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "SCOTPOLY-SD-2/pos-buried.csv",
+    "kind": "positive",
+    "about": "The September furosemide supply and latest October observation support a current febrile illness with reduced intake after an earlier episode had resolved.",
+    "findings": [
+      {
+        "criterion": "SCOTPOLY-SD-2",
+        "must_cite": [
+          [
+            "L020"
+          ],
+          [
+            "L033"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "SCOTPOLY-SD-2/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The patient reports a current dehydrating illness but the only indapamide supply was more than six months earlier.",
+    "findings": []
+  }
+]

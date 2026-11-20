@@ -1,0 +1,123 @@
+{
+  "id": "STOPP-D8",
+  "label": "STOPP D8",
+  "family": "STOPP_START",
+  "title": "Benzodiazepine supplied for four weeks or longer",
+  "statement": "Benzodiazepines for ≥ 4 weeks (no indication for longer treatment; risk of prolonged sedation, confusion, impaired balance, falls, road traffic accidents; all benzodiazepines should be withdrawn gradually if taken for more than 4 weeks as there is a risk of causing a benzodiazepine withdrawal syndrome if stopped abruptly).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A benzodiazepine used for four weeks or longer can cause lasting drowsiness, confusion, poor balance and falls in an older person.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Benzodiazepines",
+      "ingredients": [
+        "diazepam",
+        "temazepam",
+        "oxazepam",
+        "nitrazepam",
+        "lorazepam",
+        "alprazolam",
+        "clonazepam",
+        "clobazam",
+        "bromazepam",
+        "flunitrazepam",
+        "triazolam",
+        "midazolam"
+      ],
+      "brands": {
+        "diazepam": [
+          "Valium",
+          "Antenex",
+          "Ducene",
+          "Valpam",
+          "Ranzepam"
+        ],
+        "temazepam": [
+          "Normison",
+          "Temaze",
+          "Temtabs"
+        ],
+        "oxazepam": [
+          "Serepax",
+          "Murelax",
+          "Alepam"
+        ],
+        "nitrazepam": [
+          "Mogadon",
+          "Alodorm"
+        ],
+        "lorazepam": [
+          "Ativan"
+        ],
+        "alprazolam": [
+          "Xanax",
+          "Kalma",
+          "Alprax",
+          "Ralozam",
+          "Xanax Tri-Score",
+          "Zamhexal"
+        ],
+        "clonazepam": [
+          "Rivotril",
+          "Paxam"
+        ],
+        "clobazam": [
+          "Frisium",
+          "Clobium"
+        ],
+        "bromazepam": [
+          "Lexotan"
+        ],
+        "flunitrazepam": [
+          "Hypnodorm"
+        ],
+        "triazolam": [
+          "Halcion"
+        ],
+        "midazolam": [
+          "Hypnovel",
+          "Midalim",
+          "Midavel"
+        ]
+      },
+      "note": "Match the listed benzodiazepines by ingredient or brand, including a pack labelled with the ingredient and company name. A single procedural dose or an isolated rescue dose, including injected midazolam or rectal diazepam, does not establish four weeks of treatment. Assess ongoing treatment by the duration rule. Zolpidem and zopiclone are Z-drugs and do not count here."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Actual duration of the benzodiazepine course",
+      "meets": "Ask only when the supplies could represent at least four weeks of one course and the directions or a possible break leave duration uncertain. Count confirmed ongoing use for at least four weeks. Shorter use or separate short courses clear this finding. An unknown duration leaves it possible. Use the supplies alone when dates and directions establish the course.",
+      "options": [
+        {
+          "words": "Used as one ongoing course for at least four weeks",
+          "effect": "meets"
+        },
+        {
+          "words": "Used for less than four weeks or only as separate short courses",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this rule only to people aged 65 years or older. If age is unknown, confirm it before reporting a STOPP finding. Suspect a finding when a Group A benzodiazepine is supplied for at least four weeks (28 days) as one ongoing course. A single supply can qualify at the directed dose. For repeat supplies no more than 60 days apart, count the days supplied for the same ongoing course. Do not join courses across a documented stop and restart. If the supplies could be separate short courses and continuity is unclear, report only a possible finding and ask about actual duration. If directions are as needed or do not give a daily dose, and the pack or repeat supplies could represent at least 28 days of ongoing treatment, report only a possible finding unless the duration is established elsewhere in the record. Cite the relevant supplies. For uncertain duration, ask whether the patient used the medicine as one ongoing course for at least four weeks. Cite any answer that establishes duration. Shorter use or separate short courses give no finding. If the answer is not known, keep the finding possible. Pack size or time between isolated doses alone does not establish ongoing use.",
+  "cannot_be_seen": "Why the benzodiazepine was started, and whether there is a reason for longer treatment such as epilepsy or palliative care. Also whether the tablets are taken every day or only now and then, whether a gradual dose reduction is already under way, and any supply from another pharmacy.",
+  "ask_the_gp": "Whether the benzodiazepine is still needed after four weeks or more of supply, and the patient's risk of drowsiness, confusion and falls.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

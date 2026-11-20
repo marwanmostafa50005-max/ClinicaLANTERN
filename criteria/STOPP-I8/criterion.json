@@ -1,0 +1,157 @@
+{
+  "id": "STOPP-I8",
+  "label": "STOPP I8: antibiotic for asymptomatic bacteriuria",
+  "family": "STOPP_START",
+  "title": "Antibiotic for bacteria in the urine without symptoms",
+  "statement": "Antibiotic use in asymptomatic bacteriuria (no indication for treatment).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Older people with bacteria in the urine and no symptoms or signs of infection usually gain no benefit from antibiotics and may be harmed. Treatment can be appropriate before certain invasive urological procedures or during pregnancy.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antibiotics used for urinary tract infection",
+      "ingredients": [
+        "nitrofurantoin",
+        "trimethoprim",
+        "sulfamethoxazole with trimethoprim",
+        "norfloxacin",
+        "ciprofloxacin",
+        "cefalexin",
+        "amoxicillin with clavulanic acid",
+        "fosfomycin",
+        "amoxicillin + clavulanic acid",
+        "sulfamethoxazole + trimethoprim"
+      ],
+      "brands": {
+        "nitrofurantoin": [
+          "Macrodantin",
+          "Urodantin",
+          "Fudantin",
+          "Nitrodantin"
+        ],
+        "trimethoprim": [
+          "Alprim",
+          "Triprim"
+        ],
+        "sulfamethoxazole with trimethoprim": [
+          "Bactrim",
+          "Bactrim DS",
+          "Resprim",
+          "Resprim Forte",
+          "Septrin",
+          "Septrin Forte"
+        ],
+        "norfloxacin": [
+          "Noroxin",
+          "Laxiflocin",
+          "Norflohexal",
+          "Nufloxib",
+          "Roxin"
+        ],
+        "ciprofloxacin": [
+          "Ciproxin",
+          "Arflox",
+          "C-Flox",
+          "Ciaxone",
+          "Cifran",
+          "Ciprol",
+          "Cirofaxin",
+          "Loxip",
+          "Profloxin",
+          "Proquin",
+          "Roflo"
+        ],
+        "cefalexin": [
+          "Keflex",
+          "Ibilex",
+          "Sporahexal",
+          "Cepha",
+          "Cephabell",
+          "Cephacor",
+          "Cephalex",
+          "Cephalkem",
+          "Cephatrust",
+          "Cilex",
+          "Ialex",
+          "Keforal",
+          "Rancef"
+        ],
+        "amoxicillin with clavulanic acid": [
+          "Augmentin",
+          "Augmentin Duo",
+          "Augmentin Duo Forte",
+          "Clavulin",
+          "Curam",
+          "Curam Duo"
+        ],
+        "fosfomycin": [
+          "Monurol",
+          "Monucin",
+          "Fosatil"
+        ],
+        "amoxicillin + clavulanic acid": [
+          "Augmentin",
+          "Augmentin Duo",
+          "Augmentin Duo Forte",
+          "Clavulin",
+          "Curam",
+          "Curam Duo"
+        ],
+        "sulfamethoxazole + trimethoprim": [
+          "Bactrim",
+          "Bactrim DS",
+          "Resprim",
+          "Resprim Forte",
+          "Septrin",
+          "Septrin Forte"
+        ]
+      },
+      "note": "Oral nitrofurantoin, trimethoprim alone or fosfomycin can start this check from a supply alone. For any other listed oral antibiotic, require a urinary indication, urine test or other urinary clue linked to that course. Count an unlisted oral antibiotic, or an antibiotic given by injection or infusion, only when the record explicitly links it to treatment of the same episode of asymptomatic bacteriuria. Skin creams and eye or ear drops do not count. Generic packs that show the ingredient name with a company name count too. Exclude a course for another infection or one indicated by pregnancy or a urological procedure expected to injure the lining. If age at treatment, urine findings or symptoms are unclear but the course could otherwise qualify, report only a possible finding and ask for the missing information."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Reason for this antibiotic course",
+      "meets": "The antibiotic course under review was prescribed for asymptomatic bacteriuria without an indication for treatment.",
+      "options": [
+        {
+          "words": "Bacteria in the urine without symptoms, with no indication for treatment",
+          "effect": "meets"
+        },
+        {
+          "words": "Bacteria in the urine treated before a urological procedure expected to injure the lining",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Bacteria in the urine treated because of pregnancy",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Symptomatic infection or another documented indication",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "From age 65, if the reason for a qualifying Group A antibiotic course is unknown, cite the supply, report only a possible finding and ask why it was prescribed, even when fever, haemodynamic instability or other systemic signs accompany a positive urine culture without local urinary symptoms. Give no finding when the record links that course to treatment for suspected systemic infection, symptomatic infection or another documented indication. Confirm only when you can cite the supply and a line showing that the same course treated asymptomatic bacteriuria without an indication for treatment.",
+  "cannot_be_seen": "Whether the person had urinary symptoms at the time, why the antibiotic was prescribed, and what the urine test showed, when the record has no such lines. An antibiotic for the urine may also have been for a kidney infection or before a procedure.",
+  "ask_the_gp": "Why the antibiotic was prescribed and whether the person had urinary symptoms; if there were none, whether treatment was needed.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

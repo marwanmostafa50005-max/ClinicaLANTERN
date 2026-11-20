@@ -1,0 +1,94 @@
+{
+  "id": "START-B7",
+  "label": "START B7",
+  "family": "STOPP_START",
+  "title": "Aldosterone blocker missing in heart failure",
+  "statement": "Mineralocorticoid receptor antagonist (spironolactone, eplerenone) in heart failure without severe renal function impairment i.e., eGFR > 30 ml/min/m².",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "This check looks for heart failure with eGFR above 30 mL/min/1.73 m² and no recorded supply of spironolactone or eplerenone. These medicines are standard treatment for eligible people with reduced ejection fraction. If ejection fraction is preserved or unknown, review the individual indication. START prints ml/min/m² here. This check requires indexed eGFR above 30 mL/min/1.73 m².",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Medicines that meet this criterion: mineralocorticoid receptor antagonists",
+      "ingredients": [
+        "spironolactone",
+        "eplerenone"
+      ],
+      "brands": {
+        "spironolactone": [
+          "Aldactone",
+          "Spiractin"
+        ],
+        "eplerenone": [
+          "Inspra",
+          "Espler",
+          "Inpler",
+          "Plera"
+        ]
+      },
+      "note": "Any form and strength counts. Generic packs that show the ingredient name with a company name count too. Potassium-sparing diuretics such as amiloride do not count."
+    },
+    {
+      "key": "B",
+      "name": "Medicines that imply heart failure",
+      "ingredients": [
+        "sacubitril with valsartan",
+        "ivabradine",
+        "sacubitril + valsartan"
+      ],
+      "brands": {
+        "sacubitril with valsartan": [
+          "Entresto"
+        ],
+        "ivabradine": [
+          "Coralan",
+          "Caranor",
+          "Cobadine",
+          "Coralide"
+        ],
+        "sacubitril + valsartan": [
+          "Entresto"
+        ]
+      },
+      "note": "Sacubitril with valsartan (Entresto) is a combination product. Ivabradine is used for chronic heart failure. A supply of either one suggests heart failure when the record holds no line about it, but it is not proof."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Heart failure",
+      "meets": "A condition line for heart failure of any type"
+    },
+    {
+      "kind": "result",
+      "what": "eGFR",
+      "meets": "Use the latest relevant indexed eGFR in mL/min/1.73 m2. Above 30 qualifies. At 30 or below there is no omission. Enter the measurement date if known. If the order of conflicting results is unclear and would change the decision, keep the finding possible."
+    },
+    {
+      "kind": "result",
+      "what": "Serum potassium",
+      "meets": "Use the latest dated serum potassium in mmol/L if available. Enter the measurement date if known. The pharmacist judges whether the result is recent enough for a safety review. A known current contraindication to both medicines excludes an omission. A missing or undated potassium value alone cannot establish a contraindication."
+    },
+    {
+      "kind": "result",
+      "what": "Age",
+      "meets": "Use age in the patient header if recorded. If it is missing, use a recorded age in completed years or request the value for an otherwise possible omission. Below 65 excludes an omission. At 65 or older, assess the remaining criteria. An unknown age leaves the finding possible."
+    }
+  ],
+  "rule_for_models": "Apply this criterion only to people aged 65 years or older. Use the age in the patient header when available. If it is missing, use an available Age result in completed years. If age is still unknown and the other evidence is compatible, report only a possible finding and name \"Age\". An unknown answer leaves it possible. Below 65 there is no finding. Confirm age is 65 or older and exclude a finding if spironolactone or eplerenone was supplied in the last six months, the latest eGFR is 30 mL/min/1.73 m2 or lower, or a current contraindication to both medicines is recorded. Otherwise, cite the heart failure diagnosis and latest eGFR above 30 mL/min/1.73 m2 for the published omission. Ask the GP to check potassium before considering treatment. If current hyperkalaemia contraindicates both medicines, give no finding. A missing potassium result alone does not downgrade the published finding. If heart failure is recorded without an eGFR, or sacubitril with valsartan or ivabradine is supplied without a heart failure diagnosis, report only a possible omission if no Group A medicine was supplied in the last six months and no exclusion is known. Cite the marker or diagnosis and any available eGFR. Name the missing heart failure diagnosis or eGFR as needed for eligibility. Request serum potassium for safety if a specific concern needs clarification. Missing potassium alone leaves the eligibility decision unchanged. The marker alone does not confirm heart failure.",
+  "cannot_be_seen": "Serum potassium if a current result is missing (a high level is a common reason to avoid these medicines), whether the heart failure is symptomatic, past reactions such as breast tenderness, and medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "Whether spironolactone or eplerenone has been considered for this heart failure, with a check of recent kidney function and potassium. If the record does not show it, please also confirm the heart failure diagnosis or give a recent eGFR.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

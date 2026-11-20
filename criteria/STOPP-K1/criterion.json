@@ -1,0 +1,117 @@
+{
+  "id": "STOPP-K1",
+  "label": "STOPP K1",
+  "family": "STOPP_START",
+  "title": "Benzodiazepine in a person who keeps falling",
+  "statement": "Benzodiazepines in patients with recurrent falls (may cause reduced sensorium, impair balance).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Benzodiazepines can dull alertness and upset balance, so they raise the risk of further falls in someone who has already fallen more than once.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Benzodiazepines",
+      "ingredients": [
+        "alprazolam",
+        "bromazepam",
+        "clobazam",
+        "clonazepam",
+        "diazepam",
+        "lorazepam",
+        "nitrazepam",
+        "oxazepam",
+        "temazepam",
+        "flunitrazepam",
+        "midazolam"
+      ],
+      "brands": {
+        "alprazolam": [
+          "Xanax",
+          "Kalma",
+          "Alprax",
+          "Ralozam",
+          "Xanax Tri-Score",
+          "Zamhexal"
+        ],
+        "bromazepam": [
+          "Lexotan"
+        ],
+        "clobazam": [
+          "Frisium",
+          "Clobium"
+        ],
+        "clonazepam": [
+          "Rivotril",
+          "Paxam"
+        ],
+        "diazepam": [
+          "Valium",
+          "Antenex",
+          "Ducene",
+          "Ranzepam",
+          "Valpam"
+        ],
+        "lorazepam": [
+          "Ativan"
+        ],
+        "nitrazepam": [
+          "Mogadon",
+          "Alodorm"
+        ],
+        "oxazepam": [
+          "Serepax",
+          "Murelax",
+          "Alepam"
+        ],
+        "temazepam": [
+          "Normison",
+          "Temaze",
+          "Temtabs"
+        ],
+        "flunitrazepam": [
+          "Hypnodorm"
+        ],
+        "midazolam": [
+          "Zyamis"
+        ]
+      },
+      "note": "Clonazepam and clobazam are also anti-epileptics and appear in STOPP-K5. Oral tablets, capsules, liquids (including drops and buccal or oromucosal solutions) and injections (including ampoules) supplied for the person count."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Recurrent falls",
+      "meets": "two or more falls in the past 12 months, or a line that says recurrent falls",
+      "options": [
+        {
+          "words": "Two or more falls in the past 12 months",
+          "effect": "meets"
+        },
+        {
+          "words": "No falls or one fall in the past 12 months",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this criterion only to people aged 65 years or older, and ask for age before confirming a finding if age is unknown and the other criteria apply. When a Group A benzodiazepine is supplied and the record shows two or more falls in the past 12 months or explicitly confirms recurrent falls, suspect a finding and cite the supply and falls lines. With a Group A supply, report a possible finding and name the missing falls history if the falls history is absent or recorded as unknown, or report no finding if the falls line shows no falls or only one fall.",
+  "cannot_be_seen": "Whether the person has really had recurrent falls if no falls line is held, why the benzodiazepine was started, and whether it is taken every day or only now and then. Also tablets from hospital or another pharmacy.",
+  "ask_the_gp": "Whether the benzodiazepine can be stopped or reduced slowly, given the falls. A falls review.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

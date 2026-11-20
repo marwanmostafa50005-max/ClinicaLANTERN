@@ -1,0 +1,51 @@
+[
+  {
+    "file": "BRISNIK-OP-PAIN1/pos-fact.csv",
+    "kind": "positive",
+    "about": "The record documents amitriptyline at 75 mg daily for neuropathic pain with no other current indication for an antidepressant.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-PAIN1",
+        "must_cite": [
+          [
+            "L022"
+          ],
+          [
+            "L023"
+          ],
+          [
+            "L024"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-PAIN1/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the amitriptyline directions span 50 to 75 mg a day, and the record leaves the prescribed dose, use for nerve pain and other indications unresolved.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-PAIN1",
+        "must_cite": [
+          [
+            "L002",
+            "L006",
+            "L010",
+            "L014",
+            "L018",
+            "L022",
+            "L026",
+            "L030"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-PAIN1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Amitriptyline 75 mg a day is supplied regularly, and the record identifies panic disorder as a current indication for antidepressant treatment.",
+    "findings": []
+  }
+]

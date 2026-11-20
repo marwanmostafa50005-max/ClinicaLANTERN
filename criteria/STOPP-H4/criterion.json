@@ -1,0 +1,257 @@
+{
+  "id": "STOPP-H4",
+  "label": "STOPP H4",
+  "family": "STOPP_START",
+  "title": "Long-term steroid tablets alone for rheumatoid arthritis",
+  "statement": "Long-term corticosteroids (>3 months) as monotherapy for rheumatoid arthritis (risk of systemic corticosteroid side-effects).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Steroid tablets used for months as the only treatment for rheumatoid arthritis can cause many side effects.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Corticosteroids taken by mouth",
+      "ingredients": [
+        "prednisolone",
+        "prednisone",
+        "methylprednisolone",
+        "dexamethasone"
+      ],
+      "brands": {
+        "prednisolone": [
+          "Panafcortelone",
+          "Predsolone",
+          "Redipred",
+          "Solone",
+          "Predmix"
+        ],
+        "prednisone": [
+          "Panafcort",
+          "Predsone",
+          "Sone"
+        ],
+        "methylprednisolone": [
+          "Medrol"
+        ],
+        "dexamethasone": [
+          "Dexmethsone"
+        ]
+      },
+      "note": "Tablets and liquids taken by mouth count. Inhaled, nasal, eye, ear and skin corticosteroids do not count. Hydrocortisone and fludrocortisone taken as hormone replacement are not in this group. Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "B",
+      "name": "Disease-modifying and biologic medicines for rheumatoid arthritis",
+      "ingredients": [
+        "methotrexate",
+        "leflunomide",
+        "sulfasalazine",
+        "hydroxychloroquine",
+        "azathioprine",
+        "tofacitinib",
+        "baricitinib",
+        "upadacitinib",
+        "adalimumab",
+        "etanercept",
+        "infliximab",
+        "tocilizumab",
+        "abatacept",
+        "certolizumab pegol",
+        "golimumab",
+        "rituximab",
+        "ciclosporin",
+        "auranofin",
+        "penicillamine"
+      ],
+      "brands": {
+        "methotrexate": [
+          "Methoblastin",
+          "Trexject",
+          "Chexate",
+          "Ciptrexate",
+          "Emthexate",
+          "Imutrex",
+          "Methaccord",
+          "Methoblastin PFS"
+        ],
+        "leflunomide": [
+          "Arava",
+          "Arabloc",
+          "Ataris",
+          "Flunomide",
+          "Lefide",
+          "Lunava"
+        ],
+        "sulfasalazine": [
+          "Salazopyrin",
+          "Salazopyrin EN",
+          "Pyralin EN"
+        ],
+        "hydroxychloroquine": [
+          "Plaquenil",
+          "Hequinel"
+        ],
+        "azathioprine": [
+          "Imuran",
+          "Azamun",
+          "Azahexal",
+          "Azapin",
+          "Azran",
+          "Imazan",
+          "Thioprine"
+        ],
+        "tofacitinib": [
+          "Xeljanz",
+          "Tofadoz",
+          "Tofanz",
+          "Xeljanz XR"
+        ],
+        "baricitinib": [
+          "Olumiant"
+        ],
+        "upadacitinib": [
+          "Rinvoq"
+        ],
+        "adalimumab": [
+          "Humira",
+          "Amgevita",
+          "Hyrimoz",
+          "Abrilada",
+          "Adalicip",
+          "Amgevita Sureclick",
+          "Hadlima",
+          "Hadlima Pushtouch Auto-Injector",
+          "Hulio",
+          "Idacio",
+          "Yuflyma"
+        ],
+        "etanercept": [
+          "Enbrel",
+          "Brenzys",
+          "Brenzys Auto-Injector",
+          "Enbrel Auto-Injector",
+          "Erelzi",
+          "Erelzi Auto-Injector",
+          "Nepexto"
+        ],
+        "infliximab": [
+          "Remicade",
+          "Inflectra",
+          "Renflexis",
+          "Remsima"
+        ],
+        "tocilizumab": [
+          "Actemra"
+        ],
+        "abatacept": [
+          "Orencia"
+        ],
+        "certolizumab pegol": [
+          "Cimzia"
+        ],
+        "golimumab": [
+          "Simponi"
+        ],
+        "rituximab": [
+          "MabThera",
+          "Riximyo",
+          "Truxima"
+        ],
+        "ciclosporin": [
+          "Neoral"
+        ],
+        "auranofin": [
+          "Ridaura"
+        ],
+        "penicillamine": [
+          "D-Penamine"
+        ]
+      },
+      "note": "Count Group B treatment only for the period it covers. Assess any remaining steroid-only period against the same duration and supply-gap rules. If overlap is unclear and would change the finding, report it as uncertain. Generic packs that show the ingredient name with a company name count too. Count these medicines only when their systemic treatment covers rheumatoid arthritis during the steroid course. Exclude ciclosporin eye drops and treatment solely for another condition. If the indication is uncertain and would change the finding, report a possible finding and ask what the medicine was treating."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Rheumatoid arthritis",
+      "meets": "A rheumatoid arthritis line is recorded"
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for this oral steroid course",
+      "meets": "This oral steroid course treated rheumatoid arthritis.",
+      "options": [
+        {
+          "words": "Rheumatoid arthritis",
+          "effect": "meets"
+        },
+        {
+          "words": "Solely another condition",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Actual oral steroid use during this course",
+      "meets": "The patient took the oral steroid regularly over the period under review.",
+      "options": [
+        {
+          "words": "Taken regularly",
+          "effect": "meets"
+        },
+        {
+          "words": "Only short or intermittent courses",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for the overlapping disease-modifying medicine",
+      "meets": "A medicine used solely for another condition leaves the steroid-only period unchanged. Count a rheumatoid arthritis treatment only for the days it covered.",
+      "options": [
+        {
+          "words": "Solely another condition",
+          "effect": "meets"
+        },
+        {
+          "words": "Rheumatoid arthritis",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "result",
+      "what": "Dosing interval after a specialist dose for rheumatoid arthritis (medicine, date given and interval)",
+      "meets": "Enter the medicine, the administration date and the interval until the next scheduled dose, with its unit. Use these details to check whether a steroid-only period still exceeded 90 days. An unknown date or interval leaves cover uncertain."
+    }
+  ],
+  "rule_for_models": "Apply only to people aged 65 years or older. If age is unknown and the other criteria are met, report age as missing and leave the finding unconfirmed. Suspect a finding when a Group A medicine (a steroid taken by mouth) is supplied for more than 3 months (the first and last supply dates are more than 90 days apart, with no gap of more than 60 days between supplies), the record holds a rheumatoid arthritis line, and the steroid-only period itself lasts more than three months. Cite the steroid supply lines and the rheumatoid arthritis line. If rheumatoid arthritis is explicitly excluded or the steroid is used solely for another condition, there is no finding. If the diagnosis or steroid indication is unclear, report a possible finding and name what is missing. Ask what this steroid course treated only if its purpose is unclear. If unclear or as-needed steroid directions leave continuous use uncertain and the other conditions apply, report only a possible finding and ask whether it was taken regularly over this course. Short or intermittent courses alone give no finding. For an overlapping Group B medicine, ask its purpose only if that could change the finding. Ignore treatment solely for another condition. Count rheumatoid arthritis treatment only for the period it covers. Use the supply date, quantity and directions or a documented administration date and dosing interval. If missing specialist timing would change the finding, ask for the medicine, its actual administration date and its dosing interval. Count cover only from a documented dose. Assess any remaining steroid-only period against the same duration and supply-gap rules. If overlap is unclear and would change the finding, report it as uncertain.",
+  "cannot_be_seen": "Why the steroid was started, whether a disease-modifying medicine is given by a specialist clinic or hospital, and how the person actually takes the steroid. Also medicines supplied by another pharmacy.",
+  "ask_the_gp": "Whether the steroid is the only treatment for the rheumatoid arthritis, and whether a disease-modifying medicine or a lower steroid dose is suitable.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "file": "STOPP-C12/pos-fact.csv",
+    "kind": "positive",
+    "about": "Sertraline (Zoloft) and apixaban (Eliquis) are both supplied every month from January to October 2026, and the record holds a major gastrointestinal bleed line from August 2025.",
+    "findings": [
+      {
+        "criterion": "STOPP-C12",
+        "must_cite": [
+          [
+            "L002",
+            "L006",
+            "L010",
+            "L014",
+            "L018",
+            "L022",
+            "L026",
+            "L030",
+            "L034",
+            "L038"
+          ],
+          [
+            "L003",
+            "L007",
+            "L011",
+            "L015",
+            "L019",
+            "L023",
+            "L027",
+            "L031",
+            "L035",
+            "L039"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-C12/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about a previous bleed, and Aropax (paroxetine) and Xarelto (rivaroxaban) are both supplied every month from February to August 2026.",
+    "findings": [
+      {
+        "criterion": "STOPP-C12",
+        "must_cite": [
+          [
+            "L002",
+            "L006",
+            "L010",
+            "L014",
+            "L018",
+            "L022",
+            "L026"
+          ],
+          [
+            "L003",
+            "L007",
+            "L011",
+            "L015",
+            "L019",
+            "L023",
+            "L027"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-C12/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Escitalopram (Lexapro) and warfarin (Coumadin) are both supplied, but the only bleed in the record is a minor nosebleed, not a major bleed.",
+    "findings": []
+  }
+]

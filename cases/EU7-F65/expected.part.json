@@ -1,0 +1,147 @@
+[
+  {
+    "file": "EU7-F65/pos-brand.csv",
+    "kind": "positive",
+    "about": "The brand-only Risperdal fills on 8 March and 5 April 2026 each supply 30 days at two tablets daily and together cover more than 42 continuous days.",
+    "findings": [
+      {
+        "criterion": "EU7-F65",
+        "must_cite": [
+          [
+            "L013",
+            "L018"
+          ],
+          [
+            "L013",
+            "L022"
+          ],
+          [
+            "L009",
+            "L018"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F65/pos-buried.csv",
+    "kind": "positive",
+    "about": "Zyprexa Zydis (olanzapine) 15 mg, one wafer at night, which is above 10 mg a day, is supplied four times from January 2026 to April 2026, in the middle of a 15-month history.",
+    "findings": [
+      {
+        "criterion": "EU7-F65",
+        "must_cite": [
+          [
+            "L029",
+            "L033",
+            "L038",
+            "L043"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F65/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The May risperidone supply covers 28 days, and the pharmacist confirms that the separate oral course restarted in August lasted 42 days or fewer without a break.",
+    "findings": []
+  },
+  {
+    "file": "EU7-F65/pos-depot-consta.csv",
+    "kind": "positive",
+    "about": "Four fortnightly Risperdal Consta supplies provide 56 continuous days as prescribed, and any one of the four supply lines may be cited.",
+    "findings": [
+      {
+        "criterion": "EU7-F65",
+        "must_cite": [
+          [
+            "L016",
+            "L020",
+            "L021",
+            "L025"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F65/pos-depot-relprevv.csv",
+    "kind": "positive",
+    "about": "Both supplies prescribe Zyprexa Relprevv 300 mg every 2 weeks, which corresponds to an oral target above 10 mg daily in either phase.",
+    "findings": [
+      {
+        "criterion": "EU7-F65",
+        "must_cite": [
+          [
+            "L016",
+            "L017"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F65/pos-depot-phase-unknown.csv",
+    "kind": "positive",
+    "about": "Possible finding: the first supply is Zyprexa Relprevv 405 mg every 4 weeks and the record does not say whether this is the starting or maintenance phase.",
+    "findings": [
+      {
+        "criterion": "EU7-F65",
+        "must_cite": [
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F65/near-miss-depots.csv",
+    "kind": "near_miss",
+    "about": "Two Risperdal Consta kits provide 28 days and the later Zyprexa Relprevv maintenance dose of 300 mg every 4 weeks corresponds to an oral target of exactly 10 mg daily.",
+    "findings": []
+  },
+  {
+    "file": "EU7-F65/pos-oral-combined.csv",
+    "kind": "positive",
+    "about": "Two regular oral olanzapine strengths supplied together provide 10 mg each night and 5 mg each morning, for a total of 15 mg daily.",
+    "findings": [
+      {
+        "criterion": "EU7-F65",
+        "must_cite": [
+          [
+            "L004"
+          ],
+          [
+            "L005"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F65/near-miss-relprevv-phase-unstated.csv",
+    "kind": "near_miss",
+    "about": "Zyprexa Relprevv 300 mg every 4 weeks alone gives no finding when the phase is unstated.",
+    "findings": []
+  },
+  {
+    "file": "EU7-F65/pos-depot-plus-oral.csv",
+    "kind": "positive",
+    "about": "Zyprexa Relprevv at its maintenance target of 10 mg daily and regular oral olanzapine 5 mg daily cover the same 28 days, bringing the total to 15 mg daily.",
+    "findings": [
+      {
+        "criterion": "EU7-F65",
+        "must_cite": [
+          [
+            "L004"
+          ],
+          [
+            "L005"
+          ]
+        ]
+      }
+    ]
+  }
+]

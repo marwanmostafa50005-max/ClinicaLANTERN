@@ -1,0 +1,163 @@
+{
+  "id": "START-L3",
+  "label": "START L3",
+  "family": "STOPP_START",
+  "title": "Shingles (zoster) vaccine",
+  "statement": "Varicella-zoster vaccine according to national guidelines.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A person of the age that national guidance recommends should have the shingles vaccine.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Recombinant zoster vaccine counted towards the Shingrix course",
+      "ingredients": [
+        "zoster vaccine, recombinant",
+        "varicella-zoster virus glycoprotein E recombinant adjuvanted vaccine"
+      ],
+      "brands": {
+        "zoster vaccine, recombinant": [
+          "Shingrix"
+        ],
+        "varicella-zoster virus glycoprotein E recombinant adjuvanted vaccine": [
+          "Shingrix"
+        ]
+      },
+      "note": "Count documented Shingrix administrations. Chickenpox vaccines are outside this criterion."
+    },
+    {
+      "key": "B",
+      "name": "Prior live zoster vaccination used to assess timing",
+      "ingredients": [
+        "zoster vaccine, live"
+      ],
+      "brands": {
+        "zoster vaccine, live": [
+          "Zostavax"
+        ]
+      },
+      "note": "A recorded Zostavax administration informs Shingrix timing and funding. It does not count as a Shingrix dose."
+    }
+  ],
+  "rule_for_models": "Return no finding under this criterion if the person is under 65. If age is unknown and a dose may otherwise be due, report only a possible finding and ask the pharmacist to confirm age. For adults aged 65 or older, flag a due first or second Shingrix dose, counting only documented administrations: a confirmed history of zero doses supports a first dose and two valid doses complete the course. After dose one, dose two is due from two months if immunocompetent (usual interval two to six months) or from one month if immunocompromised (usual interval one to two months). If the usual interval has passed, the outstanding dose is still due unless a deferral applies. Ask about second-dose timing only after one confirmed dose. Ask about shingles and deferral when either could change the decision. No previous shingles and no current deferral allow assessment to proceed. Neither alone proves a dose is due. Check dose dates with the Australian Immunisation Register or vaccinator and verify any deferral in the clinical record. Respect documented deferral, allow at least 12 months after Zostavax (the separate five-year funding wait applies after a National Immunisation Program dose and funding is unconfirmed if unknown), and after shingles allow at least 12 months if immunocompetent or seek individual review from three months after the acute illness if immunocompromised. If vaccination history or timing is unclear, report a possible finding for review with the Australian Immunisation Register or vaccinator and cite the relevant history and any deciding supply (when neither exists, include the last dated supply's line ID in both the screen and the double-check to show where the record ends).",
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Shingles vaccine history",
+      "meets": "The first or second Shingrix dose is due under the Australian schedule. After a documented Zostavax dose, the recommended interval to the first Shingrix dose is at least 12 months. Assess the funded interval separately. If shingles is documented, use the episode date and immune status to assess timing. Respect documented deferral. Request clinical review if the available facts do not settle timing.",
+      "options": [
+        {
+          "words": "No Shingrix dose and either no Zostavax or the last Zostavax was at least 12 months ago",
+          "effect": "meets"
+        },
+        {
+          "words": "One Shingrix dose confirmed",
+          "effect": "unknown"
+        },
+        {
+          "words": "Two valid Shingrix doses were given",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "No Shingrix dose and Zostavax was given less than 12 months ago",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Timing of a second Shingrix dose after one confirmed dose",
+      "meets": "Use this answer only after one confirmed dose. Two months meets the usual interval, or one month for an immunocompromised person. If immune status or timing could change the decision and is unclear, seek confirmation.",
+      "options": [
+        {
+          "words": "At least 2 months since the first dose",
+          "effect": "meets"
+        },
+        {
+          "words": "1 to less than 2 months since the first dose and the person is immunocompromised",
+          "effect": "meets"
+        },
+        {
+          "words": "1 to less than 2 months since the first dose and the person is immunocompetent",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Less than 1 month since the first dose",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Recovery and timing after shingles",
+      "meets": "No previous episode or recovery at least 12 months ago allows the dose assessment to proceed. An ongoing waiting period gives no current omission. Between 3 and 12 months after acute shingles in an immunocompromised person, use the individual clinical review when available. If the decision is unresolved, give only a possible finding.",
+      "options": [
+        {
+          "words": "No history of shingles",
+          "effect": "meets"
+        },
+        {
+          "words": "Recovered from shingles at least 12 months ago",
+          "effect": "meets"
+        },
+        {
+          "words": "Still acutely unwell or less than 3 months since the acute illness",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Recovered 3 to less than 12 months ago and the person is immunocompetent",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Recovered 3 to less than 12 months ago and a clinician has confirmed vaccination can proceed",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Current deferral of a Shingrix dose",
+      "meets": "Check any reported delay against the vaccination or clinical record. Respect a documented deferral while it applies.",
+      "options": [
+        {
+          "words": "No current documented deferral",
+          "effect": "meets"
+        },
+        {
+          "words": "A documented deferral still applies",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "cannot_be_seen": "Vaccines given by a doctor or clinic, or before the history starts. A history that does not show a vaccine does not prove none was given. Also a weakened immune system, which changes the advice, and whether both doses of the two-dose course were given.",
+  "ask_the_gp": "Could we confirm the vaccination history and review whether the first or second Shingrix dose is due?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,65 @@
+{
+  "id": "FDADSC-8",
+  "label": "FDADSC: codeine or tramadol under 12",
+  "family": "FDADSC",
+  "title": "Codeine or tramadol in a child younger than 12 years",
+  "statement": "On April 20, 2017, FDA announced it is restricting the use of codeine and tramadol medicines in children. These drugs carry serious risks, including slowed or difficult breathing and death, which appear to be a greater risk in children younger than 12 years. They should not be used in these children and should be limited in some older children.",
+  "statement_origin": "published",
+  "source": {
+    "document": "US FDA Drug Safety Podcast: codeine and tramadol restrictions",
+    "citation": "US Food and Drug Administration. Drug Safety Podcast on codeine and tramadol. Posted 20 April 2017.",
+    "url": "https://www.fda.gov/drugs/fda-drug-safety-podcasts/fda-drug-safety-podcast-fda-restricts-use-prescription-codeine-pain-and-cough-medicines-and-tramadol",
+    "licence": "Public domain",
+    "licence_status": "proposed",
+    "credit": "Credit the U.S. Food and Drug Administration as the source. Credit is appreciated but not required. FDA recommends recording the copy date and linking to the source.",
+    "modification_notice": "Statement reproduced without changes."
+  },
+  "plain_summary": "Codeine or tramadol should not be supplied to a child younger than 12 years because fatal respiratory depression can occur. Panadeine Forte PI 25 May 2026 and Tramal PI 9 July 2026 contraindicate use under 12. Since February 2018, codeine medicines in Australia have required a prescription. The schedule depends on the preparation.",
+  "medicine_groups": [
+    {
+      "key": "codeine_or_tramadol",
+      "name": "Codeine or tramadol",
+      "ingredients": [
+        "codeine",
+        "tramadol"
+      ],
+      "brands": {
+        "codeine": [
+          "Panadeine Forte",
+          "Codalgin Forte",
+          "Comfarol Forte",
+          "Mersyndol Forte",
+          "Painstop Day-Time Pain Reliever",
+          "Nurofen Plus",
+          "Aspalgin",
+          "Codapane Forte",
+          "Prodeine Forte",
+          "Panadeine",
+          "Panadeine Extra",
+          "Mersyndol",
+          "Codalgin",
+          "Dolaforte",
+          "Painstop Night-Time Pain Reliever",
+          "Actacode"
+        ],
+        "tramadol": [
+          "Tramal",
+          "Tramal SR",
+          "Zydol",
+          "Tramedo",
+          "Zaldiar",
+          "Zydol SR",
+          "Tramedo SR",
+          "Lodam"
+        ]
+      },
+      "note": "Plain codeine and combination tablets or liquids with paracetamol, ibuprofen or aspirin count. Tramadol combination products such as Zaldiar count. Tramal oral drops contain tramadol 100 mg/mL and count. Rikodeine is dihydrocodeine, a different ingredient, and does not count. Generic packs that show codeine or tramadol count too."
+    }
+  ],
+  "rule_for_models": "Report a finding for any codeine_or_tramadol supply when patient_age is under 12 years, and cite that supply. If age is missing, report a possible finding that asks to confirm the patient's age. A patient aged 12 years or older does not meet this criterion.",
+  "cannot_be_seen": "Age may be missing. Supply does not prove administration. This check covers children under 12. At ages 12 to 17, MHRA-6 checks codeine after surgery for obstructive sleep apnoea. No rule was found covering the full FDA postoperative restriction for both codeine and tramadol. Medicines supplied elsewhere may be absent.",
+  "ask_the_gp": "Could you review the codeine or tramadol supply, its indication and an age-appropriate alternative for this child?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

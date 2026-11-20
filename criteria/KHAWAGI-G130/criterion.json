@@ -1,0 +1,257 @@
+{
+  "id": "KHAWAGI-G130",
+  "label": "Khawagi review: Review overlapping regular antipsychotics in an adult when the overlap lasts more than two continuous calendar months",
+  "family": "KHAWAGI",
+  "title": "Review overlapping regular antipsychotics in an adult when the overlap lasts more than two continuous calendar months",
+  "statement": "Review two different regular antipsychotics taken together by an adult for more than two continuous calendar months, except planned clozapine augmentation with a current specialist review plan.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Khawagi et al., S3 File, Table 4",
+    "citation": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: a systematic review. PLoS ONE 2019;14(5):e0217406",
+    "doi": "10.1371/journal.pone.0217406.s003",
+    "url": "https://doi.org/10.1371/journal.pone.0217406.s003",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Adapted from Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: a systematic review. PLoS ONE 2019;14(5):e0217406, S3 File, Table 4, https://doi.org/10.1371/journal.pone.0217406.s003. (c) 2019 Khawagi et al., CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Original screening wording and Australian adaptations. S3 reference(s) as indexed in the supplied qualification: [69]. Clinical cross-check: Khawagi review (https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0217406).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "Review two different regular antipsychotics taken together by an adult for more than two continuous calendar months, except planned clozapine augmentation with a current specialist review plan. The clozapine exception is an Australian screening convention.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Regularly scheduled antipsychotics",
+      "ingredients": [
+        "amisulpride",
+        "aripiprazole",
+        "asenapine",
+        "brexpiprazole",
+        "cariprazine",
+        "chlorpromazine",
+        "clozapine",
+        "droperidol",
+        "flupentixol",
+        "haloperidol",
+        "lurasidone",
+        "olanzapine",
+        "paliperidone",
+        "periciazine",
+        "prochlorperazine",
+        "quetiapine",
+        "risperidone",
+        "ziprasidone",
+        "zuclopenthixol",
+        "fluphenazine"
+      ],
+      "brands": {
+        "amisulpride": [
+          "Solian",
+          "Amipride",
+          "Sulprix"
+        ],
+        "aripiprazole": [
+          "Abilify",
+          "Abilify ODT",
+          "Abipra",
+          "Abyraz",
+          "Aprazole",
+          "Aripic",
+          "Aripra",
+          "Arizole",
+          "Abilify Maintena"
+        ],
+        "asenapine": [
+          "Saphris"
+        ],
+        "brexpiprazole": [
+          "Rexulti"
+        ],
+        "cariprazine": [
+          "Reagila"
+        ],
+        "chlorpromazine": [
+          "Largactil",
+          "Largactil Syrup"
+        ],
+        "clozapine": [
+          "Clozaril",
+          "Clopine",
+          "Closyn",
+          "Clozaril ODT",
+          "Clozitor",
+          "Versacloz"
+        ],
+        "droperidol": [
+          "Droleptan"
+        ],
+        "flupentixol": [
+          "Fluanxol Concentrated Depot",
+          "Fluanxol",
+          "Fluanxol Depot"
+        ],
+        "haloperidol": [
+          "Serenace",
+          "Haldol",
+          "Haldol Decanoate"
+        ],
+        "lurasidone": [
+          "Latuda",
+          "Bilura",
+          "Latulem",
+          "Lavione",
+          "Luracor",
+          "Luralem",
+          "Luralembic",
+          "Lurobi"
+        ],
+        "olanzapine": [
+          "Zyprexa",
+          "Aprolan",
+          "Aprolan ODT",
+          "Lanez",
+          "Lanez ODT",
+          "Lanzek",
+          "Lanzek Zydis",
+          "Lonza",
+          "Lonza ODT",
+          "Lyprosia",
+          "Lyprosia ODT",
+          "Olancor",
+          "Olanza",
+          "Olanzaccord",
+          "Olanzacor",
+          "Oprexa",
+          "Ozin",
+          "Ozin ODT",
+          "Prolanza",
+          "Prolanza ODT",
+          "Pryzex",
+          "Pryzex ODT",
+          "Tolaze ODT",
+          "Tolazine ODT",
+          "Torapine ODT",
+          "Torrenia ODT",
+          "Zylap",
+          "Zylap ODT",
+          "Zylapine",
+          "Zylapine ODT",
+          "Zypine",
+          "Zypine ODT",
+          "Zyprexa Zydis",
+          "Zyprexa Relprevv"
+        ],
+        "paliperidone": [
+          "Invega Sustenna",
+          "Invega Hafyera",
+          "Invega Trinza",
+          "Palmeux",
+          "Trevicta",
+          "Invega"
+        ],
+        "periciazine": [
+          "Neulactil"
+        ],
+        "prochlorperazine": [
+          "Stemetil",
+          "Nausetil",
+          "Nausrelief",
+          "Procalm",
+          "Proclazine",
+          "Stemzine"
+        ],
+        "quetiapine": [
+          "Seroquel",
+          "Aliquen",
+          "Delucon",
+          "Kaptan",
+          "Ketizenol",
+          "Qualez",
+          "Quepine XR",
+          "Quetapen",
+          "Quetia",
+          "Quetia XR",
+          "Quetiaccord",
+          "Quetiaquel XR",
+          "Quetin",
+          "Quipine",
+          "Sequase",
+          "Sequase XR",
+          "Serapine",
+          "Serapine XR",
+          "Seroccord",
+          "Seronia",
+          "Seroquel XR",
+          "Serotiapine XR",
+          "Syquet",
+          "Syquet XR",
+          "Syzopine",
+          "Tevatiapine XR",
+          "Tiapine XR",
+          "Tiava XR",
+          "Xque XR"
+        ],
+        "risperidone": [
+          "Risperdal",
+          "Ozidal",
+          "Resdone",
+          "Respaz",
+          "Risdone",
+          "Rispa",
+          "Rispaccord",
+          "Rispaccord-0.5",
+          "Risperdal Quicklet",
+          "Risperibell",
+          "Rispericor",
+          "Rispericor-0.5",
+          "Risperisan",
+          "Rispernia",
+          "Rixadone",
+          "Sperid",
+          "Risperdal Consta"
+        ],
+        "ziprasidone": [
+          "Zeldox",
+          "Ziprox"
+        ],
+        "zuclopenthixol": [
+          "Clopixol",
+          "Clopixol Depot"
+        ],
+        "fluphenazine": [
+          "Modecate"
+        ]
+      },
+      "note": "Count each distinct ingredient once. Use supply dates, directions and quantities to establish continuous overlapping cover. For depots, use the documented dosing interval. Exclude completed switches, brief as-needed use and brief antiemetic or procedural courses."
+    }
+  ],
+  "rule_for_models": "Review two distinct regular antipsychotics in an adult aged 18 or older when they overlap for more than two continuous calendar months. Cite both medicines. Exclude completed switches without qualifying overlap and brief as-needed or antiemetic courses. Another indication alone does not exclude regular co-use. For a clozapine pair, cite specialist confirmation that the combination was unplanned or has no current review plan. Exclude that pair if the specialist planned it and has a current review plan. An unknown assessment leaves the finding possible. If age or continuity is unclear but could qualify, keep the finding possible and ask about age, regular doses, injection dates, supplies elsewhere and any switch. Do not bridge a confirmed gap.",
+  "cannot_be_seen": "Dispensing does not establish actual use, indication or a prescriber’s intent. Treatment and assessments elsewhere may be missing.",
+  "ask_the_gp": "Could you review the ongoing need for both regularly scheduled antipsychotics and, if clozapine is involved, confirm the specialist's augmentation plan and next review?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Specialist assessment of clozapine augmentation and review plan",
+      "meets": "Only for qualifying overlap involving clozapine. An applicable specialist assessment that explicitly rules out planned augmentation or confirms the lack of a current review plan supports a finding. A documented augmentation plan with current specialist review resolves it. An unknown plan supports only a question about the missing assessment.",
+      "options": [
+        {
+          "words": "The specialist planned this combination and has a current review plan",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "The specialist confirms this combination was unplanned",
+          "effect": "meets"
+        },
+        {
+          "words": "The specialist confirms there is no current review plan for this combination",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

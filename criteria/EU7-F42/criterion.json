@@ -1,0 +1,197 @@
+{
+  "id": "EU7-F42",
+  "label": "EU(7)-PIM: non-selective NSAIDs",
+  "family": "EU7",
+  "title": "Non-selective anti-inflammatory pain medicine in an older person",
+  "statement": "The EU(7)-PIM list names these anti-inflammatory pain medicines (NSAIDs) as potentially inappropriate in older people because of a very high risk of stomach bleeding, ulcers and perforation, which can be fatal: phenylbutazone, indometacin, diclofenac, acemetacin, ketorolac, aceclofenac, piroxicam, lornoxicam, meloxicam, ketoprofen, flurbiprofen, dexketoprofen, mefenamic acid and nabumetone. Several also carry heart risks. Ibuprofen is listed only when the dose is above 1200 mg a day or use lasts more than a week, and naproxen only when the dose is above 500 mg a day or use lasts more than a week. The shortest possible use, with stomach protection, is advised, and paracetamol is the usual alternative.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "The statement is written in ClinicaLANTERN's own plain words from the published table row, because part of the row text comes from a third party (Micromedex) whose reuse rights are not settled. Not endorsed by the source authors. Earlier project notice: Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.2 candidate repairs and adopted conventions merged with attribution). Not endorsed by the source authors."
+  },
+  "plain_summary": "Most anti-inflammatory pain medicines (NSAIDs) carry a very high risk of stomach bleeding, ulcers and perforation in older people, and ibuprofen and naproxen are a concern at higher doses or after a week.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "NSAIDs listed without a dose or time limit",
+      "ingredients": [
+        "phenylbutazone",
+        "indometacin",
+        "diclofenac",
+        "acemetacin",
+        "ketorolac",
+        "aceclofenac",
+        "piroxicam",
+        "lornoxicam",
+        "meloxicam",
+        "ketoprofen",
+        "flurbiprofen",
+        "dexketoprofen",
+        "mefenamic acid",
+        "nabumetone"
+      ],
+      "brands": {
+        "phenylbutazone": [],
+        "indometacin": [
+          "Indocid",
+          "Arthrexin"
+        ],
+        "diclofenac": [
+          "Voltaren",
+          "Voltaren Rapid",
+          "Fenac",
+          "Clonac",
+          "Arthrotec",
+          "Cambia",
+          "Diclohexal",
+          "Difenac Rapid",
+          "Dinac",
+          "Fenac EC",
+          "Imflac",
+          "Inflamax Liquid Caps",
+          "Voltaren Rapid Extra Strength",
+          "Voltaren Rapid Liquid Capsules",
+          "Voltfast",
+          "Zorvolex"
+        ],
+        "acemetacin": [],
+        "ketorolac": [
+          "Toradol",
+          "Ketoral"
+        ],
+        "aceclofenac": [],
+        "piroxicam": [
+          "Feldene",
+          "Mobilis",
+          "Candyl",
+          "Candyl-D",
+          "Feldene-D",
+          "Mobilis D",
+          "Pirohexal-D"
+        ],
+        "lornoxicam": [],
+        "meloxicam": [
+          "Mobic",
+          "Movalis",
+          "Moxicam",
+          "Meloxibell",
+          "Agilocam",
+          "Melobic",
+          "Melox",
+          "Meloxiauro",
+          "Meloxibindo",
+          "Mobelox"
+        ],
+        "ketoprofen": [
+          "Orudis",
+          "Oruvail"
+        ],
+        "flurbiprofen": [],
+        "dexketoprofen": [],
+        "mefenamic acid": [
+          "Ponstan",
+          "Femin",
+          "Mefic",
+          "Menamic"
+        ],
+        "nabumetone": [
+          "Relifex"
+        ]
+      },
+      "note": "Tablets, capsules, liquids, suppositories and injections count. Exclude locally acting skin, eye and throat products, including Voltaren Emulgel, Ocufen eye drops and Strepfen Intensive lozenges. This group lists no systemic brand for phenylbutazone, acemetacin, aceclofenac, lornoxicam, flurbiprofen or dexketoprofen. Check the ingredient and form. Indomethacin is an older spelling of indometacin. Arthrotec is diclofenac with misoprostol. Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "B",
+      "name": "Ibuprofen and naproxen, listed only above a limit",
+      "ingredients": [
+        "ibuprofen",
+        "naproxen"
+      ],
+      "brands": {
+        "ibuprofen": [
+          "Nurofen",
+          "Advil",
+          "Brufen",
+          "Rafen",
+          "Nurofen Plus",
+          "Panafen Plus",
+          "Nuromol",
+          "Maxigesic",
+          "Act-3",
+          "Advil 12 Hour",
+          "Advil Childrens Pain and Fever 2 to 7 Years",
+          "Advil Childrens Pain and Fever 7 to 12 Years",
+          "Advil Childrens Pain and Fever Relief 2 to 12 Years",
+          "Advil Double Strength",
+          "Advil Double Strength Caplets",
+          "Advil Double Strength Liquid Capsules",
+          "Advil Infants Pain and Fever Relief 3 Months to 2 Years",
+          "Advil Mini Caps",
+          "Advil Rapid Release",
+          "Brufen Pain",
+          "Brufen Syrup",
+          "Bugesic",
+          "Butafen",
+          "Butalgin",
+          "Fenpaed",
+          "Fenpaed Double Strength",
+          "Iprofen",
+          "Nurofen Back Pain",
+          "Nurofen Caplet",
+          "Nurofen Double Strength",
+          "Nurofen Liquid Capsule",
+          "Nurofen Meltlets",
+          "Nurofen Migraine Pain",
+          "Nurofen Period Pain",
+          "Nurofen Quickzorb",
+          "Nurofen Regular",
+          "Nurofen Tension Headache",
+          "Nurofen Zavance",
+          "Nurofen Zavance Liquid Capsules",
+          "Nurofen for Children 1 to 5 Years",
+          "Nurofen for Children 3 Months to 5 Years",
+          "Nurofen for Children 5 to 12 Years",
+          "Nurofen for Children 7+ Years",
+          "Nurofen for Children Baby 3+ Months",
+          "Nurofen for Children Infant Drops",
+          "Nurofen for Children Meltlet",
+          "Panafen IB",
+          "Panafen IB Mini Cap",
+          "Proven",
+          "Tri-Profen",
+          "Mersynofen"
+        ],
+        "naproxen": [
+          "Naprosyn",
+          "Naprosyn SR",
+          "Anaprox",
+          "Inza",
+          "Proxen SR",
+          "Naprogesic",
+          "Aleve",
+          "Vimovo",
+          "Aleve 24 Hour",
+          "Crysanal",
+          "Femme-Free",
+          "Naprofem",
+          "Naprosyn SR 1000",
+          "Nurolasts Period Pain",
+          "Proxen"
+        ]
+      },
+      "note": "The limit is a daily dose above 1200 mg for ibuprofen or above 500 mg for naproxen, or use for more than one week. Nurofen Plus and Panafen Plus are ibuprofen with codeine. Nuromol, Maxigesic and Mersynofen are ibuprofen with paracetamol. Vimovo is naproxen with esomeprazole. Skin gels and creams do not count."
+    }
+  ],
+  "rule_for_models": "For a person aged 65 or older, flag one systemic Group A supply. Exclude local skin, eye and throat products. For systemic Group B, flag ibuprofen above 1200 mg a day, naproxen above 500 mg a day, or either for more than seven consecutive days. Count only the NSAID in a combination. For naproxen sodium, 275 mg equals 250 mg naproxen and 550 mg equals 500 mg. Calculate the daily dose from strength and directions. Use a stated course length, or divide quantity by daily units only for a fixed schedule. Join overlapping or consecutive days of the same medicine and count each day once. For as-needed use, a stated maximum at or below a limit rules out that route. If neither limit is known to be exceeded but unclear use or a gap could change the result, report only a possible finding and ask how much was taken and on which days. If the supply otherwise qualifies and age is unknown, report only a possible finding and ask whether the person is 65 or older.",
+  "cannot_be_seen": "Why the medicine was started, kidney function, past stomach ulcer or bleeding, blood pressure and heart disease. Also how often it is really taken, medicines bought without a prescription, and hospital supplies.",
+  "ask_the_gp": "Whether the anti-inflammatory is still needed, whether paracetamol or a lower-risk option could replace it, and whether stomach protection is in place.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

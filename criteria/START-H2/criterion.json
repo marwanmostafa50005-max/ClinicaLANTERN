@@ -1,0 +1,183 @@
+{
+  "id": "START-H2",
+  "label": "START H2: bone protection with long-term steroid tablets",
+  "family": "STOPP_START",
+  "title": "Bone protection missing or incomplete with long-term systemic corticosteroids",
+  "statement": "Bisphosphonates and vitamin D and calcium in patients taking long-term systemic corticosteroid therapy for prevention of steroid-induced osteoporosis.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Long-term systemic steroid use increases fracture risk. Review the steroid dose and duration, fracture risk, dietary calcium, vitamin D status and current bone protection to see whether additional treatment is appropriate.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Systemic corticosteroids taken by mouth or systemic injection",
+      "ingredients": [
+        "prednisolone",
+        "prednisone",
+        "methylprednisolone",
+        "dexamethasone",
+        "hydrocortisone",
+        "cortisone acetate"
+      ],
+      "brands": {
+        "prednisolone": [
+          "Predsolone",
+          "Panafcortelone",
+          "Solone",
+          "Redipred",
+          "PredMix"
+        ],
+        "prednisone": [
+          "Panafcort",
+          "Predsone",
+          "Sone"
+        ],
+        "methylprednisolone": [
+          "Medrol",
+          "Depo-Medrol",
+          "Solu-Medrol"
+        ],
+        "dexamethasone": [
+          "Dexmethsone"
+        ],
+        "hydrocortisone": [
+          "Hysone",
+          "Cortef",
+          "Alkindi",
+          "Solu-Cortef"
+        ],
+        "cortisone acetate": [
+          "Cortate"
+        ]
+      },
+      "note": "The long-term steroid that starts the rule. Creams, inhalers, nasal sprays and eye drops do not count. Count oral liquids. For injections, establish a systemic route. A local joint or soft-tissue injection does not count. If the route is unclear, confirm it before counting. Exclude skin ointments, ear drops and rectal preparations, including rectal Predsol."
+    },
+    {
+      "key": "B",
+      "name": "Bisphosphonates",
+      "ingredients": [
+        "alendronate",
+        "risedronate",
+        "zoledronic acid",
+        "ibandronate",
+        "risedronic acid"
+      ],
+      "brands": {
+        "alendronate": [
+          "Fosamax",
+          "Fosamax Plus (alendronate with colecalciferol)",
+          "Adronat",
+          "Adronat Once Weekly",
+          "Alendraccord",
+          "Alendro",
+          "Alendro Once Weekly",
+          "Alendrobell",
+          "Alendrocor",
+          "Binosto",
+          "Densate",
+          "Fonat",
+          "Fosamax Once Weekly",
+          "Ossmax"
+        ],
+        "risedronate": [
+          "Actonel",
+          "Actonel Combi",
+          "Actonel Combi D"
+        ],
+        "zoledronic acid": [
+          "Aclasta",
+          "Aclonat",
+          "Amonzitra",
+          "Astazol",
+          "Azolast",
+          "Bonezol",
+          "Deztron",
+          "Osteovan",
+          "Ostira",
+          "Zolaccord",
+          "Zoledasta"
+        ],
+        "ibandronate": [
+          "Bonviva"
+        ],
+        "risedronic acid": [
+          "Actonel",
+          "Actonel Combi",
+          "Actonel Combi D"
+        ]
+      },
+      "note": "Medicines that meet this criterion. Fosamax Plus also counts as vitamin D. Actonel Combi also supplies calcium. Actonel Combi D supplies calcium and colecalciferol as well. For zoledronic acid, confirm a 5 mg osteoporosis infusion. A 4 mg oncology dose or a brand name alone cannot establish osteoporosis protection."
+    },
+    {
+      "key": "C",
+      "name": "Vitamin D",
+      "ingredients": [
+        "colecalciferol",
+        "calcifediol"
+      ],
+      "brands": {
+        "colecalciferol": [
+          "Ostelin",
+          "Ostelin Vitamin D & Calcium (colecalciferol with calcium)",
+          "Caltrate Plus (calcium with colecalciferol)",
+          "Fosamax Plus (colecalciferol with alendronate)",
+          "Citracal Plus D",
+          "Citracal + D",
+          "Actonel Combi D",
+          "OsteVit-D"
+        ],
+        "calcifediol": [
+          "Vistella"
+        ]
+      },
+      "note": "Medicines that meet this criterion. Active vitamin D medicines such as calcitriol are not counted here. For Citracal Plus D, confirm that the presentation contains colecalciferol before counting vitamin D. Count calcifediol, including calcifediol monohydrate, when supplied as vitamin D replacement."
+    },
+    {
+      "key": "D",
+      "name": "Calcium",
+      "ingredients": [
+        "calcium carbonate",
+        "calcium citrate"
+      ],
+      "brands": {
+        "calcium carbonate": [
+          "Caltrate",
+          "Caltrate Plus (calcium with colecalciferol)",
+          "Ostelin Vitamin D & Calcium (calcium with colecalciferol)",
+          "Bonecal",
+          "Cal Sup",
+          "Cal-500",
+          "Cal-600",
+          "Cal-Care",
+          "Calci-Tab",
+          "Calcia-1000",
+          "Reddycal",
+          "Actonel Combi",
+          "Actonel Combi D"
+        ],
+        "calcium citrate": [
+          "Citracal",
+          "Citracal Calcium Citrate",
+          "Citracal Plus D",
+          "Citracal + D"
+        ]
+      },
+      "note": "Medicines that meet this criterion. Many calcium products are bought without a prescription. Count the confirmed calcium citrate presentation. Plain Citracal alone does not establish vitamin D supply. Count calcium used as a supplement. A calcium carbonate antacid directed only as needed for heartburn or indigestion does not establish supplementation. If the purpose is unclear, ask before crediting calcium protection."
+    }
+  ],
+  "rule_for_models": "Confirm the person is 65 or older. Use Group A supply dates, quantities, scheduled directions and documented systemic injection schedules to count distinct treatment days. Join supplies when their covered periods overlap, run continuously or resume within 15 days after the previous period ends. Count each covered day once and leave uncovered days out. When coverage cannot be calculated, use supply dates no more than 45 days apart to identify a possible course. Spacing alone does not prove covered days. At 90 or more covered days, flag and name any missing bisphosphonate (B), vitamin D (C) or calcium (D) from the first steroid supply through 60 days after the last or the end of the record, whichever comes first (count a documented 5 mg zoledronic acid osteoporosis infusion for 12 months even if it predates the first steroid supply, and recheck protection from its due date if steroids continue). Count calcium used as a supplement. A calcium carbonate antacid used only as needed for heartburn or indigestion does not count. If its purpose is unclear, ask before crediting calcium. If eligible supplies span at least 90 days but the daily dose, taper or duration is unclear and protection appears missing, report only a possible finding and ask how much steroid was taken, for how long and what bone protection was used.",
+  "cannot_be_seen": "Why the steroid is taken and any dose changes between supplies. Also calcium and vitamin D bought without a prescription, which are often not in the record, bone medicines supplied by a hospital or another pharmacy, bone density results, a past fracture, and kidney function, which can limit a bisphosphonate.",
+  "ask_the_gp": "A review of bone protection for the long-term steroid, including a bisphosphonate, vitamin D and calcium, or the reason it is not needed.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

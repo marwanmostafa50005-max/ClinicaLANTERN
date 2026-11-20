@@ -1,0 +1,167 @@
+{
+  "id": "EU7-F65",
+  "label": "EU(7)-PIM: newer antipsychotics",
+  "family": "EU7",
+  "title": "Newer-type antipsychotic in an older person",
+  "statement": "Older people should avoid these newer antipsychotic medicines: sertindole, ziprasidone, clozapine and aripiprazole. Olanzapine is on the list when the dose is above 10 mg a day. Risperidone is on the list when it is used for more than 6 weeks. The listed risks include falls, low blood pressure, heart rhythm changes, sedation and, in people with dementia, a higher risk of death. If one of these medicines must be used, the list advises the lowest effective dose for the shortest time.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Statement written in plain words by ClinicaLANTERN from the published table row or rows, because part of the original dose text is from a third-party database (Micromedex) whose rights are not settled. It is not the authors' wording. Not endorsed by the source authors."
+  },
+  "plain_summary": "Some newer antipsychotics can cause falls, low blood pressure and heart rhythm changes in people aged 65 or over. Olanzapine counts above 10 mg a day and risperidone counts after 6 weeks. Australian guidance differs: oral risperidone is approved for up to 12 weeks in moderate to severe Alzheimer dementia for psychotic symptoms or for persistent agitation or aggression after non-drug measures have failed (Risperdal product information, 2026). A long-acting injection is counted from what was supplied and how it was prescribed; no injection record is needed.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Newer antipsychotics to avoid at any dose",
+      "ingredients": [
+        "sertindole",
+        "ziprasidone",
+        "clozapine",
+        "aripiprazole"
+      ],
+      "brands": {
+        "sertindole": [],
+        "ziprasidone": [
+          "Zeldox",
+          "Ziprox"
+        ],
+        "clozapine": [
+          "Clozaril",
+          "Clopine",
+          "Closyn",
+          "Clozaril ODT",
+          "Clozitor",
+          "Versacloz"
+        ],
+        "aripiprazole": [
+          "Abilify",
+          "Abilify ODT",
+          "Abipra",
+          "Abyraz",
+          "Aprazole",
+          "Aripic",
+          "Aripra",
+          "Arizole",
+          "Abilify Maintena",
+          "Abilify Asimtufii",
+          "Aripena"
+        ]
+      },
+      "note": "Sertindole has no Australian brand listed. Depot injections such as Abilify Maintena and Abilify Asimtufii count."
+    },
+    {
+      "key": "B",
+      "name": "Olanzapine, only above 10 mg a day",
+      "ingredients": [
+        "olanzapine",
+        "olanzapine pamoate"
+      ],
+      "brands": {
+        "olanzapine": [
+          "Zyprexa",
+          "Zyprexa Zydis",
+          "Aprolan",
+          "Aprolan ODT",
+          "Lanez",
+          "Lanez ODT",
+          "Lanzek",
+          "Lanzek Zydis",
+          "Lonza",
+          "Lonza ODT",
+          "Lyprosia",
+          "Lyprosia ODT",
+          "Olancor",
+          "Olanza",
+          "Olanzaccord",
+          "Olanzacor",
+          "Oprexa",
+          "Ozin",
+          "Ozin ODT",
+          "Prolanza",
+          "Prolanza ODT",
+          "Pryzex",
+          "Pryzex ODT",
+          "Tolaze ODT",
+          "Tolazine ODT",
+          "Torapine ODT",
+          "Torrenia ODT",
+          "Zylap",
+          "Zylap ODT",
+          "Zylapine",
+          "Zylapine ODT",
+          "Zypine",
+          "Zypine ODT"
+        ],
+        "olanzapine pamoate": [
+          "Zyprexa Relprevv"
+        ]
+      },
+      "note": "Olanzapine counts only when the daily dose is above 10 mg. Exactly 10 mg a day does not count. Zyprexa Relprevv contains olanzapine pamoate monohydrate and is a long-acting injection. Use the prescribed dose per injection. Never divide the vial strength by the days between supplies. In the Australian PI Table 1, 300 mg every 2 weeks has an oral target above 10 mg a day in either phase. A dose of 210 mg every 2 weeks or 405 mg every 4 weeks has a target of 10 at the start and 15 in maintenance after 2 months. Use a stated phase or a clearly continuing prescribed course that extends beyond 2 months without a break or restart. Use a known treatment start or a sufficiently long run of supplies. The first visible supply alone does not establish initiation. If the phase could change the result and is unclear, report a possible finding. In Table 1, 150 mg every 2 weeks or 300 mg every 4 weeks has a maintenance target of 10 mg a day and does not exceed 10 mg a day in any phase, including at initiation or when the phase is not stated. These regimens alone give no signal of an excess. For 150 mg every 4 weeks, the PI gives a lower starting dose for some older people and gives no oral target. This regimen alone gives no finding. If the regimen falls outside the table or conflicts with its recorded phase, do not assign a table value. Use a clearly linked current oral target if documented, unless it conflicts with the applicable table row across the 10 mg threshold or claims a target above 10 mg a day for a regimen that delivers less drug per day than a 10 mg a day table regimen (for example, 300 mg every calendar month). In any such conflict, keep the finding possible until the discrepancy is resolved. Otherwise report a possible finding only when the record leaves a higher target plausible. A previous tablet supply alone cannot settle the depot target."
+    },
+    {
+      "key": "C",
+      "name": "Risperidone, only after 6 weeks",
+      "ingredients": [
+        "risperidone"
+      ],
+      "brands": {
+        "risperidone": [
+          "Risperdal",
+          "Risperdal Quicklet",
+          "Rispa",
+          "Rixadone",
+          "Risperdal Consta",
+          "Ozidal",
+          "Resdone",
+          "Respaz",
+          "Risdone",
+          "Rispaccord",
+          "Rispaccord-0.5",
+          "Risperibell",
+          "Rispericor",
+          "Rispericor-0.5",
+          "Risperisan",
+          "Rispernia",
+          "Sperid",
+          "Uzedy",
+          "Risvan"
+        ]
+      },
+      "note": "Count oral risperidone when supplies cover more than 42 continuous days. Risperdal Quicklet is a historical oral brand. One prescribed dose of Risperdal Consta is scheduled every 14 days. One prescribed dose of Risvan is scheduled every 28 days. Use these fixed intervals when the product and number of doses are clear and the directions agree or omit the interval. If the directions conflict, leave the interval uncertain. For Uzedy use the interval written for that prescription. Strength alone cannot set it. If the written interval is missing, leave the interval uncertain. Count calendar months as months. Count whole doses issued. Exclude unused repeats, duplicates and replacements of unused stock. Join supplies due in the same course. Allocate a clearly identified early refill to the next due dose. Count overlapping days once. A known uncovered day ends that run. Do not bridge a gap from an assumed outside supply or a drug release tail. Count oral and depot risperidone days together only if the record supports one uninterrupted prescribed course. Count actual oral risperidone supply where it contributes days. Do not add assumed oral cover, overlapping days or days on a different antipsychotic."
+    }
+  ],
+  "rule_for_models": "If the person is under 65, report no finding. If age is missing, ask for age only when a medicine meets or could meet its rule and report at most a possible finding. At age 65 or older, flag any Group A supply. For Group B olanzapine, flag more than 10 mg a day. For oral doses, multiply mg per tablet, wafer or mL by the amount per dose and the doses per day. Sum concurrent regular oral olanzapine supplies taken together. For Group C risperidone, flag more than 42 continuous covered days. Use quantities and directions for oral supplies. A gap ends the course. If oral olanzapine directions leave an excess possible, report a possible finding and name the missing daily dose. If a dated note or a confirmed daily dose for that course shows more than 10 mg a day, report the finding; if it shows 10 mg a day or less, clear only that course. For oral risperidone, ask for \"Length of the oral risperidone course under review\" only if the supplies and directions leave it unclear whether that course exceeded 42 days without a break. At age 65 or older, if the answer confirms more than 42 days without a break, cite the matching oral supply and the answer. An answer of 42 days or fewer clears only that course. A missing or Not known answer leaves a possible finding for that course. For depot olanzapine, use the prescribed injection dose and interval. Use the oral targets in the Group B note. Flag the supplied regimen if every applicable target is above 10 mg a day. If all are 10 mg a day or less and no concurrent regular oral olanzapine pushes the total above 10 mg a day, report no finding. When regular oral olanzapine is taken alongside depot olanzapine, add the daily oral dose to the depot oral target; if concurrent oral directions leave an excess possible, report a possible finding. If the missing dose, interval or phase could change the result, report a possible finding and say what is missing. For depot risperidone, count consecutive days supplied using the number of complete prescribed doses actually issued and the interval for that course. Use the intervals, overlap, exclusion and oral-plus-depot rules in the Group C note. Count the last dose for one full interval. A single dose counts if its written interval exceeds 42 days. A finding means that the dispensed course provides more than 42 continuous days as prescribed. Report no finding for 42 days or fewer. If the record could cross 42 days but leaves the number of doses, interval or continuity unclear, report a possible finding and name the missing detail. Use the planned start if recorded. Otherwise use the supply date to estimate coverage. Use a dated administration or clinic instruction when it resolves the timing, regimen or phase. Apply a dated hold, missed dose, restart or change to the affected course. Judge a depot course as it was supplied and prescribed, on the same footing as tablets. A pharmacy holds no record of the injection: do not wait for one, and do not make a finding uncertain because there is none. Assess each depot course separately. Do not apply an answer about an oral course to a depot course. For an oral olanzapine finding that depends on more than one regular regimen taken together, cite one supply of each contributing regimen. For each depot finding or possible finding, list first a matching supply from each regimen needed for the decision, then any earlier supply needed to establish the phase, then each dated instruction or observation needed to establish the dose, oral target, interval, phase or continuity.",
+  "cannot_be_seen": "Why the medicine was started, whether the person has dementia or a psychotic illness, and how much is really taken. Also medicines supplied by a hospital or another pharmacy, and treatment before the record starts. The dispensing record does not show whether or when each depot injection was given.",
+  "ask_the_gp": "A review of whether the antipsychotic is still needed, whether a lower dose or a shorter course is possible, and a check of falls risk, blood pressure and heart rhythm. Where a psychiatrist or a mental health service manages the medicine, for example clozapine or a long-acting injection, the review is one to raise with them.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Length of the oral risperidone course under review",
+      "meets": "The oral risperidone course under review lasted more than 42 days without a break. A course of 42 days or fewer is within the limit. If its length is unknown, keep a possible finding for that course.",
+      "options": [
+        {
+          "words": "More than 42 days without a break",
+          "effect": "meets"
+        },
+        {
+          "words": "42 days or fewer without a break",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

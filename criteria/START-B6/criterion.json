@@ -1,0 +1,172 @@
+{
+  "id": "START-B6",
+  "label": "START B6",
+  "family": "STOPP_START",
+  "title": "Beta-blocker missing in heart failure with reduced ejection fraction",
+  "statement": "Cardio-selective beta-blocker (bisoprolol, nebivolol, metoprolol or carvedilol) for stable heart failure with reduced ejection fraction.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A person with stable heart failure and a weak pumping heart (reduced ejection fraction) should usually take a heart-protecting beta-blocker such as bisoprolol, nebivolol, extended-release metoprolol succinate or carvedilol. This check looks for a person with that condition who is not being supplied one. During documented decompensation, this check does not raise a routine initiation finding.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Medicines that meet this criterion: beta-blockers named in the criterion",
+      "ingredients": [
+        "bisoprolol",
+        "nebivolol",
+        "metoprolol succinate",
+        "carvedilol"
+      ],
+      "brands": {
+        "bisoprolol": [
+          "Bicor",
+          "Beprol",
+          "Bicard",
+          "Biso",
+          "Bispro"
+        ],
+        "nebivolol": [
+          "Nebilet",
+          "Lobivon",
+          "Lobivon Composite Starter Titration Pack",
+          "Nebaloc",
+          "Nebilet Composite Starter Titration Pack",
+          "Nepiten"
+        ],
+        "carvedilol": [
+          "Dilatrend",
+          "Dicarz",
+          "Carvidol",
+          "Dilasig",
+          "Kredex",
+          "Vedilol",
+          "Volirop"
+        ],
+        "metoprolol succinate": [
+          "Toprol-XL",
+          "Metrol-XL",
+          "Minax XL",
+          "Tobeta-XL",
+          "Topreloc-XL"
+        ]
+      },
+      "note": "For metoprolol, count controlled-release or extended-release succinate. For tablets, Betaloc, Minax, Metrol and Lopresor without a release suffix are names for metoprolol tartrate. Check the full product name and form, including any CR or XL suffix. Immediate-release tartrate alone leaves the heart failure treatment review open. Ask about the formulation if the record says only metoprolol and no other qualifying beta-blocker is recorded. Report only a possible finding until the formulation is confirmed. For someone already taking tartrate, request a review of the formulation and avoid suggesting a second beta-blocker. Carvedilol is listed in the statement, so it counts. Other beta-blockers such as atenolol, propranolol and sotalol do not count. Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "B",
+      "name": "Medicines that imply heart failure",
+      "ingredients": [
+        "sacubitril with valsartan",
+        "ivabradine",
+        "sacubitril + valsartan"
+      ],
+      "brands": {
+        "sacubitril with valsartan": [
+          "Entresto"
+        ],
+        "ivabradine": [
+          "Coralan",
+          "Caranor",
+          "Cobadine",
+          "Coralide"
+        ],
+        "sacubitril + valsartan": [
+          "Entresto"
+        ]
+      },
+      "note": "Sacubitril with valsartan (Entresto) is a combination product. Ivabradine is used for chronic heart failure. A supply of either one suggests heart failure when the record holds no line about it, but it is not proof."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Stable heart failure with reduced ejection fraction",
+      "meets": "First confirm current clinical stability. Reduced function must also be documented in the heart failure diagnosis or shown by a left ventricular ejection fraction of 40% or less in a person with confirmed heart failure. If function has improved above 40%, check the prior diagnosis and treatment history. If stability or the relevant history remains uncertain, use Not known.",
+      "options": [
+        {
+          "words": "Heart failure with reduced ejection fraction is stable now",
+          "effect": "meets"
+        },
+        {
+          "words": "Heart failure is currently decompensated",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Only mildly reduced or preserved function, with no previous reduced function",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Heart failure is ruled out",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Metoprolol formulation in the review period",
+      "meets": "Use the full product name, form and directions first. If an in-period supply is ambiguous and no other qualifying medicine is identified, confirm whether any controlled-release or extended-release succinate was supplied. Choose tartrate only if every in-period metoprolol supply is known to be immediate-release tartrate.",
+      "options": [
+        {
+          "words": "Controlled-release or extended-release metoprolol succinate",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Immediate-release metoprolol tartrate only",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "result",
+      "what": "Left ventricular ejection fraction",
+      "meets": "Enter the measured left ventricular ejection fraction in percent and its measurement date if known. A value of 40% or less supports reduced function in a person with confirmed heart failure. A percentage alone cannot establish heart failure."
+    },
+    {
+      "kind": "result",
+      "what": "Previous left ventricular ejection fraction",
+      "meets": "Enter the earlier measured left ventricular ejection fraction in percent and its measurement date if known. If the latest value is above 40%, a previous value of 40% or less with confirmed heart failure prompts review of the treatment history. Unknown or undated measurements cannot establish prior reduced function unless their order is documented."
+    },
+    {
+      "kind": "observation",
+      "what": "Qualifying heart failure beta-blocker supplied elsewhere in the review period",
+      "meets": "Ask only during a possible review when outside treatment needs clarification. A confirmed supply in the same six months of bisoprolol, nebivolol, carvedilol or controlled-release or extended-release metoprolol succinate closes the omission.",
+      "options": [
+        {
+          "words": "Qualifying outside supply confirmed",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "No qualifying outside supply",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this criterion only to people aged 65 years or older. If age is unknown, confirm it before reporting a finding. Check for stable heart failure with reduced ejection fraction when the last six months show no bisoprolol, nebivolol, carvedilol or controlled-release or extended-release metoprolol succinate, excluding documented decompensation. When a qualifying supply is present only before the six-month period, cite the most recent such supply to show its date. Cite the diagnosis and stability to confirm a finding, requesting formulation review for tartrate alone, but report only a possible finding if the metoprolol formulation or clinical stability needs confirmation or if sacubitril with valsartan (Entresto) or ivabradine suggests a missing diagnosis. Cite a supporting supply for that possible finding. When the course continues into the six-month review period, cite a supply within it. If a qualifying Group A medicine was supplied in the last six months, report no omission. For a possible finding, ask whether the person has heart failure and whether it has been stable. Read the full product name, form and directions first. If an in-period metoprolol supply is still ambiguous and no qualifying beta-blocker is identified, keep the finding possible and name \"Metoprolol formulation in the review period\". Any confirmed qualifying succinate supply in the period closes the omission. Tartrate alone prompts formulation review. Unknown formulation leaves the finding possible. If an outside supply needs clarification during an otherwise possible review, name \"Qualifying heart failure beta-blocker supplied elsewhere in the review period\". A confirmed outside supply of a qualifying medicine in the same six months closes the omission. If none was supplied, assess the remaining facts. An unknown answer leaves outside treatment unresolved. For confirmed heart failure with an uncertain subtype, use existing evidence first. If the latest measurement could settle a possible finding, name \"Left ventricular ejection fraction\". If it is above 40%, check the earlier diagnosis and dated measurements for prior reduced function. If an earlier value could change this review and is missing, name \"Previous left ventricular ejection fraction\". A documented prior reduced-function diagnosis or a prior value of 40% or less with confirmed heart failure prompts review of the treatment history. Unknown history or uncertain date order leaves this possible. Give no finding for isolated mildly reduced or preserved function.",
+  "cannot_be_seen": "Whether the heart failure is stable, the ejection fraction when the record has no result, a slow heart rate, low blood pressure, asthma or other reasons a beta-blocker was stopped or never started, and medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "If the patient already takes immediate-release metoprolol tartrate, could you review whether a change of formulation is appropriate? Otherwise, could you review whether bisoprolol, nebivolol, extended-release metoprolol succinate or carvedilol is suitable for this heart failure, including any reason to avoid treatment? If the record does not show it, please also confirm the heart failure diagnosis and the ejection fraction.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

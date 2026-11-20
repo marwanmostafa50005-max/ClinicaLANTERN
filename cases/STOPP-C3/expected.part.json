@@ -1,0 +1,62 @@
+[
+  {
+    "file": "STOPP-C3/pos-fact.csv",
+    "kind": "positive",
+    "about": "The supplies show more than 28 consecutive days of aspirin and clopidogrel after the stroke, and the stroke clinic confirms secondary prevention and excludes all three exceptions.",
+    "findings": [
+      {
+        "criterion": "STOPP-C3",
+        "must_cite": [
+          [
+            "L007"
+          ],
+          [
+            "L008"
+          ],
+          [
+            "L011"
+          ],
+          [
+            "L012"
+          ],
+          [
+            "L001"
+          ],
+          [
+            "L045"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-C3/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: supplies of a daily aspirin tablet fraction and clopidogrel support more than 28 consecutive days together, but the reason for dual treatment and the exceptions are unknown.",
+    "findings": [
+      {
+        "criterion": "STOPP-C3",
+        "must_cite": [
+          [
+            "L005"
+          ],
+          [
+            "L006"
+          ],
+          [
+            "L009"
+          ],
+          [
+            "L010"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-C3/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Cartia (aspirin) and Plavix (clopidogrel) are both supplied eight times after a stroke, but a coronary stent was put in on 10 February 2026, within the previous 12 months, so there is no finding.",
+    "findings": []
+  }
+]

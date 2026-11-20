@@ -1,0 +1,49 @@
+{
+  "id": "EU7-F35",
+  "label": "EU(7)-PIM: nicardipine and nifedipine",
+  "family": "EU7",
+  "title": "Nicardipine and nifedipine",
+  "statement": "The 2015 list flags nicardipine for a fall in blood pressure on standing, heart attack and stroke. It flags immediate-release and sustained-release nifedipine for low blood pressure, heart attack and increased mortality.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Reworded in plain words by ClinicaLANTERN from the source table rows. Not endorsed by the source authors."
+  },
+  "plain_summary": "The European list flags both medicines for low blood pressure and heart attack. It also cites stroke for nicardipine and increased mortality for nifedipine. Australian product information lists extended-release nifedipine for prevention of chronic stable angina, and the ACTION trial found no significant increase in deaths with long-acting nifedipine in that setting (APO-Nifedipine XR, section 4.1, 2026 and ACTION, 2004).",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Nicardipine and nifedipine",
+      "ingredients": [
+        "nicardipine",
+        "nifedipine"
+      ],
+      "brands": {
+        "nicardipine": [],
+        "nifedipine": [
+          "Adalat",
+          "Adalat Oros",
+          "Addos XR",
+          "Nyefax",
+          "Nifehexal",
+          "Adefin",
+          "Adefin XL",
+          "Nypine"
+        ]
+      },
+      "note": "Immediate-release and sustained-release nifedipine both count. Nifedipine in combination with another medicine also counts. Amlodipine, felodipine and other calcium channel blockers are not in this group. No Australian brand is listed for nicardipine. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when the person is aged 65 or older and at least one Group A medicine (nicardipine or nifedipine for systemic treatment, including either oral nifedipine release form, but excluding nifedipine creams and ointments applied for local effect) is supplied: One supply is enough; repeated supplies make it stronger. If age is missing and the supply otherwise qualifies, report only a possible finding and ask the pharmacist to confirm whether the person is 65 or older. A recorded age below 65 gives no finding.",
+  "cannot_be_seen": "Why the medicine was prescribed (for example high blood pressure, angina or Raynaud's), the person's blood pressure on standing, and whether they have had dizziness or falls.",
+  "ask_the_gp": "Whether another blood pressure or angina medicine could replace it, taking into account the reason it was started and the person's blood pressure on standing.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

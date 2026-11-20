@@ -1,0 +1,41 @@
+[
+  {
+    "file": "KHAWAGI-G064/pos-fact.csv",
+    "kind": "positive",
+    "about": "Moderate hypertension was documented before supply and the patient reports still taking atomoxetine.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G064",
+        "must_cite": [
+          [
+            "L046"
+          ],
+          [
+            "L045"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G064/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about hypertension despite the qualifying atomoxetine supply.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G064",
+        "must_cite": [
+          [
+            "L016"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G064/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The history contains atomoxetine and an explicit assessment ruling out hypertension.",
+    "findings": []
+  }
+]

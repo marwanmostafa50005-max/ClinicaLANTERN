@@ -1,0 +1,115 @@
+{
+  "id": "BANSAL-S20",
+  "label": "Bansal S20",
+  "family": "BANSAL",
+  "title": "Persistent tramadol, buprenorphine or oxycodone with ventricular tachycardia",
+  "statement": "Persistent prescription of tramadol, buprenorphine, or oxycodone to a patient with a medical history of ventricular tachycardia [100, 101]",
+  "statement_origin": "published",
+  "source": {
+    "document": "Bansal N, et al. Development of prescribing indicators related to opioid-related harm in patients with chronic pain in primary care. BMC Med 2024;22:5, Tables 3-4",
+    "citation": "Bansal N, Campbell SM, Lin C-Y, Ashcroft DM, Chen L-C. Development of prescribing indicators related to opioid-related harm in patients with chronic pain in primary care - a modified e-Delphi study. BMC Med 2024;22:5. doi:10.1186/s12916-023-03213-x",
+    "doi": "10.1186/s12916-023-03213-x",
+    "url": "https://doi.org/10.1186/s12916-023-03213-x",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Bansal N, Campbell SM, Lin C-Y, Ashcroft DM, Chen L-C. Development of prescribing indicators related to opioid-related harm in patients with chronic pain in primary care - a modified e-Delphi study. BMC Med 2024;22:5. doi:10.1186/s12916-023-03213-x",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.2 candidate repairs and adopted conventions merged with attribution). Not endorsed by the source authors."
+  },
+  "plain_summary": "Tramadol, buprenorphine and oxycodone can affect the heart rhythm, which matters in a person who has had ventricular tachycardia.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Tramadol, buprenorphine or oxycodone",
+      "ingredients": [
+        "tramadol",
+        "buprenorphine",
+        "oxycodone"
+      ],
+      "brands": {
+        "tramadol": [
+          "Tramal",
+          "Durotram",
+          "Tramal SR",
+          "Durotram XR",
+          "Iptramol",
+          "Lodam",
+          "Lodam SR",
+          "Tramahexal",
+          "Tramahexal SR",
+          "Tramal Drops",
+          "Tramedo",
+          "Tramedo SR",
+          "Zydol",
+          "Zydol SR"
+        ],
+        "buprenorphine": [
+          "Norspan",
+          "Temgesic",
+          "B-Patch",
+          "Bupredermal"
+        ],
+        "oxycodone": [
+          "OxyContin",
+          "Endone",
+          "OxyNorm",
+          "Targin (oxycodone with naloxone)",
+          "Endone XR",
+          "Novacodone",
+          "Oxycodor",
+          "Oxycone",
+          "Oxylenus",
+          "Oxylieve MR",
+          "Oxyndone",
+          "Xedone"
+        ]
+      },
+      "note": "Count buprenorphine supplied for pain, including skin patches and Temgesic sublingual tablets. Exclude supplies for opioid dependence. If the product or reason for use is unclear, report at most a possible finding and ask whether the supply was for pain."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Ventricular tachycardia",
+      "meets": "A history of ventricular tachycardia recorded at any time",
+      "options": [
+        {
+          "words": "Diagnosed with ventricular tachycardia at some point",
+          "effect": "meets"
+        },
+        {
+          "words": "Clinical history confirms no previous ventricular tachycardia",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for the qualifying opioid course",
+      "meets": "Use the answer for the opioid course named in the finding. Chronic non-cancer pain meets the indication requirement. Cancer pain, end-of-life care or another indication excludes that course. If the reason is unknown or the answer cannot be linked to this course, keep it possible unless another requirement is ruled out.",
+      "options": [
+        {
+          "words": "Chronic non-cancer pain",
+          "effect": "meets"
+        },
+        {
+          "words": "Cancer pain, end-of-life care or another indication",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "For a patient over 18, confirm only when at least two distinct prescriptions for tramadol, buprenorphine or oxycodone for chronic non-cancer pain support an ongoing course of at least three calendar months and the history confirms ventricular tachycardia at any time. Cite the opioid supplies, their indication and the rhythm history. Assess cover from dates, quantities and directions including the final supply. Exclude dependence treatment, cancer pain and end-of-life care. An explicit history of no previous ventricular tachycardia excludes the finding unless a previous episode is documented. A normal rhythm test, another rhythm diagnosis or an unnamed fast rhythm alone leaves the history unknown. If any requirement is ruled out, report no finding. If the course could qualify but age, indication, duration or rhythm history is unclear, report a possible finding and ask for the missing information. If the indication could change the finding, name the opioid and dates of the course and ask for \"Reason for the qualifying opioid course\". Use the answer only for that course. If the reason is unknown or the answer could refer to another course, report only a possible finding unless another requirement is ruled out.",
+  "cannot_be_seen": "Heart rhythm problems that were never recorded, the type and cause of the tachycardia, heart medicines supplied elsewhere and device treatment such as an implanted defibrillator unless documented, and whether the pain is cancer pain or end of life care.",
+  "ask_the_gp": "Could you confirm any history of ventricular tachycardia if it is unclear, and review the suitability of this opioid and whether a rhythm check is needed?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

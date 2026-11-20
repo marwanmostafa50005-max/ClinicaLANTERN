@@ -1,0 +1,53 @@
+[
+  {
+    "file": "EU7-F46/pos-fact.csv",
+    "kind": "positive",
+    "about": "Protos (strontium ranelate) is supplied monthly from November 2025 to June 2026. A mobility line dated 7 January 2026 records the 82-year-old woman as bed-bound since a hip fracture, with no later return to mobility recorded. The evidence accepts L014 (28 nightly sachets dispensed on 28 December 2025, covering 7 January 2026) and the continued supplies from 28 January 2026 onward (L020, L024, L028, L033, L037, L041), paired with L018.",
+    "findings": [
+      {
+        "criterion": "EU7-F46",
+        "must_cite": [
+          [
+            "L014",
+            "L020",
+            "L024",
+            "L028",
+            "L033",
+            "L037",
+            "L041"
+          ],
+          [
+            "L018"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F46/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about \"Mobility during strontium ranelate treatment\", \"Increased venous thromboembolism risk in a person over 80\" or \"Creatinine clearance (unindexed, mL/min)\". Protos is supplied monthly from February to July 2026 to an 82-year-old woman, and only osteoporosis and a calcium result are recorded.",
+    "findings": [
+      {
+        "criterion": "EU7-F46",
+        "must_cite": [
+          [
+            "L005",
+            "L009",
+            "L014",
+            "L018",
+            "L022",
+            "L026",
+            "L030"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F46/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Protos is supplied to an 82-year-old woman, but she walks unaided, has a documented assessment excluding previous venous clots and current increased clot risk and has CrCl 68 mL/min, so none of the three finding routes is met.",
+    "findings": []
+  }
+]

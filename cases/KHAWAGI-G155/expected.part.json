@@ -1,0 +1,48 @@
+[
+  {
+    "file": "KHAWAGI-G155/pos-fact.csv",
+    "kind": "positive",
+    "about": "Only liver function tests older than 12 months are visible during ongoing carbamazepine treatment, so ask about outside results.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G155",
+        "must_cite": [
+          [
+            "L004"
+          ],
+          [
+            "L045"
+          ],
+          [
+            "L005"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G155/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record does not establish Date of the latest liver function tests at the latest sodium valproate supply.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G155",
+        "must_cite": [
+          [
+            "L003",
+            "L005"
+          ],
+          [
+            "L037"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G155/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The recent liver function results meet the documented three-month plan and the annual check.",
+    "findings": []
+  }
+]

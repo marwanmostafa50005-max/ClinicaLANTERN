@@ -1,0 +1,64 @@
+[
+  {
+    "file": "EU7-F27/pos-brand.csv",
+    "kind": "positive",
+    "about": "Physiotens (moxonidine), by brand name only, is supplied nine times from February to October 2026 to a 74-year-old woman.",
+    "findings": [
+      {
+        "criterion": "EU7-F27",
+        "must_cite": [
+          ["L005", "L009", "L012", "L015", "L019", "L022", "L026", "L029", "L033"]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F27/pos-buried.csv",
+    "kind": "positive",
+    "about": "Hydopa (methyldopa) is supplied four times from December 2025 to May 2026 to a 68-year-old man, in the middle of a 14-month history.",
+    "findings": [
+      {
+        "criterion": "EU7-F27",
+        "must_cite": [
+          ["L027", "L033", "L042", "L051"]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F27/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The only similar medicine is apraclonidine (Iopidine) eye drops for glaucoma, which is not clonidine and is not a centrally acting blood pressure medicine, so the criterion is not met.",
+    "findings": []
+  },
+  {
+    "file": "EU7-F27/pos-pack-identified.csv",
+    "kind": "positive",
+    "about": "At age 65 the patient received a Normatens tablet recorded as moxonidine 200 micrograms.",
+    "findings": [
+      {
+        "criterion": "EU7-F27",
+        "must_cite": [
+          [
+            "L012"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F27/pos-pack-unidentified.csv",
+    "kind": "positive",
+    "about": "At age 65 the patient received a Normatens tablet, and the brand alone identifies moxonidine.",
+    "findings": [
+      {
+        "criterion": "EU7-F27",
+        "must_cite": [
+          [
+            "L012"
+          ]
+        ]
+      }
+    ]
+  }
+]

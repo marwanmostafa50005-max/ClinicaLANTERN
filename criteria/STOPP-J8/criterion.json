@@ -1,0 +1,173 @@
+{
+  "id": "STOPP-J8",
+  "label": "STOPP J8",
+  "family": "STOPP_START",
+  "title": "Oestrogen without a progestogen, uterus present",
+  "statement": "Systemic oestrogens without progestogens in patients with intact uterus (risk of endometrial cancer).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Oestrogen taken alone, without a progestogen, can cause cancer of the womb lining in a woman who still has her uterus.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Systemic oestrogens used alone",
+      "ingredients": [
+        "estradiol",
+        "conjugated oestrogens",
+        "conjugated estrogens"
+      ],
+      "brands": {
+        "estradiol": [
+          "Estrofem",
+          "Progynova",
+          "Zumenon",
+          "Estradot",
+          "Climara",
+          "Estrogel",
+          "Sandrena",
+          "Estraderm MX",
+          "Estramon"
+        ],
+        "conjugated oestrogens": [
+          "Premarin"
+        ],
+        "conjugated estrogens": [
+          "Premarin"
+        ]
+      },
+      "note": "Oral tablets, patches and skin gels containing systemic oestrogen alone count. Exclude all vaginal forms, including tablets. Assess a combined or sequential pack by all its ingredients. Conjugated oestrogens with bazedoxifene are a separate combination outside Group A. Generic packs showing the ingredient and a company name count if they meet these form and ingredient limits. Estradiol valerate counts as estradiol."
+    },
+    {
+      "key": "B",
+      "name": "Progestogens, including combination products",
+      "ingredients": [
+        "medroxyprogesterone",
+        "norethisterone",
+        "progesterone",
+        "dydrogesterone",
+        "levonorgestrel",
+        "estradiol with dydrogesterone",
+        "estradiol with norethisterone acetate",
+        "conjugated oestrogens with medroxyprogesterone acetate",
+        "estradiol with drospirenone",
+        "estradiol with progesterone",
+        "conjugated estrogens + medroxyprogesterone",
+        "drospirenone + estradiol",
+        "dydrogesterone + estradiol",
+        "estradiol + norethisterone acetate"
+      ],
+      "brands": {
+        "medroxyprogesterone": [
+          "Provera",
+          "Ralovera",
+          "Medroxyhexal"
+        ],
+        "norethisterone": [
+          "Primolut N"
+        ],
+        "progesterone": [
+          "Prometrium"
+        ],
+        "dydrogesterone": [
+          "Duphaston"
+        ],
+        "levonorgestrel": [
+          "Mirena"
+        ],
+        "estradiol with dydrogesterone": [
+          "Femoston",
+          "Femoston-Conti"
+        ],
+        "estradiol with norethisterone acetate": [
+          "Kliovance",
+          "Estalis",
+          "Kliogest",
+          "Trisequens"
+        ],
+        "conjugated oestrogens with medroxyprogesterone acetate": [
+          "Premia"
+        ],
+        "estradiol with drospirenone": [
+          "Angeliq"
+        ],
+        "estradiol with progesterone": [
+          "Estrogel Pro",
+          "Bijuva"
+        ],
+        "conjugated estrogens + medroxyprogesterone": [
+          "Premia"
+        ],
+        "drospirenone + estradiol": [
+          "Angeliq"
+        ],
+        "dydrogesterone + estradiol": [
+          "Femoston",
+          "Femoston-Conti"
+        ],
+        "estradiol + norethisterone acetate": [
+          "Kliovance",
+          "Estalis",
+          "Kliogest",
+          "Trisequens"
+        ]
+      },
+      "note": "For each Group A supply, look for overlapping Group B treatment or a Group B supply within 60 days before or after it. For an intrauterine device, count the 52 mg levonorgestrel device from documented insertion for up to five years, ending earlier at removal or expulsion. A device supply on its own leaves insertion uncertain. Premia is included for historical records. Do not count contraceptive-only oral pills, including Locilan 28 Day, Micronor and Noriday 28 Day at the contraceptive regimen, as progestogen cover."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Uterus status at the oestrogen supply",
+      "meets": "The person had an intact uterus at the supply under review. If it was absent, there is no finding for that supply. If its status is unknown, keep the question open.",
+      "options": [
+        {
+          "words": "Uterus present at this supply",
+          "effect": "meets"
+        },
+        {
+          "words": "Uterus absent at this supply",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "52 mg Mirena cover at the oestrogen supply",
+      "meets": "Cover was absent at this supply because the device was absent, removed, expelled or past five years from insertion. A device in place within five years of insertion covers the supply. Ask only if Mirena is the only possible cover and insertion or continued use is unclear.",
+      "options": [
+        {
+          "words": "Absent, removed, expelled or past five years at that supply",
+          "effect": "meets"
+        },
+        {
+          "words": "In place within five years of insertion at that supply",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "From age 65, check each systemic oestrogen-only supply (Group A) separately for progestogen cover (Group B) using the timing in Group B. If age is unknown and the other criteria could be met, report only a possible finding and ask the pharmacist to confirm whether the person is 65 or older. Unless a hysterectomy is documented or the uterus is confirmed absent at the supply under review, confirm only an uncovered Group A supply with a documented intact uterus. Cite both lines and any device status used to establish lack of cover. If another progestogen covers the supply, give no finding. A Mirena supply alone does not confirm insertion. If a 52 mg Mirena is the only possible cover and insertion or continued use is unclear, report only a possible finding and name the missing fact \"52 mg Mirena cover at the oestrogen supply\". If a supply could be uncovered and uterus status is unknown, report only a possible finding and name the missing uterus status. An unknown answer leaves the finding possible.",
+  "cannot_be_seen": "The record may omit uterus status, a progestogen supplied elsewhere, or the date a device was inserted, removed or expelled.",
+  "ask_the_gp": "Whether a progestogen is needed with the oestrogen, taking into account whether the person still has a uterus.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "only_sex": "female"
+}

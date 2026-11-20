@@ -1,0 +1,60 @@
+[
+  {
+    "file": "BRISNIK-OP-DEPR4/pos-fact.csv",
+    "kind": "positive",
+    "about": "The dated age is 65 years, the recorded directions and quantities establish at least 42 days on Axit alone for depression, and the PHQ-9 review shows no meaningful improvement.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-DEPR4",
+        "must_cite": [
+          [
+            "L005"
+          ],
+          [
+            "L010"
+          ],
+          [
+            "L018"
+          ],
+          [
+            "L017"
+          ],
+          [
+            "L019"
+          ],
+          [
+            "L020"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-DEPR4/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: Axit is the only antidepressant supplied. The record lacks \"Age in whole years\", \"Depression as the reason for this antidepressant\", \"Response to depression treatment after six weeks at the qualifying dose\" and dated instructions giving the prescribed units per day.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-DEPR4",
+        "must_cite": [
+          [
+            "L004",
+            "L012",
+            "L020"
+          ],
+          [
+            "L008",
+            "L016",
+            "L024"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-DEPR4/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Mirtazapine 45 mg is the only antidepressant for seven months, but the PHQ-9 score fell from 20 to 8 points in about ten weeks, which is a clear improvement, so it must not flag.",
+    "findings": []
+  }
+]

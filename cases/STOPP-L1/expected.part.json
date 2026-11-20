@@ -1,0 +1,41 @@
+[
+  {
+    "file": "STOPP-L1/pos-fact.csv",
+    "kind": "positive",
+    "about": "Zydol was started as the first medicine for this episode of mild pain, rated 2 out of 10 at initiation.",
+    "findings": [
+      {
+        "criterion": "STOPP-L1",
+        "must_cite": [
+          [
+            "L023"
+          ],
+          [
+            "L021"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-L1/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about the indication for Endone, the initial pain severity or which treatment was tried first for the episode.",
+    "findings": [
+      {
+        "criterion": "STOPP-L1",
+        "must_cite": [
+          [
+            "L012"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-L1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The pain treated with the first Endone supply on 22 December 2025 was severe at initiation, rated 8 out of 10.",
+    "findings": []
+  }
+]

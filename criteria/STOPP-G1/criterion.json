@@ -1,0 +1,159 @@
+{
+  "id": "STOPP-G1",
+  "label": "STOPP G1",
+  "family": "STOPP_START",
+  "title": "Theophylline alone for COPD",
+  "statement": "Theophylline as monotherapy for COPD (safer, more effective alternative; risk of adverse effects due to narrow therapeutic index).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Theophylline used on its own for chronic obstructive pulmonary disease (COPD) has safer and more effective alternatives, and it can cause harm because the safe dose range is narrow.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Theophylline",
+      "ingredients": [
+        "theophylline"
+      ],
+      "brands": {
+        "theophylline": [
+          "Nuelin",
+          "Nuelin SR"
+        ]
+      },
+      "note": "Modified-release tablets and liquids count."
+    },
+    {
+      "key": "B",
+      "name": "Other long-term COPD inhaled medicines",
+      "ingredients": [
+        "tiotropium",
+        "aclidinium",
+        "umeclidinium",
+        "glycopyrronium",
+        "indacaterol",
+        "olodaterol",
+        "formoterol",
+        "salmeterol",
+        "vilanterol",
+        "ipratropium"
+      ],
+      "brands": {
+        "tiotropium": [
+          "Spiriva",
+          "Spiriva Respimat",
+          "Braltus",
+          "Spiolto Respimat (tiotropium with olodaterol)",
+          "Favint",
+          "Favint Respimat",
+          "Srivasso",
+          "Srivasso Respimat"
+        ],
+        "aclidinium": [
+          "Bretaris Genuair",
+          "Brimica Genuair (aclidinium with formoterol)"
+        ],
+        "umeclidinium": [
+          "Incruse Ellipta",
+          "Anoro Ellipta (umeclidinium with vilanterol)",
+          "Trelegy Ellipta (with fluticasone furoate and vilanterol)"
+        ],
+        "glycopyrronium": [
+          "Seebri Breezhaler",
+          "Ultibro Breezhaler (glycopyrronium with indacaterol)",
+          "Trimbow (with beclometasone and formoterol)",
+          "Enerzair Breezhaler",
+          "Breztri Aerosphere"
+        ],
+        "indacaterol": [
+          "Onbrez Breezhaler",
+          "Enerzair Breezhaler",
+          "Atectura Breezhaler"
+        ],
+        "olodaterol": [
+          "Striverdi Respimat"
+        ],
+        "formoterol": [
+          "Oxis Turbuhaler",
+          "Foradile",
+          "Symbicort",
+          "Flutiform",
+          "Breztri Aerosphere",
+          "Bufomix Easyhaler",
+          "DuoResp Spiromax",
+          "Fostair",
+          "Rilast"
+        ],
+        "salmeterol": [
+          "Serevent",
+          "Seretide",
+          "Serevent Accuhaler",
+          "Serevent Disks",
+          "Pavtide",
+          "SalplusF",
+          "Salflumix Easyhaler",
+          "Evocair"
+        ],
+        "vilanterol": [
+          "Breo Ellipta"
+        ],
+        "ipratropium": []
+      },
+      "note": "Long-acting muscarinic antagonists, long-acting beta agonists and the combinations with an inhaled steroid count. Reliever inhalers such as salbutamol do not count. Combination names are listed under the ingredient shown. Count the inhaler when it was part of COPD treatment at the time. If its use for COPD is unclear, report a possible finding. Count inhaled ipratropium when used regularly for COPD on the theophylline supply date. Use only as needed does not count."
+    }
+  ],
+  "rule_for_models": "Apply this criterion only to people aged 65 years or older. If age is unknown, leave eligibility unconfirmed. Assess each theophylline supply, including the first. Confirm a finding when theophylline was used for COPD and no other regular COPD treatment covered that date. Cite the supply and the evidence for its use in COPD. A COPD diagnosis alone does not establish why theophylline was supplied. There is no finding for a supply used solely for another condition or covered by a regular Group B inhaler for COPD. Count regularly scheduled inhaled ipratropium for COPD. Use supply dates, doses and directions to check cover. Disregard inhalers stopped before the supply date and relievers used only as needed. If a finding is still possible and the theophylline indication is unclear, report a possible finding and name the missing fact exactly as \"Reason for the theophylline supply under review\". Only if a recorded inhaler could change that finding and its role or timing is unclear, name the missing fact exactly as \"Use of the recorded inhaler on the theophylline supply date\". Identify the inhaler and the theophylline supply date in that possible finding. Do not ask about inhaler use when the record settles cover. If either required answer is unknown, keep the finding possible.",
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Reason for the theophylline supply under review",
+      "meets": "This theophylline supply was used for COPD, including when it was also used for another condition.",
+      "options": [
+        {
+          "words": "Used for COPD, with or without another condition",
+          "effect": "meets"
+        },
+        {
+          "words": "Used only for another condition",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Use of the recorded inhaler on the theophylline supply date",
+      "meets": "No other regular inhaler was being used for COPD on the theophylline supply date under review.",
+      "options": [
+        {
+          "words": "No other regular inhaler was being used for COPD on that date",
+          "effect": "meets"
+        },
+        {
+          "words": "The inhaler was being used regularly for COPD on that date",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "cannot_be_seen": "Whether the person has COPD or asthma, which matters because theophylline is also used in asthma. Also blood theophylline levels, smoking, and medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "Whether theophylline is still the right treatment, and whether a long-acting inhaler would suit the person better.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

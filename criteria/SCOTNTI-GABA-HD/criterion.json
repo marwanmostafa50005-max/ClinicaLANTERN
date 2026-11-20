@@ -1,0 +1,75 @@
+{
+  "id": "SCOTNTI-GABA-HD",
+  "label": "SCOTNTI: high-dose gabapentin or pregabalin over six months",
+  "family": "SCOTNTI",
+  "title": "High-dose gabapentin or pregabalin over six months",
+  "statement": "Gabapentinoid dependency: number of people prescribed a gabapentinoid at an average daily dose equivalent to >3900mg gabapentin (Pregabalin >650mg) over the previous 6 months, per 1,000 list size",
+  "statement_origin": "published",
+  "source": {
+    "document": "Public Health Scotland National Therapeutic Indicators data visualisation, data to June 2026, Main points and image caption",
+    "citation": "Public Health Scotland. National therapeutic indicators data visualisation: data to June 2026. Published 27 October 2026.",
+    "url": "https://publichealthscotland.scot/publications/national-therapeutic-indicators-data-visualisation/national-therapeutic-indicators-data-visualisation-data-to-june-2026/",
+    "licence": "UK Open Government Licence v3.0",
+    "licence_status": "proposed",
+    "credit": "Public Health Scotland, National therapeutic indicators data visualisation, data to June 2026, published 27 October 2026. Contains public sector information licensed under the Open Government Licence v3.0.",
+    "modification_notice": "Statement reproduced unchanged. Australian clinical context, the pharmacist question and fictional histories are adaptations."
+  },
+  "plain_summary": "Review gabapentin or pregabalin when the verified average prescribed dose over the last six months counted back from the latest date in the record exceeds 3900 mg/day of gabapentin or its equivalent (650 mg/day of pregabalin). These are prescribing indicator thresholds. Australian product information for immediate-release products gives adult maxima of 3600 mg/day for gabapentin and 600 mg/day for pregabalin. Check the limit for the formulation, indication and kidney function. Lower limits apply in reduced kidney function. Abrupt withdrawal can cause withdrawal symptoms and seizures, especially in epilepsy.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Gabapentin and pregabalin",
+      "ingredients": [
+        "gabapentin",
+        "pregabalin"
+      ],
+      "brands": {
+        "gabapentin": [
+          "Neurontin",
+          "Nupentin",
+          "Gabacor",
+          "Gapentin",
+          "Pendine",
+          "Gabatine",
+          "Gantin"
+        ],
+        "pregabalin": [
+          "Lyrica",
+          "Lyrica CR",
+          "Lyzalon",
+          "Neuroccord",
+          "Prebalin",
+          "Lypralin"
+        ]
+      },
+      "note": "Match an ingredient-only row or a listed brand-only row. Add strengths of the same medicine only when the directions show they were prescribed together. If assessing a switch or concurrent use of different gabapentinoids would require pooling them, request pharmacist verification of the indicator result. Do not infer coadministration from supply dates or apply a clinical switching ratio automatically. Confirm the ingredient when a different brand or an ambiguous product is shown. The source gives no age limit and no formulation exclusion. Do not count a compounded topical application as an oral dose. Check the listed ingredient, route and strength of any combination product. Australian product information for immediate-release products gives adult licensed maxima of 3600 mg/day gabapentin and 600 mg/day pregabalin, with lower maxima in reduced kidney function. Work out prescribed milligrams per day from strength and directions for each documented dose period. Account for changes using the days each regimen covered. Divide the total milligrams by the actual days in the full window. Refills alone do not prove dose or continuous use. Use the last six months counted back from the latest date in the record."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Average daily gabapentinoid dose status",
+      "meets": "The verified average prescribed daily dose over the last six months counted back from the latest date in the record exceeds 3900 mg/day of gabapentin or its equivalent (650 mg/day of pregabalin). Include both medicines if they were combined or switched. Check strengths taken together, changes in dose and gaps in supply, including medicines from elsewhere, early refills and travel supplies.",
+      "options": [
+        {
+          "words": "Six-month average above 3900 mg/day of gabapentin or its equivalent (650 mg/day of pregabalin)",
+          "effect": "meets"
+        },
+        {
+          "words": "Six-month average at or below 3900 mg/day of gabapentin or its equivalent (650 mg/day of pregabalin)",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "At any age, including when age is unknown, check the prescribed average over the last six months counted back from the latest date in the record. Give no finding if there is no relevant Group A supply in that window. Use a pharmacist's verification for these six months even if the answer is undated. Include gabapentin and pregabalin if they were combined or switched. If the two medicines must be pooled, ask the pharmacist to verify their combined average for this indicator. Otherwise use strengths, directions and the duration of each regimen when they establish the average for the whole window. Never infer the dose from quantities or early refills alone. Report a finding above 3900 mg/day of gabapentin or its equivalent (650 mg/day of pregabalin). Give no finding when the verified average or its highest possible value, including a known as-needed maximum, is at or below the threshold. If gaps, dose changes, unclear directions or conflicting evidence leave the average uncertain, report only a possible finding and name the missing fact as Average daily gabapentinoid dose status. A Not known answer leaves it unresolved unless the record establishes the average. Cite every qualifying Group A supply in the window and any observation used to verify the average.",
+  "cannot_be_seen": "A supply record does not prove the dose taken or a complete six-month average. Directions may be unclear. Early refills, travel supply, a dose reduction, kidney function and supplies from elsewhere can change interpretation. The observation records pharmacist verification, not proof of dependence.",
+  "ask_the_gp": "Could you review the average prescribed dose over the previous six months, the indication, kidney function and ongoing benefit? The Public Health Scotland indicator flags an average above 3900 mg/day of gabapentin or its equivalent (650 mg/day of pregabalin). Could you check the dose against the product information for this formulation and indication? Abrupt withdrawal can cause withdrawal symptoms and seizures, especially in epilepsy.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

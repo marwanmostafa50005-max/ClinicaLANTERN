@@ -1,0 +1,46 @@
+[
+  {
+    "file": "BANSAL-S15/pos-fact.csv",
+    "kind": "positive",
+    "about": "The most recent eGFR (14 April 2026) is 24 mL/min/1.73 m2, below 30, an older eGFR of 46 is not the latest, and MS Contin (morphine) is supplied four times from 28 April 2026.",
+    "findings": [
+      {
+        "criterion": "BANSAL-S15",
+        "must_cite": [
+          [
+            "L030"
+          ],
+          [
+            "L031",
+            "L036",
+            "L041",
+            "L046"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BANSAL-S15/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about kidney function (no eGFR). Codalgin Forte (codeine with paracetamol), by brand name only, is supplied on 3 March, 1 April and 2 May 2026.",
+    "findings": [
+      {
+        "criterion": "BANSAL-S15",
+        "must_cite": [
+          [
+            "L007",
+            "L011",
+            "L015"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BANSAL-S15/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The eGFR was 52 during the pain prescriptions. The sample showing 26 was taken after the July course ended, and the August codeine was prescribed for cough.",
+    "findings": []
+  }
+]

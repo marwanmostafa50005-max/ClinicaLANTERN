@@ -1,0 +1,29 @@
+[
+  {
+    "file": "START-I3/pos-fact.csv",
+    "kind": "positive",
+    "about": "The record holds a line for symptomatic atrophic vaginitis and no vaginal oestrogen (cream, pessary or tablet) is supplied.",
+    "findings": [
+      {
+        "criterion": "START-I3",
+        "must_cite": [
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-I3/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The record holds a line for symptomatic atrophic vaginitis and Vagifem Low (estradiol vaginal pessaries) is supplied about every 12 weeks, last on 6 May 2026, so a vaginal oestrogen is there.",
+    "findings": []
+  },
+  {
+    "file": "START-I3/near-miss-age.csv",
+    "kind": "near_miss",
+    "about": "Symptomatic atrophic vaginitis is recorded and no vaginal oestrogen is supplied. The woman is 64, below the START age threshold.",
+    "findings": []
+  }
+]

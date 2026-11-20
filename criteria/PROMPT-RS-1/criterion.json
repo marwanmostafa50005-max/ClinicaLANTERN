@@ -1,0 +1,116 @@
+{
+  "id": "PROMPT-RS-1",
+  "label": "PROMPT: first generation antihistamine over 7 days",
+  "family": "PROMPT",
+  "title": "First-line sedating antihistamine for more than seven days",
+  "statement": "First generation antihistamines (e.g. chlorphenamine, promethazine) should not be used as first-line agents for greater than seven days.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Cooper JA, et al. The development of the PROMPT criteria. BMC Health Serv Res 2014;14:484, Table 4",
+    "citation": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "doi": "10.1186/s12913-014-0484-6",
+    "url": "https://doi.org/10.1186/s12913-014-0484-6",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Review use of an older sedating antihistamine as the first treatment for more than seven days. It can cause drowsiness, confusion and constipation.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "First generation (sedating) antihistamines",
+      "ingredients": [
+        "promethazine",
+        "dexchlorpheniramine",
+        "chlorphenamine",
+        "cyproheptadine",
+        "doxylamine",
+        "diphenhydramine",
+        "pheniramine",
+        "alimemazine",
+        "dimenhydrinate"
+      ],
+      "brands": {
+        "promethazine": [
+          "Phenergan",
+          "Allersoothe",
+          "Avomine",
+          "Allersoothe Elixir",
+          "Fenezal",
+          "Histaren",
+          "Phenergan Elixir",
+          "Progan Children's Allergy Relief Elixir"
+        ],
+        "dexchlorpheniramine": [
+          "Polaramine",
+          "Polaramine Repetab",
+          "Polaramine Syrup",
+          "Polarelief"
+        ],
+        "chlorphenamine": [
+          "Demazin Original Cold + Flu Relief Day + Night"
+        ],
+        "cyproheptadine": [
+          "Periactin"
+        ],
+        "doxylamine": [
+          "Restavit",
+          "Dozile",
+          "Dozavit",
+          "Restamine",
+          "Mersyndol"
+        ],
+        "diphenhydramine": [
+          "Unisom SleepGels",
+          "Benadryl Original"
+        ],
+        "pheniramine": [
+          "Avil",
+          "Avil Retard",
+          "Avil Syrup"
+        ],
+        "alimemazine": [
+          "Vallergan"
+        ],
+        "dimenhydrinate": [
+          "TravaCalm Original",
+          "Dramamine"
+        ]
+      },
+      "note": "The statement gives only examples, so this list is partial. Second generation antihistamines such as loratadine, cetirizine and fexofenadine are not in this group. Generic packs that show the ingredient name with a company name count too. Chlorpheniramine means chlorphenamine and trimeprazine means alimemazine. Match the full combination product and the component actually taken. Bare Demazin is insufficient. Confirm whether the antihistamine was used as the first treatment for this episode. A pain or cold treatment does not establish that by brand alone. Exclude skin and eye preparations. A single injection cannot meet the duration threshold. TravaCalm Original also contains hyoscine and caffeine."
+    }
+  ],
+  "rule_for_models": "If age is unknown, confirm it before reporting a finding. For a person aged 45 to 64 inclusive, suspect a finding when a Group A sedating antihistamine is the first treatment for the episode and covers more than seven days in a row. Use the supply dates, quantity, directions and any recorded course length first. Count each day once, joining supplies only if their cover overlaps or continues without a gap. If more than seven days in a row is plausible, first-line use is still possible and continuous use is unclear, report only a possible finding and ask for \"Days in a row this sedating antihistamine was taken for this episode\". The pharmacist can establish the uninterrupted course length from how often it was taken and any gaps. Use the typed number only for this episode. Seven days or less excludes the course. If the length remains unknown, keep the otherwise qualifying course possible. If the course could exceed seven consecutive days and treatment order is unknown, report only a possible finding and ask which treatment came first for this problem in this episode. Another treatment tried first for the same problem excludes this episode. When both requirements are met, cite the supply lines and any answer lines used to establish them.",
+  "cannot_be_seen": "Why it was prescribed (for example allergy, sleep, nausea or itch), how often it is really taken, and whether it was the first treatment tried when earlier records are incomplete.",
+  "ask_the_gp": "Could you review why the antihistamine was used, what was tried first for this episode, and whether it is still needed or a safer option would suit that indication?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Treatment tried first for this antihistamine episode",
+      "meets": "This sedating antihistamine was tried first for the same problem in this episode. A different treatment tried first for that problem excludes this episode. Treatment for another problem or an earlier episode does not establish the order. If the order is unknown and the course could exceed seven consecutive days, keep the finding possible.",
+      "options": [
+        {
+          "words": "This sedating antihistamine was tried first",
+          "effect": "meets"
+        },
+        {
+          "words": "Another treatment was tried first for the same problem",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "result",
+      "what": "Days in a row this sedating antihistamine was taken for this episode",
+      "meets": "More than seven consecutive days meets the duration requirement. Seven days or less excludes the course. Do not add days from separate courses."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "file": "OPTIMISE-T3-07/pos-brand.csv",
+    "kind": "positive",
+    "about": "Four brand-only Solone supplies establish continuous treatment above the dose threshold, and the fracture-risk assessment for this course is pending.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T3-07",
+        "must_cite": [
+          [
+            "L007"
+          ],
+          [
+            "L011"
+          ],
+          [
+            "L015"
+          ],
+          [
+            "L019"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T3-07/pos-buried.csv",
+    "kind": "positive",
+    "about": "Possible finding: either consecutive run of four prednisone supplies establishes qualifying exposure, but the record holds no line about a fracture-risk assessment for this course.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T3-07",
+        "must_cite": [
+          [
+            "L029",
+            "L049"
+          ],
+          [
+            "L034"
+          ],
+          [
+            "L039"
+          ],
+          [
+            "L044"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T3-07/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The dated account of the October regimen separates two courses above the threshold. Neither lasts three months and the later February course lasts five days.",
+    "findings": []
+  }
+]

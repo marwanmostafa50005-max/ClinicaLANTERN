@@ -1,0 +1,42 @@
+[
+  {
+    "file": "EU7-F55/pos-brand.csv",
+    "kind": "positive",
+    "about": "Phenobarb 30 mg is supplied by brand name only on three dates between April and September 2026 to a person aged 72.",
+    "findings": [
+      {
+        "criterion": "EU7-F55",
+        "must_cite": [
+          [
+            "L011",
+            "L020",
+            "L030"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F55/pos-buried.csv",
+    "kind": "positive",
+    "about": "Phenobarbitone 30 mg is supplied three times between January and July 2026, in the middle of a 14-month history, to a person aged 75.",
+    "findings": [
+      {
+        "criterion": "EU7-F55",
+        "must_cite": [
+          [
+            "L033",
+            "L046",
+            "L058"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F55/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Only lamotrigine, an anti-seizure medicine that is not on the list, is supplied, so it must not flag.",
+    "findings": []
+  }
+]

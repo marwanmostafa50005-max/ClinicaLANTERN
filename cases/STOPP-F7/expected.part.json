@@ -1,0 +1,54 @@
+[
+  {
+    "file": "STOPP-F7/pos-fact.csv",
+    "kind": "positive",
+    "about": "Risperidone (Risperdal) is supplied monthly from September 2025 to April 2026, and supplies continue after dysphagia is documented in December.",
+    "findings": [
+      {
+        "criterion": "STOPP-F7",
+        "must_cite": [
+          [
+            "L010",
+            "L016",
+            "L020",
+            "L025",
+            "L029",
+            "L034",
+            "L038"
+          ],
+          [
+            "L015"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-F7/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about swallowing. Zyprexa (olanzapine, an antipsychotic) is supplied monthly by brand name only from February to August 2026.",
+    "findings": [
+      {
+        "criterion": "STOPP-F7",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L009",
+            "L013",
+            "L017",
+            "L021",
+            "L025",
+            "L029"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-F7/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Swallowing was normal during haloperidol treatment and dysphagia began after the July stop date.",
+    "findings": []
+  }
+]

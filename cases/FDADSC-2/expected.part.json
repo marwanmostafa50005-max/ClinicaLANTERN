@@ -1,0 +1,38 @@
+[
+  {
+    "file": "FDADSC-2/pos-brand.csv",
+    "kind": "positive",
+    "about": "Prolia 60 mg is the only denosumab supply and the latest record is 251 days later, with no later denosumab or bisphosphonate.",
+    "findings": [
+      {
+        "criterion": "FDADSC-2",
+        "must_cite": [
+          [
+            "L009"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "FDADSC-2/pos-buried.csv",
+    "kind": "positive",
+    "about": "Jubbonti 60 mg is buried in a long history and the latest record is 251 days later, with no later denosumab or bisphosphonate.",
+    "findings": [
+      {
+        "criterion": "FDADSC-2",
+        "must_cite": [
+          [
+            "L031"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "FDADSC-2/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Prolia supplies are 182 days apart and the latest record is 161 days after the second supply, so there is no gap over 183 days.",
+    "findings": []
+  }
+]

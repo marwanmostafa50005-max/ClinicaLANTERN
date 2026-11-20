@@ -1,0 +1,44 @@
+[
+  {
+    "file": "DREISCHULTE-43/pos-brand.csv",
+    "kind": "positive",
+    "about": "At age 17, the patient was supplied Ibavyr during a course of Coumadin, both by brand.",
+    "findings": [
+      {
+        "criterion": "DREISCHULTE-43",
+        "must_cite": [
+          [
+            "L013"
+          ],
+          [
+            "L016"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "DREISCHULTE-43/pos-buried.csv",
+    "kind": "positive",
+    "about": "A supply of ribavirin falls within the warfarin course in the middle of this history.",
+    "findings": [
+      {
+        "criterion": "DREISCHULTE-43",
+        "must_cite": [
+          [
+            "L033"
+          ],
+          [
+            "L034"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "DREISCHULTE-43/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The final ribavirin course ended more than 60 days before warfarin started.",
+    "findings": []
+  }
+]

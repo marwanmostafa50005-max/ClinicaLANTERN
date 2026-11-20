@@ -1,0 +1,110 @@
+{
+  "id": "STOPP-G3",
+  "label": "STOPP G3",
+  "family": "STOPP_START",
+  "title": "Long-acting inhaler with glaucoma or blocked bladder outflow",
+  "statement": "Long-acting muscarinic antagonists (e.g., tiotropium, aclidinium, umeclidinium, glycopyrronium) with a history of narrow angle glaucoma (may exacerbate glaucoma) or bladder outflow obstruction (may cause urinary retention).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A long-acting muscarinic antagonist inhaler (such as tiotropium) can make narrow angle glaucoma worse or cause urinary retention in a person with bladder outflow obstruction.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Long-acting muscarinic antagonist inhalers",
+      "ingredients": [
+        "tiotropium",
+        "aclidinium",
+        "umeclidinium",
+        "glycopyrronium"
+      ],
+      "brands": {
+        "tiotropium": [
+          "Spiriva",
+          "Spiriva Respimat",
+          "Braltus",
+          "Spiolto Respimat (tiotropium with olodaterol)",
+          "Favint",
+          "Favint Respimat",
+          "Srivasso",
+          "Srivasso Respimat"
+        ],
+        "aclidinium": [
+          "Bretaris Genuair",
+          "Brimica Genuair (aclidinium with formoterol)"
+        ],
+        "umeclidinium": [
+          "Incruse Ellipta",
+          "Anoro Ellipta (umeclidinium with vilanterol)",
+          "Trelegy Ellipta (with fluticasone furoate and vilanterol)"
+        ],
+        "glycopyrronium": [
+          "Seebri Breezhaler",
+          "Ultibro Breezhaler (glycopyrronium with indacaterol)",
+          "Trimbow (with beclometasone and formoterol)",
+          "Breztri Aerosphere",
+          "Enerzair Breezhaler"
+        ]
+      },
+      "note": "Combination inhalers that contain one of these medicines count, and are listed under it. Short-acting ipratropium is not in this group."
+    }
+  ],
+  "rule_for_models": "Apply this criterion only to people aged 65 years or older. If age is unknown, leave eligibility unconfirmed. Suspect a finding when a Group A medicine is supplied and the record holds a condition, result or observation line that documents a current or past diagnosis of narrow angle (angle-closure) glaucoma or a history of bladder outflow obstruction, unless the record shows it began only after the inhaler was stopped. A past glaucoma diagnosis qualifies as history even if it has resolved. Cite the inhaler supply and the supporting line. If neither history applies on clinical review, there is no finding. If neither is positive and either is unknown, report a possible finding and name each unresolved fact exactly as \"History of angle-closure glaucoma\" or \"Bladder outflow obstruction\". An unknown glaucoma subtype leaves the angle-closure history unresolved.",
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "History of angle-closure glaucoma",
+      "meets": "A current or past diagnosis of angle-closure glaucoma qualifies. An unknown subtype remains unresolved. A past diagnosis alone does not establish current disease or an acute attack.",
+      "options": [
+        {
+          "words": "Current diagnosis",
+          "effect": "meets"
+        },
+        {
+          "words": "Past diagnosis",
+          "effect": "meets"
+        },
+        {
+          "words": "No past or current diagnosis",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "condition",
+      "what": "Bladder outflow obstruction",
+      "meets": "A recorded history of bladder outflow obstruction or urinary retention from obstruction",
+      "options": [
+        {
+          "words": "Had bladder outflow obstruction before or at this inhaler supply, including retention caused by obstruction",
+          "effect": "meets"
+        },
+        {
+          "words": "No history of bladder outflow obstruction by this inhaler supply",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "cannot_be_seen": "Whether the person has narrow angle glaucoma or a blocked bladder outflow, such as an enlarged prostate with poor emptying. Also eye pressure, bladder scan and urine flow results, and medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "Whether the person has narrow angle glaucoma or difficulty passing urine, and whether the inhaler is still suitable.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

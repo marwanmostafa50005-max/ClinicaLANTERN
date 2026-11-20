@@ -1,0 +1,47 @@
+[
+  {
+    "file": "GERARD-24/pos-fact.csv",
+    "kind": "positive",
+    "about": "Dulaglutide and sitagliptin are supplied on the same day to a person with documented type 2 diabetes.",
+    "findings": [
+      {
+        "criterion": "GERARD-24",
+        "must_cite": [
+          [
+            "L045"
+          ],
+          [
+            "L046"
+          ],
+          [
+            "L002"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "GERARD-24/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: neither the diabetes type nor the advised dulaglutide start date is recorded, so the same-day supplies do not settle whether dulaglutide and Nesina Met were used together.",
+    "findings": [
+      {
+        "criterion": "GERARD-24",
+        "must_cite": [
+          [
+            "L025"
+          ],
+          [
+            "L026"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "GERARD-24/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Type 2 diabetes is confirmed. The 28-day sitagliptin course ends before dulaglutide is supplied on day 50.",
+    "findings": []
+  }
+]

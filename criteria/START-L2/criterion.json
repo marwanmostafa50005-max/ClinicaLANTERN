@@ -1,0 +1,108 @@
+{
+  "id": "START-L2",
+  "label": "START L2",
+  "family": "STOPP_START",
+  "title": "Pneumococcal vaccine",
+  "statement": "Pneumococcal vaccine at least once according to national guidelines.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "From age 65, review whether the person has had a pneumococcal vaccine at least once.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "21-valent pneumococcal conjugate vaccine for the routine adult schedule",
+      "ingredients": [
+        "pneumococcal 21 valent conjugate vaccine"
+      ],
+      "brands": {
+        "pneumococcal 21 valent conjugate vaccine": [
+          "Capvaxive"
+        ]
+      },
+      "note": "At age 65 or older, count a valid documented 21vPCV administration, including an earlier adult risk-based dose. A dispensing entry alone cannot establish vaccination. For a recipient of a haematopoietic stem cell transplant, assess the separate post-transplant course before recording completion."
+    },
+    {
+      "key": "B",
+      "name": "Earlier pneumococcal vaccines used to determine timing",
+      "ingredients": [
+        "pneumococcal conjugate vaccine",
+        "pneumococcal polysaccharide vaccine",
+        "pneumococcal 23 valent vaccine",
+        "pneumococcal 13 valent conjugate vaccine",
+        "pneumococcal 15 valent conjugate vaccine",
+        "pneumococcal 20 valent conjugate vaccine"
+      ],
+      "brands": {
+        "pneumococcal conjugate vaccine": [
+          "Prevenar 20",
+          "Vaxneuvance",
+          "Prevenar 13"
+        ],
+        "pneumococcal polysaccharide vaccine": [
+          "Pneumovax 23"
+        ],
+        "pneumococcal 23 valent vaccine": [
+          "Pneumovax 23"
+        ],
+        "pneumococcal 13 valent conjugate vaccine": [
+          "Prevenar 13"
+        ],
+        "pneumococcal 15 valent conjugate vaccine": [
+          "Vaxneuvance"
+        ],
+        "pneumococcal 20 valent conjugate vaccine": [
+          "Prevenar 20"
+        ]
+      },
+      "note": "Use the most recent confirmed earlier pneumococcal dose to time 21vPCV. Review when at least 12 months have passed and the history confirms no 21vPCV. Before then, record when it is due. If the product, date or administration is uncertain, ask for confirmation from the Australian Immunisation Register or vaccinator."
+    }
+  ],
+  "rule_for_models": "If age is unknown, confirm it before reporting a START finding. At age 65 or older, use the routine adult schedule unless a haematopoietic stem cell transplant requires the separate post-transplant schedule in Group A. For a transplant recipient, leave the assessment open until the post-transplant course is checked. For other adults, a valid documented adult 21vPCV dose satisfies the routine check, including a dose given before age 65. If a complete history confirms no pneumococcal dose, flag for review. If it confirms earlier pneumococcal vaccination but no 21vPCV, compare the assessment date with the most recent confirmed dose. Use the date of the review. For a historical assessment, use its stated date or, if none is given, the last dated entry and identify that as the assessment date. Add 12 calendar months to the most recent confirmed earlier dose date and flag only when the assessment date is on or after that due date. Before then, record when 21vPCV is due and give no current omission finding. If the history is missing, the product, administration or date needed to decide is unclear, or there is only a dispensing entry, report a possible finding and request AIR or vaccinator confirmation. Cite the deciding history or supply line, or the last supply line if no vaccination line exists.",
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Pneumococcal vaccination status",
+      "meets": "From age 65, a confirmed vaccination history establishes that routine 21vPCV is due: either no pneumococcal vaccine has been given or no 21vPCV has been given and the last earlier product was administered at least 12 calendar months ago. A valid earlier adult dose of 21vPCV satisfies the routine check. Use the separate post-transplant schedule when applicable.",
+      "options": [
+        {
+          "words": "History confirms no pneumococcal vaccine has been given",
+          "effect": "meets"
+        },
+        {
+          "words": "No adult Capvaxive dose and the last other pneumococcal dose was at least 12 months ago",
+          "effect": "meets"
+        },
+        {
+          "words": "A valid adult Capvaxive dose was given",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "No adult Capvaxive dose and the last other pneumococcal dose was less than 12 months ago",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "A separate schedule applies after a stem cell transplant and needs review",
+          "effect": "unknown"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "cannot_be_seen": "Vaccines given years ago, by a doctor or clinic, or before the history starts. A history that does not show a vaccine does not prove none was given. Also whether a younger person has a risk condition or is Aboriginal or Torres Strait Islander, and the age at which national guidance recommends the vaccine.",
+  "ask_the_gp": "A check of the person's pneumococcal vaccination history and whether a dose should be given.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

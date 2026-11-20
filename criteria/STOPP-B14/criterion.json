@@ -1,0 +1,156 @@
+{
+  "id": "STOPP-B14",
+  "label": "STOPP B14",
+  "family": "STOPP_START",
+  "title": "PDE5 inhibitor with nitrates or low blood pressure in heart failure",
+  "statement": "Phosphodiesterase type-5 inhibitors (e.g., sildenafil, tadalafil, vardenafil) in severe heart failure characterised by hypotension i.e., systolic BP < 90 mmHg, or concurrent nitrate therapy for angina (risk of cardiovascular collapse).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Sildenafil, tadalafil and vardenafil can drop the blood pressure sharply when taken with a nitrate, or in severe heart failure when the top blood pressure number is already below 90.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "PDE5 inhibitors",
+      "ingredients": [
+        "sildenafil",
+        "tadalafil",
+        "vardenafil",
+        "avanafil"
+      ],
+      "brands": {
+        "sildenafil": [
+          "Viagra",
+          "Revatio",
+          "Alsioz",
+          "Azulvig",
+          "Caveroz",
+          "Ernafil",
+          "Silaran",
+          "Silcap",
+          "Sildaccord",
+          "Sildaccord PHT",
+          "Sildatio PHT",
+          "Sildenacap",
+          "Silerec",
+          "Vasafil",
+          "Vedafil",
+          "Wafesil"
+        ],
+        "tadalafil": [
+          "Cialis",
+          "Adcirca",
+          "Ciavor",
+          "Cidala",
+          "Cidala PHT",
+          "Cilatil",
+          "Tadacip",
+          "Tadalaccord",
+          "Tadalca",
+          "Tadalis"
+        ],
+        "vardenafil": [
+          "Levitra"
+        ],
+        "avanafil": [
+          "Spedra"
+        ]
+      },
+      "note": "PDE5 means phosphodiesterase type 5. Tablets and orodispersible tablets count. Revatio and Adcirca are sold for pulmonary arterial hypertension and count too."
+    },
+    {
+      "key": "B",
+      "name": "Nitrates",
+      "ingredients": [
+        "glyceryl trinitrate",
+        "isosorbide mononitrate",
+        "isosorbide dinitrate"
+      ],
+      "brands": {
+        "glyceryl trinitrate": [
+          "Anginine",
+          "Nitrolingual",
+          "Minitran",
+          "Nitro-Dur",
+          "Transiderm-Nitro",
+          "Lycinate",
+          "Nitrostat"
+        ],
+        "isosorbide mononitrate": [
+          "Imdur",
+          "Duride",
+          "Monodur",
+          "Imdur Durules",
+          "Imtrate",
+          "Isobide MR",
+          "Isomonit",
+          "Monodur Durules"
+        ],
+        "isosorbide dinitrate": [
+          "Isordil",
+          "Sorbidin"
+        ]
+      },
+      "note": "Tablets under the tongue, sprays, patches and tablets all count. Nicorandil is not a nitrate and is not in this group. For this angina branch, exclude glyceryl trinitrate ointment used for an anal fissure, including Rectogesic. If the nitrate indication is unclear, ask why it is used and report at most a possible finding for this branch."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Severe heart failure",
+      "meets": "Recorded as current and severe for the low blood pressure branch."
+    },
+    {
+      "kind": "result",
+      "what": "Blood pressure",
+      "meets": "Enter the latest systolic pressure in mmHg and its measurement date. A value below 90 mmHg with documented severe heart failure meets this branch. Without a heart failure diagnosis, this branch gives no finding. With recorded heart failure, a missing reading or severity gives only a possible finding unless non-severe disease or systolic pressure of 90 mmHg or higher already rules it out. This does not affect the nitrate branch.",
+      "options": [
+        {
+          "words": "Latest systolic reading below 90 mmHg",
+          "effect": "meets"
+        },
+        {
+          "words": "Latest systolic reading 90 mmHg or higher",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Nitrate treatment for angina during PDE5 inhibitor use",
+      "meets": "An angina nitrate was used during this PDE5 inhibitor course. Ask only when the record suggests concurrent use but leaves it uncertain, including an older as-needed supply or a reported supply elsewhere.",
+      "options": [
+        {
+          "words": "Used for angina during PDE5 inhibitor treatment",
+          "effect": "meets"
+        },
+        {
+          "words": "No angina nitrate used during that treatment",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply only to people aged 65 or older and confirm age if unknown. A Group A PDE5 inhibitor and a Group B angina nitrate supplied within 60 days or with overlapping supply periods warrant a finding. Cite both supplies. Also count confirmed concurrent nitrate treatment for angina, including treatment supplied elsewhere. If overlap or the angina indication is uncertain, including an older as-needed nitrate or a reported supply elsewhere, report a possible finding and ask for \"Nitrate treatment for angina during PDE5 inhibitor use\". Cite the PDE5 inhibitor and the evidence of concurrent angina treatment if confirmed. No angina nitrate use during that course, including a nitrate stopped beforehand, rules out only the nitrate branch. An unknown answer leaves that branch possible only if there is evidence of possible overlap. For the blood pressure branch, require a Group A supply and recorded heart failure. Severe heart failure with the latest systolic reading below 90 mmHg meets this branch. Cite the supply, diagnosis and reading or pharmacist answer. No heart failure, non-severe heart failure or a latest reading of 90 mmHg or higher rules it out. Otherwise, with heart failure recorded, report a possible finding and name the missing severity or reading.",
+  "cannot_be_seen": "Whether the heart failure is severe, blood pressure readings taken elsewhere, and whether the nitrate is really being used for angina. Also nitrates bought or supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "Could you review the PDE5 inhibitor alongside any concurrent nitrate treatment for angina, or review the severity of heart failure and the latest systolic blood pressure if they prompted the finding?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

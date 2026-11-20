@@ -1,0 +1,78 @@
+[
+  {
+    "file": "SCOTNTI-GABA-HD/pos-fact.csv",
+    "kind": "positive",
+    "about": "Weekly Lyrica supplies span six calendar months, with directions giving 675 mg/day and a dated observation confirming an average above 650 mg/day.",
+    "findings": [
+      {
+        "criterion": "SCOTNTI-GABA-HD",
+        "must_cite": [
+          [
+            "L003",
+            "L006",
+            "L009",
+            "L012",
+            "L015",
+            "L016",
+            "L019",
+            "L020",
+            "L023",
+            "L024",
+            "L027",
+            "L028",
+            "L031",
+            "L032",
+            "L035",
+            "L036",
+            "L039",
+            "L040",
+            "L041",
+            "L042",
+            "L045",
+            "L046",
+            "L047",
+            "L048",
+            "L051",
+            "L052"
+          ],
+          [
+            "L053"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "SCOTNTI-GABA-HD/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Repeated Gapentin supplies fall within the review window, but the directions and the available history do not establish a six-month mean. Expect a possible finding.",
+    "findings": [
+      {
+        "criterion": "SCOTNTI-GABA-HD",
+        "must_cite": [
+          [
+            "L003",
+            "L008",
+            "L013",
+            "L016",
+            "L019",
+            "L022",
+            "L025",
+            "L028",
+            "L031",
+            "L032",
+            "L035",
+            "L036",
+            "L039"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "SCOTNTI-GABA-HD/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Six monthly Neurontin supplies direct 1800 mg/day, and L033 confirms that the six-month average is at or below the indicator threshold.",
+    "findings": []
+  }
+]

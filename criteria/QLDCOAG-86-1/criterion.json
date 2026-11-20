@@ -1,0 +1,72 @@
+{
+  "id": "QLDCOAG-86-1",
+  "label": "QLDCOAG 86-1",
+  "family": "QLDCOAG",
+  "title": "Dabigatran capsules packed loose in a dose administration aid",
+  "statement": "must still be sealed in blister strip",
+  "statement_origin": "published",
+  "source": {
+    "document": "Anticoagulant Guideline for Hospitalised Adult Patients",
+    "citation": "Queensland Health. Anticoagulant Guideline for Hospitalised Adult Patients. Last minor update June 2026. Page 86, section 7, Transition of care for patients on anticoagulants, Table 54: Dose administration aid considerations for anticoagulants, Dabigatran row.",
+    "url": "https://www.health.qld.gov.au/__data/assets/pdf_file/0015/1152213/statewide-anticoagulant-guideline.pdf",
+    "licence": "Creative Commons Attribution 4.0 Australia",
+    "licence_status": "proposed",
+    "credit": "State of Queensland (Queensland Health)",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Moisture can damage dabigatran capsules. Keep blister-packed doses sealed in their original blister and bottle-packed doses in the original tightly closed bottle until use.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Dabigatran",
+      "ingredients": [
+        "dabigatran"
+      ],
+      "brands": {
+        "dabigatran": [
+          "ARX-Dabigatran",
+          "Dabigatran Sandoz",
+          "Dabigatran Viatris",
+          "PHARMACOR DABIGATRAN",
+          "Pradaxa"
+        ]
+      },
+      "note": "Oral dabigatran capsules count. Brand-only lines count as dabigatran."
+    }
+  ],
+  "rule_for_models": "Apply this check to Group A dabigatran supplies for people aged 18 or over. Report no finding under this adult criterion for a known age under 18. If age is missing and the packaging pattern would otherwise qualify, report at most a possible finding and confirm adult age. Use the latest packing observation that applies to the dabigatran capsule supply. If capsules from a blister or bottle are loose in a dose administration aid, report a finding and cite the supply and observation. An intact original blister in an aid, capsules kept in the original bottle, or confirmation that no aid is used gives no finding under this rule. If packing is missing, unknown or described only as use of an aid, cite the supply and ask, \"How do you or the person who packs your medicines store these dabigatran capsules before you take them?\" Keep the finding possible. Superseded packing observations do not describe the current supply. Explain that moisture can damage the capsules and warn against stopping dabigatran abruptly.",
+  "cannot_be_seen": "Dose administration aid use, removal from original packaging, storage conditions, and supplies from another pharmacy may not be recorded.",
+  "ask_the_gp": "Could you review how the current dabigatran capsules are packed with the patient and packing pharmacy, including whether they stay in their original moisture-protective packaging until use?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Packing of the dabigatran capsules for this supply",
+      "meets": "Capsules from the current supply are removed from the original blister or bottle and stored loose in a dose administration aid.",
+      "options": [
+        {
+          "words": "Loose in a dose administration aid",
+          "effect": "meets"
+        },
+        {
+          "words": "Still sealed in the original blister",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Kept in the original bottle",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "No dose administration aid is used",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

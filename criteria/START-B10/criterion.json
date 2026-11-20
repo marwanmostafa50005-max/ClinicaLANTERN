@@ -1,0 +1,160 @@
+{
+  "id": "START-B10",
+  "label": "START B10",
+  "family": "STOPP_START",
+  "title": "Atrial fibrillation with a fast heart rate and no beta-blocker",
+  "statement": "Beta-blocker for chronic atrial fibrillation with uncontrolled heart rate.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A person with long-term atrial fibrillation whose resting heart rate is above the target should be offered a beta-blocker to slow it.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Beta-blockers (medicines that meet this criterion)",
+      "ingredients": [
+        "atenolol",
+        "metoprolol",
+        "bisoprolol",
+        "carvedilol",
+        "nebivolol",
+        "propranolol"
+      ],
+      "brands": {
+        "atenolol": [
+          "Tenormin",
+          "Noten",
+          "Anselol",
+          "Atehexal",
+          "Aten",
+          "Colaptyn",
+          "Tenolten",
+          "Tensig"
+        ],
+        "metoprolol": [
+          "Betaloc",
+          "Lopresor",
+          "Minax",
+          "Toprol-XL",
+          "Agtolac",
+          "Metatar",
+          "Metohexal",
+          "Metolol",
+          "Metrol",
+          "Metrol-XL",
+          "Minax XL",
+          "Mistrom",
+          "Tobeta-XL",
+          "Topreloc-XL"
+        ],
+        "bisoprolol": [
+          "Bicor",
+          "Beprol",
+          "Bicard",
+          "Biso",
+          "Bispro"
+        ],
+        "carvedilol": [
+          "Dilatrend",
+          "Carvidol",
+          "Dicarz",
+          "Dilasig",
+          "Kredex",
+          "Vedilol",
+          "Volirop"
+        ],
+        "nebivolol": [
+          "Nebilet",
+          "Lobivon",
+          "Lobivon Composite Starter Titration Pack",
+          "Nebaloc",
+          "Nebilet Composite Starter Titration Pack",
+          "Nepiten"
+        ],
+        "propranolol": [
+          "Inderal",
+          "Deralin",
+          "Drofate",
+          "Hemangiol"
+        ]
+      },
+      "note": "Sotalol is not listed. Digoxin, diltiazem and verapamil also slow the heart rate but are not beta-blockers, so they do not count here. Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "B",
+      "name": "Medicines that imply the condition",
+      "ingredients": [
+        "warfarin",
+        "apixaban",
+        "rivaroxaban",
+        "dabigatran"
+      ],
+      "brands": {
+        "warfarin": [
+          "Coumadin",
+          "Marevan"
+        ],
+        "apixaban": [
+          "Eliquis",
+          "Alexibic",
+          "Apexa",
+          "Apixor",
+          "Axibic",
+          "Elapex"
+        ],
+        "rivaroxaban": [
+          "Xarelto",
+          "Ixarola",
+          "Relaban",
+          "Rivalembic",
+          "Rivarelto",
+          "Rivator",
+          "Rivaxib",
+          "Rivaxotor",
+          "Rivoxa",
+          "Roxabic",
+          "Roxalem",
+          "Roxator",
+          "Toriva",
+          "Troxa",
+          "Xaremed"
+        ],
+        "dabigatran": [
+          "Pradaxa"
+        ]
+      },
+      "note": "Blood thinners are often taken for atrial fibrillation but are also used for clots in the legs or lungs and after some heart valve operations, so they imply the condition only weakly. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Chronic atrial fibrillation",
+      "meets": "Persistent, permanent or long-standing atrial fibrillation is present on the record."
+    },
+    {
+      "kind": "result",
+      "what": "Latest resting heart rate for atrial fibrillation rate control",
+      "meets": "Enter the latest representative resting rate in beats/min and its date if known. The rate meets the criterion only when it is too fast for the documented target. For a target below 110 beats/min, 110 or more meets. A slow rate does not meet. Confirm whether an older reading still reflects current control."
+    },
+    {
+      "kind": "result",
+      "what": "Resting heart rate target",
+      "meets": "Enter the applicable target in beats/min as a bound or range, including whether each limit is included. Use the documented personal target or the lenient target only when confirmed to apply."
+    }
+  ],
+  "rule_for_models": "Apply this criterion only to people aged 65 years or older. If age is unknown, confirm it before reporting a finding. Give no finding if any Group A medicine was supplied in the last six months counted back from the latest date in the record. Otherwise suspect a finding when chronic atrial fibrillation is documented and the latest representative resting rate is too fast for the applicable target. Cite the diagnosis and the resting rate. Use the documented individual target or a confirmed applicable lenient target. Read the upper limit as written. With a target of 60 to 100 beats/min inclusive, 100 is within target and a rate above 100 is too fast. For a target below 110 beats/min, 110 beats/min or more is too fast. A rate within or below the target gives no finding. Use an older reading only when the record confirms it still represents current control. If its relevance is uncertain and matters to the decision, identify the dated reading and keep the finding possible. If it no longer represents current control, request a current measurement. If chronic atrial fibrillation is documented and the rate is missing or unrepresentative, cite the diagnosis and report only a possible finding. A Group B course that appears current from its dates, quantity and directions can also support a possible finding when the diagnosis or resting rate is unknown. Cite the supporting supplies. Exclude completed courses. If ongoing use is unclear, identify the course and the missing evidence in a possible finding only when it could supply the trigger. Anticoagulant use alone establishes neither the diagnosis nor poor rate control. For a missing diagnosis or measurement, name Chronic atrial fibrillation or Latest resting heart rate for atrial fibrillation rate control, as applicable. Ask for the resting value in beats/min and its measurement date if known. If the applicable target is unclear and could change the result, report only a possible finding and request Resting heart rate target in beats/min, including the bound or range. Confirmed absence of chronic atrial fibrillation gives no finding.",
+  "cannot_be_seen": "The true heart rate over time, whether the atrial fibrillation is chronic, and any reason a beta-blocker is unsuitable such as asthma or a very slow heart rate. Also medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "The person's heart rate control and whether a beta-blocker should be started or another way to slow the rate used.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

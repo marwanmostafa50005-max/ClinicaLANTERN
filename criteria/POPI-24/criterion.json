@@ -1,0 +1,99 @@
+{
+  "id": "POPI-24",
+  "label": "POPI: probiotic yeast with a central line or immunodeficiency",
+  "family": "POPI",
+  "title": "Saccharomyces boulardii powder or an opened capsule in a child with a central line or immunodeficiency",
+  "statement": "The use of Saccharomyces boulardii in powder form, or in a capsule that has to be opened prior to ingestion, to treat patients with a central venous catheter or an immunodeficiency",
+  "statement_origin": "published",
+  "source": {
+    "document": "International consensus validation of the POPI tool (Pediatrics: Omission of Prescriptions and Inappropriate prescriptions) to identify inappropriate prescribing in pediatrics",
+    "citation": "Sadozai L, Sable S, Le Roux E, et al. International consensus validation of the POPI tool (Pediatrics: Omission of Prescriptions and Inappropriate prescriptions) to identify inappropriate prescribing in pediatrics. PLOS ONE. 2020;15(10):e0240105.",
+    "doi": "10.1371/journal.pone.0240105",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0240105",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "© 2020 Sadozai et al. Table 2, International consensus validation of the POPI tool. PLOS ONE 15(10), e0240105. https://doi.org/10.1371/journal.pone.0240105. CC BY 4.0.",
+    "modification_notice": "The published item is reproduced unchanged. The summary, screening rule, medicine examples and fictional histories were added for pharmacist review."
+  },
+  "plain_summary": "POPI flags this yeast for diarrhoea in a child with a central venous catheter or immunodeficiency when it is supplied as powder or the capsule must be opened.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Saccharomyces boulardii",
+      "ingredients": [
+        "saccharomyces cerevisiae (boulardii)",
+        "saccharomyces boulardii"
+      ],
+      "brands": {
+        "saccharomyces cerevisiae (boulardii)": [
+          "Advanced Synbiotic Powder",
+          "SB Floractiv"
+        ],
+        "saccharomyces boulardii": [
+          "Advanced Synbiotic Powder",
+          "SB Floractiv"
+        ]
+      },
+      "note": "Saccharomyces boulardii is another name for this yeast. A capsule counts only if it has to be opened before ingestion. The Australian medicines list holds no product of this yeast. Use the ingredient name on the label to recognise a supply. The pharmacist can also identify it."
+    }
+  ],
+  "rule_for_models": "For Group A yeast supplied for diarrhoea before age 18 as powder or a capsule that must be opened, cite the supply and the line showing a central venous catheter or immunodeficiency during treatment. Give no finding for a capsule swallowed intact, both risks recorded absent, another known indication or age 18 or over. If requirements are uncertain, report a possible finding and ask only for missing information. Use the form and directions first. Ask about 'Form and preparation of this probiotic' only if they leave it unclear. If needed, ask for age at supply or about 'Diarrhoea treated with this probiotic'. If neither risk is established, clarify each unknown risk during this course. A negative answer about one risk does not exclude the other. If immune status is known only for today, ask about 'Immunodeficiency during the probiotic course under review' before deciding a past exposure.",
+  "cannot_be_seen": "Dispensing cannot establish catheter or immune status, or whether a capsule was opened when the directions leave that unclear.",
+  "ask_the_gp": "Could you confirm catheter and immune status during treatment and review the form of probiotic the child received?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Central venous catheter status",
+      "meets": "A central venous catheter is in place during treatment. This alone meets the risk condition.",
+      "options": [
+        {
+          "words": "Central line in place during this probiotic course",
+          "effect": "meets"
+        },
+        {
+          "words": "No central line during this probiotic course",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "condition",
+      "what": "Immunodeficiency",
+      "meets": "Immunodeficiency was present during this probiotic course. Current status alone cannot establish status during a past course. Either immunodeficiency or a central line during treatment meets the risk condition."
+    },
+    {
+      "kind": "observation",
+      "what": "Form and preparation of this probiotic",
+      "meets": "The supply is a powder or a capsule that must be opened before use. Use the recorded form and directions when they settle this.",
+      "options": [
+        {
+          "words": "Powder",
+          "effect": "meets"
+        },
+        {
+          "words": "Capsule that must be opened",
+          "effect": "meets"
+        },
+        {
+          "words": "Capsule swallowed whole",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Other form",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

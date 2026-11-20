@@ -1,0 +1,115 @@
+{
+  "id": "BRISNIK-HR-B1",
+  "label": "Brisnik: tricyclic at 50 mg/day or more, trazodone or tranylcypromine with persistent dizziness or postural hypotension",
+  "family": "BRISNIK",
+  "title": "Tricyclic at 50 mg a day or more, trazodone or tranylcypromine with persistent dizziness or a postural blood pressure drop",
+  "statement": "Prescribed TCA (in doses ≥ 50 mg/day), trazodone, or tranylcypromine - and the patient has developed persistent OH/dizziness under treatment",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Text reproduced without changes. Not endorsed by the source authors."
+  },
+  "plain_summary": "Review a tricyclic at 50 mg a day or more, trazodone or tranylcypromine if dizziness or a drop in blood pressure on standing began during treatment and persisted. A persistent pressure drop warrants review even without dizziness.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Tricyclic antidepressants (count only at 50 mg a day or more)",
+      "ingredients": [
+        "amitriptyline",
+        "clomipramine",
+        "dosulepin",
+        "doxepin",
+        "imipramine",
+        "nortriptyline",
+        "trimipramine"
+      ],
+      "brands": {
+        "amitriptyline": [
+          "Endep",
+          "Amichlor",
+          "Amidep",
+          "Entrip"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "dosulepin": [
+          "Prothiaden",
+          "Dothep"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "imipramine": [
+          "Imipramine Hcl (Leading Pharma)",
+          "Melipramine",
+          "Tofranil",
+          "Tolerade"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ]
+      },
+      "note": "Work out the daily dose from the strength and the directions. For example, 25 mg tablets taken as TWO at night is 50 mg a day. Less than 50 mg a day does not count. Dosulepin is also called dothiepin. Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "B",
+      "name": "Trazodone and tranylcypromine (any dose)",
+      "ingredients": [
+        "trazodone",
+        "tranylcypromine"
+      ],
+      "brands": {
+        "trazodone": [
+          "Desyrel"
+        ],
+        "tranylcypromine": [
+          "Parnate",
+          "Parpromine",
+          "Tranamef",
+          "Tranylmed"
+        ]
+      },
+      "note": "Any dose counts. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Persistent postural hypotension or dizziness while on the antidepressant",
+      "meets": "A dated condition or observation shows that postural hypotension or dizziness began during the antidepressant course and persisted. A pharmacist answer confirming this for the course also qualifies. A standing blood pressure drop can qualify without dizziness.",
+      "options": [
+        {
+          "words": "Symptoms began and persisted during the course being assessed",
+          "effect": "meets"
+        },
+        {
+          "words": "Assessment during the course excludes persistent symptoms",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Check a Group B medicine at any dose or a Group A tricyclic at 50 mg a day or more. For a tricyclic, multiply the strength by the total tablets or capsules prescribed per day. A maximum below 50 mg a day rules that supply out. A range wholly at or above 50 mg a day meets the dose test. An unknown dose or a range crossing 50 mg permits only a possible finding. Ask for the dose if it would change the decision. Either new dizziness that persisted or a persistent drop in blood pressure on standing must have begun during that course. Cite the supply and one dated condition or observation, or a pharmacist answer, that establishes either problem and its timing for that course. A standing pressure drop can qualify without dizziness. A review or answer excluding both new problems clears the finding unless later evidence shows either began and persisted during the course. An unchanged pre-existing symptom or one that resolved before treatment does not count. One brief episode, a review before treatment, uncertain onset or persistence, or no relevant assessment leaves the history open. Use a shared answer for different antidepressant courses only when it applies to all of them. Otherwise use dated evidence linked to each course. For each course that could qualify but still lacks a clear symptom history, report a possible finding and name \"Persistent postural hypotension or dizziness while on the antidepressant\".",
+  "cannot_be_seen": "Whether the person has dizziness or a blood pressure drop on standing now, how long it has lasted, and the dose really taken. Medicines bought without a prescription and medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "Could you review whether the antidepressant is still needed, check lying and standing blood pressure and clarify whether persistent dizziness or a postural blood pressure drop began during treatment?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

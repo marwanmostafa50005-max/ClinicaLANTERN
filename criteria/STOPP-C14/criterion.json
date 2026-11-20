@@ -1,0 +1,226 @@
+{
+  "id": "STOPP-C14",
+  "label": "STOPP C14",
+  "family": "STOPP_START",
+  "title": "Apixaban, dabigatran, edoxaban or rivaroxaban with a P-glycoprotein inhibitor",
+  "statement": "Apixaban, dabigatran, edoxaban, rivaroxaban and P-glycoprotein (P-gp) drug efflux pump inhibitors e.g., amiodarone, azithromycin, carvedilol, cyclosporin, dronedarone, itraconazole, ketoconazole (systemic), macrolides, quinine, ranolazine, tamoxifen, ticagrelor, verapamil (increased risk of bleeding).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Some medicines slow the removal of apixaban, dabigatran, edoxaban and rivaroxaban from the body, so the blood thinner can build up and bleeding becomes more likely.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Apixaban, dabigatran, edoxaban and rivaroxaban",
+      "ingredients": [
+        "apixaban",
+        "dabigatran",
+        "edoxaban",
+        "rivaroxaban"
+      ],
+      "brands": {
+        "apixaban": [
+          "Eliquis",
+          "Alexibic",
+          "Apexa",
+          "Apixor",
+          "Axibic",
+          "Elapex"
+        ],
+        "dabigatran": [
+          "Pradaxa"
+        ],
+        "edoxaban": [],
+        "rivaroxaban": [
+          "Xarelto",
+          "Ixarola",
+          "Rivoxa",
+          "Relaban",
+          "Rivalembic",
+          "Rivarelto",
+          "Rivator",
+          "Rivaxib",
+          "Rivaxotor",
+          "Roxabic",
+          "Roxalem",
+          "Roxator",
+          "Toriva",
+          "Troxa",
+          "Xaremed"
+        ]
+      },
+      "note": "Edoxaban is named in the criterion. No Australian brand is listed for it. Warfarin is not in this group. Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "B",
+      "name": "Systemic P-glycoprotein inhibitors",
+      "ingredients": [
+        "amiodarone",
+        "azithromycin",
+        "carvedilol",
+        "ciclosporin",
+        "clarithromycin",
+        "dronedarone",
+        "erythromycin",
+        "itraconazole",
+        "ketoconazole",
+        "quinine",
+        "ranolazine",
+        "roxithromycin",
+        "tamoxifen",
+        "ticagrelor",
+        "verapamil",
+        "ritonavir",
+        "diltiazem",
+        "posaconazole",
+        "tacrolimus",
+        "cobicistat"
+      ],
+      "brands": {
+        "amiodarone": [
+          "Cordarone X",
+          "Aratac",
+          "Cardinorm",
+          "Rithmik",
+          "Amdarone"
+        ],
+        "azithromycin": [
+          "Zithromax",
+          "Zedd",
+          "Zithro",
+          "Zitrocin"
+        ],
+        "carvedilol": [
+          "Dilatrend",
+          "Dicarz",
+          "Kredex",
+          "Dilasig",
+          "Vedilol",
+          "Carvidol",
+          "Volirop"
+        ],
+        "ciclosporin": [
+          "Neoral",
+          "Sandimmun",
+          "Cicloral"
+        ],
+        "clarithromycin": [
+          "Klacid",
+          "Kalixocin",
+          "Nexium Hp7",
+          "Klacid Hp 7",
+          "Clarac",
+          "Clarant",
+          "Clarihexal",
+          "Clarithro",
+          "Clarithrom"
+        ],
+        "dronedarone": [
+          "Multaq"
+        ],
+        "erythromycin": [
+          "EES",
+          "E-Mycin",
+          "Eryc"
+        ],
+        "itraconazole": [
+          "Sporanox",
+          "Lozanoc",
+          "Itracap",
+          "Itranox",
+          "Itrazo"
+        ],
+        "ketoconazole": [],
+        "quinine": [
+          "Quinate",
+          "Quinbisul",
+          "Quinsul"
+        ],
+        "ranolazine": [
+          "Ranexa"
+        ],
+        "roxithromycin": [
+          "Rulide",
+          "Biaxsig",
+          "Roximycin",
+          "Roxar",
+          "Roxide",
+          "Rulide D"
+        ],
+        "tamoxifen": [
+          "Nolvadex-D",
+          "Genox",
+          "Tamosin",
+          "Nolvadex",
+          "Tamoxen"
+        ],
+        "ticagrelor": [
+          "Brilinta",
+          "Bricalor",
+          "Ticalor",
+          "Tirela",
+          "Brilinta ODT",
+          "Novalant"
+        ],
+        "verapamil": [
+          "Isoptin",
+          "Isoptin SR",
+          "Anpec",
+          "Cordilox SR",
+          "Veracaps SR",
+          "Tarka",
+          "Anpec SR"
+        ],
+        "ritonavir": [
+          "Paxlovid",
+          "Norvir",
+          "Kaletra"
+        ],
+        "diltiazem": [
+          "Cardizem CD",
+          "Cardizem",
+          "Coras",
+          "Danzem",
+          "Diltahexal",
+          "Diltahexal CD",
+          "Dilzem",
+          "Dilzem CD",
+          "Ditatem",
+          "Vasocardol",
+          "Vasocardol CD"
+        ],
+        "posaconazole": [
+          "Noxafil",
+          "Posmed"
+        ],
+        "tacrolimus": [
+          "Prograf",
+          "Advagraf XL",
+          "Pacrolim",
+          "Tacrograf"
+        ],
+        "cobicistat": [
+          "Genvoya",
+          "Symtuza",
+          "Prezcobix",
+          "Evotaz"
+        ]
+      },
+      "note": "The macrolide antibiotics are azithromycin, clarithromycin, erythromycin and roxithromycin. The criterion spells ciclosporin as cyclosporin. Only medicines taken by mouth or injected count. Creams, gels, shampoos and eye drops do not count, for example ketoconazole cream or shampoo. No Australian brand of ketoconazole tablets is listed. Nexium Hp7 is esomeprazole with amoxicillin and clarithromycin. Klacid Hp 7 is omeprazole with amoxicillin and clarithromycin. Tarka is trandolapril with verapamil. The medicines printed in the criterion are examples. Oral ritonavir, including the ritonavir in Paxlovid, and oral diltiazem also count. Check the product information for the specific pair before describing the significance of the interaction. Norvir contains ritonavir. Kaletra contains lopinavir and ritonavir. Count oral or injected posaconazole and tacrolimus, and oral combinations containing cobicistat. Exclude tacrolimus ointment. The effect depends on the anticoagulant and inhibitor."
+    }
+  ],
+  "rule_for_models": "Apply this criterion only if the recorded age is 65 years or older, and if age is unknown, record that eligibility is unknown and do not flag under this criterion. Suspect a finding when at least one Group A medicine (apixaban, dabigatran, edoxaban or rivaroxaban) AND at least one Group B medicine (a systemic P-glycoprotein inhibitor) both appear in the history and their supply dates overlap or fall within 60 days of each other. A short course counts, for example one pack of a macrolide antibiotic supplied while the anticoagulant is being supplied.",
+  "cannot_be_seen": "The reason for each medicine, kidney function, body weight and any bleeding or bruising may be unknown unless recorded in the history. Also whether the prescriber has already allowed for the combination, whether a short course was finished, and medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "The anticoagulant together with the P-glycoprotein inhibitor, including the anticoagulant dose, kidney function and the patient's risk of bleeding.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

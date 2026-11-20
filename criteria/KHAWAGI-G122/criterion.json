@@ -1,0 +1,123 @@
+{
+  "id": "KHAWAGI-G122",
+  "label": "Khawagi review: Review lithium with a loop, thiazide or thiazide-like diuretic and include follow-up for newly started diuretics",
+  "family": "KHAWAGI",
+  "title": "Review lithium with a loop, thiazide or thiazide-like diuretic and include follow-up for newly started diuretics",
+  "statement": "Review lithium with a loop, thiazide or thiazide-like diuretic and include follow-up for newly started diuretics.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. S3 File.",
+    "citation": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. PLoS ONE 2019;14(5):e0217406, S3 File.",
+    "doi": "10.1371/journal.pone.0217406",
+    "url": "https://doi.org/10.1371/journal.pone.0217406.s003",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. PLoS ONE 2019;14(5):e0217406. https://doi.org/10.1371/journal.pone.0217406; S3 File, https://doi.org/10.1371/journal.pone.0217406.s003. © 2019 Khawagi et al., CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Changes were made. S3 indicator G122. Original screening wording and Australian adaptations. S3 reference(s) as indexed in the supplied qualification: [49]. Clinical cross-check: WA lithium guideline §§2.7–2.8 (https://www.wacountry.health.wa.gov.au/~/media/WACHS/Documents/About-us/Policies/Specialised-Medication---Lithium-Guideline.pdf?thn=0). Lithium monitoring around interactions (https://australianprescriber.tg.org.au/articles/lithium-therapy-and-its-interactions.html).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "Review lithium with a loop, thiazide or thiazide-like diuretic and include follow-up for newly started diuretics.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Lithium",
+      "ingredients": [
+        "lithium carbonate"
+      ],
+      "brands": {
+        "lithium carbonate": [
+          "Lithicarb",
+          "Quilonum SR",
+          "Lithicarb SR",
+          "Lithquil SR",
+          "Lithspen"
+        ]
+      },
+      "note": "Count systemic lithium, including a supply labelled simply lithium."
+    },
+    {
+      "key": "B",
+      "name": "Loop, thiazide and thiazide-like diuretics",
+      "ingredients": [
+        "bumetanide",
+        "furosemide",
+        "etacrynic acid",
+        "hydrochlorothiazide",
+        "chlortalidone",
+        "indapamide",
+        "metolazone"
+      ],
+      "brands": {
+        "bumetanide": [
+          "Burinex"
+        ],
+        "furosemide": [
+          "Lasix",
+          "Frusax",
+          "Frusehexal",
+          "Frusemix",
+          "Frusemix-M",
+          "Frusid",
+          "Furo",
+          "Lasix High Dose",
+          "Lasix M",
+          "Uremide",
+          "Urex",
+          "Urex Forte",
+          "Urex-M"
+        ],
+        "etacrynic acid": [
+          "Edecrin"
+        ],
+        "hydrochlorothiazide": [
+          "Dithiazide",
+          "Karvezide",
+          "Micardis Plus",
+          "Atacand Plus",
+          "Olmetec Plus",
+          "Co-Diovan",
+          "Moduretic",
+          "Avapro HCT",
+          "Sevikar HCT",
+          "Exforge HCT"
+        ],
+        "chlortalidone": [
+          "Hygroton 25"
+        ],
+        "indapamide": [
+          "Natrilix SR",
+          "APO-Indapamide SR",
+          "Odaplix SR",
+          "Dapa-Tabs",
+          "Indahexal",
+          "Indapamol",
+          "Insig",
+          "Napamide",
+          "Natrilix",
+          "Tenaxil SR",
+          "Coversyl Plus",
+          "Triplixam SR"
+        ],
+        "metolazone": []
+      },
+      "note": "Count qualifying ingredients in combination products. A potassium-sparing diuretic alone is outside the proposed group. Match frusemide to furosemide, chlorthalidone to chlortalidone and ethacrynic acid to etacrynic acid. Count each pair as one ingredient."
+    }
+  ],
+  "rule_for_models": "Check lithium with a loop, thiazide or thiazide-like diuretic. Estimate cover from each supply date, quantity and directed daily use. Flag shared treatment days even if the supply dates are more than 60 days apart. If cover is uncertain, supplies within 60 days of each other can prompt a possible finding. If the dates and directed doses show that one course ended before the other began, give no interaction finding and do not ask about monitoring for that pair. Exclude potassium-sparing monotherapy. If directions are as needed or unclear and co-use is plausible, report only a possible finding. Ask which doses were actually taken and when the diuretic started. Ask about recent lithium blood tests and any new tremor, vomiting or unsteadiness. The reason for either medicine does not exclude an overlap. For a new diuretic following at least 90 observable days with no recorded supply or continuing cover for a qualifying diuretic, include any serum lithium result around day 5 to 7 after the start, dose adjustment or individual monitoring plan in the same finding. Cite both supplies and any relevant monitoring line. If monitoring is undocumented, retain the interaction finding and ask whether a test or plan exists. A shorter history leaves the start uncertain.",
+  "cannot_be_seen": "Dispensing does not establish actual use, indication or a prescriber’s intent. Treatment and assessments elsewhere may be missing.",
+  "ask_the_gp": "Could you review concurrent lithium and diuretic treatment, including the plan for serum lithium levels and kidney function after a new diuretic start?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "Serum lithium",
+      "meets": "Follow-up only for a new diuretic. Cite a dated lithium concentration around day 5 to 7 after the diuretic started if available. Its absence does not rule out or prove the interaction."
+    },
+    {
+      "kind": "observation",
+      "what": "Individual lithium monitoring or dose adjustment plan",
+      "meets": "For a new diuretic, include any documented plan. If no level or plan is recorded, report the qualifying interaction and ask what follow-up took place."
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "id": "START-B3",
+  "label": "START B3",
+  "family": "STOPP_START",
+  "title": "Coronary artery disease with no ACE inhibitor",
+  "statement": "Angiotensin Converting Enzyme (ACE) inhibitor with coronary artery disease.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "For a person with coronary artery disease, review whether an ACE inhibitor is appropriate. There is no ACE inhibitor omission if the person is currently taking sacubitril with valsartan (Entresto) or an angiotensin receptor blocker documented as the appropriate alternative. An ACE inhibitor must not be combined with sacubitril with valsartan.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "ACE inhibitors (medicines that meet this criterion)",
+      "ingredients": [
+        "perindopril",
+        "ramipril",
+        "lisinopril",
+        "enalapril",
+        "quinapril",
+        "trandolapril",
+        "captopril",
+        "fosinopril"
+      ],
+      "brands": {
+        "perindopril": [
+          "Coversyl",
+          "Coversyl Plus",
+          "Coveram",
+          "Idaprex",
+          "Idaprex Arg",
+          "Indopril",
+          "Indosyl Mono",
+          "Ozapace",
+          "Perindo",
+          "Perindo Arg",
+          "Perindoarg",
+          "Perindobell",
+          "Perisyl",
+          "Prexum",
+          "Triplixam SR",
+          "Reaptan"
+        ],
+        "ramipril": [
+          "Tritace",
+          "Prilace",
+          "Ramace",
+          "Ramibell",
+          "Tryzan",
+          "Vascalace",
+          "Triasyn"
+        ],
+        "lisinopril": [
+          "Zestril",
+          "Prinivil",
+          "Zestoretic",
+          "Fibsol",
+          "Linopril",
+          "Liprace",
+          "Lisinobell",
+          "Lisinotrust",
+          "Lisodrate",
+          "Lisodur",
+          "Lisoril",
+          "Ozten",
+          "Sinop",
+          "Zinopril"
+        ],
+        "enalapril": [
+          "Renitec",
+          "Acetec",
+          "Alphapril",
+          "Amprace",
+          "Auspril",
+          "Elapril",
+          "Enahexal",
+          "Enalabell",
+          "Malean",
+          "Renitec M",
+          "Zan-Extra"
+        ],
+        "quinapril": [
+          "Accupril",
+          "Accuretic",
+          "Acquin",
+          "Aquinafil",
+          "Filpril",
+          "Qpril"
+        ],
+        "trandolapril": [
+          "Gopten",
+          "Tarka",
+          "Dolapril",
+          "Goricap",
+          "Odrik",
+          "Tranalpha"
+        ],
+        "captopril": [
+          "Capoten",
+          "Acenorm",
+          "Captohexal",
+          "Topace",
+          "Zedace"
+        ],
+        "fosinopril": [
+          "APO-Fosinopril",
+          "Monace 20",
+          "Monopril"
+        ]
+      },
+      "note": "Coversyl Plus is perindopril with indapamide. Coveram is perindopril with amlodipine. Triapin is ramipril with felodipine. Zestoretic is lisinopril with hydrochlorothiazide. Accuretic is quinapril with hydrochlorothiazide. Tarka is trandolapril with verapamil. Combination products count. Generic packs that show the ingredient name with a company name count too. Angiotensin receptor blockers such as candesartan are not ACE inhibitors and are not listed. Triasyn contains ramipril with felodipine."
+    },
+    {
+      "key": "B",
+      "name": "Medicines that imply the condition",
+      "ingredients": [
+        "glyceryl trinitrate",
+        "isosorbide mononitrate",
+        "nicorandil",
+        "ranolazine"
+      ],
+      "brands": {
+        "glyceryl trinitrate": [
+          "Anginine",
+          "Nitrolingual Pumpspray",
+          "Minitran",
+          "Nitro-Dur",
+          "Lycinate",
+          "Nitrostat",
+          "Transiderm-Nitro"
+        ],
+        "isosorbide mononitrate": [
+          "Imdur",
+          "Duride",
+          "Imdur Durules",
+          "Imtrate",
+          "Isobide MR",
+          "Isomonit",
+          "Monodur",
+          "Monodur Durules"
+        ],
+        "nicorandil": [
+          "Ikorel",
+          "Ikotab"
+        ],
+        "ranolazine": [
+          "Ranexa"
+        ]
+      },
+      "note": "These angina medicines imply coronary artery disease. Clopidogrel and similar medicines are not listed because they are also used for stroke and leg artery disease. For glyceryl trinitrate, count an antianginal sublingual tablet, spray or transdermal patch. Exclude rectal ointment. If the preparation is unclear, the ingredient alone does not establish an angina medicine supply."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Coronary artery disease",
+      "meets": "A documented history of coronary artery disease meets, including a previous heart attack, coronary stent, coronary bypass or angina due to coronary artery disease. A stent or bypass at another site does not establish this diagnosis. If the site is unclear and there is no other evidence, use Not known."
+    }
+  ],
+  "rule_for_models": "Apply this criterion only to people aged 65 years or older. If age is unknown, confirm it before reporting a finding. If the record confirms current sacubitril with valsartan (Entresto), or an angiotensin receptor blocker documented as the appropriate alternative, report no ACE inhibitor omission. An ACE inhibitor must not be combined with sacubitril with valsartan. If a supply of sacubitril with valsartan (Entresto) or an angiotensin receptor blocker has unclear current use or purpose, ask for clarification before raising an omission. Otherwise, suspect a finding when the record shows a coronary artery disease condition line and no supply of any Group A medicine in the last six months of the record. Cite the coronary artery disease line. When there is no coronary artery disease line but a Group B medicine is supplied and no Group A medicine is supplied in the last six months, report a possible finding, name the missing fact, and cite the Group B supply lines. When a Group A medicine is supplied in the last six months, or the record shows the fact does not apply, there is no finding.",
+  "cannot_be_seen": "The record may omit coronary disease or a reason an ACE inhibitor is unsuitable, such as cough, facial swelling, high potassium or kidney disease. It may show an angiotensin receptor blocker without explaining why it was chosen. Medicines supplied by a hospital or another pharmacy may be missing.",
+  "ask_the_gp": "Whether an ACE inhibitor should be started, or the reason it is not suitable.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

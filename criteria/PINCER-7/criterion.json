@@ -1,0 +1,64 @@
+{
+  "id": "PINCER-7",
+  "label": "PINCER 7",
+  "family": "PINCER",
+  "title": "Lithium without a recent blood level",
+  "statement": "Patients receiving lithium for at least three months who have not had a recorded check of their lithium levels within the previous three months - More specifically, patients with one or more prescriptions for lithium recorded on computer three to six months prior to data collection and in the three months prior to data collection who have not had a computer-recorded lithium level within the previous three months.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Avery AJ, et al. Protocol for the PINCER trial. Trials 2009;10:28; correction Trials 2010;11:23",
+    "citation": "Avery AJ, Rodgers S, Cantrill JA, et al. Protocol for the PINCER trial. Trials 2009;10:28. doi:10.1186/1745-6215-10-28; correction Trials 2010;11:23",
+    "doi": "10.1186/1745-6215-10-28",
+    "url": "https://doi.org/10.1186/1745-6215-10-28",
+    "licence": "CC BY 2.0",
+    "licence_status": "proposed",
+    "credit": "Avery AJ, Rodgers S, Cantrill JA, et al. Protocol for the PINCER trial. Trials 2009;10:28. doi:10.1186/1745-6215-10-28; correction Trials 2010;11:23",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "PINCER flags ongoing lithium supply when the record has no lithium level in the past three months. When the next level is due depends on the patient's monitoring plan and clinical circumstances.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Lithium",
+      "ingredients": [
+        "lithium carbonate"
+      ],
+      "brands": {
+        "lithium carbonate": [
+          "Lithicarb",
+          "Quilonum SR",
+          "Lithicarb SR",
+          "Lithquil SR",
+          "Lithspen"
+        ]
+      }
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Serum lithium level recorded in the last three months",
+      "meets": "No serum lithium level recorded in the three months before the latest date in the record",
+      "options": [
+        {
+          "words": "Serum lithium level recorded in the last three months",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "No serum lithium level recorded in the last three months",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Suspect a finding when lithium (Group A) is supplied at least once three to six months before the latest date in the record AND at least once in the last three months, AND the record shows no serum lithium level in the last three months. Count the three-month and six-month windows back from the latest date in the record. A dated serum lithium result in the last three months means no finding, regardless of its value. An observation confirming a serum lithium level was recorded in the last three months also means no finding. Otherwise, if the newest dated serum lithium result falls before the three-month window, or an observation confirms no serum lithium level was recorded in the last three months, report a finding and cite a qualifying lithium supply from each window plus the newest old lithium result line or that observation line. If neither a dated result nor a monitoring answer settles the check, report a possible finding. This includes a missing or undated result or a Not known answer without other evidence. Cite a qualifying lithium supply from each window and name the missing fact exactly: \"Serum lithium level recorded in the last three months\". The date on an observation line is when the answer was recorded, not the date of a blood test.",
+  "cannot_be_seen": "Levels taken elsewhere and not recorded here, how well the person has been, and whether the next level is already booked.",
+  "ask_the_gp": "Could you confirm the date of the latest lithium level and review when the next level is due?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

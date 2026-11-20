@@ -1,0 +1,56 @@
+[
+  {
+    "file": "STOPP-J5/pos-fact.csv",
+    "kind": "positive",
+    "about": "Progynova (estradiol, a systemic oestrogen) is supplied every four weeks from December 2025 and the record has a breast cancer line.",
+    "findings": [
+      {
+        "criterion": "STOPP-J5",
+        "must_cite": [
+          [
+            "L003",
+            "L008",
+            "L012",
+            "L015",
+            "L020",
+            "L024",
+            "L028",
+            "L031",
+            "L036",
+            "L040"
+          ],
+          [
+            "L002"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-J5/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about breast cancer; Estradot (estradiol patch, a systemic oestrogen) is supplied every four weeks.",
+    "findings": [
+      {
+        "criterion": "STOPP-J5",
+        "must_cite": [
+          [
+            "L002",
+            "L006",
+            "L009",
+            "L012",
+            "L016",
+            "L019",
+            "L022"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-J5/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Progynova (estradiol) is supplied, but the record says there is no history of breast cancer (normal screening mammogram).",
+    "findings": []
+  }
+]

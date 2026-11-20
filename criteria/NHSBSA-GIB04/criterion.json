@@ -1,0 +1,182 @@
+{
+  "id": "NHSBSA-GIB04",
+  "label": "NHSBSA GIB04",
+  "family": "NHSBSA",
+  "title": "Aspirin with another antiplatelet and no gastro-protection",
+  "statement": "Patients 18 years old or over prescribed aspirin and another anti-platelet and not concurrently prescribed a gastro-protective medicine.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Medication Safety - Indicators Specification",
+    "citation": "NHSBSA and NHS Digital. Medication Safety - Indicators Specification. August 2019.",
+    "url": "https://www.nhsbsa.nhs.uk/sites/default/files/2019-08/Medication%20Safety%20-%20Indicators%20Specification%20%28Aug19%29.pdf",
+    "licence": "UK Open Government Licence v3.0",
+    "licence_status": "proposed",
+    "credit": "Medication Safety - Indicators Specification, NHSBSA Copyright 2026. This information is licenced under the terms of the Open Government Licence. Contains information from NHS England, licenced under the current version of the Open Government Licence (UK OGL v3.0).",
+    "modification_notice": "Statement reproduced without changes. Australian medicine names, test histories and review text are adaptations."
+  },
+  "plain_summary": "Taking aspirin together with another antiplatelet medicine increases the risk of gastrointestinal bleeding when no ongoing gastro-protective medicine is supplied. This indicator comes from the August 2019 NHSBSA Medication Safety Indicators Specification and was not selected for the November 2025 Harms Dashboard. Australian practice focuses gastro-protection on dual antiplatelet patients with bleeding risk factors (such as older age, past ulcer or gastrointestinal bleeding, or other bleeding-risk medicines), and when clopidogrel is used, pantoprazole, lansoprazole or rabeprazole is preferred over omeprazole or esomeprazole. At the counter, ask whether the patient takes non-prescription aspirin, proton pump inhibitors or H2-receptor antagonists, and remind them never to stop dual antiplatelet therapy abruptly without prescriber advice.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Aspirin and aspirin-containing antiplatelet combinations",
+      "ingredients": [
+        "aspirin",
+        "aspirin with clopidogrel",
+        "aspirin with dipyridamole",
+        "aspirin with codeine"
+      ],
+      "brands": {
+        "aspirin": [
+          "Cartia",
+          "Astrix",
+          "Cardiprin",
+          "Spren",
+          "Solprin",
+          "Disprin",
+          "Aspro",
+          "Aspro Clear"
+        ],
+        "aspirin with clopidogrel": [
+          "CoPlavix",
+          "DuoCover",
+          "DuoPlidogrel",
+          "Piax Plus Aspirin",
+          "APX-Clopidogrel/Aspirin"
+        ],
+        "aspirin with dipyridamole": [
+          "Asasantin",
+          "Asasantin SR",
+          "Diasp SR"
+        ],
+        "aspirin with codeine": [
+          "Aspalgin"
+        ]
+      },
+      "note": "Oral systemic aspirin (including low-dose antiplatelet aspirin such as 100 mg daily, oral analgesic strengths and oral aspirin with codeine such as Aspalgin) and fixed-dose combination products containing aspirin with clopidogrel or dipyridamole count. Aspalgin contains oral aspirin with codeine and counts as Group A only. CoPlavix, DuoCover, DuoPlidogrel, Piax Plus Aspirin and APX-Clopidogrel/Aspirin contain aspirin with clopidogrel. Asasantin, Asasantin SR and Diasp SR contain aspirin with dipyridamole. A single supply of an aspirin with clopidogrel or aspirin with dipyridamole fixed-dose combination product counts as BOTH Group A and Group B at the same time. Topical salicylate creams or rubs do not count. Generic packs that show the ingredient name count too."
+    },
+    {
+      "key": "B",
+      "name": "Other antiplatelet medicines",
+      "ingredients": [
+        "clopidogrel",
+        "prasugrel",
+        "ticagrelor",
+        "dipyridamole",
+        "aspirin with clopidogrel",
+        "aspirin with dipyridamole"
+      ],
+      "brands": {
+        "clopidogrel": [
+          "Plavix",
+          "Iscover",
+          "Piax",
+          "Plavicor",
+          "Clovix",
+          "Plidogrel"
+        ],
+        "prasugrel": [
+          "Effient",
+          "Prasugrel SCP",
+          "Prasugrel Lupin"
+        ],
+        "ticagrelor": [
+          "Brilinta",
+          "Ticalor",
+          "Tirela"
+        ],
+        "dipyridamole": [
+          "Persantin",
+          "Persantin SR"
+        ],
+        "aspirin with clopidogrel": [
+          "CoPlavix",
+          "DuoCover",
+          "DuoPlidogrel",
+          "Piax Plus Aspirin",
+          "APX-Clopidogrel/Aspirin"
+        ],
+        "aspirin with dipyridamole": [
+          "Asasantin",
+          "Asasantin SR",
+          "Diasp SR"
+        ]
+      },
+      "note": "Clopidogrel, prasugrel, ticagrelor, dipyridamole and fixed-dose combination products containing aspirin with clopidogrel or dipyridamole count. CoPlavix, DuoCover, DuoPlidogrel, Piax Plus Aspirin and APX-Clopidogrel/Aspirin contain clopidogrel with aspirin. Asasantin, Asasantin SR and Diasp SR contain dipyridamole with aspirin. A single supply of any of those fixed-dose combination products counts as BOTH Group A and Group B at the same time. Single-ingredient aspirin does not belong in Group B and cannot trigger against itself. Oral and parenteral anticoagulants (such as warfarin, apixaban, dabigatran, rivaroxaban or enoxaparin) do not belong in this group. Generic packs that show the ingredient name count too."
+    },
+    {
+      "key": "C",
+      "name": "Gastro-protective medicines",
+      "ingredients": [
+        "omeprazole",
+        "esomeprazole",
+        "pantoprazole",
+        "lansoprazole",
+        "rabeprazole",
+        "famotidine",
+        "nizatidine",
+        "misoprostol",
+        "ranitidine"
+      ],
+      "brands": {
+        "omeprazole": [
+          "Losec",
+          "Acimax",
+          "Maxor",
+          "Probitor",
+          "Ozmep",
+          "Omepral"
+        ],
+        "esomeprazole": [
+          "Nexium",
+          "Esopreze",
+          "Nexazole",
+          "Nexole",
+          "Noxicid"
+        ],
+        "pantoprazole": [
+          "Somac",
+          "Ozpan",
+          "Panthron",
+          "Salpraz",
+          "Sozol"
+        ],
+        "lansoprazole": [
+          "Zoton",
+          "Zoton FasTabs",
+          "Zopral",
+          "Lanzopran"
+        ],
+        "rabeprazole": [
+          "Pariet",
+          "Parbezol",
+          "Zabep"
+        ],
+        "famotidine": [
+          "Ausfam",
+          "Pepzan",
+          "Pepcidine"
+        ],
+        "nizatidine": [
+          "Nizac",
+          "Tacidine",
+          "Tazac"
+        ],
+        "misoprostol": [
+          "Cytotec"
+        ],
+        "ranitidine": [
+          "Zantac",
+          "Zantac 150",
+          "Zantac 300"
+        ]
+      },
+      "note": "A supply of any listed ongoing proton pump inhibitor, H2-receptor antagonist or misoprostol from 2 calendar months before through 2 calendar months after the qualifying antiplatelet supply dates prevents the finding. Only gastrointestinal ulcer-prophylaxis misoprostol (such as Cytotec 200 microgram tablets) counts as misoprostol. Antacids and alginates (such as Gaviscon or Mylanta), short 7-day Helicobacter pylori eradication kits (such as Nexium Hp7, Esomeprazole Sandoz Hp7 or Klacid Hp7) and obstetric misoprostol packs (such as GyMiso or MS-2 Step) do not count as ongoing gastro-protection. Generic packs that show the ingredient name count too."
+    }
+  ],
+  "rule_for_models": "Use this rule for people aged 18 years or over. Suspect a finding when supplies of BOTH Group A (aspirin) and Group B (another antiplatelet) have supply dates in the same calendar month or within 2 calendar months of each other, or when a single fixed-dose combination containing both (such as CoPlavix, DuoCover, DuoPlidogrel, Piax Plus Aspirin, APX-Clopidogrel/Aspirin, Asasantin SR or Diasp SR) is supplied, AND no supply of Group C ongoing gastro-protective medicine appears from 2 calendar months before through 2 calendar months after those antiplatelet supply dates. Cite one qualifying supply from Group A and one from Group B, or cite the fixed-dose combination supply line if one product supplies both. Antacids, alginates, 7-day Helicobacter pylori eradication kits and obstetric misoprostol packs do not count as Group C gastro-protection. If age is not recorded and this medicine pattern is present, report only a possible finding and ask the pharmacist to confirm that the patient is aged 18 years or over.",
+  "cannot_be_seen": "The record cannot show aspirin bought without a prescription (such as Cartia or Astrix), non-prescription proton pump inhibitors or H2-receptor antagonists, medicines supplied by a hospital or another pharmacy, the clinical reason or planned duration for dual antiplatelet therapy, or the patient's individual gastrointestinal bleeding risk factors.",
+  "ask_the_gp": "Could you review whether ongoing gastro-protection is appropriate alongside dual antiplatelet therapy, noting that if the patient takes clopidogrel, pantoprazole, lansoprazole or rabeprazole is preferred over omeprazole or esomeprazole, and confirm the planned duration of dual antiplatelet therapy? Neither antiplatelet medicine should be stopped abruptly without prescriber review.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

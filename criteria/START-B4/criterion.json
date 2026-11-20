@@ -1,0 +1,162 @@
+{
+  "id": "START-B4",
+  "label": "START B4",
+  "family": "STOPP_START",
+  "title": "Angina with no beta-blocker",
+  "statement": "Beta-blocker with symptomatic coronary artery disease.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "For a person with symptomatic coronary artery disease, review whether a beta-blocker is appropriate. Isolated vasospastic angina does not trigger this omission. Check for a documented reason a beta-blocker is unsuitable.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Beta-blockers (medicines that meet this criterion)",
+      "ingredients": [
+        "atenolol",
+        "metoprolol",
+        "bisoprolol",
+        "carvedilol",
+        "nebivolol",
+        "propranolol"
+      ],
+      "brands": {
+        "atenolol": [
+          "Tenormin",
+          "Noten",
+          "Anselol",
+          "Atehexal",
+          "Aten",
+          "Colaptyn",
+          "Tenolten",
+          "Tensig"
+        ],
+        "metoprolol": [
+          "Betaloc",
+          "Lopresor",
+          "Minax",
+          "Toprol-XL",
+          "Agtolac",
+          "Metatar",
+          "Metohexal",
+          "Metolol",
+          "Metrol",
+          "Metrol-XL",
+          "Minax XL",
+          "Mistrom",
+          "Tobeta-XL",
+          "Topreloc-XL"
+        ],
+        "bisoprolol": [
+          "Bicor",
+          "Beprol",
+          "Bicard",
+          "Biso",
+          "Bispro"
+        ],
+        "carvedilol": [
+          "Dilatrend",
+          "Carvidol",
+          "Dicarz",
+          "Dilasig",
+          "Kredex",
+          "Vedilol",
+          "Volirop"
+        ],
+        "nebivolol": [
+          "Nebilet",
+          "Lobivon",
+          "Lobivon Composite Starter Titration Pack",
+          "Nebaloc",
+          "Nebilet Composite Starter Titration Pack",
+          "Nepiten"
+        ],
+        "propranolol": [
+          "Inderal",
+          "Deralin",
+          "Drofate",
+          "Hemangiol"
+        ]
+      },
+      "note": "Sotalol is not listed. Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "B",
+      "name": "Medicines that imply the condition",
+      "ingredients": [
+        "glyceryl trinitrate",
+        "isosorbide mononitrate",
+        "nicorandil",
+        "ranolazine"
+      ],
+      "brands": {
+        "glyceryl trinitrate": [
+          "Anginine",
+          "Nitrolingual Pumpspray",
+          "Minitran",
+          "Nitro-Dur",
+          "Lycinate",
+          "Nitrostat",
+          "Transiderm-Nitro"
+        ],
+        "isosorbide mononitrate": [
+          "Imdur",
+          "Duride",
+          "Imdur Durules",
+          "Imtrate",
+          "Isobide MR",
+          "Isomonit",
+          "Monodur",
+          "Monodur Durules"
+        ],
+        "nicorandil": [
+          "Ikorel",
+          "Ikotab"
+        ],
+        "ranolazine": [
+          "Ranexa"
+        ]
+      },
+      "note": "Nitrates and similar angina medicines imply symptomatic coronary artery disease. For glyceryl trinitrate, count an antianginal sublingual tablet, spray or transdermal patch. Exclude rectal ointment. If the preparation is unclear, the ingredient alone does not establish an angina medicine supply."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Symptomatic coronary artery disease (for example angina pectoris)",
+      "meets": "Confirm current symptoms due to coronary artery disease. Isolated vasospastic angina, also called Prinzmetal or variant angina, gives no finding. Use Not known when the diagnosis or its type is uncertain and the distinction would change the decision.",
+      "options": [
+        {
+          "words": "Symptomatic coronary disease other than isolated vasospastic angina",
+          "effect": "meets"
+        },
+        {
+          "words": "Isolated vasospastic angina",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "No symptomatic coronary artery disease",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this criterion only to people aged 65 years or older. If age is unknown, confirm it before reporting a finding. If the record or the pharmacist identifies isolated vasospastic angina (Prinzmetal or variant angina), give no finding. If isolated vasospastic angina is a specific possibility and the distinction is unresolved, keep an otherwise qualifying omission possible until clarified. Suspect a finding when the record shows a condition line for angina or symptomatic coronary artery disease and no supply of any Group A medicine in the last six months of the record; cite the symptomatic coronary artery disease line. When there is no symptomatic coronary artery disease line but a Group B medicine is supplied and no Group A medicine is supplied in the last six months, report a possible finding, name the missing fact, and cite the Group B supply lines. When a Group A medicine is supplied in the last six months, or the record shows the fact does not apply, there is no finding.",
+  "cannot_be_seen": "The record may omit current symptoms, a very slow heart rate, asthma or another reason a beta-blocker is unsuitable. It may show a calcium channel blocker without explaining why it was chosen. Medicines supplied by a hospital or another pharmacy may be missing.",
+  "ask_the_gp": "Whether a beta-blocker should be started, or the reason it is not suitable.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

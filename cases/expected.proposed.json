@@ -1,0 +1,1161 @@
+{
+  "signed_by_clinical_reviewer": null,
+  "cases": [
+    {
+      "file": "STOPP-C10/pos-brand.csv",
+      "kind": "positive",
+      "about": "Mobic (meloxicam, an NSAID) is supplied four times from June to September 2026 while Eliquis (apixaban) is supplied every month, and both appear by brand name only.",
+      "findings": [
+        {
+          "criterion": "STOPP-C10",
+          "must_cite": [
+            [
+              "L022",
+              "L026",
+              "L030",
+              "L034"
+            ],
+            [
+              "L001",
+              "L004",
+              "L007",
+              "L011",
+              "L015",
+              "L019",
+              "L023",
+              "L027",
+              "L031",
+              "L035"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "STOPP-C10/pos-buried.csv",
+      "kind": "positive",
+      "about": "Naprosyn SR (naproxen, an NSAID) is supplied three times from January to March 2026, in the middle of a 14-month history, while warfarin (Coumadin) is supplied throughout.",
+      "findings": [
+        {
+          "criterion": "STOPP-C10",
+          "must_cite": [
+            [
+              "L036",
+              "L041",
+              "L047"
+            ],
+            [
+              "L001",
+              "L010",
+              "L016",
+              "L025",
+              "L035",
+              "L042",
+              "L052",
+              "L058",
+              "L067",
+              "L076"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "STOPP-C10/near-miss.csv",
+      "kind": "near_miss",
+      "about": "Voltaren (diclofenac) was last supplied in September 2025 and Xarelto (rivaroxaban) was first supplied in April 2026, about seven months later, so the two were never supplied within 60 days of each other.",
+      "findings": []
+    },
+    {
+      "file": "STOPP-B3/pos-brand.csv",
+      "kind": "positive",
+      "about": "Betaloc (metoprolol) is supplied throughout and Cardizem CD (diltiazem) is added from June 2026, both by brand name only.",
+      "findings": [
+        {
+          "criterion": "STOPP-B3",
+          "must_cite": [
+            [
+              "L001",
+              "L007",
+              "L013",
+              "L017",
+              "L025",
+              "L031"
+            ],
+            [
+              "L020",
+              "L024",
+              "L028",
+              "L032",
+              "L035"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "STOPP-B3/pos-buried.csv",
+      "kind": "positive",
+      "about": "Verapamil (Isoptin SR) is supplied four times from January to April 2026, in the middle of a 14-month history, while atenolol (Noten) is supplied every month.",
+      "findings": [
+        {
+          "criterion": "STOPP-B3",
+          "must_cite": [
+            [
+              "L001",
+              "L006",
+              "L011",
+              "L017",
+              "L022",
+              "L028",
+              "L033",
+              "L039",
+              "L045",
+              "L051",
+              "L057",
+              "L062",
+              "L068",
+              "L073",
+              "L078"
+            ],
+            [
+              "L036",
+              "L042",
+              "L048",
+              "L054"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "STOPP-B3/near-miss.csv",
+      "kind": "near_miss",
+      "about": "Metoprolol is supplied with amlodipine, a calcium channel blocker of another kind, and no verapamil or diltiazem is supplied.",
+      "findings": []
+    },
+    {
+      "file": "STOPP-B13/pos-brand.csv",
+      "kind": "positive",
+      "about": "Aldactone (spironolactone) is added from March 2026 to monthly Coversyl (perindopril), both by brand name only.",
+      "findings": [
+        {
+          "criterion": "STOPP-B13",
+          "must_cite": [
+            [
+              "L011",
+              "L022",
+              "L034"
+            ],
+            [
+              "L001",
+              "L005",
+              "L009",
+              "L013",
+              "L016",
+              "L020",
+              "L024",
+              "L027",
+              "L031",
+              "L035"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "STOPP-B13/pos-buried.csv",
+      "kind": "positive",
+      "about": "Eplerenone (Inspra) is supplied four times from December 2025 to March 2026, in the middle of a 15-month history, while Karvezide (irbesartan with hydrochlorothiazide) is supplied every month.",
+      "findings": [
+        {
+          "criterion": "STOPP-B13",
+          "must_cite": [
+            [
+              "L029",
+              "L034",
+              "L039",
+              "L046"
+            ],
+            [
+              "L001",
+              "L005",
+              "L009",
+              "L014",
+              "L019",
+              "L023",
+              "L027",
+              "L032",
+              "L037",
+              "L043",
+              "L049",
+              "L054",
+              "L060",
+              "L065",
+              "L070",
+              "L075"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "STOPP-B13/near-miss.csv",
+      "kind": "near_miss",
+      "about": "Perindopril (Coversyl) was last supplied in July 2025 and spironolactone (Aldactone) was first supplied in July 2026, about a year later, so the two were never supplied within 60 days of each other.",
+      "findings": []
+    },
+    {
+      "file": "STOPP-C14/pos-brand.csv",
+      "kind": "positive",
+      "about": "Isoptin SR (verapamil, a P-glycoprotein inhibitor named by the criterion) is supplied every month from March 2026 while Eliquis (apixaban) is supplied every month, and both appear by brand name only.",
+      "findings": [
+        {
+          "criterion": "STOPP-C14",
+          "must_cite": [
+            [
+              "L001",
+              "L003",
+              "L006",
+              "L009",
+              "L012",
+              "L016",
+              "L020",
+              "L023",
+              "L026",
+              "L029"
+            ],
+            [
+              "L007",
+              "L010",
+              "L013",
+              "L017",
+              "L021",
+              "L024",
+              "L027",
+              "L030"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "STOPP-C14/pos-buried.csv",
+      "kind": "positive",
+      "about": "Two packs of Klacid (clarithromycin, a macrolide) are supplied in February 2026, in the middle of a 14-month history, while rivaroxaban (Xarelto) is supplied throughout.",
+      "findings": [
+        {
+          "criterion": "STOPP-C14",
+          "must_cite": [
+            [
+              "L001",
+              "L005",
+              "L009",
+              "L014",
+              "L018",
+              "L023",
+              "L027",
+              "L031",
+              "L037",
+              "L041",
+              "L045",
+              "L049",
+              "L054",
+              "L058",
+              "L062",
+              "L066"
+            ],
+            [
+              "L035",
+              "L036"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "STOPP-C14/near-miss.csv",
+      "kind": "near_miss",
+      "about": "Klacid (clarithromycin) was supplied once in November 2025, about seven months before Eliquis (apixaban) started in June 2026, and the medicines supplied with Eliquis (amlodipine, doxycycline, rosuvastatin, paracetamol) are not P-glycoprotein inhibitors named by the criterion.",
+      "findings": []
+    },
+    {
+      "file": "STOPP-D18/pos-brand.csv",
+      "kind": "positive",
+      "about": "Aricept (donepezil) is started in March 2026 while Tenormin (atenolol) is supplied every month, both by brand name only.",
+      "findings": [
+        {
+          "criterion": "STOPP-D18",
+          "must_cite": [
+            [
+              "L006",
+              "L009",
+              "L012",
+              "L015",
+              "L019",
+              "L022",
+              "L026",
+              "L029",
+              "L032"
+            ],
+            [
+              "L001",
+              "L003",
+              "L007",
+              "L010",
+              "L013",
+              "L017",
+              "L020",
+              "L023",
+              "L027",
+              "L030"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "STOPP-D18/pos-buried.csv",
+      "kind": "positive",
+      "about": "Rivastigmine patches (Exelon Patch) are supplied four times from December 2025 to March 2026, in the middle of a 14-month history, while digoxin (Lanoxin PG) is supplied throughout.",
+      "findings": [
+        {
+          "criterion": "STOPP-D18",
+          "must_cite": [
+            [
+              "L029",
+              "L035",
+              "L040",
+              "L045"
+            ],
+            [
+              "L001",
+              "L018",
+              "L034",
+              "L050",
+              "L067"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "STOPP-D18/near-miss.csv",
+      "kind": "near_miss",
+      "about": "Memantine is a dementia medicine but not an acetylcholinesterase inhibitor, so the metoprolol has no acetylcholinesterase inhibitor with it.",
+      "findings": []
+    },
+    {
+      "file": "STOPP-L2/pos-brand.csv",
+      "kind": "positive",
+      "about": "Palexia SR (tapentadol), named by brand only, is supplied every two weeks for regular twice-daily use from March to September 2026, and no laxative is supplied at any time.",
+      "findings": [
+        {
+          "criterion": "STOPP-L2",
+          "must_cite": [
+            [
+              "L009",
+              "L010",
+              "L013",
+              "L014",
+              "L017",
+              "L018",
+              "L021",
+              "L023",
+              "L026",
+              "L027",
+              "L030",
+              "L031",
+              "L032",
+              "L035",
+              "L036"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "STOPP-L2/pos-buried.csv",
+      "kind": "positive",
+      "about": "OxyContin (oxycodone) is supplied every two weeks for regular twice-daily use from December 2025 to March 2026, in the middle of a 14-month history, and no laxative is supplied at any time.",
+      "findings": [
+        {
+          "criterion": "STOPP-L2",
+          "must_cite": [
+            [
+              "L028",
+              "L029",
+              "L034",
+              "L035",
+              "L041",
+              "L042",
+              "L043",
+              "L048"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "STOPP-L2/near-miss.csv",
+      "kind": "near_miss",
+      "about": "Palexia SR (tapentadol) is supplied regularly from March 2026, but Movicol (a macrogol laxative) is supplied with it from the first day and every four weeks after, so a laxative is supplied alongside the opioid.",
+      "findings": []
+    },
+    {
+      "file": "STOPP-D8/pos-brand.csv",
+      "kind": "positive",
+      "about": "Temaze (temazepam), named by brand only, is supplied every four weeks from February to September 2026, eight supplies of 25 tablets taken nightly, which is far longer than four weeks.",
+      "findings": [
+        {
+          "criterion": "STOPP-D8",
+          "must_cite": [
+            [
+              "L005",
+              "L009",
+              "L012",
+              "L015",
+              "L019",
+              "L022",
+              "L026",
+              "L028"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "STOPP-D8/pos-buried.csv",
+      "kind": "positive",
+      "about": "Antenex (diazepam) 5 mg twice a day is supplied five times from January to April 2026, in the middle of a 15-month history, which covers more than three months of use.",
+      "findings": [
+        {
+          "criterion": "STOPP-D8",
+          "must_cite": [
+            [
+              "L031",
+              "L036",
+              "L041",
+              "L046",
+              "L047"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "STOPP-D8/near-miss.csv",
+      "kind": "near_miss",
+      "about": "Normison (temazepam) is supplied twice, 7 tablets each time, in August 2025 and July 2026, so there are two short courses more than ten months apart and no four-week period of use.",
+      "findings": []
+    },
+    {
+      "file": "STOPP-A3/pos-brand.csv",
+      "kind": "positive",
+      "about": "Coversyl (perindopril) is supplied monthly and Tritace (ramipril), a second ACE inhibitor, is added from 16 June 2026 while Coversyl continues, both by brand name only.",
+      "findings": [
+        {
+          "criterion": "STOPP-A3",
+          "must_cite": [
+            [
+              "L001",
+              "L004",
+              "L007",
+              "L010",
+              "L012",
+              "L015",
+              "L018",
+              "L022",
+              "L026",
+              "L030"
+            ],
+            [
+              "L017",
+              "L021",
+              "L025",
+              "L028",
+              "L032"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "STOPP-A3/pos-buried.csv",
+      "kind": "positive",
+      "about": "Mobic (meloxicam) is supplied monthly from January to April 2026 and Naprosyn SR (naproxen), a second NSAID, is supplied in February and March 2026, in the middle of a history of about 14 months.",
+      "findings": [
+        {
+          "criterion": "STOPP-A3",
+          "must_cite": [
+            [
+              "L031",
+              "L037",
+              "L043",
+              "L050"
+            ],
+            [
+              "L038",
+              "L044"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "STOPP-A3/near-miss.csv",
+      "kind": "near_miss",
+      "about": "Celebrex (July and August 2025) and Mobic (July and August 2026) are two NSAIDs supplied about 11 months apart and never together, and atorvastatin only changes brand from Lipitor to Lorstat.",
+      "findings": []
+    },
+    {
+      "file": "STOPP-B11/pos-brand.csv",
+      "kind": "positive",
+      "about": "Physiotens (moxonidine) is supplied every month from April 2026, by brand name only.",
+      "findings": [
+        {
+          "criterion": "STOPP-B11",
+          "must_cite": [
+            [
+              "L011",
+              "L014",
+              "L016",
+              "L020",
+              "L024",
+              "L027",
+              "L030"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "STOPP-B11/pos-buried.csv",
+      "kind": "positive",
+      "about": "Clonidine (Catapres) is supplied four times from January to April 2026, in the middle of a 14-month history.",
+      "findings": [
+        {
+          "criterion": "STOPP-B11",
+          "must_cite": [
+            [
+              "L038",
+              "L044",
+              "L050",
+              "L059"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "STOPP-B11/near-miss.csv",
+      "kind": "near_miss",
+      "about": "Prazosin is a blood pressure medicine of another kind, and no centrally-acting antihypertensive is supplied.",
+      "findings": []
+    },
+    {
+      "file": "PINCER-9/pos-brand.csv",
+      "kind": "positive",
+      "about": "Methoblastin (methotrexate), by brand name only, is supplied six times and no label has the word week or weekly.",
+      "findings": [
+        {
+          "criterion": "PINCER-9",
+          "must_cite": [
+            [
+              "L003",
+              "L008",
+              "L013",
+              "L020",
+              "L024",
+              "L030"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "PINCER-9/pos-buried.csv",
+      "kind": "positive",
+      "about": "Methotrexate is supplied three times in the middle of a 14-month history, no label has the word week or weekly, and the latest label (14 July 2026) says 'Take ONE tablet daily'.",
+      "findings": [
+        {
+          "criterion": "PINCER-9",
+          "must_cite": [
+            [
+              "L023",
+              "L038",
+              "L057"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "PINCER-9/near-miss.csv",
+      "kind": "near_miss",
+      "about": "Methotrexate is supplied six times and every label says once a week or weekly, so the criterion is not met.",
+      "findings": []
+    },
+    {
+      "file": "BRISNIK-HR-F2/pos-brand.csv",
+      "kind": "positive",
+      "about": "A 72-year-old is supplied Zoloft (sertraline, an SSRI) every month from March 2026 together with Plavix (clopidogrel, an antiplatelet) and Eliquis (apixaban, an anticoagulant), all by brand name only.",
+      "findings": [
+        {
+          "criterion": "BRISNIK-HR-F2",
+          "must_cite": [
+            [
+              "L009",
+              "L013",
+              "L017",
+              "L022",
+              "L026",
+              "L030",
+              "L034",
+              "L038"
+            ],
+            [
+              "L002",
+              "L005",
+              "L008",
+              "L012",
+              "L016",
+              "L021",
+              "L025",
+              "L029",
+              "L033",
+              "L037"
+            ],
+            [
+              "L001",
+              "L004",
+              "L007",
+              "L011",
+              "L015",
+              "L020",
+              "L024",
+              "L028",
+              "L032",
+              "L036"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "BRISNIK-HR-F2/pos-buried.csv",
+      "kind": "positive",
+      "about": "A 69-year-old is supplied venlafaxine (Efexor-XR, an SNRI) and clopidogrel (Iscover, an antiplatelet) throughout, and diclofenac (Voltaren, an NSAID) three times from January to March 2026, in the middle of a 14-month history, with pantoprazole also supplied.",
+      "findings": [
+        {
+          "criterion": "BRISNIK-HR-F2",
+          "must_cite": [
+            [
+              "L001",
+              "L005",
+              "L009",
+              "L013",
+              "L018",
+              "L022",
+              "L027",
+              "L032",
+              "L037",
+              "L042",
+              "L046",
+              "L051",
+              "L055",
+              "L060",
+              "L064"
+            ],
+            [
+              "L002",
+              "L006",
+              "L010",
+              "L014",
+              "L019",
+              "L023",
+              "L028",
+              "L033",
+              "L038",
+              "L043",
+              "L047",
+              "L052",
+              "L056",
+              "L061",
+              "L065"
+            ],
+            [
+              "L031",
+              "L036",
+              "L041"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "BRISNIK-HR-F2/near-miss.csv",
+      "kind": "near_miss",
+      "about": "A 74-year-old is supplied sertraline (Zoloft, an SSRI) with only one of the three kinds, low-dose aspirin (Astrix, an antiplatelet); there is no anticoagulant and no NSAID, and the pain medicine is paracetamol.",
+      "findings": []
+    },
+    {
+      "file": "STOPP-M1/pos-brand.csv",
+      "kind": "positive",
+      "about": "Vesicare (solifenacin, a bladder antispasmodic) is supplied every month through the whole history and Endep (amitriptyline, a tricyclic antidepressant) is added from April 2026, both named by brand only, so two anticholinergic medicines are supplied together.",
+      "findings": [
+        {
+          "criterion": "STOPP-M1",
+          "must_cite": [
+            [
+              "L003",
+              "L006",
+              "L010",
+              "L013",
+              "L017",
+              "L022",
+              "L025",
+              "L029",
+              "L032",
+              "L036"
+            ],
+            [
+              "L014",
+              "L019",
+              "L026",
+              "L033"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "STOPP-M1/pos-buried.csv",
+      "kind": "positive",
+      "about": "Ditropan (oxybutynin, a bladder antispasmodic) is supplied from January to April 2026 and Phenergan (promethazine, a sedating antihistamine) from February to May 2026, in the middle of a 15-month history, so two anticholinergic medicines overlap.",
+      "findings": [
+        {
+          "criterion": "STOPP-M1",
+          "must_cite": [
+            [
+              "L031",
+              "L041",
+              "L047"
+            ],
+            [
+              "L036",
+              "L042",
+              "L052"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "STOPP-M1/near-miss.csv",
+      "kind": "near_miss",
+      "about": "Ditropan (oxybutynin) is last supplied in August 2025 and Endep (amitriptyline) is first supplied in August 2026, almost a year apart, and Betmiga (mirabegron), the bladder medicine supplied in between, is not anticholinergic.",
+      "findings": []
+    },
+    {
+      "file": "EU7-F14/pos-brand.csv",
+      "kind": "positive",
+      "about": "Daonil (glibenclamide), by brand name only, is supplied six times to a 73-year-old man.",
+      "findings": [
+        {
+          "criterion": "EU7-F14",
+          "must_cite": [
+            [
+              "L004",
+              "L008",
+              "L015",
+              "L020",
+              "L027",
+              "L034"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "EU7-F14/pos-buried.csv",
+      "kind": "positive",
+      "about": "Glimel (glibenclamide) is started on 9 December 2025 for a 70-year-old woman and supplied three times, the last on 23 June 2026, in the middle of a 14-month history.",
+      "findings": [
+        {
+          "criterion": "EU7-F14",
+          "must_cite": [
+            [
+              "L026",
+              "L042",
+              "L059"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "EU7-F14/near-miss.csv",
+      "kind": "near_miss",
+      "about": "The only sulfonylurea is gliclazide (Glyade MR), which is not on the list and which the source says may be safer, so the criterion is not met.",
+      "findings": []
+    },
+    {
+      "file": "PINCER-10/pos-brand.csv",
+      "kind": "positive",
+      "about": "Cordarone X (amiodarone) 200 mg is supplied six times from May to October 2026 with directions to take one tablet twice a day, by brand name only.",
+      "findings": [
+        {
+          "criterion": "PINCER-10",
+          "must_cite": [
+            [
+              "L017",
+              "L021",
+              "L025",
+              "L029",
+              "L033",
+              "L037"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "PINCER-10/pos-buried.csv",
+      "kind": "positive",
+      "about": "Amiodarone (Aratac) 200 mg is supplied four times from June to September 2026 with directions to take one tablet morning and night, near the end of a 15-month history that holds many other medicines, and the course covers more than one month within the three months before the record ends.",
+      "findings": [
+        {
+          "criterion": "PINCER-10",
+          "must_cite": [
+            [
+              "L053",
+              "L059",
+              "L064",
+              "L069"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "PINCER-10/near-miss.csv",
+      "kind": "near_miss",
+      "about": "Amiodarone 200 mg is supplied every month with directions to take one tablet once a day, so the dose is not more than 200 mg a day.",
+      "findings": []
+    },
+    {
+      "file": "PROMPT-CN-4/pos-brand.csv",
+      "kind": "positive",
+      "about": "Imovane (zopiclone), named by brand only, is supplied every 30 days from February to September 2026, eight supplies of 30 tablets taken nightly, which is far longer than four weeks.",
+      "findings": [
+        {
+          "criterion": "PROMPT-CN-4",
+          "must_cite": [
+            [
+              "L006",
+              "L009",
+              "L013",
+              "L016",
+              "L019",
+              "L022",
+              "L027",
+              "L030"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "PROMPT-CN-4/pos-buried.csv",
+      "kind": "positive",
+      "about": "Stilnox (zolpidem) 10 mg nightly is supplied every two weeks from January to April 2026, seven supplies of 14 tablets, in the middle of a 15-month history, which covers about 14 weeks of use.",
+      "findings": [
+        {
+          "criterion": "PROMPT-CN-4",
+          "must_cite": [
+            [
+              "L031",
+              "L032",
+              "L037",
+              "L038",
+              "L039",
+              "L044",
+              "L045"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "PROMPT-CN-4/near-miss.csv",
+      "kind": "near_miss",
+      "about": "Stilnox (zolpidem) is supplied twice, 7 tablets each time, in September 2025 and August 2026, so the two one-week courses are 11 months apart, and Zoton and Zocor are a stomach medicine and a cholesterol medicine whose names only look similar.",
+      "findings": []
+    },
+    {
+      "file": "STOPP-C13/pos-brand.csv",
+      "kind": "positive",
+      "about": "Pradaxa (dabigatran) and Cardizem CD (diltiazem) are supplied together every month from November 2025 to August 2026, and both appear by brand name only.",
+      "findings": [
+        {
+          "criterion": "STOPP-C13",
+          "must_cite": [
+            [
+              "L001",
+              "L004",
+              "L007",
+              "L011",
+              "L014",
+              "L017",
+              "L021",
+              "L024",
+              "L028",
+              "L031"
+            ],
+            [
+              "L002",
+              "L005",
+              "L008",
+              "L012",
+              "L015",
+              "L018",
+              "L022",
+              "L025",
+              "L029",
+              "L032"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "STOPP-C13/pos-buried.csv",
+      "kind": "positive",
+      "about": "Verapamil (Isoptin SR) is supplied four times from December 2025 to March 2026, in the middle of a 14-month history, while dabigatran (Pradaxa) is supplied throughout; dabigatran with verapamil also meets STOPP-C14, because verapamil is a P-glycoprotein inhibitor named by that criterion, so the overlap is listed here as a second finding.",
+      "findings": [
+        {
+          "criterion": "STOPP-C13",
+          "must_cite": [
+            [
+              "L001",
+              "L005",
+              "L009",
+              "L014",
+              "L019",
+              "L023",
+              "L028",
+              "L033",
+              "L038",
+              "L043",
+              "L047",
+              "L052",
+              "L057",
+              "L061",
+              "L065"
+            ],
+            [
+              "L027",
+              "L032",
+              "L037",
+              "L042"
+            ]
+          ]
+        },
+        {
+          "criterion": "STOPP-C14",
+          "must_cite": [
+            [
+              "L001",
+              "L005",
+              "L009",
+              "L014",
+              "L019",
+              "L023",
+              "L028",
+              "L033",
+              "L038",
+              "L043",
+              "L047",
+              "L052",
+              "L057",
+              "L061",
+              "L065"
+            ],
+            [
+              "L027",
+              "L032",
+              "L037",
+              "L042"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "STOPP-C13/near-miss.csv",
+      "kind": "near_miss",
+      "about": "Cardizem CD (diltiazem) is supplied every month with an anticoagulant, but the anticoagulant is warfarin (Marevan), a vitamin K antagonist and not a direct thrombin inhibitor, and no dabigatran is supplied.",
+      "findings": []
+    },
+    {
+      "file": "STOPP-C1/pos-brand.csv",
+      "kind": "positive",
+      "about": "Solprin (aspirin) 300 mg, one tablet daily, is supplied four times from December 2025 to September 2026, by brand name only.",
+      "findings": [
+        {
+          "criterion": "STOPP-C1",
+          "must_cite": [
+            [
+              "L001",
+              "L011",
+              "L019",
+              "L027"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "STOPP-C1/pos-buried.csv",
+      "kind": "positive",
+      "about": "Aspirin (Cartia) 100 mg with the direction to take TWO tablets daily, which is 200 mg a day, is supplied four times from December 2025 to April 2026, in the middle of a 14-month history.",
+      "findings": [
+        {
+          "criterion": "STOPP-C1",
+          "must_cite": [
+            [
+              "L027",
+              "L032",
+              "L041",
+              "L047"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "STOPP-C1/near-miss.csv",
+      "kind": "near_miss",
+      "about": "Aspirin (Cartia) is supplied all year at 100 mg, ONE tablet daily, which is not above 100 mg a day; the 300 mg strength belongs to irbesartan and the TWO tablets direction belongs to paracetamol.",
+      "findings": []
+    },
+    {
+      "file": "PROMPT-RS-3/pos-brand.csv",
+      "kind": "positive",
+      "about": "Panafcortelone (prednisolone), by brand name only, is supplied eight times from February to August 2026, more than 6 months of continuous use, and no bisphosphonate is supplied.",
+      "findings": [
+        {
+          "criterion": "PROMPT-RS-3",
+          "must_cite": [
+            [
+              "L006",
+              "L007",
+              "L011",
+              "L015",
+              "L019",
+              "L023",
+              "L028",
+              "L032"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "PROMPT-RS-3/pos-buried.csv",
+      "kind": "positive",
+      "about": "Prednisolone (Solone) is supplied eight times from November 2025 to May 2026, in the middle of a history of about 15 months, with vitamin D (Ostelin) but no bisphosphonate.",
+      "findings": [
+        {
+          "criterion": "PROMPT-RS-3",
+          "must_cite": [
+            [
+              "L022",
+              "L024",
+              "L031",
+              "L036",
+              "L038",
+              "L045",
+              "L051",
+              "L063"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "PROMPT-RS-3/near-miss.csv",
+      "kind": "near_miss",
+      "about": "Prednisolone is supplied for more than 6 months, but alendronate (Fosamax Plus) is supplied every 4 weeks from the first day, so the criterion is not met.",
+      "findings": []
+    },
+    {
+      "file": "BRISNIK-HR-A3/pos-brand.csv",
+      "kind": "positive",
+      "about": "Lexapro (escitalopram) 20 mg tablets, named by brand only, are supplied every four weeks with the direction ONE tablet in the morning to a patient aged 71, which is 20 mg a day and above the 10 mg limit.",
+      "findings": [
+        {
+          "criterion": "BRISNIK-HR-A3",
+          "must_cite": [
+            [
+              "L001",
+              "L005",
+              "L008",
+              "L012",
+              "L015",
+              "L018",
+              "L021",
+              "L024",
+              "L028",
+              "L031",
+              "L034"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "BRISNIK-HR-A3/pos-buried.csv",
+      "kind": "positive",
+      "about": "Celapram (citalopram) is supplied at 20 mg a day before and after, but four supplies from January to April 2026, in the middle of a 16-month history, are 40 mg tablets taken ONE a day by a patient aged 68, which is above the 20 mg limit.",
+      "findings": [
+        {
+          "criterion": "BRISNIK-HR-A3",
+          "must_cite": [
+            [
+              "L031",
+              "L035",
+              "L039",
+              "L044"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "BRISNIK-HR-A3/near-miss.csv",
+      "kind": "near_miss",
+      "about": "Cipramil (citalopram) 20 mg tablets are supplied every four weeks with the direction ONE tablet in the morning to a patient aged 73, which is 20 mg a day: equal to the limit, not above it.",
+      "findings": []
+    },
+    {
+      "file": "_clean/clean-1.csv",
+      "kind": "clean",
+      "about": "Perindopril (Coversyl), atorvastatin and metformin are supplied every month for ten months, with a salbutamol inhaler for use when required, paracetamol and one course of amoxicillin.",
+      "findings": []
+    },
+    {
+      "file": "_clean/clean-2.csv",
+      "kind": "clean",
+      "about": "Amlodipine and telmisartan (two blood pressure medicines of different classes), Crestor by brand name only and pantoprazole are supplied regularly for a year, with paracetamol and short courses of cefalexin and doxycycline.",
+      "findings": []
+    },
+    {
+      "file": "_clean/clean-3.csv",
+      "kind": "clean",
+      "about": "Avapro HCT, atorvastatin, Janumet (sitagliptin with metformin), a Symbicort inhaler and levothyroxine are supplied regularly for a year, with paracetamol and one course of amoxicillin with clavulanic acid, and the corticosteroid in Symbicort is inhaled, not taken by mouth.",
+      "findings": []
+    }
+  ]
+}

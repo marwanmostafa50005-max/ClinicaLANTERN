@@ -1,0 +1,7 @@
+# ClinicaLANTERN, model 2 (Lumen): it checks the lines a suspected finding cites.
+# Put the model file beside this file. With the model server up:  ollama create lantern-check -f lantern-check.Modelfile
+FROM ./Qwen3.8-27B-UD-Q4_K_XL.gguf
+PARAMETER temperature 0
+PARAMETER seed 42
+PARAMETER top_k 1
+PARAMETER num_ctx 16384

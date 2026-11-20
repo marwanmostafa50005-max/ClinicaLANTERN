@@ -1,0 +1,44 @@
+[
+  {
+    "file": "DREISCHULTE-16/pos-brand.csv",
+    "kind": "positive",
+    "about": "At age 68, Naprosyn overlaps with Coversyl and the record shows no supply of a diuretic within 60 days either side of the NSAID supply.",
+    "findings": [
+      {
+        "criterion": "DREISCHULTE-16",
+        "must_cite": [
+          [
+            "L018"
+          ],
+          [
+            "L016"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "DREISCHULTE-16/pos-buried.csv",
+    "kind": "positive",
+    "about": "At age 72, naproxen overlaps with candesartan and the record shows no supply of a diuretic within 60 days either side of the NSAID supply.",
+    "findings": [
+      {
+        "criterion": "DREISCHULTE-16",
+        "must_cite": [
+          [
+            "L036"
+          ],
+          [
+            "L033"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "DREISCHULTE-16/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Indapamide covers the full naproxen course from 2025-10-08 to 2025-10-10, so there is no finding.",
+    "findings": []
+  }
+]

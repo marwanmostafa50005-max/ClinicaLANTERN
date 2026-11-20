@@ -1,0 +1,69 @@
+[
+  {
+    "file": "GERARD-39/pos-fact.csv",
+    "kind": "positive",
+    "about": "The eGFR on 5 August 2025 preceded the start of empagliflozin for type 2 diabetes on 8 August 2025, and more than a year of treatment had passed without a repeat eGFR by the final supply on 25 October 2026.",
+    "findings": [
+      {
+        "criterion": "GERARD-39",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L002",
+            "L007",
+            "L010"
+          ],
+          [
+            "L006"
+          ],
+          [
+            "L050"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "GERARD-39/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about eGFR during more than a year of empagliflozin supplies, and the directions do not state why it was supplied.",
+    "findings": [
+      {
+        "criterion": "GERARD-39",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L002",
+            "L005",
+            "L007",
+            "L010",
+            "L012",
+            "L014",
+            "L017",
+            "L019",
+            "L022",
+            "L024",
+            "L026",
+            "L029",
+            "L031",
+            "L033"
+          ],
+          [
+            "L033",
+            "L034"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "GERARD-39/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The last recorded eGFR is exactly one year before the latest empagliflozin supply and meets the annual interval.",
+    "findings": []
+  }
+]

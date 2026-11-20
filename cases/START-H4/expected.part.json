@@ -1,0 +1,62 @@
+[
+  {
+    "file": "START-H4/pos-fact.csv",
+    "kind": "positive",
+    "about": "Osteoporosis, a qualifying T-score and a prior fragility fracture support review. The 4 mg oncology infusion does not treat osteoporosis. Treatment is suitable and no current osteoporosis medicine is recorded from any service.",
+    "findings": [
+      {
+        "criterion": "START-H4",
+        "must_cite": [
+          [
+            "L001",
+            "L002",
+            "L003"
+          ],
+          [
+            "L049"
+          ],
+          [
+            "L050"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-H4/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The record shows osteoporosis, and alendronate (Fosamax) is supplied every four weeks up to the end, so a bone-strengthening medicine is in place.",
+    "findings": []
+  },
+  {
+    "file": "START-H4/near-miss-annual-infusion.csv",
+    "kind": "near_miss",
+    "about": "The hospital gave the annual 5 mg osteoporosis infusion seven months before the record ended.",
+    "findings": []
+  },
+  {
+    "file": "START-H4/pos-external-date-unknown.csv",
+    "kind": "positive",
+    "about": "Possible finding: the patient reports a hospital osteoporosis infusion, but its date is unknown and current cover cannot be established.",
+    "findings": [
+      {
+        "criterion": "START-H4",
+        "must_cite": [
+          [
+            "L001",
+            "L002"
+          ],
+          [
+            "L008"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-H4/near-miss-treatment-unsuitable.csv",
+    "kind": "near_miss",
+    "about": "A dated palliative care plan rules out all osteoporosis drug treatment despite documented osteoporosis and a qualifying T-score.",
+    "findings": []
+  }
+]

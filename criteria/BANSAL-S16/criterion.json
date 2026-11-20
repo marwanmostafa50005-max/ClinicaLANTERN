@@ -1,0 +1,173 @@
+{
+  "id": "BANSAL-S16",
+  "label": "BANSAL S16: opioid above 120 mg morphine a day",
+  "family": "BANSAL",
+  "title": "Opioid dose above 120 mg oral morphine a day",
+  "statement": "Persistent prescription of one or more opioid analgesics at a dose above the equivalent of 120 mg of oral morphine per day [32, 61, 78]",
+  "statement_origin": "published",
+  "source": {
+    "document": "Bansal N, et al. Development of prescribing indicators related to opioid-related harm in patients with chronic pain in primary care. BMC Med 2024;22:5, Tables 3-4",
+    "citation": "Bansal N, Campbell SM, Lin C-Y, Ashcroft DM, Chen L-C. Development of prescribing indicators related to opioid-related harm in patients with chronic pain in primary care - a modified e-Delphi study. BMC Med 2024;22:5. doi:10.1186/s12916-023-03213-x",
+    "doi": "10.1186/s12916-023-03213-x",
+    "url": "https://doi.org/10.1186/s12916-023-03213-x",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Bansal N, Campbell SM, Lin C-Y, Ashcroft DM, Chen L-C. Development of prescribing indicators related to opioid-related harm in patients with chronic pain in primary care - a modified e-Delphi study. BMC Med 2024;22:5. doi:10.1186/s12916-023-03213-x",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.2 candidate repairs and adopted conventions merged with attribution). Not endorsed by the source authors."
+  },
+  "plain_summary": "High daily opioid doses carry a much higher risk of overdose and slowed breathing. Australian guidance differs: reassess benefits and harms when increasing to 50 mg or more of oral morphine equivalent per day, and avoid increasing to 100 mg or more per day without specialist involvement (RACGP, 2017).",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Opioid analgesics for daily dose review",
+      "ingredients": [
+        "codeine",
+        "hydromorphone",
+        "morphine",
+        "oxycodone",
+        "tapentadol",
+        "tramadol",
+        "fentanyl",
+        "buprenorphine",
+        "methadone"
+      ],
+      "brands": {
+        "codeine": [
+          "Panadeine Forte (codeine with paracetamol)",
+          "Panadeine (codeine with paracetamol)",
+          "Codalgin Forte (codeine with paracetamol)",
+          "Nurofen Plus (codeine with ibuprofen)",
+          "Prodeine Forte (paracetamol with codeine)",
+          "Aspalgin (aspirin with codeine)",
+          "Mersyndol (paracetamol, codeine and doxylamine)"
+        ],
+        "hydromorphone": [
+          "Jurnista",
+          "Dilaudid",
+          "Dilaudid-HP",
+          "Palladone XL"
+        ],
+        "morphine": [
+          "MS Contin",
+          "Kapanol",
+          "Ordine",
+          "Sevredol",
+          "MS Mono",
+          "Anamorph",
+          "MS Contin Suspension",
+          "Momex SR",
+          "RA-Morph",
+          "MS Normal"
+        ],
+        "oxycodone": [
+          "OxyContin",
+          "OxyNorm",
+          "Endone",
+          "Targin (oxycodone with naloxone)",
+          "Novacodone",
+          "Oxycodor",
+          "Oxycone",
+          "Oxylenus",
+          "Oxylieve MR",
+          "Oxyndone",
+          "Xedone",
+          "Endone XR"
+        ],
+        "tapentadol": [
+          "Palexia",
+          "Palexia SR",
+          "Lodat SR",
+          "Palexia IR",
+          "Tadol IR",
+          "Tadol SR",
+          "Tapal IR",
+          "Tapal SR",
+          "Tapex IR",
+          "Tapex SR",
+          "Tapexia",
+          "Tapexia SR"
+        ],
+        "tramadol": [
+          "Tramal",
+          "Tramal SR",
+          "Zydol",
+          "Zydol SR",
+          "Durotram",
+          "Durotram XR",
+          "Iptramol",
+          "Lodam",
+          "Lodam SR",
+          "Tramahexal",
+          "Tramahexal SR",
+          "Tramal Drops",
+          "Tramedo",
+          "Tramedo SR"
+        ],
+        "fentanyl": [
+          "Durogesic"
+        ],
+        "buprenorphine": [
+          "Norspan",
+          "B-Patch",
+          "Bupredermal",
+          "Temgesic"
+        ],
+        "methadone": [
+          "Physeptone",
+          "Opod-D Syrup"
+        ]
+      },
+      "note": "Sum patch and oral doses on shared treatment days. Exclude codeine cough preparations. In Prodeine Forte 500 mg/30 mg, the codeine strength is 30 mg per tablet. Dilaudid-HP is an injection. Never use a swallowed-medicine factor for an injection. If an injected dose could change the threshold decision, report at most a possible finding until its contribution is confirmed. Count multiple patches together only when the directions establish that they are worn together. Count at least three calendar months from multiple prescriptions. Use the prescribed change interval when known. For Durogesic the usual interval is three days and for Norspan it is seven days. If estimated wear time or a borderline gap decides the result, report a possible finding and ask the pharmacist to confirm the dates. For repeated methadone supplies covering the required period, check whether methadone is prescribed for pain. Exclude opioid dependence treatment, including Biodone Forte, Opod-P Liquid and Physeptone Liquid. If the indication is unknown, ask why methadone was prescribed. If methadone could change whether the total exceeds 120 mg daily for the required period, report a possible finding and ask the pharmacist to confirm the indication and dose equivalent. Do not assign methadone a fixed factor. If the known subtotal exceeds 120 mg/day for the required period, report the finding only when the course meets the indication and all other requirements. Otherwise, if an unknown dose, route, patch overlap or as-needed amount could change the result, report a possible finding and request confirmation. Do not assume maximum as-needed use. Count fentanyl patches and buprenorphine patches prescribed for pain. Multiply the prescribed patch delivery rate in micrograms per hour by 3 for fentanyl or by 2 for buprenorphine. For sublingual buprenorphine prescribed for pain, multiply the daily dose in milligrams by 40. These factors give the oral morphine equivalent in milligrams per day (Faculty of Pain Medicine, October 2025). Exclude buprenorphine supplied only for opioid dependence."
+    }
+  ],
+  "rule_for_models": "Apply this indicator to adults aged 18 or over in the source population with chronic non-cancer pain. If age is unknown and the other evidence could qualify, report at most a possible finding and ask the pharmacist to confirm age. Confirm only when at least two distinct Group A opioid prescriptions support a course for chronic non-cancer pain with a known total above 120 mg oral morphine equivalent each day for at least three calendar months. Repeats or part supplies from one prescription can contribute days of cover. If the prescription count or pain indication is unclear and could change the result, report a possible finding and ask the pharmacist. Exclude courses for cancer pain or end-of-life care. If the indication could change the finding, name the opioid and dates of the course and ask for \"Reason for the qualifying opioid course\". Use the answer only for that course. If the reason is unknown or the answer could refer to another course, report only a possible finding unless another requirement is ruled out.\nSwallowed opioid mg/day = opioid mg per tablet or capsule x number taken daily, or opioid mg/mL x mL taken daily (opioid ingredient only in combination products)\nOral morphine equivalent per day = sum of daily opioid doses multiplied by their oral factors on shared treatment days (morphine 1, oxycodone 1.5, tapentadol 0.3, tramadol 0.2, codeine 0.13, hydromorphone 5)\nPatches and unknown doses: see Group A",
+  "cannot_be_seen": "The dose the person actually takes, the pain condition, and any opioid supplied outside this record (including patches). Actual as-needed use may be unknown. Ask which opioid doses are taken regularly, how much is taken when needed, and whether a hospital or another pharmacy supplies any opioids.",
+  "ask_the_gp": "A review of the opioid dose and the plan for lowering it if it is safe to do so.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Reason for methadone treatment",
+      "meets": "Count only methadone prescribed for pain, using a confirmed pain dose and equivalent. If the indication or the equivalent is unknown, keep the result open only when it could change the threshold decision. Other opioids can establish the finding independently.",
+      "options": [
+        {
+          "words": "Prescribed for pain",
+          "effect": "meets"
+        },
+        {
+          "words": "Prescribed only for opioid dependence",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Prescribed for another reason without pain treatment",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for the qualifying opioid course",
+      "meets": "Use the answer for the opioid course named in the finding. Chronic non-cancer pain meets the indication requirement. Cancer pain, end-of-life care or another indication excludes that course. If the reason is unknown or the answer cannot be linked to this course, keep it possible unless another requirement is ruled out.",
+      "options": [
+        {
+          "words": "Chronic non-cancer pain",
+          "effect": "meets"
+        },
+        {
+          "words": "Cancer pain, end-of-life care or another indication",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

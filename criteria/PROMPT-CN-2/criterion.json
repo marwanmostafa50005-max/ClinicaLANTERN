@@ -1,0 +1,289 @@
+{
+  "id": "PROMPT-CN-2",
+  "label": "PROMPT: tricyclic as first-line",
+  "family": "PROMPT",
+  "title": "Tricyclic antidepressant as the first choice for depression",
+  "statement": "Tricyclic antidepressants (TCAs) (e.g. amitriptyline, nortriptyline) should not be used as first-line in treatment of depression.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Cooper JA, et al. The development of the PROMPT criteria. BMC Health Serv Res 2014;14:484, Table 4",
+    "citation": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A tricyclic antidepressant such as amitriptyline or nortriptyline is not a good first choice for depression because it can cause dry mouth, constipation and drowsiness.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Tricyclic antidepressants",
+      "ingredients": [
+        "amitriptyline",
+        "nortriptyline",
+        "imipramine",
+        "clomipramine",
+        "dosulepin",
+        "doxepin",
+        "trimipramine"
+      ],
+      "brands": {
+        "amitriptyline": [
+          "Endep",
+          "Entrip",
+          "Amichlor",
+          "Amidep"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "dosulepin": [
+          "Prothiaden",
+          "Dothep"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ]
+      },
+      "note": "Low doses are often used for nerve pain, migraine or sleep. Those uses are not what the criterion is about. The reason for use comes from a condition line, not from the dose."
+    },
+    {
+      "key": "B",
+      "name": "Other antidepressants (shows an earlier antidepressant)",
+      "ingredients": [
+        "sertraline",
+        "citalopram",
+        "escitalopram",
+        "fluoxetine",
+        "paroxetine",
+        "fluvoxamine",
+        "venlafaxine",
+        "desvenlafaxine",
+        "duloxetine",
+        "mirtazapine",
+        "vortioxetine",
+        "agomelatine",
+        "moclobemide",
+        "reboxetine",
+        "mianserin",
+        "phenelzine",
+        "tranylcypromine"
+      ],
+      "brands": {
+        "sertraline": [
+          "Zoloft",
+          "Setrona",
+          "Concorz",
+          "Detralon",
+          "Eleva",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Tralen",
+          "Xydep"
+        ],
+        "citalopram": [
+          "Cipramil",
+          "Celapram",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talam",
+          "Talohexal"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam",
+          "Loxalate"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Zactin",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Paxtine",
+          "Aropax CR",
+          "Extine",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ],
+        "venlafaxine": [
+          "Efexor-XR",
+          "Altven",
+          "Elaxine",
+          "Enlafax",
+          "Elaxine SR",
+          "Enlafax XR",
+          "Evelexa XR",
+          "Ozvenaf",
+          "Venfax SR",
+          "Venla",
+          "Venlexor XR"
+        ],
+        "desvenlafaxine": [
+          "Pristiq",
+          "Desfax",
+          "Desven"
+        ],
+        "duloxetine": [
+          "Cymbalta",
+          "Andepra",
+          "Baltine",
+          "Coperin",
+          "Deotine",
+          "Depreta",
+          "Drulox",
+          "Dulocym",
+          "Duloxecor",
+          "Dytrex",
+          "Symlox",
+          "Texotine",
+          "Tixol",
+          "Xerol DR"
+        ],
+        "mirtazapine": [
+          "Avanza",
+          "Remeron",
+          "Aurozapine",
+          "Avanza Soltab",
+          "Axit",
+          "Milivin OD",
+          "Mirtanza",
+          "Mirtanza ODT",
+          "Mirtazon",
+          "Remeron Soltab"
+        ],
+        "vortioxetine": [
+          "Brintellix"
+        ],
+        "agomelatine": [
+          "Valdoxan",
+          "Domion",
+          "Nortim",
+          "Valomel"
+        ],
+        "moclobemide": [
+          "Aurorix",
+          "Amira",
+          "Arima",
+          "Clobemide",
+          "Clobemix",
+          "Maosig",
+          "Mohexal"
+        ],
+        "reboxetine": [
+          "Edronax"
+        ],
+        "mianserin": [
+          "Tolvon",
+          "Lumin"
+        ],
+        "phenelzine": [
+          "Nardil"
+        ],
+        "tranylcypromine": [
+          "Parnate"
+        ]
+      },
+      "note": "Earlier use counts only when it was for depression."
+    }
+  ],
+  "rule_for_models": "Check for first-line tricyclic treatment only at ages 45 to 64 inclusive (if age is missing, record eligibility as unknown and report no finding). Cite a tricyclic supply. Cite the line linking it to depression and the line giving the treatment order when present, including an answer that the order is unknown. Disregard earlier treatment documented solely for another reason. Unless the tricyclic was used solely for another reason or an earlier antidepressant was tried for depression, report a possible finding when either indication or the earlier treatment history is unclear and name the missing fact. If the reason is unclear, ask for Condition treated with this tricyclic. If use for depression is established and the treatment order is unclear, ask for First-line tricyclic antidepressant for depression. For the older question about whether another antidepressant was tried for depression before this tricyclic, No supports first-line use and Yes rules it out. An unknown answer leaves the order unclear.",
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Condition treated with this tricyclic",
+      "meets": "The record links this tricyclic to treatment of depression.",
+      "options": [
+        {
+          "words": "Depression, alone or along with another condition",
+          "effect": "meets"
+        },
+        {
+          "words": "Only a condition other than depression",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "First-line tricyclic antidepressant for depression",
+      "meets": "The tricyclic was the first antidepressant tried for depression. An earlier trial for depression rules out first-line use. If the treatment order is unknown, keep the finding possible when depression is established.",
+      "options": [
+        {
+          "words": "This tricyclic was the first antidepressant tried for depression",
+          "effect": "meets"
+        },
+        {
+          "words": "Another antidepressant was tried for depression before this tricyclic",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "cannot_be_seen": "Why the tricyclic was started, what was tried before the start of this record, and the depression history. A short record cannot show that nothing was tried earlier. Also any supply from another pharmacy.",
+  "ask_the_gp": "Whether a tricyclic antidepressant is the right first choice for this patient, or whether a different antidepressant could be used instead.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

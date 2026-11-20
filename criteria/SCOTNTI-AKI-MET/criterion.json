@@ -1,0 +1,530 @@
+{
+  "id": "SCOTNTI-AKI-MET",
+  "label": "SCOTNTI AKI-MET",
+  "family": "SCOTNTI",
+  "title": "Metformin and a systemic NSAID with a diuretic, ACE inhibitor or ARB",
+  "statement": "Number of people prescribed metformin and NSAID, and either a diuretic or ACEI/ARB as a percentage of all people prescribed metformin",
+  "statement_origin": "published",
+  "source": {
+    "document": "Scottish Government. Polypharmacy guidance: appropriate prescribing, making medicines safe, effective and sustainable 2026 to 2029",
+    "citation": "Scottish Government and Public Health Scotland. Polypharmacy guidance: appropriate prescribing, making medicines safe, effective and sustainable 2026 to 2029. Appendix C, Table 39, Risk of acute kidney injury (published 2 March 2026).",
+    "url": "https://www.gov.scot/publications/polypharmacy-guidance-appropriate-prescribing-making-medicines-safe-effective-sustainable-2026-2029/pages/14/",
+    "licence": "UK Open Government Licence v3.0",
+    "licence_status": "proposed",
+    "credit": "Contains public sector information licensed under the Open Government Licence v3.0 (Public Health Scotland / Scottish Government).",
+    "modification_notice": "Statement reproduced without changes. Plain-language fields, Australian medicine mapping and test histories are adaptations."
+  },
+  "plain_summary": "Taking metformin and a systemic NSAID together with a diuretic, an ACE inhibitor or an ARB increases the risk of acute kidney injury and metformin-associated lactic acidosis, especially during dehydrating illness. At the counter, ask the patient whether they take the NSAID regularly or when needed, whether they use any non-prescription NSAIDs, whether they have recent vomiting, diarrhoea or poor fluid intake, and whether they have a sick-day plan. Advise the patient not to stop metformin, a diuretic, an ACE inhibitor or an ARB abruptly without prescriber advice, and escalate promptly if they are currently unwell or dehydrated.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Metformin and fixed-dose metformin combinations",
+      "ingredients": [
+        "metformin",
+        "empagliflozin with metformin",
+        "dapagliflozin with metformin",
+        "ertugliflozin with metformin",
+        "sitagliptin with metformin",
+        "vildagliptin with metformin",
+        "linagliptin with metformin",
+        "saxagliptin with metformin",
+        "alogliptin with metformin",
+        "glibenclamide with metformin"
+      ],
+      "brands": {
+        "metformin": [
+          "Diabex",
+          "Diabex XR",
+          "Diaformin",
+          "Diaformin XR",
+          "Formet",
+          "Glucophage",
+          "Glucohexal",
+          "Metex XR",
+          "Glucobete",
+          "Glucobete 500",
+          "Glucobete 850",
+          "Glucobete 1000"
+        ],
+        "empagliflozin with metformin": [
+          "Jardiamet"
+        ],
+        "dapagliflozin with metformin": [
+          "Xigduo XR"
+        ],
+        "ertugliflozin with metformin": [
+          "Segluromet"
+        ],
+        "sitagliptin with metformin": [
+          "Janumet",
+          "Janumet XR",
+          "Sitaglo-Met",
+          "Velmetia"
+        ],
+        "vildagliptin with metformin": [
+          "Galvumet"
+        ],
+        "linagliptin with metformin": [
+          "Trajentamet"
+        ],
+        "saxagliptin with metformin": [
+          "Kombiglyze XR"
+        ],
+        "alogliptin with metformin": [
+          "Nesina Met"
+        ],
+        "glibenclamide with metformin": [
+          "Glucovance"
+        ]
+      },
+      "note": "Oral immediate-release and extended-release metformin tablets and all oral fixed-dose metformin combinations count. Jardiamet (empagliflozin with metformin), Xigduo XR (dapagliflozin with metformin), Segluromet (ertugliflozin with metformin), Janumet, Janumet XR, Sitaglo-Met and Velmetia (sitagliptin with metformin), Galvumet (vildagliptin with metformin), Trajentamet (linagliptin with metformin), Kombiglyze XR (saxagliptin with metformin), Nesina Met (alogliptin with metformin) and Glucovance (glibenclamide with metformin) all contain metformin and count. Plain Trajenta (linagliptin alone) and plain Nesina (alogliptin alone) do not contain metformin and do not count. Generic packs that show metformin in the ingredient or brand name count too."
+    },
+    {
+      "key": "B",
+      "name": "Systemic NSAIDs",
+      "ingredients": [
+        "celecoxib",
+        "diclofenac",
+        "etoricoxib",
+        "ibuprofen",
+        "indometacin",
+        "ketoprofen",
+        "ketorolac",
+        "mefenamic acid",
+        "meloxicam",
+        "naproxen",
+        "piroxicam",
+        "sulindac",
+        "tenoxicam",
+        "tiaprofenic acid"
+      ],
+      "brands": {
+        "celecoxib": [
+          "Celebrex",
+          "Celebrex Relief",
+          "Celaxib",
+          "Celexi",
+          "Anacoxib",
+          "Celetoid",
+          "Celocox",
+          "Kudeq"
+        ],
+        "diclofenac": [
+          "Voltaren",
+          "Voltaren Rapid",
+          "Voltaren Rapid Extra Strength",
+          "Voltaren Rapid Liquid Capsules",
+          "Voltfast",
+          "Clonac",
+          "Fenac",
+          "Fenac EC",
+          "Cambia",
+          "Diclohexal",
+          "Difenac Rapid",
+          "Dinac",
+          "Imflac",
+          "Inflamax Liquid Caps",
+          "Zorvolex",
+          "Arthrotec"
+        ],
+        "etoricoxib": [
+          "Arcoxia"
+        ],
+        "ibuprofen": [
+          "Brufen",
+          "Brufen Pain",
+          "Brufen Syrup",
+          "Nurofen",
+          "Nurofen Back Pain",
+          "Nurofen Caplet",
+          "Nurofen Double Strength",
+          "Nurofen Liquid Capsule",
+          "Nurofen Meltlets",
+          "Nurofen Migraine Pain",
+          "Nurofen Period Pain",
+          "Nurofen Quickzorb",
+          "Nurofen Regular",
+          "Nurofen Tension Headache",
+          "Nurofen Zavance",
+          "Nurofen Zavance Liquid Capsules",
+          "Advil",
+          "Advil 12 Hour",
+          "Advil Double Strength",
+          "Advil Double Strength Caplets",
+          "Advil Double Strength Liquid Capsules",
+          "Advil Mini Caps",
+          "Advil Rapid Release",
+          "Rafen",
+          "Bugesic",
+          "Panafen",
+          "Panafen IB",
+          "Panafen IB Mini Cap",
+          "Panafen Plus",
+          "Nurofen Plus",
+          "Nuromol",
+          "Maxigesic",
+          "Mersynofen",
+          "Act-3",
+          "Butafen",
+          "Iprofen",
+          "Proven",
+          "Tri-Profen"
+        ],
+        "indometacin": [
+          "Indocid",
+          "Arthrexin"
+        ],
+        "ketoprofen": [
+          "Orudis",
+          "Oruvail"
+        ],
+        "ketorolac": [
+          "Toradol"
+        ],
+        "mefenamic acid": [
+          "Ponstan",
+          "Femin",
+          "Mefic",
+          "Menamic"
+        ],
+        "meloxicam": [
+          "Mobic",
+          "Movalis",
+          "Melobic",
+          "Meloxibell",
+          "Moxicam",
+          "Agilocam",
+          "Melox",
+          "Mobelox"
+        ],
+        "naproxen": [
+          "Naprosyn",
+          "Naprosyn SR",
+          "Naprosyn SR 1000",
+          "Naprosyn SR1000",
+          "Proxen",
+          "Proxen SR",
+          "Proxen SR 1000",
+          "Anaprox",
+          "Anaprox 550",
+          "Crysanal",
+          "Inza",
+          "Naprogesic",
+          "Aleve",
+          "Aleve 24 Hour",
+          "Femme-Free",
+          "Naprofem",
+          "Vimovo"
+        ],
+        "piroxicam": [
+          "Feldene",
+          "Feldene-D",
+          "Mobilis",
+          "Mobilis D",
+          "Candyl",
+          "Candyl-D",
+          "Pirohexal-D"
+        ],
+        "sulindac": [
+          "Aclin"
+        ],
+        "tenoxicam": [
+          "Tilcotil"
+        ],
+        "tiaprofenic acid": [
+          "Surgam",
+          "Surgam SA"
+        ]
+      },
+      "note": "Oral tablets, capsules, caplets, dispersible tablets and oral liquids count. Indometacin may also appear as indomethacin. Oral NSAID combinations count, including ibuprofen with codeine (Nurofen Plus, Panafen Plus), ibuprofen with paracetamol (Maxigesic, Nuromol, Mersynofen), naproxen with esomeprazole (Vimovo) and diclofenac with misoprostol (Arthrotec). Use the recorded form. Count rectal diclofenac (Voltaren) and indometacin (Indocid) suppositories and systemic NSAID injections, including Toradol. Toradol tablets and oral Imflac tablets also count. Exclude topical gels and creams (Voltaren Emulgel, Voltaren Osteo Gel, Solaraze, Dofidaz, Imflac gel, Nurofen Gel and Feldene Gel), eye drops (Voltaren Ophtha, Acular and Nevanac), throat lozenges (Strefen) and low-dose aspirin. Generic packs that show the ingredient name count too."
+    },
+    {
+      "key": "C",
+      "name": "Diuretics and diuretic combinations",
+      "ingredients": [
+        "furosemide",
+        "bumetanide",
+        "etacrynic acid",
+        "hydrochlorothiazide",
+        "indapamide",
+        "chlortalidone",
+        "spironolactone",
+        "eplerenone",
+        "amiloride",
+        "triamterene"
+      ],
+      "brands": {
+        "furosemide": [
+          "Lasix",
+          "Lasix-M",
+          "Frusemix",
+          "Frusemix-M",
+          "Urex",
+          "Urex-M",
+          "Urex-Forte"
+        ],
+        "bumetanide": [
+          "Burinex"
+        ],
+        "etacrynic acid": [
+          "Edecrin"
+        ],
+        "hydrochlorothiazide": [
+          "Dithiazide",
+          "Renitec Plus",
+          "Accuretic",
+          "Monoplus",
+          "Atacand Plus",
+          "Adesan HCT",
+          "Candesan Combi",
+          "Avapro HCT",
+          "Karvezide",
+          "Avsartan HCT",
+          "Abisart HCTZ",
+          "Micardis Plus",
+          "PritorPlus",
+          "Pritor Plus",
+          "Mizart HCT",
+          "Teltartan HCT",
+          "Olmetec Plus",
+          "Sevikar HCT",
+          "Co-Diovan",
+          "Exforge HCT",
+          "Hyzaar",
+          "Teveten Plus"
+        ],
+        "indapamide": [
+          "Natrilix",
+          "Natrilix SR",
+          "Odaplix SR",
+          "Dapa-Tabs",
+          "Insig",
+          "Coversyl Plus",
+          "Coversyl Plus LD",
+          "Prexum Combi",
+          "Prexum Combi LD",
+          "Perisyl Combi",
+          "Triplixam",
+          "Triplixam SR"
+        ],
+        "chlortalidone": [
+          "Hygroton",
+          "Hygroton 25"
+        ],
+        "spironolactone": [
+          "Aldactone",
+          "Spiractin"
+        ],
+        "eplerenone": [
+          "Inspra",
+          "Espler",
+          "Inpler",
+          "Plera"
+        ],
+        "amiloride": [
+          "Midamor",
+          "Moduretic",
+          "Kaluril",
+          "Amizide"
+        ],
+        "triamterene": [
+          "Hydrene",
+          "Hydrene 25/50"
+        ]
+      },
+      "note": "Oral loop, thiazide, thiazide-like and potassium-sparing diuretics and all fixed-dose combination tablets containing a diuretic count. Furosemide may also appear as frusemide, and etacrynic acid may also appear as ethacrynic acid. Fixed-dose combinations of hydrochlorothiazide or indapamide with an ACE inhibitor or ARB (such as Coversyl Plus, Coversyl Plus LD, Prexum Combi, Prexum Combi LD, Perisyl Combi, Triplixam, Triplixam SR, Renitec Plus, Accuretic, Monoplus, Atacand Plus, Adesan HCT, Candesan Combi, Avapro HCT, Karvezide, Avsartan HCT, Abisart HCTZ, Micardis Plus, PritorPlus, Pritor Plus, Mizart HCT, Teltartan HCT, Olmetec Plus, Sevikar HCT, Co-Diovan, Exforge HCT, Hyzaar and Teveten Plus) belong to both Group C and Group D. Moduretic and Amizide contain amiloride with hydrochlorothiazide, while Kaluril and Midamor contain amiloride alone, and Hydrene contains triamterene with hydrochlorothiazide. Generic packs that show the ingredient name count too."
+    },
+    {
+      "key": "D",
+      "name": "ACE inhibitors, angiotensin receptor blockers, and fixed combinations",
+      "ingredients": [
+        "perindopril",
+        "ramipril",
+        "enalapril",
+        "lisinopril",
+        "quinapril",
+        "fosinopril",
+        "captopril",
+        "trandolapril",
+        "candesartan",
+        "irbesartan",
+        "telmisartan",
+        "olmesartan",
+        "valsartan",
+        "losartan",
+        "eprosartan",
+        "sacubitril with valsartan"
+      ],
+      "brands": {
+        "perindopril": [
+          "Coversyl",
+          "Coversyl Plus",
+          "Idaprex",
+          "Idaprex Arg",
+          "Indopril",
+          "Indosyl Mono",
+          "Ozapace",
+          "Perindo",
+          "Perindo Arg",
+          "Perindoarg",
+          "Perindobell",
+          "Perisyl",
+          "Prexum",
+          "Coveram",
+          "Reaptan",
+          "Prexum Combi",
+          "Perisyl Combi",
+          "Triplixam",
+          "Triplixam SR",
+          "Coversyl Plus LD",
+          "Prexum Combi LD"
+        ],
+        "ramipril": [
+          "Tritace",
+          "Ramace",
+          "Prilace",
+          "Ramibell",
+          "Tryzan",
+          "Vascalace",
+          "Triasyn"
+        ],
+        "enalapril": [
+          "Renitec",
+          "Amprace",
+          "Acetec",
+          "Alphapril",
+          "Auspril",
+          "Elapril",
+          "Enahexal",
+          "Enalabell",
+          "Malean",
+          "Renitec M",
+          "Renitec Plus",
+          "Zan-Extra"
+        ],
+        "lisinopril": [
+          "Zestril",
+          "Prinivil",
+          "Fibsol",
+          "Linopril",
+          "Liprace",
+          "Lisinobell",
+          "Lisinotrust",
+          "Lisodrate",
+          "Lisodur",
+          "Lisoril",
+          "Ozten",
+          "Sinop",
+          "Zinopril"
+        ],
+        "quinapril": [
+          "Accupril",
+          "Accuretic",
+          "Acquin",
+          "Aquinafil",
+          "Filpril",
+          "Qpril"
+        ],
+        "fosinopril": [
+          "Monace",
+          "Fosipril",
+          "Monopril",
+          "Monoplus"
+        ],
+        "captopril": [
+          "Capoten",
+          "Acenorm",
+          "Captohexal",
+          "Topace",
+          "Zedace"
+        ],
+        "trandolapril": [
+          "Gopten",
+          "Dolapril",
+          "Goricap",
+          "Odrik",
+          "Tranalpha",
+          "Tarka"
+        ],
+        "candesartan": [
+          "Atacand",
+          "Atacand Plus",
+          "Adesan",
+          "Asartan",
+          "Candelem",
+          "Candesan",
+          "Adesan HCT",
+          "Candesan Combi"
+        ],
+        "irbesartan": [
+          "Avapro",
+          "Karvea",
+          "Avapro HCT",
+          "Abisart",
+          "Ambotens",
+          "Avsartan",
+          "Irbesat",
+          "Irbestin",
+          "Irbetan",
+          "Irprestan",
+          "Karbesat",
+          "Avsartan HCT",
+          "Abisart HCTZ",
+          "Karvezide"
+        ],
+        "telmisartan": [
+          "Micardis",
+          "Micardis Plus",
+          "Twynsta",
+          "Mizart",
+          "Pritor",
+          "Telmigen",
+          "Teltartan",
+          "Mizart HCT",
+          "Teltartan HCT",
+          "PritorPlus",
+          "Pritor Plus"
+        ],
+        "olmesartan": [
+          "Olmetec",
+          "Olmetec Plus",
+          "Sevikar",
+          "Olmertan",
+          "Olmes",
+          "Olmesart",
+          "Olsetan",
+          "Sevikar HCT",
+          "Olmekar"
+        ],
+        "valsartan": [
+          "Diovan",
+          "Co-Diovan",
+          "Exforge",
+          "Dilart",
+          "Exforge HCT"
+        ],
+        "losartan": [
+          "Cozaar",
+          "Hyzaar",
+          "Cozavan"
+        ],
+        "eprosartan": [
+          "Teveten",
+          "Teveten Plus"
+        ],
+        "sacubitril with valsartan": [
+          "Entresto",
+          "Omtralo",
+          "Valtresto"
+        ]
+      },
+      "note": "Oral ACE inhibitors, angiotensin receptor blockers (ARBs), sacubitril with valsartan (Entresto, Omtralo, Valtresto) and all fixed-dose combination tablets containing an ACE inhibitor or ARB count. Fixed-dose combinations that also contain hydrochlorothiazide or indapamide (such as Coversyl Plus, Coversyl Plus LD, Prexum Combi, Prexum Combi LD, Perisyl Combi, Triplixam, Triplixam SR, Renitec Plus, Accuretic, Monoplus, Atacand Plus, Adesan HCT, Candesan Combi, Avapro HCT, Karvezide, Avsartan HCT, Abisart HCTZ, Micardis Plus, PritorPlus, Pritor Plus, Mizart HCT, Teltartan HCT, Olmetec Plus, Sevikar HCT, Co-Diovan, Exforge HCT, Hyzaar and Teveten Plus) belong to both Group C and Group D. Generic packs that show the ingredient name count too."
+    }
+  ],
+  "rule_for_models": "At any age, including when age is missing, use supply dates, quantities and directions to identify at least one day when metformin (A), a systemic NSAID (B) taken by mouth, given rectally or given by systemic injection and a diuretic (C) or ACE inhibitor or ARB (D) are all prescribed together. Cite one supply for each limb, allowing a fixed combination to provide C or D, and exclude separate courses, unused repeats, skin, eye and throat products, and low-dose aspirin. If supplies are within 60 days and unclear or when-needed directions leave overlap uncertain, report at most a possible finding and ask whether all three were taken together.",
+  "cannot_be_seen": "Kidney function results, blood pressure, current hydration status, vomiting or diarrhoea, actual use of as-needed NSAIDs, non-prescription oral NSAIDs, and medicines supplied from another pharmacy or hospital are not visible in a dispensing history.",
+  "ask_the_gp": "Could you review the acute kidney injury risk, whether the systemic NSAID is still needed alongside metformin and the diuretic, ACE inhibitor or ARB, recent kidney function monitoring, and a sick-day plan for dehydrating illness?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,95 @@
+[
+  {
+    "file": "SCOTRESP-09/pos-brand.csv",
+    "kind": "positive",
+    "about": "Thirteen Symbicort devices and a 30-capsule Enerzair pack with its inhaler total fourteen devices in the last twelve months.",
+    "findings": [
+      {
+        "criterion": "SCOTRESP-09",
+        "must_cite": [
+          [
+            "L003"
+          ],
+          [
+            "L004"
+          ],
+          [
+            "L007"
+          ],
+          [
+            "L010"
+          ],
+          [
+            "L013"
+          ],
+          [
+            "L015"
+          ],
+          [
+            "L017"
+          ],
+          [
+            "L020"
+          ],
+          [
+            "L023"
+          ],
+          [
+            "L026"
+          ],
+          [
+            "L027"
+          ],
+          [
+            "L030"
+          ],
+          [
+            "L033"
+          ],
+          [
+            "L036"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "SCOTRESP-09/pos-buried.csv",
+    "kind": "positive",
+    "about": "Seven prescription supplies of two budesonide and formoterol inhalers total 14 devices in the final 12 months.",
+    "findings": [
+      {
+        "criterion": "SCOTRESP-09",
+        "must_cite": [
+          [
+            "L020"
+          ],
+          [
+            "L026"
+          ],
+          [
+            "L031"
+          ],
+          [
+            "L036"
+          ],
+          [
+            "L041"
+          ],
+          [
+            "L046"
+          ],
+          [
+            "L051"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "SCOTRESP-09/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Twelve budesonide and formoterol inhalers and one Enerzair device total thirteen in the last year. The 90 oral budesonide capsules add no inhalers.",
+    "findings": []
+  }
+]

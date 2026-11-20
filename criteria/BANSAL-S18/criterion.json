@@ -1,0 +1,169 @@
+{
+  "id": "BANSAL-S18",
+  "label": "Bansal S18",
+  "family": "BANSAL",
+  "title": "Persistent opioid with at least moderate liver impairment",
+  "statement": "Persistent prescription of opioid analgesics to a patient with at least moderate hepatic impairment [96–98]",
+  "statement_origin": "published",
+  "source": {
+    "document": "Bansal N, et al. Development of prescribing indicators related to opioid-related harm in patients with chronic pain in primary care. BMC Med 2024;22:5, Tables 3-4",
+    "citation": "Bansal N, Campbell SM, Lin C-Y, Ashcroft DM, Chen L-C. Development of prescribing indicators related to opioid-related harm in patients with chronic pain in primary care - a modified e-Delphi study. BMC Med 2024;22:5. doi:10.1186/s12916-023-03213-x",
+    "doi": "10.1186/s12916-023-03213-x",
+    "url": "https://doi.org/10.1186/s12916-023-03213-x",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Bansal N, Campbell SM, Lin C-Y, Ashcroft DM, Chen L-C. Development of prescribing indicators related to opioid-related harm in patients with chronic pain in primary care - a modified e-Delphi study. BMC Med 2024;22:5. doi:10.1186/s12916-023-03213-x",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.2 candidate repairs and adopted conventions merged with attribution). Not endorsed by the source authors."
+  },
+  "plain_summary": "Opioids are broken down by the liver, so in a person with moderate or severe liver impairment long-term use can build up and cause sedation and confusion.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Opioid analgesics",
+      "ingredients": [
+        "morphine",
+        "oxycodone",
+        "tramadol",
+        "tapentadol",
+        "buprenorphine",
+        "fentanyl",
+        "hydromorphone",
+        "codeine",
+        "methadone"
+      ],
+      "brands": {
+        "morphine": [
+          "MS Contin",
+          "Kapanol",
+          "Sevredol",
+          "Ordine",
+          "Anamorph",
+          "MS Mono",
+          "MS Contin Suspension",
+          "MS Normal",
+          "Momex SR",
+          "RA-Morph"
+        ],
+        "oxycodone": [
+          "OxyContin",
+          "Endone",
+          "OxyNorm",
+          "Targin (oxycodone with naloxone)",
+          "Endone XR",
+          "Novacodone",
+          "Oxycodor",
+          "Oxycone",
+          "Oxylenus",
+          "Oxylieve MR",
+          "Oxyndone",
+          "Xedone"
+        ],
+        "tramadol": [
+          "Tramal",
+          "Durotram",
+          "Tramal SR",
+          "Durotram XR",
+          "Iptramol",
+          "Lodam",
+          "Lodam SR",
+          "Tramahexal",
+          "Tramahexal SR",
+          "Tramal Drops",
+          "Tramedo",
+          "Tramedo SR",
+          "Zydol",
+          "Zydol SR"
+        ],
+        "tapentadol": [
+          "Palexia",
+          "Palexia SR",
+          "Lodat SR",
+          "Palexia IR",
+          "Tadol IR",
+          "Tadol SR",
+          "Tapal IR",
+          "Tapal SR",
+          "Tapex IR",
+          "Tapex SR",
+          "Tapexia",
+          "Tapexia SR"
+        ],
+        "buprenorphine": [
+          "Norspan",
+          "Temgesic",
+          "B-Patch",
+          "Bupredermal"
+        ],
+        "fentanyl": [
+          "Durogesic",
+          "Denpax",
+          "Fenpatch"
+        ],
+        "hydromorphone": [
+          "Jurnista",
+          "Dilaudid",
+          "Dilaudid-HP",
+          "Palladone XL"
+        ],
+        "codeine": [
+          "Panadeine Forte",
+          "Codalgin Forte",
+          "Nurofen Plus",
+          "Codphos",
+          "Prodeine Forte"
+        ],
+        "methadone": [
+          "Physeptone",
+          "Opod-D Syrup"
+        ]
+      },
+      "note": "Count opioid analgesics supplied for pain, including methadone, sublingual buprenorphine and analgesic codeine combinations. Buvidal Weekly, Buvidal Monthly, Sublocade, Subutex, Subutex FDT, Bupradex, Biodone Forte, Opod-P Liquid and Physeptone Liquid are opioid dependence products. Check the form if the line only says Physeptone. Exclude supplies for opioid dependence and codeine cough preparations such as Actacode Linctus. If the product or its use is unclear, report at most a possible finding and ask whether it was supplied for pain."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Hepatic impairment of at least moderate degree",
+      "meets": "Moderate or severe hepatic impairment, such as Child-Pugh B or C, was documented during the opioid course. Mild impairment or normal liver function during treatment excludes this risk. An unknown grade leaves it open.",
+      "options": [
+        {
+          "words": "Moderate or severe during opioid treatment",
+          "effect": "meets"
+        },
+        {
+          "words": "Mild or no impairment during opioid treatment",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for the qualifying opioid course",
+      "meets": "Use the answer for the opioid course named in the finding. Chronic non-cancer pain meets the indication requirement. Cancer pain, end-of-life care or another indication excludes that course. If the reason is unknown or the answer cannot be linked to this course, keep it possible unless another requirement is ruled out.",
+      "options": [
+        {
+          "words": "Chronic non-cancer pain",
+          "effect": "meets"
+        },
+        {
+          "words": "Cancer pain, end-of-life care or another indication",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "For a patient over 18, confirm when at least two distinct Group A prescriptions for chronic non-cancer pain support an ongoing course of at least three calendar months and moderate or severe liver impairment is documented during treatment. Cite the opioid supplies and the line giving the reason for that course when recorded. To confirm, include the line ID that grades liver impairment as moderate or severe during the opioid course, including its first day. If the same grade appears before and during treatment, cite the entry dated during treatment. Use dates, quantities and directions, including the final supply. Exclude dependence treatment, cough preparations, cancer pain and end-of-life care. Mild impairment, normal liver function during the course or any other ruled-out requirement gives no finding. If the course could qualify, ask only for the missing age, indication, dose, duration or documented grade of liver impairment and report a possible finding. A liver condition of unknown grade or an isolated liver test cannot establish moderate impairment. If the indication could change the finding, name the opioid and dates of the course and ask for \"Reason for the qualifying opioid course\". Use the answer only for that course. If the reason is unknown or the answer could refer to another course, report only a possible finding unless another requirement is ruled out.",
+  "cannot_be_seen": "How much of the dose is really taken, whether the pain is cancer pain or end of life care, the reason for the liver problem, and the true severity of the impairment unless the record says it.",
+  "ask_the_gp": "A review of whether the opioid is still the right choice, and the dose, for this patient's liver function.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

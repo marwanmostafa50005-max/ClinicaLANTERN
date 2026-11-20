@@ -1,0 +1,87 @@
+{
+  "id": "GERARD-32",
+  "label": "Gerard: GLP-1 analogue with a history of gallstones",
+  "family": "GERARD",
+  "title": "GLP-1 analogue with a history of gallstones",
+  "statement": "It is necessary to review and optimize the prescription of a GLP-1 analogue in a patient with a history of gallstones.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Development of explicit definitions of potentially inappropriate prescriptions for antidiabetic drugs in people with type 2 diabetes: A Delphi survey and consensus meeting",
+    "citation": "Gerard E, Bugday D, Calafiore M, Baran J, Gautier S, Henry H, et al. (2025). Development of explicit definitions of potentially inappropriate prescriptions for antidiabetic drugs in people with type 2 diabetes: A Delphi survey and consensus meeting. PLOS ONE 20(10), e0334836.",
+    "doi": "10.1371/journal.pone.0334836",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0334836",
+    "licence": "CC BY 4.0",
+    "credit": "© 2025 Gerard et al. Gerard E, Bugday D, Calafiore M, Baran J, Gautier S, Henry H, et al. (2025). Development of explicit definitions of potentially inappropriate prescriptions for antidiabetic drugs in people with type 2 diabetes: A Delphi survey and consensus meeting. PLOS ONE 20(10), e0334836. https://doi.org/10.1371/journal.pone.0334836. Table 2. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The statements are reproduced. GPT-6.2 Astra added the Australian medicine mapping, screening rules and fictional cases.",
+    "licence_status": "proposed",
+    "modification_notice": "The published statement is unchanged. The plain-language rule, Australian medicine mapping and test cases are adaptations."
+  },
+  "plain_summary": "A previous episode of gallstones warrants review of GLP-1 analogue treatment even if the episode has resolved.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "GLP-1 analogues",
+      "ingredients": [
+        "dulaglutide",
+        "liraglutide",
+        "semaglutide",
+        "exenatide"
+      ],
+      "brands": {
+        "exenatide": [
+          "Byetta",
+          "Bydureon",
+          "Bydureon BCise"
+        ],
+        "dulaglutide": [
+          "Trulicity"
+        ],
+        "liraglutide": [
+          "Liraglutide Lupin",
+          "Victoza",
+          "Benedo",
+          "Saxenda",
+          "Xultophy"
+        ],
+        "semaglutide": [
+          "Ozempic",
+          "Wegovy",
+          "Wegovy Flextouch",
+          "Rybelsus"
+        ]
+      },
+      "note": "Count a listed ingredient in a combination product. Exclude dual GIP/GLP-1 agonists."
+    }
+  ],
+  "rule_for_models": "Start with a Group A supply. If type 2 diabetes is confirmed and the person had gallstones before or during this course, flag for review and cite the supply, diagnosis and gallstone history, even if the history was recorded later. If diabetes type or the relevant gallstone history is unclear and the rest fits, report only a possible finding and ask for the missing fact. Give no finding if type 2 diabetes is excluded or the person had no gallstones before or during this course.",
+  "cannot_be_seen": "Abdominal pain or gallbladder surgery with no stated indication cannot establish a history of gallstones.",
+  "ask_the_gp": "Could you confirm whether the person has a history of gallstones and, if so, review whether the GLP-1 analogue remains suitable?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Type 2 diabetes",
+      "meets": "The record confirms type 2 diabetes during treatment."
+    },
+    {
+      "kind": "condition",
+      "what": "Gallstone history before or during the GLP-1 course",
+      "meets": "The record or pharmacist confirms that the person had gallstones before or during the course under review, including a previous episode that resolved.",
+      "options": [
+        {
+          "words": "Had gallstones before or during this GLP-1 course",
+          "effect": "meets"
+        },
+        {
+          "words": "No gallstones before or during this GLP-1 course",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

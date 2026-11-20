@@ -1,0 +1,50 @@
+[
+  {
+    "file": "SCOTNTI-CNS-3/pos-brand.csv",
+    "kind": "positive",
+    "about": "Brand-only Seroquel, Zoloft and Suboxone 8/2 for opioid dependence cover 2 June, with the combination film contributing one opioid group.",
+    "findings": [
+      {
+        "criterion": "SCOTNTI-CNS-3",
+        "must_cite": [
+          [
+            "L014"
+          ],
+          [
+            "L015"
+          ],
+          [
+            "L018"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "SCOTNTI-CNS-3/pos-buried.csv",
+    "kind": "positive",
+    "about": "Sertraline and methadone with no recorded indication both cover 3 February, when a single dose of short-acting Clopixol Acuphase supplies the third group.",
+    "findings": [
+      {
+        "criterion": "SCOTNTI-CNS-3",
+        "must_cite": [
+          [
+            "L027"
+          ],
+          [
+            "L032"
+          ],
+          [
+            "L033"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "SCOTNTI-CNS-3/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Pregabalin and sertraline cover 22 May, but the Clopixol Depot injection on that day is excluded, leaving two qualifying groups.",
+    "findings": []
+  }
+]

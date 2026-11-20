@@ -1,0 +1,51 @@
+[
+  {
+    "file": "STOPP-B15/pos-fact.csv",
+    "kind": "positive",
+    "about": "The QTc was 486 ms on 20 January during continued citalopram treatment at 40 mg daily.",
+    "findings": [
+      {
+        "criterion": "STOPP-B15",
+        "must_cite": [
+          [
+            "L022",
+            "L026",
+            "L030",
+            "L034",
+            "L038",
+            "L042"
+          ],
+          [
+            "L021"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-B15/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about QTc during escitalopram 20 mg daily, and the preceding citalopram course at 20 mg daily does not qualify.",
+    "findings": [
+      {
+        "criterion": "STOPP-B15",
+        "must_cite": [
+          [
+            "L011",
+            "L014",
+            "L017",
+            "L020",
+            "L023",
+            "L026"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-B15/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Citalopram remained at 20 mg daily when its directions changed, the QTc relevant to oral domperidone was 452 ms, and the later 486 ms result accompanied ciprofloxacin eye drops.",
+    "findings": []
+  }
+]

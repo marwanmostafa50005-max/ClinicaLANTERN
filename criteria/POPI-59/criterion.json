@@ -1,0 +1,61 @@
+{
+  "id": "POPI-59",
+  "label": "POPI: tacrolimus 0.1% ointment for atopic eczema before age 16",
+  "family": "POPI",
+  "title": "Tacrolimus 0.1% ointment for atopic eczema before age 16",
+  "statement": "Topically applied 0.1% tacrolimus before 16 years of age",
+  "statement_origin": "published",
+  "source": {
+    "document": "International consensus validation of the POPI tool (2020), Table 2",
+    "citation": "Sadozai L, Sable S, Le Roux E, et al. International consensus validation of the POPI tool (Pediatrics: Omission of Prescriptions and Inappropriate prescriptions) to identify inappropriate prescribing in pediatrics. PLOS ONE. 2020;15(10):e0240105.",
+    "doi": "10.1371/journal.pone.0240105",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0240105",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "© 2020 Sadozai et al. Table 2, International consensus validation of the POPI tool. PLOS ONE 15(10), e0240105. https://doi.org/10.1371/journal.pone.0240105. CC BY 4.0.",
+    "modification_notice": "The published item is reproduced unchanged. The Australian medicine examples, screening rule and fictional histories are local additions."
+  },
+  "plain_summary": "POPI flags tacrolimus 0.1% applied to the skin for atopic eczema before the child's 16th birthday.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Tacrolimus preparations for application to the skin",
+      "ingredients": [
+        "tacrolimus"
+      ],
+      "brands": {
+        "tacrolimus": [
+          "Azematop"
+        ]
+      },
+      "note": "Count any preparation for application to skin at 0.1% (1 mg/g), including a compounded cream or ointment with documented strength. Exclude eye drops, injections and oral preparations."
+    }
+  ],
+  "rule_for_models": "Before age 16, flag a Group A tacrolimus skin preparation at 0.1% (1 mg/g) when current atopic eczema is documented for the treated skin, and cite the supply and diagnosis. With the same age, route and strength but no line about atopic eczema, report a possible finding and name the missing diagnosis. If age is unknown and the supply and indication could qualify, report only a possible finding and ask whether the patient is under 16 and, if missing, whether the treatment is for atopic eczema. A different recorded indication, a different strength or route, or age 16 or older gives no finding.",
+  "cannot_be_seen": "The record cannot show what was applied, where it was applied or the specialist's reasons unless they were recorded.",
+  "ask_the_gp": "Could you confirm the diagnosis and review the strength of tacrolimus ointment in light of the child's age?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Atopic eczema",
+      "meets": "The tacrolimus supply under review was for current atopic eczema on the treated skin. Eczema elsewhere or at another time does not establish this. If the indication is unclear, keep the finding possible.",
+      "options": [
+        {
+          "words": "The tacrolimus was for atopic eczema on the treated skin",
+          "effect": "meets"
+        },
+        {
+          "words": "The tacrolimus was for a different skin condition",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

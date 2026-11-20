@@ -1,0 +1,50 @@
+[
+  {
+    "file": "STOPP-J9/pos-fact.csv",
+    "kind": "positive",
+    "about": "The 10 February 2026 assessment records subclinical hypothyroidism as the reason for treatment, with TSH 6.8 mU/L and free T4 15 pmol/L before Eltroxin starts on 17 February.",
+    "findings": [
+      {
+        "criterion": "STOPP-J9",
+        "must_cite": [
+          [
+            "L028",
+            "L038"
+          ],
+          [
+            "L025"
+          ],
+          [
+            "L026"
+          ],
+          [
+            "L027"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-J9/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record shows Eutroxsig supplies but gives no original indication, pretreatment TSH or pretreatment free T4.",
+    "findings": [
+      {
+        "criterion": "STOPP-J9",
+        "must_cite": [
+          [
+            "L006",
+            "L010",
+            "L016"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-J9/near-miss.csv",
+    "kind": "near_miss",
+    "about": "At the pre-treatment assessment for subclinical hypothyroidism, free T4 was in range and TSH was exactly 10.0 mU/L, the sole reason this Oroxine supply falls outside the criterion.",
+    "findings": []
+  }
+]

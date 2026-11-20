@@ -1,0 +1,62 @@
+[
+  {
+    "file": "UKKA-T2D-1B/pos-fact.csv",
+    "kind": "positive",
+    "about": "With CKD, type 2 diabetes and eGFR 46, an initial ACR of 40 and a repeat of 25 mg/mmol within three months qualify without a PCR or an SGLT2 inhibitor supply in the window.",
+    "findings": [
+      {
+        "criterion": "UKKA-T2D-1B",
+        "must_cite": [
+          [
+            "L004"
+          ],
+          [
+            "L005"
+          ],
+          [
+            "L023"
+          ],
+          [
+            "L013"
+          ],
+          [
+            "L025"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "UKKA-T2D-1B/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line establishing whether the Jardiance pack supplied on 1 October was still being taken on 22 December, when the PCR of 40 mg/mmol completed the kidney criteria.",
+    "findings": [
+      {
+        "criterion": "UKKA-T2D-1B",
+        "must_cite": [
+          [
+            "L004"
+          ],
+          [
+            "L005"
+          ],
+          [
+            "L019"
+          ],
+          [
+            "L020"
+          ],
+          [
+            "L009"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "UKKA-T2D-1B/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The eGFR rose from 45 to 55 and the ACR was 70 mg/mmol, but Jardiance was supplied the day after the urine specimen.",
+    "findings": []
+  }
+]

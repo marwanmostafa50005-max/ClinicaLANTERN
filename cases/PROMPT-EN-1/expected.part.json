@@ -1,0 +1,48 @@
+[
+  {
+    "file": "PROMPT-EN-1/pos-brand.csv",
+    "kind": "positive",
+    "about": "Daonil 5 mg (glibenclamide) is supplied nine times and appears by brand name only.",
+    "findings": [
+      {
+        "criterion": "PROMPT-EN-1",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L009",
+            "L013",
+            "L017",
+            "L021",
+            "L025",
+            "L029",
+            "L033"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PROMPT-EN-1/pos-buried.csv",
+    "kind": "positive",
+    "about": "Glibenclamide 5 mg is supplied three times in the middle of a 15-month history while metformin is supplied throughout.",
+    "findings": [
+      {
+        "criterion": "PROMPT-EN-1",
+        "must_cite": [
+          [
+            "L027",
+            "L032",
+            "L037"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PROMPT-EN-1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Diamicron MR (gliclazide) is supplied with metformin. Gliclazide is another sulfonylurea but is not glibenclamide, so it must not flag.",
+    "findings": []
+  }
+]

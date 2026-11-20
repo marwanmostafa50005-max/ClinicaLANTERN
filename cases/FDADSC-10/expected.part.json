@@ -1,0 +1,76 @@
+[
+  {
+    "file": "FDADSC-10/pos-brand.csv",
+    "kind": "positive",
+    "about": "Only the Plavix and Nexium supplied on 2 and 8 August 2026 qualify. The May supply is Somac, which contains pantoprazole.",
+    "findings": [
+      {
+        "criterion": "FDADSC-10",
+        "must_cite": [
+          [
+            "L024"
+          ],
+          [
+            "L028"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "FDADSC-10/pos-buried.csv",
+    "kind": "positive",
+    "about": "Brand-only DuoCover and Noxicid are buried in a 12-month history for a fictional adult aged 72, with supplies in March and April 2026.",
+    "findings": [
+      {
+        "criterion": "FDADSC-10",
+        "must_cite": [
+          [
+            "L018",
+            "L023"
+          ],
+          [
+            "L022",
+            "L027"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "FDADSC-10/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Brand-only Plavix and Somac are supplied to a fictional adult aged 67. Somac contains pantoprazole, which is excluded from Group B, so there is no finding.",
+    "findings": []
+  },
+  {
+    "file": "FDADSC-10/pos-fact-outside.csv",
+    "kind": "positive",
+    "about": "A dated observation confirms outside use with this clopidogrel supply. The record does not show whether the prescriber judged the combination essential, so the finding is possible.",
+    "findings": [
+      {
+        "criterion": "FDADSC-10",
+        "must_cite": [
+          [
+            "L025"
+          ],
+          [
+            "L026"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "FDADSC-10/near-miss-outside-no.csv",
+    "kind": "near_miss",
+    "about": "The pharmacy supplied clopidogrel alone and the patient reports taking neither omeprazole nor esomeprazole from another source with it.",
+    "findings": []
+  },
+  {
+    "file": "FDADSC-10/near-miss-outside-unknown.csv",
+    "kind": "near_miss",
+    "about": "The only clopidogrel supply has an observation of unknown outside use. There is no evidence of concurrent omeprazole or esomeprazole use.",
+    "findings": []
+  }
+]

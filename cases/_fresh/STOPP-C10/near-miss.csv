@@ -1,0 +1,6 @@
+patient_ref,patient_age,patient_sex,record_type,dispense_date,medicine,brand,strength,form,quantity,repeats_left,directions,prescriber,detail,value
+F-FR-C10-2,69,M,,2026-01-20,ketoprofen,Orudis,50 mg,tablet,60,1,Take ONE capsule three times a day with food,Dr B. Sample,,
+F-FR-C10-2,69,M,,2026-02-10,ketoprofen,Orudis,50 mg,tablet,60,0,Take ONE capsule three times a day with food,Dr B. Sample,,
+F-FR-C10-2,69,M,,2026-06-15,dabigatran,Pradaxa,150 mg,tablet,60,2,Take ONE capsule twice a day,Dr A. Example,,
+F-FR-C10-2,69,M,,2026-07-06,dabigatran,Pradaxa,150 mg,tablet,60,1,Take ONE capsule twice a day,Dr A. Example,,
+F-FR-C10-2,69,M,,2026-07-20,metformin,Diabex XR,1000 mg,tablet,60,5,Take ONE tablet twice a day with meals,Dr A. Example,,

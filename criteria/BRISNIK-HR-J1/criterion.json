@@ -1,0 +1,50 @@
+{
+  "id": "BRISNIK-HR-J1",
+  "label": "Brisnik: agomelatine with raised liver enzymes",
+  "family": "BRISNIK",
+  "title": "Agomelatine with liver enzymes more than three times normal",
+  "statement": "Prescribed agomelatine - and the patient has developed elevated serum transaminase levels (> 3 times the upper normal range) under treatment",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Statement text reproduced without changes. Not endorsed by the source authors."
+  },
+  "plain_summary": "Agomelatine can harm the liver. Contact the prescriber the same day for a confirmed ALT or AST rise above three times the laboratory upper limit during current treatment. If the only concern is that results are missing, ask the patient or prescriber routinely when liver tests were last checked and what they showed.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Agomelatine",
+      "ingredients": [
+        "agomelatine"
+      ],
+      "brands": {
+        "agomelatine": [
+          "Valdoxan",
+          "Domion",
+          "Nortim",
+          "Valomel"
+        ]
+      },
+      "note": "Count agomelatine tablets identified by a listed brand or by the ingredient name, including a company name beside it. Use documented treatment start or stop dates when available. Otherwise divide the tablet quantity by the tablets per day in the directions. At one tablet nightly, 28 tablets cover the dispense date and the next 27 days. If the dose is unclear, ask how many tablets were taken and when."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "ALT or AST as a multiple of its laboratory upper limit",
+      "meets": "From the report, enter the ALT or AST divided by its own laboratory upper limit, with the sample date and the enzyme name in the unit, for example ALT times upper limit. The result meets the threshold when ALT or AST rises above 3 times its own laboratory upper limit during treatment. If the report cannot establish the multiple, choose Not known. Assess each dated result separately."
+    }
+  ],
+  "rule_for_models": "When agomelatine was supplied, compare each dated ALT or AST with its own laboratory upper limit, or use the reported multiple. Above three times the limit, cite the result and the supply covering the sample date, checking earlier packs if a recent part supply falls short and using documented treatment dates when available. A result after treatment or at or below three times the limit does not qualify or cancel another qualifying result. With agomelatine supplied, keep the finding possible if only a baseline is available, neither a value with its limit nor a multiple is known, or the sample date or exposure is unclear. Name the missing information.",
+  "cannot_be_seen": "The cause of the raised enzymes, how they have changed since, the laboratory's own upper limit if it is not on the line, and whether the person is still taking agomelatine.",
+  "ask_the_gp": "For a current ALT or AST above three times the laboratory upper limit during agomelatine treatment, could you confirm today whether agomelatine has been stopped and repeat liver tests arranged within 48 hours of the rise? If the on-treatment result is missing, could you confirm when liver tests were last performed and what they showed?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

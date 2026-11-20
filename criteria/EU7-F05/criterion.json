@@ -1,0 +1,51 @@
+{
+  "id": "EU7-F05",
+  "label": "EU(7)-PIM: metoclopramide, domperidone above 30 mg a day",
+  "family": "EU7",
+  "title": "Metoclopramide, or domperidone above 30 mg a day, in an older person",
+  "statement": "The EU(7)-PIM list names metoclopramide, domperidone at more than 30 mg a day, and alizapride as potentially inappropriate medicines for older people. Metoclopramide: it blocks dopamine and has anticholinergic effects, and it may worsen blood flow in the arteries of the limbs and bring on leg pain on walking (intermittent claudication). The experts advise short-term use and a reduced dose, half the normal dose when creatinine clearance is below 40 mL/min, and no more than 20 mg a day. They add that it may be used in palliative care. Domperidone at more than 30 mg a day: a higher risk of serious ventricular arrhythmia or sudden cardiac death in older adults. The experts advise starting at the lowest possible dose and raising it with care. Alizapride: no proven benefit, a muscarinic-blocking medicine, with side effects such as confusion and sedation. In the metoclopramide and high-dose domperidone entries, the panel suggested domperidone below 30 mg a day if there were no contraindications. The alizapride entry gives no alternative.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Summary written by the entrant in plain words from three rows of the source table (metoclopramide, domperidone above 30 mg a day, alizapride). Dose advice for alizapride that the source marks as taken from Micromedex is left out. The authors have not reviewed this summary."
+  },
+  "plain_summary": "Metoclopramide can cause side effects in older people and may worsen blood flow to the legs, and domperidone above 30 mg a day raises the risk of a dangerous heart rhythm.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Metoclopramide and alizapride at any dose, and domperidone above 30 mg a day",
+      "ingredients": [
+        "metoclopramide",
+        "domperidone",
+        "alizapride"
+      ],
+      "brands": {
+        "metoclopramide": [
+          "Maxolon",
+          "Pramin",
+          "Anagraine",
+          "Metomax",
+          "Aspramide",
+          "Emexlon"
+        ],
+        "domperidone": [
+          "Motilium"
+        ],
+        "alizapride": []
+      },
+      "note": "Metoclopramide and alizapride count at any dose. Domperidone counts only when the directions give more than 30 mg a day. Anagraine and Metomax are paracetamol with metoclopramide. Tablets, capsules, liquids and injections count. No Australian brand was found for alizapride. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when the patient is aged 65 years or over and a Group A medicine is supplied in one of these ways: metoclopramide or alizapride at any dose, or domperidone with directions that give more than 30 mg a day. If the medicine criteria are otherwise met and age at supply is unknown, report only a possible finding and ask for age confirmation. An age below 65 rules out this finding. Work out the daily domperidone dose from the tablet strength and the directions, for example TWO 10 mg tablets three times a day is 60 mg a day. Domperidone at exactly 30 mg a day or less does not count. For domperidone, a prescribed daily range wholly above 30 mg meets the dose test. A stated maximum of 30 mg a day or less rules out that supply. If the daily dose cannot be calculated, a range spans doses both at or below and above 30 mg a day, or an as-needed maximum exceeds 30 mg a day, report only a possible finding from that supply when age could qualify and ask the pharmacist to confirm the daily dose taken. If age is also unknown, ask about both dose and age. The age limit still applies.",
+  "cannot_be_seen": "Supplies alone do not show why treatment started, its intended duration or how many tablets the person takes each day. Check dated entries for palliative care, kidney function, ECG results, shaking, stiffness or restlessness. Medicines supplied elsewhere may be missing.",
+  "ask_the_gp": "Could you confirm what this medicine is treating and review whether it is still needed at this dose and for this duration, taking account of the patient's age, kidney function and heart rhythm?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

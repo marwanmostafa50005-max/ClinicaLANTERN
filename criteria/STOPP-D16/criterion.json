@@ -1,0 +1,246 @@
+{
+  "id": "STOPP-D16",
+  "label": "STOPP D16",
+  "family": "STOPP_START",
+  "title": "Antipsychotic used as a sleeping medicine",
+  "statement": "Antipsychotics as hypnotics, unless sleep disorder is due to psychosis or BPSD effects of dementia (not recommended in summary of product characteristics; increased risk of confusion, hypotension, extra-pyramidal side effects, falls).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "An antipsychotic taken to help sleep, when the sleep problem is unrelated to psychosis or behavioural or psychological symptoms of dementia, adds a risk of confusion, low blood pressure, stiffness and falls.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antipsychotics",
+      "ingredients": [
+        "risperidone",
+        "quetiapine",
+        "olanzapine",
+        "haloperidol",
+        "aripiprazole",
+        "amisulpride",
+        "chlorpromazine",
+        "clozapine",
+        "paliperidone",
+        "periciazine",
+        "lurasidone",
+        "brexpiprazole",
+        "asenapine",
+        "ziprasidone",
+        "cariprazine",
+        "zuclopenthixol"
+      ],
+      "brands": {
+        "risperidone": [
+          "Risperdal",
+          "Rispa",
+          "Ozidal",
+          "Resdone",
+          "Respaz",
+          "Risdone",
+          "Rispaccord",
+          "Rispaccord-0.5",
+          "Risperdal Quicklet",
+          "Risperibell",
+          "Rispericor",
+          "Rispericor-0.5",
+          "Risperisan",
+          "Rispernia",
+          "Rixadone",
+          "Sperid"
+        ],
+        "quetiapine": [
+          "Seroquel",
+          "Seroquel XR",
+          "Aliquen",
+          "Delucon",
+          "Kaptan",
+          "Ketizenol",
+          "Qualez",
+          "Quepine XR",
+          "Quetapen",
+          "Quetia",
+          "Quetia XR",
+          "Quetiaccord",
+          "Quetiaquel XR",
+          "Quetin",
+          "Quipine",
+          "Sequase",
+          "Sequase XR",
+          "Serapine",
+          "Serapine XR",
+          "Seroccord",
+          "Seronia",
+          "Serotiapine XR",
+          "Syquet",
+          "Syquet XR",
+          "Syzopine",
+          "Tevatiapine XR",
+          "Tiapine XR",
+          "Tiava XR",
+          "Xque XR"
+        ],
+        "olanzapine": [
+          "Zyprexa",
+          "Zyprexa Zydis",
+          "Aprolan",
+          "Aprolan ODT",
+          "Lanez",
+          "Lanez ODT",
+          "Lanzek",
+          "Lanzek Zydis",
+          "Lonza",
+          "Lonza ODT",
+          "Lyprosia",
+          "Lyprosia ODT",
+          "Olancor",
+          "Olanza",
+          "Olanzaccord",
+          "Olanzacor",
+          "Oprexa",
+          "Ozin",
+          "Ozin ODT",
+          "Prolanza",
+          "Prolanza ODT",
+          "Pryzex",
+          "Pryzex ODT",
+          "Tolaze ODT",
+          "Tolazine ODT",
+          "Torapine ODT",
+          "Torrenia ODT",
+          "Zylap",
+          "Zylap ODT",
+          "Zylapine",
+          "Zylapine ODT",
+          "Zypine",
+          "Zypine ODT"
+        ],
+        "haloperidol": [
+          "Serenace"
+        ],
+        "aripiprazole": [
+          "Abilify",
+          "Abilify ODT",
+          "Abipra",
+          "Abyraz",
+          "Aprazole",
+          "Aripic",
+          "Aripra",
+          "Arizole"
+        ],
+        "amisulpride": [
+          "Solian",
+          "Amipride",
+          "Sulprix"
+        ],
+        "chlorpromazine": [
+          "Largactil",
+          "Largactil Syrup"
+        ],
+        "clozapine": [
+          "Clozaril",
+          "Clopine",
+          "Closyn",
+          "Clozaril ODT",
+          "Clozitor",
+          "Versacloz"
+        ],
+        "paliperidone": [
+          "Invega"
+        ],
+        "periciazine": [
+          "Neulactil"
+        ],
+        "lurasidone": [
+          "Latuda",
+          "Bilura",
+          "Latulem",
+          "Lavione",
+          "Luracor",
+          "Luralem",
+          "Luralembic",
+          "Lurobi"
+        ],
+        "brexpiprazole": [
+          "Rexulti"
+        ],
+        "asenapine": [
+          "Saphris"
+        ],
+        "ziprasidone": [
+          "Zeldox",
+          "Ziprox"
+        ],
+        "cariprazine": [
+          "Reagila"
+        ],
+        "zuclopenthixol": [
+          "Clopixol"
+        ]
+      },
+      "note": "Tablets and liquids count, as do asenapine sublingual wafers and ziprasidone or cariprazine capsules. Generic packs that show the ingredient name with a company name count too. Exclude long-acting depot injections from this oral hypnotic group."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Cause of the sleep problem during this antipsychotic course",
+      "meets": "The record establishes that neither psychosis nor behavioural or psychological symptoms of dementia caused the sleep problem.",
+      "options": [
+        {
+          "words": "Psychosis",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Behavioural or psychological symptoms of dementia",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Both psychosis and behavioural or psychological symptoms of dementia",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Neither psychosis nor behavioural or psychological symptoms of dementia",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Use of the antipsychotic for sleep during this course",
+      "meets": "The directions, a linked prescribing note or a recorded history says this antipsychotic was used for sleep during the course.",
+      "options": [
+        {
+          "words": "Used to help the patient sleep",
+          "effect": "meets"
+        },
+        {
+          "words": "Used only for another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply from age 65 at the supply and confirm an unknown age before reporting a STOPP finding. Look for a Group A antipsychotic used as a hypnotic, documented in directions or a linked condition, observation or prescribing note. Bedtime dosing or an unrelated insomnia diagnosis alone does not establish hypnotic use. Assess each dated course and describe a completed course as historical. If neither psychosis nor behavioural or psychological symptoms of dementia caused the sleep problem, report a finding and cite the supply, the evidence of hypnotic use and the cause. If either caused it, report no D16 finding. If the only clue is bedtime-only dosing and the reason is unknown, report only a possible finding and ask whether the medicine was used for sleep. If sleep use is documented but its cause is unknown, report only a possible finding and ask what caused the sleep problem. Low dose, an unrelated insomnia diagnosis or unspecified as-needed directions alone give no D16 finding. A documented use solely for another purpose also gives no finding.",
+  "cannot_be_seen": "Why the antipsychotic was started, and whether the sleep problem is really caused by psychosis or by dementia. Also the dose actually taken and any medicines from a hospital or another pharmacy.",
+  "ask_the_gp": "Could you review why the antipsychotic was prescribed for this course and, if it is still being used for sleep, whether a safer option would be suitable?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

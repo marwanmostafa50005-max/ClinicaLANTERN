@@ -1,0 +1,41 @@
+[
+  {
+    "file": "STOPP-F5/pos-fact.csv",
+    "kind": "positive",
+    "about": "Solu-Cortef Act-O-Vial is supplied for intramuscular injection to a patient with recorded peptic ulcer disease and no proton pump inhibitor supply.",
+    "findings": [
+      {
+        "criterion": "STOPP-F5",
+        "must_cite": [
+          [
+            "L005"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-F5/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about peptic ulcer disease or erosive oesophagitis and shows oral Cortate without a proton pump inhibitor supply.",
+    "findings": [
+      {
+        "criterion": "STOPP-F5",
+        "must_cite": [
+          [
+            "L004"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-F5/near-miss.csv",
+    "kind": "near_miss",
+    "about": "A patient with recorded peptic ulcer disease receives Somac on the day of each steroid supply, including the PredMix oral liquid supply.",
+    "findings": []
+  }
+]

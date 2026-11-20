@@ -1,0 +1,271 @@
+{
+  "id": "BRISNIK-HR-G1",
+  "label": "Brisnik HR-G1",
+  "family": "BRISNIK",
+  "title": "SSRI with a blood thinner or antiplatelet after a bleeding event",
+  "statement": "Prescribed SSRI - and the patient has a history of a bleeding event and co-prescribed ≥ 1 of the following: anticoagulant or antiplatelet",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2). Not endorsed by the source authors."
+  },
+  "plain_summary": "An SSRI taken with a blood thinner or an antiplatelet medicine adds to the risk of bleeding, and this matters most in a person who has already had a bleeding event.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "SSRIs (selective serotonin reuptake inhibitors)",
+      "ingredients": [
+        "sertraline",
+        "escitalopram",
+        "citalopram",
+        "fluoxetine",
+        "paroxetine",
+        "fluvoxamine"
+      ],
+      "brands": {
+        "sertraline": [
+          "Zoloft",
+          "Concorz",
+          "Detralon",
+          "Eleva",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Setrona",
+          "Tralen",
+          "Xydep"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam",
+          "Loxalate"
+        ],
+        "citalopram": [
+          "Cipramil",
+          "Celapram",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talam",
+          "Talohexal"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Zactin",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Extine",
+          "Paxtine",
+          "Aropax CR",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ]
+      },
+      "note": "Generic packs that show the ingredient name with a company name count too. Any dose counts."
+    },
+    {
+      "key": "B",
+      "name": "Anticoagulants (blood thinners)",
+      "ingredients": [
+        "warfarin",
+        "dabigatran",
+        "apixaban",
+        "rivaroxaban",
+        "edoxaban",
+        "enoxaparin",
+        "dalteparin",
+        "fondaparinux",
+        "dalteparin sodium",
+        "enoxaparin sodium",
+        "heparin",
+        "heparin sodium"
+      ],
+      "brands": {
+        "warfarin": [
+          "Coumadin",
+          "Marevan"
+        ],
+        "dabigatran": [
+          "Pradaxa"
+        ],
+        "apixaban": [
+          "Eliquis",
+          "Apixor",
+          "Apexa",
+          "Alexibic",
+          "Axibic",
+          "Elapex"
+        ],
+        "rivaroxaban": [
+          "Xarelto",
+          "Ixarola",
+          "Relaban",
+          "Rivalembic",
+          "Rivarelto",
+          "Rivator",
+          "Rivaxib",
+          "Rivaxotor",
+          "Rivoxa",
+          "Roxabic",
+          "Roxalem",
+          "Roxator",
+          "Toriva",
+          "Troxa",
+          "Xaremed"
+        ],
+        "edoxaban": [],
+        "enoxaparin": [
+          "Clexane"
+        ],
+        "dalteparin": [
+          "Fragmin"
+        ],
+        "fondaparinux": [
+          "Arixtra"
+        ],
+        "dalteparin sodium": [
+          "Fragmin"
+        ],
+        "enoxaparin sodium": [
+          "Clexane",
+          "Clexane Forte",
+          "Enoxaject",
+          "Enoxapo",
+          "Exarane",
+          "Exarane Forte",
+          "Lovenox",
+          "Lovenox Forte"
+        ],
+        "heparin": [],
+        "heparin sodium": []
+      },
+      "note": "No Australian brand is listed for edoxaban. Enoxaparin, dalteparin and fondaparinux are injections. Generic packs that show the ingredient name with a company name count too. Count unfractionated heparin for systemic anticoagulation. Exclude heparin used to flush a catheter."
+    },
+    {
+      "key": "C",
+      "name": "Antiplatelet medicines",
+      "ingredients": [
+        "aspirin",
+        "clopidogrel",
+        "ticagrelor",
+        "prasugrel",
+        "aspirin with dipyridamole",
+        "aspirin + dipyridamole",
+        "dipyridamole"
+      ],
+      "brands": {
+        "aspirin": [
+          "Cartia",
+          "Astrix",
+          "Aspro",
+          "Aspro Clear",
+          "Aspro Clear Extra Strength",
+          "Aspro Protect",
+          "Cardasa",
+          "Cardiprin",
+          "Disprin Direct",
+          "Disprin Extra Strength",
+          "Disprin Max",
+          "Disprin Original",
+          "Disprin Regular",
+          "Ecotrin",
+          "Princard",
+          "Solprin",
+          "Spren"
+        ],
+        "clopidogrel": [
+          "Plavix",
+          "Iscover",
+          "Clogrel",
+          "Clopaccord",
+          "Clopithromb",
+          "Clovix",
+          "Piax",
+          "Plavicor",
+          "Plidogrel",
+          "Viplex",
+          "CoPlavix",
+          "DuoCover"
+        ],
+        "ticagrelor": [
+          "Brilinta",
+          "Bricalor",
+          "Brilinta ODT",
+          "Novalant",
+          "Ticalor",
+          "Tirela"
+        ],
+        "prasugrel": [
+          "Effient"
+        ],
+        "aspirin with dipyridamole": [
+          "Asasantin SR"
+        ],
+        "aspirin + dipyridamole": [
+          "Asasantin SR"
+        ],
+        "dipyridamole": [
+          "Persantin SR"
+        ]
+      },
+      "note": "Low-dose aspirin counts when it is supplied (Cartia and Astrix are low-dose aspirin). Aspirin bought over the counter does not appear in a dispensing history. Asasantin SR is aspirin with dipyridamole. Count the clopidogrel and aspirin combination as one partner. Count oral dipyridamole prescribed as an antiplatelet, including historical Persantin SR. Exclude Persantin injection for diagnostic stress testing. Count aspirin when the strength, directions or recorded indication support antiplatelet use, including a documented loading dose. Exclude aspirin prescribed for pain. If its use is unclear, clarify the indication before counting it."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "History of a bleeding event",
+      "meets": "A recorded bleeding event in the past, for example a gastrointestinal bleed or a bleed needing hospital care"
+    }
+  ],
+  "rule_for_models": "Look for an SSRI from Group A and an anticoagulant from Group B or an antiplatelet from Group C supplied together or within 60 days of each other. Exclude a pair if the record documents that one course ended before the other began. Count aspirin only for antiplatelet use and heparin only for systemic anticoagulation. With a qualifying pair, cite both medicines and the past bleeding event, or report a possible finding and name the missing bleeding history if it is absent or unknown. Without the pair or with a confirmed negative bleeding history, give no finding.",
+  "cannot_be_seen": "Whether the person has had a bleeding event, unless a line in the record says so, and what kind and how serious it was. Whether the medicines are really taken, and over-the-counter aspirin.",
+  "ask_the_gp": "If a previous bleed is confirmed, could the benefits and risks of continuing both medicines be reviewed? If bleeding history is unknown, has the person ever had a bleeding event?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

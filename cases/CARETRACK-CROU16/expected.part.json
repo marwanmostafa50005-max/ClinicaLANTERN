@@ -1,0 +1,41 @@
+[
+  {
+    "file": "CARETRACK-CROU16/pos-fact.csv",
+    "kind": "positive",
+    "about": "The amoxicillin directions name croup and the condition line confirms croup at the same visit.",
+    "findings": [
+      {
+        "criterion": "CARETRACK-CROU16",
+        "must_cite": [
+          [
+            "L023"
+          ],
+          [
+            "L022"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CARETRACK-CROU16/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the amoxicillin directions name croup, but the episode diagnosis \"Croup\" is missing.",
+    "findings": [
+      {
+        "criterion": "CARETRACK-CROU16",
+        "must_cite": [
+          [
+            "L022"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CARETRACK-CROU16/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Croup and otitis media were both diagnosed at the visit, and the antibiotic directions identify the ear infection as the reason for treatment.",
+    "findings": []
+  }
+]

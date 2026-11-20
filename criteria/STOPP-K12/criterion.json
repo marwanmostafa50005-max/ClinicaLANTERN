@@ -1,0 +1,85 @@
+{
+  "id": "STOPP-K12",
+  "label": "STOPP K12",
+  "family": "STOPP_START",
+  "title": "Antimuscarinic for overactive bladder",
+  "statement": "Antimuscarinics for treatment of overactive bladder or urge incontinence (may impair sensorium).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Bladder antimuscarinics such as oxybutynin or solifenacin can cloud thinking and cause confusion in older people.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antimuscarinics for overactive bladder",
+      "ingredients": [
+        "darifenacin",
+        "fesoterodine",
+        "oxybutynin",
+        "solifenacin",
+        "tolterodine",
+        "trospium"
+      ],
+      "brands": {
+        "darifenacin": [
+          "Enablex"
+        ],
+        "fesoterodine": [
+          "Toviaz"
+        ],
+        "oxybutynin": [
+          "Ditropan",
+          "Oxytrol"
+        ],
+        "solifenacin": [
+          "Vesicare",
+          "Solicare",
+          "Solicare ODT",
+          "Vesican ODT",
+          "Vesifen"
+        ],
+        "tolterodine": [
+          "Detrusitol",
+          "Detrusitol XL"
+        ],
+        "trospium": []
+      },
+      "note": "Mirabegron (Betmiga) is not an antimuscarinic and is not counted. Antimuscarinics used for the bowel, lungs or eyes are not counted. Oxybutynin can also be used for excessive sweating. If the record gives sweating as its only use, this supply does not count. A bladder indication can be supported by the directions even without a diagnosis line."
+    }
+  ],
+  "rule_for_models": "Apply K12 only at age 65 or older. Below 65, return no finding. If age is unknown and the other evidence supports a finding or a possible finding, report only a possible finding and ask the pharmacist to confirm age. One Group A supply for overactive bladder or urge incontinence is sufficient. For confirmation, cite the supply and the bladder indication in its directions or a linked clinical entry. If these leave the indication unclear, report only a possible finding and name the missing fact \"Reason for this antimuscarinic supply\". An unknown answer leaves the finding possible. If the record gives a different sole indication, return no K12 finding. Mirabegron is not an antimuscarinic and does not count.",
+  "cannot_be_seen": "Whether the symptoms really are overactive bladder, whether the medicine is helping, and how confused or forgetful the person is. Also bladder training or other treatments tried, and tablets from hospital or another pharmacy.",
+  "ask_the_gp": "Whether the bladder antimuscarinic is still needed and whether a non-drug approach or another type of medicine would suit. A review of bladder symptoms and of thinking and memory.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Reason for this antimuscarinic supply",
+      "meets": "The directions or a linked clinical entry identify overactive bladder or urge incontinence as a reason for this supply. Ask only if the reason remains unclear. Another sole reason excludes the finding. An unknown answer leaves it possible.",
+      "options": [
+        {
+          "words": "Overactive bladder or urge incontinence",
+          "effect": "meets"
+        },
+        {
+          "words": "Only for another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+[
+  {
+    "file": "STOPP-J3/pos-fact.csv",
+    "kind": "positive",
+    "about": "Inderal (propranolol, a non-selective beta-blocker) is supplied every month from December 2025; the record has a diabetes line and a line about frequent hypoglycaemic episodes.",
+    "findings": [
+      {
+        "criterion": "STOPP-J3",
+        "must_cite": [
+          [
+            "L002",
+            "L007",
+            "L012",
+            "L018",
+            "L023",
+            "L028",
+            "L033",
+            "L038",
+            "L043",
+            "L048"
+          ],
+          [
+            "L001"
+          ],
+          [
+            "L017"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-J3/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about hypoglycaemic episodes; Deralin (propranolol) is supplied with gliclazide and metformin, so diabetes is likely but not recorded.",
+    "findings": [
+      {
+        "criterion": "STOPP-J3",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L009",
+            "L013",
+            "L017",
+            "L021",
+            "L025"
+          ],
+          [
+            "L002",
+            "L003",
+            "L006",
+            "L007",
+            "L010",
+            "L011",
+            "L014",
+            "L015",
+            "L018",
+            "L019",
+            "L022",
+            "L023",
+            "L026",
+            "L027"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-J3/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Inderal and Benedo are supplied, with no separate evidence of diabetes or frequent low blood sugar episodes.",
+    "findings": []
+  }
+]

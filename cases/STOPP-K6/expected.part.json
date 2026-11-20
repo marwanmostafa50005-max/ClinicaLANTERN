@@ -1,0 +1,49 @@
+[
+  {
+    "file": "STOPP-K6/pos-fact.csv",
+    "kind": "positive",
+    "about": "Phenergan (promethazine, a first generation antihistamine) is supplied five times from January 2026 to May 2026, and the record holds a line of 3 falls in the past 12 months.",
+    "findings": [
+      {
+        "criterion": "STOPP-K6",
+        "must_cite": [
+          [
+            "L023",
+            "L027",
+            "L031",
+            "L035",
+            "L039"
+          ],
+          [
+            "L021"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-K6/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about Recurrent falls. Polaramine (dexchlorpheniramine, a first generation antihistamine) is supplied five times from December 2025 to April 2026.",
+    "findings": [
+      {
+        "criterion": "STOPP-K6",
+        "must_cite": [
+          [
+            "L012",
+            "L016",
+            "L020",
+            "L024",
+            "L028"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-K6/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Phenergan (promethazine) is supplied four times from December 2025 to March 2026, but the record shows 0 falls in the past 12 months and no diagnosis of recurrent falls.",
+    "findings": []
+  }
+]

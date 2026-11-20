@@ -1,0 +1,136 @@
+{
+  "id": "STOPP-E9",
+  "label": "STOPP E9",
+  "family": "STOPP_START",
+  "title": "Bisphosphonate with a low eGFR",
+  "statement": "Bisphosphonates if eGFR<30 ml/min/1.73m² (increased risk of acute renal failure).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Bisphosphonates used when the kidneys work poorly (eGFR below 30) can raise the risk of sudden kidney failure. Australian guidance differs: at a creatinine clearance below 35 mL/min, alendronate is not recommended and zoledronic acid for osteoporosis is contraindicated, while risedronate is not recommended below 30 mL/min (APO-Alendronate, 2026, Aclasta, 2023, and Actonel, 2025).",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Bisphosphonates",
+      "ingredients": [
+        "alendronate",
+        "alendronic acid",
+        "risedronate",
+        "ibandronate",
+        "ibandronic acid",
+        "zoledronic acid",
+        "pamidronate",
+        "etidronate",
+        "risedronic acid"
+      ],
+      "brands": {
+        "alendronate": [
+          "Fosamax",
+          "Fosamax Plus",
+          "APO-Alendronate",
+          "Adronat",
+          "Adronat Once Weekly",
+          "Alendraccord",
+          "Alendro",
+          "Alendro Once Weekly",
+          "Alendrobell",
+          "Alendrocor",
+          "Binosto",
+          "Densate",
+          "Fonat",
+          "Fosamax Once Weekly",
+          "Ossmax"
+        ],
+        "risedronate": [
+          "Actonel",
+          "Actonel Combi D",
+          "Actonel Once-a-Week",
+          "Actonel Once a Week",
+          "Actonel EC",
+          "Actonel EC Once-a-Week",
+          "Actonel Once-a-Month",
+          "Actonel Combi"
+        ],
+        "ibandronate": [
+          "Bonviva",
+          "Bondronat"
+        ],
+        "zoledronic acid": [
+          "Aclasta",
+          "Zometa",
+          "Aclonat",
+          "Amonzitra",
+          "Astazol",
+          "Azolast",
+          "Bonezol",
+          "Deztron",
+          "Osteovan",
+          "Ostira",
+          "Zolaccord",
+          "Zoledasta"
+        ],
+        "pamidronate": [
+          "Aredia",
+          "Pamisol"
+        ],
+        "etidronate": [
+          "Didronel",
+          "Didrocal"
+        ],
+        "alendronic acid": [
+          "Fosamax",
+          "Fosamax Plus",
+          "APO-Alendronate",
+          "Adronat",
+          "Adronat Once Weekly",
+          "Alendraccord",
+          "Alendro",
+          "Alendro Once Weekly",
+          "Alendrobell",
+          "Alendrocor",
+          "Binosto",
+          "Densate",
+          "Fonat",
+          "Fosamax Once Weekly",
+          "Ossmax"
+        ],
+        "ibandronic acid": [
+          "Bonviva",
+          "Bondronat"
+        ],
+        "risedronic acid": [
+          "Actonel",
+          "Actonel Combi D",
+          "Actonel Once-a-Week",
+          "Actonel Once a Week",
+          "Actonel EC",
+          "Actonel EC Once-a-Week",
+          "Actonel Once-a-Month",
+          "Actonel Combi"
+        ]
+      },
+      "note": "Tablets and injections count. Fosamax Plus is alendronate with colecalciferol. Actonel Combi D is risedronate with calcium and colecalciferol. Generic packs that show the ingredient name with a company name count too. For a combination pack, count exposure to the risedronate tablet. For Didrocal, count the etidronate part of the pack."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "eGFR",
+      "meets": "below 30 mL/min/1.73 m2"
+    }
+  ],
+  "rule_for_models": "Apply this criterion only when the patient was aged 65 years or older at the supply being assessed. If age is unknown, ask for age confirmation before attributing a STOPP finding. For each bisphosphonate supply, use the most recent dated eGFR available then that represents kidney function during exposure. The pharmacist judges whether an older result still applies. If this is uncertain, report a possible finding and ask for kidney function at the time of supply. If it is below 30 mL/min/1.73 m², cite that result and supply. If it is 30 or higher, there is no E9 finding for that supply. If there is no relevant result or the results conflict and renal function at the supply cannot be established, report a possible finding and ask for confirmation.",
+  "cannot_be_seen": "Current kidney function if the record holds none, the reason for treatment, how long treatment has lasted, and infusions given in hospital.",
+  "ask_the_gp": "A review of the patient's kidney function and whether the bisphosphonate should continue.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

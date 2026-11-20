@@ -1,0 +1,41 @@
+[
+  {
+    "file": "STOPP-D3/pos-fact.csv",
+    "kind": "positive",
+    "about": "The latest Efexor-XR supply is on 12 June 2026 and the latest relevant blood pressure is 194/108 mmHg on 20 May.",
+    "findings": [
+      {
+        "criterion": "STOPP-D3",
+        "must_cite": [
+          [
+            "L046"
+          ],
+          [
+            "L044"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-D3/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: duloxetine is supplied and severe hypertension is recorded, but the record holds no line giving Latest systolic blood pressure in the assessment window for the SNRI supply.",
+    "findings": [
+      {
+        "criterion": "STOPP-D3",
+        "must_cite": [
+          [
+            "L030"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-D3/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Systolic pressure was 180 mmHg during Pristiq use and rose to 194 mmHg after the documented stop.",
+    "findings": []
+  }
+]

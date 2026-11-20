@@ -1,0 +1,53 @@
+[
+  {
+    "file": "BANSAL-S19/pos-fact.csv",
+    "kind": "positive",
+    "about": "Oxycodone (OxyContin, by brand name only) is supplied eight times over about seven months to a person aged 73, and a fall is recorded on 12 March 2026, inside the past 12 months.",
+    "findings": [
+      {
+        "criterion": "BANSAL-S19",
+        "must_cite": [
+          [
+            "L008",
+            "L011",
+            "L016",
+            "L021",
+            "L024",
+            "L028",
+            "L033",
+            "L036"
+          ],
+          [
+            "L018"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BANSAL-S19/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about \"Falls in the 12 months before the most recent opioid supply\". Tapentadol is supplied six times over about five months to a person aged 69.",
+    "findings": [
+      {
+        "criterion": "BANSAL-S19",
+        "must_cite": [
+          [
+            "L004",
+            "L007",
+            "L010",
+            "L013",
+            "L017",
+            "L020"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BANSAL-S19/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The 70-year-old patient received a continuous course of tramadol. On the most recent supply date the patient reported no falls in the preceding 12 months. The recorded fall was in June 2025, outside that period.",
+    "findings": []
+  }
+]

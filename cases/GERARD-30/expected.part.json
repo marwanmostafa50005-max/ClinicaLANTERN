@@ -1,0 +1,47 @@
+[
+  {
+    "file": "GERARD-30/pos-fact.csv",
+    "kind": "positive",
+    "about": "The patient reports a resolved episode of symptomatic hypoglycaemia during established gliclazide treatment.",
+    "findings": [
+      {
+        "criterion": "GERARD-30",
+        "must_cite": [
+          [
+            "L002"
+          ],
+          [
+            "L041"
+          ],
+          [
+            "L043"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "GERARD-30/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about reported symptomatic hypoglycaemia during gliclazide treatment.",
+    "findings": [
+      {
+        "criterion": "GERARD-30",
+        "must_cite": [
+          [
+            "L002"
+          ],
+          [
+            "L026"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "GERARD-30/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The patient specifically reports no symptomatic hypoglycaemia during gliclazide treatment.",
+    "findings": []
+  }
+]

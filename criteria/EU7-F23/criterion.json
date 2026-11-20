@@ -1,0 +1,46 @@
+{
+  "id": "EU7-F23",
+  "label": "EU(7)-PIM: quinidine, procainamide, disopyramide",
+  "family": "EU7",
+  "title": "Quinidine, procainamide or disopyramide in an older person",
+  "statement": "The EU(7)-PIM list names quinidine, procainamide, disopyramide and quinidine combined with verapamil as potentially inappropriate medicines for older people. Quinidine, alone or with verapamil: side effects on the brain and nervous system, and a higher death rate. Procainamide: a high risk of interactions with other medicines. Disopyramide: it strongly weakens the force of the heartbeat, has anticholinergic side effects, may bring on heart failure and may cause sudden cardiac death. For all of them the list adds that, for most older adults, controlling the heart rate gives a better balance of benefit and harm than controlling the heart rhythm. For procainamide the experts on the list suggest longer gaps between doses when creatinine clearance is 50 mL/min or less. As an alternative the list suggests a beta-blocker, but not oxprenolol, pindolol, propranolol, sotalol, nadolol or labetalol.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Statement written by the entrant in plain words from four rows of the source table. Dose notes that the source marks as taken from Micromedex are left out, and the dose intervals printed for procainamide are not repeated. The authors have not reviewed this wording."
+  },
+  "plain_summary": "Quinidine, procainamide and disopyramide are heart rhythm medicines that the EU(7)-PIM list links to serious harms in older people, such as effects on the brain, heart failure, interactions with other medicines and a higher risk of death. Ask whether a heart specialist still reviews this medicine and whether the patient has noticed dry mouth, trouble passing urine, confusion or dizziness.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Quinidine, procainamide and disopyramide",
+      "ingredients": [
+        "quinidine",
+        "procainamide",
+        "disopyramide"
+      ],
+      "brands": {
+        "quinidine": [],
+        "procainamide": [
+          "Pronestyl"
+        ],
+        "disopyramide": [
+          "Rythmodan"
+        ]
+      },
+      "note": "Quinidine is not sold in Australia, so no brand is listed and a history shows the ingredient name, for example quinidine sulfate. A product that combines quinidine with verapamil counts as quinidine. Pronestyl is a procainamide injection used in hospital. Quinine is a different medicine and does not count. Verapamil on its own does not count. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when a Group A medicine (quinidine, procainamide or disopyramide) is supplied at least once to a person with a recorded age of 65 or older. If age is missing and the medicine pattern matches, report only a possible finding and ask for the patient’s age. An age below 65 does not meet this criterion. A product that combines quinidine with verapamil counts. One supply is enough, and quinine and verapamil on its own do not count.",
+  "cannot_be_seen": "Why the medicine was started and whether a heart specialist chose it. Also heart function, ECG results, kidney function, side effects such as a dry mouth, trouble passing urine, confusion or dizziness, and medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "Whether this heart rhythm medicine is still needed, and when the heart rhythm and heart function were last reviewed.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

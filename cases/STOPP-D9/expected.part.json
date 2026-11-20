@@ -1,0 +1,43 @@
+[
+  {
+    "file": "STOPP-D9/pos-fact.csv",
+    "kind": "positive",
+    "about": "The Murelax directions specify agitation due to dementia. Cite a Murelax supply and the recorded dementia diagnosis.",
+    "findings": [
+      {
+        "criterion": "STOPP-D9",
+        "must_cite": [
+          [
+            "L036",
+            "L046"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-D9/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about dementia and gives no indication for Murelax.",
+    "findings": [
+      {
+        "criterion": "STOPP-D9",
+        "must_cite": [
+          [
+            "L017",
+            "L027"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-D9/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Both temazepam supplies specify insomnia, so there is no D9 finding.",
+    "findings": []
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "id": "DREISCHULTE-75",
+  "label": "Dreischulte 75: Full blood count more than 12 weeks ago during azathioprine treatment",
+  "family": "DREISCHULTE",
+  "title": "Full blood count more than 12 weeks ago during azathioprine treatment",
+  "statement": "Patient treated with azathioprine - had no FBC check in the last 12 weeks",
+  "statement_origin": "published",
+  "source": {
+    "document": "Quality and safety of medication use in primary care: consensus validation of a new set of explicit medication assessment criteria and prioritisation of topics for improvement.",
+    "citation": "Dreischulte T, Grant AM, McCowan C, McAnaw JJ, Guthrie B. Quality and safety of medication use in primary care: consensus validation of a new set of explicit medication assessment criteria and prioritisation of topics for improvement. BMC Clinical Pharmacology. 2012;12:5. doi:10.1186/1472-6904-12-5.",
+    "doi": "10.1186/1472-6904-12-5",
+    "url": "https://link.springer.com/article/10.1186/1472-6904-12-5",
+    "licence": "CC BY 2.0",
+    "licence_status": "proposed",
+    "credit": "© 2012 Dreischulte et al., licensee BioMed Central Ltd. Dreischulte T, Grant AM, McCowan C, McAnaw JJ, Guthrie B. Quality and safety of medication use in primary care: consensus validation of a new set of explicit medication assessment criteria and prioritisation of topics for improvement. BMC Clinical Pharmacology. 2012;12:5. doi:10.1186/1472-6904-12-5.",
+    "modification_notice": "The published statement is reproduced unchanged. GPT-6.2 Astra drafted the Australian screening rule, medicine group and fictional histories."
+  },
+  "plain_summary": "The 2012 criterion flags a gap of more than 12 weeks since the last full blood count during treatment with azathioprine.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Azathioprine",
+      "ingredients": [
+        "azathioprine"
+      ],
+      "brands": {
+        "azathioprine": [
+          "Imuran",
+          "Azahexal",
+          "Azamun",
+          "Azapin",
+          "Azran",
+          "Imazan",
+          "Thioprine"
+        ]
+      }
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Full blood count (FBC) in the 12 weeks up to the latest azathioprine supply",
+      "meets": "Confirmed no completed full blood count on the latest azathioprine supply date or in the preceding 84 days.",
+      "options": [
+        {
+          "words": "Confirmed no completed FBC on the supply date or in the preceding 84 days",
+          "effect": "meets"
+        },
+        {
+          "words": "A completed FBC was done on the supply date or in the preceding 84 days",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "At the latest Group A azathioprine supply, regardless of indication or course length, give no finding if a full blood count was collected on the supply date or in the preceding 84 days (12 weeks), even if the note was written later. If the record confirms no full blood count was completed in that window, report a finding and cite both the latest supply and the observation that identifies the last completed full blood count by its collection date or explicitly confirms no count was completed in the window. If a Group A supply is present but monitoring in the window is uncertain, including when only an old result is available, report only a possible finding, cite the latest supply and state that confirmation of the latest completed full blood count is missing.",
+  "cannot_be_seen": "A pharmacy record can omit tests done elsewhere. An old report alone cannot establish the latest test date. A test order does not show that blood was collected.",
+  "ask_the_gp": "Could we confirm the latest completed full blood count and review the monitoring interval appropriate for this person's azathioprine treatment?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

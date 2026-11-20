@@ -1,0 +1,44 @@
+[
+  {
+    "file": "KHAWAGI-G127/pos-brand.csv",
+    "kind": "positive",
+    "about": "Scheduled Catapres and Inderal start on the same day and their supplies overlap.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G127",
+        "must_cite": [
+          [
+            "L016"
+          ],
+          [
+            "L017"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G127/pos-buried.csv",
+    "kind": "positive",
+    "about": "The 50-day clonidine supply still covers the start of regular propranolol eight days later.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G127",
+        "must_cite": [
+          [
+            "L029"
+          ],
+          [
+            "L032"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G127/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Propranolol starts on 23 April after a documented clonidine taper ended on 20 April.",
+    "findings": []
+  }
+]

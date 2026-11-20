@@ -1,0 +1,48 @@
+[
+  {
+    "file": "START-B3/pos-fact.csv",
+    "kind": "positive",
+    "about": "A coronary artery disease line is on the record and no ACE inhibitor is supplied in the whole history (a statin and metoprolol are supplied).",
+    "findings": [
+      {
+        "criterion": "START-B3",
+        "must_cite": [
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-B3/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no coronary artery disease line, Imdur (isosorbide mononitrate) and Nitrolingual Pumpspray (glyceryl trinitrate) are supplied, and no ACE inhibitor is supplied.",
+    "findings": [
+      {
+        "criterion": "START-B3",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L006",
+            "L010",
+            "L014",
+            "L018",
+            "L022",
+            "L025",
+            "L027",
+            "L031",
+            "L035"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-B3/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Coronary artery disease is documented without an ACE inhibitor supply, and the cardiology note confirms current Entresto treatment.",
+    "findings": []
+  }
+]

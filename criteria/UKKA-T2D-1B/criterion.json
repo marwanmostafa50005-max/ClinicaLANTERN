@@ -1,0 +1,123 @@
+{
+  "id": "UKKA-T2D-1B",
+  "label": "UKKA 1(b) with type 2 diabetes",
+  "family": "UKKA",
+  "title": "No SGLT2 inhibitor supply in chronic kidney disease with type 2 diabetes and raised urinary albumin or protein",
+  "statement": "eGFR of > 45 mL/min/1.73m² and a urinary albumin-to-creatinine ratio (uACR) of ≥ 25 mg/mmol†",
+  "statement_origin": "published",
+  "source": {
+    "document": "UK Kidney Association Clinical Practice Guideline: Sodium-Glucose Co-transporter-2 (SGLT-2) Inhibition in Adults with Kidney Disease 2023 UPDATE",
+    "citation": "Roddick AJ, Wonnacott A, Webb D, et al. UK Kidney Association Clinical Practice Guideline: Sodium-Glucose Co-transporter-2 (SGLT-2) Inhibition in Adults with Kidney Disease 2023 UPDATE. BMC Nephrology 24, 310 (2023).",
+    "doi": "10.1186/s12882-023-03339-3",
+    "url": "https://link.springer.com/article/10.1186/s12882-023-03339-3",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Roddick AJ, Wonnacott A, Webb D, et al. UK Kidney Association Clinical Practice Guideline: Sodium-Glucose Co-transporter-2 (SGLT-2) Inhibition in Adults with Kidney Disease 2023 UPDATE. BMC Nephrology 24, 310 (2023). https://doi.org/10.1186/s12882-023-03339-3. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Selected recommendation clauses are reproduced as published; the title and the summary give the wording they belong to. The dagger in the clause points to the guideline's footnote: a urinary protein-to-creatinine ratio of 35 mg/mmol can be considered equivalent. Spacing and superscripts are normalised. The record checks and qualification decisions were added by GPT-6.2 Astra.",
+    "modification_notice": "The statement reproduces the selected clause with normalised spacing and superscripts. The record rule and fictional cases are adaptations."
+  },
+  "plain_summary": "In an adult with chronic kidney disease with type 2 diabetes, the kidney results may support a review of SGLT2 treatment when no supply is recorded. People with type 1 diabetes, polycystic kidney disease or a kidney transplant are outside this recommendation.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "SGLT2 inhibitors, including combination tablets",
+      "ingredients": [
+        "dapagliflozin",
+        "empagliflozin",
+        "canagliflozin",
+        "ertugliflozin"
+      ],
+      "brands": {
+        "dapagliflozin": [
+          "Forxiga",
+          "Xigduo XR",
+          "Qtern",
+          "Sidapvia",
+          "Glixafor"
+        ],
+        "empagliflozin": [
+          "Jardiance",
+          "Jardiamet",
+          "Glyxambi"
+        ],
+        "canagliflozin": [
+          "Invokana"
+        ],
+        "ertugliflozin": [
+          "Steglatro",
+          "Ertugliflozin (Msd)",
+          "Segluromet",
+          "Steglujan"
+        ]
+      },
+      "note": "Count any identifiable SGLT2 inhibitor at any strength, alone or in a combination tablet. Look for either the ingredient or the brand. An earlier pack covers the result date if its quantity and directions show that it lasts until that date."
+    }
+  ],
+  "rule_for_models": "With dispensing lines alone, return no finding. This check needs clinical and pathology records because supplies cannot establish CKD, diabetes status or a kidney result date. For a person aged 18 or over with documented CKD and documented type 2 diabetes, report a finding if eGFR is above 45 mL/min/1.73 m², the urine criterion is confirmed, and no SGLT2 inhibitor supply covers the later kidney result date or falls within 60 days before or after it. Report a possible finding only when CKD is documented and the available information could still meet this branch. Use the specimen dates and values in mg/mmol for urine ACR and urine PCR. One ACR of at least 70 or one PCR of at least 35 qualifies. For an initial ACR of 25 to below 70, a repeat ACR of at least 25 on a later specimen within three months confirms it. Once a route qualifies, do not request the other test or another repeat. Use the later of the qualifying urine and eGFR specimen dates to check supply. If the only urine ratio has no test name, keep the finding possible and ask whether it was ACR or PCR. Enter the value, unit and specimen date under the correct test. If the urine result is missing, report a possible finding and ask for \"Urine albumin-to-creatinine ratio (ACR)\" or \"Urine protein-to-creatinine ratio (PCR)\". Either test can establish eligibility. If an initial ACR needs confirmation and no other route qualifies, keep the finding possible and ask for \"Repeat urine albumin-to-creatinine ratio (ACR)\" with its specimen date. A repeat below 25 does not confirm the initial ACR. If the other conditions fit but age is unknown, report only a possible finding and ask the pharmacist to confirm the person's age. Once CKD is documented, give a possible finding if the available facts fit but required information is missing, even before the first kidney result is recorded. Name each missing fact. For missing or unknown diabetes status, including confirmed diabetes of unknown type, report only a possible finding and name \"Diabetes status\". Ask which type is documented. Confirmed absence of diabetes, type 1 or another established type excludes this branch. If a missing specimen date prevents checking the supply window or the repeat interval, keep the finding possible. Ask the pharmacist to enter the specimen date with the named result, correcting an earlier answer if needed. Do not use the date the pharmacist entered the result. When the other conditions fit and no SGLT2 inhibitor was supplied within 60 days before or after the later kidney specimen date, count an earlier pack as covering that date only if recorded use or the quantity and recorded directions establish cover. If the directions say 'as directed' or give no dosing rate, do not assume one tablet daily or read the tablet count as days of supply. If cover is still uncertain, report a possible finding. Name the pack, its supply date and the later kidney specimen date. The pharmacist checks whether that pack was still being taken on that date. If it was, there is no gap. If it had finished, assess the other criteria. Current use does not establish use on the specimen date. Return no finding for this branch if a required fact fails, the record documents polycystic kidney disease, a kidney transplant or type 1 diabetes, or an SGLT2 inhibitor was supplied in that window or covers the result date. Return no finding if the record documents dialysis, pregnancy, planned pregnancy, breastfeeding, or a contraindication, intolerance or temporary clinical hold for an SGLT2 inhibitor at the kidney result date. If the timing of a recorded exclusion is unclear and the other criteria fit, keep the finding possible and name the exclusion and the specimen date for the pharmacist to check. For each finding, cite the available CKD and diabetes evidence, the eGFR, the relevant urine results (both ACR lines when a repeat confirms the first), and any supply or recorded exclusion whose timing or cover needs checking.",
+  "cannot_be_seen": "The record may miss SGLT2 inhibitor supplies from another pharmacy or a hospital. A gap in the available dates leaves supply uncertain. Dispensing cannot establish use or the reason treatment was deferred. Check for dialysis, pregnancy or plans for pregnancy, breastfeeding, a contraindication, intolerance or a temporary hold before interpreting a gap.",
+  "ask_the_gp": "Could we confirm any missing kidney results or diabetes history, whether an SGLT2 inhibitor is supplied elsewhere, and whether treatment for kidney protection is suitable?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Chronic kidney disease",
+      "meets": "Established CKD documented in the record.",
+      "ask_when": "always",
+      "close_when": {
+        "group": "A"
+      }
+    },
+    {
+      "kind": "observation",
+      "what": "Diabetes status",
+      "meets": "Only documented type 2 diabetes meets this branch. Confirmed diabetes with type still unknown leaves this branch unresolved. If the other criteria fit, report only a possible finding and ask for the diabetes type.",
+      "options": [
+        {
+          "words": "Confirmed absence of diabetes",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Type 1 diabetes",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Type 2 diabetes",
+          "effect": "meets"
+        },
+        {
+          "words": "Another confirmed type of diabetes",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Diabetes confirmed, type not established",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "result",
+      "what": "eGFR",
+      "meets": "> 45 mL/min/1.73 m²."
+    },
+    {
+      "kind": "result",
+      "what": "Urine albumin-to-creatinine ratio (ACR)",
+      "meets": "Enter the value in mg/mmol and the specimen date. An ACR of at least 70 qualifies on its own. An ACR of 25 to below 70 needs a repeat unless the PCR route already qualifies."
+    },
+    {
+      "kind": "result",
+      "what": "Urine protein-to-creatinine ratio (PCR)",
+      "meets": "Enter the value in mg/mmol and the specimen date. A PCR of at least 35 qualifies on its own. A qualifying ACR route is sufficient without a PCR."
+    },
+    {
+      "kind": "result",
+      "what": "Repeat urine albumin-to-creatinine ratio (ACR)",
+      "meets": "Enter the repeat value in mg/mmol and its own specimen date if the initial ACR was 25 to below 70 and no other route qualifies. A repeat ACR of at least 25 on a later specimen within three months of the first confirms it."
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "id": "BRISNIK-OP-DEPR8",
+  "label": "Brisnik OP DEPR8: SSRI above 1 DDD without earlier improvement",
+  "family": "BRISNIK",
+  "title": "SSRI dose above 1 defined daily dose when the lower dose did not help",
+  "statement": "Prescribed SSRI at a dose of > 1 DDD - and the patient has no clinically relevant symptom improvement under an SSRI dose ≤ 1 DDD (no further dose increase if symptoms remain/worsen)",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Raising an SSRI above 1 defined daily dose is not recommended when symptoms did not improve on the lower dose, so a review is worth asking for.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "SSRIs",
+      "ingredients": [
+        "citalopram",
+        "escitalopram",
+        "fluoxetine",
+        "fluvoxamine",
+        "paroxetine",
+        "sertraline"
+      ],
+      "brands": {
+        "citalopram": [
+          "Cipramil",
+          "Celapram",
+          "Talam",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talohexal"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam",
+          "Loxalate"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet",
+          "Zactin"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Paxtine",
+          "Aropax CR",
+          "Extine",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ],
+        "sertraline": [
+          "Zoloft",
+          "Setrona",
+          "Concorz",
+          "Detralon",
+          "Eleva",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Tralen",
+          "Xydep"
+        ]
+      },
+      "note": "Selective serotonin reuptake inhibitors (SSRIs). Add doses across strengths prescribed together. Multiply mg per tablet or capsule by units per day, or mg/mL by mL per day. Use the product-specific conversion for drops and seek clarification if the directions leave the dose uncertain. One DDD (defined daily dose, WHO) is: citalopram 20 mg, escitalopram 10 mg, fluoxetine 20 mg, fluvoxamine 100 mg, paroxetine 20 mg, sertraline 50 mg. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Depression as an indication for the SSRI course under review",
+      "meets": "The record identifies depression as a reason for this SSRI.",
+      "options": [
+        {
+          "words": "This SSRI course was prescribed for depression",
+          "effect": "meets"
+        },
+        {
+          "words": "This SSRI course was prescribed only for another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Earlier trial of the same SSRI at or below its daily reference amount (citalopram 20 mg, escitalopram 10 mg, fluoxetine 20 mg, fluvoxamine 100 mg, paroxetine 20 mg or sertraline 50 mg)",
+      "meets": "Clear earlier directions, a treatment history or confirmation at the counter establish an earlier trial at or below the listed dose. Missing supplies alone leave the trial unknown.",
+      "options": [
+        {
+          "words": "Previously tried this same SSRI at or below its listed daily amount",
+          "effect": "meets"
+        },
+        {
+          "words": "Confirmed no earlier trial of this same SSRI at or below its listed daily amount",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Response to the lower dose of the SSRI for depression",
+      "meets": "A recorded assessment or the pharmacist confirms no meaningful improvement on the lower dose of the same SSRI for depression. Scores without an interpretation leave the response unknown.",
+      "options": [
+        {
+          "words": "No meaningful improvement on the lower dose",
+          "effect": "meets"
+        },
+        {
+          "words": "Depression improved meaningfully on the lower dose",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Check whether the prescribed daily dose of a Group A SSRI exceeds its oral DDD in the group note. Add doses across strengths prescribed together. Multiply mg per tablet or capsule by units per day, or mg/mL by mL per day. Use the product-specific conversion for drops. If unclear directions for any oral form leave a dose above one DDD possible, report only a possible finding and ask for the prescribed daily amount. Confirm when the SSRI is prescribed for depression above one oral DDD and the record documents no clinically meaningful improvement on the same SSRI at one DDD or less. Cite the higher dose, earlier dose and response, including a narrative assessment if available. An observation that describes how depression responded to the earlier daily dose of this SSRI can establish the indication, dose and response together. If the higher dose qualifies but the indication, earlier lower-dose trial or response is unknown, report only a possible finding and name each missing detail. A daily dose at or below one DDD gives no finding. A different documented indication without depression, a documented absence of a lower-dose trial, or meaningful improvement at the lower dose gives no finding.",
+  "cannot_be_seen": "A recorded assessment may describe the response to the lower dose. Supplies alone cannot show how the person took the medicine, how symptoms changed, why the dose was raised, or what another pharmacy or hospital supplied.",
+  "ask_the_gp": "Could you confirm why the SSRI was prescribed, what dose was tried and how symptoms changed, and review the current dose?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

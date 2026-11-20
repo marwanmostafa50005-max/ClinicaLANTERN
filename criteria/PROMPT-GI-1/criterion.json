@@ -1,0 +1,210 @@
+{
+  "id": "PROMPT-GI-1",
+  "label": "PROMPT GI-1: long-term stimulant laxative",
+  "family": "PROMPT",
+  "title": "Stimulant laxative for more than four weeks",
+  "statement": "Other than for opioid-induced constipation, stimulant laxatives (e.g. bisacodyl, senna) should not be prescribed as first-line treatment in constipation for greater than four weeks.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Cooper JA, et al. The development of the PROMPT criteria. BMC Health Serv Res 2014;14:484, Table 4",
+    "citation": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "doi": "10.1186/s12913-014-0484-6",
+    "url": "https://doi.org/10.1186/s12913-014-0484-6",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "First-line stimulant laxative treatment for constipation warrants review after four weeks. The criterion excludes opioid-induced constipation.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Stimulant laxatives",
+      "ingredients": [
+        "bisacodyl",
+        "senna",
+        "sodium picosulfate"
+      ],
+      "brands": {
+        "bisacodyl": [
+          "Dulcolax",
+          "Bisalax",
+          "Bisalax Micro",
+          "Dulcolax for Children",
+          "Lax-Suppositories",
+          "Lax-Tab",
+          "Lax-Tab EC"
+        ],
+        "senna": [
+          "Senokot",
+          "Coloxyl with Senna"
+        ],
+        "sodium picosulfate": [
+          "Dulcolax SP Drops"
+        ]
+      },
+      "note": "Count oral sodium picosulfate for constipation. Exclude bowel-cleansing preparations. PicoPrep bowel-preparation packs and Picolax are examples of the excluded preparations."
+    },
+    {
+      "key": "B",
+      "name": "Opioids that prompt a check for opioid-induced constipation",
+      "ingredients": [
+        "oxycodone",
+        "morphine",
+        "tramadol",
+        "codeine",
+        "tapentadol",
+        "fentanyl",
+        "buprenorphine",
+        "hydromorphone",
+        "methadone"
+      ],
+      "brands": {
+        "oxycodone": [
+          "OxyContin",
+          "Endone",
+          "OxyNorm",
+          "Targin (with naloxone)",
+          "Endone XR",
+          "Novacodone",
+          "Oxycodor",
+          "Oxycone",
+          "Oxylenus",
+          "Oxylieve MR",
+          "Oxyndone",
+          "Xedone"
+        ],
+        "morphine": [
+          "MS Contin",
+          "Kapanol",
+          "Sevredol",
+          "Ordine",
+          "Anamorph",
+          "MS Contin Suspension",
+          "MS Mono",
+          "MS Normal",
+          "Momex SR",
+          "RA-Morph"
+        ],
+        "tramadol": [
+          "Tramal",
+          "Durotram",
+          "Zydol",
+          "Durotram XR",
+          "Iptramol",
+          "Lodam",
+          "Lodam SR",
+          "Tramahexal",
+          "Tramahexal SR",
+          "Tramal Drops",
+          "Tramal SR",
+          "Tramedo",
+          "Tramedo SR",
+          "Zydol SR"
+        ],
+        "codeine": [
+          "Panadeine Forte (with paracetamol)",
+          "Panadeine",
+          "Codalgin Forte",
+          "Comfarol Forte",
+          "Mersyndol Forte"
+        ],
+        "tapentadol": [
+          "Palexia",
+          "Palexia SR",
+          "Lodat SR",
+          "Palexia IR",
+          "Tadol IR",
+          "Tadol SR",
+          "Tapal IR",
+          "Tapal SR",
+          "Tapex IR",
+          "Tapex SR",
+          "Tapexia",
+          "Tapexia SR"
+        ],
+        "fentanyl": [
+          "Durogesic",
+          "Denpax",
+          "Fenpatch"
+        ],
+        "buprenorphine": [
+          "Norspan",
+          "Temgesic",
+          "Bupradex",
+          "Buvidal Monthly",
+          "Buvidal Weekly",
+          "Sublocade",
+          "Subutex",
+          "Subutex FDT",
+          "Suboxone"
+        ],
+        "hydromorphone": [
+          "Jurnista",
+          "Dilaudid",
+          "Dilaudid-HP",
+          "Palladone XL"
+        ],
+        "methadone": [
+          "Physeptone"
+        ]
+      },
+      "note": "An opioid supply is a reason to check the cause of constipation. This includes opioid treatment for pain or dependence. The opioid supply alone cannot establish the cause or clear the finding."
+    }
+  ],
+  "rule_for_models": "Apply this rule to people aged 45 to 64 inclusive. If age is missing, record that eligibility is unknown and do not report a PROMPT finding. For an eligible patient, use the quantity and directions first to check whether a Group A stimulant laxative covers more than 28 days at the directed dose, from one supply or repeat supplies no more than 60 days apart. Report a finding only when the course exceeds 28 days, the stimulant laxative was tried first for this episode of constipation and the constipation was not caused by an opioid. Exclude documented later-line treatment. If the course could exceed 28 days and no exclusion is established, report only a possible finding while treatment order or opioid causation is unknown. A known opioid cause or use for a different purpose excludes the course. If the course could exceed 28 days, no exclusion is known and its length is still unclear, report only a possible finding and ask for \"Length of this stimulant laxative course in days\". The pharmacist can establish the course length from the amount taken, how often it was taken and how long treatment lasted. Use the number of days for this course only. A course of 28 days or less is excluded. If its length remains unknown, keep the otherwise qualifying course possible. When all requirements are met, cite the supply lines and any answer lines used to establish them.",
+  "cannot_be_seen": "Why the laxative was used, whether it was the first treatment tried, whether other laxatives were bought without a prescription, and how often it is really taken.",
+  "ask_the_gp": "A review of the constipation treatment, including a look at the cause and whether another type of laxative would suit the patient.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "First treatment tried for this episode of constipation",
+      "meets": "This stimulant laxative was the first treatment tried for this episode of constipation. Prior treatment for the same episode or use for a different purpose excludes a finding. If the order is unknown and the course could otherwise qualify, keep the finding possible.",
+      "options": [
+        {
+          "words": "This stimulant laxative was tried first",
+          "effect": "meets"
+        },
+        {
+          "words": "Another treatment was tried first",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "The stimulant laxative was used for a different purpose",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "condition",
+      "what": "Cause of constipation during this stimulant laxative course",
+      "meets": "This part is met when an opioid has been ruled out as the cause of this episode. An opioid cause excludes a finding even if other facts are missing. An opioid supply alone does not establish the cause. If the cause is unknown, keep an otherwise qualifying course possible.",
+      "options": [
+        {
+          "words": "An opioid caused the constipation",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "The constipation was not caused by an opioid",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "result",
+      "what": "Length of this stimulant laxative course in days",
+      "meets": "More than 28 days meets the duration requirement. A course of 28 days or less excludes a finding."
+    }
+  ]
+}

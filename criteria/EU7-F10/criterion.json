@@ -1,0 +1,44 @@
+{
+  "id": "EU7-F10",
+  "label": "EU(7)-PIM: prucalopride",
+  "family": "EU7",
+  "title": "Prucalopride in an older person",
+  "statement": "Prucalopride is on the EU(7)-PIM list of potentially inappropriate medicines for older people. The reason given is that it can cause stomach pain, diarrhoea, headache and dizziness. The list says to use a lower dose in older adults and in people with severe kidney failure (GFR under 30 mL/min). People over 65 years start at 1 mg a day and take no more than 2 mg a day. The European list gives a maximum of 1 mg a day in severe kidney failure. Australian product information specifies 1 mg once daily when GFR is below 30 mL/min/1.73 m² and dialysis is not required. Prucalopride is contraindicated when renal impairment requires dialysis. The alternatives it names are enough fibre and fluid in the diet, and the osmotic laxatives macrogol and lactulose.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Statement written by the entrant in plain words from one row of the source table. The source wording is not reproduced because part of the dose text is marked as coming from Micromedex. The authors have not reviewed this wording."
+  },
+  "plain_summary": "Prucalopride, a tablet for long-term constipation, can cause stomach pain, diarrhoea, headache and dizziness in an older person, and its dose needs to suit age and kidney function.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Prucalopride",
+      "ingredients": [
+        "prucalopride"
+      ],
+      "brands": {
+        "prucalopride": [
+          "Resotrans",
+          "Calotrans",
+          "Prutas",
+          "Rosprid",
+          "Rospride"
+        ]
+      },
+      "note": "Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when a Group A medicine (prucalopride) is supplied, at any dose, to a patient aged 65 years or over. If age is missing and the other requirements are met, report only a possible finding and ask for the patient's age. One supply is enough. A patient aged under 65 years is not a finding.",
+  "cannot_be_seen": "A dispensing line alone does not establish kidney function or dialysis status. Use any dated renal result with its units and any recorded dialysis status. If either is missing, say which. Supplies alone do not show why treatment began, whether it helps, adverse effects, earlier use or whether doses are taken.",
+  "ask_the_gp": "Could you review whether prucalopride is still needed and whether the dose suits a patient aged 65 or over, with a starting dose of 1 mg daily and a maximum of 2 mg daily? Australian product information gives a dose of 1 mg once daily if kidney function is severely reduced and dialysis is not required, and lists prucalopride as contraindicated if kidney impairment requires dialysis.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

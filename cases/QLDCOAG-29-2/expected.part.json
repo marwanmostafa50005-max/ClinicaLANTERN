@@ -1,0 +1,41 @@
+[
+  {
+    "file": "QLDCOAG-29-2/pos-fact.csv",
+    "kind": "positive",
+    "about": "Eliquis is supplied to a fictional adult with confirmed moderate to severe mitral valve stenosis.",
+    "findings": [
+      {
+        "criterion": "QLDCOAG-29-2",
+        "must_cite": [
+          [
+            "L041"
+          ],
+          [
+            "L037"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "QLDCOAG-29-2/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about Mitral valve stenosis status, and Xarelto is supplied to a fictional adult.",
+    "findings": [
+      {
+        "criterion": "QLDCOAG-29-2",
+        "must_cite": [
+          [
+            "L025"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "QLDCOAG-29-2/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Pradaxa is supplied, but the recorded condition is mild mitral valve stenosis only, so there is no finding.",
+    "findings": []
+  }
+]

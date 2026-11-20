@@ -1,0 +1,310 @@
+{
+  "id": "CKD-C09D",
+  "label": "CKD review: Review concurrent treatment with an ACE inhibitor and an ARB in established CKD",
+  "family": "CKD",
+  "title": "Review concurrent treatment with an ACE inhibitor and an ARB in established CKD",
+  "statement": "For an adult outpatient with established CKD, review concurrent treatment with an ACE inhibitor and an ARB in established CKD.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "A systematically collated library of prescribing safety indicators for people with chronic kidney disease. Additional file 2, Appendix 3",
+    "citation": "Smith F, Hayward S, Hole B, Kimpton G, Sluman C, Whiting P, Caskey F. BMC Nephrology. 2020;21:493.",
+    "doi": "10.1186/s12882-020-02158-0",
+    "url": "https://link.springer.com/article/10.1186/s12882-020-02158-0",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Smith F, Hayward S, Hole B, Kimpton G, Sluman C, Whiting P, Caskey F. A systematically collated library of prescribing safety indicators for people with chronic kidney disease. BMC Nephrology 2020;21:493. https://doi.org/10.1186/s12882-020-02158-0; Additional file 2 (Appendix 3), https://doi.org/10.6084/m9.figshare.13257677. © The Author(s) 2020, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Changes were made. Smith et al. compiled the CKD indicators. Original screening wording and Australian adaptations. Clinical cross-check: KDIGO recommendation 3.6.4 (https://kdigo.org/wp-content/uploads/2024/03/KDIGO-2024-CKD-Guideline.pdf).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "For an adult outpatient with established CKD, review concurrent treatment with an ACE inhibitor and an ARB in established CKD. Review confirmed current use of Entresto with an ACE inhibitor the same day because of the risk of angioedema. A switch requires at least 36 hours between the last dose of one and the first dose of the other.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "ACE inhibitors",
+      "ingredients": [
+        "captopril",
+        "enalapril",
+        "fosinopril",
+        "lisinopril",
+        "perindopril",
+        "quinapril",
+        "ramipril",
+        "trandolapril"
+      ],
+      "brands": {
+        "captopril": [
+          "Acenorm",
+          "Capoten",
+          "Captohexal",
+          "Captopril (Apo)",
+          "Captopril (Chemmart)",
+          "Captopril (Douglas)",
+          "Captopril (Genrx)",
+          "Captopril (Reach)",
+          "Captopril (Sandoz)",
+          "Captopril (Terry White Chemists)",
+          "Captopril (Wl)",
+          "Topace",
+          "Zedace"
+        ],
+        "enalapril": [
+          "Renitec",
+          "Acetec",
+          "Alphapril",
+          "Amprace",
+          "Auspril",
+          "Elapril",
+          "Enahexal",
+          "Enalabell",
+          "Malean",
+          "Renitec M",
+          "Zan-Extra"
+        ],
+        "fosinopril": [
+          "Fosinopril (Dp)",
+          "Fosinopril Sodium (Apo)",
+          "Fosinopril Sodium (Genrx)",
+          "Fosinopril Sodium (Sandoz)",
+          "Fosinopril Sodium (Winthrop)",
+          "Fosipril",
+          "Monace",
+          "Monopril"
+        ],
+        "lisinopril": [
+          "Fibsol",
+          "Linopril",
+          "Liprace",
+          "Lisinobell",
+          "Lisinopril (An)",
+          "Lisinopril (Apo)",
+          "Lisinopril (Apotex)",
+          "Lisinopril (Auro)",
+          "Lisinopril (Chemmart)",
+          "Lisinopril (Dm)",
+          "Lisinopril (Drla)",
+          "Lisinopril (Ga)",
+          "Lisinopril (Generic Health)",
+          "Lisinopril (Genrx)",
+          "Zestril"
+        ],
+        "perindopril": [
+          "Coversyl",
+          "Idaprex",
+          "Idaprex Arg",
+          "Indopril",
+          "Indosyl Mono",
+          "Ozapace",
+          "Perindo",
+          "Perindo Arg",
+          "Perindoarg",
+          "Perindobell",
+          "Perindopril (An)",
+          "Perindopril (Apotex)",
+          "Perindopril (Arrow)",
+          "Perindopril (Btc)",
+          "Coversyl Plus",
+          "Coveram",
+          "Reaptan",
+          "Triplixam"
+        ],
+        "quinapril": [
+          "Accupril",
+          "Acquin",
+          "Aquinafil",
+          "Filpril",
+          "Qpril",
+          "Quinapril (Apo)",
+          "Quinapril (Chemmart)",
+          "Quinapril (Dp)",
+          "Quinapril (Ga)",
+          "Quinapril (Generic Health)",
+          "Quinapril (Genrx)",
+          "Quinapril (Pfizer)",
+          "Quinapril (Pharmacor)",
+          "Quinapril (Sandoz)"
+        ],
+        "ramipril": [
+          "Tritace",
+          "Ramipril Tabs-WGR",
+          "Prilace",
+          "Ramace",
+          "Ramibell",
+          "Tryzan",
+          "Vascalace"
+        ],
+        "trandolapril": [
+          "Dolapril",
+          "Gopten",
+          "Goricap",
+          "Odrik",
+          "Tranalpha",
+          "Trandolapril (Apo)",
+          "Trandolapril (Chemmart)",
+          "Trandolapril (Dp)",
+          "Trandolapril (Ga)",
+          "Trandolapril (Generic Health)",
+          "Trandolapril (Genrx)",
+          "Trandolapril (Pharmacor)",
+          "Trandolapril (Terry White Chemists)",
+          "Trandolapril (Viatris)",
+          "Tarka"
+        ]
+      },
+      "note": "Count the relevant ingredient in a combination tablet."
+    },
+    {
+      "key": "B",
+      "name": "Angiotensin receptor blockers",
+      "ingredients": [
+        "candesartan",
+        "eprosartan",
+        "irbesartan",
+        "losartan",
+        "olmesartan",
+        "telmisartan",
+        "valsartan"
+      ],
+      "brands": {
+        "candesartan": [
+          "Atacand",
+          "Candesartan AN",
+          "Adesan",
+          "Asartan",
+          "Candelem",
+          "Candesan",
+          "Atacand Plus"
+        ],
+        "eprosartan": [
+          "Teveten"
+        ],
+        "irbesartan": [
+          "Avapro HCT",
+          "Karvezide",
+          "Avapro",
+          "Karvea"
+        ],
+        "losartan": [
+          "Cozaar",
+          "Cozavan",
+          "Losartan (Apo)"
+        ],
+        "olmesartan": [
+          "Olmertan",
+          "Olmes",
+          "Olmesart",
+          "Olmesartan (Akm)",
+          "Olmesartan (Alembic)",
+          "Olmesartan (Alkem)",
+          "Olmesartan (An)",
+          "Olmesartan (Apo)",
+          "Olmesartan (Apotex)",
+          "Olmesartan (Apx)",
+          "Olmesartan (Arw)",
+          "Olmesartan (Blooms The Chemist)",
+          "Olmesartan (Chemmart)",
+          "Olmesartan (Gppl)",
+          "Olmetec",
+          "Olmetec Plus",
+          "Sevikar",
+          "Sevikar HCT"
+        ],
+        "telmisartan": [
+          "Micardis",
+          "Mizart",
+          "Pritor",
+          "Telmigen",
+          "Telmisartan (Alkem)",
+          "Telmisartan (An)",
+          "Telmisartan (Apo)",
+          "Telmisartan (Apotex)",
+          "Telmisartan (Atx)",
+          "Telmisartan (Chemmart)",
+          "Telmisartan (Drla)",
+          "Telmisartan (Gh)",
+          "Telmisartan (Mylan)",
+          "Telmisartan (Noumed)",
+          "Micardis Plus",
+          "Twilem",
+          "Twynsta"
+        ],
+        "valsartan": [
+          "Dilart",
+          "Diovan",
+          "Valsartan (Apo)",
+          "Valsartan (Apotex)",
+          "Entresto",
+          "Co-Diovan",
+          "Dilart HCT",
+          "Exforge",
+          "Amlodipine/Valsartan Novartis",
+          "Exforge HCT"
+        ]
+      },
+      "note": "Count the relevant ingredient in a combination tablet."
+    }
+  ],
+  "rule_for_models": "In an adult outpatient with established CKD, flag documented concurrent treatment with an ACE inhibitor and an ARB, including valsartan in Entresto. Cite both supplies and the CKD evidence. Use directions, dates and quantities to identify potential overlap. When concurrent use or CKD at the time of supply is uncertain, report only a possible finding naming the missing information. Ask about use of the ACE inhibitor and ARB together during this course only if co-use is unresolved and would change the finding. Cite the observation if it confirms co-use. A switch without co-use excludes concurrent treatment. Report no finding under this criterion for clearly separate courses, confirmed absence of CKD or a missing medicine group. At a switch between Entresto and an ACE inhibitor in either direction, check the time between the last dose of one and the first dose of the other. A gap of at least 36 hours rules out the switch concern. Within this CKD criterion, note same-day review because of angioedema risk for confirmed current use of Entresto with an ACE inhibitor or a switch within 36 hours. If the dose times do not confirm a 36-hour gap, report a possible washout concern and ask to confirm the last and next dose times before the next dose. Describe a short or uncertain washout as a switch. If age is unknown and the other evidence still allows this finding, report only a possible finding and ask whether the patient was at least 18 at supply. A known exclusion takes precedence over a missing fact.",
+  "cannot_be_seen": "Dispensing alone cannot show whether the patient has established CKD or whether the ACE inhibitor and ARB are being taken together. Supplies close in time can also reflect a switch.",
+  "ask_the_gp": "Ask whether the patient currently takes both medicines, including Entresto if supplied, or is changing between them, and whether they have chronic kidney disease. Could you review concurrent ACE inhibitor and ARB treatment if CKD and co-treatment are confirmed?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Chronic kidney disease",
+      "meets": "CKD was established by the supply under review. If its timing is uncertain, keep the finding possible unless another fact rules it out.",
+      "options": [
+        {
+          "words": "CKD was established by the supply under review",
+          "effect": "meets"
+        },
+        {
+          "words": "CKD was absent at the supply under review",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Use of the ACE inhibitor and ARB together during this course",
+      "meets": "Use the supply lines and any documented instructions first. Ask only when use together is still uncertain and could change the finding. Taken together during this course confirms co-use. Switched without co-use excludes co-treatment. Not known leaves co-use open. A switch answer does not establish the time between doses.",
+      "options": [
+        {
+          "words": "Taken together during this course",
+          "effect": "meets"
+        },
+        {
+          "words": "Switched without co-use",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Time between the last dose of Entresto or the ACE inhibitor and the first dose of the other medicine",
+      "meets": "At a switch in either direction, use documented dose times first. If the gap is unresolved, confirm the last and next dose times before the next dose. Less than 36 hours requires same-day review. At least 36 hours excludes the washout concern. Not known leaves the interval open.",
+      "options": [
+        {
+          "words": "Less than 36 hours",
+          "effect": "meets"
+        },
+        {
+          "words": "At least 36 hours",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

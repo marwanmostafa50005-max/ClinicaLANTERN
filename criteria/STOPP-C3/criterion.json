@@ -1,0 +1,132 @@
+{
+  "id": "STOPP-C3",
+  "label": "STOPP C3: aspirin plus clopidogrel after stroke",
+  "family": "STOPP_START",
+  "title": "Aspirin with clopidogrel for longer than 4 weeks to prevent another stroke",
+  "statement": "Aspirin plus clopidogrel as long-term secondary stroke prevention i.e., > 4 weeks, unless the patient has a coronary stent(s) inserted in the previous 12 months or concurrent acute coronary syndrome or has a high grade symptomatic carotid arterial stenosis (no evidence of added long-term benefit over clopidogrel monotherapy).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Taking aspirin and clopidogrel together for more than 4 weeks after a stroke adds bleeding risk and gives no extra long-term benefit over clopidogrel alone, unless a recent coronary stent, acute coronary syndrome or tight carotid narrowing applies.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Low-dose aspirin",
+      "ingredients": [
+        "aspirin"
+      ],
+      "brands": {
+        "aspirin": [
+          "Cartia",
+          "Astrix",
+          "APX-Clopidogrel/Aspirin 75/100",
+          "DuoCover",
+          "DuoPlidogrel",
+          "Piax Plus Aspirin",
+          "Aspro Protect",
+          "Cardasa",
+          "Cardiprin",
+          "Ecotrin",
+          "Princard",
+          "Solprin",
+          "Spren",
+          "CoPlavix"
+        ]
+      },
+      "note": "Only low-dose aspirin taken daily as an antiplatelet counts, for example 100 mg once a day. Aspirin used only for pain does not count. A prescribed fraction of a higher-strength tablet counts when the dose and directions support daily antiplatelet use. For an ambiguous brand name, check the strength, directions and daily antiplatelet use before counting the supply. Aspirin with dipyridamole (Asasantin SR) is not in this group. Generic packs that show the ingredient name with a company name count too. A supply of a fixed-dose aspirin and clopidogrel tablet counts for both groups. Cite that supply line for both ingredients."
+    },
+    {
+      "key": "B",
+      "name": "Clopidogrel",
+      "ingredients": [
+        "clopidogrel"
+      ],
+      "brands": {
+        "clopidogrel": [
+          "Plavix",
+          "Iscover",
+          "APX-Clopidogrel/Aspirin 75/100",
+          "DuoCover",
+          "DuoPlidogrel",
+          "Piax Plus Aspirin",
+          "Clogrel",
+          "Clopaccord",
+          "Clopithromb",
+          "Clovix",
+          "Piax",
+          "Plavicor",
+          "Plidogrel",
+          "Viplex",
+          "CoPlavix"
+        ]
+      },
+      "note": "Generic packs that show the ingredient name with a company name count too. A supply of a fixed-dose aspirin and clopidogrel tablet counts for both groups. Cite that supply line for both ingredients."
+    }
+  ],
+  "rule_for_models": "For people aged 65 or older, use the strengths, quantities and directions to establish more than 28 consecutive days of low-dose aspirin and clopidogrel together. Count a prescribed aspirin tablet fraction when the daily dose and directions support antiplatelet use. Exclude aspirin taken only for pain. Cite the supplies that establish the duration, including both ingredients of a combination tablet. Do not bridge an uncovered day from the next refill alone. Confirm only for secondary stroke prevention after a stroke or transient ischaemic attack when all three exceptions are excluded for the relevant treatment period. Cite the clinical evidence. A coronary stent in the preceding 12 months, concurrent acute coronary syndrome or high-grade symptomatic carotid stenosis rules out the finding for that period. Give no finding if the course lasted 28 days or less, there was no previous stroke or transient ischaemic attack, or another indication alone explains the combination. If the duration, indication or an exception is unknown, report at most a possible finding and name what is missing. Unknown age means unknown eligibility.",
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Reason for aspirin and clopidogrel used together after a stroke or transient ischaemic attack",
+      "meets": "The patient received both medicines to prevent another stroke after a stroke or transient ischaemic attack. An event only after the course does not qualify.",
+      "options": [
+        {
+          "words": "Used together to prevent another stroke after a stroke or transient ischaemic attack",
+          "effect": "meets"
+        },
+        {
+          "words": "No stroke or transient ischaemic attack before or during combined treatment",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Used together for a different reason only",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "condition",
+      "what": "Reason that may justify continuing both antiplatelets",
+      "meets": "All three exceptions must be excluded for the period assessed. Any one present rules out the finding for that period. Unknown exception status leaves a possible finding.",
+      "options": [
+        {
+          "words": "None of the listed exceptions applied",
+          "effect": "meets"
+        },
+        {
+          "words": "Coronary stent placed in the preceding 12 months",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Acute coronary syndrome during dual treatment",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "High-grade symptomatic carotid artery stenosis",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "cannot_be_seen": "Why the two medicines were started, how long the doctor intended them to continue, and any stent, heart event or carotid scan result not recorded here. Also supplies from a hospital or another pharmacy.",
+  "ask_the_gp": "Whether the aspirin is still needed alongside clopidogrel, and whether clopidogrel alone would be enough.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

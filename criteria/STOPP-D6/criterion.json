@@ -1,0 +1,143 @@
+{
+  "id": "STOPP-D6",
+  "label": "STOPP D6: SSRI with low blood sodium",
+  "family": "STOPP_START",
+  "title": "SSRI antidepressant with low blood sodium",
+  "statement": "Selective serotonin re-uptake inhibitors (SSRI’s) with current or recent significant hyponatraemia i.e., serum Na+ < 130 mmol/l (risk of exacerbating or precipitating hyponatraemia).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "SSRI antidepressants can lower blood sodium, so they can make a low sodium level worse or cause one. During ongoing SSRI treatment, a current serum sodium below 130 mmol/L or symptoms suggesting low sodium need same-day review. If neither concern is present, routine review is enough when sodium has recovered or the result is old or missing.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "SSRI antidepressants",
+      "ingredients": [
+        "citalopram",
+        "escitalopram",
+        "fluoxetine",
+        "fluvoxamine",
+        "paroxetine",
+        "sertraline"
+      ],
+      "brands": {
+        "citalopram": [
+          "Cipramil",
+          "Celapram",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talam",
+          "Talohexal"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Loxalate",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Zactin",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Paxtine",
+          "Extine",
+          "Aropax CR",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ],
+        "sertraline": [
+          "Zoloft",
+          "Setrona",
+          "Concorz",
+          "Eleva",
+          "Detralon",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Tralen",
+          "Xydep"
+        ]
+      },
+      "note": "Selective serotonin re-uptake inhibitors. Dapoxetine (for premature ejaculation) is not counted. Venlafaxine, duloxetine, mirtazapine and vortioxetine are not SSRIs. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "Serum sodium",
+      "meets": "A dated serum sodium below 130 mmol/L during cover of the latest SSRI supply or current or recent at the start of that supply."
+    },
+    {
+      "kind": "observation",
+      "what": "Timing of the low sodium result in relation to the SSRI supply",
+      "meets": "Ask only if the low sodium value and its date are known and its timing in relation to the SSRI supply remains unresolved. A taper label without a schedule gives no last dose date. Check observations for the dates the patient took the SSRI, even in a note written after the test. Compare the dates in that note with the low result date and cite the note when it establishes timing. A low value during SSRI use or judged current or recent at supply meets the timing requirement. A value outside exposure and judged remote does not. If timing is unknown, keep the finding possible. Cite any later recovery separately.",
+      "options": [
+        {
+          "words": "During SSRI use or judged current or recent at supply",
+          "effect": "meets"
+        },
+        {
+          "words": "Outside exposure and judged remote at supply",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "At age 65 or older (confirm age if unknown), cite the latest Group A SSRI supply in the episode and the dated serum sodium below 130 mmol/L if the low occurred during cover or was current or recent at supply, and separately cite any later recovery result and describe the low as resolved. If quantity and directions leave cover unclear, including a taper with no schedule on the label, compare the test date with the dates of use recorded in an observation and include that observation's line ID in the finding. Report no finding if results rule out a qualifying low, including a remote resolved episode, but if the value, date, cover or recency remains unclear, cite the supply and any known low result and report only a possible finding asking for the missing value or date or, if both are known, whether the low occurred during use or was current or recent at supply (STOPP gives no fixed interval).",
+  "cannot_be_seen": "Outside sodium results, medicines supplied elsewhere, treatment before the record began and unrecorded symptoms may be missing. Dated supplies and results can establish the recorded sequence, but may not establish when sodium first fell or what caused it.",
+  "ask_the_gp": "During ongoing SSRI treatment, could you review the patient the same day if their current serum sodium is below 130 mmol/L or they have symptoms suggesting low sodium? If neither concern is present and sodium has recovered or the result is old or missing, could you review the treatment routinely and consider whether a sodium test is needed?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

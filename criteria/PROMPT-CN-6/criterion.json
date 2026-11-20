@@ -1,0 +1,186 @@
+{
+  "id": "PROMPT-CN-6",
+  "label": "PROMPT: strong opioid without laxative",
+  "family": "PROMPT",
+  "title": "Strong opioid with no laxative supplied",
+  "statement": "Strong opioids (e.g. buprenorphine, diamorphine, fentanyl, morphine, oxycodone) should not be prescribed without the co-prescribing of laxatives.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Cooper JA, et al. The development of the PROMPT criteria. BMC Health Serv Res 2014;14:484, Table 4",
+    "citation": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A strong opioid such as morphine or oxycodone commonly causes constipation, so a laxative should be supplied with it.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Strong opioids",
+      "ingredients": [
+        "buprenorphine",
+        "fentanyl",
+        "morphine",
+        "oxycodone",
+        "hydromorphone",
+        "tapentadol",
+        "methadone",
+        "diamorphine"
+      ],
+      "brands": {
+        "buprenorphine": [
+          "Norspan",
+          "Temgesic",
+          "Subutex",
+          "Suboxone",
+          "Bupradex",
+          "Buvidal Monthly",
+          "Buvidal Weekly",
+          "Sublocade",
+          "Subutex FDT"
+        ],
+        "fentanyl": [
+          "Durogesic",
+          "Fentora",
+          "Abstral"
+        ],
+        "morphine": [
+          "MS Contin",
+          "Kapanol",
+          "Sevredol",
+          "Anamorph",
+          "Ordine",
+          "MS Mono",
+          "MS Contin Suspension",
+          "MS Normal",
+          "Momex SR",
+          "RA-Morph"
+        ],
+        "oxycodone": [
+          "OxyContin",
+          "Endone",
+          "OxyNorm",
+          "Targin",
+          "Endone XR",
+          "Novacodone",
+          "Oxycodor",
+          "Oxycone",
+          "Oxylenus",
+          "Oxylieve MR",
+          "Oxyndone",
+          "Xedone"
+        ],
+        "hydromorphone": [
+          "Jurnista",
+          "Dilaudid",
+          "Dilaudid-HP",
+          "Palladone XL"
+        ],
+        "tapentadol": [
+          "Palexia",
+          "Palexia SR",
+          "Lodat SR",
+          "Palexia IR",
+          "Tadol IR",
+          "Tadol SR",
+          "Tapal IR",
+          "Tapal SR",
+          "Tapex IR",
+          "Tapex SR",
+          "Tapexia",
+          "Tapexia SR"
+        ],
+        "methadone": [
+          "Physeptone",
+          "Biodone",
+          "Biodone Forte",
+          "Opod-D Syrup",
+          "Opod-P Liquid",
+          "Physeptone Liquid"
+        ],
+        "diamorphine": []
+      },
+      "note": "Targin is oxycodone with naloxone and Suboxone is buprenorphine with naloxone. Both still count. Diamorphine is not sold in Australia. Weak opioids such as codeine and tramadol are not in this group. Pethidine is not named in the criterion and is not counted."
+    },
+    {
+      "key": "B",
+      "name": "Laxatives",
+      "ingredients": [
+        "macrogol",
+        "lactulose",
+        "senna",
+        "bisacodyl",
+        "docusate",
+        "docusate with senna",
+        "sodium picosulfate",
+        "docusate + sennoside B",
+        "macrogol-3350",
+        "sorbitol",
+        "glycerol",
+        "methylnaltrexone",
+        "prucalopride"
+      ],
+      "brands": {
+        "macrogol": [
+          "Movicol",
+          "Osmolax"
+        ],
+        "lactulose": [
+          "Duphalac",
+          "Actilax",
+          "Dulose",
+          "Genlac",
+          "Lac-Dol",
+          "Lactocur"
+        ],
+        "senna": [
+          "Senokot"
+        ],
+        "bisacodyl": [
+          "Dulcolax",
+          "Bisalax",
+          "Bisalax Micro",
+          "Dulcolax for Children",
+          "Lax-Suppositories",
+          "Lax-Tab",
+          "Lax-Tab EC"
+        ],
+        "docusate": [
+          "Coloxyl"
+        ],
+        "docusate with senna": [
+          "Coloxyl with Senna"
+        ],
+        "sodium picosulfate": [
+          "Dulcolax SP Drops"
+        ],
+        "docusate + sennoside B": [
+          "Coloxyl with Senna"
+        ],
+        "macrogol-3350": [
+          "Movicol",
+          "Osmolax"
+        ],
+        "sorbitol": [
+          "Sorbisol",
+          "Microlax"
+        ],
+        "glycerol": [],
+        "methylnaltrexone": [
+          "Relistor"
+        ],
+        "prucalopride": [
+          "Resotrans"
+        ]
+      },
+      "note": "Macrogol, lactulose, senna, bisacodyl, docusate (alone or with senna) and oral sodium picosulfate drops for constipation count. Match Dulcolax SP Drops by its full name. Bulk fibre products are not counted. Exclude docusate ear drops such as Waxsol and procedural bowel preparations such as Glycoprep-C and Moviprep, even when a listed ingredient matches. Also count sorbitol laxative solution or enema, rectal glycerol laxative suppositories, methylnaltrexone for opioid-induced constipation and prucalopride for constipation. Count sorbitol or glycerol only when it is an active laxative ingredient. A supply of methylnaltrexone does not establish what other bowel treatment the patient takes."
+    }
+  ],
+  "rule_for_models": "Apply PROMPT only at recorded ages 45 to 64 inclusive, and if age is missing, record eligibility as unknown and report no finding. Suspect a finding and cite each Group A strong opioid supply with no recorded Group B laxative on the same day or within 60 days before or after that supply. Exclude docusate ear drops and procedural bowel preparations even if the ingredient matches, and remember that the record does not show laxatives bought without a prescription.",
+  "cannot_be_seen": "Laxatives bought over the counter, constipation that the patient does not have or does have, how often the opioid is really taken, and supplies from another pharmacy or a hospital.",
+  "ask_the_gp": "Whether a laxative is needed with the strong opioid, and how the patient's bowels are.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

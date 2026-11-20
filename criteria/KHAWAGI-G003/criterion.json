@@ -1,0 +1,257 @@
+{
+  "id": "KHAWAGI-G003",
+  "label": "Khawagi review: Review antidepressant treatment supplied before a child's sixth birthday",
+  "family": "KHAWAGI",
+  "title": "Review antidepressant treatment supplied before a child's sixth birthday",
+  "statement": "Review antidepressant treatment supplied before a child's sixth birthday.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Khawagi et al. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. S3 File.",
+    "citation": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. PLoS ONE 2019;14(5):e0217406.",
+    "doi": "10.1371/journal.pone.0217406",
+    "url": "https://doi.org/10.1371/journal.pone.0217406.s003",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. PLoS ONE 2019;14(5):e0217406. https://doi.org/10.1371/journal.pone.0217406; S3 File, https://doi.org/10.1371/journal.pone.0217406.s003. © 2019 Khawagi et al., CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). S3 File, G003. Original screening wording and Australian adaptations. S3 reference(s) as indexed in the supplied qualification: [69]. Clinical cross-check: Khawagi review (https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0217406).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "Review antidepressant treatment supplied before a child's sixth birthday.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antidepressants",
+      "ingredients": [
+        "agomelatine",
+        "amitriptyline",
+        "bupropion",
+        "citalopram",
+        "clomipramine",
+        "desvenlafaxine",
+        "dosulepin",
+        "doxepin",
+        "duloxetine",
+        "escitalopram",
+        "esketamine",
+        "fluoxetine",
+        "fluvoxamine",
+        "imipramine",
+        "mianserin",
+        "mirtazapine",
+        "moclobemide",
+        "nortriptyline",
+        "paroxetine",
+        "phenelzine",
+        "reboxetine",
+        "sertraline",
+        "tranylcypromine",
+        "venlafaxine",
+        "vortioxetine"
+      ],
+      "brands": {
+        "agomelatine": [
+          "Valdoxan",
+          "Domion",
+          "Nortim",
+          "Valomel"
+        ],
+        "amitriptyline": [
+          "Endep",
+          "Amichlor",
+          "Amidep",
+          "Entrip"
+        ],
+        "bupropion": [
+          "Zyban SR",
+          "Clorprax",
+          "Prexaton"
+        ],
+        "citalopram": [
+          "Cipramil",
+          "Abbapram",
+          "Celapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talam",
+          "Talohexal"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "desvenlafaxine": [
+          "Pristiq",
+          "Desfax",
+          "Desven"
+        ],
+        "dosulepin": [
+          "Dothep",
+          "Prothiaden"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "duloxetine": [
+          "Dymbalt",
+          "Cymbalta",
+          "Andepra",
+          "Duloxecor"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esipram",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam",
+          "Loxalate"
+        ],
+        "esketamine": [
+          "Spravato"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "mianserin": [
+          "Tolvon",
+          "Lumin"
+        ],
+        "mirtazapine": [
+          "Avanza",
+          "Aurozapine",
+          "Avanza Soltab",
+          "Axit",
+          "Milivin OD",
+          "Mirtanza",
+          "Mirtanza ODT",
+          "Mirtazon",
+          "Remeron",
+          "Remeron Soltab"
+        ],
+        "moclobemide": [
+          "Aurorix",
+          "Amira",
+          "Arima",
+          "Clobemide",
+          "Clobemix",
+          "Maosig",
+          "Mohexal"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "paroxetine": [
+          "Aropax CR",
+          "Aropax",
+          "Extine",
+          "Oxetine",
+          "Paroxo",
+          "Paxtine",
+          "Roxet",
+          "Roxtine"
+        ],
+        "phenelzine": [
+          "Nardil"
+        ],
+        "reboxetine": [
+          "Edronax"
+        ],
+        "sertraline": [
+          "Zoloft",
+          "Concorz",
+          "Detralon",
+          "Eleva",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Setrona",
+          "Tralen",
+          "Xydep"
+        ],
+        "tranylcypromine": [
+          "Parnate",
+          "Parpromine",
+          "Tranamef",
+          "Tranylmed"
+        ],
+        "venlafaxine": [
+          "Efexor-XR",
+          "Altven",
+          "Elaxine SR",
+          "Enlafax XR",
+          "Evelexa XR",
+          "Ozvenaf",
+          "Venfax SR",
+          "Venla",
+          "Venlexor XR"
+        ],
+        "vortioxetine": [
+          "Brintellix"
+        ],
+        "fluoxetine": [
+          "Zactin Tabs",
+          "Prozac",
+          "Lovan",
+          "Auscap",
+          "Fluohexal",
+          "Zactin"
+        ]
+      },
+      "note": "Include fluoxetine. Esketamine refers to the antidepressant nasal spray. For a medicine with a recognised non-psychiatric use, check why this supply was prescribed."
+    }
+  ],
+  "rule_for_models": "Review antidepressant treatment, including fluoxetine, before the sixth birthday. Use age on the supply date. If age is unknown, give no finding and say that age must be checked. Give no finding from the sixth birthday onwards. Count nasal esketamine only. Exclude topical creams used for local treatment. Check the recorded reason when the medicine has another use. Examples to clarify include amitriptyline or nortriptyline for pain, duloxetine for nerve pain, imipramine for bedwetting and bupropion for stopping smoking. A psychiatric use other than depression counts when the record identifies antidepressant treatment. A diagnosis alone does not establish the purpose of the supply. If the purpose is unclear in a child under six, give only a possible finding and ask the pharmacist why this supply was prescribed. Cite the supply and any record or pharmacist answer that confirms its purpose. Give no finding for a confirmed alternative use.",
+  "cannot_be_seen": "Dispensing does not establish actual use, indication or a prescriber’s intent. Treatment and assessments elsewhere may be missing.",
+  "ask_the_gp": "Could you confirm the reason for this prescription and review antidepressant treatment in this child under six?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Reason for this antidepressant supply before the sixth birthday",
+      "meets": "When the medicine has a recognised non-psychiatric use, the record or the pharmacist must link this supply to antidepressant treatment. A confirmed alternative use excludes it. An unknown reason leaves it open.",
+      "options": [
+        {
+          "words": "This supply was for antidepressant treatment, including a documented psychiatric use other than depression",
+          "effect": "meets"
+        },
+        {
+          "words": "This supply was for a non-psychiatric use",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

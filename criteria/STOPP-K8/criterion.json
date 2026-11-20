@@ -1,0 +1,268 @@
+{
+  "id": "STOPP-K8",
+  "label": "STOPP K8: antidepressant with recurrent falls",
+  "family": "STOPP_START",
+  "title": "Antidepressant in a person who falls",
+  "statement": "Antidepressants in patients with recurrent falls (may impair sensorium).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Antidepressants can cause drowsiness, confusion and dizziness, which raises the risk of falling in a person who already falls often.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antidepressants",
+      "ingredients": [
+        "amitriptyline",
+        "nortriptyline",
+        "dosulepin",
+        "doxepin",
+        "imipramine",
+        "clomipramine",
+        "sertraline",
+        "fluoxetine",
+        "paroxetine",
+        "citalopram",
+        "escitalopram",
+        "fluvoxamine",
+        "venlafaxine",
+        "desvenlafaxine",
+        "duloxetine",
+        "mirtazapine",
+        "moclobemide",
+        "agomelatine",
+        "vortioxetine",
+        "tranylcypromine",
+        "phenelzine",
+        "mianserin",
+        "reboxetine"
+      ],
+      "brands": {
+        "amitriptyline": [
+          "Endep",
+          "Amichlor",
+          "Amidep",
+          "Entrip"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "dosulepin": [
+          "Dothep",
+          "Prothiaden"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "sertraline": [
+          "Zoloft",
+          "Concorz",
+          "Detralon",
+          "Eleva",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Setrona",
+          "Tralen",
+          "Xydep"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Zactin",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Paxtine",
+          "Aropax CR",
+          "Extine",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ],
+        "citalopram": [
+          "Cipramil",
+          "Celapram",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talam",
+          "Talohexal"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam",
+          "Loxalate"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ],
+        "venlafaxine": [
+          "Efexor-XR",
+          "Altven",
+          "Elaxine SR",
+          "Enlafax XR",
+          "Evelexa XR",
+          "Ozvenaf",
+          "Venfax SR",
+          "Venla",
+          "Venlexor XR"
+        ],
+        "desvenlafaxine": [
+          "Pristiq",
+          "Desfax",
+          "Desven"
+        ],
+        "duloxetine": [
+          "Cymbalta",
+          "Andepra",
+          "Baltine",
+          "Coperin",
+          "Deotine",
+          "Depreta",
+          "Drulox",
+          "Dulocym",
+          "Duloxecor",
+          "Dytrex",
+          "Symlox",
+          "Texotine",
+          "Tixol",
+          "Xerol DR"
+        ],
+        "mirtazapine": [
+          "Avanza",
+          "Remeron",
+          "Mirtazon",
+          "Aurozapine",
+          "Avanza Soltab",
+          "Axit",
+          "Milivin OD",
+          "Mirtanza",
+          "Mirtanza ODT",
+          "Remeron Soltab"
+        ],
+        "moclobemide": [
+          "Aurorix",
+          "Amira",
+          "Arima",
+          "Clobemide",
+          "Clobemix",
+          "Maosig",
+          "Mohexal"
+        ],
+        "agomelatine": [
+          "Valdoxan",
+          "Domion",
+          "Nortim",
+          "Valomel"
+        ],
+        "vortioxetine": [
+          "Brintellix"
+        ],
+        "tranylcypromine": [
+          "Parnate",
+          "Parpromine",
+          "Tranamef",
+          "Tranylmed"
+        ],
+        "phenelzine": [
+          "Nardil"
+        ],
+        "mianserin": [
+          "Tolvon",
+          "Lumin"
+        ],
+        "reboxetine": [
+          "Edronax"
+        ]
+      },
+      "note": "Tablets, capsules and liquids count, whatever the reason for use, because low dose amitriptyline for pain is still an antidepressant. Bupropion sold only for stopping smoking is not counted. Generic packs that show the ingredient name with a company name count too. Dothiepin is the former Australian name for dosulepin."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Recurrent falls",
+      "meets": "Two or more falls in the past 12 months or a documented diagnosis of recurrent falls.",
+      "options": [
+        {
+          "effect": "meets",
+          "words": "Two or more falls in the past 12 months"
+        },
+        {
+          "effect": "meets",
+          "words": "Recurrent falls are documented"
+        },
+        {
+          "effect": "does_not_meet",
+          "words": "One fall in the past 12 months and no diagnosis of recurrent falls"
+        },
+        {
+          "effect": "does_not_meet",
+          "words": "No falls in the past 12 months and no diagnosis of recurrent falls"
+        },
+        {
+          "effect": "unknown",
+          "words": "Not known"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this criterion only to people aged 65 years or older. If age is unknown and the other conditions are met, report only a possible finding and ask for the age. Suspect a finding when a Group A antidepressant was supplied and the record documents recurrent falls or at least two falls in the past 12 months up to the latest date in the record. Cite the supply and the falls evidence. If no recurrent falls are documented and the history confirms zero or one fall in that period, there is no finding. With a Group A supply and a missing or unknown falls history, report a possible finding, cite the supply and name the missing fact \"Recurrent falls\".",
+  "cannot_be_seen": "The reason for the antidepressant, how the person is really taking it, falls and their causes if they were not recorded, and the effect of stopping or changing it on the person's mood or pain.",
+  "ask_the_gp": "A review of whether the antidepressant is still needed, and whether a lower dose or a different medicine would be safer for a person with recurrent falls.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

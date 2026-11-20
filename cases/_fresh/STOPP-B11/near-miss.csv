@@ -1,0 +1,5 @@
+patient_ref,patient_age,patient_sex,record_type,dispense_date,medicine,brand,strength,form,quantity,repeats_left,directions,prescriber,detail,value
+F-FR-B11-2,70,F,,2026-04-16,perindopril,Coversyl,5 mg,tablet,30,3,Take ONE tablet in the morning,Dr A. Example,,
+F-FR-B11-2,70,F,,2026-05-14,perindopril,Coversyl,5 mg,tablet,30,2,Take ONE tablet in the morning,Dr A. Example,,
+F-FR-B11-2,70,F,,2026-05-21,hydrochlorothiazide,Dithiazide,25 mg,tablet,30,4,Take ONE tablet daily,Dr A. Example,,
+F-FR-B11-2,70,F,,2026-06-11,perindopril,Coversyl,5 mg,tablet,30,1,Take ONE tablet in the morning,Dr A. Example,,

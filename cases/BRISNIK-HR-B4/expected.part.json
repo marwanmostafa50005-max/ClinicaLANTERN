@@ -1,0 +1,83 @@
+[
+  {
+    "file": "BRISNIK-HR-B4/pos-brand.csv",
+    "kind": "positive",
+    "about": "Zoloft (sertraline), Minax (metoprolol) and Coversyl (perindopril) are all supplied monthly by brand name only to a 69-year-old, so two blood pressure medicines are taken with an SSRI.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-B4",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L008",
+            "L011",
+            "L015",
+            "L018",
+            "L021",
+            "L025",
+            "L028",
+            "L031",
+            "L035"
+          ],
+          [
+            "L002",
+            "L006",
+            "L009",
+            "L012",
+            "L016",
+            "L019",
+            "L022",
+            "L026",
+            "L029",
+            "L032",
+            "L036"
+          ],
+          [
+            "L003",
+            "L007",
+            "L010",
+            "L013",
+            "L017",
+            "L020",
+            "L023",
+            "L027",
+            "L030",
+            "L033",
+            "L037"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-B4/pos-buried.csv",
+    "kind": "positive",
+    "about": "This 72-year-old has a course of venlafaxine with concurrent metoprolol and ramipril, with isolated blood pressure medicine supplies elsewhere in the history.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-B4",
+        "must_cite": [
+          [
+            "L030",
+            "L034"
+          ],
+          [
+            "L031",
+            "L035"
+          ],
+          [
+            "L033",
+            "L038"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-B4/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Lexapro (escitalopram) is supplied monthly with only ONE blood pressure medicine, Coversyl (perindopril), so there are not two further blood pressure lowering medicines.",
+    "findings": []
+  }
+]

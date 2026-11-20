@@ -1,0 +1,44 @@
+[
+  {
+    "file": "EU7-F82/pos-brand.csv",
+    "kind": "positive",
+    "about": "Panadeine Forte (paracetamol with codeine), by brand name only, is supplied on 18, 23 and 28 November 2025. Each 20-tablet pack covers five days at one tablet every six hours, forming one continuous 15-day course.",
+    "findings": [
+      {
+        "criterion": "EU7-F82",
+        "must_cite": [
+          [
+            "L005"
+          ],
+          [
+            "L008"
+          ],
+          [
+            "L012"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F82/pos-buried.csv",
+    "kind": "positive",
+    "about": "One supply of dextromethorphan (Robitussin Dry Cough Forte, a cough liquid) on 10 February 2026, in the middle of a 15-month history.",
+    "findings": [
+      {
+        "criterion": "EU7-F82",
+        "must_cite": [
+          [
+            "L033"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F82/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The two five-day codeine courses are months apart. The cough liquids contain bromhexine, guaifenesin or ribwort plantain.",
+    "findings": []
+  }
+]

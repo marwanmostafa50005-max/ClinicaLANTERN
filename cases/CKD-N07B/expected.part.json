@@ -1,0 +1,53 @@
+[
+  {
+    "file": "CKD-N07B/pos-fact.csv",
+    "kind": "positive",
+    "about": "Varenicline 2 mg/day exceeds the 1 mg/day limit at CrCl 29 mL/min with stage 4 CKD and no dialysis.",
+    "findings": [
+      {
+        "criterion": "CKD-N07B",
+        "must_cite": [
+          [
+            "L046"
+          ],
+          [
+            "L042"
+          ],
+          [
+            "L043"
+          ],
+          [
+            "L045"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CKD-N07B/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about creatinine clearance for the varenicline supply.",
+    "findings": [
+      {
+        "criterion": "CKD-N07B",
+        "must_cite": [
+          [
+            "L030"
+          ],
+          [
+            "L027"
+          ],
+          [
+            "L028"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CKD-N07B/near-miss.csv",
+    "kind": "near_miss",
+    "about": "At exactly 30 mL/min, the varenicline regimen falls outside the review threshold.",
+    "findings": []
+  }
+]

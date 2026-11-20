@@ -1,0 +1,60 @@
+[
+  {
+    "file": "BRISNIK-HR-D1/pos-fact.csv",
+    "kind": "positive",
+    "about": "Amitriptyline 25 mg, three tablets at night (75 mg a day), is supplied monthly, and the record holds a line for mild cognitive impairment.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-D1",
+        "must_cite": [
+          [
+            "L003",
+            "L007",
+            "L011",
+            "L015",
+            "L019",
+            "L023",
+            "L027",
+            "L031",
+            "L035",
+            "L039",
+            "L043"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-D1/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about dementia or cognitive impairment, and paroxetine is supplied monthly.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-D1",
+        "must_cite": [
+          [
+            "L003",
+            "L006",
+            "L009",
+            "L012",
+            "L015",
+            "L018",
+            "L021",
+            "L024",
+            "L027",
+            "L029"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-D1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Paroxetine is supplied monthly and the clinician assessed cognition and found neither dementia nor cognitive impairment.",
+    "findings": []
+  }
+]

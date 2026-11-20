@@ -1,0 +1,163 @@
+{
+  "id": "KHAWAGI-G116",
+  "label": "Khawagi review: Review contraceptive effectiveness when carbamazepine overlaps an eligible contraceptive pill or vaginal ring",
+  "family": "KHAWAGI",
+  "title": "Review contraceptive effectiveness when carbamazepine overlaps an eligible contraceptive pill or vaginal ring",
+  "statement": "Review contraceptive effectiveness when carbamazepine overlaps an eligible contraceptive pill or vaginal ring.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Khawagi et al. (2019), S3 File. List of potential Prescribing Safety Indicators (PSIs) related to mental health medications and conditions.",
+    "citation": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. PLoS ONE 2019;14(5):e0217406.",
+    "doi": "10.1371/journal.pone.0217406",
+    "url": "https://doi.org/10.1371/journal.pone.0217406.s003",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. PLoS ONE 2019;14(5):e0217406. https://doi.org/10.1371/journal.pone.0217406; S3 File, https://doi.org/10.1371/journal.pone.0217406.s003. © 2019 Khawagi et al., CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Khawagi et al. (2019), PLOS ONE 14(5), e0217406, S3 File, CC BY 4.0. Original screening wording and Australian adaptations. S3 reference(s) as indexed in the supplied qualification: [71]. Clinical cross-check: Tegretol Australian PI (https://www.safetyandquality.gov.au/medicine-finder/tegretol).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "Review contraceptive effectiveness when carbamazepine overlaps an eligible contraceptive pill or vaginal ring.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Carbamazepine",
+      "ingredients": [
+        "carbamazepine"
+      ],
+      "brands": {
+        "carbamazepine": [
+          "Tegretol",
+          "Avloire",
+          "Avloire CR",
+          "Tegretol CR",
+          "Teril"
+        ]
+      }
+    },
+    {
+      "key": "B",
+      "name": "Oral or vaginal hormonal contraceptives",
+      "ingredients": [
+        "levonorgestrel + ethinylestradiol",
+        "etonogestrel + ethinylestradiol",
+        "drospirenone + ethinylestradiol",
+        "dienogest + estradiol valerate",
+        "drospirenone + estetrol",
+        "nomegestrol acetate + estradiol",
+        "desogestrel + ethinylestradiol",
+        "gestodene + ethinylestradiol",
+        "norethisterone + ethinylestradiol",
+        "cyproterone acetate + ethinylestradiol",
+        "dienogest + ethinylestradiol",
+        "levonorgestrel",
+        "drospirenone",
+        "norethisterone",
+        "cyproterone + ethinylestradiol",
+        "dienogest + estradiol",
+        "ethinylestradiol + etonogestrel",
+        "ethinylestradiol + gestodene",
+        "ethinylestradiol + levonorgestrel",
+        "estradiol + nomegestrol",
+        "ethinylestradiol + norethisterone"
+      ],
+      "brands": {
+        "levonorgestrel + ethinylestradiol": [
+          "Levlen ED",
+          "Microgynon 30 ED",
+          "Monofeme",
+          "Nordette",
+          "Femme-Tab ED 20/100",
+          "Femme-Tab ED 30/150",
+          "Eleanor 150/30 ED",
+          "Evelyn 150/30 ED",
+          "Loette",
+          "Triphasil",
+          "Triquilar ED",
+          "Trifeme",
+          "Microgynon 20 ED",
+          "Micronelle 20 ED",
+          "Micronelle 30 ED"
+        ],
+        "etonogestrel + ethinylestradiol": [
+          "NuvaRing"
+        ],
+        "drospirenone + ethinylestradiol": [
+          "Liza",
+          "Yasmin",
+          "Yaz"
+        ],
+        "dienogest + estradiol valerate": [
+          "Qlaira"
+        ],
+        "drospirenone + estetrol": [
+          "Nextstellis"
+        ],
+        "nomegestrol acetate + estradiol": [
+          "Zoely"
+        ],
+        "desogestrel + ethinylestradiol": [
+          "Marvelon",
+          "Madeline"
+        ],
+        "gestodene + ethinylestradiol": [
+          "Minulet"
+        ],
+        "norethisterone + ethinylestradiol": [
+          "Brevinor 28 Day",
+          "Norimin 28 Day",
+          "Norimin-1 28 Day",
+          "Brevinor-1 28 Day"
+        ],
+        "cyproterone acetate + ethinylestradiol": [
+          "Diane-35 ED",
+          "Estelle-35 ED",
+          "Brenda-35 ED",
+          "Juliet-35 ED"
+        ],
+        "dienogest + ethinylestradiol": [
+          "Valette"
+        ],
+        "levonorgestrel": [
+          "Microlut",
+          "Microval",
+          "Mirolesa"
+        ],
+        "drospirenone": [
+          "Slinda"
+        ],
+        "norethisterone": [
+          "Noriday 28 Day",
+          "Locilan 28 Day",
+          "Micronor"
+        ],
+        "cyproterone + ethinylestradiol": [
+          "Diane-35 ED"
+        ],
+        "dienogest + estradiol": [
+          "Qlaira"
+        ],
+        "ethinylestradiol + etonogestrel": [
+          "NuvaRing"
+        ],
+        "ethinylestradiol + gestodene": [
+          "Minulet"
+        ],
+        "ethinylestradiol + levonorgestrel": [
+          "Levlen ED"
+        ],
+        "estradiol + nomegestrol": [
+          "Zoely"
+        ],
+        "ethinylestradiol + norethisterone": [
+          "Brevinor 28 Day"
+        ]
+      },
+      "note": "For a combination, both ingredients must belong to the same contraceptive product, in either order. A hormone replacement product does not count. A progestogen alone counts only in a regular contraceptive pill. Emergency contraception, an implant, an injection or an intrauterine system is outside this list. Examples of regular daily pills are levonorgestrel 30 micrograms and norethisterone 350 micrograms."
+    }
+  ],
+  "rule_for_models": "Cite both supplies when carbamazepine overlaps a combined pill, regular progestogen-only pill or vaginal ring used to prevent pregnancy, excluding emergency tablets, HRT, intrauterine systems, implants, injections, patches and use solely for another reason. Compare the courses using the recorded directions or, if unclear, estimate cover only from a documented start and an identifiable pack schedule. Report only a possible finding if overlap or contraceptive use is unclear, asking when the patient used the pill or ring if timing is uncertain and, if reliance is unclear, “Do you rely on this pill or ring to prevent pregnancy?”",
+  "cannot_be_seen": "Dispensing does not establish actual use, indication or a prescriber’s intent. Treatment and assessments elsewhere may be missing.",
+  "ask_the_gp": "Could you review whether carbamazepine affects this patient’s contraceptive protection, including the need for additional protection or time-sensitive emergency contraception advice if relevant?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

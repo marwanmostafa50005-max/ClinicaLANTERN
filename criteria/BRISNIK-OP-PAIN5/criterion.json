@@ -1,0 +1,157 @@
+{
+  "id": "BRISNIK-OP-PAIN5",
+  "label": "Brisnik OP-PAIN5",
+  "family": "BRISNIK",
+  "title": "Tricyclic or SNRI antidepressant for other pain",
+  "statement": "Prescribed TCA or SNRI as analgesic for pain (e.g., pain other than neuropathic pain, tension headache, migraine, or fibromyalgia syndrome) - and the patient has no other indications for an antidepressant",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "When a tricyclic antidepressant or an SNRI is used for pain other than nerve pain, tension headache, migraine or fibromyalgia, and there is no other reason for an antidepressant, review pain relief and benefit with the patient.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Tricyclic antidepressants (TCAs) and SNRIs",
+      "ingredients": [
+        "amitriptyline",
+        "nortriptyline",
+        "imipramine",
+        "clomipramine",
+        "dosulepin",
+        "doxepin",
+        "trimipramine",
+        "venlafaxine",
+        "desvenlafaxine",
+        "duloxetine"
+      ],
+      "brands": {
+        "amitriptyline": [
+          "Endep",
+          "Tryptanol",
+          "Amichlor",
+          "Amidep",
+          "Entrip"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "dosulepin": [
+          "Prothiaden",
+          "Dothep"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ],
+        "venlafaxine": [
+          "Efexor-XR",
+          "Altven",
+          "Elaxine SR",
+          "Enlafax-XR",
+          "Enlafax XR",
+          "Evelexa XR",
+          "Ozvenaf",
+          "Venfax SR",
+          "Venla",
+          "Venlexor XR"
+        ],
+        "desvenlafaxine": [
+          "Pristiq",
+          "Desfax",
+          "Desven"
+        ],
+        "duloxetine": [
+          "Cymbalta",
+          "Andepra",
+          "Baltine",
+          "Coperin",
+          "Deotine",
+          "Depreta",
+          "Drulox",
+          "Dulocym",
+          "Duloxecor",
+          "Dytrex",
+          "Symlox",
+          "Texotine",
+          "Tixol",
+          "Xerol DR"
+        ]
+      },
+      "note": "SNRI means serotonin and noradrenaline reuptake inhibitor. Tablets and capsules count, including low doses. SSRIs and mirtazapine are not in this group. Enlafax-XR may appear as Enlafax XR on older records."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Pain treated with this tricyclic or SNRI",
+      "meets": "An entry or pharmacist answer links this medicine to a pain condition other than nerve pain, tension headache, migraine or fibromyalgia. A diagnosis alone does not establish the medicine link. If the purpose or pain type is uncertain, keep it open when there is a supporting pain clue.",
+      "ask_when": {
+        "group": "A"
+      },
+      "options": [
+        {
+          "words": "Used for pain other than nerve pain, tension headache, migraine or fibromyalgia",
+          "effect": "meets"
+        },
+        {
+          "words": "The only pain treated is nerve pain, tension headache, migraine or fibromyalgia",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Used only for a reason other than pain",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "condition",
+      "what": "Another current antidepressant indication besides the pain being treated with this tricyclic or SNRI",
+      "meets": "A review confirms there is no other current indication for an antidepressant besides the pain being treated with this tricyclic or SNRI. Any documented current alternative indication rules out the finding. If this has not been assessed, the answer is unknown.",
+      "options": [
+        {
+          "words": "No other current indication besides the pain being treated with this tricyclic or SNRI was found on review",
+          "effect": "meets"
+        },
+        {
+          "words": "Another current indication besides the pain being treated with this tricyclic or SNRI was confirmed",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Require a Group A tricyclic or SNRI supply and evidence suggesting use for pain other than nerve pain, tension headache, migraine or fibromyalgia. A supply alone gives no finding. Confirm only when the record or pharmacist links the medicine to qualifying pain and a review confirms no other current antidepressant indication. If there is a qualifying pain clue but the medicine link, pain type or indication review is unresolved, report a possible finding. Name only the unresolved facts: \"Pain treated with this tricyclic or SNRI\" if the medicine link or pain type is unclear, and \"Another current antidepressant indication besides the pain being treated with this tricyclic or SNRI\" if the review is missing or inconclusive. No finding applies if the only pain treated is one of the four listed conditions, the medicine is used solely for a non-pain purpose, or any current alternative antidepressant indication is documented. Cite the supply and supporting entries.",
+  "cannot_be_seen": "Why the antidepressant was started, what kind of pain it is for, and any reason for an antidepressant that the record does not hold. Also medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "What is the tricyclic or SNRI being used for? If it is for pain, could we review its benefit, adverse effects and any other indication?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

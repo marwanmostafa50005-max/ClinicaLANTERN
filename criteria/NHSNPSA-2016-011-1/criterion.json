@@ -1,0 +1,150 @@
+{
+  "id": "NHSNPSA-2016-011-1",
+  "label": "NHSNPSA: withdrawing insulin from a pen with a syringe",
+  "family": "NHSNPSA",
+  "title": "Withdrawing insulin from an insulin pen device using an insulin syringe and needle",
+  "statement": "Patient safety concerns have been identified where healthcare professionals use an insulin syringe and needle to withdraw medication directly from a patient’s insulin pen device. This practice should not happen as the strength of insulin in pen devices varies, creating a risk of overdose if the strength is not taken into consideration when determining the volume required.",
+  "statement_origin": "published",
+  "source": {
+    "document": "NHS Improvement and NHS England, Risk of severe harm and death due to withdrawing insulin from pen devices",
+    "citation": "NHS Improvement. Patient Safety Alert NHS/PSA/W/2016/011. 16 November 2016. Published on the NHS England website.",
+    "url": "https://www.england.nhs.uk/2016/11/risk-severe-harm-and-death-withdrawing-insulin-pen-devices/",
+    "licence": "Open Government Licence v3.0",
+    "licence_status": "proposed",
+    "credit": "NHS Improvement and NHS England, Risk of severe harm and death due to withdrawing insulin from pen devices, 16 November 2016. https://www.england.nhs.uk/2016/11/risk-severe-harm-and-death-withdrawing-insulin-pen-devices/ Read 20 November 2026. Contains public sector information licensed under the Open Government Licence v3.0.",
+    "modification_notice": "Published alert wording reproduced unchanged. Australian medicine mapping, question options and fictional histories are adaptations."
+  },
+  "plain_summary": "Drawing insulin from a pen or cartridge with a syringe can cause severe hypoglycaemia or a fatal dosing error, especially with a 200 or 300 units/mL pen and a syringe marked for 100 units/mL. If an incorrect insulin dose may already have been injected, seek urgent medical advice immediately, even if the patient feels well. Otherwise, arrange a same-day review to use pen needles or another safe insulin supply, without stopping insulin abruptly.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Insulin pen devices and pen cartridges",
+      "ingredients": [
+        "insulin glargine",
+        "insulin degludec",
+        "insulin detemir",
+        "insulin aspart",
+        "insulin lispro",
+        "insulin glulisine",
+        "insulin neutral",
+        "insulin isophane",
+        "biphasic insulin aspart",
+        "insulin degludec with insulin aspart",
+        "biphasic insulin lispro",
+        "biphasic isophane insulin",
+        "insulin degludec with liraglutide",
+        "insulin glargine with lixisenatide",
+        "insulin icodec"
+      ],
+      "brands": {
+        "insulin glargine": [
+          "Optisulin SoloStar",
+          "Lantus SoloStar",
+          "Semglee",
+          "Toujeo SoloStar",
+          "Basaglar KwikPen",
+          "Toujeo Max SoloStar",
+          "Optisulin",
+          "Lantus"
+        ],
+        "insulin degludec": [
+          "Tresiba FlexTouch",
+          "Tresiba Penfill"
+        ],
+        "insulin detemir": [
+          "Levemir FlexPen",
+          "Levemir Penfill"
+        ],
+        "insulin aspart": [
+          "NovoRapid FlexPen",
+          "NovoRapid Penfill",
+          "Fiasp FlexTouch",
+          "Fiasp Penfill"
+        ],
+        "insulin lispro": [
+          "Humalog KwikPen",
+          "Humalog U200 KwikPen",
+          "Humalog"
+        ],
+        "insulin glulisine": [
+          "Apidra SoloStar",
+          "Apidra"
+        ],
+        "insulin neutral": [
+          "Actrapid Penfill",
+          "Humulin R"
+        ],
+        "insulin isophane": [
+          "Protaphane Penfill",
+          "Protaphane InnoLet",
+          "Humulin NPH KwikPen",
+          "Humulin NPH"
+        ],
+        "biphasic insulin aspart": [
+          "NovoMix 30 FlexPen",
+          "NovoMix 30 Penfill"
+        ],
+        "insulin degludec with insulin aspart": [
+          "Ryzodeg FlexTouch",
+          "Ryzodeg 70/30 FlexTouch",
+          "Ryzodeg Penfill",
+          "Ryzodeg 70/30 Penfill"
+        ],
+        "biphasic insulin lispro": [
+          "Humalog Mix25 KwikPen",
+          "Humalog Mix50 KwikPen",
+          "Humalog Mix25",
+          "Humalog Mix50"
+        ],
+        "biphasic isophane insulin": [
+          "Mixtard 30 Penfill",
+          "Mixtard 30/70 Penfill",
+          "Mixtard 30/70 InnoLet",
+          "Mixtard 50/50 Penfill",
+          "Humulin 30/70 KwikPen",
+          "Humulin 30/70"
+        ],
+        "insulin degludec with liraglutide": [
+          "Xultophy"
+        ],
+        "insulin glargine with lixisenatide": [
+          "Soliqua"
+        ],
+        "insulin icodec": [
+          "Awiqli"
+        ]
+      },
+      "note": "Count every Australian insulin pen device and every cartridge made for a reusable insulin pen, including standard 100 units/mL and concentrated 200 or 300 units/mL products, insulin mixtures and insulin-containing combination pens. Where an ingredient or brand can identify several presentations, the supply must identify a pen device or pen cartridge. Insulin vials do not trigger this check because syringe withdrawal is intended. Exclude vials, pump-only reservoirs or cartridges, and pens that contain no insulin. Count a documented insulin pen or reusable-pen cartridge at any strength, including 300 or 500 units/mL."
+    }
+  ],
+  "rule_for_models": "At any age, including when age is unknown, check every Group A supply that identifies an insulin pen or reusable-pen cartridge of any strength, excluding vials, pump-only reservoirs or cartridges, and pens that contain no insulin. For each device, use the current pharmacist answer about its withdrawal method, even if it says 'no date', when it is clear which device the answer describes. Otherwise use the most recent dated observation for that device. An answer about one device cannot settle the method for another. Ignore answers that were taken back. If anyone draws insulin from it with a syringe or plans to do so, report a finding and cite the qualifying supplies and the observation. If syringe withdrawal and plans to use it are both ruled out, report no finding for that device. If the method is missing, unknown or unresolved, cite the qualifying supplies and report a possible finding naming the missing fact \"Insulin withdrawal method status\".",
+  "cannot_be_seen": "Supply lines and label directions do not show who gives insulin, the actual withdrawal method, the dose given, or whether an error already occurred. The pharmacist must obtain the method status. An absent answer is not a safe method.",
+  "ask_the_gp": "Could the care team review the insulin administration method and dose today, and recommend pen needles or another safe insulin supply?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Insulin withdrawal method status",
+      "meets": "Using or intending to use an insulin syringe and needle to withdraw insulin from a pen device or cartridge",
+      "ask_when": {
+        "group": "A"
+      },
+      "options": [
+        {
+          "words": "Using or intending to use an insulin syringe and needle to withdraw insulin from a pen device or cartridge",
+          "effect": "meets"
+        },
+        {
+          "words": "No one uses or plans to use a syringe to draw insulin from the pen or cartridge",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "EU7-F71",
+  "label": "EU(7)-PIM: tricyclic antidepressants",
+  "family": "EU7",
+  "title": "Tricyclic antidepressant in an older person",
+  "statement": "Older people should avoid these tricyclic and related antidepressants: desipramine, imipramine, clomipramine, trimipramine, amitriptyline, nortriptyline, doxepin, dosulepin, amoxapine and maprotiline. The listed risks include dry mouth, constipation, low blood pressure on standing, heart rhythm problems, drowsiness, confusion, memory problems and falls. Dosulepin and amoxapine are also dangerous in overdose. For amitriptyline or nortriptyline used for neuropathic pain, the list recognises that the benefit may outweigh the risks for an individual patient. A low dose alone does not establish the indication. If one of the listed medicines is used, the list advises a lower starting dose and a slow increase.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Statement written in plain words by ClinicaLANTERN from the published table row or rows, because part of the original dose text is from a third-party database (Micromedex) whose rights are not settled. It is not the authors' wording. Not endorsed by the source authors."
+  },
+  "plain_summary": "Tricyclic antidepressants such as amitriptyline or dosulepin can cause confusion, falls, dry mouth and heart rhythm problems in people aged 65 or over.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Tricyclic and related antidepressants",
+      "ingredients": [
+        "desipramine",
+        "imipramine",
+        "clomipramine",
+        "trimipramine",
+        "amitriptyline",
+        "nortriptyline",
+        "doxepin",
+        "dosulepin",
+        "amoxapine",
+        "maprotiline",
+        "dothiepin"
+      ],
+      "brands": {
+        "desipramine": [],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ],
+        "amitriptyline": [
+          "Endep",
+          "Tryptanol",
+          "Amichlor",
+          "Amidep",
+          "Entrip"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "dosulepin": [
+          "Prothiaden",
+          "Dothep"
+        ],
+        "amoxapine": [],
+        "maprotiline": [],
+        "dothiepin": []
+      },
+      "note": "Tablets and capsules count at any strength, including low doses used for pain. Doxepin skin cream does not count. Desipramine, amoxapine and maprotiline have no Australian brand listed. Dothiepin is the former Australian name for dosulepin. Match either name as the same ingredient."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when the person is aged 65 or over and any Group A medicine is supplied, at any strength, even once. If age is unknown and a qualifying oral Group A medicine is supplied, report only a possible finding and ask the pharmacist to confirm whether the person is at least 65.",
+  "cannot_be_seen": "Why it was started (depression, nerve pain or sleep), the blood level or heart tracing, how much is really taken, and medicines supplied by another pharmacy. Ask what the medicine is treating and whether the patient has had dizziness, drowsiness or falls. Record a reported use for nerve pain when reviewing amitriptyline or nortriptyline.",
+  "ask_the_gp": "A review of whether the antidepressant is still needed, whether a safer choice or a lower dose is possible, and a check of falls risk and heart rhythm.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

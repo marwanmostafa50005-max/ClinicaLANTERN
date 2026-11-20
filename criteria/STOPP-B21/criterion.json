@@ -1,0 +1,187 @@
+{
+  "id": "STOPP-B21",
+  "label": "STOPP B21",
+  "family": "STOPP_START",
+  "title": "Digoxin as first choice for heart rate in atrial fibrillation",
+  "statement": "Digoxin as first line treatment for long-term (> 3 months) ventricular rate control in atrial fibrillation (increased mortality from long-term digoxin use; cardio-selective beta-blockers are generally preferable).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Digoxin is not a good first choice to control the heart rate in atrial fibrillation for more than 3 months. Heart-selective beta-blockers are usually better. Australian guidance places digoxin second line (Heart Foundation and CSANZ, 2018), while European guidance includes it as a first choice and reports that randomised trials found no increase in deaths from any cause (ESC, 2024).",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Digoxin",
+      "ingredients": [
+        "digoxin"
+      ],
+      "brands": {
+        "digoxin": [
+          "Lanoxin",
+          "Lanoxin PG",
+          "Lanoxin Paediatric Elixir",
+          "Sigmaxin",
+          "Sigmaxin PG"
+        ]
+      },
+      "note": "Tablets and liquid count."
+    },
+    {
+      "key": "B",
+      "name": "Medicines usually tried first for heart rate control",
+      "ingredients": [
+        "metoprolol",
+        "bisoprolol",
+        "atenolol",
+        "nebivolol",
+        "verapamil",
+        "diltiazem"
+      ],
+      "brands": {
+        "metoprolol": [
+          "Betaloc",
+          "Lopresor",
+          "Minax",
+          "Agtolac",
+          "Metatar",
+          "Metohexal",
+          "Metolol",
+          "Metrol",
+          "Metrol-XL",
+          "Minax XL",
+          "Mistrom",
+          "Tobeta-XL",
+          "Topreloc-XL",
+          "Toprol-XL"
+        ],
+        "bisoprolol": [
+          "Bicor",
+          "Concor",
+          "Beprol",
+          "Bicard",
+          "Biso",
+          "Bispro"
+        ],
+        "atenolol": [
+          "Tenormin",
+          "Noten",
+          "Anselol",
+          "Atehexal",
+          "Aten",
+          "Colaptyn",
+          "Tenolten",
+          "Tensig"
+        ],
+        "nebivolol": [
+          "Nebilet",
+          "Lobivon",
+          "Lobivon Composite Starter Titration Pack",
+          "Nebaloc",
+          "Nebilet Composite Starter Titration Pack",
+          "Nepiten"
+        ],
+        "verapamil": [
+          "Isoptin",
+          "Isoptin SR",
+          "Anpec",
+          "Anpec SR",
+          "Cordilox SR",
+          "Veracaps SR",
+          "Tarka"
+        ],
+        "diltiazem": [
+          "Cardizem",
+          "Cardizem CD",
+          "Vasocardol",
+          "Vasocardol CD",
+          "Coras",
+          "Danzem",
+          "Diltahexal",
+          "Diltahexal CD",
+          "Dilzem",
+          "Dilzem CD",
+          "Ditatem"
+        ]
+      },
+      "note": "The statement prefers heart-selective beta-blockers. Verapamil and diltiazem are the other usual first choices. An earlier Group B medicine excludes first-line digoxin only if it was used for AF rate control. Tarka contains verapamil with trandolapril. Its supply alone does not prove prior AF rate control. Exclude topical diltiazem creams and ointments."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Atrial fibrillation",
+      "meets": "atrial fibrillation recorded"
+    },
+    {
+      "kind": "observation",
+      "what": "Why digoxin was started",
+      "meets": "Digoxin was started to control the ventricular rate in atrial fibrillation. Ask the patient or check the prescriber's record if the reason is unclear.",
+      "options": [
+        {
+          "words": "To control the ventricular rate in atrial fibrillation",
+          "effect": "meets"
+        },
+        {
+          "words": "Solely for another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "First treatment for rate control in atrial fibrillation",
+      "meets": "Digoxin was used first. Ask what was tried beforehand and why. A prior medicine used only for another purpose does not exclude first-line digoxin.",
+      "options": [
+        {
+          "words": "Digoxin was the first treatment for rate control in atrial fibrillation",
+          "effect": "meets"
+        },
+        {
+          "words": "Another treatment was used first for rate control in atrial fibrillation",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Duration of the digoxin course",
+      "meets": "Ask only when dates, quantities and directions leave duration unresolved and a finding is still possible. Check the actual start and stop dates, or the daily dose if it establishes cover. Record the confirmed period and choose the matching duration.",
+      "options": [
+        {
+          "words": "More than three calendar months",
+          "effect": "meets"
+        },
+        {
+          "words": "Three calendar months or less",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this criterion only to people aged 65 years or older. If age is unknown, confirm it before reporting a finding. Look for Group A digoxin treatment extending beyond three calendar months, using dated treatment evidence or supply dates, quantity and directions to establish the period. If the dates, quantities and directions leave duration uncertain and the other evidence still permits a finding, ask for \"Duration of the digoxin course\". Check the actual start and stop dates, or the daily dose when that would settle cover. Record the confirmed treatment period. An unknown duration leaves only a possible finding. A course of three calendar months or less rules it out. A longer course still requires first-line use for AF rate control. Apply the exclusions below first. Cite dated evidence spanning the period when a single supply cannot establish it. Report a finding when the record supports digoxin as the initial treatment for ventricular rate control in AF, and cite the supporting lines. If the pattern remains possible, ask for each unresolved fact by name: Atrial fibrillation, Why digoxin was started, or First treatment for rate control in atrial fibrillation. An unknown answer leaves the finding possible. Confirmed absence of AF rules it out. Exclude a documented course of three calendar months or less, use solely for another indication, or digoxin added after prior AF rate control. An earlier Group B supply for another indication does not exclude first-line digoxin.",
+  "cannot_be_seen": "Why digoxin was started (it is also used in heart failure), earlier medicines tried before this record began, and the digoxin level.",
+  "ask_the_gp": "Could you confirm any missing indication, duration or previous rate-control treatment and review whether digoxin remains appropriate if it was used first for long-term rate control in atrial fibrillation?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "file": "POPI-17/pos-brand.csv",
+    "kind": "positive",
+    "about": "The brand-only Nexium IV vial carries explicit oral directions for reflux oesophagitis.",
+    "findings": [
+      {
+        "criterion": "POPI-17",
+        "must_cite": [
+          [
+            "L027"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "POPI-17/pos-buried.csv",
+    "kind": "positive",
+    "about": "A pantoprazole injection vial has directions for delivery through a nasogastric tube for reflux oesophagitis.",
+    "findings": [
+      {
+        "criterion": "POPI-17",
+        "must_cite": [
+          [
+            "L036"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "POPI-17/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The injection vial is directed intravenously for reflux oesophagitis.",
+    "findings": []
+  }
+]

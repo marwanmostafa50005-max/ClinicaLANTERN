@@ -1,0 +1,82 @@
+{
+  "id": "STOPP-K4",
+  "label": "STOPP K4",
+  "family": "STOPP_START",
+  "title": "Z-drug sleeping tablet in a person who keeps falling",
+  "statement": "Hypnotic Z-drugs i.e., zopiclone, zolpidem, zaleplon in patients with recurrent falls (may cause protracted daytime sedation, ataxia).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Zolpidem, zopiclone and zaleplon can cause daytime drowsiness and unsteadiness, so they raise the risk of further falls in someone who has already fallen more than once.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Z-drugs, the sleeping tablets",
+      "ingredients": [
+        "zaleplon",
+        "zolpidem",
+        "zopiclone"
+      ],
+      "brands": {
+        "zaleplon": [
+          "Sonata"
+        ],
+        "zolpidem": [
+          "Stilnox",
+          "Dormizol",
+          "Dormizol CR",
+          "Somidem",
+          "Stildem",
+          "Stilnox CR",
+          "Stilnoxium CR",
+          "Zolpibell"
+        ],
+        "zopiclone": [
+          "Imovane",
+          "Imrest",
+          "Cloipca",
+          "Imoclone",
+          "Ipclone",
+          "Zstar",
+          "Ztab"
+        ]
+      },
+      "note": "Sonata capsules contain zaleplon and count on a dated dispensing record."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Recurrent falls",
+      "meets": "two or more falls in the past 12 months, or a line that says recurrent falls",
+      "options": [
+        {
+          "words": "Two or more falls in the 12 months up to the assessment",
+          "effect": "meets"
+        },
+        {
+          "words": "No falls or one fall in those 12 months",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "For a person aged 65 or older, flag a Group A sleeping tablet supplied when recurrent falls were documented or the person had fallen at least twice in the preceding 12 months. Cite the supply and the falls evidence. With a relevant supply and no answer or an uncertain falls history for that period, report a possible finding and ask about falls. Missing age also needs confirmation. No finding below 65, without a Group A supply, or with zero or one fall in that period.",
+  "cannot_be_seen": "Whether the person has really had recurrent falls if no falls line is held, how often the sleeping tablet is taken, and how well the person sleeps. Also tablets from hospital or another pharmacy.",
+  "ask_the_gp": "Whether the sleeping tablet can be stopped or reduced, given the falls. A sleep and falls review.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

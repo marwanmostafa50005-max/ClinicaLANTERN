@@ -1,0 +1,41 @@
+[
+  {
+    "file": "DREISCHULTE-74/pos-fact.csv",
+    "kind": "positive",
+    "about": "After a treatment interruption, the latest methotrexate supply was on 2026-10-20 and the checked pathology reports put the last completed full blood count 91 days earlier.",
+    "findings": [
+      {
+        "criterion": "DREISCHULTE-74",
+        "must_cite": [
+          [
+            "L046"
+          ],
+          [
+            "L049"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "DREISCHULTE-74/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record does not establish \"Timing of the latest completed full blood count (12-week window)\" for the latest methotrexate supply.",
+    "findings": [
+      {
+        "criterion": "DREISCHULTE-74",
+        "must_cite": [
+          [
+            "L027"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "DREISCHULTE-74/near-miss.csv",
+    "kind": "near_miss",
+    "about": "A completed full blood count 77 days before the latest methotrexate supply falls inside the published 12-week window.",
+    "findings": []
+  }
+]

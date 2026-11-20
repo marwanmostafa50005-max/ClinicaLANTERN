@@ -1,0 +1,145 @@
+{
+  "id": "POPI-44",
+  "label": "POPI: no inhaled corticosteroid supply for persistent asthma",
+  "family": "POPI",
+  "title": "No inhaled corticosteroid supply for persistent asthma",
+  "statement": "Preventative treatment (inhaled corticosteroids) in the case of persistent asthma",
+  "statement_origin": "published",
+  "source": {
+    "document": "International consensus validation of the POPI tool (2020), Table 2",
+    "citation": "Sadozai L, Sable S, Le Roux E, et al. International consensus validation of the POPI tool (Pediatrics: Omission of Prescriptions and Inappropriate prescriptions) to identify inappropriate prescribing in pediatrics. PLOS ONE. 2020;15(10):e0240105.",
+    "doi": "10.1371/journal.pone.0240105",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0240105",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "© 2020 Sadozai et al. Table 2, International consensus validation of the POPI tool. PLOS ONE 15(10), e0240105. https://doi.org/10.1371/journal.pone.0240105. CC BY 4.0.",
+    "modification_notice": "The published item is reproduced unchanged. The Australian medicine examples, screening rule and fictional histories are local additions."
+  },
+  "plain_summary": "POPI flags a possible gap in preventer treatment for a child with recorded persistent asthma.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Asthma reliever that can identify a treatment date",
+      "ingredients": [
+        "salbutamol",
+        "terbutaline"
+      ],
+      "brands": {
+        "salbutamol": [
+          "Ventolin Inhaler",
+          "Airomir",
+          "Airomir Autohaler",
+          "Asmol",
+          "Asmol Uni-Dose",
+          "Butamol",
+          "Epaq Inhaler",
+          "Salmol",
+          "Univent Cipule",
+          "Ventolin Nebules",
+          "Ventolin Respirator",
+          "Ventolin Rotacap",
+          "Zempreon Inhaler"
+        ],
+        "terbutaline": [
+          "Bricanyl Turbuhaler"
+        ]
+      },
+      "note": "A reliever supply can date asthma treatment. It is not required when the record already dates persistent asthma. Count inhaled terbutaline as a reliever. Its supply alone cannot establish persistent asthma."
+    },
+    {
+      "key": "B",
+      "name": "Corticosteroids inhaled into the lungs, including combination inhalers",
+      "ingredients": [
+        "budesonide",
+        "fluticasone propionate",
+        "beclometasone dipropionate",
+        "ciclesonide",
+        "fluticasone furoate",
+        "mometasone furoate",
+        "beclometasone",
+        "mometasone"
+      ],
+      "brands": {
+        "budesonide": [
+          "Pulmicort Turbuhaler",
+          "Symbicort Turbuhaler",
+          "Symbicort Rapihaler",
+          "Pulmicort Respule",
+          "DuoResp Spiromax",
+          "BiResp Spiromax"
+        ],
+        "fluticasone propionate": [
+          "Flixotide",
+          "Axotide",
+          "Axotide Accuhaler",
+          "Axotide Junior Accuhaler",
+          "Axotide Junior Inhaler",
+          "Flixotide Accuhaler",
+          "Flixotide Junior Accuhaler",
+          "Flixotide Junior Inhaler",
+          "Flixotide Nebules",
+          "Fluair Inhaler",
+          "Seretide",
+          "Seretide Accuhaler",
+          "Seretide MDI",
+          "Flutiform"
+        ],
+        "beclometasone dipropionate": [
+          "Qvar"
+        ],
+        "ciclesonide": [
+          "Alvesco"
+        ],
+        "fluticasone furoate": [
+          "Breo Ellipta",
+          "Arnuity Ellipta"
+        ],
+        "mometasone furoate": [
+          "Asmanex Twisthaler",
+          "Atectura Breezhaler"
+        ],
+        "beclometasone": [
+          "Qvar"
+        ],
+        "mometasone": [
+          "Asmanex Twisthaler",
+          "Atectura Breezhaler"
+        ]
+      },
+      "note": "Count any inhaler containing a corticosteroid, including a combination used for symptom relief. Exclude nasal sprays."
+    }
+  ],
+  "rule_for_models": "At age 18 or older, give no finding. If age is unknown and the episode otherwise qualifies for a finding or possible finding, report only a possible finding and ask for age and any missing evidence of persistence. For a patient under 18 with current persistent asthma, flag an omission if no Group B inhaled corticosteroid was supplied within 60 days either side of the diagnosis date (including that date) and cite the evidence of persistence, the diagnosis date and any Group A reliever for that episode. Use the documented diagnosis date or the date entered in the value field for 'Date of persistent asthma diagnosis'. Only if persistence is confirmed, the diagnosis date is missing and the omission could still apply, report a possible finding naming 'Date of persistent asthma diagnosis' as missing. If the date remains unknown, keep the finding possible. The day of the counter answer is not the diagnosis date. Report only a possible finding naming 'Persistent asthma' as missing when asthma treatment such as Group A is recorded without a persistence line or a Group B supply in the same window around treatment, and give no finding for intermittent asthma or a Group B supply in the window.",
+  "cannot_be_seen": "The record omits inhalers obtained elsewhere or bought without a prescription and cannot show use or symptom frequency. Australian preventer treatment depends on age and symptom pattern.",
+  "ask_the_gp": "Could you confirm whether the asthma is persistent and review preventer treatment, including combination inhalers?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Persistent asthma",
+      "meets": "Confirm persistent asthma during the period under review. Intermittent asthma or no asthma gives no finding for that period. A history of asthma without a known pattern leaves persistence uncertain.",
+      "ask_when": "always",
+      "options": [
+        {
+          "words": "Asthma was persistent during the period under review",
+          "effect": "meets"
+        },
+        {
+          "words": "Asthma was intermittent or the child did not have asthma during that period",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "result",
+      "what": "Date of persistent asthma diagnosis",
+      "meets": "Enter the date persistent asthma was diagnosed in the value field as YYYY-MM-DD, or choose Not known."
+    }
+  ]
+}

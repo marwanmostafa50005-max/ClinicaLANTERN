@@ -1,0 +1,59 @@
+[
+  {
+    "file": "STOPP-B7/pos-fact.csv",
+    "kind": "positive",
+    "about": "L002 records that furosemide was the first treatment for hypertension after a scalp minoxidil supply, and L004 documents no heart failure at the first furosemide supply.",
+    "findings": [
+      {
+        "criterion": "STOPP-B7",
+        "must_cite": [
+          [
+            "L003",
+            "L008",
+            "L012",
+            "L016",
+            "L020",
+            "L024",
+            "L028",
+            "L032",
+            "L036",
+            "L040"
+          ],
+          [
+            "L002"
+          ],
+          [
+            "L004"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-B7/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: furosemide is supplied, but the record does not show \"Reason for starting the loop diuretic\", \"Blood pressure treatment tried before the loop diuretic\" or \"Concurrent heart failure requiring a diuretic\" at the start of treatment.",
+    "findings": [
+      {
+        "criterion": "STOPP-B7",
+        "must_cite": [
+          [
+            "L002",
+            "L006",
+            "L010",
+            "L014",
+            "L018",
+            "L022",
+            "L026"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-B7/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Teveten was supplied for high blood pressure before furosemide was started for the same condition.",
+    "findings": []
+  }
+]

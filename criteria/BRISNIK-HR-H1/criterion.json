@@ -1,0 +1,121 @@
+{
+  "id": "BRISNIK-HR-H1",
+  "label": "Brisnik: constipating antidepressant with constipation",
+  "family": "BRISNIK",
+  "title": "Anticholinergic antidepressant in a person with persistent constipation",
+  "statement": "Prescribed anticholinergic antidepressant opipramol, other TCAs (in doses ≥ 50 mg/day), or paroxetine - and the patient has persistent constipation",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Statement text reproduced without changes. Not endorsed by the source authors."
+  },
+  "plain_summary": "Paroxetine and opipramol at any dose, and other tricyclic antidepressants at 50 mg a day or more, can worsen persistent constipation.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Paroxetine and opipramol",
+      "ingredients": [
+        "paroxetine",
+        "opipramol"
+      ],
+      "brands": {
+        "paroxetine": [
+          "Aropax",
+          "Paxtine",
+          "Aropax CR",
+          "Extine",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ],
+        "opipramol": []
+      },
+      "note": "Any dose counts. No Australian brand is listed for opipramol, so use the ingredient name."
+    },
+    {
+      "key": "B",
+      "name": "Other tricyclic antidepressants (counted only at 50 mg a day or more)",
+      "ingredients": [
+        "amitriptyline",
+        "nortriptyline",
+        "imipramine",
+        "clomipramine",
+        "dosulepin",
+        "doxepin",
+        "trimipramine"
+      ],
+      "brands": {
+        "amitriptyline": [
+          "Endep",
+          "Amichlor",
+          "Amidep",
+          "Entrip"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "dosulepin": [
+          "Dothep",
+          "Prothiaden"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ]
+      },
+      "note": "Work out the daily dose from the strength and the directions. For example, 25 mg tablets taken as TWO tablets at night is 50 mg a day. A tricyclic below 50 mg a day does not count."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Chronic constipation",
+      "meets": "A recorded constipation problem that is ongoing (not a single short episode)"
+    },
+    {
+      "kind": "observation",
+      "what": "Prescribed daily dose of the tricyclic antidepressant",
+      "meets": "For the tricyclic and treatment episode being reviewed, 50 mg a day or more meets the dose threshold. Below 50 mg a day rules out that course. If the answer is unknown or cannot be linked to that course, its dose remains uncertain.",
+      "options": [
+        {
+          "words": "50 mg a day or more",
+          "effect": "meets"
+        },
+        {
+          "words": "Below 50 mg a day",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Look for paroxetine or opipramol at any dose, or another tricyclic at 50 mg a day or more from strength and directions. With a qualifying supply and persistent constipation, cite the medicine and constipation lines and any dose clarification used. Absent or settled constipation gives no finding. If only a Group B course could qualify and its directions leave the threshold unclear, name the missing fact \"Prescribed daily dose of the tricyclic antidepressant\" unless persistent constipation is ruled out. Use the answer only for that medicine and treatment episode. A dose below 50 mg a day rules out that course alone. If a relevant course could qualify and its dose or persistent constipation remains unknown, report a possible finding and name each missing fact.",
+  "cannot_be_seen": "The record can show constipation and its duration when these are documented. The actual daily dose and the reason for the antidepressant may be unknown.",
+  "ask_the_gp": "If persistent constipation is confirmed, could the antidepressant and current bowel habit be reviewed? If constipation or its persistence is unknown, could the current bowel habit and duration of symptoms be clarified?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

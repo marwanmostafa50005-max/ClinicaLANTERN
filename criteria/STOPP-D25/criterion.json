@@ -1,0 +1,112 @@
+{
+  "id": "STOPP-D25",
+  "label": "STOPP D25: first-generation antihistamine for insomnia",
+  "family": "STOPP_START",
+  "title": "Older antihistamine used for sleep",
+  "statement": "First-generation antihistamines for insomnia (high risk of side-effects, Z-drugs safer and more appropriate for short-term use).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Older, sedating antihistamines such as doxylamine or promethazine are sometimes taken to help sleep, but they carry a high risk of confusion and drowsiness in older people.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "First-generation (older, sedating) antihistamines",
+      "ingredients": [
+        "alimemazine",
+        "cyproheptadine",
+        "dexchlorpheniramine",
+        "diphenhydramine",
+        "doxylamine",
+        "promethazine",
+        "chlorphenamine",
+        "triprolidine",
+        "hydroxyzine",
+        "brompheniramine",
+        "pheniramine"
+      ],
+      "brands": {
+        "alimemazine": [
+          "Vallergan",
+          "Vallergan Forte",
+          "Vallergan Syrup"
+        ],
+        "cyproheptadine": [
+          "Periactin"
+        ],
+        "dexchlorpheniramine": [
+          "Polaramine",
+          "Polaramine Repetab",
+          "Polaramine Syrup",
+          "Polarelief"
+        ],
+        "diphenhydramine": [
+          "Snuzaid Tab",
+          "Unisom SleepGels"
+        ],
+        "doxylamine": [
+          "Restavit",
+          "Dozile",
+          "Dozavit",
+          "Restamine",
+          "APOHEALTH Sleep Assist",
+          "Blooms The Chemist Sleep Assist",
+          "TerryWhite Chemmart Sleep Assist"
+        ],
+        "promethazine": [
+          "Phenergan",
+          "Avomine",
+          "Allersoothe",
+          "Allersoothe Elixir",
+          "Fenezal",
+          "Histaren",
+          "Phenergan Elixir",
+          "Progan Children's Allergy Relief Elixir"
+        ],
+        "chlorphenamine": [],
+        "triprolidine": [],
+        "hydroxyzine": [],
+        "brompheniramine": [],
+        "pheniramine": [
+          "Avil"
+        ]
+      },
+      "note": "Count oral preparations, including tablets, capsules and liquids. Avomine contains promethazine teoclate. A Benadryl brand name alone does not identify the ingredient. Exclude creams and gels. Match hydroxyzine by ingredient name only. Trimeprazine is another name for alimemazine. Chlorpheniramine is another name for chlorphenamine. For combination products, check the exact product or the listed ingredients for chlorphenamine, triprolidine or brompheniramine. A range name such as Demazin, Dimetapp or Actifed, or the label Sleep Assist alone, does not identify the ingredient."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Reason for this antihistamine",
+      "meets": "Insomnia or trouble sleeping was a reason for using the antihistamine being checked.",
+      "options": [
+        {
+          "words": "Used for insomnia or trouble sleeping",
+          "effect": "meets"
+        },
+        {
+          "words": "Used only for another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Before either finding, require a recorded age of at least 65 years. Below 65 there is no finding. If age is unknown, record eligibility as unresolved. Report a finding when the directions, a linked history entry or the pharmacist confirms that insomnia or trouble sleeping was a reason for the supplied Group A antihistamine. Cite the supply and the evidence of its purpose. If it was used only for another reason, such as allergy or nausea, or sleep use was ruled out, report no finding. Bedtime dosing or a diagnosis of insomnia alone leaves the reason uncertain. If the reason is missing or unknown, cite the supply, report a possible finding and name the missing fact \"Reason for this antihistamine\".",
+  "cannot_be_seen": "Why the antihistamine was supplied and how it is really taken. A night-time direction suggests sleep but does not prove it. Also any sleep medicine bought over the counter or supplied by another pharmacy.",
+  "ask_the_gp": "A review of whether the antihistamine is still needed for sleep, whether a safer option for short-term sleep problems suits the person, and their risk of confusion, drowsiness and falls.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

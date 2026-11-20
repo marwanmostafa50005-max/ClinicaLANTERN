@@ -1,0 +1,72 @@
+{
+  "id": "STOPP-E3",
+  "label": "STOPP E3",
+  "family": "STOPP_START",
+  "title": "Factor Xa inhibitor with very low kidney function",
+  "statement": "Factor Xa inhibitors (e.g., rivaroxaban, apixaban, edoxaban) if eGFR < 15 ml/min/1.73m² (risk of bleeding)",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "licence_status": "proposed",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Apixaban, rivaroxaban and edoxaban are partly cleared by the kidneys, so they can build up and raise the risk of bleeding when kidney function is very low (eGFR below 15). Australian guidance differs: apixaban is contraindicated at a Cockcroft-Gault creatinine clearance below 25 mL/min and rivaroxaban below 15 mL/min (Eliquis product information, 2026, and Xarelto product information, 2024).",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Factor Xa inhibitors taken by mouth",
+      "ingredients": [
+        "apixaban",
+        "rivaroxaban",
+        "edoxaban"
+      ],
+      "brands": {
+        "apixaban": [
+          "Eliquis",
+          "Alexibic",
+          "Apexa",
+          "Apixor",
+          "Axibic",
+          "Elapex"
+        ],
+        "rivaroxaban": [
+          "Xarelto",
+          "Ixarola",
+          "Rivoxa",
+          "Relaban",
+          "Rivalembic",
+          "Rivarelto",
+          "Rivator",
+          "Rivaxib",
+          "Rivaxotor",
+          "Roxabic",
+          "Roxalem",
+          "Roxator",
+          "Toriva",
+          "Troxa",
+          "Xaremed"
+        ],
+        "edoxaban": []
+      },
+      "note": "No Australian brand is listed for edoxaban. Fondaparinux, heparin and enoxaparin are injections and are not in this group. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "eGFR",
+      "meets": "Enter the eGFR in mL/min/1.73 m² and its test date if known. The latest result that applies to the oral factor Xa inhibitor course meets this criterion if it is below 15 mL/min/1.73 m²."
+    }
+  ],
+  "rule_for_models": "Apply this criterion only if the patient is aged 65 years or older. If age is unknown, ask for age confirmation before assessing the supply. For apixaban, rivaroxaban or edoxaban (Group A), use the latest eGFR that applied during the course, including a result before supply if it still applies. A result measured after the course ended cannot establish a finding for that course. Below 15 mL/min/1.73 m², report a finding and cite the supply and result. At 15 or above, there is no finding for that course. If the value is unknown or its timing is unclear, report only a possible finding and ask for the eGFR that applied during treatment. Use the test date or a confirmed link to treatment, never the date the pharmacist entered the answer.",
+  "cannot_be_seen": "The latest kidney test if none is on the record, whether the dose was reduced after the test, and the reason for the anticoagulant.",
+  "ask_the_gp": "Could you review the indication, bleeding risk and current Cockcroft-Gault creatinine clearance against the limits for the anticoagulant supplied? The Australian renal contraindications include creatinine clearance below 25 mL/min for apixaban and below 15 mL/min for rivaroxaban.",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

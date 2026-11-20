@@ -1,0 +1,50 @@
+{
+  "id": "EU7-F22",
+  "label": "EU(7)-PIM: digoxin and other heart glycosides",
+  "family": "EU7",
+  "title": "Digoxin or another heart glycoside in an older person",
+  "statement": "The EU(7)-PIM list names digoxin, digitoxin, acetyldigoxin and metildigoxin as potentially inappropriate medicines for older people. The reason given is that older adults are more sensitive to these heart glycosides, women more than men, with a risk of toxicity. For digoxin the experts on the list suggest a low dose for older adults, and a smaller share of the dose or a longer gap between doses when creatinine clearance is 50 mL/min or less. As alternatives the list suggests a beta-blocker for a fast heart rate or atrial fibrillation (but not oxprenolol, pindolol, propranolol, sotalol, nadolol or labetalol), and for heart failure a diuretic (but not spironolactone above 25 mg a day) or an ACE inhibitor.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Statement written by the entrant in plain words from four rows of the source table. Dose notes that the source marks as taken from Micromedex are left out, and the dose figures printed for digoxin are not repeated. The authors have not reviewed this wording."
+  },
+  "plain_summary": "Older adults, and women more than men, are more sensitive to digoxin and the related heart glycosides, so these medicines carry a risk of toxicity. Ask which dose the patient takes and on which days. Ask whether they have noticed nausea or confusion.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Digoxin and the other heart glycosides",
+      "ingredients": [
+        "digoxin",
+        "digitoxin",
+        "acetyldigoxin",
+        "metildigoxin"
+      ],
+      "brands": {
+        "digoxin": [
+          "Lanoxin",
+          "Lanoxin PG",
+          "Sigmaxin",
+          "Sigmaxin PG",
+          "Lanoxin Paediatric Elixir"
+        ],
+        "digitoxin": [],
+        "acetyldigoxin": [],
+        "metildigoxin": []
+      },
+      "note": "Tablets, oral liquid and injections count. Lanoxin PG and Sigmaxin PG are the 62.5 microgram tablets. Digitoxin, acetyldigoxin and metildigoxin are not sold in Australia, so no brand is listed for them. Digibind and DigiFab are antidotes to digoxin and do not count. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "rule_for_models": "For a person aged 65 or older, a supply of digoxin, digitoxin, acetyldigoxin or metildigoxin meets the 2015 list’s screening criterion for a medicine review. If age is missing, report only a possible finding and ask for age confirmation. An age under 65 does not qualify. Do not describe the dose as excessive from supply alone. For a digoxin dose review, consider the daily dose from the directions, whether it is loading or maintenance, the indication and kidney function.",
+  "cannot_be_seen": "Why digoxin was started, for example atrial fibrillation or heart failure. Also the digoxin blood level, kidney function, potassium results, body weight, heart rate, any signs of digoxin toxicity such as nausea or confusion, and medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "Could you review whether this cardiac glycoside is still needed, whether its dose suits the patient’s age, weight and kidney function, and what monitoring is appropriate?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

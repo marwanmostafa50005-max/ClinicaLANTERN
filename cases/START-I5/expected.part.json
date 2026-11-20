@@ -1,0 +1,46 @@
+[
+  {
+    "file": "START-I5/pos-fact.csv",
+    "kind": "positive",
+    "about": "The record documents persistent, distressing erectile dysfunction and explains why the tolerated sildenafil trial ended, with no PDE5 inhibitor supply in the final six months.",
+    "findings": [
+      {
+        "criterion": "START-I5",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L051"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-I5/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: alprostadil supplies point to erectile dysfunction, but the record holds no line about \"Erectile dysfunction that is persistent and causes distress\" and continued Adempas use is unclear.",
+    "findings": [
+      {
+        "criterion": "START-I5",
+        "must_cite": [
+          [
+            "L004",
+            "L014",
+            "L018"
+          ],
+          [
+            "L026"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-I5/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The record documents persistent, distressing erectile dysfunction, and repeated tadalafil supplies fall within the final six months, so there is no omission.",
+    "findings": []
+  }
+]

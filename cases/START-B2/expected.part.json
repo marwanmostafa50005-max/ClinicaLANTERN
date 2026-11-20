@@ -1,0 +1,49 @@
+[
+  {
+    "file": "START-B2/pos-fact.csv",
+    "kind": "positive",
+    "about": "The record documents peripheral artery disease at L001. The care review at L046 rules out both published exceptions. No statin was supplied.",
+    "findings": [
+      {
+        "criterion": "START-B2",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L046"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-B2/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding with regular clopidogrel and no recent statin. The record lacks Atherosclerotic cardiovascular disease, Established moderate or severe physical frailty and End-of-life status.",
+    "findings": [
+      {
+        "criterion": "START-B2",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L008",
+            "L011",
+            "L015",
+            "L018",
+            "L021",
+            "L025",
+            "L028"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-B2/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Peripheral artery disease is documented and the only statin supply is outside the last six months, but the lipid clinic records intolerance to all suitable statins.",
+    "findings": []
+  }
+]

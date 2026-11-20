@@ -1,0 +1,56 @@
+[
+  {
+    "file": "STOPP-B8/pos-fact.csv",
+    "kind": "positive",
+    "about": "Bumetanide is supplied for dependent ankle oedema after an assessment found no evidence of heart failure, liver failure, nephrotic syndrome or renal failure.",
+    "findings": [
+      {
+        "criterion": "STOPP-B8",
+        "must_cite": [
+          [
+            "L015",
+            "L019",
+            "L023",
+            "L027",
+            "L031",
+            "L035",
+            "L039"
+          ],
+          [
+            "L013"
+          ],
+          [
+            "L014"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-B8/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: bumetanide is supplied every month from February to August 2026, with no row about ankle oedema or any clinical, biochemical or radiological evidence of heart, liver, nephrotic or renal failure.",
+    "findings": [
+      {
+        "criterion": "STOPP-B8",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L009",
+            "L013",
+            "L017",
+            "L021",
+            "L025"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-B8/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Furosemide is supplied for ankle oedema attributed to heart failure with fluid overload at L002.",
+    "findings": []
+  }
+]

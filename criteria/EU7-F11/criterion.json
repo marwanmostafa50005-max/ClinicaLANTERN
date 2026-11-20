@@ -1,0 +1,69 @@
+{
+  "id": "EU7-F11",
+  "label": "EU(7)-PIM: diphenoxylate with atropine, loperamide",
+  "family": "EU7",
+  "title": "Diphenoxylate with atropine, or loperamide for more than two days, in an older person",
+  "statement": "Diphenoxylate-Atropine | In lists: 1 (A); 2, 5, 6 (B) | Main reason: No proven efficacy; muscarinic blocking agent | Dose adjustment/special considerations: (blank: per ESM note, no suggestion by experts or in Micromedex) | Alternatives: Non-pharmacological measures, e.g. diet. E Phloroglucinol L || Loperamide (>2 days) | In lists: does not appear as PIM | Main reason: Risk of somnolence, constipation, nausea, abdominal pain and bloating. Rare adverse events include dizziness. May precipitate toxic megacolon in inflammatory bowel disease, may delay recovery in unrecognized gastroenteritis | Dose adjustment/special considerations: Start with a dose of 4 mg followed by 2 mg in each deposition until normalisation of bowel; do not exceed 16 mg/d; use no longer than 2 days; may be useful in palliative care for persisting non-infectious diarrhoea. E | Alternatives: Non-pharmacological measures, e.g. diet; phloroglucinol. E",
+  "statement_origin": "published",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Layout changed by the entrant: two rows of the source table were joined into one text, with the column names written in and a note in brackets where a cell is blank. The authors have not reviewed this layout."
+  },
+  "plain_summary": "Diphenoxylate with atropine can reduce diarrhoea. Its anticholinergic effects warrant review in older people. Loperamide used for more than two days can cause drowsiness, constipation, nausea and bloating and may slow recovery from an unrecognised bowel infection in an older person. The EU(7)-PIM panel included loperamide courses longer than two days. The words “does not appear as PIM” refer to the six earlier lists the authors compared. In the historical dosing text, “in each deposition” means after each loose bowel motion.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Diphenoxylate with atropine",
+      "ingredients": [
+        "diphenoxylate"
+      ],
+      "brands": {
+        "diphenoxylate": [
+          "Lomotil",
+          "Lofenoxal"
+        ]
+      },
+      "note": "Lomotil and Lofenoxal are diphenoxylate with a small amount of atropine. A history may show the medicine as diphenoxylate with atropine."
+    },
+    {
+      "key": "B",
+      "name": "Loperamide",
+      "ingredients": [
+        "loperamide"
+      ],
+      "brands": {
+        "loperamide": [
+          "Imodium",
+          "Imodium Advanced",
+          "Gastro-Stop",
+          "Gastro-Stop Plus",
+          "Gastrex",
+          "Diareze",
+          "Harmonise",
+          "Lopedium",
+          "Lorrex",
+          "Stop-It",
+          "Diar-Relief",
+          "Gastro-Lieve",
+          "Imodium Caplet",
+          "Imodium Melt",
+          "Imodium Zapid",
+          "Negastro"
+        ]
+      },
+      "note": "Capsules, tablets and melts count. Imodium Advanced and Gastro-Stop Plus are loperamide with simethicone. Pharmacy own-brand packs that show loperamide count too."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when a patient aged 65 years or over is supplied a Group A medicine (diphenoxylate with atropine) once or more, or a Group B medicine (loperamide) for more than 2 days. If age is missing and the other requirements are met, report only a possible finding and ask for the patient's age. If the patient is under 65, do not flag. For loperamide, require one course longer than two days, shown by an explicit duration or by the quantity and a scheduled daily dose. Respect any earlier stop instruction. Separate episodes, an as-needed pack or a maximum daily dose alone cannot establish duration. If directions such as “as needed” or “as directed” leave the course duration unknown and it could exceed two days, report only a possible finding and ask how many days it was taken. For a course longer than two days, report the finding for review. If palliative care for persisting non-infectious diarrhoea is documented, include that reason and the possible benefit in the finding. Report no finding for loperamide when the course is known to last two days or less, whatever the pack size.",
+  "cannot_be_seen": "Use any dated entry about the cause of diarrhoea, bowel infection, inflammatory bowel disease or palliative care. Supplies alone do not establish these facts, how many doses were taken or for how many days. Loperamide bought without a prescription may be missing.",
+  "ask_the_gp": "A review of the cause of the diarrhoea and of whether this medicine is still needed.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

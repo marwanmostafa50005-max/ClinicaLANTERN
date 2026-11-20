@@ -1,0 +1,48 @@
+[
+  {
+    "file": "CKD-M01A/pos-fact.csv",
+    "kind": "positive",
+    "about": "At audit on 28 October 2026, the 54-year-old had an October oral ibuprofen supply, stage 3b documented in February with a supporting eGFR of 38, and a latest eGFR of 42 mL/min/1.73 m².",
+    "findings": [
+      {
+        "criterion": "CKD-M01A",
+        "must_cite": [
+          [
+            "L002",
+            "L020"
+          ],
+          [
+            "L020"
+          ],
+          [
+            "L046"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CKD-M01A/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about \"Stage 3b, 4 or 5 CKD documented at least three calendar months before the latest date in the record\" despite a February eGFR of 38, recent oral ibuprofen and a latest eGFR of 55 mL/min/1.73 m² at the 28 October 2026 audit.",
+    "findings": [
+      {
+        "criterion": "CKD-M01A",
+        "must_cite": [
+          [
+            "L002"
+          ],
+          [
+            "L033"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CKD-M01A/near-miss.csv",
+    "kind": "near_miss",
+    "about": "At the 28 October 2026 audit, oral ibuprofen was supplied within three months, but the historical stage was 3a with eGFR 53 and the latest eGFR is 55 mL/min/1.73 m².",
+    "findings": []
+  }
+]

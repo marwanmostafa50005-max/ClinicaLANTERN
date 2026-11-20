@@ -1,0 +1,22 @@
+2026-01-08 | Coversyl 5 mg tablet | qty 30 | repeats 5 | Take ONE tablet in the morning
+2026-01-08 | Lipitor (atorvastatin) 20 mg tablet | qty 30 | repeats 3 | Take ONE tablet at night
+2026-01-08 | Eutroxsig (levothyroxine) 100 microgram tablet | qty 200 | repeats 1 | Take ONE tablet in the morning on an empty stomach, 30 minute
+2026-02-06 | Coversyl 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning
+2026-02-06 | Lipitor (atorvastatin) 20 mg tablet | qty 30 | repeats 2 | Take ONE tablet at night
+2026-02-06 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day
+2026-03-09 | Coversyl 5 mg tablet | qty 30 | repeats 3 | Take ONE tablet in the morning
+2026-03-09 | Lipitor (atorvastatin) 20 mg tablet | qty 30 | repeats 1 | Take ONE tablet at night
+2026-03-20 | Keflex (cefalexin) 500 mg capsule | qty 20 | repeats 0 | Take ONE capsule four times a day until finished
+2026-04-08 | Coversyl 5 mg tablet | qty 30 | repeats 2 | Take ONE tablet in the morning
+2026-04-08 | Lipitor (atorvastatin) 20 mg tablet | qty 30 | repeats 0 | Take ONE tablet at night
+2026-05-07 | Coversyl 5 mg tablet | qty 30 | repeats 1 | Take ONE tablet in the morning
+2026-05-07 | Lipitor (atorvastatin) 20 mg tablet | qty 30 | repeats 5 | Take ONE tablet at night
+2026-05-07 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 1 | Take TWO tablets three times a day
+2026-06-05 | Coversyl 5 mg tablet | qty 30 | repeats 0 | Take ONE tablet in the morning
+2026-06-05 | Lipitor (atorvastatin) 20 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night
+2026-06-16 | Tritace 5 mg tablet | qty 30 | repeats 5 | Take ONE tablet daily
+2026-07-06 | Coversyl 5 mg tablet | qty 30 | repeats 5 | Take ONE tablet in the morning
+2026-07-06 | Lipitor (atorvastatin) 20 mg tablet | qty 30 | repeats 3 | Take ONE tablet at night
+2026-07-06 | Eutroxsig (levothyroxine) 100 microgram tablet | qty 200 | repeats 0 | Take ONE tablet in the morning on an empty stomach, 30 minute
+2026-07-15 | Tritace 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet daily
+2026-08-04 | Coversyl 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning

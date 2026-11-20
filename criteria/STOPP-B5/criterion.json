@@ -1,0 +1,410 @@
+{
+  "id": "STOPP-B5",
+  "label": "STOPP B5",
+  "family": "STOPP_START",
+  "title": "Beta-blocker alone for plain high blood pressure",
+  "statement": "Beta-blocker as monotherapy for uncomplicated hypertension i.e., not associated with angina pectoris, aortic aneurysm or other condition where beta-blocker therapy is indicated (no firm evidence of efficacy).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A beta-blocker is not a good first choice when it is the only medicine for high blood pressure and the person has no other reason for it, such as angina. Other blood pressure medicines work better.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Beta-blockers",
+      "ingredients": [
+        "atenolol",
+        "bisoprolol",
+        "carvedilol",
+        "labetalol",
+        "metoprolol",
+        "nebivolol",
+        "propranolol",
+        "pindolol",
+        "oxprenolol"
+      ],
+      "brands": {
+        "atenolol": [
+          "Tenormin",
+          "Anselol",
+          "Atehexal",
+          "Aten",
+          "Colaptyn",
+          "Noten",
+          "Tenolten",
+          "Tensig"
+        ],
+        "bisoprolol": [
+          "Bicor",
+          "Beprol",
+          "Bicard",
+          "Biso",
+          "Bispro"
+        ],
+        "carvedilol": [
+          "Dilatrend",
+          "Carvidol",
+          "Dicarz",
+          "Dilasig",
+          "Kredex",
+          "Vedilol",
+          "Volirop"
+        ],
+        "labetalol": [
+          "Trandate",
+          "Presolol"
+        ],
+        "metoprolol": [
+          "Betaloc",
+          "Toprol-XL",
+          "Lopresor",
+          "Metatar",
+          "Metohexal",
+          "Metolol",
+          "Metrol",
+          "Metrol-XL",
+          "Minax",
+          "Minax XL",
+          "Mistrom",
+          "Tobeta-XL",
+          "Topreloc-XL"
+        ],
+        "nebivolol": [
+          "Nebilet",
+          "Lobivon",
+          "Lobivon Composite Starter Titration Pack",
+          "Nebaloc",
+          "Nebilet Composite Starter Titration Pack",
+          "Nepiten"
+        ],
+        "propranolol": [
+          "Deralin",
+          "Inderal",
+          "Drofate",
+          "Hemangiol"
+        ],
+        "pindolol": [
+          "Visken",
+          "Barbloc",
+          "APO-PINDOL"
+        ],
+        "oxprenolol": [
+          "Corbeton"
+        ]
+      },
+      "note": "Tablets and capsules count. Sotalol is left out because it is a heart rhythm medicine. Eye drops do not count. Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "B",
+      "name": "Other antihypertensives used during the period under review",
+      "ingredients": [
+        "perindopril",
+        "ramipril",
+        "enalapril",
+        "lisinopril",
+        "candesartan",
+        "irbesartan",
+        "telmisartan",
+        "olmesartan",
+        "amlodipine",
+        "felodipine",
+        "lercanidipine",
+        "hydrochlorothiazide",
+        "indapamide",
+        "chlortalidone",
+        "spironolactone",
+        "moxonidine",
+        "doxazosin",
+        "prazosin",
+        "valsartan",
+        "nifedipine",
+        "diltiazem",
+        "verapamil",
+        "fosinopril",
+        "quinapril",
+        "trandolapril",
+        "losartan",
+        "clonidine",
+        "methyldopa",
+        "hydralazine",
+        "captopril",
+        "eprosartan",
+        "minoxidil"
+      ],
+      "brands": {
+        "perindopril": [
+          "Coversyl",
+          "Idaprex",
+          "Idaprex Arg",
+          "Indopril",
+          "Indosyl Mono",
+          "Ozapace",
+          "Perindo",
+          "Perindo Arg",
+          "Perindoarg",
+          "Perindobell",
+          "Perisyl",
+          "Prexum",
+          "Coversyl Plus",
+          "Coversyl Plus LD",
+          "Coveram",
+          "Triplixam SR"
+        ],
+        "ramipril": [
+          "Tritace",
+          "Prilace",
+          "Ramace",
+          "Ramibell",
+          "Tryzan",
+          "Vascalace"
+        ],
+        "enalapril": [
+          "Renitec",
+          "Acetec",
+          "Alphapril",
+          "Amprace",
+          "Auspril",
+          "Elapril",
+          "Enahexal",
+          "Enalabell",
+          "Malean",
+          "Renitec M"
+        ],
+        "lisinopril": [
+          "Zestril",
+          "Fibsol",
+          "Linopril",
+          "Liprace",
+          "Lisinobell",
+          "Lisinotrust",
+          "Lisodrate",
+          "Lisodur",
+          "Lisoril",
+          "Ozten",
+          "Prinivil",
+          "Sinop",
+          "Zinopril"
+        ],
+        "candesartan": [
+          "Atacand",
+          "Adesan",
+          "Asartan",
+          "Candelem",
+          "Candesan",
+          "Atacand Plus"
+        ],
+        "irbesartan": [
+          "Avapro",
+          "Abisart",
+          "Ambotens",
+          "Avsartan",
+          "Irbesat",
+          "Irbestin",
+          "Irbetan",
+          "Irprestan",
+          "Karbesat",
+          "Karvea",
+          "Karvezide",
+          "Avapro HCT"
+        ],
+        "telmisartan": [
+          "Micardis",
+          "Mizart",
+          "Pritor",
+          "Telmigen",
+          "Teltartan",
+          "Micardis Plus",
+          "Twynsta"
+        ],
+        "olmesartan": [
+          "Olmetec",
+          "Olmertan",
+          "Olmes",
+          "Olmesart",
+          "Olsetan",
+          "Olmetec Plus",
+          "Sevikar",
+          "Sevikar HCT"
+        ],
+        "amlodipine": [
+          "Norvasc",
+          "Amline",
+          "Amlo",
+          "Amlocor",
+          "Amlotrust",
+          "Amvas",
+          "Besidep",
+          "Nordip",
+          "Norvapine",
+          "Ozlodip",
+          "Perivasc",
+          "Coveram",
+          "Triplixam SR",
+          "Twynsta",
+          "Sevikar",
+          "Sevikar HCT",
+          "Exforge",
+          "Exforge HCT"
+        ],
+        "felodipine": [
+          "Plendil"
+        ],
+        "lercanidipine": [
+          "Zanidip",
+          "Ledip",
+          "Lepine",
+          "Lercadip",
+          "Lercan",
+          "Zircol"
+        ],
+        "hydrochlorothiazide": [
+          "Dithiazide",
+          "Karvezide",
+          "Avapro HCT",
+          "Micardis Plus",
+          "Atacand Plus",
+          "Olmetec Plus",
+          "Sevikar HCT",
+          "Co-Diovan",
+          "Exforge HCT",
+          "Moduretic",
+          "Teveten Plus"
+        ],
+        "indapamide": [
+          "Natrilix SR",
+          "Dapa-Tabs",
+          "Indahexal",
+          "Indapamol",
+          "Insig",
+          "Napamide",
+          "Natrilix",
+          "Odaplix SR",
+          "Tenaxil SR",
+          "Coversyl Plus",
+          "Coversyl Plus LD",
+          "Triplixam SR"
+        ],
+        "chlortalidone": [
+          "Hygroton 25"
+        ],
+        "spironolactone": [
+          "Aldactone",
+          "Spiractin"
+        ],
+        "moxonidine": [
+          "Physiotens",
+          "Moxotens",
+          "Normatens"
+        ],
+        "doxazosin": [
+          "Carduran"
+        ],
+        "prazosin": [
+          "Minipress",
+          "Pratsiol",
+          "Pressin"
+        ],
+        "valsartan": [
+          "Dilart",
+          "Diovan",
+          "Co-Diovan",
+          "Exforge",
+          "Exforge HCT"
+        ],
+        "nifedipine": [
+          "Adalat Oros"
+        ],
+        "diltiazem": [
+          "Cardizem CD"
+        ],
+        "verapamil": [
+          "Isoptin SR"
+        ],
+        "fosinopril": [
+          "Monopril"
+        ],
+        "quinapril": [
+          "Accupril"
+        ],
+        "trandolapril": [
+          "Gopten"
+        ],
+        "losartan": [
+          "Cozaar"
+        ],
+        "clonidine": [
+          "Catapres"
+        ],
+        "methyldopa": [
+          "Aldomet"
+        ],
+        "hydralazine": [
+          "Alphapress"
+        ],
+        "captopril": [],
+        "eprosartan": [
+          "Teveten",
+          "Teveten Plus"
+        ],
+        "minoxidil": [
+          "Loniten"
+        ]
+      },
+      "note": "Includes ACE inhibitors, angiotensin receptor blockers, calcium channel blockers, thiazide and similar diuretics, spironolactone, moxonidine and alpha-blockers. Combination products count under each ingredient they contain. Generic packs that show the ingredient name with a company name count too. Chlorthalidone is an alternative spelling of chlortalidone. Count valsartan in combination products. Count oral treatment for blood pressure. A topical product, including topical diltiazem, does not count. If the use of a medicine with several indications is unclear, ask what it was taken for before ruling out monotherapy. Moduretic contains hydrochlorothiazide with amiloride. Count oral minoxidil only when used to treat high blood pressure."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Uncomplicated hypertension",
+      "meets": "The record identifies uncomplicated hypertension as the reason for the beta-blocker.",
+      "options": [
+        {
+          "words": "The beta-blocker was used to treat uncomplicated high blood pressure",
+          "effect": "meets"
+        },
+        {
+          "words": "The beta-blocker was not used to treat uncomplicated high blood pressure",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "condition",
+      "what": "A reason for the beta-blocker other than high blood pressure",
+      "meets": "A documented valid indication other than hypertension excludes the finding. Examples include angina, a past heart attack, heart failure, atrial fibrillation or another fast rhythm, aortic aneurysm, migraine prevention, tremor and an overactive thyroid. If the reason is unclear, report only a possible finding.",
+      "options": [
+        {
+          "words": "High blood pressure was the only reason for the beta-blocker",
+          "effect": "meets"
+        },
+        {
+          "words": "There was another valid reason for the beta-blocker",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this criterion only to people aged 65 years or older. For a person under 65, report no finding. If age is unknown and the other evidence would support a finding, report it only as possible and identify age as missing. When a Group A beta-blocker is supplied, check Group B supplies for concurrent treatment. Estimate the days covered by each supply from its date, quantity and directed daily dose. Count concurrent treatment when the treatment periods overlap. Use dated start or stop notes when available. If the dose or timing is unclear, ask whether both medicines were being taken for blood pressure at the same time. Report no finding if another antihypertensive was active then or if another valid indication explains the beta-blocker. If the record supports uncomplicated hypertension treated with the beta-blocker alone, cite the supporting lines. If the beta-blocker was not used for uncomplicated hypertension, report no finding. If the beta-blocker was not used for uncomplicated hypertension, report no finding. If hypertension, concurrent treatment or the reason for the beta-blocker is unclear, report only a possible finding and name the missing information.",
+  "cannot_be_seen": "Why the beta-blocker was started. Reasons such as migraine prevention, tremor or past heart attack are often missing from a dispensing history. Also blood pressure medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "A review of why the beta-blocker is taken and whether another blood pressure medicine would suit better.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

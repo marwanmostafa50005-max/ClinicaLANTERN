@@ -1,0 +1,167 @@
+{
+  "id": "CDCOPIOID-3",
+  "label": "CDC: long-acting opioid at the start of pain treatment",
+  "family": "CDCOPIOID",
+  "title": "Starting opioid treatment for pain with a long-acting formulation",
+  "statement": "When starting opioid therapy for acute, subacute, or chronic pain, clinicians should prescribe immediate-release opioids instead of extended-release and long-acting (ER/LA) opioids (recommendation category: A; evidence type: 4).",
+  "statement_origin": "published",
+  "source": {
+    "document": "CDC Clinical Practice Guideline for Prescribing Opioids for Pain",
+    "citation": "Dowell D, Ragan KR, Jones CM, Baldwin GT, Chou R. CDC Clinical Practice Guideline for Prescribing Opioids for Pain — United States, 2022. MMWR Recomm Rep 2022;71(No. RR-3):1–95. DOI: 10.15585/mmwr.rr7103a1.",
+    "doi": "10.15585/mmwr.rr7103a1",
+    "url": "https://www.cdc.gov/mmwr/volumes/71/rr/rr7103a1.htm",
+    "licence": "Public domain",
+    "licence_status": "proposed",
+    "credit": "Dowell D, Ragan KR, Jones CM, Baldwin GT, Chou R. CDC Clinical Practice Guideline for Prescribing Opioids for Pain — United States, 2022. MMWR Recomm Rep 2022;71(No. RR-3):1–95. DOI: 10.15585/mmwr.rr7103a1."
+  },
+  "plain_summary": "Check which formulation was prescribed when an adult outpatient first started opioids for this pain episode. Australian guidance differs: an opioid-naive adult may start Norspan at 5 micrograms/hour for severe opioid-responsive pain requiring continuous long-term treatment when alternatives are unsuitable, with use for chronic non-cancer pain limited to exceptional circumstances (Norspan product information, 2025).",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Modified-release oral opioid analgesics",
+      "ingredients": [
+        "oxycodone",
+        "oxycodone + naloxone",
+        "morphine",
+        "tapentadol",
+        "tramadol",
+        "naloxone + oxycodone",
+        "hydromorphone"
+      ],
+      "brands": {
+        "oxycodone": [
+          "OxyContin",
+          "Oxycodone Sandoz",
+          "Novacodone",
+          "Oxylieve MR",
+          "Endone XR"
+        ],
+        "oxycodone + naloxone": [
+          "Targin"
+        ],
+        "morphine": [
+          "MS Contin",
+          "Kapanol",
+          "MS Contin Suspension",
+          "MS Mono",
+          "Momex SR"
+        ],
+        "tapentadol": [
+          "Palexia SR",
+          "Lodat SR",
+          "Tadol SR",
+          "Tapal SR",
+          "Tapex SR",
+          "Tapexia SR"
+        ],
+        "tramadol": [
+          "Tramadol SR GenericHealth",
+          "Tramal SR",
+          "Zydol SR",
+          "Durotram XR",
+          "Tramedo SR"
+        ],
+        "naloxone + oxycodone": [
+          "Targin"
+        ],
+        "hydromorphone": [
+          "Jurnista"
+        ]
+      },
+      "note": "Count only oral modified-release products, including sustained-release tablets. Check the form or a brand specific to that form. An ingredient name alone cannot distinguish immediate release from modified release."
+    },
+    {
+      "key": "B",
+      "name": "Long-acting opioid patches for pain",
+      "ingredients": [
+        "fentanyl",
+        "buprenorphine"
+      ],
+      "brands": {
+        "fentanyl": [
+          "Durogesic",
+          "Denpax",
+          "Fenpatch"
+        ],
+        "buprenorphine": [
+          "Norspan",
+          "B-Patch",
+          "Bupredermal",
+          "Buprenorphine Sandoz"
+        ]
+      },
+      "note": "Count transdermal analgesic patches only."
+    },
+    {
+      "key": "C",
+      "name": "Methadone for pain",
+      "ingredients": [
+        "methadone"
+      ],
+      "brands": {
+        "methadone": [
+          "Physeptone",
+          "Biodone Forte",
+          "Opod-D Syrup",
+          "Opod-P Liquid",
+          "Physeptone Liquid"
+        ]
+      },
+      "note": "Methadone is long acting. Check the indication. Treatment of opioid use disorder is outside this criterion."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Start of opioid analgesia for the current pain episode",
+      "meets": "The patient first used an opioid for this pain episode at the supply being assessed. Include earlier treatment in hospital or elsewhere when establishing a continuation or switch. Check the indication separately.",
+      "options": [
+        {
+          "words": "First opioid for this pain episode",
+          "effect": "meets"
+        },
+        {
+          "words": "An opioid was already used for this pain episode",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for opioid treatment at this episode",
+      "meets": "The opioid is for acute, subacute or chronic pain within the guideline scope. Cancer-related or sickle cell pain, palliative or end-of-life care, opioid dependence and other non-pain indications are excluded. If the reason is unknown, check it separately from whether this was the first opioid for the episode.",
+      "options": [
+        {
+          "words": "Pain within the guideline scope",
+          "effect": "meets"
+        },
+        {
+          "words": "Cancer-related or sickle cell pain",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Palliative or end-of-life care",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Opioid dependence or another indication",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "For an adult outpatient, confirm when an oral modified-release opioid, a long-acting analgesic patch or methadone was the first opioid for this pain episode. Cite the supply and the episode evidence that establishes both the eligible pain indication and first opioid use. Take treatment before discharge or at another pharmacy into account. A brand with an unverified release form cannot establish modified release. Report no finding for an immediate-release start, continuation, switch, age under 18, cancer-related or sickle cell pain, palliative or end-of-life care, opioid dependence or another non-pain indication. If the formulation qualifies and eligibility, indication or first use remains unknown, cite the supply and name the missing facts as a possible finding.",
+  "cannot_be_seen": "The first supply at this pharmacy can follow treatment in hospital or elsewhere. A gap in supplies cannot establish the start of a course or the person's opioid tolerance. The reason for the formulation may also be missing.",
+  "ask_the_gp": "Could you confirm when opioids were first used for this pain episode and review the reason for the long-acting formulation?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

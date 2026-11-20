@@ -1,0 +1,36 @@
+[
+  {
+    "file": "STOPP-A3/pos-brand.csv",
+    "kind": "positive",
+    "about": "Coversyl (perindopril) is supplied monthly and Tritace (ramipril), a second ACE inhibitor, is added from 16 June 2026 while Coversyl continues, both by brand name only.",
+    "findings": [
+      {
+        "criterion": "STOPP-A3",
+        "must_cite": [
+          ["L012", "L015", "L018", "L022", "L026", "L030"],
+          ["L017", "L021", "L025", "L028", "L032"]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-A3/pos-buried.csv",
+    "kind": "positive",
+    "about": "Mobic (meloxicam) is supplied monthly from January to April 2026 and Naprosyn SR (naproxen), a second NSAID, is supplied in February and March 2026, in the middle of a history of about 14 months.",
+    "findings": [
+      {
+        "criterion": "STOPP-A3",
+        "must_cite": [
+          ["L031", "L037", "L043", "L050"],
+          ["L038", "L044"]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-A3/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Celebrex was supplied on 3 July 2026 and stopped on 12 July before Mobic began on 21 July. Atorvastatin only changes brand.",
+    "findings": []
+  }
+]

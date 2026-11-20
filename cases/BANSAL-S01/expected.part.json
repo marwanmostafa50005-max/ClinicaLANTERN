@@ -1,0 +1,55 @@
+[
+  {
+    "file": "BANSAL-S01/pos-fact.csv",
+    "kind": "positive",
+    "about": "Repeat methadone tablet prescriptions cover one course for longstanding osteoarthritis pain, with alcohol dependence recorded before the course.",
+    "findings": [
+      {
+        "criterion": "BANSAL-S01",
+        "must_cite": [
+          [
+            "L004",
+            "L010",
+            "L016",
+            "L022",
+            "L028",
+            "L034",
+            "L040"
+          ],
+          [
+            "L001"
+          ],
+          [
+            "L007"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BANSAL-S01/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about alcohol dependence or misuse. Palexia SR (tapentadol) is supplied every month for six months.",
+    "findings": [
+      {
+        "criterion": "BANSAL-S01",
+        "must_cite": [
+          [
+            "L003",
+            "L007",
+            "L011",
+            "L015",
+            "L019",
+            "L023"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BANSAL-S01/near-miss.csv",
+    "kind": "near_miss",
+    "about": "MS Contin (morphine) is supplied every month, but the record says light alcohol use with no history of dependence.",
+    "findings": []
+  }
+]

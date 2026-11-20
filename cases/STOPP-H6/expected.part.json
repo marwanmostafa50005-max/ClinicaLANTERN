@@ -1,0 +1,64 @@
+[
+  {
+    "file": "STOPP-H6/pos-fact.csv",
+    "kind": "positive",
+    "about": "Gout is recorded at L001 and allopurinol is assessed as suitable at L002. The five Colgout supplies specify daily use for gout and span more than 90 days without overlapping allopurinol or febuxostat treatment.",
+    "findings": [
+      {
+        "criterion": "STOPP-H6",
+        "must_cite": [
+          [
+            "L011"
+          ],
+          [
+            "L016",
+            "L021"
+          ],
+          [
+            "L026"
+          ],
+          [
+            "L031"
+          ],
+          [
+            "L001"
+          ],
+          [
+            "L002"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-H6/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the Colgout supplies span more than 90 days, but use was as needed, the reason and inhibitor suitability are unknown, and the April allopurinol directions do not establish treatment dates or dose.",
+    "findings": [
+      {
+        "criterion": "STOPP-H6",
+        "must_cite": [
+          [
+            "L004"
+          ],
+          [
+            "L008",
+            "L012"
+          ],
+          [
+            "L016"
+          ],
+          [
+            "L020"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-H6/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Gout is recorded and Colgout is supplied for more than 90 days. L002 records severe allopurinol hypersensitivity and L003 records a contraindication to febuxostat after anaphylaxis. Both inhibitors are contraindicated.",
+    "findings": []
+  }
+]

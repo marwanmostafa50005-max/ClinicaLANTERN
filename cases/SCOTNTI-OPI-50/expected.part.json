@@ -1,0 +1,51 @@
+[
+  {
+    "file": "SCOTNTI-OPI-50/pos-fact.csv",
+    "kind": "positive",
+    "about": "Qualifying 6-month opioid exposure is present and a dated observation records 50 mg or more oral morphine equivalent per day over the previous 6 months.",
+    "findings": [
+      {
+        "criterion": "SCOTNTI-OPI-50",
+        "must_cite": [
+          [
+            "L011",
+            "L016",
+            "L021",
+            "L026",
+            "L031",
+            "L036"
+          ],
+          [
+            "L038"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "SCOTNTI-OPI-50/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about Average daily oral morphine equivalent dose status (50 mg threshold), despite qualifying 6-month opioid exposure.",
+    "findings": [
+      {
+        "criterion": "SCOTNTI-OPI-50",
+        "must_cite": [
+          [
+            "L005",
+            "L009",
+            "L013",
+            "L017",
+            "L021",
+            "L025"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "SCOTNTI-OPI-50/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Qualifying 6-month opioid exposure is present, but the observation records below 50 mg oral morphine equivalent per day over the previous 6 months.",
+    "findings": []
+  }
+]

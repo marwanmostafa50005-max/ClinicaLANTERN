@@ -1,0 +1,48 @@
+[
+  {
+    "file": "EU7-F61/pos-brand.csv",
+    "kind": "positive",
+    "about": "Symmetrel (amantadine) 100 mg is supplied monthly from January to July 2026 beside levodopa, by brand name only.",
+    "findings": [
+      {
+        "criterion": "EU7-F61",
+        "must_cite": [
+          [
+            "L003",
+            "L007",
+            "L010",
+            "L013",
+            "L017",
+            "L020",
+            "L023"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F61/pos-buried.csv",
+    "kind": "positive",
+    "about": "Amantadine 100 mg capsules are supplied five times from December 2025 to April 2026, in the middle of a 16-month history that also holds levodopa.",
+    "findings": [
+      {
+        "criterion": "EU7-F61",
+        "must_cite": [
+          [
+            "L028",
+            "L033",
+            "L038",
+            "L042",
+            "L048"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F61/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Levodopa with carbidopa and rasagiline are supplied. No amantadine appears, so it must not flag.",
+    "findings": []
+  }
+]

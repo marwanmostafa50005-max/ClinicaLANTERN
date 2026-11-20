@@ -1,0 +1,169 @@
+{
+  "id": "POPI-39",
+  "label": "POPI: ear drops during acute otitis media",
+  "family": "POPI",
+  "title": "Ear drops during acute otitis media",
+  "statement": "Ear drops in the case of acute otitis media",
+  "statement_origin": "published",
+  "source": {
+    "document": "International consensus validation of the POPI tool (2020), Table 2",
+    "citation": "Sadozai L, Sable S, Le Roux E, et al. International consensus validation of the POPI tool (Pediatrics: Omission of Prescriptions and Inappropriate prescriptions) to identify inappropriate prescribing in pediatrics. PLOS ONE. 2020;15(10):e0240105.",
+    "doi": "10.1371/journal.pone.0240105",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0240105",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "© 2020 Sadozai et al. Table 2, International consensus validation of the POPI tool. PLOS ONE 15(10), e0240105. https://doi.org/10.1371/journal.pone.0240105. CC BY 4.0.",
+    "modification_notice": "The published item is reproduced unchanged. The Australian medicine examples, screening rule and fictional histories are local additions."
+  },
+  "plain_summary": "POPI flags drops supplied for the affected ear during a child's episode of acute otitis media.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Ear drops",
+      "ingredients": [
+        "ciprofloxacin",
+        "benzocaine",
+        "phenazone",
+        "hydrocortisone",
+        "dexamethasone",
+        "framycetin",
+        "gramicidin",
+        "neomycin",
+        "triamcinolone acetonide",
+        "nystatin",
+        "flumetasone pivalate",
+        "clioquinol"
+      ],
+      "brands": {
+        "ciprofloxacin": [
+          "Ciloxan",
+          "Ciloquin",
+          "Ciproxin HC"
+        ],
+        "benzocaine": [
+          "Auralgan"
+        ],
+        "phenazone": [
+          "Auralgan"
+        ],
+        "hydrocortisone": [
+          "Ciproxin HC"
+        ],
+        "dexamethasone": [
+          "Sofradex",
+          "Otodex"
+        ],
+        "framycetin": [
+          "Sofradex",
+          "Otodex"
+        ],
+        "gramicidin": [
+          "Sofradex",
+          "Otodex",
+          "Kenacomb Otic",
+          "Otocomb Otic"
+        ],
+        "neomycin": [
+          "Kenacomb Otic",
+          "Otocomb Otic"
+        ],
+        "triamcinolone acetonide": [
+          "Kenacomb Otic",
+          "Otocomb Otic"
+        ],
+        "nystatin": [
+          "Kenacomb Otic",
+          "Otocomb Otic"
+        ],
+        "flumetasone pivalate": [
+          "Locacorten-Vioform"
+        ],
+        "clioquinol": [
+          "Locacorten-Vioform"
+        ]
+      },
+      "note": "These are examples. Include any drops supplied to use in the affected ear, including drops for pain. Check the route and side in the directions. Count drops directed into the affected ear. Exclude directions for the eye and exclude ointments. The same ingredient or brand can appear in a different form."
+    }
+  ],
+  "rule_for_models": "Apply this item to a child under 18 on the supply date. If age is unknown and the other evidence fits, report only a possible finding and ask for age at supply. Give no finding for an adult. Assess each supply and treated ear separately. First establish Acute otitis media in that ear during the same episode. A resolved episode, infection confined to the other ear or an explicit alternative diagnosis for the treated ear gives no finding. If the diagnosis is missing or its link to this ear or episode is unclear and no exclusion applies, report only a possible finding. Name the missing fact as Acute otitis media and say which detail needs checking. Use an answer only for the ear and episode it identifies. If more than one could fit, leave the link unresolved. For ciprofloxacin ear drops, cite the drops, the diagnosis and evidence that the drops were prescribed solely for acute otitis media in the treated ear. Discharge through a grommet or another confirmed indication for these drops gives no finding, even if acute otitis media was also treated. If the indication is unclear and no exclusion applies, report only a possible finding and name the missing fact as Ciprofloxacin drops prescribed solely for acute otitis media in the treated ear during this episode. For pain-relieving drops, give no finding when the pain was severe and acute, the drops were used briefly alongside other pain treatment and the eardrum was intact. With same-ear acute otitis media confirmed, any documented failure of the exception establishes the finding. Cite the drops, the diagnosis and the evidence that rules out the exception. If every known detail still fits the exception, but one or more details are missing, report only a possible finding. Name the missing fact as \"At least one feature of this course rules out the pain-relief exception: pain was not severe and acute, use was not brief, the drops were used without other pain treatment, or the eardrum was not intact\" and specify only the unresolved details. The pharmacist judges whether a borderline analgesic course was short term. For other ear drops, cite the drops and the same-ear diagnosis.",
+  "cannot_be_seen": "Drops given elsewhere, the appearance of the eardrum and the reason for the drops may be missing. Australian guidance allows short-term pain-relieving drops for severe ear pain with an intact eardrum.",
+  "ask_the_gp": "Could you confirm the diagnosis in the treated ear, whether the eardrum was intact and the purpose of the drops?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Acute otitis media",
+      "meets": "The infection was active in the ear receiving these drops during this episode. Ask only if the record leaves that link unclear. A resolved infection or infection confined to the other ear gives no finding for this supply. If the treated ear or episode cannot be identified, keep the finding possible.",
+      "options": [
+        {
+          "words": "Active middle ear infection in the ear receiving these drops during this episode",
+          "effect": "meets"
+        },
+        {
+          "words": "No active middle ear infection in the ear receiving these drops during this episode",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Ciprofloxacin drops prescribed solely for acute otitis media in the treated ear during this episode",
+      "meets": "For ciprofloxacin ear drops only. Confirm that these drops treated acute otitis media alone. Grommet discharge or another documented reason for these drops excludes the finding. An unclear indication leaves a possible finding.",
+      "options": [
+        {
+          "words": "Acute middle ear infection only",
+          "effect": "meets"
+        },
+        {
+          "words": "Discharge through a grommet, alone or with another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Another reason, alone or alongside acute middle ear infection",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "At least one feature of this course rules out the pain-relief exception: pain was not severe and acute, use was not brief, the drops were used without other pain treatment, or the eardrum was not intact",
+      "meets": "For pain-relieving ear drops only. Choose a confirmed feature that rules out the exception. Choose No if all parts of the exception are confirmed. Choose Not known if a detail is missing and every known detail still fits the exception.",
+      "options": [
+        {
+          "words": "Yes, the pain was not severe and acute",
+          "effect": "meets"
+        },
+        {
+          "words": "Yes, the drops were used for longer than a brief course",
+          "effect": "meets"
+        },
+        {
+          "words": "Yes, the drops were used without other pain treatment",
+          "effect": "meets"
+        },
+        {
+          "words": "Yes, the eardrum in the treated ear was not intact",
+          "effect": "meets"
+        },
+        {
+          "words": "No, the pain was severe and acute, the course was brief, other pain treatment was used and the eardrum was intact",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

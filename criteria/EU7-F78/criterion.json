@@ -1,0 +1,47 @@
+{
+  "id": "EU7-F78",
+  "label": "EU(7)-PIM: bethanechol",
+  "family": "EU7",
+  "title": "Bethanechol with an enlarged prostate",
+  "statement": "Bethanechol | In lists: does not appear as PIM | Main reason: Anticholinergic bladder relaxants may cause obstruction in persons with benign prostatic hyperplasia | Dose adjustment/special considerations: (blank: per ESM note, no suggestion by experts or in Micromedex) | Alternatives: (none stated)",
+  "statement_origin": "published",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Bethanechol can make it harder to pass urine in a man with an enlarged prostate (benign prostatic hyperplasia).",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Bethanechol (a bladder medicine)",
+      "ingredients": [
+        "bethanechol"
+      ],
+      "brands": {
+        "bethanechol": [
+          "Urocarb"
+        ]
+      },
+      "note": "Tablets count. Older Australian records may name Urocarb 10 mg tablets. The Australian registration was cancelled on 17 June 2026. The published row names only bethanechol, although its reason text speaks of bladder-relaxing medicines in general. The list is for older people, so the rule uses age 65 or over."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when a man aged 65 or over is supplied bethanechol (Group A) and the record holds a condition line for benign prostatic hyperplasia (enlarged prostate): cite the supply lines and that condition line. If the record holds no line at all about benign prostatic hyperplasia, report a possible finding and say that this fact is missing, so the doctor can confirm. If the record holds a line saying the condition is absent, excluded or resolved, there is no finding.",
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Benign prostatic hyperplasia (enlarged prostate)",
+      "meets": "The condition is recorded as present."
+    }
+  ],
+  "cannot_be_seen": "Whether the prostate is really enlarged, symptoms of poor urine flow, why bethanechol was prescribed, and what the person really takes.",
+  "ask_the_gp": "A review of whether bethanechol is suitable, and a check for an enlarged prostate if it is not already known.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

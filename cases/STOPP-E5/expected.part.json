@@ -1,0 +1,56 @@
+[
+  {
+    "file": "STOPP-E5/pos-fact.csv",
+    "kind": "positive",
+    "about": "Colgout 500 microgram (colchicine) is supplied 11 times from December 2025 to September 2026 and shown by brand name only, and the record holds the line \"eGFR 8 mL/min/1.73 m2\" dated 2026-03-03. The finding must cite the supplies and that line.",
+    "findings": [
+      {
+        "criterion": "STOPP-E5",
+        "must_cite": [
+          [
+            "L002",
+            "L006",
+            "L010",
+            "L013",
+            "L019",
+            "L023",
+            "L026",
+            "L030",
+            "L034",
+            "L037",
+            "L041"
+          ],
+          [
+            "L014"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-E5/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about the eGFR (kidney function). Colgout 500 microgram (colchicine) is supplied 6 times from March 2026 to July 2026.",
+    "findings": [
+      {
+        "criterion": "STOPP-E5",
+        "must_cite": [
+          [
+            "L002",
+            "L006",
+            "L010",
+            "L014",
+            "L018",
+            "L022"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-E5/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Colgout 500 microgram (colchicine) is supplied 6 times from March 2026 to July 2026, but the record holds an eGFR of 24 mL/min/1.73 m2 dated 2026-04-06, which is not low enough for the criterion, so there is no finding.",
+    "findings": []
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "id": "EU7-F29",
+  "label": "EU(7)-PIM: guanethidine",
+  "family": "EU7",
+  "title": "Guanethidine in an older person",
+  "statement": "Guanethidine is named in the EU(7)-PIM list as a potentially inappropriate medicine for older people. The reason given is a higher risk of low blood pressure on standing, dry mouth, and urinary incontinence or trouble passing urine. The list also names effects on the brain such as vertigo, light-headedness and sleepiness, and disease of the heart and blood vessels, including the blood vessels of the brain. As alternatives the list suggests other blood pressure medicines, for example ACE inhibitors, or other medicine groups chosen to suit the patient's other conditions. The published entry also gives a dose note, which is not repeated here. This is the entrant's plain-words summary of the list entry, not the published wording.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Adapted by the entrant: the statement is a plain-words summary of one row of the source table (guanethidine). The published wording is not reproduced, because the source marks part of it as taken from Micromedex and the right to reuse that part is not settled. The authors have not reviewed this adaptation."
+  },
+  "plain_summary": "Guanethidine is an old blood pressure medicine that can cause a fall in blood pressure on standing, dizziness, sleepiness, a dry mouth and bladder problems in older people.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Guanethidine",
+      "ingredients": [
+        "guanethidine"
+      ],
+      "brands": {
+        "guanethidine": []
+      },
+      "note": "Guanfacine and guaifenesin are different medicines with similar names and do not count. A special-access, hospital or overseas supply may show guanethidine by brand or ingredient name. Check the active ingredient and route. Count systemic guanethidine and exclude eye drops."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when a Group A medicine (guanethidine) is supplied, at any dose, to a person aged 65 or older. If age is missing and the supply otherwise matches, report only a possible finding and ask for age confirmation. A recorded age below 65 is outside scope. One systemic guanethidine supply is enough. Exclude ophthalmic preparations. If the route cannot be determined and the person could otherwise meet the criterion, report only a possible finding and ask which preparation was supplied. Guanfacine and guaifenesin are different medicines and do not count.",
+  "cannot_be_seen": "Why guanethidine was prescribed and where it was obtained, the patient's blood pressure lying and standing, kidney function, and whether the patient has had dizziness, fainting, falls or bladder problems. Also supplies from a hospital or another pharmacy.",
+  "ask_the_gp": "Whether guanethidine is still the best choice at the patient's age, and whether the patient has had dizziness on standing, fainting, falls or bladder problems.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

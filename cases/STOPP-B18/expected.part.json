@@ -1,0 +1,55 @@
+[
+  {
+    "file": "STOPP-B18/pos-fact.csv",
+    "kind": "positive",
+    "about": "Olanzapine 5 mg at night is supplied monthly for eight months, and cerebrovascular disease (previous stroke) is recorded.",
+    "findings": [
+      {
+        "criterion": "STOPP-B18",
+        "must_cite": [
+          [
+            "L017",
+            "L021",
+            "L025",
+            "L029",
+            "L033",
+            "L037",
+            "L041",
+            "L045"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-B18/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about vascular disease. Quetiapine 100 mg at night is supplied monthly for eight months.",
+    "findings": [
+      {
+        "criterion": "STOPP-B18",
+        "must_cite": [
+          [
+            "L008",
+            "L011",
+            "L014",
+            "L017",
+            "L020",
+            "L023",
+            "L026",
+            "L027"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-B18/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Coronary disease is recorded, but only two of the four monthly depot supplies were administered and the seven-day oral haloperidol course was separate.",
+    "findings": []
+  }
+]

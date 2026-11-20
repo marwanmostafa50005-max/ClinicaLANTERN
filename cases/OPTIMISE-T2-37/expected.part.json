@@ -1,0 +1,71 @@
+[
+  {
+    "file": "OPTIMISE-T2-37/pos-fact.csv",
+    "kind": "positive",
+    "about": "The bipolar disorder entry documents routine prescribing of fish oil solely for that condition and Omacor is supplied two days later.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T2-37",
+        "must_cite": [
+          [
+            "L002"
+          ],
+          [
+            "L003",
+            "L007",
+            "L011",
+            "L015",
+            "L019",
+            "L023",
+            "L027",
+            "L031",
+            "L035",
+            "L039",
+            "L043",
+            "L047"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T2-37/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: fish oil is supplied alongside quetiapine, but the record gives no age during the course, severe mental illness diagnosis, prescribing status or reason for use.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T2-37",
+        "must_cite": [
+          [
+            "L003",
+            "L006",
+            "L009",
+            "L012",
+            "L015",
+            "L018",
+            "L021",
+            "L024",
+            "L027"
+          ],
+          [
+            "L002",
+            "L005",
+            "L008",
+            "L011",
+            "L014",
+            "L017",
+            "L020",
+            "L023",
+            "L026"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T2-37/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Omacor was prescribed solely for severe hypertriglyceridaemia in an adult with bipolar disorder, so there is no finding.",
+    "findings": []
+  }
+]

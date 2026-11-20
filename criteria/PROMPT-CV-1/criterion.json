@@ -1,0 +1,420 @@
+{
+  "id": "PROMPT-CV-1",
+  "label": "PROMPT CV-1: alpha blocker alone",
+  "family": "PROMPT",
+  "title": "Alpha blocker used alone for high blood pressure",
+  "statement": "The use of alpha-adrenoceptor blocking drugs (e.g. doxazosin, prazosin) as monotherapy for hypertension, should be avoided.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Cooper JA, et al. The development of the PROMPT criteria. BMC Health Serv Res 2014;14:484, Table 4",
+    "citation": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Doxazosin, prazosin or a similar alpha blocker used alone to treat high blood pressure can make blood pressure fall too far when the person stands up.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Alpha-adrenoceptor blockers (alpha blockers)",
+      "ingredients": [
+        "doxazosin",
+        "prazosin",
+        "terazosin"
+      ],
+      "brands": {
+        "doxazosin": [
+          "Cardura",
+          "Cardura XL"
+        ],
+        "prazosin": [
+          "Minipress",
+          "Pratsiol",
+          "Pressin"
+        ],
+        "terazosin": [
+          "Hytrin"
+        ]
+      },
+      "note": "Tamsulosin, alfuzosin and silodosin are prostate-selective and are not listed."
+    },
+    {
+      "key": "B",
+      "name": "Other blood pressure medicines (not alpha blockers)",
+      "ingredients": [
+        "perindopril",
+        "ramipril",
+        "lisinopril",
+        "enalapril",
+        "candesartan",
+        "irbesartan",
+        "telmisartan",
+        "olmesartan",
+        "valsartan",
+        "losartan",
+        "amlodipine",
+        "felodipine",
+        "lercanidipine",
+        "diltiazem",
+        "verapamil",
+        "atenolol",
+        "bisoprolol",
+        "carvedilol",
+        "labetalol",
+        "metoprolol",
+        "nadolol",
+        "nebivolol",
+        "propranolol",
+        "hydrochlorothiazide",
+        "indapamide",
+        "spironolactone",
+        "moxonidine",
+        "methyldopa",
+        "nifedipine",
+        "clonidine",
+        "hydralazine",
+        "chlortalidone",
+        "fosinopril",
+        "quinapril",
+        "trandolapril",
+        "captopril",
+        "amiloride",
+        "minoxidil",
+        "eprosartan"
+      ],
+      "brands": {
+        "perindopril": [
+          "Coversyl",
+          "Coversyl Plus",
+          "Idaprex",
+          "Idaprex Arg",
+          "Indopril",
+          "Indosyl Mono",
+          "Ozapace",
+          "Perindo",
+          "Perindo Arg",
+          "Perindoarg",
+          "Perindobell",
+          "Perisyl",
+          "Prexum",
+          "Coveram",
+          "Triplixam SR"
+        ],
+        "ramipril": [
+          "Tritace",
+          "Prilace",
+          "Ramace",
+          "Ramibell",
+          "Tryzan",
+          "Vascalace"
+        ],
+        "lisinopril": [
+          "Zestril",
+          "Fibsol",
+          "Linopril",
+          "Liprace",
+          "Lisinobell",
+          "Lisinotrust",
+          "Lisodrate",
+          "Lisodur",
+          "Lisoril",
+          "Ozten",
+          "Prinivil",
+          "Sinop",
+          "Zinopril"
+        ],
+        "enalapril": [
+          "Renitec",
+          "Acetec",
+          "Alphapril",
+          "Amprace",
+          "Auspril",
+          "Elapril",
+          "Enahexal",
+          "Enalabell",
+          "Malean",
+          "Renitec M",
+          "Zan-Extra"
+        ],
+        "candesartan": [
+          "Atacand",
+          "Adesan",
+          "Asartan",
+          "Candelem",
+          "Candesan",
+          "Atacand Plus"
+        ],
+        "irbesartan": [
+          "Avapro",
+          "Karvea",
+          "Abisart",
+          "Ambotens",
+          "Avsartan",
+          "Irbesat",
+          "Irbestin",
+          "Irbetan",
+          "Irprestan",
+          "Karbesat",
+          "Avapro HCT",
+          "Karvezide"
+        ],
+        "telmisartan": [
+          "Micardis",
+          "Mizart",
+          "Pritor",
+          "Telmigen",
+          "Teltartan",
+          "Micardis Plus",
+          "Twynsta"
+        ],
+        "olmesartan": [
+          "Olmetec",
+          "Olmertan",
+          "Olmes",
+          "Olmesart",
+          "Olsetan",
+          "Olmetec Plus",
+          "Sevikar",
+          "Sevikar HCT"
+        ],
+        "valsartan": [
+          "Diovan",
+          "Dilart",
+          "Co-Diovan",
+          "Exforge",
+          "Exforge HCT"
+        ],
+        "losartan": [
+          "Cozaar",
+          "Cozavan"
+        ],
+        "amlodipine": [
+          "Norvasc",
+          "Amline",
+          "Amlo",
+          "Amlocor",
+          "Amlotrust",
+          "Amvas",
+          "Besidep",
+          "Nordip",
+          "Norvapine",
+          "Ozlodip",
+          "Perivasc",
+          "Coveram",
+          "Triplixam SR",
+          "Twynsta",
+          "Sevikar",
+          "Sevikar HCT",
+          "Exforge",
+          "Exforge HCT",
+          "Caduet"
+        ],
+        "felodipine": [
+          "Plendil"
+        ],
+        "lercanidipine": [
+          "Zanidip",
+          "Ledip",
+          "Lepine",
+          "Lercadip",
+          "Lercan",
+          "Zircol",
+          "Zan-Extra"
+        ],
+        "diltiazem": [
+          "Cardizem",
+          "Cardizem CD",
+          "Coras",
+          "Danzem",
+          "Diltahexal",
+          "Diltahexal CD",
+          "Dilzem",
+          "Dilzem CD",
+          "Ditatem",
+          "Vasocardol",
+          "Vasocardol CD"
+        ],
+        "verapamil": [
+          "Isoptin",
+          "Isoptin SR",
+          "Anpec",
+          "Anpec SR",
+          "Cordilox SR",
+          "Veracaps SR"
+        ],
+        "atenolol": [
+          "Tenormin",
+          "Noten",
+          "Anselol",
+          "Atehexal",
+          "Aten",
+          "Colaptyn",
+          "Tenolten",
+          "Tensig"
+        ],
+        "bisoprolol": [
+          "Bicor",
+          "Beprol",
+          "Bicard",
+          "Biso",
+          "Bispro"
+        ],
+        "carvedilol": [
+          "Dilatrend",
+          "Carvidol",
+          "Dicarz",
+          "Dilasig",
+          "Kredex",
+          "Vedilol",
+          "Volirop"
+        ],
+        "labetalol": [
+          "Trandate",
+          "Presolol"
+        ],
+        "metoprolol": [
+          "Betaloc",
+          "Betaloc CR",
+          "Toprol-XL",
+          "Minax",
+          "Agtolac",
+          "Lopresor",
+          "Metatar",
+          "Metohexal",
+          "Metolol",
+          "Metrol",
+          "Metrol-XL",
+          "Minax XL",
+          "Mistrom",
+          "Tobeta-XL",
+          "Topreloc-XL"
+        ],
+        "nadolol": [],
+        "nebivolol": [
+          "Nebilet",
+          "Lobivon",
+          "Lobivon Composite Starter Titration Pack",
+          "Nebaloc",
+          "Nebilet Composite Starter Titration Pack",
+          "Nepiten"
+        ],
+        "propranolol": [
+          "Inderal",
+          "Deralin",
+          "Drofate"
+        ],
+        "hydrochlorothiazide": [
+          "Dithiazide",
+          "Avapro HCT",
+          "Karvezide",
+          "Atacand Plus",
+          "Micardis Plus",
+          "Olmetec Plus",
+          "Sevikar HCT",
+          "Co-Diovan",
+          "Exforge HCT",
+          "Moduretic"
+        ],
+        "indapamide": [
+          "Natrilix",
+          "Dapa-Tabs",
+          "Indahexal",
+          "Indapamol",
+          "Insig",
+          "Napamide",
+          "Natrilix SR",
+          "Odaplix SR",
+          "Tenaxil SR",
+          "Triplixam SR"
+        ],
+        "spironolactone": [
+          "Aldactone",
+          "Spiractin"
+        ],
+        "moxonidine": [
+          "Physiotens",
+          "Moxotens",
+          "Normatens"
+        ],
+        "methyldopa": [
+          "Aldomet",
+          "Hydopa"
+        ],
+        "nifedipine": [
+          "APO-Nifedipine XR",
+          "Adalat Oros",
+          "Adefin XL"
+        ],
+        "clonidine": [
+          "Catapres",
+          "Clonidine (Apo)",
+          "Clonidine (Lupin)"
+        ],
+        "hydralazine": [
+          "Alphapress"
+        ],
+        "chlortalidone": [
+          "Hygroton"
+        ],
+        "fosinopril": [
+          "Monopril"
+        ],
+        "quinapril": [
+          "Accupril"
+        ],
+        "trandolapril": [
+          "Gopten"
+        ],
+        "captopril": [
+          "Capoten"
+        ],
+        "amiloride": [
+          "Moduretic"
+        ],
+        "minoxidil": [
+          "Loniten"
+        ],
+        "eprosartan": [
+          "Teveten"
+        ]
+      },
+      "note": "Another blood pressure medicine counts when it is used for hypertension during the alpha-blocker course. Chlorthalidone is another spelling of chlortalidone. Exclude Hemangiol oral liquid. Only oral minoxidil used for hypertension counts. Match the oral hypertension tablets by ingredient or brand and confirm their use. Exclude Dixarit and injectable clonidine or hydralazine. A Catapres line with no form or treatment reason cannot clear the finding by itself. Exclude topical diltiazem or nifedipine and injections. A combination counts only when a qualifying component is being used for hypertension. Entresto alone does not establish this."
+    }
+  ],
+  "rule_for_models": "Check a Group A alpha-blocker supply only at ages 45 to 64 inclusive (if age is missing, record eligibility as unknown), and report no finding if the alpha blocker is used only for another reason such as benign prostatic hyperplasia. Suspect a finding and cite the supply and the evidence linking the alpha blocker to hypertension when the alpha blocker treats hypertension, alone or alongside another indication, and no eligible Group B medicine, including a component of a combination, is active for hypertension during that course. When a recorded condition or observation links the medicine to hypertension, cite that line as well. Ignore clearly stopped treatment and report a possible finding that names the missing detail if monotherapy is plausible but the reason for the alpha blocker, or the timing or use of a possible second hypertension treatment, is unclear. A hypertension diagnosis alone does not establish the reason. If the reason is unclear and monotherapy is plausible, name the missing fact \"Reason for the alpha blocker\".",
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Reason for the alpha blocker",
+      "meets": "The record links the alpha blocker under review to treatment of hypertension, either alone or alongside another indication. Hypertension recorded without that link leaves the indication uncertain. Use solely for another condition excludes the finding. If the reason is unknown, keep an otherwise plausible finding possible.",
+      "options": [
+        {
+          "words": "High blood pressure",
+          "effect": "meets"
+        },
+        {
+          "words": "Urinary symptoms from the prostate only",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Both high blood pressure and urinary symptoms from the prostate",
+          "effect": "meets"
+        },
+        {
+          "words": "Another reason only",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "cannot_be_seen": "Why the alpha blocker was prescribed (blood pressure, prostate symptoms or both), blood pressure readings outside this record, whether other blood pressure medicines were tried and stopped, and medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "A review of whether the alpha blocker is the best choice for this patient, and what condition it is meant to treat.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

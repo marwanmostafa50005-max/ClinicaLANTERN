@@ -1,0 +1,49 @@
+[
+  {
+    "file": "STOPP-C2/pos-fact.csv",
+    "kind": "positive",
+    "about": "Eliquis (apixaban) is supplied ten times from September 2025 and the record holds a spontaneous gastrointestinal bleed in March 2026.",
+    "findings": [
+      {
+        "criterion": "STOPP-C2",
+        "must_cite": [
+          [
+            "L025",
+            "L030",
+            "L034",
+            "L038"
+          ],
+          [
+            "L029"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-C2/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: Xarelto (rivaroxaban) is supplied and the record holds no line about \"Repeated blood pressure readings during antiplatelet or anticoagulant exposure\", \"Bleeding disorder during blood-thinner treatment\" or \"Significant spontaneous bleeding during blood-thinner treatment or in the six months before it\".",
+    "findings": [
+      {
+        "criterion": "STOPP-C2",
+        "must_cite": [
+          [
+            "L012",
+            "L015",
+            "L019",
+            "L022",
+            "L025",
+            "L028"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-C2/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The bleeding risks were excluded during clopidogrel treatment, and the later spontaneous bleed occurred after that course ended while aspirin was used only for dental pain.",
+    "findings": []
+  }
+]

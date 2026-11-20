@@ -1,0 +1,175 @@
+{
+  "id": "STOPP-B3",
+  "label": "STOPP B3",
+  "family": "STOPP_START",
+  "title": "Beta-blocker with verapamil or diltiazem",
+  "statement": "Beta-blocker in combination with verapamil or diltiazem (risk of heart block).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A beta-blocker taken together with verapamil or diltiazem can slow the heart too much and may cause heart block.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Beta-blockers",
+      "ingredients": [
+        "atenolol",
+        "bisoprolol",
+        "carvedilol",
+        "labetalol",
+        "metoprolol",
+        "nadolol",
+        "nebivolol",
+        "oxprenolol",
+        "pindolol",
+        "propranolol",
+        "sotalol",
+        "timolol",
+        "betaxolol"
+      ],
+      "brands": {
+        "atenolol": [
+          "Tenormin",
+          "Noten",
+          "Tensig",
+          "Anselol",
+          "Atehexal",
+          "Aten",
+          "Colaptyn",
+          "Tenolten"
+        ],
+        "bisoprolol": [
+          "Bicor",
+          "Bicard",
+          "Bispro",
+          "Beprol",
+          "Biso"
+        ],
+        "carvedilol": [
+          "Dilatrend",
+          "Dilasig",
+          "Dicarz",
+          "Vedilol",
+          "Kredex",
+          "Carvidol",
+          "Volirop"
+        ],
+        "labetalol": [
+          "Trandate",
+          "Presolol"
+        ],
+        "metoprolol": [
+          "Betaloc",
+          "Minax",
+          "Metohexal",
+          "Toprol-XL",
+          "Minax XL",
+          "Metrol-XL",
+          "Lopresor",
+          "Mistrom",
+          "Metrol",
+          "Metatar",
+          "Metolol",
+          "Tobeta-XL",
+          "Topreloc-XL"
+        ],
+        "nadolol": [],
+        "nebivolol": [
+          "Nebilet",
+          "Nepiten",
+          "Lobivon",
+          "Lobivon Composite Starter Titration Pack",
+          "Nebaloc",
+          "Nebilet Composite Starter Titration Pack"
+        ],
+        "oxprenolol": [
+          "Corbeton"
+        ],
+        "pindolol": [
+          "Visken",
+          "Barbloc",
+          "Pindol"
+        ],
+        "propranolol": [
+          "Inderal",
+          "Deralin",
+          "Drofate",
+          "Hemangiol"
+        ],
+        "sotalol": [
+          "Sotacor",
+          "Cardol",
+          "Solavert",
+          "Sotab",
+          "Sotahexal"
+        ],
+        "timolol": [
+          "Timoptol",
+          "Timoptol-XE",
+          "Cosopt",
+          "Nyogel",
+          "Tenopt",
+          "Timoeye",
+          "Xalacom",
+          "DuoTrav",
+          "Ganfort PF 0.3/5",
+          "Combigan",
+          "Azarga",
+          "Ganfort",
+          "Ganfort 0.3/5"
+        ],
+        "betaxolol": [
+          "Betoptic"
+        ]
+      },
+      "note": "Count the listed oral beta-blockers and betaxolol or timolol eye drops, including verified combinations. No brand name is listed for nadolol."
+    },
+    {
+      "key": "B",
+      "name": "Verapamil or diltiazem",
+      "ingredients": [
+        "verapamil",
+        "diltiazem"
+      ],
+      "brands": {
+        "verapamil": [
+          "Isoptin",
+          "Isoptin SR",
+          "Anpec",
+          "Cordilox SR",
+          "Veracaps SR",
+          "Tarka",
+          "Anpec SR"
+        ],
+        "diltiazem": [
+          "Cardizem",
+          "Cardizem CD",
+          "Vasocardol",
+          "Vasocardol CD",
+          "Coras",
+          "Dilzem",
+          "Diltahexal",
+          "Danzem",
+          "Diltahexal CD",
+          "Dilzem CD",
+          "Ditatem"
+        ]
+      },
+      "note": "Taken by mouth. Tarka is trandolapril with verapamil. A diltiazem cream or ointment for the skin is not counted."
+    }
+  ],
+  "rule_for_models": "Apply from age 65. Report no finding under 65. If age is unknown and the medicines otherwise qualify, report only a possible finding and ask for the age. Exclude diltiazem skin preparations. Suspect a finding when at least one Group A medicine (a beta-blocker) AND at least one Group B medicine (verapamil or diltiazem) both appear in the history with supply dates that overlap or fall within 60 days of each other. Other calcium channel blockers, such as amlodipine, felodipine, lercanidipine and nifedipine, do not count.",
+  "cannot_be_seen": "The heart rate and the ECG, why each medicine was prescribed, whether a heart specialist chose the combination on purpose, whether both medicines are still being taken, and medicines supplied by another pharmacy or a hospital.",
+  "ask_the_gp": "Whether the beta-blocker and the verapamil or diltiazem are both meant to be taken together, and the patient's heart rate and ECG.",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,44 @@
+{
+  "id": "PINCER-10",
+  "label": "PINCER 10",
+  "family": "PINCER",
+  "title": "Amiodarone at more than 200 mg a day for more than one month",
+  "statement": "Patients receiving prescriptions of amiodarone for at least one month who are receiving a dose of more than 200 mg per day - More specifically, patients with evidence of being prescribed amiodarone 200 mg tablets for more than one month in the three months prior to data collection, who do not have the term \"once daily\" (or similar) in the dosage instructions field for the drug.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Avery AJ, et al. Protocol for the PINCER trial. Trials 2009;10:28; correction Trials 2010;11:23",
+    "citation": "Avery AJ, Rodgers S, Cantrill JA, et al. Protocol for the PINCER trial. Trials 2009;10:28. doi:10.1186/1745-6215-10-28; correction Trials 2010;11:23",
+    "doi": "10.1186/1745-6215-10-28",
+    "url": "https://doi.org/10.1186/1745-6215-10-28",
+    "licence": "CC BY 2.0",
+    "licence_status": "proposed",
+    "credit": "Avery AJ, Rodgers S, Cantrill JA, et al. Protocol for the PINCER trial. Trials 2009;10:28. doi:10.1186/1745-6215-10-28; correction Trials 2010;11:23",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Amiodarone taken at more than 200 mg a day for longer than one month may be a higher long-term dose than intended, and side effects are more likely at higher doses.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Amiodarone",
+      "ingredients": [
+        "amiodarone"
+      ],
+      "brands": {
+        "amiodarone": [
+          "Cordarone X",
+          "Aratac",
+          "Cardinorm",
+          "Rithmik",
+          "Amdarone"
+        ]
+      },
+      "note": "Tablets taken by mouth."
+    }
+  ],
+  "rule_for_models": "Look for amiodarone prescribed for more than one month within the three calendar months ending on the last record date. Use the dispense date, quantity and directed tablets per day to estimate prescribed cover. Count only time inside the three-month window and compare it with one calendar month. Repeated dated supplies of the same regimen can also establish prescribing over more than one calendar month. Do not assume coverage across a documented break. If the duration is uncertain but could qualify, report at most a possible finding and ask how long the prescribed regimen lasted. Work out the daily dose from the strength and the directions. Suspect a finding when the daily dose is more than 200 mg, for example one 200 mg tablet twice a day or two 200 mg tablets once a day. Cite the supplies that establish the duration and the directions that give the dose. A daily dose of 200 mg or less is not a finding, for example one 200 mg tablet once a day. If the directions are missing or do not give a daily dose, report a possible finding, describe the dose as unknown and ask for the daily dose.",
+  "cannot_be_seen": "Why amiodarone was prescribed, the heart rhythm it is controlling, recent thyroid, liver and lung checks and their results when the record holds no line about them, eye symptoms, and how the patient really takes it.",
+  "ask_the_gp": "Whether more than 200 mg of amiodarone a day is the dose intended for long-term use, and whether a heart specialist is guiding the dose.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

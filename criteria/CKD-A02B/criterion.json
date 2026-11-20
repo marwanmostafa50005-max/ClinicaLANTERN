@@ -1,0 +1,101 @@
+{
+  "id": "CKD-A02B",
+  "label": "CKD review: Review nizatidine when the amount per dose is too high or doses are too close together for the renal regimen for the documented ulcer or reflux indication",
+  "family": "CKD",
+  "title": "Review nizatidine when the dose is too high or doses are too close together for the renal regimen",
+  "statement": "For an adult outpatient with established CKD, review nizatidine when the amount per dose is too high or doses are too close together for the renal regimen for the documented ulcer or reflux indication.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "A systematically collated library of prescribing safety indicators for people with chronic kidney disease, Additional file 2 (Appendix 3)",
+    "citation": "Smith F, Hayward S, Hole B, Kimpton G, Sluman C, Whiting P, Caskey F. BMC Nephrology. 2020;21:493.",
+    "doi": "10.1186/s12882-020-02158-0",
+    "url": "https://link.springer.com/article/10.1186/s12882-020-02158-0",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Smith F, Hayward S, Hole B, Kimpton G, Sluman C, Whiting P, Caskey F. A systematically collated library of prescribing safety indicators for people with chronic kidney disease. BMC Nephrology 2020;21:493. https://doi.org/10.1186/s12882-020-02158-0; Additional file 2 (Appendix 3), https://doi.org/10.6084/m9.figshare.13257677. © The Author(s) 2020, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Changes were made. Smith et al. compiled the CKD indicators. Original screening wording and Australian adaptations. Clinical cross-check: Tacidine PI §4.2 (https://medsinfo.com.au/api/documents/Tacidine_PI?format=pdf). Ausfam Australian PI (https://www.safetyandquality.gov.au/medicine-finder/ausfam). Tagamet cancellation (https://www.tga.gov.au/resources/cancellations-by-sponsors/tagamet-cimetidine-400mg-tablet-blister-pack-cancelled-under-s301c).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "For an adult outpatient with established CKD, review oral nizatidine when the dose is too high or doses are too close together for the recorded kidney function and treatment phase.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Oral nizatidine",
+      "ingredients": [
+        "nizatidine"
+      ],
+      "brands": {
+        "nizatidine": [
+          "Nizatidine-RJIC",
+          "Nizac",
+          "Tacidine",
+          "Nizaction",
+          "Tazac Pulvule",
+          "Tazac"
+        ]
+      },
+      "note": "Compare the amount per dose and the time between oral doses with the regimen for the recorded indication and treatment phase."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Chronic kidney disease",
+      "meets": "Established chronic kidney disease documented by the supply date. Ask whether a clinician has told the person they have chronic kidney disease. If oral nizatidine is supplied without clinical entries and its regimen could exceed a renal limit, report only a possible finding. Ask about kidney disease, the reason for treatment and the dated creatinine clearance.",
+      "ask_when": {
+        "group": "A"
+      },
+      "options": [
+        {
+          "words": "CKD was established by the supply date",
+          "effect": "meets"
+        },
+        {
+          "words": "CKD was absent at the supply date",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "CKD is known now but its timing is unclear",
+          "effect": "unknown"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Nizatidine treatment indication",
+      "meets": "Active ulcer or reflux treatment, or maintenance after healing of a duodenal ulcer. Match the documented phase to the supply directions. Ask what nizatidine treats and whether the ulcer has already healed.",
+      "options": [
+        {
+          "words": "Active ulcer or reflux treatment",
+          "effect": "meets"
+        },
+        {
+          "words": "Maintenance after healing of a duodenal ulcer",
+          "effect": "meets"
+        },
+        {
+          "words": "Another indication",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "result",
+      "what": "Creatinine clearance (unindexed, mL/min)",
+      "meets": "Use stable creatinine clearance in mL/min applicable at supply. Check the result date against the supply date. A typed value without a verified date remains uncertain. A validated Cockcroft-Gault calculation needs contemporaneous age, sex, weight and serum creatinine with units and a recorded weight basis."
+    }
+  ],
+  "rule_for_models": "For an adult outpatient with CKD established by the supply date, compare oral nizatidine strength and directions with stable creatinine clearance in mL/min at supply. At 20 to 50 inclusive, the limits are 150 mg daily for active ulcer or reflux and 150 mg every two days for maintenance after a healed duodenal ulcer. Below 20, they are 150 mg every two days and every three days respectively. Cite the supply, diagnosis, phase and dated clearance if the amount per dose is too high or doses are too close together. Report no finding for an exclusion or a regimen within every applicable limit. Otherwise report only a possible finding and name any missing fact that could change the result, including the date of an undated clearance.",
+  "cannot_be_seen": "Dispensing does not establish the dose taken. Kidney results obtained elsewhere, their units and their timing may be missing.",
+  "ask_the_gp": "Could you review the nizatidine dose and the time between doses against the patient’s creatinine clearance and the reason for treatment, including whether a duodenal ulcer has healed?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

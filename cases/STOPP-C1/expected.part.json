@@ -1,0 +1,36 @@
+[
+  {
+    "file": "STOPP-C1/pos-brand.csv",
+    "kind": "positive",
+    "about": "Solprin (aspirin) 300 mg, one tablet daily, is supplied four times from December 2025 to September 2026, by brand name only.",
+    "findings": [
+      {
+        "criterion": "STOPP-C1",
+        "must_cite": [
+          ["L001", "L011", "L019", "L027"]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-C1/pos-buried.csv",
+    "kind": "positive",
+    "about": "Aspirin (Cartia) 100 mg with the direction to take TWO tablets daily, which is 200 mg a day, is supplied four times from December 2025 to April 2026, in the middle of a 14-month history.",
+    "findings": [
+      {
+        "criterion": "STOPP-C1",
+        "must_cite": [
+          ["L032"],
+          ["L041"],
+          ["L027", "L047"]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-C1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Aspirin (Cartia) is supplied all year at 100 mg, ONE tablet daily, which is not above 100 mg a day; the 300 mg strength belongs to irbesartan and the TWO tablets direction belongs to paracetamol.",
+    "findings": []
+  }
+]

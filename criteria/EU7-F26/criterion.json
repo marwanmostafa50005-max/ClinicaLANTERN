@@ -1,0 +1,37 @@
+{
+  "id": "EU7-F26",
+  "label": "EU(7)-PIM: trimetazidine and ivabradine",
+  "family": "EU7",
+  "title": "Trimetazidine or ivabradine in an older person",
+  "statement": "Trimetazidine and ivabradine are named in the EU(7)-PIM list as potentially inappropriate medicines for older people. For trimetazidine the reason given is that it can cause or worsen parkinsonian symptoms such as tremor, slowed movement and stiffness. The list also asks for caution in moderate kidney failure and in people over 75 years, and says its benefit for tinnitus or dizziness is not proven. For ivabradine the reason given is that common side effects may include first-degree heart block, extra beats from the ventricles of the heart, dizziness and blurred vision. The list advises a lower starting dose of ivabradine in older adults. It names no alternative for either medicine. The published entry also gives dose notes, which are not repeated here. This is the entrant's plain-words summary of the list entry, not the published wording.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Adapted by the entrant: the statement is a plain-words summary of two rows of the source table (trimetazidine and ivabradine). The published wording is not reproduced, because the source marks part of it as taken from Micromedex and the right to reuse that part is not settled. The authors have not reviewed this adaptation."
+  },
+  "plain_summary": "Trimetazidine can cause or worsen tremor, slowed movement and stiffness, and ivabradine can cause changes in heart rhythm, dizziness and blurred vision, so both are medicines to review in an older person.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Trimetazidine and ivabradine",
+      "ingredients": ["trimetazidine", "ivabradine"],
+      "brands": {
+        "trimetazidine": [],
+        "ivabradine": ["Coralan", "Coralide", "Caranor", "Cobadine"]
+      },
+      "note": "Trimetazidine is named in the source but is not sold in Australia, so it has no brand and would show by its ingredient name. Generic ivabradine packs that show the ingredient name with a company name count too. Trimethoprim is an antibiotic with a similar name and does not count. Other angina medicines, such as isosorbide mononitrate, glyceryl trinitrate and nicorandil, are not in this group."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when any Group A medicine (trimetazidine or ivabradine, for example Coralan) is supplied, at any dose, to a person aged 65 or older. If age is missing and the supply otherwise matches, report only a possible finding and ask for age confirmation. A recorded age below 65 is outside scope. One supply is enough. Trimethoprim is a different medicine and does not count.",
+  "cannot_be_seen": "Why the medicine was started and whether a heart specialist chose it, the patient's pulse rate and heart rhythm, kidney function, and whether the patient has tremor, stiffness, slowed movement, dizziness or changes in vision. Also whether the medicine is still being taken, and supplies from a hospital or another pharmacy.",
+  "ask_the_gp": "Whether this medicine is still the best choice at the patient's age, and whether the patient has had a slow or irregular pulse, dizziness or changes in vision with ivabradine, or tremor, stiffness or slowed movement with trimetazidine.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

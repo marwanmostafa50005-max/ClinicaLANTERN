@@ -1,0 +1,161 @@
+{
+  "id": "STOPP-C7",
+  "label": "STOPP C7: antiplatelet instead of anticoagulant in atrial fibrillation",
+  "family": "STOPP_START",
+  "title": "Antiplatelet used in place of an anticoagulant in long-term atrial fibrillation",
+  "statement": "Antiplatelet agents as alternatives to vitamin K antagonists, direct thrombin inhibitors or factor Xa inhibitors for stroke prevention in patients with chronic atrial fibrillation (no evidence of efficacy).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "In long-term atrial fibrillation an antiplatelet medicine alone does not prevent stroke well, and a blood thinner is the proven choice.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antiplatelet medicines",
+      "ingredients": [
+        "aspirin",
+        "clopidogrel",
+        "prasugrel",
+        "ticagrelor",
+        "dipyridamole"
+      ],
+      "brands": {
+        "aspirin": [
+          "Cartia",
+          "Astrix",
+          "Aspro Protect",
+          "Cardasa",
+          "Cardiprin",
+          "Ecotrin",
+          "Princard",
+          "Solprin",
+          "Spren",
+          "CoPlavix",
+          "DuoCover"
+        ],
+        "clopidogrel": [
+          "Plavix",
+          "Iscover",
+          "Clogrel",
+          "Clopaccord",
+          "Clopithromb",
+          "Clovix",
+          "Piax",
+          "Plavicor",
+          "Plidogrel",
+          "Viplex",
+          "CoPlavix",
+          "DuoCover"
+        ],
+        "prasugrel": [
+          "Effient"
+        ],
+        "ticagrelor": [
+          "Brilinta",
+          "Bricalor",
+          "Brilinta ODT",
+          "Novalant",
+          "Ticalor",
+          "Tirela"
+        ],
+        "dipyridamole": [
+          "Persantin",
+          "Asasantin SR",
+          "Persantin SR"
+        ]
+      },
+      "note": "Aspirin counts only as a low dose taken daily as an antiplatelet, for example 100 mg. Calculate the daily amount from strength and directions. The pharmacist decides whether a borderline dose is being used for stroke prevention. Pain relief aspirin such as Aspro Clear or Disprin does not count. Asasantin SR is aspirin with dipyridamole. Generic packs that show the ingredient name with a company name count too. CoPlavix and DuoCover contain clopidogrel with aspirin."
+    },
+    {
+      "key": "B",
+      "name": "Warfarin, dabigatran and the factor Xa inhibitors",
+      "ingredients": [
+        "warfarin",
+        "dabigatran",
+        "apixaban",
+        "rivaroxaban",
+        "edoxaban",
+        "fondaparinux"
+      ],
+      "brands": {
+        "warfarin": [
+          "Coumadin",
+          "Marevan"
+        ],
+        "dabigatran": [
+          "Pradaxa"
+        ],
+        "apixaban": [
+          "Eliquis",
+          "Alexibic",
+          "Apexa",
+          "Apixor",
+          "Axibic",
+          "Elapex"
+        ],
+        "rivaroxaban": [
+          "Xarelto",
+          "Ixarola",
+          "Relaban",
+          "Rivalembic",
+          "Rivarelto",
+          "Rivator",
+          "Rivaxib",
+          "Rivaxotor",
+          "Rivoxa",
+          "Roxabic",
+          "Roxalem",
+          "Roxator",
+          "Toriva",
+          "Troxa",
+          "Xaremed"
+        ],
+        "edoxaban": [],
+        "fondaparinux": [
+          "Arixtra"
+        ]
+      },
+      "note": "Warfarin is the vitamin K antagonist. Dabigatran is the direct thrombin inhibitor. Apixaban, rivaroxaban, edoxaban and fondaparinux are factor Xa inhibitors. No Australian brand is listed for edoxaban. Fondaparinux is an injection. Heparin and enoxaparin are not in this group. Generic packs that show the ingredient name with a company name count too. Examples for AF are warfarin on a documented individual dosing schedule, apixaban 5 mg twice daily, dabigatran 150 mg twice daily and rivaroxaban 20 mg once daily. Count a reduced AF regimen only when its use for that patient is supported, including apixaban 2.5 mg twice daily, dabigatran 110 mg twice daily or rivaroxaban 15 mg once daily. A matching strength alone does not establish the indication. For fixed doses, divide dispensed units by units taken per day and count from the supply date. For variable dosing use the dated schedule. If the regimen or dates are uncertain, report at most a possible finding and ask for them unless another fact rules out C7. Fondaparinux injection alone does not establish AF stroke-prevention cover. A documented qualifying regimen covering the relevant period gives no C7 finding. A completed prophylaxis course or rivaroxaban 2.5 mg twice daily for vascular prevention does not provide that cover."
+    }
+  ],
+  "rule_for_models": "Check a Group A antiplatelet supplied in the last six months for anyone aged 65 or older, and ask for the age if it is unknown. Suspect C7 when the record shows the antiplatelet is used instead of anticoagulation to prevent stroke in chronic AF and Group B supplies do not cover that use under the dosing and date checks in the Group B note. Cite the supply and available AF and indication lines, and report only a possible finding that asks about each missing fact, dose or date unless a documented fact rules out C7.",
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Chronic atrial fibrillation",
+      "meets": "The record documents persistent, long-standing persistent or permanent atrial fibrillation. Sinus rhythm on a single ECG leaves AF history unknown unless a separate history establishes it."
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for antiplatelet treatment during the period assessed",
+      "meets": "The antiplatelet is being used instead of anticoagulation to prevent stroke in chronic atrial fibrillation. If the reason is unclear, report at most a possible finding and ask what it treats. A documented separate indication alone does not establish substitution.",
+      "options": [
+        {
+          "words": "Used instead of an anticoagulant to prevent stroke in chronic AF",
+          "effect": "meets"
+        },
+        {
+          "words": "Used only for another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "cannot_be_seen": "Why the antiplatelet was chosen, whether an anticoagulant was tried and stopped, bleeding history, and a decision by the person to decline an anticoagulant. Also supplies from a hospital or another pharmacy.",
+  "ask_the_gp": "Whether an anticoagulant has been considered for stroke prevention, and the reasons if it has not been used.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

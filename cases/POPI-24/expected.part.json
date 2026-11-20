@@ -1,0 +1,41 @@
+[
+  {
+    "file": "POPI-24/pos-fact.csv",
+    "kind": "positive",
+    "about": "The probiotic powder for diarrhoea and the documented central venous catheter meet the POPI criterion.",
+    "findings": [
+      {
+        "criterion": "POPI-24",
+        "must_cite": [
+          [
+            "L038"
+          ],
+          [
+            "L040"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "POPI-24/pos-nofact.csv",
+    "kind": "positive",
+    "about": "The capsule has to be opened for diarrhoea treatment, giving a possible finding: the record holds no line about catheter or immune status.",
+    "findings": [
+      {
+        "criterion": "POPI-24",
+        "must_cite": [
+          [
+            "L028"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "POPI-24/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The capsule has to be opened, and the record documents both the absence of a central catheter and the absence of immunodeficiency.",
+    "findings": []
+  }
+]

@@ -1,0 +1,105 @@
+{
+  "id": "POPI-64",
+  "label": "POPI: desmopressin nasal spray for bedwetting",
+  "family": "POPI",
+  "title": "Desmopressin nasal spray for bedwetting",
+  "statement": "Desmopressin administered by a nasal spray.",
+  "statement_origin": "published",
+  "source": {
+    "document": "International consensus validation of the POPI tool (Pediatrics: Omission of Prescriptions and Inappropriate prescriptions) to identify inappropriate prescribing in pediatrics",
+    "citation": "Sadozai L, Sable S, Le Roux E, et al. International consensus validation of the POPI tool (Pediatrics: Omission of Prescriptions and Inappropriate prescriptions) to identify inappropriate prescribing in pediatrics. PLOS ONE. 2020;15(10):e0240105.",
+    "doi": "10.1371/journal.pone.0240105",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0240105",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "© 2020 Sadozai et al. Table 2, International consensus validation of the POPI tool. PLOS ONE 15(10), e0240105. https://doi.org/10.1371/journal.pone.0240105. CC BY 4.0.",
+    "modification_notice": "Table 2 wording is reproduced unchanged. The record rules, medicine mappings and fictional examples are local adaptations."
+  },
+  "plain_summary": "POPI flags the nasal spray when a child receives it for bedwetting.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Desmopressin nasal spray",
+      "ingredients": [
+        "desmopressin"
+      ],
+      "brands": {
+        "desmopressin": [
+          "Minirin",
+          "Adin",
+          "Desmomed"
+        ]
+      },
+      "note": "Check the form. Only a nasal spray counts."
+    }
+  ],
+  "rule_for_models": "At age 18 or older, give no finding. For a patient under 18, flag Group A desmopressin nasal spray when the directions, a linked record or the pharmacist confirms that this supply was used for bedwetting. Cite the supply and any separate lines that establish its form or indication. A confirmed bedwetting indication establishes nocturnal enuresis for that period. Do not ask separately for the diagnosis. A bedwetting diagnosis alone or bedtime dosing alone does not establish the reason for the supply. If bedwetting was absent during treatment, the supply was used only for another reason, or the form was anything other than nasal spray, give no finding for that supply. Otherwise, if a Group A supply could be a nasal spray but its form is unclear, report a possible finding and name Form of the desmopressin supply. If its indication is unclear and could change the finding, name Reason for the desmopressin supply in the possible finding. Cite the supply and ask only for what is missing for that supply. An unknown answer or one that cannot be linked to this supply leaves that fact unresolved. If age is unknown and the supply could qualify, report only a possible finding and ask for age as well as any missing form or indication.",
+  "cannot_be_seen": "The brand alone does not identify the route, and a bedtime dose alone does not identify the indication.",
+  "ask_the_gp": "Could you confirm the indication and review the nasal route given the risk of low blood sodium?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Nocturnal enuresis",
+      "meets": "Bedwetting was present during the treatment period under review. The diagnosis alone cannot establish why a particular medicine was supplied. Use the directions, a linked indication or the pharmacist's confirmation to identify the medicine used for bedwetting. If the link is unclear, leave the finding possible unless another fact rules it out.",
+      "options": [
+        {
+          "words": "Bedwetting was present during the treatment period under review",
+          "effect": "meets"
+        },
+        {
+          "words": "Bedwetting was absent during the treatment period under review",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for the desmopressin supply",
+      "meets": "Used for bedwetting confirms the indication and establishes bedwetting for this treatment period. Used only for another reason excludes this supply. Not known or an answer that cannot be linked to this supply leaves the indication unclear.",
+      "options": [
+        {
+          "words": "Used for bedwetting",
+          "effect": "meets"
+        },
+        {
+          "words": "Used only for another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Form of the desmopressin supply",
+      "meets": "Only nasal spray meets this criterion. An oral preparation, nasal drops or any other non-spray form, including injection, excludes this supply. Not known leaves the form unclear.",
+      "options": [
+        {
+          "words": "Nasal spray",
+          "effect": "meets"
+        },
+        {
+          "words": "Another non-injected form including nasal drops",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Injection",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

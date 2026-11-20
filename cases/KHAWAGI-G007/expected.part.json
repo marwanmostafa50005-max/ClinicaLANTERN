@@ -1,0 +1,55 @@
+[
+  {
+    "file": "KHAWAGI-G007/pos-fact.csv",
+    "kind": "positive",
+    "about": "At age four the child received methylphenidate for ADHD with a monitoring plan, but the specialist assessment was still pending.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G007",
+        "must_cite": [
+          [
+            "L025",
+            "L028"
+          ],
+          [
+            "L026"
+          ],
+          [
+            "L027"
+          ],
+          [
+            "L028"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G007/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about an ADHD monitoring plan for the four-year-old with documented ADHD, specialist assessment and methylphenidate supply.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G007",
+        "must_cite": [
+          [
+            "L017",
+            "L019"
+          ],
+          [
+            "L018"
+          ],
+          [
+            "L019"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G007/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The four-year-old has ADHD and is waiting for specialist assessment, but the sleep clinic prescribed this methylphenidate for narcolepsy.",
+    "findings": []
+  }
+]

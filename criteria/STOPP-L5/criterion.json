@@ -1,0 +1,107 @@
+{
+  "id": "STOPP-L5",
+  "label": "STOPP L5: gabapentinoid for non-neuropathic pain",
+  "family": "STOPP_START",
+  "title": "Gabapentinoid for pain that is not nerve pain",
+  "statement": "Gabapentinoids (e.g., gabapentin, pregabalin) for non-neuropathic pain (lack of evidence of efficacy).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Gabapentin and pregabalin have not been shown to help pain that does not come from the nerves.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Gabapentinoids",
+      "ingredients": [
+        "gabapentin",
+        "pregabalin"
+      ],
+      "brands": {
+        "gabapentin": [
+          "Neurontin",
+          "Nupentin",
+          "Gabaccord",
+          "Gabacor",
+          "Gabahexal",
+          "Gabalep",
+          "Gabalex",
+          "Gabapen",
+          "Gabaran",
+          "Gabatine",
+          "Gantin",
+          "Gapentin",
+          "Mipentine",
+          "Nupentin Tab",
+          "Pendine"
+        ],
+        "pregabalin": [
+          "Lyrica",
+          "Adimis",
+          "Adirag",
+          "Adiris",
+          "Adrabalin",
+          "Adranuro",
+          "Adraprega",
+          "Algerika",
+          "Brillior",
+          "Cipgablin",
+          "Gabrica",
+          "Lypralin",
+          "Lyraccord",
+          "Lyrica CR",
+          "Lyrigalin",
+          "Lyrilin",
+          "Lyzalon",
+          "Neurica",
+          "Neuroccord",
+          "Prebalin",
+          "Pregabica",
+          "Pregaciplin",
+          "Pregaredi",
+          "Prelinaccord",
+          "Sudorega"
+        ]
+      },
+      "note": "Capsules, tablets and liquids count. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Type of pain the gabapentinoid is used for",
+      "meets": "The record links this gabapentinoid to treatment of non-neuropathic pain.",
+      "options": [
+        {
+          "words": "Used for pain that is not nerve pain",
+          "effect": "meets"
+        },
+        {
+          "words": "Nerve pain is the only pain treated",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Used only for a reason other than pain",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this criterion only to people aged 65 years or older. If age is unknown and the other conditions are met, report only a possible finding and ask for the age. Flag gabapentin or pregabalin when the record links that medicine to treatment of non-neuropathic pain. Cite the supply and the line giving the indication. If the indication or pain mechanism is unknown, report only a possible finding and identify what is missing. Use solely for epilepsy, neuropathic pain or another indication gives no L5 finding. A separate diagnosis does not change the recorded indication.",
+  "cannot_be_seen": "The reason the gabapentinoid was prescribed, because both medicines are also used for epilepsy and anxiety, and whether the person has both nerve pain and other pain.",
+  "ask_the_gp": "A review of what the gabapentinoid is being used for and whether it is still helping.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

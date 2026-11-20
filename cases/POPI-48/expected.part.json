@@ -1,0 +1,47 @@
+[
+  {
+    "file": "POPI-48/pos-fact.csv",
+    "kind": "positive",
+    "about": "The 12-year-old weighed 30 kg at the first dose for classic scabies and used both tablets with no repeat supplied for days 7 through 14.",
+    "findings": [
+      {
+        "criterion": "POPI-48",
+        "must_cite": [
+          [
+            "L022"
+          ],
+          [
+            "L023"
+          ],
+          [
+            "L024"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "POPI-48/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about scabies in this 13-year-old who weighed 30 kg and received only the first dose through the end of the repeat window.",
+    "findings": [
+      {
+        "criterion": "POPI-48",
+        "must_cite": [
+          [
+            "L015"
+          ],
+          [
+            "L016"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "POPI-48/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The 12-year-old weighed 30 kg at the first dose for classic scabies, and the four-tablet pack provides two tablets for each prescribed dose.",
+    "findings": []
+  }
+]

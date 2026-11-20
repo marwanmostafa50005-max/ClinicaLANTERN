@@ -1,0 +1,47 @@
+[
+  {
+    "file": "START-B6/pos-fact.csv",
+    "kind": "positive",
+    "about": "Stable heart failure with reduced ejection fraction is documented at L001 and the only extended-release metoprolol succinate supply at L003 falls outside the last six months.",
+    "findings": [
+      {
+        "criterion": "START-B6",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L003"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-B6/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about Stable heart failure with reduced ejection fraction, and recent Entresto supplies suggest the diagnosis while no qualifying beta-blocker was supplied in the last six months.",
+    "findings": [
+      {
+        "criterion": "START-B6",
+        "must_cite": [
+          [
+            "L010",
+            "L014",
+            "L018",
+            "L022",
+            "L027",
+            "L031",
+            "L035"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-B6/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Previously stable heart failure with reduced ejection fraction is now decompensated and the only qualifying beta-blocker supply is outside the last six months.",
+    "findings": []
+  }
+]

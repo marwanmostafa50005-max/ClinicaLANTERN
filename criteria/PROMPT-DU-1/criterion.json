@@ -1,0 +1,724 @@
+{
+  "id": "PROMPT-DU-1",
+  "label": "PROMPT DU-1: two medicines of one class",
+  "family": "PROMPT",
+  "title": "Two or more medicines from the same class",
+  "statement": "The use of two or more drugs from the same pharmacological class should be avoided, unless used for additive effects in line with current clinical guidelines.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Cooper JA, et al. The development of the PROMPT criteria. BMC Health Serv Res 2014;14:484, Table 4",
+    "citation": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "doi": "10.1186/s12913-014-0484-6",
+    "url": "https://doi.org/10.1186/s12913-014-0484-6",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Taking two medicines from the same class adds side effects without a matching gain, unless the guidelines call for the pair.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Opioid pain medicines",
+      "ingredients": [
+        "oxycodone",
+        "morphine",
+        "tramadol",
+        "codeine",
+        "tapentadol",
+        "fentanyl",
+        "buprenorphine",
+        "hydromorphone"
+      ],
+      "brands": {
+        "oxycodone": [
+          "OxyContin",
+          "Endone",
+          "OxyNorm",
+          "Targin (with naloxone)",
+          "Endone XR",
+          "Novacodone",
+          "Oxycodor",
+          "Oxycone",
+          "Oxylenus",
+          "Oxylieve MR",
+          "Oxyndone",
+          "Xedone"
+        ],
+        "morphine": [
+          "MS Contin",
+          "Kapanol",
+          "Sevredol",
+          "Ordine",
+          "Anamorph",
+          "MS Contin Suspension",
+          "MS Mono",
+          "MS Normal",
+          "Momex SR",
+          "RA-Morph"
+        ],
+        "tramadol": [
+          "Tramal",
+          "Durotram",
+          "Zydol",
+          "Durotram XR",
+          "Iptramol",
+          "Lodam",
+          "Lodam SR",
+          "Tramahexal",
+          "Tramahexal SR",
+          "Tramal Drops",
+          "Tramal SR",
+          "Tramedo",
+          "Tramedo SR",
+          "Zydol SR"
+        ],
+        "codeine": [
+          "Panadeine Forte (with paracetamol)",
+          "Panadeine",
+          "Codalgin Forte",
+          "Comfarol Forte",
+          "Mersyndol Forte",
+          "Nurofen Plus"
+        ],
+        "tapentadol": [
+          "Palexia",
+          "Palexia SR",
+          "Lodat SR",
+          "Palexia IR",
+          "Tadol IR",
+          "Tadol SR",
+          "Tapal IR",
+          "Tapal SR",
+          "Tapex IR",
+          "Tapex SR",
+          "Tapexia",
+          "Tapexia SR"
+        ],
+        "fentanyl": [
+          "Durogesic",
+          "Denpax",
+          "Fenpatch"
+        ],
+        "buprenorphine": [
+          "Norspan",
+          "Temgesic"
+        ],
+        "hydromorphone": [
+          "Jurnista",
+          "Dilaudid",
+          "Dilaudid-HP",
+          "Palladone XL"
+        ]
+      },
+      "note": "Count opioids used for pain. Exclude buprenorphine preparations used for opioid dependence, including Suboxone. If the use is unclear, report at most a possible finding."
+    },
+    {
+      "key": "B",
+      "name": "Anti-inflammatory pain medicines (NSAIDs)",
+      "ingredients": [
+        "celecoxib",
+        "diclofenac",
+        "ibuprofen",
+        "naproxen",
+        "meloxicam",
+        "etoricoxib",
+        "indometacin",
+        "piroxicam",
+        "mefenamic acid",
+        "ketoprofen"
+      ],
+      "brands": {
+        "celecoxib": [
+          "Celebrex",
+          "Anacoxib",
+          "Celaxib",
+          "Celebrex Relief",
+          "Celetoid",
+          "Celexi",
+          "Celocox",
+          "Kudeq"
+        ],
+        "diclofenac": [
+          "Voltaren",
+          "Voltaren Rapid",
+          "Cambia",
+          "Clonac",
+          "Diclohexal",
+          "Difenac Rapid",
+          "Dinac",
+          "Fenac",
+          "Fenac EC",
+          "Imflac",
+          "Inflamax Liquid Caps",
+          "Voltaren Rapid Extra Strength",
+          "Voltaren Rapid Liquid Capsules",
+          "Voltfast",
+          "Zorvolex"
+        ],
+        "ibuprofen": [
+          "Nurofen",
+          "Brufen",
+          "Act-3",
+          "Advil",
+          "Advil 12 Hour",
+          "Advil Childrens Pain and Fever 2 to 7 Years",
+          "Advil Childrens Pain and Fever 7 to 12 Years",
+          "Advil Childrens Pain and Fever Relief 2 to 12 Years",
+          "Advil Double Strength",
+          "Advil Double Strength Caplets",
+          "Advil Double Strength Liquid Capsules",
+          "Advil Infants Pain and Fever Relief 3 Months to 2 Years",
+          "Advil Mini Caps",
+          "Advil Rapid Release",
+          "Brufen Pain",
+          "Brufen Syrup",
+          "Bugesic",
+          "Butafen",
+          "Butalgin",
+          "Fenpaed",
+          "Fenpaed Double Strength",
+          "Iprofen",
+          "Nurofen Back Pain",
+          "Nurofen Caplet",
+          "Nurofen Double Strength",
+          "Nurofen Liquid Capsule",
+          "Nurofen Meltlets",
+          "Nurofen Migraine Pain",
+          "Nurofen Period Pain",
+          "Nurofen Quickzorb",
+          "Nurofen Regular",
+          "Nurofen Tension Headache",
+          "Nurofen Zavance",
+          "Nurofen Zavance Liquid Capsules",
+          "Nurofen for Children 1 to 5 Years",
+          "Nurofen for Children 3 Months to 5 Years",
+          "Nurofen for Children 5 to 12 Years",
+          "Nurofen for Children 7+ Years",
+          "Nurofen for Children Baby 3+ Months",
+          "Nurofen for Children Infant Drops",
+          "Nurofen for Children Meltlet",
+          "Panafen IB",
+          "Panafen IB Mini Cap",
+          "Proven",
+          "Rafen",
+          "Tri-Profen",
+          "Nurofen Plus",
+          "Nuromol"
+        ],
+        "naproxen": [
+          "Naprosyn",
+          "Naprosyn SR",
+          "Anaprox",
+          "Aleve",
+          "Aleve 24 Hour",
+          "Crysanal",
+          "Femme-Free",
+          "Inza",
+          "Naprofem",
+          "Naprogesic",
+          "Naprosyn SR 1000",
+          "Nurolasts Period Pain",
+          "Proxen",
+          "Proxen SR",
+          "Vimovo"
+        ],
+        "meloxicam": [
+          "Mobic",
+          "Agilocam",
+          "Melobic",
+          "Melox",
+          "Meloxiauro",
+          "Meloxibell",
+          "Meloxibindo",
+          "Mobelox",
+          "Movalis",
+          "Moxicam"
+        ],
+        "etoricoxib": [
+          "Arcoxia"
+        ],
+        "indometacin": [
+          "Indocid"
+        ],
+        "piroxicam": [
+          "Feldene",
+          "Feldene-D"
+        ],
+        "mefenamic acid": [
+          "Ponstan"
+        ],
+        "ketoprofen": [
+          "Orudis SR"
+        ]
+      },
+      "note": "Count systemic NSAID pain medicines. Exclude skin gels and eye drops from this group. Check the form when a brand such as Voltaren is shared by local and systemic products."
+    },
+    {
+      "key": "C",
+      "name": "Benzodiazepines",
+      "ingredients": [
+        "diazepam",
+        "temazepam",
+        "oxazepam",
+        "nitrazepam",
+        "alprazolam",
+        "clonazepam",
+        "lorazepam"
+      ],
+      "brands": {
+        "diazepam": [
+          "Valium",
+          "Antenex",
+          "Ducene",
+          "Ranzepam",
+          "Valpam"
+        ],
+        "temazepam": [
+          "Normison",
+          "Temaze",
+          "Temtabs"
+        ],
+        "oxazepam": [
+          "Serepax",
+          "Murelax",
+          "Alepam"
+        ],
+        "nitrazepam": [
+          "Mogadon",
+          "Alodorm"
+        ],
+        "alprazolam": [
+          "Xanax",
+          "Kalma",
+          "Alprax",
+          "Ralozam",
+          "Xanax Tri-Score",
+          "Zamhexal"
+        ],
+        "clonazepam": [
+          "Rivotril",
+          "Paxam"
+        ],
+        "lorazepam": [
+          "Ativan"
+        ]
+      }
+    },
+    {
+      "key": "D",
+      "name": "Statins",
+      "ingredients": [
+        "atorvastatin",
+        "rosuvastatin",
+        "simvastatin",
+        "pravastatin",
+        "pitavastatin"
+      ],
+      "brands": {
+        "atorvastatin": [
+          "Lipitor",
+          "Atomed",
+          "Atorvachol",
+          "Atorvator",
+          "Atostat",
+          "Bansep",
+          "Chorit",
+          "Lorstat",
+          "Storvas",
+          "Tormed",
+          "Torvastat",
+          "Trovas",
+          "Caduet",
+          "Atozet"
+        ],
+        "rosuvastatin": [
+          "Crestor",
+          "Affora",
+          "Alphastat",
+          "Cavstat",
+          "Cisero",
+          "Crestabs",
+          "Crestat",
+          "Crestatin",
+          "Crosuva",
+          "Crosvar",
+          "Rostor",
+          "Rosuvacor",
+          "Visacor",
+          "Rosuzet"
+        ],
+        "simvastatin": [
+          "Zocor",
+          "Invast",
+          "Lipex",
+          "Myvast",
+          "Ransim",
+          "Simvabell",
+          "Simvacor",
+          "Simvahexal",
+          "Simvar",
+          "Simvasyn",
+          "Simvatrust",
+          "Zimstat",
+          "Vytorin"
+        ],
+        "pravastatin": [
+          "Pravachol",
+          "Cholpra",
+          "Cholstat",
+          "Cholvastin",
+          "Lipostat",
+          "Liprachol",
+          "Pralect",
+          "Pratin",
+          "Prava",
+          "Pravaccord",
+          "Pravastat",
+          "Pravista",
+          "Redichol",
+          "Vastoran"
+        ],
+        "pitavastatin": [
+          "Livalo"
+        ]
+      }
+    },
+    {
+      "key": "E",
+      "name": "ACE inhibitors",
+      "ingredients": [
+        "perindopril",
+        "ramipril",
+        "lisinopril",
+        "enalapril",
+        "quinapril",
+        "trandolapril",
+        "fosinopril"
+      ],
+      "brands": {
+        "perindopril": [
+          "Coversyl",
+          "Coversyl Plus",
+          "Idaprex",
+          "Idaprex Arg",
+          "Indopril",
+          "Indosyl Mono",
+          "Ozapace",
+          "Perindo",
+          "Perindo Arg",
+          "Perindoarg",
+          "Perindobell",
+          "Perisyl",
+          "Prexum",
+          "Coveram",
+          "Triplixam SR"
+        ],
+        "ramipril": [
+          "Tritace",
+          "Prilace",
+          "Ramace",
+          "Ramibell",
+          "Tryzan",
+          "Vascalace"
+        ],
+        "lisinopril": [
+          "Zestril",
+          "Fibsol",
+          "Linopril",
+          "Liprace",
+          "Lisinobell",
+          "Lisinotrust",
+          "Lisodrate",
+          "Lisodur",
+          "Lisoril",
+          "Ozten",
+          "Prinivil",
+          "Sinop",
+          "Zinopril"
+        ],
+        "enalapril": [
+          "Renitec",
+          "Acetec",
+          "Alphapril",
+          "Amprace",
+          "Auspril",
+          "Elapril",
+          "Enahexal",
+          "Enalabell",
+          "Malean",
+          "Renitec M"
+        ],
+        "quinapril": [
+          "Accupril",
+          "Acquin",
+          "Aquinafil",
+          "Filpril",
+          "Qpril",
+          "Accuretic"
+        ],
+        "trandolapril": [
+          "Gopten",
+          "Dolapril",
+          "Goricap",
+          "Odrik",
+          "Tranalpha",
+          "Tarka"
+        ],
+        "fosinopril": [
+          "Monopril",
+          "Fosipril",
+          "Monace",
+          "Monoplus"
+        ]
+      }
+    },
+    {
+      "key": "F",
+      "name": "Angiotensin receptor blockers",
+      "ingredients": [
+        "candesartan",
+        "irbesartan",
+        "telmisartan",
+        "olmesartan",
+        "valsartan",
+        "losartan"
+      ],
+      "brands": {
+        "candesartan": [
+          "Atacand",
+          "Adesan",
+          "Asartan",
+          "Candelem",
+          "Candesan",
+          "Atacand Plus"
+        ],
+        "irbesartan": [
+          "Avapro",
+          "Karvea",
+          "Abisart",
+          "Ambotens",
+          "Avsartan",
+          "Irbesat",
+          "Irbestin",
+          "Irbetan",
+          "Irprestan",
+          "Karbesat",
+          "Avapro HCT",
+          "Karvezide"
+        ],
+        "telmisartan": [
+          "Micardis",
+          "Mizart",
+          "Pritor",
+          "Telmigen",
+          "Teltartan",
+          "Micardis Plus",
+          "Twynsta"
+        ],
+        "olmesartan": [
+          "Olmetec",
+          "Olmertan",
+          "Olmes",
+          "Olmesart",
+          "Olsetan",
+          "Olmetec Plus",
+          "Sevikar"
+        ],
+        "valsartan": [
+          "Diovan",
+          "Dilart",
+          "Co-Diovan",
+          "Exforge",
+          "Entresto"
+        ],
+        "losartan": [
+          "Cozaar",
+          "Cozavan"
+        ]
+      }
+    },
+    {
+      "key": "G",
+      "name": "SSRI antidepressants",
+      "ingredients": [
+        "sertraline",
+        "escitalopram",
+        "citalopram",
+        "fluoxetine",
+        "paroxetine",
+        "fluvoxamine"
+      ],
+      "brands": {
+        "sertraline": [
+          "Zoloft",
+          "Concorz",
+          "Detralon",
+          "Eleva",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Setrona",
+          "Tralen",
+          "Xydep"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam",
+          "Loxalate"
+        ],
+        "citalopram": [
+          "Cipramil",
+          "Talam",
+          "Abbapram",
+          "Celapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talohexal"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Zactin",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Paxtine",
+          "Aropax CR",
+          "Extine",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ]
+      }
+    },
+    {
+      "key": "H",
+      "name": "Proton pump inhibitors",
+      "ingredients": [
+        "omeprazole",
+        "esomeprazole",
+        "pantoprazole",
+        "lansoprazole",
+        "rabeprazole"
+      ],
+      "brands": {
+        "omeprazole": [
+          "Losec",
+          "Acimax",
+          "Maxor",
+          "Maxor EC",
+          "Maxor Heartburn Relief",
+          "Meprazol",
+          "Omepral",
+          "Omepro",
+          "Omezole",
+          "Ozmep",
+          "Pemzo",
+          "Probitor"
+        ],
+        "esomeprazole": [
+          "Nexium",
+          "Nexium 24HR",
+          "Axagon",
+          "Beezole",
+          "Emeprazol",
+          "Esopran",
+          "Esopreze",
+          "Guardium Acid Reflux Relief",
+          "Jubeso",
+          "Jubium",
+          "Mepreze",
+          "Nexazole",
+          "Nexcid",
+          "Nexium 24HR Once Daily Dosing",
+          "Nexole",
+          "Nexprazole",
+          "Noxicid",
+          "Noxicid Caps Heartburn Relief",
+          "Noxicid Tabs Heartburn Relief",
+          "Zanzole 24HR",
+          "Vimovo"
+        ],
+        "pantoprazole": [
+          "Somac",
+          "Gastenz",
+          "Ozpan",
+          "Pantaccord",
+          "Panthron",
+          "Panto",
+          "Pantofast",
+          "Pantoloc",
+          "Prazole",
+          "Rizil",
+          "Salpraz",
+          "Salpraz Heartburn Relief",
+          "Somac Heartburn Relief",
+          "Sozol",
+          "Suvacid Heartburn Relief",
+          "Topra",
+          "Torprazole",
+          "Torzole"
+        ],
+        "lansoprazole": [
+          "Zoton",
+          "Lanzopran",
+          "Zopral",
+          "Zopral ODT",
+          "Zoton Fastab"
+        ],
+        "rabeprazole": [
+          "Pariet",
+          "Parbezol",
+          "Parzol",
+          "Perizel DR",
+          "Prabez",
+          "Rabzole",
+          "Razit",
+          "Zabep"
+        ]
+      }
+    }
+  ],
+  "rule_for_models": "Apply this PROMPT rule only to people aged 45 to 64 inclusive and, if age is missing, record that eligibility is unknown and do not report a PROMPT finding. Report possible duplication for two different ingredients in the same listed group or another known pharmacological class only when their treatment periods overlap or the difference between the two dispensing dates is 60 days or less. For opioids, apply the pain-use limits in Group A. Exclude a documented switch when the first medicine stopped before the second started. Keep the 60-day window when combined use is uncertain. Exclude short-acting plus long-acting beta-2 agonists for asthma or COPD and pairs used together for a documented guideline-supported additive effect.",
+  "cannot_be_seen": "Why each medicine was prescribed, whether a guideline supports using the pair together, medicines supplied by a hospital or another pharmacy, and medicines bought without a prescription.",
+  "ask_the_gp": "A review of whether both medicines from the same class are needed, or whether one can stop.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

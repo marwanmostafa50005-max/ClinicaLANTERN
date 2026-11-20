@@ -1,0 +1,72 @@
+{
+  "id": "SCOTRESP-13",
+  "label": "SCOTRESP: prescribed oral mucolytic treatment beyond six months",
+  "family": "SCOTRESP",
+  "title": "Prescribed oral mucolytic treatment beyond six months",
+  "statement": "Patients prescribed mucolytics >6 months",
+  "statement_origin": "published",
+  "source": {
+    "document": "Quality prescribing strategy for respiratory conditions in Scotland: improving patient care and promoting environmental sustainability",
+    "citation": "Kennedy E, Vint K, Mair A, et al. International Journal of Pharmacy Practice. 2025;33(5):534-540.",
+    "doi": "10.1093/ijpp/riaf054",
+    "url": "https://academic.oup.com/ijpp/article/33/5/534/8191719",
+    "licence": "UK Open Government Licence v3.0",
+    "licence_status": "proposed",
+    "credit": "© Crown copyright 2025. Scottish Government, Effective Prescribing and Therapeutics. Kennedy E, Vint K, Mair A, et al., Table 1. Contains public sector information licensed under the Open Government Licence v3.0.",
+    "modification_notice": "Table 1 wording reproduced unchanged. The Australian screening rule and fictional histories are adaptations."
+  },
+  "plain_summary": "Review the ongoing benefit of a prescribed oral medicine used to clear sputum when treatment continues beyond six calendar months.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Prescribed oral respiratory mucolytics",
+      "ingredients": [
+        "bromhexine",
+        "acetylcysteine",
+        "carbocisteine"
+      ],
+      "brands": {
+        "bromhexine": [
+          "Bisolvon Chesty Forte",
+          "Bicof Chesty",
+          "Bisolvon Chesty",
+          "Bisolvon Chesty Forte On-the-Go",
+          "Bisolvon Chesty Kids",
+          "Duro-Tuss Chesty Cough Double Strength",
+          "Duro-Tuss Chesty Cough Liquid Regular",
+          "APOHEALTH Chesty Mucus Relief Forte"
+        ],
+        "acetylcysteine": [],
+        "carbocisteine": []
+      },
+      "note": "Check the oral route and the stated use to clear sputum. The Scottish guide names acetylcysteine and carbocisteine. Bromhexine is the Australian product used in these histories. Count prescribed oral acetylcysteine by ingredient when used for sputum clearance. Exclude Link injections, Acetadote, Parvolex, Acetylcysteine (Dbl), Mucomyst inhalation solution and Acetylcysteine (Omegapharm) inhalation solution. Check carbocisteine by ingredient. No Australian oral brand was verified here."
+    }
+  ],
+  "rule_for_models": "Flag an ongoing Group A oral prescription for clearing sputum when dated supplies, quantities and scheduled directions show continuous coverage past the six-month anniversary, or a dated record explicitly confirms this duration. Cite the supplies that establish the course and any record used to confirm duration, counting each supplied tablet, sachet or millilitre only once and checking for gaps. Exactly six months, isolated as-needed or over-the-counter purchases, and non-respiratory uses do not qualify. Divide the dispensed volume in mL by the scheduled mL per day, or divide the supplied units by the scheduled units per day. A known break interrupts the course. The pharmacist judges a borderline gap. If repeated prescriptions extend past six months but the daily amount or continuity is unclear, report only a possible finding and ask how much the patient took each day and for how long. Cite the record of the indication. A Yes answer confirms sputum clearance only. Establish the duration separately. A No answer or a documented use for another purpose gives no finding. Use an earlier dated observation if it states the reason. An older entry that only says the reason was known does not establish sputum clearance. If the duration qualifies and the reason is missing or not known, report only a possible finding and ask whether the oral mucolytic was prescribed to help clear sputum from the chest.",
+  "cannot_be_seen": "Dispensing alone cannot show actual use or whether the patient finds it easier to clear sputum. Purchases months apart cannot establish continuous prescribed treatment.",
+  "ask_the_gp": "Could we review the indication, duration and ongoing benefit of the prescribed oral mucolytic?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Oral mucolytic prescribed to help clear sputum from the chest",
+      "meets": "The medicine is prescribed to help clear sputum from the chest.",
+      "options": [
+        {
+          "words": "Yes, for sputum clearance",
+          "effect": "meets"
+        },
+        {
+          "words": "No, for another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

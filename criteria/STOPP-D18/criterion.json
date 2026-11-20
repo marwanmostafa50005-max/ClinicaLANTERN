@@ -1,0 +1,225 @@
+{
+  "id": "STOPP-D18",
+  "label": "STOPP D18",
+  "family": "STOPP_START",
+  "title": "Acetylcholinesterase inhibitor with a medicine that slows the heart",
+  "statement": "Acetylcholinesterase inhibitors with concurrent treatment with drugs that induce persistent bradycardia (< 60 beats/min.) such as beta-blockers, digoxin, diltiazem, verapamil (risk of cardiac conduction failure, syncope and injury).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "An acetylcholinesterase inhibitor, such as donepezil, galantamine or rivastigmine, taken with a medicine that slows the heart, such as a beta-blocker, digoxin, diltiazem or verapamil, can slow the heart too much and lead to fainting and injury.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Acetylcholinesterase inhibitors",
+      "ingredients": [
+        "donepezil",
+        "galantamine",
+        "rivastigmine",
+        "pyridostigmine"
+      ],
+      "brands": {
+        "donepezil": [
+          "Aricept",
+          "Aridon",
+          "Arazil",
+          "Alzil",
+          "Aricept-D",
+          "Aridon APN",
+          "Aridon ODT",
+          "Ariez",
+          "Doceptil",
+          "Donaccord",
+          "Donpesyn"
+        ],
+        "galantamine": [
+          "Reminyl",
+          "Galantyl",
+          "Gamine XR"
+        ],
+        "rivastigmine": [
+          "Exelon",
+          "Exelon Patch",
+          "Rivastigmelon",
+          "Prometax",
+          "Exelon Patch 5",
+          "Exelon Patch 10",
+          "Exelon Patch 15"
+        ],
+        "pyridostigmine": [
+          "Mestinon",
+          "Mestinon Timespan"
+        ]
+      },
+      "note": "Memantine is a dementia medicine of another kind and does not count. Exelon Patch, Rivastigmelon and Prometax are rivastigmine skin patches, and patches count. Pyridostigmine (Mestinon) is used for myasthenia gravis, not for dementia. It is listed because it is also an acetylcholinesterase inhibitor."
+    },
+    {
+      "key": "B",
+      "name": "Medicines that can cause persistent bradycardia",
+      "ingredients": [
+        "atenolol",
+        "bisoprolol",
+        "carvedilol",
+        "labetalol",
+        "metoprolol",
+        "nadolol",
+        "nebivolol",
+        "oxprenolol",
+        "pindolol",
+        "propranolol",
+        "sotalol",
+        "digoxin",
+        "diltiazem",
+        "verapamil",
+        "timolol",
+        "ivabradine",
+        "amiodarone"
+      ],
+      "brands": {
+        "atenolol": [
+          "Tenormin",
+          "Noten",
+          "Tensig",
+          "Anselol",
+          "Atehexal",
+          "Aten",
+          "Colaptyn",
+          "Tenolten"
+        ],
+        "bisoprolol": [
+          "Bicor",
+          "Bicard",
+          "Bispro",
+          "Beprol",
+          "Biso"
+        ],
+        "carvedilol": [
+          "Dilatrend",
+          "Dilasig",
+          "Dicarz",
+          "Vedilol",
+          "Kredex",
+          "Carvidol",
+          "Volirop"
+        ],
+        "labetalol": [
+          "Trandate",
+          "Presolol"
+        ],
+        "metoprolol": [
+          "Betaloc",
+          "Minax",
+          "Metohexal",
+          "Toprol-XL",
+          "Minax XL",
+          "Metrol-XL",
+          "Lopresor",
+          "Mistrom",
+          "Metrol",
+          "Agtolac",
+          "Metatar",
+          "Metolol",
+          "Tobeta-XL",
+          "Topreloc-XL"
+        ],
+        "nadolol": [],
+        "nebivolol": [
+          "Nebilet",
+          "Nepiten",
+          "Lobivon",
+          "Lobivon Composite Starter Titration Pack",
+          "Nebaloc",
+          "Nebilet Composite Starter Titration Pack"
+        ],
+        "oxprenolol": [
+          "Corbeton"
+        ],
+        "pindolol": [
+          "Visken",
+          "Barbloc",
+          "Pindol"
+        ],
+        "propranolol": [
+          "Inderal",
+          "Deralin",
+          "Drofate",
+          "Hemangiol"
+        ],
+        "sotalol": [
+          "Sotacor",
+          "Cardol",
+          "Solavert",
+          "Sotab",
+          "Sotahexal"
+        ],
+        "digoxin": [
+          "Lanoxin",
+          "Lanoxin PG",
+          "Sigmaxin",
+          "Sigmaxin PG",
+          "Lanoxin Paediatric Elixir"
+        ],
+        "diltiazem": [
+          "Cardizem",
+          "Cardizem CD",
+          "Vasocardol",
+          "Vasocardol CD",
+          "Coras",
+          "Dilzem",
+          "Diltahexal",
+          "Danzem",
+          "Diltahexal CD",
+          "Dilzem CD",
+          "Ditatem"
+        ],
+        "verapamil": [
+          "Isoptin",
+          "Isoptin SR",
+          "Anpec",
+          "Cordilox SR",
+          "Veracaps SR",
+          "Tarka",
+          "Anpec SR"
+        ],
+        "timolol": [
+          "Timoptol",
+          "Cosopt",
+          "Nyogel",
+          "Tenopt",
+          "Timoeye",
+          "Timoptol-XE",
+          "Xalacom",
+          "DuoTrav",
+          "Ganfort PF 0.3/5",
+          "Combigan",
+          "Azarga",
+          "Ganfort",
+          "Ganfort 0.3/5"
+        ],
+        "ivabradine": [
+          "Coralan"
+        ],
+        "amiodarone": [
+          "Cordarone X",
+          "Aratac",
+          "Rithmik"
+        ]
+      },
+      "note": "Count the listed oral medicines, including ivabradine and amiodarone, and timolol eye drops. Tarka is trandolapril with verapamil. Count timolol eye drops alone or in a combination containing timolol, such as dorzolamide with timolol (Cosopt). Exclude other eye drops and all skin products. No brand name is listed for nadolol."
+    }
+  ],
+  "rule_for_models": "Apply only to people aged 65 years or older. Below 65 there is no finding. If age is unknown, record eligibility as unresolved and confirm age before reporting either finding. Suspect a finding when a Group A medicine (donepezil, galantamine, rivastigmine or pyridostigmine) and a Group B medicine (a listed medicine that can cause persistent bradycardia) have overlapping supplies or supply dates within 60 days of each other. If the record states that one medicine stopped before the other began, report no combination finding for that pair. Assess a later restart separately. Report the risk from the combination even if the record has no heart rate or ECG. Cite any relevant dated heart rate or ECG and describe bradycardia only when the observations support it. If the supply dates are more than 60 days apart and overlap is plausible but unclear because the directions give no daily dose, report only a possible finding. Cite both supplies and ask what dose was taken and whether the medicines were taken together.",
+  "cannot_be_seen": "Heart rate and ECG results that are missing from the record, any fainting, dizziness or falls, why each medicine was prescribed, whether both are still being taken, and medicines supplied by another pharmacy or a hospital.",
+  "ask_the_gp": "The patient's heart rate, any fainting, dizziness or falls, and whether both medicines are still meant to be taken together.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "file": "EU7-F22/pos-brand.csv",
+    "kind": "positive",
+    "about": "Lanoxin (digoxin), by brand name only, is supplied four times from December 2025 to September 2026 to a 75-year-old woman.",
+    "findings": [
+      {
+        "criterion": "EU7-F22",
+        "must_cite": [
+          ["L001", "L012", "L020", "L029"]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F22/pos-buried.csv",
+    "kind": "positive",
+    "about": "Sigmaxin (digoxin) is supplied twice, in January and April 2026, to a 73-year-old man, in the middle of a 14-month history.",
+    "findings": [
+      {
+        "criterion": "EU7-F22",
+        "must_cite": [
+          ["L032", "L045"]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F22/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Bicor (bisoprolol), a beta-blocker that the source suggests as an alternative, is supplied throughout and no digoxin or other heart glycoside is supplied, so the criterion is not met.",
+    "findings": []
+  }
+]

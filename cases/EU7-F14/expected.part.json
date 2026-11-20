@@ -1,0 +1,34 @@
+[
+  {
+    "file": "EU7-F14/pos-brand.csv",
+    "kind": "positive",
+    "about": "Daonil (glibenclamide), by brand name only, is supplied six times to a 73-year-old man.",
+    "findings": [
+      {
+        "criterion": "EU7-F14",
+        "must_cite": [
+          ["L004", "L008", "L015", "L020", "L027", "L034"]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F14/pos-buried.csv",
+    "kind": "positive",
+    "about": "Daonil (glibenclamide) is started on 9 December 2025 for a 70-year-old woman and supplied three times, the last on 23 June 2026, in the middle of a 14-month history.",
+    "findings": [
+      {
+        "criterion": "EU7-F14",
+        "must_cite": [
+          ["L026", "L042", "L059"]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F14/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The only sulfonylurea is gliclazide (Glyade MR), which is not on the list and which the source says may be safer, so the criterion is not met.",
+    "findings": []
+  }
+]

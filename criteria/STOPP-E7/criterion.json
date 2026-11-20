@@ -1,0 +1,116 @@
+{
+  "id": "STOPP-E7",
+  "label": "STOPP E7",
+  "family": "STOPP_START",
+  "title": "Mineralocorticoid receptor antagonist with a low eGFR",
+  "statement": "Mineralocorticoid receptor antagonists (e.g. spironolactone, eplerenone) if eGFR < 30 ml/min/1.73m² (risk of dangerous hyperkalaemia).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Mineralocorticoid receptor antagonists (spironolactone, eplerenone and finerenone) can push potassium to a dangerous level when the kidneys work poorly (eGFR below 30 mL/min/1.73 m²). Australian product information allows finerenone to be started at eGFR 25 or higher when the indication, dose and potassium level allow it. At eGFR 15 to 24, ongoing treatment depends on the indication, dose and potassium level.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Mineralocorticoid receptor antagonists",
+      "ingredients": [
+        "spironolactone",
+        "eplerenone",
+        "finerenone"
+      ],
+      "brands": {
+        "spironolactone": [
+          "Aldactone",
+          "Spiractin"
+        ],
+        "eplerenone": [
+          "Inspra",
+          "Espler",
+          "Inpler",
+          "Plera"
+        ],
+        "finerenone": [
+          "Kerendia"
+        ]
+      },
+      "note": "Count spironolactone, eplerenone and finerenone (Kerendia) tablets, including generic packs."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "eGFR",
+      "meets": "below 30 mL/min/1.73 m2"
+    },
+    {
+      "kind": "observation",
+      "what": "Spironolactone use on the kidney test date under review",
+      "meets": "Ask only if a known low result cannot be matched to this spironolactone course from the dated record. The patient was taking spironolactone when that sample was taken.",
+      "options": [
+        {
+          "words": "Taking it then",
+          "effect": "meets"
+        },
+        {
+          "words": "Not taking it then",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Eplerenone use on the kidney test date under review",
+      "meets": "Ask only if a known low result cannot be matched to this eplerenone course from the dated record. The patient was taking eplerenone when that sample was taken.",
+      "options": [
+        {
+          "words": "Taking it then",
+          "effect": "meets"
+        },
+        {
+          "words": "Not taking it then",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Finerenone use on the kidney test date under review",
+      "meets": "Ask only if a known low result cannot be matched to this finerenone course from the dated record. The patient was taking finerenone when that sample was taken.",
+      "options": [
+        {
+          "words": "Taking it then",
+          "effect": "meets"
+        },
+        {
+          "words": "Not taking it then",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Assess spironolactone, eplerenone or finerenone (Kerendia) tablets in patients aged 65 or older, and confirm age first if it is unknown. Use the latest relevant eGFR for ongoing treatment or the result that applied during a completed course, and report a finding citing the supply and result if it is below 30 mL/min/1.73 m2. For finerenone, note that the Australian product information allows starting at eGFR 25 or higher and continuing at eGFR 15 to 24 when indication, dose and serum potassium conditions are met, and ask for review of indication, potassium, dose and kidney function. A relevant result of 30 or higher gives no finding, but if the result is missing or its timing is unclear, cite the supply and report a possible finding that identifies what needs confirmation. Use supply dates, quantity and directions to check when the medicine was in use. If unclear directions or borderline dates prevent matching the result to treatment, report only a possible finding and ask the pharmacist to confirm the treatment and test dates. If the eGFR is missing, ask for the result first. If a known low result cannot be matched to a course, identify the medicine, course and sample date and ask only about use of that medicine when the sample was taken. A confirmed overlap supports a finding citing the supply, result and confirmation. A confirmed absence of overlap rules out that pairing only. If overlap is unknown, keep the pairing possible.",
+  "cannot_be_seen": "The most recent kidney function if the record holds none, serum potassium, the reason for treatment (for example heart failure), and any hospital or other pharmacy supplies.",
+  "ask_the_gp": "A review of the patient's kidney function and potassium, and whether the medicine should continue.",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

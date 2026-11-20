@@ -1,0 +1,45 @@
+[
+  {
+    "file": "EU7-F33/pos-brand.csv",
+    "kind": "positive",
+    "about": "A woman aged 68 has five supplies of tablets listing aescin as the active ingredient.",
+    "findings": [
+      {
+        "criterion": "EU7-F33",
+        "must_cite": [
+          [
+            "L008",
+            "L011",
+            "L016",
+            "L020",
+            "L024"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F33/pos-buried.csv",
+    "kind": "positive",
+    "about": "Hidrosmin (a venotonic vein medicine) is supplied four times in the middle of a 14-month history for a woman aged 74.",
+    "findings": [
+      {
+        "criterion": "EU7-F33",
+        "must_cite": [
+          [
+            "L028",
+            "L033",
+            "L036",
+            "L040"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F33/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The record shows diosmin, horse chestnut extract standardised to aescin, escin gel and aescin cream, with no qualifying systemic supply.",
+    "findings": []
+  }
+]

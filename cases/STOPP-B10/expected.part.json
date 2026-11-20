@@ -1,0 +1,66 @@
+[
+  {
+    "file": "STOPP-B10/pos-fact.csv",
+    "kind": "positive",
+    "about": "Lasix (furosemide, a loop diuretic) is supplied monthly for hypertension, and the record also shows urinary incontinence.",
+    "findings": [
+      {
+        "criterion": "STOPP-B10",
+        "must_cite": [
+          [
+            "L002",
+            "L009",
+            "L014",
+            "L019",
+            "L024",
+            "L029",
+            "L034",
+            "L039",
+            "L045"
+          ],
+          [
+            "L002",
+            "L009",
+            "L014",
+            "L019",
+            "L024",
+            "L029",
+            "L034",
+            "L039",
+            "L045"
+          ],
+          [
+            "L004"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-B10/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: furosemide is supplied for hypertension, but the record holds no line about urinary incontinence or continence.",
+    "findings": [
+      {
+        "criterion": "STOPP-B10",
+        "must_cite": [
+          [
+            "L002",
+            "L008",
+            "L013",
+            "L017",
+            "L021",
+            "L025",
+            "L029"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-B10/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Furosemide is supplied and hypertension is recorded. The continence assessment records no leakage.",
+    "findings": []
+  }
+]

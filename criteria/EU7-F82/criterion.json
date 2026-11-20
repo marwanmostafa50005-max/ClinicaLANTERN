@@ -1,0 +1,75 @@
+{
+  "id": "EU7-F82",
+  "label": "EU(7)-PIM: cough suppressants and codeine use beyond two weeks",
+  "family": "EU7",
+  "title": "Cough suppressants in older people and codeine use beyond two weeks",
+  "statement": "The list flags ethylmorphine and dextromethorphan in older people because their benefit for acute cough is unclear. It separately flags codeine use beyond two weeks because of risks including low blood pressure, sweating, constipation, vomiting, dizziness, drowsiness and slowed breathing. The list specifically advises avoiding codeine for longer than two weeks in people with kidney failure or in those who have chronic constipation and take no laxative.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Statement rewritten in plain words by ClinicaLANTERN, because part of the source row text is marked as from a commercial database (Micromedex) whose reuse rights are not settled. Not endorsed by the source authors."
+  },
+  "plain_summary": "Cough suppressants with ethylmorphine or dextromethorphan add little, and codeine taken for more than 2 weeks carries a higher risk of side effects in an older person.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Ethylmorphine and dextromethorphan",
+      "ingredients": [
+        "ethylmorphine",
+        "dextromethorphan"
+      ],
+      "brands": {
+        "ethylmorphine": [],
+        "dextromethorphan": [
+          "Robitussin Dry Cough Forte",
+          "Bisolvon Dry",
+          "Benadryl for the Family Dry Forte",
+          "Bisolvon Dry Kids",
+          "Tussinol for Dry Coughs",
+          "Vicks Formula 44 for Dry Coughs",
+          "Vicks Cough Syrup Honey Flavour Dry Cough"
+        ]
+      },
+      "note": "Count a supply of ethylmorphine or dextromethorphan as a cough suppressant only if the product contains no expectorant. Treat 'Vicks Cough' and 'Vicks Cough Syrup' alone as ambiguous. A bare 'Strepsils Dry Cough' name also needs confirmation. Ask the pharmacist to check the label. Count an older Strepsils supply if the record identifies the dextromethorphan lozenge. Exclude Vicks guaifenesin syrup and Strepsils herbal liquid containing ribwort plantain. Count the product only when dextromethorphan without an expectorant is confirmed. Ethylmorphine is not sold in Australia, so no brand is listed."
+    },
+    {
+      "key": "B",
+      "name": "Codeine, used for more than 2 weeks",
+      "ingredients": [
+        "codeine"
+      ],
+      "brands": {
+        "codeine": [
+          "Panadeine",
+          "Panadeine Forte",
+          "Mersyndol",
+          "Mersyndol Forte",
+          "Codalgin Forte",
+          "Prodeine Forte",
+          "Nurofen Plus",
+          "Actacode Linctus",
+          "Codphos",
+          "Panadeine Extra",
+          "Comfarol Forte",
+          "Dymadon Forte",
+          "Codalgin",
+          "Aspalgin",
+          "ProdeineXtra"
+        ]
+      },
+      "note": "Codeine on its own and in combination products counts, for example Panadeine Forte (with paracetamol), Mersyndol (with paracetamol and doxylamine) and Nurofen Plus (with ibuprofen). Only one continuous course covering more than 14 days counts; separate short courses are not added together."
+    }
+  ],
+  "rule_for_models": "For a person aged 65 years or older, flag one or more supplies of a cough suppressant containing ethylmorphine or dextromethorphan if that product contains no expectorant. Also suspect a finding when a person aged 65 years or over uses a Group B medicine (codeine) as one continuous course lasting more than 14 days. Work out each supply's cover from its quantity and the maximum directed daily dose. If directions give no usable daily dose and the dates, quantity or repeat supplies suggest use beyond 14 days, report a possible finding. Ask how many doses were taken each day and for how many consecutive days. For repeat supplies, count continuous cover only when the next supply is dated no later than the day after the previous supply's cover would run out; do not add short courses separated by longer gaps. Cite the supply lines that form the continuous course. If age is unknown and the other evidence could meet this criterion, report at most a possible finding and ask the pharmacist to confirm whether the person is aged 65 or over.",
+  "cannot_be_seen": "Why the medicine was supplied (cough or pain), whether the tablets or liquid are taken every day or only now and then, and any supply from another pharmacy. When no relevant condition or result lines are recorded, kidney function and constipation are also not shown.",
+  "ask_the_gp": "Whether the cough medicine is needed, or whether the codeine is still needed after more than 2 weeks of supply, and whether a laxative or a different pain treatment is suitable.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

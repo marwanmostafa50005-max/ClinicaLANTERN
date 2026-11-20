@@ -1,0 +1,406 @@
+{
+  "id": "BRISNIK-HR-A5",
+  "label": "Brisnik A5: QT-risk antidepressant with another QT-risk medicine",
+  "family": "BRISNIK",
+  "title": "Citalopram, escitalopram or high-dose tricyclic with another medicine that risks torsades de pointes",
+  "statement": "Prescribed citalopram, escitalopram, or TCA (in doses ≥ 50 mg/day) - and the patient is co-prescribed ≥ 1 further drug with any risk of TdP[c]",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.2 candidate repairs and adopted conventions merged with attribution). Not endorsed by the source authors."
+  },
+  "plain_summary": "Citalopram, escitalopram and tricyclics at 50 mg a day or more can lengthen the heart QT interval. Taking one with another medicine that risks torsades de pointes (a dangerous heart rhythm) adds to that risk.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Citalopram and escitalopram",
+      "ingredients": [
+        "citalopram",
+        "escitalopram"
+      ],
+      "brands": {
+        "citalopram": [
+          "Cipramil",
+          "Celapram",
+          "Talam",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talohexal"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Loxalate",
+          "Lexam",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram"
+        ]
+      },
+      "note": "Any dose counts."
+    },
+    {
+      "key": "B",
+      "name": "Tricyclic antidepressants (TCAs)",
+      "ingredients": [
+        "amitriptyline",
+        "clomipramine",
+        "dosulepin",
+        "doxepin",
+        "imipramine",
+        "nortriptyline",
+        "trimipramine"
+      ],
+      "brands": {
+        "amitriptyline": [
+          "Endep",
+          "Amichlor",
+          "Amidep",
+          "Entrip"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "dosulepin": [
+          "Dothep",
+          "Prothiaden"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ]
+      },
+      "note": "A tricyclic counts only at a daily dose of 50 mg or more. Work the dose out from strength and directions. Dosulepin is also called dothiepin. Count generic packs showing a listed ingredient with a company name."
+    },
+    {
+      "key": "C",
+      "name": "Partner medicines with a risk of torsades de pointes",
+      "ingredients": [
+        "amiodarone",
+        "amitriptyline",
+        "azithromycin",
+        "ciprofloxacin",
+        "citalopram",
+        "clarithromycin",
+        "clomipramine",
+        "domperidone",
+        "donepezil",
+        "erythromycin",
+        "escitalopram",
+        "fluconazole",
+        "haloperidol",
+        "imipramine",
+        "levofloxacin",
+        "methadone",
+        "moxifloxacin",
+        "ondansetron",
+        "sotalol",
+        "quetiapine",
+        "risperidone",
+        "olanzapine",
+        "amisulpride",
+        "hydroxychloroquine",
+        "venlafaxine",
+        "mirtazapine",
+        "chlorpromazine",
+        "flecainide",
+        "roxithromycin"
+      ],
+      "brands": {
+        "amiodarone": [
+          "Cordarone X",
+          "Aratac",
+          "Amdarone",
+          "Cardinorm",
+          "Rithmik"
+        ],
+        "amitriptyline": [
+          "Endep",
+          "Amichlor",
+          "Amidep",
+          "Entrip"
+        ],
+        "azithromycin": [
+          "Zithromax",
+          "Zedd",
+          "Zithro",
+          "Zitrocin"
+        ],
+        "ciprofloxacin": [
+          "Ciproxin",
+          "Arflox",
+          "C-Flox",
+          "Ciaxone",
+          "Cifran",
+          "Ciprol",
+          "Cirofaxin",
+          "Loxip",
+          "Profloxin",
+          "Proquin",
+          "Roflo"
+        ],
+        "citalopram": [
+          "Cipramil",
+          "Celapram",
+          "Talam",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talohexal"
+        ],
+        "clarithromycin": [
+          "Klacid",
+          "Clarac",
+          "Clarant",
+          "Clarihexal",
+          "Clarithro",
+          "Clarithrom",
+          "Kalixocin"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "domperidone": [
+          "Motilium"
+        ],
+        "donepezil": [
+          "Aricept",
+          "Alzil",
+          "Arazil",
+          "Aricept-D",
+          "Aridon",
+          "Aridon APN",
+          "Aridon ODT",
+          "Ariez",
+          "Doceptil",
+          "Donaccord",
+          "Donpesyn"
+        ],
+        "erythromycin": [
+          "E-Mycin",
+          "EES"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Loxalate",
+          "Lexam",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram"
+        ],
+        "fluconazole": [
+          "Diflucan",
+          "Fungata",
+          "Canazole One",
+          "Canesoral",
+          "Di-Con One",
+          "Diflucan One",
+          "Difluzole",
+          "Dizole",
+          "Dizole One",
+          "Femclear Oral",
+          "Femzol-1",
+          "Femzole",
+          "Femzole One",
+          "Fluzole",
+          "Fluzole One",
+          "Ozole"
+        ],
+        "haloperidol": [
+          "Serenace",
+          "Haldol Decanoate"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "levofloxacin": [
+          "Levoquin"
+        ],
+        "methadone": [
+          "Physeptone",
+          "Biodone Forte",
+          "Opod-D Syrup",
+          "Opod-P Liquid",
+          "Physeptone Liquid"
+        ],
+        "moxifloxacin": [
+          "Avelox",
+          "Moximed"
+        ],
+        "ondansetron": [
+          "Zofran",
+          "Danset",
+          "Danset ODT",
+          "Danzetron",
+          "Ondaz",
+          "Ondaz Zydis",
+          "Ondron",
+          "Ondron ODT",
+          "Onsetron",
+          "Onsetron ODT",
+          "Ostran",
+          "Ostran-ODT",
+          "Reditron",
+          "Reditron-ODT",
+          "Tronz",
+          "Zilfojim",
+          "Zilfojim ODT",
+          "Zofran Zydis",
+          "Zofraset",
+          "Zondan",
+          "Zosetron",
+          "Zotren",
+          "Zotren ODT"
+        ],
+        "sotalol": [
+          "Sotacor",
+          "Cardol",
+          "Solavert",
+          "Sotab",
+          "Sotahexal"
+        ],
+        "quetiapine": [
+          "Syquet XR",
+          "Seroquel",
+          "Seroquel XR"
+        ],
+        "risperidone": [
+          "Risperdal"
+        ],
+        "olanzapine": [
+          "Zypine",
+          "Zyprexa",
+          "Zyprexa Zydis"
+        ],
+        "amisulpride": [
+          "Sulprix",
+          "Solian"
+        ],
+        "hydroxychloroquine": [
+          "APO-Hydroxychloroquine",
+          "Plaquenil"
+        ],
+        "venlafaxine": [
+          "Efexor-XR"
+        ],
+        "mirtazapine": [
+          "Mirtanza",
+          "Avanza",
+          "Avanza SolTab",
+          "Axit"
+        ],
+        "chlorpromazine": [
+          "Largactil"
+        ],
+        "flecainide": [
+          "Tambocor",
+          "Flecatab"
+        ],
+        "roxithromycin": [
+          "Roxar"
+        ]
+      },
+      "note": "Brisnik A5 includes known, possible and conditional risk. These ingredients cover part of that group. Match the formulation and count a second antidepressant only if it has a different active ingredient. The 50 mg daily threshold applies to the tricyclic used to meet Group B. Report a risk category only when it is documented for that partner. Otherwise say the category is unknown. If the risk depends on a condition, say whether the record documents it or whether it is unknown. For quetiapine, risperidone, olanzapine, amisulpride, hydroxychloroquine, venlafaxine and mirtazapine, match oral forms. Count Haldol Decanoate injection and the systemic antibiotics specified in the rule. For other listed partners, match the recorded form to its documented risk. Exclude local eye, ear and skin antibiotics. Apply the risk conditions for the individual partner. Count the systemic forms of chlorpromazine, flecainide and roxithromycin."
+    }
+  ],
+  "rule_for_models": "Check citalopram or escitalopram at any dose, or a Group B tricyclic at 50 mg a day or more (milligrams per tablet or capsule times the number taken daily), with a different Group C ingredient when the supplies overlap or fall within 60 days of each other. Check all supplies of both medicines, including later supplies if the first pair has uncertain timing. A supply during the course shown by the other medicine's supply date, quantity and daily directions establishes prescription overlap, even if the new supply is as needed. Name both medicines. If the supplies show an overlap, cite the supply line for each medicine from that overlapping pair. Confirm only when the prescriptions were current at the same time and all other requirements are met. If an as-needed or short course could have ended before the other medicine started and overlap is uncertain, report only a possible finding if the pair could otherwise qualify and ask for \"Overlap of the two prescriptions being checked\". If the courses were separate, report no finding for that pair. If the other criteria could be met but the daily tricyclic dose is unclear, including an unclear frequency or a dose range crossing 50 mg, report a possible finding and name the missing fact as the prescribed daily dose of the specific tricyclic in mg per day. Use the pharmacist's dose for the same medicine and course. A known maximum below 50 mg per day gives no finding. An unknown dose that could reach 50 mg leaves the finding possible. For an antibiotic partner, count oral, injected or infused treatment, including systemic ciprofloxacin. Exclude eye, ear or skin treatment alone. If the supply leaves the route unclear and the pair could otherwise qualify, report only a possible finding, identify the antibiotic and supply date, and ask for \"Route of the antibiotic being checked for QT risk\". Use the answer only for that supply. If it cannot be linked to the supply, keep the route unresolved. A known route or a partner that is not an antibiotic needs no route question.",
+  "cannot_be_seen": "Medicines supplied elsewhere or bought over the counter, the full published list of medicines with a risk of torsades de pointes, blood potassium and magnesium, ECG results, heart conditions, and the doses actually taken. Ask about dizziness, fainting or palpitations. If the tricyclic directions are unclear, ask what dose is taken each day.",
+  "ask_the_gp": "A review of whether both medicines are needed together, and a check of an ECG and blood potassium and magnesium.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Route of the antibiotic being checked for QT risk",
+      "meets": "Use the route for the named antibiotic supply. Oral, injected or infused treatment meets the route requirement. Eye, ear or skin treatment alone excludes that partner. An unknown route leaves the pair possible if it could otherwise qualify.",
+      "options": [
+        {
+          "words": "Taken by mouth or given by injection or infusion",
+          "effect": "meets"
+        },
+        {
+          "words": "Applied only to the eye, ear or skin",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Overlap of the two prescriptions being checked",
+      "meets": "Ask only when the supply lines leave overlap uncertain. Use the answer for the two named courses. A shared prescribing period meets the timing requirement. Separate courses exclude that pair. If overlap is still unknown, keep the pair possible unless another requirement is ruled out.",
+      "options": [
+        {
+          "words": "Both prescriptions were current at the same time",
+          "effect": "meets"
+        },
+        {
+          "words": "The first course ended before the second began",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

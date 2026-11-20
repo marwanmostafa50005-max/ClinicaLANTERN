@@ -1,0 +1,48 @@
+[
+  {
+    "file": "NHSBSA-GIB04/pos-brand.csv",
+    "kind": "positive",
+    "about": "Cartia and Plavix are supplied by Australian brand name only on 8 June 2026 to an adult aged 42, with no listed gastro-protective medicine supplied anywhere in the record.",
+    "findings": [
+      {
+        "criterion": "NHSBSA-GIB04",
+        "must_cite": [
+          [
+            "L019"
+          ],
+          [
+            "L020"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "NHSBSA-GIB04/pos-buried.csv",
+    "kind": "positive",
+    "about": "Dual antiplatelet therapy with aspirin (Astrix) and ticagrelor (Brilinta) is buried in the middle of a 15-month dispensing history for an adult aged 43, with no listed gastro-protective medicine supplied anywhere in the record.",
+    "findings": [
+      {
+        "criterion": "NHSBSA-GIB04",
+        "must_cite": [
+          [
+            "L026",
+            "L041"
+          ],
+          [
+            "L027",
+            "L032",
+            "L037",
+            "L042"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "NHSBSA-GIB04/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Aspirin (Cartia) and clopidogrel (Plavix) are supplied together on 8 June 2026 to an adult aged 41, but pantoprazole (Somac) is supplied on the same date, so gastro-protection is present.",
+    "findings": []
+  }
+]

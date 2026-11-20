@@ -1,0 +1,245 @@
+{
+  "id": "START-E4",
+  "label": "START E4",
+  "family": "STOPP_START",
+  "title": "ACE inhibitor or ARB in kidney disease with protein in the urine",
+  "statement": "Angiotensin receptor blocker (ARB) or Angiotensin Converting Enzyme Inhibitor (ACE-I) in chronic kidney disease with proteinuria i.e., urine albumin excretion >300 mg/24 hours.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A person with long-term kidney disease and a lot of protein in the urine should usually take an ACE inhibitor or an ARB, because these medicines slow further damage to the kidneys.",
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Chronic kidney disease",
+      "meets": "A line records chronic kidney disease.",
+      "ask_when": "always",
+      "close_when": {
+        "group": "A"
+      }
+    },
+    {
+      "kind": "result",
+      "what": "Urine albumin excretion",
+      "meets": "Timed urine albumin excretion above 300 mg/24 hours meets the published test. A result of 300 mg/24 hours or lower does not meet that test."
+    },
+    {
+      "kind": "result",
+      "what": "Spot urine albumin to creatinine ratio (uACR) for Australian review",
+      "meets": "Use a measured spot urine albumin to creatinine ratio in mg/mmol. A value above 30 supports the Australian branch if another value above 30 was collected on a different date or a documented assessment confirms persistent A3 albuminuria. Enter the collection date when known. An undated entry cannot establish a separate collection date."
+    },
+    {
+      "kind": "result",
+      "what": "Spot urine albumin to creatinine ratio on a different collection date",
+      "meets": "Enter the measured spot urine albumin to creatinine ratio in mg/mmol and its actual collection date. A value above 30 mg/mmol supports persistence only if the first value was also above 30 mg/mmol and both actual collection dates are known and different. The date of entry at the counter is not the collection date."
+    },
+    {
+      "kind": "observation",
+      "what": "Documented assessment of persistent A3 albuminuria",
+      "meets": "A documented assessment confirming persistent A3 albuminuria supports the Australian review when at least one measured spot ratio is above 30 mg/mmol. An assessment that does not confirm persistence cannot cancel qualifying measurements.",
+      "options": [
+        {
+          "words": "The assessment confirms persistent A3 albuminuria",
+          "effect": "meets"
+        },
+        {
+          "words": "The assessment does not confirm persistence",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "ACE inhibitors and ARBs (medicines that meet this criterion)",
+      "ingredients": [
+        "captopril",
+        "cilazapril",
+        "enalapril",
+        "fosinopril",
+        "lisinopril",
+        "perindopril",
+        "quinapril",
+        "ramipril",
+        "trandolapril",
+        "candesartan",
+        "irbesartan",
+        "losartan",
+        "olmesartan",
+        "telmisartan",
+        "valsartan",
+        "eprosartan"
+      ],
+      "brands": {
+        "captopril": [
+          "Capoten",
+          "Acenorm",
+          "Captohexal",
+          "Topace",
+          "Zedace"
+        ],
+        "cilazapril": [
+          "Inhibace"
+        ],
+        "enalapril": [
+          "Renitec",
+          "Acetec",
+          "Alphapril",
+          "Amprace",
+          "Auspril",
+          "Elapril",
+          "Enahexal",
+          "Enalabell",
+          "Malean",
+          "Renitec M",
+          "Renitec Plus",
+          "Zan-Extra"
+        ],
+        "fosinopril": [
+          "Monace",
+          "Fosipril",
+          "Monopril"
+        ],
+        "lisinopril": [
+          "Zestril",
+          "Prinivil",
+          "Zestoretic",
+          "Fibsol",
+          "Linopril",
+          "Liprace",
+          "Lisinobell",
+          "Lisinotrust",
+          "Lisodrate",
+          "Lisodur",
+          "Lisoril",
+          "Ozten",
+          "Sinop",
+          "Zinopril"
+        ],
+        "perindopril": [
+          "Coversyl",
+          "Coversyl Plus",
+          "Viacoram",
+          "Idaprex",
+          "Idaprex Arg",
+          "Indopril",
+          "Indosyl Mono",
+          "Ozapace",
+          "Perindo",
+          "Perindo Arg",
+          "Perindoarg",
+          "Perindobell",
+          "Perisyl",
+          "Prexum",
+          "Coveram",
+          "Reaptan",
+          "Triplixam SR",
+          "Indosyl Combi"
+        ],
+        "quinapril": [
+          "Accupril",
+          "Accuretic",
+          "Acquin",
+          "Aquinafil",
+          "Filpril",
+          "Qpril"
+        ],
+        "ramipril": [
+          "Tritace",
+          "Prilace",
+          "Ramace",
+          "Ramibell",
+          "Tryzan",
+          "Vascalace",
+          "Triasyn"
+        ],
+        "trandolapril": [
+          "Gopten",
+          "Tarka",
+          "Dolapril",
+          "Goricap",
+          "Odrik",
+          "Tranalpha"
+        ],
+        "candesartan": [
+          "Atacand",
+          "Atacand Plus",
+          "Adesan",
+          "Asartan",
+          "Candelem",
+          "Candesan"
+        ],
+        "irbesartan": [
+          "Avapro",
+          "Karvea",
+          "Avapro HCT",
+          "Karvezide",
+          "Abisart",
+          "Ambotens",
+          "Avsartan",
+          "Irbesat",
+          "Irbestin",
+          "Irbetan",
+          "Irprestan",
+          "Karbesat"
+        ],
+        "losartan": [
+          "Cozaar",
+          "Hyzaar",
+          "Cozavan"
+        ],
+        "olmesartan": [
+          "Olmetec",
+          "Olmetec Plus",
+          "Sevikar",
+          "Olmertan",
+          "Olmes",
+          "Olmesart",
+          "Olsetan",
+          "Sevikar HCT"
+        ],
+        "telmisartan": [
+          "Micardis",
+          "Micardis Plus",
+          "Twynsta",
+          "Mizart",
+          "Pritor",
+          "Telmigen",
+          "Teltartan"
+        ],
+        "valsartan": [
+          "Diovan",
+          "Co-Diovan",
+          "Exforge",
+          "Dilart",
+          "Entresto",
+          "Exforge HCT"
+        ],
+        "eprosartan": [
+          "Teveten",
+          "Teveten Plus"
+        ]
+      },
+      "note": "ACE inhibitors end in -pril and ARBs end in -sartan. Combination products count, for example Coversyl Plus (perindopril with indapamide) and Exforge (valsartan with amlodipine). Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "rule_for_models": "Apply only when the record establishes age 65 years or older. If age is unknown, confirm it before reporting a finding. Suppress the finding if the record gives an end-of-life palliative focus, a contraindication to the proposed therapy or another valid clinical reason for its omission. Both branches require recorded chronic kidney disease and no Group A supply (an ACE inhibitor or ARB) in the last six months of the record. For the published criterion, flag timed urine albumin excretion above 300 mg/24 hours. For a separate Australian review, flag persistent A3 albuminuria on spot uACR above 30 mg/mmol. Require repeat A3 results on different dates or a documented assessment of persistent A3 with the measured spot ratio. Cite the kidney disease and supporting albumin lines, including the dates and units. When chronic kidney disease is confirmed, Group A cover is absent and one measured spot ratio is above 30 mg/mmol, check whether persistence is already established. Two results above 30 mg/mmol require two different known collection dates. Never use the counter entry date as a collection date. One spot ratio above 30 mg/mmol and an affirmative documented assessment also qualify. If neither branch already qualifies and persistence remains unresolved, report only a possible finding. Name only the outstanding evidence: \"Spot urine albumin to creatinine ratio on a different collection date\" for a repeat measurement or \"Documented assessment of persistent A3 albuminuria\" for a recorded assessment. Either can establish persistence. An assessment that does not confirm persistence does not override independently qualifying measurements. If all albumin evidence is missing, ask for \"Urine albumin excretion\" or \"Spot urine albumin to creatinine ratio (uACR) for Australian review\" before asking about persistence. Ask whether the doctor has checked urine protein or albumin and whether the dated albumin result is available. A report that the test was done does not establish its value. If a timed result qualifies, no spot result is needed. If the spot evidence qualifies, no timed result is needed. A result below its own threshold does not cancel the other branch. If a single high spot result still needs confirmation, keep the review possible. When all available albumin measurements are at or below their respective thresholds, make no finding. If all albumin results are missing, keep the review possible when the other conditions apply. Never convert a spot result to mg/24 hours or substitute total urine protein for albumin.",
+  "cannot_be_seen": "Why an ACE inhibitor or ARB was never started or was stopped, such as a high potassium, a sharp fall in kidney function, swelling of the face or lips, or low blood pressure. Also results held only by a hospital or specialist, and whether the person is near the end of life.",
+  "ask_the_gp": "Whether an ACE inhibitor or an ARB is suitable for this person, with a check of blood pressure, potassium and kidney function.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

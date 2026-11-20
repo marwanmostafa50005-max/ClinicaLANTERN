@@ -1,0 +1,339 @@
+{
+  "id": "BRISNIK-HR-I1",
+  "label": "Brisnik: antidepressant with low sodium, no diuretic",
+  "family": "BRISNIK",
+  "title": "Antidepressant and low blood sodium without a diuretic",
+  "statement": "Prescribed any antidepressant - and the patient has developed hyponatremia (< 130 mmol/l) under treatment without being treated with a diuretic",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Statement text reproduced without changes. Not endorsed by the source authors."
+  },
+  "plain_summary": "Antidepressants can lower the blood sodium. A sodium below 130 mmol/L that appears during treatment, with no evidence of diuretic treatment at the time, should prompt a review. Arrange emergency assessment immediately for current symptomatic hyponatraemia, including acute confusion or seizures. For a resolved historical episode, review the treatment and follow-up. If the result is missing, check it before assigning urgency on that basis.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antidepressants (any)",
+      "ingredients": [
+        "citalopram",
+        "escitalopram",
+        "fluoxetine",
+        "fluvoxamine",
+        "paroxetine",
+        "sertraline",
+        "venlafaxine",
+        "desvenlafaxine",
+        "duloxetine",
+        "mirtazapine",
+        "moclobemide",
+        "vortioxetine",
+        "reboxetine",
+        "agomelatine",
+        "amitriptyline",
+        "nortriptyline",
+        "imipramine",
+        "clomipramine",
+        "dosulepin",
+        "doxepin",
+        "trimipramine",
+        "phenelzine",
+        "tranylcypromine",
+        "mianserin"
+      ],
+      "brands": {
+        "citalopram": [
+          "Celapram",
+          "Cipramil",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talam",
+          "Talohexal"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam",
+          "Loxalate"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Zactin",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Paxtine",
+          "Aropax CR",
+          "Extine",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ],
+        "sertraline": [
+          "Zoloft",
+          "Concorz",
+          "Sertra",
+          "Detralon",
+          "Eleva",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertracor",
+          "Sertratrust",
+          "Setrona",
+          "Tralen",
+          "Xydep"
+        ],
+        "venlafaxine": [
+          "Efexor-XR",
+          "Elaxine",
+          "Altven",
+          "Elaxine SR",
+          "Enlafax XR",
+          "Evelexa XR",
+          "Ozvenaf",
+          "Venfax SR",
+          "Venla",
+          "Venlexor XR"
+        ],
+        "desvenlafaxine": [
+          "Pristiq",
+          "Desfax",
+          "Desven"
+        ],
+        "duloxetine": [
+          "Cymbalta",
+          "Andepra",
+          "Baltine",
+          "Coperin",
+          "Deotine",
+          "Depreta",
+          "Drulox",
+          "Dulocym",
+          "Duloxecor",
+          "Dytrex",
+          "Symlox",
+          "Texotine",
+          "Tixol",
+          "Xerol DR"
+        ],
+        "mirtazapine": [
+          "Avanza",
+          "Remeron",
+          "Aurozapine",
+          "Avanza Soltab",
+          "Axit",
+          "Milivin OD",
+          "Mirtanza",
+          "Mirtanza ODT",
+          "Mirtazon",
+          "Remeron Soltab"
+        ],
+        "moclobemide": [
+          "Aurorix",
+          "Amira",
+          "Arima",
+          "Clobemide",
+          "Clobemix",
+          "Maosig",
+          "Mohexal"
+        ],
+        "vortioxetine": [
+          "Brintellix"
+        ],
+        "reboxetine": [
+          "Edronax"
+        ],
+        "agomelatine": [
+          "Valdoxan",
+          "Domion",
+          "Nortim",
+          "Valomel"
+        ],
+        "amitriptyline": [
+          "Endep",
+          "Amichlor",
+          "Amidep",
+          "Entrip"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "dosulepin": [
+          "Dothep",
+          "Prothiaden"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ],
+        "phenelzine": [
+          "Nardil"
+        ],
+        "tranylcypromine": [
+          "Parnate",
+          "Parpromine",
+          "Tranamef",
+          "Tranylmed"
+        ],
+        "mianserin": [
+          "Lumin",
+          "Tolvon"
+        ]
+      },
+      "note": "Any dose counts. Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "B",
+      "name": "Diuretics (their presence means no finding)",
+      "ingredients": [
+        "hydrochlorothiazide",
+        "indapamide",
+        "chlortalidone",
+        "furosemide",
+        "spironolactone",
+        "amiloride",
+        "bumetanide",
+        "triamterene",
+        "eplerenone",
+        "acetazolamide"
+      ],
+      "brands": {
+        "hydrochlorothiazide": [
+          "Micardis Plus (telmisartan with hydrochlorothiazide)",
+          "Karvezide (irbesartan with hydrochlorothiazide)",
+          "Co-Diovan (valsartan with hydrochlorothiazide)",
+          "Atacand Plus",
+          "Avapro HCT",
+          "Olmetec Plus",
+          "Sevikar HCT",
+          "Exforge HCT",
+          "Accuretic",
+          "Dithiazide",
+          "Micardis Plus",
+          "Karvezide",
+          "Co-Diovan",
+          "Moduretic"
+        ],
+        "indapamide": [
+          "Natrilix SR",
+          "Napamide",
+          "Coversyl Plus (perindopril with indapamide)",
+          "Dapa-Tabs",
+          "Indahexal",
+          "Indapamol",
+          "Insig",
+          "Natrilix",
+          "Odaplix SR",
+          "Tenaxil SR",
+          "Coversyl Plus"
+        ],
+        "chlortalidone": [
+          "Hygroton"
+        ],
+        "furosemide": [
+          "Lasix",
+          "Frusehexal",
+          "Frusax",
+          "Frusemix",
+          "Frusemix-M",
+          "Frusid",
+          "Furo",
+          "Lasix High Dose",
+          "Lasix M",
+          "Uremide",
+          "Urex",
+          "Urex Forte",
+          "Urex-M"
+        ],
+        "spironolactone": [
+          "Aldactone",
+          "Spiractin"
+        ],
+        "amiloride": [
+          "Moduretic (amiloride with hydrochlorothiazide)",
+          "Kaluril",
+          "Moduretic"
+        ],
+        "bumetanide": [
+          "Burinex"
+        ],
+        "triamterene": [],
+        "eplerenone": [
+          "Inspra",
+          "Espler",
+          "Inpler",
+          "Plera"
+        ],
+        "acetazolamide": [
+          "Diamox"
+        ]
+      },
+      "note": "A diuretic excludes a finding only for a period it covers. Use the timing rule below. A combination product counts if it contains a listed diuretic. No single-ingredient triamterene brand is listed in this group. Use the ingredient name when it appears on the record. Include systemic acetazolamide when it represents diuretic treatment on the sample date. If treatment on that date is unclear, ask for clarification."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "Serum sodium",
+      "meets": "Serum sodium below 130 mmol/L on the dated sample. Use the sample date to check antidepressant and diuretic treatment separately."
+    }
+  ],
+  "rule_for_models": "Assess each antidepressant treatment episode. Estimate cover for each supply from its dispense date, counting that date as day one. Divide the quantity dispensed by the units directed per day, using the strength to convert a dose to units if needed. Use recorded start, dose change or stop dates when available. Exclude a low result if a diuretic covers its test date. If directions or dates leave antidepressant cover or diuretic overlap uncertain and the episode could otherwise qualify, report a possible finding and ask for the dose, frequency or dates needed to resolve it. In the remaining periods, cite the antidepressant supply covering the test date and the sodium result if sodium fell below 130 mmol/L during treatment. If no on-treatment sodium is known or the only relevant result has no sample date, report a possible finding and ask for the value in mmol/L and the sample date. Never use the date of entry as the sample date. A baseline alone cannot establish on-treatment sodium. A result of 130 mmol/L or higher does not qualify and does not cancel a separate qualifying episode.",
+  "cannot_be_seen": "The record may omit serum sodium results, medicines bought over the counter, and diuretics supplied by another pharmacy or hospital. It may leave the cause of low sodium unclear. It may also omit the result showing whether sodium has recovered.",
+  "ask_the_gp": "Could a current sodium below 130 mmol/L be assessed today and the antidepressant reviewed? A current sodium below 120 mmol/L or acute symptoms such as confusion or seizures warrant immediate emergency assessment. For a resolved episode, could treatment and follow-up be reviewed? If the result is unknown, could the value, sample date and any follow-up be confirmed?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

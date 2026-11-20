@@ -1,0 +1,41 @@
+{
+  "id": "EU7-F61",
+  "label": "EU(7)-PIM: amantadine",
+  "family": "EU7",
+  "title": "Amantadine in an older person",
+  "statement": "Amantadine | In lists: does not appear as PIM | Main reason: Risk of anticholinergic and CNS side effects including orthostatic hypotension, falls, sedation, weakness, confusion, amnesia | Dose adjustment/special considerations: Start with 100 mg/d in 2 divided daily doses. E | Alternatives: Levodopa; carbidopa-levodopa; benserazide levodopa; irreversible inhibitor of monoamine oxidase as rasagiline. E",
+  "statement_origin": "published",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.2 candidate repairs and adopted conventions merged with attribution). Not endorsed by the source authors."
+  },
+  "plain_summary": "Amantadine can cause confusion, hallucinations, falls and dizziness on standing in older people. For Parkinson's disease in people over 65, the Australian Symmetrel product information gives one whole 100 mg capsule daily. Reduced kidney function may require a longer interval between doses.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Amantadine",
+      "ingredients": [
+        "amantadine"
+      ],
+      "brands": {
+        "amantadine": [
+          "Symmetrel",
+          "Amantamed"
+        ]
+      },
+      "note": "Capsules and syrup count."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when a person aged 65 or older has at least one supply of amantadine (Group A). Any strength counts. If age is missing and amantadine is supplied, report only a possible finding and ask whether the person is 65 or older.",
+  "cannot_be_seen": "Why amantadine was prescribed (Parkinson's disease, side effects of other medicines or flu prevention), kidney function, and whether the person has been confused or fallen.",
+  "ask_the_gp": "Whether amantadine is still needed for this person, and whether the dose suits their kidney function.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,100 @@
+{
+  "id": "EU7-F80",
+  "old_id": "LX-EU7-F80",
+  "found": true,
+  "label": "EU7-F80",
+  "family": "EU7",
+  "statement": "Terbutaline (oral) | In lists: does not appear as PIM | Main reason: Higher risk of adverse effects as compared to the inhaled form | Dose adjustment/special considerations: Use 50% of the usual dose for patients with moderate renal failure (GFR 10-50 ml/min); avoid in cases of severe renal failure (GFR <10 ml/min). M | Alternatives: Inhaled form. E",
+  "statement_chars": 351,
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "edition": "EU(7)-PIM list (2015), ESM1 full list",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.2 candidate repairs and adopted conventions merged with attribution). Not endorsed by the source authors."
+  },
+  "rights_block_as_recorded": {
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "basis": "Parent article grant printed (CC BY 4.0). ESM1 has no separate licence statement; the supplied inspection found no contrary notice. Upstream expression marked M (Micromedex), and alternatives marked P/L/McL/B, carry provenance that needs a per-member check before verbatim reuse; independently stated facts are not barred by the citation alone.",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.2 candidate repairs and adopted conventions merged with attribution). Not endorsed by the source authors.",
+    "field_dependencies": [
+      "Terbutaline (oral): special-considerations text marked M (Micromedex). Keep provenance; reuse of the verbatim M-marked expression needs a rights check; independently stated facts are not barred by the citation alone."
+    ],
+    "status_proposed": "dependency-unresolved (field-level; see field_dependencies)",
+    "per_card_check": "Elicit self-check: licence, licence link, credit line, modification notice and dependency status present on this card; independent rights review pending"
+  },
+  "context_as_recorded": {
+    "section": "Elicit family grouping (ATC level 4 with class merges): Oral terbutaline",
+    "locator": "EU(7)-PIM ESM1 rows EU7-254 (ESM table row 347, ATC R03CC03)",
+    "preambles": [
+      {
+        "scope": "EU(7)-PIM list aim (article)",
+        "text": "The aim of the study was to develop a European list of potentially inappropriate medications (PIM) for older people, which can be used for the analysis and comparison of prescribing patterns across European countries and for clinical practice."
+      },
+      {
+        "scope": "EU(7)-PIM article: dose and alternative suggestions",
+        "text": "The PIM list contains suggestions for dose adjustments and therapeutic alternatives. Dose adjustments and drug alternatives suggested by the experts during the Delphi survey were compiled and included in the EU(7)-PIM list, prioritising in each case those made by the higher number of experts. Suggestions were complemented, if necessary, with information available from the other PIM lists and from Micromedex® [[32](http://pmc.ncbi.nlm.nih.gov/articles/PMC4464049/#CR32)], a commercially available database which contains comprehensive information on drug use."
+      }
+    ],
+    "footnotes_and_definitions": [
+      {
+        "marker": "E/M/P/L/McL/B",
+        "text": "E: Experts; M: Micromedex ® [32]; P: PRISCUS list [22]; L: Laroche et al (2007) [3]; McL: McLeod et al (1997) [26]; B: Beers list (2012) [18]."
+      },
+      {
+        "marker": "blank special-considerations cell",
+        "text": "Note: if nothing is stated under “Dose adjustment / special considerations of use”, this means that no suggestion was made either by the experts or in Micromedex® ."
+      },
+      {
+        "marker": "In lists (legend a)",
+        "text": "'In lists' gives the numbered prior PIM lists in which the substance appears, with Category A (precisely this active substance is named as a PIM) or Category B (a PIM only in certain clinical conditions or comorbidities, or not named but covered as a PIM drug class). 'Does not appear as PIM' means the substance was not a PIM in those prior lists; it is still an entry of the EU(7)-PIM list and is not an exclusion. Entries the panel judged questionable carry footnote d.",
+        "source": "EU(7)-PIM ESM1 legend (footnotes a and d)"
+      }
+    ],
+    "extra_columns": [],
+    "source_rows": [
+      {
+        "source_row_id": "EU7-254",
+        "name_as_printed": "Terbutaline (oral)"
+      }
+    ],
+    "related_documents": []
+  },
+  "extraction": {
+    "note": "Paths are inside the earlier project's folder.",
+    "register": "build-evidence/resumption-20261110/criteria-lane/CRITERIA_413_REGISTER_V1.json",
+    "package_file": "build-evidence/source-successor-local/r2-4/revision-6-preparation/targeted-successor-1/clinicalantern-source-drafts-r246-preparation-successor-1.json",
+    "package_bytes": 62148118,
+    "package_sha256": "25d5a4d2b0aa1da603009b85f1713f99513cbb9bbe7e98c555dd9cd820018e97",
+    "card_version": "4.3.0-r2.2",
+    "taken": "Only the statement text, the item label, the source document fields and the rights block.",
+    "field_origins": {
+      "label": "The card's item label, unchanged.",
+      "family": "The card's source family, unchanged.",
+      "statement": "The card's text_verbatim, unchanged.",
+      "source.document": "The card's source document, unchanged.",
+      "source.edition": "The card's edition_version, unchanged.",
+      "source.citation": "The same text as the credit line. The package has no separate citation field.",
+      "source.doi": "The card's DOI, unchanged. null means the package records none.",
+      "source.url": "Built from the DOI as a doi.org link. The package records no article address. null when there is no DOI.",
+      "source.licence": "The rights block's licence, unchanged.",
+      "source.credit": "The rights block's credit line, unchanged.",
+      "source.modification_notice": "The rights block's modification notice, unchanged.",
+      "rights_block_as_recorded": "The card's whole rights block, unchanged.",
+      "context_as_recorded": "Text the earlier project recorded beside the statement: section, locator, preambles, footnotes, extra table columns, the source rows by identifier, and related documents. Row text other than the statement is not copied."
+    },
+    "cautions": [
+      "The licence is a proposal by the earlier project. It is not confirmed. The founder should check it on the publisher's page.",
+      "The earlier project recorded the rights status \"dependency-unresolved (field-level; see field_dependencies)\". That is its own self-check. Its note says an independent rights review is pending.",
+      "The earlier project lists 1 open point for this card. See rights_block_as_recorded.field_dependencies.",
+      "The statement is the wording the earlier project recorded as verbatim. This extraction did not compare it with the publisher's page.",
+      "The modification notice describes changes made by the earlier project. Check that it fits this prototype before it is shown.",
+      "The source's framing text is in context_as_recorded.preambles. It can set limits the statement does not repeat, such as the age group."
+    ]
+  }
+}

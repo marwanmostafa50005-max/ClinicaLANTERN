@@ -1,0 +1,41 @@
+[
+  {
+    "file": "KHAWAGI-G002/pos-fact.csv",
+    "kind": "positive",
+    "about": "The specialist records haloperidol as antipsychotic treatment for distressing hallucinations at age five.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G002",
+        "must_cite": [
+          [
+            "L025"
+          ],
+          [
+            "L024"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G002/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about the treatment indication for haloperidol at age five.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G002",
+        "must_cite": [
+          [
+            "L016"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G002/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Haloperidol is prescribed for persistent vomiting after chemotherapy at age five.",
+    "findings": []
+  }
+]

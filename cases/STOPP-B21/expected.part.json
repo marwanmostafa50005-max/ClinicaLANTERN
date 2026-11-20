@@ -1,0 +1,181 @@
+[
+  {
+    "file": "STOPP-B21/pos-fact.csv",
+    "kind": "positive",
+    "about": "Digoxin is documented as the initial treatment for AF rate control, with 125 micrograms daily supplied continuously from September to June.",
+    "findings": [
+      {
+        "criterion": "STOPP-B21",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L014",
+            "L018",
+            "L022",
+            "L026",
+            "L030",
+            "L034",
+            "L038",
+            "L042"
+          ],
+          [
+            "L002",
+            "L018",
+            "L022",
+            "L026",
+            "L030",
+            "L034",
+            "L038",
+            "L042"
+          ],
+          [
+            "L002",
+            "L006",
+            "L022",
+            "L026",
+            "L030",
+            "L034",
+            "L038",
+            "L042"
+          ],
+          [
+            "L002",
+            "L006",
+            "L010",
+            "L026",
+            "L030",
+            "L034",
+            "L038",
+            "L042"
+          ],
+          [
+            "L002",
+            "L006",
+            "L010",
+            "L014",
+            "L030",
+            "L034",
+            "L038",
+            "L042"
+          ],
+          [
+            "L002",
+            "L006",
+            "L010",
+            "L014",
+            "L018",
+            "L034",
+            "L038",
+            "L042"
+          ],
+          [
+            "L002",
+            "L006",
+            "L010",
+            "L014",
+            "L018",
+            "L022",
+            "L038",
+            "L042"
+          ],
+          [
+            "L002",
+            "L006",
+            "L010",
+            "L014",
+            "L018",
+            "L022",
+            "L026",
+            "L042"
+          ],
+          [
+            "L002",
+            "L006",
+            "L010",
+            "L014",
+            "L018",
+            "L022",
+            "L026",
+            "L030"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-B21/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: digoxin supplies cover more than three calendar months, but the record holds no line about AF, the indication for digoxin or prior AF rate control.",
+    "findings": [
+      {
+        "criterion": "STOPP-B21",
+        "must_cite": [
+          [
+            "L011",
+            "L014",
+            "L017",
+            "L020",
+            "L023",
+            "L026"
+          ],
+          [
+            "L002",
+            "L014",
+            "L017",
+            "L020",
+            "L023",
+            "L026"
+          ],
+          [
+            "L002",
+            "L005",
+            "L017",
+            "L020",
+            "L023",
+            "L026"
+          ],
+          [
+            "L002",
+            "L005",
+            "L008",
+            "L020",
+            "L023",
+            "L026"
+          ],
+          [
+            "L002",
+            "L005",
+            "L008",
+            "L011",
+            "L023",
+            "L026"
+          ],
+          [
+            "L002",
+            "L005",
+            "L008",
+            "L011",
+            "L014",
+            "L026"
+          ],
+          [
+            "L002",
+            "L005",
+            "L008",
+            "L011",
+            "L014",
+            "L017"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-B21/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Bisoprolol was the initial treatment for AF rate control, so adding digoxin later does not qualify even though its directions leave the daily dose unclear.",
+    "findings": []
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "file": "START-H1/pos-fact.csv",
+    "kind": "positive",
+    "about": "Eight years of rheumatoid arthritis have left the person needing help dressing, the DAS28 is 5.6 and the only ciclosporin supply is for eye use.",
+    "findings": [
+      {
+        "criterion": "START-H1",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L002"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-H1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The record shows rheumatoid arthritis, and methotrexate (Methoblastin) is supplied about every seven weeks up to the end, so a disease-modifying medicine is in place.",
+    "findings": []
+  },
+  {
+    "file": "START-H1/near-miss-no-disability.csv",
+    "kind": "near_miss",
+    "about": "The DAS28 is high and no DMARD is supplied, but the record documents unrestricted daily function despite long-standing rheumatoid arthritis.",
+    "findings": []
+  }
+]

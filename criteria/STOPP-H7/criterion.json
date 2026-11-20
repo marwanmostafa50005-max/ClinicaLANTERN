@@ -1,0 +1,275 @@
+{
+  "id": "STOPP-H7",
+  "label": "STOPP H7",
+  "family": "STOPP_START",
+  "title": "NSAID with systemic corticosteroids for arthritis",
+  "statement": "NSAID with concurrent corticosteroids for treatment of arthritis/rheumatism of any kind (increased risk of peptic ulcer disease).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "An anti-inflammatory pain medicine (NSAID) taken with systemic corticosteroids raises the risk of a stomach ulcer.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "NSAIDs, the anti-inflammatory pain medicines",
+      "ingredients": [
+        "celecoxib",
+        "diclofenac",
+        "etoricoxib",
+        "ibuprofen",
+        "indometacin",
+        "ketoprofen",
+        "ketorolac",
+        "mefenamic acid",
+        "meloxicam",
+        "naproxen",
+        "piroxicam",
+        "sulindac"
+      ],
+      "brands": {
+        "celecoxib": [
+          "Celebrex",
+          "Celaxib",
+          "Anacoxib",
+          "Celebrex Relief",
+          "Celetoid",
+          "Celexi",
+          "Celocox",
+          "Kudeq"
+        ],
+        "diclofenac": [
+          "Voltaren",
+          "Voltaren Rapid",
+          "Fenac",
+          "Clonac",
+          "Arthrotec",
+          "Cambia",
+          "Diclohexal",
+          "Difenac Rapid",
+          "Dinac",
+          "Fenac EC",
+          "Imflac",
+          "Inflamax Liquid Caps",
+          "Voltaren Rapid Extra Strength",
+          "Voltaren Rapid Liquid Capsules",
+          "Voltfast",
+          "Zorvolex"
+        ],
+        "etoricoxib": [
+          "Arcoxia"
+        ],
+        "ibuprofen": [
+          "Nurofen",
+          "Advil",
+          "Brufen",
+          "Rafen",
+          "Nurofen Plus",
+          "Panafen Plus",
+          "Nuromol",
+          "Maxigesic",
+          "Act-3",
+          "Advil 12 Hour",
+          "Advil Childrens Pain and Fever 2 to 7 Years",
+          "Advil Childrens Pain and Fever 7 to 12 Years",
+          "Advil Childrens Pain and Fever Relief 2 to 12 Years",
+          "Advil Double Strength",
+          "Advil Double Strength Caplets",
+          "Advil Double Strength Liquid Capsules",
+          "Advil Infants Pain and Fever Relief 3 Months to 2 Years",
+          "Advil Mini Caps",
+          "Advil Rapid Release",
+          "Brufen Pain",
+          "Brufen Syrup",
+          "Bugesic",
+          "Butafen",
+          "Butalgin",
+          "Fenpaed",
+          "Fenpaed Double Strength",
+          "Iprofen",
+          "Nurofen Back Pain",
+          "Nurofen Caplet",
+          "Nurofen Double Strength",
+          "Nurofen Liquid Capsule",
+          "Nurofen Meltlets",
+          "Nurofen Migraine Pain",
+          "Nurofen Period Pain",
+          "Nurofen Quickzorb",
+          "Nurofen Regular",
+          "Nurofen Tension Headache",
+          "Nurofen Zavance",
+          "Nurofen Zavance Liquid Capsules",
+          "Nurofen for Children 1 to 5 Years",
+          "Nurofen for Children 3 Months to 5 Years",
+          "Nurofen for Children 5 to 12 Years",
+          "Nurofen for Children 7+ Years",
+          "Nurofen for Children Baby 3+ Months",
+          "Nurofen for Children Infant Drops",
+          "Nurofen for Children Meltlet",
+          "Panafen IB",
+          "Panafen IB Mini Cap",
+          "Proven",
+          "Tri-Profen"
+        ],
+        "indometacin": [
+          "Indocid",
+          "Arthrexin"
+        ],
+        "ketoprofen": [
+          "Orudis",
+          "Oruvail"
+        ],
+        "ketorolac": [
+          "Toradol",
+          "Ketoral"
+        ],
+        "mefenamic acid": [
+          "Ponstan",
+          "Femin",
+          "Mefic",
+          "Menamic"
+        ],
+        "meloxicam": [
+          "Mobic",
+          "Movalis",
+          "Moxicam",
+          "Meloxibell",
+          "Agilocam",
+          "Melobic",
+          "Melox",
+          "Meloxiauro",
+          "Meloxibindo",
+          "Mobelox"
+        ],
+        "naproxen": [
+          "Naprosyn",
+          "Naprosyn SR",
+          "Anaprox",
+          "Inza",
+          "Proxen SR",
+          "Naprogesic",
+          "Aleve",
+          "Vimovo",
+          "Aleve 24 Hour",
+          "Crysanal",
+          "Femme-Free",
+          "Naprofem",
+          "Naprosyn SR 1000",
+          "Nurolasts Period Pain",
+          "Proxen"
+        ],
+        "piroxicam": [
+          "Feldene",
+          "Mobilis",
+          "Candyl",
+          "Candyl-D",
+          "Feldene-D",
+          "Mobilis D",
+          "Pirohexal-D"
+        ],
+        "sulindac": [
+          "Aclin"
+        ]
+      },
+      "note": "Tablets, capsules, liquids, suppositories and injections count. Skin gels, creams and eye drops do not count, for example Voltaren Emulgel. Aspirin is not in this group. Nurofen Plus and Panafen Plus are ibuprofen with codeine. Nuromol and Maxigesic are ibuprofen with paracetamol. Arthrotec is diclofenac with misoprostol. Vimovo is naproxen with esomeprazole. Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "B",
+      "name": "Systemic corticosteroids",
+      "ingredients": [
+        "prednisolone",
+        "prednisone",
+        "methylprednisolone",
+        "dexamethasone",
+        "triamcinolone",
+        "betamethasone"
+      ],
+      "brands": {
+        "prednisolone": [
+          "Panafcortelone",
+          "Predsolone",
+          "Redipred",
+          "Solone"
+        ],
+        "prednisone": [
+          "Panafcort",
+          "Predsone",
+          "Sone"
+        ],
+        "methylprednisolone": [
+          "Medrol",
+          "Solu-Medrol",
+          "Depo-Medrol"
+        ],
+        "dexamethasone": [
+          "Dexmethsone"
+        ],
+        "triamcinolone": [
+          "Kenacort-A 40"
+        ],
+        "betamethasone": [
+          "Celestone Chronodose"
+        ]
+      },
+      "note": "Oral and systemic injectable forms count. Inhaled, nasal, eye, ear and skin corticosteroids do not count. Hydrocortisone and fludrocortisone taken as hormone replacement are not in this group. Generic packs that show the ingredient name with a company name count too. Count an injection used systemically. Exclude intra-articular injections and local Kenacort-A 10. If a product has both systemic and local routes and the route is unclear, report at most a possible finding and ask where it was injected."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Arthritis or rheumatism of any kind, for example rheumatoid arthritis or osteoarthritis",
+      "meets": "A diagnosis of arthritis or rheumatism is recorded."
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for this NSAID course",
+      "meets": "The directions or treatment record link the NSAID course to arthritis or rheumatism.",
+      "options": [
+        {
+          "words": "For arthritis or rheumatism",
+          "effect": "meets"
+        },
+        {
+          "words": "Solely for another condition",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Arthritis or rheumatism as a reason for the systemic corticosteroid course under review",
+      "meets": "The directions or treatment record link the steroid course to arthritis or rheumatism.",
+      "options": [
+        {
+          "words": "This steroid course treated arthritis or rheumatism",
+          "effect": "meets"
+        },
+        {
+          "words": "This steroid course was used only for another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "For people aged 65 or older (flag missing age as unconfirmed), confirm a finding when a systemic Group A NSAID and a systemic Group B corticosteroid both treat recorded arthritis or rheumatism and their treatment days overlap. Assess each pair of courses separately. Give no finding for that pair if the treatment days are known to be separate, if the supplies are more than 60 days apart without overlapping cover, if arthritis or rheumatism is ruled out, or if either course was used solely for another condition. A systemic steroid injection can qualify. Exclude a local injection. For an otherwise qualifying pair, if the injection route is unclear, report a possible finding. Name the injection and its date in the reason and ask how it was given. If the pair could otherwise qualify but treatment dates are unclear, supplies within 60 days of each other support only a possible finding. Name both medicines and their supply dates in the reason and ask whether they were taken together on any day. Use only evidence linked to those courses to settle the route, reason for treatment and overlap. If the pair could qualify but the diagnosis or either indication is missing, report a possible finding. Name the missing diagnosis as \"Arthritis or rheumatism of any kind, for example rheumatoid arthritis or osteoarthritis\". For a missing indication, name \"Reason for this NSAID course\" or \"Arthritis or rheumatism as a reason for the systemic corticosteroid course under review\", or both if needed. For every finding, cite one qualifying NSAID supply, then one qualifying systemic or possibly systemic corticosteroid supply from the pair, then the arthritis or rheumatism diagnosis line when present.",
+  "cannot_be_seen": "Why each medicine was prescribed, whether a stomach-protecting medicine is taken, and how often each is really taken. Also anti-inflammatory medicines bought without a prescription and medicines supplied by another pharmacy.",
+  "ask_the_gp": "Whether the NSAID and the steroid are both needed for the arthritis, and whether stomach protection is in place.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

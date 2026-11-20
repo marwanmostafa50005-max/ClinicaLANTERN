@@ -1,0 +1,62 @@
+[
+  {
+    "file": "START-J1/pos-fact.csv",
+    "kind": "positive",
+    "about": "Diabetes is recorded and urine albumin is 85 mg/24 hours after an earlier negative dipstick. The eGFR is 52 and no ACE inhibitor or ARB is supplied.",
+    "findings": [
+      {
+        "criterion": "START-J1",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L047"
+          ],
+          [
+            "L048"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-J1/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the spot urine albumin-to-creatinine ratio is 3.2 mg/mmol and diabetes medicines are supplied. The missing facts are Diabetes and eGFR. The Wegovy supplies for weight management do not establish diabetes.",
+    "findings": [
+      {
+        "criterion": "START-J1",
+        "must_cite": [
+          [
+            "L003",
+            "L004",
+            "L007",
+            "L008",
+            "L011",
+            "L012",
+            "L015",
+            "L016",
+            "L019",
+            "L020",
+            "L023",
+            "L024",
+            "L027",
+            "L028",
+            "L031",
+            "L035"
+          ],
+          [
+            "L037"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-J1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The man has diabetes, an eGFR of 52 and no ACE inhibitor or ARB supply in the last six months. His spot urine albumin-to-creatinine ratio is 2.7 mg/mmol, with no other evidence of proteinuria.",
+    "findings": []
+  }
+]

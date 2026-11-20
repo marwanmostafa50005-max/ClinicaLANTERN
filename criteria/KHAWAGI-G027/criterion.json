@@ -1,0 +1,94 @@
+{
+  "id": "KHAWAGI-G027",
+  "label": "Khawagi G027: tricyclic antidepressant in chronic heart failure",
+  "family": "KHAWAGI",
+  "title": "Tricyclic antidepressant in chronic heart failure",
+  "statement": "(N) Patient with chronic heart failure - is prescribed a tricyclic antidepressant",
+  "statement_origin": "published",
+  "source": {
+    "document": "Quality and safety of medication use in primary care: consensus validation of a new set of explicit medication assessment criteria and prioritisation of topics for improvement",
+    "citation": "Dreischulte T, Grant AM, McCowan C, McAnaw JJ, Guthrie B. BMC Clinical Pharmacology 2012;12:5.",
+    "doi": "10.1186/1472-6904-12-5",
+    "url": "https://link.springer.com/article/10.1186/1472-6904-12-5",
+    "licence": "CC BY 2.0",
+    "licence_status": "proposed",
+    "credit": "© 2012 Dreischulte et al., licensee BioMed Central Ltd. Table 5. DOI 10.1186/1472-6904-12-5. CC BY 2.0. Local selection and record conventions added.",
+    "modification_notice": "The published statement is reproduced with local screening and case rules added."
+  },
+  "plain_summary": "A tricyclic antidepressant prompts review in chronic heart failure even when the daily dose is below 50 mg or cannot be calculated.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Tricyclic antidepressants",
+      "ingredients": [
+        "amitriptyline",
+        "clomipramine",
+        "dosulepin",
+        "doxepin",
+        "imipramine",
+        "nortriptyline",
+        "trimipramine"
+      ],
+      "brands": {
+        "amitriptyline": [
+          "Endep",
+          "Amichlor",
+          "Amidep",
+          "Entrip"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "dosulepin": [
+          "Dothep",
+          "Prothiaden"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ]
+      },
+      "note": "Use oral tricyclic antidepressants. A compounded topical product alone does not establish systemic tricyclic treatment. Dosulepin may appear as dothiepin."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Chronic heart failure",
+      "meets": "A record or pharmacist answer confirms a current or past diagnosis of chronic heart failure by this supply. If the history or timing is unknown, leave the finding open.",
+      "options": [
+        {
+          "words": "Chronic heart failure had been diagnosed by this supply",
+          "effect": "meets"
+        },
+        {
+          "words": "Chronic heart failure had never been diagnosed by this supply",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "For any oral Group A tricyclic supply, regardless of daily dose, give a finding and cite both the supply and the diagnosis when chronic heart failure is documented by the supply date. Give no finding when chronic heart failure is ruled out or only acute heart failure is established. If chronic heart failure status is unknown, report only a possible finding and ask whether the patient had ever been diagnosed with chronic heart failure by that supply, using heart failure medicines only to guide the question.",
+  "cannot_be_seen": "Supplies cannot establish a diagnosis of chronic heart failure, the actual dose taken or an unwritten dosing schedule.",
+  "ask_the_gp": "Could you confirm the heart failure history and daily dose, and review whether this tricyclic is suitable?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

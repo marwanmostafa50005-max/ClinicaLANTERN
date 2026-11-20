@@ -1,0 +1,33 @@
+patient_ref,patient_age,patient_sex,record_type,dispense_date,medicine,brand,strength,form,quantity,repeats_left,directions,prescriber,detail,value
+F-G40-03,55,M,condition,2026-01-19,,,,,,,,,Type 2 diabetes,Confirmed
+F-G40-03,55,M,,2026-01-19,empagliflozin,Jardiance,25 mg,tablet,30,5,Take one tablet each morning,Dr A. Example,,
+F-G40-03,55,M,result,2026-01-19,,,,,,,,,eGFR,84 mL/min/1.73 m2
+F-G40-03,55,M,result,2026-01-19,,,,,,,,,HbA1c,7.1%
+F-G40-03,55,M,,2026-01-20,atorvastatin,,20 mg,tablet,30,5,Take one tablet daily,Dr A. Example,,
+F-G40-03,55,M,,2026-01-22,amlodipine,,5 mg,tablet,30,5,Take one tablet daily,Dr A. Example,,
+F-G40-03,55,M,,2026-02-18,empagliflozin,Jardiance,25 mg,tablet,30,4,Take one tablet each morning,Dr A. Example,,
+F-G40-03,55,M,,2026-02-19,atorvastatin,,20 mg,tablet,30,4,Take one tablet daily,Dr A. Example,,
+F-G40-03,55,M,,2026-02-21,amlodipine,,5 mg,tablet,30,4,Take one tablet daily,Dr A. Example,,
+F-G40-03,55,M,,2026-03-20,empagliflozin,Jardiance,25 mg,tablet,30,3,Take one tablet each morning,Dr A. Example,,
+F-G40-03,55,M,,2026-03-21,atorvastatin,,20 mg,tablet,30,3,Take one tablet daily,Dr A. Example,,
+F-G40-03,55,M,,2026-03-23,amlodipine,,5 mg,tablet,30,3,Take one tablet daily,Dr A. Example,,
+F-G40-03,55,M,result,2026-04-04,,,,,,,,,HbA1c,7.1%
+F-G40-03,55,M,,2026-04-19,empagliflozin,Jardiance,25 mg,tablet,30,2,Take one tablet each morning,Dr A. Example,,
+F-G40-03,55,M,,2026-04-20,atorvastatin,,20 mg,tablet,30,2,Take one tablet daily,Dr A. Example,,
+F-G40-03,55,M,,2026-04-22,amlodipine,,5 mg,tablet,30,2,Take one tablet daily,Dr A. Example,,
+F-G40-03,55,M,,2026-05-19,empagliflozin,Jardiance,25 mg,tablet,30,1,Take one tablet each morning,Dr A. Example,,
+F-G40-03,55,M,,2026-05-20,atorvastatin,,20 mg,tablet,30,1,Take one tablet daily,Dr A. Example,,
+F-G40-03,55,M,,2026-05-22,amlodipine,,5 mg,tablet,30,1,Take one tablet daily,Dr A. Example,,
+F-G40-03,55,M,result,2026-06-16,,,,,,,,,HbA1c,7.2%
+F-G40-03,55,M,observation,2026-06-16,,,,,,,,,HbA1c testing plan,Stable at the agreed HbA1c target of 7.5% or lower. Repeat in 6 months.
+F-G40-03,55,M,,2026-06-18,empagliflozin,Jardiance,25 mg,tablet,30,0,Take one tablet each morning,Dr A. Example,,
+F-G40-03,55,M,,2026-06-19,atorvastatin,,20 mg,tablet,30,0,Take one tablet daily,Dr A. Example,,
+F-G40-03,55,M,,2026-06-21,amlodipine,,5 mg,tablet,30,0,Take one tablet daily,Dr A. Example,,
+F-G40-03,55,M,result,2026-07-03,,,,,,,,,eGFR,84 mL/min/1.73 m2
+F-G40-03,55,M,,2026-07-18,empagliflozin,Jardiance,25 mg,tablet,30,5,Take one tablet each morning,Dr A. Example,,
+F-G40-03,55,M,,2026-07-19,atorvastatin,,20 mg,tablet,30,5,Take one tablet daily,Dr A. Example,,
+F-G40-03,55,M,,2026-07-21,amlodipine,,5 mg,tablet,30,5,Take one tablet daily,Dr A. Example,,
+F-G40-03,55,M,,2026-08-17,empagliflozin,Jardiance,25 mg,tablet,30,4,Take one tablet each morning,Dr A. Example,,
+F-G40-03,55,M,,2026-08-18,atorvastatin,,20 mg,tablet,30,4,Take one tablet daily,Dr A. Example,,
+F-G40-03,55,M,,2026-08-20,amlodipine,,5 mg,tablet,30,4,Take one tablet daily,Dr A. Example,,
+F-G40-03,55,M,,2026-09-16,empagliflozin,Jardiance,25 mg,tablet,30,3,Take one tablet each morning,Dr A. Example,,

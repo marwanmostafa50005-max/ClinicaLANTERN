@@ -1,0 +1,45 @@
+[
+  {
+    "file": "STOPP-E4/pos-fact.csv",
+    "kind": "positive",
+    "about": "Mobic 7.5 mg (meloxicam) is supplied 3 times from May 2026 to August 2026 and shown by brand name only, and the record holds the line \"eGFR 41 mL/min/1.73 m2\" dated 2026-04-20. The finding must cite the supplies and that line.",
+    "findings": [
+      {
+        "criterion": "STOPP-E4",
+        "must_cite": [
+          [
+            "L025",
+            "L030",
+            "L037"
+          ],
+          [
+            "L020"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-E4/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about the eGFR (kidney function). Naprosyn 500 mg (naproxen) is supplied 3 times from May 2026 to August 2026.",
+    "findings": [
+      {
+        "criterion": "STOPP-E4",
+        "must_cite": [
+          [
+            "L014",
+            "L018",
+            "L023"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-E4/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The eGFR was 63 mL/min/1.73 m2 before the diclofenac courses. It fell to 41 mL/min/1.73 m2 after the last 15-day supply had ended.",
+    "findings": []
+  }
+]

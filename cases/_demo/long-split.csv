@@ -1,0 +1,311 @@
+patient_ref,patient_age,patient_sex,dispense_date,medicine,brand,strength,form,quantity,repeats_left,directions,prescriber
+F-003,74,M,2024-01-08,,Xarelto,20 mg,tablet,28,5,Take ONE tablet daily with food,Dr F. Example
+F-003,74,M,2024-02-08,,Xarelto,20 mg,tablet,28,5,Take ONE tablet daily with food,Dr F. Example
+F-003,74,M,2024-03-08,,Xarelto,20 mg,tablet,28,5,Take ONE tablet daily with food,Dr F. Example
+F-003,74,M,2024-04-08,,Xarelto,20 mg,tablet,28,5,Take ONE tablet daily with food,Dr F. Example
+F-003,74,M,2024-05-08,,Xarelto,20 mg,tablet,28,5,Take ONE tablet daily with food,Dr F. Example
+F-003,74,M,2024-06-08,,Xarelto,20 mg,tablet,28,5,Take ONE tablet daily with food,Dr F. Example
+F-003,74,M,2024-07-08,,Xarelto,20 mg,tablet,28,5,Take ONE tablet daily with food,Dr F. Example
+F-003,74,M,2024-08-08,,Xarelto,20 mg,tablet,28,5,Take ONE tablet daily with food,Dr F. Example
+F-003,74,M,2024-09-08,,Xarelto,20 mg,tablet,28,5,Take ONE tablet daily with food,Dr F. Example
+F-003,74,M,2024-10-08,,Xarelto,20 mg,tablet,28,5,Take ONE tablet daily with food,Dr F. Example
+F-003,74,M,2024-11-08,,Xarelto,20 mg,tablet,28,5,Take ONE tablet daily with food,Dr F. Example
+F-003,74,M,2024-12-08,,Xarelto,20 mg,tablet,28,5,Take ONE tablet daily with food,Dr F. Example
+F-003,74,M,2025-01-08,,Xarelto,20 mg,tablet,28,5,Take ONE tablet daily with food,Dr F. Example
+F-003,74,M,2025-02-08,,Xarelto,20 mg,tablet,28,5,Take ONE tablet daily with food,Dr F. Example
+F-003,74,M,2025-03-08,,Xarelto,20 mg,tablet,28,5,Take ONE tablet daily with food,Dr F. Example
+F-003,74,M,2025-04-08,,Xarelto,20 mg,tablet,28,5,Take ONE tablet daily with food,Dr F. Example
+F-003,74,M,2025-05-08,,Xarelto,20 mg,tablet,28,5,Take ONE tablet daily with food,Dr F. Example
+F-003,74,M,2025-06-08,,Xarelto,20 mg,tablet,28,5,Take ONE tablet daily with food,Dr F. Example
+F-003,74,M,2025-07-08,,Xarelto,20 mg,tablet,28,5,Take ONE tablet daily with food,Dr F. Example
+F-003,74,M,2025-08-08,,Xarelto,20 mg,tablet,28,5,Take ONE tablet daily with food,Dr F. Example
+F-003,74,M,2025-09-08,,Xarelto,20 mg,tablet,28,5,Take ONE tablet daily with food,Dr F. Example
+F-003,74,M,2025-10-08,,Xarelto,20 mg,tablet,28,5,Take ONE tablet daily with food,Dr F. Example
+F-003,74,M,2025-11-08,,Xarelto,20 mg,tablet,28,5,Take ONE tablet daily with food,Dr F. Example
+F-003,74,M,2025-12-08,,Xarelto,20 mg,tablet,28,5,Take ONE tablet daily with food,Dr F. Example
+F-003,74,M,2026-01-08,,Xarelto,20 mg,tablet,28,5,Take ONE tablet daily with food,Dr F. Example
+F-003,74,M,2026-02-08,,Xarelto,20 mg,tablet,28,5,Take ONE tablet daily with food,Dr F. Example
+F-003,74,M,2026-03-08,,Xarelto,20 mg,tablet,28,5,Take ONE tablet daily with food,Dr F. Example
+F-003,74,M,2026-04-08,,Xarelto,20 mg,tablet,28,5,Take ONE tablet daily with food,Dr F. Example
+F-003,74,M,2026-05-08,,Xarelto,20 mg,tablet,28,5,Take ONE tablet daily with food,Dr F. Example
+F-003,74,M,2026-06-08,,Xarelto,20 mg,tablet,28,5,Take ONE tablet daily with food,Dr F. Example
+F-003,74,M,2026-07-08,,Xarelto,20 mg,tablet,28,5,Take ONE tablet daily with food,Dr F. Example
+F-003,74,M,2026-08-08,,Xarelto,20 mg,tablet,28,5,Take ONE tablet daily with food,Dr F. Example
+F-003,74,M,2026-09-08,,Xarelto,20 mg,tablet,28,5,Take ONE tablet daily with food,Dr F. Example
+F-003,74,M,2026-10-08,,Xarelto,20 mg,tablet,28,5,Take ONE tablet daily with food,Dr F. Example
+F-003,74,M,2024-01-06,metformin,Diabex XR,1000 mg,modified release tablet,60,4,Take ONE tablet twice a day with food,Dr F. Example
+F-003,74,M,2024-02-06,metformin,Diabex XR,1000 mg,modified release tablet,60,4,Take ONE tablet twice a day with food,Dr F. Example
+F-003,74,M,2024-03-06,metformin,Diabex XR,1000 mg,modified release tablet,60,4,Take ONE tablet twice a day with food,Dr F. Example
+F-003,74,M,2024-04-06,metformin,Diabex XR,1000 mg,modified release tablet,60,4,Take ONE tablet twice a day with food,Dr F. Example
+F-003,74,M,2024-05-06,metformin,Diabex XR,1000 mg,modified release tablet,60,4,Take ONE tablet twice a day with food,Dr F. Example
+F-003,74,M,2024-06-06,metformin,Diabex XR,1000 mg,modified release tablet,60,4,Take ONE tablet twice a day with food,Dr F. Example
+F-003,74,M,2024-07-06,metformin,Diabex XR,1000 mg,modified release tablet,60,4,Take ONE tablet twice a day with food,Dr F. Example
+F-003,74,M,2024-08-06,metformin,Diabex XR,1000 mg,modified release tablet,60,4,Take ONE tablet twice a day with food,Dr F. Example
+F-003,74,M,2024-09-06,metformin,Diabex XR,1000 mg,modified release tablet,60,4,Take ONE tablet twice a day with food,Dr F. Example
+F-003,74,M,2024-10-06,metformin,Diabex XR,1000 mg,modified release tablet,60,4,Take ONE tablet twice a day with food,Dr F. Example
+F-003,74,M,2024-11-06,metformin,Diabex XR,1000 mg,modified release tablet,60,4,Take ONE tablet twice a day with food,Dr F. Example
+F-003,74,M,2024-12-06,metformin,Diabex XR,1000 mg,modified release tablet,60,4,Take ONE tablet twice a day with food,Dr F. Example
+F-003,74,M,2025-01-06,metformin,Diabex XR,1000 mg,modified release tablet,60,4,Take ONE tablet twice a day with food,Dr F. Example
+F-003,74,M,2025-02-06,metformin,Diabex XR,1000 mg,modified release tablet,60,4,Take ONE tablet twice a day with food,Dr F. Example
+F-003,74,M,2025-03-06,metformin,Diabex XR,1000 mg,modified release tablet,60,4,Take ONE tablet twice a day with food,Dr F. Example
+F-003,74,M,2025-04-06,metformin,Diabex XR,1000 mg,modified release tablet,60,4,Take ONE tablet twice a day with food,Dr F. Example
+F-003,74,M,2025-05-06,metformin,Diabex XR,1000 mg,modified release tablet,60,4,Take ONE tablet twice a day with food,Dr F. Example
+F-003,74,M,2025-06-06,metformin,Diabex XR,1000 mg,modified release tablet,60,4,Take ONE tablet twice a day with food,Dr F. Example
+F-003,74,M,2025-07-06,metformin,Diabex XR,1000 mg,modified release tablet,60,4,Take ONE tablet twice a day with food,Dr F. Example
+F-003,74,M,2025-08-06,metformin,Diabex XR,1000 mg,modified release tablet,60,4,Take ONE tablet twice a day with food,Dr F. Example
+F-003,74,M,2025-09-06,metformin,Diabex XR,1000 mg,modified release tablet,60,4,Take ONE tablet twice a day with food,Dr F. Example
+F-003,74,M,2025-10-06,metformin,Diabex XR,1000 mg,modified release tablet,60,4,Take ONE tablet twice a day with food,Dr F. Example
+F-003,74,M,2025-11-06,metformin,Diabex XR,1000 mg,modified release tablet,60,4,Take ONE tablet twice a day with food,Dr F. Example
+F-003,74,M,2025-12-06,metformin,Diabex XR,1000 mg,modified release tablet,60,4,Take ONE tablet twice a day with food,Dr F. Example
+F-003,74,M,2026-01-06,metformin,Diabex XR,1000 mg,modified release tablet,60,4,Take ONE tablet twice a day with food,Dr F. Example
+F-003,74,M,2026-02-06,metformin,Diabex XR,1000 mg,modified release tablet,60,4,Take ONE tablet twice a day with food,Dr F. Example
+F-003,74,M,2026-03-06,metformin,Diabex XR,1000 mg,modified release tablet,60,4,Take ONE tablet twice a day with food,Dr F. Example
+F-003,74,M,2026-04-06,metformin,Diabex XR,1000 mg,modified release tablet,60,4,Take ONE tablet twice a day with food,Dr F. Example
+F-003,74,M,2026-05-06,metformin,Diabex XR,1000 mg,modified release tablet,60,4,Take ONE tablet twice a day with food,Dr F. Example
+F-003,74,M,2026-06-06,metformin,Diabex XR,1000 mg,modified release tablet,60,4,Take ONE tablet twice a day with food,Dr F. Example
+F-003,74,M,2026-07-06,metformin,Diabex XR,1000 mg,modified release tablet,60,4,Take ONE tablet twice a day with food,Dr F. Example
+F-003,74,M,2026-08-06,metformin,Diabex XR,1000 mg,modified release tablet,60,4,Take ONE tablet twice a day with food,Dr F. Example
+F-003,74,M,2026-09-06,metformin,Diabex XR,1000 mg,modified release tablet,60,4,Take ONE tablet twice a day with food,Dr F. Example
+F-003,74,M,2026-10-06,metformin,Diabex XR,1000 mg,modified release tablet,60,4,Take ONE tablet twice a day with food,Dr F. Example
+F-003,74,M,2024-01-06,perindopril arginine,Coversyl,5 mg,tablet,30,4,Take ONE tablet in the morning,Dr F. Example
+F-003,74,M,2024-02-06,perindopril arginine,Coversyl,5 mg,tablet,30,4,Take ONE tablet in the morning,Dr F. Example
+F-003,74,M,2024-03-06,perindopril arginine,Coversyl,5 mg,tablet,30,4,Take ONE tablet in the morning,Dr F. Example
+F-003,74,M,2024-04-06,perindopril arginine,Coversyl,5 mg,tablet,30,4,Take ONE tablet in the morning,Dr F. Example
+F-003,74,M,2024-05-06,perindopril arginine,Coversyl,5 mg,tablet,30,4,Take ONE tablet in the morning,Dr F. Example
+F-003,74,M,2024-06-06,perindopril arginine,Coversyl,5 mg,tablet,30,4,Take ONE tablet in the morning,Dr F. Example
+F-003,74,M,2024-07-06,perindopril arginine,Coversyl,5 mg,tablet,30,4,Take ONE tablet in the morning,Dr F. Example
+F-003,74,M,2024-08-06,perindopril arginine,Coversyl,5 mg,tablet,30,4,Take ONE tablet in the morning,Dr F. Example
+F-003,74,M,2024-09-06,perindopril arginine,Coversyl,5 mg,tablet,30,4,Take ONE tablet in the morning,Dr F. Example
+F-003,74,M,2024-10-06,perindopril arginine,Coversyl,5 mg,tablet,30,4,Take ONE tablet in the morning,Dr F. Example
+F-003,74,M,2024-11-06,perindopril arginine,Coversyl,5 mg,tablet,30,4,Take ONE tablet in the morning,Dr F. Example
+F-003,74,M,2024-12-06,perindopril arginine,Coversyl,5 mg,tablet,30,4,Take ONE tablet in the morning,Dr F. Example
+F-003,74,M,2025-01-06,perindopril arginine,Coversyl,5 mg,tablet,30,4,Take ONE tablet in the morning,Dr F. Example
+F-003,74,M,2025-02-06,perindopril arginine,Coversyl,5 mg,tablet,30,4,Take ONE tablet in the morning,Dr F. Example
+F-003,74,M,2025-03-06,perindopril arginine,Coversyl,5 mg,tablet,30,4,Take ONE tablet in the morning,Dr F. Example
+F-003,74,M,2025-04-06,perindopril arginine,Coversyl,5 mg,tablet,30,4,Take ONE tablet in the morning,Dr F. Example
+F-003,74,M,2025-05-06,perindopril arginine,Coversyl,5 mg,tablet,30,4,Take ONE tablet in the morning,Dr F. Example
+F-003,74,M,2025-06-06,perindopril arginine,Coversyl,5 mg,tablet,30,4,Take ONE tablet in the morning,Dr F. Example
+F-003,74,M,2025-07-06,perindopril arginine,Coversyl,5 mg,tablet,30,4,Take ONE tablet in the morning,Dr F. Example
+F-003,74,M,2025-08-06,perindopril arginine,Coversyl,5 mg,tablet,30,4,Take ONE tablet in the morning,Dr F. Example
+F-003,74,M,2025-09-06,perindopril arginine,Coversyl,5 mg,tablet,30,4,Take ONE tablet in the morning,Dr F. Example
+F-003,74,M,2025-10-06,perindopril arginine,Coversyl,5 mg,tablet,30,4,Take ONE tablet in the morning,Dr F. Example
+F-003,74,M,2025-11-06,perindopril arginine,Coversyl,5 mg,tablet,30,4,Take ONE tablet in the morning,Dr F. Example
+F-003,74,M,2025-12-06,perindopril arginine,Coversyl,5 mg,tablet,30,4,Take ONE tablet in the morning,Dr F. Example
+F-003,74,M,2026-01-06,perindopril arginine,Coversyl,5 mg,tablet,30,4,Take ONE tablet in the morning,Dr F. Example
+F-003,74,M,2026-02-06,perindopril arginine,Coversyl,5 mg,tablet,30,4,Take ONE tablet in the morning,Dr F. Example
+F-003,74,M,2026-03-06,perindopril arginine,Coversyl,5 mg,tablet,30,4,Take ONE tablet in the morning,Dr F. Example
+F-003,74,M,2026-04-06,perindopril arginine,Coversyl,5 mg,tablet,30,4,Take ONE tablet in the morning,Dr F. Example
+F-003,74,M,2026-05-06,perindopril arginine,Coversyl,5 mg,tablet,30,4,Take ONE tablet in the morning,Dr F. Example
+F-003,74,M,2026-06-06,perindopril arginine,Coversyl,5 mg,tablet,30,4,Take ONE tablet in the morning,Dr F. Example
+F-003,74,M,2026-07-06,perindopril arginine,Coversyl,5 mg,tablet,30,4,Take ONE tablet in the morning,Dr F. Example
+F-003,74,M,2026-08-06,perindopril arginine,Coversyl,5 mg,tablet,30,4,Take ONE tablet in the morning,Dr F. Example
+F-003,74,M,2026-09-06,perindopril arginine,Coversyl,5 mg,tablet,30,4,Take ONE tablet in the morning,Dr F. Example
+F-003,74,M,2026-10-06,perindopril arginine,Coversyl,5 mg,tablet,30,4,Take ONE tablet in the morning,Dr F. Example
+F-003,74,M,2024-01-06,atorvastatin,Lipitor,40 mg,tablet,30,4,Take ONE tablet at night,Dr F. Example
+F-003,74,M,2024-02-06,atorvastatin,Lipitor,40 mg,tablet,30,4,Take ONE tablet at night,Dr F. Example
+F-003,74,M,2024-03-06,atorvastatin,Lipitor,40 mg,tablet,30,4,Take ONE tablet at night,Dr F. Example
+F-003,74,M,2024-04-06,atorvastatin,Lipitor,40 mg,tablet,30,4,Take ONE tablet at night,Dr F. Example
+F-003,74,M,2024-05-06,atorvastatin,Lipitor,40 mg,tablet,30,4,Take ONE tablet at night,Dr F. Example
+F-003,74,M,2024-06-06,atorvastatin,Lipitor,40 mg,tablet,30,4,Take ONE tablet at night,Dr F. Example
+F-003,74,M,2024-07-06,atorvastatin,Lipitor,40 mg,tablet,30,4,Take ONE tablet at night,Dr F. Example
+F-003,74,M,2024-08-06,atorvastatin,Lipitor,40 mg,tablet,30,4,Take ONE tablet at night,Dr F. Example
+F-003,74,M,2024-09-06,atorvastatin,Lipitor,40 mg,tablet,30,4,Take ONE tablet at night,Dr F. Example
+F-003,74,M,2024-10-06,atorvastatin,Lipitor,40 mg,tablet,30,4,Take ONE tablet at night,Dr F. Example
+F-003,74,M,2024-11-06,atorvastatin,Lipitor,40 mg,tablet,30,4,Take ONE tablet at night,Dr F. Example
+F-003,74,M,2024-12-06,atorvastatin,Lipitor,40 mg,tablet,30,4,Take ONE tablet at night,Dr F. Example
+F-003,74,M,2025-01-06,atorvastatin,Lipitor,40 mg,tablet,30,4,Take ONE tablet at night,Dr F. Example
+F-003,74,M,2025-02-06,atorvastatin,Lipitor,40 mg,tablet,30,4,Take ONE tablet at night,Dr F. Example
+F-003,74,M,2025-03-06,atorvastatin,Lipitor,40 mg,tablet,30,4,Take ONE tablet at night,Dr F. Example
+F-003,74,M,2025-04-06,atorvastatin,Lipitor,40 mg,tablet,30,4,Take ONE tablet at night,Dr F. Example
+F-003,74,M,2025-05-06,atorvastatin,Lipitor,40 mg,tablet,30,4,Take ONE tablet at night,Dr F. Example
+F-003,74,M,2025-06-06,atorvastatin,Lipitor,40 mg,tablet,30,4,Take ONE tablet at night,Dr F. Example
+F-003,74,M,2025-07-06,atorvastatin,Lipitor,40 mg,tablet,30,4,Take ONE tablet at night,Dr F. Example
+F-003,74,M,2025-08-06,atorvastatin,Lipitor,40 mg,tablet,30,4,Take ONE tablet at night,Dr F. Example
+F-003,74,M,2025-09-06,atorvastatin,Lipitor,40 mg,tablet,30,4,Take ONE tablet at night,Dr F. Example
+F-003,74,M,2025-10-06,atorvastatin,Lipitor,40 mg,tablet,30,4,Take ONE tablet at night,Dr F. Example
+F-003,74,M,2025-11-06,atorvastatin,Lipitor,40 mg,tablet,30,4,Take ONE tablet at night,Dr F. Example
+F-003,74,M,2025-12-06,atorvastatin,Lipitor,40 mg,tablet,30,4,Take ONE tablet at night,Dr F. Example
+F-003,74,M,2026-01-06,atorvastatin,Lipitor,40 mg,tablet,30,4,Take ONE tablet at night,Dr F. Example
+F-003,74,M,2026-02-06,atorvastatin,Lipitor,40 mg,tablet,30,4,Take ONE tablet at night,Dr F. Example
+F-003,74,M,2026-03-06,atorvastatin,Lipitor,40 mg,tablet,30,4,Take ONE tablet at night,Dr F. Example
+F-003,74,M,2026-04-06,atorvastatin,Lipitor,40 mg,tablet,30,4,Take ONE tablet at night,Dr F. Example
+F-003,74,M,2026-05-06,atorvastatin,Lipitor,40 mg,tablet,30,4,Take ONE tablet at night,Dr F. Example
+F-003,74,M,2026-06-06,atorvastatin,Lipitor,40 mg,tablet,30,4,Take ONE tablet at night,Dr F. Example
+F-003,74,M,2026-07-06,atorvastatin,Lipitor,40 mg,tablet,30,4,Take ONE tablet at night,Dr F. Example
+F-003,74,M,2026-08-06,atorvastatin,Lipitor,40 mg,tablet,30,4,Take ONE tablet at night,Dr F. Example
+F-003,74,M,2026-09-06,atorvastatin,Lipitor,40 mg,tablet,30,4,Take ONE tablet at night,Dr F. Example
+F-003,74,M,2026-10-06,atorvastatin,Lipitor,40 mg,tablet,30,4,Take ONE tablet at night,Dr F. Example
+F-003,74,M,2024-01-12,pantoprazole,Somac,40 mg,enteric coated tablet,30,5,Take ONE tablet daily before food,Dr F. Example
+F-003,74,M,2024-02-12,pantoprazole,Somac,40 mg,enteric coated tablet,30,5,Take ONE tablet daily before food,Dr F. Example
+F-003,74,M,2024-03-12,pantoprazole,Somac,40 mg,enteric coated tablet,30,5,Take ONE tablet daily before food,Dr F. Example
+F-003,74,M,2024-04-12,pantoprazole,Somac,40 mg,enteric coated tablet,30,5,Take ONE tablet daily before food,Dr F. Example
+F-003,74,M,2024-05-12,pantoprazole,Somac,40 mg,enteric coated tablet,30,5,Take ONE tablet daily before food,Dr F. Example
+F-003,74,M,2024-06-12,pantoprazole,Somac,40 mg,enteric coated tablet,30,5,Take ONE tablet daily before food,Dr F. Example
+F-003,74,M,2024-07-12,pantoprazole,Somac,40 mg,enteric coated tablet,30,5,Take ONE tablet daily before food,Dr F. Example
+F-003,74,M,2024-08-12,pantoprazole,Somac,40 mg,enteric coated tablet,30,5,Take ONE tablet daily before food,Dr F. Example
+F-003,74,M,2024-09-12,pantoprazole,Somac,40 mg,enteric coated tablet,30,5,Take ONE tablet daily before food,Dr F. Example
+F-003,74,M,2024-10-12,pantoprazole,Somac,40 mg,enteric coated tablet,30,5,Take ONE tablet daily before food,Dr F. Example
+F-003,74,M,2024-11-12,pantoprazole,Somac,40 mg,enteric coated tablet,30,5,Take ONE tablet daily before food,Dr F. Example
+F-003,74,M,2024-12-12,pantoprazole,Somac,40 mg,enteric coated tablet,30,5,Take ONE tablet daily before food,Dr F. Example
+F-003,74,M,2025-01-12,pantoprazole,Somac,40 mg,enteric coated tablet,30,5,Take ONE tablet daily before food,Dr F. Example
+F-003,74,M,2025-02-12,pantoprazole,Somac,40 mg,enteric coated tablet,30,5,Take ONE tablet daily before food,Dr F. Example
+F-003,74,M,2025-03-12,pantoprazole,Somac,40 mg,enteric coated tablet,30,5,Take ONE tablet daily before food,Dr F. Example
+F-003,74,M,2025-04-12,pantoprazole,Somac,40 mg,enteric coated tablet,30,5,Take ONE tablet daily before food,Dr F. Example
+F-003,74,M,2025-05-12,pantoprazole,Somac,40 mg,enteric coated tablet,30,5,Take ONE tablet daily before food,Dr F. Example
+F-003,74,M,2025-06-12,pantoprazole,Somac,40 mg,enteric coated tablet,30,5,Take ONE tablet daily before food,Dr F. Example
+F-003,74,M,2025-07-12,pantoprazole,Somac,40 mg,enteric coated tablet,30,5,Take ONE tablet daily before food,Dr F. Example
+F-003,74,M,2025-08-12,pantoprazole,Somac,40 mg,enteric coated tablet,30,5,Take ONE tablet daily before food,Dr F. Example
+F-003,74,M,2025-09-12,pantoprazole,Somac,40 mg,enteric coated tablet,30,5,Take ONE tablet daily before food,Dr F. Example
+F-003,74,M,2025-10-12,pantoprazole,Somac,40 mg,enteric coated tablet,30,5,Take ONE tablet daily before food,Dr F. Example
+F-003,74,M,2025-11-12,pantoprazole,Somac,40 mg,enteric coated tablet,30,5,Take ONE tablet daily before food,Dr F. Example
+F-003,74,M,2025-12-12,pantoprazole,Somac,40 mg,enteric coated tablet,30,5,Take ONE tablet daily before food,Dr F. Example
+F-003,74,M,2026-01-12,pantoprazole,Somac,40 mg,enteric coated tablet,30,5,Take ONE tablet daily before food,Dr F. Example
+F-003,74,M,2026-02-12,pantoprazole,Somac,40 mg,enteric coated tablet,30,5,Take ONE tablet daily before food,Dr F. Example
+F-003,74,M,2026-03-12,pantoprazole,Somac,40 mg,enteric coated tablet,30,5,Take ONE tablet daily before food,Dr F. Example
+F-003,74,M,2026-04-12,pantoprazole,Somac,40 mg,enteric coated tablet,30,5,Take ONE tablet daily before food,Dr F. Example
+F-003,74,M,2026-05-12,pantoprazole,Somac,40 mg,enteric coated tablet,30,5,Take ONE tablet daily before food,Dr F. Example
+F-003,74,M,2026-06-12,pantoprazole,Somac,40 mg,enteric coated tablet,30,5,Take ONE tablet daily before food,Dr F. Example
+F-003,74,M,2026-07-12,pantoprazole,Somac,40 mg,enteric coated tablet,30,5,Take ONE tablet daily before food,Dr F. Example
+F-003,74,M,2026-08-12,pantoprazole,Somac,40 mg,enteric coated tablet,30,5,Take ONE tablet daily before food,Dr F. Example
+F-003,74,M,2026-09-12,pantoprazole,Somac,40 mg,enteric coated tablet,30,5,Take ONE tablet daily before food,Dr F. Example
+F-003,74,M,2026-10-12,pantoprazole,Somac,40 mg,enteric coated tablet,30,5,Take ONE tablet daily before food,Dr F. Example
+F-003,74,M,2024-01-12,colecalciferol,Ostelin,25 microgram,capsule,60,2,Take ONE capsule daily,Dr F. Example
+F-003,74,M,2024-02-12,colecalciferol,Ostelin,25 microgram,capsule,60,2,Take ONE capsule daily,Dr F. Example
+F-003,74,M,2024-03-12,colecalciferol,Ostelin,25 microgram,capsule,60,2,Take ONE capsule daily,Dr F. Example
+F-003,74,M,2024-04-12,colecalciferol,Ostelin,25 microgram,capsule,60,2,Take ONE capsule daily,Dr F. Example
+F-003,74,M,2024-05-12,colecalciferol,Ostelin,25 microgram,capsule,60,2,Take ONE capsule daily,Dr F. Example
+F-003,74,M,2024-06-12,colecalciferol,Ostelin,25 microgram,capsule,60,2,Take ONE capsule daily,Dr F. Example
+F-003,74,M,2024-07-12,colecalciferol,Ostelin,25 microgram,capsule,60,2,Take ONE capsule daily,Dr F. Example
+F-003,74,M,2024-08-12,colecalciferol,Ostelin,25 microgram,capsule,60,2,Take ONE capsule daily,Dr F. Example
+F-003,74,M,2024-09-12,colecalciferol,Ostelin,25 microgram,capsule,60,2,Take ONE capsule daily,Dr F. Example
+F-003,74,M,2024-10-12,colecalciferol,Ostelin,25 microgram,capsule,60,2,Take ONE capsule daily,Dr F. Example
+F-003,74,M,2024-11-12,colecalciferol,Ostelin,25 microgram,capsule,60,2,Take ONE capsule daily,Dr F. Example
+F-003,74,M,2024-12-12,colecalciferol,Ostelin,25 microgram,capsule,60,2,Take ONE capsule daily,Dr F. Example
+F-003,74,M,2025-01-12,colecalciferol,Ostelin,25 microgram,capsule,60,2,Take ONE capsule daily,Dr F. Example
+F-003,74,M,2025-02-12,colecalciferol,Ostelin,25 microgram,capsule,60,2,Take ONE capsule daily,Dr F. Example
+F-003,74,M,2025-03-12,colecalciferol,Ostelin,25 microgram,capsule,60,2,Take ONE capsule daily,Dr F. Example
+F-003,74,M,2025-04-12,colecalciferol,Ostelin,25 microgram,capsule,60,2,Take ONE capsule daily,Dr F. Example
+F-003,74,M,2025-05-12,colecalciferol,Ostelin,25 microgram,capsule,60,2,Take ONE capsule daily,Dr F. Example
+F-003,74,M,2025-06-12,colecalciferol,Ostelin,25 microgram,capsule,60,2,Take ONE capsule daily,Dr F. Example
+F-003,74,M,2025-07-12,colecalciferol,Ostelin,25 microgram,capsule,60,2,Take ONE capsule daily,Dr F. Example
+F-003,74,M,2025-08-12,colecalciferol,Ostelin,25 microgram,capsule,60,2,Take ONE capsule daily,Dr F. Example
+F-003,74,M,2025-09-12,colecalciferol,Ostelin,25 microgram,capsule,60,2,Take ONE capsule daily,Dr F. Example
+F-003,74,M,2025-10-12,colecalciferol,Ostelin,25 microgram,capsule,60,2,Take ONE capsule daily,Dr F. Example
+F-003,74,M,2025-11-12,colecalciferol,Ostelin,25 microgram,capsule,60,2,Take ONE capsule daily,Dr F. Example
+F-003,74,M,2025-12-12,colecalciferol,Ostelin,25 microgram,capsule,60,2,Take ONE capsule daily,Dr F. Example
+F-003,74,M,2026-01-12,colecalciferol,Ostelin,25 microgram,capsule,60,2,Take ONE capsule daily,Dr F. Example
+F-003,74,M,2026-02-12,colecalciferol,Ostelin,25 microgram,capsule,60,2,Take ONE capsule daily,Dr F. Example
+F-003,74,M,2026-03-12,colecalciferol,Ostelin,25 microgram,capsule,60,2,Take ONE capsule daily,Dr F. Example
+F-003,74,M,2026-04-12,colecalciferol,Ostelin,25 microgram,capsule,60,2,Take ONE capsule daily,Dr F. Example
+F-003,74,M,2026-05-12,colecalciferol,Ostelin,25 microgram,capsule,60,2,Take ONE capsule daily,Dr F. Example
+F-003,74,M,2026-06-12,colecalciferol,Ostelin,25 microgram,capsule,60,2,Take ONE capsule daily,Dr F. Example
+F-003,74,M,2026-07-12,colecalciferol,Ostelin,25 microgram,capsule,60,2,Take ONE capsule daily,Dr F. Example
+F-003,74,M,2026-08-12,colecalciferol,Ostelin,25 microgram,capsule,60,2,Take ONE capsule daily,Dr F. Example
+F-003,74,M,2026-09-12,colecalciferol,Ostelin,25 microgram,capsule,60,2,Take ONE capsule daily,Dr F. Example
+F-003,74,M,2026-10-12,colecalciferol,Ostelin,25 microgram,capsule,60,2,Take ONE capsule daily,Dr F. Example
+F-003,74,M,2024-01-15,paracetamol,Panadol Osteo,665 mg,modified release tablet,96,2,Take TWO tablets three times a day,Dr F. Example
+F-003,74,M,2024-02-15,paracetamol,Panadol Osteo,665 mg,modified release tablet,96,2,Take TWO tablets three times a day,Dr F. Example
+F-003,74,M,2024-03-15,paracetamol,Panadol Osteo,665 mg,modified release tablet,96,2,Take TWO tablets three times a day,Dr F. Example
+F-003,74,M,2024-04-15,paracetamol,Panadol Osteo,665 mg,modified release tablet,96,2,Take TWO tablets three times a day,Dr F. Example
+F-003,74,M,2024-05-15,paracetamol,Panadol Osteo,665 mg,modified release tablet,96,2,Take TWO tablets three times a day,Dr F. Example
+F-003,74,M,2024-06-15,paracetamol,Panadol Osteo,665 mg,modified release tablet,96,2,Take TWO tablets three times a day,Dr F. Example
+F-003,74,M,2024-07-15,paracetamol,Panadol Osteo,665 mg,modified release tablet,96,2,Take TWO tablets three times a day,Dr F. Example
+F-003,74,M,2024-08-15,paracetamol,Panadol Osteo,665 mg,modified release tablet,96,2,Take TWO tablets three times a day,Dr F. Example
+F-003,74,M,2024-09-15,paracetamol,Panadol Osteo,665 mg,modified release tablet,96,2,Take TWO tablets three times a day,Dr F. Example
+F-003,74,M,2024-10-15,paracetamol,Panadol Osteo,665 mg,modified release tablet,96,2,Take TWO tablets three times a day,Dr F. Example
+F-003,74,M,2024-11-15,paracetamol,Panadol Osteo,665 mg,modified release tablet,96,2,Take TWO tablets three times a day,Dr F. Example
+F-003,74,M,2024-12-15,paracetamol,Panadol Osteo,665 mg,modified release tablet,96,2,Take TWO tablets three times a day,Dr F. Example
+F-003,74,M,2025-01-15,paracetamol,Panadol Osteo,665 mg,modified release tablet,96,2,Take TWO tablets three times a day,Dr F. Example
+F-003,74,M,2025-02-15,paracetamol,Panadol Osteo,665 mg,modified release tablet,96,2,Take TWO tablets three times a day,Dr F. Example
+F-003,74,M,2025-03-15,paracetamol,Panadol Osteo,665 mg,modified release tablet,96,2,Take TWO tablets three times a day,Dr F. Example
+F-003,74,M,2025-04-15,paracetamol,Panadol Osteo,665 mg,modified release tablet,96,2,Take TWO tablets three times a day,Dr F. Example
+F-003,74,M,2025-05-15,paracetamol,Panadol Osteo,665 mg,modified release tablet,96,2,Take TWO tablets three times a day,Dr F. Example
+F-003,74,M,2025-06-15,paracetamol,Panadol Osteo,665 mg,modified release tablet,96,2,Take TWO tablets three times a day,Dr F. Example
+F-003,74,M,2025-07-15,paracetamol,Panadol Osteo,665 mg,modified release tablet,96,2,Take TWO tablets three times a day,Dr F. Example
+F-003,74,M,2025-08-15,paracetamol,Panadol Osteo,665 mg,modified release tablet,96,2,Take TWO tablets three times a day,Dr F. Example
+F-003,74,M,2025-09-15,paracetamol,Panadol Osteo,665 mg,modified release tablet,96,2,Take TWO tablets three times a day,Dr F. Example
+F-003,74,M,2025-10-15,paracetamol,Panadol Osteo,665 mg,modified release tablet,96,2,Take TWO tablets three times a day,Dr F. Example
+F-003,74,M,2025-11-15,paracetamol,Panadol Osteo,665 mg,modified release tablet,96,2,Take TWO tablets three times a day,Dr F. Example
+F-003,74,M,2025-12-15,paracetamol,Panadol Osteo,665 mg,modified release tablet,96,2,Take TWO tablets three times a day,Dr F. Example
+F-003,74,M,2026-01-15,paracetamol,Panadol Osteo,665 mg,modified release tablet,96,2,Take TWO tablets three times a day,Dr F. Example
+F-003,74,M,2026-02-15,paracetamol,Panadol Osteo,665 mg,modified release tablet,96,2,Take TWO tablets three times a day,Dr F. Example
+F-003,74,M,2026-03-15,paracetamol,Panadol Osteo,665 mg,modified release tablet,96,2,Take TWO tablets three times a day,Dr F. Example
+F-003,74,M,2026-04-15,paracetamol,Panadol Osteo,665 mg,modified release tablet,96,2,Take TWO tablets three times a day,Dr F. Example
+F-003,74,M,2026-05-15,paracetamol,Panadol Osteo,665 mg,modified release tablet,96,2,Take TWO tablets three times a day,Dr F. Example
+F-003,74,M,2026-06-15,paracetamol,Panadol Osteo,665 mg,modified release tablet,96,2,Take TWO tablets three times a day,Dr F. Example
+F-003,74,M,2026-07-15,paracetamol,Panadol Osteo,665 mg,modified release tablet,96,2,Take TWO tablets three times a day,Dr F. Example
+F-003,74,M,2026-08-15,paracetamol,Panadol Osteo,665 mg,modified release tablet,96,2,Take TWO tablets three times a day,Dr F. Example
+F-003,74,M,2026-09-15,paracetamol,Panadol Osteo,665 mg,modified release tablet,96,2,Take TWO tablets three times a day,Dr F. Example
+F-003,74,M,2026-10-15,paracetamol,Panadol Osteo,665 mg,modified release tablet,96,2,Take TWO tablets three times a day,Dr F. Example
+F-003,74,M,2024-01-20,salbutamol,Ventolin,100 microgram,inhaler,2,5,TWO puffs when needed,Dr F. Example
+F-003,74,M,2024-02-20,salbutamol,Ventolin,100 microgram,inhaler,2,5,TWO puffs when needed,Dr F. Example
+F-003,74,M,2024-03-20,salbutamol,Ventolin,100 microgram,inhaler,2,5,TWO puffs when needed,Dr F. Example
+F-003,74,M,2024-04-20,salbutamol,Ventolin,100 microgram,inhaler,2,5,TWO puffs when needed,Dr F. Example
+F-003,74,M,2024-05-20,salbutamol,Ventolin,100 microgram,inhaler,2,5,TWO puffs when needed,Dr F. Example
+F-003,74,M,2024-06-20,salbutamol,Ventolin,100 microgram,inhaler,2,5,TWO puffs when needed,Dr F. Example
+F-003,74,M,2024-07-20,salbutamol,Ventolin,100 microgram,inhaler,2,5,TWO puffs when needed,Dr F. Example
+F-003,74,M,2024-08-20,salbutamol,Ventolin,100 microgram,inhaler,2,5,TWO puffs when needed,Dr F. Example
+F-003,74,M,2024-09-20,salbutamol,Ventolin,100 microgram,inhaler,2,5,TWO puffs when needed,Dr F. Example
+F-003,74,M,2024-10-20,salbutamol,Ventolin,100 microgram,inhaler,2,5,TWO puffs when needed,Dr F. Example
+F-003,74,M,2024-11-20,salbutamol,Ventolin,100 microgram,inhaler,2,5,TWO puffs when needed,Dr F. Example
+F-003,74,M,2024-12-20,salbutamol,Ventolin,100 microgram,inhaler,2,5,TWO puffs when needed,Dr F. Example
+F-003,74,M,2025-01-20,salbutamol,Ventolin,100 microgram,inhaler,2,5,TWO puffs when needed,Dr F. Example
+F-003,74,M,2025-02-20,salbutamol,Ventolin,100 microgram,inhaler,2,5,TWO puffs when needed,Dr F. Example
+F-003,74,M,2025-03-20,salbutamol,Ventolin,100 microgram,inhaler,2,5,TWO puffs when needed,Dr F. Example
+F-003,74,M,2025-04-20,salbutamol,Ventolin,100 microgram,inhaler,2,5,TWO puffs when needed,Dr F. Example
+F-003,74,M,2025-05-20,salbutamol,Ventolin,100 microgram,inhaler,2,5,TWO puffs when needed,Dr F. Example
+F-003,74,M,2025-06-20,salbutamol,Ventolin,100 microgram,inhaler,2,5,TWO puffs when needed,Dr F. Example
+F-003,74,M,2025-07-20,salbutamol,Ventolin,100 microgram,inhaler,2,5,TWO puffs when needed,Dr F. Example
+F-003,74,M,2025-08-20,salbutamol,Ventolin,100 microgram,inhaler,2,5,TWO puffs when needed,Dr F. Example
+F-003,74,M,2025-09-20,salbutamol,Ventolin,100 microgram,inhaler,2,5,TWO puffs when needed,Dr F. Example
+F-003,74,M,2025-10-20,salbutamol,Ventolin,100 microgram,inhaler,2,5,TWO puffs when needed,Dr F. Example
+F-003,74,M,2025-11-20,salbutamol,Ventolin,100 microgram,inhaler,2,5,TWO puffs when needed,Dr F. Example
+F-003,74,M,2025-12-20,salbutamol,Ventolin,100 microgram,inhaler,2,5,TWO puffs when needed,Dr F. Example
+F-003,74,M,2026-01-20,salbutamol,Ventolin,100 microgram,inhaler,2,5,TWO puffs when needed,Dr F. Example
+F-003,74,M,2026-02-20,salbutamol,Ventolin,100 microgram,inhaler,2,5,TWO puffs when needed,Dr F. Example
+F-003,74,M,2026-03-20,salbutamol,Ventolin,100 microgram,inhaler,2,5,TWO puffs when needed,Dr F. Example
+F-003,74,M,2026-04-20,salbutamol,Ventolin,100 microgram,inhaler,2,5,TWO puffs when needed,Dr F. Example
+F-003,74,M,2026-05-20,salbutamol,Ventolin,100 microgram,inhaler,2,5,TWO puffs when needed,Dr F. Example
+F-003,74,M,2026-06-20,salbutamol,Ventolin,100 microgram,inhaler,2,5,TWO puffs when needed,Dr F. Example
+F-003,74,M,2026-07-20,salbutamol,Ventolin,100 microgram,inhaler,2,5,TWO puffs when needed,Dr F. Example
+F-003,74,M,2026-08-20,salbutamol,Ventolin,100 microgram,inhaler,2,5,TWO puffs when needed,Dr F. Example
+F-003,74,M,2026-09-20,salbutamol,Ventolin,100 microgram,inhaler,2,5,TWO puffs when needed,Dr F. Example
+F-003,74,M,2026-10-20,salbutamol,Ventolin,100 microgram,inhaler,2,5,TWO puffs when needed,Dr F. Example
+F-003,74,M,2024-01-20,fluticasone propionate with salmeterol,Seretide,250/25,inhaler,1,5,TWO puffs twice a day,Dr F. Example
+F-003,74,M,2024-02-20,fluticasone propionate with salmeterol,Seretide,250/25,inhaler,1,5,TWO puffs twice a day,Dr F. Example
+F-003,74,M,2024-03-20,fluticasone propionate with salmeterol,Seretide,250/25,inhaler,1,5,TWO puffs twice a day,Dr F. Example
+F-003,74,M,2024-04-20,fluticasone propionate with salmeterol,Seretide,250/25,inhaler,1,5,TWO puffs twice a day,Dr F. Example
+F-003,74,M,2024-05-20,fluticasone propionate with salmeterol,Seretide,250/25,inhaler,1,5,TWO puffs twice a day,Dr F. Example
+F-003,74,M,2024-06-20,fluticasone propionate with salmeterol,Seretide,250/25,inhaler,1,5,TWO puffs twice a day,Dr F. Example
+F-003,74,M,2024-07-20,fluticasone propionate with salmeterol,Seretide,250/25,inhaler,1,5,TWO puffs twice a day,Dr F. Example
+F-003,74,M,2024-08-20,fluticasone propionate with salmeterol,Seretide,250/25,inhaler,1,5,TWO puffs twice a day,Dr F. Example
+F-003,74,M,2024-09-20,fluticasone propionate with salmeterol,Seretide,250/25,inhaler,1,5,TWO puffs twice a day,Dr F. Example
+F-003,74,M,2024-10-20,fluticasone propionate with salmeterol,Seretide,250/25,inhaler,1,5,TWO puffs twice a day,Dr F. Example
+F-003,74,M,2024-11-20,fluticasone propionate with salmeterol,Seretide,250/25,inhaler,1,5,TWO puffs twice a day,Dr F. Example
+F-003,74,M,2024-12-20,fluticasone propionate with salmeterol,Seretide,250/25,inhaler,1,5,TWO puffs twice a day,Dr F. Example
+F-003,74,M,2025-01-20,fluticasone propionate with salmeterol,Seretide,250/25,inhaler,1,5,TWO puffs twice a day,Dr F. Example
+F-003,74,M,2025-02-20,fluticasone propionate with salmeterol,Seretide,250/25,inhaler,1,5,TWO puffs twice a day,Dr F. Example
+F-003,74,M,2025-03-20,fluticasone propionate with salmeterol,Seretide,250/25,inhaler,1,5,TWO puffs twice a day,Dr F. Example
+F-003,74,M,2025-04-20,fluticasone propionate with salmeterol,Seretide,250/25,inhaler,1,5,TWO puffs twice a day,Dr F. Example
+F-003,74,M,2025-05-20,fluticasone propionate with salmeterol,Seretide,250/25,inhaler,1,5,TWO puffs twice a day,Dr F. Example
+F-003,74,M,2025-06-20,fluticasone propionate with salmeterol,Seretide,250/25,inhaler,1,5,TWO puffs twice a day,Dr F. Example
+F-003,74,M,2025-07-20,fluticasone propionate with salmeterol,Seretide,250/25,inhaler,1,5,TWO puffs twice a day,Dr F. Example
+F-003,74,M,2025-08-20,fluticasone propionate with salmeterol,Seretide,250/25,inhaler,1,5,TWO puffs twice a day,Dr F. Example
+F-003,74,M,2025-09-20,fluticasone propionate with salmeterol,Seretide,250/25,inhaler,1,5,TWO puffs twice a day,Dr F. Example
+F-003,74,M,2025-10-20,fluticasone propionate with salmeterol,Seretide,250/25,inhaler,1,5,TWO puffs twice a day,Dr F. Example
+F-003,74,M,2025-11-20,fluticasone propionate with salmeterol,Seretide,250/25,inhaler,1,5,TWO puffs twice a day,Dr F. Example
+F-003,74,M,2025-12-20,fluticasone propionate with salmeterol,Seretide,250/25,inhaler,1,5,TWO puffs twice a day,Dr F. Example
+F-003,74,M,2026-01-20,fluticasone propionate with salmeterol,Seretide,250/25,inhaler,1,5,TWO puffs twice a day,Dr F. Example
+F-003,74,M,2026-02-20,fluticasone propionate with salmeterol,Seretide,250/25,inhaler,1,5,TWO puffs twice a day,Dr F. Example
+F-003,74,M,2026-03-20,fluticasone propionate with salmeterol,Seretide,250/25,inhaler,1,5,TWO puffs twice a day,Dr F. Example
+F-003,74,M,2026-04-20,fluticasone propionate with salmeterol,Seretide,250/25,inhaler,1,5,TWO puffs twice a day,Dr F. Example
+F-003,74,M,2026-05-20,fluticasone propionate with salmeterol,Seretide,250/25,inhaler,1,5,TWO puffs twice a day,Dr F. Example
+F-003,74,M,2026-06-20,fluticasone propionate with salmeterol,Seretide,250/25,inhaler,1,5,TWO puffs twice a day,Dr F. Example
+F-003,74,M,2026-07-20,fluticasone propionate with salmeterol,Seretide,250/25,inhaler,1,5,TWO puffs twice a day,Dr F. Example
+F-003,74,M,2026-08-20,fluticasone propionate with salmeterol,Seretide,250/25,inhaler,1,5,TWO puffs twice a day,Dr F. Example
+F-003,74,M,2026-09-20,fluticasone propionate with salmeterol,Seretide,250/25,inhaler,1,5,TWO puffs twice a day,Dr F. Example
+F-003,74,M,2026-10-20,fluticasone propionate with salmeterol,Seretide,250/25,inhaler,1,5,TWO puffs twice a day,Dr F. Example
+F-003,74,M,2025-04-19,amoxicillin,Amoxil,500 mg,capsule,20,0,Take ONE capsule three times a day until finished,Dr G. Sample
+F-003,74,M,2026-04-22,amoxicillin,Amoxil,500 mg,capsule,20,0,Take ONE capsule three times a day until finished,Dr G. Sample
+F-003,74,M,2026-08-21,,Celebrex,200 mg,capsule,30,2,Take ONE capsule daily with food,Dr G. Sample
+F-003,74,M,2026-09-20,,Celebrex,200 mg,capsule,30,1,Take ONE capsule daily with food,Dr G. Sample

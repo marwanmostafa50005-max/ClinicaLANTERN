@@ -1,0 +1,55 @@
+[
+  {
+    "file": "KHAWAGI-G130/pos-fact.csv",
+    "kind": "positive",
+    "about": "Clozapine and olanzapine overlap for 75 continuous days and the psychiatrist documents that the combination was unplanned.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G130",
+        "must_cite": [
+          [
+            "L023",
+            "L028",
+            "L034"
+          ],
+          [
+            "L024",
+            "L029",
+            "L035"
+          ],
+          [
+            "L038"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G130/pos-nofact.csv",
+    "kind": "positive",
+    "about": "With 75 continuous days of scheduled clozapine and olanzapine, there is a possible finding: the record holds no line about the specialist assessment of clozapine augmentation and review plan.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G130",
+        "must_cite": [
+          [
+            "L014",
+            "L017",
+            "L022"
+          ],
+          [
+            "L015",
+            "L019",
+            "L024"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G130/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Clozapine and olanzapine overlap for 75 continuous days under a documented augmentation plan with a booked specialist review.",
+    "findings": []
+  }
+]

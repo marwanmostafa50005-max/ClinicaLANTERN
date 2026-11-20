@@ -1,0 +1,61 @@
+[
+  {
+    "file": "STOPP-H4/pos-fact.csv",
+    "kind": "positive",
+    "about": "Regular oral prednisolone for rheumatoid arthritis spans January to May before the documented abatacept infusion on 15 May.",
+    "findings": [
+      {
+        "criterion": "STOPP-H4",
+        "must_cite": [
+          [
+            "L014"
+          ],
+          [
+            "L019",
+            "L024"
+          ],
+          [
+            "L029"
+          ],
+          [
+            "L034"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-H4/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the February to June oral steroid course spans more than 90 days, but its indication and any rheumatoid arthritis diagnosis are unknown, and the July pack is a short course for asthma.",
+    "findings": [
+      {
+        "criterion": "STOPP-H4",
+        "must_cite": [
+          [
+            "L004"
+          ],
+          [
+            "L008",
+            "L012"
+          ],
+          [
+            "L016"
+          ],
+          [
+            "L020"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-H4/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Rheumatoid arthritis is recorded and prednisolone is supplied for about six months, but Methoblastin (methotrexate) is supplied alongside it, so the steroid is not the only treatment.",
+    "findings": []
+  }
+]

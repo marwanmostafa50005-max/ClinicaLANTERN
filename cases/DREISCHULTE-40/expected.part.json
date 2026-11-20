@@ -1,0 +1,44 @@
+[
+  {
+    "file": "DREISCHULTE-40/pos-brand.csv",
+    "kind": "positive",
+    "about": "Noumed Isoniazid was supplied during the Coumadin course, with both products recorded by brand only.",
+    "findings": [
+      {
+        "criterion": "DREISCHULTE-40",
+        "must_cite": [
+          [
+            "L028"
+          ],
+          [
+            "L029"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "DREISCHULTE-40/pos-buried.csv",
+    "kind": "positive",
+    "about": "The isoniazid supply falls eight days into the warfarin supply in the middle of the history.",
+    "findings": [
+      {
+        "criterion": "DREISCHULTE-40",
+        "must_cite": [
+          [
+            "L033"
+          ],
+          [
+            "L034"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "DREISCHULTE-40/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The final seven days of isoniazid ended several months before warfarin started.",
+    "findings": []
+  }
+]

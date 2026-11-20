@@ -1,0 +1,135 @@
+{
+  "id": "KHAWAGI-G007",
+  "label": "Khawagi review: Review specialist assessment and monitoring for ADHD medication supplied to a child under five",
+  "family": "KHAWAGI",
+  "title": "Review specialist assessment and monitoring for ADHD medication supplied to a child under five",
+  "statement": "Review specialist assessment and monitoring for ADHD medication supplied to a child under five.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "POPI (Pediatrics: Omission of Prescriptions and Inappropriate Prescriptions): Development of a Tool to Identify Inappropriate Prescribing",
+    "citation": "Prot-Labarthe S, Weil T, Angoulvant F, Boulkedid R, Alberti C, Bourdon O. PLoS ONE 2014;9(6):e101171.",
+    "doi": "10.1371/journal.pone.0101171",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0101171",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "© 2014 Prot-Labarthe et al. POPI, Table 1. DOI 10.1371/journal.pone.0101171. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Khawagi et al. compiled the indicator in S3, G007, reference [103] (https://doi.org/10.1371/journal.pone.0217406). The Australian screening wording is original. It changes the age limit and replaces the severity exception with a review of specialist assessment and monitoring. POPI criteria (https://pmc.ncbi.nlm.nih.gov/articles/PMC4076280/). Australian ADHD guideline §5.2 (https://adhdguideline.aadpa.com.au/wp-content/uploads/2024/06/Australian-Clinical-Practice-Guideline-For-ADHD-June-2024.pdf). PBS guanfacine (https://www.pbs.gov.au/medicine/item/11440d).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "Review specialist assessment and monitoring for ADHD medication supplied to a child under five.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Medicines used to treat ADHD",
+      "ingredients": [
+        "atomoxetine",
+        "dexamfetamine",
+        "guanfacine",
+        "lisdexamfetamine",
+        "methylphenidate"
+      ],
+      "brands": {
+        "atomoxetine": [
+          "Atomoxetine AN",
+          "Strattera",
+          "Atomoxetine Sandoz"
+        ],
+        "dexamfetamine": [
+          "Dexamfettabs",
+          "Dexafet",
+          "Dexmine",
+          "Aspen Dexamfetamine"
+        ],
+        "guanfacine": [
+          "Intuniv"
+        ],
+        "lisdexamfetamine": [
+          "Vyvanse",
+          "Actavanz"
+        ],
+        "methylphenidate": [
+          "Ritalin",
+          "Artige",
+          "Atenza XR",
+          "Attenta",
+          "Attora LA",
+          "Concerta",
+          "Rinidate",
+          "Ritalin LA",
+          "Rivate",
+          "Rubifen LA"
+        ]
+      },
+      "note": "Count treatment for ADHD. Clonidine is outside the proposed list because its uses are less specific."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "ADHD",
+      "meets": "This records whether the child has ADHD. A diagnosis alone does not establish why this medicine was supplied."
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for this supply of a medicine used for ADHD",
+      "meets": "Use the directions, notes or a pharmacist answer about this supply. For ADHD, check specialist assessment and monitoring. Another reason excludes this supply. If the reason is still unknown, keep the check open when a safeguard is missing or unclear.",
+      "options": [
+        {
+          "words": "For ADHD",
+          "effect": "meets"
+        },
+        {
+          "words": "For another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Specialist ADHD assessment",
+      "meets": "A note or pharmacist answer says whether a specialist had assessed the child for ADHD by this supply. No assessment by then prompts review. Unknown status needs confirmation.",
+      "options": [
+        {
+          "words": "No specialist assessment by this supply",
+          "effect": "meets"
+        },
+        {
+          "words": "A specialist had assessed the child by this supply",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "ADHD monitoring plan",
+      "meets": "A note or pharmacist answer says whether an ADHD monitoring plan was in place at this supply. An absent plan prompts review. An unknown plan needs confirmation.",
+      "options": [
+        {
+          "words": "No monitoring plan at this supply",
+          "effect": "meets"
+        },
+        {
+          "words": "A monitoring plan was in place at this supply",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Start with a listed ADHD medicine supplied to a child under five. Exclude clonidine and a supply known to be for another indication. Use the directions, notes and pharmacist answers to decide why this medicine was supplied. An ADHD diagnosis alone does not establish the reason. If the supply was for ADHD, report a finding when specialist assessment or a monitoring plan was expressly absent by this supply. Give no finding when the record or the pharmacist confirms that both safeguards were in place by this supply. If the reason for this supply is still unclear and either safeguard is absent or unknown, report only a possible finding and ask why this medicine was supplied. If the supply was for ADHD and neither safeguard is known to be absent, report a possible finding naming any safeguard whose status is unknown. Cite the medicine, the indication and any available assessment and monitoring entries. Use age on the supply date. Give no finding at age five or older. If age is unknown and the check otherwise remains open, report only a possible finding and ask whether the child was under five. Ask the carer who assessed the child and what follow-up was arranged.",
+  "cannot_be_seen": "Dispensing does not establish actual use, indication or a prescriber’s intent. Treatment and assessments elsewhere may be missing.",
+  "ask_the_gp": "Could you confirm whether this medicine was prescribed for ADHD before age five, whether a specialist assessed the child and what follow-up monitoring was arranged?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,30 @@
+patient_ref,patient_age,patient_sex,record_type,dispense_date,medicine,brand,strength,form,quantity,repeats_left,directions,prescriber,detail,value
+F-ECZE07-02,8,M,observation,2026-01-07,,,,,,,,,Weight,23.2 kg
+F-ECZE07-02,8,M,observation,2026-01-07,,,,,,,,,Height,122.2 cm
+F-ECZE07-02,8,M,observation,2026-01-07,,,,,,,,,Pulse,87 beats/min
+F-ECZE07-02,8,M,,2026-01-07,white soft paraffin,,100%,ointment,100 g,0,Apply a thin layer to dry skin as needed,Dr A. Example,,
+F-ECZE07-02,8,M,observation,2026-02-02,,,,,,,,,Weight,23.4 kg
+F-ECZE07-02,8,M,observation,2026-02-02,,,,,,,,,Height,122.7 cm
+F-ECZE07-02,8,M,observation,2026-02-02,,,,,,,,,Pulse,90 beats/min
+F-ECZE07-02,8,M,observation,2026-02-28,,,,,,,,,Weight,23.6 kg
+F-ECZE07-02,8,M,observation,2026-02-28,,,,,,,,,Height,123.1 cm
+F-ECZE07-02,8,M,observation,2026-02-28,,,,,,,,,Pulse,93 beats/min
+F-ECZE07-02,8,M,,2026-02-28,white soft paraffin,,100%,ointment,100 g,0,Apply a thin layer to dry skin as needed,Dr A. Example,,
+F-ECZE07-02,8,M,observation,2026-03-26,,,,,,,,,Weight,23.7 kg
+F-ECZE07-02,8,M,observation,2026-03-26,,,,,,,,,Height,123.6 cm
+F-ECZE07-02,8,M,observation,2026-03-26,,,,,,,,,Pulse,87 beats/min
+F-ECZE07-02,8,M,observation,2026-04-21,,,,,,,,,Weight,23.9 kg
+F-ECZE07-02,8,M,observation,2026-04-21,,,,,,,,,Height,124.0 cm
+F-ECZE07-02,8,M,observation,2026-04-21,,,,,,,,,Pulse,90 beats/min
+F-ECZE07-02,8,M,,2026-04-21,white soft paraffin,,100%,ointment,100 g,0,Apply a thin layer to dry skin as needed,Dr A. Example,,
+F-ECZE07-02,8,M,observation,2026-05-17,,,,,,,,,Weight,24.0 kg
+F-ECZE07-02,8,M,observation,2026-05-17,,,,,,,,,Height,124.5 cm
+F-ECZE07-02,8,M,observation,2026-05-17,,,,,,,,,Pulse,93 beats/min
+F-ECZE07-02,8,M,,2026-05-19,mupirocin,Bactroban,20 mg/g,ointment,15 g,0,Apply a small amount to the eczema patch three times daily for five days,Dr A. Example,,
+F-ECZE07-02,8,M,observation,2026-06-12,,,,,,,,,Weight,24.1 kg
+F-ECZE07-02,8,M,observation,2026-06-12,,,,,,,,,Height,125.0 cm
+F-ECZE07-02,8,M,observation,2026-06-12,,,,,,,,,Pulse,87 beats/min
+F-ECZE07-02,8,M,,2026-06-12,white soft paraffin,,100%,ointment,100 g,0,Apply a thin layer to dry skin as needed,Dr A. Example,,
+F-ECZE07-02,8,M,observation,2026-07-08,,,,,,,,,Weight,24.3 kg
+F-ECZE07-02,8,M,observation,2026-07-08,,,,,,,,,Height,125.4 cm
+F-ECZE07-02,8,M,observation,2026-07-08,,,,,,,,,Pulse,90 beats/min

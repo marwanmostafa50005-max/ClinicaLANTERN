@@ -1,0 +1,56 @@
+{
+  "id": "CKD-N06D",
+  "label": "CKD review: Review memantine above 10 mg/day at CrCl from 5 through 29 mL/min",
+  "family": "CKD",
+  "title": "Review memantine above 10 mg/day at CrCl from 5 through 29 mL/min",
+  "statement": "For an adult outpatient with established CKD, review memantine above 10 mg/day at CrCl from 5 through 29 mL/min.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "A systematically collated library of prescribing safety indicators for people with chronic kidney disease, Additional file 2 (Appendix 3)",
+    "citation": "Smith F, Hayward S, Hole B, Kimpton G, Sluman C, Whiting P, Caskey F. BMC Nephrology. 2020;21:493.",
+    "doi": "10.1186/s12882-020-02158-0",
+    "url": "https://link.springer.com/article/10.1186/s12882-020-02158-0",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Smith F, Hayward S, Hole B, Kimpton G, Sluman C, Whiting P, Caskey F. A systematically collated library of prescribing safety indicators for people with chronic kidney disease. BMC Nephrology 2020;21:493. https://doi.org/10.1186/s12882-020-02158-0; Additional file 2 (Appendix 3), https://doi.org/10.6084/m9.figshare.13257677. © The Author(s) 2020, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Changes were made. Smith et al. compiled the CKD indicators. Original screening wording and Australian adaptations. Clinical cross-check: Ebixa PI (https://apps.medicines.org.au/files/lupebixa.pdf).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "For an adult outpatient with established CKD, review memantine above 10 mg/day at CrCl from 5 through 29 mL/min.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Memantine",
+      "ingredients": [
+        "memantine"
+      ],
+      "brands": {
+        "memantine": [
+          "Ebixa",
+          "Memanxa",
+          "Ebixa Drops",
+          "Memantipin",
+          "Mimiva"
+        ]
+      },
+      "note": "Compare the total daily oral dose, including divided doses."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "Creatinine clearance (unindexed, mL/min)",
+      "meets": "Use the dated Cockcroft-Gault creatinine clearance in mL/min applicable to this supply. A value from 5 through 29 meets the clearance requirement. Outside that range this rule gives no finding. An undated result of uncertain timing, an indexed eGFR or an unknown answer leaves clearance unresolved."
+    },
+    {
+      "kind": "condition",
+      "what": "Chronic kidney disease",
+      "meets": "The adult has established chronic kidney disease in outpatient care."
+    }
+  ],
+  "rule_for_models": "For an outpatient aged 18 or older with established CKD at supply, report oral memantine above 10 mg/day at a dated Cockcroft-Gault creatinine clearance from 5 through 29 mL/min. Cite the supply, CKD and clearance. Calculate daily milligrams from strength, amount per dose and frequency. For liquid, use the labelled amount per measured volume, pump or drop. A dose of 10 mg/day or less, clearance outside the band, or another known exclusion gives no finding. If age, outpatient CKD at supply, daily dose or applicable clearance is uncertain and the case could qualify, cite available evidence and ask for each missing detail as a possible finding. Accept a dated result labelled Creatinine clearance if its method and unit match. An undated counter entry alone cannot date the result or the CKD diagnosis.",
+  "cannot_be_seen": "Dispensing does not establish the dose taken. Kidney results obtained elsewhere, their units and their timing may be missing.",
+  "ask_the_gp": "Could you confirm the total daily memantine dose and the creatinine clearance at the time of supply, and review whether that dose is appropriate?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

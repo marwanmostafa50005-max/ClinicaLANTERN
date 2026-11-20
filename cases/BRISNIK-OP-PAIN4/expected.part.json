@@ -1,0 +1,63 @@
+[
+  {
+    "file": "BRISNIK-OP-PAIN4/pos-fact.csv",
+    "kind": "positive",
+    "about": "The record links sertraline to non-specific low back pain and confirms there is no other current indication for an antidepressant.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-PAIN4",
+        "must_cite": [
+          [
+            "L001",
+            "L007",
+            "L011",
+            "L015",
+            "L019",
+            "L023",
+            "L027",
+            "L031",
+            "L035",
+            "L039"
+          ],
+          [
+            "L002"
+          ],
+          [
+            "L003"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-PAIN4/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record shows brand-only Enlafax-XR supplies and a diagnosis of non-specific low back pain but leaves both \"Non-specific low back pain treated with this antidepressant\" and \"Another current antidepressant indication besides non-specific low back pain\" unresolved.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-PAIN4",
+        "must_cite": [
+          [
+            "L002",
+            "L007",
+            "L011",
+            "L015",
+            "L018",
+            "L022",
+            "L026",
+            "L031"
+          ],
+          [
+            "L003"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-PAIN4/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Citalopram is supplied, and the record also holds a line for generalised anxiety disorder, which is an accepted reason for an antidepressant, so it must not flag.",
+    "findings": []
+  }
+]

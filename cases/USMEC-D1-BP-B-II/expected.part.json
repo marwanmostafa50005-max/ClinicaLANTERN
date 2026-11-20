@@ -1,0 +1,44 @@
+[
+  {
+    "file": "USMEC-D1-BP-B-II/pos-fact.csv",
+    "kind": "positive",
+    "about": "Two seated clinic readings at or above 160 mm Hg systolic precede the combined pill supply, including one exactly at the threshold.",
+    "findings": [
+      {
+        "criterion": "USMEC-D1-BP-B-II",
+        "must_cite": [
+          [
+            "L046"
+          ],
+          [
+            "L042"
+          ],
+          [
+            "L045"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "USMEC-D1-BP-B-II/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about \"First properly taken blood pressure relevant to combined pill supply (mmHg)\" or \"Repeat properly taken blood pressure relevant to combined pill supply (mmHg)\" at the combined pill supply.",
+    "findings": [
+      {
+        "criterion": "USMEC-D1-BP-B-II",
+        "must_cite": [
+          [
+            "L028"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "USMEC-D1-BP-B-II/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Two properly taken clinic readings are below both US thresholds, including one of 159/99 mm Hg.",
+    "findings": []
+  }
+]

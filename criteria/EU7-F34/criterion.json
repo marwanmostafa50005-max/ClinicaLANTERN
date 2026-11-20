@@ -1,0 +1,67 @@
+{
+  "id": "EU7-F34",
+  "label": "EU(7)-PIM: non-selective beta-blockers",
+  "family": "EU7",
+  "title": "Non-selective beta-blockers",
+  "statement": "The 2015 list flags oral oxprenolol, pindolol, propranolol, sotalol, nadolol and labetalol for breathing problems in older people. It also lists possible nervous system effects for the first four. An alternative depends on the indication. For sotalol, review the rhythm-control plan, QT interval and kidney function before considering a change.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Reworded in plain words by ClinicaLANTERN from the source table rows. Not endorsed by the source authors."
+  },
+  "plain_summary": "All six beta-blockers can worsen breathing. The European list also flags possible nervous system effects with oxprenolol, pindolol, propranolol and sotalol.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Non-selective beta-blockers",
+      "ingredients": [
+        "oxprenolol",
+        "pindolol",
+        "propranolol",
+        "sotalol",
+        "nadolol",
+        "labetalol"
+      ],
+      "brands": {
+        "oxprenolol": [
+          "Corbeton"
+        ],
+        "pindolol": [
+          "Visken",
+          "Barbloc",
+          "Pindol"
+        ],
+        "propranolol": [
+          "Inderal",
+          "Deralin",
+          "Drofate",
+          "Hemangiol"
+        ],
+        "sotalol": [
+          "Sotacor",
+          "Solavert",
+          "Cardol",
+          "Sotahexal"
+        ],
+        "nadolol": [],
+        "labetalol": [
+          "Trandate",
+          "Presolol"
+        ]
+      },
+      "note": "Oral tablets, capsules and liquids count. Exclude eye drops and injections, including Trandate injection. Metoprolol, bisoprolol, atenolol and other beta-blockers that act mainly on the heart are not in this group. Nadolol has no brand listed in this group. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when the person is aged 65 or older and at least one Group A medicine (oxprenolol, pindolol, propranolol, sotalol, nadolol or labetalol, by mouth) is supplied. One supply is enough; repeated supplies make it stronger. If age is unknown and the supply otherwise qualifies, report only a possible finding and ask the pharmacist to confirm that the person is 65 or older.",
+  "cannot_be_seen": "Why the beta-blocker was prescribed (for example tremor, migraine, rhythm problem or blood pressure), whether the person has asthma or lung disease, and the heart rate and blood pressure.",
+  "ask_the_gp": "Could we review why this beta-blocker is used and whether breathing problems affect the choice? For sotalol, could we review the rhythm-control plan, QT interval and kidney function?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,71 @@
+[
+  {
+    "file": "START-D5/pos-fact.csv",
+    "kind": "positive",
+    "about": "Persistent severe anxiety prevents independent shopping and reduces quality of life, and there is no SSRI, SNRI or pregabalin supply.",
+    "findings": [
+      {
+        "criterion": "START-D5",
+        "must_cite": [
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-D5/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Persistent severe anxiety is recorded, and sertraline (Zoloft) is supplied every month through the last six months, so nothing is missing.",
+    "findings": []
+  },
+  {
+    "file": "START-D5/near-miss-duloxetine.csv",
+    "kind": "near_miss",
+    "about": "SSRIs are contraindicated and the record confirms duloxetine was supplied for the persistent severe anxiety that limits independent shopping and reduces quality of life.",
+    "findings": []
+  },
+  {
+    "file": "START-D5/pos-pregabalin-pain.csv",
+    "kind": "positive",
+    "about": "Pregabalin is supplied only for neuropathic pain, so it does not treat the recorded severe anxiety even though SSRI suitability is unknown.",
+    "findings": [
+      {
+        "criterion": "START-D5",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L043"
+          ],
+          [
+            "L044"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-D5/pos-ssri-suitable.csv",
+    "kind": "positive",
+    "about": "An SSRI is suitable, so the duloxetine supply with no recorded indication does not clear the omission for the recorded severe anxiety.",
+    "findings": [
+      {
+        "criterion": "START-D5",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L043"
+          ],
+          [
+            "L044"
+          ]
+        ]
+      }
+    ]
+  }
+]

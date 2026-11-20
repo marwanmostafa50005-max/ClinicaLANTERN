@@ -1,0 +1,177 @@
+{
+  "id": "BRISNIK-HR-A6",
+  "label": "Brisnik A6: antidepressant with a fast heart rate",
+  "family": "BRISNIK",
+  "title": "SNRI, high-dose tricyclic, bupropion or tranylcypromine in a person who has developed tachycardia",
+  "statement": "Prescribed TCA (in doses ≥ 50 mg/day), SNRI, bupropion, or tranylcypromine[b] - and the patient has developed tachycardia",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.2 candidate repairs and adopted conventions merged with attribution). Not endorsed by the source authors."
+  },
+  "plain_summary": "Some antidepressants (SNRIs, tricyclics at 50 mg a day or more, bupropion and tranylcypromine) can speed up the heart. They are risky for a person who has developed a fast heart rate (tachycardia).",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "SNRIs, the serotonin and noradrenaline reuptake inhibitor antidepressants",
+      "ingredients": [
+        "desvenlafaxine",
+        "duloxetine",
+        "venlafaxine"
+      ],
+      "brands": {
+        "desvenlafaxine": [
+          "Pristiq",
+          "Desfax",
+          "Desven"
+        ],
+        "duloxetine": [
+          "Cymbalta",
+          "Duloxetine Sandoz",
+          "Andepra",
+          "Baltine",
+          "Coperin",
+          "Deotine",
+          "Depreta",
+          "Drulox",
+          "Dulocym",
+          "Duloxecor",
+          "Dytrex",
+          "Symlox",
+          "Texotine",
+          "Tixol",
+          "Xerol DR"
+        ],
+        "venlafaxine": [
+          "Efexor-XR",
+          "Enlafax",
+          "Venlexor",
+          "Altven",
+          "Elaxine SR",
+          "Enlafax XR",
+          "Evelexa XR",
+          "Ozvenaf",
+          "Venfax SR",
+          "Venla",
+          "Venlexor XR"
+        ]
+      },
+      "note": "Any dose counts."
+    },
+    {
+      "key": "B",
+      "name": "Tricyclic antidepressants (TCAs)",
+      "ingredients": [
+        "amitriptyline",
+        "clomipramine",
+        "dosulepin",
+        "doxepin",
+        "imipramine",
+        "nortriptyline",
+        "trimipramine"
+      ],
+      "brands": {
+        "amitriptyline": [
+          "Endep",
+          "Amichlor",
+          "Amidep",
+          "Entrip"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "dosulepin": [
+          "Dothep",
+          "Prothiaden"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ]
+      },
+      "note": "A tricyclic counts only at a daily dose of 50 mg or more. Work the dose out from strength and directions. Dothiepin is the former name for dosulepin."
+    },
+    {
+      "key": "C",
+      "name": "Bupropion",
+      "ingredients": [
+        "bupropion"
+      ],
+      "brands": {
+        "bupropion": [
+          "Zyban",
+          "Contrave (naltrexone with bupropion)",
+          "Prexaton"
+        ]
+      },
+      "note": "Count bupropion at any dose, including when used for stopping smoking or when supplied with naltrexone in Contrave for weight management."
+    },
+    {
+      "key": "D",
+      "name": "Tranylcypromine",
+      "ingredients": [
+        "tranylcypromine"
+      ],
+      "brands": {
+        "tranylcypromine": [
+          "Parnate",
+          "Parpromine",
+          "Tranamef",
+          "Tranylmed"
+        ]
+      },
+      "note": "Any dose counts."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Tachycardia",
+      "meets": "A new diagnosis of tachycardia during treatment with the qualifying Group A, B, C or D medicine.",
+      "options": [
+        {
+          "words": "New tachycardia diagnosed during this treatment",
+          "effect": "meets"
+        },
+        {
+          "words": "No new tachycardia during this treatment",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "result",
+      "what": "Resting heart rate",
+      "meets": "Enter the resting pulse in beats/min and the date it was measured. In an adult aged 18 or over, a resting pulse newly above 100 beats/min during qualifying treatment meets this check. A normal resting pulse or an unchanged high pulse does not meet this route. An uncertain onset, a pulse taken during exertion or symptoms alone leave the question open. For a child, use a new diagnosis of tachycardia."
+    }
+  ],
+  "rule_for_models": "Assess Group A, C or D at any dose. Assess each Group B tricyclic separately at 50 mg a day or more from its strength and directions. A new diagnosis of tachycardia during qualifying treatment meets the criterion at any age. Below age 18, use the diagnosis. For an adult, a resting pulse newly above 100 beats/min during qualifying treatment also meets the criterion. Cite a supply from the qualifying course and the dated evidence of new tachycardia. When a rise establishes onset, cite both the earlier pulse and the raised on-treatment resting pulse. Give no finding if no medicine qualifies or the evidence rules out new tachycardia. An unchanged high pulse does not establish onset. If the dose, onset or resting pulse is unclear, or there are only symptoms, report a possible finding, cite the relevant supply and ask only for the missing detail. For a missing diagnosis name \"Tachycardia\". For a missing adult measurement name \"Resting heart rate\" and ask for its value in beats/min and the date measured. Only use evidence that relates to the course being assessed.",
+  "cannot_be_seen": "The heart rate when it is not recorded, whether the fast rate has other causes (such as thyroid disease, anaemia or caffeine), ECG results, and what the person actually takes.",
+  "ask_the_gp": "A heart rate and rhythm check for this person, and a review of whether the medicine is still the right choice.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

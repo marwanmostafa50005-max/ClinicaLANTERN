@@ -1,0 +1,67 @@
+[
+  {
+    "file": "BRISNIK-OP-MISC2/pos-fact.csv",
+    "kind": "positive",
+    "about": "Sertraline is supplied every four weeks while the record holds lines for dementia and for a first episode of mild depression.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-MISC2",
+        "must_cite": [
+          [
+            "L003",
+            "L007",
+            "L011",
+            "L015",
+            "L019",
+            "L023",
+            "L027",
+            "L031",
+            "L035",
+            "L039",
+            "L043"
+          ],
+          [
+            "L001"
+          ],
+          [
+            "L002"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-MISC2/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: donepezil is a clue to dementia, but the record gives no reason for bupropion and does not document dementia or a first mild or moderate depressive episode.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-MISC2",
+        "must_cite": [
+          [
+            "L002",
+            "L006",
+            "L010",
+            "L014",
+            "L018",
+            "L022"
+          ],
+          [
+            "L003",
+            "L007",
+            "L011",
+            "L015",
+            "L019",
+            "L023"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-MISC2/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The record holds dementia, but the depression line says recurrent and moderate to severe, so it is not a first mild or moderate episode.",
+    "findings": []
+  }
+]

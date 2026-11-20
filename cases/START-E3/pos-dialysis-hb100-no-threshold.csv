@@ -1,0 +1,33 @@
+patient_ref,patient_age,patient_sex,record_type,dispense_date,medicine,brand,strength,form,quantity,repeats_left,directions,prescriber,detail,value
+F-E3-04,74,M,,2026-01-16,amlodipine,Norvasc,5 mg,tablet,30,5,Take ONE tablet daily,Dr C. Example,,
+F-E3-04,74,M,,2026-01-16,pantoprazole,Somac,20 mg,tablet,30,5,Take ONE tablet daily,Dr C. Example,,
+F-E3-04,74,M,,2026-01-16,levothyroxine,Oroxine,50 microgram,tablet,30,5,Take ONE tablet each morning,Dr C. Example,,
+F-E3-04,74,M,,2026-02-15,amlodipine,Norvasc,5 mg,tablet,30,4,Take ONE tablet daily,Dr C. Example,,
+F-E3-04,74,M,,2026-02-15,pantoprazole,Somac,20 mg,tablet,30,4,Take ONE tablet daily,Dr C. Example,,
+F-E3-04,74,M,,2026-02-15,levothyroxine,Oroxine,50 microgram,tablet,30,4,Take ONE tablet each morning,Dr C. Example,,
+F-E3-04,74,M,,2026-03-17,amlodipine,Norvasc,5 mg,tablet,30,3,Take ONE tablet daily,Dr C. Example,,
+F-E3-04,74,M,,2026-03-17,pantoprazole,Somac,20 mg,tablet,30,3,Take ONE tablet daily,Dr C. Example,,
+F-E3-04,74,M,,2026-03-17,levothyroxine,Oroxine,50 microgram,tablet,30,3,Take ONE tablet each morning,Dr C. Example,,
+F-E3-04,74,M,,2026-04-16,amlodipine,Norvasc,5 mg,tablet,30,2,Take ONE tablet daily,Dr C. Example,,
+F-E3-04,74,M,,2026-04-16,pantoprazole,Somac,20 mg,tablet,30,2,Take ONE tablet daily,Dr C. Example,,
+F-E3-04,74,M,,2026-04-16,levothyroxine,Oroxine,50 microgram,tablet,30,2,Take ONE tablet each morning,Dr C. Example,,
+F-E3-04,74,M,,2026-05-16,amlodipine,Norvasc,5 mg,tablet,30,1,Take ONE tablet daily,Dr C. Example,,
+F-E3-04,74,M,,2026-05-16,pantoprazole,Somac,20 mg,tablet,30,1,Take ONE tablet daily,Dr C. Example,,
+F-E3-04,74,M,,2026-05-16,levothyroxine,Oroxine,50 microgram,tablet,30,1,Take ONE tablet each morning,Dr C. Example,,
+F-E3-04,74,M,,2026-06-15,amlodipine,Norvasc,5 mg,tablet,30,0,Take ONE tablet daily,Dr C. Example,,
+F-E3-04,74,M,,2026-06-15,pantoprazole,Somac,20 mg,tablet,30,0,Take ONE tablet daily,Dr C. Example,,
+F-E3-04,74,M,,2026-06-15,levothyroxine,Oroxine,50 microgram,tablet,30,0,Take ONE tablet each morning,Dr C. Example,,
+F-E3-04,74,M,result,2026-07-06,,,,,,,,,eGFR,8 mL/min/1.73 m2
+F-E3-04,74,M,,2026-07-15,amlodipine,Norvasc,5 mg,tablet,30,5,Take ONE tablet daily,Dr C. Example,,
+F-E3-04,74,M,,2026-07-15,pantoprazole,Somac,20 mg,tablet,30,5,Take ONE tablet daily,Dr C. Example,,
+F-E3-04,74,M,,2026-07-15,levothyroxine,Oroxine,50 microgram,tablet,30,5,Take ONE tablet each morning,Dr C. Example,,
+F-E3-04,74,M,observation,2026-08-03,,,,,,,,,Dialysis status,Receiving maintenance haemodialysis three times each week
+F-E3-04,74,M,,2026-08-14,amlodipine,Norvasc,5 mg,tablet,30,4,Take ONE tablet daily,Dr C. Example,,
+F-E3-04,74,M,,2026-08-14,pantoprazole,Somac,20 mg,tablet,30,4,Take ONE tablet daily,Dr C. Example,,
+F-E3-04,74,M,,2026-08-14,levothyroxine,Oroxine,50 microgram,tablet,30,4,Take ONE tablet each morning,Dr C. Example,,
+F-E3-04,74,M,,2026-09-13,amlodipine,Norvasc,5 mg,tablet,30,3,Take ONE tablet daily,Dr C. Example,,
+F-E3-04,74,M,,2026-09-13,pantoprazole,Somac,20 mg,tablet,30,3,Take ONE tablet daily,Dr C. Example,,
+F-E3-04,74,M,,2026-09-13,levothyroxine,Oroxine,50 microgram,tablet,30,3,Take ONE tablet each morning,Dr C. Example,,
+F-E3-04,74,M,result,2026-09-15,,,,,,,,,Haemoglobin,100 g/L
+F-E3-04,74,M,condition,2026-09-16,,,,,,,,,Symptomatic anaemia due to chronic kidney disease with persistent fatigue on exertion,
+F-E3-04,74,M,observation,2026-09-16,,,,,,,,,Kidney clinic assessment of anaemia,"The kidney clinic reviewed the iron studies, vitamin B12 and folate results. These deficiencies do not explain the anaemia."

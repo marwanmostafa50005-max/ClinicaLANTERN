@@ -1,0 +1,61 @@
+[
+  {
+    "file": "STOPP-H9/pos-fact.csv",
+    "kind": "positive",
+    "about": "The January to May Palexia SR supplies span more than 90 days for knee osteoarthritis, and the June pack was returned unopened.",
+    "findings": [
+      {
+        "criterion": "STOPP-H9",
+        "must_cite": [
+          [
+            "L010"
+          ],
+          [
+            "L015",
+            "L020"
+          ],
+          [
+            "L025"
+          ],
+          [
+            "L030"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-H9/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the February to June Tramal SR supplies span more than 90 days, but the record gives no osteoarthritis diagnosis, indication or use pattern for that course, and the July pack was for neuralgia.",
+    "findings": [
+      {
+        "criterion": "STOPP-H9",
+        "must_cite": [
+          [
+            "L004"
+          ],
+          [
+            "L008",
+            "L012"
+          ],
+          [
+            "L016"
+          ],
+          [
+            "L020"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-H9/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Osteoarthritis is recorded and Panadol Osteo is supplied regularly. The only opioid is one short pack of Tramal (20 capsules) in March 2026, which is not long-term use.",
+    "findings": []
+  }
+]

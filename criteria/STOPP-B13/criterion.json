@@ -1,0 +1,237 @@
+{
+  "id": "STOPP-B13",
+  "label": "STOPP B13",
+  "family": "STOPP_START",
+  "title": "Aldosterone antagonist with a potassium-conserving medicine (potassium check)",
+  "statement": "Aldosterone antagonists (e.g., spironolactone, eplerenone) with concurrent potassium-conserving drugs (e.g., ACEI’s, ARB’s, amiloride, triamterene) without monitoring of serum potassium (risk of dangerous hyperkalaemia i.e., > 6.0 mmol/l – serum K should be monitored regularly, i.e., at least every 6 months).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "An aldosterone antagonist such as spironolactone or eplerenone, taken with another medicine that keeps potassium in the body, can lead to dangerously high blood potassium unless the potassium level is checked at least every 6 months.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Aldosterone antagonists",
+      "ingredients": [
+        "spironolactone",
+        "eplerenone",
+        "finerenone"
+      ],
+      "brands": {
+        "spironolactone": [
+          "Aldactone",
+          "Spiractin"
+        ],
+        "eplerenone": [
+          "Inspra",
+          "Espler",
+          "Inpler",
+          "Plera"
+        ],
+        "finerenone": [
+          "Kerendia"
+        ]
+      },
+      "note": "Oral tablets of the listed aldosterone antagonists count. Estimate each supply period from its date, quantity and directed daily dose. If directions are unclear, use the 60-day date test. If the dates are further apart and overlap is plausible but uncertain, ask whether the medicines were taken together. Report at most a possible gap in that situation, and only if the potassium check also suggests a gap."
+    },
+    {
+      "key": "B",
+      "name": "ACE inhibitors, angiotensin receptor blockers (sartans), amiloride and triamterene",
+      "ingredients": [
+        "captopril",
+        "enalapril",
+        "fosinopril",
+        "lisinopril",
+        "perindopril",
+        "quinapril",
+        "ramipril",
+        "trandolapril",
+        "candesartan",
+        "eprosartan",
+        "irbesartan",
+        "losartan",
+        "olmesartan",
+        "telmisartan",
+        "valsartan",
+        "amiloride",
+        "triamterene"
+      ],
+      "brands": {
+        "captopril": [
+          "Capoten",
+          "Acenorm",
+          "Captohexal",
+          "Topace",
+          "Zedace"
+        ],
+        "enalapril": [
+          "Renitec",
+          "Renitec Plus",
+          "Zan-Extra",
+          "Acetec",
+          "Alphapril",
+          "Amprace",
+          "Auspril",
+          "Elapril",
+          "Enahexal",
+          "Enalabell",
+          "Malean",
+          "Renitec M"
+        ],
+        "fosinopril": [
+          "Monopril",
+          "Monoplus",
+          "Fosipril",
+          "Monace"
+        ],
+        "lisinopril": [
+          "Zestril",
+          "Prinivil",
+          "Fibsol",
+          "Linopril",
+          "Liprace",
+          "Lisinobell",
+          "Lisinotrust",
+          "Lisodrate",
+          "Lisodur",
+          "Lisoril",
+          "Ozten",
+          "Sinop",
+          "Zinopril"
+        ],
+        "perindopril": [
+          "Coversyl",
+          "Prexum",
+          "Perindo",
+          "Idaprex",
+          "Coversyl Plus",
+          "Coveram",
+          "Reaptan",
+          "Idaprex Arg",
+          "Indopril",
+          "Indosyl Mono",
+          "Ozapace",
+          "Perindo Arg",
+          "Perindoarg",
+          "Perindobell",
+          "Perisyl",
+          "Perindo Combi",
+          "Triplixam SR"
+        ],
+        "quinapril": [
+          "Accupril",
+          "Accuretic",
+          "Acquin",
+          "Aquinafil",
+          "Filpril",
+          "Qpril"
+        ],
+        "ramipril": [
+          "Tritace",
+          "Ramace",
+          "Tryzan",
+          "Triasyn",
+          "Prilace",
+          "Ramibell",
+          "Vascalace"
+        ],
+        "trandolapril": [
+          "Gopten",
+          "Odrik",
+          "Tarka",
+          "Dolapril",
+          "Goricap",
+          "Tranalpha"
+        ],
+        "candesartan": [
+          "Atacand",
+          "Atacand Plus",
+          "Adesan",
+          "Asartan",
+          "Candelem",
+          "Candesan"
+        ],
+        "eprosartan": [
+          "Teveten",
+          "Teveten Plus"
+        ],
+        "irbesartan": [
+          "Avapro",
+          "Karvea",
+          "Avapro HCT",
+          "Karvezide",
+          "Abisart",
+          "Ambotens",
+          "Avsartan",
+          "Irbesat",
+          "Irbestin",
+          "Irbetan",
+          "Irprestan",
+          "Karbesat"
+        ],
+        "losartan": [
+          "Cozaar",
+          "Cozavan",
+          "Hyzaar"
+        ],
+        "olmesartan": [
+          "Olmetec",
+          "Olmetec Plus",
+          "Sevikar",
+          "Sevikar HCT",
+          "Olmertan",
+          "Olmes",
+          "Olmesart",
+          "Olsetan"
+        ],
+        "telmisartan": [
+          "Micardis",
+          "Micardis Plus",
+          "Twynsta",
+          "Mizart",
+          "Pritor",
+          "Telmigen",
+          "Teltartan"
+        ],
+        "valsartan": [
+          "Diovan",
+          "Co-Diovan",
+          "Exforge",
+          "Exforge HCT",
+          "Entresto",
+          "Dilart"
+        ],
+        "amiloride": [
+          "Kaluril",
+          "Moduretic",
+          "Amizide"
+        ],
+        "triamterene": [
+          "Hydrene"
+        ]
+      },
+      "note": "A combination product that holds one of these medicines counts. Renitec Plus, Monoplus, Accuretic, Atacand Plus, Teveten Plus, Avapro HCT, Karvezide, Olmetec Plus, Micardis Plus and Co-Diovan also hold hydrochlorothiazide. Coversyl Plus also holds indapamide. Coveram, Reaptan, Sevikar, Twynsta and Exforge also hold amlodipine. Sevikar HCT and Exforge HCT also hold amlodipine and hydrochlorothiazide. Zan-Extra is enalapril with lercanidipine. Triasyn is ramipril with felodipine. Tarka is trandolapril with verapamil. Entresto is valsartan with sacubitril. Moduretic and Amizide are amiloride with hydrochlorothiazide. Hydrene is triamterene with hydrochlorothiazide. Hyzaar contains losartan and hydrochlorothiazide. Perindo Combi contains perindopril and indapamide. Triplixam SR contains perindopril, amlodipine and indapamide."
+    }
+  ],
+  "rule_for_models": "For people aged 65 or older (confirm age if unknown), match each aldosterone antagonist fill to every ACE inhibitor, sartan, amiloride or triamterene fill from 60 days before through 60 days after it, even after its tablets run out, and include pairs outside this window if the supplies overlap. Report no finding if serum potassium was measured in the six months before the latest matched fill, on its date or afterwards. Otherwise cite two supply lines: the latest aldosterone antagonist fill that has a matched partner, and the matched partner fill nearest in date to that fill. Give both dates and the days between them. Never cite a partner fill dated more than 60 days after that aldosterone antagonist fill unless the two supplies overlap. Then cite the latest serum potassium result if its test date is known or report a possible gap and ask for the missing result or blood test date (the counter entry date does not date the test).",
+  "cannot_be_seen": "A serum potassium or kidney function result when the record holds no line about it, why each medicine was prescribed, whether both are still being taken, and potassium supplements or salt substitutes bought without a prescription.",
+  "ask_the_gp": "Whether serum potassium has been checked within the last 6 months while both medicines are being taken together.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "Serum potassium",
+      "meets": "The most recent serum potassium result is dated more than six months before the latest concurrent supply. A result on that date, in the preceding six months or after that date means no monitoring gap. If no serum potassium result is recorded, report a possible monitoring gap. Enter the measured serum potassium in mmol/L, for example 4.6 mmol/L. Ask for the date of an undated test. Its value alone cannot establish when monitoring occurred, and an unknown date leaves the timing unresolved."
+    }
+  ]
+}

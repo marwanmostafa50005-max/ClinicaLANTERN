@@ -1,0 +1,571 @@
+{
+  "id": "OPTIMISE-T2-08",
+  "label": "OPTIMISE T2-08: treat stage 2 hypertension",
+  "family": "OPTIMISE",
+  "title": "No blood pressure medicine for stage 2 hypertension",
+  "statement": "Commence antihypertensive therapy to adults of any age with clinic blood pressure ≥ 160/100 mmHg and ABPM ≥ 150/95 mmHg (stage 2 hypertension)",
+  "statement_origin": "published",
+  "source": {
+    "document": "Carolan A, et al. OPTIMISE. BMC Psychiatry 2022;22:585, Tables 2-3",
+    "citation": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.3 candidate repairs, adopted conventions and independent-audit corrections merged with attribution). Not endorsed by the source authors."
+  },
+  "plain_summary": "For an adult with severe mental illness and no recorded blood pressure medicine, review treatment if clinic blood pressure reaches 160 systolic or 100 diastolic and the daytime ambulatory average reaches 150 systolic or 95 diastolic, in mmHg. Australian guidance differs: five-year cardiovascular risk guides blood pressure treatment in eligible primary prevention patients, while very high pressure such as above 160/100 mmHg warrants treatment regardless of calculated risk (Australian CVD Risk Guideline, 2023).",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Blood pressure medicines (antihypertensives)",
+      "ingredients": [
+        "perindopril",
+        "ramipril",
+        "enalapril",
+        "lisinopril",
+        "quinapril",
+        "trandolapril",
+        "candesartan",
+        "irbesartan",
+        "telmisartan",
+        "olmesartan",
+        "valsartan",
+        "losartan",
+        "amlodipine",
+        "felodipine",
+        "lercanidipine",
+        "nifedipine",
+        "indapamide",
+        "chlortalidone",
+        "hydrochlorothiazide",
+        "atenolol",
+        "metoprolol",
+        "bisoprolol",
+        "carvedilol",
+        "verapamil",
+        "diltiazem",
+        "prazosin",
+        "moxonidine",
+        "spironolactone",
+        "fosinopril",
+        "captopril",
+        "clonidine",
+        "nebivolol",
+        "propranolol",
+        "labetalol",
+        "methyldopa"
+      ],
+      "brands": {
+        "perindopril": [
+          "Coversyl",
+          "Coversyl Plus",
+          "Idaprex",
+          "Idaprex Arg",
+          "Indopril",
+          "Indosyl Mono",
+          "Ozapace",
+          "Perindo",
+          "Perindo Arg",
+          "Perindoarg",
+          "Perindobell",
+          "Perisyl",
+          "Prexum",
+          "Coveram",
+          "Reaptan",
+          "Triplixam SR"
+        ],
+        "ramipril": [
+          "Tritace",
+          "Prilace",
+          "Ramace",
+          "Ramibell",
+          "Tryzan",
+          "Vascalace"
+        ],
+        "enalapril": [
+          "Renitec",
+          "Acetec",
+          "Alphapril",
+          "Amprace",
+          "Auspril",
+          "Elapril",
+          "Enahexal",
+          "Enalabell",
+          "Malean",
+          "Renitec M",
+          "Zan-Extra"
+        ],
+        "lisinopril": [
+          "Zestril",
+          "Fibsol",
+          "Linopril",
+          "Liprace",
+          "Lisinobell",
+          "Lisinotrust",
+          "Lisodrate",
+          "Lisodur",
+          "Lisoril",
+          "Ozten",
+          "Prinivil",
+          "Sinop",
+          "Zinopril"
+        ],
+        "quinapril": [
+          "Accupril",
+          "Acquin",
+          "Aquinafil",
+          "Filpril",
+          "Qpril"
+        ],
+        "trandolapril": [
+          "Gopten",
+          "Dolapril",
+          "Goricap",
+          "Odrik",
+          "Tranalpha"
+        ],
+        "candesartan": [
+          "Atacand",
+          "Atacand Plus",
+          "Adesan",
+          "Asartan",
+          "Candelem",
+          "Candesan"
+        ],
+        "irbesartan": [
+          "Avapro",
+          "Avalide",
+          "Abisart",
+          "Ambotens",
+          "Avsartan",
+          "Irbesat",
+          "Irbestin",
+          "Irbetan",
+          "Irprestan",
+          "Karbesat",
+          "Karvea",
+          "Karvezide",
+          "Avapro HCT"
+        ],
+        "telmisartan": [
+          "Micardis",
+          "Micardis Plus",
+          "Twynsta",
+          "Mizart",
+          "Pritor",
+          "Telmigen",
+          "Teltartan"
+        ],
+        "olmesartan": [
+          "Olmetec",
+          "Olmetec Plus",
+          "Olmertan",
+          "Olmes",
+          "Olmesart",
+          "Olsetan",
+          "Sevikar",
+          "Sevikar HCT"
+        ],
+        "valsartan": [
+          "Diovan",
+          "Exforge",
+          "Dilart",
+          "Exforge HCT"
+        ],
+        "losartan": [
+          "Cozaar",
+          "Hyzaar",
+          "Cozavan"
+        ],
+        "amlodipine": [
+          "Norvasc",
+          "Exforge",
+          "Twynsta",
+          "Amline",
+          "Amlo",
+          "Amlocor",
+          "Amlotrust",
+          "Amvas",
+          "Besidep",
+          "Nordip",
+          "Norvapine",
+          "Ozlodip",
+          "Perivasc",
+          "Coveram",
+          "Reaptan",
+          "Sevikar",
+          "Sevikar HCT",
+          "Caduet",
+          "Triplixam SR",
+          "Exforge HCT"
+        ],
+        "felodipine": [
+          "Plendil"
+        ],
+        "lercanidipine": [
+          "Zanidip",
+          "Ledip",
+          "Lepine",
+          "Lercadip",
+          "Lercan",
+          "Zircol",
+          "Zan-Extra"
+        ],
+        "nifedipine": [
+          "Adalat Oros",
+          "Adalat",
+          "Addos XR",
+          "Adefin",
+          "Adefin XL",
+          "Nifehexal",
+          "Nyefax",
+          "Nypine"
+        ],
+        "indapamide": [
+          "Natrilix",
+          "Coversyl Plus",
+          "Dapa-Tabs",
+          "Indahexal",
+          "Indapamol",
+          "Insig",
+          "Napamide",
+          "Natrilix SR",
+          "Odaplix SR",
+          "Tenaxil SR",
+          "Triplixam SR"
+        ],
+        "chlortalidone": [
+          "Hygroton"
+        ],
+        "hydrochlorothiazide": [
+          "Micardis Plus",
+          "Atacand Plus",
+          "Hyzaar",
+          "Sevikar HCT",
+          "Karvezide",
+          "Avapro HCT",
+          "Exforge HCT",
+          "Dithiazide"
+        ],
+        "atenolol": [
+          "Tenormin",
+          "Anselol",
+          "Atehexal",
+          "Aten",
+          "Colaptyn",
+          "Noten",
+          "Tenolten",
+          "Tensig"
+        ],
+        "metoprolol": [
+          "Lopresor",
+          "Metatar",
+          "Metohexal",
+          "Metolol",
+          "Metrol",
+          "Metrol-XL",
+          "Minax",
+          "Minax XL",
+          "Mistrom",
+          "Tobeta-XL",
+          "Topreloc-XL",
+          "Toprol-XL",
+          "Betaloc"
+        ],
+        "bisoprolol": [
+          "Bicor",
+          "Beprol",
+          "Bicard",
+          "Biso",
+          "Bispro"
+        ],
+        "carvedilol": [
+          "Dilatrend",
+          "Carvidol",
+          "Dicarz",
+          "Dilasig",
+          "Kredex",
+          "Vedilol",
+          "Volirop"
+        ],
+        "verapamil": [
+          "Isoptin",
+          "Isoptin SR",
+          "Cordilox SR"
+        ],
+        "diltiazem": [
+          "Cardizem",
+          "Cardizem CD",
+          "Vasocardol",
+          "Vasocardol CD"
+        ],
+        "prazosin": [
+          "Minipress"
+        ],
+        "moxonidine": [
+          "Physiotens"
+        ],
+        "spironolactone": [
+          "Aldactone",
+          "Spiractin"
+        ],
+        "fosinopril": [
+          "Monopril"
+        ],
+        "captopril": [
+          "Capoten"
+        ],
+        "clonidine": [
+          "Catapres"
+        ],
+        "nebivolol": [
+          "Nebilet"
+        ],
+        "propranolol": [
+          "Inderal",
+          "Deralin"
+        ],
+        "labetalol": [
+          "Presolol",
+          "Trandate"
+        ],
+        "methyldopa": [
+          "Aldomet"
+        ]
+      },
+      "note": "Combination brands are listed under each ingredient they contain: Coversyl Plus is perindopril with indapamide, Atacand Plus is candesartan with hydrochlorothiazide, Micardis Plus is telmisartan with hydrochlorothiazide, Twynsta is telmisartan with amlodipine, Exforge is valsartan with amlodipine, Hyzaar is losartan with hydrochlorothiazide. Generic packs that show the ingredient name with a company name count too. For oral medicines with several uses, including beta-blockers, count the supply as blood pressure treatment when the record or pharmacist confirms that use. A topical product, an injection for another purpose or Entresto for heart failure does not establish hypertension treatment. If the reason is unclear, ask before treating the supply as evidence that hypertension is treated. Chlorthalidone is an alternative spelling of chlortalidone."
+    },
+    {
+      "key": "B",
+      "name": "Antipsychotics and lithium (a sign the person may have severe mental illness)",
+      "ingredients": [
+        "olanzapine",
+        "quetiapine",
+        "risperidone",
+        "aripiprazole",
+        "clozapine",
+        "paliperidone",
+        "amisulpride",
+        "haloperidol",
+        "lithium carbonate",
+        "lurasidone",
+        "brexpiprazole",
+        "cariprazine",
+        "ziprasidone",
+        "asenapine",
+        "zuclopenthixol",
+        "flupentixol decanoate",
+        "flupentixol",
+        "chlorpromazine",
+        "periciazine",
+        "trifluoperazine"
+      ],
+      "brands": {
+        "olanzapine": [
+          "Zyprexa",
+          "Zyprexa Zydis",
+          "Aprolan",
+          "Aprolan ODT",
+          "Lanez",
+          "Lanez ODT",
+          "Lanzek",
+          "Lanzek Zydis",
+          "Lonza",
+          "Lonza ODT",
+          "Lyprosia",
+          "Lyprosia ODT",
+          "Olancor",
+          "Olanza",
+          "Olanzaccord",
+          "Olanzacor",
+          "Oprexa",
+          "Ozin",
+          "Ozin ODT",
+          "Prolanza",
+          "Prolanza ODT",
+          "Pryzex",
+          "Pryzex ODT",
+          "Tolaze ODT",
+          "Tolazine ODT",
+          "Torapine ODT",
+          "Torrenia ODT",
+          "Zylap",
+          "Zylap ODT",
+          "Zylapine",
+          "Zylapine ODT",
+          "Zypine",
+          "Zypine ODT"
+        ],
+        "quetiapine": [
+          "Seroquel",
+          "Seroquel XR",
+          "Aliquen",
+          "Delucon",
+          "Kaptan",
+          "Ketizenol",
+          "Qualez",
+          "Quepine XR",
+          "Quetapen",
+          "Quetia",
+          "Quetia XR",
+          "Quetiaccord",
+          "Quetiaquel XR",
+          "Quetin",
+          "Quipine",
+          "Sequase",
+          "Sequase XR",
+          "Serapine",
+          "Serapine XR",
+          "Seroccord",
+          "Seronia",
+          "Serotiapine XR",
+          "Syquet",
+          "Syquet XR",
+          "Syzopine",
+          "Tevatiapine XR",
+          "Tiapine XR",
+          "Tiava XR",
+          "Xque XR"
+        ],
+        "risperidone": [
+          "Risperdal",
+          "Risperdal Consta",
+          "Ozidal",
+          "Resdone",
+          "Respaz",
+          "Risdone",
+          "Rispa",
+          "Rispaccord",
+          "Rispaccord-0.5",
+          "Risperdal Quicklet",
+          "Risperibell",
+          "Rispericor",
+          "Rispericor-0.5",
+          "Risperisan",
+          "Rispernia",
+          "Rixadone",
+          "Sperid",
+          "Uzedy"
+        ],
+        "aripiprazole": [
+          "Abilify",
+          "Abilify Maintena",
+          "Abilify Asimtufii",
+          "Abilify ODT",
+          "Abipra",
+          "Abyraz",
+          "Aprazole",
+          "Aripic",
+          "Aripra",
+          "Arizole"
+        ],
+        "clozapine": [
+          "Clozaril",
+          "Clopine",
+          "Closyn",
+          "Clozaril ODT",
+          "Clozitor",
+          "Versacloz"
+        ],
+        "paliperidone": [
+          "Invega",
+          "Invega Sustenna",
+          "Invega Hafyera",
+          "Invega Trinza",
+          "Palmeux",
+          "Trevicta"
+        ],
+        "amisulpride": [
+          "Solian",
+          "Amipride",
+          "Sulprix"
+        ],
+        "haloperidol": [
+          "Serenace"
+        ],
+        "lithium carbonate": [
+          "Lithicarb",
+          "Quilonorm",
+          "Lithicarb SR",
+          "Lithquil SR",
+          "Lithspen",
+          "Quilonum SR"
+        ],
+        "lurasidone": [
+          "Latuda"
+        ],
+        "brexpiprazole": [
+          "Rexulti"
+        ],
+        "cariprazine": [
+          "Reagila"
+        ],
+        "ziprasidone": [
+          "Zeldox"
+        ],
+        "asenapine": [
+          "Saphris"
+        ],
+        "zuclopenthixol": [
+          "Clopixol"
+        ],
+        "flupentixol decanoate": [
+          "Fluanxol"
+        ],
+        "flupentixol": [],
+        "chlorpromazine": [
+          "Largactil"
+        ],
+        "periciazine": [
+          "Neulactil"
+        ],
+        "trifluoperazine": [
+          "Stelazine"
+        ]
+      },
+      "note": "This group is not the medicine the finding is about. It only shows that the person may be in the group the OPTIMISE tool was written for. A medicine used for another reason, for example low-dose quetiapine for sleep, can mislead."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "Clinic blood pressure",
+      "meets": "Enter the systolic and diastolic clinic readings in mmHg and the measurement date. This branch meets at systolic 160 mmHg or above or diastolic 100 mmHg or above."
+    },
+    {
+      "kind": "result",
+      "what": "Ambulatory blood pressure monitoring (ABPM) daytime average",
+      "meets": "Enter the daytime average in mmHg and the monitoring date. This branch meets at systolic 150 mmHg or above or diastolic 95 mmHg or above."
+    },
+    {
+      "kind": "condition",
+      "what": "Severe mental illness",
+      "meets": "A condition line records severe mental illness. An antipsychotic or lithium supply alone cannot establish the diagnosis."
+    },
+    {
+      "kind": "observation",
+      "what": "Use of oral medicines in this record to treat blood pressure",
+      "meets": "Consider all oral medicines in this record that could treat blood pressure. Choose All were used for other conditions only if that is confirmed for every one. Use of any one for blood pressure rules out the omission. Choose Not known if none is confirmed for blood pressure and any purpose is still unclear.",
+      "options": [
+        {
+          "words": "All were used for other conditions",
+          "effect": "meets"
+        },
+        {
+          "words": "At least one was used for blood pressure",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Consider adults aged 18 or older with a confirmed diagnosis of severe mental illness or a Group B supply. Give no finding if severe mental illness is explicitly ruled out, any Group A supply anywhere in the history was used for blood pressure, or either available pressure is below both its limits. The clinic threshold is systolic at least 160 mmHg or diastolic at least 100 mmHg. The daytime ambulatory threshold is systolic at least 150 mmHg or diastolic at least 95 mmHg. Accept dated results and existing observations that identify the measurement setting. Report a full finding when adult age, the diagnosis and both thresholds are confirmed and no supply was used for blood pressure. If no exclusion applies, report a possible finding for unknown age or missing evidence. Name each missing fact exactly: \"Severe mental illness\", \"Clinic blood pressure\" or \"Ambulatory blood pressure monitoring (ABPM) daytime average\". Only if the use of a relevant oral Group A medicine is unclear and could change the finding, name each such medicine and ask for \"Use of oral medicines in this record to treat blood pressure\". If all were used for other conditions, assess the remaining requirements. If any purpose remains unknown and no use for blood pressure is confirmed, keep the finding possible. For every finding cite the available clinic and daytime ambulatory reading lines, the diagnosis line or one Group B supply if the diagnosis is missing, and a supply of each oral medicine whose unclear use affects the finding.",
+  "cannot_be_seen": "Whether pressures were taken properly. Home readings not in the record. Why no blood pressure medicine was used. Medicines supplied elsewhere. Whether the statement means both numbers or either number must be raised.",
+  "ask_the_gp": "Could you review the clinic and daytime ambulatory blood pressure results, arrange assessment if needed, and consider treatment if stage 2 hypertension is confirmed?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

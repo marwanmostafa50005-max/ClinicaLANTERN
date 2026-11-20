@@ -1,0 +1,8 @@
+patient_ref,patient_age,patient_sex,record_type,dispense_date,medicine,brand,strength,form,quantity,repeats_left,directions,prescriber,detail,value
+F-FR-B3-1,78,M,,2026-04-08,metoprolol,Betaloc,50 mg,tablet,60,3,Take ONE tablet twice a day,Dr A. Example,,
+F-FR-B3-1,78,M,,2026-04-22,diltiazem,Cardizem CD,180 mg,tablet,30,2,Take ONE capsule daily,Dr B. Sample,,
+F-FR-B3-1,78,M,,2026-05-06,metoprolol,Betaloc,50 mg,tablet,60,2,Take ONE tablet twice a day,Dr A. Example,,
+F-FR-B3-1,78,M,,2026-05-20,diltiazem,Cardizem CD,180 mg,tablet,30,1,Take ONE capsule daily,Dr B. Sample,,
+F-FR-B3-1,78,M,,2026-06-03,metoprolol,Betaloc,50 mg,tablet,60,1,Take ONE tablet twice a day,Dr A. Example,,
+F-FR-B3-1,78,M,,2026-06-17,diltiazem,Cardizem CD,180 mg,tablet,30,0,Take ONE capsule daily,Dr B. Sample,,
+F-FR-B3-1,78,M,,2026-07-01,aspirin,Astrix,100 mg,tablet,90,5,Take ONE tablet daily,Dr A. Example,,

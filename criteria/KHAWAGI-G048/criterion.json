@@ -1,0 +1,66 @@
+{
+  "id": "KHAWAGI-G048",
+  "label": "Khawagi: benzodiazepine supplied at age 65 or over with recent delirium",
+  "family": "KHAWAGI",
+  "title": "Benzodiazepine supplied at age 65 or over with recent delirium",
+  "statement": "Sedative, hypnotics and anxiolytics | Delirium | Benzodiazepines | ≥ 65 | [34, 84]",
+  "statement_origin": "published",
+  "source": {
+    "document": "Khawagi et al. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. S3 File.",
+    "citation": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. PLoS ONE 2019;14(5):e0217406.",
+    "doi": "10.1371/journal.pone.0217406",
+    "url": "https://doi.org/10.1371/journal.pone.0217406.s003",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. PLoS ONE 2019;14(5):e0217406. https://doi.org/10.1371/journal.pone.0217406; S3 File, https://doi.org/10.1371/journal.pone.0217406.s003. © 2019 Khawagi et al., CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Changes were made.",
+    "modification_notice": "S3 table cells are transcribed. The screening rule, medicine lists and fictional cases were adapted for review."
+  },
+  "plain_summary": "A recent record of delirium prompts a review of a benzodiazepine supplied at age 65 or over. Convention proposed by Elicit, not yet ruled by the founder: Recorded delirium (recent, e.g. within 3 months) + benzodiazepine, age ≥65.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Benzodiazepines",
+      "ingredients": [
+        "diazepam",
+        "temazepam",
+        "oxazepam",
+        "nitrazepam",
+        "lorazepam",
+        "alprazolam",
+        "clonazepam",
+        "clobazam",
+        "bromazepam",
+        "flunitrazepam",
+        "midazolam"
+      ],
+      "brands": {
+        "diazepam": [
+          "Diazepam-WGR"
+        ],
+        "temazepam": [],
+        "oxazepam": [],
+        "nitrazepam": [],
+        "lorazepam": [],
+        "alprazolam": [],
+        "clonazepam": [],
+        "clobazam": [],
+        "bromazepam": [],
+        "flunitrazepam": [],
+        "midazolam": []
+      }
+    }
+  ],
+  "rule_for_models": "At age 65 or over, cite the benzodiazepine and delirium lines if delirium was documented at supply or in the preceding three calendar months and was not documented as resolved before supply. If delirium history is missing, cite the supply and name recent delirium as the missing fact for a possible finding. Make no finding below age 65 or when the record rules out recent delirium, documents resolution before supply or shows only an older episode.",
+  "cannot_be_seen": "The date of a delirium entry alone cannot show that symptoms persisted until supply. The three-month window is provisional. Founder ruling open: Rights rulings R1/R3 (Beers restricted; Kim non-commercial); recency window for delirium.",
+  "ask_the_gp": "Could you confirm whether delirium was still present and review the benzodiazepine in that context?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Delirium",
+      "meets": "Documented at supply or in the preceding three calendar months, without a record that it resolved before supply."
+    }
+  ]
+}

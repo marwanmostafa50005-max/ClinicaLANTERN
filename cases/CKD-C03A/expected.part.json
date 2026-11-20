@@ -1,0 +1,47 @@
+[
+  {
+    "file": "CKD-C03A/pos-fact.csv",
+    "kind": "positive",
+    "about": "Dilart HCT is supplied at a creatinine clearance of 28 mL/min.",
+    "findings": [
+      {
+        "criterion": "CKD-C03A",
+        "must_cite": [
+          [
+            "L045"
+          ],
+          [
+            "L042"
+          ],
+          [
+            "L043"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CKD-C03A/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about creatinine clearance at the Dilart HCT supply.",
+    "findings": [
+      {
+        "criterion": "CKD-C03A",
+        "must_cite": [
+          [
+            "L032"
+          ],
+          [
+            "L029"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CKD-C03A/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Dilart HCT is supplied at a creatinine clearance of exactly 30 mL/min.",
+    "findings": []
+  }
+]

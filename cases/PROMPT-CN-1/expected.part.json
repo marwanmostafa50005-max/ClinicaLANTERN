@@ -1,0 +1,49 @@
+[
+  {
+    "file": "PROMPT-CN-1/pos-brand.csv",
+    "kind": "positive",
+    "about": "A 52-year-old man receives on-demand Priligy during a course of Efexor-XR, with both medicines recorded by brand only.",
+    "findings": [
+      {
+        "criterion": "PROMPT-CN-1",
+        "must_cite": [
+          [
+            "L011"
+          ],
+          [
+            "L005",
+            "L008",
+            "L012",
+            "L015",
+            "L018"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PROMPT-CN-1/pos-buried.csv",
+    "kind": "positive",
+    "about": "Venlafaxine starts eight days after the last fluoxetine dose, with the last fluoxetine supply 22 days before venlafaxine.",
+    "findings": [
+      {
+        "criterion": "PROMPT-CN-1",
+        "must_cite": [
+          [
+            "L036",
+            "L040"
+          ],
+          [
+            "L046"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PROMPT-CN-1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The last sertraline supply and first venlafaxine supply are 36 days apart, but the recorded last sertraline dose precedes the venlafaxine start.",
+    "findings": []
+  }
+]

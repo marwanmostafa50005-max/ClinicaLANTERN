@@ -1,0 +1,43 @@
+[
+  {
+    "file": "EU7-F45/pos-brand.csv",
+    "kind": "positive",
+    "about": "Colgout (colchicine) 500 microgram tablets are supplied four times between February and September 2026 to a 74-year-old man, by brand name only.",
+    "findings": [
+      {
+        "criterion": "EU7-F45",
+        "must_cite": [
+          [
+            "L013",
+            "L020",
+            "L030",
+            "L034"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F45/pos-buried.csv",
+    "kind": "positive",
+    "about": "Colchicine 500 microgram tablets are supplied three times from January to March 2026, in the middle of a 16-month history of a 72-year-old man.",
+    "findings": [
+      {
+        "criterion": "EU7-F45",
+        "must_cite": [
+          [
+            "L032",
+            "L041",
+            "L047"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F45/near-miss.csv",
+    "kind": "near_miss",
+    "about": "A gout history with allopurinol and two short prednisolone courses for flares, but colchicine is never supplied.",
+    "findings": []
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "file": "QLDCOAG-29-3/pos-fact.csv",
+    "kind": "positive",
+    "about": "Eliquis supplies span 14 months, atrial fibrillation is Present, and the latest eGFR is dated 16 months before the latest supply.",
+    "findings": [
+      {
+        "criterion": "QLDCOAG-29-3",
+        "must_cite": [
+          [
+            "L038",
+            "L041",
+            "L044",
+            "L047"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "QLDCOAG-29-3/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about Dated kidney function result (serum creatinine, eGFR, or creatinine clearance), and Xarelto supplies span 8 months.",
+    "findings": [
+      {
+        "criterion": "QLDCOAG-29-3",
+        "must_cite": [
+          [
+            "L004",
+            "L007",
+            "L010"
+          ],
+          [
+            "L022",
+            "L025",
+            "L028"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "QLDCOAG-29-3/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Ongoing Pradaxa supplies have a normal eGFR dated 3 months before the latest supply, so the monitoring interval is met.",
+    "findings": []
+  }
+]

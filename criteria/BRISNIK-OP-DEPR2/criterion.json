@@ -1,0 +1,299 @@
+{
+  "id": "BRISNIK-OP-DEPR2",
+  "label": "Brisnik OP DEPR2: two antidepressants",
+  "family": "BRISNIK",
+  "title": "Two antidepressants in a first episode of moderate depression",
+  "statement": "Co-prescribed two antidepressants - and the patient has a first episode of moderate depression",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Two antidepressants supplied at the same time are not usually needed when the depression is a first episode of moderate severity, so a review is worth asking for.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antidepressants",
+      "ingredients": [
+        "sertraline",
+        "escitalopram",
+        "citalopram",
+        "fluoxetine",
+        "paroxetine",
+        "fluvoxamine",
+        "venlafaxine",
+        "desvenlafaxine",
+        "duloxetine",
+        "vortioxetine",
+        "agomelatine",
+        "reboxetine",
+        "amitriptyline",
+        "nortriptyline",
+        "dosulepin",
+        "doxepin",
+        "imipramine",
+        "clomipramine",
+        "moclobemide",
+        "phenelzine",
+        "tranylcypromine",
+        "mirtazapine",
+        "mianserin",
+        "trazodone",
+        "trimipramine"
+      ],
+      "brands": {
+        "sertraline": [
+          "Zoloft",
+          "Setrona",
+          "Concorz",
+          "Detralon",
+          "Eleva",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Tralen",
+          "Xydep"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam",
+          "Loxalate"
+        ],
+        "citalopram": [
+          "Cipramil",
+          "Celapram",
+          "Talam",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talohexal"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet",
+          "Zactin"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Paxtine",
+          "Aropax CR",
+          "Extine",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ],
+        "venlafaxine": [
+          "Efexor-XR",
+          "Altven",
+          "Elaxine SR",
+          "Enlafax XR",
+          "Evelexa XR",
+          "Ozvenaf",
+          "Venfax SR",
+          "Venla",
+          "Venlexor XR"
+        ],
+        "desvenlafaxine": [
+          "Pristiq",
+          "Desfax",
+          "Desven"
+        ],
+        "duloxetine": [
+          "Cymbalta",
+          "Andepra",
+          "Baltine",
+          "Coperin",
+          "Deotine",
+          "Depreta",
+          "Drulox",
+          "Dulocym",
+          "Duloxecor",
+          "Dytrex",
+          "Symlox",
+          "Texotine",
+          "Tixol",
+          "Xerol DR"
+        ],
+        "vortioxetine": [
+          "Brintellix"
+        ],
+        "agomelatine": [
+          "Valdoxan",
+          "Domion",
+          "Nortim",
+          "Valomel"
+        ],
+        "reboxetine": [
+          "Edronax"
+        ],
+        "amitriptyline": [
+          "Endep",
+          "Entrip",
+          "Amichlor",
+          "Amidep"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "NortriTABS"
+        ],
+        "dosulepin": [
+          "Dothep",
+          "Prothiaden"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "moclobemide": [
+          "Aurorix",
+          "Arima",
+          "Amira",
+          "Clobemide",
+          "Clobemix",
+          "Maosig",
+          "Mohexal"
+        ],
+        "phenelzine": [
+          "Nardil"
+        ],
+        "tranylcypromine": [
+          "Parnate",
+          "Parpromine",
+          "Tranamef",
+          "Tranylmed"
+        ],
+        "mirtazapine": [
+          "Avanza",
+          "Axit",
+          "Remeron",
+          "Aurozapine",
+          "Avanza Soltab",
+          "Milivin OD",
+          "Mirtanza",
+          "Mirtanza ODT",
+          "Mirtazon",
+          "Remeron Soltab"
+        ],
+        "mianserin": [
+          "Tolvon",
+          "Lumin"
+        ],
+        "trazodone": [
+          "Desyrel"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ]
+      },
+      "note": "Count oral tablets, including dispersible and orally disintegrating tablets, wafers, capsules and liquids. Exclude skin creams, gels applied to the skin and injections. Dothiepin is the former name for dosulepin. Low doses of amitriptyline, doxepin, mirtazapine and trazodone are often taken for pain or sleep, and a dispensing history cannot show the reason. Generic packs that show the ingredient name with a company name count too. No Australian brand is listed where the brand is not certain. If directions name both antidepressants for depression, use that fill and check the nearest fill of the other medicine on either side of it. Otherwise start with the closest fills of two different antidepressants. Count the fill date as day one. Use quantity and daily directions to calculate the last day covered, allowing for remaining stock, dose changes and documented stops. For a daily dose range, the highest dose gives the shortest coverage and the lowest gives the longest. Count the days between the two fill dates. If that gap equals or exceeds the most days the earlier stock could last, the pair shares no day. Discard that pair and check another refill of either medicine. If only the longest coverage reaches the later fill, overlap is only possible. If directions give no daily dose, ask what daily dose was taken and whether both were taken together."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Depression episode during this joint antidepressant course",
+      "meets": "A line saying the person has a first episode of moderate depression",
+      "options": [
+        {
+          "words": "First episode of moderate depression during the joint course",
+          "effect": "meets"
+        },
+        {
+          "words": "Episode was recurrent, mild or severe",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "No depression during the joint course",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for overlapping antidepressant supplies in this course",
+      "meets": "Directions or a recorded account confirm that both are taken together for depression outside a switch or cross-taper.",
+      "options": [
+        {
+          "words": "Both medicines were prescribed together to treat depression",
+          "effect": "meets"
+        },
+        {
+          "words": "One medicine replaced the other, including a cross-taper",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "At least one medicine was prescribed solely for another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "The medicines were never prescribed together",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Work backwards from the later antidepressant fill date to a fill of the other medicine that could still cover that day, then cite the later fill ID and date with the earlier fill ID and its last covered day if known. Cite the condition line for a first episode of moderate depression and the directions or recorded account showing joint treatment when present, and report only a possible finding if coverage, joint use for depression, first-episode status or severity is uncertain, naming each missing detail. Give no finding if no pair can overlap, a switch or cross-taper is documented, either medicine was used solely for another indication, or the record shows no depression or a recurrent, mild or severe episode during the joint course.",
+  "cannot_be_seen": "Why the second antidepressant was added (for example a low dose of mirtazapine or amitriptyline for sleep or pain), how long the person has been unwell, how severe the depression really is, and who made the decision. Medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "A review of whether both antidepressants are still needed for this episode of depression.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

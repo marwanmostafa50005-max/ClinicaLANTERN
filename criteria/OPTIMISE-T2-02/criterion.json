@@ -1,0 +1,314 @@
+{
+  "id": "OPTIMISE-T2-02",
+  "label": "OPTIMISE T2-02: statin for 10-year risk of 10% or more",
+  "family": "OPTIMISE",
+  "title": "No statin when the 10-year heart and blood vessel risk is 10% or more",
+  "statement": "Consider statin therapy (eg. Atorvastatin 20 mg daily) for those adults who have ≥ 10% 10-year risk of developing CV disease using a validated CV risk assessment tool",
+  "statement_origin": "published",
+  "source": {
+    "document": "Carolan A, et al. OPTIMISE. BMC Psychiatry 2022;22:585, Tables 2-3",
+    "citation": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "doi": "10.1186/s12888-022-04235-0",
+    "url": "https://doi.org/10.1186/s12888-022-04235-0",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.3 candidate repairs, adopted conventions and independent-audit corrections merged with attribution). Not endorsed by the source authors."
+  },
+  "plain_summary": "For an adult with severe mental illness and no recorded statin supply, consider a statin if a validated tool gives a 10-year cardiovascular risk of at least 10%. An Australian five-year score cannot establish this threshold. Australian guidance differs: for eligible primary prevention patients, lipid-lowering treatment is recommended at five-year risk of 10% or more and considered at 5% to below 10%, with severe mental illness a reason to consider a higher risk category near a threshold (Australian CVD Risk Guideline, 2023).",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Statins (cholesterol-lowering medicines)",
+      "ingredients": [
+        "atorvastatin",
+        "rosuvastatin",
+        "simvastatin",
+        "pravastatin",
+        "fluvastatin",
+        "pitavastatin"
+      ],
+      "brands": {
+        "atorvastatin": [
+          "Lipitor",
+          "Atozet",
+          "Atomed",
+          "Atorvachol",
+          "Atorvator",
+          "Atostat",
+          "Bansep",
+          "Chorit",
+          "Lorstat",
+          "Storvas",
+          "Tormed",
+          "Torvastat",
+          "Trovas",
+          "Caduet"
+        ],
+        "rosuvastatin": [
+          "Crestor",
+          "Rosuzet",
+          "Affora",
+          "Alphastat",
+          "Cavstat",
+          "Cisero",
+          "Crestabs",
+          "Crestat",
+          "Crestatin",
+          "Crosuva",
+          "Crosvar",
+          "Rostor",
+          "Rosuvacor",
+          "Visacor",
+          "Ezalo"
+        ],
+        "simvastatin": [
+          "Zocor",
+          "Lipex",
+          "Vytorin",
+          "Invast",
+          "Myvast",
+          "Ransim",
+          "Simvabell",
+          "Simvacor",
+          "Simvahexal",
+          "Simvar",
+          "Simvasyn",
+          "Simvatrust",
+          "Zimstat",
+          "Zimybe"
+        ],
+        "pravastatin": [
+          "Pravachol",
+          "Cholpra",
+          "Cholstat",
+          "Cholvastin",
+          "Lipostat",
+          "Liprachol",
+          "Pralect",
+          "Pratin",
+          "Prava",
+          "Pravaccord",
+          "Pravastat",
+          "Pravista",
+          "Redichol",
+          "Vastoran"
+        ],
+        "fluvastatin": [
+          "Lescol",
+          "Lescol XL",
+          "Vastin"
+        ],
+        "pitavastatin": [
+          "Livalo"
+        ]
+      },
+      "note": "Atozet is atorvastatin with ezetimibe. Rosuzet is rosuvastatin with ezetimibe. Vytorin is simvastatin with ezetimibe. Caduet is amlodipine with atorvastatin. Generic packs that show the ingredient name with a company name count too. Ezetimibe on its own is not a statin."
+    },
+    {
+      "key": "B",
+      "name": "Antipsychotics and lithium (a sign the person may have severe mental illness)",
+      "ingredients": [
+        "olanzapine",
+        "quetiapine",
+        "risperidone",
+        "aripiprazole",
+        "clozapine",
+        "paliperidone",
+        "amisulpride",
+        "haloperidol",
+        "lithium carbonate",
+        "lurasidone",
+        "brexpiprazole",
+        "cariprazine",
+        "ziprasidone",
+        "asenapine",
+        "zuclopenthixol",
+        "flupentixol",
+        "flupentixol decanoate",
+        "chlorpromazine",
+        "periciazine"
+      ],
+      "brands": {
+        "olanzapine": [
+          "Zyprexa",
+          "Zyprexa Zydis",
+          "Aprolan",
+          "Aprolan ODT",
+          "Lanez",
+          "Lanez ODT",
+          "Lanzek",
+          "Lanzek Zydis",
+          "Lonza",
+          "Lonza ODT",
+          "Lyprosia",
+          "Lyprosia ODT",
+          "Olancor",
+          "Olanza",
+          "Olanzaccord",
+          "Olanzacor",
+          "Oprexa",
+          "Ozin",
+          "Ozin ODT",
+          "Prolanza",
+          "Prolanza ODT",
+          "Pryzex",
+          "Pryzex ODT",
+          "Tolaze ODT",
+          "Tolazine ODT",
+          "Torapine ODT",
+          "Torrenia ODT",
+          "Zylap",
+          "Zylap ODT",
+          "Zylapine",
+          "Zylapine ODT",
+          "Zypine",
+          "Zypine ODT"
+        ],
+        "quetiapine": [
+          "Seroquel",
+          "Seroquel XR",
+          "Aliquen",
+          "Delucon",
+          "Kaptan",
+          "Ketizenol",
+          "Qualez",
+          "Quepine XR",
+          "Quetapen",
+          "Quetia",
+          "Quetia XR",
+          "Quetiaccord",
+          "Quetiaquel XR",
+          "Quetin",
+          "Quipine",
+          "Sequase",
+          "Sequase XR",
+          "Serapine",
+          "Serapine XR",
+          "Seroccord",
+          "Seronia",
+          "Serotiapine XR",
+          "Syquet",
+          "Syquet XR",
+          "Syzopine",
+          "Tevatiapine XR",
+          "Tiapine XR",
+          "Tiava XR",
+          "Xque XR"
+        ],
+        "risperidone": [
+          "Risperdal",
+          "Risperdal Consta",
+          "Ozidal",
+          "Resdone",
+          "Respaz",
+          "Risdone",
+          "Rispa",
+          "Rispaccord",
+          "Rispaccord-0.5",
+          "Risperdal Quicklet",
+          "Risperibell",
+          "Rispericor",
+          "Rispericor-0.5",
+          "Risperisan",
+          "Rispernia",
+          "Rixadone",
+          "Sperid",
+          "Uzedy"
+        ],
+        "aripiprazole": [
+          "Abilify",
+          "Abilify Maintena",
+          "Abilify Asimtufii",
+          "Abilify ODT",
+          "Abipra",
+          "Abyraz",
+          "Aprazole",
+          "Aripic",
+          "Aripra",
+          "Arizole"
+        ],
+        "clozapine": [
+          "Clozaril",
+          "Clopine",
+          "Closyn",
+          "Clozaril ODT",
+          "Clozitor",
+          "Versacloz"
+        ],
+        "paliperidone": [
+          "Invega",
+          "Invega Sustenna",
+          "Invega Hafyera",
+          "Invega Trinza",
+          "Palmeux",
+          "Trevicta"
+        ],
+        "amisulpride": [
+          "Solian",
+          "Amipride",
+          "Sulprix"
+        ],
+        "haloperidol": [
+          "Serenace"
+        ],
+        "lithium carbonate": [
+          "Lithicarb",
+          "Quilonorm",
+          "Lithicarb SR",
+          "Lithquil SR",
+          "Lithspen",
+          "Quilonum SR"
+        ],
+        "lurasidone": [
+          "Latuda"
+        ],
+        "brexpiprazole": [
+          "Rexulti"
+        ],
+        "cariprazine": [
+          "Reagila"
+        ],
+        "ziprasidone": [
+          "Zeldox"
+        ],
+        "asenapine": [
+          "Saphris"
+        ],
+        "zuclopenthixol": [
+          "Clopixol"
+        ],
+        "flupentixol": [],
+        "flupentixol decanoate": [
+          "Fluanxol Depot",
+          "Fluanxol Concentrated Depot"
+        ],
+        "chlorpromazine": [
+          "Largactil"
+        ],
+        "periciazine": [
+          "Neulactil"
+        ]
+      },
+      "note": "This group is not the medicine the finding is about. It only shows that the person may be in the group the OPTIMISE tool was written for. A medicine used for another reason, for example low-dose quetiapine for sleep, can mislead."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "10-year cardiovascular risk (percentage and name of validated tool)",
+      "meets": "A recorded 10-year risk of 10% or more"
+    },
+    {
+      "kind": "condition",
+      "what": "Severe mental illness",
+      "meets": "A diagnosis of severe mental illness is documented."
+    }
+  ],
+  "rule_for_models": "If severe mental illness is explicitly ruled out, give no finding. Use the most recent identifiable validated 10-year risk score. A score below 10% rules out a finding for that assessment. For people aged 18 or over with documented severe mental illness or a Group B supply suggesting it and no Group A statin supply anywhere in the history, report a full finding if the diagnosis is documented and that score is at least 10%. Cite the diagnosis and that score. If evidence needed for the finding is missing or uncertain, report a possible finding naming each missing or uncertain item (diagnosis, 10-year result or validated tool). A five-year score cannot establish the 10-year result. If age is unknown and the other evidence could meet this criterion, report at most a possible finding and ask the pharmacist to confirm whether the person is aged 18 or over.",
+  "cannot_be_seen": "The risk score itself if no one recorded it, and the tool used. Smoking, blood pressure and cholesterol values. Past statin intolerance, a decision by the person to decline a statin, and statins supplied by a hospital or another pharmacy. Ask whether the person has been diagnosed with a severe mental illness, takes a statin from another pharmacy, or previously declined or could not tolerate one. Ask whether their doctor assessed cardiovascular risk and whether the result and tool are available.",
+  "ask_the_gp": "Whether a statin should be started, after a review of the person's cardiovascular risk and any reason not to use one.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

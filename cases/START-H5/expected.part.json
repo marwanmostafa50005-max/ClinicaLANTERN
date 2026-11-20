@@ -1,0 +1,59 @@
+[
+  {
+    "file": "START-H5/pos-fact.csv",
+    "kind": "positive",
+    "about": "The 74-year-old has a level of 32 nmol/L and recurrent falls, with no recorded vitamin D supply and confirmation that she takes no vitamin D supplement.",
+    "findings": [
+      {
+        "criterion": "START-H5",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L002"
+          ],
+          [
+            "L051"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-H5/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The record shows a low 25-hydroxyvitamin D level and recurrent falls, and vitamin D (Ostelin Vitamin D3 1000IU) is supplied about every eight weeks up to the end, so nothing is missing.",
+    "findings": []
+  },
+  {
+    "file": "START-H5/near-miss-younger.csv",
+    "kind": "near_miss",
+    "about": "The person has low vitamin D and recurrent falls with no replacement supply, but the recorded age is 45.",
+    "findings": []
+  },
+  {
+    "file": "START-H5/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible omission: the 74-year-old has a low level and recurrent falls, with no recorded vitamin D supply and no information about supplementation from elsewhere or over the counter.",
+    "findings": [
+      {
+        "criterion": "START-H5",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L002"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-H5/near-miss-outside.csv",
+    "kind": "near_miss",
+    "about": "The 74-year-old has low vitamin D and recurrent falls, and she reports taking colecalciferol bought at another pharmacy despite there being no vitamin D dispensing line.",
+    "findings": []
+  }
+]

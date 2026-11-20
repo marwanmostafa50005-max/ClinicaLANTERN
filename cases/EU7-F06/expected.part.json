@@ -1,0 +1,38 @@
+[
+  {
+    "file": "EU7-F06/pos-brand.csv",
+    "kind": "positive",
+    "about": "At age 74 the patient received Demazin Original Cold + Flu Relief Day + Night by brand alone, which identifies chlorphenamine in the night tablets.",
+    "findings": [
+      {
+        "criterion": "EU7-F06",
+        "must_cite": [
+          [
+            "L013"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F06/pos-buried.csv",
+    "kind": "positive",
+    "about": "At age 67 the patient received Demazin Cold + Flu + Cough Day + Night in January 2026, which identifies chlorphenamine in the night tablets.",
+    "findings": [
+      {
+        "criterion": "EU7-F06",
+        "must_cite": [
+          [
+            "L030"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F06/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The plain Demazin Cold + Flu Relief pack contains only paracetamol and phenylephrine, and the other allergy tablets contain cetirizine.",
+    "findings": []
+  }
+]

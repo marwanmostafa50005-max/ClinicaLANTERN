@@ -1,0 +1,5 @@
+patient_ref,patient_age,patient_sex,record_type,dispense_date,medicine,brand,strength,form,quantity,repeats_left,directions,prescriber,detail,value
+F-FR-D18-2,67,M,,2026-04-09,pyridostigmine,Mestinon,60 mg,tablet,90,3,Take ONE tablet three times a day,Dr A. Example,,
+F-FR-D18-2,67,M,,2026-05-07,pyridostigmine,Mestinon,60 mg,tablet,90,2,Take ONE tablet three times a day,Dr A. Example,,
+F-FR-D18-2,67,M,,2026-06-04,pyridostigmine,Mestinon,60 mg,tablet,90,1,Take ONE tablet three times a day,Dr A. Example,,
+F-FR-D18-2,67,M,,2026-06-18,cetirizine,Zyrtec,10 mg,tablet,30,5,Take ONE tablet daily when needed,Dr A. Example,,

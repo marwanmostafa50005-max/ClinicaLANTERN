@@ -1,0 +1,196 @@
+{
+  "id": "STOPP-B4",
+  "label": "STOPP B4",
+  "family": "STOPP_START",
+  "title": "Heart rate slowing medicine with a slow heart rate or heart block",
+  "statement": "Ventricular rate-limiting drugs i.e., beta blocker, verapamil, diltiazem, digoxin with bradycardia (< 50/min), type II heart block or complete heart block (risk of complete heart block, asystole).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Beta-blockers, verapamil, diltiazem and digoxin slow the heart. In a person whose heart rate is already below 50 beats a minute, or who has type II or complete heart block, they can slow the heart too far or stop it.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Medicines that slow the heart rate (beta-blockers, verapamil, diltiazem, digoxin)",
+      "ingredients": [
+        "atenolol",
+        "bisoprolol",
+        "carvedilol",
+        "labetalol",
+        "metoprolol",
+        "nebivolol",
+        "propranolol",
+        "sotalol",
+        "verapamil",
+        "diltiazem",
+        "digoxin",
+        "timolol",
+        "betaxolol"
+      ],
+      "brands": {
+        "atenolol": [
+          "Tenormin",
+          "Anselol",
+          "Atehexal",
+          "Aten",
+          "Colaptyn",
+          "Noten",
+          "Tenolten",
+          "Tensig"
+        ],
+        "bisoprolol": [
+          "Bicor",
+          "Beprol",
+          "Bicard",
+          "Biso",
+          "Bispro"
+        ],
+        "carvedilol": [
+          "Dilatrend",
+          "Carvidol",
+          "Dicarz",
+          "Dilasig",
+          "Kredex",
+          "Vedilol",
+          "Volirop"
+        ],
+        "labetalol": [
+          "Trandate",
+          "Presolol"
+        ],
+        "metoprolol": [
+          "Betaloc",
+          "Lopresor",
+          "Metatar",
+          "Metohexal",
+          "Metolol",
+          "Metrol",
+          "Metrol-XL",
+          "Minax",
+          "Minax XL",
+          "Mistrom",
+          "Tobeta-XL",
+          "Topreloc-XL",
+          "Toprol-XL"
+        ],
+        "nebivolol": [
+          "Nebilet",
+          "Lobivon",
+          "Lobivon Composite Starter Titration Pack",
+          "Nebaloc",
+          "Nebilet Composite Starter Titration Pack",
+          "Nepiten"
+        ],
+        "propranolol": [
+          "Deralin",
+          "Inderal",
+          "Drofate",
+          "Hemangiol"
+        ],
+        "sotalol": [
+          "Sotacor",
+          "Cardol",
+          "Solavert",
+          "Sotab",
+          "Sotahexal"
+        ],
+        "verapamil": [
+          "Isoptin",
+          "Isoptin SR",
+          "Veracaps SR",
+          "Anpec",
+          "Anpec SR",
+          "Cordilox SR",
+          "Tarka"
+        ],
+        "diltiazem": [
+          "Cardizem",
+          "Cardizem CD",
+          "Vasocardol CD",
+          "Coras",
+          "Danzem",
+          "Diltahexal",
+          "Diltahexal CD",
+          "Dilzem",
+          "Dilzem CD",
+          "Ditatem",
+          "Vasocardol"
+        ],
+        "digoxin": [
+          "Lanoxin",
+          "Lanoxin PG",
+          "Lanoxin Paediatric Elixir",
+          "Sigmaxin",
+          "Sigmaxin PG"
+        ],
+        "timolol": [
+          "Timoptol",
+          "Timoptol-XE",
+          "Cosopt",
+          "Nyogel",
+          "Tenopt",
+          "Timoeye",
+          "Xalacom",
+          "DuoTrav",
+          "Ganfort",
+          "Ganfort 0.3/5",
+          "Ganfort PF 0.3/5",
+          "Combigan",
+          "Azarga"
+        ],
+        "betaxolol": [
+          "Betoptic"
+        ]
+      },
+      "note": "Tablets, capsules and liquids count. Eye drops containing timolol count, including the listed combination drops. Betoptic betaxolol eye drops also count. Sotalol is a beta-blocker and counts. Generic packs that show the ingredient name with a company name count too. Topical diltiazem creams and ointments do not count."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "Heart rate while taking the rate-limiting medicine",
+      "meets": "Enter the measured heart rate in beats per minute and the measurement date if known. A rate below 50 during treatment meets this trigger. A rate of 50 or more clears only this trigger. A reading with unclear timing remains uncertain unless the record links it to treatment."
+    },
+    {
+      "kind": "condition",
+      "what": "Second-degree type II or complete third-degree heart block",
+      "meets": "Only second-degree Mobitz II or complete (third-degree) heart block meets this trigger. A general confirmation of heart block leaves its type unknown. No heart block, first-degree block alone or Mobitz I alone does not meet this trigger.",
+      "options": [
+        {
+          "words": "Mobitz II or complete heart block was present during treatment",
+          "effect": "meets"
+        },
+        {
+          "words": "No heart block was present during treatment",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Only first-degree or Mobitz I block was present during treatment",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Heart block was recorded but its grade is unknown",
+          "effect": "unknown"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this criterion only to people aged 65 years or older. Check for a Group A supply and exclude topical diltiazem cream or ointment. During treatment, either a measured pulse below 50 beats per minute or Mobitz II or complete heart block supports a finding. Cite the supply and the qualifying fact. Accept a dated pulse or heart rate in a result or observation. A reading with unclear timing cannot establish the pulse during treatment. A pulse of 50 or more clears only the pulse branch. Report no finding when qualifying block is also excluded. If neither trigger is established and either could still apply, report only a possible finding. Name each unresolved fact by its exact name. For an unknown pulse during treatment, name \"Heart rate while taking the rate-limiting medicine\". For an unknown or ungraded block, name \"Second-degree type II or complete third-degree heart block\". Use an existing ECG or Heart block answer when it applies during treatment. A generic affirmative answer leaves the grade unknown. Ask for the grade through Second-degree type II or complete third-degree heart block only if a qualifying pulse or a dated ECG has not already settled the finding. An excluded grade clears only the block trigger. If age is unknown and the other evidence could qualify, report only a possible finding and name age as missing.",
+  "cannot_be_seen": "Whether a pacemaker has been fitted, how recent and how often the pulse was checked, and any ECG that was not entered in the record. Also why the medicine was started and whether it is still taken.",
+  "ask_the_gp": "A review of whether the heart rate slowing medicine is still suitable, with a current pulse and ECG check.",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

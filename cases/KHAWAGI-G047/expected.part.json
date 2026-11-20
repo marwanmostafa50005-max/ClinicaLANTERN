@@ -1,0 +1,41 @@
+[
+  {
+    "file": "KHAWAGI-G047/pos-fact.csv",
+    "kind": "positive",
+    "about": "At age 65 the patient has confirmed sleep apnoea and reports taking diazepam with another dose planned tonight.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G047",
+        "must_cite": [
+          [
+            "L020"
+          ],
+          [
+            "L043"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G047/pos-nofact.csv",
+    "kind": "positive",
+    "about": "With diazepam supplied at age 71 there is a possible finding: the record holds no line about sleep apnoea syndrome.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G047",
+        "must_cite": [
+          [
+            "L016"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G047/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The patient received diazepam after a sleep study explicitly ruled out sleep apnoea.",
+    "findings": []
+  }
+]

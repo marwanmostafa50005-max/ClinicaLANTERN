@@ -1,0 +1,82 @@
+[
+  {
+    "file": "STOPP-C4/pos-fact.csv",
+    "kind": "positive",
+    "about": "Eliquis (apixaban) and Cartia (aspirin) are both supplied ten times from June 2025, and the record shows permanent atrial fibrillation. A coronary history review explicitly excludes both exceptions.",
+    "findings": [
+      {
+        "criterion": "STOPP-C4",
+        "must_cite": [
+          [
+            "L003",
+            "L007",
+            "L011",
+            "L015",
+            "L020",
+            "L024",
+            "L029",
+            "L033",
+            "L037",
+            "L041"
+          ],
+          [
+            "L002",
+            "L008",
+            "L012",
+            "L017",
+            "L021",
+            "L026",
+            "L030",
+            "L034",
+            "L038",
+            "L042"
+          ],
+          [
+            "L001"
+          ],
+          [
+            "L045"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-C4/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: rivaroxaban and a prescribed daily aspirin tablet fraction are supplied together. The record holds no line about \"Chronic atrial fibrillation\" or \"Coronary stent or narrowing greater than 50% on angiography during combined treatment\".",
+    "findings": [
+      {
+        "criterion": "STOPP-C4",
+        "must_cite": [
+          [
+            "L002",
+            "L006",
+            "L010",
+            "L014",
+            "L018",
+            "L022",
+            "L026",
+            "L030"
+          ],
+          [
+            "L001",
+            "L005",
+            "L009",
+            "L013",
+            "L017",
+            "L021",
+            "L025",
+            "L029"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-C4/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Eliquis (apixaban) and Plavix (clopidogrel) are both supplied for eight months and the record shows atrial fibrillation, but a coronary stent was inserted on 20 January 2026, so there is no finding.",
+    "findings": []
+  }
+]

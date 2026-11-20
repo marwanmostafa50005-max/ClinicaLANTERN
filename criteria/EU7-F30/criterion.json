@@ -1,0 +1,36 @@
+{
+  "id": "EU7-F30",
+  "label": "EU(7)-PIM: hydralazine",
+  "family": "EU7",
+  "title": "Hydralazine in an older person",
+  "statement": "Hydralazine is named in the EU(7)-PIM list as a potentially inappropriate medicine for older people. The reason given is a risk of low blood pressure on standing. The list advises a low starting dose with slow increases, and longer gaps between doses in kidney failure. It names no alternative. This is the entrant's plain-words summary of the list entry, not the published wording.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Adapted by the entrant: the statement is a plain-words summary of one row of the source table (hydralazine). The published wording is not reproduced, because the source marks part of it as taken from Micromedex and the right to reuse that part is not settled. The authors have not reviewed this adaptation."
+  },
+  "plain_summary": "Hydralazine can cause a fall in blood pressure on standing, which can lead to dizziness, fainting and falls in older people.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Hydralazine",
+      "ingredients": ["hydralazine"],
+      "brands": {
+        "hydralazine": ["Alphapress", "Apresoline"]
+      },
+      "note": "Alphapress is the tablet. Apresoline is an injection that is mostly used in hospital. Hydrochlorothiazide, hydroxychloroquine and hydrocortisone are different medicines with similar names and do not count. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when a Group A medicine (hydralazine, for example Alphapress) is supplied, at any dose, to a person aged 65 or older. If age is missing and the supply otherwise matches, report only a possible finding and ask for age confirmation. A recorded age below 65 is outside scope. One supply is enough. Hydrochlorothiazide, hydroxychloroquine and hydrocortisone are different medicines and do not count.",
+  "cannot_be_seen": "Why hydralazine was prescribed, for example blood pressure that other medicines did not control, or heart failure. Also the patient's blood pressure lying and standing, kidney function, whether the patient has had dizziness, fainting or falls, and supplies from a hospital or another pharmacy.",
+  "ask_the_gp": "Whether hydralazine is still needed at the patient's age, and whether the patient has had dizziness on standing, fainting or falls.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

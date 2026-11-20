@@ -1,0 +1,427 @@
+{
+  "id": "PROMPT-MS-2",
+  "label": "PROMPT: NSAID with aspirin or SSRI, no stomach protection",
+  "family": "PROMPT",
+  "title": "NSAID with low-dose aspirin or an SSRI, without stomach protection",
+  "statement": "Unless adequate gastro-intestinal protection is provided with either a proton pump inhibitor or H 2 -receptor antagonist, non-steroidal anti-inflammatory drugs should not be used in combination with: a. Low-dose aspirin. b. Selective serotonin re-uptake inhibitors.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Cooper JA, et al. The development of the PROMPT criteria. BMC Health Serv Res 2014;14:484, Table 4",
+    "citation": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "doi": null,
+    "url": null,
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "An NSAID taken with low-dose aspirin or an SSRI increases the risk of stomach bleeding. Adequate stomach protection can reduce that risk.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "NSAIDs, the anti-inflammatory pain medicines",
+      "ingredients": [
+        "celecoxib",
+        "diclofenac",
+        "etoricoxib",
+        "ibuprofen",
+        "indometacin",
+        "ketoprofen",
+        "ketorolac",
+        "mefenamic acid",
+        "meloxicam",
+        "naproxen",
+        "piroxicam",
+        "sulindac"
+      ],
+      "brands": {
+        "celecoxib": [
+          "Celebrex",
+          "Celaxib",
+          "Anacoxib",
+          "Celebrex Relief",
+          "Celetoid",
+          "Celexi",
+          "Celocox",
+          "Kudeq"
+        ],
+        "diclofenac": [
+          "Voltaren",
+          "Voltaren Rapid",
+          "Fenac",
+          "Clonac",
+          "Cambia",
+          "Diclohexal",
+          "Difenac Rapid",
+          "Dinac",
+          "Fenac EC",
+          "Imflac",
+          "Inflamax Liquid Caps",
+          "Voltaren Rapid Extra Strength",
+          "Voltaren Rapid Liquid Capsules",
+          "Voltfast",
+          "Zorvolex"
+        ],
+        "etoricoxib": [
+          "Arcoxia"
+        ],
+        "ibuprofen": [
+          "Nurofen",
+          "Advil",
+          "Brufen",
+          "Rafen",
+          "Nurofen Plus",
+          "Panafen Plus",
+          "Nuromol",
+          "Maxigesic",
+          "Act-3",
+          "Advil 12 Hour",
+          "Advil Childrens Pain and Fever 2 to 7 Years",
+          "Advil Childrens Pain and Fever 7 to 12 Years",
+          "Advil Childrens Pain and Fever Relief 2 to 12 Years",
+          "Advil Double Strength",
+          "Advil Double Strength Caplets",
+          "Advil Double Strength Liquid Capsules",
+          "Advil Infants Pain and Fever Relief 3 Months to 2 Years",
+          "Advil Mini Caps",
+          "Advil Rapid Release",
+          "Brufen Pain",
+          "Brufen Syrup",
+          "Bugesic",
+          "Butafen",
+          "Butalgin",
+          "Fenpaed",
+          "Fenpaed Double Strength",
+          "Iprofen",
+          "Nurofen Back Pain",
+          "Nurofen Caplet",
+          "Nurofen Double Strength",
+          "Nurofen Liquid Capsule",
+          "Nurofen Meltlets",
+          "Nurofen Migraine Pain",
+          "Nurofen Period Pain",
+          "Nurofen Quickzorb",
+          "Nurofen Regular",
+          "Nurofen Tension Headache",
+          "Nurofen Zavance",
+          "Nurofen Zavance Liquid Capsules",
+          "Nurofen for Children 1 to 5 Years",
+          "Nurofen for Children 3 Months to 5 Years",
+          "Nurofen for Children 5 to 12 Years",
+          "Nurofen for Children 7+ Years",
+          "Nurofen for Children Baby 3+ Months",
+          "Nurofen for Children Infant Drops",
+          "Nurofen for Children Meltlet",
+          "Panafen IB",
+          "Panafen IB Mini Cap",
+          "Proven",
+          "Tri-Profen"
+        ],
+        "indometacin": [
+          "Indocid",
+          "Arthrexin"
+        ],
+        "ketoprofen": [
+          "Orudis",
+          "Oruvail"
+        ],
+        "ketorolac": [
+          "Toradol",
+          "Ketoral"
+        ],
+        "mefenamic acid": [
+          "Ponstan",
+          "Femin",
+          "Mefic",
+          "Menamic"
+        ],
+        "meloxicam": [
+          "Mobic",
+          "Movalis",
+          "Moxicam",
+          "Meloxibell",
+          "Agilocam",
+          "Melobic",
+          "Melox",
+          "Meloxiauro",
+          "Meloxibindo",
+          "Mobelox"
+        ],
+        "naproxen": [
+          "Naprosyn",
+          "Naprosyn SR",
+          "Anaprox",
+          "Inza",
+          "Proxen SR",
+          "Naprogesic",
+          "Aleve",
+          "Aleve 24 Hour",
+          "Crysanal",
+          "Femme-Free",
+          "Naprofem",
+          "Naprosyn SR 1000",
+          "Nurolasts Period Pain",
+          "Proxen"
+        ],
+        "piroxicam": [
+          "Feldene",
+          "Mobilis",
+          "Candyl",
+          "Candyl-D",
+          "Feldene-D",
+          "Mobilis D",
+          "Pirohexal-D"
+        ],
+        "sulindac": [
+          "Aclin"
+        ]
+      },
+      "note": "Oral tablets, capsules and liquids count. Also count diclofenac or indometacin suppositories and intramuscular ketorolac, including a Toradol or Ketoral line identified as that injection. If the route or presentation is unclear, confirm it before counting the supply. Skin gels, creams and eye drops do not count. Aspirin is not in this group. Arthrotec (diclofenac with misoprostol) and Vimovo (naproxen with esomeprazole) are left out because they carry their own stomach protection."
+    },
+    {
+      "key": "B",
+      "name": "Low-dose aspirin",
+      "ingredients": [
+        "aspirin"
+      ],
+      "brands": {
+        "aspirin": [
+          "Cartia",
+          "Astrix",
+          "Aspro",
+          "Aspro Clear",
+          "Aspro Protect",
+          "Cardasa",
+          "Cardiprin",
+          "Disprin Direct",
+          "Disprin Original",
+          "Disprin Regular",
+          "Ecotrin",
+          "Princard",
+          "Solprin",
+          "Spren",
+          "CoPlavix",
+          "DuoCover"
+        ]
+      },
+      "note": "Only aspirin 75 mg to 150 mg once a day counts. Aspirin 300 mg or more, and aspirin for pain, do not count. Do not match Aspro, Aspro Clear, any Disprin product or Ecotrin by name alone. Check the exact presentation and directions. Exclude analgesic presentations, including aspirin 300 mg or more and Ecotrin 650 mg, and doses outside the stated range. If strength or intended daily dose is unclear, do not treat it as confirmed low-dose aspirin."
+    },
+    {
+      "key": "C",
+      "name": "SSRIs, a type of antidepressant",
+      "ingredients": [
+        "citalopram",
+        "escitalopram",
+        "fluoxetine",
+        "fluvoxamine",
+        "paroxetine",
+        "sertraline"
+      ],
+      "brands": {
+        "citalopram": [
+          "Celapram",
+          "Cipramil",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talam",
+          "Talohexal"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Loxalate",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Zactin",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Paxtine",
+          "Aropax CR",
+          "Extine",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ],
+        "sertraline": [
+          "Zoloft",
+          "Setrona",
+          "Concorz",
+          "Detralon",
+          "Eleva",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Tralen",
+          "Xydep"
+        ]
+      },
+      "note": "Other antidepressants, such as venlafaxine, mirtazapine or amitriptyline, are not in this group."
+    },
+    {
+      "key": "D",
+      "name": "Stomach protection: proton pump inhibitors and H2 blockers",
+      "ingredients": [
+        "esomeprazole",
+        "lansoprazole",
+        "omeprazole",
+        "pantoprazole",
+        "rabeprazole",
+        "famotidine",
+        "cimetidine",
+        "nizatidine",
+        "ranitidine"
+      ],
+      "brands": {
+        "esomeprazole": [
+          "Nexium",
+          "Axagon",
+          "Beezole",
+          "Emeprazol",
+          "Esopran",
+          "Esopreze",
+          "Guardium Acid Reflux Relief",
+          "Jubeso",
+          "Jubium",
+          "Mepreze",
+          "Nexazole",
+          "Nexcid",
+          "Nexium 24HR Once Daily Dosing",
+          "Nexole",
+          "Nexprazole",
+          "Noxicid",
+          "Noxicid Caps Heartburn Relief",
+          "Noxicid Tabs Heartburn Relief",
+          "Zanzole 24HR"
+        ],
+        "lansoprazole": [
+          "Zoton",
+          "Lanzopran",
+          "Zopral",
+          "Zopral ODT",
+          "Zoton Fastab"
+        ],
+        "omeprazole": [
+          "Losec",
+          "Acimax",
+          "Maxor",
+          "Maxor EC",
+          "Maxor Heartburn Relief",
+          "Meprazol",
+          "Omepral",
+          "Omepro",
+          "Omezole",
+          "Ozmep",
+          "Pemzo",
+          "Probitor"
+        ],
+        "pantoprazole": [
+          "Somac",
+          "Gastenz",
+          "Ozpan",
+          "Pantaccord",
+          "Panthron",
+          "Panto",
+          "Pantofast",
+          "Pantoloc",
+          "Prazole",
+          "Rizil",
+          "Salpraz",
+          "Salpraz Heartburn Relief",
+          "Somac Heartburn Relief",
+          "Sozol",
+          "Suvacid Heartburn Relief",
+          "Topra",
+          "Torprazole",
+          "Torzole"
+        ],
+        "rabeprazole": [
+          "Pariet",
+          "Parbezol",
+          "Parzol",
+          "Perizel DR",
+          "Prabez",
+          "Rabzole",
+          "Razit",
+          "Zabep"
+        ],
+        "famotidine": [
+          "Arfam",
+          "Ausfam",
+          "Famohexal",
+          "Famotidine (An)",
+          "Famotidine (Apo)",
+          "Famotidine (Chemmart)",
+          "Famotidine (Genrx)",
+          "Famotidine (Sandoz)",
+          "Famotidine (Terry White Chemists)",
+          "Famotidine (Tih)",
+          "Pamacid",
+          "Pepcidine",
+          "Pepzan"
+        ],
+        "cimetidine": [
+          "Cimetidine (Genrx)",
+          "Magicul",
+          "Tagamet"
+        ],
+        "nizatidine": [
+          "Tazac Pulvules",
+          "Tazac",
+          "Nizac"
+        ],
+        "ranitidine": [
+          "Zantac",
+          "Zantac 150",
+          "Zantac 300",
+          "APO-Ranitidine"
+        ]
+      },
+      "note": "Antacids bought without a prescription are not in this group. Use the recorded strength, directions and quantity to assess Group D protection during combined use. Before contacting the GP, ask whether both medicines were taken together during that interval and whether the patient used any non-prescription aspirin, anti-inflammatory pain medicine, proton pump inhibitor or H2 blocker. Check the product, dose and dates before deciding whether any interval lacked protection. Clear the combination only when adequate protection covers the full overlap. If use is as needed or adequacy remains uncertain despite a known dose, report only a possible finding and ask the pharmacist to check actual use and coverage with the patient and GP."
+    }
+  ],
+  "rule_for_models": "Confirm age 45 to 64 inclusive before reporting a finding for a Group A NSAID supplied with Group B low-dose aspirin or a Group C SSRI on overlapping dates or within 60 days of each other. Use strength, directions and quantity to flag any interval with absent or inadequate Group D protection, and clear the combination only if adequate protection covers the full overlap. Before contacting the GP, ask the patient about combined use and non-prescription medicines as described in Group D, and report only a possible finding for as-needed protection or uncertain dose, duration, overlap or adequacy pending a check with the patient and GP.",
+  "cannot_be_seen": "Why each medicine was prescribed, stomach acid medicines or aspirin bought without a prescription, and any past ulcer or bleeding.",
+  "ask_the_gp": "Whether the NSAID is needed with the aspirin or SSRI, and whether stomach protection should be added.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

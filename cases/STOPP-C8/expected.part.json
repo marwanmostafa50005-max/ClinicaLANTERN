@@ -1,0 +1,70 @@
+[
+  {
+    "file": "STOPP-C8/pos-fact.csv",
+    "kind": "positive",
+    "about": "The first DVT followed major surgery. Follow-up records recovery and no continuing indication. The first linked apixaban supply and a later supply show treatment beyond 6 months.",
+    "findings": [
+      {
+        "criterion": "STOPP-C8",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L058"
+          ],
+          [
+            "L002"
+          ],
+          [
+            "L026",
+            "L030",
+            "L034",
+            "L038",
+            "L042",
+            "L046",
+            "L050",
+            "L054"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-C8/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: apixaban supplies extend beyond 6 months. The record gives no DVT history, cause, recovery, continuing indication or start of treatment linked to a DVT.",
+    "findings": [
+      {
+        "criterion": "STOPP-C8",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L009",
+            "L013",
+            "L017",
+            "L021",
+            "L025",
+            "L029",
+            "L033"
+          ],
+          [
+            "L001"
+          ],
+          [
+            "L025",
+            "L029",
+            "L033"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-C8/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Rivaroxaban supplies for a first DVT are followed by warfarin with INR-chart directions. Antiphospholipid syndrome is a continuing clotting risk, so the uncertain duration does not warrant a finding.",
+    "findings": []
+  }
+]

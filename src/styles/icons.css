@@ -1,0 +1,426 @@
+/* The three large round icons in one row, their number badges, the status line and the line of counts. */
+
+.work {
+  display: grid;
+  justify-items: center;
+  gap: clamp(10px, 1.9vh, 18px);
+  padding: clamp(4px, 1vh, 12px) 16px 10px;
+}
+
+.work > .status-row,
+.work > .status-line {
+  margin-top: 6px;
+}
+
+/* Room for the navy bar of the three models (packet P09, the founder's order of 19 November). On a wide window the row
+   of icons moves up into the empty band under the tagline, by 6% of the window height and never more than 60px,
+   so that the status line and the line of counts stay on the first screen of a 1366 by 768 window. The brand block
+   does not move. On a narrow window nothing moves: there the page scrolls as before. */
+@media (min-width: 900px) {
+  .work {
+    margin-top: clamp(-60px, -6vh, -30px);
+  }
+}
+
+.orbs {
+  /* The width of one round icon. At least 160 px across on any screen 600 px wide or more;
+     on a phone the three shrink together so they stay in one row. */
+  --d: clamp(100px, 27vw, 176px);
+  --b: clamp(34px, calc(var(--d) * 0.27), 48px);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: clamp(8px, 4vw, 84px);
+}
+
+.orb-wrap {
+  position: relative;
+  width: var(--d);
+}
+
+.orb-wrap--import {
+  --ring: var(--cyan);
+  --edge: var(--cyan-dark);
+  --tint: var(--orb-tint-cyan);
+  --glow: var(--orb-glow-cyan);
+}
+
+.orb-wrap--bell {
+  --ring: var(--red);
+  --edge: var(--orb-edge-red);
+  --tint: var(--orb-tint-red);
+  --glow: var(--orb-glow-red);
+}
+
+.orb-wrap--letter {
+  --ring: var(--gold);
+  --edge: var(--gold-dark);
+  --tint: var(--orb-tint-gold);
+  --glow: var(--orb-glow-gold);
+}
+
+.orb {
+  display: grid;
+  justify-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.orb-disc {
+  display: grid;
+  place-items: center;
+  width: var(--d);
+  height: var(--d);
+  border: clamp(4px, calc(var(--d) * 0.036), 7px) solid var(--ring);
+  border-radius: 50%;
+  background: radial-gradient(circle at 34% 26%, var(--white) 0%, var(--white) 34%, var(--tint) 100%);
+  box-shadow:
+    0 0 0 1.5px var(--edge),
+    0 14px 26px -10px var(--glow),
+    0 2px 5px var(--orb-disc-shadow);
+  transition:
+    transform 0.16s ease,
+    box-shadow 0.16s ease;
+}
+
+.orb:hover .orb-disc {
+  transform: translateY(-4px);
+  box-shadow:
+    0 0 0 1.5px var(--edge),
+    0 20px 30px -10px var(--glow),
+    0 3px 7px var(--orb-disc-shadow-hover);
+}
+
+.orb:active .orb-disc {
+  transform: translateY(-1px) scale(0.985);
+}
+
+/* The focus ring goes round the disc, so it is a circle too. */
+.orb:focus-visible {
+  outline: none;
+}
+
+.orb:focus-visible .orb-disc {
+  outline: 4px solid var(--navy);
+  outline-offset: 5px;
+}
+
+.orb-glyph {
+  width: 52%;
+  height: 52%;
+  shape-rendering: geometricPrecision;
+}
+
+.orb-caption {
+  color: var(--navy);
+  font-size: clamp(0.95rem, 1.5vw, 1.15rem);
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* While a file is dragged over the page, the magnifying glass asks for it. */
+.orbs--dragging .orb-wrap--import .orb-disc {
+  border-style: dashed;
+  transform: scale(1.04);
+  background: var(--cyan-tint);
+}
+
+.orbs--dragging .orb-wrap:not(.orb-wrap--import) {
+  opacity: 0.45;
+}
+
+/* The number badge, the way a social media notification shows it. */
+.orb-badge-slot {
+  position: absolute;
+  top: calc(var(--d) * 0.01);
+  left: calc(var(--d) * 0.7);
+  pointer-events: none;
+}
+
+.orb-badge {
+  display: grid;
+  place-items: center;
+  min-width: var(--b);
+  height: var(--b);
+  padding: 0 calc(var(--b) * 0.22);
+  border: clamp(3px, calc(var(--b) * 0.09), 4px) solid var(--page);
+  border-radius: 999px;
+  background: var(--red);
+  box-shadow: 0 4px 10px var(--badge-shadow-red);
+  color: var(--white);
+  font-size: calc(var(--b) * 0.54);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums lining-nums;
+  line-height: 1;
+}
+
+/* A new number pops in, the way a notification does. */
+.orb-badge--pop {
+  animation: badge-pop 0.4s cubic-bezier(0.2, 1.5, 0.4, 1);
+}
+
+@keyframes badge-pop {
+  from {
+    transform: scale(0.2);
+    opacity: 0;
+  }
+}
+
+/* The grey count on the bell: findings on which the two models disagree and that wait for the
+   pharmacist (the founder's ruling of 18 November). It is the red badge at four fifths of its
+   size, in grey, to the left of the red badge. The red badge keeps its place. */
+.orb-disputed {
+  --g: calc(var(--b) * 0.8);
+  position: absolute;
+  top: 0;
+  right: calc(100% + 2px);
+  display: grid;
+  place-items: center;
+  min-width: var(--g);
+  height: var(--g);
+  padding: 0 calc(var(--g) * 0.22);
+  border: 3px solid var(--page);
+  border-radius: 999px;
+  background: var(--disputed-grey);
+  box-shadow: 0 4px 10px var(--badge-shadow-grey);
+  color: var(--white);
+  font-size: calc(var(--g) * 0.54);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums lining-nums;
+  line-height: 1;
+}
+
+/* With no red badge beside it, the grey count takes the red badge's place. */
+.orb-disputed:only-child {
+  position: static;
+}
+
+/* ---------- what is happening now ---------- */
+
+.status-line {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  max-width: 100%;
+  padding: 7px 18px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--white);
+  box-shadow: var(--shadow-small);
+  font-size: 1.05rem;
+}
+
+.status-label {
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.status-text {
+  font-weight: 600;
+  color: var(--navy);
+}
+
+.status-dot {
+  flex: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--dot-idle);
+}
+
+.status-line--screen .status-dot {
+  background: var(--cyan-dark);
+  animation: pulse 1.3s ease-in-out infinite;
+}
+
+.status-line--check .status-dot {
+  background: var(--red);
+  animation: pulse 1.3s ease-in-out infinite;
+}
+
+.status-line--letter .status-dot {
+  background: var(--gold-dark);
+  animation: pulse 1.3s ease-in-out infinite;
+}
+
+.status-line--down {
+  border-color: var(--border-red-soft);
+  background: var(--red-tint);
+}
+
+.status-line--down .status-dot {
+  background: var(--red);
+}
+
+/* ---------- the line of counts ---------- */
+
+.counts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px 0;
+  max-width: 1240px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.count {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  padding: 1px 14px;
+  border-right: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.95rem;
+  white-space: nowrap;
+}
+
+.count:last-child {
+  border-right: 0;
+}
+
+.count-value {
+  color: var(--navy);
+  font-size: 1.22rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+.count--alarm,
+.count--alarm .count-value {
+  color: var(--red);
+  font-weight: 700;
+}
+
+/* Too narrow for one line of eight: two tidy lines of four. */
+@media (max-width: 1140px) {
+  .counts {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+  }
+
+  .count:nth-child(4n) {
+    border-right: 0;
+  }
+}
+
+@media (max-width: 760px) {
+  .counts {
+    grid-template-columns: repeat(2, auto);
+    gap: 4px 22px;
+  }
+
+  .count {
+    padding: 0;
+    border-right: 0;
+  }
+
+  .status-line {
+    border-radius: 16px;
+    font-size: 1rem;
+  }
+}
+
+/* A short window: the icons stay at 160 px so the status and counts still fit on the first screen. */
+@media (max-height: 700px) and (min-width: 600px) {
+  .orbs {
+    --d: 160px;
+  }
+
+  .work {
+    gap: 8px;
+    padding-top: 12px;
+  }
+}
+
+/* ---------- added after the review of 18 November ---------- */
+
+/* The status line and, beside it, what the pharmacist must not miss while he waits for the bell.
+   The alerts are shown only when something is wrong. */
+.status-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px 12px;
+  max-width: 100%;
+}
+
+.status-alerts-live {
+  max-width: 100%;
+}
+
+.status-alerts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px 10px;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.status-alert {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  max-width: min(760px, 100%);
+  padding: 6px 14px;
+  border: 1px solid var(--border-red-soft);
+  border-radius: 16px;
+  background: var(--red-tint);
+  color: var(--red-ink);
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.status-alert > svg {
+  flex: none;
+  margin-top: 3px;
+}
+
+/* (The bar of a recorded run, which sits at the foot of the top band, is in replay.css.) */
+
+/* A phone. With 413 criteria the line reads "Now: Mantle is screening: criterion 388 of 413".
+   It stays on one line down to a screen 320 px wide: the line gives up some of its padding and
+   its type shrinks a little with the screen. A longer line still wraps. */
+@media (max-width: 480px) {
+  .status-line {
+    gap: 6px;
+    padding: 7px 12px;
+    font-family: var(--font-small);
+    font-size: clamp(0.75rem, 3.55vw, 1rem);
+  }
+
+  .status-dot {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+/* A very narrow phone: the three icons shrink a little more, so the third is not cut off. */
+@media (max-width: 360px) {
+  .work {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .orbs {
+    --d: clamp(84px, 26vw, 100px);
+    gap: 6px;
+  }
+
+  /* On so small a disc the grey count would sit on the top of the bell. It moves up a little. */
+  .orb-disputed {
+    top: -5px;
+  }
+}

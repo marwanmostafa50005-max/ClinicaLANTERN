@@ -1,0 +1,22 @@
+2026-01-09 | Norvasc 10 mg tablet | qty 30 | repeats 3 | Take ONE tablet daily
+2026-01-09 | Micardis Plus (telmisartan + hydrochlorothiazide) 80 mg/12.5 mg tablet | qty 28 | repeats 3 | Take ONE tablet in the morning
+2026-02-06 | Micardis Plus (telmisartan + hydrochlorothiazide) 80 mg/12.5 mg tablet | qty 28 | repeats 2 | Take ONE tablet in the morning
+2026-02-08 | Norvasc 10 mg tablet | qty 30 | repeats 2 | Take ONE tablet daily
+2026-02-20 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day, swallow
+2026-03-07 | Micardis Plus (telmisartan + hydrochlorothiazide) 80 mg/12.5 mg tablet | qty 28 | repeats 1 | Take ONE tablet in the morning
+2026-03-11 | Norvasc 10 mg tablet | qty 30 | repeats 1 | Take ONE tablet daily
+2026-03-14 | Keflex (cefalexin) 500 mg capsule | qty 20 | repeats 0 | Take ONE capsule four times a day until finish
+2026-04-04 | Micardis Plus (telmisartan + hydrochlorothiazide) 80 mg/12.5 mg tablet | qty 28 | repeats 0 | Take ONE tablet in the morning
+2026-04-09 | Norvasc 10 mg tablet | qty 30 | repeats 0 | Take ONE tablet daily
+2026-04-10 | Physiotens 200 microgram tablet | qty 30 | repeats 0 | Take ONE tablet in the morning
+2026-05-01 | Micardis Plus (telmisartan + hydrochlorothiazide) 80 mg/12.5 mg tablet | qty 28 | repeats 5 | Take ONE tablet in the morning
+2026-05-11 | Norvasc 10 mg tablet | qty 30 | repeats 5 | Take ONE tablet daily
+2026-05-11 | Physiotens 400 microgram tablet | qty 30 | repeats 5 | Take ONE tablet in the morning
+2026-05-31 | Micardis Plus (telmisartan + hydrochlorothiazide) 80 mg/12.5 mg tablet | qty 28 | repeats 4 | Take ONE tablet in the morning
+2026-06-09 | Physiotens 400 microgram tablet | qty 30 | repeats 4 | Take ONE tablet in the morning
+2026-06-10 | Norvasc 10 mg tablet | qty 30 | repeats 4 | Take ONE tablet daily
+2026-06-28 | Micardis Plus (telmisartan + hydrochlorothiazide) 80 mg/12.5 mg tablet | qty 28 | repeats 3 | Take ONE tablet in the morning
+2026-07-08 | Norvasc 10 mg tablet | qty 30 | repeats 3 | Take ONE tablet daily
+2026-07-09 | Physiotens 400 microgram tablet | qty 30 | repeats 3 | Take ONE tablet in the morning
+2026-07-09 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 1 | Take TWO tablets three times a day, swallow
+2026-07-26 | Micardis Plus (telmisartan + hydrochlorothiazide) 80 mg/12.5 mg tablet | qty 28 | repeats 2 | Take ONE tablet in the morning

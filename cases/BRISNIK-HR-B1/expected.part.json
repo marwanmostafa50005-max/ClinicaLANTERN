@@ -1,0 +1,63 @@
+[
+  {
+    "file": "BRISNIK-HR-B1/pos-fact.csv",
+    "kind": "positive",
+    "about": "Endep 25 mg is prescribed as two tablets nightly, and dizziness that began after starting amitriptyline is still present despite unchanged standing blood pressure.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-B1",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L007",
+            "L011",
+            "L013",
+            "L017",
+            "L020",
+            "L024",
+            "L026",
+            "L030",
+            "L032",
+            "L036",
+            "L038"
+          ],
+          [
+            "L019"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-B1/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about \"Persistent postural hypotension or dizziness while on the antidepressant\". Desyrel (trazodone) is supplied monthly for eleven months.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-B1",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L007",
+            "L010",
+            "L013",
+            "L016",
+            "L018",
+            "L022",
+            "L024",
+            "L026",
+            "L028"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-B1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Dizziness predates trazodone and is unchanged, and the treatment review excludes both new dizziness and a new standing blood pressure drop.",
+    "findings": []
+  }
+]

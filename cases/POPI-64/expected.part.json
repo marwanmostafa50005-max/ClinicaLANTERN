@@ -1,0 +1,41 @@
+[
+  {
+    "file": "POPI-64/pos-fact.csv",
+    "kind": "positive",
+    "about": "The child receives desmopressin nasal spray for recorded nocturnal enuresis.",
+    "findings": [
+      {
+        "criterion": "POPI-64",
+        "must_cite": [
+          [
+            "L015"
+          ],
+          [
+            "L019"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "POPI-64/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record shows the nasal spray but holds no line about Reason for the desmopressin supply.",
+    "findings": [
+      {
+        "criterion": "POPI-64",
+        "must_cite": [
+          [
+            "L018"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "POPI-64/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Desmopressin is documented solely for central diabetes insipidus and its dosage form is missing.",
+    "findings": []
+  }
+]

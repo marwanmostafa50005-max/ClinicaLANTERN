@@ -1,0 +1,647 @@
+{
+  "id": "BRISNIK-HR-B4",
+  "label": "Brisnik: SSRI, SNRI or mirtazapine with at least two blood pressure lowering medicines at age 65 or over",
+  "family": "BRISNIK",
+  "title": "SSRI, SNRI or mirtazapine with two or more other blood pressure lowering medicines, age 65 or over",
+  "statement": "Prescribed SSRI, SNRI, or mirtazapine - and the patient is aged ≥ 65 years and co-prescribed ≥ 2 further drugs with blood pressure lowering effect (e.g., α-blockers, β-blockers, nitrates, SGLT inhibitors, levodopa, antipsychotics)",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Text reproduced without changes. Not endorsed by the source authors."
+  },
+  "plain_summary": "In people aged 65 or over, an SSRI, SNRI or mirtazapine taken with two or more other medicines that lower blood pressure raises the risk of dizziness and falls.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "SSRI, SNRI and mirtazapine antidepressants",
+      "ingredients": [
+        "citalopram",
+        "escitalopram",
+        "fluoxetine",
+        "fluvoxamine",
+        "paroxetine",
+        "sertraline",
+        "venlafaxine",
+        "desvenlafaxine",
+        "duloxetine",
+        "mirtazapine"
+      ],
+      "brands": {
+        "citalopram": [
+          "Cipramil",
+          "Celapram",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talam",
+          "Talohexal"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esipram",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam",
+          "Loxalate"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet",
+          "Zactin"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Paxtine",
+          "Aropax CR",
+          "Extine",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ],
+        "sertraline": [
+          "Zoloft",
+          "Concorz",
+          "Detralon",
+          "Eleva",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Setrona",
+          "Tralen",
+          "Xydep"
+        ],
+        "venlafaxine": [
+          "Efexor-XR",
+          "Altven",
+          "Elaxine SR",
+          "Enlafax XR",
+          "Evelexa XR",
+          "Ozvenaf",
+          "Venfax SR",
+          "Venla",
+          "Venlexor XR"
+        ],
+        "desvenlafaxine": [
+          "Pristiq",
+          "Desfax",
+          "Desven"
+        ],
+        "duloxetine": [
+          "Cymbalta",
+          "Andepra",
+          "Baltine",
+          "Coperin",
+          "Deotine",
+          "Depreta",
+          "Drulox",
+          "Dulocym",
+          "Duloxecor",
+          "Dytrex",
+          "Symlox",
+          "Texotine",
+          "Tixol",
+          "Xerol DR"
+        ],
+        "mirtazapine": [
+          "Avanza",
+          "Remeron",
+          "Aurozapine",
+          "Avanza Soltab",
+          "Axit",
+          "Milivin OD",
+          "Mirtanza",
+          "Mirtanza ODT",
+          "Mirtazon",
+          "Remeron Soltab"
+        ]
+      },
+      "note": "SSRI means selective serotonin reuptake inhibitor. SNRI means serotonin and noradrenaline reuptake inhibitor. Any dose counts. Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "B",
+      "name": "Medicines that lower blood pressure",
+      "ingredients": [
+        "atenolol",
+        "metoprolol",
+        "bisoprolol",
+        "carvedilol",
+        "propranolol",
+        "nebivolol",
+        "prazosin",
+        "doxazosin",
+        "tamsulosin",
+        "glyceryl trinitrate",
+        "isosorbide mononitrate",
+        "empagliflozin",
+        "dapagliflozin",
+        "ertugliflozin",
+        "levodopa",
+        "quetiapine",
+        "olanzapine",
+        "risperidone",
+        "haloperidol",
+        "aripiprazole",
+        "perindopril",
+        "ramipril",
+        "enalapril",
+        "lisinopril",
+        "candesartan",
+        "irbesartan",
+        "telmisartan",
+        "olmesartan",
+        "valsartan",
+        "amlodipine",
+        "felodipine",
+        "furosemide",
+        "hydrochlorothiazide",
+        "indapamide",
+        "spironolactone",
+        "diltiazem",
+        "lercanidipine",
+        "nifedipine",
+        "verapamil",
+        "sotalol",
+        "moxonidine",
+        "clonidine",
+        "chlortalidone",
+        "chlorpromazine",
+        "clozapine",
+        "labetalol",
+        "losartan",
+        "trandolapril"
+      ],
+      "brands": {
+        "atenolol": [
+          "Tenormin",
+          "Anselol",
+          "Atehexal",
+          "Aten",
+          "Colaptyn",
+          "Noten",
+          "Tenolten",
+          "Tensig"
+        ],
+        "metoprolol": [
+          "Minax",
+          "Betaloc",
+          "Agtolac",
+          "Lopresor",
+          "Metatar",
+          "Metohexal",
+          "Metolol",
+          "Metrol",
+          "Metrol-XL",
+          "Minax XL",
+          "Mistrom",
+          "Tobeta-XL",
+          "Topreloc-XL",
+          "Toprol-XL"
+        ],
+        "bisoprolol": [
+          "Bicor",
+          "Beprol",
+          "Bicard",
+          "Biso",
+          "Bispro"
+        ],
+        "carvedilol": [
+          "Dilatrend",
+          "Carvidol",
+          "Dicarz",
+          "Dilasig",
+          "Kredex",
+          "Vedilol",
+          "Volirop"
+        ],
+        "propranolol": [
+          "Deralin",
+          "Drofate",
+          "Hemangiol",
+          "Inderal"
+        ],
+        "nebivolol": [
+          "Nebilet",
+          "Lobivon",
+          "Lobivon Composite Starter Titration Pack",
+          "Nebaloc",
+          "Nebilet Composite Starter Titration Pack",
+          "Nepiten"
+        ],
+        "prazosin": [
+          "Minipress",
+          "Pratsiol",
+          "Pressin"
+        ],
+        "doxazosin": [
+          "Carduran"
+        ],
+        "tamsulosin": [
+          "Flomaxtra",
+          "Flosix",
+          "Duodart"
+        ],
+        "glyceryl trinitrate": [
+          "Anginine",
+          "Nitrolingual",
+          "Minitran",
+          "Lycinate",
+          "Nitrostat",
+          "Transiderm-Nitro"
+        ],
+        "isosorbide mononitrate": [
+          "Imdur",
+          "Duride",
+          "Imdur Durules",
+          "Imtrate",
+          "Isobide MR",
+          "Isomonit",
+          "Monodur",
+          "Monodur Durules"
+        ],
+        "empagliflozin": [
+          "Jardiance",
+          "Glyxambi",
+          "Jardiamet"
+        ],
+        "dapagliflozin": [
+          "Forxiga",
+          "Xigduo XR",
+          "Glixafor"
+        ],
+        "ertugliflozin": [
+          "Steglatro"
+        ],
+        "levodopa": [
+          "Madopar",
+          "Sinemet",
+          "Kinson",
+          "Stalevo"
+        ],
+        "quetiapine": [
+          "Seroquel",
+          "Aliquen",
+          "Delucon",
+          "Kaptan",
+          "Ketizenol",
+          "Qualez",
+          "Quepine XR",
+          "Quetapen",
+          "Quetia",
+          "Quetia XR",
+          "Quetiaccord",
+          "Quetiaquel XR",
+          "Quetin",
+          "Quipine",
+          "Sequase",
+          "Sequase XR",
+          "Serapine",
+          "Serapine XR",
+          "Seroccord",
+          "Seronia",
+          "Seroquel XR",
+          "Serotiapine XR",
+          "Syquet",
+          "Syquet XR",
+          "Syzopine",
+          "Tevatiapine XR",
+          "Tiapine XR",
+          "Tiava XR",
+          "Xque XR"
+        ],
+        "olanzapine": [
+          "Zyprexa",
+          "Aprolan",
+          "Aprolan ODT",
+          "Lanez",
+          "Lanez ODT",
+          "Lanzek",
+          "Lanzek Zydis",
+          "Lonza",
+          "Lonza ODT",
+          "Lyprosia",
+          "Lyprosia ODT",
+          "Olancor",
+          "Olanza",
+          "Olanzaccord",
+          "Olanzacor",
+          "Oprexa",
+          "Ozin",
+          "Ozin ODT",
+          "Prolanza",
+          "Prolanza ODT",
+          "Pryzex",
+          "Pryzex ODT",
+          "Tolaze ODT",
+          "Tolazine ODT",
+          "Torapine ODT",
+          "Torrenia ODT",
+          "Zylap",
+          "Zylap ODT",
+          "Zylapine",
+          "Zylapine ODT",
+          "Zypine",
+          "Zypine ODT",
+          "Zyprexa Zydis"
+        ],
+        "risperidone": [
+          "Risperdal",
+          "Ozidal",
+          "Resdone",
+          "Respaz",
+          "Risdone",
+          "Rispa",
+          "Rispaccord",
+          "Rispaccord-0.5",
+          "Risperdal Quicklet",
+          "Risperibell",
+          "Rispericor",
+          "Rispericor-0.5",
+          "Risperisan",
+          "Rispernia",
+          "Rixadone",
+          "Sperid"
+        ],
+        "haloperidol": [
+          "Serenace"
+        ],
+        "aripiprazole": [
+          "Abilify",
+          "Abilify ODT",
+          "Abipra",
+          "Abyraz",
+          "Aprazole",
+          "Aripic",
+          "Aripra",
+          "Arizole"
+        ],
+        "perindopril": [
+          "Coversyl",
+          "Coversyl Plus",
+          "Idaprex",
+          "Idaprex Arg",
+          "Indopril",
+          "Indosyl Mono",
+          "Ozapace",
+          "Perindo",
+          "Perindo Arg",
+          "Perindoarg",
+          "Perindobell",
+          "Perisyl",
+          "Prexum",
+          "Coveram",
+          "Triplixam SR"
+        ],
+        "ramipril": [
+          "Tritace",
+          "Prilace",
+          "Ramace",
+          "Ramibell",
+          "Tryzan",
+          "Vascalace"
+        ],
+        "enalapril": [
+          "Renitec",
+          "Acetec",
+          "Alphapril",
+          "Amprace",
+          "Auspril",
+          "Elapril",
+          "Enahexal",
+          "Enalabell",
+          "Malean",
+          "Renitec M",
+          "Zan-Extra"
+        ],
+        "lisinopril": [
+          "Zestril",
+          "Fibsol",
+          "Linopril",
+          "Liprace",
+          "Lisinobell",
+          "Lisinotrust",
+          "Lisodrate",
+          "Lisodur",
+          "Lisoril",
+          "Ozten",
+          "Prinivil",
+          "Sinop",
+          "Zinopril"
+        ],
+        "candesartan": [
+          "Atacand",
+          "Adesan",
+          "Asartan",
+          "Candelem",
+          "Candesan",
+          "Atacand Plus"
+        ],
+        "irbesartan": [
+          "Avapro",
+          "Abisart",
+          "Ambotens",
+          "Avsartan",
+          "Irbesat",
+          "Irbestin",
+          "Irbetan",
+          "Irprestan",
+          "Karbesat",
+          "Karvea",
+          "Karvezide",
+          "Avapro HCT"
+        ],
+        "telmisartan": [
+          "Micardis",
+          "Twynsta",
+          "Mizart",
+          "Pritor",
+          "Telmigen",
+          "Teltartan",
+          "Micardis Plus"
+        ],
+        "olmesartan": [
+          "Olmetec",
+          "Olmertan",
+          "Olmes",
+          "Olmesart",
+          "Olsetan",
+          "Sevikar",
+          "Sevikar HCT",
+          "Olmetec Plus"
+        ],
+        "valsartan": [
+          "Diovan",
+          "Dilart",
+          "Exforge",
+          "Exforge HCT",
+          "Entresto"
+        ],
+        "amlodipine": [
+          "Norvasc",
+          "Twynsta",
+          "Amline",
+          "Amlo",
+          "Amlocor",
+          "Amlotrust",
+          "Amvas",
+          "Besidep",
+          "Nordip",
+          "Norvapine",
+          "Ozlodip",
+          "Perivasc",
+          "Coveram",
+          "Triplixam SR",
+          "Sevikar",
+          "Sevikar HCT",
+          "Exforge",
+          "Exforge HCT"
+        ],
+        "felodipine": [
+          "Plendil",
+          "Plendil ER"
+        ],
+        "furosemide": [
+          "Lasix",
+          "Frusax",
+          "Frusehexal",
+          "Frusemix",
+          "Frusemix-M",
+          "Frusid",
+          "Furo",
+          "Lasix High Dose",
+          "Lasix M",
+          "Uremide",
+          "Urex",
+          "Urex Forte",
+          "Urex-M"
+        ],
+        "hydrochlorothiazide": [
+          "Sevikar HCT",
+          "Exforge HCT",
+          "Micardis Plus",
+          "Atacand Plus",
+          "Olmetec Plus",
+          "Karvezide",
+          "Avapro HCT",
+          "Dithiazide"
+        ],
+        "indapamide": [
+          "Natrilix",
+          "Coversyl Plus",
+          "Dapa-Tabs",
+          "Indahexal",
+          "Indapamol",
+          "Insig",
+          "Napamide",
+          "Natrilix SR",
+          "Odaplix SR",
+          "Tenaxil SR",
+          "Triplixam SR"
+        ],
+        "spironolactone": [
+          "Aldactone",
+          "Spiractin"
+        ],
+        "diltiazem": [
+          "Cardizem CD",
+          "Cardizem",
+          "Coras",
+          "Danzem",
+          "Diltahexal",
+          "Diltahexal CD",
+          "Dilzem",
+          "Dilzem CD",
+          "Ditatem",
+          "Vasocardol",
+          "Vasocardol CD"
+        ],
+        "lercanidipine": [
+          "Zircol",
+          "Zan-Extra",
+          "Zanidip",
+          "Lepine",
+          "Lercan"
+        ],
+        "nifedipine": [
+          "Adalat OROS"
+        ],
+        "verapamil": [
+          "Isoptin SR",
+          "Tarka"
+        ],
+        "sotalol": [
+          "Cardol"
+        ],
+        "moxonidine": [
+          "Physiotens"
+        ],
+        "clonidine": [
+          "Catapres"
+        ],
+        "chlortalidone": [
+          "Hygroton 25"
+        ],
+        "chlorpromazine": [
+          "Largactil"
+        ],
+        "clozapine": [
+          "Clopine"
+        ],
+        "labetalol": [
+          "Presolol"
+        ],
+        "losartan": [
+          "Cozaar"
+        ],
+        "trandolapril": [
+          "Gopten",
+          "Tarka"
+        ]
+      },
+      "note": "Medicines with a known blood pressure lowering effect. The published examples are alpha-blockers, beta-blockers, nitrates, SGLT2 inhibitors, levodopa and antipsychotics. This draft also lists the usual blood pressure medicines (ACE inhibitors, angiotensin receptor blockers, listed systemic calcium channel blockers, and diuretics) because they clearly lower blood pressure. Only systemic diltiazem counts. Tamsulosin is included as an alpha-blocker. Count each qualifying ingredient in a combination product. Coversyl Plus is perindopril with indapamide, Twynsta is telmisartan with amlodipine, Glyxambi is empagliflozin with linagliptin and Xigduo XR is dapagliflozin with metformin. Generic packs that show the ingredient name with a company name count too. For the added oral medicines, count the qualifying ingredients only. Jardiamet supplies empagliflozin, Duodart supplies tamsulosin, and Entresto supplies valsartan. Count each of these products once. Transiderm-Nitro is a systemic glyceryl trinitrate patch."
+    }
+  ],
+  "rule_for_models": "Suspect a finding in a person aged 65 or over when a Group A medicine and at least two distinct Group B ingredients have overlapping treatment periods or their supply dates all fall within a single 60-day interval. Count each qualifying ingredient once, including both ingredients of Twynsta or Coversyl Plus. Exclude a documented stop or switch when the medicines were not used together. If age at supply is unknown and the medicine criteria are met, report only a possible finding and ask whether the person was aged 65 or over at supply. An age below 65 rules out this finding.",
+  "cannot_be_seen": "Why each medicine was prescribed, the real blood pressure, the dose really taken, and medicines bought without a prescription or supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "A review of the antidepressant and of the blood pressure medicines together, and a check of lying and standing blood pressure.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

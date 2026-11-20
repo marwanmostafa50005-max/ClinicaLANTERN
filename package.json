@@ -1,0 +1,38 @@
+{
+  "name": "clinicalantern",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "ClinicaLANTERN prototype: three local AI models screen a dispensing history, the pharmacist decides, a GP letter closes the loop.",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "node tools/dev.mjs",
+    "build": "tsc --noEmit && vite build",
+    "start": "node server/index.ts",
+    "test": "vitest run",
+    "eval": "node eval/run.ts",
+    "typecheck": "tsc --noEmit",
+    "proof": "node tools/proof-engine.mjs",
+    "smoke": "node tools/smoke.mjs",
+    "walk": "node tools/page-walk.mjs",
+    "build:replay": "node tools/replay-build.mjs",
+    "record": "node tools/record-run.mjs"
+  },
+  "dependencies": {
+    "@fontsource/caveat": "^5.3.0",
+    "pdfjs-dist": "^6.5.438",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^4.7.0",
+    "typescript": "^7.0.2",
+    "vite": "^6.4.6",
+    "vitest": "^5.1.0"
+  }
+}

@@ -1,0 +1,48 @@
+[
+  {
+    "file": "BRISNIK-OP-INSO3/pos-fact.csv",
+    "kind": "positive",
+    "about": "The record documents mirtazapine at 30 mg daily for insomnia with no other current indication for an antidepressant.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-INSO3",
+        "must_cite": [
+          [
+            "L022"
+          ],
+          [
+            "L023"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-INSO3/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: mirtazapine is supplied at 30 mg daily. The record does not say whether it was prescribed for insomnia or whether there was another current indication for an antidepressant.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-INSO3",
+        "must_cite": [
+          [
+            "L002",
+            "L006",
+            "L010",
+            "L014",
+            "L018",
+            "L022",
+            "L026",
+            "L030"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-INSO3/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Mirtazapine 30 mg is supplied regularly, and the record identifies major depressive disorder as a current indication for antidepressant treatment.",
+    "findings": []
+  }
+]

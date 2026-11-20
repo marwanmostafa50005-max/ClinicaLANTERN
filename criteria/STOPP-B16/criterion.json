@@ -1,0 +1,165 @@
+{
+  "id": "STOPP-B16",
+  "label": "STOPP B16",
+  "family": "STOPP_START",
+  "title": "Statin for prevention in a very old, frail person",
+  "statement": "Statins for primary cardiovascular prevention in persons aged ≥ 85 and established frailty with expected life expectancy likely less than 3 years (lack of evidence of efficacy).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "For a person aged 85 or older with established frailty and life expectancy likely under three years, evidence of benefit from a statin used only for primary cardiovascular prevention is lacking.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Statins",
+      "ingredients": [
+        "atorvastatin",
+        "rosuvastatin",
+        "simvastatin",
+        "pravastatin",
+        "fluvastatin",
+        "pitavastatin",
+        "ezetimibe with simvastatin",
+        "ezetimibe + simvastatin"
+      ],
+      "brands": {
+        "atorvastatin": [
+          "Lipitor",
+          "Caduet",
+          "Atomed",
+          "Atorvachol",
+          "Atorvator",
+          "Atostat",
+          "Bansep",
+          "Chorit",
+          "Lorstat",
+          "Storvas",
+          "Tormed",
+          "Torvastat",
+          "Trovas",
+          "Atozet",
+          "Atozet Composite Pack"
+        ],
+        "rosuvastatin": [
+          "Crestor",
+          "Affora",
+          "Alphastat",
+          "Cavstat",
+          "Cisero",
+          "Crestabs",
+          "Crestat",
+          "Crestatin",
+          "Crosuva",
+          "Crosvar",
+          "Rostor",
+          "Rosuvacor",
+          "Visacor",
+          "Rosuzet",
+          "Rosuzet Composite Pack",
+          "Ezalo",
+          "Ezalo Composite Pack"
+        ],
+        "simvastatin": [
+          "Zocor",
+          "Vytorin",
+          "Invast",
+          "Lipex",
+          "Myvast",
+          "Ransim",
+          "Simvabell",
+          "Simvacor",
+          "Simvahexal",
+          "Simvar",
+          "Simvasyn",
+          "Simvatrust",
+          "Zimstat"
+        ],
+        "pravastatin": [
+          "Pravachol",
+          "Cholpra",
+          "Cholstat",
+          "Cholvastin",
+          "Lipostat",
+          "Liprachol",
+          "Pralect",
+          "Pratin",
+          "Prava",
+          "Pravaccord",
+          "Pravastat",
+          "Pravista",
+          "Redichol",
+          "Vastoran"
+        ],
+        "fluvastatin": [
+          "Lescol XL",
+          "Lescol",
+          "Vastin"
+        ],
+        "pitavastatin": [
+          "Livalo"
+        ],
+        "ezetimibe with simvastatin": [
+          "Vytorin"
+        ],
+        "ezetimibe + simvastatin": [
+          "Vytorin"
+        ]
+      },
+      "note": "Caduet is atorvastatin with amlodipine. Vytorin is simvastatin with ezetimibe. Generic packs that show the ingredient name with a company name count too. Atozet contains atorvastatin with ezetimibe. Rosuzet and Ezalo packs containing rosuvastatin with ezetimibe count. Ezetimibe alone does not count."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Established frailty with life expectancy likely under 3 years",
+      "meets": "Use documented frailty and a clinical estimate that life expectancy is likely under three years. Ask the GP to review missing details. Do not infer either from age or the patient's appearance.",
+      "options": [
+        {
+          "words": "Established frailty and life expectancy likely under three years during the statin treatment",
+          "effect": "meets"
+        },
+        {
+          "words": "At least one requirement was ruled out during the statin treatment",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Statin indication",
+      "meets": "The statin is used only for primary cardiovascular prevention. Established atherosclerotic cardiovascular disease or previous coronary revascularisation for coronary disease rules this out. Ask for the recorded indication if it is unclear.",
+      "options": [
+        {
+          "words": "Primary cardiovascular prevention only",
+          "effect": "meets"
+        },
+        {
+          "words": "Secondary cardiovascular prevention or another indication",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "If age is unknown, confirm age before reporting a STOPP B16 finding. For a person aged 85 or older supplied a Group A statin, report a finding and cite the supply and supporting facts if the record supports primary cardiovascular prevention, established frailty and life expectancy likely under three years during that statin treatment. Report no finding if any requirement is ruled out, including by established atherosclerotic cardiovascular disease or previous coronary revascularisation for coronary disease, and report a possible finding naming each missing fact if any requirement is unresolved and none is ruled out.",
+  "cannot_be_seen": "How frail the person is, their life expectancy, whether the statin was started for an earlier heart attack or stroke, the person's wishes, and any goals of care discussion.",
+  "ask_the_gp": "A review of whether the statin is still of benefit given the person's age, frailty and goals of care.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,59 @@
+{
+  "id": "START-H9",
+  "label": "START H9",
+  "family": "STOPP_START",
+  "title": "Folic acid with methotrexate",
+  "statement": "Folic acid supplement in patients taking methotrexate.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Folic acid is usually taken with methotrexate, because it lowers some of the side effects of methotrexate.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Folic acid, the medicine that meets this criterion",
+      "ingredients": [
+        "folic acid"
+      ],
+      "brands": {
+        "folic acid": [
+          "Megafol",
+          "Foltabs"
+        ]
+      },
+      "note": "Folic acid tablets sold on their own count, including generic packs that show the ingredient name with a company name. Multivitamins do not count."
+    },
+    {
+      "key": "B",
+      "name": "Methotrexate, the medicine that starts the check",
+      "ingredients": [
+        "methotrexate"
+      ],
+      "brands": {
+        "methotrexate": [
+          "Methoblastin",
+          "Chexate",
+          "Ciptrexate",
+          "Imutrex",
+          "Trexject",
+          "Trexject IN"
+        ]
+      },
+      "note": "Methotrexate tablets and injections count. The tablets are usually taken once a week. Folinic acid is not folic acid."
+    }
+  ],
+  "rule_for_models": "Apply this item only to people aged 65 or older. If age is unknown, confirm that the person is at least 65 before reporting a finding. Report no omission if the record documents end-of-life care with a palliative focus, a contraindication to the proposed therapy, or another valid reason for omitting it. Suspect an omission when supplies in the last six months support ongoing low-dose weekly methotrexate for inflammatory disease and no recorded folic acid supply covers the ongoing treatment. Use the folic acid quantity and directions, including those on earlier supplies. If cover is unclear, ask the pharmacist to confirm current use. Exclude documented high-dose oncology regimens and completed courses. If weekly supplies suggest ongoing low-dose treatment and folic acid is absent, but the indication or dose is unclear, report only a possible finding. Ask why methotrexate is used and confirm its weekly dose and folic acid use. The pharmacist judges borderline regimens. Brand names count as their ingredient. Ask about folic acid bought without a prescription or supplied elsewhere and whether a specialist supplies folinic acid. Clarify the specialist plan before contacting the GP. Folinic acid is a separate medicine.",
+  "cannot_be_seen": "Folic acid bought without a prescription or taken inside a multivitamin, folinic acid given by a specialist, and folic acid supplied by another pharmacy or a hospital. Also why methotrexate was prescribed.",
+  "ask_the_gp": "A review of whether a folic acid supplement should be taken with the methotrexate.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

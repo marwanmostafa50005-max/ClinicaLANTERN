@@ -1,0 +1,106 @@
+{
+  "id": "QLDCOAG-29-2",
+  "label": "QLDCOAG 29-2",
+  "family": "QLDCOAG",
+  "title": "DOAC with moderate to severe mitral valve stenosis",
+  "statement": "However, for some medical conditions (i.e. mechanical heart valves and moderate to severe mitral valve stenosis) DOACs are contraindicated",
+  "statement_origin": "published",
+  "source": {
+    "document": "Anticoagulant Guideline for Hospitalised Adult Patients",
+    "citation": "Queensland Health. Anticoagulant Guideline for Hospitalised Adult Patients. Last minor update June 2026. Page 29, section 1.2.5.1, DOAC therapy to reduce stroke risk in patients with AF, narrative paragraph.",
+    "url": "https://www.health.qld.gov.au/__data/assets/pdf_file/0015/1152213/statewide-anticoagulant-guideline.pdf",
+    "licence": "Creative Commons Attribution 4.0 Australia",
+    "licence_status": "proposed",
+    "credit": "State of Queensland (Queensland Health)",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A DOAC supplied to an adult with moderate to severe mitral valve stenosis needs same-day review. Warfarin is preferred, and anticoagulation must never stop abruptly without urgent prescriber review.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Direct oral anticoagulants",
+      "ingredients": [
+        "apixaban",
+        "rivaroxaban",
+        "dabigatran"
+      ],
+      "brands": {
+        "apixaban": [
+          "APIXABAN-WGR",
+          "APO-Apixaban",
+          "Apexa",
+          "Apixaban Dr.Reddy's",
+          "Apixaban Lupin",
+          "Apixaban Sandoz",
+          "Apixaban Viatris",
+          "Apixaban-APX",
+          "Cip Apixaban 2.5",
+          "Cip Apixaban 5",
+          "Eliquis",
+          "MSN-APIXABAN"
+        ],
+        "rivaroxaban": [
+          "APO-Rivaroxaban",
+          "ARX-Rivaroxaban 10",
+          "ARX-Rivaroxaban 15",
+          "ARX-Rivaroxaban 20",
+          "Blooms The Chemist Rivaroxaban",
+          "Relaban",
+          "RIVAXIB",
+          "Rivarelto",
+          "Rivaroxaban Dr.Reddy's",
+          "Rivaroxaban Lupin",
+          "Rivaroxaban Sandoz",
+          "Rivaroxaban-Teva",
+          "Rivoxa",
+          "TROXA",
+          "XAREMED",
+          "Xarelto",
+          "iXarola"
+        ],
+        "dabigatran": [
+          "ARX-Dabigatran",
+          "Dabigatran Sandoz",
+          "Dabigatran Viatris",
+          "PHARMACOR DABIGATRAN",
+          "Pradaxa"
+        ]
+      },
+      "note": "Oral apixaban, dabigatran and rivaroxaban count. Brand-only lines count as their ingredient. No other DOAC ingredient is included."
+    }
+  ],
+  "rule_for_models": "For patients aged 18 years or older, start from any Group A apixaban, dabigatran or rivaroxaban supply; if age is unknown, report at most a possible finding and confirm the age. Check severity in both the condition name and the recorded value. Current moderate to severe mitral stenosis gives a same-day finding citing the DOAC supply and the condition. Mild stenosis only, no stenosis or no mitral valve disease gives no finding. When the evidence leaves valve status unknown, including a 'Not yet asked or unknown' answer or mitral stenosis without a severity, report a possible finding. Cite the DOAC supply and any relevant condition line and ask the pharmacist to confirm whether stenosis is present and its severity. The source section concerns stroke prevention in atrial fibrillation, so note whether atrial fibrillation is confirmed for the GP review, and never advise stopping anticoagulation abruptly without urgent prescriber review because warfarin is preferred over a DOAC in moderate to severe mitral stenosis.",
+  "cannot_be_seen": "Mitral valve stenosis severity and atrial fibrillation may not be recorded. The record may also omit cardiology advice, supplies from another pharmacy and the patient's current anticoagulation plan.",
+  "ask_the_gp": "Could you review the DOAC today and confirm its indication and the severity of any mitral stenosis? Warfarin is preferred for atrial fibrillation with moderate or severe mitral stenosis. Could you advise how to maintain anticoagulation safely?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Mitral valve stenosis status",
+      "meets": "Patient has moderate to severe mitral valve stenosis",
+      "ask_when": {
+        "group": "A"
+      },
+      "options": [
+        {
+          "words": "Confirmed moderate to severe mitral valve stenosis",
+          "effect": "meets"
+        },
+        {
+          "words": "No mitral valve stenosis or mild mitral stenosis only",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Heart valve status checked and no mitral valve disease",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not yet asked or unknown",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

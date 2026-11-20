@@ -1,0 +1,40 @@
+{
+  "id": "STOPP-B11",
+  "label": "STOPP B11",
+  "family": "STOPP_START",
+  "title": "Centrally-acting blood pressure medicine",
+  "statement": "Centrally-acting antihypertensives e.g., methyldopa, clonidine, moxonidine, rilmenidine, guanfacine (centrally-active antihypertensives are generally less well tolerated by older people than younger people)",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Blood pressure medicines that act on the brain, such as methyldopa, clonidine and moxonidine, are generally less well tolerated by older people than by younger people.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Centrally-acting antihypertensives",
+      "ingredients": ["methyldopa", "clonidine", "moxonidine", "rilmenidine", "guanfacine"],
+      "brands": {
+        "methyldopa": ["Aldomet", "Hydopa"],
+        "clonidine": ["Catapres", "Dixarit"],
+        "moxonidine": ["Physiotens", "Moxotens", "Normatens"],
+        "rilmenidine": [],
+        "guanfacine": ["Intuniv"]
+      },
+      "note": "Taken by mouth. Rilmenidine is named in the criterion. No Australian brand is listed for it. Dixarit is clonidine 25 microgram tablets, used for migraine and flushing. It still counts as clonidine. Eye drops such as brimonidine and apraclonidine are not counted."
+    }
+  ],
+  "rule_for_models": "Apply this rule only to people aged 65 or older. If age is unknown, confirm age before reporting a STOPP finding. Suspect a finding when a Group A medicine (a centrally-acting antihypertensive) is supplied at least once in the history. Blood pressure medicines of other kinds do not count.",
+  "cannot_be_seen": "Blood pressure readings and symptoms such as dizziness, drowsiness or dry mouth may be recorded as dated observations. The reason for treatment, previous medicines tried and whether the person still takes the medicine may be unknown. Clonidine and guanfacine are sometimes used for reasons other than blood pressure.",
+  "ask_the_gp": "Whether the centrally-acting blood pressure medicine is still needed, and how well the patient is tolerating it.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

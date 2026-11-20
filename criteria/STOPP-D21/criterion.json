@@ -1,0 +1,316 @@
+{
+  "id": "STOPP-D21",
+  "label": "STOPP D21",
+  "family": "STOPP_START",
+  "title": "Phenothiazine as a first treatment for psychosis or dementia symptoms",
+  "statement": "Phenothiazines as first-line treatment for psychosis or non-cognitive symptoms of dementia, since safer and more efficacious alternatives exist (phenothiazines are sedative, have significant anti-muscarinic toxicity in older people, except for prochlorperazine for nausea/vomiting/vertigo, chlorpromazine for relief of persistent hiccoughs and levomepromazine as an anti-emetic in palliative care).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Phenothiazines make older people very drowsy and dry the mouth, eyes and bowel, and safer medicines exist for psychosis or the behaviour symptoms of dementia.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Phenothiazines used for psychosis or behaviour symptoms",
+      "ingredients": [
+        "chlorpromazine",
+        "fluphenazine",
+        "trifluoperazine",
+        "perphenazine",
+        "periciazine",
+        "fluphenazine decanoate"
+      ],
+      "brands": {
+        "chlorpromazine": [
+          "Largactil",
+          "Largactil Syrup"
+        ],
+        "fluphenazine": [],
+        "trifluoperazine": [
+          "Stelazine",
+          "Stelazine Forte",
+          "Stelazine Spansule"
+        ],
+        "perphenazine": [],
+        "periciazine": [
+          "Neulactil"
+        ],
+        "fluphenazine decanoate": [
+          "Modecate"
+        ]
+      },
+      "note": "Tablets, liquids and depot injections count. Promethazine is also a phenothiazine but is used for allergy and sleep, so it is not listed here. Generic packs that show the ingredient name with a company name count too. Pericyazine is an alternative spelling of periciazine. Match oral fluphenazine and perphenazine by ingredient name."
+    },
+    {
+      "key": "B",
+      "name": "Phenothiazines that need a recorded reason to flag",
+      "ingredients": [
+        "prochlorperazine",
+        "levomepromazine"
+      ],
+      "brands": {
+        "prochlorperazine": [
+          "Stemetil",
+          "Stemzine",
+          "Nausetil",
+          "Nausrelief",
+          "Procalm",
+          "Proclazine"
+        ],
+        "levomepromazine": [
+          "Nozinan"
+        ]
+      },
+      "note": "Both medicines count when used first for psychosis or non-cognitive symptoms of dementia. A condition or the directions may explain the reason for supply."
+    },
+    {
+      "key": "C",
+      "name": "Other antipsychotics to check for earlier treatment",
+      "ingredients": [
+        "amisulpride",
+        "aripiprazole",
+        "asenapine",
+        "brexpiprazole",
+        "cariprazine",
+        "clozapine",
+        "flupentixol",
+        "haloperidol",
+        "lurasidone",
+        "olanzapine",
+        "paliperidone",
+        "quetiapine",
+        "risperidone",
+        "ziprasidone",
+        "zuclopenthixol",
+        "flupentixol decanoate"
+      ],
+      "brands": {
+        "amisulpride": [
+          "Solian",
+          "Amipride",
+          "Sulprix"
+        ],
+        "aripiprazole": [
+          "Abilify",
+          "Abilify ODT",
+          "Abipra",
+          "Abyraz",
+          "Aprazole",
+          "Aripic",
+          "Aripra",
+          "Arizole",
+          "Abilify Maintena"
+        ],
+        "asenapine": [
+          "Saphris"
+        ],
+        "brexpiprazole": [
+          "Rexulti"
+        ],
+        "cariprazine": [
+          "Reagila"
+        ],
+        "clozapine": [
+          "Clopine",
+          "Closyn",
+          "Clozaril",
+          "Clozaril ODT",
+          "Clozitor",
+          "Versacloz"
+        ],
+        "flupentixol": [
+          "Fluanxol Depot",
+          "Fluanxol Concentrated Depot"
+        ],
+        "haloperidol": [
+          "Serenace",
+          "Haldol Decanoate"
+        ],
+        "lurasidone": [
+          "Latuda",
+          "Bilura",
+          "Latulem",
+          "Lavione",
+          "Luracor",
+          "Luralem",
+          "Luralembic",
+          "Lurobi"
+        ],
+        "olanzapine": [
+          "Zyprexa",
+          "Aprolan",
+          "Aprolan ODT",
+          "Lanez",
+          "Lanez ODT",
+          "Lanzek",
+          "Lanzek Zydis",
+          "Lonza",
+          "Lonza ODT",
+          "Lyprosia",
+          "Lyprosia ODT",
+          "Olancor",
+          "Olanza",
+          "Olanzaccord",
+          "Olanzacor",
+          "Oprexa",
+          "Ozin",
+          "Ozin ODT",
+          "Prolanza",
+          "Prolanza ODT",
+          "Pryzex",
+          "Pryzex ODT",
+          "Tolaze ODT",
+          "Tolazine ODT",
+          "Torapine ODT",
+          "Torrenia ODT",
+          "Zylap",
+          "Zylap ODT",
+          "Zylapine",
+          "Zylapine ODT",
+          "Zypine",
+          "Zypine ODT",
+          "Zyprexa Zydis",
+          "Zyprexa Relprevv"
+        ],
+        "paliperidone": [
+          "Invega",
+          "Invega Sustenna",
+          "Invega Hafyera",
+          "Invega Trinza",
+          "Palmeux",
+          "Trevicta"
+        ],
+        "quetiapine": [
+          "Seroquel",
+          "Aliquen",
+          "Delucon",
+          "Kaptan",
+          "Ketizenol",
+          "Qualez",
+          "Quepine XR",
+          "Quetapen",
+          "Quetia",
+          "Quetia XR",
+          "Quetiaccord",
+          "Quetiaquel XR",
+          "Quetin",
+          "Quipine",
+          "Sequase",
+          "Sequase XR",
+          "Serapine",
+          "Serapine XR",
+          "Seroccord",
+          "Seronia",
+          "Seroquel XR",
+          "Serotiapine XR",
+          "Syquet",
+          "Syquet XR",
+          "Syzopine",
+          "Tevatiapine XR",
+          "Tiapine XR",
+          "Tiava XR",
+          "Xque XR"
+        ],
+        "risperidone": [
+          "Risperdal",
+          "Ozidal",
+          "Resdone",
+          "Respaz",
+          "Risdone",
+          "Rispa",
+          "Rispaccord",
+          "Rispaccord-0.5",
+          "Risperdal Quicklet",
+          "Risperibell",
+          "Rispericor",
+          "Rispericor-0.5",
+          "Risperisan",
+          "Rispernia",
+          "Rixadone",
+          "Sperid",
+          "Risperdal Consta"
+        ],
+        "ziprasidone": [
+          "Zeldox",
+          "Ziprox"
+        ],
+        "zuclopenthixol": [
+          "Clopixol",
+          "Clopixol Depot",
+          "Clopixol Acuphase"
+        ],
+        "flupentixol decanoate": [
+          "Fluanxol Depot",
+          "Fluanxol Concentrated Depot"
+        ]
+      },
+      "note": "Check earlier supplies by ingredient or brand. A Group C supply alone does not trigger this criterion. Exclude a supply recorded for an unrelated reason when checking for earlier treatment."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Reason for the current phenothiazine",
+      "meets": "A line shows psychosis, or the behavioural symptoms of dementia, as the reason for treatment.",
+      "options": [
+        {
+          "words": "To treat psychosis",
+          "effect": "meets"
+        },
+        {
+          "words": "To treat behavioural symptoms of dementia",
+          "effect": "meets"
+        },
+        {
+          "words": "To treat both psychosis and behavioural symptoms of dementia",
+          "effect": "meets"
+        },
+        {
+          "words": "Only for a different reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Antipsychotic treatment order for these symptoms, including treatment before this record or elsewhere",
+      "meets": "The phenothiazine was the first antipsychotic used for these symptoms.",
+      "options": [
+        {
+          "words": "No different antipsychotic was used before this phenothiazine",
+          "effect": "meets"
+        },
+        {
+          "words": "Earlier antipsychotics were used only for other reasons",
+          "effect": "meets"
+        },
+        {
+          "words": "A different antipsychotic was tried first for these symptoms",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply only to people aged 65 years or older. Below 65 there is no finding. If age is unknown, record eligibility as unresolved and confirm age before reporting either finding. Check the reason for the current Group A or B supply. Exclude prochlorperazine for nausea, vomiting or vertigo, chlorpromazine for persistent hiccoughs and levomepromazine for nausea or vomiting in palliative care. Give no finding if the current medicine was used only for another reason or a different antipsychotic was tried first for the same symptoms, including a trial confirmed by the patient. An earlier antipsychotic used only for another reason does not count. Suspect a finding if the record shows that the current phenothiazine was the first antipsychotic for psychosis or behavioural symptoms of dementia. If first-line use for these symptoms is still possible but the reason for the current Group A or B supply is unknown, report only a possible finding and name the missing fact \"Reason for the current phenothiazine\". A supply alone cannot establish its purpose. If treatment order is unclear, report only a possible finding and name \"Antipsychotic treatment order for these symptoms, including treatment before this record or elsewhere\". If a different antipsychotic was supplied earlier for an unknown reason and the current supply otherwise qualifies, report only a possible finding and ask whether the earlier medicine treated the same symptoms. For each finding cite the current phenothiazine supply, using the supply with the recorded indication when its directions establish the reason, then the earlier different antipsychotic supply if its purpose is unknown, and any separate line that establishes the reason or treatment order.",
+  "cannot_be_seen": "The reason for treatment may be missing. Antipsychotics tried before the record began or supplied elsewhere may be missing too.",
+  "ask_the_gp": "Whether a safer medicine could be used, and whether the phenothiazine is still needed.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

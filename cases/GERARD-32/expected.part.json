@@ -1,0 +1,47 @@
+[
+  {
+    "file": "GERARD-32/pos-fact.csv",
+    "kind": "positive",
+    "about": "A documented previous episode of gallstones predates the dulaglutide supply for a person with type 2 diabetes.",
+    "findings": [
+      {
+        "criterion": "GERARD-32",
+        "must_cite": [
+          [
+            "L046"
+          ],
+          [
+            "L002"
+          ],
+          [
+            "L039"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "GERARD-32/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about a history of gallstones during dulaglutide treatment for a person with recorded type 2 diabetes.",
+    "findings": [
+      {
+        "criterion": "GERARD-32",
+        "must_cite": [
+          [
+            "L026"
+          ],
+          [
+            "L002"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "GERARD-32/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The specialist explicitly records no previous or current gallstones in a person supplied dulaglutide.",
+    "findings": []
+  }
+]

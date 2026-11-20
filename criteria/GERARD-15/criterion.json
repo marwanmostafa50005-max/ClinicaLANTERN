@@ -1,0 +1,263 @@
+{
+  "id": "GERARD-15",
+  "label": "Gerard: repaglinide or sulfonylurea combination treatment with HbA1c below 7%",
+  "family": "GERARD",
+  "title": "Repaglinide or sulfonylurea combination treatment with HbA1c below 7%",
+  "statement": "It is necessary to review and optimize the strategy for two- or three-drug combination treatments that include a hypoglycaemic drug (repaglinide or sulfonylurea) in a patient with an HbA1c level below 7%.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Development of explicit definitions of potentially inappropriate prescriptions for antidiabetic drugs in people with type 2 diabetes: A Delphi survey and consensus meeting",
+    "citation": "Gerard E, Bugday D, Calafiore M, Baran J, Gautier S, Henry H, et al. (2025). Development of explicit definitions of potentially inappropriate prescriptions for antidiabetic drugs in people with type 2 diabetes: A Delphi survey and consensus meeting. PLOS ONE 20(10), e0334836.",
+    "doi": "10.1371/journal.pone.0334836",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0334836",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "© 2025 Gerard et al. Gerard E, Bugday D, Calafiore M, Baran J, Gautier S, Henry H, et al. (2025). Development of explicit definitions of potentially inappropriate prescriptions for antidiabetic drugs in people with type 2 diabetes: A Delphi survey and consensus meeting. PLOS ONE 20(10), e0334836. https://doi.org/10.1371/journal.pone.0334836. Table 2. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The statements are reproduced. The qualification decisions and Australian mappings are additions by GPT-6.2 Astra.",
+    "modification_notice": "Table 2 wording is reproduced unchanged. The Australian medicine groups, screening rules and fictional histories are adaptations by GPT-6.2 Astra."
+  },
+  "plain_summary": "Review treatment when someone with type 2 diabetes has an HbA1c below 7% while using two or three glucose-lowering ingredients including repaglinide or a sulfonylurea.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Sulfonylureas or repaglinide",
+      "ingredients": [
+        "gliclazide",
+        "glimepiride",
+        "glipizide",
+        "glibenclamide",
+        "repaglinide"
+      ],
+      "brands": {
+        "gliclazide": [
+          "Gliclazide MR-WGR",
+          "Diamicron",
+          "Diamicron MR",
+          "Glyade"
+        ],
+        "glimepiride": [
+          "Glimepiride Sandoz",
+          "Amaryl",
+          "Dimirel"
+        ],
+        "glipizide": [
+          "Glipidiab",
+          "Minidiab",
+          "Melizide"
+        ],
+        "glibenclamide": [
+          "Daonil",
+          "Glimel",
+          "Semi-Daonil"
+        ],
+        "repaglinide": []
+      },
+      "note": "At least one Group A medicine must be present. Count each concurrent non-insulin diabetes ingredient once, including each component of a fixed-dose product. Do not count insulin. Groups B to H supply possible companions."
+    },
+    {
+      "key": "B",
+      "name": "metformin",
+      "ingredients": [
+        "metformin"
+      ],
+      "brands": {
+        "metformin": [
+          "Metformin Pfizer",
+          "Nesina Met",
+          "Vildagliptin/Metformin Astron",
+          "Diabex",
+          "Diabex XR",
+          "Diaformin",
+          "Diaformin XR",
+          "Metex XR",
+          "Janumet",
+          "Janumet XR",
+          "Trajentamet",
+          "Galvumet",
+          "Kombiglyze XR",
+          "Xigduo XR",
+          "Jardiamet",
+          "Segluromet"
+        ]
+      }
+    },
+    {
+      "key": "C",
+      "name": "DPP-4 inhibitors",
+      "ingredients": [
+        "alogliptin",
+        "linagliptin",
+        "saxagliptin",
+        "sitagliptin",
+        "vildagliptin"
+      ],
+      "brands": {
+        "alogliptin": [
+          "Nesina Met",
+          "Nesina"
+        ],
+        "linagliptin": [
+          "Linagliptin-WGR",
+          "Trajenta",
+          "Trajentamet",
+          "Glyxambi"
+        ],
+        "saxagliptin": [
+          "Onglyza",
+          "Kombiglyze XR",
+          "Qtern"
+        ],
+        "sitagliptin": [
+          "Januvia",
+          "Janorix",
+          "Sitaglin",
+          "Sitaglo",
+          "Sitazitin",
+          "Xelevia",
+          "Janumet",
+          "Janumet XR",
+          "Steglujan"
+        ],
+        "vildagliptin": [
+          "Vildagliptin/Metformin Astron",
+          "Galvus",
+          "Galvumet"
+        ]
+      }
+    },
+    {
+      "key": "D",
+      "name": "GLP-1 analogues",
+      "ingredients": [
+        "dulaglutide",
+        "liraglutide",
+        "semaglutide"
+      ],
+      "brands": {
+        "dulaglutide": [
+          "Trulicity"
+        ],
+        "liraglutide": [
+          "Liraglutide Lupin",
+          "Victoza"
+        ],
+        "semaglutide": [
+          "Ozempic",
+          "Wegovy",
+          "Wegovy Flextouch"
+        ]
+      },
+      "note": "Count a GLP-1 medicine only as part of the diabetes regimen. If its purpose is unclear and would change whether the combination qualifies, ask the patient and report at most a possible finding. A weight-management prescription alone does not count."
+    },
+    {
+      "key": "E",
+      "name": "SGLT2 inhibitors",
+      "ingredients": [
+        "dapagliflozin",
+        "empagliflozin",
+        "ertugliflozin"
+      ],
+      "brands": {
+        "dapagliflozin": [
+          "Dapagliflozin AZN",
+          "Forxiga",
+          "Xigduo XR",
+          "Qtern"
+        ],
+        "empagliflozin": [
+          "Jardiance",
+          "Jardiamet",
+          "Glyxambi"
+        ],
+        "ertugliflozin": [
+          "Steglatro",
+          "Segluromet",
+          "Steglujan"
+        ]
+      }
+    },
+    {
+      "key": "F",
+      "name": "alpha-glucosidase inhibitors",
+      "ingredients": [
+        "acarbose"
+      ],
+      "brands": {
+        "acarbose": [
+          "Acarbose-WGR",
+          "Glucobay"
+        ]
+      }
+    },
+    {
+      "key": "G",
+      "name": "thiazolidinediones",
+      "ingredients": [
+        "pioglitazone"
+      ],
+      "brands": {
+        "pioglitazone": [
+          "Actos",
+          "Acpio",
+          "Actaze",
+          "Atilos",
+          "Aztyme",
+          "Piozone",
+          "Pizaccord",
+          "Prioten",
+          "Vexazone"
+        ]
+      },
+      "note": "Count pioglitazone only as a companion to repaglinide or a sulfonylurea."
+    },
+    {
+      "key": "H",
+      "name": "Dual GIP and GLP-1 receptor agonist",
+      "ingredients": [
+        "tirzepatide"
+      ],
+      "brands": {
+        "tirzepatide": [
+          "Mounjaro"
+        ]
+      },
+      "note": "Count tirzepatide when used for type 2 diabetes. If its purpose would change whether the combination qualifies and is unknown, ask about it and report at most a possible finding. Exclude use solely for weight management."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Type 2 diabetes",
+      "meets": "Documented type 2 diabetes at the time of treatment."
+    },
+    {
+      "kind": "result",
+      "what": "HbA1c",
+      "meets": "A dated HbA1c below 7.0% or below 53 mmol/mol, in the reported unit, collected while the qualifying combination was in use."
+    },
+    {
+      "kind": "observation",
+      "what": "Purpose of the medicine supply identified by name and date in the finding",
+      "meets": "Was this supply part of diabetes treatment, even if it also served another purpose? Count it if it was. Exclude it if used only for another reason. An unknown purpose leaves the count open when it could change the finding.",
+      "options": [
+        {
+          "words": "Part of diabetes treatment",
+          "effect": "meets"
+        },
+        {
+          "words": "Used only for another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "For documented type 2 diabetes, cite supplies for exactly two or three distinct non-insulin diabetes ingredients including repaglinide or a sulfonylurea, the diagnosis and an HbA1c collected during their use together below 7% or below 53 mmol/mol in the reported unit. Count each combination ingredient once and accept overlapping supplies or supplies within 60 days when dates, quantities, directions or a dated note support concurrent treatment without requiring labels to name the other medicine. For a medicine with another indication, including a GLP-1 medicine, tirzepatide or an SGLT2 inhibitor, count a supply used partly for diabetes and exclude one used only for another reason. If its purpose is unclear, ask only if counting or excluding it could change the finding. Identify the medicine, supply date and line in the possible finding. Apply the answer only to that supply and check the count again. If the answer is unknown or cannot be linked to that supply, keep the finding possible. Exclude a documented switch, a different count, a diagnosis ruling out type 2 diabetes or an on-treatment HbA1c at or above the threshold, otherwise report only a possible finding if evidence is missing or unclear and check the diagnosis, which medicines were taken together and the HbA1c collection date and value.",
+  "cannot_be_seen": "Dispensing does not confirm which medicines were taken together. The agreed HbA1c target and supplies from other pharmacies may be missing.",
+  "ask_the_gp": "Could you review the combination and its risk of hypoglycaemia against the person's HbA1c goal?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

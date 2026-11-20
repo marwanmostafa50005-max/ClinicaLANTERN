@@ -1,0 +1,149 @@
+{
+  "id": "START-H3",
+  "label": "START H3: vitamin D in osteoporosis or after a fragility fracture",
+  "family": "STOPP_START",
+  "title": "Vitamin D missing in osteoporosis or after a fragility fracture",
+  "statement": "Vitamin D in patients with known osteoporosis and/or previous fragility fracture(s) and/or Bone Mineral Density T-scores below -2.5 in one or multiple sites.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "If the record shows osteoporosis, a previous fragility fracture or a bone density T-score below -2.5 and no vitamin D supply, review the person’s vitamin D status and supplements obtained elsewhere. Consider whether supplementation is appropriate for their level and care setting.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Vitamin D, alone or in a combination",
+      "ingredients": [
+        "colecalciferol",
+        "calcifediol"
+      ],
+      "brands": {
+        "colecalciferol": [
+          "Ostelin Vitamin D3 1000IU",
+          "OsteVit-D Vitamin D3 1000 IU",
+          "Citracal Plus D",
+          "Citracal + D",
+          "Ostelin Vitamin D & Calcium (colecalciferol with calcium)",
+          "Caltrate Plus (calcium with colecalciferol)",
+          "Fosamax Plus (colecalciferol with alendronate)",
+          "Actonel Combi D"
+        ],
+        "calcifediol": [
+          "Vistella"
+        ]
+      },
+      "note": "Medicines that meet this criterion. Active vitamin D medicines such as calcitriol are not counted here. If a line gives only the brand Ostelin, leave the ingredient unknown until the product is identified. Count replacement recorded as calcifediol or calcifediol monohydrate."
+    },
+    {
+      "key": "B",
+      "name": "Medicines that imply osteoporosis",
+      "ingredients": [
+        "alendronate",
+        "risedronate",
+        "zoledronic acid",
+        "ibandronate",
+        "denosumab",
+        "raloxifene",
+        "teriparatide",
+        "romosozumab",
+        "risedronic acid",
+        "abaloparatide"
+      ],
+      "brands": {
+        "alendronate": [
+          "Fosamax",
+          "Adronat",
+          "Adronat Once Weekly",
+          "Alendraccord",
+          "Alendro",
+          "Alendro Once Weekly",
+          "Alendrobell",
+          "Alendrocor",
+          "Binosto",
+          "Densate",
+          "Fonat",
+          "Fosamax Once Weekly",
+          "Ossmax"
+        ],
+        "risedronate": [
+          "Actonel"
+        ],
+        "zoledronic acid": [
+          "Aclasta",
+          "Aclonat",
+          "Amonzitra",
+          "Astazol",
+          "Azolast",
+          "Bonezol",
+          "Deztron",
+          "Osteovan",
+          "Ostira",
+          "Zolaccord",
+          "Zoledasta"
+        ],
+        "ibandronate": [
+          "Bonviva"
+        ],
+        "denosumab": [
+          "Prolia",
+          "Corora",
+          "Jubbonti",
+          "Prolia with Automatic Needle Guard",
+          "Rexadev",
+          "Stoboclo"
+        ],
+        "raloxifene": [
+          "Evista",
+          "Evifyne",
+          "Fixta",
+          "Ralovista"
+        ],
+        "teriparatide": [
+          "Forteo",
+          "Ritosa",
+          "Terrosa"
+        ],
+        "romosozumab": [
+          "Evenity"
+        ],
+        "risedronic acid": [
+          "Actonel"
+        ],
+        "abaloparatide": [
+          "Eladynos"
+        ]
+      },
+      "note": "Bone-strengthening medicines. Fosamax Plus and Actonel Combi D both contain vitamin D and belong in Group A only. Used only to suspect the condition when no condition line exists. For denosumab, only an identified 60 mg osteoporosis presentation can prompt this check. Exclude 120 mg presentations, including Ganvado, Osenvelt, Wyost and Xgeva. For zoledronic acid, require a documented osteoporosis regimen. A 4 mg oncology dose or a brand alone does not establish this clue."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Osteoporosis",
+      "meets": "Osteoporosis recorded as a current condition"
+    },
+    {
+      "kind": "condition",
+      "what": "Previous fragility fracture",
+      "meets": "A fracture from a fall from standing height or less, recorded as a past or current condition"
+    },
+    {
+      "kind": "result",
+      "what": "Bone mineral density T-score",
+      "meets": "Below -2.5 at one or more sites"
+    }
+  ],
+  "rule_for_models": "Confirm the person is aged 65 or older and has no identified Group A vitamin D supply in the last six months of the record before reporting any finding, then suspect a finding and cite the fact line if it shows osteoporosis, a previous fragility fracture or a bone density T-score below -2.5. Without a qualifying fact, report only a possible finding if a Group B supply suggests osteoporosis (for denosumab, an identified 60 mg osteoporosis presentation, and for zoledronic acid, a documented osteoporosis regimen), citing that supply and naming the missing bone condition, fracture history or T-score, unless all three qualifying features are excluded. A T-score of -2.5 or higher at one site excludes only that measurement. In all other cases report no finding, and if a finding would otherwise be raised but the only potential vitamin D supply in that period says just Ostelin, report only a possible finding, cite that line and ask which Ostelin product the person uses.",
+  "cannot_be_seen": "Whether the person has osteoporosis or a fragility fracture when no line says so, and vitamin D bought without a prescription, which is often not in the record. Also vitamin D supplied by another pharmacy, a recent vitamin D level, and a reason vitamin D is unsuitable, such as a high blood calcium.",
+  "ask_the_gp": "Could you review the person’s vitamin D intake for bone health and whether checking their vitamin D level would help?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

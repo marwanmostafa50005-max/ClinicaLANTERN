@@ -1,0 +1,46 @@
+[
+  {
+    "file": "STOPP-G2/pos-fact.csv",
+    "kind": "positive",
+    "about": "The first prednisolone supply specifies maintenance treatment for documented moderate to severe COPD, and the record contains no inhaled steroid.",
+    "findings": [
+      {
+        "criterion": "STOPP-G2",
+        "must_cite": [
+          [
+            "L005"
+          ],
+          [
+            "L007"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-G2/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about COPD. Panafcortelone (prednisolone) is supplied monthly by brand name only for six months from January 2026, with an Atrovent (ipratropium) inhaler that suggests a lung condition and no inhaled steroid.",
+    "findings": [
+      {
+        "criterion": "STOPP-G2",
+        "must_cite": [
+          [
+            "L001",
+            "L006",
+            "L010",
+            "L015",
+            "L019",
+            "L024"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-G2/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Moderate to severe COPD is documented and there is no inhaled steroid, but prednisolone was supplied only as two separate five-day courses.",
+    "findings": []
+  }
+]

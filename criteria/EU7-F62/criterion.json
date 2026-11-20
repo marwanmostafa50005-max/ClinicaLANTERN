@@ -1,0 +1,87 @@
+{
+  "id": "EU7-F62",
+  "label": "EU(7)-PIM: dopamine agonists",
+  "family": "EU7",
+  "title": "Dopamine agonist in an older person",
+  "statement": "Bromocriptine | In lists: 3 (A); 6 (B) | Main reason: Risk of CNS side effects | Dose adjustment/special considerations: (blank: per ESM note, no suggestion by experts or in Micromedex) | Alternatives: Levodopa; carbidopa-levodopa; benserazide levodopa; irreversible inhibitor of monoamine oxidase as rasagiline. E || Pergolide | In lists: 6 (B) | Main reason: Adverse events include dyskinesia, dizziness, hallucinations, dystonia, confusion, somnolence, insomnia, anxiety, nausea | Dose adjustment/special considerations: (blank: per ESM note, no suggestion by experts or in Micromedex) | Alternatives: Levodopa; carbidopa-levodopa; benserazide levodopa; irreversible inhibitor of monoamine oxidase as rasagiline. E || Dihydroergocryptine | In lists: 1, 4 (A); 6 (B) | Main reason: Unfavourable risk/benefit profile | Dose adjustment/special considerations: (blank: per ESM note, no suggestion by experts or in Micromedex) | Alternatives: Levodopa; carbidopa-levodopa; benserazide levodopa; irreversible inhibitor of monoamine oxidase as rasagiline. E || Ropinirolec | In lists: 6 (B) | Main reason: Risk of orthostatic hypotension, hallucinations, confusion, somnolence, nausea | Dose adjustment/special considerations: Start with three intakes of 0.25 mg per day, increase gradually by 0.25 mg per intake each week for four weeks, up to 3 mg/d. Afterwards the dose may be increased weekly by 1.5 mg/d up to 24 mg/d. E | Alternatives: Levodopa; carbidopa-levodopa; benserazide levodopa; irreversible inhibitor of monoamine oxidase as rasagiline. E || Pramipexolec | In lists: 6 (A) | Main reason: Side effects include orthostatic hypotension, GI tract symptoms, hallucinations, confusion, insomnia, peripheral oedema | Dose adjustment/special considerations: Reduce dose in cases of moderate to severe renal failure. M Start with three intakes of 0.125 per day, increase gradually by 0.125 mg per intake every five to seven days, up to 1.5 to 4.5 mg. E | Alternatives: Levodopa; carbidopa-levodopa; benserazide levodopa; irreversible inhibitor of monoamine oxidase as rasagiline. E || Cabergolinec | In lists: 3 (A); 6 (B) | Main reason: CNS side effects | Dose adjustment/special considerations: (blank: per ESM note, no suggestion by experts or in Micromedex) | Alternatives: Levodopa; carbidopa-levodopa; benserazide levodopa; irreversible inhibitor of monoamine oxidase as rasagiline. E || Piribedil | In lists: 1 (A); 6 (B) | Main reason: Risk of orthostatic hypotension and falls | Dose adjustment/special considerations: (blank: per ESM note, no suggestion by experts or in Micromedex) | Alternatives: Levodopa; carbidopa-levodopa; benserazide levodopa; irreversible inhibitor of monoamine oxidase as rasagiline. E || Rotigotine | In lists: 6 (B) | Main reason: Side effects include orthostatic hypotension, headache, nausea, fatigue, sleep disorder, sudden onset of sleep, somnolence | Dose adjustment/special considerations: One patch per day, usually started at 2 mg/24h and titrated weekly by increasing the patch size in increments of 2 mg/24h, up to 6 mg/24h; do not stop the treatment abruptly: sudden withdrawal may produce a syndrome resembling neuroleptic malignant syndrome or akinetic crisis. E | Alternatives: Levodopa; carbidopa-levodopa; benserazide levodopa; irreversible inhibitor of monoamine oxidase as rasagiline. E",
+  "statement_origin": "published",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.2 candidate repairs and adopted conventions merged with attribution). Not endorsed by the source authors."
+  },
+  "plain_summary": "Dopamine agonists such as pramipexole, ropinirole and bromocriptine can cause confusion, hallucinations, sleepiness and low blood pressure on standing in older people. For Parkinson's disease with normal renal function, the Australian starting dose of immediate-release pramipexole is 0.125 mg three times daily. Extended-release pramipexole for Parkinson's disease is taken once daily. For restless legs syndrome, immediate-release pramipexole is taken once in the evening.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Dopamine agonists",
+      "ingredients": [
+        "bromocriptine",
+        "pergolide",
+        "dihydroergocryptine",
+        "ropinirole",
+        "pramipexole",
+        "cabergoline",
+        "piribedil",
+        "rotigotine"
+      ],
+      "brands": {
+        "bromocriptine": [
+          "Parlodel",
+          "Kripton"
+        ],
+        "pergolide": [
+          "Permax"
+        ],
+        "dihydroergocryptine": [],
+        "ropinirole": [
+          "Requip",
+          "Repreve",
+          "Appese",
+          "Appese-0.25",
+          "Appese-0.5",
+          "Ropaccord",
+          "Ropicor",
+          "Ropicor-0.5"
+        ],
+        "pramipexole": [
+          "Sifrol",
+          "Pamex",
+          "Pexemis",
+          "Pexole XR",
+          "Sifrol ER",
+          "Simipex",
+          "Simipex XR",
+          "Simpral"
+        ],
+        "cabergoline": [
+          "Dostinex",
+          "Cabaser",
+          "Bergoline",
+          "Carbelin",
+          "Cobasol",
+          "Dostamine",
+          "Dostan",
+          "Novanex",
+          "Tinexa"
+        ],
+        "piribedil": [],
+        "rotigotine": [
+          "Neupro"
+        ]
+      },
+      "note": "Pergolide, dihydroergocryptine and piribedil are not sold in Australia now. Rotigotine is a skin patch. Extended-release tablets of ropinirole and pramipexole count. Ropinirole and pramipexole are also used for restless legs, and cabergoline and bromocriptine for raised prolactin, which the record may not show."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when a person aged 65 or older has at least one supply of any Group A medicine (a dopamine agonist). Any strength counts. If age is missing and any Group A medicine is supplied, report only a possible finding and ask whether the person is 65 or older.",
+  "cannot_be_seen": "Why the medicine was prescribed (Parkinson's disease, restless legs or a hormone condition), whether it is working, and any confusion, hallucinations, sleepiness or dizziness on standing.",
+  "ask_the_gp": "Whether the dopamine agonist is still needed and the dose is the lowest that works, and whether a safer option is worth discussing.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

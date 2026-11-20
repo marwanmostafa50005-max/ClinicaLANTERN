@@ -1,0 +1,50 @@
+[
+  {
+    "file": "STOPP-H2/pos-fact.csv",
+    "kind": "positive",
+    "about": "Mobic (meloxicam, an NSAID) is supplied four times from March to June 2026, and three blood pressure lines (182/106, 178/104 and 176/102 mmHg) show readings above 170 and above 100.",
+    "findings": [
+      {
+        "criterion": "STOPP-H2",
+        "must_cite": [
+          [
+            "L018",
+            "L024",
+            "L029",
+            "L035"
+          ],
+          [
+            "L019"
+          ],
+          [
+            "L030"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-H2/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about \"Latest blood pressure relevant to the systemic NSAID course\" or \"Other blood pressure on a different date relevant to the same NSAID course\". Celebrex (celecoxib, an NSAID) is supplied four times from March to June 2026.",
+    "findings": [
+      {
+        "criterion": "STOPP-H2",
+        "must_cite": [
+          [
+            "L007",
+            "L011",
+            "L015",
+            "L019"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-H2/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Mobic is supplied four times, but the four blood pressure lines are all at or below 170 over 100 mmHg (the highest is 156/94), so the person does not have severe hypertension.",
+    "findings": []
+  }
+]

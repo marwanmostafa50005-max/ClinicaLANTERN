@@ -1,0 +1,57 @@
+[
+  {
+    "file": "STOPP-E9/pos-fact.csv",
+    "kind": "positive",
+    "about": "APO-Alendronate (alendronate, a bisphosphonate) is supplied every four weeks from December 2025 by brand name only, and the record holds an eGFR of 27 mL/min/1.73 m2 recorded before the first supply.",
+    "findings": [
+      {
+        "criterion": "STOPP-E9",
+        "must_cite": [
+          [
+            "L006",
+            "L009",
+            "L014",
+            "L017",
+            "L022",
+            "L025",
+            "L030",
+            "L033",
+            "L038",
+            "L041"
+          ],
+          [
+            "L005"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-E9/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about eGFR or any kidney result, and risedronate (Actonel) is supplied every four weeks from January 2026.",
+    "findings": [
+      {
+        "criterion": "STOPP-E9",
+        "must_cite": [
+          [
+            "L004",
+            "L006",
+            "L010",
+            "L012",
+            "L016",
+            "L018",
+            "L022",
+            "L024"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-E9/near-miss.csv",
+    "kind": "near_miss",
+    "about": "APO-Alendronate is supplied every four weeks but the record holds an eGFR of 58 mL/min/1.73 m2, which is not below 30, so there is no finding.",
+    "findings": []
+  }
+]

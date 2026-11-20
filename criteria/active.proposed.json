@@ -1,0 +1,25 @@
+{
+  "active": [
+    "STOPP-C10",
+    "STOPP-B3",
+    "STOPP-B13",
+    "STOPP-C14",
+    "STOPP-D18",
+    "STOPP-L2",
+    "STOPP-D8",
+    "STOPP-A3",
+    "STOPP-B11",
+    "PINCER-9"
+  ],
+  "reserves": [
+    "BRISNIK-HR-F2",
+    "STOPP-M1",
+    "EU7-F14",
+    "PINCER-10",
+    "PROMPT-CN-4",
+    "STOPP-C13",
+    "STOPP-C1",
+    "PROMPT-RS-3",
+    "BRISNIK-HR-A3"
+  ]
+}

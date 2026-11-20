@@ -1,0 +1,303 @@
+{
+  "id": "OPTIMISE-T2-35",
+  "label": "OPTIMISE T2-35: folic acid added to treat depression",
+  "family": "OPTIMISE",
+  "title": "Folic acid added to an antidepressant",
+  "statement": "Do not routinely prescribe folic acid as an augmenting agent in the treatment of depression",
+  "statement_origin": "published",
+  "source": {
+    "document": "Carolan A, et al. OPTIMISE. BMC Psychiatry 2022;22:585, Tables 2-3",
+    "citation": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "modification_notice": "Statement text as recorded by the earlier project. It has not been compared with the publisher's page. Not endorsed by the source authors."
+  },
+  "plain_summary": "Folic acid should not be added to an antidepressant as a routine way to boost treatment of depression.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Folic acid",
+      "ingredients": [
+        "folic acid"
+      ],
+      "brands": {
+        "folic acid": [
+          "Megafol",
+          "Foltabs"
+        ]
+      },
+      "note": "Count folic acid tablets, including generic packs labelled with the ingredient. For an iron plus folic acid tablet, check why it was prescribed. Count it as confirmed augmentation only when that purpose is documented. If used solely for iron or folate replacement there is no finding. If the reason is unknown, follow the possible-finding rule. Exclude multivitamins."
+    },
+    {
+      "key": "B",
+      "name": "Antidepressants",
+      "ingredients": [
+        "sertraline",
+        "escitalopram",
+        "citalopram",
+        "fluoxetine",
+        "paroxetine",
+        "fluvoxamine",
+        "venlafaxine",
+        "desvenlafaxine",
+        "duloxetine",
+        "amitriptyline",
+        "nortriptyline",
+        "dosulepin",
+        "imipramine",
+        "doxepin",
+        "clomipramine",
+        "trimipramine",
+        "mirtazapine",
+        "moclobemide",
+        "vortioxetine",
+        "agomelatine",
+        "reboxetine",
+        "mianserin",
+        "phenelzine",
+        "tranylcypromine"
+      ],
+      "brands": {
+        "sertraline": [
+          "Zoloft",
+          "Setrona",
+          "Concorz",
+          "Detralon",
+          "Eleva",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Tralen",
+          "Xydep"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam",
+          "Loxalate"
+        ],
+        "citalopram": [
+          "Cipramil",
+          "Celapram",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talam",
+          "Talohexal"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Zactin",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Paxtine",
+          "Aropax CR",
+          "Extine",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ],
+        "venlafaxine": [
+          "Efexor-XR",
+          "Altven",
+          "Elaxine SR",
+          "Enlafax XR",
+          "Evelexa XR",
+          "Ozvenaf",
+          "Venfax SR",
+          "Venla",
+          "Venlexor XR"
+        ],
+        "desvenlafaxine": [
+          "Pristiq",
+          "Desfax",
+          "Desven"
+        ],
+        "duloxetine": [
+          "Cymbalta",
+          "Andepra",
+          "Baltine",
+          "Coperin",
+          "Deotine",
+          "Depreta",
+          "Drulox",
+          "Dulocym",
+          "Duloxecor",
+          "Dytrex",
+          "Symlox",
+          "Texotine",
+          "Tixol",
+          "Xerol DR"
+        ],
+        "amitriptyline": [
+          "Endep",
+          "Entrip",
+          "Amichlor",
+          "Amidep"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "dosulepin": [
+          "Dothep",
+          "Prothiaden"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ],
+        "mirtazapine": [
+          "Avanza",
+          "Remeron",
+          "Aurozapine",
+          "Avanza Soltab",
+          "Axit",
+          "Milivin OD",
+          "Mirtanza",
+          "Mirtanza ODT",
+          "Mirtazon",
+          "Remeron Soltab"
+        ],
+        "moclobemide": [
+          "Aurorix",
+          "Amira",
+          "Arima",
+          "Clobemide",
+          "Clobemix",
+          "Maosig",
+          "Mohexal"
+        ],
+        "vortioxetine": [
+          "Brintellix"
+        ],
+        "agomelatine": [
+          "Valdoxan",
+          "Domion",
+          "Nortim",
+          "Valomel"
+        ],
+        "reboxetine": [
+          "Edronax"
+        ],
+        "mianserin": [
+          "Lumin",
+          "Lumin 10",
+          "Lumin 20"
+        ],
+        "phenelzine": [
+          "Nardil"
+        ],
+        "tranylcypromine": [
+          "Parnate",
+          "Tranylmed"
+        ]
+      },
+      "note": "Count tablets, capsules, wafers, orally disintegrating tablets and oral liquids containing a listed antidepressant. An ingredient name with a company name also counts."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when Group A folic acid and a Group B antidepressant have supply dates that overlap or fall within 60 days of each other, depression is recorded and the record says that folic acid was routinely added to augment depression treatment. Cite the diagnosis, documented purpose and both supplies. If the diagnosis or purpose is unknown, report only a possible finding and identify what is missing. Folic acid prescribed solely for a documented separate purpose gives no finding. Apply this criterion to adults aged 18 or over. Use the recorded age if it establishes age during the combined treatment. Only if the folic acid and antidepressant pair otherwise warrants review and age then is unknown, report a possible finding and ask for \"Age during combined folic acid and antidepressant treatment\". An adult answer allows assessment. Exclude treatment while under 18. If age remains unknown, keep the finding possible. Documented absence of depression gives no finding.",
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Depression during this treatment",
+      "meets": "Depression is documented. Documented absence of depression gives no finding. An unknown diagnosis allows only a possible finding."
+    },
+    {
+      "kind": "observation",
+      "what": "Purpose of prescribed folic acid during this treatment",
+      "meets": "Routine augmentation of depression treatment supports a finding. A separate indication alone or documented non-routine individual use clears it. If routine use or the purpose is uncertain, report only a possible finding.",
+      "options": [
+        {
+          "words": "Routinely added to help treat depression",
+          "effect": "meets"
+        },
+        {
+          "words": "Prescribed solely for a different purpose",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Specifically chosen for an individual clinical reason and not used as routine augmentation",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Age during combined folic acid and antidepressant treatment",
+      "meets": "Ask only if the folic acid and antidepressant pair otherwise warrants review and the record does not establish age during the combined treatment. Use the answer for that period only.",
+      "options": [
+        {
+          "words": "18 or older",
+          "effect": "meets"
+        },
+        {
+          "words": "Under 18",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "cannot_be_seen": "Why the folic acid was started, whether a blood test showed low folate, and folic acid bought without a prescription.",
+  "ask_the_gp": "A review of whether the folic acid is still needed alongside the antidepressant, and of the reason it was started.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

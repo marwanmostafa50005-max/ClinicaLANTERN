@@ -1,0 +1,125 @@
+{
+  "id": "EU7-F64",
+  "label": "EU(7)-PIM: older antipsychotics",
+  "family": "EU7",
+  "title": "Older-type antipsychotic in an older person",
+  "statement": "Older people should avoid these conventional antipsychotic medicines: chlorpromazine, levomepromazine, clorazepate with acepromazine, cyamemazine, fluphenazine, perphenazine, prochlorperazine, trifluoperazine, periciazine, thioridazine, pipotiazine, droperidol, flupentixol, chlorprothixene, zuclopenthixol and pimozide. Haloperidol is on the list only when the single dose is above 2 mg or the daily dose is above 5 mg. The listed risks include sedation, falls, low blood pressure on standing, stiffness and other movement side effects, and, in people with dementia, a higher risk of death. If one of these medicines must be used, the list advises a low dose and the shortest time.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Statement written in plain words by ClinicaLANTERN from the published table row or rows, because part of the original dose text is from a third-party database (Micromedex) whose rights are not settled. It is not the authors' wording. Not endorsed by the source authors."
+  },
+  "plain_summary": "Older antipsychotic medicines such as chlorpromazine, fluphenazine or prochlorperazine can cause drowsiness, falls and movement side effects in people aged 65 or over. Haloperidol is on the list only at higher doses.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Older antipsychotics to avoid at any dose",
+      "ingredients": [
+        "chlorpromazine",
+        "levomepromazine",
+        "clorazepate with acepromazine",
+        "cyamemazine",
+        "fluphenazine",
+        "perphenazine",
+        "prochlorperazine",
+        "trifluoperazine",
+        "periciazine",
+        "thioridazine",
+        "pipotiazine",
+        "droperidol",
+        "flupentixol",
+        "chlorprothixene",
+        "zuclopenthixol",
+        "pimozide",
+        "flupentixol decanoate",
+        "fluphenazine decanoate",
+        "zuclopenthixol decanoate",
+        "zuclopenthixol acetate"
+      ],
+      "brands": {
+        "chlorpromazine": [
+          "Largactil",
+          "Largactil Syrup"
+        ],
+        "levomepromazine": [
+          "Nozinan"
+        ],
+        "clorazepate with acepromazine": [],
+        "cyamemazine": [],
+        "fluphenazine": [
+          "Modecate"
+        ],
+        "perphenazine": [],
+        "prochlorperazine": [
+          "Stemetil",
+          "Stemzine",
+          "Nausetil",
+          "Nausrelief",
+          "Procalm",
+          "Proclazine"
+        ],
+        "trifluoperazine": [
+          "Stelazine"
+        ],
+        "periciazine": [
+          "Neulactil"
+        ],
+        "thioridazine": [],
+        "pipotiazine": [],
+        "droperidol": [
+          "Droleptan"
+        ],
+        "flupentixol": [
+          "Fluanxol"
+        ],
+        "chlorprothixene": [],
+        "zuclopenthixol": [
+          "Clopixol"
+        ],
+        "pimozide": [
+          "Orap"
+        ],
+        "flupentixol decanoate": [
+          "Fluanxol",
+          "Fluanxol Depot"
+        ],
+        "fluphenazine decanoate": [
+          "Modecate"
+        ],
+        "zuclopenthixol decanoate": [
+          "Clopixol Depot"
+        ],
+        "zuclopenthixol acetate": [
+          "Clopixol Acuphase"
+        ]
+      },
+      "note": "Tablets, liquids and depot injections count. Also count prochlorperazine suppositories and intramuscular prochlorperazine, droperidol injections and subcutaneous levomepromazine injections. Clopixol Acuphase is the acetate injection. Clopixol Depot is the decanoate injection. Prochlorperazine counts even when it is used for nausea. Clorazepate with acepromazine, cyamemazine, chlorprothixene, pipotiazine and thioridazine have no Australian brand listed. Use the ingredient name for perphenazine when no brand has been verified."
+    },
+    {
+      "key": "B",
+      "name": "Haloperidol, only above the listed dose",
+      "ingredients": [
+        "haloperidol"
+      ],
+      "brands": {
+        "haloperidol": [
+          "Serenace",
+          "Haldol Decanoate"
+        ]
+      },
+      "note": "Haloperidol counts only when the single dose is above 2 mg or the daily dose is above 5 mg. A depot injection such as Haldol Decanoate is a different dose pattern and cannot be judged from the directions."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when the person is aged 65 or over and any Group A medicine is supplied, at any strength, even once. When age is missing, report only a possible finding for a Group A supply. With age unknown, report a possible immediate-release Group B finding only if a dose exceeds a limit or could do so on the available directions. Ask whether the person is 65 or older in either case. Name any missing dose information as well. For a person aged 65 or older supplied immediate-release haloperidol (Group B), suspect a finding when the prescribed dose exceeds 2 mg per dose or 5 mg per day. Exclude haloperidol decanoate depot injections from this calculation. Calculate mg per dose from the directions and strength, using mg/mL for liquids, and multiply by the prescribed doses per day for the daily total. At age 65 or older, if either limit is exceeded, report the finding even if the other amount is unknown. At age 65 or older, if neither excess is established and one remains possible, report a possible finding and ask how much is used per dose and how often. If both amounts are known to be within the limits, report no finding.",
+  "cannot_be_seen": "Why the medicine was started, whether the person has dementia, a psychotic illness or nausea, who agreed to the dose, and how long the person has taken it. Also how much is really taken, and medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "A review of whether the antipsychotic is still needed, whether a lower dose or a safer choice is possible, and a check of falls risk and blood pressure on standing.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

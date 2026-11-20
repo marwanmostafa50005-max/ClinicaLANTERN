@@ -1,0 +1,47 @@
+[
+  {
+    "file": "OPTIMISE-T2-42/pos-fact.csv",
+    "kind": "positive",
+    "about": "Clozapine covers the 28 June stop. The dose was reviewed and a blood test booked, but the reported level has no sample date and symptom and mental-state checks are outstanding.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T2-42",
+        "must_cite": [
+          [
+            "L041"
+          ],
+          [
+            "L032"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T2-42/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about Smoking status. The clozapine level alone does not establish a stop.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T2-42",
+        "must_cite": [
+          [
+            "L001",
+            "L006",
+            "L009",
+            "L014",
+            "L018",
+            "L022",
+            "L025"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T2-42/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Clozapine is supplied every 28 days and the person continues to smoke.",
+    "findings": []
+  }
+]

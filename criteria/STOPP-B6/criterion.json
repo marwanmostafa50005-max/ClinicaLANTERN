@@ -1,0 +1,221 @@
+{
+  "id": "STOPP-B6",
+  "label": "STOPP B6",
+  "family": "STOPP_START",
+  "title": "Amiodarone first for a fast rhythm from the upper heart",
+  "statement": "Amiodarone as first-line antiarrhythmic therapy in supraventricular tachyarrhythmias (higher risk of major side-effects than beta-blockers, digoxin, verapamil or diltiazem).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Amiodarone can cause serious adverse effects. Check whether it was started to slow a fast heart rate or to maintain sinus rhythm. In atrial fibrillation, amiodarone can be a first choice to maintain sinus rhythm in selected people with left ventricular systolic dysfunction, moderate left ventricular hypertrophy or coronary artery disease.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Amiodarone",
+      "ingredients": [
+        "amiodarone"
+      ],
+      "brands": {
+        "amiodarone": [
+          "Cordarone X",
+          "Aratac",
+          "Amdarone",
+          "Cardinorm",
+          "Rithmik"
+        ]
+      },
+      "note": "Tablets count. Injections given in hospital are not seen in a pharmacy record. Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "B",
+      "name": "Medicines tried earlier for the same rhythm and treatment goal",
+      "ingredients": [
+        "atenolol",
+        "bisoprolol",
+        "metoprolol",
+        "propranolol",
+        "carvedilol",
+        "digoxin",
+        "verapamil",
+        "diltiazem",
+        "flecainide",
+        "sotalol",
+        "nebivolol"
+      ],
+      "brands": {
+        "atenolol": [
+          "Tenormin",
+          "Anselol",
+          "Atehexal",
+          "Aten",
+          "Colaptyn",
+          "Noten",
+          "Tenolten",
+          "Tensig"
+        ],
+        "bisoprolol": [
+          "Bicor",
+          "Beprol",
+          "Bicard",
+          "Biso",
+          "Bispro"
+        ],
+        "metoprolol": [
+          "Lopresor",
+          "Betaloc",
+          "Agtolac",
+          "Metatar",
+          "Metohexal",
+          "Metolol",
+          "Metrol",
+          "Metrol-XL",
+          "Minax",
+          "Minax XL",
+          "Mistrom",
+          "Tobeta-XL",
+          "Topreloc-XL",
+          "Toprol-XL"
+        ],
+        "propranolol": [
+          "Deralin",
+          "Inderal",
+          "Drofate",
+          "Hemangiol"
+        ],
+        "carvedilol": [
+          "Dilatrend",
+          "Carvidol",
+          "Dicarz",
+          "Dilasig",
+          "Kredex",
+          "Vedilol",
+          "Volirop"
+        ],
+        "digoxin": [
+          "Lanoxin",
+          "Lanoxin PG",
+          "Lanoxin Paediatric Elixir",
+          "Sigmaxin",
+          "Sigmaxin PG"
+        ],
+        "verapamil": [
+          "Isoptin",
+          "Isoptin SR",
+          "Veracaps SR",
+          "Anpec",
+          "Anpec SR",
+          "Cordilox SR",
+          "Tarka"
+        ],
+        "diltiazem": [
+          "Cardizem",
+          "Cardizem CD",
+          "Vasocardol CD",
+          "Coras",
+          "Danzem",
+          "Diltahexal",
+          "Diltahexal CD",
+          "Dilzem",
+          "Dilzem CD",
+          "Ditatem",
+          "Vasocardol"
+        ],
+        "flecainide": [
+          "Flec-Em",
+          "Flecacor",
+          "Flecain",
+          "Flecainide (Apo)",
+          "Flecainide (Mlabs)",
+          "Flecainide (Sandoz)",
+          "Flecar",
+          "Flecatab",
+          "Tambocor"
+        ],
+        "sotalol": [
+          "Cardol",
+          "Solavert",
+          "Sotab",
+          "Sotacor",
+          "Sotahexal",
+          "Sotalol (Apx)",
+          "Sotalol (Wgr)",
+          "Sotalol Hydrochloride (Apo)",
+          "Sotalol Hydrochloride (Chemmart)",
+          "Sotalol Hydrochloride (Genrx)",
+          "Sotalol Hydrochloride (Sandoz)",
+          "Sotalol Hydrochloride (Terry White Chemists)"
+        ],
+        "nebivolol": [
+          "Nebilet",
+          "Lobivon",
+          "Nebaloc",
+          "Nepiten"
+        ]
+      },
+      "note": "Count flecainide and sotalol when documented as earlier treatment to maintain sinus rhythm. Generic packs that show the ingredient name with a company name count too. Tarka contains verapamil with trandolapril. For any Group B product, confirm that it was tried earlier for the same rhythm and treatment goal before clearing the finding. Agtolac is a metoprolol injection. Count an earlier dose only when its use for the same rhythm and treatment goal is documented."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Supraventricular tachyarrhythmia",
+      "meets": "A confirmed supraventricular tachyarrhythmia, including atrial fibrillation, atrial flutter or supraventricular tachycardia, meets the rhythm requirement. Check why amiodarone was used for this patient. A diagnosis alone does not establish that use."
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for treating the rhythm",
+      "meets": "The record says whether treatment aimed to control the heart rate or restore or maintain sinus rhythm.",
+      "options": [
+        {
+          "words": "To slow the heart rate for the supraventricular rhythm",
+          "effect": "meets"
+        },
+        {
+          "words": "To restore or maintain sinus rhythm for the supraventricular rhythm",
+          "effect": "meets"
+        },
+        {
+          "words": "Amiodarone was used only for an indication other than a supraventricular rhythm",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "First treatment tried for this rhythm and goal",
+      "meets": "Amiodarone was the first treatment tried for this goal. A documented earlier trial for the same goal clears the finding. If the goal or sequence is unknown, report only a possible finding.",
+      "options": [
+        {
+          "words": "Amiodarone was the first medicine tried for this rhythm and goal",
+          "effect": "meets"
+        },
+        {
+          "words": "Another medicine was tried first for this rhythm and goal",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "For someone aged 65 or older, flag first-line Group A amiodarone for the recorded treatment goal in atrial fibrillation, atrial flutter or supraventricular tachycardia, citing the supply and supporting facts and noting any cardiac reason for maintaining sinus rhythm for GP review. Report no finding for someone under 65, a recorded absence of a supraventricular tachyarrhythmia, treatment solely for a ventricular rhythm or another indication, or a documented earlier trial for the same rhythm and goal. Otherwise, if the record shows amiodarone but the age, rhythm, goal or treatment order is unclear, cite the supply and any supporting facts and report only a possible finding. Identify a missing age explicitly. Name each missing clinical fact exactly as applicable: Supraventricular tachyarrhythmia, Reason for treating the rhythm and First treatment tried for this rhythm and goal.",
+  "cannot_be_seen": "Which rhythm problem amiodarone was started for, what was tried before the record began, and whether a specialist started it for a good reason. Also any hospital supplies.",
+  "ask_the_gp": "A review of the treatment goal and the rationale for choosing amiodarone, including any cardiac indication for rhythm maintenance.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

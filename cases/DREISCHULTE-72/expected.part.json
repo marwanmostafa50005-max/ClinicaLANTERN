@@ -1,0 +1,44 @@
+[
+  {
+    "file": "DREISCHULTE-72/pos-fact.csv",
+    "kind": "positive",
+    "about": "At the 2026-10-22 supply of penicillamine, the checked pathology history dates the latest full blood count to 2026-08-26, 57 days earlier.",
+    "findings": [
+      {
+        "criterion": "DREISCHULTE-72",
+        "must_cite": [
+          [
+            "L045"
+          ],
+          [
+            "L046"
+          ],
+          [
+            "L002"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "DREISCHULTE-72/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about the latest completed full blood count or confirming that penicillamine treats the recorded rheumatoid arthritis.",
+    "findings": [
+      {
+        "criterion": "DREISCHULTE-72",
+        "must_cite": [
+          [
+            "L026"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "DREISCHULTE-72/near-miss.csv",
+    "kind": "near_miss",
+    "about": "A completed full blood count exactly 56 days before the latest penicillamine supply falls inside the published 8-week window.",
+    "findings": []
+  }
+]

@@ -1,0 +1,129 @@
+{
+  "id": "STOPP-J7",
+  "label": "STOPP J7",
+  "family": "STOPP_START",
+  "title": "Menopausal hormone therapy with arterial disease",
+  "statement": "Menopausal hormone therapy (oestrogen plus progestin) with a history of stenotic coronary, cerebral or peripheral arterial disease (increased risk of acute arterial thrombosis).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Menopausal hormone therapy that contains an oestrogen and a progestogen can cause a sudden blood clot in the arteries of a person who already has narrowed arteries.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Systemic oestrogens",
+      "ingredients": [
+        "estradiol",
+        "conjugated oestrogens",
+        "conjugated estrogens"
+      ],
+      "brands": {
+        "estradiol": [
+          "Estrofem",
+          "Progynova",
+          "Zumenon",
+          "Estradot",
+          "Climara",
+          "Estrogel",
+          "Sandrena",
+          "Femoston (with dydrogesterone)",
+          "Femoston Conti (with dydrogesterone)",
+          "Kliovance (with norethisterone)",
+          "Estalis (with norethisterone)",
+          "Kliogest (with norethisterone acetate)",
+          "Trisequens (with norethisterone acetate)",
+          "Angeliq (with drospirenone)",
+          "Estraderm MX",
+          "Estrogel Pro (with progesterone)",
+          "Bijuva",
+          "Estramon"
+        ],
+        "conjugated oestrogens": [
+          "Premarin",
+          "Premia (with medroxyprogesterone)"
+        ],
+        "conjugated estrogens": [
+          "Premarin",
+          "Premia (with medroxyprogesterone)"
+        ]
+      },
+      "note": "Vaginal tablets, creams, pessaries and rings do not count. A combination product counts as both Group A and Group B. Generic packs showing the ingredient and a company name count when the form is systemic. Oral tablets and capsules, patches and skin gels count. Bijuva contains both estradiol and progesterone."
+    },
+    {
+      "key": "B",
+      "name": "Progestogens",
+      "ingredients": [
+        "medroxyprogesterone",
+        "norethisterone",
+        "progesterone",
+        "dydrogesterone",
+        "levonorgestrel",
+        "drospirenone"
+      ],
+      "brands": {
+        "medroxyprogesterone": [
+          "Provera",
+          "Medroxyhexal",
+          "Ralovera"
+        ],
+        "norethisterone": [
+          "Primolut N"
+        ],
+        "progesterone": [
+          "Prometrium",
+          "Bijuva"
+        ],
+        "dydrogesterone": [
+          "Duphaston"
+        ],
+        "levonorgestrel": [
+          "Mirena"
+        ],
+        "drospirenone": [
+          "Angeliq (with estradiol)"
+        ]
+      },
+      "note": "Medroxyprogesterone, norethisterone, progesterone, dydrogesterone and the levonorgestrel intrauterine device count as progestogens. Contraceptive-only products are not counted here. Locilan 28 Day, Micronor and Noriday 28 Day alone do not establish menopausal progestogen treatment. Count drospirenone with systemic estradiol for menopausal hormone therapy. A drospirenone contraceptive alone does not qualify."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Stenotic coronary, cerebral or peripheral arterial disease",
+      "meets": "A condition line that says the person has narrowed (stenotic) coronary, cerebral (brain) or peripheral arteries"
+    },
+    {
+      "kind": "observation",
+      "what": "52 mg Mirena in place during oestrogen treatment",
+      "meets": "The device was in place during oestrogen treatment and within five years of insertion. A supply date alone does not confirm insertion. Only ask if Mirena is the only possible progestogen and insertion or continued use is unclear.",
+      "options": [
+        {
+          "words": "In place during oestrogen treatment and within five years of insertion",
+          "effect": "meets"
+        },
+        {
+          "words": "Absent, removed, expelled or past five years at that time",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Count a combined menopausal hormone pack, or systemic Group A oestrogen with a Group B menopausal progestogen when supplies overlap or fall within 60 days of each other, excluding contraceptive-only products. For a 52 mg Mirena, use the insertion date instead of the supply date. Count the device if it was in place during oestrogen treatment and within five years of insertion. Exclude a device that was absent, removed, expelled or past five years at that time. For a person aged 65 or older with this therapy and a recorded history of stenotic coronary, cerebral or peripheral arterial disease, report a finding and cite the hormone supplies and the condition line. If Mirena is the only progestogen, also cite the evidence that it was in place at the time. If the history excludes all three sites, report no finding, but if the criterion could apply and age or arterial disease history is unknown, report only a possible finding and ask for the missing details. If Mirena is the only possible progestogen and insertion or continued use is unclear, report only a possible finding and name the missing fact \"52 mg Mirena in place during oestrogen treatment\". An unknown answer leaves it open.",
+  "cannot_be_seen": "The supply names the prescriber. The record may omit the reason for hormone therapy, specialist advice, arterial narrowing, scan results or whether a progestogen intrauterine device is in place.",
+  "ask_the_gp": "A review of whether the hormone therapy is still suitable, taking into account any narrowed arteries.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

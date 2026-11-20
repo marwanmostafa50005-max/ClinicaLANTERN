@@ -1,0 +1,7 @@
+2026-09-02 | Flomaxtra (tamsulosin) 400 microgram modified release tablet | qty 30 | repeats 5 | Take ONE tablet daily | Dr A
+2026-09-15 | Doryx (doxycycline) 100 mg capsule | qty 7 | repeats 0 | Take ONE capsule daily with food and a full glass of water | Dr A
+2026-10-02 | Avapro (irbesartan) 150 mg tablet | qty 30 | repeats 1 | Take ONE tablet daily | Dr A
+2026-10-02 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 3 | Take ONE tablet at night | Dr A
+2026-10-02 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 0 | Take TWO tablets daily with the evening meal | Dr A
+2026-10-02 | Flomaxtra (tamsulosin) 400 microgram modified release tablet | qty 30 | repeats 4 | Take ONE tablet daily | Dr A
+2026-10-06 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr A

@@ -1,0 +1,75 @@
+{
+  "id": "MHRA-4",
+  "label": "MHRA 4",
+  "family": "MHRA",
+  "title": "Topiramate without highly effective contraception",
+  "statement": "ask women or girls of childbearing potential if they are taking highly effective contraception, if they are not, pharmacists should advise them to contact their GP for a follow-up appointment",
+  "statement_origin": "published",
+  "source": {
+    "document": "MHRA Drug Safety Update: Topiramate safety measures",
+    "citation": "Medicines and Healthcare products Regulatory Agency. Drug Safety Update volume 17, issue 11: June 2024: 1.",
+    "url": "https://www.gov.uk/drug-safety-update/topiramate-topamax-introduction-of-new-safety-measures-including-a-pregnancy-prevention-programme",
+    "licence": "UK Open Government Licence v3.0",
+    "licence_status": "proposed",
+    "credit": "Contains public sector information licensed under the Open Government Licence v3.0.",
+    "modification_notice": "Statement reproduced without changes."
+  },
+  "plain_summary": "Topiramate can harm an unborn baby, so women and girls of childbearing potential need highly effective contraception. The Australian Topamax Product Information, dated February 2026, classifies topiramate as Pregnancy Category D. It contraindicates use in pregnancy or in women of childbearing potential who are not using highly effective contraception for migraine prophylaxis. It requires highly effective contraception and notes that topiramate at 200 mg daily or more can reduce hormonal contraceptive efficacy. If a patient who could become pregnant is not using highly effective contraception, advise her to contact her GP for a follow-up appointment. NEVER stop topiramate abruptly when it is used for epilepsy.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Topiramate",
+      "ingredients": [
+        "topiramate"
+      ],
+      "brands": {
+        "topiramate": [
+          "Tamate",
+          "APO-Topiramate",
+          "Topamax",
+          "Topamax Sprinkle",
+          "Epiramax",
+          "Topiramate Sandoz",
+          "RBX Topiramate",
+          "TOPIRAMATE-WGR"
+        ]
+      },
+      "note": "Oral topiramate tablets, sprinkle capsules and liquids count. Generic packs that show the ingredient name count too."
+    }
+  ],
+  "rule_for_models": "For a female patient supplied topiramate, cite the supply and the observation if she could become pregnant and confirms she lacks highly effective contraception that retains its effect with topiramate at that time. Report no finding if she cannot become pregnant or a suitable highly effective method is confirmed. If sex, childbearing potential or protection at the relevant dispensing is unknown, report a possible finding naming the missing information. Do not infer childbearing potential from age alone or apply a current answer to earlier supplies.",
+  "cannot_be_seen": "Pregnancy, childbearing potential, contraception and its use, the indication for topiramate, pregnancy tests and advice already given may be absent. Supplies elsewhere and actual use are not visible.",
+  "ask_the_gp": "Could you review childbearing potential, pregnancy risk and whether the contraception is highly effective and not reduced by topiramate?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Childbearing potential without highly effective contraception",
+      "meets": "Yes. The patient is of childbearing potential and is not using highly effective non-interacting contraception. Topiramate at 200 mg daily or more can reduce hormonal contraceptive efficacy, so a hormonal method alone may not count as highly effective non-interacting contraception, and the criterion may still be met.",
+      "options": [
+        {
+          "words": "Could become pregnant and lacks a highly effective method that works with topiramate",
+          "effect": "meets"
+        },
+        {
+          "words": "Uses a highly effective method that works with topiramate",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Cannot become pregnant",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ],
+      "ask_when": {
+        "group": "A"
+      }
+    }
+  ],
+  "only_sex": "female"
+}

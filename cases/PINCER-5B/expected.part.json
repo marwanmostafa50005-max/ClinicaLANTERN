@@ -1,0 +1,48 @@
+[
+  {
+    "file": "PINCER-5B/pos-fact.csv",
+    "kind": "positive",
+    "about": "Methotrexate is supplied four times from December 2025 to August 2026. The newest liver function test (ALT) result is dated 14 April 2026, more than three months before the end of the record. The full blood count (haemoglobin) is recent.",
+    "findings": [
+      {
+        "criterion": "PINCER-5B",
+        "must_cite": [
+          [
+            "L026"
+          ],
+          [
+            "L036"
+          ],
+          [
+            "L021"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PINCER-5B/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about \"Date of the latest liver function tests\". Methoblastin (methotrexate) is supplied by brand name five times in the last 11 months.",
+    "findings": [
+      {
+        "criterion": "PINCER-5B",
+        "must_cite": [
+          [
+            "L016"
+          ],
+          [
+            "L023",
+            "L031"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PINCER-5B/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Methotrexate is supplied four times, but a liver function test (ALT) was recorded on 14 September 2026, inside the last three months. The other test is also recent.",
+    "findings": []
+  }
+]

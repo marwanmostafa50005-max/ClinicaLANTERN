@@ -1,0 +1,43 @@
+[
+  {
+    "file": "EU7-F80/pos-brand.csv",
+    "kind": "positive",
+    "about": "Terbutaline tablets 5 mg (no Australian brand is listed, so the ingredient name is used) are supplied four times from December 2025 to March 2026 to a 71-year-old woman.",
+    "findings": [
+      {
+        "criterion": "EU7-F80",
+        "must_cite": [
+          [
+            "L003",
+            "L007",
+            "L011",
+            "L015"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F80/pos-buried.csv",
+    "kind": "positive",
+    "about": "Terbutaline tablets 2.5 mg are supplied three times from January to March 2026, in the middle of a 15-month history of ordinary background medicines.",
+    "findings": [
+      {
+        "criterion": "EU7-F80",
+        "must_cite": [
+          [
+            "L032",
+            "L036",
+            "L041"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F80/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Terbutaline is supplied four times, but only as a Bricanyl Turbuhaler inhaler (breathed in), not as tablets or liquid by mouth, so it must not flag.",
+    "findings": []
+  }
+]

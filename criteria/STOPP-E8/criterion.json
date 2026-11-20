@@ -1,0 +1,69 @@
+{
+  "id": "STOPP-E8",
+  "label": "STOPP E8",
+  "family": "STOPP_START",
+  "title": "Nitrofurantoin with a low eGFR",
+  "statement": "Nitrofurantoin if eGFR < 45 ml/min/1.73m² (increased risk of nitrofurantoin toxicity).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Nitrofurantoin can cause toxic effects when kidney function is low. STOPP uses an eGFR below 45 mL/min/1.73 m². Fudantin and ARX list creatinine clearance below 60 mL/min as a contraindication. The ARX product information expresses its short-course exception as eGFR 30 to 44 mL/min for an uncomplicated lower urinary infection caused by resistant bacteria when benefit outweighs risk.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Nitrofurantoin",
+      "ingredients": [
+        "nitrofurantoin"
+      ],
+      "brands": {
+        "nitrofurantoin": [
+          "Macrodantin",
+          "Fudantin",
+          "Nitrodantin",
+          "Urodantin"
+        ]
+      },
+      "note": "Capsules count. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "eGFR",
+      "meets": "below 45 mL/min/1.73 m2"
+    },
+    {
+      "kind": "observation",
+      "what": "Nitrofurantoin use on the kidney test date under review",
+      "meets": "Ask only if the dated record leaves it unclear whether a known low result applied to this nitrofurantoin course. The patient was taking nitrofurantoin when that sample was taken.",
+      "options": [
+        {
+          "words": "Taking it then",
+          "effect": "meets"
+        },
+        {
+          "words": "Not taking it then",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this criterion only if the patient is aged 65 years or older. If age is unknown, ask for age confirmation before assessing the supply. Suspect a finding when nitrofurantoin is supplied and the latest dated eGFR relevant to that treatment is below 45 mL/min/1.73 m2. For ongoing treatment use the latest relevant result, and for a completed course use the result that applied during that course. Cite the supply and the result. If the relevant result is 45 or higher, there is no finding for that treatment. Use the dates, quantities and directions to identify the treatment period. If no relevant result is available, or unclear directions or dates leave its relevance uncertain, report only a possible finding. If eGFR is missing, ask for the result and its test date. Only if a known low result cannot be matched to the course, identify the course and sample date and ask whether the patient was taking nitrofurantoin then. If so, cite the supply, result and confirmation. If the patient was not taking it then, rule out that pairing only. If that remains unknown, keep the finding possible.",
+  "cannot_be_seen": "Current kidney function if the record holds none, the infection being treated, whether a single supply is for a short course or ongoing prevention, and any hospital or other pharmacy supplies.",
+  "ask_the_gp": "A review of the patient's kidney function and whether nitrofurantoin is still the right choice.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

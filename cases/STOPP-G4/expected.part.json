@@ -1,0 +1,43 @@
+[
+  {
+    "file": "STOPP-G4/pos-fact.csv",
+    "kind": "positive",
+    "about": "At the January diazepam supply, arterial PaO2 is 7.4 kPa.",
+    "findings": [
+      {
+        "criterion": "STOPP-G4",
+        "must_cite": [
+          [
+            "L026"
+          ],
+          [
+            "L024"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-G4/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the three brand-only Normison supplies have no recorded respiratory failure diagnosis or arterial oxygen result.",
+    "findings": [
+      {
+        "criterion": "STOPP-G4",
+        "must_cite": [
+          [
+            "L004",
+            "L014",
+            "L027"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-G4/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Each oxazepam supply has a same-day arterial PaO2 above 8.0 kPa and the record contains no current diagnosis of respiratory failure.",
+    "findings": []
+  }
+]

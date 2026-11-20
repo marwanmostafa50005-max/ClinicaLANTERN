@@ -1,0 +1,58 @@
+[
+  {
+    "file": "BRISNIK-HR-E2/pos-brand.csv",
+    "kind": "positive",
+    "about": "Zoloft, Imigran and Tramal are supplied by brand alone within 50 days, with other supplies outside that period.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-E2",
+        "must_cite": [
+          [
+            "L015",
+            "L019"
+          ],
+          [
+            "L012",
+            "L021"
+          ],
+          [
+            "L013",
+            "L017",
+            "L022"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-E2/pos-buried.csv",
+    "kind": "positive",
+    "about": "The two metoclopramide and two sumatriptan supplies in January and February each fall within 60 days of the three escitalopram supplies around them.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-E2",
+        "must_cite": [
+          [
+            "L027",
+            "L033",
+            "L039"
+          ],
+          [
+            "L031",
+            "L037"
+          ],
+          [
+            "L032",
+            "L038"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-E2/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Sertraline is supplied with only one further serotonergic medicine (sumatriptan). The rule needs two.",
+    "findings": []
+  }
+]

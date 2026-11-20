@@ -1,0 +1,76 @@
+{
+  "id": "STOPP-E6",
+  "label": "STOPP E6",
+  "family": "STOPP_START",
+  "title": "Metformin with low kidney function",
+  "statement": "Metformin if eGFR < 30 ml/min/1.73m² (risk of lactic acidosis).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "licence_status": "proposed",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Metformin is cleared by the kidneys, so it can build up and cause lactic acidosis when kidney function is low (eGFR below 30). Australian guidance differs: the RACGP advises reducing the dose at eGFR 30 to 60 mL/min/1.73 m² and stopping below 30, while Diabex is contraindicated at a creatinine clearance below 60 mL/min (RACGP, 2025, and Diabex product information, 2026).",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Metformin, alone or in a combination tablet",
+      "ingredients": [
+        "metformin"
+      ],
+      "brands": {
+        "metformin": [
+          "Diabex",
+          "Diabex XR",
+          "Diaformin",
+          "Diaformin XR",
+          "Glucophage",
+          "Janumet",
+          "Janumet XR",
+          "Galvumet",
+          "Jardiamet",
+          "Xigduo XR",
+          "Kombiglyze XR",
+          "Trajentamet",
+          "Diaformin Alphapharm XR",
+          "Diaformin Viatris",
+          "Diaformin Viatris XR",
+          "Diamet",
+          "Diaxemet XR",
+          "Formet",
+          "Glucobete",
+          "Glucohexal",
+          "Glucomet",
+          "Glucophage XR",
+          "Medformin",
+          "Metex XR",
+          "Metforbell",
+          "Metofex XR",
+          "Segluromet",
+          "Nesina Met",
+          "Velmetia",
+          "Sitaglo-Met"
+        ]
+      },
+      "note": "Plain metformin tablets and slow-release tablets count. Each of these brands contains metformin. Janumet and Janumet XR also contain sitagliptin, Galvumet contains vildagliptin, Jardiamet contains empagliflozin, Xigduo XR contains dapagliflozin, Kombiglyze XR contains saxagliptin and Trajentamet contains linagliptin. Generic packs that show the ingredient name with a company name count too. Segluromet contains metformin with ertugliflozin. Nesina Met contains metformin with alogliptin. Velmetia and Sitaglo-Met both contain sitagliptin and metformin."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "eGFR",
+      "meets": "Enter the eGFR in mL/min/1.73 m² and its test date if known. The latest result that applies to the metformin course meets this criterion if it is below 30 mL/min/1.73 m²."
+    }
+  ],
+  "rule_for_models": "Apply this criterion only if the patient is aged 65 years or older. If age is unknown, ask for age confirmation before assessing the supply. For metformin alone or in a combination tablet (Group A), use the latest eGFR that applied during the course, including a result before supply if it still applies. A result measured after the course ended cannot establish a finding for that course. Below 30 mL/min/1.73 m², report a finding and cite the supply and result. At 30 or above, there is no finding for that course. If the value is unknown or its timing is unclear, report only a possible finding and ask for the eGFR that applied during treatment. Use the test date or a confirmed link to treatment, never the date the pharmacist entered the answer.",
+  "cannot_be_seen": "The latest kidney test if none is on the record, whether the metformin dose was changed after the test, and the reason the person takes it.",
+  "ask_the_gp": "Could you review the exact metformin product and dose against its renal prescribing limits, including the other ingredient in any combination tablet?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

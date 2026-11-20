@@ -1,0 +1,94 @@
+{
+  "id": "NHSNPSA-2021-006-1",
+  "label": "NHSNPSA: DOAC with mechanical heart valve",
+  "family": "NHSNPSA",
+  "title": "Direct oral anticoagulant with a prosthetic mechanical heart valve",
+  "statement": "All patients with prosthetic mechanical heart valves require life-long oral anticoagulation with a vitamin K antagonist (VKA), usually warfarin, as these valves predispose the patient to systemic embolism.",
+  "statement_origin": "published",
+  "source": {
+    "document": "NHS England, National Patient Safety Alert: Inappropriate anticoagulation of patients with a mechanical heart valve",
+    "citation": "NHS England, Inappropriate anticoagulation of patients with a mechanical heart valve (read 19 November 2026)",
+    "url": "https://www.england.nhs.uk/2021/07/inappropriate-anticoagulation-of-patients-with-a-mechanical-heart-valve/",
+    "licence": "Open Government Licence v3.0",
+    "licence_status": "proposed",
+    "credit": "NHS England, National Patient Safety Alert: Inappropriate anticoagulation of patients with a mechanical heart valve (read 19 November 2026). Contains public sector information licensed under the Open Government Licence v3.0."
+  },
+  "plain_summary": "Direct oral anticoagulants such as apixaban, dabigatran and rivaroxaban do not safely protect people with prosthetic mechanical heart valves against valve thrombosis and stroke, and warfarin is required instead. Australian Product Information aligns with this warning (Pradaxa PI, 2 November 2026, Section 4.3 contraindicates prosthetic heart valve replacement; Eliquis PI, 22 October 2026, Section 4.4 and Xarelto PI, 17 September 2024, Section 4.4 state that use is not recommended in patients with prosthetic heart valves). Anticoagulation must not be stopped abruptly without urgent prescriber direction.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Direct oral anticoagulants",
+      "ingredients": [
+        "apixaban",
+        "dabigatran",
+        "rivaroxaban"
+      ],
+      "brands": {
+        "apixaban": [
+          "Eliquis",
+          "APO-Apixaban",
+          "Apixaban Sandoz",
+          "Apixaban Lupin",
+          "Apixaban Viatris",
+          "Apixaban-APX",
+          "Apexa",
+          "Cip Apixaban",
+          "APIXABAN-WGR",
+          "Apixaban Dr.Reddy's",
+          "MSN-APIXABAN"
+        ],
+        "dabigatran": [
+          "Pradaxa",
+          "ARX-Dabigatran",
+          "Dabigatran Sandoz",
+          "Dabigatran Viatris",
+          "Pharmacor Dabigatran"
+        ],
+        "rivaroxaban": [
+          "Xarelto",
+          "APO-Rivaroxaban",
+          "ARX-Rivaroxaban",
+          "Rivaroxaban Sandoz",
+          "Rivaroxaban Lupin",
+          "Rivaroxaban-Teva",
+          "Relaban",
+          "Rivarelto",
+          "Rivoxa",
+          "Rivaxib",
+          "TROXA",
+          "XAREMED",
+          "iXarola",
+          "Rivaroxaban Dr.Reddy's"
+        ]
+      },
+      "note": "Only apixaban, dabigatran and rivaroxaban are included; edoxaban is excluded."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Prosthetic mechanical heart valve",
+      "meets": "A mechanical heart valve was in place while the patient was taking the DOAC. If its timing or type is unknown, keep the finding possible.",
+      "options": [
+        {
+          "words": "Mechanical valve in place during this DOAC course",
+          "effect": "meets"
+        },
+        {
+          "words": "No mechanical valve during this DOAC course",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "At any age, assess each apixaban, dabigatran or rivaroxaban supply at the time of treatment. Report a definite finding and cite both lines when a mechanical heart valve was in place during that course. If valve type or timing is absent or unknown, cite the supply and report a possible finding naming the missing valve information. A tissue valve at one site or atrial fibrillation alone leaves valve status open. Report no finding for a course known to be entirely before mechanical valve implantation or with explicit confirmation of no mechanical valve during use. If valve type is unclear, ask \"Have you had a heart valve replaced? If so, was it mechanical or tissue?\" If the supply is old or current use is unclear, ask \"Are you still taking this blood thinner?\" Warn the patient not to stop any current anticoagulant abruptly without prescriber advice. A past overlap does not establish current use after a documented switch or stop. If the DOAC is still used with a mechanical valve, seek urgent prescriber review.",
+  "cannot_be_seen": "Whether the patient has a prosthetic mechanical heart valve when no condition is recorded, whether a heart valve replacement is mechanical or bioprosthetic (tissue), and any specialist cardiology anticoagulation plan held outside the pharmacy.",
+  "ask_the_gp": "Could you confirm the valve type and current anticoagulant if either is unclear? If a DOAC is still being used with a mechanical valve, could you urgently review anticoagulation, including whether transition to warfarin is required?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "file": "DREISCHULTE-76/pos-fact.csv",
+    "kind": "positive",
+    "about": "After a treatment interruption, the latest cyclophosphamide supply was on 2026-10-18 and the checked pathology reports put the last completed full blood count 175 days earlier.",
+    "findings": [
+      {
+        "criterion": "DREISCHULTE-76",
+        "must_cite": [
+          [
+            "L050"
+          ],
+          [
+            "L051"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "DREISCHULTE-76/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record does not establish \"Timing of the latest completed full blood count (24-week window)\" for the latest cyclophosphamide supply.",
+    "findings": [
+      {
+        "criterion": "DREISCHULTE-76",
+        "must_cite": [
+          [
+            "L031"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "DREISCHULTE-76/near-miss.csv",
+    "kind": "near_miss",
+    "about": "A completed full blood count 161 days before the latest cyclophosphamide supply falls inside the published 24-week window.",
+    "findings": []
+  }
+]

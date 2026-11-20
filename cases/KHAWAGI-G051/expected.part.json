@@ -1,0 +1,44 @@
+[
+  {
+    "file": "KHAWAGI-G051/pos-fact.csv",
+    "kind": "positive",
+    "about": "Oral diazepam follows a dated assessment of severe hepatic impairment.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G051",
+        "must_cite": [
+          [
+            "L026"
+          ],
+          [
+            "L028"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G051/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about the severity of hepatic impairment in a person with cirrhosis supplied diazepam.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G051",
+        "must_cite": [
+          [
+            "L018"
+          ],
+          [
+            "L016"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G051/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The dated assessment records mild hepatic impairment at the diazepam supply.",
+    "findings": []
+  }
+]

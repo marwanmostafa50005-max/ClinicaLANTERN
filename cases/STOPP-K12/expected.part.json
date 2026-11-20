@@ -1,0 +1,43 @@
+[
+  {
+    "file": "STOPP-K12/pos-brand.csv",
+    "kind": "positive",
+    "about": "Possible finding: Ditropan is supplied by brand alone and the record holds no line about the reason for treatment.",
+    "findings": [
+      {
+        "criterion": "STOPP-K12",
+        "must_cite": [
+          [
+            "L006",
+            "L016"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-K12/pos-buried.csv",
+    "kind": "positive",
+    "about": "The record links oxybutynin to treatment of urge incontinence in a 74-year-old patient.",
+    "findings": [
+      {
+        "criterion": "STOPP-K12",
+        "must_cite": [
+          [
+            "L032",
+            "L046"
+          ],
+          [
+            "L031"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-K12/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The clinical entry links oxybutynin solely to excessive sweating.",
+    "findings": []
+  }
+]

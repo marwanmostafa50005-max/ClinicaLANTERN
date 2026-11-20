@@ -1,0 +1,42 @@
+{
+  "id": "BRISNIK-OP-MISC3",
+  "label": "Brisnik: MISC3",
+  "family": "BRISNIK",
+  "title": "Agomelatine in a person aged 75 or over",
+  "statement": "Prescribed agomelatine - and the patient is aged ≥ 75 years",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "The indicator is reproduced from Brisnik et al., Table 4, Miscellaneous 3 (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/). An earlier version expressed it as a formal rule. ClinicaLANTERN added the summary, medicine list, screening instructions and fictional histories. The authors have not endorsed these additions."
+  },
+  "plain_summary": "Agomelatine is not recommended in people aged 75 or over, because there is little evidence it works at that age and it can harm the liver.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Agomelatine",
+      "ingredients": [
+        "agomelatine"
+      ],
+      "brands": {
+        "agomelatine": [
+          "Valdoxan",
+          "Domion",
+          "Nortim",
+          "Valomel"
+        ]
+      }
+    }
+  ],
+  "rule_for_models": "Suspect a finding when agomelatine (Group A) is supplied to a person whose age on the history is 75 or over. If age at supply is missing, report only a possible finding and ask the pharmacist to confirm it. A person aged 74 or under is not a finding.",
+  "cannot_be_seen": "Why agomelatine was started, liver test results that are missing from this record, and whether the age recorded is right on the day of each supply. Supplies from a hospital or another pharmacy.",
+  "ask_the_gp": "Whether agomelatine is still suitable at this age, including a check of liver function, and whether a review is suitable.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

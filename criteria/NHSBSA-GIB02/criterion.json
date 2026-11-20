@@ -1,0 +1,240 @@
+{
+  "id": "NHSBSA-GIB02",
+  "label": "NHSBSA GIB02",
+  "family": "NHSBSA",
+  "title": "Oral, rectal or injected systemic NSAID with an oral anticoagulant",
+  "statement": "Patients aged 18 or over in the prescription month prescribed a non-steroidal anti-inflammatory drug (NSAID) and concurrently prescribed an oral anticoagulant (warfarin or a non-vitamin K antagonist oral anticoagulant) (NOAC)).",
+  "statement_origin": "published",
+  "source": {
+    "document": "Medication Safety - Indicators Specification",
+    "citation": "NHSBSA and NHS Digital. Medication Safety - Indicators Specification. August 2019.",
+    "url": "https://www.nhsbsa.nhs.uk/sites/default/files/2019-08/Medication%20Safety%20-%20Indicators%20Specification%20%28Aug19%29.pdf",
+    "licence": "UK Open Government Licence v3.0",
+    "licence_status": "proposed",
+    "credit": "Medication Safety - Indicators Specification, NHSBSA Copyright 2026. This information is licenced under the terms of the Open Government Licence. Contains information from NHS England, licenced under the current version of the Open Government Licence (UK OGL v3.0).",
+    "modification_notice": "Statement reproduced without changes. Australian medicine names, test histories and review text are adaptations."
+  },
+  "plain_summary": "Using an oral, rectal or injected systemic NSAID with warfarin or a direct oral anticoagulant raises the risk of serious gastrointestinal and other bleeding. This indicator comes from the August 2019 NHSBSA Medication Safety Indicators Specification and was not carried into the November 2025 Harms Dashboard. Ask the patient whether both medicines are being taken together, whether any non-prescription NSAIDs are used, and whether there are any signs of bleeding, and remind them never to stop an oral anticoagulant without prescriber advice.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Systemic NSAIDs",
+      "ingredients": [
+        "celecoxib",
+        "diclofenac",
+        "etoricoxib",
+        "ibuprofen",
+        "indometacin",
+        "ketoprofen",
+        "ketorolac",
+        "mefenamic acid",
+        "meloxicam",
+        "naproxen",
+        "piroxicam",
+        "sulindac",
+        "tenoxicam",
+        "tiaprofenic acid"
+      ],
+      "brands": {
+        "celecoxib": [
+          "Celebrex",
+          "Celebrex Relief",
+          "Celaxib",
+          "Celexi",
+          "Anacoxib",
+          "Celetoid",
+          "Celocox",
+          "Kudeq"
+        ],
+        "diclofenac": [
+          "Voltaren",
+          "Voltaren Rapid",
+          "Voltaren Rapid Extra Strength",
+          "Voltaren Rapid Liquid Capsules",
+          "Voltfast",
+          "Clonac",
+          "Fenac",
+          "Fenac EC",
+          "Cambia",
+          "Diclohexal",
+          "Difenac Rapid",
+          "Dinac",
+          "Imflac",
+          "Inflamax Liquid Caps",
+          "Zorvolex",
+          "Arthrotec"
+        ],
+        "etoricoxib": [
+          "Arcoxia"
+        ],
+        "ibuprofen": [
+          "Brufen",
+          "Brufen Pain",
+          "Brufen Syrup",
+          "Nurofen",
+          "Nurofen Back Pain",
+          "Nurofen Caplet",
+          "Nurofen Double Strength",
+          "Nurofen Liquid Capsule",
+          "Nurofen Meltlets",
+          "Nurofen Migraine Pain",
+          "Nurofen Period Pain",
+          "Nurofen Quickzorb",
+          "Nurofen Regular",
+          "Nurofen Tension Headache",
+          "Nurofen Zavance",
+          "Nurofen Zavance Liquid Capsules",
+          "Advil",
+          "Advil 12 Hour",
+          "Advil Double Strength",
+          "Advil Double Strength Caplets",
+          "Advil Double Strength Liquid Capsules",
+          "Advil Mini Caps",
+          "Advil Rapid Release",
+          "Rafen",
+          "Bugesic",
+          "Panafen",
+          "Panafen IB",
+          "Panafen IB Mini Cap",
+          "Panafen Plus",
+          "Nurofen Plus",
+          "Nuromol",
+          "Maxigesic",
+          "Mersynofen",
+          "Act-3",
+          "Butafen",
+          "Iprofen",
+          "Proven",
+          "Tri-Profen"
+        ],
+        "indometacin": [
+          "Indocid",
+          "Arthrexin"
+        ],
+        "ketoprofen": [
+          "Orudis",
+          "Oruvail"
+        ],
+        "ketorolac": [
+          "Toradol"
+        ],
+        "mefenamic acid": [
+          "Ponstan",
+          "Femin",
+          "Mefic",
+          "Menamic"
+        ],
+        "meloxicam": [
+          "Mobic",
+          "Movalis",
+          "Melobic",
+          "Meloxibell",
+          "Moxicam",
+          "Agilocam",
+          "Melox",
+          "Mobelox"
+        ],
+        "naproxen": [
+          "Naprosyn",
+          "Naprosyn SR",
+          "Naprosyn SR 1000",
+          "Naprosyn SR1000",
+          "Proxen",
+          "Proxen SR",
+          "Proxen SR 1000",
+          "Anaprox",
+          "Anaprox 550",
+          "Crysanal",
+          "Inza",
+          "Naprogesic",
+          "Aleve",
+          "Aleve 24 Hour",
+          "Femme-Free",
+          "Naprofem",
+          "Vimovo"
+        ],
+        "piroxicam": [
+          "Feldene",
+          "Feldene-D",
+          "Mobilis",
+          "Mobilis D",
+          "Candyl",
+          "Candyl-D",
+          "Pirohexal-D"
+        ],
+        "sulindac": [
+          "Aclin"
+        ],
+        "tenoxicam": [
+          "Tilcotil"
+        ],
+        "tiaprofenic acid": [
+          "Surgam",
+          "Surgam SA"
+        ]
+      },
+      "note": "Oral tablets, capsules, caplets, dispersible tablets and oral liquids count. Rectal suppositories such as Voltaren or Indocid and systemic injections such as Toradol also count. Indometacin may also appear as indomethacin. Oral NSAID combinations count, including ibuprofen with codeine (Nurofen Plus, Panafen Plus), ibuprofen with paracetamol (Maxigesic, Nuromol, Mersynofen), naproxen with esomeprazole (Vimovo) and diclofenac with misoprostol (Arthrotec). For brands with several forms, use the recorded route or dosage form. Exclude topical products such as gels and creams (Voltaren Emulgel, Voltaren Osteo Gel, Solaraze, Dofidaz, topical Imflac gel, Nurofen Gel, Feldene Gel), eye drops (Voltaren Ophtha, Acular, Nevanac), throat preparations including throat lozenges (Strepfen Intensive), and low-dose aspirin 100 mg. Generic packs that show the ingredient name count too."
+    },
+    {
+      "key": "B",
+      "name": "Oral anticoagulants",
+      "ingredients": [
+        "warfarin",
+        "apixaban",
+        "dabigatran",
+        "rivaroxaban",
+        "edoxaban"
+      ],
+      "brands": {
+        "warfarin": [
+          "Coumadin",
+          "Marevan"
+        ],
+        "apixaban": [
+          "Eliquis",
+          "Apexa",
+          "APO-Apixaban",
+          "Apixaban Sandoz",
+          "Apixaban Lupin",
+          "Apixaban Viatris",
+          "Apixaban-APX",
+          "Cip Apixaban",
+          "APIXABAN-WGR",
+          "Apixaban Dr.Reddy's",
+          "MSN-APIXABAN"
+        ],
+        "dabigatran": [
+          "Pradaxa",
+          "ARX-Dabigatran",
+          "Dabigatran Sandoz",
+          "Dabigatran Viatris",
+          "Pharmacor Dabigatran"
+        ],
+        "rivaroxaban": [
+          "Xarelto",
+          "Relaban",
+          "Rivaxib",
+          "Rivarelto",
+          "Rivoxa",
+          "Troxa",
+          "Xaremed",
+          "iXarola",
+          "APO-Rivaroxaban",
+          "ARX-Rivaroxaban",
+          "Rivaroxaban Sandoz",
+          "Rivaroxaban Lupin",
+          "Rivaroxaban-Teva",
+          "Rivaroxaban Dr.Reddy's"
+        ],
+        "edoxaban": []
+      },
+      "note": "Warfarin, apixaban, dabigatran, rivaroxaban and documented edoxaban count, including ingredient-only records. Confirm current use if the medicine was supplied overseas. Parenteral anticoagulants such as enoxaparin and heparin and antiplatelet medicines are outside this group."
+    }
+  ],
+  "rule_for_models": "For people aged 18 or over, suspect a finding when a Group A systemic NSAID given orally, rectally or by injection and a Group B oral anticoagulant have supply dates that overlap or fall within 60 days of each other, and cite one qualifying supply from each group. Use the recorded route or form for brands with several forms. Exclude topical, eye and throat preparations. If the route could be systemic or local and the other requirements are met, report only a possible finding. If the NSAID supply has unclear or when-needed directions within the 60-day window, report a possible finding asking whether both medicines are taken together. If age is not recorded and the medicine pattern is present, report only a possible finding and ask the pharmacist to confirm that the patient is 18 or over.",
+  "cannot_be_seen": "The record cannot show why either medicine was prescribed, whether both were actually taken together, non-prescription oral NSAIDs, any signs of bleeding, or supplies from another pharmacy or hospital.",
+  "ask_the_gp": "Could you review whether the systemic NSAID (oral, rectal or injected) is still needed alongside the oral anticoagulant and assess the patient's bleeding risk?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

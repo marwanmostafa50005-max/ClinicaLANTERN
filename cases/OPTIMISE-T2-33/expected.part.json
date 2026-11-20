@@ -1,0 +1,44 @@
+[
+  {
+    "file": "OPTIMISE-T2-33/pos-fact.csv",
+    "kind": "positive",
+    "about": "A low B12 result was followed by a replacement supply, but a dated review still recorded unresolved deficiency immediately before the first Megafol dose.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T2-33",
+        "must_cite": [
+          [
+            "L019"
+          ],
+          [
+            "L025"
+          ],
+          [
+            "L027"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T2-33/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the first visible Megafol supply gives no confirmed start date, and age at the start and pre-start B12 status are unknown.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T2-33",
+        "must_cite": [
+          [
+            "L008"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T2-33/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The laboratory classified the B12 result as normal from the morning sample, the first folic acid dose was taken from a hospital pack that evening, and the January supply was a continuation.",
+    "findings": []
+  }
+]

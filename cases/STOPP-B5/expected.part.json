@@ -1,0 +1,56 @@
+[
+  {
+    "file": "STOPP-B5/pos-fact.csv",
+    "kind": "positive",
+    "about": "Atenolol is supplied alone for documented uncomplicated hypertension, its sole indication.",
+    "findings": [
+      {
+        "criterion": "STOPP-B5",
+        "must_cite": [
+          [
+            "L002",
+            "L006",
+            "L010",
+            "L014",
+            "L018",
+            "L022",
+            "L026",
+            "L030",
+            "L034",
+            "L038"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-B5/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: atenolol (Tenormin) is the only blood pressure medicine supplied, from February to August 2026, and the record holds no line about angina or any other reason for a beta-blocker.",
+    "findings": [
+      {
+        "criterion": "STOPP-B5",
+        "must_cite": [
+          [
+            "L002",
+            "L006",
+            "L010",
+            "L014",
+            "L018",
+            "L022",
+            "L026"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-B5/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Brand-only Teveten Plus supplies cover the metoprolol course for uncomplicated hypertension.",
+    "findings": []
+  }
+]

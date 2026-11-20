@@ -1,0 +1,95 @@
+{
+  "id": "GERARD-12",
+  "label": "Gerard: starting repaglinide or a sulfonylurea with HbA1c below 7%",
+  "family": "GERARD",
+  "title": "Starting repaglinide or a sulfonylurea with HbA1c below 7%",
+  "statement": "It is necessary not to initiate treatment with a hypoglycaemic drug (repaglinide or sulfonylurea) in a patient with an HbA1c level below 7%.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Development of explicit definitions of potentially inappropriate prescriptions for antidiabetic drugs in people with type 2 diabetes: A Delphi survey and consensus meeting",
+    "citation": "Gerard E, Bugday D, Calafiore M, Baran J, Gautier S, Henry H, et al. (2025). Development of explicit definitions of potentially inappropriate prescriptions for antidiabetic drugs in people with type 2 diabetes: A Delphi survey and consensus meeting. PLOS ONE 20(10), e0334836.",
+    "doi": "10.1371/journal.pone.0334836",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0334836",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "© 2025 Gerard et al. Gerard E, Bugday D, Calafiore M, Baran J, Gautier S, Henry H, et al. (2025). Development of explicit definitions of potentially inappropriate prescriptions for antidiabetic drugs in people with type 2 diabetes: A Delphi survey and consensus meeting. PLOS ONE 20(10), e0334836. https://doi.org/10.1371/journal.pone.0334836. Table 2. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The statements are reproduced. The qualification decisions and Australian mappings are additions by GPT-6.2 Astra.",
+    "modification_notice": "Table 2 wording is reproduced unchanged. The Australian medicine groups, screening rules and fictional histories are adaptations by GPT-6.2 Astra."
+  },
+  "plain_summary": "Review a new prescription for repaglinide or a sulfonylurea when the HbA1c available at the decision was below 7% in someone with type 2 diabetes.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Repaglinide or a sulfonylurea",
+      "ingredients": [
+        "gliclazide",
+        "glimepiride",
+        "glipizide",
+        "glibenclamide",
+        "repaglinide"
+      ],
+      "brands": {
+        "repaglinide": [
+          "NovoNorm"
+        ],
+        "gliclazide": [
+          "Gliclazide MR-WGR",
+          "Diamicron",
+          "Diamicron MR",
+          "Glyade"
+        ],
+        "glimepiride": [
+          "Glimepiride Sandoz",
+          "Amaryl",
+          "Dimirel"
+        ],
+        "glipizide": [
+          "Glipidiab",
+          "Melizide",
+          "Minidiab"
+        ],
+        "glibenclamide": [
+          "Daonil",
+          "Glimel",
+          "Semi-Daonil"
+        ]
+      }
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Type 2 diabetes",
+      "meets": "Documented type 2 diabetes at the time of treatment."
+    },
+    {
+      "kind": "observation",
+      "what": "Start or repeat of the repaglinide or sulfonylurea supply under review",
+      "meets": "The directions, a dated note or the pharmacist confirms that the supply under review started this medicine. A refill continues existing treatment.",
+      "options": [
+        {
+          "words": "This supply started the medicine",
+          "effect": "meets"
+        },
+        {
+          "words": "This was a repeat of established treatment",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "result",
+      "what": "HbA1c",
+      "meets": "Use the HbA1c available when this medicine was started. A value below 7.0% or below 53 mmol/mol meets the threshold in its reported unit. Ask for the result date or confirmation that this value was available then."
+    }
+  ],
+  "rule_for_models": "Flag a new start of repaglinide or a sulfonylurea in type 2 diabetes if the HbA1c available then was below 7% or below 53 mmol/mol, using the reported unit. Cite the diagnosis, supply, start evidence from the directions, a dated note or the pharmacist, and the relevant result. A refill, confirmed absence of type 2 diabetes or a result at or above the threshold at the start gives no finding. If the other evidence fits but any required fact is unknown, including whether the value was available at the start, report a possible finding and ask for the missing detail. The day a result is entered at the counter is not its collection date.",
+  "cannot_be_seen": "A first visible supply does not establish initiation. A later HbA1c cannot establish the result available at the start. The person's agreed target may be missing.",
+  "ask_the_gp": "Could you confirm whether this medicine was newly started for type 2 diabetes and which HbA1c was available then? If confirmed, could you review the medicine choice against the person's agreed target?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

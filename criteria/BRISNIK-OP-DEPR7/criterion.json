@@ -1,0 +1,327 @@
+{
+  "id": "BRISNIK-OP-DEPR7",
+  "label": "Brisnik OP DEPR7: antidepressant over 2 years after repeat episodes",
+  "family": "BRISNIK",
+  "title": "Antidepressant for over 2 years in full remission after repeated episodes",
+  "statement": "Prescribed an antidepressant in monotherapy, combination, or augmentation > 2 years with a history of 2 or more depressive episodes with functional impairment in the last 5 years - and the patient has achieved full remission",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Review ongoing antidepressant treatment lasting more than two years when the person is now in full remission and has had at least two depressive episodes that impaired daily function in the past five years.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antidepressants",
+      "ingredients": [
+        "sertraline",
+        "escitalopram",
+        "citalopram",
+        "fluoxetine",
+        "paroxetine",
+        "fluvoxamine",
+        "venlafaxine",
+        "desvenlafaxine",
+        "duloxetine",
+        "vortioxetine",
+        "agomelatine",
+        "reboxetine",
+        "amitriptyline",
+        "nortriptyline",
+        "dosulepin",
+        "dothiepin",
+        "doxepin",
+        "imipramine",
+        "clomipramine",
+        "moclobemide",
+        "phenelzine",
+        "tranylcypromine",
+        "mirtazapine",
+        "mianserin",
+        "trazodone",
+        "trimipramine"
+      ],
+      "brands": {
+        "sertraline": [
+          "Zoloft",
+          "Setrona",
+          "Eleva",
+          "Concorz",
+          "Detralon",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Tralen",
+          "Xydep"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Loxalate",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam"
+        ],
+        "citalopram": [
+          "Cipramil",
+          "Celapram",
+          "Talam",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talohexal"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Zactin",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Paxtine",
+          "Aropax CR",
+          "Extine",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ],
+        "venlafaxine": [
+          "Efexor-XR",
+          "Enlafax-XR",
+          "Altven",
+          "Elaxine SR",
+          "Evelexa XR",
+          "Ozvenaf",
+          "Venfax SR",
+          "Venla",
+          "Venlexor XR"
+        ],
+        "desvenlafaxine": [
+          "Pristiq",
+          "Desfax",
+          "Desven"
+        ],
+        "duloxetine": [
+          "Cymbalta",
+          "Andepra",
+          "Baltine",
+          "Coperin",
+          "Deotine",
+          "Depreta",
+          "Drulox",
+          "Dulocym",
+          "Duloxecor",
+          "Dytrex",
+          "Symlox",
+          "Texotine",
+          "Tixol",
+          "Xerol DR"
+        ],
+        "vortioxetine": [
+          "Brintellix"
+        ],
+        "agomelatine": [
+          "Valdoxan",
+          "Domion",
+          "Nortim",
+          "Valomel"
+        ],
+        "reboxetine": [
+          "Edronax"
+        ],
+        "amitriptyline": [
+          "Endep",
+          "Entrip",
+          "Amichlor",
+          "Amidep"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "dosulepin": [
+          "Dothep",
+          "Prothiaden"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "moclobemide": [
+          "Aurorix",
+          "Arima",
+          "Amira",
+          "Clobemide",
+          "Clobemix",
+          "Maosig",
+          "Mohexal"
+        ],
+        "phenelzine": [
+          "Nardil"
+        ],
+        "tranylcypromine": [
+          "Parnate",
+          "Parpromine",
+          "Tranamef",
+          "Tranylmed"
+        ],
+        "mirtazapine": [
+          "Avanza",
+          "Axit",
+          "Mirtazon",
+          "Aurozapine",
+          "Avanza Soltab",
+          "Milivin OD",
+          "Mirtanza",
+          "Mirtanza ODT",
+          "Remeron",
+          "Remeron Soltab"
+        ],
+        "mianserin": [
+          "Tolvon",
+          "Lumin"
+        ],
+        "trazodone": [],
+        "dothiepin": [
+          "Dothep"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ]
+      },
+      "note": "Tablets, capsules and liquids count. Low doses of amitriptyline, doxepin, mirtazapine and trazodone are often taken for pain or sleep, and a dispensing history cannot show the reason. Generic packs that show the ingredient name with a company name count too. Desyrel is an overseas trazodone brand and is removed; trazodone has no confirmed Australian routine-supply brand here. Listed brand names may identify historical supplies. Their inclusion does not establish current Australian availability."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Two or more depressive episodes with impaired daily function in the last 5 years",
+      "meets": "A line saying the person has had two or more episodes of depression with impaired daily function in the last 5 years",
+      "options": [
+        {
+          "words": "At least two episodes impaired daily function in the past five years",
+          "effect": "meets"
+        },
+        {
+          "words": "Fewer than two episodes impaired daily function in the past five years",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Duration of the current antidepressant course",
+      "meets": "The current course has lasted more than two years at assessment, based on the recorded start, supply coverage or a confirmed duration.",
+      "options": [
+        {
+          "words": "Longer than two years",
+          "effect": "meets"
+        },
+        {
+          "words": "Two years or less",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "condition",
+      "what": "The depression is in full remission",
+      "meets": "A line saying the depression is in full remission",
+      "options": [
+        {
+          "words": "Currently in full remission",
+          "effect": "meets"
+        },
+        {
+          "words": "Currently has ongoing or returning depressive symptoms",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for the continuing antidepressant course",
+      "meets": "A course prescribed for depression meets the indication. A course prescribed only for another reason gives no finding. An unknown indication leaves the finding possible.",
+      "options": [
+        {
+          "words": "For depression",
+          "effect": "meets"
+        },
+        {
+          "words": "Only for another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Look for more than two years of continuing Group A treatment for depression, alone, in combination or with augmentation. From supply dates, count only one continuous course: each next supply must begin no more than 60 days after the days covered by the previous supply, estimated from its quantity and directions; if those days cannot be estimated, the dispense dates must be no more than 60 days apart. Do not join separate courses to reach 2 years. Use a recorded start date or a pharmacist-confirmed duration when the supply record is short. Confirm only with at least two depressive episodes that impaired daily function in the last 60 months before the latest date in the record and current full remission. Cite the supplies and the clinical evidence, including the start or duration when needed. A different sole indication, a course of two years or less, or a clinical requirement ruled out gives no finding. With a qualifying duration, report a possible finding for missing episode history or remission. Ask about the reason for the continuing antidepressant course only if its indication is unclear and the course could otherwise qualify. Use and cite a recorded indication or a pharmacist clarification when needed. An unknown indication leaves the finding possible. With a short history of supplies and unknown duration, ask about duration when both clinical requirements are documented.",
+  "cannot_be_seen": "How many episodes there really were and how much they affected daily life, whether the person is really in remission, why the antidepressant was continued, and the person's wishes about stopping. Medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "Whether the antidepressant is still needed, and the plan for continuing or stopping it, given the history of repeated episodes.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,214 @@
+{
+  "id": "DEMO-NSAID-ANTICOAG",
+  "label": "Demo criterion (NSAID with an anticoagulant)",
+  "family": "Demo",
+  "title": "Test stand-in: an NSAID supplied with an oral anticoagulant",
+  "statement": "A non-steroidal anti-inflammatory drug (NSAID) supplied to a person who is also being supplied an oral anticoagulant (risk of major bleeding).",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Test wording written for this prototype",
+    "citation": "Written by the entrant to test the engine. It is not the published wording of any criterion.",
+    "licence": "The entrant's own wording. No outside licence applies.",
+    "licence_status": "proposed",
+    "credit": "Test wording written by the entrant for this prototype. It is not a published criterion."
+  },
+  "plain_summary": "An anti-inflammatory pain medicine and a blood thinner supplied together can raise the risk of serious bleeding.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Oral NSAIDs",
+      "ingredients": [
+        "ibuprofen",
+        "diclofenac",
+        "naproxen",
+        "celecoxib",
+        "meloxicam",
+        "indometacin",
+        "piroxicam",
+        "ketoprofen",
+        "mefenamic acid",
+        "etoricoxib"
+      ],
+      "brands": {
+        "ibuprofen": [
+          "Nurofen",
+          "Brufen",
+          "Advil",
+          "Act-3",
+          "Advil 12 Hour",
+          "Advil Childrens Pain and Fever 2 to 7 Years",
+          "Advil Childrens Pain and Fever 7 to 12 Years",
+          "Advil Childrens Pain and Fever Relief 2 to 12 Years",
+          "Advil Double Strength",
+          "Advil Double Strength Caplets",
+          "Advil Double Strength Liquid Capsules",
+          "Advil Infants Pain and Fever Relief 3 Months to 2 Years",
+          "Advil Mini Caps",
+          "Advil Rapid Release",
+          "Brufen Pain",
+          "Brufen Syrup",
+          "Bugesic",
+          "Butafen",
+          "Butalgin",
+          "Fenpaed",
+          "Fenpaed Double Strength",
+          "Iprofen",
+          "Nurofen Back Pain",
+          "Nurofen Caplet",
+          "Nurofen Double Strength",
+          "Nurofen Liquid Capsule",
+          "Nurofen Meltlets",
+          "Nurofen Migraine Pain",
+          "Nurofen Period Pain",
+          "Nurofen Quickzorb",
+          "Nurofen Regular",
+          "Nurofen Tension Headache",
+          "Nurofen Zavance",
+          "Nurofen Zavance Liquid Capsules",
+          "Nurofen for Children 1 to 5 Years",
+          "Nurofen for Children 3 Months to 5 Years",
+          "Nurofen for Children 5 to 12 Years",
+          "Nurofen for Children 7+ Years",
+          "Nurofen for Children Baby 3+ Months",
+          "Nurofen for Children Infant Drops",
+          "Nurofen for Children Meltlet",
+          "Panafen IB",
+          "Panafen IB Mini Cap",
+          "Proven",
+          "Rafen",
+          "Tri-Profen"
+        ],
+        "diclofenac": [
+          "Voltaren",
+          "Fenac",
+          "Cambia",
+          "Clonac",
+          "Diclohexal",
+          "Difenac Rapid",
+          "Dinac",
+          "Fenac EC",
+          "Imflac",
+          "Inflamax Liquid Caps",
+          "Voltaren Rapid",
+          "Voltaren Rapid Extra Strength",
+          "Voltaren Rapid Liquid Capsules",
+          "Voltfast",
+          "Zorvolex"
+        ],
+        "naproxen": [
+          "Naprosyn",
+          "Naprogesic",
+          "Anaprox",
+          "Aleve",
+          "Aleve 24 Hour",
+          "Crysanal",
+          "Femme-Free",
+          "Inza",
+          "Naprofem",
+          "Naprosyn SR",
+          "Naprosyn SR 1000",
+          "Nurolasts Period Pain",
+          "Proxen",
+          "Proxen SR"
+        ],
+        "celecoxib": [
+          "Celebrex",
+          "Anacoxib",
+          "Celaxib",
+          "Celebrex Relief",
+          "Celetoid",
+          "Celexi",
+          "Celocox",
+          "Kudeq"
+        ],
+        "meloxicam": [
+          "Mobic",
+          "Agilocam",
+          "Melobic",
+          "Melox",
+          "Meloxiauro",
+          "Meloxibell",
+          "Meloxibindo",
+          "Mobelox",
+          "Movalis",
+          "Moxicam"
+        ],
+        "indometacin": [
+          "Indocid",
+          "Arthrexin"
+        ],
+        "piroxicam": [
+          "Feldene",
+          "Candyl",
+          "Candyl-D",
+          "Feldene-D",
+          "Mobilis",
+          "Mobilis D",
+          "Pirohexal-D"
+        ],
+        "ketoprofen": [
+          "Orudis"
+        ],
+        "mefenamic acid": [
+          "Ponstan",
+          "Femin",
+          "Mefic",
+          "Menamic"
+        ],
+        "etoricoxib": [
+          "Arcoxia"
+        ]
+      }
+    },
+    {
+      "key": "B",
+      "name": "Oral anticoagulants",
+      "ingredients": [
+        "warfarin",
+        "dabigatran",
+        "apixaban",
+        "rivaroxaban"
+      ],
+      "brands": {
+        "warfarin": [
+          "Coumadin",
+          "Marevan"
+        ],
+        "dabigatran": [
+          "Pradaxa"
+        ],
+        "apixaban": [
+          "Eliquis",
+          "Alexibic",
+          "Apexa",
+          "Apixor",
+          "Axibic",
+          "Elapex"
+        ],
+        "rivaroxaban": [
+          "Xarelto",
+          "Ixarola",
+          "Relaban",
+          "Rivalembic",
+          "Rivarelto",
+          "Rivator",
+          "Rivaxib",
+          "Rivaxotor",
+          "Rivoxa",
+          "Roxabic",
+          "Roxalem",
+          "Roxator",
+          "Toriva",
+          "Troxa",
+          "Xaremed"
+        ]
+      }
+    }
+  ],
+  "rule_for_models": "Suspect a finding when at least one Group A medicine AND at least one Group B medicine both appear in the history with supply dates that overlap or fall within 60 days of each other.",
+  "cannot_be_seen": "Why the anticoagulant was started, kidney function, any history of bleeding, and any pain or stomach medicines bought without a prescription.",
+  "ask_the_gp": "Whether the NSAID is still needed while the anticoagulant continues, and the patient's risk of bleeding.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,309 @@
+{
+  "id": "SCOTNTI-GI-NSAID-AP",
+  "label": "SCOTNTI GI-NSAID-AP",
+  "family": "SCOTNTI",
+  "title": "Systemic NSAID with an antiplatelet and no gastro-protection",
+  "statement": "NSAID prescribing in combination with antiplatelet without gastroprotection as a percentage of all people",
+  "statement_origin": "published",
+  "source": {
+    "document": "Scottish Government. Polypharmacy guidance: appropriate prescribing, making medicines safe, effective and sustainable 2026 to 2029",
+    "citation": "Scottish Government and Public Health Scotland. Polypharmacy guidance: appropriate prescribing, making medicines safe, effective and sustainable 2026 to 2029. Appendix C, Table 39, Gastrointestinal risk (published 2 March 2026).",
+    "url": "https://www.gov.scot/publications/polypharmacy-guidance-appropriate-prescribing-making-medicines-safe-effective-sustainable-2026-2029/pages/14/",
+    "licence": "UK Open Government Licence v3.0",
+    "licence_status": "proposed",
+    "credit": "Contains public sector information licensed under the Open Government Licence v3.0 (Public Health Scotland / Scottish Government).",
+    "modification_notice": "Statement reproduced without changes. Plain-language fields, Australian medicine mapping and test histories are adaptations."
+  },
+  "plain_summary": "Using a systemic NSAID with an antiplatelet increases the risk of gastrointestinal bleeding when gastro-protection does not cover the days the medicines are taken together. When clopidogrel is used, pantoprazole is preferred over omeprazole or esomeprazole. At the counter, ask the patient whether both medicines are taken together, whether they buy any non-prescription aspirin, NSAIDs, proton pump inhibitors or H2-receptor antagonists, and whether they have any symptoms of stomach pain or gastrointestinal bleeding. If the patient reports vomiting blood, black tarry stools or other signs of major bleeding, arrange emergency department assessment immediately and call 000 for an ambulance if needed. Remind the patient never to stop an antiplatelet abruptly without prescriber advice.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Systemic NSAIDs",
+      "ingredients": [
+        "celecoxib",
+        "diclofenac",
+        "etoricoxib",
+        "ibuprofen",
+        "indometacin",
+        "ketoprofen",
+        "ketorolac",
+        "mefenamic acid",
+        "meloxicam",
+        "naproxen",
+        "piroxicam",
+        "sulindac",
+        "tenoxicam",
+        "tiaprofenic acid"
+      ],
+      "brands": {
+        "celecoxib": [
+          "Celebrex",
+          "Celebrex Relief",
+          "Celaxib",
+          "Celexi",
+          "Anacoxib",
+          "Celetoid",
+          "Celocox",
+          "Kudeq"
+        ],
+        "diclofenac": [
+          "Voltaren",
+          "Voltaren Rapid",
+          "Voltaren Rapid Extra Strength",
+          "Voltaren Rapid Liquid Capsules",
+          "Voltfast",
+          "Clonac",
+          "Fenac",
+          "Fenac EC",
+          "Cambia",
+          "Diclohexal",
+          "Difenac Rapid",
+          "Dinac",
+          "Imflac",
+          "Inflamax Liquid Caps",
+          "Zorvolex",
+          "Arthrotec"
+        ],
+        "etoricoxib": [
+          "Arcoxia"
+        ],
+        "ibuprofen": [
+          "Brufen",
+          "Brufen Pain",
+          "Brufen Syrup",
+          "Nurofen",
+          "Nurofen Back Pain",
+          "Nurofen Caplet",
+          "Nurofen Double Strength",
+          "Nurofen Liquid Capsule",
+          "Nurofen Meltlets",
+          "Nurofen Migraine Pain",
+          "Nurofen Period Pain",
+          "Nurofen Quickzorb",
+          "Nurofen Regular",
+          "Nurofen Tension Headache",
+          "Nurofen Zavance",
+          "Nurofen Zavance Liquid Capsules",
+          "Advil",
+          "Advil 12 Hour",
+          "Advil Double Strength",
+          "Advil Double Strength Caplets",
+          "Advil Double Strength Liquid Capsules",
+          "Advil Mini Caps",
+          "Advil Rapid Release",
+          "Rafen",
+          "Bugesic",
+          "Panafen",
+          "Panafen IB",
+          "Panafen IB Mini Cap",
+          "Panafen Plus",
+          "Nurofen Plus",
+          "Nuromol",
+          "Maxigesic",
+          "Mersynofen",
+          "Act-3",
+          "Butafen",
+          "Iprofen",
+          "Proven",
+          "Tri-Profen"
+        ],
+        "indometacin": [
+          "Indocid",
+          "Arthrexin"
+        ],
+        "ketoprofen": [
+          "Orudis",
+          "Oruvail"
+        ],
+        "ketorolac": [
+          "Toradol"
+        ],
+        "mefenamic acid": [
+          "Ponstan",
+          "Femin",
+          "Mefic",
+          "Menamic"
+        ],
+        "meloxicam": [
+          "Mobic",
+          "Movalis",
+          "Melobic",
+          "Meloxibell",
+          "Moxicam",
+          "Agilocam",
+          "Melox",
+          "Mobelox"
+        ],
+        "naproxen": [
+          "Naprosyn",
+          "Naprosyn SR",
+          "Naprosyn SR 1000",
+          "Naprosyn SR1000",
+          "Proxen",
+          "Proxen SR",
+          "Proxen SR 1000",
+          "Anaprox",
+          "Anaprox 550",
+          "Crysanal",
+          "Inza",
+          "Naprogesic",
+          "Aleve",
+          "Aleve 24 Hour",
+          "Femme-Free",
+          "Naprofem",
+          "Vimovo"
+        ],
+        "piroxicam": [
+          "Feldene",
+          "Feldene-D",
+          "Mobilis",
+          "Mobilis D",
+          "Candyl",
+          "Candyl-D",
+          "Pirohexal-D"
+        ],
+        "sulindac": [
+          "Aclin"
+        ],
+        "tenoxicam": [
+          "Tilcotil"
+        ],
+        "tiaprofenic acid": [
+          "Surgam",
+          "Surgam SA"
+        ]
+      },
+      "note": "Use the recorded form. Oral tablets, capsules, caplets, dispersible tablets and oral liquids count. Rectal diclofenac and indometacin suppositories (Voltaren and Indocid) and systemic NSAID injections (such as intramuscular Toradol) also count. Indometacin may also appear as indomethacin. Oral NSAID combinations count, including ibuprofen with codeine (Nurofen Plus, Panafen Plus), ibuprofen with paracetamol (Maxigesic, Nuromol, Mersynofen), naproxen with esomeprazole (Vimovo) and diclofenac with misoprostol (Arthrotec). Toradol oral tablets and Imflac tablets count. Topical gels and creams (Voltaren Emulgel, Voltaren Osteo Gel, Solaraze, Dofidaz, topical Imflac gel, Nurofen Gel, Feldene Gel), eye drops (Voltaren Ophtha, Acular, Nevanac), throat lozenges (Strefen) and aspirin do not count in this group. Aspirin belongs only to Group B so it cannot trigger against itself. Generic packs that show the ingredient name count too."
+    },
+    {
+      "key": "B",
+      "name": "Antiplatelet medicines",
+      "ingredients": [
+        "aspirin",
+        "clopidogrel",
+        "prasugrel",
+        "ticagrelor",
+        "dipyridamole",
+        "aspirin with clopidogrel",
+        "aspirin with dipyridamole"
+      ],
+      "brands": {
+        "aspirin": [
+          "Cartia",
+          "Astrix",
+          "Cardiprin",
+          "Cardiprin 100",
+          "Spren",
+          "Spren 100"
+        ],
+        "clopidogrel": [
+          "Plavix",
+          "Iscover",
+          "Piax",
+          "Plavicor",
+          "Plavicor 75",
+          "Clovix",
+          "Clovix 75",
+          "Plidogrel"
+        ],
+        "prasugrel": [
+          "Effient",
+          "Prasugrel SCP",
+          "Prasugrel Lupin"
+        ],
+        "ticagrelor": [
+          "Brilinta",
+          "TICALOR",
+          "Tirela"
+        ],
+        "dipyridamole": [
+          "Persantin",
+          "Persantin SR"
+        ],
+        "aspirin with clopidogrel": [
+          "CoPlavix",
+          "DuoCover",
+          "DuoPlidogrel",
+          "Piax Plus Aspirin"
+        ],
+        "aspirin with dipyridamole": [
+          "Asasantin",
+          "Asasantin SR",
+          "Diasp SR",
+          "DIPYRIDAMOLE/ASPIRIN SR GPPL"
+        ]
+      },
+      "note": "Low-dose antiplatelet aspirin (such as 100 mg daily), clopidogrel, prasugrel, ticagrelor, dipyridamole and fixed-dose antiplatelet combinations count. CoPlavix, DuoCover, DuoPlidogrel and Piax Plus Aspirin contain clopidogrel with aspirin. Asasantin, Asasantin SR, Diasp SR and DIPYRIDAMOLE/ASPIRIN SR GPPL contain dipyridamole with aspirin. Aspirin belongs only to Group B and never to Group A. Oral anticoagulants (warfarin, apixaban, dabigatran and rivaroxaban) and parenteral anticoagulants do not belong to this group. Generic packs that show the ingredient name count too."
+    },
+    {
+      "key": "C",
+      "name": "Gastro-protective medicines",
+      "ingredients": [
+        "omeprazole",
+        "esomeprazole",
+        "pantoprazole",
+        "lansoprazole",
+        "rabeprazole",
+        "famotidine",
+        "nizatidine",
+        "misoprostol"
+      ],
+      "brands": {
+        "omeprazole": [
+          "Losec",
+          "Acimax",
+          "Maxor",
+          "Probitor",
+          "Ozmep",
+          "Omepral"
+        ],
+        "esomeprazole": [
+          "Nexium",
+          "Esopreze",
+          "Nexazole",
+          "Nexole",
+          "Vimovo"
+        ],
+        "pantoprazole": [
+          "Somac",
+          "Ozpan",
+          "Panthron",
+          "Salpraz",
+          "Sozol"
+        ],
+        "lansoprazole": [
+          "Zoton",
+          "Zoton FasTabs",
+          "Zopral",
+          "Lanzopran"
+        ],
+        "rabeprazole": [
+          "Pariet",
+          "Parbezol",
+          "Zabep"
+        ],
+        "famotidine": [
+          "Ausfam",
+          "Pepzan",
+          "Pepcidine"
+        ],
+        "nizatidine": [
+          "Nizac",
+          "Tacidine",
+          "Tazac"
+        ],
+        "misoprostol": [
+          "Cytotec",
+          "Arthrotec"
+        ]
+      },
+      "note": "Check coverage throughout concurrent NSAID and antiplatelet use, including coverage from a supply made before either medicine started. Regular daily proton pump inhibitor treatment or misoprostol for ulcer prevention can provide this protection, including the protective component of Vimovo or Arthrotec. Famotidine, nizatidine and as-needed acid suppression alone leave protection uncertain and warrant pharmacist review. Antacids, alginates, obstetric misoprostol products and short Helicobacter pylori eradication courses do not provide ongoing ulcer prophylaxis. Generic packs that show the ingredient name count too."
+    }
+  ],
+  "rule_for_models": "At any age, including when age is missing, cite a systemic NSAID (A) taken by mouth, given rectally or given by systemic injection and an antiplatelet (B) if their supply dates, quantities and directions show a common treatment day without regular proton pump inhibitor or ulcer-prophylaxis misoprostol coverage (C). Count earlier protection for the days it covers, exclude clearly separate courses and flag uncovered days before a later protective supply. When concurrent use within 60 days or protection during an overlap is uncertain, report a possible finding and ask what was taken, including any H2 blocker or as-needed acid suppression. Count aspirin only in B and use the form and product exclusions in the group notes.",
+  "cannot_be_seen": "Non-prescription aspirin, over-the-counter oral NSAIDs, over-the-counter proton pump inhibitors or H2-receptor antagonists, past peptic ulcer or bleeding history, actual use of as-needed NSAIDs, and medicines supplied from another pharmacy or hospital are not visible in a dispensing history.",
+  "ask_the_gp": "Could you review whether both the systemic NSAID and antiplatelet are still needed, the risk of gastrointestinal bleeding and whether gastro-protection is appropriate? If clopidogrel is used, pantoprazole is preferred over omeprazole or esomeprazole.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

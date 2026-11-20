@@ -1,0 +1,68 @@
+{
+  "id": "DREISCHULTE-69",
+  "label": "Dreischulte 69: Two methotrexate tablet strengths in the same regimen",
+  "family": "DREISCHULTE",
+  "title": "Two methotrexate tablet strengths in the same regimen",
+  "statement": "Patient treated with methotrexate - is prescribed > 1 strength of methotrexate tablets",
+  "statement_origin": "published",
+  "source": {
+    "document": "Quality and safety of medication use in primary care: consensus validation of a new set of explicit medication assessment criteria and prioritisation of topics for improvement.",
+    "citation": "Dreischulte T, Grant AM, McCowan C, McAnaw JJ, Guthrie B. Quality and safety of medication use in primary care: consensus validation of a new set of explicit medication assessment criteria and prioritisation of topics for improvement. BMC Clinical Pharmacology. 2012;12:5. doi:10.1186/1472-6904-12-5.",
+    "doi": "10.1186/1472-6904-12-5",
+    "url": "https://link.springer.com/article/10.1186/1472-6904-12-5",
+    "licence": "CC BY 2.0",
+    "licence_status": "proposed",
+    "credit": "© 2012 Dreischulte et al., licensee BioMed Central Ltd. Dreischulte T, Grant AM, McCowan C, McAnaw JJ, Guthrie B. Quality and safety of medication use in primary care: consensus validation of a new set of explicit medication assessment criteria and prioritisation of topics for improvement. BMC Clinical Pharmacology. 2012;12:5. doi:10.1186/1472-6904-12-5.",
+    "modification_notice": "The published statement is reproduced unchanged. GPT-6.2 Astra drafted the Australian screening rule, medicine group and fictional histories."
+  },
+  "plain_summary": "Two different methotrexate tablet strengths in the same regimen can lead to a dosing error.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Methotrexate tablets",
+      "ingredients": [
+        "methotrexate"
+      ],
+      "brands": {
+        "methotrexate": [
+          "Methoblastin",
+          "Chexate",
+          "Ciptrexate",
+          "Imutrex"
+        ]
+      },
+      "note": "Count distinct oral tablet strengths. Exclude injections."
+    }
+  ],
+  "rule_for_models": "Check whether two different Group A methotrexate tablet strengths are active together from the supply dates, quantities, weekly or other dosing interval, and any switch or stop. For confirmed disease-modifying treatment, cite each active strength and the line identifying its use. If the indication or overlap is uncertain and the strengths could be active together, cite both supplies and report only a possible finding. Ask for the missing indication, or for the doses, timing and stop date if a switch is unclear. A completed switch, two packs of one strength, an injection alongside tablets, or a confirmed use outside disease-modifying treatment gives no finding under this criterion. A cancer regimen needs review under its own protocol.",
+  "cannot_be_seen": "Supplies do not show which tablets the person actually takes or whether they can distinguish the strengths.",
+  "ask_the_gp": "Could you confirm the indication, intended dose and schedule, and whether both tablet strengths are intended?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Reason for methotrexate tablet treatment",
+      "meets": "The tablets are disease-modifying treatment for inflammatory or autoimmune disease. A confirmed cancer protocol or another confirmed use outside disease-modifying treatment closes this indicator. An unresolved use leaves it open.",
+      "options": [
+        {
+          "words": "Disease-modifying treatment for inflammatory or autoimmune disease",
+          "effect": "meets"
+        },
+        {
+          "words": "Cancer treatment under an oncology protocol",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Another confirmed use outside disease-modifying treatment",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

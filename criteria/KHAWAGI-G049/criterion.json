@@ -1,0 +1,139 @@
+{
+  "id": "KHAWAGI-G049",
+  "label": "Khawagi review: Review a systemic first-generation anticholinergic antihistamine in a person aged 65 or older with benign prostatic hyperplasia",
+  "family": "KHAWAGI",
+  "title": "Review a systemic first-generation anticholinergic antihistamine in a person aged 65 or older with benign prostatic hyperplasia",
+  "statement": "Review a systemic first-generation anticholinergic antihistamine in a person aged 65 or older with benign prostatic hyperplasia.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Khawagi et al. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. S3 File.",
+    "citation": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. PLoS ONE 2019;14(5):e0217406.",
+    "doi": "10.1371/journal.pone.0217406",
+    "url": "https://doi.org/10.1371/journal.pone.0217406.s003",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. PLoS ONE 2019;14(5):e0217406. https://doi.org/10.1371/journal.pone.0217406; S3 File, https://doi.org/10.1371/journal.pone.0217406.s003. © 2019 Khawagi et al., CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). S3 File, Table 2, printed row 62 of 91, PDF p.2. Original screening wording and Australian adaptations. S3 reference(s) as indexed in the supplied qualification: [116]. Clinical cross-check: Khawagi review (https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0217406). Phenergan Australian PI (https://www.safetyandquality.gov.au/medicine-finder/phenergan).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "Review a systemic first-generation anticholinergic antihistamine in a person aged 65 or older with benign prostatic hyperplasia.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Systemic first-generation anticholinergic antihistamines",
+      "ingredients": [
+        "alimemazine",
+        "brompheniramine",
+        "chlorphenamine",
+        "cyclizine",
+        "cyproheptadine",
+        "dexchlorpheniramine",
+        "dimenhydrinate",
+        "diphenhydramine",
+        "doxylamine",
+        "pheniramine",
+        "promethazine",
+        "triprolidine"
+      ],
+      "brands": {
+        "alimemazine": [
+          "Vallergan",
+          "Vallergan Forte",
+          "Vallergan Syrup"
+        ],
+        "brompheniramine": [
+          "Dimetapp Cold & Allergy"
+        ],
+        "chlorphenamine": [
+          "Demazin Cold + Flu Relief Day + Night"
+        ],
+        "cyclizine": [
+          "Nausicalm"
+        ],
+        "cyproheptadine": [
+          "Periactin"
+        ],
+        "dexchlorpheniramine": [
+          "Dexchlorpheniramine Allergy Relief (Apohealth)",
+          "Polaramine",
+          "Polaramine Repetab",
+          "Polaramine Syrup",
+          "Polarelief"
+        ],
+        "dimenhydrinate": [
+          "Dramamine"
+        ],
+        "diphenhydramine": [
+          "Paedamin Children'S Antihistamine Children'S",
+          "Snuzaid Gel",
+          "Snuzaid Tab",
+          "Unisom Sleepgel"
+        ],
+        "doxylamine": [
+          "Doxy Sleep-Aid (Amcal)",
+          "Doxylamine (Pharmacy Choice)",
+          "Dozavit",
+          "Dozile",
+          "Restamine",
+          "Restavit",
+          "Sleep Aid (Chemists' Own)",
+          "Sleep Aid (Pharmacist Formula)",
+          "Sleep Aid (Pharmacist)",
+          "Sleep Aid (Pharmacy Action)",
+          "Sleep Assist (Apohealth)",
+          "Sleep Assist (Blooms The Chemist)",
+          "Sleep Assist (Cipla)",
+          "Sleep Assist (Pharmacy Action)",
+          "Mersyndol",
+          "Mersyndol Forte"
+        ],
+        "pheniramine": [
+          "Avil",
+          "Avil Retard",
+          "Avil Syrup"
+        ],
+        "promethazine": [
+          "Phenergan",
+          "Allersoothe",
+          "Allersoothe Elixir",
+          "Avomine",
+          "Fenezal",
+          "Histaren",
+          "Phenergan Elixir",
+          "Progan Children's Allergy Relief Elixir"
+        ],
+        "triprolidine": [
+          "Actifed Tablets"
+        ]
+      },
+      "note": "Include a systemic combination product containing a listed ingredient. Alimemazine is also called trimeprazine. Chlorphenamine may appear as chlorpheniramine. For Demazin Cold + Flu Relief Day + Night, count only a component containing chlorphenamine. Check the exact ingredients for other Demazin, Dimetapp or Actifed presentations. The Actifed tablet with triprolidine and pseudoephedrine counts. Other Actifed products can have different ingredients."
+    }
+  ],
+  "rule_for_models": "For a systemic Group A first-generation antihistamine supplied at age 65 or older, give a finding when benign prostatic hyperplasia is documented at supply, whatever the reason for the antihistamine. Cite the supply and diagnosis. Exclude local preparations and second-generation products. Give no finding below age 65, if benign prostatic hyperplasia is ruled out or if the patient has no prostate at supply. For a patient recorded as female, give no finding unless a prostate or benign prostatic hyperplasia is documented. If the diagnosis or age is unknown and the other evidence fits, report only a possible finding and name what needs checking. Ask whether an enlarged prostate had been diagnosed by the time of this supply and whether the patient has difficulty passing urine. If the timing of the diagnosis is unknown, keep the finding possible. Symptoms alone do not establish the diagnosis.",
+  "cannot_be_seen": "Dispensing does not establish actual use, indication or a prescriber’s intent. Treatment and assessments elsewhere may be missing.",
+  "ask_the_gp": "Could you confirm whether this patient has benign prostatic hyperplasia and review whether the antihistamine remains suitable given any urinary symptoms?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Benign prostatic hyperplasia",
+      "meets": "Present at supply in a person aged 65 or over.",
+      "options": [
+        {
+          "words": "An enlarged prostate was present at the time of the antihistamine supply",
+          "effect": "meets"
+        },
+        {
+          "words": "An enlarged prostate was absent at the time of the antihistamine supply",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "only_sex": "male"
+}

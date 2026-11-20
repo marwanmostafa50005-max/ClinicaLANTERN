@@ -1,0 +1,82 @@
+{
+  "id": "STOPP-D3",
+  "label": "STOPP D3: SNRI with severe high blood pressure",
+  "family": "STOPP_START",
+  "title": "SNRI antidepressant with severe high blood pressure",
+  "statement": "Serotonin/noradrenaline reuptake inhibitors (SNRI’s e.g., venlafaxine, duloxetine) and severe hypertension i.e., systolic blood pressure > 180 mmHg +/- diastolic blood pressure > 105 mmHg (likely to make hypertension worse).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "SNRI antidepressants such as venlafaxine and duloxetine can raise blood pressure, so they are likely to make severe high blood pressure worse. A qualifying systolic pressure above 180 mmHg warrants a same-day check of current blood pressure and symptoms. A missing reading alone calls for routine follow-up.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "SNRI antidepressants",
+      "ingredients": [
+        "duloxetine",
+        "venlafaxine",
+        "desvenlafaxine",
+        "milnacipran"
+      ],
+      "brands": {
+        "duloxetine": [
+          "Cymbalta",
+          "Andepra",
+          "Baltine",
+          "Coperin",
+          "Deotine",
+          "Depreta",
+          "Drulox",
+          "Dulocym",
+          "Duloxecor",
+          "Dytrex",
+          "Symlox",
+          "Texotine",
+          "Tixol",
+          "Xerol DR"
+        ],
+        "venlafaxine": [
+          "Efexor-XR",
+          "Elaxine SR",
+          "Enlafax XR",
+          "Altven",
+          "Evelexa XR",
+          "Ozvenaf",
+          "Venfax SR",
+          "Venla",
+          "Venlexor XR"
+        ],
+        "desvenlafaxine": [
+          "Pristiq",
+          "Desfax",
+          "Desven"
+        ],
+        "milnacipran": [
+          "Joncia"
+        ]
+      },
+      "note": "Capsules and tablets count. Milnacipran counts when the ingredient is recorded, including use for fibromyalgia. Generic packs that show the ingredient with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "Latest systolic blood pressure in the assessment window for the SNRI supply",
+      "meets": "Enter the systolic blood pressure in mmHg and the measurement date if known. Use the first number in a paired reading. Use the latest reading measured from 30 days before the latest SNRI supply through the days it covers. A systolic pressure above 180 meets the threshold. A systolic pressure of 180 or less clears it, whatever the diastolic pressure. A missing systolic value or an uncertain measurement date leaves the question open. The entry date alone does not establish the measurement date."
+    }
+  ],
+  "rule_for_models": "Apply this rule only to people aged 65 years or older. If age is unknown, confirm it before reporting a STOPP finding. For the latest Group A SNRI supply, use the latest blood pressure measured from 30 days before supply through the days covered by its quantity and directions. Accept a result or an observation in mmHg. Use the first number of a paired reading. If a high reading follows supply and cover is unclear, use any dated evidence of treatment on the measurement date. If the patient had stopped before that reading, exclude it and assess the latest remaining relevant reading. If exposure is still uncertain, cite the supply and the high reading and report only a possible finding. In the reason, name the SNRI and the measurement date and explain what evidence of actual use is missing. A measurement already dated in the record does not need to be entered again. Do not use an undated answer about a different course or reading to establish exposure. If the latest relevant systolic pressure is above 180 mmHg, report a finding and cite the supply, reading and any evidence needed to establish use. At 180 mmHg or below, report no finding regardless of diastolic pressure. If the relevant systolic value or its measurement date is missing or uncertain, cite the supply and report only a possible finding. Name Latest systolic blood pressure in the assessment window for the SNRI supply and specify whether the value or measurement date is missing. Neither a hypertension diagnosis nor the counter entry date establishes a dated reading.",
+  "cannot_be_seen": "Blood pressure readings taken outside the record, including home readings, and whether a high reading was a one-off. Also why the SNRI was chosen (for example for nerve pain) and whether the dose changed after the reading.",
+  "ask_the_gp": "Could we review the current blood pressure, symptoms and suitability of the SNRI the same day if a qualifying systolic reading exceeds 180 mmHg? If only the measurement or its date is missing, could we confirm it at routine review?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

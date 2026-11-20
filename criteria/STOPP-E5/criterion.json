@@ -1,0 +1,49 @@
+{
+  "id": "STOPP-E5",
+  "label": "STOPP E5",
+  "family": "STOPP_START",
+  "title": "Colchicine with severely low kidney function",
+  "statement": "Colchicine if eGFR < 10 ml/min/1.73m² (risk of colchicine toxicity)",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "licence_status": "proposed",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Colchicine is cleared by the kidneys and can build up to toxic levels when kidney function is severely low (eGFR below 10).",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Colchicine",
+      "ingredients": [
+        "colchicine"
+      ],
+      "brands": {
+        "colchicine": [
+          "Colgout",
+          "Colcine",
+          "Lengout"
+        ]
+      },
+      "note": "Colgout tablets are 500 micrograms. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "eGFR",
+      "meets": "Enter the eGFR in mL/min/1.73 m² and its test date if known. The latest result that applies to the colchicine course meets this criterion if it is below 10 mL/min/1.73 m²."
+    }
+  ],
+  "rule_for_models": "Apply this criterion only if the patient is aged 65 years or older. If age is unknown, ask for age confirmation before assessing the supply. For colchicine (Group A), use the latest eGFR that applied during the course, including a result before supply if it still applies. A result measured after the course ended cannot establish a finding for that course. Below 10 mL/min/1.73 m², report a finding and cite the supply and result. At 10 or above, there is no finding for that course. If the value is unknown or its timing is unclear, report only a possible finding and ask for the eGFR that applied during treatment. Use the test date or a confirmed link to treatment, never the date the pharmacist entered the answer.",
+  "cannot_be_seen": "The latest kidney test if none is on the record, whether the colchicine dose was reduced, how often it is really taken, and other medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "Could you confirm the current creatinine clearance and review colchicine suitability and dose against the Australian product information?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

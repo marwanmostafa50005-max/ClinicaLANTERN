@@ -1,0 +1,240 @@
+{
+  "id": "PROMPT-RS-2",
+  "label": "PROMPT: theophylline alone",
+  "family": "PROMPT",
+  "title": "Theophylline as the only asthma or COPD medicine",
+  "statement": "Theophylline should not be used as monotherapy for asthma or chronic obstructive pulmonary disease.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Cooper JA, et al. The development of the PROMPT criteria. BMC Health Serv Res 2014;14:484, Table 4",
+    "citation": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "doi": "10.1186/s12913-014-0484-6",
+    "url": "https://doi.org/10.1186/s12913-014-0484-6",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Theophylline has a narrow safe range and many side effects, so it should not be the only treatment for asthma or COPD.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Theophylline",
+      "ingredients": [
+        "theophylline"
+      ],
+      "brands": {
+        "theophylline": [
+          "Nuelin SR",
+          "Nuelin"
+        ]
+      },
+      "note": "Generic packs that show the ingredient name with a company name count too. Aminophylline is not in this group."
+    },
+    {
+      "key": "B",
+      "name": "Other asthma and COPD medicines",
+      "ingredients": [
+        "budesonide",
+        "fluticasone",
+        "beclometasone",
+        "ciclesonide",
+        "mometasone",
+        "salmeterol",
+        "formoterol",
+        "indacaterol",
+        "vilanterol",
+        "tiotropium",
+        "aclidinium",
+        "glycopyrronium",
+        "umeclidinium",
+        "montelukast",
+        "roflumilast",
+        "salbutamol",
+        "terbutaline",
+        "ipratropium",
+        "fluticasone propionate",
+        "fluticasone furoate",
+        "olodaterol"
+      ],
+      "brands": {
+        "budesonide": [
+          "Pulmicort",
+          "Symbicort (budesonide with formoterol)",
+          "DuoResp Spiromax",
+          "Breztri Aerosphere"
+        ],
+        "fluticasone": [
+          "Flixotide",
+          "Seretide (fluticasone with salmeterol)",
+          "Breo Ellipta (fluticasone with vilanterol)",
+          "Flutiform (fluticasone with formoterol)"
+        ],
+        "beclometasone": [
+          "Qvar",
+          "Trimbow",
+          "Fostair"
+        ],
+        "ciclesonide": [
+          "Alvesco"
+        ],
+        "mometasone": [
+          "Atectura Breezhaler",
+          "Enerzair Breezhaler",
+          "Asmanex Twisthaler"
+        ],
+        "salmeterol": [
+          "Serevent",
+          "Serevent Accuhaler",
+          "Serevent Disks"
+        ],
+        "formoterol": [
+          "Oxis",
+          "Foradile",
+          "Oxis Turbuhaler",
+          "Trimbow",
+          "DuoResp Spiromax",
+          "Brimica Genuair",
+          "Breztri Aerosphere",
+          "Fostair"
+        ],
+        "indacaterol": [
+          "Ultibro Breezhaler",
+          "Atectura Breezhaler",
+          "Enerzair Breezhaler",
+          "Onbrez Breezhaler"
+        ],
+        "vilanterol": [
+          "Trelegy Ellipta",
+          "Breo Ellipta",
+          "Anoro Ellipta"
+        ],
+        "tiotropium": [
+          "Spiriva",
+          "Braltus",
+          "Favint",
+          "Favint Respimat",
+          "Spiriva Respimat",
+          "Srivasso",
+          "Srivasso Respimat",
+          "Spiolto Respimat"
+        ],
+        "glycopyrronium": [
+          "Seebri",
+          "Trimbow",
+          "Ultibro Breezhaler",
+          "Enerzair Breezhaler",
+          "Breztri Aerosphere"
+        ],
+        "umeclidinium": [
+          "Incruse Ellipta",
+          "Anoro Ellipta (umeclidinium with vilanterol)",
+          "Trelegy Ellipta"
+        ],
+        "montelukast": [
+          "Singulair",
+          "Asthakast",
+          "Lukair",
+          "Montair",
+          "Monteccord",
+          "Montelair",
+          "Respikast",
+          "T Lukast"
+        ],
+        "roflumilast": [],
+        "aclidinium": [
+          "Bretaris Genuair",
+          "Brimica Genuair"
+        ],
+        "salbutamol": [
+          "Ventolin",
+          "Asmol",
+          "Airomir",
+          "Airomir Autohaler",
+          "Asmol Uni-Dose",
+          "Butamol",
+          "Epaq Inhaler",
+          "Salmol",
+          "Univent Cipule",
+          "Ventolin Inhaler",
+          "Ventolin Nebules",
+          "Ventolin Respirator",
+          "Ventolin Rotacap",
+          "Zempreon Inhaler"
+        ],
+        "terbutaline": [
+          "Bricanyl"
+        ],
+        "ipratropium": [
+          "Aeron",
+          "Apoven",
+          "Atrovent",
+          "Atrovent Adult Udv",
+          "Atrovent Udv",
+          "Ipratrin Adult Uni-Dose",
+          "Ipratrin Uni-Dose",
+          "Ipratropium (Cipla)",
+          "Ipratropium Bromide (Apo)",
+          "Ipratropium Bromide (Chemmart)",
+          "Ipratropium Bromide (Genrx)",
+          "Ipratropium Bromide (Terry White Chemists)",
+          "Ipravent"
+        ],
+        "fluticasone propionate": [
+          "Flixotide",
+          "Seretide (fluticasone with salmeterol)",
+          "Flutiform (fluticasone with formoterol)"
+        ],
+        "fluticasone furoate": [
+          "Arnuity Ellipta",
+          "Breo Ellipta",
+          "Trelegy Ellipta"
+        ],
+        "olodaterol": [
+          "Striverdi Respimat",
+          "Spiolto Respimat"
+        ]
+      },
+      "note": "Inhaled steroids, long-acting inhalers (alone or in combination), montelukast and roflumilast count. Short-acting inhaled relievers count as other treatment. Older labels can call formoterol eformoterol. Match vilanterol in combination inhalers. Match ipratropium only when the form is for lung inhalation, including a nebuliser solution. A nasal or unidentified Atrovent form cannot clear the finding. For oral roflumilast, match the ingredient. No Australian oral brand was verified for this group. Exclude nasal sprays, skin creams and ointments, eye drops, injections of the listed ingredients and oral budesonide for bowel disease. For ingredients counted by inhalation, confirm the pulmonary route before clearing the finding."
+    }
+  ],
+  "rule_for_models": "For people aged 45 to 64 inclusive (confirm an unknown age first), suspect a finding only for a theophylline supply with no qualifying Group B medicine on the same day or within 60 days before or after it. For an unpaired supply, cite the theophylline line and the line confirming that it was used for asthma, COPD or both. If the reason is missing or not known, cite the supply for a possible finding and ask for the Reason for theophylline treatment. Return no finding for that supply if theophylline was used only for another reason. Ask about inhalers bought without a prescription, already on hand or supplied elsewhere before describing treatment as monotherapy.",
+  "cannot_be_seen": "The record may omit inhalers bought without a prescription, supplied by another pharmacy, hospital or specialist, or already on hand. It may also lack the reason for theophylline, the asthma or COPD diagnosis and theophylline blood levels. Confirm other respiratory treatment before describing theophylline as the only medicine used.",
+  "ask_the_gp": "Whether theophylline is still the right treatment, and whether an inhaled treatment should be added or used instead.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Reason for theophylline treatment",
+      "meets": "Asthma or COPD is recorded as the reason for theophylline treatment.",
+      "options": [
+        {
+          "words": "Asthma",
+          "effect": "meets"
+        },
+        {
+          "words": "COPD",
+          "effect": "meets"
+        },
+        {
+          "words": "Both asthma and COPD",
+          "effect": "meets"
+        },
+        {
+          "words": "Asthma or COPD, exact diagnosis unclear",
+          "effect": "meets"
+        },
+        {
+          "words": "Another reason only",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

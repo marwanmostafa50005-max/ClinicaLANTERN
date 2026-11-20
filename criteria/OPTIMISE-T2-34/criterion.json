@@ -1,0 +1,241 @@
+{
+  "id": "OPTIMISE-T2-34",
+  "label": "OPTIMISE T2-34: folic acid 5 mg in pregnancy on an antiepileptic",
+  "family": "OPTIMISE",
+  "title": "Folic acid 5 mg for pregnancy on an antiepileptic",
+  "statement": "Consider folic acid 5 mg daily for women who are pregnant or planning pregnancy and who are taking antiepileptic drugs including valproate, carbamazepine and possibly lamotrigine. Note that folic acid may reduce the efficacy of lamotrigine and monitor for deterioration in mental illness",
+  "statement_origin": "published",
+  "source": {
+    "document": "Carolan A, et al. OPTIMISE. BMC Psychiatry 2022;22:585, Tables 2-3",
+    "citation": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "modification_notice": "Statement text as recorded by the earlier project. It has not been compared with the publisher's page. Not endorsed by the source authors."
+  },
+  "plain_summary": "If a woman is pregnant or planning pregnancy while taking an antiepileptic medicine, consider folic acid 5 mg daily, with individual review for lamotrigine.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antiepileptics for the pregnancy folate review",
+      "ingredients": [
+        "sodium valproate",
+        "carbamazepine",
+        "lamotrigine",
+        "valproic acid",
+        "phenytoin",
+        "topiramate",
+        "levetiracetam",
+        "oxcarbazepine",
+        "lacosamide",
+        "primidone",
+        "phenobarbital",
+        "phenobarbitone",
+        "zonisamide",
+        "brivaracetam",
+        "perampanel",
+        "ethosuximide",
+        "vigabatrin"
+      ],
+      "brands": {
+        "sodium valproate": [
+          "Epilim",
+          "Valpro"
+        ],
+        "carbamazepine": [
+          "Tegretol",
+          "Teril",
+          "Avloire",
+          "Avloire CR",
+          "Tegretol CR"
+        ],
+        "lamotrigine": [
+          "Lamictal",
+          "Elmendos",
+          "Lamidus",
+          "Lamitan",
+          "Lamitrin",
+          "Lamogine",
+          "Lamotran",
+          "Lamotrust",
+          "Logem",
+          "Motrig",
+          "Munatrep",
+          "Reedos",
+          "Seaze",
+          "Torlemo DT",
+          "Tortrigine DT"
+        ],
+        "valproic acid": [
+          "Epilim",
+          "Valpro"
+        ],
+        "phenytoin": [
+          "Dilantin"
+        ],
+        "topiramate": [
+          "Tamate",
+          "Topamax",
+          "Topamax Sprinkle",
+          "Epiramax"
+        ],
+        "levetiracetam": [
+          "Keppra"
+        ],
+        "oxcarbazepine": [
+          "Trileptal"
+        ],
+        "lacosamide": [
+          "Vimpat"
+        ],
+        "primidone": [
+          "Mysoline"
+        ],
+        "phenobarbital": [
+          "Phenobarb"
+        ],
+        "phenobarbitone": [
+          "Phenobarb"
+        ],
+        "zonisamide": [
+          "Zonegran"
+        ],
+        "brivaracetam": [
+          "Briviact"
+        ],
+        "perampanel": [
+          "Fycompa"
+        ],
+        "ethosuximide": [
+          "Zarontin"
+        ],
+        "vigabatrin": [
+          "Sabril"
+        ]
+      },
+      "note": "Item 34 names valproate, carbamazepine and lamotrigine as examples. Count any listed Group A antiepileptic medicine taken during pregnancy or pregnancy planning regardless of whether it is prescribed for epilepsy, bipolar disorder or another indication, including generic packs naming the ingredient. For lamotrigine, ask for individual review of folic acid 5 mg daily. When folic acid is added to ongoing lamotrigine during pregnancy or pregnancy planning, ask about worsening mental health and the monitoring plan even when folate cover is adequate and regardless of whether lamotrigine is used for epilepsy or a mood disorder. Do not infer deterioration from the supplies alone."
+    },
+    {
+      "key": "B",
+      "name": "Folic acid 5 mg",
+      "ingredients": [
+        "folic acid"
+      ],
+      "brands": {
+        "folic acid": [
+          "Megafol",
+          "Foltabs"
+        ]
+      },
+      "note": "Check the oral folic acid strength, daily directions and dates, including on generic packs. Megafol 5 contains 5 mg per tablet. Megafol 0.5 and Foltabs 500 contain 500 micrograms per tablet. A low daily dose, a multivitamin or a brand name alone does not establish 5 mg daily."
+    }
+  ],
+  "rule_for_models": "Apply this criterion to adults aged 18 or over. With documented pregnancy or planning, check Group A exposure during that period for any indication, without an upper age cut-off. For lamotrigine, ask for individual review of folic acid 5 mg daily. Use the recorded age if it establishes age during this exposure. Only if the pregnancy or planning check otherwise applies and age then is unknown, report a possible finding and ask for \"Age during the antiepileptic exposure under review\". An adult answer allows assessment. Exclude treatment while under 18. If age remains unknown, keep the finding possible. Use pregnancy or planning status for the period under review. Ask about uncertain timing and leave folate cover open while the relevant dates are unknown. A sex marker alone cannot establish or exclude it. Use the strength, directions and supply dates to assess Group B folic acid 5 mg daily during the relevant preventive period, including planning and the first 12 weeks of pregnancy. Use the quantity and directed daily dose to calculate the dates covered. A supply exhausted before the relevant period does not cover it. If cover is missing, raise review and cite the pregnancy or planning line and contemporaneous supplies. If timing, directions or non-prescription use leave cover uncertain, report only a possible folate omission and ask whether 5 mg was taken daily and when. During pregnancy or planning, if folic acid was added to ongoing lamotrigine, ask about worsening mental health and the monitoring plan even with adequate cover. Do not infer deterioration from supplies. When pregnancy status is unrecorded, raise only a possible finding if the person could be pregnant or planning pregnancy, relevant Group A exposure is present and folate cover is unconfirmed. Documented absence of both pregnancy and pregnancy planning gives no finding.",
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Pregnancy status during the antiepileptic exposure under review",
+      "meets": "A pregnancy or planning answer establishes only the population for the stated exposure. Assess folate cover for planning and the first 12 weeks. If stage or relevant exposure dates are uncertain, ask before calling any gap. Assess the lamotrigine monitoring question during pregnancy or planning if folic acid was added.",
+      "options": [
+        {
+          "words": "Planning pregnancy during this exposure",
+          "effect": "meets"
+        },
+        {
+          "words": "Pregnant during this exposure, within the first 12 weeks",
+          "effect": "meets"
+        },
+        {
+          "words": "Pregnant during this exposure, beyond the first 12 weeks",
+          "effect": "meets"
+        },
+        {
+          "words": "Pregnant during this exposure, stage uncertain",
+          "effect": "meets"
+        },
+        {
+          "words": "Neither pregnant nor planning during this exposure",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Folic acid taken from all sources during the planning or early pregnancy period under review",
+      "meets": "Include prescribed and non-prescription folic acid. A confirmed gap or lower daily dose supports review. Confirmed 5 mg daily throughout the relevant period clears the folate omission. If the dose, dates or a different prescribed regimen need clarification, keep cover open.",
+      "options": [
+        {
+          "words": "There were days with no folic acid or less than 5 mg in total",
+          "effect": "meets"
+        },
+        {
+          "words": "The person took 5 mg daily throughout this period",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "The dose or dates cannot be confirmed",
+          "effect": "unknown"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Mental health after folic acid was added to ongoing lamotrigine during this pregnancy or planning period",
+      "meets": "Worsening mental health or a confirmed lack of monitoring supports review. Stable mental health with a plan clears this concern. If the answer is incomplete, report only what is known and ask about the missing part.",
+      "options": [
+        {
+          "words": "Mental health worsened",
+          "effect": "meets"
+        },
+        {
+          "words": "Mental health has not worsened but there is no monitoring plan",
+          "effect": "meets"
+        },
+        {
+          "words": "Mental health has not worsened and a monitoring plan is in place",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "No folic acid was added to ongoing lamotrigine during this period",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Age during the antiepileptic exposure under review",
+      "meets": "Ask only if the pregnancy or planning check otherwise applies and the record does not establish age during this exposure. Use the answer for that period only.",
+      "options": [
+        {
+          "words": "18 or older",
+          "effect": "meets"
+        },
+        {
+          "words": "Under 18",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "cannot_be_seen": "Whether she is pregnant or planning pregnancy unless the record says so, folic acid bought without a prescription, contraception, and why the antiepileptic is used.",
+  "ask_the_gp": "If pregnancy or pregnancy planning is confirmed, could we review folic acid 5 mg daily and the antiepileptic plan with the specialist? If folic acid was added to lamotrigine, could we check for worsening mental health and review the monitoring plan?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

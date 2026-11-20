@@ -1,0 +1,59 @@
+[
+  {
+    "file": "START-E4/pos-fact.csv",
+    "kind": "positive",
+    "about": "The record holds chronic kidney disease and a urine albumin excretion of 450 mg/24 hours (above 300), and no ACE inhibitor or ARB is supplied anywhere in the 9-month history.",
+    "findings": [
+      {
+        "criterion": "START-E4",
+        "must_cite": [
+          [
+            "L007"
+          ],
+          [
+            "L008"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-E4/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The record holds chronic kidney disease and a urine albumin excretion of 520 mg/24 hours, but irbesartan (Avapro, an ARB) is supplied every month from January to September 2026, so nothing is omitted.",
+    "findings": []
+  },
+  {
+    "file": "START-E4/pos-fact-spot.csv",
+    "kind": "positive",
+    "about": "The Australian review applies because chronic kidney disease is recorded, spot uACR was 42 mg/mmol on 10 February and 38 mg/mmol on 20 May 2026, and no ACE inhibitor or ARB was supplied in the final six months.",
+    "findings": [
+      {
+        "criterion": "START-E4",
+        "must_cite": [
+          [
+            "L007"
+          ],
+          [
+            "L008"
+          ],
+          [
+            "L025"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-E4/near-miss-zan-extra.csv",
+    "kind": "near_miss",
+    "about": "Chronic kidney disease and urine albumin of 520 mg/24 hours are recorded, and brand-only Zan-Extra supplies provide ACE inhibitor cover in the final six months.",
+    "findings": []
+  },
+  {
+    "file": "START-E4/near-miss-triasyn.csv",
+    "kind": "near_miss",
+    "about": "Chronic kidney disease and urine albumin of 520 mg/24 hours are recorded, and brand-only Triasyn supplies provide ACE inhibitor cover in the final six months.",
+    "findings": []
+  }
+]

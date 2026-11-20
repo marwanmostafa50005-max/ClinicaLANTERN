@@ -1,0 +1,66 @@
+[
+  {
+    "file": "STOPP-D18/pos-brand.csv",
+    "kind": "positive",
+    "about": "Aricept (donepezil) is started in March 2026 while Tenormin (atenolol) is supplied every month, both by brand name only.",
+    "findings": [
+      {
+        "criterion": "STOPP-D18",
+        "must_cite": [
+          [
+            "L006",
+            "L009",
+            "L012",
+            "L015",
+            "L019",
+            "L022",
+            "L026",
+            "L029",
+            "L032"
+          ],
+          [
+            "L001",
+            "L003",
+            "L007",
+            "L010",
+            "L013",
+            "L017",
+            "L020",
+            "L023",
+            "L027",
+            "L030"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-D18/pos-buried.csv",
+    "kind": "positive",
+    "about": "Rivastigmine patches (Exelon Patch) are supplied four times from December 2025 to March 2026, in the middle of a 14-month history, while digoxin (Lanoxin PG) is supplied throughout.",
+    "findings": [
+      {
+        "criterion": "STOPP-D18",
+        "must_cite": [
+          [
+            "L029",
+            "L035",
+            "L040",
+            "L045"
+          ],
+          [
+            "L018",
+            "L034",
+            "L050"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-D18/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Donepezil stopped on 6 January before metoprolol began on 13 January, and the later memory medicine is memantine.",
+    "findings": []
+  }
+]

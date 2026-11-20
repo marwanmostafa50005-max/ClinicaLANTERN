@@ -1,0 +1,173 @@
+{
+  "id": "OPTIMISE-T2-04",
+  "label": "OPTIMISE T2-04: statin in chronic kidney disease",
+  "family": "OPTIMISE",
+  "title": "Statin omission or higher-dose review in an adult with chronic kidney disease",
+  "statement": "Commence statin therapy (eg. atorvastatin 20 mg daily) for the primary and secondary prevention of CVD in adults with chronic kidney disease (CKD). Discuss the use of higher doses with a specialist in nephrology/cardiology if eGFR < 30 mL/min",
+  "statement_origin": "published",
+  "source": {
+    "document": "Carolan A, et al. OPTIMISE. BMC Psychiatry 2022;22:585, Tables 2-3",
+    "citation": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "doi": "10.1186/s12888-022-04235-0",
+    "url": "https://doi.org/10.1186/s12888-022-04235-0",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.3 candidate repairs, adopted conventions and independent-audit corrections merged with attribution). Not endorsed by the source authors."
+  },
+  "plain_summary": "In adults with chronic kidney disease, review an apparent statin omission. If current eGFR is below 30 mL/min/1.73 m², check whether nephrology or cardiology discussed a higher statin dose. Australian guidance differs for dialysis: Kidney Health Australia advises against starting a statin in a person on dialysis (CKD Management in Primary Care, 5th edition, 2024).",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Statins (cholesterol-lowering medicines)",
+      "ingredients": [
+        "atorvastatin",
+        "rosuvastatin",
+        "simvastatin",
+        "pravastatin",
+        "fluvastatin",
+        "pitavastatin"
+      ],
+      "brands": {
+        "atorvastatin": [
+          "Lipitor",
+          "Atozet",
+          "Atomed",
+          "Atorvachol",
+          "Atorvator",
+          "Atostat",
+          "Bansep",
+          "Chorit",
+          "Lorstat",
+          "Storvas",
+          "Tormed",
+          "Torvastat",
+          "Trovas",
+          "Caduet"
+        ],
+        "rosuvastatin": [
+          "Crestor",
+          "Rosuzet",
+          "Affora",
+          "Alphastat",
+          "Cavstat",
+          "Cisero",
+          "Crestabs",
+          "Crestat",
+          "Crestatin",
+          "Crosuva",
+          "Crosvar",
+          "Rostor",
+          "Rosuvacor",
+          "Visacor",
+          "Ezalo Composite Pack"
+        ],
+        "simvastatin": [
+          "Zocor",
+          "Lipex",
+          "Vytorin",
+          "Invast",
+          "Myvast",
+          "Ransim",
+          "Simvabell",
+          "Simvacor",
+          "Simvahexal",
+          "Simvar",
+          "Simvasyn",
+          "Simvatrust",
+          "Zimstat",
+          "Zimybe 10/10",
+          "Zimybe 10/20",
+          "Zimybe 10/40",
+          "Zimybe 10/80"
+        ],
+        "pravastatin": [
+          "Pravachol",
+          "Cholpra",
+          "Cholstat",
+          "Cholvastin",
+          "Lipostat",
+          "Liprachol",
+          "Pralect",
+          "Pratin",
+          "Prava",
+          "Pravaccord",
+          "Pravastat",
+          "Pravista",
+          "Redichol",
+          "Vastoran"
+        ],
+        "fluvastatin": [
+          "Lescol",
+          "Lescol XL",
+          "Vastin"
+        ],
+        "pitavastatin": [
+          "Livalo"
+        ]
+      },
+      "note": "Atozet is atorvastatin with ezetimibe. Rosuzet is rosuvastatin with ezetimibe. Ezalo Composite Pack contains rosuvastatin with ezetimibe. Vytorin is simvastatin with ezetimibe. Zimybe 10/10, Zimybe 10/20, Zimybe 10/40 and Zimybe 10/80 contain ezetimibe with simvastatin. Generic packs that show the ingredient name with a company name count too. Ezetimibe on its own is not a statin. Caduet contains amlodipine and atorvastatin. Count its atorvastatin component as a statin supply."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Chronic kidney disease",
+      "meets": "A condition line records chronic kidney disease, or eGFR results are below 60 mL/min/1.73 m2 on dates at least 3 months apart",
+      "ask_when": "always",
+      "close_when": {
+        "group": "A",
+        "months": 6
+      }
+    },
+    {
+      "kind": "result",
+      "what": "eGFR",
+      "meets": "For higher-dose review use a dated eGFR below 30 mL/min/1.73 m² relevant to the regimen."
+    },
+    {
+      "kind": "observation",
+      "what": "Nephrology or cardiology discussion of the higher statin dose",
+      "meets": "For a higher statin dose with eGFR below 30, confirmed lack of discussion meets this branch. A discussion with either specialty clears it. Not known leaves it possible.",
+      "options": [
+        {
+          "words": "This higher dose was not discussed",
+          "effect": "meets"
+        },
+        {
+          "words": "This higher dose was discussed with nephrology or cardiology",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Currently receiving dialysis",
+      "meets": "Current dialysis excludes this screen. Ask if dialysis status is uncertain and would change the decision.",
+      "options": [
+        {
+          "words": "Receiving dialysis at this review",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not receiving dialysis at this review",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply both statin checks to adults aged 18 or older with chronic kidney disease. A mental health diagnosis or an antipsychotic supply is not required, and an unknown mental health history does not lower the certainty of a kidney finding. For an adult aged 18 or older, report a finding when the record holds a condition line for chronic kidney disease (or eGFR results below 60 mL/min/1.73 m2 on dates at least 3 months apart) and no Group A medicine (any statin) is supplied anywhere in the history. Cite the chronic kidney disease condition line or the qualifying eGFR result lines. With no statin and no chronic kidney disease diagnosis, one eGFR below 60 mL/min/1.73 m2, or low results less than 3 months apart, supports only a possible finding. Cite the low eGFR result line and ask for the diagnosis or an earlier dated result. If the record holds no kidney disease line and no eGFR result below 60 mL/min/1.73 m2 (including when there is no kidney line at all, or when eGFR results are 60 or above), report no finding. If age is unknown, check whether the patient is 18 or older and give at most a possible finding when other evidence warrants review. For an adult aged 18 or older with chronic kidney disease, also review a proposed, initial or continuing higher statin dose when current eGFR is below 30 mL/min/1.73 m2. Cite the statin supply line showing the dose and the eGFR line. A change from a lower dose is neither required nor sufficient. If specialist advice about the higher dose is unknown, report a possible finding and ask whether nephrology or cardiology discussed it. If the record confirms no discussion, flag it for review and cite the line that confirms it. Work out the daily statin dose from strength times units per dose times doses per day, using only the statin component of a combination. The source gives atorvastatin 20 mg daily as an example starting regimen. It gives no equivalent cut-off for every statin. The pharmacist judges borderline doses for the particular statin. If relevant directions are unclear, ask for the daily dose and report at most a possible finding. If specialist advice is documented, there is no outstanding discussion to flag. If the record shows that the person is on dialysis, report no finding. For a possible finding, ask only what is missing: whether the patient has diagnosed chronic kidney disease, whether they currently receive dialysis, whether they take a statin supplied elsewhere, or (for a higher statin dose with eGFR below 30) whether nephrology or cardiology discussed the dose. Confirmed statin treatment elsewhere clears the missing-statin branch. When an answer denying chronic kidney disease conflicts with qualifying dated results, ask for clarification. If a possible finding needs a pharmacist answer, name only the missing facts that affect it. Use the recorded names \"Chronic kidney disease\", \"eGFR\", \"Currently receiving dialysis\" and \"Nephrology or cardiology discussion of the higher statin dose\" as applicable. If a higher-dose check lacks an eGFR result or a date linking it to the regimen, report only a possible finding naming \"eGFR\". If dialysis status is explicitly uncertain and would change a finding, report only a possible finding naming \"Currently receiving dialysis\".",
+  "cannot_be_seen": "The OPTIMISE tool was written for people with severe mental illness, which a dispensing record does not confirm. Kidney function if it was never recorded in the shared record. How long the kidney function has been low. Whether the person receives dialysis. Why no statin was used, and statins supplied elsewhere. Whether a specialist has set a dose limit when the eGFR is below 30.",
+  "ask_the_gp": "Whether a statin should be started, and whether a specialist should advise on the dose if the eGFR is below 30 mL/min/1.73 m2.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

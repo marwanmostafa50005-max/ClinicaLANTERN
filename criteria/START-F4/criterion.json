@@ -1,0 +1,80 @@
+{
+  "id": "START-F4",
+  "label": "START F4",
+  "family": "STOPP_START",
+  "title": "Fibre supplement for diverticulosis with a history of constipation",
+  "statement": "Fibre supplements (e.g., bran, ispaghula, methylcellulose, sterculia) for diverticulosis with a history of constipation.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A person with small pouches in the bowel wall (diverticulosis) who has had constipation should usually take a fibre supplement to keep the stool soft and easy to pass.",
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Diverticulosis",
+      "meets": "A diagnosis of diverticulosis or diverticular disease is confirmed. A negative answer rules this criterion out. An unknown answer leaves the diagnosis unconfirmed.",
+      "ask_when": "always",
+      "close_when": {
+        "group": "A"
+      }
+    },
+    {
+      "kind": "condition",
+      "what": "History of constipation",
+      "meets": "Current or past constipation is confirmed. An explicit negative answer rules out this criterion. With confirmed diverticulosis and no recent fibre supplement supply, an unknown history leaves a possible review."
+    }
+  ],
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Fibre supplements (medicines that meet this criterion)",
+      "ingredients": [
+        "ispaghula husk",
+        "methylcellulose",
+        "sterculia",
+        "wheat bran",
+        "wheat dextrin",
+        "psyllium husk powder"
+      ],
+      "brands": {
+        "ispaghula husk": [
+          "Metamucil",
+          "Konsyl",
+          "Fybogel"
+        ],
+        "methylcellulose": [
+          "Cologel"
+        ],
+        "sterculia": [
+          "Normacol",
+          "Normacol Plus"
+        ],
+        "wheat bran": [],
+        "wheat dextrin": [
+          "Benefiber",
+          "Benefiber On-The-Go"
+        ],
+        "psyllium husk powder": [
+          "Metamucil",
+          "Konsyl",
+          "Fybogel"
+        ]
+      },
+      "note": "Ispaghula husk is also called psyllium husk. Normacol Plus is sterculia with frangula, a stimulant. Bran sold as a food does not usually appear in a dispensing record. Osmotic laxatives such as macrogol and lactulose are not fibre supplements. Generic packs that show the ingredient name with a company name count too. No wheat bran brand is listed in this group."
+    }
+  ],
+  "rule_for_models": "Apply this check only to a person aged 65 or over. If age is unknown, establish eligibility before reporting an omission. Make no finding when the record documents a contraindication to the proposed treatment, another valid clinical reason for omitting it, or end-of-life care with a palliative focus. Suspect a finding when the record confirms both diverticulosis and current or past constipation, and no Group A medicine (a fibre supplement) was supplied in the last six months of the record; cite both lines. With diverticulosis recorded, no Group A supply in the last six months and an unknown history of constipation, report only a possible finding. Cite the diverticulosis line and ask whether the person has had constipation. Make no finding if diverticulosis is unconfirmed or a history of constipation is ruled out. If a Group A medicine was supplied in the last six months, there is no finding.",
+  "cannot_be_seen": "Fibre bought without a prescription, or fibre eaten in food. Also whether a fibre supplement was tried and stopped because of bloating or because it made the constipation worse, and whether a bowel blockage or narrowing rules fibre out.",
+  "ask_the_gp": "Whether a fibre supplement would help this person's bowel habit, and whether fluids and diet are adequate.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

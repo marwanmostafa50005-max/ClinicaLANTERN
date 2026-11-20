@@ -1,0 +1,47 @@
+[
+  {
+    "file": "CARETRACK-BRON25/pos-fact.csv",
+    "kind": "positive",
+    "about": "The antibiotic directions name bronchiolitis in a six-month-old infant with a dated diagnosis of mild viral bronchiolitis.",
+    "findings": [
+      {
+        "criterion": "CARETRACK-BRON25",
+        "must_cite": [
+          [
+            "L024"
+          ],
+          [
+            "L023"
+          ],
+          [
+            "L022"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CARETRACK-BRON25/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about \"Viral bronchiolitis\" confirming the viral diagnosis or its severity. The antibiotic directions name bronchiolitis and the infant is six months old.",
+    "findings": [
+      {
+        "criterion": "CARETRACK-BRON25",
+        "must_cite": [
+          [
+            "L023"
+          ],
+          [
+            "L022"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CARETRACK-BRON25/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The six-month-old infant had viral bronchiolitis of unrecorded severity, but the antibiotic treated otitis media.",
+    "findings": []
+  }
+]

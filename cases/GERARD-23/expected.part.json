@@ -1,0 +1,59 @@
+[
+  {
+    "file": "GERARD-23/pos-fact.csv",
+    "kind": "positive",
+    "about": "Serum creatinine rises from 80 to 120 micromol/L in seven days during sitagliptin treatment for type 2 diabetes.",
+    "findings": [
+      {
+        "criterion": "GERARD-23",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L042"
+          ],
+          [
+            "L043"
+          ],
+          [
+            "L045"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "GERARD-23/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about serum creatinine during sitagliptin treatment for type 2 diabetes.",
+    "findings": [
+      {
+        "criterion": "GERARD-23",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L002",
+            "L006",
+            "L009",
+            "L014",
+            "L017",
+            "L020",
+            "L024",
+            "L027",
+            "L030",
+            "L034"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "GERARD-23/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Serum creatinine rises from 80 to 119 micromol/L in seven days during sitagliptin treatment, just below 1.5 times the earlier value.",
+    "findings": []
+  }
+]

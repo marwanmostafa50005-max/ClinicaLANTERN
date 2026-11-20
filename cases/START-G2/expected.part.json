@@ -1,0 +1,57 @@
+[
+  {
+    "file": "START-G2/pos-fact.csv",
+    "kind": "positive",
+    "about": "The record shows COPD (GOLD 3), FEV1 42 percent of predicted and three flare-ups treated with prednisolone, with a long-acting inhaler but no inhaled corticosteroid at any time.",
+    "findings": [
+      {
+        "criterion": "START-G2",
+        "must_cite": [
+          [
+            "L001"
+          ],
+          [
+            "L002"
+          ],
+          [
+            "L048"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-G2/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about asthma, COPD, FEV1 or flare-ups, but a long-acting inhaler is supplied every month and three short prednisolone courses are supplied, with no inhaled corticosteroid.",
+    "findings": [
+      {
+        "criterion": "START-G2",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L010",
+            "L012",
+            "L016",
+            "L019",
+            "L024",
+            "L027",
+            "L030"
+          ],
+          [
+            "L008",
+            "L022",
+            "L034"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-G2/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The record shows COPD (GOLD 3), FEV1 41 percent and two flare-ups, and an inhaled corticosteroid with formoterol (Symbicort) is supplied every month up to the end, so nothing is missing.",
+    "findings": []
+  }
+]

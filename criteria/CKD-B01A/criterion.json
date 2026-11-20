@@ -1,0 +1,148 @@
+{
+  "id": "CKD-B01A",
+  "label": "CKD review: Review rivaroxaban 20 mg once daily for stroke prevention in non-valvular atrial fibrillation when CrCl is 15 to below 50 mL/min",
+  "family": "CKD",
+  "title": "Review rivaroxaban 20 mg once daily for stroke prevention in non-valvular atrial fibrillation in adult outpatients with established CKD off dialysis and CrCl 15 to below 50 mL/min",
+  "statement": "For an adult outpatient with established CKD who is off dialysis, review rivaroxaban 20 mg once daily for stroke prevention in non-valvular atrial fibrillation when CrCl is 15 to below 50 mL/min.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "A systematically collated library of prescribing safety indicators for people with chronic kidney disease",
+    "citation": "Smith F, Hayward S, Hole B, Kimpton G, Sluman C, Whiting P, Caskey F. BMC Nephrology. 2020;21:493.",
+    "doi": "10.1186/s12882-020-02158-0",
+    "url": "https://link.springer.com/article/10.1186/s12882-020-02158-0",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Smith F, Hayward S, Hole B, Kimpton G, Sluman C, Whiting P, Caskey F. A systematically collated library of prescribing safety indicators for people with chronic kidney disease. BMC Nephrology 2020;21:493. https://doi.org/10.1186/s12882-020-02158-0; Additional file 2 (Appendix 3), https://doi.org/10.6084/m9.figshare.13257677. © The Author(s) 2020, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Changes were made. Smith et al. compiled the CKD indicators. Original screening wording and Australian adaptations. Clinical cross-check: Xarelto Australian PI (https://www.safetyandquality.gov.au/medicine-finder/xarelto).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "Review rivaroxaban 20 mg once daily for stroke prevention in non-valvular atrial fibrillation in an adult outpatient with established CKD who is off dialysis and CrCl 15 to below 50 mL/min. Current use at 15 to 29 mL/min needs same-day review. Current use on dialysis or below 15 mL/min needs separate same-day review for a contraindication. A historical supply or missing value alone calls for clarification.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Oral rivaroxaban",
+      "ingredients": [
+        "rivaroxaban"
+      ],
+      "brands": {
+        "rivaroxaban": [
+          "APO-Rivaroxaban",
+          "ARX-Rivaroxaban 20",
+          "Blooms The Chemist Rivaroxaban",
+          "RIVAXIB",
+          "Rivarelto",
+          "Rivaroxaban Dr.Reddy's",
+          "Rivaroxaban Lupin",
+          "Rivaroxaban Sandoz",
+          "Rivaroxaban-Teva",
+          "Rivoxa",
+          "TROXA",
+          "XAREMED",
+          "Xarelto",
+          "iXarola",
+          "Relaban",
+          "Rivalembic",
+          "Rivator",
+          "Rivaxotor",
+          "Roxabic",
+          "Roxalem",
+          "Roxator",
+          "Toriva"
+        ]
+      },
+      "note": "Count oral rivaroxaban only. Multiply strength by the amount taken at one dose and check that the directions specify once daily."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Chronic kidney disease",
+      "meets": "Was chronic kidney disease established at outpatient supply?",
+      "options": [
+        {
+          "words": "CKD was established by the supply date",
+          "effect": "meets"
+        },
+        {
+          "words": "CKD was absent at the supply date",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "CKD is known now but its timing is unclear",
+          "effect": "unknown"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Dialysis at the rivaroxaban supply",
+      "meets": "Off dialysis at the supply date. Dialysis excludes this dose band and calls for a separate contraindication review if exposure is current.",
+      "options": [
+        {
+          "words": "Off dialysis at this supply",
+          "effect": "meets"
+        },
+        {
+          "words": "On dialysis at this supply",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "condition",
+      "what": "Reason for rivaroxaban",
+      "meets": "Does the record link rivaroxaban to stroke prevention in non-valvular atrial fibrillation?",
+      "options": [
+        {
+          "words": "Stroke prevention in non-valvular atrial fibrillation",
+          "effect": "meets"
+        },
+        {
+          "words": "Another indication",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "result",
+      "what": "Creatinine clearance (unindexed, mL/min)",
+      "meets": "Use dated unindexed CrCl of 15 to below 50 mL/min applicable at supply. Confirm the result date and kidney stability separately. A typed value with no verified date or an indexed eGFR cannot establish the band. Accept a validated Cockcroft-Gault calculation with contemporaneous age, sex, weight and serum creatinine and a documented weight basis."
+    },
+    {
+      "kind": "observation",
+      "what": "Kidney function stability at the rivaroxaban supply",
+      "meets": "Kidney function was documented as stable at this supply. A clearance value or a recent illness alone does not establish stability or a change. If stability is uncertain or kidney function was changing, keep a potentially eligible exposure open for clinical assessment. Verify the clearance measurement date separately.",
+      "options": [
+        {
+          "words": "Documented stable",
+          "effect": "meets"
+        },
+        {
+          "words": "Documented changing",
+          "effect": "unknown"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "For an adult outpatient aged 18 years or older with established CKD off dialysis, flag oral rivaroxaban 20 mg once daily for stroke prevention in non-valvular atrial fibrillation if stable unindexed CrCl at supply is 15 to below 50 mL/min. Cite the regimen, indication, CKD, dialysis evidence, dated clearance and documentation of stability at supply. Verify the clearance measurement date separately. Use dated evidence for dialysis and kidney stability at each supply. An undated answer alone cannot establish either status at a specific supply. A number or a recent illness alone does not establish stable or changing kidney function. If kidney function was changing or its stability is uncertain, report only a possible finding when the exposure could qualify. Report no dose-band finding for a known exclusion, including dialysis or a stable applicable CrCl below 15 or at least 50 mL/min. Current use on dialysis or below 15 mL/min needs separate same-day contraindication review. Otherwise report a possible finding if missing eligibility, regimen, kidney stability, result date or clearance could change this decision. Name each gap. If the applicable value or its measurement date is missing, name \"Creatinine clearance (unindexed, mL/min)\". If stability or dialysis status is unresolved, name \"Kidney function stability at the rivaroxaban supply\" or \"Dialysis at the rivaroxaban supply\" as applicable.",
+  "cannot_be_seen": "Dispensing does not establish the dose taken. Kidney results obtained elsewhere, their units and their timing may be missing.",
+  "ask_the_gp": "Could you review rivaroxaban 20 mg once daily for stroke prevention in non-valvular atrial fibrillation against current unindexed creatinine clearance?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "file": "PROMPT-CN-6/pos-brand.csv",
+    "kind": "positive",
+    "about": "MS Contin (morphine, a strong opioid) is supplied eight times from December 2025 to June 2026, by brand name only, and no laxative is supplied anywhere in the record.",
+    "findings": [
+      {
+        "criterion": "PROMPT-CN-6",
+        "must_cite": [
+          [
+            "L003",
+            "L005",
+            "L009",
+            "L013",
+            "L017",
+            "L021",
+            "L025",
+            "L029"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PROMPT-CN-6/pos-buried.csv",
+    "kind": "positive",
+    "about": "Oxycodone (OxyContin) is supplied three times from January to March 2026, in the middle of a 15-month history, and no laxative is supplied anywhere in the record.",
+    "findings": [
+      {
+        "criterion": "PROMPT-CN-6",
+        "must_cite": [
+          [
+            "L032",
+            "L036",
+            "L040"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PROMPT-CN-6/near-miss.csv",
+    "kind": "near_miss",
+    "about": "MS Contin (morphine) is supplied eight times and a laxative (Movicol, macrogol) is supplied on the same days every time, so it must not flag.",
+    "findings": []
+  }
+]

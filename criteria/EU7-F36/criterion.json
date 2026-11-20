@@ -1,0 +1,60 @@
+{
+  "id": "EU7-F36",
+  "label": "EU(7)-PIM: verapamil and diltiazem",
+  "family": "EU7",
+  "title": "Verapamil and diltiazem",
+  "statement": "The 2015 list flags oral verapamil and diltiazem for review in older people because they can slow the pulse and worsen constipation. It suggests alternative blood pressure medicines for verapamil used for hypertension. When either drug is used for atrial fibrillation, review the rate-control plan, pulse, symptoms and ventricular function before considering a change.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Reworded in plain words by ClinicaLANTERN from the source table rows. Not endorsed by the source authors."
+  },
+  "plain_summary": "Verapamil and diltiazem can worsen constipation and slow the heart too much in older people.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Verapamil and diltiazem",
+      "ingredients": [
+        "verapamil",
+        "diltiazem"
+      ],
+      "brands": {
+        "verapamil": [
+          "Isoptin",
+          "Isoptin SR",
+          "Anpec",
+          "Anpec SR",
+          "Cordilox SR",
+          "Veracaps SR",
+          "Tarka"
+        ],
+        "diltiazem": [
+          "Cardizem",
+          "Cardizem CD",
+          "Vasocardol",
+          "Vasocardol CD",
+          "Diltahexal",
+          "Diltahexal CD",
+          "Dilzem",
+          "Dilzem CD",
+          "Coras",
+          "Danzem",
+          "Ditatem"
+        ]
+      },
+      "note": "All oral forms count, immediate-release and sustained-release. Amlodipine, felodipine and nifedipine are not in this group. Generic packs that show the ingredient name with a company name count too. Count an oral combination that contains verapamil or diltiazem."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when the person is aged 65 or older and at least one Group A medicine (verapamil or diltiazem, by mouth) is supplied. If age is missing and the supply otherwise qualifies, report only a possible finding and ask the pharmacist to confirm whether the person is 65 or older. A recorded age below 65 gives no finding.",
+  "cannot_be_seen": "Why it was prescribed (for example angina, a heart rhythm problem or blood pressure), the person's heart rate, and whether they have constipation.",
+  "ask_the_gp": "Could we review the indication, pulse, constipation and symptoms? If the medicine is used for atrial fibrillation, could we review the rate-control plan and ventricular function before considering a change?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

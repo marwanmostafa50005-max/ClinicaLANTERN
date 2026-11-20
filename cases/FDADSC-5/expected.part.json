@@ -1,0 +1,44 @@
+[
+  {
+    "file": "FDADSC-5/pos-brand.csv",
+    "kind": "positive",
+    "about": "Lyrica and Endone appear by brand only on the same date, which is a concurrent gabapentinoid and opioid supply.",
+    "findings": [
+      {
+        "criterion": "FDADSC-5",
+        "must_cite": [
+          [
+            "L020"
+          ],
+          [
+            "L021"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "FDADSC-5/pos-buried.csv",
+    "kind": "positive",
+    "about": "Neurontin and Temaze are supplied together in the middle of a 15-month history, which is a gabapentinoid and benzodiazepine pair.",
+    "findings": [
+      {
+        "criterion": "FDADSC-5",
+        "must_cite": [
+          [
+            "L051"
+          ],
+          [
+            "L052"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "FDADSC-5/near-miss.csv",
+    "kind": "near_miss",
+    "about": "A 45-year-old has pregabalin alone, with no opioid, benzodiazepine, Z-drug, other CNS depressant or COPD row.",
+    "findings": []
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "file": "BRISNIK-HR-J1/pos-fact.csv",
+    "kind": "positive",
+    "about": "Agomelatine is supplied every four weeks from July 2025, an ALT of 22 U/L before it started is followed by 148 U/L on 20 April 2026 (more than four times the upper limit of 35 U/L).",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-J1",
+        "must_cite": [
+          [
+            "L045"
+          ],
+          [
+            "L046"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-J1/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about ALT, AST or any liver enzyme anywhere; agomelatine is supplied every four weeks.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-J1",
+        "must_cite": [
+          [
+            "L005",
+            "L007",
+            "L011",
+            "L014",
+            "L018",
+            "L021",
+            "L024",
+            "L028",
+            "L032",
+            "L035",
+            "L039"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-J1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Agomelatine is supplied every four weeks and the ALT on 3 March 2026 is 62 U/L, about 1.8 times the upper limit of 35 U/L, which is raised but not more than three times, so the criterion is not met.",
+    "findings": []
+  }
+]

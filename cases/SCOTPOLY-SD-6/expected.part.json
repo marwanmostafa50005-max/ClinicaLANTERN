@@ -1,0 +1,59 @@
+[
+  {
+    "file": "SCOTPOLY-SD-6/pos-brand.csv",
+    "kind": "positive",
+    "about": "Inspra was supplied recently and the patient reports a current dehydrating illness.",
+    "findings": [
+      {
+        "criterion": "SCOTPOLY-SD-6",
+        "must_cite": [
+          [
+            "L033"
+          ],
+          [
+            "L035"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "SCOTPOLY-SD-6/pos-buried.csv",
+    "kind": "positive",
+    "about": "A recent spironolactone supply appears among other medicines and the patient reports a current febrile illness with reduced fluid intake.",
+    "findings": [
+      {
+        "criterion": "SCOTPOLY-SD-6",
+        "must_cite": [
+          [
+            "L020"
+          ],
+          [
+            "L032"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "SCOTPOLY-SD-6/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The patient reports a current dehydrating illness but the only eplerenone supply was more than six months earlier.",
+    "findings": []
+  },
+  {
+    "file": "SCOTPOLY-SD-6/pos-nofact.csv",
+    "kind": "positive",
+    "about": "A possible finding: the record holds no line about Current dehydrating illness after the recent Inspra supply.",
+    "findings": [
+      {
+        "criterion": "SCOTPOLY-SD-6",
+        "must_cite": [
+          [
+            "L033"
+          ]
+        ]
+      }
+    ]
+  }
+]

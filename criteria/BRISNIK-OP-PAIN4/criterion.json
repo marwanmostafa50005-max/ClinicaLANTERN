@@ -1,0 +1,288 @@
+{
+  "id": "BRISNIK-OP-PAIN4",
+  "label": "Brisnik OP-PAIN4",
+  "family": "BRISNIK",
+  "title": "Antidepressant for non-specific low back pain",
+  "statement": "Prescribed any antidepressant for non-specific low back pain - and the patient has no other indications for an antidepressant",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Any antidepressant used only for low back pain with no clear cause, when the person has no other reason to take an antidepressant, may not be helping.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antidepressants",
+      "ingredients": [
+        "citalopram",
+        "escitalopram",
+        "fluoxetine",
+        "fluvoxamine",
+        "paroxetine",
+        "sertraline",
+        "venlafaxine",
+        "desvenlafaxine",
+        "duloxetine",
+        "amitriptyline",
+        "nortriptyline",
+        "imipramine",
+        "clomipramine",
+        "dosulepin",
+        "doxepin",
+        "trimipramine",
+        "mirtazapine",
+        "mianserin",
+        "moclobemide",
+        "phenelzine",
+        "tranylcypromine",
+        "agomelatine",
+        "vortioxetine",
+        "reboxetine"
+      ],
+      "brands": {
+        "citalopram": [
+          "Cipramil",
+          "Celapram",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talam",
+          "Talohexal"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam",
+          "Loxalate"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Zactin",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Paxtine",
+          "Aropax CR",
+          "Extine",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ],
+        "sertraline": [
+          "Zoloft",
+          "Concorz",
+          "Detralon",
+          "Eleva",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Setrona",
+          "Tralen",
+          "Xydep"
+        ],
+        "venlafaxine": [
+          "Efexor-XR",
+          "Altven",
+          "Elaxine SR",
+          "Enlafax-XR",
+          "Enlafax XR",
+          "Evelexa XR",
+          "Ozvenaf",
+          "Venfax SR",
+          "Venla",
+          "Venlexor XR"
+        ],
+        "desvenlafaxine": [
+          "Pristiq",
+          "Desfax",
+          "Desven"
+        ],
+        "duloxetine": [
+          "Cymbalta",
+          "Andepra",
+          "Baltine",
+          "Coperin",
+          "Deotine",
+          "Depreta",
+          "Drulox",
+          "Dulocym",
+          "Duloxecor",
+          "Dytrex",
+          "Symlox",
+          "Texotine",
+          "Tixol",
+          "Xerol DR"
+        ],
+        "amitriptyline": [
+          "Endep",
+          "Tryptanol",
+          "Amichlor",
+          "Amidep",
+          "Entrip"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "dosulepin": [
+          "Prothiaden",
+          "Dothep"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ],
+        "mirtazapine": [
+          "Avanza",
+          "Remeron",
+          "Mirtazon",
+          "Aurozapine",
+          "Avanza Soltab",
+          "Axit",
+          "Milivin OD",
+          "Mirtanza",
+          "Mirtanza ODT",
+          "Remeron Soltab"
+        ],
+        "mianserin": [
+          "Lumin",
+          "Tolvon"
+        ],
+        "moclobemide": [
+          "Aurorix",
+          "Clobemix",
+          "Amira",
+          "Arima",
+          "Clobemide",
+          "Maosig",
+          "Mohexal"
+        ],
+        "phenelzine": [
+          "Nardil"
+        ],
+        "tranylcypromine": [
+          "Parnate",
+          "Parpromine",
+          "Tranamef",
+          "Tranylmed"
+        ],
+        "agomelatine": [
+          "Valdoxan",
+          "Domion",
+          "Nortim",
+          "Valomel"
+        ],
+        "vortioxetine": [
+          "Brintellix"
+        ],
+        "reboxetine": [
+          "Edronax"
+        ]
+      },
+      "note": "Every antidepressant counts, including the older tricyclic antidepressants at low doses. A bupropion supply for smoking cessation does not count as treatment for back pain. For a combination product, check the recorded ingredients and treatment indication before counting it. Enlafax-XR may appear as Enlafax XR on older records."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Non-specific low back pain treated with this antidepressant",
+      "meets": "The record or pharmacist links this antidepressant to low back pain with no identified cause. A back pain diagnosis alone leaves the purpose open. A different sole purpose rules this out.",
+      "ask_when": {
+        "group": "A"
+      },
+      "options": [
+        {
+          "words": "This antidepressant treats low back pain with no identified cause",
+          "effect": "meets"
+        },
+        {
+          "words": "This antidepressant is used only for another purpose",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "condition",
+      "what": "Another current antidepressant indication besides non-specific low back pain",
+      "meets": "A review confirms there is no other current indication for an antidepressant besides non-specific low back pain. Any documented current alternative indication rules out the finding. If this has not been assessed, the answer is unknown.",
+      "options": [
+        {
+          "words": "No other current indication besides non-specific low back pain was found on review",
+          "effect": "meets"
+        },
+        {
+          "words": "Another current indication besides non-specific low back pain was confirmed",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Require a Group A antidepressant supply. Confirm only when an entry links that medicine to non-specific low back pain and a review confirms no other current antidepressant indication. Any documented current alternative indication or use solely for another purpose excludes a finding. With a back pain entry or pharmacist answer suggesting non-specific low back pain, report a possible finding if the medicine link or the indication review is unresolved. Name only the unresolved facts: \"Non-specific low back pain treated with this antidepressant\" if the medicine link is unclear, and \"Another current antidepressant indication besides non-specific low back pain\" if the review is missing or inconclusive. Cite the supply and supporting entries. An antidepressant supply alone gives no finding.",
+  "cannot_be_seen": "Why the antidepressant was started, whether the back pain has a known cause, and any reason for an antidepressant that the record does not hold. Also medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "What is the antidepressant being used for? If it is for non-specific low back pain, could we review its benefit, adverse effects and any other indication?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

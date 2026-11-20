@@ -1,0 +1,44 @@
+[
+  {
+    "file": "EU7-F35/pos-brand.csv",
+    "kind": "positive",
+    "about": "Addos XR (sustained-release nifedipine) is supplied five times from March to July 2026 for a woman aged 75, by brand name only.",
+    "findings": [
+      {
+        "criterion": "EU7-F35",
+        "must_cite": [
+          [
+            "L007",
+            "L012",
+            "L016",
+            "L020",
+            "L023"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F35/pos-buried.csv",
+    "kind": "positive",
+    "about": "Nifedipine (APO-Nifedipine XR) is supplied three times in the middle of a 14-month history for a man aged 68.",
+    "findings": [
+      {
+        "criterion": "EU7-F35",
+        "must_cite": [
+          [
+            "L028",
+            "L033",
+            "L037"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F35/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Plendil ER (felodipine, a similar calcium channel blocker) is supplied monthly. It is not on the list, so nothing must flag.",
+    "findings": []
+  }
+]

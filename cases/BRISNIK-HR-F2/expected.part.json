@@ -1,0 +1,61 @@
+[
+  {
+    "file": "BRISNIK-HR-F2/pos-brand.csv",
+    "kind": "positive",
+    "about": "A 72-year-old is supplied Zoloft (sertraline, an SSRI) every month from March 2026 together with Plavix (clopidogrel, an antiplatelet) and Eliquis (apixaban, an anticoagulant), all by brand name only.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-F2",
+        "must_cite": [
+          [
+            "L013",
+            "L017",
+            "L022"
+          ],
+          [
+            "L012",
+            "L016",
+            "L021"
+          ],
+          [
+            "L011",
+            "L015",
+            "L020"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-F2/pos-buried.csv",
+    "kind": "positive",
+    "about": "At age 69, the patient has supplies of venlafaxine and clopidogrel alongside Aspro Clear Extra Strength for pain, which counts once in the NSAID group even with pantoprazole supplied.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-F2",
+        "must_cite": [
+          [
+            "L027",
+            "L032",
+            "L037"
+          ],
+          [
+            "L028",
+            "L033",
+            "L038"
+          ],
+          [
+            "L031",
+            "L036"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-F2/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The record shows sertraline with aspirin for clot prevention in a 74-year-old, so aspirin counts once and only the antiplatelet group is present.",
+    "findings": []
+  }
+]

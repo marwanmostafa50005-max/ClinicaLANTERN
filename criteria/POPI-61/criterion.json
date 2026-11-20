@@ -1,0 +1,133 @@
+{
+  "id": "POPI-61",
+  "label": "POPI: a listed antiseizure medicine in a child with myoclonic epilepsy",
+  "family": "POPI",
+  "title": "A listed antiseizure medicine in a child with myoclonic epilepsy",
+  "statement": "Carbamazepine, gabapentin, oxcarbazepine, phenytoin, pregabalin, tiagabine, or vigabatrin in the case of myoclonic epilepsy",
+  "statement_origin": "published",
+  "source": {
+    "document": "International consensus validation of the POPI tool (Pediatrics: Omission of Prescriptions and Inappropriate prescriptions) to identify inappropriate prescribing in pediatrics",
+    "citation": "Sadozai L, Sable S, Le Roux E, et al. International consensus validation of the POPI tool (Pediatrics: Omission of Prescriptions and Inappropriate prescriptions) to identify inappropriate prescribing in pediatrics. PLOS ONE. 2020;15(10):e0240105.",
+    "doi": "10.1371/journal.pone.0240105",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0240105",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "© 2020 Sadozai et al. Table 2, International consensus validation of the POPI tool. PLOS ONE 15(10), e0240105. https://doi.org/10.1371/journal.pone.0240105. CC BY 4.0.",
+    "modification_notice": "Table 2 wording is reproduced unchanged. The record rules, medicine mappings and fictional examples are local adaptations."
+  },
+  "plain_summary": "POPI flags any of seven medicines when a child has myoclonic epilepsy.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Seven antiseizure medicines",
+      "ingredients": [
+        "carbamazepine",
+        "gabapentin",
+        "oxcarbazepine",
+        "phenytoin",
+        "pregabalin",
+        "tiagabine",
+        "vigabatrin",
+        "phenytoin sodium"
+      ],
+      "brands": {
+        "carbamazepine": [
+          "Tegretol",
+          "Avloire",
+          "Avloire CR",
+          "Tegretol CR",
+          "Teril"
+        ],
+        "gabapentin": [
+          "Neurontin",
+          "Gabaccord",
+          "Gabacor",
+          "Gabahexal",
+          "Gabalep",
+          "Gabalex",
+          "Gabapen",
+          "Gabaran",
+          "Gabatine",
+          "Gantin",
+          "Gapentin",
+          "Mipentine",
+          "Nupentin",
+          "Nupentin Tab",
+          "Pendine"
+        ],
+        "oxcarbazepine": [
+          "Trileptal"
+        ],
+        "phenytoin": [
+          "Dilantin Paediatric Suspension",
+          "Dilantin",
+          "Dilantin Infatabs"
+        ],
+        "pregabalin": [
+          "Lyrica",
+          "Adimis",
+          "Adirag",
+          "Adiris",
+          "Adrabalin",
+          "Adranuro",
+          "Adraprega",
+          "Algerika",
+          "Brillior",
+          "Cipgablin",
+          "Gabrica",
+          "Lypralin",
+          "Lyraccord",
+          "Lyrica CR",
+          "Lyrigalin",
+          "Lyrilin",
+          "Lyzalon",
+          "Neurica",
+          "Neuroccord",
+          "Prebalin",
+          "Pregabica",
+          "Pregaciplin",
+          "Pregaredi",
+          "Prelinaccord",
+          "Sudorega"
+        ],
+        "tiagabine": [
+          "Gabitril"
+        ],
+        "vigabatrin": [
+          "Sabril"
+        ],
+        "phenytoin sodium": [
+          "Dilantin"
+        ]
+      },
+      "note": "Any one of these seven ingredients counts. Dilantin capsules contain phenytoin sodium. Dilantin Infatabs and Dilantin Paediatric Suspension contain phenytoin."
+    }
+  ],
+  "rule_for_models": "At age 18 or older, give no finding. If age is unknown and a listed medicine is supplied without evidence ruling out myoclonic epilepsy, report only a possible finding and ask for age and any missing epilepsy subtype. In a patient under 18 with documented myoclonic epilepsy, cite the diagnosis line and the supply of any Group A antiseizure medicine during that illness, but if a listed medicine is supplied and the subtype is unknown, report a possible finding and ask whether the child has myoclonic epilepsy, and if myoclonic epilepsy is ruled out at supply, give no finding.",
+  "cannot_be_seen": "Supply alone cannot establish the epilepsy subtype, whether the medicine was taken or how well seizures are controlled.",
+  "ask_the_gp": "Could you confirm the seizure diagnosis and review whether this medicine suits the child’s seizure type?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Myoclonic epilepsy",
+      "meets": "The diagnosis applies on the supply date. Isolated jerks do not establish this diagnosis.",
+      "options": [
+        {
+          "words": "Myoclonic epilepsy was diagnosed and present when this medicine was supplied",
+          "effect": "meets"
+        },
+        {
+          "words": "The child did not have myoclonic epilepsy when this medicine was supplied",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

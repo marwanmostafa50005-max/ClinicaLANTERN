@@ -1,0 +1,38 @@
+{
+  "id": "EU7-F20",
+  "label": "EU(7)-PIM: dabigatran, rivaroxaban, apixaban",
+  "family": "EU7",
+  "title": "Dabigatran, rivaroxaban or apixaban in an older person",
+  "statement": "The EU(7)-PIM list names dabigatran, rivaroxaban and apixaban as potentially inappropriate medicines for older people. The reasons given are limited information on their use and on bleeding in older adults, a risk of bleeding events, and no reversal agent in case of overdose. For rivaroxaban the list adds that bleeding may be more likely when kidney failure is severe. For dabigatran the experts on the list suggest a lower dose above age 75 and when creatinine clearance is 30 to 50 mL/min, and say it is contraindicated when creatinine clearance is below 30 mL/min. For rivaroxaban the list suggests a lower dose above age 65, and no use when creatinine clearance is below 30 mL/min. The list states no alternative.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Statement written by the entrant in plain words from three rows of the source table. Dose notes that the source marks as taken from Micromedex are left out, and the dose figures printed for dabigatran are not repeated. The authors have not reviewed this wording."
+  },
+  "plain_summary": "Dabigatran, rivaroxaban and apixaban are blood thinners that the EU(7)-PIM list of 2015 regards as potentially inappropriate for an older person, because of the risk of bleeding and the limited information on their use in older adults at that time.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Dabigatran, rivaroxaban and apixaban",
+      "ingredients": ["dabigatran", "rivaroxaban", "apixaban"],
+      "brands": {
+        "dabigatran": ["Pradaxa"],
+        "rivaroxaban": ["Xarelto", "Ixarola", "Rivoxa", "Relaban", "Rivalembic", "Rivarelto", "Rivator", "Rivaxib", "Rivaxotor", "Roxabic", "Roxalem", "Roxator", "Toriva", "Troxa", "Xaremed"],
+        "apixaban": ["Eliquis", "Alexibic", "Apexa", "Apixor", "Axibic", "Elapex"]
+      },
+      "note": "Dabigatran may be shown as dabigatran etexilate. Warfarin, heparin and enoxaparin are not in this group. Edoxaban is not named in the source and is not in this group. Antiplatelet medicines such as aspirin and clopidogrel are not anticoagulants. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when a Group A medicine (dabigatran, rivaroxaban or apixaban) is supplied at least once to a person aged 65 or older, or to a person whose age is not shown. One supply is enough, at any strength. Warfarin, heparin and enoxaparin do not count.",
+  "cannot_be_seen": "Why the anticoagulant was started, for example atrial fibrillation or a blood clot, and how long it is meant to continue. Also kidney function, body weight, any past bleeding, whether the dose was chosen for the patient's age and kidney function, and medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "Whether the anticoagulant and its dose still suit the patient's age, weight and kidney function, and when kidney function was last checked.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

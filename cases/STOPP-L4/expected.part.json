@@ -1,0 +1,51 @@
+[
+  {
+    "file": "STOPP-L4/pos-fact.csv",
+    "kind": "positive",
+    "about": "The record links the supplied lidocaine patch to treatment of chronic knee osteoarthritis pain.",
+    "findings": [
+      {
+        "criterion": "STOPP-L4",
+        "must_cite": [
+          [
+            "L023",
+            "L027",
+            "L031",
+            "L035",
+            "L039",
+            "L043"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-L4/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about the pain condition the patch is used for. A 5% lignocaine patch is supplied six times from December 2025 to May 2026.",
+    "findings": [
+      {
+        "criterion": "STOPP-L4",
+        "must_cite": [
+          [
+            "L012",
+            "L016",
+            "L020",
+            "L024",
+            "L028",
+            "L032"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-L4/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The lidocaine patch was supplied for postherpetic neuralgia.",
+    "findings": []
+  }
+]

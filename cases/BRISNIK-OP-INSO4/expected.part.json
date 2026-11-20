@@ -1,0 +1,51 @@
+[
+  {
+    "file": "BRISNIK-OP-INSO4/pos-fact.csv",
+    "kind": "positive",
+    "about": "The record documents mirtazapine at 15 mg daily for 90 days for insomnia with no other current indication for an antidepressant.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-INSO4",
+        "must_cite": [
+          [
+            "L022"
+          ],
+          [
+            "L023",
+            "L027",
+            "L031"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-INSO4/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: repeat mirtazapine supplies extend beyond eight weeks. The record does not say whether it was prescribed for insomnia or whether there was another current indication for an antidepressant.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-INSO4",
+        "must_cite": [
+          [
+            "L002",
+            "L006",
+            "L009",
+            "L012",
+            "L016",
+            "L019",
+            "L022",
+            "L026",
+            "L029"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-INSO4/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Amitriptyline 25 mg at night is supplied for about 8 months, and the record identifies depression as a current indication for antidepressant treatment.",
+    "findings": []
+  }
+]

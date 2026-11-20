@@ -1,0 +1,72 @@
+{
+  "id": "STOPP-I2",
+  "label": "STOPP I2: bladder antimuscarinic with narrow-angle glaucoma",
+  "family": "STOPP_START",
+  "title": "Bladder antimuscarinic with narrow-angle glaucoma",
+  "statement": "Systemic antimuscarinic drugs (e.g., oxybutynin, tolterodine, trospium) with narrow-angle glaucoma (risk of acute exacerbation of glaucoma).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Bladder antimuscarinic medicines such as oxybutynin, tolterodine and trospium can bring on an attack of narrow-angle glaucoma.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Bladder antimuscarinic medicines (taken by mouth or as a patch)",
+      "ingredients": [
+        "oxybutynin",
+        "tolterodine",
+        "solifenacin",
+        "darifenacin",
+        "fesoterodine",
+        "trospium",
+        "propantheline"
+      ],
+      "brands": {
+        "oxybutynin": [
+          "Ditropan",
+          "Oxytrol"
+        ],
+        "tolterodine": [
+          "Detrusitol"
+        ],
+        "solifenacin": [
+          "Vesicare",
+          "Solicare",
+          "Vesifen",
+          "Solicare ODT",
+          "Vesican ODT"
+        ],
+        "darifenacin": [
+          "Enablex"
+        ],
+        "fesoterodine": [],
+        "trospium": [],
+        "propantheline": [
+          "Pro-Banthine"
+        ]
+      },
+      "note": "Tablets, capsules, liquids and skin patches count. Eye drops and inhalers do not. No Australian brand is listed for fesoterodine or trospium, so a history may show only the ingredient name. Other medicines with antimuscarinic action, such as tricyclic antidepressants, are not in this group. Mirabegron is not an antimuscarinic. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Angle-closure glaucoma",
+      "meets": "A condition line that names narrow-angle (angle-closure) glaucoma"
+    }
+  ],
+  "rule_for_models": "Apply only to people aged 65 years or older. If age is unknown and the other criteria are met, report age as missing and leave the finding unconfirmed. Suspect a finding when a Group A medicine (a bladder antimuscarinic) is supplied and the record also holds a line showing narrow-angle glaucoma; cite the supply lines and that condition line. With a Group A supply, report a possible finding if glaucoma status or angle type is missing or unknown. Cite the supply and any relevant glaucoma line. There is no finding if narrow-angle glaucoma is ruled out or the only recorded type is open-angle glaucoma.",
+  "cannot_be_seen": "Whether the person has glaucoma and which type when the record has no condition line, and whether the eye has had treatment that lowers the risk. Eye drops alone do not show the type of glaucoma.",
+  "ask_the_gp": "Whether the person has narrow-angle glaucoma and, if so, whether the bladder antimuscarinic should continue, or an eye specialist should be asked.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,49 @@
+[
+  {
+    "file": "STOPP-K7/pos-fact.csv",
+    "kind": "positive",
+    "about": "Tramal SR (tramadol, an opioid) is supplied five times from January 2026 to May 2026, with a laxative alongside, and the record holds a line of 4 falls in the past 12 months.",
+    "findings": [
+      {
+        "criterion": "STOPP-K7",
+        "must_cite": [
+          [
+            "L023",
+            "L028",
+            "L033",
+            "L038",
+            "L043"
+          ],
+          [
+            "L021"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-K7/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about Recurrent falls. Targin (oxycodone with naloxone, an opioid) is supplied five times from December 2025 to April 2026.",
+    "findings": [
+      {
+        "criterion": "STOPP-K7",
+        "must_cite": [
+          [
+            "L012",
+            "L017",
+            "L022",
+            "L027",
+            "L032"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-K7/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Norspan (buprenorphine, an opioid) is supplied four times from December 2025 to March 2026, but the record shows 0 falls in the past 12 months and no diagnosis of recurrent falls.",
+    "findings": []
+  }
+]

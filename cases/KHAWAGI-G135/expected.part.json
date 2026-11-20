@@ -1,0 +1,79 @@
+[
+  {
+    "file": "KHAWAGI-G135/pos-fact.csv",
+    "kind": "positive",
+    "about": "Four scheduled ingredients overlap for 112 days, and the assessment records lamotrigine for mood stabilisation.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G135",
+        "must_cite": [
+          [
+            "L018",
+            "L027",
+            "L034",
+            "L040"
+          ],
+          [
+            "L019",
+            "L028",
+            "L035",
+            "L041"
+          ],
+          [
+            "L020",
+            "L032"
+          ],
+          [
+            "L021",
+            "L026",
+            "L033",
+            "L039"
+          ],
+          [
+            "L022"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G135/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about the psychiatric indication for lamotrigine, the fourth concurrent medicine.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G135",
+        "must_cite": [
+          [
+            "L006",
+            "L014",
+            "L019",
+            "L024"
+          ],
+          [
+            "L007",
+            "L015",
+            "L020",
+            "L025"
+          ],
+          [
+            "L008",
+            "L017"
+          ],
+          [
+            "L009",
+            "L013",
+            "L018",
+            "L023"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G135/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Lamotrigine is documented for epilepsy alone, leaving three psychiatric ingredients.",
+    "findings": []
+  }
+]

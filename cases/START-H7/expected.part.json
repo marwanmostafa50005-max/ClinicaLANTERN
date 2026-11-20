@@ -1,0 +1,50 @@
+[
+  {
+    "file": "START-H7/pos-brand.csv",
+    "kind": "positive",
+    "about": "The clinic records that Terrosa stopped on 10 March 2026 with no follow-on anti-resorptive treatment given or arranged in the record.",
+    "findings": [
+      {
+        "criterion": "START-H7",
+        "must_cite": [
+          [
+            "L033"
+          ],
+          [
+            "L036"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-H7/pos-buried.csv",
+    "kind": "positive",
+    "about": "The gap from the last teriparatide supply on 24 March to the final record date on 27 October suggests a possible stop with no follow-on treatment recorded.",
+    "findings": [
+      {
+        "criterion": "START-H7",
+        "must_cite": [
+          [
+            "L042"
+          ],
+          [
+            "L067"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-H7/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Teriparatide (Terrosa) is still being supplied every 28 days, the last pack on 24 March 2026 being only 11 days before the end of the history, so the treatment has not stopped.",
+    "findings": []
+  },
+  {
+    "file": "START-H7/near-miss-raloxifene.csv",
+    "kind": "near_miss",
+    "about": "The clinic documented completion of teriparatide and raloxifene follow-on treatment for postmenopausal osteoporosis on 21 April, when raloxifene was supplied.",
+    "findings": []
+  }
+]

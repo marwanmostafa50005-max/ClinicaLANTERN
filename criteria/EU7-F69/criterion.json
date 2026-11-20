@@ -1,0 +1,68 @@
+{
+  "id": "EU7-F69",
+  "label": "EU(7)-PIM: zopiclone, zolpidem, zaleplon",
+  "family": "EU7",
+  "title": "Sleeping medicine above the EU(7)-PIM review threshold",
+  "statement": "Zopiclone (>3.75 mg/d) | In lists: 1, 4, 5, 6 (A); 5 (B) | Main reason: Risk of falls and hip fracture, prolonged reaction time, psychiatric reactions (which can be paradoxical, e.g. agitation, irritability, hallucinations, psychosis), cognitive impairment and depression | Dose adjustment/special considerations: Use the lowest possible dose, up to half of the usual dose, taper in and out, shortest possible duration of treatment. P | Alternatives: Non-pharmacological treatment; mirtazapine[d]; passiflora, low doses of short-acting benzodiazepines such as lormetazepam (≤0.5 mg/d), brotizolam (≤0.125 mg/d); zolpidem (≤5 mg/d), zopiclon (≤3.75 mg/d), zaleplon (≤5 mg/d); trazodone. E, P || Zolpidem (>5 mg/d) | In lists: 1, 4, 5, 6 (A); 5 (B) | Main reason: Risk of falls and hip fracture, prolonged reaction time, psychiatric reactions (which can be paradoxical, e.g. agitation, irritability, hallucinations, psychosis), cognitive impairment and depression | Dose adjustment/special considerations: Use the lowest possible dose, up to half of the usual dose, taper in and out, shortest possible duration of treatment. P | Alternatives: Non-pharmacological treatment; mirtazapine[d]; passiflora, low doses of short-acting benzodiazepines such as lormetazepam (≤0.5 mg/d), brotizolam (≤0.125 mg/d); zolpidem (≤5 mg/d), zopiclon (≤3.75 mg/d), zaleplon (≤5 mg/d); trazodone. E, P || Zaleplone (>5 mg/d) | In lists: 3, 4, 5, 6 (A); 5 (B) | Main reason: Risk of falls and hip fracture, prolonged reaction time, psychiatric reactions (which can be paradoxical, e.g. agitation, irritability, hallucinations, psychosis), cognitive impairment and depression | Dose adjustment/special considerations: Use the lowest possible dose, up to half of the usual dose, taper in and out, shortest possible duration of treatment. P | Alternatives: Non-pharmacological treatment; mirtazapine[d]; passiflora, low doses of short-acting benzodiazepines such as lormetazepam (≤0.5 mg/d), brotizolam (≤0.125 mg/d); zolpidem (≤5 mg/d), zopiclon (≤3.75 mg/d), zaleplon (≤5 mg/d); trazodone. E, P",
+  "statement_origin": "published",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Text reproduced from the published table rows without changes."
+  },
+  "plain_summary": "The sleeping tablets zopiclone, zolpidem and zaleplon can cause falls, hip fracture and confusion in people aged 65 or over, so the list sets a lower daily dose limit for each. Australian guidance differs: older people can start zopiclone at 3.75 mg and increase to a maximum of 7.5 mg at night if needed (Imovane product information, 2026).",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Zopiclone, only above 3.75 mg a day",
+      "ingredients": [
+        "zopiclone"
+      ],
+      "brands": {
+        "zopiclone": [
+          "Imovane",
+          "Imrest",
+          "Cloipca",
+          "Imoclone",
+          "Ipclone",
+          "Zstar",
+          "Ztab"
+        ]
+      },
+      "note": "Zopiclone counts only when the daily dose is above 3.75 mg. The usual Australian tablet is 7.5 mg, so one whole tablet a day is above the limit. Half a tablet (3.75 mg) is not above it."
+    },
+    {
+      "key": "B",
+      "name": "Zolpidem and zaleplon, only above 5 mg a day",
+      "ingredients": [
+        "zolpidem",
+        "zaleplon"
+      ],
+      "brands": {
+        "zolpidem": [
+          "Stilnox",
+          "Stilnox CR",
+          "Dormizol",
+          "Dormizol CR",
+          "Somidem",
+          "Stildem",
+          "Stilnoxium CR",
+          "Zolpibell"
+        ],
+        "zaleplon": []
+      },
+      "note": "Zolpidem and zaleplon count only when the daily dose is above 5 mg. A whole 10 mg zolpidem tablet is above the limit. Half of a 10 mg tablet (5 mg) is not above it. Slow-release Stilnox CR tablets come as 6.25 mg and 12.5 mg. Zaleplon has no Australian brand listed."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when the person is aged 65 or over and the daily dose is above the limit: zopiclone (Group A) above 3.75 mg a day, or zolpidem or zaleplon (Group B) above 5 mg a day. If age is unknown and the dose exceeds or may exceed the relevant limit, report only a possible finding and ask the pharmacist to confirm whether the person is at least 65. Work out the daily dose as the strength, times the tablets in one dose (half a tablet counts as half), times the doses a day, using the directions. For a range, calculate the lowest and highest daily totals the directions allow. If the highest is at or below the limit, report no finding. If age is confirmed as 65 or older and the lowest scheduled daily total exceeds the limit, report a finding. If the range crosses the limit, no daily dose can be worked out, or use is when needed and could exceed the limit, report only a possible finding and ask how much is taken in a day. Give a known upper bound as a maximum, never as actual use.",
+  "cannot_be_seen": "Why it was started, how often it is really taken, and how long it has been taken before the record starts. Also whether the tablet is really halved, and medicines supplied by another pharmacy.",
+  "ask_the_gp": "A review of whether the sleeping tablet is still needed, whether a lower dose or a non-medicine approach is possible, and a check of falls risk.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

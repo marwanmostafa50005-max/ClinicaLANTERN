@@ -1,0 +1,53 @@
+[
+  {
+    "file": "CKD-A02B/pos-fact.csv",
+    "kind": "positive",
+    "about": "During duodenal ulcer maintenance at a creatinine clearance of 42 mL/min, nizatidine 150 mg was supplied daily instead of every two days.",
+    "findings": [
+      {
+        "criterion": "CKD-A02B",
+        "must_cite": [
+          [
+            "L002"
+          ],
+          [
+            "L044"
+          ],
+          [
+            "L045"
+          ],
+          [
+            "L046"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CKD-A02B/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about creatinine clearance for nizatidine 150 mg twice daily during active ulcer treatment.",
+    "findings": [
+      {
+        "criterion": "CKD-A02B",
+        "must_cite": [
+          [
+            "L002"
+          ],
+          [
+            "L032"
+          ],
+          [
+            "L033"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CKD-A02B/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Nizatidine 150 mg daily for active ulcer treatment matches the regimen at a creatinine clearance of 50 mL/min.",
+    "findings": []
+  }
+]

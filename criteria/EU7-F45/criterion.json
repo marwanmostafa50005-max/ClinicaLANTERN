@@ -1,0 +1,42 @@
+{
+  "id": "EU7-F45",
+  "label": "EU(7)-PIM: colchicine",
+  "family": "EU7",
+  "title": "Colchicine in an older person",
+  "statement": "The EU(7)-PIM list names colchicine as potentially inappropriate in older people because the risk of toxic effects is higher, particularly when the kidneys, the gut or the heart are already diseased. The 2015 list suggests a lower dose after age 70 and in renal impairment. Australian Colgout product information calls for individual dose review in older people and lists severe renal impairment as a contraindication. Ibuprofen or naproxen for a short time are listed as alternatives.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "The statement is written in ClinicaLANTERN's own plain words from the published table row, because part of the row text comes from a third party (Micromedex) whose reuse rights are not settled. Not endorsed by the source authors. Earlier project notice: Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.2 candidate repairs and adopted conventions merged with attribution). Not endorsed by the source authors."
+  },
+  "plain_summary": "Colchicine is more likely to cause toxic effects in older people, especially when the kidneys, gut or heart are already affected.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Colchicine",
+      "ingredients": [
+        "colchicine"
+      ],
+      "brands": {
+        "colchicine": [
+          "Colgout",
+          "Colcine",
+          "Lengout"
+        ]
+      },
+      "note": "Tablets count. Generic packs may show the ingredient name, spelt colchicine."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when colchicine (Group A) is supplied to a person aged 65 or older. One supply is enough. If the other criteria could be met and age is unknown, report only a possible finding and ask the pharmacist to confirm whether the person is 65 or older. Ask for an individual dose review from age 65. Mention the extra age caution from the 2015 list only if the person is over 70. Documented kidney impairment also calls for dose review. If severe kidney impairment is documented with current colchicine use, flag the contraindication for prompt prescriber review.",
+  "cannot_be_seen": "Kidney, gut and heart disease, the reason for treatment (a gout flare or prevention), the dose really taken, and medicines that raise colchicine levels bought elsewhere.",
+  "ask_the_gp": "Whether colchicine is still needed, whether the dose is suitable for the person's age and kidney function, and whether an alternative would do.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

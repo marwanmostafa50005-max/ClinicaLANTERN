@@ -1,0 +1,44 @@
+[
+  {
+    "file": "MHRA-9/pos-brand.csv",
+    "kind": "positive",
+    "about": "Zocor resumes on 7 May while the seven-day Klacid course that began on 5 May is still in progress.",
+    "findings": [
+      {
+        "criterion": "MHRA-9",
+        "must_cite": [
+          [
+            "L017"
+          ],
+          [
+            "L018"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "MHRA-9/pos-buried.csv",
+    "kind": "positive",
+    "about": "The March hospital chart records intravenous erythromycin during Vytorin treatment in the middle of the 16-month history.",
+    "findings": [
+      {
+        "criterion": "MHRA-9",
+        "must_cite": [
+          [
+            "L037"
+          ],
+          [
+            "L038"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "MHRA-9/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The May course was roxithromycin, and the patient withheld Zocor throughout the August Klacid course.",
+    "findings": []
+  }
+]

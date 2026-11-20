@@ -1,0 +1,47 @@
+[
+  {
+    "file": "DREISCHULTE-69/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about the reason for methotrexate treatment, so cite both tablet strengths and ask which condition is being treated.",
+    "findings": [
+      {
+        "criterion": "DREISCHULTE-69",
+        "must_cite": [
+          [
+            "L030"
+          ],
+          [
+            "L031"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "DREISCHULTE-69/pos-fact.csv",
+    "kind": "positive",
+    "about": "The record links both weekly methotrexate tablet strengths to treatment for rheumatoid arthritis.",
+    "findings": [
+      {
+        "criterion": "DREISCHULTE-69",
+        "must_cite": [
+          [
+            "L038"
+          ],
+          [
+            "L039"
+          ],
+          [
+            "L037"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "DREISCHULTE-69/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The 10 mg tablets replace a completed four-week course of 2.5 mg tablets at the same weekly dose.",
+    "findings": []
+  }
+]

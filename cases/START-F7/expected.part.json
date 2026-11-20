@@ -1,0 +1,63 @@
+[
+  {
+    "file": "START-F7/pos-fact.csv",
+    "kind": "positive",
+    "about": "The record holds active peptic ulcer disease and a positive Helicobacter pylori urea breath test. Pantoprazole is supplied every month, but no eradication therapy (no antibiotics) is supplied anywhere.",
+    "findings": [
+      {
+        "criterion": "START-F7",
+        "must_cite": [
+          [
+            "L005"
+          ],
+          [
+            "L006"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-F7/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: Ulcyte (sucralfate) is supplied in March and April 2026 and no eradication therapy is supplied. The record lacks \"Active peptic ulcer disease\" and \"Evidence of current Helicobacter pylori infection with this active ulcer\".",
+    "findings": [
+      {
+        "criterion": "START-F7",
+        "must_cite": [
+          [
+            "L007",
+            "L011"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-F7/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The record holds active peptic ulcer disease and a positive Helicobacter pylori urea breath test, and Nexium Hp7 (an eradication pack) is supplied on 12 March 2026, so nothing is omitted.",
+    "findings": []
+  },
+  {
+    "file": "START-F7/pos-negative-breath-test.csv",
+    "kind": "positive",
+    "about": "Possible finding because the patient took pantoprazole on the morning of a negative urea breath test, an active ulcer is documented and no eradication course is recorded. The unresolved fact is \"Evidence of current Helicobacter pylori infection with this active ulcer\".",
+    "findings": [
+      {
+        "criterion": "START-F7",
+        "must_cite": [
+          [
+            "L005"
+          ],
+          [
+            "L006"
+          ],
+          [
+            "L007"
+          ]
+        ]
+      }
+    ]
+  }
+]

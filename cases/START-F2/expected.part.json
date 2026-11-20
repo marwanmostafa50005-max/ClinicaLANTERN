@@ -1,0 +1,44 @@
+[
+  {
+    "file": "START-F2/pos-fact.csv",
+    "kind": "positive",
+    "about": "A short 300 mg aspirin course for pain precedes the first 100 mg daily supply on 20 May 2026. No proton pump inhibitor covers that start. A later note records a peptic ulcer diagnosed in 2024.",
+    "findings": [
+      {
+        "criterion": "START-F2",
+        "must_cite": [
+          [
+            "L025"
+          ],
+          [
+            "L026"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-F2/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The record holds previous reflux oesophagitis and low-dose aspirin is started in May 2026, but pantoprazole (Somac, a proton pump inhibitor) is supplied from two weeks before the aspirin and every month after, so nothing is omitted.",
+    "findings": []
+  },
+  {
+    "file": "START-F2/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about a previous peptic ulcer or reflux oesophagitis. The seven-day Nexium Hp7 supply suggests a past ulcer. Its course ended before the first low-dose aspirin supply on 3 June 2026. No proton pump inhibitor covers that start.",
+    "findings": [
+      {
+        "criterion": "START-F2",
+        "must_cite": [
+          [
+            "L019"
+          ],
+          [
+            "L003"
+          ]
+        ]
+      }
+    ]
+  }
+]

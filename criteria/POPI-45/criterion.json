@@ -1,0 +1,75 @@
+{
+  "id": "POPI-45",
+  "label": "POPI: oral isotretinoin and a tetracycline antibiotic used together",
+  "family": "POPI",
+  "title": "Oral isotretinoin and a tetracycline antibiotic used together",
+  "statement": "Isotretinoin in combination with a member of the tetracycline family of antibiotics",
+  "statement_origin": "published",
+  "source": {
+    "document": "International consensus validation of the POPI tool (2020), Table 2",
+    "citation": "Sadozai L, Sable S, Le Roux E, et al. International consensus validation of the POPI tool (Pediatrics: Omission of Prescriptions and Inappropriate prescriptions) to identify inappropriate prescribing in pediatrics. PLOS ONE. 2020;15(10):e0240105.",
+    "doi": "10.1371/journal.pone.0240105",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0240105",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "© 2020 Sadozai et al. Table 2, International consensus validation of the POPI tool. PLOS ONE 15(10), e0240105. https://doi.org/10.1371/journal.pone.0240105. CC BY 4.0.",
+    "modification_notice": "The published item is reproduced unchanged. The Australian medicine examples, screening rule and fictional histories are local additions."
+  },
+  "plain_summary": "POPI flags overlapping courses of oral isotretinoin and a systemic tetracycline antibiotic in a child or adolescent.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Oral isotretinoin",
+      "ingredients": [
+        "isotretinoin"
+      ],
+      "brands": {
+        "isotretinoin": [
+          "Roaccutane",
+          "Dermatane",
+          "Isohexal",
+          "Oratane",
+          "Rocta"
+        ]
+      },
+      "note": "Count oral isotretinoin regardless of indication. Exclude topical preparations."
+    },
+    {
+      "key": "B",
+      "name": "Systemic tetracycline antibiotics",
+      "ingredients": [
+        "doxycycline",
+        "minocycline",
+        "tetracycline"
+      ],
+      "brands": {
+        "doxycycline": [
+          "Doryx",
+          "Doxiris",
+          "Doxsig",
+          "Doxy",
+          "Doxy Acne Pack",
+          "Doxyhexal",
+          "Doxylin",
+          "Frakas",
+          "Vibra-Tabs",
+          "Vibramycin"
+        ],
+        "minocycline": [
+          "Minomycin",
+          "Akamin"
+        ],
+        "tetracycline": [
+          "Achromycin"
+        ]
+      },
+      "note": "These are Australian examples of the antibiotic family."
+    }
+  ],
+  "rule_for_models": "Flag Group A oral isotretinoin and a Group B systemic tetracycline antibiotic when the prescribed courses overlap in a patient under 18 years, regardless of indication, and cite a supply of each. Age 18 or older excludes this item even when overlap is uncertain. If age is missing and the remaining evidence could qualify, report only a possible finding and ask for age and any other unresolved facts. Use start dates, directions, quantities and course lengths to establish overlap. If supplies are within 60 days and unclear directions leave overlap possible, report only a possible finding and ask the pharmacist to check the daily dose and dates each course was active. A completed antibiotic course before isotretinoin starts gives no finding even when the supply dates fall within 60 days of each other.",
+  "cannot_be_seen": "The record cannot show whether the child took both medicines or a prescriber changed a start or stop date elsewhere.",
+  "ask_the_gp": "Could you check today whether both courses are active, given the risk of raised intracranial pressure?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

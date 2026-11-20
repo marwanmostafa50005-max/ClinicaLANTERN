@@ -1,0 +1,63 @@
+{
+  "id": "EU7-F14",
+  "label": "EU7-F14",
+  "family": "EU7",
+  "title": "Glibenclamide or another listed sulfonylurea in an older person",
+  "statement": "In a person aged 65 years or older, review a supply of glibenclamide, chlorpropamide, carbutamide, glipizide or glimepiride because low blood sugar can persist.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "The entrant summarised five EU(7)-PIM rows in original words and omitted the third-party dosing notes."
+  },
+  "plain_summary": "Glibenclamide and some related diabetes tablets can cause low blood sugar that lasts a long time in older people.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Sulfonylureas named in the list",
+      "ingredients": [
+        "glibenclamide",
+        "glipizide",
+        "glimepiride",
+        "chlorpropamide",
+        "carbutamide"
+      ],
+      "brands": {
+        "glibenclamide": [
+          "Daonil",
+          "Semi-Daonil",
+          "Glimel",
+          "Glucovance",
+          "Diavance"
+        ],
+        "glipizide": [
+          "Minidiab",
+          "Melizide"
+        ],
+        "glimepiride": [
+          "Amaryl",
+          "Dimirel",
+          "Aylide",
+          "Diapride",
+          "Glimaccord",
+          "Glimepro",
+          "Gliride"
+        ],
+        "chlorpropamide": [],
+        "carbutamide": []
+      },
+      "note": "Glucovance and Diavance are glibenclamide with metformin. Gliclazide (for example Diamicron, Glyade, Nidem) is not on this list and does not count. Chlorpropamide and carbutamide are named in the source but are not sold in Australia."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when even one Group A medicine is supplied, at any dose, to a patient aged 65 years or over. If age is missing and the other requirements are met, report only a possible finding and ask for the patient's age. Do not flag a patient under 65, and do not count gliclazide.",
+  "cannot_be_seen": "Use any dated kidney function, blood glucose or HbA1c result and any documented episode of low blood sugar. If these details are missing, dispensing alone cannot establish them. It also cannot establish use before the history starts or whether doses were taken.",
+  "ask_the_gp": "Whether this sulfonylurea is still the best choice at the patient's age, taking account of kidney function and any episodes of low blood sugar.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "file": "DREISCHULTE-75/pos-fact.csv",
+    "kind": "positive",
+    "about": "After a treatment interruption, the latest azathioprine supply was on 2026-10-19 and the checked pathology reports put the last completed full blood count 91 days earlier.",
+    "findings": [
+      {
+        "criterion": "DREISCHULTE-75",
+        "must_cite": [
+          [
+            "L045"
+          ],
+          [
+            "L046"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "DREISCHULTE-75/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line confirming whether a full blood count was completed on the latest azathioprine supply date or in the preceding 84 days.",
+    "findings": [
+      {
+        "criterion": "DREISCHULTE-75",
+        "must_cite": [
+          [
+            "L026"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "DREISCHULTE-75/near-miss.csv",
+    "kind": "near_miss",
+    "about": "A completed full blood count 70 days before the latest azathioprine supply falls inside the published 12-week window.",
+    "findings": []
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "file": "SCOTNTI-BZ-LT8/pos-brand.csv",
+    "kind": "positive",
+    "about": "A fictional adult aged 29 has four consecutive Temaze 10 mg supplies (quantity 25 nightly, 100 days total), shown by brand only.",
+    "findings": [
+      {
+        "criterion": "SCOTNTI-BZ-LT8",
+        "must_cite": [
+          [
+            "L007",
+            "L009"
+          ],
+          [
+            "L013",
+            "L016"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "SCOTNTI-BZ-LT8/pos-buried.csv",
+    "kind": "positive",
+    "about": "A fictional adult aged 40 has eight consecutive fortnightly Imovane 7.5 mg supplies (quantity 14 nightly, 112 days total) buried in a long history.",
+    "findings": [
+      {
+        "criterion": "SCOTNTI-BZ-LT8",
+        "must_cite": [
+          [
+            "L026",
+            "L031",
+            "L032",
+            "L036"
+          ],
+          [
+            "L037",
+            "L042",
+            "L043",
+            "L047"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "SCOTNTI-BZ-LT8/near-miss.csv",
+    "kind": "near_miss",
+    "about": "A fictional adult aged 34 receives a single short-term 10-day supply of Temaze 10 mg (quantity 10, one at night for 10 nights), cleanly under 8 weeks.",
+    "findings": []
+  }
+]

@@ -1,0 +1,148 @@
+{
+  "id": "START-E3",
+  "label": "START E3",
+  "family": "STOPP_START",
+  "title": "No erythropoietin analogue for severe kidney disease with anaemia",
+  "statement": "Erythopoietin analogue in severe chronic kidney disease (i.e., eGFR < 30 ml/min/m²) with symptomatic anaemia not attributable to haematinic or iron deficiency to achieve a haemoglobin concentration of 10.0 to 12.0 g/dl.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A person with severe kidney disease and tiring anaemia that iron or vitamin shortage does not explain is not being supplied an erythropoietin injection. The source prints ml/min/m², which this screen interprets as the Australian laboratory unit for indexed eGFR, mL/min/1.73 m². START gives a treatment target of 100 to 120 g/L. The dialysis initiation range in this screen is 90 to 100 g/L. Off dialysis the kidney team assesses whether treatment is appropriate.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Medicines that meet this criterion: erythropoietin analogues",
+      "ingredients": [
+        "epoetin alfa",
+        "epoetin beta",
+        "epoetin lambda",
+        "darbepoetin alfa",
+        "methoxy polyethylene glycol-epoetin beta"
+      ],
+      "brands": {
+        "epoetin alfa": [
+          "Eprex"
+        ],
+        "epoetin beta": [
+          "NeoRecormon"
+        ],
+        "epoetin lambda": [
+          "Aczicrit",
+          "Grandicrit",
+          "Novicrit"
+        ],
+        "darbepoetin alfa": [
+          "Aranesp",
+          "Angevour",
+          "Aranesp Sureclick"
+        ],
+        "methoxy polyethylene glycol-epoetin beta": [
+          "Mircera"
+        ]
+      },
+      "note": "These medicines are injections. A supply of any listed brand in the review period counts as an ESA supply."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "eGFR",
+      "meets": "below 30 mL/min/1.73 m2"
+    },
+    {
+      "kind": "result",
+      "what": "Haemoglobin",
+      "meets": "A recorded haemoglobin for individual review. On maintenance dialysis, assess it against the person's initiation threshold in the 90 to 100 g/L range. Off dialysis, assess symptoms, transfusion risk and ESA risks and benefits. The published treatment target is 100 to 120 g/L. A value in or above it does not by itself support an omission."
+    },
+    {
+      "kind": "condition",
+      "what": "Symptomatic anaemia due to chronic kidney disease",
+      "meets": "recorded as present",
+      "ask_when": "always",
+      "close_when": {
+        "group": "A"
+      }
+    },
+    {
+      "kind": "observation",
+      "what": "Assessment of iron, vitamin B12 and folate as causes of the anaemia",
+      "meets": "A documented assessment or interpretable results rule out iron, vitamin B12 and folate deficiency as the cause of the anaemia. A confirmed explanatory deficiency closes review. An incomplete assessment or an unknown answer leaves only a possible review.",
+      "options": [
+        {
+          "words": "All three have been assessed and no deficiency explains the anaemia",
+          "effect": "meets"
+        },
+        {
+          "words": "Iron, vitamin B12 or folate deficiency explains the anaemia",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Assessment incomplete or conclusion unknown",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "condition",
+      "what": "Current maintenance dialysis",
+      "meets": "Yes selects the maintenance dialysis pathway. No selects the pathway for a person off maintenance dialysis. Either answer leaves the treatment decision to the other evidence. If dialysis status is unknown, eligibility remains unconfirmed."
+    },
+    {
+      "kind": "observation",
+      "what": "Kidney team assessment of starting an ESA for this anaemia",
+      "meets": "Use the documented kidney team assessment. Off dialysis it takes account of symptoms, transfusion risk and the risks and benefits of an ESA. An unknown plan leaves the decision open.",
+      "options": [
+        {
+          "words": "The assessment supports considering an ESA",
+          "effect": "meets"
+        },
+        {
+          "words": "The plan defers or rules out an ESA",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "result",
+      "what": "Personal haemoglobin threshold for starting an ESA on maintenance dialysis",
+      "meets": "Enter the personal initiation threshold in g/L from the dialysis plan, with the plan date if known. Compare measured haemoglobin with the threshold as written. A missing threshold leaves the review possible at 100 g/L or below."
+    },
+    {
+      "kind": "observation",
+      "what": "ESA injections provided by a hospital or kidney clinic in the last six months of the record",
+      "meets": "Clarify outside supply only during an otherwise eligible possible review when ESA cover is uncertain. A negative answer resolves hospital or clinic supply only.",
+      "options": [
+        {
+          "words": "An ESA was provided in that period",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "No ESA was provided there in that period",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this criterion only to people aged 65 years or older. If age is unknown, confirm it before reporting a finding. Make no finding if the record documents an end-of-life palliative focus or a valid clinical reason to omit ESA treatment, including a contraindication. Report a supported finding only when eGFR is below 30 mL/min/1.73 m², symptomatic renal anaemia is documented and no Group A erythropoiesis-stimulating agent (ESA) was supplied in the last six months counted back from the latest date in the record. A Group A supply in that period or a documented iron or other haematinic deficiency that explains the anaemia closes the screen. Accept a dated clinical assessment or results that rule out iron, vitamin B12 and folate deficiency as the cause of the anaemia. If the work-up is incomplete or uncertain, report only a possible review and name \"Assessment of iron, vitamin B12 and folate as causes of the anaemia\". With recorded symptomatic renal anaemia, no known disqualifying result and a missing haemoglobin or eGFR, report at most a possible review naming \"Haemoglobin\" or \"eGFR\", whichever is missing. A documented kidney team decision to defer or avoid ESA treatment closes the omission check. Use dialysis status to select the pathway. Status alone cannot establish that an ESA is indicated. On maintenance dialysis, compare the measured haemoglobin with the documented personal initiation threshold in the 90 to 100 g/L range. Apply the initiation threshold as the individual plan states it. At exactly 100 g/L, a supported review requires explicit support from that plan and all other eligibility facts. The 100 to 120 g/L treatment target is not an initiation threshold. Without a documented threshold, report only a possible review at 100 g/L or below when the other criteria are met. Name the missing fact \"Personal haemoglobin threshold for starting an ESA on maintenance dialysis\" and ask the kidney team to clarify the plan. Above 100 g/L, do not infer an omission from the dialysis range. Off dialysis, if haemoglobin is below the published target, ask for individual review of symptoms, transfusion risk and ESA risks and benefits. If the kidney team's assessment is missing, report only a possible review and name \"Kidney team assessment of starting an ESA for this anaemia\". A haemoglobin already in or above the published 100 to 120 g/L target does not by itself support an omission at any dialysis status. If dialysis status is unknown, report only a possible review and name \"Current maintenance dialysis\". Use an existing renal plan or assessment even if recorded under an earlier question name. Only in an otherwise eligible possible review, if ESA cover remains unclear and no qualifying supply is recorded, name \"ESA injections provided by a hospital or kidney clinic in the last six months of the record\". Confirmed clinic or hospital treatment in that period closes the omission. A negative reply settles only outside supply. An unknown reply leaves coverage unresolved. Check the renal plan and missing results with the treating team. Supplies alone cannot start this check. Without documented symptomatic renal anaemia, make no finding. An absent ESA supply alone is insufficient. Cite the eGFR, haemoglobin, symptomatic renal anaemia, dialysis status and assessment of haematinic causes when available, and cite the kidney team assessment or personal threshold when it supports the review.",
+  "cannot_be_seen": "The latest haemoglobin, eGFR and iron results if they are not in the record, whether the person is on dialysis, whether the kidney team gives the injection in a hospital or clinic, and whether one was tried and stopped.",
+  "ask_the_gp": "Whether treatment of the anaemia with an erythropoietin analogue should be reviewed, after the iron and vitamin results are checked.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

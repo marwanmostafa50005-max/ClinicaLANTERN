@@ -1,0 +1,50 @@
+[
+  {
+    "file": "CKD-C10B/pos-fact.csv",
+    "kind": "positive",
+    "about": "A single combination tablet supplies 40 mg of simvastatin daily at eGFR 56.",
+    "findings": [
+      {
+        "criterion": "CKD-C10B",
+        "must_cite": [
+          [
+            "L045"
+          ],
+          [
+            "L042"
+          ],
+          [
+            "L043"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CKD-C10B/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: CKD and eGFR qualify, but the Vytorin directions omit the prescribed number of tablets and the daily simvastatin dose is unknown.",
+    "findings": [
+      {
+        "criterion": "CKD-C10B",
+        "must_cite": [
+          [
+            "L032"
+          ],
+          [
+            "L029"
+          ],
+          [
+            "L033"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CKD-C10B/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The tablet supplies 40 mg of simvastatin daily and eGFR is exactly 60.",
+    "findings": []
+  }
+]

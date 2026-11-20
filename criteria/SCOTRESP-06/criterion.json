@@ -1,0 +1,158 @@
+{
+  "id": "SCOTRESP-06",
+  "label": "SCOTRESP: a long-acting beta agonist without an inhaled corticosteroid in asthma",
+  "family": "SCOTRESP",
+  "title": "A long-acting beta agonist without an inhaled corticosteroid in asthma",
+  "statement": "Patients prescribed long acting beta-agonist (LABA) without inhaled corticosteroid (ICS)",
+  "statement_origin": "published",
+  "source": {
+    "document": "Quality prescribing strategy for respiratory conditions in Scotland: improving patient care and promoting environmental sustainability",
+    "citation": "Kennedy E, Vint K, Mair A, et al. International Journal of Pharmacy Practice. 2025;33(5):534-540.",
+    "doi": "10.1093/ijpp/riaf054",
+    "url": "https://academic.oup.com/ijpp/article/33/5/534/8191719",
+    "licence": "UK Open Government Licence v3.0",
+    "licence_status": "proposed",
+    "credit": "© Crown copyright 2025. Scottish Government, Effective Prescribing and Therapeutics. Kennedy E, Vint K, Mair A, et al., Table 1. Contains public sector information licensed under the Open Government Licence v3.0.",
+    "modification_notice": "Table 1 wording reproduced unchanged. The Australian screening rule and fictional histories are adaptations."
+  },
+  "plain_summary": "In someone with asthma, check for a long-acting beta agonist inhaler supplied without an inhaled corticosteroid on the same date or within 60 days either side.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Inhaled long-acting beta agonists",
+      "ingredients": [
+        "salmeterol",
+        "formoterol",
+        "indacaterol",
+        "olodaterol",
+        "vilanterol"
+      ],
+      "brands": {
+        "salmeterol": [
+          "Serevent Accuhaler",
+          "Seretide Accuhaler",
+          "Fluticasone Salmeterol Ciphaler",
+          "Pavtide Accuhaler",
+          "Salflumix Easyhaler",
+          "SalplusF DPI",
+          "Serevent",
+          "Serevent Disks"
+        ],
+        "formoterol": [
+          "DuoResp Spiromax",
+          "Symbicort Turbuhaler",
+          "Rilast Turbuhaler",
+          "Bufomix Easyhaler",
+          "Trimbow",
+          "Oxis",
+          "Oxis Turbuhaler",
+          "Foradile",
+          "Brimica Genuair"
+        ],
+        "indacaterol": [
+          "Onbrez Breezhaler",
+          "Enerzair Breezhaler",
+          "Ultibro Breezhaler"
+        ],
+        "olodaterol": [
+          "Spiolto Respimat",
+          "Striverdi Respimat"
+        ],
+        "vilanterol": [
+          "Trelegy Ellipta",
+          "Anoro Ellipta"
+        ]
+      },
+      "note": "Formoterol also appears as eformoterol on older labels. A long-acting muscarinic antagonist in the same device does not supply a corticosteroid."
+    },
+    {
+      "key": "B",
+      "name": "Inhaled corticosteroid inhalers",
+      "ingredients": [
+        "beclometasone dipropionate",
+        "budesonide",
+        "ciclesonide",
+        "fluticasone propionate",
+        "fluticasone furoate",
+        "mometasone furoate",
+        "beclometasone",
+        "mometasone",
+        "fluticasone"
+      ],
+      "brands": {
+        "beclometasone dipropionate": [
+          "Qvar",
+          "Trimbow",
+          "Fostair"
+        ],
+        "budesonide": [
+          "Pulmicort Turbuhaler",
+          "DuoResp Spiromax",
+          "Symbicort Turbuhaler",
+          "Rilast Turbuhaler",
+          "Bufomix Easyhaler",
+          "Pulmicort Respule",
+          "Pulmicort",
+          "Symbicort",
+          "Symbicort Rapihaler",
+          "Breztri Aerosphere"
+        ],
+        "ciclesonide": [
+          "Alvesco"
+        ],
+        "fluticasone propionate": [
+          "Seretide Accuhaler",
+          "Fluticasone Salmeterol Ciphaler",
+          "Pavtide Accuhaler",
+          "Salflumix Easyhaler",
+          "SalplusF DPI",
+          "Flixotide",
+          "Seretide",
+          "Flutiform"
+        ],
+        "fluticasone furoate": [
+          "Trelegy Ellipta",
+          "Breo Ellipta",
+          "Arnuity Ellipta"
+        ],
+        "mometasone furoate": [
+          "Enerzair Breezhaler",
+          "Asmanex Twisthaler",
+          "Atectura Breezhaler"
+        ],
+        "beclometasone": [
+          "Qvar",
+          "Trimbow",
+          "Fostair"
+        ],
+        "mometasone": [
+          "Enerzair Breezhaler",
+          "Asmanex Twisthaler",
+          "Atectura Breezhaler"
+        ],
+        "fluticasone": [
+          "Flixotide",
+          "Seretide",
+          "Flutiform",
+          "Breo Ellipta",
+          "Arnuity Ellipta",
+          "Trelegy Ellipta"
+        ]
+      },
+      "note": "Check each inhaler's ingredients, including dual and triple combinations and as-needed inhalers. Include corticosteroids nebulised for inhalation, such as budesonide (Pulmicort Respules), regardless of the recorded indication. Exclude nasal corticosteroids and corticosteroids taken by mouth and swallowed. An ingredient recorded simply as fluticasone counts when the pulmonary inhalation route is established."
+    }
+  ],
+  "rule_for_models": "For each Group A long-acting beta agonist inhaler supply, check for a Group B inhaled corticosteroid supplied on the same date or within 60 days before or after, counting separate, as-needed and combination inhalers. For an unpaired supply, cite the Group A line and the current asthma diagnosis, or cite the supply and report a possible finding if the asthma diagnosis is missing. Return no finding if asthma is ruled out, including documented COPD alone, or if every Group A supply is paired with Group B. Apply the check at any age, including when age is missing. For an unpaired supply, ask whether the patient has asthma, COPD or both and whether they use a preventer from elsewhere. A skin cream or ointment cannot pair with the inhaler.",
+  "cannot_be_seen": "Respiratory medicines obtained elsewhere or bought without a prescription may be missing from this record. Supply dates cannot show actual use or how long an earlier preventer lasted.",
+  "ask_the_gp": "Could we confirm the respiratory diagnosis and review whether the current asthma regimen includes an inhaled corticosteroid?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Asthma",
+      "meets": "Current asthma is documented, including asthma in someone who also has COPD."
+    }
+  ]
+}

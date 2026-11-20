@@ -1,0 +1,59 @@
+[
+  {
+    "file": "STOPP-D22/pos-fact.csv",
+    "kind": "positive",
+    "about": "Sinemet is supplied and L001 identifies essential tremor as the reason for treatment.",
+    "findings": [
+      {
+        "criterion": "STOPP-D22",
+        "must_cite": [
+          [
+            "L002",
+            "L007",
+            "L012",
+            "L017",
+            "L022",
+            "L027",
+            "L032",
+            "L037",
+            "L042",
+            "L047",
+            "L052"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-D22/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: Madopar is supplied monthly from September 2025 and the record holds no line about \"Use of this levodopa medicine or dopamine agonist for essential tremor\".",
+    "findings": [
+      {
+        "criterion": "STOPP-D22",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L009",
+            "L013",
+            "L017",
+            "L021",
+            "L025",
+            "L029",
+            "L033"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-D22/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Both diagnoses are recorded, and L001 identifies Parkinson disease as the reason for Sinemet.",
+    "findings": []
+  }
+]

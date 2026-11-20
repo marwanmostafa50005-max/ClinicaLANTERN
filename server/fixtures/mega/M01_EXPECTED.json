@@ -1,0 +1,1143 @@
+{
+  "patient": {
+    "id": "F-MEGA01",
+    "sex": "M",
+    "date_of_birth": "1948-03-12",
+    "age": 78
+  },
+  "lines": 78,
+  "expected_findings": [
+    {
+      "criterion": "QLDCOAG-14-1",
+      "title": "Warfarin brand change or concurrent brands",
+      "kind": "R",
+      "lines": [
+        "L007",
+        "L009"
+      ],
+      "why": "Marevan is followed by Coumadin, two different brands of warfarin.",
+      "questions": []
+    },
+    {
+      "criterion": "DREISCHULTE-35",
+      "title": "Warfarin with a macrolide antibiotic",
+      "kind": "R",
+      "lines": [
+        "L017",
+        "L018"
+      ],
+      "why": "Azithromycin is supplied during a labelled course of warfarin.",
+      "questions": []
+    },
+    {
+      "criterion": "DREISCHULTE-36",
+      "title": "Warfarin with a sulfonamide antibiotic",
+      "kind": "R",
+      "lines": [
+        "L017",
+        "L020"
+      ],
+      "why": "Trimethoprim with sulfamethoxazole is supplied during a labelled course of warfarin.",
+      "questions": []
+    },
+    {
+      "criterion": "DREISCHULTE-37",
+      "title": "Warfarin with an azole antifungal",
+      "kind": "R",
+      "lines": [
+        "L023",
+        "L024"
+      ],
+      "why": "Miconazole oral gel is supplied during a labelled course of warfarin.",
+      "questions": []
+    },
+    {
+      "criterion": "DREISCHULTE-38",
+      "title": "Warfarin with metronidazole",
+      "kind": "R",
+      "lines": [
+        "L023",
+        "L025"
+      ],
+      "why": "Metronidazole is supplied during a labelled course of warfarin.",
+      "questions": []
+    },
+    {
+      "criterion": "DREISCHULTE-44",
+      "title": "Warfarin with a tetracycline antibiotic",
+      "kind": "R",
+      "lines": [
+        "L009",
+        "L010"
+      ],
+      "why": "Doxycycline is supplied during a labelled course of warfarin.",
+      "questions": []
+    },
+    {
+      "criterion": "MHRA-9",
+      "title": "Simvastatin with clarithromycin or erythromycin",
+      "kind": "R",
+      "lines": [
+        "L030",
+        "L029"
+      ],
+      "why": "Simvastatin and oral clarithromycin are supplied on the same date.",
+      "questions": []
+    },
+    {
+      "criterion": "EU7-F02",
+      "title": "Cimetidine, ranitidine or famotidine in an older person",
+      "kind": "R",
+      "lines": [
+        "L049",
+        "L056",
+        "L062"
+      ],
+      "why": "The history includes repeated famotidine supplies after age 65.",
+      "questions": []
+    },
+    {
+      "criterion": "EU7-F04",
+      "title": "Bowel antispasmodic named in the list in an older person",
+      "kind": "R",
+      "lines": [
+        "L022",
+        "L027",
+        "L031"
+      ],
+      "why": "The history includes oral mebeverine after age 65.",
+      "questions": []
+    },
+    {
+      "criterion": "EU7-F08",
+      "title": "Liquid paraffin or docusate by mouth in an older person",
+      "kind": "R",
+      "lines": [
+        "L026",
+        "L032"
+      ],
+      "why": "The history includes oral docusate after age 65.",
+      "questions": []
+    },
+    {
+      "criterion": "EU7-F09",
+      "title": "Stimulant laxative in an older person",
+      "kind": "R",
+      "lines": [
+        "L033",
+        "L041"
+      ],
+      "why": "The history includes the stimulant laxative senna after age 65.",
+      "questions": []
+    },
+    {
+      "criterion": "EU7-F10",
+      "title": "Prucalopride in an older person",
+      "kind": "R",
+      "lines": [
+        "L047",
+        "L053",
+        "L059"
+      ],
+      "why": "Prucalopride is supplied after earlier laxative courses in a man aged 78.",
+      "questions": []
+    },
+    {
+      "criterion": "SCOTRESP-01",
+      "title": "Twelve or more short-acting reliever inhalers in a year",
+      "kind": "R",
+      "lines": [
+        "L037",
+        "L045",
+        "L052",
+        "L060",
+        "L070",
+        "L077"
+      ],
+      "why": "Six two-canister salbutamol supplies reach twelve inhalers in the final twelve months.",
+      "questions": []
+    },
+    {
+      "criterion": "SCOTNTI-RESP-06",
+      "title": "Six or more SABA inhalers in a year",
+      "kind": "R",
+      "lines": [
+        "L014",
+        "L028",
+        "L043"
+      ],
+      "why": "Three further salbutamol prescriptions each supply two canisters within twelve months.",
+      "questions": []
+    },
+    {
+      "criterion": "EU7-F79",
+      "title": "Decongestant (pseudoephedrine or phenylpropanolamine) in an older person",
+      "kind": "R",
+      "lines": [
+        "L042"
+      ],
+      "why": "A pseudoephedrine product is supplied after age 65.",
+      "questions": []
+    },
+    {
+      "criterion": "EU7-F37",
+      "title": "Niacin (nicotinic acid)",
+      "kind": "R",
+      "lines": [
+        "L016",
+        "L021"
+      ],
+      "why": "Oral nicotinic acid is supplied after age 65.",
+      "questions": []
+    },
+    {
+      "criterion": "EU7-F01",
+      "title": "Magnesium hydroxide or an aluminium antacid in an older person",
+      "kind": "R",
+      "lines": [
+        "L065",
+        "L072"
+      ],
+      "why": "The oral antacid contains magnesium hydroxide and is supplied after age 65.",
+      "questions": []
+    },
+    {
+      "criterion": "EU7-F05",
+      "title": "Metoclopramide, or domperidone above 30 mg a day, in an older person",
+      "kind": "R",
+      "lines": [
+        "L034"
+      ],
+      "why": "The domperidone label directs two 10 mg tablets three times daily, giving 60 mg a day.",
+      "questions": []
+    },
+    {
+      "criterion": "EU7-F19",
+      "title": "Ticlopidine, dipyridamole or prasugrel in an older person",
+      "kind": "R",
+      "lines": [
+        "L001",
+        "L002"
+      ],
+      "why": "Single-ingredient oral dipyridamole was supplied to this older man before his later warfarin course.",
+      "questions": []
+    },
+    {
+      "criterion": "EU7-F24",
+      "title": "Propafenone or flecainide in an older person",
+      "kind": "R",
+      "lines": [
+        "L013",
+        "L019"
+      ],
+      "why": "Flecainide was supplied during the earlier warfarin course in a person aged over 65.",
+      "questions": []
+    },
+    {
+      "criterion": "EU7-F32",
+      "title": "Peripheral vasodilators for review in older people",
+      "kind": "R",
+      "lines": [
+        "L003",
+        "L004",
+        "L006"
+      ],
+      "why": "The history contains pentoxifylline after age 65.",
+      "questions": []
+    },
+    {
+      "criterion": "SCOTRESP-09",
+      "title": "Fourteen or more steroid-containing inhalers in the last year",
+      "kind": "R",
+      "lines": [
+        "L035",
+        "L039",
+        "L046",
+        "L051",
+        "L058",
+        "L067",
+        "L074"
+      ],
+      "why": "Seven two-inhaler supplies of budesonide with formoterol reach fourteen inhalers in the final twelve months.",
+      "questions": []
+    },
+    {
+      "criterion": "EU7-F81",
+      "title": "Theophylline in an older person",
+      "kind": "R",
+      "lines": [
+        "L048",
+        "L054"
+      ],
+      "why": "Oral sustained-release theophylline is supplied during the maintenance inhaler course.",
+      "questions": []
+    },
+    {
+      "criterion": "EU7-F62",
+      "title": "Dopamine agonist in an older person",
+      "kind": "R",
+      "lines": [
+        "L063",
+        "L071",
+        "L076"
+      ],
+      "why": "The history includes recent pramipexole after age 65.",
+      "questions": []
+    },
+    {
+      "criterion": "FDADSC-3",
+      "title": "Febuxostat without allopurinol failure, intolerance or contraindication",
+      "kind": "Q",
+      "lines": [
+        "L066"
+      ],
+      "why": "Febuxostat is supplied and the counter answer rules out prior allopurinol failure, intolerance or contraindication.",
+      "questions": [
+        {
+          "what": "Prior allopurinol trial, intolerance, or contraindication",
+          "answer": "Allopurinol not tried, or no documented failure, intolerance, or contraindication to allopurinol",
+          "kind": "observation"
+        }
+      ]
+    },
+    {
+      "criterion": "FDADSC-7",
+      "title": "Systemic fluoroquinolone with aortic aneurysm or vascular risk",
+      "kind": "Q",
+      "lines": [
+        "L055"
+      ],
+      "why": "Oral ciprofloxacin is supplied and the counter answer confirms aortic risk without a documented lack of alternatives.",
+      "questions": [
+        {
+          "what": "Aortic aneurysm or high vascular risk for aortic rupture",
+          "answer": "High vascular risk (peripheral vascular disease, hypertension, Marfan or Ehlers-Danlos syndrome, or older age) and alternative antibiotic not yet confirmed",
+          "kind": "condition"
+        }
+      ]
+    },
+    {
+      "criterion": "EU7-F11",
+      "title": "Diphenoxylate with atropine, or loperamide for more than two days, in an older person",
+      "kind": "R",
+      "lines": [
+        "L005"
+      ],
+      "why": "Sixty loperamide capsules at one capsule twice daily cover thirty days, exceeding two days.",
+      "questions": []
+    },
+    {
+      "criterion": "EU7-F82",
+      "title": "Cough suppressants in older people and codeine use beyond two weeks",
+      "kind": "R",
+      "lines": [
+        "L040"
+      ],
+      "why": "The dry cough liquid contains dextromethorphan without an expectorant and is supplied after age 65.",
+      "questions": []
+    },
+    {
+      "criterion": "DREISCHULTE-40",
+      "title": "Warfarin with isoniazid",
+      "kind": "R",
+      "lines": [
+        "L009",
+        "L011"
+      ],
+      "why": "The tuberculosis clinic directs isoniazid during the Coumadin course.",
+      "questions": []
+    },
+    {
+      "criterion": "DREISCHULTE-41",
+      "title": "Warfarin with rifampicin",
+      "kind": "R",
+      "lines": [
+        "L009",
+        "L012"
+      ],
+      "why": "Rifampicin is supplied during scheduled warfarin treatment.",
+      "questions": []
+    },
+    {
+      "criterion": "DREISCHULTE-42",
+      "title": "Warfarin with griseofulvin",
+      "kind": "R",
+      "lines": [
+        "L007",
+        "L008"
+      ],
+      "why": "Griseofulvin is supplied during the Marevan course.",
+      "questions": []
+    },
+    {
+      "criterion": "EU7-F61",
+      "title": "Amantadine in an older person",
+      "kind": "R",
+      "lines": [
+        "L068"
+      ],
+      "why": "Oral amantadine is supplied after age 65.",
+      "questions": []
+    },
+    {
+      "criterion": "START-D4",
+      "title": "No rivastigmine for Lewy body or Parkinson's disease dementia",
+      "kind": "Q",
+      "lines": [],
+      "why": "The answer records qualifying dementia and no rivastigmine is supplied in the final six months.",
+      "questions": [
+        {
+          "what": "Dementia with Lewy bodies, or Parkinson's disease dementia",
+          "answer": "Yes",
+          "kind": "condition"
+        }
+      ]
+    },
+    {
+      "criterion": "START-D5",
+      "title": "No SSRI for persistent severe anxiety",
+      "kind": "Q",
+      "lines": [],
+      "why": "The answer establishes disabling persistent anxiety and there is no qualifying treatment in the final six months.",
+      "questions": [
+        {
+          "what": "Persistent severe anxiety that affects independent functioning and quality of life",
+          "answer": "Yes",
+          "kind": "condition"
+        }
+      ]
+    },
+    {
+      "criterion": "START-D7",
+      "title": "No propranolol for disabling essential tremor",
+      "kind": "Q",
+      "lines": [],
+      "why": "The answer records disabling essential tremor and the record has no propranolol in the final six months.",
+      "questions": [
+        {
+          "what": "Essential tremor with functional impairment and resultant disability",
+          "answer": "Yes",
+          "kind": "condition"
+        }
+      ]
+    },
+    {
+      "criterion": "START-F1",
+      "title": "Proton pump inhibitor for severe reflux or a stricture needing dilatation",
+      "kind": "Q",
+      "lines": [],
+      "why": "The reflux or stricture answer supplies a qualifying diagnosis and there is no proton pump inhibitor in the final six months.",
+      "questions": [
+        {
+          "what": "Severe gastro-oesophageal reflux disease",
+          "answer": "Yes",
+          "kind": "condition"
+        },
+        {
+          "what": "Peptic oesophageal stricture requiring dilatation",
+          "answer": "Yes",
+          "kind": "condition"
+        }
+      ]
+    },
+    {
+      "criterion": "START-H1",
+      "title": "Disease-modifying anti-rheumatic drug missing in active rheumatoid arthritis",
+      "kind": "Q",
+      "lines": [],
+      "why": "The answer records chronic active disabling rheumatoid arthritis and no disease-modifying treatment is supplied in the final six months.",
+      "questions": [
+        {
+          "what": "Rheumatoid arthritis that is chronic, active and disabling",
+          "answer": "Yes",
+          "kind": "condition"
+        }
+      ]
+    },
+    {
+      "criterion": "START-H4",
+      "title": "Bone-strengthening medicine missing in osteoporosis or after a fragility fracture",
+      "kind": "Q",
+      "lines": [],
+      "why": "The osteoporosis or fragility-fracture answer establishes the indication and no qualifying bone treatment covers review.",
+      "questions": [
+        {
+          "what": "Osteoporosis",
+          "answer": "Yes",
+          "kind": "condition"
+        },
+        {
+          "what": "Previous fragility fracture",
+          "answer": "Yes",
+          "kind": "condition"
+        }
+      ]
+    },
+    {
+      "criterion": "START-H5",
+      "title": "Vitamin D supplement missing with a low vitamin D level",
+      "kind": "Q",
+      "lines": [],
+      "why": "The low vitamin D answer starts the review, and the secondary answer must document a qualifying risk such as being housebound.",
+      "questions": [
+        {
+          "what": "25-hydroxyvitamin D (25-hydroxycolecalciferol) level",
+          "answer": "32 nmol/L",
+          "kind": "result",
+          "value": "32",
+          "unit": "nmol/L",
+          "date": "2026-11-18"
+        },
+        {
+          "what": "Housebound, or falls, or osteopenia",
+          "answer": "Yes",
+          "kind": "condition"
+        }
+      ]
+    },
+    {
+      "criterion": "START-E4",
+      "title": "ACE inhibitor or ARB in kidney disease with protein in the urine",
+      "kind": "Q",
+      "lines": [],
+      "why": "The kidney disease answer starts the review and a qualifying timed urine albumin result is needed to support the omission of an ACE inhibitor or ARB.",
+      "questions": [
+        {
+          "what": "Chronic kidney disease",
+          "answer": "Yes",
+          "kind": "condition"
+        },
+        {
+          "what": "Urine albumin excretion",
+          "answer": "420 mg/24 hours",
+          "kind": "result",
+          "value": "420",
+          "unit": "mg/24 hours",
+          "date": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "criterion": "STOPP-B15",
+      "title": "QT-prolonging medicine with a prolonged QTc",
+      "kind": "P",
+      "lines": [
+        "L029"
+      ],
+      "why": "Oral clarithromycin starts a possible finding, and a QTc of 505 ms dated to that supply exceeds the 450 ms threshold for this man.",
+      "questions": [
+        {
+          "what": "QTc interval",
+          "answer": "505 ms",
+          "kind": "result",
+          "value": "505",
+          "unit": "ms",
+          "date": "2026-03-16"
+        }
+      ]
+    },
+    {
+      "criterion": "STOPP-F6",
+      "title": "Antiplatelet or anticoagulant with GAVE",
+      "kind": "P",
+      "lines": [
+        "L001"
+      ],
+      "why": "Antithrombotic exposure starts a possible finding, and an affirmative history of GAVE before or during that exposure supports it.",
+      "questions": [
+        {
+          "what": "Gastric antral vascular ectasia (GAVE, watermelon stomach)",
+          "answer": "Yes",
+          "kind": "condition"
+        }
+      ]
+    },
+    {
+      "criterion": "STOPP-D22",
+      "title": "Levodopa or a dopamine agonist for essential tremor",
+      "kind": "P",
+      "lines": [
+        "L076"
+      ],
+      "why": "The indication for the dopamine agonist is unclear, so the model may ask whether it treats essential tremor.",
+      "questions": [
+        {
+          "what": "Essential tremor (benign essential tremor)",
+          "answer": "Yes",
+          "kind": "condition"
+        }
+      ]
+    },
+    {
+      "criterion": "START-C1",
+      "title": "Blood thinner missing in atrial fibrillation",
+      "kind": "P",
+      "lines": [
+        "L019"
+      ],
+      "why": "A rhythm medicine without an anticoagulant supply in the final six months prompts a possible atrial fibrillation omission.",
+      "questions": [
+        {
+          "what": "Atrial fibrillation (chronic or paroxysmal)",
+          "answer": "Yes",
+          "kind": "condition"
+        }
+      ]
+    }
+  ],
+  "questions_at_import": [
+    {
+      "what": "Whether warfarin was the first blood thinner started",
+      "kind": "observation",
+      "answer": "Yes",
+      "source": "supply",
+      "needs_value": false,
+      "criteria": [
+        "STOPP-C11"
+      ],
+      "then": "no finding expected: STOPP-C11: The first-warfarin answer alone leaves the valve history and kidney result unresolved, and Yes to the possible valve question records an exclusion, so a confirmed finding is not expected."
+    },
+    {
+      "what": "Blood pressure",
+      "kind": "observation",
+      "answer": "Yes",
+      "source": "patient",
+      "needs_value": false,
+      "criteria": [
+        "START-B1"
+      ],
+      "then": "no finding expected: START-B1: The default Yes answer to the blood pressure observation records no numeric readings and cannot establish persistent hypertension."
+    },
+    {
+      "what": "Dementia with Lewy bodies, or Parkinson's disease dementia",
+      "kind": "condition",
+      "answer": "Yes",
+      "source": "patient",
+      "needs_value": false,
+      "criteria": [
+        "START-D4"
+      ],
+      "then": "finding expected: START-D4"
+    },
+    {
+      "what": "Persistent severe anxiety that affects independent functioning and quality of life",
+      "kind": "condition",
+      "answer": "Yes",
+      "source": "patient",
+      "needs_value": false,
+      "criteria": [
+        "START-D5"
+      ],
+      "then": "finding expected: START-D5"
+    },
+    {
+      "what": "Essential tremor with functional impairment and resultant disability",
+      "kind": "condition",
+      "answer": "Yes",
+      "source": "patient",
+      "needs_value": false,
+      "criteria": [
+        "START-D7"
+      ],
+      "then": "finding expected: START-D7"
+    },
+    {
+      "what": "Chronic kidney disease",
+      "kind": "condition",
+      "answer": "Yes",
+      "source": "patient",
+      "needs_value": false,
+      "criteria": [
+        "START-E4",
+        "UKKA-NODM-1A",
+        "UKKA-T2D-1B"
+      ],
+      "then": "finding expected: START-E4. No finding expected for UKKA-NODM-1A: The affirmative diabetes-status button does not document absence of diabetes, so the non-diabetic branch cannot confirm a finding. UKKA-T2D-1B: The affirmative diabetes-status button does not identify type 2 diabetes, which this branch requires even when both kidney results qualify. The CKD reply starts this review. Look for the urine albumin question before expecting a supported finding."
+    },
+    {
+      "what": "Severe gastro-oesophageal reflux disease",
+      "kind": "condition",
+      "answer": "Yes",
+      "source": "patient",
+      "needs_value": false,
+      "criteria": [
+        "START-F1"
+      ],
+      "then": "finding expected: START-F1"
+    },
+    {
+      "what": "Peptic oesophageal stricture requiring dilatation",
+      "kind": "condition",
+      "answer": "Yes",
+      "source": "patient",
+      "needs_value": false,
+      "criteria": [
+        "START-F1"
+      ],
+      "then": "finding expected: START-F1"
+    },
+    {
+      "what": "Diverticulosis",
+      "kind": "condition",
+      "answer": "Yes",
+      "source": "patient",
+      "needs_value": false,
+      "criteria": [
+        "START-F4"
+      ],
+      "then": "no finding expected: START-F4: The standing answer establishes diverticulosis, but the criterion requires a separate record of constipation and laxative supplies do not establish that fact."
+    },
+    {
+      "what": "Blood oxygen: arterial pO2 or oxygen saturation (SaO2)",
+      "kind": "result",
+      "answer": "Stable resting room-air SaO2 86 %",
+      "value": "Stable resting room-air SaO2 86",
+      "unit": "%",
+      "date": "2026-11-18",
+      "source": "patient",
+      "needs_value": true,
+      "criteria": [
+        "START-G3"
+      ],
+      "then": "no finding expected: START-G3: One low saturation does not establish chronic hypoxaemia, and a Yes answer about home oxygen cannot demonstrate that long-term oxygen is absent."
+    },
+    {
+      "what": "Rheumatoid arthritis that is chronic, active and disabling",
+      "kind": "condition",
+      "answer": "Yes",
+      "source": "patient",
+      "needs_value": false,
+      "criteria": [
+        "START-H1"
+      ],
+      "then": "finding expected: START-H1"
+    },
+    {
+      "what": "Osteoporosis",
+      "kind": "condition",
+      "answer": "Yes",
+      "source": "patient",
+      "needs_value": false,
+      "criteria": [
+        "START-H4"
+      ],
+      "then": "finding expected: START-H4"
+    },
+    {
+      "what": "Previous fragility fracture",
+      "kind": "condition",
+      "answer": "Yes",
+      "source": "patient",
+      "needs_value": false,
+      "criteria": [
+        "START-H4"
+      ],
+      "then": "finding expected: START-H4"
+    },
+    {
+      "what": "25-hydroxyvitamin D (25-hydroxycolecalciferol) level",
+      "kind": "result",
+      "answer": "32 nmol/L",
+      "value": "32",
+      "unit": "nmol/L",
+      "date": "2026-11-18",
+      "source": "patient",
+      "needs_value": true,
+      "criteria": [
+        "START-H5"
+      ],
+      "then": "finding expected: START-H5. The low result starts this review. A qualifying risk must also be established."
+    },
+    {
+      "what": "Moderate to severe pain that is not arthritis pain",
+      "kind": "condition",
+      "answer": "Yes",
+      "source": "patient",
+      "needs_value": false,
+      "criteria": [
+        "START-K1"
+      ],
+      "then": "no finding expected: START-K1: The pain answer can start a possible review, but Yes to the simpler-analgesia prompt does not say that simpler treatment failed or was unsuitable."
+    },
+    {
+      "what": "Prior allopurinol trial, intolerance, or contraindication",
+      "kind": "observation",
+      "answer": "Allopurinol not tried, or no documented failure, intolerance, or contraindication to allopurinol",
+      "source": "supply",
+      "needs_value": false,
+      "criteria": [
+        "FDADSC-3"
+      ],
+      "then": "finding expected: FDADSC-3"
+    },
+    {
+      "what": "Aortic aneurysm or high vascular risk for aortic rupture",
+      "kind": "condition",
+      "answer": "High vascular risk (peripheral vascular disease, hypertension, Marfan or Ehlers-Danlos syndrome, or older age) and alternative antibiotic not yet confirmed",
+      "source": "supply",
+      "needs_value": false,
+      "criteria": [
+        "FDADSC-7"
+      ],
+      "then": "finding expected: FDADSC-7"
+    }
+  ],
+  "touched_no_finding": [
+    {
+      "criterion": "STOPP-C10",
+      "why": "The record contains no systemic nonsteroidal anti-inflammatory medicine to pair with the anticoagulant."
+    },
+    {
+      "criterion": "STOPP-C14",
+      "why": "Warfarin is the anticoagulant here. The criterion requires a direct oral anticoagulant with the interacting medicine."
+    },
+    {
+      "criterion": "STOPP-L2",
+      "why": "The patient has no regular opioid supply."
+    },
+    {
+      "criterion": "STOPP-A3",
+      "why": "A change between brands of one ingredient is not a same-class duplicate, and there is no qualifying pair of different regular medicines in the same class."
+    },
+    {
+      "criterion": "BRISNIK-HR-F2",
+      "why": "There is no SSRI or SNRI supply to pair with two bleeding-risk medicine classes."
+    },
+    {
+      "criterion": "PROMPT-CN-5",
+      "why": "The patient is 78 and this criterion covers ages 45 to 64 inclusive."
+    },
+    {
+      "criterion": "PROMPT-CN-6",
+      "why": "The patient is 78 and this criterion covers ages 45 to 64 inclusive."
+    },
+    {
+      "criterion": "PROMPT-CV-4",
+      "why": "The patient is 78 and this criterion covers ages 45 to 64 inclusive."
+    },
+    {
+      "criterion": "PROMPT-DU-1",
+      "why": "The patient is 78 and this criterion covers ages 45 to 64 inclusive."
+    },
+    {
+      "criterion": "PROMPT-GI-1",
+      "why": "The patient is 78 and this criterion covers ages 45 to 64 inclusive."
+    },
+    {
+      "criterion": "PROMPT-MS-2",
+      "why": "The patient is 78 and this criterion covers ages 45 to 64 inclusive."
+    },
+    {
+      "criterion": "PROMPT-RS-2",
+      "why": "The patient is 78 and this criterion covers ages 45 to 64 inclusive."
+    },
+    {
+      "criterion": "PINCER-6",
+      "why": "There is no warfarin supply in the final three months, so the two required supply windows are not met."
+    },
+    {
+      "criterion": "OPTIMISE-T2-02",
+      "why": "Simvastatin appears in the history, which rules out a missing statin."
+    },
+    {
+      "criterion": "OPTIMISE-T2-03",
+      "why": "The initial history has no severe mental illness diagnosis or qualifying psychiatric medicine to prompt a secondary-prevention review."
+    },
+    {
+      "criterion": "OPTIMISE-T2-04",
+      "why": "Simvastatin is supplied, and the initial history contains neither a severe mental illness diagnosis nor a qualifying psychiatric medicine."
+    },
+    {
+      "criterion": "OPTIMISE-T2-06",
+      "why": "Simvastatin is supplied without a severe mental illness diagnosis or a qualifying psychiatric medicine at the first screen."
+    },
+    {
+      "criterion": "OPTIMISE-T2-49",
+      "why": "Mylanta FastChews is an antacid and the later fragility-fracture answer does not identify a vertebral fracture."
+    },
+    {
+      "criterion": "OPTIMISE-T3-02",
+      "why": "The initial screen has no dementia fact or medicine, and the later dementia answer requeues a different criterion."
+    },
+    {
+      "criterion": "OPTIMISE-T3-04",
+      "why": "There is no qualifying high anticholinergic burden medicine to pair with the H2 blocker."
+    },
+    {
+      "criterion": "BANSAL-S13",
+      "why": "There is no opioid for pain to establish the required three months of treatment."
+    },
+    {
+      "criterion": "BANSAL-S14",
+      "why": "There is no opioid for pain to establish the required six months of treatment."
+    },
+    {
+      "criterion": "BRISNIK-HR-A5",
+      "why": "There is no citalopram, escitalopram or listed tricyclic antidepressant supply to pair with a QT-prolonging medicine."
+    },
+    {
+      "criterion": "BRISNIK-HR-E1",
+      "why": "There is no tranylcypromine supply to overlap with a serotonergic medicine."
+    },
+    {
+      "criterion": "BRISNIK-HR-E2",
+      "why": "There is no SSRI, SNRI or qualifying tricyclic antidepressant to anchor a three-medicine combination."
+    },
+    {
+      "criterion": "BRISNIK-HR-F1",
+      "why": "There is no SSRI or SNRI supply to pair with a bleeding-risk medicine."
+    },
+    {
+      "criterion": "BRISNIK-HR-F3",
+      "why": "There is no supplied SSRI or SNRI to pair with warfarin or another bleeding-risk medicine."
+    },
+    {
+      "criterion": "BRISNIK-HR-G1",
+      "why": "There is no SSRI supply to pair with an antiplatelet or anticoagulant."
+    },
+    {
+      "criterion": "BRISNIK-HR-G2",
+      "why": "There is no SSRI supply to pair with an antiplatelet or anticoagulant."
+    },
+    {
+      "criterion": "STOPP-B16",
+      "why": "At age 78 the patient is below the minimum age of 85 for this statin criterion."
+    },
+    {
+      "criterion": "STOPP-B6",
+      "why": "Flecainide belongs to the comparison group and there is no amiodarone supply to review."
+    },
+    {
+      "criterion": "STOPP-C11",
+      "why": "The first-warfarin answer alone leaves the valve history and kidney result unresolved, and Yes to the possible valve question records an exclusion, so a confirmed finding is not expected."
+    },
+    {
+      "criterion": "STOPP-C12",
+      "why": "There is no selective serotonin reuptake inhibitor supplied with the anticoagulant."
+    },
+    {
+      "criterion": "STOPP-C2",
+      "why": "There is no qualifying oral anticoagulant or antiplatelet supply in the final six months."
+    },
+    {
+      "criterion": "STOPP-C4",
+      "why": "The record has no concurrent antiplatelet supply with warfarin."
+    },
+    {
+      "criterion": "STOPP-C5",
+      "why": "The record has no concurrent antiplatelet supply with warfarin."
+    },
+    {
+      "criterion": "STOPP-C7",
+      "why": "There is no antiplatelet used in place of anticoagulation."
+    },
+    {
+      "criterion": "STOPP-C8",
+      "why": "The warfarin supplies do not establish a linked course extending beyond six months for a first deep vein thrombosis."
+    },
+    {
+      "criterion": "STOPP-C9",
+      "why": "The warfarin supplies do not establish twelve months of treatment for a first pulmonary embolism."
+    },
+    {
+      "criterion": "STOPP-D23",
+      "why": "There is no earlier antipsychotic exposure or recorded drug-induced movement disorder to link to the first dopamine agonist."
+    },
+    {
+      "criterion": "STOPP-G1",
+      "why": "A combination maintenance inhaler covers the theophylline dates, so the supplies do not show theophylline as sole maintenance treatment for COPD."
+    },
+    {
+      "criterion": "STOPP-G2",
+      "why": "There is no three-month course of oral corticosteroids for COPD."
+    },
+    {
+      "criterion": "STOPP-H1",
+      "why": "The record has no systemic nonsteroidal anti-inflammatory supply."
+    },
+    {
+      "criterion": "STOPP-H6",
+      "why": "No NSAID or colchicine course continues for more than 90 days at the required refill intervals."
+    },
+    {
+      "criterion": "STOPP-I8",
+      "why": "The broad-spectrum antibiotic supplies have no linked urinary indication or urine result, and no trimethoprim-only, nitrofurantoin or fosfomycin supply starts this check."
+    },
+    {
+      "criterion": "START-B2",
+      "why": "A statin is supplied in the final six months, which covers the vascular-disease criterion."
+    },
+    {
+      "criterion": "START-B10",
+      "why": "There is no current anticoagulant course or documented chronic atrial fibrillation with an above-target resting rate."
+    },
+    {
+      "criterion": "START-C2",
+      "why": "A historic warfarin supply alone does not identify qualifying vascular disease or start the angina-medicine branch."
+    },
+    {
+      "criterion": "START-D1",
+      "why": "A dopamine agonist supplied in the final six months covers this omission check."
+    },
+    {
+      "criterion": "START-D6",
+      "why": "A qualifying dopamine agonist is supplied in the final six months."
+    },
+    {
+      "criterion": "START-E2",
+      "why": "There is no renal vitamin D analogue or cinacalcet clue and no series of high phosphate results that could support a phosphate-binder omission."
+    },
+    {
+      "criterion": "START-E3",
+      "why": "An erythropoiesis-stimulating agent is supplied in the final six months, which closes the renal anaemia omission."
+    },
+    {
+      "criterion": "START-F5",
+      "why": "The history does not show chronic benign constipation without osmotic cover, or three non-osmotic laxative supplies in the final six months without that cover."
+    },
+    {
+      "criterion": "START-F7",
+      "why": "The antibiotic ingredients alone do not start this check without an active ulcer or a sucralfate supply."
+    },
+    {
+      "criterion": "START-G1",
+      "why": "The patient receives a long-acting maintenance bronchodilator in the final six months."
+    },
+    {
+      "criterion": "START-G2",
+      "why": "A steroid-containing maintenance inhaler with daily directions is supplied in the final six months."
+    },
+    {
+      "criterion": "START-H2",
+      "why": "There is no long-term oral corticosteroid course requiring bone protection."
+    },
+    {
+      "criterion": "START-H8",
+      "why": "Febuxostat is supplied in the final six months, which covers this omission."
+    },
+    {
+      "criterion": "START-I4",
+      "why": "This criterion concerns vaginal oestrogen in women. The imported patient is male."
+    },
+    {
+      "criterion": "START-K2",
+      "why": "There is no regular opioid course requiring a laxative."
+    },
+    {
+      "criterion": "DREISCHULTE-43",
+      "why": "There is no ribavirin supply to overlap with warfarin."
+    },
+    {
+      "criterion": "SCOTRESP-05",
+      "why": "The combination preventer is supplied in the current or preceding quarter, so salbutamol is not the only respiratory treatment."
+    },
+    {
+      "criterion": "SCOTRESP-06",
+      "why": "Budesonide and formoterol are supplied together in the same inhaler, so the long-acting reliever has inhaled steroid cover."
+    },
+    {
+      "criterion": "POPI-22",
+      "why": "The patient is 78 and this criterion covers ages under 3."
+    },
+    {
+      "criterion": "POPI-23",
+      "why": "The patient is 78 and this criterion covers ages under 18."
+    },
+    {
+      "criterion": "POPI-39",
+      "why": "The patient is 78 and this criterion covers ages under 18."
+    },
+    {
+      "criterion": "POPI-44",
+      "why": "The patient is 78 and this criterion covers ages under 18."
+    },
+    {
+      "criterion": "POPI-45",
+      "why": "The patient is 78 and this criterion covers ages under 18."
+    },
+    {
+      "criterion": "CARETRACK-BRON25",
+      "why": "The patient is 78 and this criterion covers ages 29 days to under 12 months."
+    },
+    {
+      "criterion": "CARETRACK-CROU16",
+      "why": "The patient is 78 and this criterion covers ages 29 days through 15 years."
+    },
+    {
+      "criterion": "CARETRACK-ECZE07",
+      "why": "The patient is 78 and this criterion covers ages birth through 15."
+    },
+    {
+      "criterion": "CKD-C10B",
+      "why": "The simvastatin supply contains no ezetimibe, and this rule requires a fixed-dose combination tablet."
+    },
+    {
+      "criterion": "CKD-N04B",
+      "why": "Pramipexole 0.25 mg three times daily gives 0.75 mg daily, below the lowest renal review threshold of 1.5 mg daily."
+    },
+    {
+      "criterion": "KHAWAGI-G101",
+      "why": "There is no fluvoxamine supply to overlap with theophylline."
+    },
+    {
+      "criterion": "KHAWAGI-G109",
+      "why": "There is no listed oral sedative to pair with the systemic inhibitor."
+    },
+    {
+      "criterion": "KHAWAGI-G117",
+      "why": "There is no carbamazepine supply to start, stop or overlap with warfarin."
+    },
+    {
+      "criterion": "MHRA-8-1",
+      "why": "There is no systemic amiodarone, verapamil or diltiazem supply to pair with simvastatin."
+    },
+    {
+      "criterion": "NHSBSA-GIB02",
+      "why": "There is no oral NSAID supply to pair with warfarin."
+    },
+    {
+      "criterion": "NHSBSA-GIB03",
+      "why": "The last dipyridamole supply on 7 July 2025 covers 30 days and precedes the first warfarin supply on 1 October 2025 by 86 days."
+    },
+    {
+      "criterion": "QLDCOAG-6-1",
+      "why": "The recorded male sex excludes this pregnancy criterion."
+    },
+    {
+      "criterion": "SCOTNTI-GI-NSAID-AP",
+      "why": "There is no oral NSAID supply to pair with an antiplatelet."
+    },
+    {
+      "criterion": "NHSBSA-GIB04",
+      "why": "There is no aspirin supply to pair with another antiplatelet."
+    },
+    {
+      "criterion": "NHSBSA-PAIN02",
+      "why": "There is no oral or transdermal opioid supply to assess for laxative cover."
+    },
+    {
+      "criterion": "START-B1",
+      "why": "The default Yes answer to the blood pressure observation records no numeric readings and cannot establish persistent hypertension."
+    },
+    {
+      "criterion": "UKKA-NODM-1A",
+      "why": "The affirmative diabetes-status button does not document absence of diabetes, so the non-diabetic branch cannot confirm a finding."
+    },
+    {
+      "criterion": "UKKA-T2D-1B",
+      "why": "The affirmative diabetes-status button does not identify type 2 diabetes, which this branch requires even when both kidney results qualify."
+    },
+    {
+      "criterion": "START-F4",
+      "why": "The standing answer establishes diverticulosis, but the criterion requires a separate record of constipation and laxative supplies do not establish that fact."
+    },
+    {
+      "criterion": "START-G3",
+      "why": "One low saturation does not establish chronic hypoxaemia, and a Yes answer about home oxygen cannot demonstrate that long-term oxygen is absent."
+    },
+    {
+      "criterion": "START-K1",
+      "why": "The pain answer can start a possible review, but Yes to the simpler-analgesia prompt does not say that simpler treatment failed or was unsuitable."
+    }
+  ]
+}

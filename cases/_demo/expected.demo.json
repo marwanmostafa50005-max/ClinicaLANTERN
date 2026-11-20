@@ -1,0 +1,39 @@
+{
+  "signed_by_clinical_reviewer": null,
+  "cases": [
+    {
+      "file": "_demo/positive.csv",
+      "kind": "positive",
+      "about": "Celebrex (celecoxib, an NSAID) is supplied on 21 August and 20 September 2026 while Xarelto (rivaroxaban, an oral anticoagulant) is supplied every month. Both are written by brand name only.",
+      "findings": [
+        {
+          "criterion": "DEMO-NSAID-ANTICOAG",
+          "must_cite": [
+            ["L036", "L041"],
+            ["L004", "L008", "L012", "L017", "L022", "L026", "L030", "L035", "L040", "L045"]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "_demo/near-miss.csv",
+      "kind": "near_miss",
+      "about": "The same history without the two Celebrex supplies. Xarelto is still supplied every month, and there is no NSAID, so the demo criterion must not fire.",
+      "findings": []
+    },
+    {
+      "file": "_demo/long-split.csv",
+      "kind": "positive",
+      "about": "A long history of 310 lines, printed medicine by medicine. Xarelto is supplied every month on lines L001 to L034. Celebrex is supplied on 21 August and 20 September 2026 on lines L309 and L310. The history is read in three overlapping parts and no part holds both medicines, so the finding is seen only when the lines are read together.",
+      "findings": [
+        {
+          "criterion": "DEMO-NSAID-ANTICOAG",
+          "must_cite": [
+            ["L309", "L310"],
+            ["L031", "L032", "L033", "L034"]
+          ]
+        }
+      ]
+    }
+  ]
+}

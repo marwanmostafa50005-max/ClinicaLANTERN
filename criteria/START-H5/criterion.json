@@ -1,0 +1,88 @@
+{
+  "id": "START-H5",
+  "label": "START H5: vitamin D supplement with low vitamin D level",
+  "family": "STOPP_START",
+  "title": "Vitamin D supplement missing with a low vitamin D level",
+  "statement": "Vitamin D supplement in older people with confirmed 25-hydroxycolecalciferol deficiency (< 20 micrograms/L, < 50 nmol/L) who are housebound or experiencing falls or with osteopenia (Bone Mineral Density T-score is less than -1.0 but above -2.5 in one or multiple sites).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "An older person with a low vitamin D level who is housebound, has falls, or has thin bones (osteopenia) should usually take a vitamin D supplement, and the record shows none.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Vitamin D supplements, alone or in a combination",
+      "ingredients": [
+        "colecalciferol",
+        "calcifediol monohydrate"
+      ],
+      "brands": {
+        "colecalciferol": [
+          "Ostelin Vitamin D3 1000IU",
+          "Ostelin Vitamin D & Calcium (colecalciferol with calcium)",
+          "Caltrate Plus (calcium with colecalciferol)",
+          "Fosamax Plus (colecalciferol with alendronate)",
+          "OsteVit-D Vitamin D3 1000 IU",
+          "OsteVit-D Vitamin D3 & K2",
+          "Caltrate Bone Health",
+          "Actonel Combi D",
+          "OsteVit-D One-A-Week",
+          "Ostelin Vitamin D3 1000IU Liquid"
+        ],
+        "calcifediol monohydrate": [
+          "Vistella"
+        ]
+      },
+      "note": "Medicines that meet this criterion. Active vitamin D medicines such as calcitriol are not counted here. If a line gives only the brand Ostelin, leave the ingredient unknown until the product is identified. Count a replacement regimen recorded as calcifediol or calcifediol monohydrate. A vitamin D test result alone is not a supply. A dated Actonel Combi D supply includes colecalciferol in the supplement component. Count other strengths only when their product and ingredient can be identified."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "25-hydroxyvitamin D (25-hydroxycolecalciferol) level",
+      "meets": "Below 50 nmol/L (below 20 micrograms/L)",
+      "ask_when": "always",
+      "close_when": {
+        "group": "A"
+      }
+    },
+    {
+      "kind": "condition",
+      "what": "Housebound, or falls, or osteopenia",
+      "meets": "Any one of: housebound; falls; or a bone density T-score below -1.0 and above -2.5 at one or more sites"
+    },
+    {
+      "kind": "observation",
+      "what": "Current vitamin D supplement supplied by another pharmacy or clinic, or bought over the counter",
+      "meets": "No vitamin D supplement is being taken. Confirmed replacement clears the omission. If the product or its use is unknown, the omission remains possible.",
+      "options": [
+        {
+          "words": "Confirmed vitamin D supplement",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "No vitamin D supplement",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Use the latest interpretable 25-hydroxyvitamin D result. If conflicting results cannot be ordered, report at most a possible omission when the other criteria are met and ask which result is current. Report no finding below age 65, if the 25-hydroxyvitamin D result is missing or at least 50 nmol/L (20 micrograms/L), if any Group A vitamin D was supplied in the last six months of the record, or if all three risk factors are ruled out. From age 65, when there is no such supply, suspect an omission and cite both lines if one shows a level below 50 nmol/L (20 micrograms/L) and another shows the person is housebound, has falls or has osteopenia (a T-score strictly above -2.5 and strictly below -1.0 at one or more sites). If age is unknown, confirm the person is at least 65 before reporting a finding. If an eligible person has a low level and no such supply but no risk factor line, report a possible finding and name the missing information about being housebound, falls or osteopenia. Where a finding would otherwise be raised and a line in the last six months says only Ostelin, report at most a possible finding and ask which product it was. Report no finding if current vitamin D replacement from any source is confirmed. When the low result and a risk factor qualify and there is no identifiable Group A supply in the last six months, check for vitamin D from another pharmacy or clinic or in an over-the-counter product before contacting the GP. If no vitamin D supplement is taken and no unidentified product remains, report the omission and cite the confirmation with the result and risk factor. If the product or its use is unknown or unrecorded, report only a possible omission and name the missing fact \"Current vitamin D supplement supplied by another pharmacy or clinic, or bought over the counter\".",
+  "cannot_be_seen": "Vitamin D bought without a prescription or taken in a multivitamin or calcium product, and a vitamin D level when no line gives it. Also whether the person is housebound, has falls or has osteopenia when no line says so, and a short high-dose course given by the doctor or in hospital.",
+  "ask_the_gp": "A review of whether a vitamin D supplement is needed, given the low level.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

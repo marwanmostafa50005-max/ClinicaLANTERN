@@ -1,0 +1,185 @@
+{
+  "id": "START-K2",
+  "label": "START K2",
+  "family": "STOPP_START",
+  "title": "Laxative with a regular opioid",
+  "statement": "Laxatives in patients receiving opioids regularly i.e., other than PRN use.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A person who takes an opioid regularly (not just when needed) should also have a laxative, because opioids commonly cause constipation.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Laxatives, the medicines that meet this criterion",
+      "ingredients": [
+        "macrogol",
+        "docusate",
+        "sennosides",
+        "lactulose",
+        "bisacodyl",
+        "sodium picosulfate",
+        "sorbitol"
+      ],
+      "brands": {
+        "macrogol": [
+          "Movicol",
+          "Osmolax",
+          "Molaxole"
+        ],
+        "docusate": [
+          "Coloxyl",
+          "Coloxyl with Senna (with sennosides)"
+        ],
+        "sennosides": [
+          "Senokot",
+          "Coloxyl with Senna"
+        ],
+        "lactulose": [
+          "Duphalac",
+          "Actilax",
+          "Dulose",
+          "Genlac",
+          "Lac-Dol",
+          "Lactocur"
+        ],
+        "bisacodyl": [
+          "Dulcolax",
+          "Bisalax",
+          "Dulcolax for Children",
+          "Lax-Suppositories",
+          "Lax-Tab",
+          "Lax-Tab EC"
+        ],
+        "sodium picosulfate": [
+          "Dulcolax SP Drops"
+        ],
+        "sorbitol": [
+          "Sorbisol"
+        ]
+      },
+      "note": "Bulk-forming fibre (for example ispaghula) and enemas are not listed. A laxative bought without a prescription cannot be seen. Recognise macrogol 3350 and macrogol-3350 as macrogol. Bisalax tablets can count. Bisalax Micro and other enemas do not count. Check the form if a line says only Bisalax. Do not count a one-off bowel preparation for a procedure, including Glycoprep, Moviprep or Picoprep, as regular laxative cover. Generic packs showing the ingredient with a company name count. Oral sodium picosulfate and oral sorbitol can cover a regular opioid course when their supply overlaps the course. Count sorbitol only when supplied as a laxative."
+    },
+    {
+      "key": "B",
+      "name": "Opioids taken regularly, the medicines that trigger this criterion",
+      "ingredients": [
+        "morphine",
+        "oxycodone",
+        "hydromorphone",
+        "fentanyl",
+        "buprenorphine",
+        "methadone",
+        "tapentadol",
+        "tramadol",
+        "codeine"
+      ],
+      "brands": {
+        "morphine": [
+          "MS Contin",
+          "Kapanol",
+          "Ordine",
+          "Sevredol",
+          "MS Mono",
+          "Anamorph",
+          "MS Contin Suspension",
+          "MS Normal",
+          "Momex SR",
+          "RA-Morph"
+        ],
+        "oxycodone": [
+          "OxyContin",
+          "OxyNorm",
+          "Endone",
+          "Targin (with naloxone)",
+          "Endone XR",
+          "Novacodone",
+          "Oxycodor",
+          "Oxycone",
+          "Oxylenus",
+          "Oxylieve MR",
+          "Oxyndone",
+          "Xedone"
+        ],
+        "hydromorphone": [
+          "Jurnista",
+          "Dilaudid",
+          "Dilaudid-HP",
+          "Palladone XL"
+        ],
+        "fentanyl": [
+          "Durogesic",
+          "Denpax",
+          "Fenpatch"
+        ],
+        "buprenorphine": [
+          "Norspan",
+          "Temgesic",
+          "Subutex",
+          "Suboxone (with naloxone)",
+          "Buvidal",
+          "Sublocade"
+        ],
+        "methadone": [
+          "Physeptone",
+          "Biodone Forte",
+          "Opod-D Syrup",
+          "Opod-P Liquid",
+          "Physeptone Liquid"
+        ],
+        "tapentadol": [
+          "Palexia",
+          "Palexia SR",
+          "Lodat SR",
+          "Palexia IR",
+          "Tadol IR",
+          "Tadol SR",
+          "Tapal IR",
+          "Tapal SR",
+          "Tapex IR",
+          "Tapex SR",
+          "Tapexia",
+          "Tapexia SR"
+        ],
+        "tramadol": [
+          "Tramal",
+          "Zydol",
+          "Durotram",
+          "Durotram XR",
+          "Iptramol",
+          "Lodam",
+          "Lodam SR",
+          "Tramahexal",
+          "Tramahexal SR",
+          "Tramal Drops",
+          "Tramal SR",
+          "Tramedo",
+          "Tramedo SR",
+          "Zydol SR"
+        ],
+        "codeine": [
+          "Panadeine Forte (with paracetamol)",
+          "Codalgin Forte (with paracetamol)",
+          "Aspen Codeine",
+          "Comfarol Forte (with paracetamol)",
+          "Prodeine Forte (with paracetamol)"
+        ]
+      },
+      "note": "Only opioid supplies with regular directions count (for example a tablet every 12 hours, or a patch every 3 or 7 days). Supplies marked only as needed do not count. Recognise single-ingredient codeine phosphate. Regular opioid treatment for dependence also counts, including scheduled buprenorphine. A supply alone does not prove a depot dose was given. Generic packs showing the ingredient with a company name count."
+    }
+  ],
+  "rule_for_models": "Apply only at age 65 or older. If age is unknown and the other evidence would support a finding, report only a possible finding and ask the pharmacist to confirm the age. Do not flag a documented valid reason for omission or an end-of-life plan focused on palliation. Suspect a finding when a Group B opioid is supplied on clearly scheduled directions, including at the first supply, and the record shows no Group A laxative covering that regular opioid course. Assess separate courses separately. Describe an uncovered course known to have ended as historical. Do not request a laxative for that finished course. If continued regular use is unclear, ask whether the person still takes the opioid before asking the GP to review current laxative cover. Count earlier laxative supply where quantity and directions support use during the course. A supply first made after the course ended cannot cover it. If cover is uncertain, request clarification, including any laxative bought without prescription. Supplies of an opioid used only as needed do not count. If the directions leave regular use uncertain, request clarification.",
+  "cannot_be_seen": "Laxatives bought without a prescription, diet and fluids, how well the bowels are working, and whether the opioid is really taken regularly. Also medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "Could you review bowel function and laxative cover if the patient is still taking the opioid regularly? If that course has finished, the recorded gap relates to past treatment.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

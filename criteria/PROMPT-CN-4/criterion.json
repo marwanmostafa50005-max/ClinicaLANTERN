@@ -1,0 +1,61 @@
+{
+  "id": "PROMPT-CN-4",
+  "label": "PROMPT CN-4",
+  "family": "PROMPT",
+  "title": "Zolpidem or zopiclone supplied for more than four weeks",
+  "statement": "Non-benzodiazepine hypnotics (zolpidem, zaleplon, zopiclone) should not be used long-term (greater than 4 weeks).",
+  "statement_origin": "published",
+  "source": {
+    "document": "Cooper JA, et al. The development of the PROMPT criteria. BMC Health Serv Res 2014;14:484, Table 4",
+    "citation": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "doi": "10.1186/s12913-014-0484-6",
+    "url": "https://doi.org/10.1186/s12913-014-0484-6",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Sleeping tablets such as zolpidem and zopiclone are meant for short-term use, and use beyond four weeks can bring dependence, drowsiness, confusion and falls.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Non-benzodiazepine hypnotics, also called Z-drugs",
+      "ingredients": [
+        "zolpidem",
+        "zopiclone",
+        "zaleplon"
+      ],
+      "brands": {
+        "zolpidem": [
+          "Stilnox",
+          "Stilnox CR",
+          "Zolpibell",
+          "Dormizol",
+          "Somidem",
+          "Stildem",
+          "Dormizol CR",
+          "Stilnoxium CR"
+        ],
+        "zopiclone": [
+          "Imovane",
+          "Imrest",
+          "Imoclone",
+          "Cloipca",
+          "Ipclone",
+          "Zstar",
+          "Ztab"
+        ],
+        "zaleplon": [
+          "Sonata"
+        ]
+      },
+      "note": "Zaleplon is named in the criterion. Its brand name is Sonata, which may no longer be supplied in Australia."
+    }
+  ],
+  "rule_for_models": "Apply this PROMPT criterion only at recorded ages 45 to 64 inclusive. If age is missing, record that eligibility is unknown and do not report a PROMPT finding. Suspect a finding when a Group A medicine (zolpidem, zopiclone or zaleplon) is supplied on dates that cover more than four weeks (28 days): repeat supplies no more than 60 days apart in one continuing course that together last more than 28 days, or one supply that lasts more than 28 days at the directed dose. If directions give no daily dose and the supply pattern could cover more than 28 days, report only a possible finding. Ask how many tablets are taken, on how many nights and for how long. Pack size alone does not establish nightly use. Do not count one short course, short courses that are many months apart, or separate short courses with a documented treatment break between them just because the supply dates are within 60 days.",
+  "cannot_be_seen": "Whether the tablets are taken every night or only now and then, why the sleeping tablet was started, and what else has been tried for sleep. Also any supply from another pharmacy, which is easy to miss because these are often private prescriptions.",
+  "ask_the_gp": "Whether the sleeping tablet is still needed after more than four weeks of supply.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

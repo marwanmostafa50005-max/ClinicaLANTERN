@@ -1,0 +1,50 @@
+[
+  {
+    "file": "KHAWAGI-G162/pos-fact.csv",
+    "kind": "positive",
+    "about": "The 10 July creatinine is within six months, but the planned repeat due on 31 July is still outstanding at the 15 August lithium supply.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G162",
+        "must_cite": [
+          [
+            "L003"
+          ],
+          [
+            "L046"
+          ],
+          [
+            "L042"
+          ],
+          [
+            "L043"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G162/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about serum creatinine or creatinine-derived eGFR during eight months of stable lithium treatment.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G162",
+        "must_cite": [
+          [
+            "L009"
+          ],
+          [
+            "L026"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G162/near-miss.csv",
+    "kind": "near_miss",
+    "about": "A creatinine-derived eGFR exactly six calendar months before the August lithium refill satisfies the monitoring check.",
+    "findings": []
+  }
+]

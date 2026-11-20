@@ -1,0 +1,228 @@
+{
+  "id": "KHAWAGI-G005",
+  "label": "Khawagi G005: antidepressant other than fluoxetine at age 18 or younger",
+  "family": "KHAWAGI",
+  "title": "Antidepressant other than fluoxetine at age 18 or younger",
+  "statement": "(N) Patient aged ≤18 - is prescribed an antidepressant other than fluoxetine",
+  "statement_origin": "published",
+  "source": {
+    "document": "Quality and safety of medication use in primary care: consensus validation of a new set of explicit medication assessment criteria and prioritisation of topics for improvement",
+    "citation": "Dreischulte T, Grant AM, McCowan C, McAnaw JJ, Guthrie B. BMC Clinical Pharmacology 2012;12:5.",
+    "doi": "10.1186/1472-6904-12-5",
+    "url": "https://link.springer.com/article/10.1186/1472-6904-12-5",
+    "licence": "CC BY 2.0",
+    "licence_status": "proposed",
+    "credit": "© 2012 Dreischulte et al., licensee BioMed Central Ltd. Table 5. DOI 10.1186/1472-6904-12-5. CC BY 2.0. Local selection and record conventions added.",
+    "modification_notice": "The published statement is reproduced with local screening and case rules added."
+  },
+  "plain_summary": "An antidepressant other than fluoxetine prompts a review of the reason for treatment in someone aged 18 or younger.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antidepressants other than fluoxetine",
+      "ingredients": [
+        "agomelatine",
+        "amitriptyline",
+        "bupropion",
+        "citalopram",
+        "clomipramine",
+        "desvenlafaxine",
+        "dosulepin",
+        "doxepin",
+        "duloxetine",
+        "escitalopram",
+        "esketamine",
+        "fluvoxamine",
+        "imipramine",
+        "mianserin",
+        "mirtazapine",
+        "moclobemide",
+        "nortriptyline",
+        "paroxetine",
+        "phenelzine",
+        "reboxetine",
+        "sertraline",
+        "tranylcypromine",
+        "trazodone",
+        "trimipramine",
+        "venlafaxine",
+        "vortioxetine"
+      ],
+      "brands": {
+        "agomelatine": [
+          "Valdoxan",
+          "Domion",
+          "Nortim",
+          "Valomel"
+        ],
+        "amitriptyline": [
+          "Endep",
+          "Amichlor",
+          "Amidep",
+          "Entrip"
+        ],
+        "bupropion": [
+          "Zyban SR",
+          "Clorprax",
+          "Prexaton"
+        ],
+        "citalopram": [
+          "Cipramil",
+          "Abbapram",
+          "Celapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talam",
+          "Talohexal"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "desvenlafaxine": [
+          "Pristiq",
+          "Desfax",
+          "Desven"
+        ],
+        "dosulepin": [
+          "Dothep",
+          "Prothiaden"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "duloxetine": [
+          "Dymbalt"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esipram",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam",
+          "Loxalate"
+        ],
+        "esketamine": [
+          "Spravato"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "mianserin": [
+          "Tolvon",
+          "Lumin"
+        ],
+        "mirtazapine": [
+          "Avanza",
+          "Aurozapine",
+          "Avanza Soltab",
+          "Axit",
+          "Milivin OD",
+          "Mirtanza",
+          "Mirtanza ODT",
+          "Mirtazon",
+          "Remeron",
+          "Remeron Soltab"
+        ],
+        "moclobemide": [
+          "Aurorix",
+          "Amira",
+          "Arima",
+          "Clobemide",
+          "Clobemix",
+          "Maosig",
+          "Mohexal"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "Nortritabs"
+        ],
+        "paroxetine": [
+          "Aropax CR",
+          "Aropax",
+          "Extine",
+          "Oxetine",
+          "Paroxo",
+          "Paxtine",
+          "Roxet",
+          "Roxtine"
+        ],
+        "phenelzine": [
+          "Nardil"
+        ],
+        "reboxetine": [
+          "Edronax"
+        ],
+        "sertraline": [
+          "Zoloft",
+          "Concorz",
+          "Detralon",
+          "Eleva",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Setrona",
+          "Tralen",
+          "Xydep"
+        ],
+        "tranylcypromine": [
+          "Parnate",
+          "Parpromine",
+          "Tranamef",
+          "Tranylmed"
+        ],
+        "trazodone": [],
+        "trimipramine": [],
+        "venlafaxine": [
+          "Efexor-XR",
+          "Altven",
+          "Elaxine SR",
+          "Enlafax XR",
+          "Evelexa XR",
+          "Ozvenaf",
+          "Venfax SR",
+          "Venla",
+          "Venlexor XR"
+        ],
+        "vortioxetine": [
+          "Brintellix"
+        ]
+      },
+      "note": "Systemic antidepressants across classes. Esketamine here refers to the antidepressant nasal spray."
+    }
+  ],
+  "rule_for_models": "If the person was 18 or younger on the supply date, cite any supply of a Group A antidepressant other than fluoxetine at any dose or duration. A diagnosis of depression or a record of earlier treatment is not required.",
+  "cannot_be_seen": "The supply does not show the reason for treatment, earlier treatment elsewhere, specialist advice or how the person responded.",
+  "ask_the_gp": "Could you confirm the indication and review whether this antidepressant remains suitable for this young person?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

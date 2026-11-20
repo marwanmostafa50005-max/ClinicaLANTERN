@@ -1,0 +1,245 @@
+{
+  "id": "OPTIMISE-T2-06",
+  "label": "OPTIMISE T2-06: simvastatin in severe mental illness",
+  "family": "OPTIMISE",
+  "title": "Simvastatin in a person with severe mental illness",
+  "statement": "Statins with a high degree of lipophilicity eg. simvastatin may be associated with central nervous system disturbance eg. sleep disturbance, nightmares. Consider more hydrophilic statins eg. atorvastatin, pravastatin in people with SMI",
+  "statement_origin": "published",
+  "source": {
+    "document": "Carolan A, et al. OPTIMISE. BMC Psychiatry 2022;22:585, Tables 2-3",
+    "citation": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Carolan A, Keating D, McWilliams S, et al. The development and validation of a medicines optimisation tool to protect the physical health of people with severe mental illness (OPTIMISE). BMC Psychiatry 2022;22:585",
+    "modification_notice": "Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.3 candidate repairs, adopted conventions and independent-audit corrections merged with attribution). Not endorsed by the source authors."
+  },
+  "plain_summary": "OPTIMISE suggests reviewing sleep symptoms in adults with severe mental illness who take simvastatin. If a change is being considered, pravastatin is a hydrophilic alternative.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Statins that dissolve readily in fat (simvastatin)",
+      "ingredients": [
+        "simvastatin"
+      ],
+      "brands": {
+        "simvastatin": [
+          "Zocor",
+          "Lipex",
+          "Vytorin",
+          "Invast",
+          "Myvast",
+          "Ransim",
+          "Simvabell",
+          "Simvacor",
+          "Simvahexal",
+          "Simvar",
+          "Simvasyn",
+          "Simvatrust",
+          "Zimstat",
+          "Zimybe"
+        ]
+      },
+      "note": "Vytorin is simvastatin with ezetimibe. Generic packs that show the ingredient name with a company name count too. Pravastatin and atorvastatin are the examples the statement gives as better choices, so they are not in this group. Lovastatin and fluvastatin are not listed because they are not currently sold in Australia."
+    },
+    {
+      "key": "B",
+      "name": "Antipsychotics and lithium (a sign the person may have severe mental illness)",
+      "ingredients": [
+        "olanzapine",
+        "quetiapine",
+        "risperidone",
+        "aripiprazole",
+        "clozapine",
+        "paliperidone",
+        "amisulpride",
+        "haloperidol",
+        "lithium carbonate",
+        "lurasidone",
+        "brexpiprazole",
+        "cariprazine",
+        "ziprasidone",
+        "asenapine",
+        "zuclopenthixol",
+        "flupentixol",
+        "flupentixol decanoate",
+        "chlorpromazine",
+        "periciazine"
+      ],
+      "brands": {
+        "olanzapine": [
+          "Zyprexa",
+          "Zyprexa Zydis",
+          "Aprolan",
+          "Aprolan ODT",
+          "Lanez",
+          "Lanez ODT",
+          "Lanzek",
+          "Lanzek Zydis",
+          "Lonza",
+          "Lonza ODT",
+          "Lyprosia",
+          "Lyprosia ODT",
+          "Olancor",
+          "Olanza",
+          "Olanzaccord",
+          "Olanzacor",
+          "Oprexa",
+          "Ozin",
+          "Ozin ODT",
+          "Prolanza",
+          "Prolanza ODT",
+          "Pryzex",
+          "Pryzex ODT",
+          "Tolaze ODT",
+          "Tolazine ODT",
+          "Torapine ODT",
+          "Torrenia ODT",
+          "Zylap",
+          "Zylap ODT",
+          "Zylapine",
+          "Zylapine ODT",
+          "Zypine",
+          "Zypine ODT"
+        ],
+        "quetiapine": [
+          "Seroquel",
+          "Seroquel XR",
+          "Aliquen",
+          "Delucon",
+          "Kaptan",
+          "Ketizenol",
+          "Qualez",
+          "Quepine XR",
+          "Quetapen",
+          "Quetia",
+          "Quetia XR",
+          "Quetiaccord",
+          "Quetiaquel XR",
+          "Quetin",
+          "Quipine",
+          "Sequase",
+          "Sequase XR",
+          "Serapine",
+          "Serapine XR",
+          "Seroccord",
+          "Seronia",
+          "Serotiapine XR",
+          "Syquet",
+          "Syquet XR",
+          "Syzopine",
+          "Tevatiapine XR",
+          "Tiapine XR",
+          "Tiava XR",
+          "Xque XR"
+        ],
+        "risperidone": [
+          "Risperdal",
+          "Risperdal Consta",
+          "Ozidal",
+          "Resdone",
+          "Respaz",
+          "Risdone",
+          "Rispa",
+          "Rispaccord",
+          "Rispaccord-0.5",
+          "Risperdal Quicklet",
+          "Risperibell",
+          "Rispericor",
+          "Rispericor-0.5",
+          "Risperisan",
+          "Rispernia",
+          "Rixadone",
+          "Sperid",
+          "Uzedy"
+        ],
+        "aripiprazole": [
+          "Abilify",
+          "Abilify Maintena",
+          "Abilify Asimtufii",
+          "Abilify ODT",
+          "Abipra",
+          "Abyraz",
+          "Aprazole",
+          "Aripic",
+          "Aripra",
+          "Arizole"
+        ],
+        "clozapine": [
+          "Clozaril",
+          "Clopine",
+          "Closyn",
+          "Clozaril ODT",
+          "Clozitor",
+          "Versacloz"
+        ],
+        "paliperidone": [
+          "Invega",
+          "Invega Sustenna",
+          "Invega Hafyera",
+          "Invega Trinza",
+          "Palmeux",
+          "Trevicta"
+        ],
+        "amisulpride": [
+          "Solian",
+          "Amipride",
+          "Sulprix"
+        ],
+        "haloperidol": [
+          "Serenace"
+        ],
+        "lithium carbonate": [
+          "Lithicarb",
+          "Quilonorm",
+          "Lithicarb SR",
+          "Lithquil SR",
+          "Lithspen",
+          "Quilonum SR"
+        ],
+        "lurasidone": [
+          "Latuda"
+        ],
+        "brexpiprazole": [
+          "Rexulti"
+        ],
+        "cariprazine": [
+          "Reagila"
+        ],
+        "ziprasidone": [
+          "Zeldox"
+        ],
+        "asenapine": [
+          "Saphris"
+        ],
+        "zuclopenthixol": [
+          "Clopixol"
+        ],
+        "flupentixol": [],
+        "flupentixol decanoate": [
+          "Fluanxol Depot",
+          "Fluanxol Concentrated Depot"
+        ],
+        "chlorpromazine": [
+          "Largactil"
+        ],
+        "periciazine": [
+          "Neulactil"
+        ]
+      },
+      "note": "This group is not the medicine the finding is about. It only shows that the person may be in the group the OPTIMISE tool was written for. A medicine used for another reason, for example low-dose quetiapine for sleep, can mislead."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Severe mental illness",
+      "meets": "A condition line records severe mental illness, such as schizophrenia, schizoaffective disorder, bipolar disorder or severe depression."
+    }
+  ],
+  "rule_for_models": "Apply from age 18. If age is unknown and the other evidence could qualify, report at most a possible finding and ask the pharmacist to confirm age. For an adult with a Group A simvastatin supply and a recorded diagnosis of severe mental illness, report a finding and cite the supply and diagnosis. If an adult has both a simvastatin supply and a Group B supply but no recorded diagnosis of severe mental illness, report a possible finding, cite both supplies and name the missing diagnosis. Other recorded conditions do not exclude this branch, but a confirmed absence of severe mental illness rules it out. Without a simvastatin supply, or when the record shows it was stopped or replaced, report no finding. A later supply of another statin alone does not prove a switch. If current use is uncertain and the other criteria could be met, report at most a possible finding and ask whether simvastatin is still taken. Without either a documented severe mental illness or a Group B supply, report no finding.",
+  "cannot_be_seen": "Whether the person has any sleep disturbance or nightmares. The exact diagnosis. Whether the person has tried other statins, and any reason to keep simvastatin such as a past reaction to another statin. When the diagnosis is missing, ask what condition the medicine is for. Ask whether sleep changed or nightmares began while taking simvastatin. Symptoms inform the review and are not required for the finding.",
+  "ask_the_gp": "Has the person noticed sleep changes, and would a review of the timing and choice of statin be helpful?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

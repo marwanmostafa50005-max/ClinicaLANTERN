@@ -1,0 +1,95 @@
+{
+  "id": "STOPP-I5",
+  "label": "STOPP I5: alpha-1 blocker with fainting or postural low blood pressure",
+  "family": "STOPP_START",
+  "title": "Alpha-1 blocker with symptomatic orthostatic hypotension or past fainting",
+  "statement": "Alpha-1 receptor antagonists other than silodosin (e.g., alfuzosin, doxazosin, indoramin, tamsulosin, terazosin) with symptomatic orthostatic hypotension or history of syncope (risk of precipitating recurrent syncope).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Alpha-1 blockers such as doxazosin and tamsulosin can lower blood pressure on standing and bring on fainting again in a person who has had it.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Alpha-1 blockers other than silodosin",
+      "ingredients": [
+        "alfuzosin",
+        "doxazosin",
+        "indoramin",
+        "prazosin",
+        "tamsulosin",
+        "terazosin"
+      ],
+      "brands": {
+        "alfuzosin": [
+          "Xatral",
+          "Xatral ER",
+          "Xatral SR"
+        ],
+        "doxazosin": [
+          "Carduran"
+        ],
+        "indoramin": [],
+        "prazosin": [
+          "Minipress",
+          "Pratsiol",
+          "Pressin"
+        ],
+        "tamsulosin": [
+          "Flomaxtra",
+          "Duodart",
+          "Flosix",
+          "Doubluts",
+          "Dutatam"
+        ],
+        "terazosin": [
+          "Hytrin"
+        ]
+      },
+      "note": "Silodosin (for example Urorec) is NOT in this group and does not count. Doxazosin and prazosin count when they are used for blood pressure as well as for the prostate. No Australian brand is listed for indoramin. Generic packs that show the ingredient name with a company name count too. Duodart, Doubluts and Dutatam contain tamsulosin with dutasteride."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Symptomatic low blood pressure on standing or previous fainting when the alpha-1 blocker was supplied",
+      "meets": "The person had symptomatic low blood pressure on standing during use, had already fainted by the time of supply, or both.",
+      "options": [
+        {
+          "words": "Symptomatic low blood pressure on standing during use",
+          "effect": "meets"
+        },
+        {
+          "words": "Had already fainted by the time of supply",
+          "effect": "meets"
+        },
+        {
+          "words": "Both",
+          "effect": "meets"
+        },
+        {
+          "words": "Neither applied at the time",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "For a person aged 65 or older supplied a Group A alpha-1 blocker other than silodosin, cite the supply and the condition or observation showing symptomatic low blood pressure on standing during use or a faint by the time of that supply. A pharmacist answer about either risk at that time also counts. A first faint after the course ended does not count for that course. If age is unknown and the other criteria could be met, report only a possible finding and ask the pharmacist to confirm whether the person is 65 or older. If both are excluded, give no finding, including when a documented postural fall is symptom-free and syncope history is negative, and if neither trigger is established and either is unknown, report a possible finding and name the missing fact.",
+  "cannot_be_seen": "The record may omit standing blood pressure, dizziness, fainting or the reason for the alpha-1 blocker. Use recorded measurements and symptoms when present.",
+  "ask_the_gp": "Whether the person has had fainting or dizziness on standing, and whether the alpha-1 blocker is still the best choice for them.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

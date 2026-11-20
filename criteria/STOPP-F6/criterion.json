@@ -1,0 +1,171 @@
+{
+  "id": "STOPP-F6",
+  "label": "STOPP F6",
+  "family": "STOPP_START",
+  "title": "Antiplatelet or anticoagulant with GAVE",
+  "statement": "Antiplatelet or anticoagulant drugs with a history of Gastric Antral Vascular Ectasia (GAVE, “watermelon stomach”) (risk of major gastrointestinal bleeding).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A blood thinner or antiplatelet medicine in a person with a past diagnosis of gastric antral vascular ectasia (GAVE, \"watermelon stomach\") raises the risk of serious stomach or bowel bleeding.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antiplatelet and anticoagulant medicines",
+      "ingredients": [
+        "aspirin",
+        "clopidogrel",
+        "ticagrelor",
+        "prasugrel",
+        "dipyridamole",
+        "warfarin",
+        "apixaban",
+        "rivaroxaban",
+        "dabigatran",
+        "edoxaban",
+        "enoxaparin",
+        "enoxaparin sodium",
+        "dalteparin",
+        "fondaparinux"
+      ],
+      "brands": {
+        "aspirin": [
+          "Cartia",
+          "Astrix",
+          "Cardiprin",
+          "Aspro",
+          "Aspro Clear",
+          "Aspro Clear Extra Strength",
+          "Aspro Protect",
+          "Cardasa",
+          "Disprin Direct",
+          "Disprin Extra Strength",
+          "Disprin Max",
+          "Disprin Original",
+          "Disprin Regular",
+          "Ecotrin",
+          "Princard",
+          "Solprin",
+          "Spren"
+        ],
+        "clopidogrel": [
+          "Plavix",
+          "Iscover",
+          "Clogrel",
+          "Clopaccord",
+          "Clopithromb",
+          "Clovix",
+          "Piax",
+          "Plavicor",
+          "Plidogrel",
+          "Viplex",
+          "CoPlavix",
+          "DuoCover"
+        ],
+        "ticagrelor": [
+          "Brilinta",
+          "Bricalor",
+          "Brilinta ODT",
+          "Novalant",
+          "Ticalor",
+          "Tirela"
+        ],
+        "prasugrel": [
+          "Effient"
+        ],
+        "dipyridamole": [
+          "Persantin",
+          "Asasantin SR",
+          "Persantin SR"
+        ],
+        "warfarin": [
+          "Coumadin",
+          "Marevan"
+        ],
+        "apixaban": [
+          "Eliquis",
+          "Alexibic",
+          "Apexa",
+          "Apixor",
+          "Axibic",
+          "Elapex"
+        ],
+        "rivaroxaban": [
+          "Xarelto",
+          "Ixarola",
+          "Relaban",
+          "Rivalembic",
+          "Rivarelto",
+          "Rivator",
+          "Rivaxib",
+          "Rivaxotor",
+          "Rivoxa",
+          "Roxabic",
+          "Roxalem",
+          "Roxator",
+          "Toriva",
+          "Troxa",
+          "Xaremed"
+        ],
+        "dabigatran": [
+          "Pradaxa"
+        ],
+        "edoxaban": [],
+        "enoxaparin": [
+          "Clexane",
+          "Clexane Forte",
+          "Exarane",
+          "Exarane Forte"
+        ],
+        "enoxaparin sodium": [
+          "Clexane",
+          "Clexane Forte",
+          "Exarane",
+          "Exarane Forte"
+        ],
+        "dalteparin": [
+          "Fragmin"
+        ],
+        "fondaparinux": [
+          "Arixtra"
+        ]
+      },
+      "note": "Low-dose aspirin counts. Asasantin SR is aspirin with dipyridamole and is listed under dipyridamole. Clexane is an injection. Generic packs that show the ingredient name with a company name count too. CoPlavix and DuoCover contain clopidogrel with aspirin. Fragmin, Exarane and Exarane Forte are injections."
+    }
+  ],
+  "rule_for_models": "Apply this criterion to people aged 65 years or older at the Group A supply. Confirm age if unknown. Cite the supply and the dated diagnosis, gastroscopy result or observation that establishes GAVE before or during treatment. Accept a pharmacist answer confirming GAVE before or during this treatment even if the diagnosis date is unknown. A later normal gastroscopy does not erase a prior diagnosis. Clear the finding when the record excludes a history of GAVE by the time of treatment. If the history or its timing is unknown, report a possible finding and name the missing fact exactly as \"Gastric antral vascular ectasia (GAVE, watermelon stomach)\".",
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Gastric antral vascular ectasia (GAVE, watermelon stomach)",
+      "meets": "A diagnosis, gastroscopy report, observation or pharmacist answer establishes GAVE before or during this treatment. The exact diagnosis date can be unknown.",
+      "options": [
+        {
+          "words": "Had GAVE before or during this treatment",
+          "effect": "meets"
+        },
+        {
+          "words": "No history of GAVE by the time of this treatment",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "cannot_be_seen": "Whether the person has ever had GAVE if the record holds no line about it, and why the medicine was started. Also gastroscopy results, anaemia or iron deficiency not recorded here, and medicines bought without a prescription such as aspirin.",
+  "ask_the_gp": "Whether the person has a history of GAVE, and whether the antiplatelet or anticoagulant is still needed and safe to continue.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

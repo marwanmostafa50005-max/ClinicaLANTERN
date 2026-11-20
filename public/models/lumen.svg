@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <g stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Two table lanterns, one identity. Each carries the same medium-height light column. -->
+    
+    <g>
+      <circle cx="158" cy="266" r="68" fill="#edbf67" opacity="0.17"/>
+      <path d="M100 144V118C100 64 216 64 216 118V144" stroke="#071d49" stroke-width="10"/>
+      <rect x="112" y="130" width="92" height="40" rx="6" fill="#8a1c12" stroke="#071d49" stroke-width="10"/>
+      <rect x="90" y="168" width="136" height="20" rx="7" fill="#b42318" stroke="#071d49" stroke-width="10"/>
+      <path d="M110 188C110 224 88 240 82 276C74 320 106 346 116 356H200C210 346 242 320 234 276C228 240 206 224 206 188Z" fill="#b42318" fill-opacity="0.10" stroke="#071d49" stroke-width="10"/>
+      <rect x="120" y="192" width="76" height="154" rx="38" fill="#edbf67" opacity="0.23"/>
+      <rect x="142" y="196" width="32" height="146" rx="16" fill="#fff8e3" stroke="#b42318" stroke-width="6"/>
+      <path d="M102 208C98 230 92 244 92 260" stroke="#ffffff" stroke-width="8" opacity="0.82"/>
+      <path d="M212 208C218 232 222 246 222 260" stroke="#ffffff" stroke-width="8" opacity="0.82"/>
+      <path d="M88 356H228L236 426H80Z" fill="#8a1c12" stroke="#071d49" stroke-width="10"/>
+      <rect x="70" y="424" width="176" height="30" rx="12" fill="#b42318" stroke="#071d49" stroke-width="10"/>
+      <path d="M120 356H196" stroke="#071d49" stroke-width="10"/>
+    </g>
+    
+    <g>
+      <circle cx="354" cy="266" r="68" fill="#edbf67" opacity="0.17"/>
+      <path d="M296 144V118C296 64 412 64 412 118V144" stroke="#071d49" stroke-width="10"/>
+      <rect x="308" y="130" width="92" height="40" rx="6" fill="#8a1c12" stroke="#071d49" stroke-width="10"/>
+      <rect x="286" y="168" width="136" height="20" rx="7" fill="#b42318" stroke="#071d49" stroke-width="10"/>
+      <path d="M306 188C306 224 284 240 278 276C270 320 302 346 312 356H396C406 346 438 320 430 276C424 240 402 224 402 188Z" fill="#b42318" fill-opacity="0.10" stroke="#071d49" stroke-width="10"/>
+      <rect x="316" y="192" width="76" height="154" rx="38" fill="#edbf67" opacity="0.23"/>
+      <rect x="338" y="196" width="32" height="146" rx="16" fill="#fff8e3" stroke="#b42318" stroke-width="6"/>
+      <path d="M298 208C294 230 288 244 288 260" stroke="#ffffff" stroke-width="8" opacity="0.82"/>
+      <path d="M408 208C414 232 418 246 418 260" stroke="#ffffff" stroke-width="8" opacity="0.82"/>
+      <path d="M284 356H424L432 426H276Z" fill="#8a1c12" stroke="#071d49" stroke-width="10"/>
+      <rect x="266" y="424" width="176" height="30" rx="12" fill="#b42318" stroke="#071d49" stroke-width="10"/>
+      <path d="M316 356H392" stroke="#071d49" stroke-width="10"/>
+    </g>
+    
+  </g>
+</svg>

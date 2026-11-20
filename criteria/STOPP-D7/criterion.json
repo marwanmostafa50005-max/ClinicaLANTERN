@@ -1,0 +1,142 @@
+{
+  "id": "STOPP-D7",
+  "label": "STOPP D7: SSRI with recent significant bleeding",
+  "family": "STOPP_START",
+  "title": "SSRI antidepressant with recent significant bleeding",
+  "statement": "Selective serotonin re-uptake inhibitors (SSRI’s) with current or recent significant bleeding (risk of exacerbation or recurrence of bleeding due to antiplatelet effects of SSRI’s).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "SSRI antidepressants make platelets less sticky, so they can bring back or worsen a bleed in a person who has recently bled.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "SSRI antidepressants",
+      "ingredients": [
+        "citalopram",
+        "escitalopram",
+        "fluoxetine",
+        "fluvoxamine",
+        "paroxetine",
+        "sertraline"
+      ],
+      "brands": {
+        "citalopram": [
+          "Cipramil",
+          "Celapram",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talam",
+          "Talohexal"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Loxalate",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Zactin",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Paxtine",
+          "Extine",
+          "Aropax CR",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ],
+        "sertraline": [
+          "Zoloft",
+          "Setrona",
+          "Concorz",
+          "Detralon",
+          "Eleva",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Tralen",
+          "Xydep"
+        ]
+      },
+      "note": "Selective serotonin re-uptake inhibitors. Dapoxetine (for premature ejaculation) is not counted. Venlafaxine, duloxetine, mirtazapine and vortioxetine are not SSRIs. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Significant bleeding in relation to the SSRI supply being checked",
+      "meets": "A condition line records a significant bleed that is active during the SSRI supply under review or was recent when that supply was made.",
+      "options": [
+        {
+          "words": "Significant bleeding was active during this supply",
+          "effect": "meets"
+        },
+        {
+          "words": "A significant bleed was recent when this supply was made",
+          "effect": "meets"
+        },
+        {
+          "words": "No significant bleeding was active or recent for this supply",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this rule only to people aged 65 years or older. If age is unknown, confirm it before reporting a STOPP finding. Suspect a finding when a Group A SSRI is supplied and the record documents a significant bleed that is active during the SSRI supply under review or was recent when that supply was made. For a current review use the latest supply in the SSRI episode under review. Cite the relevant supply and the bleeding entry. A remote settled bleed alone or a minor settled bleed alone gives no finding. If the pharmacist rules out active or recent significant bleeding for this supply, report no finding. If the history or timing is unknown, report a possible finding and ask about significant bleeding in relation to this supply. STOPP gives no fixed interval. Refer borderline dates to the pharmacist.",
+  "cannot_be_seen": "How serious the bleed was, its cause, and whether it has settled. Also aspirin or anti-inflammatory tablets bought over the counter, bleeding disorders, and supplies from another pharmacy.",
+  "ask_the_gp": "Whether the SSRI is still the best choice after the recent bleed, and whether the person needs stomach protection or a different antidepressant.",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

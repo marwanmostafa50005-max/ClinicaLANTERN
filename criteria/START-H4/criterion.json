@@ -1,0 +1,238 @@
+{
+  "id": "START-H4",
+  "label": "START H4: bone-strengthening medicine in osteoporosis",
+  "family": "STOPP_START",
+  "title": "Bone-strengthening medicine missing in osteoporosis or after a fragility fracture",
+  "statement": "Bone anti-resorptive or anabolic therapy (e.g., bisphosphonate, teriparatide, denosumab) in patients with documented osteoporosis (Bone Mineral Density T-scores below -2.5 in one or multiple sites) and/or previous history of fragility fracture(s) – where no pharmacological or clinical status contraindication exists such as poor one-year life expectancy.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A person with osteoporosis, or with a past fracture from a minor fall, should usually take a bone-strengthening medicine such as a bisphosphonate, denosumab or teriparatide, unless there is a reason not to.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Bone-strengthening medicines (anti-resorptive or anabolic)",
+      "ingredients": [
+        "alendronate",
+        "risedronate",
+        "zoledronic acid",
+        "ibandronate",
+        "denosumab",
+        "teriparatide",
+        "raloxifene",
+        "romosozumab",
+        "risedronic acid",
+        "alendronic acid",
+        "abaloparatide"
+      ],
+      "brands": {
+        "alendronate": [
+          "Fosamax",
+          "Fosamax Plus (alendronate with colecalciferol)",
+          "Adronat",
+          "Adronat Once Weekly",
+          "Alendraccord",
+          "Alendro",
+          "Alendro Once Weekly",
+          "Alendrobell",
+          "Alendrocor",
+          "Binosto",
+          "Densate",
+          "Fonat",
+          "Fosamax Once Weekly",
+          "Ossmax"
+        ],
+        "risedronate": [
+          "Actonel",
+          "Atelvia",
+          "Actonel EC Once-a-Week",
+          "Actonel Once-a-Month",
+          "Actonel Combi",
+          "Actonel Combi D",
+          "Actonate",
+          "Risedro Once a Week"
+        ],
+        "zoledronic acid": [
+          "Aclasta",
+          "Aclonat",
+          "Amonzitra",
+          "Astazol",
+          "Azolast",
+          "Bonezol",
+          "Deztron",
+          "Osteovan",
+          "Ostira",
+          "Zolaccord",
+          "Zoledasta"
+        ],
+        "ibandronate": [
+          "Bonviva"
+        ],
+        "denosumab": [
+          "Prolia",
+          "Corora",
+          "Ganvado",
+          "Jubbonti",
+          "Osenvelt",
+          "Prolia with Automatic Needle Guard",
+          "Rexadev",
+          "Stoboclo",
+          "Wyost",
+          "Xgeva"
+        ],
+        "teriparatide": [
+          "Forteo",
+          "Ritosa",
+          "Terrosa"
+        ],
+        "raloxifene": [
+          "Evista",
+          "Evifyne",
+          "Fixta",
+          "Ralovista"
+        ],
+        "romosozumab": [
+          "Evenity"
+        ],
+        "risedronic acid": [
+          "Actonel",
+          "Atelvia",
+          "Actonel EC Once-a-Week",
+          "Actonel Once-a-Month",
+          "Actonel Combi",
+          "Actonel Combi D",
+          "Actonate",
+          "Risedro Once a Week"
+        ],
+        "alendronic acid": [
+          "Fosamax",
+          "Fosamax Plus (alendronate with colecalciferol)",
+          "Adronat",
+          "Adronat Once Weekly",
+          "Alendraccord",
+          "Alendro",
+          "Alendro Once Weekly",
+          "Alendrobell",
+          "Alendrocor",
+          "Binosto",
+          "Densate",
+          "Fonat",
+          "Fosamax Once Weekly",
+          "Ossmax"
+        ],
+        "abaloparatide": [
+          "Eladynos"
+        ]
+      },
+      "note": "Medicines that meet this criterion. Vitamin D and calcium alone do not count. Treat the acid and salt names of alendronate and risedronate as aliases of the same treatment. For a combination pack, count the bisphosphonate component. For zoledronic acid, confirm the osteoporosis regimen from the dose and purpose. A 4 mg oncology preparation or a brand name alone does not establish it."
+    },
+    {
+      "key": "B",
+      "name": "Named oral osteoporosis packs",
+      "ingredients": [],
+      "brands": {
+        "alendronate": [
+          "Fosamax Plus",
+          "Adronat Once Weekly",
+          "Alendro Once Weekly",
+          "Fosamax Once Weekly"
+        ],
+        "risedronate": [
+          "Actonel EC Once-a-Week",
+          "Actonel Once-a-Month",
+          "Actonel Combi",
+          "Actonel Combi D",
+          "Risedro Once a Week"
+        ]
+      },
+      "note": "These oral packs are already in Group A. Only these named packs close the standing questions. Assess treatment using the full Group A, including dated treatment given elsewhere."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Osteoporosis",
+      "meets": "Osteoporosis recorded as a current condition",
+      "ask_when": "always",
+      "close_when": {
+        "group": "B",
+        "months": 6
+      }
+    },
+    {
+      "kind": "condition",
+      "what": "Previous fragility fracture",
+      "meets": "A fracture from a fall from standing height or less, recorded as a past or current condition",
+      "ask_when": "always",
+      "close_when": {
+        "group": "B",
+        "months": 6
+      }
+    },
+    {
+      "kind": "result",
+      "what": "Bone mineral density T-score",
+      "meets": "Use the lowest known bone mineral density T-score at any relevant site. A value below -2.5 qualifies. A diagnosis of osteoporosis or previous fragility fracture also qualifies when no score is known. Use existing results only."
+    },
+    {
+      "kind": "observation",
+      "what": "Osteoporosis treatment from another pharmacy, clinic or hospital",
+      "meets": "For an otherwise possible omission, check the medicine, formulation, regimen, last dose date and whether it was given. Confirmed absence of current external treatment allows the review to continue. Confirmed current treatment clears the omission. If timing, regimen or receipt is unknown, the omission remains possible.",
+      "options": [
+        {
+          "words": "No external osteoporosis treatment",
+          "effect": "meets"
+        },
+        {
+          "words": "External treatment was given but is no longer current",
+          "effect": "meets"
+        },
+        {
+          "words": "External treatment was planned but was not given and no other treatment is current",
+          "effect": "meets"
+        },
+        {
+          "words": "External treatment confirmed current from the regimen and last dose date",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Clinical suitability of osteoporosis drug treatment",
+      "meets": "When treatment appears absent, establish whether a documented clinical decision rules out all osteoporosis drug treatment. Suitability for consideration permits review. A contraindication to one drug alone does not rule out all options. An unknown decision leaves an omission possible.",
+      "options": [
+        {
+          "words": "Treatment is suitable for consideration",
+          "effect": "meets"
+        },
+        {
+          "words": "Treatment is unsuitable overall",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this criterion only to people aged 65 years or older. If age is unknown, confirm it before reporting a finding. Start only with a recorded diagnosis of osteoporosis, a known bone density T-score below -2.5 at any site or a previous fragility fracture. A known diagnosis or previous fragility fracture is sufficient without a T-score. Use an existing result only. Otherwise report no finding. Do not count a zoledronic acid brand alone or a 4 mg oncology regimen as evidence of osteoporosis treatment. Give no omission finding if qualifying Group A treatment was supplied in the last six months before the latest date in the record or the annual regimen still covers that date, and otherwise suspect an omission. For annual zoledronic acid 5 mg, check the last 12 months before the latest date in the record. A recorded osteoporosis infusion or a dated pharmacy supply identified as that regimen covers the period before the next annual dose is due, subject to the receipt checks below. A record that the dose was not given overrides the supply. If the purpose or receipt of the infusion is uncertain, report at most a possible omission and ask when and why it was given. Report no finding if treatment is documented as unsuitable overall, including a decision to forgo it because of limited life expectancy. A contraindication to one medicine alone does not exclude suitable alternatives. When an omission is otherwise possible, check the medicine, regimen, actual receipt and last dose date for treatment from another pharmacy, clinic or hospital. Apply the same intervals. Confirmed current external treatment clears the omission. Confirmed absence or an expired interval allows the review to continue. If timing or receipt is uncertain, report only a possible omission and ask about external treatment. Where treatment appears absent and overall suitability is unresolved, report only a possible omission and ask about clinical suitability. A decision that treatment is suitable for consideration permits the omission review. For every finding, cite one line showing the qualifying diagnosis, T-score or fragility fracture. To report an omission as more than possible, also cite both the line confirming that osteoporosis drug treatment is suitable for consideration and the line confirming that no osteoporosis treatment from another pharmacy, clinic or hospital is still current. For a possible omission, cite any line that documents the uncertainty and name the fact that needs checking.",
+  "cannot_be_seen": "Dispensing lines alone cannot show whether the person is expected to live for more than a year or whether there are other reasons to leave the medicine out, such as poor kidney function, low blood calcium, a dental problem or trouble swallowing. They may also miss a bone density result, a previous fracture or treatment given elsewhere, such as a yearly hospital zoledronic acid infusion. Use dated results and clinical notes when they document these facts.",
+  "ask_the_gp": "A review of whether bone-strengthening treatment is needed, or the reason it is not suitable.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,60 @@
+[
+  {
+    "file": "STOPP-F3/pos-fact.csv",
+    "kind": "positive",
+    "about": "Vesicare is supplied to a patient with current chronic constipation whose GP documents supervised bladder training as an available and suitable alternative for overactive bladder.",
+    "findings": [
+      {
+        "criterion": "STOPP-F3",
+        "must_cite": [
+          [
+            "L006",
+            "L010",
+            "L014",
+            "L018",
+            "L022",
+            "L025",
+            "L030",
+            "L033",
+            "L037",
+            "L041"
+          ],
+          [
+            "L001"
+          ],
+          [
+            "L007"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-F3/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about constipation or the availability of a suitable non-constipating alternative, and solifenacin (Vesicare) is supplied every four weeks for 8 months from December 2025.",
+    "findings": [
+      {
+        "criterion": "STOPP-F3",
+        "must_cite": [
+          [
+            "L004",
+            "L007",
+            "L010",
+            "L014",
+            "L017",
+            "L020",
+            "L024",
+            "L027"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-F3/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Vesicare is supplied monthly but the record states that the chronic constipation has resolved, so there is no finding.",
+    "findings": []
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "file": "MHRA-4/pos-fact.csv",
+    "kind": "positive",
+    "about": "Tamate is supplied to a woman, and an observation confirms childbearing potential without highly effective contraception.",
+    "findings": [
+      {
+        "criterion": "MHRA-4",
+        "must_cite": [
+          [
+            "L045"
+          ],
+          [
+            "L046"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "MHRA-4/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about childbearing potential without highly effective contraception, although topiramate is supplied.",
+    "findings": [
+      {
+        "criterion": "MHRA-4",
+        "must_cite": [
+          [
+            "L004",
+            "L008",
+            "L012",
+            "L016",
+            "L020",
+            "L024",
+            "L028"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "MHRA-4/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Tamate is supplied, but the observation confirms highly effective non-interacting contraception, so the criterion is not met.",
+    "findings": []
+  }
+]

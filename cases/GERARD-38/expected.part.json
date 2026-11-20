@@ -1,0 +1,47 @@
+[
+  {
+    "file": "GERARD-38/pos-fact.csv",
+    "kind": "positive",
+    "about": "The record confirms pancreatic insufficiency during empagliflozin treatment in a person with type 2 diabetes.",
+    "findings": [
+      {
+        "criterion": "GERARD-38",
+        "must_cite": [
+          [
+            "L045"
+          ],
+          [
+            "L002"
+          ],
+          [
+            "L046"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "GERARD-38/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about pancreatic insufficiency during empagliflozin treatment for a person with recorded type 2 diabetes.",
+    "findings": [
+      {
+        "criterion": "GERARD-38",
+        "must_cite": [
+          [
+            "L026"
+          ],
+          [
+            "L002"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "GERARD-38/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Pancreatic insufficiency was explicitly excluded during empagliflozin treatment.",
+    "findings": []
+  }
+]

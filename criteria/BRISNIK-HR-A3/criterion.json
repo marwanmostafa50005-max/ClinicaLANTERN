@@ -1,0 +1,78 @@
+{
+  "id": "BRISNIK-HR-A3",
+  "label": "BRISNIK-HR-A3",
+  "family": "BRISNIK",
+  "title": "Citalopram or escitalopram above the daily limit at age 65 or over",
+  "statement": "Prescribed > 20 mg citalopram or > 10 mg escitalopram daily - and the patient is aged ≥ 65 years (risk of QTc prolongation)",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "In a person aged 65 or over, more than 20 mg of citalopram or more than 10 mg of escitalopram a day raises the risk of a heart rhythm change called QT prolongation.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Citalopram, limit 20 mg a day",
+      "ingredients": [
+        "citalopram"
+      ],
+      "brands": {
+        "citalopram": [
+          "Cipramil",
+          "Celapram",
+          "Talam",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talohexal"
+        ]
+      }
+    },
+    {
+      "key": "B",
+      "name": "Escitalopram, limit 10 mg a day",
+      "ingredients": [
+        "escitalopram"
+      ],
+      "brands": {
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Loxalate",
+          "Lexam",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram"
+        ]
+      }
+    }
+  ],
+  "rule_for_models": "Suspect a finding when the patient is aged 65 or over and a supply gives a daily dose above the limit: more than 20 mg a day of a Group A medicine (citalopram), or more than 10 mg a day of a Group B medicine (escitalopram). Work out the total mg per day from the formulation, labelled strength and directions. For a person aged 65 or over, report only a possible finding if unclear directions leave an above-limit daily dose possible. Name the missing fact as the prescribed daily dose of citalopram or the prescribed daily dose of escitalopram, whichever medicine has unclear directions. Compare the pharmacist's dose in mg per day for that course with that medicine's limit. If the dose remains unknown, keep the finding possible. For Lexapro 20 mg/mL oral solution, multiply drops per day by 1 mg per drop or mL per day by 20 mg/mL. The limits apply to all listed forms. Exactly 20 mg of citalopram or 10 mg of escitalopram a day does not count. If age is unknown and an above-limit dose is established, report only a possible finding and ask whether the person is 65 or older. A known age below 65 gives no finding.",
+  "cannot_be_seen": "ECG results and the QT interval, blood potassium and magnesium, and kidney and liver function. Also other medicines that lengthen the QT interval if they were supplied elsewhere, whether the patient takes the full dose, and why this dose was chosen.",
+  "ask_the_gp": "The citalopram or escitalopram dose for this patient aged 65 or over, and whether an ECG and blood electrolytes have been checked.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

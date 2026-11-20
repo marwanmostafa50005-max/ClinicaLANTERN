@@ -1,0 +1,69 @@
+{
+  "id": "DREISCHULTE-74",
+  "label": "Dreischulte 74: Full blood count more than 12 weeks ago during methotrexate treatment",
+  "family": "DREISCHULTE",
+  "title": "Full blood count more than 12 weeks ago during methotrexate treatment",
+  "statement": "Patient treated with methotrexate - had no FBC check in the last 12 weeks",
+  "statement_origin": "published",
+  "source": {
+    "document": "Quality and safety of medication use in primary care: consensus validation of a new set of explicit medication assessment criteria and prioritisation of topics for improvement.",
+    "citation": "Dreischulte T, Grant AM, McCowan C, McAnaw JJ, Guthrie B. Quality and safety of medication use in primary care: consensus validation of a new set of explicit medication assessment criteria and prioritisation of topics for improvement. BMC Clinical Pharmacology. 2012;12:5. doi:10.1186/1472-6904-12-5.",
+    "doi": "10.1186/1472-6904-12-5",
+    "url": "https://link.springer.com/article/10.1186/1472-6904-12-5",
+    "licence": "CC BY 2.0",
+    "licence_status": "proposed",
+    "credit": "© 2012 Dreischulte et al., licensee BioMed Central Ltd. Dreischulte T, Grant AM, McCowan C, McAnaw JJ, Guthrie B. Quality and safety of medication use in primary care: consensus validation of a new set of explicit medication assessment criteria and prioritisation of topics for improvement. BMC Clinical Pharmacology. 2012;12:5. doi:10.1186/1472-6904-12-5.",
+    "modification_notice": "The published statement is reproduced unchanged. GPT-6.2 Astra drafted the Australian screening rule, medicine group and fictional histories."
+  },
+  "plain_summary": "The 2012 criterion flags a gap of more than 12 weeks since the last full blood count during treatment with methotrexate.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Methotrexate",
+      "ingredients": [
+        "methotrexate"
+      ],
+      "brands": {
+        "methotrexate": [
+          "Methoblastin",
+          "Chexate",
+          "Ciptrexate",
+          "Imutrex",
+          "Trexject"
+        ]
+      },
+      "note": "Count oral tablets and subcutaneous methotrexate, including Trexject."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Timing of the latest completed full blood count (12-week window)",
+      "meets": "The latest completed full blood count was more than 84 days before the latest qualifying supply, or no completed test was found after checking for tests done elsewhere.",
+      "options": [
+        {
+          "words": "Completed on or within 84 days before the latest qualifying supply",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Latest completed test was more than 84 days before the latest qualifying supply",
+          "effect": "meets"
+        },
+        {
+          "words": "No completed full blood count was found after checking for tests done elsewhere",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Start at the latest Group A methotrexate supply regardless of indication. Give no finding if a completed full blood count was collected on that date or in the preceding 84 days (12 weeks), using the test collection date rather than a later note date. A shorter course alone does not rule out this finding. A timing answer that confirms a completed test in this window also rules out a finding. Report a finding if the record confirms that the latest completed test was more than 84 days before this supply, or that no completed test was found after checking for tests done elsewhere. Cite the latest Group A supply and the line that gives the date of the latest completed full blood count or confirms the monitoring gap for this supply. If timing for this supply is missing, unknown or only established for a different supply date, report only a possible finding. Cite the latest Group A supply and name \"Timing of the latest completed full blood count (12-week window)\" as the missing fact.",
+  "cannot_be_seen": "A pharmacy record can omit tests done elsewhere. An old report alone cannot establish the latest test date. A test order does not show that blood was collected.",
+  "ask_the_gp": "Could we confirm the latest completed full blood count and review the monitoring interval appropriate for this person's methotrexate treatment?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

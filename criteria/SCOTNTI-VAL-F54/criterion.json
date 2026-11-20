@@ -1,0 +1,80 @@
+{
+  "id": "SCOTNTI-VAL-F54",
+  "label": "SCOTNTI VAL-F54",
+  "family": "SCOTNTI",
+  "title": "Valproate in females aged 0 to 54",
+  "statement": "Females aged 0 to 54 prescribed valproate per 1,000 list size of females aged 0 to 54",
+  "statement_origin": "published",
+  "source": {
+    "document": "Public Health Scotland. National therapeutic indicators data visualisation: data to September 2024",
+    "citation": "Public Health Scotland. National therapeutic indicators data visualisation: data to September 2024. Published 28 January 2025. Main points and image caption.",
+    "url": "https://publichealthscotland.scot/publications/national-therapeutic-indicators-data-visualisation/national-therapeutic-indicators-data-visualisation-data-to-september-2024/",
+    "licence": "UK Open Government Licence v3.0",
+    "licence_status": "proposed",
+    "credit": "Contains public sector information licensed under the Open Government Licence v3.0 (Public Health Scotland).",
+    "modification_notice": "Statement reproduced without changes. Plain-language fields and Australian medicine mapping added for this draft."
+  },
+  "plain_summary": "Sodium valproate carries a high risk of severe congenital malformations and neurodevelopmental disorders if used during pregnancy. Australian guidance and product information highlight specialist initiation and supervision, regular review, and effective contraception for females of childbearing potential. NEVER stop valproate abruptly because sudden withdrawal can trigger seizures or mood relapse.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Systemic sodium valproate",
+      "ingredients": [
+        "sodium valproate",
+        "valproate sodium",
+        "valproic acid"
+      ],
+      "brands": {
+        "sodium valproate": [
+          "Epilim",
+          "Epilim EC",
+          "Epilim IV",
+          "Epilim Liquid",
+          "Epilim Syrup",
+          "Valpro",
+          "Valpro EC",
+          "Valproate Winthrop",
+          "Valproate Winthrop EC",
+          "APO-Sodium Valproate",
+          "Sodium Valproate Sandoz",
+          "Valprease"
+        ],
+        "valproate sodium": [
+          "Epilim",
+          "Epilim EC",
+          "Epilim IV",
+          "Epilim Liquid",
+          "Epilim Syrup",
+          "Valpro",
+          "Valpro EC",
+          "Valproate Winthrop",
+          "Valproate Winthrop EC",
+          "APO-Sodium Valproate",
+          "Sodium Valproate Sandoz",
+          "Valprease"
+        ],
+        "valproic acid": [
+          "Epilim",
+          "Epilim EC",
+          "Epilim IV",
+          "Epilim Liquid",
+          "Epilim Syrup",
+          "Valpro",
+          "Valpro EC",
+          "Valproate Winthrop",
+          "Valproate Winthrop EC",
+          "APO-Sodium Valproate",
+          "Sodium Valproate Sandoz",
+          "Valprease"
+        ]
+      },
+      "note": "All systemic sodium valproate forms count, including oral tablets, oral liquids, syrup, and intravenous preparations where recorded. Generic packs that show the ingredient name count too."
+    }
+  ],
+  "rule_for_models": "Report a finding for a female patient aged 0 to 54 inclusive who has a Group A systemic valproate supply, and cite that supply. A recorded male patient or anyone recorded as 55 or older is outside the criterion even if the other detail is missing. If a Group A supply is present, no known detail rules the patient out and age or sex is missing, report a possible finding and ask for the missing detail. Never advise abrupt cessation of valproate.",
+  "cannot_be_seen": "Pre-pubertal status, menopause, sterilisation, pregnancy, and pregnancy plans are not visible in dispensing lines. Non-pharmacy contraception such as IUDs or implants, specialist oversight, and supplies from another pharmacy or hospital are also not visible.",
+  "ask_the_gp": "Could you review specialist supervision, reproductive counselling, and effective contraception where relevant for this patient on valproate?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

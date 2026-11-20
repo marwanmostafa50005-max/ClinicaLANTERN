@@ -1,0 +1,115 @@
+{
+  "id": "STOPP-H8",
+  "label": "STOPP H8",
+  "family": "STOPP_START",
+  "title": "Bisphosphonate tablets with upper gut disease",
+  "statement": "Oral bisphosphonates in patients with a current or recent history of upper gastrointestinal disease i.e. dysphagia, oesophagitis, gastritis, duodenitis, or peptic ulcer disease, or upper gastrointestinal bleeding (risk of relapse/exacerbation of oesophagitis, oesophageal ulcer, oesophageal stricture).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Bisphosphonate tablets can irritate the gullet and stomach, so they can make a current or recent upper gut problem worse.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Bisphosphonate tablets taken by mouth",
+      "ingredients": [
+        "alendronic acid",
+        "risedronic acid",
+        "ibandronic acid",
+        "alendronate",
+        "ibandronate",
+        "risedronate"
+      ],
+      "brands": {
+        "alendronic acid": [
+          "Fosamax",
+          "Fosamax Plus",
+          "Alendronate Sandoz"
+        ],
+        "risedronic acid": [
+          "Actonel",
+          "Actonel Once a Week",
+          "Acris Once-a-Month",
+          "Acris Once-a-Week",
+          "Actonate",
+          "Actonate EC Once-a-Week",
+          "Actonate Once-a-Month",
+          "Actonel EC Once-a-Week",
+          "Actonel Once-a-Month",
+          "Atelvia",
+          "Atelvia EC Once-a-Week",
+          "Atelvia Once-a-Month",
+          "Perodon",
+          "Risedro Once a Week",
+          "Actonel Combi",
+          "Actonel Combi D"
+        ],
+        "ibandronic acid": [
+          "Bonviva"
+        ],
+        "alendronate": [
+          "Fosamax",
+          "Fosamax Plus",
+          "Alendronate Sandoz"
+        ],
+        "ibandronate": [
+          "Bonviva"
+        ],
+        "risedronate": [
+          "Actonel",
+          "Actonel Once a Week",
+          "Acris Once-a-Month",
+          "Acris Once-a-Week",
+          "Actonate",
+          "Actonate EC Once-a-Week",
+          "Actonate Once-a-Month",
+          "Actonel EC Once-a-Week",
+          "Actonel Once-a-Month",
+          "Atelvia",
+          "Atelvia EC Once-a-Week",
+          "Atelvia Once-a-Month",
+          "Perodon",
+          "Risedro Once a Week",
+          "Actonel Combi",
+          "Actonel Combi D"
+        ]
+      },
+      "note": "Fosamax Plus is alendronic acid with vitamin D. Bisphosphonate injections and infusions such as zoledronic acid do not count. Generic packs that show the ingredient name with a company name count too. Actonel Combi contains an oral risedronate tablet and separate calcium tablets. Actonel Combi D contains an oral risedronate tablet and separate calcium and vitamin D sachets. Calcium or vitamin D supplied alone does not count."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Current or recent upper gastrointestinal disease: difficulty swallowing, oesophagitis, gastritis, duodenitis, peptic ulcer disease or upper gastrointestinal bleeding",
+      "meets": "Any of these is recorded as current or recent",
+      "options": [
+        {
+          "words": "At least one listed problem was current or recent at the supply under review",
+          "effect": "meets"
+        },
+        {
+          "words": "All listed problems were absent and none was recent at that supply",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply only to people aged 65 years or older. If age is unknown and the other criteria are met, report age as missing and leave the finding unconfirmed. Suspect a finding when a Group A medicine (a bisphosphonate taken by mouth) is supplied and the record holds a line for difficulty swallowing, oesophagitis, gastritis, duodenitis, peptic ulcer disease or upper gastrointestinal bleeding that is current or recent. Cite the bisphosphonate supply lines and that line. Use the pharmacist’s answer for the supply it describes. Keep timing open if it is unclear which supply the answer concerns. If a past event is dated but its recency at the supply date is uncertain, report only a possible finding. The pharmacist decides whether that event counts as recent. If the history is missing or not known, report a possible finding and say the upper gut history is missing. Give no finding when the pharmacist confirms none was current or recent at that supply, or a dated assessment relevant to the supply excludes current or recent swallowing difficulty, oesophagitis, gastritis, duodenitis, peptic ulcer disease and upper gastrointestinal bleeding. A normal gastroscopy alone leaves any unassessed history unknown.",
+  "cannot_be_seen": "Whether the upper gut problem is current, how long ago it happened, and whether it was treated. Also whether the person takes the tablet correctly, and medicines supplied by another pharmacy.",
+  "ask_the_gp": "Whether the bisphosphonate tablet is still suitable given the upper gut history, or whether another osteoporosis treatment is better.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "file": "EU7-F44/pos-brand.csv",
+    "kind": "positive",
+    "about": "Lioresal (baclofen, a muscle relaxant) 10 mg is supplied five times from March to July 2026 to a 75-year-old woman, by brand name only.",
+    "findings": [
+      {
+        "criterion": "EU7-F44",
+        "must_cite": [
+          [
+            "L013",
+            "L017",
+            "L021",
+            "L025",
+            "L029"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F44/pos-buried.csv",
+    "kind": "positive",
+    "about": "Orphenadrine (Norflex) 100 mg is supplied three times from January to March 2026, in the middle of a 16-month history of a 69-year-old man.",
+    "findings": [
+      {
+        "criterion": "EU7-F44",
+        "must_cite": [
+          [
+            "L032",
+            "L038",
+            "L042"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F44/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Lioresal (baclofen) 10 mg is supplied five times from March to July 2026, but the patient is 52, below the older-person age of 65, so the criterion is not met.",
+    "findings": []
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "file": "SCOTPOLY-SD-5/pos-brand.csv",
+    "kind": "positive",
+    "about": "Celebrex was supplied recently and the patient reports a current dehydrating illness.",
+    "findings": [
+      {
+        "criterion": "SCOTPOLY-SD-5",
+        "must_cite": [
+          [
+            "L036"
+          ],
+          [
+            "L037"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "SCOTPOLY-SD-5/pos-buried.csv",
+    "kind": "positive",
+    "about": "A recent meloxicam supply appears among other medicines and the patient reports a current febrile illness with reduced fluid intake.",
+    "findings": [
+      {
+        "criterion": "SCOTPOLY-SD-5",
+        "must_cite": [
+          [
+            "L021"
+          ],
+          [
+            "L033"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "SCOTPOLY-SD-5/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The patient recently received meloxicam and reports eating and drinking normally without dehydration.",
+    "findings": []
+  }
+]

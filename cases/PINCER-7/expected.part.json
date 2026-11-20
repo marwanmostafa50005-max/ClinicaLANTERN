@@ -1,0 +1,51 @@
+[
+  {
+    "file": "PINCER-7/pos-fact.csv",
+    "kind": "positive",
+    "about": "Lithium (Quilonum SR) is supplied about every 50 days from December 2025 to September 2026. The newest lithium level is dated 20 April 2026, more than three months before the end of the record. The latest date in the record is 2026-10-19.",
+    "findings": [
+      {
+        "criterion": "PINCER-7",
+        "must_cite": [
+          [
+            "L026",
+            "L030"
+          ],
+          [
+            "L037",
+            "L044"
+          ],
+          [
+            "L022"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PINCER-7/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the missing fact is \"Serum lithium level recorded in the last three months\". Quilonum SR is supplied in both windows. The latest date in the record is 2026-10-17.",
+    "findings": [
+      {
+        "criterion": "PINCER-7",
+        "must_cite": [
+          [
+            "L017",
+            "L020"
+          ],
+          [
+            "L025",
+            "L030"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PINCER-7/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Lithium is supplied seven times, but lithium levels are recorded on 24 June and 15 September 2026, and the second is inside the last three months.",
+    "findings": []
+  }
+]

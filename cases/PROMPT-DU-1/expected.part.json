@@ -1,0 +1,64 @@
+[
+  {
+    "file": "PROMPT-DU-1/pos-brand.csv",
+    "kind": "positive",
+    "about": "The repeated Lipitor and Crestor supplies fall within 60 days of each other and identify two different statins by brand, raising possible duplication.",
+    "findings": [
+      {
+        "criterion": "PROMPT-DU-1",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L009",
+            "L013",
+            "L017",
+            "L021",
+            "L025",
+            "L029",
+            "L033"
+          ],
+          [
+            "L003",
+            "L007",
+            "L011",
+            "L015",
+            "L019",
+            "L023",
+            "L027",
+            "L031",
+            "L035"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PROMPT-DU-1/pos-buried.csv",
+    "kind": "positive",
+    "about": "Norspan patches and tramadol capsules are supplied for pain on dates one day apart, with no recorded switch or guideline-supported reason for the pair.",
+    "findings": [
+      {
+        "criterion": "PROMPT-DU-1",
+        "must_cite": [
+          [
+            "L027",
+            "L032",
+            "L037"
+          ],
+          [
+            "L026",
+            "L031",
+            "L036"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PROMPT-DU-1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Atorvastatin stopped before rosuvastatin began, Buvidal Weekly is for opioid dependence, and Ventolin with Seretide is the excluded short-acting and long-acting beta-2 agonist pair.",
+    "findings": []
+  }
+]

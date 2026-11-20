@@ -1,0 +1,104 @@
+{
+  "id": "SCOTPOLY-SD-4",
+  "label": "SCOTPOLY: SGLT2 inhibitor during acute dehydrating illness",
+  "family": "SCOTPOLY",
+  "title": "SGLT2 inhibitor during acute dehydrating illness",
+  "statement": "Step 5: Medication Sick Day Guidance: advise to stop during dehydrating illness for SGLT-2i, metformin",
+  "statement_origin": "published",
+  "source": {
+    "document": "Scottish Government Effective Prescribing and Therapeutics Division, Polypharmacy Guidance: Appropriate Prescribing - Making medicines safe, effective and sustainable 2026-2029, fourth edition",
+    "citation": "Scottish Government Effective Prescribing and Therapeutics Division. Polypharmacy Guidance: Appropriate Prescribing - Making medicines safe, effective and sustainable 2026-2029, fourth edition, published 2 March 2026. Appendix B, Table 38, Endocrine System, Antidiabetics, Step 5 (web page 13, printed page 388).",
+    "url": "https://www.gov.scot/publications/polypharmacy-guidance-appropriate-prescribing-making-medicines-safe-effective-sustainable-2026-2029/pages/13/",
+    "licence": "UK Open Government Licence v3.0",
+    "licence_status": "proposed",
+    "credit": "Contains public sector information licensed under the Open Government Licence v3.0.",
+    "modification_notice": "The Appendix B wording is reproduced unchanged. The Australian screening rule, medicine groups, counter question and fictional histories are adaptations."
+  },
+  "plain_summary": "A person taking an SGLT2 inhibitor may develop acute kidney injury or euglycaemic diabetic ketoacidosis during vomiting, diarrhoea or fever with poor fluid intake. Ketoacidosis can occur even when blood glucose is near normal. This check includes people taking the medicine for heart failure or chronic kidney disease without diabetes. Check the person's sick-day plan and whether a temporary pause is appropriate. If a pause is agreed, review restarting once well and eating and drinking normally. Seek prompt medical review if symptoms persist or worsen or fluids cannot be kept down. Seek specialist advice before changing treatment in decompensated heart failure. Suspected ketoacidosis needs emergency assessment.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "SGLT2 inhibitors and SGLT2 inhibitor combination products",
+      "ingredients": [
+        "dapagliflozin",
+        "empagliflozin",
+        "canagliflozin",
+        "ertugliflozin",
+        "dapagliflozin + metformin",
+        "empagliflozin + metformin",
+        "empagliflozin + linagliptin",
+        "dapagliflozin + saxagliptin",
+        "ertugliflozin + metformin",
+        "ertugliflozin + sitagliptin",
+        "dapagliflozin + sitagliptin"
+      ],
+      "brands": {
+        "dapagliflozin": [
+          "Forxiga"
+        ],
+        "empagliflozin": [
+          "Jardiance"
+        ],
+        "canagliflozin": [
+          "Invokana"
+        ],
+        "ertugliflozin": [
+          "Steglatro"
+        ],
+        "dapagliflozin + metformin": [
+          "Xigduo XR"
+        ],
+        "empagliflozin + metformin": [
+          "Jardiamet"
+        ],
+        "empagliflozin + linagliptin": [
+          "Glyxambi"
+        ],
+        "dapagliflozin + saxagliptin": [
+          "Qtern"
+        ],
+        "ertugliflozin + metformin": [
+          "Segluromet"
+        ],
+        "ertugliflozin + sitagliptin": [
+          "Steglujan"
+        ],
+        "dapagliflozin + sitagliptin": [
+          "Sidapvia"
+        ]
+      },
+      "note": "Count oral SGLT2 inhibitors alone or in a combination tablet. A supply of metformin alone does not count. Diabetes, heart failure and chronic kidney disease are all relevant uses. Count supplies from the month of the newest dated record line and the two preceding calendar months, even if the directions say as directed or when needed. An unknown age does not prevent this check. An illness recorded only in a past episode leaves the current illness unknown. Check actual use at the counter."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Current dehydrating illness",
+      "meets": "The patient currently has an acute dehydrating illness, such as repeated vomiting or diarrhoea, fever with more than mild sweats or shaking, or cannot keep fluids down.",
+      "options": [
+        {
+          "words": "Current dehydrating illness, such as repeated vomiting or diarrhoea, inability to keep fluids down, or other signs of dehydration",
+          "effect": "meets"
+        },
+        {
+          "words": "Fever with more than mild sweats or shaking",
+          "effect": "meets"
+        },
+        {
+          "words": "No current dehydrating illness, including recovery or mild illness with normal fluid intake",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "At any age, look for an oral Group A SGLT2 inhibitor supplied in the month of the newest record date or either of the two preceding months. With a qualifying supply, use the pharmacist's answer for this assessment, even if undated, or the latest relevant observation or condition that establishes current illness status. Confirm current dehydrating illness in any care setting and cite the supply and illness lines. If status is missing, unknown or only describes a past episode, cite the supply and report a possible finding with Current dehydrating illness as the missing fact. Give no finding if there is no qualifying supply or the patient is well, has recovered or has only mild illness with normal fluid intake and no dehydration.",
+  "cannot_be_seen": "The record may omit current use and the person's sick-day plan. A supply does not establish the reason for treatment, ketone levels, hydration or kidney function.",
+  "ask_the_gp": "Could you review current SGLT2 inhibitor use, any dehydrating illness, kidney injury risk and the sick-day plan, including whether to pause treatment and when to restart after recovery and normal intake? If ketoacidosis is suspected, even with near-normal blood glucose, is urgent ketone testing or emergency assessment needed? Could you advise on prompt review if symptoms persist or worsen or heart failure is decompensated?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

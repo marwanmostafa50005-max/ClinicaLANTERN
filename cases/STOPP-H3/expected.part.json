@@ -1,0 +1,64 @@
+[
+  {
+    "file": "STOPP-H3/pos-fact.csv",
+    "kind": "positive",
+    "about": "Regular Mobic supplies for knee osteoarthritis span more than 90 days, and the patient reports no earlier trial of paracetamol alone for this pain.",
+    "findings": [
+      {
+        "criterion": "STOPP-H3",
+        "must_cite": [
+          [
+            "L010"
+          ],
+          [
+            "L015",
+            "L020"
+          ],
+          [
+            "L025"
+          ],
+          [
+            "L030"
+          ],
+          [
+            "L001"
+          ],
+          [
+            "L031"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-H3/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the Celebrex supply dates span more than 90 days, but the as-needed directions leave actual use unclear and the record gives no osteoarthritis diagnosis, indication or prior paracetamol trial history.",
+    "findings": [
+      {
+        "criterion": "STOPP-H3",
+        "must_cite": [
+          [
+            "L004"
+          ],
+          [
+            "L008",
+            "L012"
+          ],
+          [
+            "L016"
+          ],
+          [
+            "L020"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-H3/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Osteoarthritis is recorded and Mobic is supplied for about five months, but Panadol Osteo (paracetamol) was supplied three times earlier, so paracetamol has been tried.",
+    "findings": []
+  }
+]

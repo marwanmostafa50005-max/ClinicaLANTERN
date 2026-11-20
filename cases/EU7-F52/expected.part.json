@@ -1,0 +1,42 @@
+[
+  {
+    "file": "EU7-F52/pos-brand.csv",
+    "kind": "positive",
+    "about": "Three Solprin supplies direct two 300 mg tablets per dose, giving 600 mg of aspirin each time.",
+    "findings": [
+      {
+        "criterion": "EU7-F52",
+        "must_cite": [
+          [
+            "L011",
+            "L017",
+            "L021"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F52/pos-buried.csv",
+    "kind": "positive",
+    "about": "Three acetylsalicylic acid supplies in the middle of the history direct two 300 mg tablets per dose, giving 600 mg of aspirin each time.",
+    "findings": [
+      {
+        "criterion": "EU7-F52",
+        "must_cite": [
+          [
+            "L033",
+            "L038",
+            "L044"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F52/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Only low-dose aspirin 100 mg once a day (Cardiprin) is supplied, which is not above 325 mg, so it must not flag.",
+    "findings": []
+  }
+]

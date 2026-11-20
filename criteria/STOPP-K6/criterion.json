@@ -1,0 +1,133 @@
+{
+  "id": "STOPP-K6",
+  "label": "STOPP K6: first generation antihistamine with recurrent falls",
+  "family": "STOPP_START",
+  "title": "First generation antihistamine in a person who falls",
+  "statement": "First generation antihistamines in patients with recurrent falls (may impair sensorium).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Older style antihistamines such as promethazine can cause drowsiness and confusion, which raises the risk of falling in a person who already falls often.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "First generation (sedating) antihistamines",
+      "ingredients": [
+        "promethazine",
+        "dexchlorpheniramine",
+        "diphenhydramine",
+        "doxylamine",
+        "dimenhydrinate",
+        "cyproheptadine",
+        "hydroxyzine",
+        "alimemazine",
+        "pheniramine",
+        "brompheniramine",
+        "chlorphenamine",
+        "triprolidine"
+      ],
+      "brands": {
+        "promethazine": [
+          "Phenergan",
+          "Avomine",
+          "Allersoothe",
+          "Allersoothe Elixir",
+          "Fenezal",
+          "Histaren",
+          "Phenergan Elixir",
+          "Progan Children's Allergy Relief Elixir"
+        ],
+        "dexchlorpheniramine": [
+          "Polaramine",
+          "Polaramine Repetab",
+          "Polaramine Syrup",
+          "Polarelief"
+        ],
+        "diphenhydramine": [
+          "Nytol",
+          "Unisom SleepGels"
+        ],
+        "doxylamine": [
+          "Restavit",
+          "Dozavit",
+          "Dozile",
+          "Restamine",
+          "Mersyndol",
+          "Mersyndol Forte",
+          "Blooms The Chemist Sleep Assist"
+        ],
+        "dimenhydrinate": [
+          "Dramamine",
+          "TravaCalm Original"
+        ],
+        "cyproheptadine": [
+          "Periactin"
+        ],
+        "hydroxyzine": [
+          "Atarax"
+        ],
+        "alimemazine": [
+          "Vallergan"
+        ],
+        "pheniramine": [
+          "Avil"
+        ],
+        "brompheniramine": [
+          "Dimetapp Cold and Allergy Elixir",
+          "Dimetapp Cold and Allergy Extra Strength Drops"
+        ],
+        "chlorphenamine": [
+          "Demazin 6 Hour",
+          "Sudafed PE Sinus Plus Allergy and Pain Relief"
+        ],
+        "triprolidine": [
+          "Sudafed Sinus Plus Allergy and Pain Relief"
+        ]
+      },
+      "note": "Oral tablets, capsules and liquids count. Mersyndol and Mersyndol Forte contain paracetamol, codeine and doxylamine. Count DBL promethazine injection because its product information warns of sedation. Exclude skin creams, skin gels and eye drops. Do not count an unidentified injection. Sleep Assist alone does not establish the ingredient. Second generation antihistamines such as cetirizine, loratadine, fexofenadine and desloratadine do not count. A brand only counts when the product holds the listed ingredient. Generic packs that show the ingredient name with a company name count too. TravaCalm alone does not identify the ingredient. Count it only when the supply identifies the Original product or explicitly lists dimenhydrinate."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Recurrent falls",
+      "meets": "Two or more falls in the past 12 months counted back from the latest date in the record, or a documented diagnosis of recurrent falls.",
+      "options": [
+        {
+          "effect": "meets",
+          "words": "Two or more falls in the past 12 months"
+        },
+        {
+          "effect": "meets",
+          "words": "Recurrent falls are documented"
+        },
+        {
+          "effect": "does_not_meet",
+          "words": "One fall in the past 12 months and no diagnosis of recurrent falls"
+        },
+        {
+          "effect": "does_not_meet",
+          "words": "No falls in the past 12 months and no diagnosis of recurrent falls"
+        },
+        {
+          "effect": "unknown",
+          "words": "Not known"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "For a Group A antihistamine supply, report no finding if age is under 65. At age 65 or older, report a finding and cite the supply and falls evidence if the record shows two or more falls in the past 12 months counted back from the latest date in the record, or a documented diagnosis of recurrent falls. A documented diagnosis qualifies even if fewer than two falls are reported. Report no finding when the history confirms zero or one fall in that period and there is no documented diagnosis of recurrent falls. If the falls history for that period is missing or unknown and no diagnosis is established, cite the supply and report only a possible finding naming Recurrent falls. If age is missing and the other conditions are met, report only a possible finding and ask for the age. If falls history is also missing, name both age and Recurrent falls.",
+  "cannot_be_seen": "How often and how much of the antihistamine is really taken, whether it is bought without a prescription, the cause of any falls and any falls missing from the record, and how drowsy the person is.",
+  "ask_the_gp": "A review of whether the sedating antihistamine is still needed for a person with recurrent falls, and whether a less sedating option could be used.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

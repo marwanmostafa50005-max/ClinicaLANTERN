@@ -1,0 +1,310 @@
+{
+  "id": "BRISNIK-OP-DEPR5",
+  "label": "Brisnik OP DEPR5: one antidepressant after two or more earlier ones",
+  "family": "BRISNIK",
+  "title": "One antidepressant after two or more earlier ones did not work well enough",
+  "statement": "Prescribed an antidepressant in monotherapy - and the patient has previously used two or more different antidepressants (inadequate response)",
+  "statement_origin": "published",
+  "source": {
+    "document": "Brisnik V, et al. Deprescribing of antidepressants: indicators of high-risk and overprescribing. BMC Med 2024;22:193, Tables 3-4",
+    "citation": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "doi": "10.1186/s12916-024-03397-w",
+    "url": "https://doi.org/10.1186/s12916-024-03397-w",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Brisnik V, Vukas J, Jung-Sievers C, et al. Deprescribing of antidepressants: development of indicators of high-risk and overprescribing using the RAND/UCLA Appropriateness Method. BMC Med 2024;22:193. doi:10.1186/s12916-024-03397-w",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "A person now on a single antidepressant who has already tried two or more different ones without enough response may need a different approach, so a review is worth asking for.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antidepressants",
+      "ingredients": [
+        "sertraline",
+        "escitalopram",
+        "citalopram",
+        "fluoxetine",
+        "paroxetine",
+        "fluvoxamine",
+        "venlafaxine",
+        "desvenlafaxine",
+        "duloxetine",
+        "vortioxetine",
+        "agomelatine",
+        "reboxetine",
+        "amitriptyline",
+        "nortriptyline",
+        "dosulepin",
+        "doxepin",
+        "imipramine",
+        "clomipramine",
+        "moclobemide",
+        "phenelzine",
+        "tranylcypromine",
+        "mirtazapine",
+        "mianserin",
+        "trazodone",
+        "trimipramine"
+      ],
+      "brands": {
+        "sertraline": [
+          "Zoloft",
+          "Setrona",
+          "Concorz",
+          "Detralon",
+          "Eleva",
+          "Ralset",
+          "Reditra",
+          "Seralin",
+          "Sertra",
+          "Sertracor",
+          "Sertratrust",
+          "Tralen",
+          "Xydep"
+        ],
+        "escitalopram": [
+          "Lexapro",
+          "Esipram",
+          "Cilopam-S",
+          "Citlam-S",
+          "Escicor",
+          "Escilex",
+          "Escilupin",
+          "Escipro",
+          "Escit",
+          "Escital",
+          "Escitalaccord",
+          "Escitalup",
+          "Escitalupin",
+          "Esital",
+          "Esitalo",
+          "Estopram",
+          "Lexam",
+          "Loxalate"
+        ],
+        "citalopram": [
+          "Cipramil",
+          "Celapram",
+          "Talam",
+          "Abbapram",
+          "Celica",
+          "Ciazil",
+          "Cilopam",
+          "Ciram",
+          "Citalo",
+          "Citalobell",
+          "Talohexal"
+        ],
+        "fluoxetine": [
+          "Prozac",
+          "Lovan",
+          "Auscap",
+          "Fluohexal",
+          "Fluotex",
+          "Fluoxebell",
+          "Foxine",
+          "Prozet",
+          "Zactin"
+        ],
+        "paroxetine": [
+          "Aropax",
+          "Paxtine",
+          "Aropax CR",
+          "Extine",
+          "Oxetine",
+          "Paroxo",
+          "Roxet",
+          "Roxtine"
+        ],
+        "fluvoxamine": [
+          "Luvox",
+          "Faverin",
+          "Movox",
+          "Voxam"
+        ],
+        "venlafaxine": [
+          "Efexor-XR",
+          "Altven",
+          "Elaxine SR",
+          "Enlafax XR",
+          "Evelexa XR",
+          "Ozvenaf",
+          "Venfax SR",
+          "Venla",
+          "Venlexor XR"
+        ],
+        "desvenlafaxine": [
+          "Pristiq",
+          "Desfax",
+          "Desven"
+        ],
+        "duloxetine": [
+          "Cymbalta",
+          "Andepra",
+          "Baltine",
+          "Coperin",
+          "Deotine",
+          "Depreta",
+          "Drulox",
+          "Dulocym",
+          "Duloxecor",
+          "Dytrex",
+          "Symlox",
+          "Texotine",
+          "Tixol",
+          "Xerol DR"
+        ],
+        "vortioxetine": [
+          "Brintellix"
+        ],
+        "agomelatine": [
+          "Valdoxan",
+          "Domion",
+          "Nortim",
+          "Valomel"
+        ],
+        "reboxetine": [
+          "Edronax"
+        ],
+        "amitriptyline": [
+          "Endep",
+          "Entrip",
+          "Amichlor",
+          "Amidep"
+        ],
+        "nortriptyline": [
+          "Allegron",
+          "NortriTABS"
+        ],
+        "dosulepin": [
+          "Dothep",
+          "Prothiaden"
+        ],
+        "doxepin": [
+          "Deptran",
+          "Sinequan"
+        ],
+        "imipramine": [
+          "Tofranil",
+          "Melipramine",
+          "Tolerade"
+        ],
+        "clomipramine": [
+          "Anafranil",
+          "Placil"
+        ],
+        "moclobemide": [
+          "Aurorix",
+          "Arima",
+          "Amira",
+          "Clobemide",
+          "Clobemix",
+          "Maosig",
+          "Mohexal"
+        ],
+        "phenelzine": [
+          "Nardil"
+        ],
+        "tranylcypromine": [
+          "Parnate",
+          "Parpromine",
+          "Tranamef",
+          "Tranylmed"
+        ],
+        "mirtazapine": [
+          "Avanza",
+          "Axit",
+          "Remeron",
+          "Aurozapine",
+          "Avanza Soltab",
+          "Milivin OD",
+          "Mirtanza",
+          "Mirtanza ODT",
+          "Mirtazon",
+          "Remeron Soltab"
+        ],
+        "mianserin": [
+          "Tolvon",
+          "Lumin"
+        ],
+        "trazodone": [
+          "Desyrel"
+        ],
+        "trimipramine": [
+          "Surmontil"
+        ]
+      },
+      "note": "Tablets, capsules and liquids count. Low doses of amitriptyline, doxepin, mirtazapine and trazodone are often taken for pain or sleep, and a dispensing history cannot show the reason. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Inadequate response to earlier antidepressants",
+      "meets": "A line saying two or more earlier antidepressants did not work well enough (inadequate response)",
+      "options": [
+        {
+          "words": "At least two different earlier antidepressants for depression gave too little benefit",
+          "effect": "meets"
+        },
+        {
+          "words": "Fewer than two different earlier antidepressants for depression gave too little benefit",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "condition",
+      "what": "Depression as the reason for the current and earlier antidepressant courses",
+      "meets": "The current course and at least two earlier trials were for depression. Exclude a trial solely for another reason. If the current course was solely for another reason, there is no finding. If the reason for a required course is unknown, report at most a possible finding and ask what it treated.",
+      "options": [
+        {
+          "words": "The current medicine and at least two of the earlier medicines being assessed were used for depression",
+          "effect": "meets"
+        },
+        {
+          "words": "The current medicine was used only for another reason, or fewer than two of those earlier medicines treated depression",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Current medicines treating the depression",
+      "meets": "The current antidepressant is the only medicine treating the depression. Another medicine also treating the depression, or confirmation that the antidepressant was stopped, rules out current monotherapy. If current treatment is still unknown, leave the finding possible.",
+      "options": [
+        {
+          "words": "Only the current antidepressant treats the depression",
+          "effect": "meets"
+        },
+        {
+          "words": "Another medicine also treats the depression",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "The antidepressant is no longer taken",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Look for one current Group A antidepressant for depression and at least two different earlier antidepressants for depression in the supplies or dated history. Confirm only if both earlier medicines gave too little benefit and the current antidepressant is used alone for depression: check stops, switches and any medicine used to augment it, such as lithium or an antipsychotic. Cite the current supply and evidence for each qualifying trial and its outcome. If the pattern is ruled out, make no finding. If it is possible but current use, indication or response is unknown, report a possible finding and ask about the missing detail. Ask about current medicines treating the depression only if the supplies and recorded stops leave a switch or possible add-on treatment unresolved and the answer could change the finding. Cite the clarification if it establishes that the antidepressant is used alone.",
+  "cannot_be_seen": "Why each earlier antidepressant was stopped, whether each was taken long enough and at a high enough dose, and any talking therapy. Medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "Could you review the current antidepressant plan and clarify how the depression responded to each earlier treatment?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

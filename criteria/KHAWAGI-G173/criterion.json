@@ -1,0 +1,290 @@
+{
+  "id": "KHAWAGI-G173",
+  "label": "Khawagi review: Check lithium follow-up after a systemic NSAID is started during lithium treatment",
+  "family": "KHAWAGI",
+  "title": "Check lithium follow-up after a systemic NSAID is started during lithium treatment",
+  "statement": "Check lithium follow-up after a systemic NSAID is started during lithium treatment.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. S3 File.",
+    "citation": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. PLoS ONE 2019;14(5):e0217406, S3 File.",
+    "doi": "10.1371/journal.pone.0217406",
+    "url": "https://doi.org/10.1371/journal.pone.0217406.s003",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. PLoS ONE 2019;14(5):e0217406. https://doi.org/10.1371/journal.pone.0217406; S3 File, https://doi.org/10.1371/journal.pone.0217406.s003. © 2019 Khawagi et al., CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Changes were made. S3 indicator G173. Original screening wording and Australian adaptations. S3 reference(s) as indexed in the supplied qualification: [15]. Clinical cross-check: WA lithium guideline §§2.7–2.8 (https://www.wacountry.health.wa.gov.au/~/media/WACHS/Documents/About-us/Policies/Specialised-Medication---Lithium-Guideline.pdf?thn=0). Lithium monitoring around interactions (https://australianprescriber.tg.org.au/articles/lithium-therapy-and-its-interactions.html).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "Check lithium follow-up after a systemic NSAID is started during lithium treatment.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Lithium",
+      "ingredients": [
+        "lithium carbonate"
+      ],
+      "brands": {
+        "lithium carbonate": [
+          "Lithicarb",
+          "Quilonum SR",
+          "Lithicarb SR",
+          "Lithquil SR",
+          "Lithspen"
+        ]
+      },
+      "note": "Count systemic lithium, including a supply labelled simply lithium."
+    },
+    {
+      "key": "B",
+      "name": "Systemic nonsteroidal anti-inflammatory drugs (NSAIDs)",
+      "ingredients": [
+        "celecoxib",
+        "diclofenac",
+        "etoricoxib",
+        "ibuprofen",
+        "indometacin",
+        "ketoprofen",
+        "ketorolac",
+        "mefenamic acid",
+        "meloxicam",
+        "naproxen",
+        "piroxicam",
+        "sulindac",
+        "parecoxib",
+        "aspirin"
+      ],
+      "brands": {
+        "celecoxib": [
+          "Celebrex",
+          "Anacoxib",
+          "Celaxib",
+          "Celebrex Relief",
+          "Celetoid",
+          "Celexi",
+          "Celocox",
+          "Kudeq"
+        ],
+        "diclofenac": [
+          "Anti-Inflammatory Pain Relief (Apohealth)",
+          "Anti-Inflammatory Pain Relief (Blooms The Chemist)",
+          "Anti-Inflammatory Pain Relief (Chemists' Own)",
+          "Anti-Inflammatory Pain Relief (Terry White Chemists)",
+          "Anti-Inflammatory Pain Relief Rapid (Apohealth)",
+          "Anti-Inflammatory Pain Relief Rapid (Chemists' Own)",
+          "Voltaren",
+          "Voltaren Rapid",
+          "Fenac",
+          "Clonac"
+        ],
+        "etoricoxib": [
+          "Arcoxia"
+        ],
+        "ibuprofen": [
+          "Brufen",
+          "Act-3",
+          "Advil",
+          "Advil 12 Hour",
+          "Advil Childrens Pain and Fever 2 to 7 Years",
+          "Advil Childrens Pain and Fever 7 to 12 Years",
+          "Advil Childrens Pain and Fever Relief 2 to 12 Years",
+          "Advil Double Strength",
+          "Advil Double Strength Caplets",
+          "Advil Double Strength Liquid Capsules",
+          "Advil Infants Pain and Fever Relief 3 Months to 2 Years",
+          "Advil Mini Caps",
+          "Advil Rapid Release",
+          "Brufen Pain",
+          "Brufen Syrup",
+          "Bugesic",
+          "Butafen",
+          "Butalgin",
+          "Fenpaed",
+          "Fenpaed Double Strength",
+          "Iprofen",
+          "Nurofen Back Pain",
+          "Nurofen Caplet",
+          "Nurofen Double Strength",
+          "Nurofen Liquid Capsule",
+          "Nurofen Meltlets",
+          "Nurofen Migraine Pain",
+          "Nurofen Period Pain",
+          "Nurofen Quickzorb",
+          "Nurofen Regular",
+          "Nurofen Tension Headache",
+          "Nurofen Zavance",
+          "Nurofen Zavance Liquid Capsules",
+          "Nurofen for Children 1 to 5 Years",
+          "Nurofen for Children 3 Months to 5 Years",
+          "Nurofen for Children 5 to 12 Years",
+          "Nurofen for Children 7+ Years",
+          "Nurofen for Children Baby 3+ Months",
+          "Nurofen for Children Infant Drops",
+          "Nurofen for Children Meltlet",
+          "Panafen IB",
+          "Panafen IB Mini Cap",
+          "Proven",
+          "Rafen",
+          "Tri-Profen",
+          "Nuromol",
+          "Maxigesic",
+          "Combigesic",
+          "Nurofen Plus"
+        ],
+        "indometacin": [
+          "Arthrexin",
+          "Indocid",
+          "Indomethacin (Agila)",
+          "Indomethacin Iv (Mylan)"
+        ],
+        "ketoprofen": [
+          "Orudis",
+          "Orudis Sr",
+          "Oruvail Sr"
+        ],
+        "ketorolac": [
+          "Ketoral",
+          "Ketorolac (Apo)",
+          "Ketorolac (Baxter)",
+          "Ketorolac (Claris)",
+          "Ketorolac (Juno)",
+          "Ketorolac (Kabi)",
+          "Ketorolac (Medsurge)",
+          "Toradol"
+        ],
+        "mefenamic acid": [
+          "Femin",
+          "Mefenamic Acid (Mlabs)",
+          "Mefenamic Acid (Mlpl)",
+          "Mefic",
+          "Menamic",
+          "Ponstan"
+        ],
+        "meloxicam": [
+          "Agilocam",
+          "Melobic",
+          "Melox",
+          "Meloxiauro",
+          "Meloxibell",
+          "Meloxibindo",
+          "Meloxicam (An)",
+          "Meloxicam (Apo)",
+          "Meloxicam (Apotex)",
+          "Meloxicam (Apx)",
+          "Meloxicam (Chemmart)",
+          "Meloxicam (Cip)",
+          "Meloxicam (Cipla)",
+          "Meloxicam (Dp)",
+          "Mobic",
+          "Movalis"
+        ],
+        "naproxen": [
+          "Naprosyn",
+          "Aleve",
+          "Aleve 24 Hour",
+          "Anaprox",
+          "Crysanal",
+          "Femme-Free",
+          "Inza",
+          "Naprofem",
+          "Naprogesic",
+          "Naprosyn SR",
+          "Naprosyn SR 1000",
+          "Nurolasts Period Pain",
+          "Proxen",
+          "Proxen SR",
+          "Vimovo"
+        ],
+        "piroxicam": [
+          "Candyl",
+          "Candyl-D",
+          "Feldene",
+          "Feldene-D",
+          "Mobilis",
+          "Mobilis D",
+          "Pirohexal-D",
+          "Piroxicam (Apo)",
+          "Piroxicam (Chemmart)",
+          "Piroxicam (Dwrn)",
+          "Piroxicam (Genrx)",
+          "Piroxicam (Terry White Chemists)"
+        ],
+        "sulindac": [
+          "Aclin"
+        ],
+        "parecoxib": [
+          "Dynastat",
+          "Parecox",
+          "Parecoxb",
+          "Parecoxib (Aft)",
+          "Parecoxib (Arx)",
+          "Parecoxib (Jpl)",
+          "Parecoxib (Juno)",
+          "Parecoxib (Medsurge)",
+          "Parecoxib (Rjic)",
+          "Parecoxib (Sandoz)",
+          "Parexib"
+        ],
+        "aspirin": [
+          "Alka-Seltzer",
+          "Aspirin (Amcal)",
+          "Aspirin (Bayer)",
+          "Aspirin (Black & Gold)",
+          "Aspirin (Blooms The Chemist)",
+          "Aspirin (Chemmart)",
+          "Aspirin (Coles)",
+          "Aspirin (Dbl)",
+          "Aspirin (Guardian)",
+          "Aspirin (Mayne Pharma)",
+          "Aspirin (Pharmacy Choice)",
+          "Aspirin (Pharmacy Health)",
+          "Aspirin (Priceline Pharmacy)",
+          "Disprin",
+          "Solprin",
+          "Aspro",
+          "Aspro Clear"
+        ]
+      },
+      "note": "Use systemic preparations, including systemic COX-2 inhibitors. Count aspirin only when the directions show an anti-inflammatory regimen. Exclude skin and eye preparations. Check the form on shared brands such as Voltaren, Feldene and Orudis. Gels and eye drops do not count. Check aspirin directions and purpose even for dispersible tablets. An antiplatelet regimen does not count. Nuromol, Maxigesic and Combigesic contain ibuprofen with paracetamol. Nurofen Plus contains ibuprofen with codeine. Vimovo contains naproxen with esomeprazole."
+    }
+  ],
+  "rule_for_models": "After 90 observable NSAID-free days, count a new systemic NSAID during lithium treatment as day zero. Exclude low-dose antiplatelet aspirin and non-systemic use. If exposure is unclear, ask about the purpose, daily dose, actual start and whether lithium continued. Report at most a possible gap. Check for a lithium level on days 5 to 7 even after a lithium dose reduction, or use the individual deadline for this start. A level on day 7 counts. Give no finding when follow-up is complete. A later level closes an outstanding test request if it documents follow-up for this exposure. Check any further test due under the plan. If follow-up is not yet due, give no finding. Once day 7 or the planned deadline is reached without the expected follow-up, report only a possible gap. Cite the lithium supply covering the start, new NSAID, any baseline result used and the supply or observed dose showing lithium treatment through the deadline. Ask about outside testing and new tremor, unsteadiness or vomiting since the start.",
+  "cannot_be_seen": "Outside pathology or follow-up may be missing. An incomplete observation window cannot establish an overdue test.",
+  "ask_the_gp": "Could you confirm whether a serum lithium level was checked around days 5 to 7 after the systemic NSAID was started, or whether an individual monitoring plan was arranged?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "Serum lithium",
+      "meets": "Use the lithium level in mmol/L and its sample date for this NSAID course. If only the date of the follow-up level is known, enter “test performed” with that date. A baseline or undated result cannot establish follow-up. Check the individual due date if there is one."
+    },
+    {
+      "kind": "observation",
+      "what": "Lithium follow-up for this NSAID start",
+      "meets": "At the date under review, check the plan for this NSAID start. A documented plan covers the interval until its test is due. Once due, check whether that test was taken. With no plan use days 5 to 7. If a plan or its completion is uncertain and follow-up is due, keep a possible gap open and ask for the dates.",
+      "options": [
+        {
+          "words": "The planned test is due and has not been done",
+          "effect": "meets"
+        },
+        {
+          "words": "No plan and no follow-up level by day 7",
+          "effect": "meets"
+        },
+        {
+          "words": "Follow-up is not yet due for this NSAID start",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Follow-up was done for this start and no further test is due",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

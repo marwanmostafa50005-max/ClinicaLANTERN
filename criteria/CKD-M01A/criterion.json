@@ -1,0 +1,231 @@
+{
+  "id": "CKD-M01A",
+  "label": "CKD review: Review recent systemic NSAID supply in a patient with previously documented stage 3b, 4 or 5 CKD",
+  "family": "CKD",
+  "title": "Review recent systemic NSAID supply in a patient with previously documented stage 3b, 4 or 5 CKD",
+  "statement": "For an adult outpatient with established CKD, review a systemic NSAID supplied in the three calendar months leading up to the latest date in the record if CKD stage 3b, 4 or 5 was documented at least three calendar months before that date.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "A systematically collated library of prescribing safety indicators for people with chronic kidney disease, Additional file 2 (Appendix 3)",
+    "citation": "Smith F, Hayward S, Hole B, Kimpton G, Sluman C, Whiting P, Caskey F. BMC Nephrology. 2020;21:493.",
+    "doi": "10.1186/s12882-020-02158-0",
+    "url": "https://link.springer.com/article/10.1186/s12882-020-02158-0",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Smith F, Hayward S, Hole B, Kimpton G, Sluman C, Whiting P, Caskey F. A systematically collated library of prescribing safety indicators for people with chronic kidney disease. BMC Nephrology 2020;21:493. https://doi.org/10.1186/s12882-020-02158-0; Additional file 2 (Appendix 3), https://doi.org/10.6084/m9.figshare.13257677. © The Author(s) 2020, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Changes were made. Also adapted from Stocks SJ et al. Examining variations in prescribing safety in UK general practice. BMJ 2015;351:h5501, Table 1, P7. https://doi.org/10.1136/bmj.h5501. CC BY 4.0. Recorded dispensing is used for prescribed exposure. Smith et al. compiled the CKD indicators. Original screening wording and Australian adaptations. Clinical cross-check: Stocks Table 1 (https://pmc.ncbi.nlm.nih.gov/articles/PMC4632209/).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "For an adult outpatient with established CKD, review a systemic NSAID supplied in the three calendar months leading up to the latest date in the record if CKD stage 3b, 4 or 5 was documented at least three calendar months before that date. Stocks P7 covered non-selective NSAIDs. This Australian adaptation also includes systemic celecoxib and etoricoxib because of their renal effects.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Systemic non-steroidal anti-inflammatory drugs",
+      "ingredients": [
+        "celecoxib",
+        "diclofenac",
+        "etoricoxib",
+        "ibuprofen",
+        "indometacin",
+        "ketoprofen",
+        "ketorolac",
+        "mefenamic acid",
+        "meloxicam",
+        "naproxen",
+        "piroxicam",
+        "sulindac"
+      ],
+      "brands": {
+        "celecoxib": [
+          "Celebrex",
+          "Celecoxib-NX",
+          "Anacoxib",
+          "Celaxib",
+          "Celebrex Relief",
+          "Celetoid",
+          "Celexi",
+          "Celocox",
+          "Kudeq"
+        ],
+        "diclofenac": [
+          "Voltaren",
+          "TerryWhite Chemmart Diclofenac Potassium Rapid 25",
+          "Cambia",
+          "Clonac",
+          "Diclohexal",
+          "Difenac Rapid",
+          "Dinac",
+          "Fenac",
+          "Fenac EC",
+          "Imflac",
+          "Inflamax Liquid Caps",
+          "Voltaren Rapid",
+          "Voltaren Rapid Extra Strength",
+          "Voltaren Rapid Liquid Capsules",
+          "Voltfast",
+          "Zorvolex",
+          "Arthrotec 50"
+        ],
+        "etoricoxib": [
+          "Arcoxia"
+        ],
+        "ibuprofen": [
+          "Nurofen",
+          "APro Ibuprofen 200",
+          "Act-3",
+          "Advil",
+          "Advil 12 Hour",
+          "Advil Childrens Pain and Fever 2 to 7 Years",
+          "Advil Childrens Pain and Fever 7 to 12 Years",
+          "Advil Childrens Pain and Fever Relief 2 to 12 Years",
+          "Advil Double Strength",
+          "Advil Double Strength Caplets",
+          "Advil Double Strength Liquid Capsules",
+          "Advil Infants Pain and Fever Relief 3 Months to 2 Years",
+          "Advil Mini Caps",
+          "Advil Rapid Release",
+          "Brufen",
+          "Brufen Pain",
+          "Brufen Syrup",
+          "Bugesic",
+          "Butafen",
+          "Butalgin",
+          "Fenpaed",
+          "Fenpaed Double Strength",
+          "Iprofen",
+          "Nurofen Back Pain",
+          "Nurofen Caplet",
+          "Nurofen Double Strength",
+          "Nurofen Liquid Capsule",
+          "Nurofen Meltlets",
+          "Nurofen Migraine Pain",
+          "Nurofen Period Pain",
+          "Nurofen Quickzorb",
+          "Nurofen Regular",
+          "Nurofen Tension Headache",
+          "Nurofen Zavance",
+          "Nurofen Zavance Liquid Capsules",
+          "Nurofen for Children 1 to 5 Years",
+          "Nurofen for Children 3 Months to 5 Years",
+          "Nurofen for Children 5 to 12 Years",
+          "Nurofen for Children 7+ Years",
+          "Nurofen for Children Baby 3+ Months",
+          "Nurofen for Children Infant Drops",
+          "Nurofen for Children Meltlet",
+          "Panafen IB",
+          "Panafen IB Mini Cap",
+          "Proven",
+          "Rafen",
+          "Tri-Profen",
+          "Nurofen Plus",
+          "Panafen Plus",
+          "Nuromol",
+          "Maxigesic"
+        ],
+        "indometacin": [
+          "Arthrexin",
+          "Indocid"
+        ],
+        "ketoprofen": [
+          "Orudis",
+          "Orudis SR",
+          "Oruvail SR"
+        ],
+        "ketorolac": [
+          "Toradol",
+          "Ketoral"
+        ],
+        "mefenamic acid": [
+          "Ponstan",
+          "Femin",
+          "Mefic",
+          "Menamic"
+        ],
+        "meloxicam": [
+          "Mobic",
+          "Agilocam",
+          "Melobic",
+          "Melox",
+          "Meloxiauro",
+          "Meloxibell",
+          "Meloxibindo",
+          "Mobelox",
+          "Movalis",
+          "Moxicam"
+        ],
+        "naproxen": [
+          "Naprosyn",
+          "Trust Naproxen Tablets",
+          "Aleve",
+          "Aleve 24 Hour",
+          "Anaprox",
+          "Crysanal",
+          "Femme-Free",
+          "Inza",
+          "Naprofem",
+          "Naprogesic",
+          "Naprosyn SR",
+          "Naprosyn SR 1000",
+          "Nurolasts Period Pain",
+          "Proxen",
+          "Proxen SR",
+          "Vimovo"
+        ],
+        "piroxicam": [
+          "APO-Piroxicam",
+          "Feldene",
+          "Mobilis"
+        ],
+        "sulindac": [
+          "Aclin"
+        ]
+      },
+      "note": "Count oral, rectal and injected NSAIDs, including a named NSAID in a combination product. Exclude topical and ophthalmic preparations and aspirin. Indomethacin is the older spelling of indometacin. Check the form when a brand is shared. Orudis suppositories count. Orudis Gel, Feldene Gel and Voltaren Emulgel do not. If the route is unclear, ask which form was supplied."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Stage 3b, 4 or 5 CKD documented at least three calendar months before the latest date in the record",
+      "meets": "Stage 3b, 4 or 5 CKD documented at least three calendar months before the latest date in the record. A dated qualifying stage entry can establish both CKD and its stage. An unstaged diagnosis date alone does not establish when a qualifying stage was first documented. Missing stage or date allows at most a possible finding.",
+      "options": [
+        {
+          "words": "The dated record confirms this stage and timing",
+          "effect": "meets"
+        },
+        {
+          "words": "The records establish that no such stage was documented by the cut-off",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "condition",
+      "what": "Chronic kidney disease",
+      "meets": "CKD was established by the NSAID supply under review. If its timing is uncertain, keep the finding possible unless another fact rules it out.",
+      "options": [
+        {
+          "words": "CKD was established by the NSAID supply under review",
+          "effect": "meets"
+        },
+        {
+          "words": "CKD was absent at the NSAID supply under review",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Confirm a finding only in an outpatient aged 18 or older with established CKD. If age is unknown and the other evidence supports review, report at most a possible finding and ask whether the patient was 18 or older at supply. Report a finding for a systemic NSAID supplied in the last three months of the record when CKD stage 3b, 4 or 5 was documented at least three calendar months before review. A later eGFR does not cancel that history. Report no finding if CKD is ruled out, the documented historical stage is below 3b with no qualifying stage, or there is no qualifying supply. Cite the systemic NSAID and the dated CKD evidence that is available. A possible finding for missing stage does not require an eGFR citation. Use the latest date in the record as the review date for both windows. When a recent systemic NSAID is visible and the record neither establishes nor rules out qualifying CKD, report a possible finding. If the qualifying stage or its date is missing, name \"Stage 3b, 4 or 5 CKD documented at least three calendar months before the latest date in the record\" in the possible finding. An unstaged diagnosis alone cannot date a qualifying stage. A record or pharmacist answer confirming stage 3b, 4 or 5 by the three-month cutoff also establishes CKD by the recent supply. ",
+  "cannot_be_seen": "Dispensing does not establish the dose taken. Kidney results obtained elsewhere, their units and their timing may be missing.",
+  "ask_the_gp": "Could you review the recent systemic NSAID supply and confirm whether CKD stage 3b, 4 or 5 had been documented at least three months before this review?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

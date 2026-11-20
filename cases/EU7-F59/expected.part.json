@@ -1,0 +1,47 @@
+[
+  {
+    "file": "EU7-F59/pos-brand.csv",
+    "kind": "positive",
+    "about": "Topamax (topiramate) 25 mg is supplied monthly from January to June 2026, by brand name only.",
+    "findings": [
+      {
+        "criterion": "EU7-F59",
+        "must_cite": [
+          [
+            "L003",
+            "L008",
+            "L011",
+            "L015",
+            "L020",
+            "L023"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F59/pos-buried.csv",
+    "kind": "positive",
+    "about": "Topiramate 50 mg tablets are supplied five times from December 2025 to April 2026, in the middle of a 16-month history.",
+    "findings": [
+      {
+        "criterion": "EU7-F59",
+        "must_cite": [
+          [
+            "L028",
+            "L033",
+            "L038",
+            "L042",
+            "L048"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F59/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Gabapentin (Neurontin), an alternative the list suggests, is supplied monthly. No topiramate appears, so it must not flag.",
+    "findings": []
+  }
+]

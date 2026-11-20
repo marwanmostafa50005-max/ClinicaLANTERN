@@ -1,0 +1,51 @@
+[
+  {
+    "file": "BRISNIK-OP-MISC3/pos-brand.csv",
+    "kind": "positive",
+    "about": "Valdoxan (agomelatine) is supplied every four weeks to a woman aged 78, and appears by brand name only.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-MISC3",
+        "must_cite": [
+          [
+            "L001",
+            "L006",
+            "L009",
+            "L012",
+            "L017",
+            "L020",
+            "L023",
+            "L028",
+            "L031",
+            "L034"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-MISC3/pos-buried.csv",
+    "kind": "positive",
+    "about": "Valdoxan (agomelatine) is supplied five times from December 2025 to March 2026, in the middle of a history from June 2025 to June 2026, to a man aged 77.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-MISC3",
+        "must_cite": [
+          [
+            "L039",
+            "L044",
+            "L050",
+            "L057",
+            "L063"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-MISC3/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Valdoxan (agomelatine) is supplied every four weeks, but the woman is aged 70, below the age of 75.",
+    "findings": []
+  }
+]

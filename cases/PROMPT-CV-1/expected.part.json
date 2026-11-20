@@ -1,0 +1,59 @@
+[
+  {
+    "file": "PROMPT-CV-1/pos-fact.csv",
+    "kind": "positive",
+    "about": "Doxazosin treats both hypertension and prostate symptoms and is the only recorded medicine treating hypertension.",
+    "findings": [
+      {
+        "criterion": "PROMPT-CV-1",
+        "must_cite": [
+          [
+            "L004",
+            "L008",
+            "L012",
+            "L016",
+            "L020",
+            "L024",
+            "L028",
+            "L033",
+            "L037",
+            "L041",
+            "L045",
+            "L049"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PROMPT-CV-1/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about hypertension or the reason for the doxazosin (Cardura), which is supplied monthly for eight months with no other blood pressure medicine.",
+    "findings": [
+      {
+        "criterion": "PROMPT-CV-1",
+        "must_cite": [
+          [
+            "L003",
+            "L007",
+            "L012",
+            "L016",
+            "L020",
+            "L024",
+            "L028",
+            "L032"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PROMPT-CV-1/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The record links doxazosin solely to urinary symptoms from benign prostatic hyperplasia.",
+    "findings": []
+  }
+]

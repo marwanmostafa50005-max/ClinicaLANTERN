@@ -1,0 +1,44 @@
+[
+  {
+    "file": "POPI-39/pos-fact.csv",
+    "kind": "positive",
+    "about": "Ciprofloxacin was prescribed solely for acute otitis media in the left ear with an intact eardrum and no grommet.",
+    "findings": [
+      {
+        "criterion": "POPI-39",
+        "must_cite": [
+          [
+            "L022"
+          ],
+          [
+            "L023"
+          ],
+          [
+            "L024"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "POPI-39/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about Acute otitis media or Ciprofloxacin drops prescribed solely for acute otitis media in the treated ear during this episode.",
+    "findings": [
+      {
+        "criterion": "POPI-39",
+        "must_cite": [
+          [
+            "L015"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "POPI-39/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The left ear drops treat otitis externa, and the later right ear drops are a brief addition to other treatment for severe acute pain with an intact eardrum.",
+    "findings": []
+  }
+]

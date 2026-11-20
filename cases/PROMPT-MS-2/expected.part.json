@@ -1,0 +1,54 @@
+[
+  {
+    "file": "PROMPT-MS-2/pos-brand.csv",
+    "kind": "positive",
+    "about": "Mobic (meloxicam, an NSAID) is supplied four times from January 2026 to April 2026 while Cartia 100 mg (low-dose aspirin) is supplied throughout, both by brand name only, and no stomach-protection medicine (proton pump inhibitor or H2 blocker) is supplied at any time.",
+    "findings": [
+      {
+        "criterion": "PROMPT-MS-2",
+        "must_cite": [
+          [
+            "L010",
+            "L014",
+            "L018",
+            "L021"
+          ],
+          [
+            "L009",
+            "L015",
+            "L022"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PROMPT-MS-2/pos-buried.csv",
+    "kind": "positive",
+    "about": "Naprosyn (naproxen) is supplied three times from February 2026 to March 2026 in the middle of a 15-month history while Lexapro (escitalopram, an SSRI) is supplied every four weeks, and no proton pump inhibitor or H2 blocker is ever supplied.",
+    "findings": [
+      {
+        "criterion": "PROMPT-MS-2",
+        "must_cite": [
+          [
+            "L042",
+            "L047",
+            "L053"
+          ],
+          [
+            "L039",
+            "L045",
+            "L052",
+            "L057"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PROMPT-MS-2/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Naprosyn SR (naproxen) is supplied with low-dose aspirin (Cartia) from December 2025, but pantoprazole (Somac, a proton pump inhibitor) is supplied every month before and throughout, so stomach protection is provided.",
+    "findings": []
+  }
+]

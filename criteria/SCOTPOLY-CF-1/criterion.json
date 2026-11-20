@@ -1,0 +1,238 @@
+{
+  "id": "SCOTPOLY-CF-1",
+  "label": "SCOTPOLY: ACE inhibitor or ARB with potassium supplement",
+  "family": "SCOTPOLY",
+  "title": "ACE inhibitor or ARB with an oral potassium supplement or salt",
+  "statement": "On an ACEI or ARB and on a potassium supplement/salt. Stop potassium supplements or salts if possible. If not possible, monitor serum potassium, urea and creatinine due to increased risk of hyperkalaemia.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Scottish Government Effective Prescribing and Therapeutics Division, Polypharmacy Guidance: Appropriate Prescribing - Making medicines safe, effective and sustainable 2026-2029, fourth edition",
+    "citation": "Scottish Government. Polypharmacy Guidance: Appropriate Prescribing - Making medicines safe, effective and sustainable 2026-2029. Appendix D1 Table 40. Published 2 March 2026.",
+    "url": "https://www.gov.scot/publications/polypharmacy-guidance-appropriate-prescribing-making-medicines-safe-effective-sustainable-2026-2029/pages/16/",
+    "licence": "Open Government Licence v3.0",
+    "licence_status": "proposed",
+    "credit": "Contains public sector information licensed under the Open Government Licence v3.0."
+  },
+  "plain_summary": "An ACE inhibitor or angiotensin receptor blocker taken with an oral potassium supplement or salt can raise blood potassium. Check whether the supplement can be stopped and whether serum potassium, urea and creatinine have been checked. Non-prescription low-sodium salt substitutes are not visible in dispensing histories. Ask whether the patient still takes both medicines and uses a low-sodium salt substitute. Ask when they last had blood tests for potassium and kidney function. Do not advise stopping the ACE inhibitor or ARB abruptly.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "ACE inhibitors, angiotensin receptor blockers, and fixed combinations",
+      "ingredients": [
+        "perindopril",
+        "ramipril",
+        "enalapril",
+        "lisinopril",
+        "quinapril",
+        "fosinopril",
+        "captopril",
+        "trandolapril",
+        "candesartan",
+        "irbesartan",
+        "telmisartan",
+        "olmesartan",
+        "valsartan",
+        "losartan",
+        "eprosartan",
+        "sacubitril with valsartan"
+      ],
+      "brands": {
+        "perindopril": [
+          "Coversyl",
+          "Coversyl Plus",
+          "Idaprex",
+          "Idaprex Arg",
+          "Indopril",
+          "Indosyl Mono",
+          "Ozapace",
+          "Perindo",
+          "Perindo Arg",
+          "Perindoarg",
+          "Perindobell",
+          "Perisyl",
+          "Prexum",
+          "Coveram",
+          "Reaptan",
+          "Prexum Combi",
+          "Perisyl Combi",
+          "Triplixam",
+          "Triplixam SR",
+          "Coversyl Plus LD",
+          "Prexum Combi LD"
+        ],
+        "ramipril": [
+          "Tritace",
+          "Ramace",
+          "Prilace",
+          "Ramibell",
+          "Tryzan",
+          "Vascalace",
+          "Triasyn"
+        ],
+        "enalapril": [
+          "Renitec",
+          "Amprace",
+          "Acetec",
+          "Alphapril",
+          "Auspril",
+          "Elapril",
+          "Enahexal",
+          "Enalabell",
+          "Malean",
+          "Renitec M",
+          "Renitec Plus",
+          "Zan-Extra"
+        ],
+        "lisinopril": [
+          "Zestril",
+          "Prinivil",
+          "Fibsol",
+          "Linopril",
+          "Liprace",
+          "Lisinobell",
+          "Lisinotrust",
+          "Lisodrate",
+          "Lisodur",
+          "Lisoril",
+          "Ozten",
+          "Sinop",
+          "Zinopril"
+        ],
+        "quinapril": [
+          "Accupril",
+          "Accuretic",
+          "Acquin",
+          "Aquinafil",
+          "Filpril",
+          "Qpril"
+        ],
+        "fosinopril": [
+          "Monace",
+          "Fosipril",
+          "Monopril",
+          "Monoplus"
+        ],
+        "captopril": [
+          "Capoten",
+          "Acenorm",
+          "Captohexal",
+          "Topace",
+          "Zedace"
+        ],
+        "trandolapril": [
+          "Gopten",
+          "Dolapril",
+          "Goricap",
+          "Odrik",
+          "Tranalpha",
+          "Tarka"
+        ],
+        "candesartan": [
+          "Atacand",
+          "Atacand Plus",
+          "Adesan",
+          "Asartan",
+          "Candelem",
+          "Candesan",
+          "Adesan HCT",
+          "Candesan Combi"
+        ],
+        "irbesartan": [
+          "Avapro",
+          "Karvea",
+          "Avapro HCT",
+          "Abisart",
+          "Ambotens",
+          "Avsartan",
+          "Irbesat",
+          "Irbestin",
+          "Irbetan",
+          "Irprestan",
+          "Karbesat",
+          "Avsartan HCT",
+          "Abisart HCTZ",
+          "Karvezide"
+        ],
+        "telmisartan": [
+          "Micardis",
+          "Micardis Plus",
+          "Twynsta",
+          "Mizart",
+          "Pritor",
+          "Telmigen",
+          "Teltartan",
+          "Mizart HCT",
+          "Teltartan HCT",
+          "PritorPlus",
+          "Pritor Plus"
+        ],
+        "olmesartan": [
+          "Olmetec",
+          "Olmetec Plus",
+          "Sevikar",
+          "Olmertan",
+          "Olmes",
+          "Olmesart",
+          "Olsetan",
+          "Sevikar HCT",
+          "Olmekar"
+        ],
+        "valsartan": [
+          "Diovan",
+          "Co-Diovan",
+          "Exforge",
+          "Dilart",
+          "Exforge HCT"
+        ],
+        "losartan": [
+          "Cozaar",
+          "Hyzaar",
+          "Cozavan"
+        ],
+        "eprosartan": [
+          "Teveten",
+          "Teveten Plus"
+        ],
+        "sacubitril with valsartan": [
+          "Entresto",
+          "Omtralo",
+          "Valtresto"
+        ]
+      },
+      "note": "Combination products that contain an ACE inhibitor or ARB count, including modified-release capsules such as Triplixam SR. Entresto, Omtralo and Valtresto are sacubitril with valsartan. Pritor Plus is telmisartan with hydrochlorothiazide."
+    },
+    {
+      "key": "B",
+      "name": "Oral potassium supplements and potassium salts",
+      "ingredients": [
+        "potassium chloride",
+        "potassium chloride with potassium bicarbonate",
+        "potassium chloride with potassium bicarbonate and potassium carbonate",
+        "potassium citrate"
+      ],
+      "brands": {
+        "potassium chloride": [
+          "Span-K",
+          "Slow-K",
+          "Duro-K"
+        ],
+        "potassium chloride with potassium bicarbonate": [
+          "K-Sol"
+        ],
+        "potassium chloride with potassium bicarbonate and potassium carbonate": [
+          "Chlorvescent"
+        ],
+        "potassium citrate": [
+          "Urocit-K"
+        ]
+      },
+      "note": "Count oral potassium citrate tablets and oral potassium citrate mixture. Potassium-sparing diuretics, bowel preparations such as Movicol, Glycoprep, PicoPrep and Prepkit-C, and oral rehydration sachets such as Hydralyte and Gastrolyte do not count. Non-prescription potassium salt substitutes are not visible in pharmacy dispensing histories. The February 2010 PBS schedule listed historical K-Sol under potassium chloride with potassium bicarbonate. The local Australian medicines list also records potassium carbonate for K-Sol. Its registration was cancelled on 22 June 2017. Slow-K and Duro-K are historical potassium chloride brands. Urocit-K is a historical oral potassium citrate brand. Its registration was cancelled on 29 June 2026."
+    }
+  ],
+  "rule_for_models": "At any age, report a finding when dates, quantities and directions show at least one day of overlap between a Group A ACE inhibitor or ARB and a Group B oral potassium supplement or salt. Cite a supply from each group. Exclude clearly separate courses, bowel preparations, oral rehydration salts and potassium-sparing diuretics. If both medicines were supplied within 60 days and overlap is uncertain, report a possible finding and ask whether they were taken together.",
+  "cannot_be_seen": "Non-prescription low-sodium or potassium salt substitutes, recent serum potassium, urea and creatinine results, and whether the supplement was started for a documented low potassium.",
+  "ask_the_gp": "Whether the potassium supplement can be stopped and whether serum potassium, urea and creatinine have been checked recently.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

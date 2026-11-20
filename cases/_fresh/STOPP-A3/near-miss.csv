@@ -1,0 +1,5 @@
+patient_ref,patient_age,patient_sex,record_type,dispense_date,medicine,brand,strength,form,quantity,repeats_left,directions,prescriber,detail,value
+F-FR-A3-2,68,M,,2026-04-30,quetiapine,Syquet,50 mg,tablet,60,2,Take ONE tablet at night,Dr A. Example,,
+F-FR-A3-2,68,M,,2026-05-28,quetiapine,Syquet,50 mg,tablet,60,1,Take ONE tablet at night,Dr A. Example,,
+F-FR-A3-2,68,M,,2026-06-11,atorvastatin,Lipitor,40 mg,tablet,30,4,Take ONE tablet at night,Dr A. Example,,
+F-FR-A3-2,68,M,,2026-06-25,quetiapine,Syquet,50 mg,tablet,60,0,Take ONE tablet at night,Dr A. Example,,

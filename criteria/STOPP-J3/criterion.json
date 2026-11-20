@@ -1,0 +1,315 @@
+{
+  "id": "STOPP-J3",
+  "label": "STOPP J3",
+  "family": "STOPP_START",
+  "title": "Non-selective beta-blocker with frequent low blood sugar",
+  "statement": "Non-selective beta-blockers in diabetes mellitus with frequent hypoglycaemic episodes (risk of suppressing hypoglycaemic symptoms).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Non-selective beta-blockers such as propranolol can hide the warning signs of low blood sugar in people with diabetes who have frequent low sugar episodes.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Non-selective beta-blockers",
+      "ingredients": [
+        "propranolol",
+        "nadolol",
+        "sotalol",
+        "carvedilol",
+        "labetalol",
+        "pindolol",
+        "timolol"
+      ],
+      "brands": {
+        "propranolol": [
+          "Inderal",
+          "Deralin",
+          "Drofate",
+          "Hemangiol"
+        ],
+        "nadolol": [
+          "Nadolol (Apo)"
+        ],
+        "sotalol": [
+          "Sotacor",
+          "Cardol",
+          "Solavert",
+          "Sotab",
+          "Sotahexal"
+        ],
+        "carvedilol": [
+          "Dilatrend",
+          "Carvidol",
+          "Dicarz",
+          "Dilasig",
+          "Kredex",
+          "Vedilol",
+          "Volirop"
+        ],
+        "labetalol": [
+          "Trandate",
+          "Presolol"
+        ],
+        "pindolol": [
+          "Barbloc",
+          "Pindol",
+          "Visken"
+        ],
+        "timolol": [
+          "Timoptol",
+          "Cosopt",
+          "Nyogel",
+          "Tenopt",
+          "Timoeye",
+          "Timoptol-XE",
+          "Xalacom",
+          "Combigan",
+          "Azarga",
+          "DuoTrav",
+          "Ganfort"
+        ]
+      },
+      "note": "Carvedilol and labetalol also block alpha receptors but are non-selective for beta receptors, so they are listed. Bisoprolol, metoprolol and atenolol are selective and are not in this group. Count timolol eye drops used alone or in combination. They can hide symptoms of low blood sugar. Generic packs that show the ingredient name with a company name count too."
+    },
+    {
+      "key": "B",
+      "name": "Medicines that imply diabetes",
+      "ingredients": [
+        "metformin",
+        "gliclazide",
+        "glipizide",
+        "insulin glargine",
+        "insulin aspart",
+        "insulin lispro",
+        "insulin detemir",
+        "insulin degludec with insulin aspart",
+        "human insulin",
+        "glimepiride",
+        "glibenclamide",
+        "pioglitazone",
+        "sitagliptin",
+        "linagliptin",
+        "vildagliptin",
+        "alogliptin",
+        "saxagliptin",
+        "dulaglutide",
+        "semaglutide",
+        "liraglutide",
+        "insulin aspart + insulin degludec",
+        "insulin glulisine",
+        "insulin degludec",
+        "acarbose"
+      ],
+      "brands": {
+        "metformin": [
+          "Diabex",
+          "Diabex XR",
+          "Diaformin",
+          "Glucophage",
+          "Diaformin Alphapharm XR",
+          "Diaformin Viatris",
+          "Diaformin Viatris XR",
+          "Diaformin XR",
+          "Diamet",
+          "Diaxemet XR",
+          "Formet",
+          "Glucobete",
+          "Glucohexal",
+          "Glucomet",
+          "Glucophage XR",
+          "Medformin",
+          "Metex XR",
+          "Metforbell",
+          "Metofex XR",
+          "Janumet",
+          "Janumet XR",
+          "Trajentamet",
+          "Galvumet",
+          "Kombiglyze XR",
+          "Nesina Met",
+          "Jardiamet",
+          "Xigduo XR",
+          "Segluromet"
+        ],
+        "gliclazide": [
+          "Diamicron",
+          "Diamicron MR",
+          "Glyade",
+          "Diastal MR",
+          "Didax MR",
+          "Glyade MR",
+          "Mellihexal",
+          "Nidem",
+          "Oziclide MR"
+        ],
+        "glipizide": [
+          "Minidiab",
+          "Melizide"
+        ],
+        "insulin glargine": [
+          "Lantus",
+          "Toujeo",
+          "Basaglar",
+          "Optisulin",
+          "Semglee",
+          "Basaglar Kwikpen",
+          "Lantus Solostar",
+          "Optisulin Solostar",
+          "Toujeo Max Solostar",
+          "Toujeo Solostar"
+        ],
+        "insulin aspart": [
+          "NovoRapid",
+          "Fiasp",
+          "NovoMix 30",
+          "Fiasp Flextouch",
+          "Fiasp Penfill",
+          "Novorapid Flexpen",
+          "Novorapid Innolet",
+          "Novorapid Penfill",
+          "Truvelog",
+          "Truvelog Solostar"
+        ],
+        "insulin lispro": [
+          "Humalog",
+          "Humalog Mix25",
+          "Humalog Mix50",
+          "Humalog Kwikpen"
+        ],
+        "insulin detemir": [
+          "Levemir"
+        ],
+        "insulin degludec with insulin aspart": [
+          "Ryzodeg 70/30"
+        ],
+        "human insulin": [
+          "Actrapid",
+          "Protaphane",
+          "Humulin NPH",
+          "Humulin 30/70",
+          "Humulin R"
+        ],
+        "glimepiride": [
+          "Amaryl",
+          "Aylide",
+          "Diapride",
+          "Dimirel",
+          "Glimaccord",
+          "Glimepiride (An)",
+          "Glimepiride (Apo)",
+          "Glimepiride (Apotex)",
+          "Glimepiride (Arx)",
+          "Glimepiride (Ga)",
+          "Glimepiride (Pharmacor)",
+          "Glimepiride (Sandoz)",
+          "Glimepiride (Sanofi)",
+          "Glimepiride (Wgr)"
+        ],
+        "glibenclamide": [
+          "Daonil",
+          "Glimel",
+          "Semi-Daonil"
+        ],
+        "pioglitazone": [
+          "Acpio",
+          "Actaze",
+          "Actos",
+          "Atilos",
+          "Aztyme",
+          "Pioglitazone (An)",
+          "Pioglitazone (Apo)",
+          "Pioglitazone (Apotex)",
+          "Pioglitazone (Arx)",
+          "Pioglitazone (Auro)",
+          "Pioglitazone (Chemmart)",
+          "Pioglitazone (Ga)",
+          "Pioglitazone (Generic Health)",
+          "Pioglitazone (Noumed)"
+        ],
+        "sitagliptin": [
+          "Januvia",
+          "Janorix",
+          "Sitaglin",
+          "Sitaglo",
+          "Sitazitin",
+          "Xelevia",
+          "Janumet",
+          "Janumet XR",
+          "Steglujan",
+          "Sidapvia"
+        ],
+        "linagliptin": [
+          "Trajenta",
+          "Trajiptin",
+          "Trajentamet",
+          "Glyxambi"
+        ],
+        "vildagliptin": [
+          "Galvus",
+          "Galvumet"
+        ],
+        "alogliptin": [
+          "Nesina",
+          "Nesina Met"
+        ],
+        "saxagliptin": [
+          "Onglyza",
+          "Kombiglyze XR",
+          "Qtern"
+        ],
+        "dulaglutide": [
+          "Trulicity"
+        ],
+        "semaglutide": [
+          "Ozempic"
+        ],
+        "liraglutide": [
+          "Victoza"
+        ],
+        "insulin aspart + insulin degludec": [
+          "Ryzodeg 70/30"
+        ],
+        "insulin glulisine": [
+          "Apidra",
+          "Apidra SoloStar"
+        ],
+        "insulin degludec": [
+          "Tresiba Penfill",
+          "Tresiba FlexTouch"
+        ],
+        "acarbose": [
+          "Acarbose Viatris",
+          "Glybosay"
+        ]
+      },
+      "note": "These supplies can support an inference of diabetes, including when an ingredient is supplied in a combination pack. A product used for weight management alone, or a medicine recorded as being used for another reason, does not establish diabetes. No diabetes medicine establishes how often low blood sugar occurs. Wegovy, Wegovy Flextouch, Saxenda and Benedo do not establish diabetes. If only semaglutide or liraglutide is named and the reason is unknown, seek separate evidence of diabetes."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Diabetes",
+      "meets": "Use the diabetes diagnosis line if present. Otherwise a Group B supply consistent with diabetes treatment can support an inference of diabetes."
+    },
+    {
+      "kind": "condition",
+      "what": "Frequent hypoglycaemic episodes",
+      "meets": "The record describes frequent low blood sugar episodes. The source gives no numerical cut-off."
+    }
+  ],
+  "rule_for_models": "In someone aged 65 or older taking a Group A non-selective beta-blocker, cite its supply and the diabetes diagnosis line or a Group B supply that supports diabetes under the group note, then cite the line describing frequent low blood sugar episodes for a finding or report only a possible finding if frequency is unknown and name it as missing. If age is unknown and the other criteria could be met, report only a possible finding and ask the pharmacist to confirm whether the person is 65 or older. Report no finding if there is no Group A supply, diabetes is excluded, or episodes are absent or rare. With a Group A supply and frequent episodes, report a possible finding if diabetes status is unknown and ask about diabetes. If neither diabetes nor frequent episodes is supported, report no finding. If the frequency is unclear, ask the pharmacist about the pattern.",
+  "cannot_be_seen": "The record may omit low blood sugar episodes, warning symptoms, glucose and HbA1c results, or the reason the beta-blocker was started.",
+  "ask_the_gp": "A review of the beta-blocker choice for this person, taking into account any low blood sugar episodes.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

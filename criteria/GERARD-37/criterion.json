@@ -1,0 +1,111 @@
+{
+  "id": "GERARD-37",
+  "label": "Gerard: GLP-1 analogue with confirmed malnutrition",
+  "family": "GERARD",
+  "title": "GLP-1 analogue with confirmed malnutrition",
+  "statement": "It is necessary to review and optimize the prescription of a GLP-1 analogue in a patient with a confirmed diagnosis of malnutrition.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Development of explicit definitions of potentially inappropriate prescriptions for antidiabetic drugs in people with type 2 diabetes: A Delphi survey and consensus meeting",
+    "citation": "Gerard E, Bugday D, Calafiore M, Baran J, Gautier S, Henry H, et al. (2025). Development of explicit definitions of potentially inappropriate prescriptions for antidiabetic drugs in people with type 2 diabetes: A Delphi survey and consensus meeting. PLOS ONE 20(10), e0334836.",
+    "doi": "10.1371/journal.pone.0334836",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0334836",
+    "licence": "CC BY 4.0",
+    "credit": "© 2025 Gerard et al. Gerard E, Bugday D, Calafiore M, Baran J, Gautier S, Henry H, et al. (2025). Development of explicit definitions of potentially inappropriate prescriptions for antidiabetic drugs in people with type 2 diabetes: A Delphi survey and consensus meeting. PLOS ONE 20(10), e0334836. https://doi.org/10.1371/journal.pone.0334836. Table 2. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The statements are reproduced. GPT-6.2 Astra added the Australian medicine mapping, screening rules and fictional cases.",
+    "licence_status": "proposed",
+    "modification_notice": "The published statement is unchanged. The plain-language rule, Australian medicine mapping and test cases are adaptations."
+  },
+  "plain_summary": "A confirmed diagnosis of malnutrition during GLP-1 analogue treatment calls for review at any BMI.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "GLP-1 analogues",
+      "ingredients": [
+        "dulaglutide",
+        "liraglutide",
+        "semaglutide",
+        "exenatide",
+        "lixisenatide"
+      ],
+      "brands": {
+        "dulaglutide": [
+          "Trulicity"
+        ],
+        "liraglutide": [
+          "Liraglutide Lupin",
+          "Victoza",
+          "Benedo",
+          "Saxenda",
+          "Xultophy"
+        ],
+        "semaglutide": [
+          "Ozempic",
+          "Wegovy",
+          "Wegovy Flextouch",
+          "Rybelsus"
+        ],
+        "exenatide": [
+          "Byetta",
+          "Bydureon",
+          "Bydureon BCise"
+        ],
+        "lixisenatide": [
+          "Lyxumia",
+          "Soliqua"
+        ]
+      },
+      "note": "Xultophy contains liraglutide with insulin degludec. Soliqua contains lixisenatide with insulin glargine. Count a listed ingredient in a combination or a generic pack labelled with its ingredient and company name. Exclude dual GIP/GLP-1 agonists."
+    }
+  ],
+  "rule_for_models": "For a GLP-1 analogue supply, cite the supply, the recorded type 2 diabetes, the evidence that the medicine is used for diabetes and the confirmed diagnosis of malnutrition during treatment. If a required fact is missing and the other evidence fits, report a possible finding, name each missing fact and ask what the medicine was prescribed for if the reason is unknown. Give no finding if the medicine is used only for a reason other than type 2 diabetes, the recorded diabetes type is outside the criterion or malnutrition is excluded.",
+  "cannot_be_seen": "Weight loss, a low BMI or a nutritional supplement alone cannot establish the diagnosis.",
+  "ask_the_gp": "Could you confirm whether malnutrition was diagnosed during this treatment and, if so, review the suitability of the GLP-1 analogue?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Type 2 diabetes",
+      "meets": "The record confirms type 2 diabetes during treatment."
+    },
+    {
+      "kind": "condition",
+      "what": "Diagnosed malnutrition during GLP-1 treatment",
+      "meets": "A dated diagnosis or a pharmacist's answer confirms that diagnosed malnutrition was present during the GLP-1 course under review.",
+      "options": [
+        {
+          "words": "Diagnosed malnutrition was present during this treatment",
+          "effect": "meets"
+        },
+        {
+          "words": "Malnutrition was excluded during this treatment",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Reason for GLP-1 treatment",
+      "meets": "Type 2 diabetes was a reason for prescribing this GLP-1 analogue.",
+      "options": [
+        {
+          "words": "Prescribed for type 2 diabetes, alone or with another reason",
+          "effect": "meets"
+        },
+        {
+          "words": "Prescribed only for another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

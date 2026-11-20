@@ -1,0 +1,56 @@
+[
+  {
+    "file": "STOPP-J10/pos-fact.csv",
+    "kind": "positive",
+    "about": "Minirin (desmopressin) is supplied monthly from December 2025. The condition line identifies urinary frequency as the reason for the prescription.",
+    "findings": [
+      {
+        "criterion": "STOPP-J10",
+        "must_cite": [
+          [
+            "L002",
+            "L007",
+            "L011",
+            "L015",
+            "L020",
+            "L025",
+            "L029",
+            "L034",
+            "L038",
+            "L042"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-J10/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about why Minirin Melt (desmopressin) is used.",
+    "findings": [
+      {
+        "criterion": "STOPP-J10",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L009",
+            "L013",
+            "L016",
+            "L020",
+            "L024"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-J10/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Minirin Melt (desmopressin) is supplied, but the record gives the reason as cranial diabetes insipidus, not urinary incontinence or frequency.",
+    "findings": []
+  }
+]

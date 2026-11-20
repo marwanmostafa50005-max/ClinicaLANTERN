@@ -1,0 +1,52 @@
+[
+  {
+    "file": "BANSAL-S14/pos-brand.csv",
+    "kind": "positive",
+    "about": "Targin covers 12 January to 26 July. The seven-day Movicol prescription in February has ended by the six-month point on 12 July.",
+    "findings": [
+      {
+        "criterion": "BANSAL-S14",
+        "must_cite": [
+          [
+            "L004",
+            "L008",
+            "L012",
+            "L015",
+            "L018",
+            "L022",
+            "L026"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BANSAL-S14/pos-buried.csv",
+    "kind": "positive",
+    "about": "Morphine supplies cover 4 November 2025 to 13 July 2026 without prescribed laxative cover. Moviprep at L022 is a single bowel preparation for a procedure.",
+    "findings": [
+      {
+        "criterion": "BANSAL-S14",
+        "must_cite": [
+          [
+            "L021",
+            "L026",
+            "L029",
+            "L032",
+            "L037",
+            "L041",
+            "L045",
+            "L050",
+            "L054"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BANSAL-S14/near-miss.csv",
+    "kind": "near_miss",
+    "about": "A hospital prescription for 28 days of prucalopride from 10 July covers the six-month opioid threshold on 12 July and the rest of the opioid course.",
+    "findings": []
+  }
+]

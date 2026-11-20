@@ -1,0 +1,11 @@
+2026-07-09 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 1 | Take ONE tablet daily | Dr A. Example
+2026-07-28 | Methoblastin 10 mg tablet | qty 15 | repeats 3 | Take as directed by your specialist | Dr A. Example
+2026-07-28 | Megafol (folic acid) 0.5 mg tablet | qty 100 | repeats 1 | Take ONE tablet daily | Dr A. Example
+2026-08-07 | Norvasc (amlodipine) 5 mg tablet | qty 30 | repeats 3 | Take ONE tablet daily | Dr A. Example
+2026-08-07 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 0 | Take ONE tablet daily | Dr A. Example
+2026-09-07 | Norvasc (amlodipine) 5 mg tablet | qty 30 | repeats 2 | Take ONE tablet daily | Dr A. Example
+2026-09-07 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 5 | Take ONE tablet daily | Dr A. Example
+2026-09-15 | Methoblastin 10 mg tablet | qty 15 | repeats 2 | Take as directed by your specialist | Dr A. Example
+2026-10-06 | Norvasc (amlodipine) 5 mg tablet | qty 30 | repeats 1 | Take ONE tablet daily | Dr A. Example
+2026-10-06 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 4 | Take ONE tablet daily | Dr A. Example
+2026-10-19 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 0 | Take TWO tablets three times a day | Dr A. Example

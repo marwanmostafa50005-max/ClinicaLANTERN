@@ -1,0 +1,55 @@
+[
+  {
+    "file": "BANSAL-S18/pos-fact.csv",
+    "kind": "positive",
+    "about": "Morphine (MS Contin, by brand name only) is supplied seven times over about six months, and the record holds a line showing moderate liver impairment (Child-Pugh B).",
+    "findings": [
+      {
+        "criterion": "BANSAL-S18",
+        "must_cite": [
+          [
+            "L011",
+            "L017",
+            "L021",
+            "L024",
+            "L028",
+            "L033",
+            "L036"
+          ],
+          [
+            "L013"
+          ],
+          [
+            "L011"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BANSAL-S18/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the tapentadol course spans more than three months, but the history gives neither its indication nor the grade of any liver impairment.",
+    "findings": [
+      {
+        "criterion": "BANSAL-S18",
+        "must_cite": [
+          [
+            "L005",
+            "L008",
+            "L011",
+            "L015",
+            "L018",
+            "L021"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BANSAL-S18/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Tapentadol is supplied six times over about five months, but the record shows only mild liver impairment (Child-Pugh A), so the criterion is not met.",
+    "findings": []
+  }
+]

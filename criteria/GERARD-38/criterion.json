@@ -1,0 +1,87 @@
+{
+  "id": "GERARD-38",
+  "label": "Gerard: SGLT2 inhibitor with pancreatic insufficiency",
+  "family": "GERARD",
+  "title": "SGLT2 inhibitor with pancreatic insufficiency",
+  "statement": "It is necessary to review and optimize the prescription of an antidiabetic drug (other than insulin) from the SGLT-2 inhibitor class in a patient with pancreatic insufficiency (a risk of diabetic ketoacidosis).",
+  "statement_origin": "published",
+  "source": {
+    "document": "Development of explicit definitions of potentially inappropriate prescriptions for antidiabetic drugs in people with type 2 diabetes: A Delphi survey and consensus meeting",
+    "citation": "Gerard E, Bugday D, Calafiore M, Baran J, Gautier S, Henry H, et al. (2025). Development of explicit definitions of potentially inappropriate prescriptions for antidiabetic drugs in people with type 2 diabetes: A Delphi survey and consensus meeting. PLOS ONE 20(10), e0334836.",
+    "doi": "10.1371/journal.pone.0334836",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0334836",
+    "licence": "CC BY 4.0",
+    "credit": "© 2025 Gerard et al. Gerard E, Bugday D, Calafiore M, Baran J, Gautier S, Henry H, et al. (2025). Development of explicit definitions of potentially inappropriate prescriptions for antidiabetic drugs in people with type 2 diabetes: A Delphi survey and consensus meeting. PLOS ONE 20(10), e0334836. https://doi.org/10.1371/journal.pone.0334836. Table 2. CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The statements are reproduced. GPT-6.2 Astra added the Australian medicine mapping, screening rules and fictional cases.",
+    "licence_status": "proposed",
+    "modification_notice": "The published statement is unchanged. The plain-language rule, Australian medicine mapping and test cases are adaptations."
+  },
+  "plain_summary": "Pancreatic insufficiency warrants review of SGLT2 inhibitor treatment because the source identifies a risk of diabetic ketoacidosis.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "SGLT2 inhibitors",
+      "ingredients": [
+        "dapagliflozin",
+        "empagliflozin",
+        "ertugliflozin",
+        "canagliflozin"
+      ],
+      "brands": {
+        "dapagliflozin": [
+          "Forxiga",
+          "Dapagliflozin AZN",
+          "Xigduo XR",
+          "Glixafor",
+          "Qtern",
+          "Sidapvia"
+        ],
+        "empagliflozin": [
+          "Jardiance",
+          "Jardiamet",
+          "Glyxambi"
+        ],
+        "ertugliflozin": [
+          "Steglatro",
+          "Segluromet",
+          "Steglujan"
+        ],
+        "canagliflozin": [
+          "Invokana"
+        ]
+      },
+      "note": "Count a listed ingredient in a combination product."
+    }
+  ],
+  "rule_for_models": "Start with any Group A supply. Check for type 2 diabetes and pancreatic insufficiency during treatment. If both are documented, cite the supply, diabetes and condition lines and report a finding. If one or both facts are unknown and the available evidence fits, report only a possible finding and name each missing fact. Give no finding if type 2 diabetes is ruled out, the supply is documented solely for a non-diabetes indication, or the relevant condition is excluded. Ask what the medicine treats and whether a clinician diagnosed pancreatic insufficiency that was present during this course. Enzyme use alone does not establish pancreatic insufficiency. Assess overlap from the dispensing date and the quantity divided by the directed units per day, allowing for a documented stop or change. A condition known to be outside treatment gives no finding. If overlap cannot be established and the other facts still fit, report only a possible finding. Ask the patient for the daily dose and treatment dates.",
+  "cannot_be_seen": "Pancreatic enzymes or past pancreatitis alone cannot establish insufficiency. These records do not diagnose ketoacidosis.",
+  "ask_the_gp": "Could you confirm type 2 diabetes and pancreatic insufficiency where these are unclear, and review the ketoacidosis risk with this medicine?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Type 2 diabetes",
+      "meets": "The record confirms type 2 diabetes during treatment."
+    },
+    {
+      "kind": "condition",
+      "what": "Pancreatic insufficiency during SGLT2 inhibitor treatment",
+      "meets": "A dated record or the pharmacist confirms that diagnosed pancreatic insufficiency was present during the SGLT2 course under review.",
+      "options": [
+        {
+          "words": "Diagnosed pancreatic insufficiency was present during this course",
+          "effect": "meets"
+        },
+        {
+          "words": "Pancreatic insufficiency was absent during this course",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

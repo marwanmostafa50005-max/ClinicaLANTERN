@@ -1,0 +1,250 @@
+{
+  "id": "START-B2",
+  "label": "START B2",
+  "family": "STOPP_START",
+  "title": "Vascular disease with no statin",
+  "statement": "Statin therapy with a documented history of coronary, cerebral or peripheral vascular disease, unless the patient’s status is end-of-life or established moderate or severe frailty.",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "For a person aged 65 or older with documented coronary, cerebral or peripheral vascular disease, review whether a statin is appropriate. End-of-life care, established moderate or severe frailty, or another documented clinical reason can explain why a statin is absent.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Statins (medicines that meet this criterion)",
+      "ingredients": [
+        "atorvastatin",
+        "rosuvastatin",
+        "simvastatin",
+        "pravastatin",
+        "pitavastatin",
+        "fluvastatin"
+      ],
+      "brands": {
+        "atorvastatin": [
+          "Lipitor",
+          "Atozet",
+          "Caduet",
+          "Atomed",
+          "Atorvachol",
+          "Atorvator",
+          "Atostat",
+          "Bansep",
+          "Chorit",
+          "Lorstat",
+          "Storvas",
+          "Tormed",
+          "Torvastat",
+          "Trovas"
+        ],
+        "rosuvastatin": [
+          "Crestor",
+          "Rosuzet",
+          "Affora",
+          "Alphastat",
+          "Cavstat",
+          "Cisero",
+          "Crestabs",
+          "Crestat",
+          "Crestatin",
+          "Crosuva",
+          "Crosvar",
+          "Rostor",
+          "Rosuvacor",
+          "Visacor"
+        ],
+        "simvastatin": [
+          "Zocor",
+          "Lipex",
+          "Invast",
+          "Myvast",
+          "Ransim",
+          "Simvabell",
+          "Simvacor",
+          "Simvahexal",
+          "Simvar",
+          "Simvasyn",
+          "Simvatrust",
+          "Zimstat",
+          "Vytorin"
+        ],
+        "pravastatin": [
+          "Pravachol",
+          "Cholpra",
+          "Cholstat",
+          "Cholvastin",
+          "Lipostat",
+          "Liprachol",
+          "Pralect",
+          "Pratin",
+          "Prava",
+          "Pravaccord",
+          "Pravastat",
+          "Pravista",
+          "Redichol",
+          "Vastoran"
+        ],
+        "pitavastatin": [
+          "Livalo"
+        ],
+        "fluvastatin": [
+          "Lescol",
+          "Vastin"
+        ]
+      },
+      "note": "Atozet is atorvastatin with ezetimibe. Rosuzet is rosuvastatin with ezetimibe. Caduet is atorvastatin with amlodipine. Ezetimibe on its own is not a statin and does not count. Generic packs that show the ingredient name with a company name count too. Vytorin contains simvastatin with ezetimibe."
+    },
+    {
+      "key": "B",
+      "name": "Medicines that imply the condition",
+      "ingredients": [
+        "clopidogrel",
+        "ticagrelor",
+        "prasugrel",
+        "glyceryl trinitrate",
+        "isosorbide mononitrate",
+        "nicorandil",
+        "ranolazine"
+      ],
+      "brands": {
+        "clopidogrel": [
+          "Plavix",
+          "Iscover",
+          "Clogrel",
+          "Clopaccord",
+          "Clopithromb",
+          "Clovix",
+          "Piax",
+          "Plavicor",
+          "Plidogrel",
+          "Viplex",
+          "CoPlavix",
+          "DuoCover"
+        ],
+        "ticagrelor": [
+          "Brilinta",
+          "Bricalor",
+          "Brilinta ODT",
+          "Novalant",
+          "Ticalor",
+          "Tirela"
+        ],
+        "prasugrel": [
+          "Effient"
+        ],
+        "glyceryl trinitrate": [
+          "Anginine",
+          "Nitrolingual Pumpspray",
+          "Minitran",
+          "Nitro-Dur",
+          "Lycinate",
+          "Nitrostat",
+          "Transiderm-Nitro"
+        ],
+        "isosorbide mononitrate": [
+          "Imdur",
+          "Duride",
+          "Imdur Durules",
+          "Imtrate",
+          "Isobide MR",
+          "Isomonit",
+          "Monodur",
+          "Monodur Durules"
+        ],
+        "nicorandil": [
+          "Ikorel",
+          "Ikotab"
+        ],
+        "ranolazine": [
+          "Ranexa"
+        ]
+      },
+      "note": "These point to artery disease: clopidogrel, ticagrelor, prasugrel and the angina medicines. They also fit other conditions, so they imply it only strongly, not for certain. Low-dose aspirin is not listed because it is often used without artery disease. For glyceryl trinitrate, count an antianginal sublingual tablet, spray or transdermal patch. Exclude rectal ointment. If the preparation is unclear, the ingredient alone does not establish an angina medicine supply. CoPlavix and DuoCover contain clopidogrel with aspirin."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Atherosclerotic cardiovascular disease",
+      "meets": "A documented coronary or peripheral arterial disease, ischaemic stroke, transient ischaemic attack or other qualifying cerebral arterial disease is sufficient. Choose any confirmed qualifying history if more than one applies. A primary intracerebral haemorrhage alone does not qualify. If stroke type is unclear and there is no other qualifying history, keep the finding possible and clarify the type.",
+      "options": [
+        {
+          "words": "Coronary artery disease documented",
+          "effect": "meets"
+        },
+        {
+          "words": "Ischaemic cerebrovascular disease documented",
+          "effect": "meets"
+        },
+        {
+          "words": "Peripheral arterial disease documented",
+          "effect": "meets"
+        },
+        {
+          "words": "No qualifying vascular history",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Stroke type unknown and no other qualifying history established",
+          "effect": "unknown"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "condition",
+      "what": "Established moderate or severe physical frailty",
+      "meets": "Established moderate or severe physical frailty rules out the omission. Its absence clears only this exception. An unknown answer leaves this exception unresolved.",
+      "options": [
+        {
+          "words": "Neither moderate nor severe physical frailty is present",
+          "effect": "meets"
+        },
+        {
+          "words": "Moderate or severe physical frailty is established",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "condition",
+      "what": "End-of-life status",
+      "meets": "End-of-life status rules out the omission. Its absence clears only this exception. An unknown answer leaves this exception unresolved.",
+      "options": [
+        {
+          "words": "End-of-life status confirmed",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "End-of-life status ruled out",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Once age is confirmed as 65 or older, check for a Group A statin supply in the last six months counted back from the latest date in the record. A recent statin, a confirmed absence of qualifying vascular disease, either published exception, or another documented current clinical reason to withhold all suitable statins gives no finding. This includes documented intolerance to all suitable statins. With documented Atherosclerotic cardiovascular disease and neither exception present, suspect an omission and cite both the vascular diagnosis and the evidence ruling out end-of-life status and established moderate or severe frailty. Use any earlier combined answer for what it establishes. A named exception or both confirmed excludes an omission. Neither exception applies rules out both. Not known settles neither. If either exception is confirmed, stop. Confirm an omission only when both are ruled out. If a qualifying vascular history is unknown but Group B was supplied, cite the supply and report only a possible finding naming Atherosclerotic cardiovascular disease. When a finding is otherwise possible, name only the unresolved facts that could affect it: Established moderate or severe physical frailty and End-of-life status. Use an existing shared frailty answer. A primary intracerebral haemorrhage alone does not qualify. If stroke type is unknown and there is no other qualifying history, report only a possible finding and clarify the stroke type.",
+  "cannot_be_seen": "Whether the person is near the end of life or frail, past statin side effects, and artery disease that is not on the record. Also medicines supplied by a hospital or another pharmacy.",
+  "ask_the_gp": "Whether a statin should be started or restarted, or the reason for not using one.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

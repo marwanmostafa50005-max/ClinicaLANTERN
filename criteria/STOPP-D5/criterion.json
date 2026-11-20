@@ -1,0 +1,274 @@
+{
+  "id": "STOPP-D5",
+  "label": "STOPP D5: antipsychotic for dementia symptoms with no dose change over 3 months",
+  "family": "STOPP_START",
+  "title": "Antipsychotic for dementia symptoms with no dose change for over 3 months",
+  "statement": "Antipsychotics prescribed for behavioural and psychological symptoms of dementia (BPSD) an unchanged dose for > 3 months without medication review (increased risk of extrapyramidal side-effects and chronic worsening of cognition, increased risk of major cardiovascular morbidity and mortality).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "An antipsychotic given for behaviour symptoms of dementia should be reviewed within 3 months, because staying on the same dose raises the risk of movement side-effects, worse thinking and heart problems.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Antipsychotics",
+      "ingredients": [
+        "amisulpride",
+        "aripiprazole",
+        "brexpiprazole",
+        "chlorpromazine",
+        "clozapine",
+        "flupentixol",
+        "fluphenazine",
+        "haloperidol",
+        "lurasidone",
+        "olanzapine",
+        "paliperidone",
+        "pericyazine",
+        "quetiapine",
+        "risperidone",
+        "trifluoperazine",
+        "ziprasidone",
+        "zuclopenthixol",
+        "flupentixol decanoate",
+        "fluphenazine decanoate",
+        "periciazine",
+        "asenapine",
+        "cariprazine"
+      ],
+      "brands": {
+        "amisulpride": [
+          "Solian",
+          "Amipride",
+          "Sulprix"
+        ],
+        "aripiprazole": [
+          "Abilify",
+          "Abilify ODT",
+          "Abipra",
+          "Abyraz",
+          "Aprazole",
+          "Aripic",
+          "Aripra",
+          "Arizole",
+          "Abilify Maintena"
+        ],
+        "brexpiprazole": [
+          "Rexulti"
+        ],
+        "chlorpromazine": [
+          "Largactil",
+          "Largactil Syrup"
+        ],
+        "clozapine": [
+          "Clozaril",
+          "Clopine",
+          "Closyn",
+          "Clozaril ODT",
+          "Clozitor",
+          "Versacloz"
+        ],
+        "flupentixol": [
+          "Fluanxol",
+          "Fluanxol Depot"
+        ],
+        "fluphenazine": [
+          "Modecate"
+        ],
+        "haloperidol": [
+          "Serenace",
+          "Haldol Decanoate"
+        ],
+        "lurasidone": [
+          "Latuda",
+          "Bilura",
+          "Latulem",
+          "Lavione",
+          "Luracor",
+          "Luralem",
+          "Luralembic",
+          "Lurobi"
+        ],
+        "olanzapine": [
+          "Zyprexa",
+          "Zypine",
+          "Lanzek",
+          "Aprolan",
+          "Aprolan ODT",
+          "Lanez",
+          "Lanez ODT",
+          "Lanzek Zydis",
+          "Lonza",
+          "Lonza ODT",
+          "Lyprosia",
+          "Lyprosia ODT",
+          "Olancor",
+          "Olanza",
+          "Olanzaccord",
+          "Olanzacor",
+          "Oprexa",
+          "Ozin",
+          "Ozin ODT",
+          "Prolanza",
+          "Prolanza ODT",
+          "Pryzex",
+          "Pryzex ODT",
+          "Tolaze ODT",
+          "Tolazine ODT",
+          "Torapine ODT",
+          "Torrenia ODT",
+          "Zylap",
+          "Zylap ODT",
+          "Zylapine",
+          "Zylapine ODT",
+          "Zypine ODT",
+          "Zyprexa Zydis",
+          "Zyprexa Relprevv"
+        ],
+        "paliperidone": [
+          "Invega",
+          "Invega Sustenna",
+          "Invega Trinza",
+          "Invega Hafyera"
+        ],
+        "pericyazine": [
+          "Neulactil"
+        ],
+        "quetiapine": [
+          "Seroquel",
+          "Aliquen",
+          "Delucon",
+          "Kaptan",
+          "Ketizenol",
+          "Qualez",
+          "Quepine XR",
+          "Quetapen",
+          "Quetia",
+          "Quetia XR",
+          "Quetiaccord",
+          "Quetiaquel XR",
+          "Quetin",
+          "Quipine",
+          "Sequase",
+          "Sequase XR",
+          "Serapine",
+          "Serapine XR",
+          "Seroccord",
+          "Seronia",
+          "Seroquel XR",
+          "Serotiapine XR",
+          "Syquet",
+          "Syquet XR",
+          "Syzopine",
+          "Tevatiapine XR",
+          "Tiapine XR",
+          "Tiava XR",
+          "Xque XR"
+        ],
+        "risperidone": [
+          "Risperdal",
+          "Rispa",
+          "Rixadone",
+          "Ozidal",
+          "Resdone",
+          "Respaz",
+          "Risdone",
+          "Rispaccord",
+          "Rispaccord-0.5",
+          "Risperdal Quicklet",
+          "Risperibell",
+          "Rispericor",
+          "Rispericor-0.5",
+          "Risperisan",
+          "Rispernia",
+          "Sperid",
+          "Risperdal Consta"
+        ],
+        "trifluoperazine": [
+          "Stelazine",
+          "Stelazine Forte",
+          "Stelazine Spansule"
+        ],
+        "ziprasidone": [
+          "Zeldox",
+          "Ziprox"
+        ],
+        "zuclopenthixol": [
+          "Clopixol",
+          "Clopixol Depot"
+        ],
+        "flupentixol decanoate": [
+          "Fluanxol",
+          "Fluanxol Depot"
+        ],
+        "fluphenazine decanoate": [
+          "Modecate"
+        ],
+        "periciazine": [
+          "Neulactil"
+        ],
+        "asenapine": [
+          "Saphris"
+        ],
+        "cariprazine": [
+          "Reagila"
+        ]
+      },
+      "note": "Tablets, capsules, liquids, sublingual wafers and long-acting injections count. Prochlorperazine and metoclopramide are used for nausea and are not counted here."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Behavioural and psychological symptoms of dementia as the reason for the antipsychotic",
+      "meets": "A condition line records dementia, with agitation, aggression, psychosis or other behavioural symptoms, as the reason for the antipsychotic.",
+      "options": [
+        {
+          "words": "The antipsychotic course under review treated behavioural or psychological symptoms of dementia",
+          "effect": "meets"
+        },
+        {
+          "words": "The antipsychotic course under review was solely for another reason",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Medication review of this antipsychotic at the dose being checked",
+      "meets": "The record or the pharmacist confirms that no medication review took place in the three calendar months ending on the supply date being checked. Establish the time at the unchanged dose separately from the supplies. An unknown review history leaves the finding possible.",
+      "options": [
+        {
+          "words": "No review within the three calendar months ending on the supply date being checked",
+          "effect": "meets"
+        },
+        {
+          "words": "Reviewed within those three calendar months, including exactly three months before supply",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this rule only to people aged 65 years or older. If age is unknown, confirm it before reporting a STOPP finding. Check for more than three calendar months of continuous Group A treatment at the same dose. For oral treatment, use strength, quantity and directions. For a depot, check the dose per injection and the interval between injections. A confirmed break or change in dose or interval starts a new period. If supplies span more than three calendar months but unclear directions, an uncertain gap or a missing depot schedule prevent confirmation, report at most a possible finding. In the possible finding, name the antipsychotic and the dates being checked. Ask there whether the same dose and schedule continued without a break. Count the confirmed period if they did. After a change or break, restart the count at the confirmed change or restart date. If duration remains uncertain, keep a potentially qualifying course open. Apply the indication and review exclusions below. Count from the start of that dose or its last medication review, whichever is later. An interval of three months or less or a documented review in the three calendar months ending on the supply date being checked gives no finding. For a finding, cite the supplies and evidence that the medicine treated behavioural or psychological symptoms of dementia and that the interval passed without review. If the course could qualify but the indication or review history is missing or unknown, report only a possible finding. Name each missing fact exactly: \"Behavioural and psychological symptoms of dementia as the reason for the antipsychotic\" for the indication and \"Medication review of this antipsychotic at the dose being checked\" for the review. Treatment solely for another reason gives no finding. If behavioural or psychological symptoms of dementia were also a reason, assess the unchanged dose and medication review as above.",
+  "cannot_be_seen": "Whether a medication review took place, since reviews are often not recorded in a dispensing history. Also why the antipsychotic was started, whether the prescriber tried to lower the dose, and doses given by a care facility.",
+  "ask_the_gp": "A medication review of the antipsychotic: whether it is still needed, and whether the dose can be lowered or stopped.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

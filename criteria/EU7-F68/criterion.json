@@ -1,0 +1,40 @@
+{
+  "id": "EU7-F68",
+  "label": "EU(7)-PIM: chloral hydrate",
+  "family": "EU7",
+  "title": "Chloral hydrate in an older person",
+  "statement": "Chloral hydrate is on the list of medicines to avoid in older people because of the risk of dizziness and changes on the heart tracing. The European list describes greater risk with reduced kidney function and suggests a reduced dose for the shortest possible time. Australian product information for Orion Chloral Hydrate Mixture lists marked renal impairment as a contraindication and limits use for sleep disorders to two weeks.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Statement written in plain words by ClinicaLANTERN from the published table row or rows, because part of the original dose text is from a third-party database (Micromedex) whose rights are not settled. It is not the authors' wording. Not endorsed by the source authors."
+  },
+  "plain_summary": "Chloral hydrate, an old sleeping medicine, can cause dizziness and heart tracing changes in people aged 65 or over.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Chloral hydrate",
+      "ingredients": [
+        "chloral hydrate"
+      ],
+      "brands": {
+        "chloral hydrate": [
+          "Orion Chloral Hydrate Mixture"
+        ]
+      },
+      "note": "A compounded liquid can also be recorded by ingredient. Orion Chloral Hydrate Mixture is registered in two strengths, 500 mg/10 mL and 1 g/10 mL. Read the strength from the dispensing line."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when the person is aged 65 or over and chloral hydrate is supplied, even once. If chloral hydrate is supplied and age is missing, report only a possible finding and ask the pharmacist to confirm whether the patient is 65 or older. A recorded age below 65 rules out the finding.",
+  "cannot_be_seen": "Why it was started, kidney function, heart tracing results, how long it has really been taken, and how much is really taken.",
+  "ask_the_gp": "A review of whether chloral hydrate is still needed and whether a safer choice or a non-medicine approach for sleep is possible.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

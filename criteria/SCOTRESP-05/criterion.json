@@ -1,0 +1,163 @@
+{
+  "id": "SCOTRESP-05",
+  "label": "SCOTRESP: a short-acting reliever is the only respiratory medicine in asthma",
+  "family": "SCOTRESP",
+  "title": "A short-acting reliever is the only respiratory medicine in asthma",
+  "statement": "Patients who are only prescribed a SABA",
+  "statement_origin": "published",
+  "source": {
+    "document": "Quality prescribing strategy for respiratory conditions in Scotland: improving patient care and promoting environmental sustainability",
+    "citation": "Kennedy E, Vint K, Mair A, et al. International Journal of Pharmacy Practice. 2025;33(5):534-540.",
+    "doi": "10.1093/ijpp/riaf054",
+    "url": "https://academic.oup.com/ijpp/article/33/5/534/8191719",
+    "licence": "UK Open Government Licence v3.0",
+    "licence_status": "proposed",
+    "credit": "© Crown copyright 2025. Scottish Government, Effective Prescribing and Therapeutics. Kennedy E, Vint K, Mair A, et al., Table 1. Contains public sector information licensed under the Open Government Licence v3.0.",
+    "modification_notice": "Table 1 wording reproduced unchanged. The Australian screening rule and fictional histories are adaptations."
+  },
+  "plain_summary": "At age 12 or older with asthma, check for a short-acting reliever supply with no other respiratory medicine supplied in the latest or preceding calendar quarter.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Short-acting beta agonist inhalers",
+      "ingredients": [
+        "salbutamol",
+        "terbutaline"
+      ],
+      "brands": {
+        "salbutamol": [
+          "Ventolin",
+          "Asmol",
+          "Zempreon",
+          "Airomir",
+          "Airomir Autohaler",
+          "Epaq Inhaler",
+          "Ventolin Inhaler",
+          "Ventolin Rotacap",
+          "Zempreon Inhaler"
+        ],
+        "terbutaline": [
+          "Bricanyl Turbuhaler",
+          "Bricanyl"
+        ]
+      },
+      "note": "Count a prescribed handheld short-acting reliever inhaler. Check the recorded form, especially for plain Bricanyl. Exclude nebuliser solutions and ampoules, oral products, injections and over-the-counter sales. If the form is unclear, confirm it before counting the supply."
+    },
+    {
+      "key": "B",
+      "name": "Other prescribed respiratory treatment",
+      "ingredients": [
+        "budesonide",
+        "fluticasone propionate",
+        "fluticasone furoate",
+        "beclometasone",
+        "ciclesonide",
+        "mometasone furoate",
+        "salmeterol",
+        "formoterol",
+        "indacaterol",
+        "olodaterol",
+        "vilanterol",
+        "tiotropium",
+        "ipratropium",
+        "montelukast",
+        "theophylline",
+        "aclidinium",
+        "glycopyrronium",
+        "umeclidinium"
+      ],
+      "brands": {
+        "budesonide": [
+          "Pulmicort Turbuhaler",
+          "Symbicort Turbuhaler",
+          "Symbicort Rapihaler",
+          "DuoResp Spiromax",
+          "Breztri Aerosphere"
+        ],
+        "fluticasone propionate": [
+          "Flixotide",
+          "Seretide",
+          "Flutiform"
+        ],
+        "fluticasone furoate": [
+          "Arnuity Ellipta",
+          "Breo Ellipta",
+          "Trelegy Ellipta"
+        ],
+        "beclometasone": [
+          "Qvar",
+          "Fostair",
+          "Trimbow"
+        ],
+        "ciclesonide": [
+          "Alvesco"
+        ],
+        "mometasone furoate": [
+          "Atectura Breezhaler",
+          "Enerzair Breezhaler"
+        ],
+        "salmeterol": [
+          "Serevent Accuhaler"
+        ],
+        "formoterol": [
+          "Oxis Turbuhaler",
+          "Brimica Genuair"
+        ],
+        "indacaterol": [
+          "Onbrez Breezhaler",
+          "Ultibro Breezhaler"
+        ],
+        "olodaterol": [
+          "Spiolto Respimat"
+        ],
+        "vilanterol": [
+          "Anoro Ellipta"
+        ],
+        "tiotropium": [
+          "Spiriva Respimat",
+          "Spiriva",
+          "Braltus"
+        ],
+        "ipratropium": [
+          "Atrovent"
+        ],
+        "montelukast": [
+          "Singulair"
+        ],
+        "theophylline": [
+          "Nuelin SR"
+        ],
+        "aclidinium": [
+          "Bretaris Genuair",
+          "Brimica Genuair"
+        ],
+        "glycopyrronium": [
+          "Seebri Breezhaler",
+          "Ultibro Breezhaler",
+          "Trimbow",
+          "Enerzair Breezhaler",
+          "Breztri Aerosphere"
+        ],
+        "umeclidinium": [
+          "Incruse Ellipta",
+          "Anoro Ellipta",
+          "Trelegy Ellipta"
+        ]
+      },
+      "note": "These are examples. Count another identified prescription for respiratory treatment within the two quarters, including as-needed and combination treatment. A second SABA alone still leaves a SABA-only pattern. For inhaled ingredients, check the route. Nasal sprays, skin products and oral budesonide for bowel disease do not count. Confirm an unclear form or indication before treating it as another respiratory medicine."
+    }
+  ],
+  "rule_for_models": "Confirm age 12 or older before reporting and check for a prescribed Group A handheld reliever in the latest calendar quarter in the record with no other prescribed respiratory treatment (see Group B) in that quarter or the preceding quarter. If the pattern is present, cite the reliever supply and current asthma diagnosis for a finding, or cite the supply for a possible finding if the diagnosis is unclear and ask whether the person has asthma, including alongside COPD. Ask about preventers or other respiratory medicines obtained elsewhere, and return no finding below age 12, if asthma is ruled out (including confirmed COPD alone), or if the supply pattern is absent.",
+  "cannot_be_seen": "Respiratory medicines obtained elsewhere or bought without a prescription may be missing from this record. Supply dates cannot show whether an earlier inhaler is still being used.",
+  "ask_the_gp": "Could we confirm the asthma diagnosis and current respiratory medicines, including any as-needed or separately supplied preventer, and review the asthma plan?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Asthma",
+      "meets": "Current asthma is documented, including asthma in someone who also has COPD."
+    }
+  ]
+}

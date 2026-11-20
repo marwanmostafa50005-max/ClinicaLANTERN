@@ -1,0 +1,48 @@
+[
+  {
+    "file": "START-I2/pos-fact.csv",
+    "kind": "positive",
+    "about": "The man has urinary symptoms from an enlarged prostate and the same line records \"Clinician's assessment of prostate surgery: unnecessary\". Tamsulosin is supplied, and the Finapen brand alone does not show a 5-alpha reductase inhibitor for prostate symptoms.",
+    "findings": [
+      {
+        "criterion": "START-I2",
+        "must_cite": [
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-I2/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about \"Lower urinary tract symptoms due to benign prostate enlargement\". Tamsulosin (Flomaxtra) is supplied every month and no Group A medicine is supplied.",
+    "findings": [
+      {
+        "criterion": "START-I2",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L006",
+            "L009",
+            "L011",
+            "L014",
+            "L016",
+            "L019",
+            "L021",
+            "L024",
+            "L026"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-I2/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The record holds a line for benign prostatic hyperplasia with urinary symptoms and \"Clinician's assessment of prostate surgery: unnecessary\". Dutasteride (Avodart) is supplied every month to the end of the history, so the 5-alpha reductase inhibitor is there.",
+    "findings": []
+  }
+]

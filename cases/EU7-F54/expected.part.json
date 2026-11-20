@@ -1,0 +1,45 @@
+[
+  {
+    "file": "EU7-F54/pos-brand.csv",
+    "kind": "positive",
+    "about": "Three brand-only Relpax supplies to a 68-year-old establish the triptan finding, while the directions leave the prescribed mg per dose unknown.",
+    "findings": [
+      {
+        "criterion": "EU7-F54",
+        "must_cite": [
+          [
+            "L011",
+            "L020",
+            "L027"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F54/pos-buried.csv",
+    "kind": "positive",
+    "about": "The history shows naratriptan supplies to a 71-year-old who plans to take a tablet that afternoon and has a creatinine clearance of 12 mL/min on the same day, so review is needed before that dose.",
+    "findings": [
+      {
+        "criterion": "EU7-F54",
+        "must_cite": [
+          [
+            "L033",
+            "L043",
+            "L051"
+          ],
+          [
+            "L064"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F54/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Maxalt (rizatriptan) is supplied three times to a person aged 53, below the age of 65, so it must not flag.",
+    "findings": []
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "file": "EU7-F71/pos-brand.csv",
+    "kind": "positive",
+    "about": "Endep (amitriptyline) 25 mg at night is supplied every month for nine months and appears by brand name only.",
+    "findings": [
+      {
+        "criterion": "EU7-F71",
+        "must_cite": [
+          [
+            "L004",
+            "L007",
+            "L010",
+            "L014",
+            "L017",
+            "L020",
+            "L024",
+            "L027",
+            "L030"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F71/pos-buried.csv",
+    "kind": "positive",
+    "about": "Dothep 75 (dosulepin) 75 mg at night is supplied four times from December 2025 to March 2026, in the middle of a 15-month history.",
+    "findings": [
+      {
+        "criterion": "EU7-F71",
+        "must_cite": [
+          [
+            "L029",
+            "L033",
+            "L038",
+            "L043"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "EU7-F71/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Zoloft (sertraline, an antidepressant that is not on the list) is supplied every month. No tricyclic antidepressant is supplied.",
+    "findings": []
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "id": "PINCER-5B",
+  "label": "PINCER 5b",
+  "family": "PINCER",
+  "title": "Methotrexate without a recent liver function test",
+  "statement": "Patients receiving methotrexate for at least three months who have not had a recorded full blood count and/or liver function test within the previous three months - More specifically 5b: patients with one or more prescriptions for methotrexate recorded on computer three to six months prior to data collection and in the three months prior to data collection who have not had a computer-recorded liver function test within the previous three months.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Avery AJ, et al. Protocol for the PINCER trial. Trials 2009;10:28; correction Trials 2010;11:23",
+    "citation": "Avery AJ, Rodgers S, Cantrill JA, et al. Protocol for the PINCER trial. Trials 2009;10:28. doi:10.1186/1745-6215-10-28; correction Trials 2010;11:23",
+    "doi": "10.1186/1745-6215-10-28",
+    "url": "https://doi.org/10.1186/1745-6215-10-28",
+    "licence": "CC BY 2.0",
+    "licence_status": "proposed",
+    "credit": "Avery AJ, Rodgers S, Cantrill JA, et al. Protocol for the PINCER trial. Trials 2009;10:28. doi:10.1186/1745-6215-10-28; correction Trials 2010;11:23",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Methotrexate can harm the liver, so a person who takes it for months needs a liver function test at least every three months.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Methotrexate",
+      "ingredients": [
+        "methotrexate"
+      ],
+      "brands": {
+        "methotrexate": [
+          "Methoblastin",
+          "Trexject",
+          "Chexate",
+          "Ciptrexate",
+          "Emthexate",
+          "Imutrex",
+          "Methaccord",
+          "Methoblastin PFS"
+        ]
+      },
+      "note": "Tablets and injections count. Generic products are usually named by the ingredient."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "Date of the latest liver function tests",
+      "meets": "Enter the sample date in the result date field. Enter the liver test value with its unit if available, or enter \"test completed\" when only the sample date is known. A sample in the three months ending on the latest date in the record rules out a monitoring gap, whatever the value. An older latest sample establishes a gap. If the sample date cannot be established, timing is unresolved."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when methotrexate (Group A) is supplied at least once three to six months before the latest date in the record AND at least once in the last three months, AND the record holds no liver function test in the last three months (the newest one is older, or there is none). With qualifying supplies, report a finding if the latest dated liver function test is older than the window or the pharmacist confirms no check was recorded in that window. Cite the supplies and the old test or the confirming answer. A liver function test with a sample date inside the window rules out the finding, whatever the value. This includes a dated \"test completed\" result when the figures are unavailable. If the timing is unknown, including when the only result is undated or no test history is available, report only a possible finding and name \"Date of the latest liver function tests\" as the missing fact. Use the sample date in the result date field for a test entered at the counter. The day the answer was entered does not date the test. A recent liver function test means no finding.",
+  "cannot_be_seen": "Blood tests done elsewhere and not recorded here, and whether the doctor or specialist has already arranged the next test.",
+  "ask_the_gp": "Could you confirm when the last liver function test was done, including any specialist result, and review whether repeat testing is due while methotrexate continues?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

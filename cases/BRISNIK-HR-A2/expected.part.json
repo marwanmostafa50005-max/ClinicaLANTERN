@@ -1,0 +1,61 @@
+[
+  {
+    "file": "BRISNIK-HR-A2/pos-fact.csv",
+    "kind": "positive",
+    "about": "Endep (amitriptyline) 25 mg, two tablets at night (50 mg a day), is supplied monthly by brand name only, and the record holds an Ischaemic heart disease condition line.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-A2",
+        "must_cite": [
+          [
+            "L002",
+            "L006",
+            "L010",
+            "L014",
+            "L018",
+            "L022",
+            "L026",
+            "L030",
+            "L034",
+            "L038",
+            "L042",
+            "L046"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-A2/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about ischaemic heart disease. Nortriptyline 25 mg, two tablets at night (50 mg a day), is supplied monthly.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-A2",
+        "must_cite": [
+          [
+            "L001",
+            "L004",
+            "L008",
+            "L011",
+            "L014",
+            "L017",
+            "L020",
+            "L023",
+            "L026",
+            "L029"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-A2/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Amitriptyline 50 mg a day is supplied monthly, and a dated review records no current or past ischaemic heart disease.",
+    "findings": []
+  }
+]

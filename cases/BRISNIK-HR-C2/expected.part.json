@@ -1,0 +1,63 @@
+[
+  {
+    "file": "BRISNIK-HR-C2/pos-fact.csv",
+    "kind": "positive",
+    "about": "During citalopram treatment the patient confirms a fall before starting the course without recalling its date, and the later fall-free interval does not erase that history.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-C2",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L007",
+            "L011",
+            "L013",
+            "L017",
+            "L020",
+            "L024",
+            "L026",
+            "L030",
+            "L032",
+            "L036",
+            "L038"
+          ],
+          [
+            "L019"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-C2/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about \"History of falls\". Efexor-XR (venlafaxine) is supplied monthly for eleven months.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-HR-C2",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L007",
+            "L010",
+            "L013",
+            "L016",
+            "L018",
+            "L022",
+            "L024",
+            "L026",
+            "L028"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-HR-C2/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The patient taking sertraline explicitly reports never having fallen, with no contradictory fall history.",
+    "findings": []
+  }
+]

@@ -1,0 +1,133 @@
+{
+  "id": "STOPP-K3",
+  "label": "STOPP K3",
+  "family": "STOPP_START",
+  "title": "Vasodilator in a person who keeps falling with a drop in blood pressure on standing",
+  "statement": "Vasodilator drugs in patients with recurrent falls with persistent postural hypotension i.e., systolic BP drop ≥ 20 mmHg and/or diastolic BP drop ≥ 10 mmHg (risk of syncope, falls).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Medicines that widen blood vessels can make blood pressure fall further on standing, which risks fainting and falls in someone who has fallen repeatedly and already has this drop.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Vasodilators, the medicines that widen blood vessels",
+      "ingredients": [
+        "glyceryl trinitrate",
+        "hydralazine",
+        "isosorbide dinitrate",
+        "isosorbide mononitrate",
+        "minoxidil",
+        "nicorandil",
+        "prazosin"
+      ],
+      "brands": {
+        "glyceryl trinitrate": [
+          "Anginine",
+          "Minitran",
+          "Nitrolingual",
+          "Transiderm-Nitro",
+          "Lycinate",
+          "Nitrostat",
+          "Nitro-Dur"
+        ],
+        "hydralazine": [
+          "Alphapress"
+        ],
+        "isosorbide dinitrate": [
+          "Isordil",
+          "Sorbidin"
+        ],
+        "isosorbide mononitrate": [
+          "Imdur",
+          "Duride",
+          "Monodur",
+          "Imdur Durules",
+          "Imtrate",
+          "Isobide MR",
+          "Isomonit",
+          "Monodur Durules"
+        ],
+        "minoxidil": [
+          "Loniten"
+        ],
+        "nicorandil": [
+          "APO-Nicorandil",
+          "Ikorel"
+        ],
+        "prazosin": [
+          "Minipress",
+          "Pratsiol",
+          "Pressin"
+        ]
+      },
+      "note": "Count systemic nitrates, hydralazine, oral minoxidil, nicorandil and oral prazosin. Use the quantity, directions and dates to check whether supply covers the assessment. Ikorel tablets and Nitro-Dur systemic patches can identify historical supplies. Registration or an old label does not establish current retail supply. Assess the person during exposure. A new or continuing supply after falls and persistent postural hypotension were established can qualify if those findings still apply. Exclude resolved findings. Review a past course as historical and establish current use before suggesting a treatment change."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Recurrent falls",
+      "meets": "a condition or observation recording recurrent falls or at least two falls in the 12 months counted back from the latest date in the record",
+      "options": [
+        {
+          "words": "Recurrent falls were documented and still applied during treatment",
+          "effect": "meets"
+        },
+        {
+          "words": "Two or more falls in the 12 months up to the latest date in the record",
+          "effect": "meets"
+        },
+        {
+          "words": "No falls or one fall in the 12 months up to the latest date in the record",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Persistent postural hypotension during vasodilator exposure",
+      "meets": "a standing drop of at least 20 mmHg systolic or 10 mmHg diastolic on two different dates, or a condition line documenting persistent postural hypotension",
+      "options": [
+        {
+          "words": "A diagnosis of persistent postural hypotension applied during vasodilator exposure",
+          "effect": "meets"
+        },
+        {
+          "words": "Standing drops on two different dates were each at least 20 mmHg systolic or 10 mmHg diastolic and applied during exposure",
+          "effect": "meets"
+        },
+        {
+          "words": "Persistent postural hypotension was excluded during exposure or had resolved before it",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Only one qualifying drop is documented and persistence is unknown",
+          "effect": "unknown"
+        },
+        {
+          "words": "Standing measurements, diagnosis or timing not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "No finding below age 65 or if either clinical requirement was ruled out or had resolved before exposure\nPossible finding only if age or falls history is unknown, or persistent postural hypotension is uncertain because both a diagnosis and adequate standing blood pressure readings are missing (cite the available lines and name what is missing, including a repeat reading after one qualifying drop)\nFinding at age 65 or older with all three kinds of evidence (cite each): a Group A supply covering treatment, recorded recurrent falls or at least two falls in the 12 months counted back from the latest date in the record, and either a diagnosis of persistent postural hypotension or standing drops on two different dates of at least 20 mmHg systolic or 10 mmHg diastolic on each date, supported by the readings or a pharmacist assessment confirming those measurements and their relevance during exposure\nAssess each new or continuing Group A supply while it covers treatment, including later refills when earlier findings still apply. If directions are unclear or as needed and exposure at the relevant time cannot be established, report only a possible finding when the other requirements could be met. Ask the patient when they actually used the medicine.",
+  "cannot_be_seen": "Without a recorded diagnosis of persistent postural hypotension, fewer than two dated standing measurements cannot establish persistence. The record may omit falls or other causes of the blood pressure drop.",
+  "ask_the_gp": "Could we confirm current vasodilator use, falls history and standing blood pressure, and review treatment if these risks coincide?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

@@ -1,0 +1,70 @@
+{
+  "id": "CKD-C03A",
+  "label": "CKD review: Review Dilart HCT when CrCl is below 30 mL/min",
+  "family": "CKD",
+  "title": "Review Dilart HCT when CrCl is below 30 mL/min",
+  "statement": "For an adult outpatient with established CKD, review Dilart HCT when CrCl is below 30 mL/min.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "A systematically collated library of prescribing safety indicators for people with chronic kidney disease. Additional file 2, Appendix 3",
+    "citation": "Smith F, Hayward S, Hole B, Kimpton G, Sluman C, Whiting P, Caskey F. BMC Nephrology. 2020;21:493.",
+    "doi": "10.1186/s12882-020-02158-0",
+    "url": "https://link.springer.com/article/10.1186/s12882-020-02158-0",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Smith F, Hayward S, Hole B, Kimpton G, Sluman C, Whiting P, Caskey F. A systematically collated library of prescribing safety indicators for people with chronic kidney disease. BMC Nephrology 2020;21:493. https://doi.org/10.1186/s12882-020-02158-0; Additional file 2 (Appendix 3), https://doi.org/10.6084/m9.figshare.13257677. © The Author(s) 2020, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Changes were made. Smith et al. compiled the CKD indicators. Original screening wording and Australian adaptations. Clinical cross-check: Kidney Health Australia handbook (https://assets.kidney.org.au/resources/KHA-CKD-Handbook-5th-Ed-July2024.pdf). Dilart HCT PI (https://apps.medicines.org.au/files/afpdilah.pdf).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "For an adult outpatient with established CKD, review Dilart HCT when CrCl is below 30 mL/min. Current use with confirmed CrCl below 30 mL/min is contraindicated and needs same-day review.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Dilart HCT tablets",
+      "ingredients": [
+        "valsartan + hydrochlorothiazide"
+      ],
+      "brands": {
+        "valsartan + hydrochlorothiazide": [
+          "Dilart HCT"
+        ]
+      },
+      "note": "Require the named fixed-dose product. The ingredients alone do not identify Dilart HCT."
+    }
+  ],
+  "rule_for_models": "Check a named Dilart HCT fixed-dose supply in an adult outpatient. Report a finding and cite the supply, established CKD and dated stable unindexed creatinine clearance below 30 mL/min at supply. Report no finding for a different product, confirmed absence of CKD, or an applicable clearance of 30 mL/min or higher. If required information is missing or the clearance cannot be interpreted at supply, report only a possible finding naming what needs confirmation, including CKD, unindexed clearance or kidney stability. If age is unknown and the other evidence still allows this finding, report only a possible finding and ask whether the patient was at least 18 at supply. A known exclusion takes precedence over a missing fact.",
+  "cannot_be_seen": "Dispensing does not establish the dose taken. Kidney results obtained elsewhere, their units and their timing may be missing.",
+  "ask_the_gp": "Could you review Dilart HCT against the current unindexed creatinine clearance in mL/min and confirm whether kidney function was stable at supply?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Chronic kidney disease",
+      "meets": "Established CKD at the time of outpatient supply.",
+      "options": [
+        {
+          "words": "CKD was established by the supply date",
+          "effect": "meets"
+        },
+        {
+          "words": "CKD was absent at the supply date",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "CKD is known now but its timing is unclear",
+          "effect": "unknown"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "result",
+      "what": "Creatinine clearance (unindexed, mL/min)",
+      "meets": "Use a dated, unindexed CrCl in mL/min applicable at supply. Below 30 meets the numerical condition. Verify the timing of an undated typed value and assess kidney stability separately."
+    }
+  ]
+}

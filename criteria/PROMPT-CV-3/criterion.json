@@ -1,0 +1,166 @@
+{
+  "id": "PROMPT-CV-3",
+  "label": "PROMPT CV-3: verapamil or diltiazem with a beta blocker",
+  "family": "PROMPT",
+  "title": "Verapamil or diltiazem together with a beta blocker",
+  "statement": "Cardio-selective calcium-channel blockers (e.g. verapamil, diltiazem) should not be used in combination with beta-adrenoceptor blocking drugs.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Cooper JA, et al. The development of the PROMPT criteria. BMC Health Serv Res 2014;14:484, Table 4",
+    "citation": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Verapamil or diltiazem taken with a beta blocker can slow the heart too much and can upset the heart rhythm.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Heart-rate-lowering calcium-channel blockers",
+      "ingredients": [
+        "verapamil",
+        "diltiazem"
+      ],
+      "brands": {
+        "verapamil": [
+          "Isoptin",
+          "Isoptin SR",
+          "Veracaps SR",
+          "Anpec",
+          "Anpec SR",
+          "Cordilox SR",
+          "Tarka"
+        ],
+        "diltiazem": [
+          "Cardizem",
+          "Cardizem CD",
+          "Vasocardol",
+          "Vasocardol CD",
+          "Coras",
+          "Danzem",
+          "Diltahexal",
+          "Diltahexal CD",
+          "Dilzem",
+          "Dilzem CD",
+          "Ditatem"
+        ]
+      },
+      "note": "Amlodipine, felodipine and similar blood-vessel-selective calcium-channel blockers are not listed. Count systemic verapamil or diltiazem, including oral forms. Exclude topical diltiazem cream and ointment."
+    },
+    {
+      "key": "B",
+      "name": "Beta blockers",
+      "ingredients": [
+        "atenolol",
+        "bisoprolol",
+        "carvedilol",
+        "labetalol",
+        "metoprolol",
+        "nadolol",
+        "nebivolol",
+        "propranolol",
+        "sotalol",
+        "timolol",
+        "pindolol"
+      ],
+      "brands": {
+        "atenolol": [
+          "Tenormin",
+          "Noten",
+          "Anselol",
+          "Atehexal",
+          "Aten",
+          "Colaptyn",
+          "Tenolten",
+          "Tensig"
+        ],
+        "bisoprolol": [
+          "Bicor",
+          "Beprol",
+          "Bicard",
+          "Biso",
+          "Bispro"
+        ],
+        "carvedilol": [
+          "Dilatrend",
+          "Carvidol",
+          "Dicarz",
+          "Dilasig",
+          "Kredex",
+          "Vedilol",
+          "Volirop"
+        ],
+        "labetalol": [
+          "Trandate",
+          "Presolol"
+        ],
+        "metoprolol": [
+          "Betaloc",
+          "Betaloc CR",
+          "Toprol-XL",
+          "Minax",
+          "Agtolac",
+          "Lopresor",
+          "Metatar",
+          "Metohexal",
+          "Metolol",
+          "Metrol",
+          "Metrol-XL",
+          "Minax XL",
+          "Mistrom",
+          "Tobeta-XL",
+          "Topreloc-XL"
+        ],
+        "nadolol": [
+          "Nadolol (Apo)"
+        ],
+        "nebivolol": [
+          "Nebilet",
+          "Lobivon",
+          "Lobivon Composite Starter Titration Pack",
+          "Nebaloc",
+          "Nebilet Composite Starter Titration Pack",
+          "Nepiten"
+        ],
+        "propranolol": [
+          "Inderal",
+          "Deralin",
+          "Drofate",
+          "Hemangiol"
+        ],
+        "sotalol": [
+          "Sotacor",
+          "Cardol",
+          "Solavert",
+          "Sotab",
+          "Sotahexal"
+        ],
+        "timolol": [
+          "Timoptol",
+          "Cosopt",
+          "Nyogel",
+          "Tenopt",
+          "Timoeye",
+          "Timoptol-XE",
+          "Xalacom",
+          "Ganfort",
+          "DuoTrav",
+          "Combigan",
+          "Azarga"
+        ],
+        "pindolol": [
+          "Visken",
+          "Barbloc"
+        ]
+      },
+      "note": "Count the listed oral beta blockers. With systemic verapamil or diltiazem, also count timolol eye drops used alone or in a combination whose Australian product information warns of additive slowing of heart rate or conduction."
+    }
+  ],
+  "rule_for_models": "At recorded ages 45 to 64 inclusive, suspect a finding when one supply of systemic verapamil or diltiazem (Group A) and one supply of a Group B beta blocker overlap or fall within 60 days of each other. Exclude topical diltiazem cream and ointment, and do not report a finding when the record explicitly shows one medicine was stopped before the other started with no overlap. If age is missing, record that eligibility is unknown.",
+  "cannot_be_seen": "Why each medicine was prescribed, heart rate and heart rhythm tracings, blood pressure, medicines supplied by a hospital or another pharmacy, and whether a heart specialist is supervising the combination.",
+  "ask_the_gp": "If the combination is current or about to start, could we review it today, including the heart rate and rhythm? If the overlap has ended and there are no ongoing symptoms, could we review the previous combination at the next routine review?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

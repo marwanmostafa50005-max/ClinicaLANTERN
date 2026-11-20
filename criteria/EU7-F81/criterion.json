@@ -1,0 +1,41 @@
+{
+  "id": "EU7-F81",
+  "label": "EU(7)-PIM: theophylline",
+  "family": "EU7",
+  "title": "Theophylline in an older person",
+  "statement": "Theophylline is on the EU(7)-PIM list of medicines to avoid in older people, because it has a higher risk of stimulant effects on the brain and nervous system. For a new start, the list suggests a dose 25% below the younger adult dose and a starting maximum of 400 mg/day. It also suggests checking theophylline blood levels to guide dose adjustment.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Statement rewritten in plain words by ClinicaLANTERN, because part of the source row text is marked as from a commercial database (Micromedex) whose reuse rights are not settled. Not endorsed by the source authors."
+  },
+  "plain_summary": "Theophylline can overstimulate the nervous system in an older person, so its use and dose need a regular review and blood level checks.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Theophylline",
+      "ingredients": [
+        "theophylline"
+      ],
+      "brands": {
+        "theophylline": [
+          "Nuelin SR",
+          "Nuelin"
+        ]
+      },
+      "note": "Tablets, slow-release tablets and liquids taken by mouth count. Aminophylline is a related medicine that the source row does not name, so it is not counted here. Roflumilast is a different medicine and does not count."
+    }
+  ],
+  "rule_for_models": "In a person aged 65 years or older, flag one or more supplies of oral theophylline. If age is missing and the supply otherwise qualifies, report only a possible finding and ask the pharmacist to confirm whether the person is 65 or older. A recorded age below 65 gives no finding. Mention a starting dose above 400 mg/day only when the record documents a new start and the strength and directions establish a daily dose above that figure.",
+  "cannot_be_seen": "A supply alone cannot establish when treatment began or how the person takes the medicine. A theophylline level, smoking status or interacting medicine supply can be seen when recorded. Other pharmacy supplies and unrecorded changes in smoking or medicine use can be missed.",
+  "ask_the_gp": "Whether theophylline is still needed, whether the dose is suitable, and when the last blood level of theophylline was checked.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

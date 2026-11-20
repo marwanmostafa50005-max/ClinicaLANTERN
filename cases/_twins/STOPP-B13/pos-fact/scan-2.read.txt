@@ -1,0 +1,15 @@
+2026-06-23 | Aldactone 25 mg tablet | qty 100 | repeats 4 | Take ONE tablet daily | Dr B. Sample
+2026-06-27 | Bicor (bisoprolol) 5 mg tablet | qty 28 | repeats 4 | Take ONE tablet daily | Dr A. Example
+2026-07-07 | Coversyl 5 mg tablet | qty 30 | repeats 1 | Take ONE tablet in the morning | Dr A. Example
+2026-07-07 | Crestor 20 mg tablet | qty 30 | repeats 1 | Take ONE tablet daily | Dr A. Example
+2026-07-25 | Bicor (bisoprolol) 5 mg tablet | qty 28 | repeats 3 | Take ONE tablet daily | Dr A. Example
+2026-08-07 | Coversyl 5 mg tablet | qty 30 | repeats 0 | Take ONE tablet in the morning | Dr A. Example
+2026-08-07 | Crestor 20 mg tablet | qty 30 | repeats 0 | Take ONE tablet daily | Dr A. Example
+2026-08-11 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 1 | Take TWO tablets three times a day, swallow whole | Dr A. Example
+2026-08-23 | Bicor (bisoprolol) 5 mg tablet | qty 28 | repeats 2 | Take ONE tablet daily | Dr A. Example
+2026-09-06 | Coversyl 5 mg tablet | qty 30 | repeats 5 | Take ONE tablet in the morning | Dr A. Example
+2026-09-06 | Crestor 20 mg tablet | qty 30 | repeats 5 | Take ONE tablet daily | Dr A. Example
+2026-09-20 | Bicor (bisoprolol) 5 mg tablet | qty 28 | repeats 1 | Take ONE tablet daily | Dr A. Example
+2026-09-29 | Aldactone 25 mg tablet | qty 100 | repeats 3 | Take ONE tablet daily | Dr B. Sample
+2026-10-06 | Coversyl 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr A. Example
+2026-10-06 | Crestor 20 mg tablet | qty 30 | repeats 4 | Take ONE tablet daily | Dr A. Example

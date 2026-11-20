@@ -1,0 +1,40 @@
+{
+  "id": "PROMPT-EN-1",
+  "label": "PROMPT EN-1: glibenclamide",
+  "family": "PROMPT",
+  "title": "Glibenclamide for diabetes",
+  "statement": "In relation to the management of diabetes, the use of oral long-acting sulfonylureas (glibenclamide) should be avoided.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Cooper JA, et al. The development of the PROMPT criteria. BMC Health Serv Res 2014;14:484, Table 4",
+    "citation": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Glibenclamide is a long-acting diabetes tablet that can cause low blood sugar that lasts, so safer choices are usually preferred.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Long-acting sulfonylurea, glibenclamide",
+      "ingredients": [
+        "glibenclamide"
+      ],
+      "brands": {
+        "glibenclamide": [
+          "Daonil",
+          "Semi-Daonil",
+          "Glimel"
+        ]
+      },
+      "note": "Gliclazide and glimepiride are not listed because the statement names only glibenclamide."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when glibenclamide is supplied to a person aged 45 to 64 inclusive. If age is missing, record that PROMPT eligibility is unknown. One supply is enough. Other sulfonylureas such as gliclazide are not a finding.",
+  "cannot_be_seen": "Why it was prescribed, blood glucose and HbA1c results, kidney function, episodes of low blood sugar, and how the person actually takes it.",
+  "ask_the_gp": "A review of the diabetes treatment, including whether a medicine with less risk of low blood sugar would suit the patient.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

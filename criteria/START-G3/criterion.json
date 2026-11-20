@@ -1,0 +1,88 @@
+{
+  "id": "START-G3",
+  "label": "START G3: home oxygen for chronic low blood oxygen",
+  "family": "STOPP_START",
+  "title": "Home oxygen missing with documented chronic low blood oxygen",
+  "statement": "Home continuous oxygen with documented chronic hypoxaemia (i.e., pO2 < 8.0 kPa or 60 mmHg or SaO2 < 89%).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Persistently low oxygen readings with no recorded long-term home oxygen warrant respiratory assessment. Australian guidance uses stable, resting arterial blood gases on room air. The thresholds are PaO2 of 55 mmHg or less, or 56 to 59 mmHg with complications such as pulmonary hypertension. Low oxygen saturation alone prompts assessment.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Oxygen for home use",
+      "ingredients": [
+        "oxygen"
+      ],
+      "brands": {
+        "oxygen": []
+      },
+      "note": "Medicines that meet this criterion. Medical oxygen has no brand name in a pharmacy record, so no brand is listed. Cylinders and concentrators count."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "result",
+      "what": "Blood oxygen: arterial pO2 or oxygen saturation (SaO2)",
+      "meets": "Enter the arterial pO2 or SaO2, its unit and the measurement date if known. A resting room-air pO2 below 8.0 kPa or below 60 mmHg, or SaO2 below 89 percent, meets the threshold when the person is stable. One measurement alone does not establish persistence.",
+      "ask_when": "always"
+    },
+    {
+      "kind": "observation",
+      "what": "Current home oxygen from a hospital, state scheme or oxygen supplier",
+      "meets": "With documented chronic low oxygen, no home oxygen or oxygen only for exertion or a short course meets the omission criterion. Ongoing long-term home oxygen clears it. An unknown regimen leaves a possible omission.",
+      "options": [
+        {
+          "words": "Ongoing long-term home oxygen",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Home oxygen only for exertion or a short course",
+          "effect": "meets"
+        },
+        {
+          "words": "No home oxygen",
+          "effect": "meets"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "what": "Persistence of low blood oxygen when stable at rest on room air",
+      "meets": "Ask when a qualifying low measurement is recorded but the recording conditions or persistence are unclear. Check whether the clinical record confirms persistent low results when the person was stable at rest on room air.",
+      "options": [
+        {
+          "words": "Persistent low readings confirmed when stable at rest on room air",
+          "effect": "meets"
+        },
+        {
+          "words": "Only an isolated low reading or low readings only during illness or on oxygen",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ],
+  "rule_for_models": "Apply this criterion only to people aged 65 years or older. If age is unknown, confirm it before reporting a finding. Give no finding when continuous long-term home oxygen is documented, including provision by an external service. An acute or exertional supply alone does not establish this regimen. Look for arterial pO2 below 8.0 kPa or below 60 mmHg, or SaO2 below 89 percent. With no qualifying result, give no finding. Confirm an omission only when low readings persisted while the person was stable at rest on room air and the absence of continuous home oxygen is established. When using repeated results to establish chronic low oxygen, cite a qualifying measurement from each of two different dates. If the clinical record establishes persistence separately, cite that line and the qualifying measurement. If persistence or recording conditions are unclear, report only a possible omission and ask about persistence when stable at rest on room air. An explicitly isolated low result or low results only during illness or on oxygen do not establish chronic low oxygen. If continuous home treatment is unclear, leave the omission possible and ask about the current home regimen.",
+  "cannot_be_seen": "Whether the low reading was taken when the person was well and stable, and whether it was repeated. Also home oxygen supplied through a state scheme or an oxygen company, which often does not appear in pharmacy supplies, and a reason oxygen is declined or unsuitable.",
+  "ask_the_gp": "A review of whether home oxygen has been assessed, given the low blood oxygen result.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

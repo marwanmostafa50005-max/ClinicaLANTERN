@@ -1,0 +1,74 @@
+{
+  "id": "MHRA-12",
+  "label": "MHRA 12",
+  "family": "MHRA",
+  "title": "Pregabalin during pregnancy",
+  "statement": "continue to avoid use of pregabalin during pregnancy unless clearly necessary and only if the benefit to the patient clearly outweighs the potential risk to the fetus – ensure the patient has a full understanding of the benefits, risks, and alternatives, and is part of the decision-making process",
+  "statement_origin": "published",
+  "source": {
+    "document": "MHRA Drug Safety Update: Pregabalin findings of safety study on risks during pregnancy",
+    "citation": "Medicines and Healthcare products Regulatory Agency. Drug Safety Update volume 15, issue 9: April 2022: 1.",
+    "url": "https://www.gov.uk/drug-safety-update/pregabalin-lyrica-findings-of-safety-study-on-risks-during-pregnancy",
+    "licence": "UK Open Government Licence v3.0",
+    "licence_status": "proposed",
+    "credit": "Contains public sector information licensed under the Open Government Licence v3.0.",
+    "modification_notice": "Statement reproduced without changes."
+  },
+  "plain_summary": "Pregabalin should be avoided during pregnancy unless it is clearly necessary and the benefit clearly outweighs the risk to the fetus. Australian Lyrica Product Information (2 November 2026) and the TGA Medicines Safety Update (8 February 2023) classify pregabalin as Pregnancy Category D and report a higher rate of major congenital malformations in Nordic observational data (5.9% vs 4.1%). NEVER stop pregabalin abruptly without prescriber review.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Pregabalin",
+      "ingredients": [
+        "pregabalin"
+      ],
+      "brands": {
+        "pregabalin": [
+          "Lyrica",
+          "Prebalin",
+          "Lyzalon",
+          "Neuroccord",
+          "Lypralin",
+          "APO-Pregabalin",
+          "Pregabalin Sandoz",
+          "PREGABALIN-DRLA",
+          "PREGABALIN-WGR",
+          "Pregabalin Lupin",
+          "BTC Pregabalin"
+        ]
+      },
+      "note": "Oral pregabalin capsules, tablets and liquids count. Generic packs that show the ingredient name count too."
+    }
+  ],
+  "rule_for_models": "When a dated Pregnancy line shows current pregnancy, check pregabalin supplies at any age. Suspect a finding if a supply falls during the pregnancy or its quantity and directions show that it covers part of the pregnancy. Cite the relevant supply and Pregnancy lines. Report no finding if the course clearly ended before pregnancy. If overlap is unclear, including when directions say 'as directed' or 'when needed', report only a possible finding, cite both lines and ask whether pregabalin was taken during the pregnancy. Report no finding if the dated record rules out pregnancy for the period of use being assessed or pregnancy was known to be impossible. A resolved pregnancy is no longer current. Its end date alone cannot clear a later supply for a possible new pregnancy. If no current pregnancy is recorded and the patient is recorded as male, report no finding. If pregnancy is possible and its status during use is missing, old, conflicting or unknown, report only a possible finding. Cite the supply and ask the pharmacist about pregnancy at that time. A missing entry alone does not establish suspected pregnancy. If sex is missing, ask the pharmacist to confirm it. If age is missing or leaves pregnancy potential unclear, ask whether pregnancy is possible without applying an age cutoff.",
+  "cannot_be_seen": "Pregnancy may not be recorded. The reason for pregabalin, clinical necessity, benefits and risks, alternatives, counselling, and actual use cannot be decided from supplies. Supplies elsewhere are not visible.",
+  "ask_the_gp": "Could you confirm pregnancy status and review with the patient whether pregabalin is clearly necessary, its benefits, risks and suitable alternatives? If pregabalin is used for epilepsy and pregnancy is confirmed, suspected or planned, could you arrange urgent specialist advice? Please ensure the patient is advised not to stop pregabalin abruptly before review.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Pregnancy",
+      "meets": "Pregnancy is confirmed at the time under review. Apply the answer only to that time.",
+      "options": [
+        {
+          "words": "Pregnant at the time under review",
+          "effect": "meets"
+        },
+        {
+          "words": "Not pregnant at the time under review",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Pregnancy was not possible at that time",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "file": "START-B8/pos-fact.csv",
+    "kind": "positive",
+    "about": "L001 documents symptomatic heart failure. No SGLT-2 inhibitor was supplied in the last six months.",
+    "findings": [
+      {
+        "criterion": "START-B8",
+        "must_cite": [
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-B8/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about heart failure. Entresto (sacubitril with valsartan, a heart failure medicine) is supplied monthly (L001, L005 and later lines) and no SGLT-2 inhibitor is supplied.",
+    "findings": [
+      {
+        "criterion": "START-B8",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L010",
+            "L014",
+            "L018",
+            "L022",
+            "L027",
+            "L031",
+            "L035"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "START-B8/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Symptomatic heart failure is documented without a recent SGLT-2 inhibitor supply, and the current end-of-life plan focuses on palliation.",
+    "findings": []
+  }
+]

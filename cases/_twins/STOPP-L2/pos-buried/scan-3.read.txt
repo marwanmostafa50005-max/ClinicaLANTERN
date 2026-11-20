@@ -1,0 +1,22 @@
+2026-03-05 | Avapro (irbesartan) 150 mg tablet | qty 30 | repeats 2 | Take ONE tablet daily
+2026-03-05 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 0 | Take ONE tablet daily
+2026-03-05 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 3 | Take ONE tablet in the morning before food
+2026-03-17 | OxyContin (oxycodone) 10 mg modified release tablet | qty 28 | repeats 0 | Take ONE tablet every 12 hours. Swallow whole
+2026-04-04 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 1 | Take TWO tablets once a day with the evening meal
+2026-04-04 | Avapro (irbesartan) 150 mg tablet | qty 30 | repeats 1 | Take ONE tablet daily
+2026-04-04 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 5 | Take ONE tablet daily
+2026-04-04 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 2 | Take ONE tablet in the morning before food
+2026-04-14 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 1 | Take TWO tablets three times a day
+2026-05-04 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 0 | Take TWO tablets once a day with the evening meal
+2026-05-04 | Avapro (irbesartan) 150 mg tablet | qty 30 | repeats 0 | Take ONE tablet daily
+2026-05-04 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 4 | Take ONE tablet daily
+2026-05-04 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 1 | Take ONE tablet in the morning before food
+2026-06-03 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 5 | Take TWO tablets once a day with the evening meal
+2026-06-03 | Avapro (irbesartan) 150 mg tablet | qty 30 | repeats 5 | Take ONE tablet daily
+2026-06-03 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 3 | Take ONE tablet daily
+2026-06-03 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 0 | Take ONE tablet in the morning before food
+2026-06-16 | Ventolin (salbutamol) 100 microgram per dose inhaler | qty 2 | repeats 3 | Inhale TWO puffs when required for wheeze
+2026-07-03 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take TWO tablets once a day with the evening meal
+2026-07-03 | Avapro (irbesartan) 150 mg tablet | qty 30 | repeats 4 | Take ONE tablet daily
+2026-07-03 | Crestor (rosuvastatin) 10 mg tablet | qty 30 | repeats 2 | Take ONE tablet daily
+2026-07-03 | Somac (pantoprazole) 40 mg enteric coated tablet | qty 30 | repeats 5 | Take ONE tablet in the morning before food

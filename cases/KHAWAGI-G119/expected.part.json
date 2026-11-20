@@ -1,0 +1,44 @@
+[
+  {
+    "file": "KHAWAGI-G119/pos-brand.csv",
+    "kind": "positive",
+    "about": "The 50-day Tegretol supply overlaps the 28-day Xarelto supply taken daily with food.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G119",
+        "must_cite": [
+          [
+            "L017"
+          ],
+          [
+            "L018"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G119/pos-buried.csv",
+    "kind": "positive",
+    "about": "The directed carbamazepine course covers the 28-day rivaroxaban course.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G119",
+        "must_cite": [
+          [
+            "L030"
+          ],
+          [
+            "L031"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G119/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The carbamazepine pack runs out months before rivaroxaban is supplied.",
+    "findings": []
+  }
+]

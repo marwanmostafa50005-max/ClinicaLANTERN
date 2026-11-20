@@ -1,0 +1,97 @@
+{
+  "id": "KHAWAGI-G109",
+  "label": "Khawagi review: Review selected oral sedative and systemic CYP3A inhibitor pairs at age 65 or older",
+  "family": "KHAWAGI",
+  "title": "Review selected oral sedative and systemic CYP3A inhibitor pairs at age 65 or older",
+  "statement": "Review selected oral sedative and systemic CYP3A inhibitor pairs at age 65 or older.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Khawagi et al. (2019), S3 File. List of potential Prescribing Safety Indicators (PSIs) related to mental health medications and conditions.",
+    "citation": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. PLoS ONE 2019;14(5):e0217406.",
+    "doi": "10.1371/journal.pone.0217406",
+    "url": "https://doi.org/10.1371/journal.pone.0217406.s003",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Khawagi WY, Steinke DT, Nguyen J, Keers RN. Identifying potential prescribing safety indicators related to mental health disorders and medications: A systematic review. PLoS ONE 2019;14(5):e0217406. https://doi.org/10.1371/journal.pone.0217406; S3 File, https://doi.org/10.1371/journal.pone.0217406.s003. © 2019 Khawagi et al., CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Khawagi et al. (2019), PLOS ONE 14(5), e0217406, S3 File, CC BY 4.0. Original screening wording and Australian adaptations. S3 reference(s) as indexed in the supplied qualification: [48]. Clinical cross-check: Ghent repository (https://biblio.ugent.be/publication/6881776). FDA CYP3A examples (https://www.fda.gov/drugs/drug-interactions-labeling/drug-development-and-drug-interactions-table-substrates-inhibitors-and-inducers). STILNOX Australian PI (https://www.safetyandquality.gov.au/medicine-finder/stilnox). STILNOX registration (https://www.tga.gov.au/resources/artg/69681). Zolpidem interaction study (https://pubmed.ncbi.nlm.nih.gov/31820397/). STILNOX Australian PI §4.5 (https://apps.medicines.org.au/files/swpstiln.pdf).",
+    "modification_notice": "Original wording for this Australian screening decision. Sources and changes are identified in the credit and decision record."
+  },
+  "plain_summary": "Review selected oral sedative and systemic CYP3A inhibitor pairs at age 65 or older.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Oral sedatives",
+      "ingredients": [
+        "alprazolam",
+        "midazolam",
+        "zopiclone",
+        "zolpidem"
+      ],
+      "brands": {
+        "alprazolam": [
+          "Kalma",
+          "Alprax",
+          "Ralozam",
+          "Xanax",
+          "Xanax Tri-Score",
+          "Zamhexal"
+        ],
+        "midazolam": [],
+        "zopiclone": [
+          "Imovane",
+          "Cloipca",
+          "Imoclone",
+          "Imrest",
+          "Ipclone",
+          "Zstar",
+          "Ztab"
+        ],
+        "zolpidem": [
+          "STILNOX",
+          "Dormizol",
+          "Dormizol CR",
+          "Somidem",
+          "Stildem",
+          "Stilnox CR",
+          "Stilnoxium CR",
+          "Zolpibell"
+        ]
+      },
+      "note": "Require an oral route. For midazolam, check the ingredient and an explicitly oral sedative formulation. No swallowed midazolam brand was verified for this group. Exclude injection ampoules. Pair oral zolpidem only with systemic clarithromycin."
+    },
+    {
+      "key": "B",
+      "name": "Systemic strong CYP3A inhibitors",
+      "ingredients": [
+        "clarithromycin",
+        "itraconazole"
+      ],
+      "brands": {
+        "clarithromycin": [
+          "Klacid",
+          "Clarac",
+          "Clarant",
+          "Clarihexal",
+          "Clarithro",
+          "Clarithrom",
+          "Kalixocin",
+          "Nexium Hp7",
+          "Klacid HP7"
+        ],
+        "itraconazole": [
+          "Itranox",
+          "Itracap",
+          "Itrazo",
+          "Lozanoc",
+          "Sporanox"
+        ]
+      },
+      "note": "Use systemic forms only. Itraconazole counts only with oral alprazolam, midazolam or zopiclone."
+    }
+  ],
+  "rule_for_models": "At age ≥65 review oral alprazolam, midazolam or zopiclone with systemic clarithromycin or itraconazole. Add zolpidem with clarithromycin only. When a qualifying pair could overlap and age at supply is unknown, report only a possible finding and ask whether the patient was 65 or older at that supply. Give no finding below age 65. Exclude zolpidem with itraconazole and exclude triazolam. Check the inhibitor course from its start date, quantity and directions. Use an explicit course length when given. If when-needed or as-directed use leaves it possible that the sedative was taken during that course, report only a possible finding. Ask on which nights the patient took the sedative during the course, how much they took and whether it caused unusual drowsiness. Cite both supplies when a qualifying pair overlaps, whatever the indication. Give no finding for a completed switch without overlap.",
+  "cannot_be_seen": "Dispensing does not establish actual use, indication or a prescriber’s intent. Treatment and assessments elsewhere may be missing.",
+  "ask_the_gp": "Could you confirm the patient was 65 or older at supply if their age is unclear? If so, could you review the risk of excess sedation during the overlapping courses? For zolpidem, this check applies only to clarithromycin.",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

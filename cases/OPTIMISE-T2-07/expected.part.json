@@ -1,0 +1,54 @@
+[
+  {
+    "file": "OPTIMISE-T2-07/pos-fact.csv",
+    "kind": "positive",
+    "about": "At age 71, the record shows schizophrenia, type 2 diabetes, clinic pressure of 154/96 mmHg and a later daytime ambulatory average of 142/89 mmHg, with no blood pressure medicine supplied.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T2-07",
+        "must_cite": [
+          [
+            "L029"
+          ],
+          [
+            "L034"
+          ],
+          [
+            "L001"
+          ],
+          [
+            "L035"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T2-07/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about 'Severe mental illness', 'Clinic blood pressure', 'Ambulatory blood pressure monitoring (ABPM) daytime average', or 'Additional risk condition (choose one that is present)'. The condition is the first risk question here. Neither '10-year cardiovascular risk score (%)' nor 'Estimated glomerular filtration rate (eGFR, mL/min/1.73 m²)' is recorded. Quetiapine is supplied at age 69 and no Group A medicine is supplied.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T2-07",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L009",
+            "L013",
+            "L017",
+            "L022",
+            "L026",
+            "L030"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T2-07/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The daytime ambulatory average of 137/82 mmHg precedes the clinic reading of 152/94 mmHg. The subsequent daytime average is 128/80 mmHg, below both thresholds, so there is no finding.",
+    "findings": []
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "file": "STOPP-J4/pos-fact.csv",
+    "kind": "positive",
+    "about": "Forxiga (dapagliflozin, an SGLT2 inhibitor) is supplied every four weeks from December 2025 and the record has a symptomatic hypotension line.",
+    "findings": [
+      {
+        "criterion": "STOPP-J4",
+        "must_cite": [
+          [
+            "L002",
+            "L007",
+            "L012",
+            "L017",
+            "L024",
+            "L029",
+            "L034",
+            "L039",
+            "L044",
+            "L049"
+          ],
+          [
+            "L019"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-J4/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about symptomatic hypotension; Jardiance (empagliflozin) is supplied every month.",
+    "findings": [
+      {
+        "criterion": "STOPP-J4",
+        "must_cite": [
+          [
+            "L001",
+            "L005",
+            "L009",
+            "L013",
+            "L017",
+            "L021",
+            "L025"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-J4/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Jardiance (empagliflozin) is supplied, but the blood pressure lines are normal and the record says no symptoms on standing.",
+    "findings": []
+  }
+]

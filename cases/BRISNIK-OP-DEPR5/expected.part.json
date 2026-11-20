@@ -1,0 +1,73 @@
+[
+  {
+    "file": "BRISNIK-OP-DEPR5/pos-fact.csv",
+    "kind": "positive",
+    "about": "The depression responded inadequately to citalopram and fluoxetine, and the record shows that venlafaxine alone was planned and supplied for depression.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-DEPR5",
+        "must_cite": [
+          [
+            "L026",
+            "L029",
+            "L032",
+            "L035",
+            "L038",
+            "L041",
+            "L044",
+            "L047",
+            "L050"
+          ],
+          [
+            "L003",
+            "L006",
+            "L009"
+          ],
+          [
+            "L013",
+            "L017",
+            "L020"
+          ],
+          [
+            "L025"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-DEPR5/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: Celapram and Lovan preceded Efexor-XR. Their indications and earlier responses are missing, and a later Seroquel supply leaves its role in current depression treatment unclear.",
+    "findings": [
+      {
+        "criterion": "BRISNIK-OP-DEPR5",
+        "must_cite": [
+          [
+            "L014",
+            "L018",
+            "L019",
+            "L020",
+            "L024",
+            "L025",
+            "L026"
+          ],
+          [
+            "L004",
+            "L005"
+          ],
+          [
+            "L009",
+            "L010"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "BRISNIK-OP-DEPR5/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Citalopram and fluoxetine were supplied and stopped, and venlafaxine is now the only antidepressant, but the record says the earlier ones were changed because of side effects and not for lack of response, so it must not flag.",
+    "findings": []
+  }
+]

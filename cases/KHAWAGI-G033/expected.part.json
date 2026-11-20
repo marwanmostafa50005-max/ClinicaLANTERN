@@ -1,0 +1,41 @@
+[
+  {
+    "file": "KHAWAGI-G033/pos-fact.csv",
+    "kind": "positive",
+    "about": "Oral amitriptyline is supplied with a dated diagnosis of ongoing epilepsy.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G033",
+        "must_cite": [
+          [
+            "L025"
+          ],
+          [
+            "L026"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G033/pos-nofact.csv",
+    "kind": "positive",
+    "about": "possible finding: the record holds no line about epilepsy or seizure history at the amitriptyline supply.",
+    "findings": [
+      {
+        "criterion": "KHAWAGI-G033",
+        "must_cite": [
+          [
+            "L018"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "KHAWAGI-G033/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The assessment records no epilepsy or history of seizures before the amitriptyline supply.",
+    "findings": []
+  }
+]

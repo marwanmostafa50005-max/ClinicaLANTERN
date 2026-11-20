@@ -1,0 +1,86 @@
+{
+  "id": "EU7-F38",
+  "label": "EU(7)-PIM: oral oestrogen",
+  "family": "EU7",
+  "title": "Oestrogen taken by mouth",
+  "statement": "The 2015 European list flags oral oestrogen in older women. At 65 or older, review the indication, route, benefits and individual risks when deciding whether to continue. A vaginal product may be appropriate for local genitourinary symptoms.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "Reworded in plain words by ClinicaLANTERN from the source table rows. Not endorsed by the source authors."
+  },
+  "plain_summary": "For women aged 65 or older, review why oral menopausal hormone therapy is used and weigh its benefits and risks. Unopposed systemic oestrogen increases the risk of cancer of the womb lining when a uterus is present. Adequate endometrial protection reduces this risk. Breast cancer risk depends on the regimen and duration. Oral oestrogen is not used to prevent heart disease.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Oral oestrogens",
+      "ingredients": [
+        "estradiol",
+        "oestradiol",
+        "estradiol valerate",
+        "oestradiol valerate",
+        "conjugated estrogens",
+        "conjugated oestrogens",
+        "estriol",
+        "oestriol"
+      ],
+      "brands": {
+        "estradiol": [
+          "Zumenon",
+          "Estrofem",
+          "Kliovance",
+          "Femoston",
+          "Femoston-Conti",
+          "Bijuva",
+          "Kliogest",
+          "Trisequens",
+          "Angeliq"
+        ],
+        "oestradiol": [
+          "Kliogest",
+          "Trisequens",
+          "Angeliq",
+          "Zumenon",
+          "Estrofem",
+          "Kliovance",
+          "Femoston",
+          "Femoston-Conti",
+          "Bijuva"
+        ],
+        "estradiol valerate": [
+          "Progynova"
+        ],
+        "oestradiol valerate": [
+          "Progynova"
+        ],
+        "conjugated estrogens": [
+          "Premarin",
+          "Duavive"
+        ],
+        "conjugated oestrogens": [
+          "Premarin",
+          "Duavive"
+        ],
+        "estriol": [
+          "Ovestin"
+        ],
+        "oestriol": [
+          "Ovestin"
+        ]
+      },
+      "note": "Oral tablets and capsules count, including combinations. Confirm the route for Ovestin and Premarin. Count only a product taken by mouth. Exclude creams and pessaries. Also exclude patches, gels, vaginal rings, vaginal tablets and tibolone."
+    }
+  ],
+  "rule_for_models": "Suspect a finding for a woman aged 65 or older supplied a Group A oestrogen tablet or capsule taken by mouth, alone or in combination (check the route for brands with several presentations and exclude vaginal and transdermal products). If recorded information places the person outside the stated population, give no finding. If the oral supply qualifies and age or sex is missing, report only a possible finding and ask the pharmacist to confirm the missing detail.",
+  "cannot_be_seen": "Why oestrogen was taken (for example hot flushes), whether the woman has had a hysterectomy, her breast and cancer history, and how long she has used it.",
+  "ask_the_gp": "Whether oral oestrogen is still needed, and whether a review of the treatment or a change to a vaginal product is appropriate, taking into account the reason it was started.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

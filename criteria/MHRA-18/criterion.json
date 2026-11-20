@@ -1,0 +1,106 @@
+{
+  "id": "MHRA-18",
+  "label": "MHRA 18",
+  "family": "MHRA",
+  "title": "Mycophenolate in pregnancy or without reliable contraception",
+  "statement": "mycophenolate medicines remain contraindicated in women of childbearing potential who are not using reliable contraception and in pregnant women unless there are no suitable alternatives to prevent transplant rejection\nfemale patients of childbearing potential must use at least one reliable form of contraception before and during treatment and for 6 weeks after stopping mycophenolate medicines; 2 forms of contraception are preferred",
+  "statement_origin": "published",
+  "source": {
+    "document": "MHRA Drug Safety Update: Mycophenolate updated contraception advice",
+    "citation": "Medicines and Healthcare products Regulatory Agency. Drug Safety Update volume 11, issue 7: February 2018: 2.",
+    "url": "https://www.gov.uk/drug-safety-update/mycophenolate-mofetil-mycophenolic-acid-updated-contraception-advice-for-male-patients",
+    "licence": "UK Open Government Licence v3.0",
+    "licence_status": "proposed",
+    "credit": "Contains public sector information licensed under the Open Government Licence v3.0.",
+    "modification_notice": "Statement reproduced without changes."
+  },
+  "plain_summary": "Mycophenolate can cause miscarriage and serious birth defects. In Australia mycophenolate mofetil and mycophenolate sodium are Pregnancy Category D. Women who could become pregnant need two reliable forms of contraception at the same time before and during treatment and for at least 6 weeks after stopping. For a man taking mycophenolate, contraception is advised during treatment and for 90 days after stopping. Stopping treatment without specialist review risks transplant rejection or a severe disease flare.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Mycophenolate mofetil and mycophenolic acid",
+      "ingredients": [
+        "mycophenolate",
+        "mycophenolate mofetil",
+        "mycophenolate sodium",
+        "mycophenolic acid"
+      ],
+      "brands": {
+        "mycophenolate": [
+          "CellCept",
+          "Ceptolate",
+          "Mycophenolate Sandoz",
+          "Mycophenolate GH",
+          "Pharmacor Mycophenolate",
+          "ARX-Mycophenolate",
+          "APO-Mycophenolate",
+          "Myfortic",
+          "Mycotex",
+          "Mycofor",
+          "Mycophenolic Acid ARX"
+        ],
+        "mycophenolate mofetil": [
+          "CellCept",
+          "Ceptolate",
+          "Mycophenolate Sandoz",
+          "Mycophenolate GH",
+          "Pharmacor Mycophenolate",
+          "ARX-Mycophenolate",
+          "APO-Mycophenolate"
+        ],
+        "mycophenolate sodium": [
+          "Myfortic",
+          "Mycotex",
+          "Mycofor",
+          "Mycophenolic Acid ARX"
+        ],
+        "mycophenolic acid": [
+          "Myfortic",
+          "Mycotex",
+          "Mycofor",
+          "Mycophenolic Acid ARX"
+        ]
+      },
+      "note": "All systemic oral and intravenous mycophenolate forms count. Mycophenolate mofetil and mycophenolate sodium or mycophenolic acid are not interchangeable by milligram strength."
+    }
+  ],
+  "rule_for_models": "For a female patient, assess pregnancy and use of at least one reliable method of contraception before starting systemic mycophenolate, during treatment and for six weeks after the last dose, even without another supply. For a reported pregnancy without a documented specialist exception, cite the relevant supply and observation and report a finding. Specialist confirmation that no suitable alternative can prevent transplant rejection closes the UK pregnancy finding. Seek same-day specialist review for any reported pregnancy. A confirmed contraception gap gives a finding if the patient could become pregnant. Cite the relevant supply and observation. If the patient is not pregnant and either cannot become pregnant or uses reliable contraception, give no UK finding. If sex, reproductive status, contraception or relevant timing is uncertain, report only a possible finding and name the missing information. Apply the answer only to the period it describes. Age alone cannot establish childbearing potential. Remind the patient not to stop mycophenolate abruptly without specialist review. Use the date of a relevant observation for a dated finding and the latest date in the record for a current check. Use a known last dose when available. Otherwise estimate the period covered from quantities, daily dose and later supplies. If treatment clearly stopped more than 42 days before the date assessed, report no finding under this rule. If unclear directions or an uncertain last dose leave the window in doubt, report only a possible finding and ask about current use, daily dose and the last dose. If the reproductive observation is missing or unknown, report a possible finding and name the missing fact exactly as \"Pregnancy or childbearing potential without reliable contraception\". For a patient recorded as male, give no finding.",
+  "cannot_be_seen": "Pregnancy, childbearing potential, contraception, pregnancy tests, transplant circumstances and suitable alternatives may not be recorded. Actual use and supplies elsewhere are not visible. The tool cannot decide the transplant exception.",
+  "ask_the_gp": "Could you review pregnancy status, reliable contraception and the suitability of alternatives, including the need to prevent transplant rejection?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Pregnancy or childbearing potential without reliable contraception",
+      "meets": "Yes. The patient is pregnant without a specialist-documented transplant exception (no suitable alternatives to prevent transplant rejection), or has childbearing potential and is not using at least one reliable form of contraception before or during treatment or for 6 weeks after stopping.",
+      "options": [
+        {
+          "words": "Pregnant without a specialist-documented transplant exception",
+          "effect": "meets"
+        },
+        {
+          "words": "Childbearing potential without reliable contraception",
+          "effect": "meets"
+        },
+        {
+          "words": "Pregnant with a specialist-documented transplant exception (no suitable alternatives)",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not pregnant, with reliable contraception or not of childbearing potential",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ],
+      "ask_when": {
+        "group": "A"
+      }
+    }
+  ],
+  "only_sex": "female"
+}

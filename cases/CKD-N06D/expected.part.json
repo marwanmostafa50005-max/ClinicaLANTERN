@@ -1,0 +1,47 @@
+[
+  {
+    "file": "CKD-N06D/pos-fact.csv",
+    "kind": "positive",
+    "about": "Memantine 20 mg/day exceeds the 10 mg ceiling at 29 mL/min.",
+    "findings": [
+      {
+        "criterion": "CKD-N06D",
+        "must_cite": [
+          [
+            "L045"
+          ],
+          [
+            "L001"
+          ],
+          [
+            "L044"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CKD-N06D/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about creatinine clearance for the memantine supply.",
+    "findings": [
+      {
+        "criterion": "CKD-N06D",
+        "must_cite": [
+          [
+            "L029"
+          ],
+          [
+            "L001"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "CKD-N06D/near-miss.csv",
+    "kind": "near_miss",
+    "about": "A clearance of 30 mL/min falls outside the memantine dose band.",
+    "findings": []
+  }
+]

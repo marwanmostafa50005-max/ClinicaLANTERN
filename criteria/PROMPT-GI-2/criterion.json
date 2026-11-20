@@ -1,0 +1,136 @@
+{
+  "id": "PROMPT-GI-2",
+  "label": "PROMPT GI-2: high-dose PPI over eight weeks",
+  "family": "PROMPT",
+  "title": "Proton pump inhibitor above the maintenance dose for more than eight weeks",
+  "statement": "Proton pump inhibitors (PPIs) (e.g. esomeprazole, omeprazole) should not be prescribed at doses above the recommended maintenance dosage for greater than eight weeks.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Cooper JA, et al. The development of the PROMPT criteria. BMC Health Serv Res 2014;14:484, Table 4",
+    "citation": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "doi": "10.1186/s12913-014-0484-6",
+    "url": "https://doi.org/10.1186/s12913-014-0484-6",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Cooper JA, Ryan C, Smith SM, et al. The development of the PROMPT (PRescribing Optimally in Middle-aged People's Treatments) criteria. BMC Health Serv Res 2014;14:484",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Review a proton pump inhibitor dose above the recommended maintenance dose for the patient’s condition when it continues for more than eight weeks. Some conditions, including Zollinger-Ellison syndrome, can require a sustained higher dose.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Proton pump inhibitors",
+      "ingredients": [
+        "omeprazole",
+        "esomeprazole",
+        "pantoprazole",
+        "lansoprazole",
+        "rabeprazole"
+      ],
+      "brands": {
+        "omeprazole": [
+          "Losec",
+          "Acimax",
+          "Maxor",
+          "Maxor EC",
+          "Maxor Heartburn Relief",
+          "Meprazol",
+          "Omepral",
+          "Omepro",
+          "Omezole",
+          "Ozmep",
+          "Pemzo",
+          "Probitor"
+        ],
+        "esomeprazole": [
+          "Nexium",
+          "Nexium 24HR",
+          "Axagon",
+          "Beezole",
+          "Emeprazol",
+          "Esopran",
+          "Esopreze",
+          "Guardium Acid Reflux Relief",
+          "Jubeso",
+          "Jubium",
+          "Mepreze",
+          "Nexazole",
+          "Nexcid",
+          "Nexium 24HR Once Daily Dosing",
+          "Nexole",
+          "Nexprazole",
+          "Noxicid",
+          "Noxicid Caps Heartburn Relief",
+          "Noxicid Tabs Heartburn Relief",
+          "Zanzole 24HR",
+          "Vimovo"
+        ],
+        "pantoprazole": [
+          "Somac",
+          "Gastenz",
+          "Ozpan",
+          "Pantaccord",
+          "Panthron",
+          "Panto",
+          "Pantofast",
+          "Pantoloc",
+          "Prazole",
+          "Rizil",
+          "Salpraz",
+          "Salpraz Heartburn Relief",
+          "Somac Heartburn Relief",
+          "Sozol",
+          "Suvacid Heartburn Relief",
+          "Topra",
+          "Torprazole",
+          "Torzole"
+        ],
+        "lansoprazole": [
+          "Zoton",
+          "Lanzopran",
+          "Zopral",
+          "Zopral ODT",
+          "Zoton Fastab"
+        ],
+        "rabeprazole": [
+          "Pariet",
+          "Parbezol",
+          "Parzol",
+          "Perizel DR",
+          "Prabez",
+          "Rabzole",
+          "Razit",
+          "Zabep"
+        ]
+      },
+      "note": "Use the recommended maintenance dose for the recorded indication. For adults after reflux oesophagitis has healed, omeprazole starts at 10 mg once daily and may increase to 20 mg once daily. Esomeprazole is 20 mg once daily. For prevention of reflux relapse after healing, rabeprazole starts at 10 mg once daily and may increase to 20 mg once daily. For these indications, a dose above 20 mg daily exceeds the listed maintenance dose for each of the three medicines. For another indication, do not apply these limits. If its maintenance limit is unavailable, seek pharmacist review before calling the dose excessive. For lansoprazole use 15 mg daily for duodenal ulcer relapse prevention. For maintenance of healed reflux oesophagitis, lansoprazole 15 or 30 mg daily and pantoprazole 20 or 40 mg daily may be appropriate according to response. Vimovo contains 20 mg of esomeprazole with 500 mg of naproxen per tablet. Use the labelled directions. One tablet twice daily is the approved regimen for its NSAID indication. Do not flag that regimen merely because 40 mg/day exceeds a reflux maintenance dose. (TGA, Australian Public Assessment Report for Vimovo, p. 4, https://www.tga.gov.au/sites/default/files/auspar-vimovo.pdf)"
+    }
+  ],
+  "rule_for_models": "Apply this rule only to people aged 45 to 64 inclusive, and if age is missing, record that eligibility is unknown and do not report a PROMPT finding. Calculate the Group A PPI daily dose from strength and directions. Compare it with the recommended maintenance dose for the same medicine and its confirmed use, or use the dose comparison confirmed by the pharmacist for that regimen. Confirm a finding only when supplies no more than 60 days apart cover more than 56 days above maintenance. A Yes answer establishes the dose comparison only. A dose at or below maintenance or a period of 56 days or less above it excludes a finding for that regimen. When the dose comparison or duration is unresolved, assess what the supplies could cover. If the indication or its maintenance limit is unclear, leave the dose comparison unknown. If more than 56 days above maintenance is plausible, report a possible finding. A confirmed indication alone does not establish an excessive dose. When the comparison is missing, name the missing fact exactly as \"Proton pump inhibitor dose for the reason it is being used\". Use any recorded dose or duration only for the course it describes. Count only covered days above maintenance and stop counting when the dose falls to maintenance. If only the duration is unclear, name the missing duration in the reason for the possible finding without requesting a separate dose or duration answer. Cite the PPI supplies that show the course and any recorded fact used to establish the dose comparison or duration.",
+  "cannot_be_seen": "Why the PPI was prescribed (conditions such as Barrett oesophagus, a bleeding ulcer or Zollinger-Ellison syndrome can need a higher dose), how long the high dose was meant to run, and whether the dose was ever reduced.",
+  "ask_the_gp": "A review of the PPI dose and whether it can be lowered or stopped.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null,
+  "needs_facts": [
+    {
+      "kind": "observation",
+      "what": "Proton pump inhibitor dose for the reason it is being used",
+      "meets": "Does the supplied daily dose exceed the recommended maintenance dose for the same proton pump inhibitor and its confirmed use? Yes establishes the dose comparison only. No means the dose is at or below maintenance for this use. Choose Not known if the daily dose, indication or maintenance limit is unclear.",
+      "options": [
+        {
+          "words": "Yes, this dose exceeds maintenance for the confirmed indication",
+          "effect": "meets"
+        },
+        {
+          "words": "No, this dose is at or below maintenance for the confirmed indication",
+          "effect": "does_not_meet"
+        },
+        {
+          "words": "Not known",
+          "effect": "unknown"
+        }
+      ]
+    }
+  ]
+}

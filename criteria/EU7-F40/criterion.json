@@ -1,0 +1,38 @@
+{
+  "id": "EU7-F40",
+  "label": "EU(7)-PIM: ofloxacin",
+  "family": "EU7",
+  "title": "Ofloxacin in an older person",
+  "statement": "The EU(7)-PIM list for older people notes ofloxacin even though it is in none of the listed national lists. In older people the medicine can build up in the blood, and it raises the risk of a serious heart rhythm problem (torsade de pointes) and of tendon inflammation or rupture. When kidney function is reduced, review the dose and the time between doses. A longer interval may be needed, with a lower dose in more severe impairment. Other antibiotics chosen by sensitivity and resistance testing are the alternative.",
+  "statement_origin": "entrant",
+  "source": {
+    "document": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list. Eur J Clin Pharmacol 2015;71:861-875; ESM1 full list (row text from the official ESM1 DOCX parse saved 8 Nov 2026; legend from a hosted copy of the complete list)",
+    "citation": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "doi": "10.1007/s00228-015-1860-9",
+    "url": "https://doi.org/10.1007/s00228-015-1860-9",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "Renom-Guiteras A, Meyer G, Thurmann PA. The EU(7)-PIM list: a list of potentially inappropriate medications for older people consented by experts from seven European countries. Eur J Clin Pharmacol 2015;71:861-875. doi:10.1007/s00228-015-1860-9",
+    "modification_notice": "The statement is written in ClinicaLANTERN's own plain words from the published table row, because part of the row text comes from a third party (Micromedex) whose reuse rights are not settled. Not endorsed by the source authors. Earlier project notice: Changes made: source text restored verbatim; criterion decomposed into scoped atoms and a restricted AND/OR/NOT expression; evidence routes, dependencies and annotations added by ClinicaLANTERN (V4 source draft, reconciled with independent source sidecars in V4.2; V4.3-R2.2 candidate repairs and adopted conventions merged with attribution). Not endorsed by the source authors."
+  },
+  "plain_summary": "Ofloxacin taken by mouth or given by injection can stay in the blood longer in older people and raises the risk of a serious heart rhythm problem and of tendon inflammation or rupture.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Ofloxacin by mouth or injection",
+      "ingredients": [
+        "ofloxacin"
+      ],
+      "brands": {
+        "ofloxacin": []
+      },
+      "note": "Look for the ingredient name and check the form. Ofloxacin eye drops, including Ocuflox, and ear drops do not count. Oral and injectable ofloxacin are not routinely marketed in Australia. A recorded systemic supply may come from special access, overseas treatment or an older history."
+    }
+  ],
+  "rule_for_models": "Suspect a finding when at least one supply of ofloxacin (Group A) as tablets or injection is recorded for a person aged 65 or older. Ofloxacin eye drops or ear drops do not count. If the other criteria could be met and age is unknown, report only a possible finding and ask the pharmacist to confirm whether the person is 65 or older.",
+  "cannot_be_seen": "Dispensing lines alone do not establish kidney function. Review any dated renal results and whether creatinine clearance in mL/min can be estimated for dosing. A reported eGFR in mL/min/1.73 m² uses different units. Tendon symptoms, rhythm problems, the reason for treatment, hospital supplies and completion of the course may also be missing.",
+  "ask_the_gp": "Could you review whether another antibiotic would suit the indication and any available culture result, and whether the ofloxacin dose suits the patient's kidney function?",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

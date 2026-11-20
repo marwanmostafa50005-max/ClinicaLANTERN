@@ -1,0 +1,38 @@
+[
+  {
+    "file": "PINCER-9/pos-brand.csv",
+    "kind": "positive",
+    "about": "Methoblastin (methotrexate), by brand name only, is supplied six times and no label has the word week or weekly. The assessment date is 2026-10-19.",
+    "findings": [
+      {
+        "criterion": "PINCER-9",
+        "must_cite": [
+          [
+            "L030"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PINCER-9/pos-buried.csv",
+    "kind": "positive",
+    "about": "Methotrexate is supplied three times in the middle of a 14-month history, no label has the word week or weekly, and the latest label (14 July 2026) says 'Take ONE tablet daily'. The assessment date is 2026-10-06.",
+    "findings": [
+      {
+        "criterion": "PINCER-9",
+        "must_cite": [
+          [
+            "L057"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "PINCER-9/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Methotrexate is supplied six times and every label says once a week or weekly, so the criterion is not met.",
+    "findings": []
+  }
+]

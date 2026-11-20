@@ -1,0 +1,57 @@
+{
+  "id": "STOPP-J2",
+  "label": "STOPP J2",
+  "family": "STOPP_START",
+  "title": "Glitazone in heart failure",
+  "statement": "Thiazolidenediones (e.g., rosiglitazone, pioglitazone) with heart failure (risk of exacerbation of heart failure).",
+  "statement_origin": "published",
+  "source": {
+    "document": "O'Mahony D, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632, Appendix 1 (corrected supplementary file; NHS Somerset copy used for text, sentence-identical to the earlier parse)",
+    "citation": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "doi": "10.1007/s41999-023-00777-y",
+    "url": "https://doi.org/10.1007/s41999-023-00777-y",
+    "licence": "CC BY 4.0",
+    "licence_status": "proposed",
+    "credit": "O'Mahony D, Cherubini A, Guiteras AR, et al. STOPP/START criteria for potentially inappropriate prescribing in older people: version 3. Eur Geriatr Med 2023;14:625-632. doi:10.1007/s41999-023-00777-y",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Pioglitazone and rosiglitazone cause the body to hold fluid, which can make heart failure worse.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Glitazones (thiazolidinediones)",
+      "ingredients": [
+        "pioglitazone",
+        "rosiglitazone"
+      ],
+      "brands": {
+        "pioglitazone": [
+          "Actos",
+          "Acpio",
+          "Actaze",
+          "Atilos",
+          "Aztyme",
+          "Piozone",
+          "Pizaccord",
+          "Prioten",
+          "Vexazone"
+        ],
+        "rosiglitazone": []
+      },
+      "note": "Rosiglitazone is no longer sold in Australia, so no brand is listed. Generic packs that show the ingredient name with a company name count too."
+    }
+  ],
+  "needs_facts": [
+    {
+      "kind": "condition",
+      "what": "Heart failure",
+      "meets": "A condition line that says the person has heart failure"
+    }
+  ],
+  "rule_for_models": "Apply this criterion only to people aged 65 years or older. If age is unknown and the other criteria apply, ask for age before confirming a finding. For a Group A supply, cite the supply and the line confirming heart failure during treatment. If heart failure was excluded during treatment, give no finding. If its status during treatment is missing or unknown, report a possible finding and ask whether the person had heart failure then. A current diagnosis confirms the condition for current use. For a past course, an undated Yes alone does not establish when heart failure began.",
+  "cannot_be_seen": "Whether the person has heart failure when the record holds no such line, how severe it is, recent heart scans, swelling, and weight changes.",
+  "ask_the_gp": "A review of whether the glitazone is still suitable, taking into account any heart failure.",
+  "urgency": "routine",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}

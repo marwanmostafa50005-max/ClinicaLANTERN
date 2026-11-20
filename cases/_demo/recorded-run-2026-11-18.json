@@ -1,0 +1,749 @@
+{
+ "startedAt": "2026-11-17T20:47:48.937Z",
+ "base": "http://127.0.0.1:8787",
+ "steps": [],
+ "timeline": [
+  {
+   "at": 0.1,
+   "now": "Model 1 is screening: criterion 1 of 1"
+  },
+  {
+   "at": 0.1,
+   "inMemory": "lantern-check"
+  },
+  {
+   "at": 0.4,
+   "inMemory": "none (a model is being changed)"
+  },
+  {
+   "at": 8.8,
+   "inMemory": "lantern-screen"
+  },
+  {
+   "at": 14.2,
+   "now": "Model 2 is double-checking 1 finding"
+  },
+  {
+   "at": 14.4,
+   "inMemory": "none (a model is being changed)"
+  },
+  {
+   "at": 21.1,
+   "inMemory": "lantern-check"
+  },
+  {
+   "at": 31.1,
+   "now": "Idle"
+  },
+  {
+   "at": 31.1,
+   "now": "Model 3 is writing 1 letter"
+  },
+  {
+   "at": 31.4,
+   "inMemory": "none (a model is being changed)"
+  },
+  {
+   "at": 42,
+   "inMemory": "lantern-letter"
+  },
+  {
+   "at": 43.9,
+   "now": "Idle"
+  },
+  {
+   "at": 43.9,
+   "now": "Model 1 is screening: criterion 1 of 1"
+  },
+  {
+   "at": 44.2,
+   "inMemory": "none (a model is being changed)"
+  },
+  {
+   "at": 54.5,
+   "inMemory": "lantern-screen"
+  },
+  {
+   "at": 58.2,
+   "now": "Idle"
+  },
+  {
+   "at": 58.2,
+   "now": "Model 1 is reading a scanned page: page 1 of 1"
+  },
+  {
+   "at": 126.9,
+   "now": "Idle"
+  },
+  {
+   "at": 126.9,
+   "now": "Model 1 is screening: criterion 1 of 1"
+  },
+  {
+   "at": 134.4,
+   "now": "Model 2 is double-checking 1 finding"
+  },
+  {
+   "at": 135,
+   "inMemory": "none (a model is being changed)"
+  },
+  {
+   "at": 145.6,
+   "inMemory": "lantern-check"
+  },
+  {
+   "at": 152.7,
+   "now": "Idle"
+  }
+ ],
+ "checks": [
+  {
+   "name": "Ollama is up and the three models are there",
+   "ok": true,
+   "detail": "Ollama 0.40.15"
+  },
+  {
+   "name": "the criteria in use include the demo criterion",
+   "ok": true,
+   "detail": "DEMO-NSAID-ANTICOAG"
+  },
+  {
+   "name": "reset starts a clean state",
+   "ok": true,
+   "detail": "backup state-2026-11-18T07-47-48.json"
+  },
+  {
+   "name": "POST /cases takes the positive history and queues screening",
+   "ok": true,
+   "detail": "case C0001"
+  },
+  {
+   "name": "Model 1 suspected the finding and Model 2 confirmed it",
+   "ok": true,
+   "detail": "screen 14 s, check 16.78 s"
+  },
+  {
+   "name": "both Celebrex lines are cited",
+   "ok": true,
+   "detail": "Celebrex is on L036, L041; cited L030, L035, L036, L040, L041, L045"
+  },
+  {
+   "name": "the bell badge shows the confirmed finding",
+   "ok": true,
+   "detail": "bellBadge 1"
+  },
+  {
+   "name": "marking the finding as seen clears the bell badge",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "bypass without a reason is refused",
+   "ok": true,
+   "detail": "Please give a short reason for bypassing this finding."
+  },
+  {
+   "name": "accept queues the letter",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Model 3 wrote the letter",
+   "ok": true,
+   "detail": "origin model, 0 check notes, 12.79 s"
+  },
+  {
+   "name": "the letter carries the criterion text, its credit line and the fictional-patient line",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "the letter badge shows the ready letter",
+   "ok": true,
+   "detail": "letterBadge 1"
+  },
+  {
+   "name": "saving an edit",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "recording that the patient agrees",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "marking the letter as sent",
+   "ok": true,
+   "detail": "due 2026-11-24T20:48:32.856Z"
+  },
+  {
+   "name": "a sent letter can no longer be changed",
+   "ok": true,
+   "detail": "This letter was already sent. It can no longer be changed."
+  },
+  {
+   "name": "recording the doctor's reply",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "closing the letter",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "the near miss ends clear",
+   "ok": true,
+   "detail": "criterion status clear, 14.2 s, findings 0"
+  },
+  {
+   "name": "Model 1 read the rows of the scanned page; nothing is screened before the pharmacist confirms",
+   "ok": true,
+   "detail": "22 rows in 68.7 s"
+  },
+  {
+   "name": "after the pharmacist confirms the rows, the scan is screened and the finding is confirmed",
+   "ok": true,
+   "detail": "lines L013, L017, L018"
+  },
+  {
+   "name": "a path that tries to leave the page folder gets nothing",
+   "ok": true,
+   "detail": "status 403"
+  },
+  {
+   "name": "a page from another website cannot call the server",
+   "ok": true,
+   "detail": "status 403"
+  },
+  {
+   "name": "the server answers only to a name of this computer",
+   "ok": true,
+   "detail": "status 403"
+  },
+  {
+   "name": "a body over 40 MB is refused",
+   "ok": true,
+   "detail": "answer: 413"
+  },
+  {
+   "name": "the counts add up",
+   "ok": true,
+   "detail": "{\"historiesScreened\":3,\"findingsConfirmed\":2,\"accepted\":1,\"bypassed\":0,\"lettersReady\":0,\"lettersSent\":1,\"repliesRecorded\":1,\"closed\":1,\"overdue\":0,\"bellBadge\":1,\"letterBadge\":0}"
+  },
+  {
+   "name": "the server is idle at the end",
+   "ok": true,
+   "detail": ""
+  }
+ ],
+ "health": {
+  "ollama": "up",
+  "models": {
+   "screen": true,
+   "check": true,
+   "letter": true
+  },
+  "names": {
+   "screen": "lantern-screen",
+   "check": "lantern-check",
+   "letter": "lantern-letter"
+  },
+  "version": "0.40.15"
+ },
+ "criteria": [
+  "DEMO-NSAID-ANTICOAG"
+ ],
+ "reset": {
+  "ok": true,
+  "backup": "state-2026-11-18T07-47-48.json"
+ },
+ "positive": {
+  "caseId": "C0001",
+  "lines": 45,
+  "patient": {
+   "label": "Fictional patient F-001",
+   "age": 72,
+   "sex": "F"
+  },
+  "criteria": [
+   {
+    "criterionId": "DEMO-NSAID-ANTICOAG",
+    "status": "suspected",
+    "seconds": 14
+   }
+  ],
+  "secondsImportToScreened": 14.4,
+  "secondsImportToConfirmed": 31,
+  "finding": {
+   "id": "F0001",
+   "caseId": "C0001",
+   "criterionId": "DEMO-NSAID-ANTICOAG",
+   "state": "confirmed",
+   "screen": {
+    "lineIds": [
+     "L030",
+     "L035",
+     "L036",
+     "L040",
+     "L041",
+     "L045"
+    ],
+    "medicines": [
+     "rivaroxaban",
+     "celecoxib"
+    ],
+    "reason": "The patient was supplied celecoxib (an NSAID) while also being supplied rivaroxaban (an oral anticoagulant) within 60 days.",
+    "linesVerified": true,
+    "model": "lantern-screen",
+    "at": "2026-11-17T20:47:49.017Z",
+    "seconds": 14
+   },
+   "seenByPharmacist": false,
+   "check": {
+    "confirmed": true,
+    "lineIds": [
+     "L030",
+     "L035",
+     "L036",
+     "L040",
+     "L041",
+     "L045"
+    ],
+    "whatMatches": "The patient was supplied rivaroxaban (Xarelto) on 2026-07-08 (L030), 2026-08-08 (L035), 2026-09-08 (L040), and 2026-10-08 (L045), which overlaps with supplies of celecoxib (Celebrex) on 2026-08-21 (L036) and 2026-09-20 (L041).",
+    "whatCannotBeSeen": "A dispensing history does not show whether the patient actually took the medications, the specific timing of doses relative to each other, or any clinical contraindications or protective measures (such as PPI co-prescription) that might mitigate the bleeding risk.",
+    "completed": true,
+    "model": "lantern-check",
+    "at": "2026-11-17T20:48:03.030Z",
+    "seconds": 16.78
+   }
+  }
+ },
+ "letter": {
+  "id": "T0001",
+  "secondsAcceptToReady": 12.8,
+  "draft": {
+   "subject": "Clinical query regarding Celebrex and Xarelto for Fictional patient F-001",
+   "body": "Example Community Pharmacy (fictional)\n1 Example Street, Exampletown\nPhone: (00) 0000 0000\nPharmacist: The pharmacist on duty\n\n18 November 2026\n\nTo: Dr F. Example (fictional)\nExample Family Practice\n\nPatient: Fictional patient F-001, female, 72 years\nFictional patient. No real person.\n\nRe: Clinical query regarding Celebrex and Xarelto for Fictional patient F-001\n\nDear Doctor,\n\nI am writing to note that this 72 year old female patient is being supplied a non-steroidal anti-inflammatory drug (NSAID) alongside an oral anticoagulant. This combination may increase the risk of major bleeding.\n\nThe patient has been supplied Xarelto 20 mg tablet on 8 July 2026, 8 August 2026, 8 September 2026, and 8 October 2026. Additionally, Celebrex 200 mg capsule was supplied on 21 August 2026 and 20 September 2026.\n\nCould you please review whether the NSAID is still needed while the anticoagulant continues, and assess the patient's risk of bleeding? Please let us know if you require any further information.\n\nThe criterion this is based on\nDemo criterion (NSAID with an anticoagulant): A non-steroidal anti-inflammatory drug (NSAID) supplied to a person who is also being supplied an oral anticoagulant (risk of major bleeding).\nSource: Test wording written by the entrant for this prototype. It is not a published criterion.\n\nDispensing lines from our records\n2026-07-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example\n2026-08-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example\n2026-08-21 | Celebrex 200 mg capsule | qty 30 | repeats 2 | Take ONE capsule daily with food | Dr G. Sample\n2026-09-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example\n2026-09-20 | Celebrex 200 mg capsule | qty 30 | repeats 1 | Take ONE capsule daily with food | Dr G. Sample\n2026-10-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example\n\nWhat a dispensing history cannot show\nWhy the anticoagulant was started, kidney function, any history of bleeding, and any pain or stomach medicines bought without a prescription.\n\nYours sincerely,\n\nThe pharmacist on duty\nExample Community Pharmacy (fictional)\n\nDrafted by a local AI model, reviewed and edited by the pharmacist.",
+   "origin": "model",
+   "checkNotes": [],
+   "model": "lantern-letter",
+   "at": "2026-11-17T20:48:20.024Z",
+   "seconds": 12.79
+  }
+ },
+ "nearMiss": {
+  "caseId": "C0002",
+  "lines": 43,
+  "criteria": [
+   {
+    "criterionId": "DEMO-NSAID-ANTICOAG",
+    "status": "clear",
+    "seconds": 14.2
+   }
+  ],
+  "findings": [],
+  "seconds": 14.2
+ },
+ "scan": {
+  "caseId": "C0003",
+  "file": "history.png",
+  "rows": [
+   {
+    "id": "L001",
+    "text": "2026-06-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example",
+    "page": 1
+   },
+   {
+    "id": "L002",
+    "text": "2026-06-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example",
+    "page": 1
+   },
+   {
+    "id": "L003",
+    "text": "2026-06-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example",
+    "page": 1
+   },
+   {
+    "id": "L004",
+    "text": "2026-07-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example",
+    "page": 1
+   },
+   {
+    "id": "L005",
+    "text": "2026-07-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example",
+    "page": 1
+   },
+   {
+    "id": "L006",
+    "text": "2026-07-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example",
+    "page": 1
+   },
+   {
+    "id": "L007",
+    "text": "2026-07-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example",
+    "page": 1
+   },
+   {
+    "id": "L008",
+    "text": "2026-07-15 | Panadol Osteo (paracetamol) 665 mg modified release tablet | qty 96 | repeats 2 | Take TWO tablets three times a day | Dr F. Example",
+    "page": 1
+   },
+   {
+    "id": "L009",
+    "text": "2026-08-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example",
+    "page": 1
+   },
+   {
+    "id": "L010",
+    "text": "2026-08-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example",
+    "page": 1
+   },
+   {
+    "id": "L011",
+    "text": "2026-08-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example",
+    "page": 1
+   },
+   {
+    "id": "L012",
+    "text": "2026-08-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example",
+    "page": 1
+   },
+   {
+    "id": "L013",
+    "text": "2026-08-21 | Celebrex 200 mg capsule | qty 30 | repeats 2 | Take ONE capsule daily with food | Dr G. Sample",
+    "page": 1
+   },
+   {
+    "id": "L014",
+    "text": "2026-09-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example",
+    "page": 1
+   },
+   {
+    "id": "L015",
+    "text": "2026-09-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example",
+    "page": 1
+   },
+   {
+    "id": "L016",
+    "text": "2026-09-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example",
+    "page": 1
+   },
+   {
+    "id": "L017",
+    "text": "2026-09-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example",
+    "page": 1
+   },
+   {
+    "id": "L018",
+    "text": "2026-09-20 | Celebrex 200 mg capsule | qty 30 | repeats 1 | Take ONE capsule daily with food | Dr G. Sample",
+    "page": 1
+   },
+   {
+    "id": "L019",
+    "text": "2026-10-06 | Diabex XR (metformin) 1000 mg modified release tablet | qty 60 | repeats 4 | Take ONE tablet twice a day with food | Dr F. Example",
+    "page": 1
+   },
+   {
+    "id": "L020",
+    "text": "2026-10-06 | Coversyl (perindopril arginine) 5 mg tablet | qty 30 | repeats 4 | Take ONE tablet in the morning | Dr F. Example",
+    "page": 1
+   },
+   {
+    "id": "L021",
+    "text": "2026-10-06 | Lipitor (atorvastatin) 40 mg tablet | qty 30 | repeats 4 | Take ONE tablet at night | Dr F. Example",
+    "page": 1
+   },
+   {
+    "id": "L022",
+    "text": "2026-10-08 | Xarelto 20 mg tablet | qty 28 | repeats 5 | Take ONE tablet daily with food | Dr F. Example",
+    "page": 1
+   }
+  ],
+  "secondsToRead": 68.7,
+  "secondsConfirmToChecked": 25.7,
+  "finding": {
+   "id": "F0002",
+   "caseId": "C0003",
+   "criterionId": "DEMO-NSAID-ANTICOAG",
+   "state": "confirmed",
+   "screen": {
+    "lineIds": [
+     "L003",
+     "L007",
+     "L012",
+     "L013",
+     "L017",
+     "L018",
+     "L022"
+    ],
+    "medicines": [
+     "rivaroxaban",
+     "celecoxib"
+    ],
+    "reason": "The patient was supplied celecoxib (L013, L018) and rivaroxaban (L003, L007, L012, L017, L022) within 60 days of each other.",
+    "linesVerified": true,
+    "model": "lantern-screen",
+    "at": "2026-11-17T20:49:55.863Z",
+    "seconds": 7.23
+   },
+   "seenByPharmacist": false,
+   "check": {
+    "confirmed": true,
+    "lineIds": [
+     "L013",
+     "L017",
+     "L018"
+    ],
+    "whatMatches": "Celecoxib (L013, L018) and rivaroxaban (L017) were supplied on dates that overlap or fall within 60 days of each other (e.g., L013 on 2026-08-21 and L017 on 2026-09-08).",
+    "whatCannotBeSeen": "A dispensing history does not show whether the patient actually took the medications, the specific timing of doses relative to each other, or any clinical contraindications or protective measures (such as PPI co-prescription) that might mitigate the bleeding risk.",
+    "completed": true,
+    "model": "lantern-check",
+    "at": "2026-11-17T20:50:03.103Z",
+    "seconds": 18.33
+   }
+  }
+ },
+ "counts": {
+  "historiesScreened": 3,
+  "findingsConfirmed": 2,
+  "accepted": 1,
+  "bypassed": 0,
+  "lettersReady": 0,
+  "lettersSent": 1,
+  "repliesRecorded": 1,
+  "closed": 1,
+  "overdue": 0,
+  "bellBadge": 1,
+  "letterBadge": 0
+ },
+ "now": {
+  "stage": null,
+  "text": "Idle"
+ },
+ "activity": [
+  {
+   "at": "2026-11-17T20:47:48.984Z",
+   "kind": "reset",
+   "text": "A clean demo was started. The earlier state was kept as state-2026-11-18T07-47-48.json."
+  },
+  {
+   "at": "2026-11-17T20:47:49.003Z",
+   "kind": "import",
+   "text": "History imported: positive.csv, 45 lines. Screening is queued.",
+   "caseId": "C0001"
+  },
+  {
+   "at": "2026-11-17T20:48:03.019Z",
+   "kind": "screen",
+   "text": "Model 1 suspects a finding for Demo criterion (NSAID with an anticoagulant) on positive.csv (criterion 1 of 1). It goes to the second check.",
+   "caseId": "C0001",
+   "criterionId": "DEMO-NSAID-ANTICOAG",
+   "model": "lantern-screen",
+   "findingId": "F0001"
+  },
+  {
+   "at": "2026-11-17T20:48:03.022Z",
+   "kind": "screen",
+   "text": "Model 1 finished screening positive.csv: 1 suspected finding goes to the second check.",
+   "caseId": "C0001",
+   "model": "lantern-screen"
+  },
+  {
+   "at": "2026-11-17T20:48:19.813Z",
+   "kind": "check",
+   "text": "Model 2 confirmed the finding for Demo criterion (NSAID with an anticoagulant) on positive.csv. It is waiting for the pharmacist.",
+   "caseId": "C0001",
+   "findingId": "F0001",
+   "criterionId": "DEMO-NSAID-ANTICOAG",
+   "model": "lantern-check"
+  },
+  {
+   "at": "2026-11-17T20:48:20.015Z",
+   "kind": "decision",
+   "text": "The pharmacist accepted the finding for Demo criterion (NSAID with an anticoagulant). A letter to the GP is queued.",
+   "caseId": "C0001",
+   "findingId": "F0001",
+   "criterionId": "DEMO-NSAID-ANTICOAG",
+   "letterId": "T0001"
+  },
+  {
+   "at": "2026-11-17T20:48:32.818Z",
+   "kind": "letter",
+   "text": "The letter for Demo criterion (NSAID with an anticoagulant) on positive.csv is ready. The letter checks found nothing.",
+   "caseId": "C0001",
+   "findingId": "F0001",
+   "letterId": "T0001",
+   "criterionId": "DEMO-NSAID-ANTICOAG",
+   "model": "lantern-letter"
+  },
+  {
+   "at": "2026-11-17T20:48:32.849Z",
+   "kind": "letter_status",
+   "text": "The pharmacist saved changes to letter T0001.",
+   "letterId": "T0001",
+   "findingId": "F0001",
+   "caseId": "C0001",
+   "criterionId": "DEMO-NSAID-ANTICOAG"
+  },
+  {
+   "at": "2026-11-17T20:48:32.853Z",
+   "kind": "letter_status",
+   "text": "Recorded for letter T0001: discussed with the patient, and the patient agrees.",
+   "letterId": "T0001",
+   "findingId": "F0001",
+   "caseId": "C0001",
+   "criterionId": "DEMO-NSAID-ANTICOAG"
+  },
+  {
+   "at": "2026-11-17T20:48:32.856Z",
+   "kind": "letter_status",
+   "text": "Letter T0001 was marked as sent by print. Patient agreement was recorded. A reply is due in 7 days.",
+   "letterId": "T0001",
+   "findingId": "F0001",
+   "caseId": "C0001",
+   "criterionId": "DEMO-NSAID-ANTICOAG"
+  },
+  {
+   "at": "2026-11-17T20:48:32.861Z",
+   "kind": "letter_status",
+   "text": "The doctor's reply to letter T0001 was recorded: the doctor will review the patient.",
+   "letterId": "T0001",
+   "findingId": "F0001",
+   "caseId": "C0001",
+   "criterionId": "DEMO-NSAID-ANTICOAG"
+  },
+  {
+   "at": "2026-11-17T20:48:32.864Z",
+   "kind": "letter_status",
+   "text": "Letter T0001 was closed.",
+   "letterId": "T0001",
+   "findingId": "F0001",
+   "caseId": "C0001",
+   "criterionId": "DEMO-NSAID-ANTICOAG"
+  },
+  {
+   "at": "2026-11-17T20:48:32.869Z",
+   "kind": "import",
+   "text": "History imported: near-miss.csv, 43 lines. Screening is queued.",
+   "caseId": "C0002"
+  },
+  {
+   "at": "2026-11-17T20:48:47.081Z",
+   "kind": "screen",
+   "text": "Model 1 screened Demo criterion (NSAID with an anticoagulant) on near-miss.csv (criterion 1 of 1): nothing suspected.",
+   "caseId": "C0002",
+   "criterionId": "DEMO-NSAID-ANTICOAG",
+   "model": "lantern-screen"
+  },
+  {
+   "at": "2026-11-17T20:48:47.085Z",
+   "kind": "screen",
+   "text": "Model 1 finished screening near-miss.csv: nothing suspected.",
+   "caseId": "C0002",
+   "model": "lantern-screen"
+  },
+  {
+   "at": "2026-11-17T20:48:47.150Z",
+   "kind": "import",
+   "text": "Scan imported: history.png, 1 page. Model 1 will read the rows. Please check them before screening.",
+   "caseId": "C0003"
+  },
+  {
+   "at": "2026-11-17T20:49:55.665Z",
+   "kind": "import",
+   "text": "Model 1 read 22 rows from the scan of history.png. Read from a scan: please check the rows before screening.",
+   "caseId": "C0003",
+   "model": "lantern-screen"
+  },
+  {
+   "at": "2026-11-17T20:49:55.850Z",
+   "kind": "import",
+   "text": "The pharmacist confirmed 22 rows read from the scan of history.png. Screening is queued.",
+   "caseId": "C0003"
+  },
+  {
+   "at": "2026-11-17T20:50:03.090Z",
+   "kind": "screen",
+   "text": "Model 1 suspects a finding for Demo criterion (NSAID with an anticoagulant) on history.png (criterion 1 of 1). It goes to the second check.",
+   "caseId": "C0003",
+   "criterionId": "DEMO-NSAID-ANTICOAG",
+   "model": "lantern-screen",
+   "findingId": "F0002"
+  },
+  {
+   "at": "2026-11-17T20:50:03.096Z",
+   "kind": "screen",
+   "text": "Model 1 finished screening history.png: 1 suspected finding goes to the second check.",
+   "caseId": "C0003",
+   "model": "lantern-screen"
+  },
+  {
+   "at": "2026-11-17T20:50:21.432Z",
+   "kind": "check",
+   "text": "Model 2 confirmed the finding for Demo criterion (NSAID with an anticoagulant) on history.png. It is waiting for the pharmacist.",
+   "caseId": "C0003",
+   "findingId": "F0002",
+   "criterionId": "DEMO-NSAID-ANTICOAG",
+   "model": "lantern-check"
+  }
+ ],
+ "jobs": [
+  {
+   "id": "J0001",
+   "stage": "screen",
+   "caseId": "C0001",
+   "status": "done",
+   "detail": "1 criterion screened"
+  },
+  {
+   "id": "J0002",
+   "stage": "check",
+   "caseId": "C0001",
+   "status": "done",
+   "findingId": "F0001",
+   "detail": "confirmed"
+  },
+  {
+   "id": "J0003",
+   "stage": "letter",
+   "caseId": "C0001",
+   "status": "done",
+   "findingId": "F0001",
+   "detail": "drafted by the model"
+  },
+  {
+   "id": "J0004",
+   "stage": "screen",
+   "caseId": "C0002",
+   "status": "done",
+   "detail": "1 criterion screened"
+  },
+  {
+   "id": "J0005",
+   "stage": "screen",
+   "caseId": "C0003",
+   "status": "done",
+   "detail": "22 rows read"
+  },
+  {
+   "id": "J0006",
+   "stage": "screen",
+   "caseId": "C0003",
+   "status": "done",
+   "detail": "1 criterion screened"
+  },
+  {
+   "id": "J0007",
+   "stage": "check",
+   "caseId": "C0003",
+   "status": "done",
+   "findingId": "F0002",
+   "detail": "confirmed"
+  }
+ ],
+ "finishedAt": "2026-11-17T20:50:21.662Z",
+ "seconds": 152.7,
+ "passed": true
+}

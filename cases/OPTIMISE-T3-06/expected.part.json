@@ -1,0 +1,52 @@
+[
+  {
+    "file": "OPTIMISE-T3-06/pos-brand.csv",
+    "kind": "positive",
+    "about": "Tegretol CR was supplied repeatedly to a 68-year-old and a fracture-risk assessment for this course is pending.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T3-06",
+        "must_cite": [
+          [
+            "L003",
+            "L007",
+            "L011",
+            "L015",
+            "L019",
+            "L023",
+            "L027",
+            "L031",
+            "L035",
+            "L039"
+          ],
+          [
+            "L040"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T3-06/pos-buried.csv",
+    "kind": "positive",
+    "about": "Possible finding: Epilim was supplied in December and January. The record holds no line about a fracture-risk assessment for that course or continued treatment in August.",
+    "findings": [
+      {
+        "criterion": "OPTIMISE-T3-06",
+        "must_cite": [
+          [
+            "L029",
+            "L034",
+            "L039"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "OPTIMISE-T3-06/near-miss.csv",
+    "kind": "near_miss",
+    "about": "The 64-year-old takes carbamazepine and the February bone clinic assessment includes a current management decision for this course.",
+    "findings": []
+  }
+]

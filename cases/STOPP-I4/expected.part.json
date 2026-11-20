@@ -1,0 +1,55 @@
+[
+  {
+    "file": "STOPP-I4/pos-fact.csv",
+    "kind": "positive",
+    "about": "Ditropan is supplied every four weeks, and chronic constipation is recorded during the course.",
+    "findings": [
+      {
+        "criterion": "STOPP-I4",
+        "must_cite": [
+          [
+            "L004",
+            "L008",
+            "L013",
+            "L017",
+            "L022",
+            "L027",
+            "L032",
+            "L037",
+            "L042"
+          ],
+          [
+            "L006"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-I4/pos-nofact.csv",
+    "kind": "positive",
+    "about": "Possible finding: the record holds no line about constipation, while trospium (a bladder antimuscarinic) is supplied every 4 weeks.",
+    "findings": [
+      {
+        "criterion": "STOPP-I4",
+        "must_cite": [
+          [
+            "L002",
+            "L006",
+            "L009",
+            "L013",
+            "L017",
+            "L021",
+            "L025"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "STOPP-I4/near-miss.csv",
+    "kind": "near_miss",
+    "about": "Bowel habit was regular during tolterodine use, and the first episode of constipation began after the last dose.",
+    "findings": []
+  }
+]

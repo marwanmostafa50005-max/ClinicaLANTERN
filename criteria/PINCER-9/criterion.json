@@ -1,0 +1,47 @@
+{
+  "id": "PINCER-9",
+  "label": "PINCER 9",
+  "family": "PINCER",
+  "title": "Methotrexate without a weekly instruction",
+  "statement": "Patients receiving prescriptions of methotrexate without instructions that the drug should be taken weekly. - More specifically, patients with one or more prescriptions for methotrexate recorded on computer within the three months prior to data collection who do not have the term \"weekly\" or \"week\" in the dosage instructions field of the latest prescription for the drug.",
+  "statement_origin": "published",
+  "source": {
+    "document": "Avery AJ, et al. Protocol for the PINCER trial. Trials 2009;10:28; correction Trials 2010;11:23",
+    "citation": "Avery AJ, Rodgers S, Cantrill JA, et al. Protocol for the PINCER trial. Trials 2009;10:28. doi:10.1186/1745-6215-10-28; correction Trials 2010;11:23",
+    "doi": "10.1186/1745-6215-10-28",
+    "url": "https://doi.org/10.1186/1745-6215-10-28",
+    "licence": "CC BY 2.0",
+    "licence_status": "proposed",
+    "credit": "Avery AJ, Rodgers S, Cantrill JA, et al. Protocol for the PINCER trial. Trials 2009;10:28. doi:10.1186/1745-6215-10-28; correction Trials 2010;11:23",
+    "modification_notice": "Text reproduced without changes."
+  },
+  "plain_summary": "Low-dose methotrexate is taken once a week, and directions that do not say so can lead to dangerous daily dosing.",
+  "medicine_groups": [
+    {
+      "key": "A",
+      "name": "Methotrexate",
+      "ingredients": [
+        "methotrexate"
+      ],
+      "brands": {
+        "methotrexate": [
+          "Methoblastin",
+          "Trexject",
+          "Chexate",
+          "Ciptrexate",
+          "Emthexate",
+          "Imutrex",
+          "Methaccord",
+          "Methoblastin PFS"
+        ]
+      },
+      "note": "Tablets and injections count. Generic products are usually named by the ingredient."
+    }
+  ],
+  "rule_for_models": "Use the stated data collection or screening date for this history. If none is supplied, use the latest dated entry and state that the result applies as of that date. If there is no Group A methotrexate supply in the three months ending on that date, report no finding, otherwise check only the latest such supply and flag directions such as 'as directed' or 'daily' that contain neither the word 'week' nor 'weekly', ignoring case.",
+  "cannot_be_seen": "The history cannot confirm what the patient was told, how they take methotrexate or the wording on the original prescription. The reason for treatment and blood test results can be checked when they are recorded.",
+  "ask_the_gp": "Could you confirm the indication, intended dose and frequency so the dispensing label can state the regimen clearly? If the regimen is weekly, which day should the patient take it?",
+  "urgency": "same_day",
+  "draft": true,
+  "signed_by_clinical_reviewer": null
+}
