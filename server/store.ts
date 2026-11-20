@@ -243,17 +243,29 @@ export class StateStore {
     }
   }
 
-  /** Starts a clean state. The old state file is kept as a dated backup. Returns the backup path, or null when there was nothing to keep. */
-  reset(now: Date = new Date()): string | null {
-    let kept: string | null = null;
-    if (fs.existsSync(this.file)) {
-      kept = this.freeBackupPath(`state-${fileStamp(now)}`);
-      fs.copyFileSync(this.file, kept);
-    }
+  /**
+   * Copies the state file aside. Throws when the copy cannot be made, and changes nothing.
+   * Returns null when there is no file to keep.
+   */
+  keepBackup(now: Date = new Date()): string | null {
+    if (!fs.existsSync(this.file)) return null;
+    const kept = this.freeBackupPath(`state-${fileStamp(now)}`);
+    fs.copyFileSync(this.file, kept);
+    return kept;
+  }
+
+  /** Replaces the state with a clean one and saves it. Does not copy the old file. */
+  replaceWithClean(): void {
     const marks = keptIdMarks(this.state);
     this.state = emptyState();
     this.state.issued = marks;
     this.save();
+  }
+
+  /** Starts a clean state. The old state file is kept as a dated backup. Returns the backup path, or null when there was nothing to keep. */
+  reset(now: Date = new Date()): string | null {
+    const kept = this.keepBackup(now);
+    this.replaceWithClean();
     return kept;
   }
 }

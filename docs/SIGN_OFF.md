@@ -7,6 +7,11 @@ you. Until you sign, every criterion is a draft. This pack was assembled on Thur
 in the early morning and grows with the day's results; the newest measured numbers always live
 in docs\RESULTS.md. Nothing here says "validated", "approved" or "never misses".
 
+**State at the submission, 21 November 2026.** The clinical reviewer signed all 583 criteria in use (the
+last signature at 03:42 on 21 November; `docs\signoff\ledger.json`), and `tools\signoff\apply.mjs` wrote
+each signature into its criterion file. The pack below is kept as the record of what was put before the
+reviewer. Where it calls a criterion a draft or unsigned, it describes the state before he signed.
+
 ## What only you can do
 
 Read and sign the criteria, their medicine lists and the answer sheet. Read the scored letter
@@ -17,7 +22,7 @@ approve the video and upload it. Publish the judges' link. Fill the form and sub
 
 ## The count (current database and final test)
 
-The final database has 582 criteria in use: the first ten and 572 further criteria. Seven are set
+The final database has 583 criteria in use: the first ten and 573 further criteria. Seven are set
 aside (EU7-F20, EU7-F78, KHAWAGI-G005, KHAWAGI-G048, KHAWAGI-G157, POPI-54, START-F6), no named
 candidate remains outside use, and seven were never drafted. Thirty-one more reached main in
 8b543b6, bringing the in-use count from 534 to 565; twelve more reached main in 874a091, bringing
@@ -25,18 +30,17 @@ it to 577; two more reached main in 8fa5b56, bringing it to 579; three more reac
 bringing it to 582. START-H7 passed its late run and was brought into use in commit f28deb1;
 CKD-C09B, KHAWAGI-G130 and KHAWAGI-G153 followed in 6d3e8de, GERARD-39 and GERARD-40 followed in
 b69735c, SCOTRESP-01 followed in f77e39b, and SCOTRESP-09 followed in 623c0af after their own runs
-passed. Zero are signed by the clinical reviewer.
+passed. MHRA-12 reached main in 0571aab, bringing the count to 583. All 583 are signed by the clinical
+reviewer.
 
 534 of 534 passed the final test at 04:41. Thirty-three of them were given one clearer sentence at
-06:20. The timestamped `final-db\loop\LOOP_STATUS.txt` snapshot at 2026-11-20 13:37:10 reports
-582 criteria and 513 PASS, with 69 in its repair column, 0 after eight repairs, 0 waiting for their
-run, and 0 not on the board; its "not passing now" line is empty. Its sign-off breakdown at 13:37:32
-reports 60 ready to sign, 451 passed but not yet for signing, 0 did not pass and in repair, 69 whose
-new text waits for a run, 0 runs still to come, and 2 passed and settled criteria whose page has not
-yet been brought up to date. Seven are set aside. The repository's active list has the same 582
-criteria in use. The earlier 10-of-10 first-ten result is retained below as a historical measured
-run, not as a separate table from the final database. Every test history is fictional and no
-criterion is signed; nothing here is a clinical validation.
+06:20. The timestamped `final-db\loop\LOOP_STATUS.txt` snapshot at 2026-11-21 04:39:48 reports
+583 criteria and 583 PASS, with 0 in its repair column, 0 after eight repairs, 0 waiting for their
+run, and 0 not on the board; its "not passing now" line is empty. It reports 1,181 of 1,183 planted
+findings caught, 2 disputed and 33 false flags. Seven are set aside. The repository's active list has
+the same 583 criteria in use. The earlier 10-of-10 first-ten result is retained below as a historical
+measured run. Every test history is fictional. All 583 criteria in use are signed by the clinical
+reviewer; the test histories are not. Nothing here is a clinical validation.
 
 ## Changes made since the proposal
 

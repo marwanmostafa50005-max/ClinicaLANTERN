@@ -10,16 +10,16 @@ GERARD-39 and GERARD-40 followed in b69735c, SCOTRESP-01 followed in f77e39b, an
 followed in 623c0af after their own runs passed.
 The page offers a criterion for signing only when its final text has passed and its audit is
 complete. You read one criterion at a time, then sign it with one click or say what must change.
-Every patient in the test histories is fictional. The 20:05:34 sign-off snapshot lists 241 ready to
-sign, 231 passed but not yet for signing, 8 did not pass and in repair, 80 whose new text waits for
-a run, and 23 passed and settled page updates outstanding.
+Every patient in the test histories is fictional. The 04:39:57 sign-off snapshot on 21 November
+lists 583 ready to sign, 0 passed but not yet for signing, 0 did not pass and in repair, 0 whose
+new text waits for a run, and 0 passed and settled page updates outstanding.
 
 ## Start it
 
 1. Open PowerShell.
 2. Paste this line and press Enter:
 
-       node C:\Users\AdamG\ClinicaLANTERN-Lantern\tools\signoff\server.mjs
+       node %USERPROFILE%\ClinicaLANTERN-Lantern\tools\signoff\server.mjs
 
 3. Open this address in your browser: **http://127.0.0.1:8790**
 
@@ -70,7 +70,7 @@ If a file is only saved again with another layout (line ends, spacing, the order
 
 Each click is saved at once in the ledger. The page changes no criterion file. To make your signatures final, run this line in PowerShell. It only says what would happen. It writes nothing.
 
-    node C:\Users\AdamG\ClinicaLANTERN-Lantern\tools\signoff\apply.mjs --dry-run
+    node %USERPROFILE%\ClinicaLANTERN-Lantern\tools\signoff\apply.mjs --dry-run
 
 Then run the same line without `--dry-run`. It writes your name and the date into each criterion file you signed, and marks the file as no longer a draft. It does not sign a file whose words changed after you signed it, and it tells you which ones. It also writes the list of changes you asked for.
 
@@ -80,7 +80,7 @@ After that, a signature cannot be withdrawn on the page. Press NEEDS A CHANGE an
 
 | What | Where |
 |---|---|
-| The ledger: your name and every decision | `C:\Users\AdamG\ClinicaLANTERN-Lantern\docs\signoff\ledger.json` |
+| The ledger: your name and every decision | `%USERPROFILE%\ClinicaLANTERN-Lantern\docs\signoff\ledger.json` |
 | A copy of the ledger for each hour you worked | `docs\signoff\backups` |
 | The changes you asked for, written by apply | `docs\signoff\changes.md` |
 | Words typed in the change box and not saved yet | In your browser, on this computer |

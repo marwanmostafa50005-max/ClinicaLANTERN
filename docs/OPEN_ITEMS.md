@@ -1,6 +1,6 @@
 # OPEN ITEMS. From the section "Left open" of docs\REVIEW_FIXES.md (16 items, 18 November 2026).
 # Kept by Kimi Code until every line is closed or says why not.
-# Updated 2026-11-20 20:14:55: closing commits checked against origin/main at c10e371; item 7 closed by G-LETTER-1's server and page commits; open UI items remain assigned to K-UI by lane section 0.3h2.
+# Updated 2026-11-21 04:45:56: closing commits checked against origin/main at 3d1683d30a; item 7 closed by G-LETTER-1's server and page commits; open UI items remain assigned to K-UI by lane section 0.3h2.
 # Format: number | item | owner | note | state
 
 1 | FOUNDER_DESIGN.md held out of git | the founder | settled: it stays out; no application change, verified in main 8eb8473 | closed

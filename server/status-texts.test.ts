@@ -72,6 +72,7 @@ const ACTIVITY_TEXTS = [
   'nothing suspected.',
   'its criterion file could not be read. This is not a clear result.',
   'finished screening',
+  'already in the list.',
   'could not fully screen',
   'The local models are not running, so',
   'confirmed the possible finding for',

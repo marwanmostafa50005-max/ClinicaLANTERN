@@ -32,6 +32,12 @@ import { awaitsTranscription, computeCounts, computeNow, disputedWaiting, HELD_F
 
 /** The most characters a subject may hold, after it is made one line. The page uses the same cap. */
 const SUBJECT_CAP = 300;
+/**
+ * The letter placed when the criterion file could not be read.
+ * It tells the pharmacist to write the clinical text. It is not a letter to send.
+ */
+const HAND_WRITTEN_LETTER =
+  'Fictional patient. No real person.\n\nThe letter could not be drafted because the criterion file could not be read. Please write it by hand.';
 /** The most characters a letter text may hold. The same cap as src/lib/draftStore.ts. The page uses it too. */
 const LETTER_TEXT_CAP = 200_000;
 
@@ -562,8 +568,11 @@ export class Engine {
    * running is not cut off by a file that is being edited.
    */
   async refreshCriteria(): Promise<void> {
+    const generation = this.generation;
     try {
       const loaded = await this.loadCriteriaFn();
+      // A reset while the files were loading owns the session. This load must not write into it.
+      if (generation !== this.generation) return;
       if (Array.isArray(loaded)) {
         this.criteria = loaded;
         this.criteriaProblems = [];
@@ -579,6 +588,7 @@ export class Engine {
       for (const c of this.criteria) this.known.set(c.id, c);
       this.noteCriteriaProblems();
     } catch (e) {
+      if (generation !== this.generation) return;
       this.criteria = [];
       this.firstTenIds = [];
       this.furtherIds = new Set();
@@ -724,6 +734,7 @@ export class Engine {
       this.noteCriteriaProblems();
     }
     this.reapPins();
+    this.dropPagesOfConfirmedScans();
     this.tagQueuedScreens();
     if (this.state.jobs.some(j => j.status === 'queued' && (j.detail ?? '').startsWith('Waiting. The local model server'))) {
       this.modelsDown = true;
@@ -777,7 +788,12 @@ export class Engine {
     if (source !== 'csv' && source !== 'pdf-text' && source !== 'pdf-image') {
       throw new ApiError(400, 'The import must say what kind of file it is: csv, pdf-text or pdf-image.');
     }
+    const generation = this.generation;
     await this.refreshCriteria();
+    // A clean demo started while the criteria were loading. This file is not the first history of that session.
+    if (generation !== this.generation) {
+      throw new ApiError(409, 'A clean demo was started while this file was being imported. Import it again.');
+    }
     if (this.criteria.length === 0) {
       throw new ApiError(503, `The criteria could not be loaded, so nothing can be screened. ${this.criteriaError ?? ''}`.trim());
     }
@@ -868,7 +884,11 @@ export class Engine {
     const c = this.state.cases.find(x => x.id === caseId);
     if (!c) throw new ApiError(404, 'This history was not found.');
     if (c.source !== 'pdf-image') throw new ApiError(409, 'This history was not read from a scan. There is nothing to confirm.');
-    if (c.transcriptionConfirmed) return c;
+    if (c.transcriptionConfirmed) {
+      // A removal that stopped after the rows were saved is finished here. The rows stay.
+      this.images.remove(c.id);
+      return c;
+    }
     if (c.cannotAssess) throw new ApiError(409, `This history cannot be assessed. ${c.cannotAssess}`);
     if (c.birthDatesRead && c.birthDatesRead.length > 1) {
       throw new ApiError(409, 'These pages give more than one date of birth, so they are not one patient. Correct the scan or import each patient on their own. Screening has not started.');
@@ -876,6 +896,8 @@ export class Engine {
     if (hasOpenJob(this.state, 'screen', c.id)) {
       throw new ApiError(409, `The pages are still being read. Please wait for ${this.who('screen')} to finish.`);
     }
+    const pages = this.images.check(c.id);
+    if (!pages.ok) throw new ApiError(409, pages.words);
     const rows = asRecord(body).rows;
     let lines = c.lines;
     // The check uses the rows as sent, before any shortening. A row that is too long is a problem
@@ -915,9 +937,21 @@ export class Engine {
     if (!hasOpenJob(this.state, 'screen', c.id)) addJob(this.state, 'screen', c.id);
     this.note('import', `The pharmacist confirmed ${many(c.lines.length, 'row', 'rows')} read from the scan of ${c.fileName}. Screening is queued.`, { caseId: c.id });
     this.commit();
-    this.images.remove(c.id);
+    try {
+      this.images.remove(c.id);
+    } catch {
+      // The rows are already in the state file. The next start removes the pages.
+    }
     this.kick();
     return c;
+  }
+
+  /** A confirmed scan no longer needs its pictures. A removal that stopped after the save is finished on the next start. */
+  private dropPagesOfConfirmedScans(): void {
+    for (const c of this.state.cases) {
+      if (c.source !== 'pdf-image' || !c.transcriptionConfirmed) continue;
+      try { this.images.remove(c.id); } catch { /* the next start tries again */ }
+    }
   }
 
   /**
@@ -946,7 +980,7 @@ export class Engine {
   pageImage(caseId: string, page: number): Buffer | null {
     const c = this.state.cases.find(x => x.id === caseId);
     if (!c || c.source !== 'pdf-image' || !Number.isInteger(page) || page < 1) return null;
-    const file = this.images.list(c.id)[page - 1];
+    const file = this.images.fileFor(c.id, page);
     if (!file) return null;
     try {
       const bytes = Buffer.from(this.images.read(file), 'base64');
@@ -1608,11 +1642,16 @@ export class Engine {
     }
     return {
       subject: 'Request for a medicines review',
-      body: 'Fictional patient. No real person.\n\nThe letter could not be drafted because the criterion file could not be read. Please write it by hand.',
+      body: HAND_WRITTEN_LETTER,
       origin: 'template', templateReason: 'error',
       checkNotes: ['The criterion file could not be read, so no letter was drafted.'],
       model: this.cfg.models.letter, at: this.nowIso(), seconds: 0
     };
+  }
+
+  /** True while the saved letter still tells the pharmacist to write it. That text is not sent. */
+  private letterAwaitsHandwriting(letter: Letter): boolean {
+    return letter.body.includes('Please write it by hand.');
   }
 
   /** The letter exactly as it will leave, with the line about AI and the signature put back. */
@@ -1691,6 +1730,9 @@ export class Engine {
     const letter = this.letterOrThrow(letterId);
     this.assertCanReview(letter);
     if (letter.status !== 'ready') throw new ApiError(409, 'This letter was already sent. Preview it before it is sent.');
+    if (this.letterAwaitsHandwriting(letter)) {
+      throw new ApiError(409, 'This letter is not written yet. Write it, save it, then open the preview.');
+    }
     const text = this.leavingText(letter);
     letter.body = text;
     const previewedAt = this.nowIso();
@@ -1732,6 +1774,9 @@ export class Engine {
     if (letter.status !== 'ready') {
       if (letter.status === 'sent' && letter.sentBy === by) return letter;
       throw new ApiError(409, 'This letter was already marked as sent.');
+    }
+    if (this.letterAwaitsHandwriting(letter)) {
+      throw new ApiError(409, 'This letter is not written yet. Write it, save it, then open the preview.');
     }
     const text = this.leavingText(letter);
     const hash = this.previewRevision(letter.subject, text);
@@ -1868,6 +1913,10 @@ export class Engine {
 
   /** Starts a clean demo. The old state file is kept as a dated backup. A job that is running drops its result. */
   async reset(): Promise<{ backup: string | null }> {
+    // The copy is made before the running job is stopped. A copy that fails leaves that job running.
+    const kept = this.store.keepBackup(this.nowFn());
+    const prior = JSON.parse(JSON.stringify(this.state)) as AppState;
+    const daysBefore = this.demoDays;
     this.generation++;
     // The model call that is running is stopped at once, so the next import does not wait for it.
     this.running?.abort();
@@ -1889,10 +1938,55 @@ export class Engine {
         clockFileSaved = false;
       }
     }
-    const kept = this.store.reset(this.nowFn());
+    const unconfirmed = this.state.cases
+      .filter(c => c.source === 'pdf-image' && !c.transcriptionConfirmed)
+      .map(c => c.id);
+    try {
+      this.store.replaceWithClean();
+    } catch (e) {
+      // The clean demo did not start. The old session comes back, and the stopped job is queued again.
+      this.store.state = prior;
+      this.demoDays = daysBefore;
+      for (const job of this.state.jobs) {
+        if (job.status === 'running') job.status = 'queued';
+      }
+      if (daysBefore !== 0) {
+        try {
+          writeFileAtomic(this.clockFile, JSON.stringify({ days: daysBefore }) + '\n');
+        } catch {
+          // The clock file could not be put back. The date in memory was.
+        }
+      }
+      try {
+        this.save();
+      } catch {
+        // The session is back in memory. The next save writes it.
+      }
+      this.kick();
+      throw e;
+    }
     this.rememberCommitted();
     this.clearPins();
-    this.images.clear();
+    // The state backup names the scan. The page files are copied beside it and checked before they are removed.
+    const withPages = unconfirmed.filter(id => this.images.list(id).length > 0);
+    let pagesLeftInPlace = false;
+    if (withPages.length > 0) {
+      const archive = kept ? path.join(path.dirname(kept), `${path.basename(kept, '.json')}-pages`) : '';
+      if (!archive) pagesLeftInPlace = true;
+      else {
+        try {
+          for (const id of withPages) this.images.copyCase(id, archive);
+          const restored = new PageImages(archive);
+          for (const id of withPages) {
+            const check = restored.check(id);
+            if (!check.ok) throw new Error(check.words);
+          }
+        } catch {
+          pagesLeftInPlace = true;
+        }
+      }
+    }
+    if (!pagesLeftInPlace) this.images.clear();
     this.progress = {};
     this.notedProblems = '';            // a criterion that still does not load is named again in the clean log
     const backup = kept ? path.basename(kept) : null;
@@ -1901,8 +1995,13 @@ export class Engine {
         ? 'The demo clock is back to the real date.'
         : 'The demo clock is back to the real date for this run. The clock file could not be saved.');
     }
+    const pagesNote = withPages.length === 0
+      ? ''
+      : pagesLeftInPlace
+        ? ' The pages of a scan that was not confirmed could not be copied, so they were left in place.'
+        : ' The pages of a scan that was not confirmed were kept with it.';
     this.note('reset', backup
-      ? `A clean demo was started. The earlier state was kept as ${backup}.`
+      ? `A clean demo was started. The earlier state was kept as ${backup}.${pagesNote}`
       : 'A clean demo was started.');
     this.save();
     await this.refreshCriteria();
@@ -2144,17 +2243,24 @@ export class Engine {
       this.finish(job, 'failed', 'The page images are missing.');
       return;
     }
-    c.pages = files.length;
+    const stored = this.images.check(c.id);
+    if (!stored.ok) {
+      // The count recorded at import stays. A missing page is not given the next page's number.
+      c.cannotAssess = stored.words;
+      this.note('error', `The scan of ${c.fileName} was not read. ${stored.words}`, { caseId: c.id, model });
+      this.finish(job, 'failed', 'The stored pages are not the pages that were imported.');
+      return;
+    }
     const rows: string[] = [];
     const pageOf: number[] = [];
     const birthDates: string[] = [];
     let unreadableDateOfBirth = false;
     let recordAge = c.patient.age;
-    for (let i = 0; i < files.length; i++) {
-      this.progress = { page: i + 1, pages: files.length };
+    for (const item of stored.pages) {
+      this.progress = { page: item.page, pages: c.pages ?? stored.pages.length };
       let answer: Awaited<ReturnType<PipelineFns['transcribePageImage']>>;
       try {
-        answer = await this.pipeline.transcribePageImage(this.cfg, this.images.read(files[i]), signal);
+        answer = await this.pipeline.transcribePageImage(this.cfg, this.images.read(item.file), signal);
       } catch (e) {
         answer = { ok: false, error: `The reading step stopped with an error: ${e instanceof Error ? e.message : String(e)}` };
       }
@@ -2165,9 +2271,9 @@ export class Engine {
         return;
       }
       if (!answer.ok) {
-        c.cannotAssess = `Page ${i + 1} of the scan could not be read. ${answer.error}`;
-        this.note('error', `${this.who('screen')} could not read page ${i + 1} of ${c.fileName}. The history was not screened.`, { caseId: c.id, model });
-        this.finish(job, 'failed', `Page ${i + 1} could not be read.`);
+        c.cannotAssess = `Page ${item.page} of the scan could not be read. ${answer.error}`;
+        this.note('error', `${this.who('screen')} could not read page ${item.page} of ${c.fileName}. The history was not screened.`, { caseId: c.id, model });
+        this.finish(job, 'failed', `Page ${item.page} could not be read.`);
         return;
       }
       if (answer.patient?.dateOfBirth) birthDates.push(answer.patient.dateOfBirth);
@@ -2178,7 +2284,7 @@ export class Engine {
       if (answer.patient?.sex) c.patient.sex = answer.patient.sex;
       for (const row of answer.rows) {
         rows.push(row);
-        pageOf.push(i + 1);
+        pageOf.push(item.page);
       }
     }
     if (birthDates.length === 0 && c.patient.dateOfBirth) birthDates.push(c.patient.dateOfBirth);
@@ -2208,11 +2314,13 @@ export class Engine {
       return;
     }
     // A page that gave no rows, and a row whose date cannot be read, are never passed over without a word.
-    const rowsOnPage = files.map((_, i) => c.lines.filter(l => l.page === i + 1).length);
-    const notes = scanNotesFor(files.length, rowsOnPage, [...read.problems, ...ageProblems]);
+    const pageCount = c.pages ?? stored.pages.length;
+    const rowsOnPage: number[] = [];
+    for (let p = 1; p <= pageCount; p++) rowsOnPage.push(c.lines.filter(l => l.page === p).length);
+    const notes = scanNotesFor(pageCount, rowsOnPage, [...read.problems, ...ageProblems]);
     if (notes.length > 0) c.scanNotes = notes;
     else delete c.scanNotes;
-    const perPage = files.length > 1
+    const perPage = pageCount > 1
       ? ` (${rowsOnPage.map((n, i) => `page ${i + 1}: ${n === 0 ? 'no rows' : many(n, 'row', 'rows')}`).join(', ')})`
       : '';
     const empty = rowsOnPage.map((n, i) => (n === 0 ? i + 1 : 0)).filter(n => n > 0);
@@ -2222,7 +2330,7 @@ export class Engine {
         { caseId: c.id, model });
     }
     this.note('import',
-      `${this.who('screen')} read ${many(c.lines.length, 'row', 'rows')} from ${many(files.length, 'page', 'pages')} of the scan of ${c.fileName}${perPage}. ` +
+      `${this.who('screen')} read ${many(c.lines.length, 'row', 'rows')} from ${many(pageCount, 'page', 'pages')} of the scan of ${c.fileName}${perPage}. ` +
       'Read from a scan: please check the rows before screening.',
       { caseId: c.id, model });
     this.finish(job, 'done', `${many(c.lines.length, 'row', 'rows')} read`);
@@ -2502,11 +2610,20 @@ export class Engine {
     c.screening.status = 'done';
     c.screening.finishedAt = this.nowIso();
     this.syncQuestions(c);
-    const suspected = queueChecks(this.state, c.id);
+    // Newly queued checks are for the queue only. The closing line counts every finding of this
+    // history, including one an earlier block already passed on. "Nothing suspected" is said only
+    // when every criterion ran and the list is empty. A criterion that could not be screened is
+    // never a clear result.
+    queueChecks(this.state, c.id);
+    const forCase = this.state.findings.filter(f => f.caseId === c.id);
+    const stillSuspected = forCase.filter(f => f.state === 'suspected').length;
+    const alreadyInList = forCase.length - stillSuspected;
     const failed = runs.filter(r => r.status === 'failed').length;
     const screened = runs.length - failed;
-    // "Nothing suspected" is said only when every criterion ran. A criterion that could not be screened is never a clear result.
-    const passedOn = suspected > 0 ? `${many(suspected, 'suspected finding goes', 'suspected findings go')} to the second check.` : '';
+    const passedOn = [
+      stillSuspected > 0 ? `${many(stillSuspected, 'suspected finding goes', 'suspected findings go')} to the second check.` : '',
+      alreadyInList > 0 ? `${many(alreadyInList, 'finding is', 'findings are')} already in the list.` : ''
+    ].filter(part => part !== '').join(' ');
     if (failed === 0) {
       this.note('screen', `${this.who('screen')} finished screening ${c.fileName}: ${passedOn || 'nothing suspected.'}`, { caseId: c.id, model });
     } else {
@@ -2614,7 +2731,7 @@ export class Engine {
     if (!criterion) {
       draft = {
         subject: `Request for a medicines review: ${f.criterionId}`,
-        body: 'Fictional patient. No real person.\n\nThe letter could not be drafted because the criterion file could not be read. Please write it by hand.',
+        body: HAND_WRITTEN_LETTER,
         origin: 'template', templateReason: 'error',
         checkNotes: ['The criterion file could not be read, so no letter was drafted.'],
         model, at: this.nowIso(), seconds: 0
@@ -2650,9 +2767,12 @@ export class Engine {
     }
     const label = this.labelFor(f.criterionId);
     // Said as it happened: a draft that failed its checks is not the same as a model that did not answer.
+    const byHand = draft.body.includes('Please write it by hand.');
     let how: string;
     if (draft.origin === 'model') {
       how = draft.checkNotes.length === 0 ? 'The letter checks found nothing.' : 'The first draft failed a check. The second draft passed.';
+    } else if (byHand) {
+      how = 'The criterion file could not be read, so no letter was drafted. Please write it by hand.';
     } else if (draft.templateReason === 'no_answer') {
       how = `${this.who('letter')} did not answer, so the letter was built from the template.`;
     } else if (draft.templateReason === 'error') {
@@ -2660,11 +2780,13 @@ export class Engine {
     } else {
       how = 'The model draft did not pass its checks, so the letter was built from the template.';
     }
-    const said = this.stillWriting(letter)
-      ? `A point of the letter for ${label} on ${c.fileName} is written. The letter waits until every point is written. ${how}`
-      : `The letter for ${label} on ${c.fileName} is ready. ${how}`;
+    const said = byHand
+      ? `The letter for ${label} on ${c.fileName} is not written yet. ${how}`
+      : this.stillWriting(letter)
+        ? `A point of the letter for ${label} on ${c.fileName} is written. The letter waits until every point is written. ${how}`
+        : `The letter for ${label} on ${c.fileName} is ready. ${how}`;
     this.note('letter', said,
       { caseId: c.id, findingId: f.id, letterId: letter.id, criterionId: f.criterionId, model });
-    this.finish(job, 'done', draft.origin === 'model' ? 'drafted by the model' : 'built from the template');
+    this.finish(job, 'done', draft.origin === 'model' ? 'drafted by the model' : byHand ? 'needs the pharmacist to write it' : 'built from the template');
   }
 }

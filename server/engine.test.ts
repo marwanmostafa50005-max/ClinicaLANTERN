@@ -1405,7 +1405,7 @@ describe('PDF imports', () => {
     const r = rig();
     await r.engine.start();
     const { caseId } = await r.engine.importCase({ fileName: 'scan.pdf', source: 'pdf-image', pageImages: ['data:image/png;base64,AAAA', 'BBBB'] });
-    expect(fs.readdirSync(path.join(r.dir, 'images')).sort()).toEqual(['C0001-p001.b64', 'C0001-p002.b64']);
+    expect(fs.readdirSync(path.join(r.dir, 'images')).sort()).toEqual(['C0001-manifest.json', 'C0001-p001.b64', 'C0001-p002.b64']);
     await r.engine.whenIdle();
 
     let c = r.engine.state.cases[0];
@@ -1422,6 +1422,58 @@ describe('PDF imports', () => {
     expect(c.screening.status).toBe('done');
     expect(r.calls.slice(2)).toEqual(['screen ONE', 'screen TWO', 'check ONE']);
     expect(fs.readdirSync(path.join(r.dir, 'images'))).toEqual([]);          // removed once confirmed
+  });
+
+  it('saves the confirmed rows before it removes the page files, and a restart removes pages that were left behind', async () => {
+    const r = rig();
+    r.behaviour.transcribe = () => ({ ok: true, rows: ['2026-08-08 | Xarelto 20 mg tablet | qty 28', '2026-08-21 | Celebrex 200 mg capsule | qty 30'] });
+    await r.engine.start();
+    const first = await r.engine.importCase({ fileName: 'scan.pdf', source: 'pdf-image', pageImages: ['AAAA', 'BBBB'] });
+    await r.engine.whenIdle();
+    const second = await r.engine.importCase({ fileName: 'other.pdf', source: 'pdf-image', pageImages: ['CCCC'] });
+    await r.engine.whenIdle();
+    const read = r.engine.state.cases.find(item => item.id === first.caseId);
+    expect(read?.lines.map(line => line.page)).toEqual([1, 1, 2, 2]);
+    const rows = (read?.lines ?? []).map(line => line.text);
+    rows[1] = '2026-08-09 | Corrected 10 mg tablet | qty 30';
+
+    const order: string[] = [];
+    const save = r.store.save.bind(r.store);
+    r.store.save = () => { order.push('save'); save(); };
+    const remove = r.engine.images.remove.bind(r.engine.images);
+    r.engine.images.remove = (id: string) => { order.push(`remove ${id}`); remove(id); };
+
+    const before = order.length;
+    r.engine.confirmTranscription(first.caseId, { rows });
+    const during = order.slice(before);
+    const savedAt = during.indexOf('save');
+    const removedAt = during.indexOf(`remove ${first.caseId}`);
+    expect(savedAt).toBeGreaterThanOrEqual(0);
+    expect(removedAt).toBeGreaterThan(savedAt);
+    const onDisk = JSON.parse(fs.readFileSync(path.join(r.dir, 'state.json'), 'utf8')) as { cases: { id: string; transcriptionConfirmed: boolean; lines: { text: string; page?: number }[] }[] };
+    const kept = onDisk.cases.find(item => item.id === first.caseId);
+    expect(kept?.transcriptionConfirmed).toBe(true);
+    expect(kept?.lines.map(line => line.text)).toEqual(rows);
+    expect(kept?.lines.map(line => line.page)).toEqual([1, 1, 2, 2]);
+
+    // A stop after the save and before the removal: the confirmed rows are on disk, and the pages are still in the folder.
+    fs.writeFileSync(path.join(r.dir, 'images', 'C0001-p001.b64'), 'AAAA');
+    fs.writeFileSync(path.join(r.dir, 'images', 'C0001-p002.b64'), 'BBBB');
+    expect(r.engine.images.list(first.caseId)).toHaveLength(2);
+    expect(r.engine.images.list(second.caseId)).toHaveLength(1);
+
+    const again = rig({ dir: r.dir });
+    await again.engine.start();
+    const confirmed = again.engine.state.cases.find(item => item.id === first.caseId);
+    const waiting = again.engine.state.cases.find(item => item.id === second.caseId);
+    expect(confirmed?.transcriptionConfirmed).toBe(true);
+    expect(confirmed?.lines.map(line => line.text)).toEqual(rows);
+    expect(confirmed?.lines.map(line => line.page)).toEqual([1, 1, 2, 2]);
+    expect(again.engine.images.list(first.caseId)).toEqual([]);
+    expect(fs.existsSync(path.join(r.dir, 'images', 'C0001-manifest.json'))).toBe(false);
+    expect(waiting?.transcriptionConfirmed).toBe(false);
+    expect(again.engine.images.list(second.caseId)).toHaveLength(1);
+    expect(fs.readFileSync(path.join(r.dir, 'images', 'C0002-p001.b64'), 'utf8')).toBe('CCCC');
   });
 
   it('a text PDF uses its date of birth and reports a conflicting printed age', async () => {
@@ -1599,6 +1651,33 @@ describe('PDF imports', () => {
 // ---------- reset ----------
 
 describe('reset', () => {
+  it('an import that started before a reset does not land in the clean session', async () => {
+    const r = rig();
+    await r.engine.start();
+    const held = r.engine as unknown as { loadCriteriaFn: () => Promise<Criterion[]> };
+    const original = held.loadCriteriaFn;
+    let release: () => void = () => undefined;
+    const gate = new Promise<void>(resolve => { release = resolve; });
+    held.loadCriteriaFn = async () => {
+      await gate;
+      return original();
+    };
+    const pending = r.engine.importCase({ fileName: 'scan.pdf', source: 'pdf-image', pageImages: ['AAAA'] });
+    await new Promise(resolve => setTimeout(resolve, 20));
+    const resetting = r.engine.reset();
+    await new Promise(resolve => setTimeout(resolve, 20));
+    release();
+    await resetting;
+    await expectApiError(() => pending, 409, 'clean demo');
+    expect(r.engine.state.cases).toEqual([]);
+    expect(r.engine.state.activity.some(a => a.kind === 'import')).toBe(false);
+    expect(r.engine.images.list('C0001')).toEqual([]);
+    const again = await r.engine.importCase({ fileName: 'scan.pdf', source: 'pdf-image', pageImages: ['BBBB'] });
+    expect(again.caseId).toBe('C0001');
+    expect(r.engine.state.cases).toHaveLength(1);
+    expect(r.engine.images.list('C0001')).toHaveLength(1);
+  });
+
   it('starts clean, keeps a dated backup and drops the result of a job that was running', async () => {
     const r = rig();
     let release: (value: CheckResult) => void = () => undefined;
@@ -1629,6 +1708,55 @@ describe('reset', () => {
     expect(r.engine.state.findings[0].state).toBe('confirmed');
   });
 
+  it('a backup that cannot be made leaves the running job to finish', async () => {
+    const r = rig();
+    let release: (value: CheckResult) => void = () => undefined;
+    r.behaviour.check = () => new Promise<CheckResult>(resolve => { release = resolve; });
+    await r.engine.start();
+    await importCsv(r);
+    await new Promise(resolve => setTimeout(resolve, 30));
+    expect(r.engine.state.jobs.some(j => j.status === 'running')).toBe(true);
+    fs.writeFileSync(path.join(r.dir, 'backups'), 'not a folder');
+    await expect(r.engine.reset()).rejects.toThrow();
+    expect(r.engine.state.cases).toHaveLength(1);
+    release(checkResult(true));
+    await r.engine.whenIdle();
+    expect(r.engine.state.findings[0].state).toBe('confirmed');
+    expect(r.engine.state.jobs.some(j => j.status === 'running')).toBe(false);
+  });
+
+  it('a reset that fails after the job is stopped queues that job again', async () => {
+    const r = rig();
+    let first: (value: CheckResult) => void = () => undefined;
+    let calls = 0;
+    r.behaviour.check = () => {
+      calls += 1;
+      if (calls === 1) return new Promise<CheckResult>(resolve => { first = resolve; });
+      return checkResult(true);
+    };
+    await r.engine.start();
+    await importCsv(r);
+    await new Promise(resolve => setTimeout(resolve, 30));
+    expect(r.engine.state.jobs.some(j => j.status === 'running' && j.stage === 'check')).toBe(true);
+    const save = r.store.save.bind(r.store);
+    let armed = false;
+    r.store.save = () => {
+      if (armed) {
+        armed = false;
+        throw new Error('the clean state could not be saved');
+      }
+      save();
+    };
+    armed = true;
+    await expect(r.engine.reset()).rejects.toThrow('could not be saved');
+    first(checkResult(true));
+    await r.engine.whenIdle();
+    expect(r.engine.state.cases).toHaveLength(1);
+    expect(r.engine.state.findings).toHaveLength(1);
+    expect(r.engine.state.findings[0].state).toBe('confirmed');
+    expect(r.engine.state.jobs.some(j => j.status === 'running')).toBe(false);
+  });
+
   it('a decision saved before a reset does not accept the new patient\'s finding', async () => {
     const r = rig();
     await r.engine.start();
@@ -1645,6 +1773,33 @@ describe('reset', () => {
     expect(later.state).toBe('confirmed');
     expect(later.decision).toBeUndefined();
     expect(r.engine.state.letters).toEqual([]);
+  });
+
+  it('keeps the pages of a scan that was not confirmed inside the dated backup', async () => {
+    const r = rig();
+    r.behaviour.transcribe = () => ({ ok: true, rows: ['2026-08-08 | Xarelto 20 mg tablet | qty 28'] });
+    await r.engine.start();
+    await r.engine.importCase({ fileName: 'scan.pdf', source: 'pdf-image', pageImages: ['AAAA', 'BBBB'] });
+    await r.engine.whenIdle();
+    expect(r.engine.state.cases[0].transcriptionConfirmed).toBe(false);
+    const live = r.engine.images.list('C0001');
+    expect(live.map(file => r.engine.images.read(file))).toEqual(['AAAA', 'BBBB']);
+
+    r.clock.now = new Date(2026, 10, 18, 7, 15, 2);
+    const { backup } = await r.engine.reset();
+    expect(backup).toBe('state-2026-11-18T07-15-02.json');
+    expect(r.engine.images.list('C0001')).toEqual([]);
+
+    const archive = path.join(r.dir, 'backups', 'state-2026-11-18T07-15-02-pages');
+    expect(fs.readdirSync(archive).sort()).toEqual(['C0001-manifest.json', 'C0001-p001.b64', 'C0001-p002.b64']);
+    expect(fs.readFileSync(path.join(archive, 'C0001-p001.b64'), 'utf8')).toBe('AAAA');
+    expect(fs.readFileSync(path.join(archive, 'C0001-p002.b64'), 'utf8')).toBe('BBBB');
+    const restored = new PageImages(archive).check('C0001');
+    expect(restored.ok).toBe(true);
+    if (restored.ok) {
+      expect(restored.pages.map(item => item.page)).toEqual([1, 2]);
+      expect(restored.pages.map(item => fs.readFileSync(item.file, 'utf8'))).toEqual(['AAAA', 'BBBB']);
+    }
   });
 });
 
@@ -2112,6 +2267,8 @@ describe('a step that stops with an error nobody expected', () => {
     expect(letter.body).toContain('Xarelto');
     expect(letter.body).toContain('Celebrex');
     expect(letter.body).not.toContain('Please write it by hand');
+    const kept = r.engine.previewLetter(letter.id);
+    expect(kept.text).toContain(testCriterion.statement);
     expect(letter.body).not.toContain('Drafted by a local AI model');
     expect(letter.body.trimEnd().endsWith('Marwan Morsy\nPharmacy Manager\nPHA0002761764')).toBe(true);
     expect(letter.draft).toMatchObject({ origin: 'template', templateReason: 'error' });
@@ -2163,6 +2320,62 @@ describe('a step that stops with an error nobody expected', () => {
     expect(letter.body).not.toContain(testCriterion.statement);
     expect(letter.body.trimEnd().endsWith('Marwan Morsy\nPharmacy Manager\nPHA0002761764')).toBe(true);
     expect(letter.draft).toMatchObject({ origin: 'template', templateReason: 'error' });
+    await expectApiError(() => r.engine.previewLetter('T0009'), 409, 'not written yet');
+    await expectApiError(() => r.engine.markSent('T0009', { by: 'email' }), 409, 'not written yet');
+    expect(r.engine.state.letters[0].status).toBe('ready');
+  });
+
+  it('a letter the criterion file could not write stays unsent until the pharmacist saves the clinical text', async () => {
+    const r = rig();
+    await r.engine.start();
+    r.engine.state.cases.push({
+      id: 'C0001', fileName: 'positive.csv', importedAt: '2026-11-18T00:00:00.000Z', source: 'csv',
+      patient: { label: 'Fictional patient F-001' }, lines: [{ id: 'L001', text: '2026-08-08 | Xarelto 20 mg tablet' }],
+      transcriptionConfirmed: true, parts: 1, screening: { status: 'done', criteria: [] },
+      criterionPinned: true
+    });
+    r.engine.state.findings.push({
+      id: 'F0001', caseId: 'C0001', criterionId: 'GONE', state: 'confirmed', possible: false,
+      screen: screenResult(['L001']), seenByPharmacist: false
+    });
+    r.engine.decide('F0001', { action: 'accept' });
+    await r.engine.whenIdle();
+    const letter = r.engine.state.letters[0];
+    expect(letter.status).toBe('ready');
+    expect(letter.editedByPharmacist).toBe(false);
+    expect(letter.body).toContain('The letter could not be drafted because the criterion file could not be read. Please write it by hand.');
+    expect(r.engine.state.activity.some(a => a.kind === 'letter' && a.text.includes('Please write it by hand.'))).toBe(true);
+    expect(r.engine.state.activity.some(a => a.kind === 'letter' && a.text.includes('built from the template'))).toBe(false);
+    await expectApiError(() => r.engine.previewLetter(letter.id), 409, 'not written yet');
+    await expectApiError(() => r.engine.markSent(letter.id, { by: 'print' }), 409, 'not written yet');
+    expect(r.engine.state.letters[0].status).toBe('ready');
+
+    r.engine.editLetter(letter.id, { subject: letter.subject, body: letter.body, expectedRevision: 0 });
+    await expectApiError(() => r.engine.previewLetter(letter.id), 409, 'not written yet');
+
+    r.engine.editLetter(letter.id, {
+      subject: letter.subject,
+      body: 'Fictional patient. No real person.\n\nPlease write it by hand. The supply still needs a clinical note.',
+      expectedRevision: 0
+    });
+    await expectApiError(() => r.engine.previewLetter(letter.id), 409, 'not written yet');
+    expect(r.engine.state.letters[0].status).toBe('ready');
+
+    const saved = r.engine.editLetter(letter.id, {
+      subject: 'Request for a medicines review',
+      body: 'Fictional patient. No real person.\n\nPlease review this supply. The record does not show the fact the criterion needs.',
+      expectedRevision: 1
+    });
+    expect(saved.status).toBe('ready');
+    expect(saved.editedByPharmacist).toBe(true);
+    expect(saved.body).not.toContain('Please write it by hand.');
+    expect(saved.body).toContain('Please review this supply.');
+    const preview = r.engine.previewLetter(letter.id);
+    expect(preview.text).toContain('Please review this supply.');
+    expect(preview.text).not.toContain('Please write it by hand.');
+    r.engine.markSent(letter.id, { by: 'print', previewToken: preview.previewToken });
+    expect(r.engine.state.letters[0].status).toBe('sent');
+    expect(r.engine.state.letters[0].sentBy).toBe('print');
   });
 });
 
@@ -2331,6 +2544,101 @@ describe('a scan: nothing is dropped without a word', () => {
     expect(texts).toContain('Mantle read no rows from page 2 of scan.pdf. Please check that page against the paper before confirming.');
     expect(texts).toContain(
       'Mantle read 2 rows from 3 pages of the scan of scan.pdf (page 1: 1 row, page 2: no rows, page 3: 1 row). Read from a scan: please check the rows before screening.');
+  });
+
+  it('does not treat a missing stored page as the next page, and does not confirm the shorter scan', async () => {
+    const r = rig();
+    r.behaviour.transcribe = image => ({
+      ok: true,
+      rows: [image === 'CCCC'
+        ? '2026-09-08 | Xarelto 20 mg tablet | qty 28'
+        : '2026-08-08 | Xarelto 20 mg tablet | qty 28']
+    });
+    await r.engine.start();
+    const kick = r.engine.kick.bind(r.engine);
+    r.engine.kick = () => undefined;
+    const { caseId } = await r.engine.importCase({
+      fileName: 'scan.pdf', source: 'pdf-image', pageImages: ['AAAA', 'BBBB', 'CCCC']
+    });
+    const page2 = r.engine.images.list(caseId).find(file => file.endsWith('-p002.b64'));
+    expect(page2).toBeTruthy();
+    fs.unlinkSync(page2!);
+    r.engine.kick = kick;
+    r.engine.stateResponse();
+    await r.engine.whenIdle();
+
+    const c = r.engine.state.cases[0];
+    expect(c.pages).toBe(3);
+    expect(c.lines.find(line => line.text.includes('2026-09-08'))?.page).not.toBe(2);
+    expect(c.transcriptionConfirmed).toBe(false);
+    expect(c.cannotAssess ?? '').toMatch(/page 2/i);
+    expect(c.cannotAssess ?? '').toMatch(/3 pages/);
+    await expectApiError(() => r.engine.confirmTranscription(caseId, {}), 409, 'Page 2');
+    expect(r.calls.some(call => call.startsWith('screen'))).toBe(false);
+    expect(r.engine.pageImage(caseId, 1)).toEqual(Buffer.from('AAAA', 'base64'));
+    expect(r.engine.pageImage(caseId, 2)).toBeNull();
+    expect(r.engine.pageImage(caseId, 3)).toEqual(Buffer.from('CCCC', 'base64'));
+  });
+
+  it('does not read a scan when a stored page has changed or an extra page is in the folder', async () => {
+    const changed = rig();
+    changed.behaviour.transcribe = () => ({ ok: true, rows: ['2026-08-08 | Xarelto 20 mg tablet | qty 28'] });
+    await changed.engine.start();
+    const hold = changed.engine.kick.bind(changed.engine);
+    changed.engine.kick = () => undefined;
+    const first = await changed.engine.importCase({
+      fileName: 'scan.pdf', source: 'pdf-image', pageImages: ['AAAA', 'BBBB']
+    });
+    const page2 = changed.engine.images.list(first.caseId).find(file => file.endsWith('-p002.b64'));
+    fs.writeFileSync(page2!, 'CHANGED', 'utf8');
+    changed.engine.kick = hold;
+    changed.engine.stateResponse();
+    await changed.engine.whenIdle();
+    expect(changed.engine.state.cases[0].pages).toBe(2);
+    expect(changed.engine.state.cases[0].lines).toEqual([]);
+    expect(changed.engine.state.cases[0].cannotAssess ?? '').toMatch(/page 2/i);
+    expect(changed.engine.state.cases[0].cannotAssess ?? '').toMatch(/changed/i);
+    await expectApiError(() => changed.engine.confirmTranscription(first.caseId, {}), 409, 'changed');
+
+    const extra = rig();
+    extra.behaviour.transcribe = () => ({ ok: true, rows: ['2026-08-08 | Xarelto 20 mg tablet | qty 28'] });
+    await extra.engine.start();
+    const holdExtra = extra.engine.kick.bind(extra.engine);
+    extra.engine.kick = () => undefined;
+    const second = await extra.engine.importCase({
+      fileName: 'scan.pdf', source: 'pdf-image', pageImages: ['AAAA', 'BBBB', 'CCCC']
+    });
+    fs.writeFileSync(path.join(extra.dir, 'images', 'C0001-p004.b64'), 'EXTRA', 'utf8');
+    extra.engine.kick = holdExtra;
+    extra.engine.stateResponse();
+    await extra.engine.whenIdle();
+    const c = extra.engine.state.cases[0];
+    expect(c.pages).toBe(3);
+    expect(c.lines).toEqual([]);
+    expect(c.cannotAssess ?? '').toMatch(/page 4/i);
+    expect(c.cannotAssess ?? '').toMatch(/3 pages/);
+    await expectApiError(() => extra.engine.confirmTranscription(second.caseId, {}), 409, 'Page 4');
+    expect(extra.calls.some(call => call.startsWith('screen'))).toBe(false);
+  });
+
+  it('does not confirm a scan after a stored page goes missing', async () => {
+    const r = rig();
+    r.behaviour.transcribe = () => ({ ok: true, rows: ['2026-08-08 | Xarelto 20 mg tablet | qty 28'] });
+    await r.engine.start();
+    const { caseId } = await r.engine.importCase({
+      fileName: 'scan.pdf', source: 'pdf-image', pageImages: ['AAAA', 'BBBB']
+    });
+    await r.engine.whenIdle();
+    const c = r.engine.state.cases[0];
+    expect(c.pages).toBe(2);
+    expect(c.lines.map(line => line.page)).toEqual([1, 2]);
+    const page2 = r.engine.images.list(caseId).find(file => file.endsWith('-p002.b64'));
+    fs.unlinkSync(page2!);
+    await expectApiError(() => r.engine.confirmTranscription(caseId, {}), 409, 'Page 2');
+    expect(c.transcriptionConfirmed).toBe(false);
+    expect(c.pages).toBe(2);
+    expect(c.lines.map(line => line.page)).toEqual([1, 2]);
+    expect(r.calls.some(call => call.startsWith('screen'))).toBe(false);
   });
 
   it('an overlong row from a scan keeps its directions and is not confirmed or screened until the pharmacist shortens it', async () => {
@@ -2619,6 +2927,23 @@ describe('the first ten are screened and checked before further criteria', () =>
     expect(r.engine.state.cases[0].screening.status).toBe('done');
     expect(r.engine.state.cases[0].screening.criteria[1].error).toContain('Could not be screened.');
     expect(r.engine.state.findings).toEqual([]);
+  });
+
+  it('does not say nothing suspected when an earlier block already raised a finding', async () => {
+    const r = rig({
+      criteria: [ONE, THREE],
+      activeIds: ['ONE'],
+      cfg: { ...testConfig, screenBlockSize: 1 }
+    });
+    await r.engine.start();
+    await importCsv(r);
+    await r.engine.whenIdle();
+    expect(r.calls).toEqual(['screen ONE', 'check ONE', 'screen THREE']);
+    expect(r.engine.state.findings).toHaveLength(1);
+    const finished = r.engine.state.activity.filter(a => a.text.includes('finished screening'));
+    expect(finished).toHaveLength(1);
+    expect(finished[0].text).not.toContain('nothing suspected');
+    expect(finished[0].text).toContain('already in the list');
   });
 
   it('a stop during further criteria does not screen the ten again', async () => {

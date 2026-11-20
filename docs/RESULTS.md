@@ -8,7 +8,7 @@ clinical validation.
 ## THE COUNT
 
 - Criteria in use: 583 (the first ten and 573 further criteria), verified from
-  `criteria\active.json` and the criterion files on 20 November. Thirty-one more reached main in
+  `criteria\active.json` and the criterion files on 21 November. Thirty-one more reached main in
   8b543b6, bringing the in-use count from 534 to 565; twelve more reached main in 874a091, bringing
   it to 577; two more reached main in 8fa5b56, bringing it to 579; three more reached main in
   ba81741, bringing it to 582; MHRA-12 reached main in 0571aab, bringing it to 583. START-H7 passed
@@ -20,25 +20,30 @@ clinical validation.
   POPI-54, START-F6. See `docs\SET_ASIDE.md`.
 - Named candidates not in use: 0.
 - Never drafted: 7, listed below.
-- Criteria signed by the clinical reviewer: 0.
+- Criteria signed by the clinical reviewer: 583 of 583. The last signature was recorded on 21 November 2026 at 03:42 (`docs\signoff\ledger.json`), and `tools\signoff\apply.mjs` wrote each signature into its criterion file on 21 November 2026.
 
-Fifty criteria in use currently carry `needs_facts.ask_when`; 207 criteria in use carry a `needs_facts` option list.
+Forty-two criteria in use currently carry `needs_facts.ask_when`; 364 criteria in use carry a `needs_facts` option list.
 
 534 of 534 passed the final test at 04:41. Thirty-three of them were given one clearer sentence at
-06:20. At 2026-11-20 20:04:56, `LOOP_STATUS.txt` reports **583 criteria and 495 PASS**, with 88 in
+06:20. At 2026-11-21 04:39:48, `LOOP_STATUS.txt` reports **583 criteria and 583 PASS**, with 0 in
 its repair column, 0 after eight repairs, 0 waiting for their run and 0 not on the board. Its "not
-passing now" line names PROMPT-RS-4, OPTIMISE-T2-20, OPTIMISE-T3-02, OPTIMISE-T3-04, STOPP-D6,
-START-C1, KHAWAGI-G162 and QLDCOAG-14-1; its "not on the board" and "repair jobs queued in this
-pass" lines are empty. The same status file reports 996 of 1,007 planted findings caught, 2
-disputed and 27 false flags. Its sign-off state at 20:05:34 lists 241 ready to sign, 231 passed but
-not yet for signing, 8 did not pass and in repair, 80 with new text waiting for a run, and 0 runs
-still to come. It also reports 7 set aside, 0 not in the final test, and 23 passed and settled
-criteria whose page has not yet been brought up to date. The repository's active list has the same
-583 criteria in use. This paragraph reports the timestamped `LOOP_STATUS.txt` snapshot only.
+passing now", "not on the board" and "repair jobs queued in this pass" lines are empty. The same
+status file reports 1,181 of 1,183 planted findings caught, 2 disputed and 33 false flags. Its
+sign-off state at 04:39:57 lists 583 ready to sign, 0 passed but not yet for signing, 0 did not
+pass and in repair, 0 with new text waiting for a run, and 0 runs still to come. It also reports 7
+set aside, 0 not in the final test, and 0 passed and settled criteria whose page has not yet been
+brought up to date. The repository's active list has the same 583 criteria in use. This paragraph
+reports the timestamped `LOOP_STATUS.txt` snapshot only.
+
+Sign-off. The clinical reviewer signed every one of the 583 criteria in use in the local sign-off tool,
+between 20 November 17:28 and 21 November 03:42. Each signature stores the hash of the text that was
+signed. Each criterion file in use now carries `signed_by_clinical_reviewer` with the recorded name and
+date, and its `draft` field is false. The seven criteria set aside are not signed. The test histories are
+not signed.
 
 The first ten's earlier measured results remain below. Run 2 on 19 November 09:26 gave 10 of 10
 PASS on the then-current text. The current status supplies no separate first-ten table; its numeric
-snapshot covers the 583 criteria in use and its sign-off state lists 241 as ready to sign and 231 as
+snapshot covers the 583 criteria in use and its sign-off state lists 583 as ready to sign and 0 as
 passed but not yet for signing.
 
 ## THE FIRST TEN
@@ -105,27 +110,12 @@ database injection; each history ran against its own criterion on fictional, uns
 
 ## NOT PASSING, WITH THE REASON
 
-At 2026-11-20 20:04:56, the `LOOP_STATUS.txt` test-status row labels 88 as "did not pass, in
-repair", with 0 after eight repairs, 0 waiting for their run and 0 not on the board. Its "not on the
-board" and "repair jobs queued in this pass" lines are empty. The sign-off breakdown at 20:05:34
-lists 8 did not pass and in repair and 80 with new text waiting for a run; the 80 are therefore
-reported here as new text waiting, not as named scorer failures. Repairs are handled by GPT-6.2
-Astra through Claude's keeper, not by wave adoption or a repair request from Kimi Code.
-
-The current "not passing now" line names eight criteria. The wave summary supplies these detailed
-reasons:
-
-- OPTIMISE-T2-20 (W1121): `pos-fact.csv` and `pos-nofact.csv` reached the bell, but fact line L001
-  was not cited.
-- OPTIMISE-T3-04 (W1120): `pos-fact.csv` reached the bell, but none of planted lines L019 and L024
-  was cited.
-- START-C1 (W1121): `pos-fact.csv` reached the bell, but fact line L042 was not cited.
-- KHAWAGI-G162 (W1124): `pos-fact.csv` reached the bell, but fact line L042 was not cited.
-- QLDCOAG-14-1 (W1124): `pos-brand.csv` reached the bell, but planted line L032 was not cited.
-
-PROMPT-RS-4, OPTIMISE-T3-02 and STOPP-D6 are also named on the current "not passing now" line.
-Their new history-level reasons are not yet in the wave summary; its older PASS rows for these three
-are historical and are not used as their current verdicts.
+At 2026-11-21 04:39:48, the `LOOP_STATUS.txt` test-status row reports 0 as "did not pass, in
+repair", 0 after eight repairs, 0 waiting for their run and 0 not on the board. Its "not passing
+now", "not on the board" and "repair jobs queued in this pass" lines are empty. The sign-off
+breakdown at 04:39:57 also reports 0 did not pass and in repair and 0 with new text waiting for a
+run. No current not-passing criterion or reason is reported. Repairs are handled by GPT-6.2 Astra
+through Claude's keeper, not by wave adoption or a repair request from Kimi Code.
 
 SCOTRESP-01 entered use in f77e39b and SCOTRESP-09 in 623c0af after their own runs passed; no named
 candidate remains outside use. Their earlier scored failures are retained here as history:
@@ -255,36 +245,36 @@ Wave batches of Thursday 19 November morning (repairs and the last fresh waves; 
 
 ## NUMBERS FOR THE WORDS
 
-- [KIMI: criteria that pass the planted-finding test]: 495 of 583 in the test-status row at
-  2026-11-20 20:04:56 (LOOP_STATUS.txt); the same file's sign-off row lists 241 ready to sign and
-  231 passed but not yet for signing.
-- [KIMI: criteria signed by the clinical reviewer]: 0
-- [KIMI: criteria not passing]: 8 named on "not passing now" at 2026-11-20 20:04:56 (listed under
-  NOT PASSING above); the test-status row labels 88 as "did not pass, in repair", while the sign-off
-  row lists 8 did not pass and in repair and 80 with new text waiting for a run. 0 did not pass after
-  eight repairs, 0 are waiting for their run and 0 are not on the board.
-- [KIMI: first ten, criteria that pass the planted-finding test]: 10 of 10 in earlier run 2
-  (2026-11-19 09:26, then-current text); the 20:04:56 final-test status supplies no separate
+- Criteria that pass the planted-finding test: 583 of 583 in the test-status row at
+  2026-11-21 04:39:48 (LOOP_STATUS.txt); the same file's sign-off row lists 583 ready to sign and
+  0 passed but not yet for signing.
+- Criteria signed by the clinical reviewer: 583 of 583 (`docs\signoff\ledger.json`, last signature 2026-11-21 03:42; written into the criterion files by `tools\signoff\apply.mjs`).
+- Criteria not passing: 0 named on "not passing now" at 2026-11-21 04:39:48; the test-status
+  row reports 0 as "did not pass, in repair", and the sign-off row reports 0 did not pass and in
+  repair and 0 with new text waiting for a run. 0 did not pass after eight repairs, 0 are waiting
+  for their run and 0 are not on the board.
+- First ten, criteria that pass the planted-finding test: 10 of 10 in earlier run 2
+  (2026-11-19 09:26, then-current text); the 04:39:48 final-test status supplies no separate
   first-ten table.
-- [KIMI: first ten, criteria signed by the clinical reviewer]: 0
-- [KIMI: first ten, criteria swapped for a reserve]: 0
-- [KIMI: planted findings caught out of planted]: 996 of 1,007 in the final-test status at
-  2026-11-20 20:04:56, with 2 disputed.
-- [KIMI: false flags out of clean and near-miss histories]: 27 reported by the final-test status
-  at 2026-11-20 20:04:56 (no denominator reported); historical run 0 had 0 of 13.
-- [KIMI: number of test histories]: 1,766 entries in the two current answer sheets (33 in the
-  first-ten and clean sheet; 1,733 in the further sheet), counted without a model on 20 November.
-- [KIMI: findings shown with their criterion text]: 20 of 20 in historical run 0; not reported by
+- First ten, criteria signed by the clinical reviewer: 10 of 10.
+- First ten, criteria swapped for a reserve: 0
+- Planted findings caught out of planted: 1,181 of 1,183 in the final-test status at
+  2026-11-21 04:39:48, with 2 disputed.
+- False flags out of clean and near-miss histories: 33 reported by the final-test status
+  at 2026-11-21 04:39:48 (no denominator reported); historical run 0 had 0 of 13.
+- Number of test histories: 1,798 entries in the two current answer sheets (33 in the
+  first-ten and clean sheet; 1,765 in the further sheet), counted without a model on 21 November.
+- Findings shown with their criterion text: 20 of 20 in historical run 0; not reported by
   the current LOOP_STATUS.txt summary.
-- [KIMI: letters that passed their checks out of letters drafted]: 20 of 20 in historical run 0;
+- Letters that passed their checks out of letters drafted: 20 of 20 in historical run 0;
   not reported by the current LOOP_STATUS.txt summary.
-- [KIMI: letters built from the template]: 0 in historical run 0.
-- [KIMI: model calls that failed twice]: 0 in earlier run 2; not reported by the current
+- Letters built from the template: 0 in historical run 0.
+- Model calls that failed twice: 0 in earlier run 2; not reported by the current
   LOOP_STATUS.txt summary.
-- [KIMI: seconds to screen one history against the first ten criteria]: about 32 s (historical
+- Seconds to screen one history against the first ten criteria: about 32 s (historical
   run 0: 10 screen calls at 3.2 s each).
-- [KIMI: seconds to screen one history against every criterion in use]: not measured yet.
-- [KIMI: date and time of the scored run these numbers come from]: final-test status
-  2026-11-20 20:04:56; earlier first-ten run 2 at 2026-11-19 09:26.
-- [KIMI: fresh histories, planted findings caught out of planted]: 10 of 10 in the earlier fresh
+- Seconds to screen one history against every criterion in use: about 3,820 s (63.6 minutes) in the recorded run of 21 November 2026 with the fictional test history F-MEGA01, which was built to meet many criteria: import at 04:26:24, no model job left at about 05:30; 512 criteria clear and 71 suspected; 67 findings confirmed by the second model and 4 not confirmed; 52 questions left unanswered. One run on one computer.
+- Date and time of the scored run these numbers come from: final-test status
+  2026-11-21 04:39:48; earlier first-ten run 2 at 2026-11-19 09:26.
+- Fresh histories, planted findings caught out of planted: 10 of 10 in the earlier fresh
   history run after the two drafter fixes; not a final-database retest.
