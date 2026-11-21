@@ -1,5 +1,7 @@
 # ClinicaLANTERN
 
+1. [The Feasible Implementation of ClinicaLANTERN across Abu Dhabi's Healthcare System, and the Expected Benefits to the Population Health](ClinicaLANTERN%20Abu%20Dhabi%20Implementation/ClinicaLANTERN_Abu-Dhabi_Implementation%231.pdf) (20 pages)
+
 ClinicaLANTERN helps a community pharmacist screen a dispensing history, write to the patient's GP,
 and track the case until the doctor's answer is on record. It runs open models on the pharmacy's own
 computer through Ollama. Three local models work one after another: Mantle screens the history
