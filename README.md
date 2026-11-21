@@ -1,6 +1,7 @@
 # ClinicaLANTERN
 
 1. [The Feasible Implementation of ClinicaLANTERN across Abu Dhabi's Healthcare System, and the Expected Benefits to the Population Health](ClinicaLANTERN%20Abu%20Dhabi%20Implementation/ClinicaLANTERN_Abu-Dhabi_Implementation%231.pdf) (20 pages)
+2. [ClinicaLANTERN in the pharmacies of the UAE: feasibility study and strategic plan](ClinicaLANTERN%20Abu%20Dhabi%20Implementation/ClinicaLANTERN_Abu-Dhabi_Implementation%232.pdf) (45 pages)
 
 ClinicaLANTERN helps a community pharmacist screen a dispensing history, write to the patient's GP,
 and track the case until the doctor's answer is on record. It runs open models on the pharmacy's own
